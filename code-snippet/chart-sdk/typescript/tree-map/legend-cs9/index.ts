@@ -1,0 +1,28 @@
+
+
+
+let fruits:Object[] = [{ fruit:'Apple', count:5000, visibility: true , color: '#71B081' },
+                       { fruit:'Orange', count:3000, visibility: false, color: '#5A9A77' },
+                       { fruit:'Grape', count:2300, visibility: true, color: '#498770' },
+                       { fruit:'Banana', count:500, visibility: false, color: '#39776C' },
+                       { fruit:'Mango', count:4300, visibility: true, color: '#266665' },
+                       { fruit:'Papaya', count:1200, visibility: false, color: '#124F5E' }
+                     ];
+
+import { TreeMap } from '@syncfusion/ej2-treemap';
+let treemap: TreeMap = new TreeMap({
+    dataSource: fruits ,
+    weightValuePath: 'count',
+    colorValuePath: 'color',
+    palette: [],
+    legendSettings:{
+        visible:true,
+        showLegendPath:'visibility'
+    },
+    leafItemSettings: {
+        labelPath: 'fruit',
+     }
+}, '#container');
+
+
+

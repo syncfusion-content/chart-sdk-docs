@@ -1,0 +1,13 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-react-layouts/styles/tailwind3.css";
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+.e-panel-content {
+    text-align: center;
+    line-height: 100px;
+    font-weight: 600;
+    font-size: 20px;
+  }

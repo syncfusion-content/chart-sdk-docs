@@ -1,0 +1,51 @@
+---
+layout: post
+title: Moving panels in React Dashboard Layout component | Syncfusion
+description: Learn here all about Moving panels in Syncfusion React Dashboard Layout component of Syncfusion Essential JS 2 and more.
+control: Dashboard Layout 
+platform: chart-sdk
+documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
+---
+
+# Moving panels in React Dashboard Layout  component
+
+In addition to drag and drop, it is possible to move panels in the Dashboard Layout programmatically. This can be achieved using [movePanel](https://ej2.syncfusion.com/react/documentation/api/dashboard-layout#movepanel) method. The method is invoked as follows,
+
+```js
+movePanel(id, row, col)
+```
+
+Where,
+* [**id**](https://helpej2.syncfusion.com/react/documentation/api/dashboard-layout/panelModel#id) - ID of the panel to be moved.
+* [**row**](https://helpej2.syncfusion.com/react/documentation/api/dashboard-layout/panelModel#row) - New row position for the panel.
+* [**col**](https://helpej2.syncfusion.com/react/documentation/api/dashboard-layout/panelModel#col) - New column position for the panel.
+
+Each time a panel's position is changed (either programmatically or through UI interaction), the Dashboard Layout's [change](https://ej2.syncfusion.com/react/documentation/api/dashboard-layout#change) event is triggered.
+
+The following sample demonstrates programmatically moving a panel to a new position in the Dashboard Layout's [created](https://ej2.syncfusion.com/react/documentation/api/dashboard-layout#created) event.
+
+{% tabs %}
+{% highlight js tabtitle="app.jsx" %}
+{% include code-snippet/chart-sdk/react/dashboard-layout/moving-cs1/app/App.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="app.tsx" %}
+{% include code-snippet/chart-sdk/react/dashboard-layout/moving-cs1/app/App.tsx %}
+{% endhighlight %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/dashboard-layout/moving-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/dashboard-layout/moving-cs1/app/index.tsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="app.css" %}
+{% include code-snippet/chart-sdk/react/dashboard-layout/moving-cs1/App.css %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/dashboard-layout/moving-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/dashboard-layout/moving-cs1" %}
+
+> Refer to the [React Dashboard Layout](https://www.syncfusion.com/react-ui-components/react-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [React Dashboard Layout example](https://ej2.syncfusion.com/react/demos/#/tailwind3/dashboard-layout/default) to learn how to present and manipulate data.

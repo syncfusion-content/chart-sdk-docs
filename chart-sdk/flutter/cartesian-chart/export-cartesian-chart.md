@@ -1,0 +1,249 @@
+---
+layout: post
+title: Exporting in Flutter Cartesian Charts | Syncfusion
+description: Step-by-step guide to export Syncfusion Flutter Cartesian Charts (SfCartesianChart) as images or PDF—learn to export charts programmatically, customize export settings, and more key features.
+platform: chart-sdk
+control: Chart
+documentation: ug
+---
+
+# Flutter Cartesian Charts Exporting (SfCartesianChart)
+
+[`SfCartesianChart`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart-class.html) provides support to export the Cartesian chart as a PNG image or as a PDF document.
+
+## Export image
+
+To export the Cartesian chart as a PNG image, we can get the image by calling the [`toImage`](https://api.flutter.dev/flutter/rendering/RenderRepaintBoundary/toImage.html) method in the repaint boundary.
+
+{% tabs %}
+{% highlight dart %} 
+
+    import 'dart:typed_data';
+    import 'dart:ui' as ui;
+    import 'package:flutter/material.dart';
+    import 'package:syncfusion_flutter_charts/charts.dart';
+
+    class ExportChart extends StatefulWidget {
+
+      const ExportChart({Key? key}) : super(key: key);
+
+      @override
+      _ExportState createState() => _ExportState();
+    }
+
+    class _ExportState extends State<ExportChart> {
+  
+      _ExportState();
+
+      late GlobalKey<SfCartesianChartState> _cartesianChartKey;
+      late List<ChartSampleData> _chartData;
+
+      @override
+      void initState() {
+        _cartesianChartKey = GlobalKey();
+        _chartData = <ChartSampleData>[
+          ChartSampleData(x: 'Jan', y: 12),
+          ChartSampleData(x: 'Feb', y: 28),
+          ChartSampleData(x: 'Mar', y: 35),
+          ChartSampleData(x: 'Apr', y: 27),
+          ChartSampleData(x: 'May', y: 42),
+          ChartSampleData(x: 'Jun', y: 33)
+        ];
+        super.initState();
+      }
+
+      @override
+      Widget build(BuildContext context) {
+        return Scaffold(
+          body: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              SfCartesianChart(
+                key: _cartesianChartKey,
+                primaryXAxis: CategoryAxis(),
+                series: <ColumnSeries<ChartSampleData, String>>[
+                    ColumnSeries<ChartSampleData, String>(
+                      dataSource: _chartData,
+                      xValueMapper: (ChartSampleData data, _) => data.x,
+                      yValueMapper: (ChartSampleData data, _) => data.y,
+                    ) 
+                ]
+              ),  
+              TextButton(
+                child: const Text('Export as image'),
+                onPressed: () {
+                  _renderChartAsImage();
+                },
+              )
+            ]
+          ),
+        );
+      }
+
+      Future<void> _renderChartAsImage() async {
+        final ui.Image? data =
+            await _cartesianChartKey.currentState!.toImage(pixelRatio: 3.0);
+        final ByteData? bytes =
+            await data!.toByteData(format: ui.ImageByteFormat.png);
+        final Uint8List imageBytes =
+            bytes!.buffer.asUint8List(bytes.offsetInBytes, bytes.lengthInBytes);
+        await Navigator.of(context).push<dynamic>(
+          MaterialPageRoute<dynamic>(
+            builder: (BuildContext context) {
+              return Scaffold(body: Image.memory(imageBytes));
+          }),
+        );
+      }
+    }
+
+    class ChartSampleData {
+      ChartSampleData({this.x, this.y});
+      final String? x;
+      final num? y;
+    }
+
+{% endhighlight %}
+{% endtabs %}
+
+## Export PDF
+
+Similar to the above way, we can also export the rendered Cartesian chart as a PDF document. We create the PDF document using the PDF component. This can be done at the application level itself. Please find the code snippet below.
+
+**Add dependency**
+
+Add the following additional packages to the dependencies in your pubspec.yaml file.
+
+{% highlight dart %} 
+
+    path_provider: ^2.0.11
+    open_file: ^3.2.1
+    syncfusion_flutter_pdf: ^latest_version
+
+{% endhighlight %}
+
+Include the following code snippet in the main.dart file of your flutter application to export the rendered Cartesian chart as a PDF document.
+
+{% tabs %}
+{% highlight dart %}
+
+    import 'dart:io';
+    import 'dart:typed_data';
+    import 'dart:ui' as ui;
+    import 'dart:async';
+    import 'package:flutter/material.dart';
+    import 'package:open_file/open_file.dart';
+    import 'package:path_provider/path_provider.dart';
+
+    /// Chart import.
+    import 'package:syncfusion_flutter_charts/charts.dart';
+
+    /// Pdf import.
+    import 'package:syncfusion_flutter_pdf/pdf.dart';
+
+
+    void main() {
+        runApp(const MyApp());
+    }
+
+    class MyApp extends StatelessWidget {
+      const MyApp({super.key});
+
+      @override
+      Widget build(BuildContext context) {
+          return const MaterialApp(
+          home: ExportChartToPdf(),
+        );
+      }
+    }
+
+    class ExportChartToPdf extends StatefulWidget {
+      const ExportChartToPdf({Key? key}) : super(key: key);
+
+      @override
+      ExportChartToPdfState createState() => ExportChartToPdfState();
+    }
+
+    class ExportChartToPdfState extends State<ExportChartToPdf> {
+      ExportChartToPdfState();
+      late GlobalKey<SfCartesianChartState> _cartesianChartKey;
+      late List<ChartSampleData> _chartData;
+
+      @override
+      void initState() {
+        _cartesianChartKey = GlobalKey();
+        _chartData = <ChartSampleData>[
+        ChartSampleData(x: 'Jan', y: 35),
+        ChartSampleData(x: 'Feb', y: 28),
+        ChartSampleData(x: 'Mar', y: 33),
+        ChartSampleData(x: 'Apr', y: 32),
+        ChartSampleData(x: 'May', y: 40),];
+        super.initState();
+      }
+
+      @override
+      Widget build(BuildContext context) {
+        return Scaffold(
+          appBar: AppBar(title: const Text('Syncfusion Flutter Charts'),),
+          body: SfCartesianChart(
+                  key: _cartesianChartKey,
+                  primaryXAxis: CategoryAxis(),
+                  series: <LineSeries<ChartSampleData, String>>[
+                    LineSeries<ChartSampleData, String>(
+                        dataSource: _chartData,
+                        xValueMapper: (ChartSampleData data, _) => data.x,
+                        yValueMapper: (ChartSampleData data, _) => data.y,
+                    )
+                  ]
+          ),
+          floatingActionButton: FloatingActionButton(
+              onPressed: () {
+                _renderPDF();
+              },
+              child: const Icon(Icons.picture_as_pdf),
+          ),
+        );
+      }
+
+      Future<void> _renderPDF() async {
+          final List<int> imageBytes = await _readImageData();
+          final PdfBitmap bitmap = PdfBitmap(imageBytes);
+          final PdfDocument document = PdfDocument();
+          document.pageSettings.size =
+          Size(bitmap.width.toDouble(), bitmap.height.toDouble());
+          final PdfPage page = document.pages.add();
+          final Size pageSize = page.getClientSize();
+          page.graphics.drawImage(
+              bitmap, Rect.fromLTWH(0, 0, pageSize.width, pageSize.height));
+          final List<int> bytes = document.saveSync();
+          document.dispose();
+          //Get external storage directory
+          final Directory directory = await getApplicationSupportDirectory();
+          //Get directory path
+          final String path = directory.path;
+          //Create an empty file to write PDF data
+          File file = File('$path/Output.pdf');
+          //Write PDF bytes data
+          await file.writeAsBytes(bytes, flush: true);
+          //Open the PDF document in mobile
+          OpenFile.open('$path/Output.pdf');
+      }
+
+      Future<List<int>> _readImageData() async {
+          final ui.Image data =
+              await _cartesianChartKey.currentState!.toImage(pixelRatio: 3.0);
+          final ByteData? bytes =
+              await data.toByteData(format: ui.ImageByteFormat.png);
+          return bytes!.buffer.asUint8List(bytes.offsetInBytes, bytes.lengthInBytes);
+      }
+    }
+
+    class ChartSampleData {
+        ChartSampleData({this.x, this.y});
+        final String? x;
+        final num? y;
+    }
+
+{% endhighlight %}
+{% endtabs %}
+
+![pdf_export](images/export-cartesian-chart/pdf_view.png)

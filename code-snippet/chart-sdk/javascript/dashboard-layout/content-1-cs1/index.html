@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Essential JS 2 Dashboard Layout </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Essential JS 2 Dashboard Layout Control">
+  <meta name="author" content="Syncfusion">
+  <link href="//cdn.syncfusion.com/ej2/32.1.19/ej2-base/styles/bootstrap5.3.css" rel="stylesheet">
+  <link href="//cdn.syncfusion.com/ej2/32.1.19/ej2-buttons/styles/bootstrap5.3.css" rel="stylesheet">
+  <link href="//cdn.syncfusion.com/ej2/32.1.19/ej2-layouts/styles/bootstrap5.3.css" rel="stylesheet">
+  <link href="//cdn.syncfusion.com/ej2/32.1.19/ej2-popups/styles/bootstrap5.3.css" rel="stylesheet">
+  <link href="//cdn.syncfusion.com/ej2/32.1.19/ej2-circulargauge/styles/bootstrap5.3.css" rel="stylesheet">
+  <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="dashboard_default"></div>
+  </div>
+
+  <script>
+    var ele = document.getElementById('container');
+    if (ele) {
+      ele.style.visibility = "visible";
+    }   
+  </script>
+  <script src="index.js" type="text/javascript"></script>
+  <style>
+    #container {
+      margin: 0 auto;
+      width: 600px;
+    }
+
+    .e-dashboard-layout.e-control .e-panel .e-panel-container .e-panel-header {
+      color: rgba(0, 0, 0, 0.61);
+    }
+
+    .e-panel .e-header-text {
+      padding: 12px 0 12px 0;
+    }
+
+    #dashboard .e-panel-container .e-panel-header {
+      border-bottom: 1px solid #888383;
+    }
+
+    .e-dashboard-layout.e-control .e-panel:hover {
+      border: 0px;
+    }
+
+    .e-dashboard-layout.e-control .e-panel .e-panel-header {
+      font-size: 15px;
+      font-weight: 500;
+      height: 37px;
+      padding: 10px;
+      vertical-align: middle;
+      border-bottom: 0.5px solid rgba(0, 0, 0, .125);
+    }
+
+    .e-panel-header {
+      padding: 10px;
+      margin-bottom: 0;
+      background-color: rgba(0, 0, 0, .03);
+    }
+
+    .e-dashboard-layout.e-control .e-panel .e-panel-header {
+      height: 30px
+    }
+
+    .e-dashboard-layout.e-control .e-panel .e-panel-header div {
+      text-align: center;
+    }
+
+    .header {
+      padding: 5px;
+    }
+
+    .e-panel-content {
+      height: 162px;
+    }
+
+    #dashboard_default .e-panel {
+      transition: none !important;
+    }
+  </style>
+</body>
+
+</html>

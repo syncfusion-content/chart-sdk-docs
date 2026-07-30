@@ -1,0 +1,28 @@
+
+
+import { PivotView, IDataSet } from '@syncfusion/ej2-pivotview';
+import { DataManager, ODataV4Adaptor, Query, ReturnOption } from '@syncfusion/ej2-data';
+
+let data: DataManager = new DataManager({
+    url: 'https://services.odata.org/V4/Northwind/Northwind.svc/Orders/',
+    adaptor: new ODataV4Adaptor,
+    crossDomain: true
+});
+
+let pivotTableObj: PivotView = new PivotView({
+    dataSourceSettings: {
+        dataSource: data,
+        expandAll: true,
+        filters: [],
+        columns: [{ name: 'CustomerID', caption: 'Customer Name' }],
+        rows: [{ name: 'OrderID', caption: 'Order ID' },{name: 'OrderDate', caption:'Order Date' } ],
+        values: [{ name: 'Freight' }]
+    },
+    height: 350,
+    width: '100%',
+    gridSettings: { columnWidth: 120 }
+});
+pivotTableObj.appendTo('#PivotTable');
+
+
+

@@ -1,0 +1,45 @@
+var SalesData = [
+    { Month: "Jan", Amount: 78 },
+    { Month: "Feb", Amount: 88 },
+    { Month: "Mar", Amount: 99 },
+    { Month: "Apr", Amount: 92 },
+    { Month: "May", Amount: 95 },
+    { Month: "Jun", Amount: 102 },
+    { Month: "Jul", Amount: 110 },
+    { Month: "Aug", Amount: 105 }
+];
+var chart = new ej.charts.Chart({
+    primaryXAxis: {
+        valueType: 'Category',
+    },
+    primaryYAxis: {
+        labelFormat: '${value}k'
+    },
+    series: [{
+        dataSource: SalesData,
+        xName: 'Month', yName: 'Amount',
+        name: 'Sales',
+        type: 'Column',
+        radialGradient: {
+            cx: 0.5, cy: 0.5,
+            fx: 0.5, fy: 0.5, r: 0.5,
+            gradientColorStop: [
+                {color: '#FFFF00', offset: 0, opacity: 1, lighten: 0, brighten: 0},
+                {color: '#7C3AED', offset: 100, opacity: 0.95, lighten: 0, brighten: 0.9}
+            ]
+        },
+        marker: {
+            visible: true, isFilled: true,
+            dataLabel: {
+                visible: true
+            }
+        },
+    }],
+    tooltip: {
+        enable: true
+    },
+    legendSettings: {
+        visible: true
+    },
+    title: 'Monthly Sales Performance'
+}, '#element');

@@ -1,0 +1,29 @@
+#container {
+  visibility: hidden;
+}
+
+#loader {
+  color: #008cff;
+  height: 40px;
+  width: 30%;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+/* csslint ignore:start */
+.e-pivotview .e-valuescontent {
+  text-align: center !important;
+}
+/* csslint ignore:end */
+/* Column headers */
+/*.e-pivotview .e-columnsheader {
+     text-align: center !important;
+}
+//Rows Headers
+.e-pivotview .e-rowsheader {
+     text-align: center !important;
+}*/
+/* Summary Cells */
+/* .e-pivotview .e-summary {
+     text-align: center !important;
+}*/

@@ -1,0 +1,18 @@
+ @Html.EJS().Chart("container")
+    .Series(sr =>
+    {
+        sr.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Polar)
+            .DrawType(Syncfusion.EJ2.Charts.ChartDrawType.RangeColumn)
+            .Name("Germany")
+            .XName("x")
+            .High("high")
+            .Low("low")
+            .Width(2)
+            .Border(ViewBag.border)
+            .DataSource(ViewBag.dataSource).Add();
+    }).PrimaryXAxis(xaxis =>
+         xaxis.ValueType(Syncfusion.EJ2.Charts.ValueType.Category)
+             .Interval(1)
+             .Coefficient(100)
+             .StartAngle(90)
+      ).Title("Maximum and Minimum Temperature").Render()

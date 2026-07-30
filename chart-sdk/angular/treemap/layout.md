@@ -1,0 +1,90 @@
+---
+layout: post
+title: Layout in Angular Treemap component | Syncfusion
+description: Learn here all about Layout in Syncfusion Angular Treemap component of Syncfusion Essential JS 2 and more.
+platform: chart-sdk
+control: Layout 
+documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
+---
+
+# Layout in Angular Treemap component
+
+This section explains how to customize the appearance of the TreeMap component. The below video demonstrates the same.
+
+{% youtube "https://www.youtube.com/watch?v=phfdhfoRnpM" %}
+
+Determine the visual representation of nodes belonging to all the TreeMap levels using the [`layoutType`](https://ej2.syncfusion.com/angular/documentation/api/treemap/#layouttype) property.
+
+## Types of layout
+
+The available layout types are,
+
+* Squarified
+* SliceAndDiceVertical
+* SliceAndDiceHorizontal
+* SliceAndDiceAuto
+
+### Squarified
+
+The `Squarified` layout displays the nested rectangles based on aspect ratio in the TreeMap. The rectangles will be split based on the height and width of the parent. The default rendering type of layout is `Squarified`.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs23/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs23/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/treemap/getting-started/treemap-cs23" %}
+
+### SliceAndDiceVertical
+
+The `SliceAndDiceVertical` layout creates rectangles with high aspect ratio and displays items in a vertically sorted order.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs24/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs24/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/treemap/getting-started/treemap-cs24" %}
+
+### SliceAndDiceHorizontal
+
+The `SliceAndDiceHorizontal` layout creates rectangles with high aspect ratio and displays items in a horizontally sorted order.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs25/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs25/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/treemap/getting-started/treemap-cs25" %}
+
+### SliceAndDiceAuto
+
+The `SliceAndDiceAuto` layout creates rectangles with high aspect ratio and display items sorted both horizontally and vertically.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs26/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs26/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/treemap/getting-started/treemap-cs26" %}

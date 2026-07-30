@@ -1,0 +1,290 @@
+---
+layout: post
+title: Shape Pointer in WinUI Linear Gauge control | Syncfusion
+description: Learn here all about Shape Pointer feature of Syncfusion WinUI Linear Gauge control with custom support.
+platform: chart-sdk
+control: SfLinearGauge
+documentation: ug
+---
+
+# Shape Pointer in WinUI Linear Gauge
+
+Indicate current values by using the different types of shape pointers. You can change the shape type using the [`ShapeType`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeShapeType.html) property.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfLinearGauge>
+    <gauge:SfLinearGauge.Axis>
+        <gauge:LinearAxis>
+            <gauge:LinearAxis.MarkerPointers>
+                <gauge:LinearShapePointer Value="60" />
+            </gauge:LinearAxis.MarkerPointers>
+        </gauge:LinearAxis>
+    </gauge:SfLinearGauge.Axis>
+</gauge:SfLinearGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfLinearGauge sfLinearGauge = new SfLinearGauge();
+
+LinearShapePointer linearShapePointer = new LinearShapePointer();
+linearShapePointer.Value = 60;
+sfLinearGauge.Axis.MarkerPointers.Add(linearShapePointer);
+
+this.Content = sfLinearGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![default shape pointer](images/shape-pointer/pointer_default.png)
+
+Gauge supports the following types of shape pointer:
+
+* [`Circle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeShapeType.html#Syncfusion_UI_Xaml_Gauges_GaugeShapeType_Circle)
+* [`Diamond`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeShapeType.html#Syncfusion_UI_Xaml_Gauges_GaugeShapeType_Diamond)
+* [`Inverted triangle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeShapeType.html#Syncfusion_UI_Xaml_Gauges_GaugeShapeType_InvertedTriangle)
+* [`Triangle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeShapeType.html#Syncfusion_UI_Xaml_Gauges_GaugeShapeType_Triangle)
+* [`Rectangle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeShapeType.html#Syncfusion_UI_Xaml_Gauges_GaugeShapeType_Rectangle)
+
+![all default shape pointers](images/shape-pointer/pointer_shapes.png)
+
+## Custom shape pointer
+
+You can add customized shapes to denote the current pointer value instead of the in-built shape. It can be achieved by providing the required shape in the [`ShapeTemplate`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_ShapeTemplate) property.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<Page.Resources>
+    <DataTemplate x:Key="CustomShapePointer">
+        <Grid>
+            <Rectangle Fill="{Binding Fill}"
+                       Stroke="{Binding Stroke}"
+                       StrokeThickness="{Binding SrokeThickness}"
+                       Width="{Binding ShapeHeight}"
+                       Height="{Binding ShapeHeight}"
+                       RadiusX="3"
+                       RadiusY="3" />
+        </Grid>
+    </DataTemplate>
+</Page.Resources>
+
+<gauge:SfLinearGauge>
+    <gauge:SfLinearGauge.Axis>
+        <gauge:LinearAxis>
+            <gauge:LinearAxis.MarkerPointers>
+                <gauge:LinearShapePointer Value="60" 
+                                    ShapeTemplate="{StaticResource CustomShapePointer}"/>
+            </gauge:LinearAxis.MarkerPointers>
+        </gauge:LinearAxis>
+    </gauge:SfLinearGauge.Axis>
+</gauge:SfLinearGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfLinearGauge sfLinearGauge = new SfLinearGauge();
+
+LinearShapePointer linearShapePointer = new LinearShapePointer();
+linearShapePointer.Value = 60;
+
+// The 'CustomShapePointer' resource is defined in XAML Resources and referenced here.
+linearShapePointer.ShapeTemplate = this.Resources["CustomShapePointer"] as DataTemplate;
+sfLinearGauge.Axis.MarkerPointers.Add(linearShapePointer);
+
+this.Content = sfLinearGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![custom shape pointer](images/shape-pointer/pointer_template.png)
+
+## Shape customization
+
+The shape pointer can be customized using the following properties:
+
+* [`Fill`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_Fill) – Allows you to customize the shape color.
+* [`Stroke`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_Stroke) – Allows you to specify the border color for the shape.
+* [`StrokeThickness`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_StrokeThickness) – Allows you to specify the border width of the shape.
+* [`ShapeHeight`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_ShapeHeight) – Allows you to specify the shape height.
+* [`ShapeWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_ShapeWidth) – Allows you to specify the shape width.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfLinearGauge>
+    <gauge:SfLinearGauge.Axis>
+        <gauge:LinearAxis>
+            <gauge:LinearAxis.MarkerPointers>
+                <gauge:LinearShapePointer Value="60"
+                                    ShapeHeight="30"
+                                    ShapeWidth="30"
+                                    Fill="LightBlue"
+                                    Stroke="Black"
+                                    StrokeThickness="3"
+                                    ShapeType="Circle" />
+            </gauge:LinearAxis.MarkerPointers>
+        </gauge:LinearAxis>
+    </gauge:SfLinearGauge.Axis>
+</gauge:SfLinearGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfLinearGauge sfLinearGauge = new SfLinearGauge();
+
+LinearShapePointer linearShapePointer = new LinearShapePointer();
+linearShapePointer.Value = 60;
+linearShapePointer.ShapeHeight = 30;
+linearShapePointer.ShapeWidth = 30;
+linearShapePointer.Fill = new SolidColorBrush(Colors.LightBlue);
+linearShapePointer.Stroke = new SolidColorBrush(Colors.Black);
+linearShapePointer.StrokeThickness = 3;
+linearShapePointer.ShapeType = GaugeShapeType.Circle;
+sfLinearGauge.Axis.MarkerPointers.Add(linearShapePointer);
+
+this.Content = sfLinearGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![shape pointer customization](images/shape-pointer/shape_customization.png)
+
+## Shadow support
+
+The shadow can be applied by using the [`HasShadow`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_HasShadow) property.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfLinearGauge>
+    <gauge:SfLinearGauge.Axis>
+        <gauge:LinearAxis>
+            <gauge:LinearAxis.MarkerPointers>
+                <gauge:LinearShapePointer Value="50"
+                                          ShapeType="Circle"
+                                          HasShadow="True"
+                                          OffsetPoint="0,-12" />
+            </gauge:LinearAxis.MarkerPointers>
+        </gauge:LinearAxis>
+    </gauge:SfLinearGauge.Axis>
+</gauge:SfLinearGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfLinearGauge sfLinearGauge = new SfLinearGauge();
+
+LinearShapePointer linearShapePointer = new LinearShapePointer();
+linearShapePointer.Value = 50;
+linearShapePointer.ShapeType = GaugeShapeType.Circle;
+linearShapePointer.HasShadow = true;
+linearShapePointer.OffsetPoint = new Point(0, -12);
+sfLinearGauge.Axis.MarkerPointers.Add(linearShapePointer);
+
+this.Content = sfLinearGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![Change shape pointer elevation](images/shape-pointer/pointer_shadow.png)
+
+## Shape position customization
+
+The shape pointer can be moved near or far from its actual position in the X or Y direction using the [`OffsetPoint`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearMarkerPointer.html#Syncfusion_UI_Xaml_Gauges_LinearMarkerPointer_OffsetPoint) property. 
+
+To move the pointer inside of the axis, provide positive values.
+
+To move the pointer outside of the axis, provide negative values.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfLinearGauge>
+    <gauge:SfLinearGauge.Axis>
+        <gauge:LinearAxis>
+            <gauge:LinearAxis.MarkerPointers>
+                <gauge:LinearShapePointer Value="60"
+                                    OffsetPoint="0,-25"/>
+            </gauge:LinearAxis.MarkerPointers>
+        </gauge:LinearAxis>
+    </gauge:SfLinearGauge.Axis>
+</gauge:SfLinearGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfLinearGauge sfLinearGauge = new SfLinearGauge();
+
+LinearShapePointer linearShapePointer = new LinearShapePointer();
+linearShapePointer.Value = 60;
+linearShapePointer.OffsetPoint = new Point(0, -25);
+sfLinearGauge.Axis.MarkerPointers.Add(linearShapePointer);
+
+this.Content = sfLinearGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![pointer offset](images/shape-pointer/pointer_offset.png)
+
+### Shape pointer alignment
+
+You can change the horizontal or vertical position of the shape pointer to start, end, or center by using the [`HorizontalAnchor`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearMarkerPointer.html#Syncfusion_UI_Xaml_Gauges_LinearMarkerPointer_HorizontalAnchor) and [`VerticalAnchor`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearMarkerPointer.html#Syncfusion_UI_Xaml_Gauges_LinearMarkerPointer_VerticalAnchor) properties. The default value of [`HorizontalAnchor`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearMarkerPointer.html#Syncfusion_UI_Xaml_Gauges_LinearMarkerPointer_HorizontalAnchor) and [`VerticalAnchor`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearMarkerPointer.html#Syncfusion_UI_Xaml_Gauges_LinearMarkerPointer_VerticalAnchor) properties is `Center`.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfLinearGauge>
+    <gauge:SfLinearGauge.Axis>
+        <gauge:LinearAxis>
+            <gauge:LinearAxis.MarkerPointers>
+                <gauge:LinearShapePointer Value="60"
+                                    VerticalAnchor="End"
+                                    OffsetPoint="0,-5" />
+            </gauge:LinearAxis.MarkerPointers>
+        </gauge:LinearAxis>
+    </gauge:SfLinearGauge.Axis>
+</gauge:SfLinearGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfLinearGauge sfLinearGauge = new SfLinearGauge();
+
+LinearShapePointer linearShapePointer = new LinearShapePointer();
+linearShapePointer.Value = 60;
+linearShapePointer.VerticalAnchor = GaugeAnchor.End;
+linearShapePointer.OffsetPoint = new Point(0, -5);
+sfLinearGauge.Axis.MarkerPointers.Add(linearShapePointer);
+
+this.Content = sfLinearGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![pointer anchor placement customization](images/shape-pointer/pointer_anchor.png)
+
+## See Also
+
+* [How to create a bullet chart with the WinUI linear gauge (SfLinearGauge)?](https://support.syncfusion.com/kb/article/11917/how-to-create-a-bullet-chart-with-the-winui-linear-gauge-sflineargauge)

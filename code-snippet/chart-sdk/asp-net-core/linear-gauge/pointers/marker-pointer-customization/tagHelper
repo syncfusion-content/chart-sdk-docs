@@ -1,0 +1,12 @@
+@using Syncfusion.EJ2;
+@using Syncfusion.EJ2.LinearGauge
+
+<ejs-lineargauge id="linear">
+    <e-lineargauge-axes>
+        <e-lineargauge-axis>
+            <e-lineargauge-pointers>
+                <e-lineargauge-pointer Type="Marker" Height="15" Width="15" MarkerType="Circle" Value="60" Position="Outside" Color="#cd41f4"></e-lineargauge-pointer>
+            </e-lineargauge-pointers>
+        </e-lineargauge-axis>
+    </e-lineargauge-axes>
+</ejs-lineargauge>

@@ -1,0 +1,36 @@
+@(Html.EJS().Chart("container").Series(series =>
+   {
+      series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.StackingStepArea).  
+      XName("x").
+      YName("y").
+      Border(br => br.Width(2).Color("black")).
+      Fill("pink").
+      Opacity(0.7).
+      DashArray("5,5").
+      Step(Syncfusion.EJ2.Charts.StepPosition.Center).
+      DataSource(ViewBag.dataSource).
+      Add();
+
+      series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.StackingStepArea).   
+      XName("x").
+      YName("y1").
+      Border(br => br.Width(2).Color("black")).
+      Fill("blue").
+      Opacity(0.7).
+      DashArray("5,5").
+      Step(Syncfusion.EJ2.Charts.StepPosition.Center).
+      DataSource(ViewBag.dataSource).
+      Add();
+
+      series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.StackingStepArea).   
+      XName("x").
+      YName("y2").
+      Border(br => br.Width(2).Color("black")).
+      Fill("green").
+      Opacity(0.7).
+      DashArray("5,5").
+      Step(Syncfusion.EJ2.Charts.StepPosition.Center).
+      DataSource(ViewBag.dataSource).
+      Add();
+   })
+   .Render())
