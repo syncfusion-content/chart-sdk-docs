@@ -1,0 +1,33 @@
+#container {
+    visibility: hidden;
+}
+
+#loader {
+  color: #008cff;
+  font-family: 'Helvetica Neue','calibiri';
+  font-size: 14px;
+  height: 40px;
+  left: 45%;
+  position: absolute;
+  top: 45%;
+  width: 30%;
+}
+
+#element {
+    display: block;
+    height: 350px;
+}
+
+.chartSelection1 {
+    fill: red
+}
+
+.chartSelection2 {
+    
+    fill: green 
+    
+}
+
+.chartSelection3 {
+    fill: blue
+}

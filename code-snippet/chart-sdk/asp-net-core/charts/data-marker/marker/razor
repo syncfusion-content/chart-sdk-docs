@@ -1,0 +1,18 @@
+
+@Html.EJS().Chart("container").Series(series =>
+   {
+      series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line).
+      Marker(mr=>mr.Visible(true))
+      XName("x").
+      YName("y").
+      DataSource(ViewBag.dataSource).
+      Width(2).Add();
+
+      series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line).
+      Marker(mr=>mr.Visible(true))
+      XName("x").
+      YName("y1").
+      DataSource(ViewBag.dataSource).
+      Width(2).Add();
+   }).
+   Title("Olympic Medal Counts - RIO").Render()

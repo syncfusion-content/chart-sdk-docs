@@ -1,0 +1,107 @@
+---
+layout: post
+title: Series types in React Range navigator component | Syncfusion
+description: Learn here all about Series types in Syncfusion React Range navigator component of Syncfusion Essential JS 2 and more.
+control: Series types 
+platform: chart-sdk
+documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
+---
+
+# Series types in React Range navigator component
+
+To render the data, the Range Selector supports six types of series.
+
+<!-- markdownlint-disable MD036 -->
+
+## Line
+
+<!-- markdownlint-disable MD036 -->
+
+To render a line series, use series [`type`](https://ej2.syncfusion.com/react/documentation/api/range-navigator/rangeNavigatorSeriesModel#type) as **Line**  and inject the `LineSeries` module using `RangeNavigator.Inject(LineSeries)` method. By default, the line series is rendered in the Range Selector.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs30/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs30/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/getting-started-cs30" %}
+
+## Area
+
+To render an area series, use series [`type`](https://ej2.syncfusion.com/react/documentation/api/range-navigator/rangeNavigatorSeriesModel#type) as **Area** and inject `AreaSeries` module using `RangeNavigator.Inject(AreaSeries)` method.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs31/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs31/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/getting-started-cs31" %}
+
+## StepLine
+
+To render a Step line series, use series [`type`](https://ej2.syncfusion.com/react/documentation/api/range-navigator/rangeNavigatorSeriesModel#type) as **Step Line** and inject `StepLineSeries` module using `RangeNavigator.Inject(StepLineSeries)` method.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs32/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs32/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/getting-started-cs32" %}
+
+ ## Spline
+
+To render a Spline series, use series [`type`](https://ej2.syncfusion.com/react/documentation/api/range-navigator/rangeNavigatorSeriesModel#type) as **Spline** and inject `SplineSeries` module using `RangeNavigator.Inject(SplineSeries)` method.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs35/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs35/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/getting-started-cs35" %}
+
+ ## Spline Area
+
+To render a Spline Area series, use series [`type`](https://ej2.syncfusion.com/react/documentation/api/range-navigator/rangeNavigatorSeriesModel#type) as **SplineArea** and inject `SplineAreaSeries` module using `RangeNavigator.Inject(SplineAreaSeries)` method.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs36/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs36/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/getting-started-cs36" %}
+
+ ## Column
+
+To render a Column series, use series [`type`](https://ej2.syncfusion.com/react/documentation/api/range-navigator/rangeNavigatorSeriesModel#type) as **Column** and inject `ColumnSeries` module using `RangeNavigator.Inject(ColumnSeries)` method.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs37/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs37/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/getting-started-cs37" %}

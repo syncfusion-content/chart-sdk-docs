@@ -1,0 +1,24 @@
+---
+layout: post
+title: Api iLoadEventArgs in JavaScript Range navigator control | Syncfusion
+description: Learn here all about Api iLoadEventArgs in Syncfusion JavaScript Range navigator control of Syncfusion Essential JS 2 and more.
+platform: chart-sdk
+control: Api iLoadEventArgs 
+publishingplatform: chart-sdk
+documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
+---
+
+# Api iLoadEventArgs in JavaScript Range navigator control
+
+interface for load event
+
+## Properties
+
+### name `string`
+
+name of the event
+
+### rangeNavigator [`RangeNavigator`](./api-rangeNavigator.html)
+
+rangeNavigator

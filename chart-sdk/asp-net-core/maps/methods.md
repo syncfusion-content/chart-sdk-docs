@@ -1,0 +1,31 @@
+---
+layout: post
+title: Methods in Syncfusion ASP.NET Core Maps Component
+description: Learn here all about the methods in the Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
+platform: chart-sdk
+control: Maps
+publishingplatform: chart-sdk
+documentation: ug
+---
+
+# Methods in ASP.NET Core Maps component
+
+## Methods
+
+This section explains the methods used in the Maps component.
+
+## getMinMaxLatitudeLongitude
+
+The `getMinMaxLatitudeLongitude` method returns the minimum and maximum latitude and longitude values of the Maps visible area. This method returns a `IMinMaxLatitudeLongitude` object that contains the Maps minimum and maximum latitude and longitude coordinates.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/maps/methods/getMinMaxLatitudeLongitude/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="GetMinMax.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/maps/methods/getMinMaxLatitudeLongitude/getMinMaxLatitudeLongitude.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+
+![getMinMaxLatitudeLongitude method](./images/Methods/getMinMaxLatitudeLongitude-method.PNG)

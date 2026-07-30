@@ -1,0 +1,36 @@
+@{
+    var marker = new List<MapsMarker>
+    {
+        new MapsMarker{Visible=true, DataSource=ViewBag.markerData}
+    };
+
+    }
+
+@using Syncfusion.EJ2.Maps;
+@using Syncfusion.EJ2;
+<div id="control-section">
+    <ejs-maps id="maps" load="window.onMapLoad">
+        <e-maps-layers>
+            <e-maps-layer markerSettings="marker"></e-maps-layer>
+        </e-maps-layers>
+    </ejs-maps>
+</div>
+
+<script>
+    function onMapLoad(args) {
+        args.maps.getBingUrlTemplate("https://dev.virtualearth.net/REST/V1/Imagery/Metadata/CanvasLight?output=json&uriScheme=https&key=?").then(function(url) {
+              args.maps.layers[0].urlTemplate= url;
+        });
+        args.maps.layers[0].navigationLineSettings = [
+            {
+                visible: true,
+                latitude: [40.7128, 36.7783],
+                longitude: [-74.0060, -119.4179],
+                color: 'black',
+                angle: 90,
+                width: 2,
+                dashArray: '4'
+            }
+        ];
+    }
+</script>

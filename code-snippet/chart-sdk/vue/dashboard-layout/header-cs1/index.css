@@ -1,0 +1,18 @@
+/* Dashboard Layout component styles  */
+#defaultLayout .e-panel .e-panel-container .e-panel-header {
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:center;
+    padding:10px
+}
+
+.e-panel-content {
+    text-align:center;
+    padding:20px;
+    line-height:20px;
+}
+
+#defaultLayout .e-panel {
+  transition:none !important;
+}

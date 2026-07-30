@@ -1,0 +1,65 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
+@import "../node_modules/@syncfusion/ej2-react-layouts/styles/tailwind3.css";
+
+#container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.e-dashboard-layout.e-control .e-panel .e-panel-container .e-panel-header {
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.e-panel .e-header-text {
+  padding: 12px 0 12px 0;
+}
+
+#dashboard .e-panel-container .e-panel-header {
+  border-bottom: 1px solid #888383;
+}
+
+.e-dashboard-layout.e-control .e-panel:hover {
+  border: 0px;
+}
+
+.e-dashboard-layout.e-control .e-panel .e-panel-header {
+  font-size: 15px;
+  font-weight: 500;
+  height: 37px;
+  padding: 10px;
+  vertical-align: middle;
+  /* text-align: left; */
+  border-bottom: 0.5px solid rgba(0, 0, 0, .125);
+}
+
+.e-panel-header {
+  padding: 10px;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, .03);
+}
+
+.e-dashboard-layout.e-control .e-panel .e-panel-header{
+  height:30px
+}
+.e-dashboard-layout.e-control .e-panel .e-panel-header div{
+  text-align: center;
+}
+
+.header{
+  padding: 5px;
+  display: inline-block;
+}
+
+.e-panel-content{
+  height: 162px;
+}
+
+.handler.burg-icon:before {
+  content: '\e99a';
+  font-size: 16px;
+}
+
+.handler.burg-icon{
+  float: right;
+  padding-top: 2%; 
+}

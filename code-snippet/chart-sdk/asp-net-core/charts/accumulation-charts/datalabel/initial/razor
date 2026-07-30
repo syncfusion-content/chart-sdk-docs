@@ -1,0 +1,11 @@
+@(Html.EJS().AccumulationChart("container")
+    .LegendSettings(legend => legend.Visible(false))
+    .Series(series =>
+    {
+        series.XName("xValue")
+            .YName("yValue")
+            .DataSource(ViewBag.dataSource)
+            .Add();
+    })
+    .Render()
+)

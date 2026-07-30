@@ -1,0 +1,8 @@
+@model List<BulletChartSample.Controllers.BulletChartData>
+
+@(Html.EJS().BulletChart("container")
+	.ValueField("value")
+	.TargetField("target")
+	.Minimum(0).Maximum(300).Interval(50)
+	.DataSource(Model)
+	.Render())

@@ -1,0 +1,325 @@
+---
+layout: post
+title: Getting Started with WinUI Radial Gauge control | Syncfusion
+description: Learn here all about getting started with Syncfusion WinUI Radial Gauge(SfRadialGauge) control and more.
+platform: chart-sdk
+control: SfRadialGauge
+documentation: ug
+---
+
+# Getting Started with WinUI Radial Gauge
+
+This section explains the steps required to add the [WinUI Radial Gauge](https://www.syncfusion.com/winui-controls/radial-gauge) control and its elements such as axis, range, pointer, and annotation. This section covers only the basic features needed to get started with the Syncfusion radial gauge control.
+
+## Creating an application with WinUI Radial Gauge
+
+1. Create a [WinUI 3 desktop app for C# and .NET 5](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app).
+
+2. Add a reference to the [Syncfusion.Gauge.WinUI](https://www.nuget.org/packages/Syncfusion.Gauge.WinUI) NuGet package.
+
+3. Import the control namespace `Syncfusion.UI.Xaml.Gauges` in XAML or C# code.
+
+4. Initialize the SfRadialGauge control.
+
+{% capture codesnippet1 %}
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfRadialGauge />
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfRadialGauge sfRadialGauge = new SfRadialGauge();
+this.Content = sfRadialGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+{% endcapture %}
+{{ codesnippet1 | OrderList_Indent_Level_1 }}
+
+## Add an axis to the radial gauge
+
+Axes contain a list of axis elements, where you can add any number of radial axes inside the gauge. You can specify the minimum and maximum values of the axis using the [`Minimum`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAxis.html#Syncfusion_UI_Xaml_Gauges_GaugeAxis_Minimum) and [`Maximum`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAxis.html#Syncfusion_UI_Xaml_Gauges_GaugeAxis_Maximum) properties as demonstrated in the following code snippet.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfRadialGauge>
+    <gauge:SfRadialGauge.Axes>
+        <gauge:RadialAxis Minimum="0"
+                          Maximum="150" />
+    </gauge:SfRadialGauge.Axes>
+</gauge:SfRadialGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfRadialGauge sfRadialGauge = new SfRadialGauge();
+RadialAxis radialAxis = new RadialAxis();
+radialAxis.Minimum = 0;
+radialAxis.Maximum = 150;
+sfRadialGauge.Axes.Add(radialAxis);
+this.Content = sfRadialGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![WinUI Radial Gauge with Axis](images/getting-started/winui-radial-gauge-with-axis.png)
+
+## Add a range to the radial gauge
+
+Ranges contain a list of range elements, where you can add any number of ranges inside the axis. You can specify the start value, end value, and background color for a range using the [`StartValue`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_StartValue), [`EndValue`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_EndValue), and `Background` properties as demonstrated in the following code.   
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfRadialGauge>
+    <gauge:SfRadialGauge.Axes>
+        <gauge:RadialAxis Maximum="150"
+                          Interval="10">
+            <gauge:RadialAxis.Ranges>
+                <gauge:GaugeRange StartValue="0"
+                                  EndValue="50"
+                                  Background="Red" />
+                <gauge:GaugeRange StartValue="50"
+                                  EndValue="100"
+                                  Background="Orange" />
+                <gauge:GaugeRange StartValue="100"
+                                  EndValue="150"
+                                  Background="Green" />
+            </gauge:RadialAxis.Ranges>
+        </gauge:RadialAxis>
+    </gauge:SfRadialGauge.Axes>
+</gauge:SfRadialGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfRadialGauge sfRadialGauge = new SfRadialGauge();
+
+RadialAxis radialAxis = new RadialAxis();
+radialAxis.Maximum = 150;
+sfRadialGauge.Axes.Add(radialAxis);
+
+GaugeRange gaugeRange1 = new GaugeRange();
+gaugeRange1.StartValue = 0;
+gaugeRange1.EndValue = 50;
+gaugeRange1.Background = new SolidColorBrush(Colors.Red);
+radialAxis.Ranges.Add(gaugeRange1);
+
+GaugeRange gaugeRange2 = new GaugeRange();
+gaugeRange2.StartValue = 50;
+gaugeRange2.EndValue = 100;
+gaugeRange2.Background = new SolidColorBrush(Colors.Orange);
+radialAxis.Ranges.Add(gaugeRange2);
+
+GaugeRange gaugeRange3 = new GaugeRange();
+gaugeRange3.StartValue = 100;
+gaugeRange3.EndValue = 150;
+gaugeRange3.Background = new SolidColorBrush(Colors.Green);
+radialAxis.Ranges.Add(gaugeRange3);
+
+this.Content = sfRadialGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![WinUI Radial Gauge with Range](images/getting-started/winui-radial-gauge-with-range.png)
+
+## Add a pointer to the radial gauge
+
+Pointers contain a list of pointer elements, where you can add any number of gauge pointers such as [`NeedlePointer`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html), [`RangePointer`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html), [`ShapePointer`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.ShapePointer.html), and [`ContentPointer`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.ContentPointer.html) inside the axis to indicate the value.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfRadialGauge>
+    <gauge:SfRadialGauge.Axes>
+        <gauge:RadialAxis Maximum="150"
+                          Interval="10">
+            <gauge:RadialAxis.Pointers>
+                <gauge:NeedlePointer Value="90" />
+            </gauge:RadialAxis.Pointers>
+        </gauge:RadialAxis>
+    </gauge:SfRadialGauge.Axes>
+</gauge:SfRadialGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfRadialGauge sfRadialGauge = new SfRadialGauge();
+
+RadialAxis radialAxis = new RadialAxis();
+radialAxis.Maximum = 150;
+sfRadialGauge.Axes.Add(radialAxis);
+
+NeedlePointer needlePointer = new NeedlePointer();
+needlePointer.Value = 90;
+radialAxis.Pointers.Add(needlePointer);
+
+this.Content = sfRadialGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![WinUI Radial Gauge with Pointer](images/getting-started/winui-radial-gauge-with-pointer.png)
+
+## Add an annotation to the radial gauge
+
+You can add any number of controls such as text or image as an annotation inside the axis. The position of the annotation can be customized using the [`DirectionUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_DirectionUnit), [`DirectionValue`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_DirectionValue), and [`PositionFactor`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_PositionFactor) properties as demonstrated in the following code.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfRadialGauge>
+    <gauge:SfRadialGauge.Axes>
+        <gauge:RadialAxis Maximum="150"
+                          Interval="10">
+            <gauge:RadialAxis.Annotations>
+                <gauge:GaugeAnnotation x:Name="annotation"
+                                       DirectionUnit="Angle"
+                                       DirectionValue="90"
+                                       PositionFactor="0.5">
+                    <gauge:GaugeAnnotation.Content>
+                        <TextBlock Text="90"
+                                   FontSize="25"
+                                   FontWeight="Bold" />
+                    </gauge:GaugeAnnotation.Content>
+                </gauge:GaugeAnnotation>
+            </gauge:RadialAxis.Annotations>
+        </gauge:RadialAxis>
+    </gauge:SfRadialGauge.Axes>
+</gauge:SfRadialGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfRadialGauge sfRadialGauge = new SfRadialGauge();
+
+RadialAxis radialAxis = new RadialAxis();
+radialAxis.Maximum = 150;
+sfRadialGauge.Axes.Add(radialAxis);
+
+GaugeAnnotation gaugeAnnotation = new GaugeAnnotation();
+gaugeAnnotation.DirectionUnit = AnnotationDirection.Angle;
+gaugeAnnotation.DirectionValue = 90;
+gaugeAnnotation.PositionFactor = 0.5;
+gaugeAnnotation.Content = new TextBlock { Text = "90", FontWeight = FontWeights.Bold, FontSize = 25 };
+radialAxis.Annotations.Add(gaugeAnnotation);
+
+this.Content = sfRadialGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![WinUI Radial Gauge with Annotation](images/getting-started/winui-radial-gauge-with-annotation.png)
+
+The following code example gives you the complete code of the above configuration.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<gauge:SfRadialGauge>
+    <gauge:SfRadialGauge.Axes>
+        <gauge:RadialAxis Maximum="150"
+                            Interval="10">
+            <gauge:RadialAxis.Ranges>
+                <gauge:GaugeRange StartValue="0"
+                                    EndValue="50"
+                                    Background="Red" />
+                <gauge:GaugeRange StartValue="50"
+                                    EndValue="100"
+                                    Background="Orange" />
+                <gauge:GaugeRange StartValue="100"
+                                    EndValue="150"
+                                    Background="Green" />
+            </gauge:RadialAxis.Ranges>
+
+            <gauge:RadialAxis.Pointers>
+                <gauge:NeedlePointer Value="90" />
+            </gauge:RadialAxis.Pointers>
+
+            <gauge:RadialAxis.Annotations>
+                <gauge:GaugeAnnotation x:Name="annotation"
+                                        DirectionUnit="Angle"
+                                        DirectionValue="90"
+                                        PositionFactor="0.5">
+                    <gauge:GaugeAnnotation.Content>
+                        <TextBlock Text="90"
+                                    FontSize="25"
+                                    FontWeight="Bold" />
+                    </gauge:GaugeAnnotation.Content>
+                </gauge:GaugeAnnotation>
+            </gauge:RadialAxis.Annotations>
+        </gauge:RadialAxis>
+    </gauge:SfRadialGauge.Axes>
+</gauge:SfRadialGauge>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfRadialGauge sfRadialGauge = new SfRadialGauge();
+
+RadialAxis radialAxis = new RadialAxis();
+radialAxis.Maximum = 150;
+sfRadialGauge.Axes.Add(radialAxis);
+
+GaugeRange gaugeRange1 = new GaugeRange();
+gaugeRange1.StartValue = 0;
+gaugeRange1.EndValue = 50;
+gaugeRange1.Background = new SolidColorBrush(Colors.Red);
+radialAxis.Ranges.Add(gaugeRange1);
+
+GaugeRange gaugeRange2 = new GaugeRange();
+gaugeRange2.StartValue = 50;
+gaugeRange2.EndValue = 100;
+gaugeRange2.Background = new SolidColorBrush(Colors.Orange);
+radialAxis.Ranges.Add(gaugeRange2);
+
+GaugeRange gaugeRange3 = new GaugeRange();
+gaugeRange3.StartValue = 100;
+gaugeRange3.EndValue = 150;
+gaugeRange3.Background = new SolidColorBrush(Colors.Green);
+radialAxis.Ranges.Add(gaugeRange3);
+
+NeedlePointer needlePointer = new NeedlePointer();
+needlePointer.Value = 90;
+radialAxis.Pointers.Add(needlePointer);
+
+GaugeAnnotation gaugeAnnotation = new GaugeAnnotation();
+gaugeAnnotation.DirectionUnit = AnnotationDirection.Angle;
+gaugeAnnotation.DirectionValue = 90;
+gaugeAnnotation.PositionFactor = 0.5;
+gaugeAnnotation.Content = new TextBlock { Text = "90", FontWeight = FontWeights.Bold, FontSize = 25 };
+radialAxis.Annotations.Add(gaugeAnnotation);
+
+this.Content = sfRadialGauge;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+N> Download demo application from [GitHub](https://github.com/SyncfusionExamples/WinUI_Radial_Gauge_Getting_Started)
+
+## See Also
+
+* [How to design fuel meter using WinUI Radial Gauge](https://support.syncfusion.com/kb/article/12049/how-to-design-fuel-meter-using-winui-radial-gauge)
+* [How to add an image as a background of WinUI Radial Gauge control](https://support.syncfusion.com/kb/article/11962/how-to-add-an-image-as-a-background-of-winui-radial-gauge-control-sfradialgauge)

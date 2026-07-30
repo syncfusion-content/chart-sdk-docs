@@ -1,0 +1,32 @@
+var data = function (count) {
+    var result = [];
+    var dt = 0;
+    for (var i = 1; i < (count + 1); i++) {
+        dt++;
+        var round;
+        var toString = i.toString();
+        if (toString.length === 1) {
+            round = '0000' + (i);
+        }
+        else if (toString.length === 2) {
+            round = '000' + i;
+        }
+        else if (toString.length === 3) {
+            round = '00' + i;
+        } else if (toString.length === 4) {
+            round = '0' + i;
+        } else {
+            round = toString;
+        }
+        result.push({
+            ProductID: 'PRO-' + round,
+            Year: "FY " + (dt + 2013),
+            Price: Math.round(Math.random() * 5000) + 5000,
+            Sold: Math.round(Math.random() * 80) + 10,
+        });
+        if (dt / 4 == 1) {
+            dt = 0;
+        }
+    }
+    return result;
+};

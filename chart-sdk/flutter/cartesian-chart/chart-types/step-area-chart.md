@@ -1,0 +1,91 @@
+---
+layout: post
+title: Step area Chart in Flutter Cartesian Charts widget | Syncfusion 
+description: Learn here all about step area chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+platform: chart-sdk
+control: Chart
+documentation: ug
+---
+
+# Step area Chart in Flutter Cartesian Charts (SfCartesianChart)
+
+To render a step area chart, create an instance of [`StepAreaSeries`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/StepAreaSeries-class.html), and add it to the [`series`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart/series.html) collection property of [`SfCartesianChart`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart/SfCartesianChart.html). The following properties can be used to customize the appearance of the step area chart.
+
+* [`color`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ChartSeries/color.html) - changes the color of the series.
+* [`opacity`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ChartSeries/opacity.html) - controls the transparency of the chart series.
+* [`width`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ColumnSeries/width.html) - changes the stroke width of the series.
+
+{% tabs %}
+{% highlight dart %} 
+
+    @override
+    Widget build(BuildContext context) {
+        return Scaffold(
+            body: Center(
+                child: Container(
+                    child: SfCartesianChart(
+                        primaryXAxis: DateTimeAxis(),
+                        series: <CartesianSeries>[
+                            StepAreaSeries<ChartData, DateTime>(
+                                dataSource: chartData,
+                                xValueMapper: (ChartData data, _) => data.x,
+                                yValueMapper: (ChartData data, _) => data.y
+                            ),
+                            StepAreaSeries<ChartData, DateTime>(
+                                dataSource: chartData1,
+                                xValueMapper: (ChartData data, _) => data.x,
+                                yValueMapper: (ChartData data, _) => data.y
+                            )
+                        ]
+                    )
+                )
+            )
+        );
+    }
+
+{% endhighlight %}
+{% endtabs %}
+
+![Step area chart](cartesian-chart-types-images/step_area.png)
+
+## Dashed step area
+
+The [`dashArray`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/CartesianSeries/dashArray.html) property of the [`StepAreaSeries`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/StepAreaSeries-class.html) is used to render step area series with dashes. The odd value is considered as the rendering size and the even value is considered as gap.
+
+{% tabs %}
+{% highlight dart hl_lines="11" %}
+    
+    @override
+    Widget build(BuildContext context) {
+        return Scaffold(
+            body: Center(
+                child: Container(
+                    child: SfCartesianChart(
+                        primaryXAxis: DateTimeAxis(),
+                        series: <CartesianSeries>[
+                            StepAreaSeries<ChartData, DateTime>(
+                                dataSource: chartData,
+                                dashArray: <double>[5, 5],
+                                xValueMapper: (ChartData data, _) => data.x,
+                                yValueMapper: (ChartData data, _) => data.y
+                            )
+                        ]
+                    )
+                )
+            )
+        );
+    }
+
+{% endhighlight %}
+{% endtabs %}
+
+![Dashed step area chart](cartesian-chart-types-images/step_area_dashed.png)
+
+#### See Also
+
+* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
+* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
+* [Animation](/flutter/cartesian-charts/series-customization#animation)
+* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
+* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
+* [Sorting](/flutter/cartesian-charts/series-customization#sorting)

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EJ2 Animation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Typescript UI Controls" />
+    <meta name="author" content="Syncfusion" />
+    <link href="index.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.38/system.js"></script>
+    <script src="systemjs.config.js"></script>
+</head>
+
+<body>
+    <div id='loader'>Loading....</div>
+    <div id="container">
+      <div class="stackblitz-container tailwind3">
+        <div>
+            <div class="col-md-8 control-section">
+                <div class="content-wrapper">
+                    <div id="element" style="width:92%"></div>
+                </div>
+            </div>
+            <div class="col-md-4 property-section">
+                <table id="property" title="Properties" style="width: 100%">
+                    <tbody>
+                        <tr style="height: 50px">
+                            <td style="width: 60%">
+                                <div id="checkValue">Descending:</div>
+                            </td>
+                            <td style="width: 40%;">
+                                <div>
+                                    <input id="decending" type="checkbox" disabled="" aria-labelledby="Checkbox unchecked">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr style="height: 50px">
+                            <td style="width: 60%">
+                                <div>Sort By:</div>
+                            </td>
+                            <td style="width: 40%;">
+                                <div>
+                                    <select name="selectIndex" autocomplete="off" id="sortMode">
+                                        <option value="None">None</option>
+                                        <option value="X">Sort by X</option>
+                                        <option value="Y">Sort by Y</option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

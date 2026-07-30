@@ -1,0 +1,13 @@
+@using Syncfusion.EJ2.PivotView
+
+@Html.EJS().PivotView("PivotView").Height(350).Width("100%").DataSourceSettings(
+    dataSource => dataSource.DataSource((IEnumerable<object>)ViewBag.DataSource).ExpandAll(false).EnableSorting(true
+    ).Rows(rows =>  {
+        rows.Name("ProductID").Add();
+    }).Columns(columns => {
+        columns.Name("Year").Add();
+    }).Values(values => {
+        values.Name("Price").Caption("Unit Price").Add();
+        values.Name("Sold").Caption("Unit Sold").Add();
+    })
+).EnableVirtualization(true).VirtualScrollSettings(new PivotViewVirtualScrollSettings { AllowSinglePage = true }).Render()

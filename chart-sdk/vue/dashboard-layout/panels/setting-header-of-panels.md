@@ -1,0 +1,66 @@
+---
+layout: post
+title: Set panel headers in Vue Dashboard Layout | Syncfusion
+description: Learn here all about Setting header of panels in Syncfusion Vue Dashboard Layout component of Syncfusion Essential JS 2 and more.
+control: Setting header of panels 
+platform: chart-sdk
+documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
+---
+
+# Setting header of panels in Vue Dashboard Layout component
+
+The Dashboard Layout component is commonly used to present monitoring or management data. HTML templates and other content can be placed inside a panel using the [`content`](https://ej2.syncfusion.com/vue/documentation/api/dashboard-layout/panelModel#content) property. A concise label or phrase summarizing the panel’s content can be added at the top of each panel using the [`header`](https://ej2.syncfusion.com/vue/documentation/api/dashboard-layout/panelModel#header) property of the panel.
+
+The following sample demonstrates how to provide header and content for each panel.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/dashboard-layout/header-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/dashboard-layout/header-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/dashboard-layout/header-cs1" %}
+
+## Setting Content of panels using v-slot directive
+
+The Dashboard Layout component in Syncfusion's Vue.js suite facilitates dynamic content insertion into panels through the **v-slot directive**. This feature allows for the definition of custom content for each panel in a flexible and maintainable manner. By leveraging v-slot, it becomes straightforward to incorporate complex HTML structures, custom components, or dynamic content into each panel of the Dashboard Layout. 
+
+In the example below, the v-slot directive is employed with a named slot 'panel0Content' to specify the content for 'panel0'. The content is encapsulated within a `<template>` tag, which corresponds to the `:content` attribute of the `<e-panel>`.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/dashboard-layout/vslot-content/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/dashboard-layout/vslot-content/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/dashboard-layout/vslot-content" %}
+
+## Placing components as content of panels
+
+Dashboard panels can host other UI components such as charts, grids, maps, and gauges by assigning the corresponding component element to the panel's [`content`](https://ej2.syncfusion.com/vue/documentation/api/dashboard-layout/panelModel#content) of the panel.
+
+To see a demonstration of composing a Dashboard Layout with UI components, view this video:
+
+{% youtube "https://www.youtube.com/watch?v=X7NMBiIGkyA" %}
+
+The following sample shows adding EJ2 Chart components as panel `content`.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/dashboard-layout/content-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/dashboard-layout/content-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/dashboard-layout/content-cs1" %}
+
+> Refer to the [Vue Dashboard Layout](https://www.syncfusion.com/vue-ui-components/vue-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore the [Vue Dashboard Layout example](https://ej2.syncfusion.com/vue/demos/#/material3/dashboard-layout/default.html) to knows how to present and manipulate data.
