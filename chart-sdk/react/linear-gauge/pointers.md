@@ -15,10 +15,10 @@ domainurl: https://help.syncfusion.com/chart-sdk
 The pointer value is demonstrated in the following sample using the [`value`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/pointer#value-number) property of a `PointerDirective` inside the `PointersDirective` collection of the axis. The pointer can be customized with a different color using the `color` property to make it visually distinct.
 
 {% tabs %}
-{% highlight jsx tabtitle="app.jsx" %}
+{% highlight js tabtitle="app.jsx" %}
 {% include code-snippet/chart-sdk/react/linear-gauge/code-path/getting-started-cs4/app/index.jsx %}
 {% endhighlight %}
-{% highlight tsx tabtitle="app.tsx" %}
+{% highlight ts tabtitle="app.tsx" %}
 {% include code-snippet/chart-sdk/react/linear-gauge/code-path/getting-started-cs4/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
