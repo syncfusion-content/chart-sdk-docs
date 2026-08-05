@@ -14,75 +14,143 @@ This article provides a step-by-step guide to setting up a [`Vite`](https://vite
 
 The **Composition API** groups related logic into reusable functions and is recommended for larger, composition-friendly code bases. The **Options API** uses `data`, `methods`, and life cycle options and may be preferable for smaller components or teams familiar with Vue 2 patterns. Choose the API that best fits your project’s structure and long-term maintainability.
 
+{% tabcontents %}
+{% tabcontent Syncfusion CLI %}
+
 ## Prerequisites
 
-Ensure that the development environment meets the required criteria listed in [System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements).
+- [Node.js 24+](https://nodejs.org/en) (LTS recommended).
+- Syncfusion CLI.
+
+## Install the Syncfusion CLI 
+
+Install the Syncfusion CLI globally using the following command:
+
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+npm install -g @syncfusion/syncfusion-cli
+{% endhighlight %}
+{% endtabs %}
+
+## Set up the Vite project using Syncfusion CLI
+
+You can create a Vue application with [Vite](https://vite.dev/) using the Syncfusion CLI. The CLI provides two ways to create a project:
+
+### Non-interactive mode
+
+Non-interactive mode allows you to create a project directly using a single command with the required command-line arguments.
+
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+sf new my-project --framework vue --template chart
+{% endhighlight %}
+{% endtabs %}
+
+In this mode, the project configuration is passed directly in the command. The above command creates a `Vue` application with Vite and configured it with the Syncfusion<sup style="font-size:70%">&reg;</sup> `Chart` component. The generated project uses the TypeScript and the Composition API.
+
+### Interactive mode
+
+Interactive mode guides you through the project creation process with step-by-step prompts.
+
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+sf
+{% endhighlight %}
+{% endtabs %}
+
+When you run the `sf` command, the CLI prompts you to select the required project configuration options. To create a Vue application with Vite and the Syncfusion<sup style="font-size:70%">&reg;</sup> `Chart` component, select the following options:
+
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+
+√ Project name? ... my-project
+√ Choose Framework: » Vue
+√ Choose Language: » JavaScript
+√ Choose Template: » Chart
+√ Choose Theme: » Material3
+√ Choose Style Format: » CSS
+√ Would you like to integrate the Syncfusion MCP Server (AI Assistant) into this project? ... no
+√ Would you like to install Syncfusion Component Skills for AI-powered development? ... no      
+√ Install dependencies and start app now? ... no
+
+{% endhighlight %}
+{% endtabs %}
+
+The above selections generate a `Vue` application with Vite and configure it with the Syncfusion<sup style="font-size:70%">&reg;</sup> `Chart` component. You can choose different values for language, theme, style format, MCP setup, and skills installation based on your project requirements.
+
+The Syncfusion<sup style="font-size:70%">&reg;</sup> CLI creates the project with a predefined template. After the project is generated, you can customize or replace the component code based on your application requirements.
+
+## Run the project
+
+Once the project is created, navigate to the project directory and run the following commands in your terminal.
+
+{% tabs %}
+{% highlight bash tabtitle="CMD" %}
+cd my-project
+npm install
+npm run dev
+{% endhighlight %}
+{% endtabs %}
+
+The output will appear as follows:
+
+![Chart Component](./images/cli-chart.png)
+
+{% endtabcontent %}
+
+{% tabcontent Using Vite CLI %}
+
+## Prerequisites
+
+Ensure your development environment meets the following requirements as listed in [System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements).
 
 ## Set Up the Vite Project
 
-The recommended way to start a Vue 3 application is by scaffolding a project using [`Vite`](https://vitejs.dev). Create a new Vite project using one of the following commands:
+Create a Vite project using either npm or Yarn.
 
 **npm**
 
 ```bash
-npm create vite@latest
+npm create vite@latest my-app -- --template vue
 ```
 
 **yarn**
 
 ```bash
-yarn create vite
+yarn create vite my-app --template vue
 ```
 
-The setup prompts will request a few project options. Example responses used in this article:
+If Vite prompts you to install dependencies and start the project immediately, select **No**. The Syncfusion package is installed in a later step.
 
-**Step 1:** Define the project name. For this article, use `my-project`.
+Navigate to the project directory:
 
 ```bash
-? Project name: » my-project
+cd my-app
 ```
 
-**Step 2:** Select `Vue` as the framework.
+Install the project dependencies using either npm or Yarn.
+
+**npm**
 
 ```bash
-? Select a framework: » - Use arrow-keys. Return to submit.
-Vanilla
-> Vue
-  React
-  Preact
-  Lit
-  Svelte
-  Others
+npm install
 ```
 
-**Step 3:** Choose `JavaScript` as the project variant.
+**yarn**
 
 ```bash
-? Select a variant: » - Use arrow-keys. Return to submit.
-> JavaScript
-  TypeScript
-  Customize with create-vue ↗
-  Nuxt ↗
+yarn install
 ```
-
-**Step 4:** Install dependencies
-
-After the project is created, the CLI prompts you to install dependencies and start the development server:
-
-```bash
-? Install with <package-manager> and start now?
-❯ Yes / No
-```
-
-Select **Yes**. The CLI automatically navigates to the project directory, installs all required dependencies, and starts the development server.
 
 Now that `my-project` is ready, add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue components to the project.
+
+> **Note:** To create a TypeScript project, use `npm create vite@latest my-app -- --template vue-ts` or `yarn create vite my-app --template vue-ts`.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Packages
 
 Syncfusion<sup style="font-size:70%">&reg;</sup> Vue component packages are available at [npmjs.com](https://www.npmjs.com/search?q=ej2-vue). To use Syncfusion<sup style="font-size:70%">&reg;</sup> Vue components in the project, install the corresponding npm package.
 
-This article uses the [`Vue Chart component`](https://www.syncfusion.com/vue-components/vue-charts) as an example. To use the Vue Chart component in the project, install the `@syncfusion/ej2-vue-charts` package using either npm or Yarn:
+This article uses the [`Vue Chart component`](https://www.syncfusion.com/vue-components/vue-charts) as an example. To use the Vue Chart component in the project, install the `@syncfusion/ej2-vue-charts` package using either npm or Yarn. The package is compatible with Vue 3.0 and later versions.
 
 **npm**
 
@@ -95,6 +163,8 @@ npm install @syncfusion/ej2-vue-charts --save
 ```bash
 yarn add @syncfusion/ej2-vue-charts
 ```
+
+> **Note:** For TypeScript support, refer to [Getting Started with Vue UI Components using Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition) or [Getting Started with Vue UI Components using Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options).
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Chart Component
 
@@ -175,7 +245,7 @@ data() {
 <template>
 <ejs-chart id="container" :primaryXAxis='primaryXAxis'>
     <e-series-collection>
-        <e-series :dataSource='seriesData' type='Line' xName='month' yName='sales' name='Sales'> </e-series>
+        <e-series :dataSource='seriesData' type='Line' xName='month' yName='sales' name='Sales'></e-series>
     </e-series-collection>
 </ejs-chart>
 </template>
@@ -191,7 +261,7 @@ Here is the summarized code for the above steps in the **src/App.vue** file.
 <template>
   <ejs-chart id="container" :primaryXAxis='primaryXAxis'>
       <e-series-collection>
-          <e-series :dataSource='seriesData' type='Line' xName='month' yName='sales' name='Sales'> </e-series>
+          <e-series :dataSource='seriesData' type='Line' xName='month' yName='sales' name='Sales'></e-series>
       </e-series-collection>
   </ejs-chart>
 </template>
@@ -229,9 +299,9 @@ import { ChartComponent, SeriesCollectionDirective, SeriesDirective, LineSeries,
 export default {
     name: "App",
     components: {
-        'ejs-chart' : ChartComponent,
-        'e-series-collection' : SeriesCollectionDirective,
-        'e-series' : SeriesDirective
+        'ejs-chart': ChartComponent,
+        'e-series-collection': SeriesCollectionDirective,
+        'e-series': SeriesDirective
     },
     data() {
         return {
@@ -249,8 +319,8 @@ export default {
         };
     },
     provide: {
-      chart: [ LineSeries, Category ]
-    },
+      chart: [LineSeries, Category]
+    }
 };
 </script>
 
@@ -279,19 +349,38 @@ The output will appear as follows:
 
 ![Vue 3 Chart sample showing a line chart titled Sales Analysis](./images/vue3-chart-demo.png)
 
+{% endtabcontent %}
+{% endtabcontents %}
+
 > **Sample**: You can explore the complete sample project in the [`vue-3-chart-getting-started`](https://github.com/SyncfusionExamples/vue3-chart-getting-started) repository.
 
-For migrating from Vue 2 to Vue 3, refer to the [Vue 3 Migration Guide](https://v3-migration.vuejs.org/).
+For migration information from Vue 2 to Vue 3, refer to the [Vue 3 Migration Guide](https://v3-migration.vuejs.org/).
 
-## Troubleshooting (Common Issues)
+## Troubleshooting
 
-- **Chart not rendering**: Ensure that the required chart modules (for example, `LineSeries`, `Category`) are injected using `provide` in the Options API or `provide()` in the Composition API.
+**Chart not rendering:**
+- Ensure that the required chart modules (for example, `LineSeries`, `Category`) are injected using `provide()` in the Composition API or the `provide` option in the Options API
+- Verify the `dataSource` is correctly assigned with proper field mappings
+- Check the browser console for any error messages
 
-- **Incorrect package version**: Verify that the installed `@syncfusion/ej2-vue-charts` package is compatible with the Vue version used in your project.
+**Module not found error:**
+- Confirm that the module is imported from `@syncfusion/ej2-vue-charts`
+- Verify the module name is spelled correctly in the import statement and `provide` option
 
-- **Missing child directives**: When using series directives, make sure that `SeriesCollectionDirective` and `SeriesDirective` are imported and registered as shown in the examples.
+**Incorrect package version:**
+- Verify that the installed `@syncfusion/ej2-vue-charts` package is compatible with Vue 3.0 or later
+- Run `npm list @syncfusion/ej2-vue-charts` to check the installed version
 
-- **Console errors**: Check the browser console for import or runtime errors, and verify that the file paths and package installations are correct.
+**Missing child directives:**
+- When using series directives, ensure that `SeriesCollectionDirective` and `SeriesDirective` are imported and registered as shown in the examples
+- The component names must match the registration names in the template (e.g., `e-series-collection`, `e-series`)
+
+**Console errors:**
+- Check the browser console (F12 → Console tab) for import or runtime errors
+- Verify that file paths and package installations are correct
+- Ensure the development server is still running with `npm run dev`
+
+For additional assistance, refer to the [`Vue Charts API Documentation`](https://ej2.syncfusion.com/vue/documentation/api/chart) and the [Feature Modules](./feature-modules) page.
 
 ## See Also
 

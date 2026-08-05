@@ -24,4 +24,4 @@ Add a title to the Linear Gauge component using the `title` property.
 {% endhighlight %}
 {% endtabs %}
         
-{% https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/es5-getting-started-cs2" %}
+{% previewsample https://help.syncfusion.com/code-snippet/chart-sdk/javascript/linear-gauge/es5-getting-started-cs2" %}
