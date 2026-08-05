@@ -141,11 +141,16 @@ import { MapsComponent, Inject, DataLabel, LayerDirective, LayersDirective } fro
 
 function App() {
     return (
+        const dataLabelSettings = {
+            visible: true,
+            labelPath: 'name',
+            smartLabelMode: 'Hide'
+        };
         <div className="App">
             <MapsComponent id="maps">
                 <Inject services={[DataLabel]} />
                 <LayersDirective>
-                    <LayerDirective shapeData={world_map} dataLabelSettings={{ visible: true, labelPath: 'name', smartLabelMode: 'Hide' }}>
+                    <LayerDirective shapeData={world_map} dataLabelSettings={dataLabelSettings}>
                     </LayerDirective>
                 </LayersDirective>
             </MapsComponent>
@@ -180,7 +185,7 @@ Open the URL shown in the terminal (for example, `http://localhost:5173/`) in yo
 
 If the map does not appear as expected, work through the following common issues:
 
-* **Blank canvas or zero-height map** — The `MapsComponent` fills its container, so a missing height on the parent element is the most common cause. Wrap the component in a sized container (for example, `<div style={{ height: 600 }}>`) or set CSS such as `#maps { height: 600px; }`.
+* **Blank canvas or zero-height map**: The `MapsComponent` fills its container, so a missing height on the parent element is the most common cause. Wrap the component in a container with a CSS class, such as `<div className="map-container">`, and define `.map-container { height: 600px; }`.
 * **"Cannot find module './world_map'" / shape data not rendered** — Make sure `world_map.ts` is saved in `src/` and that the import path matches the file location and the file's export style (named vs default export).
 * **Data labels do not show up** — Confirm that the `DataLabel` service is injected via `<Inject services={[DataLabel]} />` and that `dataLabelSettings.visible` is `true`. Also confirm the `labelPath` value (for example, `'name'`) matches a key in the GeoJSON's `Feature.properties`.
 * **`'Inject' is not exported` or module not found** — Update `@syncfusion/ej2-react-maps` to a supported version and restart the dev server.

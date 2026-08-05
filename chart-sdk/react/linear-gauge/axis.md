@@ -24,7 +24,7 @@ To change the pointer value from the default value of the gauge, set the [`value
 {% highlight js tabtitle="app.jsx" %}
 {% include code-snippet/chart-sdk/react/linear-gauge/code-path/getting-started-cs3/app/index.jsx %}
 {% endhighlight %}
-{% highlight tsx tabtitle="app.tsx" %}
+{% highlight ts tabtitle="app.tsx" %}
 {% include code-snippet/chart-sdk/react/linear-gauge/code-path/getting-started-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}

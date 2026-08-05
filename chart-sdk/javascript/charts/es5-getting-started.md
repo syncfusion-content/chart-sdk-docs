@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ES5 getting started with JavaScript Chart control | Syncfusion
-description:  Check out and learn about ES5 getting started with JavaScript Chart control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about ES5 getting started with JavaScript Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
@@ -13,55 +13,61 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Build your first Syncfusion JavaScript (ES5) application with a simple Chart control in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) Chart from the CDN, initializes it with sample data, and renders an interactive chart.
 
-> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/javascript/documentation/ai-coding-assistant/overview)
+> The `34.1.29` version segment in the CDN URLs is shown for reference. Replace it with the latest published version from the [Syncfusion EJ2 CDN](https://cdn.syncfusion.com/ej2/) when you start a new project.
 
 ## Prerequisites
 
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
-* A web browser to view the result
+* A modern web browser (Chrome, Edge, Firefox, or Safari)
+* An active internet connection to fetch the CDN scripts
 
 ## Quick Setup
 
-### Step 1: Create Folder and HTML file
+### Step 1: Create a folder and an HTML file
 
-* Create a folder named `quickstart` in your desired directory
-* Inside the `quickstart` folder, create a new file named `index.html`
+* Create a folder named `quickstart` in your desired directory.
+* Inside the `quickstart` folder, create a new file named `index.html`.
 
-### Step 2: Add Syncfusion<sup style="font-size:70%">&reg;</sup> CDN Resources
+### Step 2: Add Syncfusion<sup style="font-size:70%">&reg;</sup> CDN resources
 
-Include the following JavaScript links in the `<head>` section.
+The Chart needs the EJ2 script bundles. Add the following to the `<head>` of `index.html`:
 
 **Scripts (JavaScript):**
 ```
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/dist/global/ej2-base.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-data/dist/global/ej2-data.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-pdf-export/dist/global/ej2-pdf-export.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-svg-base/dist/global/ej2-svg-base.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-charts/dist/global/ej2-charts.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-pdf-export/dist/global/ej2-pdf-export.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js
 ```
 
-### Step 3: Add Syncfusion<sup style="font-size:70%">&reg;</sup> Chart control to the application
+Load the scripts in the order shown: `ej2-base` → `ej2-data` → `ej2-svg-base` → `ej2-charts`. `ej2-pdf-export` is only required if you use the PDF export feature; it is omitted from the example below.
 
-Copy and paste the following complete code into your `index.html` file:
+### Step 3: Add the Chart control to the application
+
+Replace the contents of `index.html` with the following complete code. This loads the required EJ2 scripts, defines the chart container, and renders a Column chart with category-axis data.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Syncfusion Chart - Quick Start</title>
-    
+
     <!-- Scripts -->
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/dist/global/ej2-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-data/dist/global/ej2-data.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-pdf-export/dist/global/ej2-pdf-export.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-charts/dist/global/ej2-charts.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
   </head>
-  
+
   <body>
     <h1>Syncfusion Chart</h1>
+
+    <!-- Container which renders the Chart -->
     <div id="element"></div>
-    
+
     <script>
       // Sample data
       var chartData = [
@@ -78,8 +84,8 @@ Copy and paste the following complete code into your `index.html` file:
         { month: 'Nov', sales: 25 },
         { month: 'Dec', sales: 32 }
       ];
-      
-      // Create Chart
+
+      // Initialize the Chart
       var chart = new ej.charts.Chart({
         primaryXAxis: {
           valueType: 'Category'
@@ -94,20 +100,44 @@ Copy and paste the following complete code into your `index.html` file:
         ],
         title: 'Sales Data'
       });
-      
-      // Render Chart
+
+      // Render the chart to the target container
       chart.appendTo('#element');
     </script>
   </body>
 </html>
 ```
 
-### Step 4: Open in Browser
+The series properties [`dataSource`](../api/chart/series#datasource), [`xName`](../api/chart/series#xname), and [`yName`](../api/chart/series#yname) bind the JSON fields to the chart. The [`primaryXAxis`](../api/chart/chartModel#primaryxaxis) is configured with [`valueType: 'Category'`](../api/chart/axisModel#valuetype) because the X-axis contains month labels; the default value type is `Numeric`.
 
-Open the `quickstart/index.html` file in your web browser. You should see the Syncfusion Chart control displaying the sample data.
+### Step 4: Open in browser
+
+Open the `quickstart/index.html` file in your web browser. You can either double-click the file or right-click in VS Code and choose **Open with Live Server** (requires the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension). The chart renders the sample data on the page.
+
+If the chart does not appear, open the browser's developer console to check for runtime errors.
 
 ## Output
 
 The following screenshot shows the output of the Syncfusion Chart quick start application:
 
 ![Syncfusion Chart Quick Start Output](./images/chart.png)
+
+## Troubleshooting
+
+* **Chart does not render** — Verify that the scripts load in the order `ej2-base` → `ej2-data` → `ej2-svg-base` → `ej2-charts`. Open the browser's developer console and check for `404` or `ReferenceError` messages.
+* **`ej is not defined`** — One of the CDN script tags failed to load. Check your network connection and verify the CDN URLs are correct.
+* **CORS or `file://` errors** — Some browsers block ES5 module loading from `file://`. Serve the file from a local HTTP server (for example, the VS Code **Live Server** extension).
+* **Wrong chart type** — Confirm the `type` property in the series matches the expected chart (for example, `Line`, `Column`, `Area`, `Bar`).
+* **Category axis not displaying labels** — Confirm `primaryXAxis.valueType` is set to `'Category'`.
+
+## See also
+
+* [Line Series](./Chart-types/line)
+* [Column Series](./Chart-types/line)
+* [Category Axis](./category-axis)
+* [Chart Title and Subtitle](./title-subtitle)
+* [Chart Legend](./legend)
+* [Chart Tooltip](./tool-tip)
+* [Working with Data](./working-with-data)
+
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/javascript/documentation/ai-coding-assistant/overview)

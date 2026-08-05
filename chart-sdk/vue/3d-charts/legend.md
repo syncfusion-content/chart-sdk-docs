@@ -16,6 +16,21 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Legend provides information about the series rendered in the 3D chart.
 
+## Enable legend
+
+You can use legend for the 3D Chart by setting the [`visible`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3dlegendsettingsmodel#visible) property to true in [`legendSettings`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel#legendsettings) object and by injecting the `Legend3D` into the `provide`.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/3d-charts/getting-started/sample-cs4/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/3d-charts/getting-started/sample-cs4/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/3d-charts/getting-started/sample-cs4" %}
+
 ## Position and alignment
 
 By using the [`position`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/legendSettings/#position) property, the legend can be positioned at left, right, top or bottom of the 3D chart. The legend is positioned at the bottom of the 3D chart, by default.

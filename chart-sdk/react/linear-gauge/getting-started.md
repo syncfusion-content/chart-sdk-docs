@@ -78,7 +78,7 @@ npm install @syncfusion/ej2-react-lineargauge
 The React Linear Gauge component can be added to the application by following these steps. Add the Linear Gauge component to the `src/App.tsx` (or `src/App.jsx`) file using the following code.
 
 {% tabs %}
-{% highlight jsx tabtitle="app.jsx" %}
+{% highlight js tabtitle="app.jsx" %}
 
 import { LinearGaugeComponent } from '@syncfusion/ej2-react-lineargauge';
 import * as React from 'react';
@@ -89,7 +89,7 @@ function App() {
 export default App;
 
 {% endhighlight %}
-{% highlight tsx tabtitle="app.tsx" %}
+{% highlight ts tabtitle="app.tsx" %}
 
 import { LinearGaugeComponent } from '@syncfusion/ej2-react-lineargauge';
 import * as React from 'react';
@@ -105,7 +105,7 @@ export default App;
 Make sure your `src/main.tsx` (or `src/main.jsx`) file renders the `App` component inside an element with `id="container"`. A minimal example is shown below.
 
 {% tabs %}
-{% highlight jsx tabtitle="main.jsx" %}
+{% highlight js tabtitle="main.jsx" %}
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -115,7 +115,7 @@ const root = ReactDOM.createRoot(document.getElementById('container'));
 root.render(<App />);
 
 {% endhighlight %}
-{% highlight tsx tabtitle="main.tsx" %}
+{% highlight ts tabtitle="main.tsx" %}
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';

@@ -46,7 +46,7 @@ Labels can be added to show additional information about the items in the TreeMa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% includecode-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs57/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/treemap/getting-started/treemap-cs57/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
