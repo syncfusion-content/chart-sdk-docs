@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ES5 getting started with JavaScript 3D Chart control | Syncfusion
-description:  Checkout and learn about ES5 getting started with JavaScript 3D Chart control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about ES5 getting started with JavaScript 3D Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
@@ -9,13 +9,19 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# ES5 getting started with JavaScript 3D Chart control
+# Getting Started with Syncfusion® JavaScript (ES5) 3D Chart Control
 
-This section explains the steps required to create a simple 3D Chart and demonstrates the basic usage of the 3D Chart control.
+Build your first Syncfusion JavaScript (ES5) application with a simple 3D Chart in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) 3D Chart from the CDN, initializes it with sample data, and renders an interactive Column chart with a title.
+
+## Prerequisites
+
+* [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
+* A web browser to view the result
+* A local web server such as the VS Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
 
 ## Dependencies
 
-Below is the list of minimum dependencies required to use the 3D Chart.
+The 3D Chart control ships as part of the `@syncfusion/ej2-charts` package. Below is the list of minimum dependencies required.
 
 ```
 |-- @syncfusion/ej2-charts
@@ -27,236 +33,48 @@ Below is the list of minimum dependencies required to use the 3D Chart.
     |-- @syncfusion/ej2-svg-base
 ```
 
-## Setup for local environment
 
-Follow these steps to set up your local environment.
+## Quick Setup
 
-**Step 1:** Create a root folder **myapp** for your application.
+### Step 1: Create Folder and HTML file
 
-**Step 2:** Create **myapp/resources** folder to store local scripts and styles.
+* Create a folder named `quickstart` in your desired directory.
+* Inside the `quickstart` folder, create two new files: `index.html` and `index.js`.
 
-**Step 3:** Create **myapp/index.js** and **myapp/index.html** files for initializing the Syncfusion Essential JS 2 3D Chart control.
+### Step 2: Add Syncfusion<sup style="font-size:70%">&reg;</sup> CDN Resources
 
-## Adding Syncfusion resources
+Include the following JavaScript links in the `<head>` section.
 
-The Syncfusion Essential JS 2 3D Chart control can be initialized in either of the following ways:
-
-* Using local script.
-* Using CDN links for scripts.
-
-### Using local script
-
-You can get the global scripts and styles from the [Essential Studio JavaScript (Essential JS 2)](https://www.syncfusion.com/downloads/essential-js2) build installed location.
-
-After installing the Essential JS 2 product build, you can copy the chart and its dependencies scripts and style file into the **resources/scripts** and **resources/styles** folder.
-
-The following shows the path to the chart's script and style files.
-
-**Syntax:**
-
-> Dependency script: `**(installed location)**/Syncfusion/Essential Studio/JavaScript - EJ2/{RELEASE_VERSION}/Web (Essential JS 2)/JavaScript/{DEPENDENCY_PACKAGE_NAME}/dist/global/{DEPENDENCY_PACKAGE_NAME}.min.js`
->
-> Script: `**(installed location)**/Syncfusion/Essential Studio/JavaScript - EJ2/{RELEASE_VERSION}/Web (Essential JS 2)/JavaScript/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
->
-
-**Example:**
-
-> Dependency script: `C:/Program Files (x86)/Syncfusion/Essential Studio/JavaScript - EJ2/32.1.19/Web (Essential JS 2)/JavaScript/ej2-base/dist/global/ej2-base.min.js`
->
-> Script: `C:/Program Files (x86)/Syncfusion/Essential Studio/JavaScript - EJ2/32.1.19/Web (Essential JS 2)/JavaScript/ej2-charts/dist/global/ej2-charts.min.js`
->
-
-After copying the files, reference the chart scripts from `index.html`. The following HTML shows the minimal chart dependencies.
-
+**Scripts (JavaScript):**
+```html
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js" type="text/javascript"></script>
 ```
 
-<!DOCTYPE html>
-  <html xmlns="https://www.w3.org/1999/xhtml">
-       <head>
-            <title>Essential JS 2 3D Chart</title>
-
-            <!-- Essential JS 2 Chart's dependent scripts -->
-            <script src="resources/scripts/ej2-base.min.js" type="text/javascript"></script>
-            <script src="resources/scripts/ej2-data.min.js" type="text/javascript"></script>
-            <script src="resources/scripts/ej2-svg-base.min.js" type="text/javascript"></script>
-
-            <!-- Essential JS 2 Chart's global script -->
-            <script src="resources/scripts/ej2-charts.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-       </body>
-  </html>
-
-```
-
-### Using CDN links for scripts
-
-Using a CDN, you can reference the chart control's script in the `index.html`.
-
-Refer the chart's CDN links as follows.
-
-**Syntax:**
-
-> Script: `https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
-
-**Example:**
-
-> Script: [`https://cdn.syncfusion.com/ej2/ej2-charts/dist/global/ej2-charts.min.js`](https://cdn.syncfusion.com/ej2/ej2-charts/dist/global/ej2-charts.min.js)
-
-The following HTML shows the minimal chart dependencies using CDN scripts.
+**Or**, to load all Syncfusion components in a single combined bundle:
 
 ```html
-<!DOCTYPE html>
-  <html xmlns="https://www.w3.org/1999/xhtml">
-       <head>
-            <title>Essential JS 2 3D Chart</title>
-            <!-- Essential JS 2 Chart's global script -->
-            <script src="https://cdn.syncfusion.com/ej2/ej2-charts/dist/global/ej2-charts.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-       </body>
-  </html>
-
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 ```
 
-## Adding 3D Chart control
+### Step 3: Add the Syncfusion<sup style="font-size:70%">&reg;</sup> 3D Chart Control to the Application
 
-Now you can add the 3D Chart control to the application. To get started, add a **div** element for the 3D Chart in **index.html**. Then reference the **index.js** file in **index.html**.
+The `index.html` file references a separate `index.js` file that contains the 3D Chart initialization. This keeps your markup and script logic cleanly separated, which is the recommended pattern for Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (ES5) apps.
 
-This document uses `ej2.min.js`, which includes all Essential JS 2 components and dependencies.
+The global scripts added in Step 2 register the `ej.charts.Chart3D` class on the `ej` namespace, so `index.js` does not import anything manually. The script then builds the 3D Chart with sample monthly sales data, applies a value-type of `'Category'` to the horizontal axis, formats the vertical axis labels, sets a chart title, and renders the control into the `#element` container defined in `index.html`.
 
-```html
-<!DOCTYPE html>
-  <html xmlns="https://www.w3.org/1999/xhtml">
-       <head>
-            <title>Essential JS 2 3D Chart</title>
-            <!-- Essential JS 2 all script -->
-            <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-           <!-- Add the HTML <div> element for 3D Chart  -->
-             <div id="element"></div>
-             <script src="index.js" type="text/javascript"></script>
-       </body>
-  </html>
+Key options used in the configuration object:
 
-```
+- [`primaryXAxis.valueType`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3daxismodel#valuetype) — Axis data type. Set to `'Category'` because the sample data uses month names.
+- [`primaryYAxis.labelFormat`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3daxismodel#labelformat) — Format string applied to the axis labels. The example uses `'${value}K'` to add a `$` prefix and `K` suffix to each label, where `{value}` is a placeholder for the raw number.
+- [`series`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3daxismodel#labelformat) — Array of series to render. Each series has a [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3daxismodel#labelformat), [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3dseriesmodel#xname), [`yName`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3dseriesmodel#yname), [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3dseriesmodel#type) (e.g. `'Column'`), and an optional [`name`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3dseriesmodel#name) used by the legend.
+- [`title`](https://ej2.syncfusion.com/javascript/documentation/api/chart3d/chart3daxismodel#title) — Text shown above the 3D Chart.
 
-Place the following 3D Chart initialization code in `index.js`.
+Finally, `chart3D.appendTo('#element')` renders the control into the `<div id="element">` element declared in `index.html`.
 
-```javascript
-
-var chart3D = new ej.charts.Chart3D();
-chart3D.appendTo('#element');
-
-```
-
-The following example shows a basic 3D Chart.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs1" %}
-
-## Populate 3D Chart with data
-
-This section explains how to plot the following JSON data to the 3D Chart.
-
-```javascript
-
-var chartData = [
-     { month: 'Jan', sales: 35 }, { month: 'Feb', sales: 28 },
-     { month: 'Mar', sales: 34 }, { month: 'Apr', sales: 32 },
-     { month: 'May', sales: 40 }, { month: 'Jun', sales: 32 },
-     { month: 'Jul', sales: 35 }, { month: 'Aug', sales: 55 },
-     { month: 'Sep', sales: 38 }, { month: 'Oct', sales: 30 },
-     { month: 'Nov', sales: 25 }, { month: 'Dec', sales: 32 }
-];
-
-```
-
-Add a series object to the 3D Chart by using the [`series`](../api/chart3d/chart3dseriesmodel) property. Map the JSON fields `month` and `sales` to the series [`xName`](../api/chart3d/chart3dseriesmodel#xname) and [`yName`](../api/chart3d/chart3dseriesmodel#yname) properties, and set the JSON array as the [`dataSource`](../api/chart3d/chart3dseriesmodel#datasource) property.
-
-Since the JSON contains category data, set the [`valueType`](../api/chart3d/chart3daxismodel#valuetype) for the horizontal axis (primaryXAxis) to `Category`. By default, the axis valueType is `Numeric`.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs2" %}
-
-The sales values are in thousands, so format the vertical axis label by adding `$` as a prefix and `K` as a suffix to each label. This can be achieved by setting `${value}K` to the [`labelFormat`](../api/chart3d/chart3daxismodel#labelformat) property of the axis. Here, `{value}` acts as a placeholder for each axis label.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs3" %}
-
-## Add 3D Chart title
-
-You can add a title using the [`title`](../api/chart3d/chart3DModel#title) property to the 3D Chart to provide quick information to the user about the data plotted in the 3D Chart.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs4/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs4" %}
-
-## Enable legend
-
-You can enable the legend for the 3D Chart by setting the [`visible`](../api/chart3d/chart3dlegendsettingsmodel#visible) property to `true` in the [`legendSettings`](../api/chart3d/chart3DModel#legendsettings) object.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs5/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs5" %}
-
-## Add data label
-
-You can add data labels to improve the readability of the 3D Chart. This can be achieved by setting the [`visible`](../api/chart3d/chart3ddatalabelsettingsmodel#visible) property to `true` in the [`dataLabel`](../api/chart3d/chart3dseriesmodel#datalabel) object. Now, the data labels are arranged smartly based on series.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs6/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs6" %}
-
-## Enable tooltip
-
-The tooltip is useful when you cannot display information by using the data labels due to space constraints. You can enable the tooltip by setting the [`enable`](../api/chart3d/chart3dtooltipsettingsmodel#enable) property to `true` in the [`tooltip`](../api/chart3d/chart3DModel#tooltip) object.
+Copy the snippets below into the matching files in your `quickstart` folder.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -266,5 +84,22 @@ The tooltip is useful when you cannot display information by using the data labe
 {% include code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
+### Step 4: Open in Browser
+
+Open `quickstart/index.html` through a local web server. With the VS Code **Live Server** extension installed, right-click `index.html` in the Explorer and choose **Open with Live Server**, then visit the URL it prints (for example, `http://127.0.0.1:5500/`). You should see the Syncfusion 3D Chart control displaying the sample sales data.
+
+## Output
+
+The 3D Chart shows 12 months of sales data rendered as 3D columns. The title "Sales Analysis" appears above the chart.
+
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs7" %}
+
+![Syncfusion 3D Chart Quick Start Output](./images/3D-Chart.png)
+
+## Troubleshooting
+
+- **The page is blank.** Open the page through a local web server (for example, the VS Code **Live Server** extension) instead of double-clicking the file. Syncfusion charts require an `http://` or `https://` origin.
+- **`ej is not defined`.** Confirm that `ej2-charts.min.js` is loaded before your script. Place the `<script>` tag inside the `<head>` or just before your own `<script src="index.js">` tag.
+- **The container is empty.** Make sure the `id` in your markup (`#element`) matches the selector passed to `appendTo('#element')`.
+- **The axis labels are missing the `$`/`K` prefix/suffix.** Verify that `primaryYAxis.labelFormat` is set to `'${value}K'` (with the curly braces preserved).

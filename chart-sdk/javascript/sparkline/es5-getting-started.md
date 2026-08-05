@@ -69,10 +69,10 @@ The global scripts added in the previous step register the `ej.charts.Sparkline`
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/index.js %}
+{% include code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/index.html %}
+{% include code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

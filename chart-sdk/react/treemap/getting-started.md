@@ -73,7 +73,7 @@ npm install @syncfusion/ej2-react-treemap
 
 Replace the contents of `src/App.jsx` (or `src/App.tsx` for TypeScript) with the following code to render a simple TreeMap:
 
-```tsx
+```
 
 import * as React from 'react';
 import { TreeMapComponent } from '@syncfusion/ej2-react-treemap';
@@ -86,12 +86,13 @@ export function App() {
     { State: "Ecuador", Count: 7 },
     { State: "Chile", Count: 6 }
   ];
+  const leafItemSettings = { labelPath: 'State' };
   return (
     <TreeMapComponent
       height="350px"
       dataSource={dataSource}
       weightValuePath="Count"
-      leafItemSettings={{ labelPath: 'State' }}
+      leafItemSettings={leafItemSettings}
     />
   );
 }
@@ -104,7 +105,7 @@ export default App;
 
 Open `src/main.jsx` (or `src/main.tsx`) and ensure the `App` component is mounted to the DOM:
 
-```tsx
+```
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { App } from './App';
@@ -132,7 +133,7 @@ The TreeMap component is segregated into individual feature-wise modules. To use
 
 The example below shows how to inject the `TreeMapLegend` module:
 
-```tsx
+```
 import { TreeMapComponent, Inject, TreeMapLegend } from '@syncfusion/ej2-react-treemap';
 
 <TreeMapComponent dataSource={dataSource} weightValuePath="Count">
