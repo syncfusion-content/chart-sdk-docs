@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P3WXFWCW');
+    </script>
+    <!-- Load GTM-W8WD8WN on user interaction -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const events = ["mousemove", "scroll", "keydown", "touchstart"];
+            function loadGTM() {
+                events.forEach(event => document.removeEventListener(event, loadGTM));
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+                            new Date().getTime(), event: 'gtm.js'
+                    }); var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-W8WD8WN');
+            }
+            events.forEach(event => document.addEventListener(event, loadGTM, { once: true }));
+        });
+    </script>
+
+    <meta charset="UTF-8">
+	<link href="https://www.googletagmanager.com" rel="preconnect">
+	<link href="https://cdn.jsdelivr.net" rel="preconnect" crossorigin>
+	<link href="https://cdn.syncfusion.com" rel="preconnect" crossorigin>
+	<link href="https://cdn.syncfusion.com" rel="dns-prefetch">
+    <title>Welcome to Syncfusion Essential</title>
+    <meta name="description" content="Learn here all about Appearance of Syncfusion Essential" />
+    
+    <meta name="keywords" content="syncfusion, documentation, help, ej, user guide, demo, samples, essential studio" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    
+    <meta property="og:title" content="Welcome to Syncfusion Essential" />
+    
+    
+    <meta property="og:description" content="Learn here all about Appearance of Syncfusion Essential" />
+    
+    <meta property="og:image" content="https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_Logo_Image.png" />
+    <meta property="og:url" content="https://help.syncfusion.com/" />
+    <meta property="og:site_name" content="Help.Syncfusion.com" />
+    <meta property="og:type" content="website" />
+
+	<meta property="twitter:account_id" content="41152441" />
+	
+    <meta property="twitter:title" content="Welcome to Syncfusion Essential" />
+	
+    <meta property="twitter:url" content="https://help.syncfusion.com/" />
+    <meta property="twitter:card" content="summary" />
+	
+    <meta property="twitter:description" content="Learn here all about Appearance of Syncfusion Essential" />
+	
+    <meta property="twitter:image" content="https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_logos.png" />
+	
+	
+	
+     
+	<link rel="alternate" hreflang="en-US" href="https://help.syncfusion.com/chart-sdk/asp-net-core/sparkline-charts/appearance.md.bak" />
+	<!-- Google Structured Data -->
+	<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "Organization",
+			  "name": "Syncfusion",
+			  "url": "https://help.syncfusion.com/chart-sdk/asp-net-core/sparkline-charts/appearance.md.bak",
+			  "logo": "https://cdn.syncfusion.com/content/images/company-logos/Syncfusion_logos.png",
+			  "sameAs": [
+				"https://www.facebook.com/Syncfusion",
+				"https://twitter.com/Syncfusion",
+				"https://www.linkedin.com/company/syncfusion?trk=top_nav_home",
+				"mailto:support@syncfusion.com?"
+			  ]
+			}
+	</script>
+	
+	
+	
+
+
+	<script type="application/ld+json">
+	{
+		 "@context": "https://schema.org",
+		 "@type": "TechArticle",
+		 "@id": "https://help.syncfusion.com/chart-sdk/asp-net-core/sparkline-charts/appearance.md.bak",
+		 "headline": "Welcome to Syncfusion Essential",
+		 "name": "Welcome to Syncfusion Essential",
+		 "description": "Learn here all about Appearance of Syncfusion Essential",
+		 "inLanguage": "en",
+		 "datePublished": "07-07-2026",
+		 "dateModified": "##Last Modified date##",
+		 "mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://help.syncfusion.com/chart-sdk/asp-net-core/sparkline-charts/appearance.md.bak"
+		 },
+		 "publisher": {
+			"@id": "https://help.syncfusion.com/chart-sdk/asp-net-core/sparkline-charts/appearance.md.bak"
+		 },
+		 "author": {
+			"@type": "Organization",
+			"@id": "https://help.syncfusion.com/chart-sdk/asp-net-core/sparkline-charts/appearance.md.bak"
+		 },
+		 "about": {
+			"@type": "Thing",
+			"name": "chart-sdk asp-net-core component"
+		 },
+		 "isPartOf": {
+			"@type": "CreativeWorkSeries",
+			"name": "Syncfusion chart-sdk asp-net-core Components Documentation"
+		 }
+	}
+	</script>
+    <script>
+        function ExceptionlessLazyLoader() {
+            let s = 0, e = ['mousemove', 'scroll', 'keydown', 'touchstart'], l = () => {
+                if (s) return; s = 1;
+                let j = document.createElement('script');
+                j.type = 'module';
+                j.src = 'https://cdn.syncfusion.com/documentation/scripts/Exceptionless-logger.min.js';
+                document.head.appendChild(j);
+                e.forEach(x => removeEventListener(x, l));
+            };
+            e.forEach(x => addEventListener(x, l, { once: 1 }));
+        }
+    </script>
+    <script src="https://cdn.syncfusion.com/documentation/scripts/console-capture.min.js" async defer onload="ExceptionlessLazyLoader()">
+    </script>
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+	<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<link rel="preload" href="https://cdn.syncfusion.com/documentation/styles/ej/v13.4.0.58/ej.widgets.core.min.css" as="style">
+	<link rel="stylesheet" href="https://cdn.syncfusion.com/documentation/styles/ej/v13.4.0.58/ej.widgets.core.min.css">
+
+	<!--Doc-site.css file has minified, gziped and referred here
+		File path : "DocumentationAutomation\website\Content\Stylesheets\CSS\"
+	-->
+	<link rel="preload" href="https://cdn.syncfusion.com/documentation/styles/doc-site.min.css" as="style">
+	<link rel="stylesheet" href="https://cdn.syncfusion.com/documentation/styles/doc-site.min.css">
+
+    <script src="//cdn.syncfusion.com/documentation/scripts/documentation.gzip.min.js" defer></script>
+
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+	<script src="//cdn.syncfusion.com/documentation/scripts/ej.widget.v13.4.0.58.min.js" defer></script>
+
+    <!--Combined the following scripts files dashboard.js, doc-site.js, waitingpopup.js and named as doc-site.js. it has minified, gziped and referred here.
+        File path : "DocumentationAutomation\website\Scripts\"
+    -->
+    <script src="https://cdn.syncfusion.com/documentation/scripts/doc-site.min.js" defer></script>
+	<script src="https://cdn.syncfusion.com/documentation/scripts/helpbot-search.min.js" defer></script>
+	<script src="https://cdn.syncfusion.com/documentation/scripts/pagevisit.min.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.2/markdown-it.min.js" defer></script>
+    <script src="//d2g29cya9iq7ip.cloudfront.net/documentation/scripts/clipboard.min.js" defer></script>
+    
+    <script>
+	 window.addEventListener('load', function () {
+        if (typeof $ === 'undefined' || typeof ej === 'undefined') {
+            console.warn("Syncfusion scripts still loading... waiting");
+            return;
+        }
+			$(document).ready(function() {
+				// left tree view
+				$('#rightsidetoc').toc();
+				$('#rightsidetoc').toc({noBackToTopLinks: true});
+				$('#rightsidetoc').toc({listType: 'ol'});
+				$("#rightsidetoc ul:first").attr("id", "righttree");
+				$('#rightsidetoc ol').length ? $(".right-toc-icon").css("display","block") : $(".right-toc-icon").css("display","none");
+				$('#rightsidetoc ol').length ? $("#rightsidetoc").css("display","block") : $("#rightsidetoc").css("display","none");
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			});
+		});
+    </script>
+    <script>
+        // Share referral origin URL details to syncfusion site
+        var expireDate = new Date();
+        expireDate.setTime(expireDate.getTime() + (30 * 60 * 1000)); // set 30 minutes expire time
+        var existingCookieValue = getCookieValue("SampleSiteReferrer");
+        if (document.referrer && document.referrer.split('/')[2].indexOf('syncfusion.com') == -1) {
+            document.cookie = "SampleSiteReferrer" + "=" + document.referrer + "," + window.location.href + ";expires=" + expireDate + ";path=/;domain=syncfusion.com";
+        }
+        else if (existingCookieValue != "undefined" && existingCookieValue != undefined && existingCookieValue != "") {
+            // Increase expire time for SampleSiteReferrer cookie with 30 minutes if exists
+            document.cookie = "SampleSiteReferrer" + "=" + existingCookieValue + ";expires=" + expireDate + ";path=/;domain=syncfusion.com";
+        }
+        else {
+            document.cookie = "SampleSiteReferrer" + "=" + window.location.href + ";expires=" + expireDate + ";path=/;domain=syncfusion.com";
+        }
+
+        // To get cookie value
+        function getCookieValue(cookieName) {
+            var name = cookieName + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var cookieValues = decodedCookie.split(';');
+            for (var i = 0; i < cookieValues.length; i++) {
+                var cookie = cookieValues[i];
+                while (cookie.charAt(0) == ' ') {
+                    cookie = cookie.substring(1);
+                }
+                if (cookie.indexOf(name) == 0) {
+                    return cookie.substring(name.length, cookie.length);
+                }
+            }
+            return "";
+        }
+    </script>
+
+    
+    
+    
+    
+    
+    <meta name="robots" content="follow, index" />
+    
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3WXFWCW"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!--Interaction-->
+	<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8WD8WN"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+<div hidden="" id="sync-analytics" data-queue="EJ2 - Documentation"></div>
+
+<div hidden="" id="sync-analytics" data-queue="EJ2 - Documentation"></div>   
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <nav class="navbar navbar-default navbar-fixed-top syncfusion-menu">
+			 
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <div class="syncfusion-logo">
+                            <div class="left-menu-icon" data-bs-toggle="collapse" data-bs-target="#table-of-contents">
+                            </div>
+                            <div>
+                                <a href="/">
+                                    <i class="brand-logo syncfusion-brand-logo"></i>
+                                </a>
+                            </div>
+                            <div class="js-doc">
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+
+                                
+
+                                
+
+                                
+
+                                
+								
+								
+
+								
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+								
+								
+								
+								
+
+								
+
+								
+
+
+                                
+
+                                 
+								
+								
+								
+								
+								
+																
+								
+								
+								
+								
+								 
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+
+
+                            </div>
+							
+							
+                        </div>
+						<div class="search">
+								
+
+
+<input type="text" id="customSearchBox" placeholder="Search or ask Syncfusion AI" autocomplete="off" />
+<div id="suggestionModal">
+    <div class="icon-background">
+        <span class="icon-left"></span>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search or ask Syncfusion AI">
+        <span class="icon-right"></span>
+    </div>
+    <div class="suggestionContainer">
+        <div class="docssuggestioncontainer">
+            <h3 class="suggestionhtmlheading">Search docs</h3>
+            <ul id="docsSuggestions"></ul>
+        </div>
+        <div class="helpbotsuggestioncontainer">
+            <h3 class="icon-before">Ask Syncfusion AI Assistant</h3>
+            <div id="helpbotlistcontainer">
+                <ul id="helpBotSuggestions"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+						</div>
+						<button type="button" class="navbar-toggle desktop-icon collapsed" data-bs-toggle="collapse" data-bs-target="#desktop-links">
+                            <span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+                        </button>
+						<button type="button" class="navbar-toggle mobile-icon collapsed" data-bs-toggle="collapse" data-bs-target="#mobile-view-link">
+                           <span class="mobile-view-icon"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="desktop-links">
+                        <ul class="nav navbar-nav navbar-right">
+									
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+				
+			
+			
+						</ul>
+					</div><!-- /.navbar-collapse -->
+                    <div class="collapse navbar-collapse" id="mobile-view-link">
+                        <ul class="nav navbar-nav mobile-unorderlist">
+                             <li class="search-mobile">
+                                
+
+
+<input type="text" id="customSearchBox" placeholder="Search or ask Syncfusion AI" autocomplete="off" />
+<div id="suggestionModal">
+    <div class="icon-background">
+        <span class="icon-left"></span>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search or ask Syncfusion AI">
+        <span class="icon-right"></span>
+    </div>
+    <div class="suggestionContainer">
+        <div class="docssuggestioncontainer">
+            <h3 class="suggestionhtmlheading">Search docs</h3>
+            <ul id="docsSuggestions"></ul>
+        </div>
+        <div class="helpbotsuggestioncontainer">
+            <h3 class="icon-before">Ask Syncfusion AI Assistant</h3>
+            <div id="helpbotlistcontainer">
+                <ul id="helpBotSuggestions"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div id="breadcrumb">
+		
+
+<ul class="breadcrumb">
+  <li>
+    <a href="/"><i class="sf-icon-Home"></i></a>
+  </li>
+
+  
+  
+
+  
+  
+   <!-- Non-API breadcrumb logic: inject /documentation/ for EJ2 platforms except ej2-typescript --> 
+   
+   
+   
+
+   
+   
+
+
+   
+
+   
+
+  <!-- Platform crumb --> 
+  <li class="active breadcrumb-links"><a href="/chart-sdk/"></a></li> 
+
+	 <!-- Remaining crumbs (skip first segment + skip documentation) --> 
+	 
+	    
+	    
+		   
+	<!-- Platform mapping lookup -->
+		  
+		 
+		  
+			 
+			 
+			 
+				
+				
+	<!-- If no mapping found, use original crumb -->
+		  
+		   
+	<li class="active breadcrumb-links"><a href="/chart-sdk/asp-net-core/">ASP.NET Core</a></li> 
+		   
+	    
+	 
+	    
+	    
+		   
+	<!-- Platform mapping lookup -->
+		  
+		 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+	<!-- If no mapping found, use original crumb -->
+		  
+		   
+	<li class="active breadcrumb-links"><a href="/chart-sdk/asp-net-core/sparkline-charts/">sparkline charts</a></li> 
+		   
+	    
+	 
+	    
+	    
+		   
+	<!-- Platform mapping lookup -->
+		  
+		 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+			 
+			 
+			 
+		  
+	<!-- If no mapping found, use original crumb -->
+		  
+		   
+	<li class="active" data-text="appearance.md.bak">appearance.md.bak</li> 
+		   
+	    
+	
+	  
+	</ul>
+<!-- Breadcrumb Schema (JSON-LD) -->
+			<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "BreadcrumbList",
+			  "@id": "https://help.syncfusion.com/chart-sdk/asp-net-core/sparkline-charts/appearance.md.bak/#breadcrumb",
+			  "itemListElement": [
+				
+				
+				
+				
+				  
+				
+				  
+				     
+					
+					  {
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Documentation",
+						"item": "https://help.syncfusion.com/"
+					  },
+					
+					
+				  
+				
+				  
+				     
+					
+					  {
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Chart sdk",
+						"item": "https://help.syncfusion.com/chart-sdk/"
+					  },
+					
+					
+				  
+				
+				  
+				     
+					
+					  {
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Asp net core",
+						"item": "https://help.syncfusion.com/chart-sdk/asp-net-core/"
+					  },
+					
+					
+				  
+				
+				  
+				     
+					
+					  {
+						"@type": "ListItem",
+						"position": 4,
+						"name": "Sparkline charts",
+						"item": "https://help.syncfusion.com/chart-sdk/asp-net-core/sparkline-charts/"
+					  },
+					
+					
+				  
+				
+				  
+				
+			  ]
+			}
+			</script>
+		<div class="right-aiassistant">
+			<div class="split-button">
+				<button id="assistant-toggle" class="assistant-btn" data-tooltip="Syncfusion AI Assistant">Ask AI</button>				
+				<button id="dropdown-btn" data-tooltip="More" aria-expanded="true"> <span class="dropdown-arrow"></span></button>
+			</div>
+	   <div class="right-breadcrumb">
+			
+			
+			
+			
+
+				<div class="ug-download">
+					<a data-bs-toggle="tooltip" data-placement="bottom" href="https://help.syncfusion.com/download/user-guide/pdf/ej2-asp-core-mvc" class="download-link" title="Download PDF">
+						<span class="sf-icon-Download"></span>
+						<span class="ug-file-type">PDF</span>
+					</a>
+				</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			 
+			
+			
+			
+			 
+			
+			
+			
+			
+			
+			
+			
+			
+        </div>
+      </div>
+		</div>
+		
+    </div>
+
+<div class="help-content">
+	<div class="left-toc" id="table-of-contents">
+		<div class="left-toc-content">
+			<ul class="treeview"></ul>
+		</div>
+	</div>
+
+	
+	<div class="post">
+        <button type="button" id="left-toc-closebtn"></button>
+		<button type="button" id="right-toc-closebtn"></button>	
+			
+			<div id="rightsidetoc"></div>
+		
+
+		<div class="post-content">
+		# Appearance
+
+The appearance of the sparkline can be customized using margin, container Area border, and container Area background.
+
+## Sparkline border
+
+The [`containerArea border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineContainerArea~Border.html) of the sparkline is used to render border to cover sparkline area.
+
+The following code example shows the sparkline with overall border.
+
+
+
+
+
+## Sparkline padding
+
+Padding is used to specify padding value between container and sparkline. By default, padding value of the sparkline is 5. Sparkline [`padding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklinePadding.html) values are specified by the left, right, top, and bottom.
+
+The following code example shows the sparkline with overall padding is set to 20.
+
+
+
+
+
+## Sparkline area customization
+
+The background color of the sparkline area can be customized using the [`containerArea background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineContainerArea~BackGround.html) color. By default, the sparkline background color is `transparent`.
+
+
+
+
+
+## Sparkline theme
+
+Datalabel and track line colors of the sparkline will be changed based on theme. For example, for dark theme, the color of datalabel and track line should be white; for light theme, their value should be black. The possible values for sparkline theme are [`Material`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), [`Fabric`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), [`Bootstrap`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), and [`Highcontrast`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html).
+
+The following code example shows the color for datalabel and track line is set to white for dark theme.
+
+
+
+
+		</div>
+              <div class="feedback-down-response" style="display:none">			
+				Help us improve this page
+				
+		      <div id="checkboxes" class="multiselect">			     
+                   <input type="checkbox" name="checkbox" id="one" value="Correct inaccurate or outdated content" /><label for="one" class="label-one">Correct inaccurate or outdated content</label>
+				   
+				   <br />
+				   <textarea id="commentone" class="form-control message hide" rows="3" placeholder="Please specify what content needs correction..."></textarea>
+				   <div class="error-messageone">Please provide additional information</div>				  
+				   <input type="checkbox" name="checkbox" id="two" value="Improve illustrations or images" /><label for="two" class="label-two">Improve illustrations or images</label>				   
+
+				   <br />
+				   <textarea id="commenttwo" class="form-control message hide" rows="3" placeholder="Please specify which images can be improved..."></textarea>
+				   <div class="error-messagetwo">Please provide additional information</div>
+                   <input type="checkbox" name="checkbox" id="three" value="Fix typos or broken links" /><label for="three" class="label-three">Fix typos or broken links</label>
+				   <br />
+				  
+				 <textarea id="commentthree" class="form-control message hide" rows="3" placeholder="Please specify what needs to be fixed..."></textarea>
+				 <div class="error-messagethree">Please provide additional information</div>
+				 
+				   <input type="checkbox" name="checkbox" id="four" value="Add more information" /> <label for="four" class="label-four">Add more information</label>
+				   <br />
+				   
+				   <textarea id="commentfour" class="form-control message hide" rows="3" placeholder="Please specify what information should be added..."></textarea>
+			       <div class="error-messagefour">Please provide additional information</div>
+				   				  
+                   <input type="checkbox" name="checkbox" id="five" value="Correct inaccurate or outdated code samples" /><label for="five" class="label-five">Correct inaccurate or outdated code samples</label>
+				   <br />
+				   
+				   
+				   <textarea id="commentfive" class="form-control message hide" rows="3" placeholder="Please specify what needs correction..."></textarea>
+				   <div class="error-messagefive">Please provide additional information</div>
+				   
+				   <input type="checkbox" name="checkbox" id="six" value="Other" /><label for="six" class="label-six">Other</label>	
+                   
+			      <textarea id="commentsix" class="form-control message hide" rows="3" placeholder="Please enter feedback on topics not previously listed..."></textarea>
+                   <div class="error-messagesix">Please provide additional information</div>				   
+			  </div>
+			      <input type="text" class="form-control mail" placeholder="Email (optional)" />
+				  <div class="emailcheckbox"><input type="checkbox" id="email" disabled /></div>
+				  <label class="information">I agree to the creation of a Syncfusion account in my name and to be contacted regarding this message. No further action will be taken. Please see our <a href="https://www.syncfusion.com/legal/privacy-policy">Privacy Policy.</a></label>
+				  <div id="email-error-message"></div>
+			  <div class="button">
+                <input type="button" id="skipButton" class="btn" value="Cancel" />		
+                <input type="submit" id="submitButton" name="submit" class="btn" value="Submit" />
+              </div>
+		   
+			<div id="feedbacks-dialogue">
+				<div id="closeicon"></div> 
+				<iframe id="feedback-frame"></iframe>
+			</div>
+		</div>
+		
+
+		</div>
+		
+
+<footer class="row-fluid">
+	<div class="hidden-xs">
+		
+		<a class="copyright" href="mailto:support@syncfusion.com" title="Follow Syncfusion on Mail"><span class="icon-mail"></span></a>
+		
+		<a class="copyright" target="_blank" href="https://www.linkedin.com/company/syncfusion?trk=top_nav_home" title="Follow Syncfusion on LinkedIn"><span class="icon-linkedin"></span></a>
+		<a class="copyright" target="_blank" href="https://x.com/Syncfusion" title="Follow Syncfusion on X"><span class="icon-twitter"></span></a>
+		<a class="copyright" target="_blank" href="https://www.facebook.com/Syncfusion" title="Follow Syncfusion on Facebook"><span class="icon-fb"></span></a>
+		<a class="copyright" target="_blank" href="https://www.syncfusion.com/copyright">Copyright &copy; 2001 - <span id="copyright-year"></span> Syncfusion Inc. All Rights Reserved</a>
+		<div class="feedback-section">
+			<div class="feedback-part">
+				<div class="feedback-ques">
+					Was this page helpful?
+					<span id="feedback-up" class="feedback">
+						Yes
+					</span>
+					<span id="feedback-down" class="feedback">
+						No
+					</span>
+				</div>
+				<div class="feedback-up-response">
+					Thank you for your feedback!
+				</div>
+				<div class="feedback-confirmation">
+					Thank you for your feedback and comments. We will rectify this as soon as possible!
+				</div>
+				<div class="feedback-error">
+					An unknown error has occurred. Please try again.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="visible-xs ">
+		<div class="feedback-section">
+			<div class="feedback-part">
+				<div class="feedback-ques">
+					Was this page helpful?
+					<span id="feedback-up" class="feedback">
+						Yes
+					</span>
+					<span id="feedback-down" class="feedback">
+						No
+					</span>
+				</div>
+
+				<div class="feedback-up-response">
+					Thank you for your feedback!
+				</div>
+				<div class="feedback-confirmation">
+					Thank you for your feedback and comments. We will rectify this as soon as possible!
+				</div>
+				<div class="feedback-error">
+					An unknown error has occurred. Please try again.
+				</div>
+			</div>
+		</div>
+		<div class="col-xs social-icons">
+			<a target="_blank" href="https://www.facebook.com/Syncfusion" title="Follow Syncfusion on Facebook"><span class="icon-fb"></span></a>
+			<a target="_blank" href="https://x.com/Syncfusion" title="Follow Syncfusion on X"><span class="icon-twitter"></span></a>
+			<a target="_blank" href="https://www.linkedin.com/company/syncfusion?trk=top_nav_home" title="Follow Syncfusion on LinkedIn"><span class="icon-linkedin"></span></a>
+			
+			<a href="mailto:support@syncfusion.com" title="Follow Syncfusion on Mail"><span class="icon-mail"></span></a>
+			
+			<div class="col-xs">
+				<a class="copyright" target="_blank" href="https://www.syncfusion.com/copyright">Copyright &copy; 2001 - <span id="copyright-year-mobile"></span> Syncfusion Inc. All Rights Reserved</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	
+
+
+
+<!-- The Modal -->
+<div id="image-modal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="modal-close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="original-img">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+</body>
+</html>
