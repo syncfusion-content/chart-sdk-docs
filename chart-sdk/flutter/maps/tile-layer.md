@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Tile Layer in Flutter Maps | Syncfusion
-description: Step-by-step guide to configure the Tile Layer in Syncfusion Flutter Maps—set URL templates, add providers (OSM, Bing, TomTom), and focal point and zoom.
-platform: chart-sdk
+title: Tile Layer in Flutter Maps | Syncfusion®
+description: Learn about tile layers in Syncfusion® Flutter Maps (SfMaps), including map providers, URL templates, zooming, and tile customization.
+platform: flutter
 control: SfMaps
 documentation: ug
 ---
 
-# Flutter Maps Tile Layer (SfMaps)
+# Tile Layer in Flutter Maps (SfMaps)
 
 The tile layer renders the tiles returned from web map tile services such as Bing Maps, OpenStreetMap, Google Maps, TomTom, and others.
 
@@ -34,15 +34,20 @@ N> Though OpenStreetMap is free of cost, we recommend you check the licensing te
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return SfMaps(
-        layers: [
-            MapTileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-            ),
-        ],
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return SfMaps(
+          layers: [
+              MapTileLayer(
+                  urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+              ),
+          ],
+      );
+  }
 }
  
 {% endhighlight %}
@@ -61,24 +66,29 @@ Some providers offer different map types. For example, Bing Maps provides map ty
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return FutureBuilder(
-        future: getBingUrlTemplate(
-            'https://dev.virtualearth.net/REST/V1/Imagery/Metadata/RoadOnDemand?output=json&uriScheme=https&include=ImageryProviders&key=YOUR_KEY'),
-        builder: (context, snapshot) {
-            if (snapshot.hasData) {
-                return SfMaps(
-                    layers: [
-                        MapTileLayer(
-                            urlTemplate: snapshot.data as String,
-                        ),
-                    ],
-                );
-           }
-        return CircularProgressIndicator();
-        }
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return FutureBuilder(
+          future: getBingUrlTemplate(
+              'https://dev.virtualearth.net/REST/V1/Imagery/Metadata/RoadOnDemand?output=json&uriScheme=https&include=ImageryProviders&key=YOUR_KEY'),
+          builder: (context, snapshot) {
+              if (snapshot.hasData) {
+                  return SfMaps(
+                      layers: [
+                          MapTileLayer(
+                              urlTemplate: snapshot.data as String,
+                          ),
+                      ],
+                  );
+             }
+          return CircularProgressIndicator();
+          }
+      );
+  }
 }
  
 {% endhighlight %}
@@ -97,15 +107,20 @@ Below is an example of adding TomTom map. You can get the TomTom API key from th
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return SfMaps(
-        layers: [
-            MapTileLayer(
-                urlTemplate: 'http://api.tomtom.com/map/1/tile/basic/main/{z}/{x}/{y}.png?key=subscription_key',
-            ),
-        ],
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return SfMaps(
+          layers: [
+              MapTileLayer(
+                  urlTemplate: 'http://api.tomtom.com/map/1/tile/basic/main/{z}/{x}/{y}.png?key=subscription_key',
+              ),
+          ],
+      );
+  }
 }
 
 {% endhighlight %}
@@ -124,16 +139,21 @@ This property cannot be changed dynamically. Defaults to `MapLatLng(0.0, 0.0)`.
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return SfMaps(
-        layers: [
-            MapTileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                initialFocalLatLng: MapLatLng(27.1751, 50.0421),
-            ),
-        ],
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return SfMaps(
+          layers: [
+              MapTileLayer(
+                  urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                  initialFocalLatLng: MapLatLng(27.1751, 50.0421),
+              ),
+          ],
+      );
+  }
 }
  
 {% endhighlight %}
@@ -150,17 +170,22 @@ This property cannot be changed dynamically.
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return SfMaps(
-        layers: [
-            MapTileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                initialFocalLatLng: MapLatLng(27.1751, 78.0421),
-                initialZoomLevel: 5,
-            ),
-        ],
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return SfMaps(
+          layers: [
+              MapTileLayer(
+                  urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                  initialFocalLatLng: MapLatLng(27.1751, 78.0421),
+                  initialZoomLevel: 5,
+              ),
+          ],
+      );
+  }
 }
  
 {% endhighlight %}
