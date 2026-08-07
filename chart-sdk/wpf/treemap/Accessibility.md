@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in WPF TreeMap control | Syncfusion
 description: Learn here about Accessibility support with the Syncfusion WPF TreeMap (SfTreeMap) control, its elements and more.
-platform: chart-sdk
+platform: wpf
 control: TreeMap
 documentation: ug
 ---
