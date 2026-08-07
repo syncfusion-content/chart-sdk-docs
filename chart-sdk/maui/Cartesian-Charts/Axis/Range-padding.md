@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Axis range padding in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about axis range padding and its types features of Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Axis Range Padding in .NET MAUI Cartesian Chart | Syncfusion®
+description: Axis Range Padding in .NET MAUI Cartesian Chart adjusts axis boundaries to improve data presentation and prevent points from appearing at chart edges.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -12,7 +12,7 @@ keywords: .net maui cartesian chart axis range padding, .net maui cartesian char
 
 Range padding is used to set the minimum and maximum extremes of the chart axis range by using the [RangePadding](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.NumericalAxis.html#Syncfusion_Maui_Charts_NumericalAxis_RangePadding) property. The [RangePadding](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RangeAxisBase.html#Syncfusion_Maui_Charts_RangeAxisBase_RangePadding) property, available on axes derived from [RangeAxisBase](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RangeAxisBase.html) such as [NumericalAxis](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.NumericalAxis.html), [DateTimeAxis](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.DateTimeAxis.html), and [LogarithmicAxis](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.LogarithmicAxis.html), can be used to add padding to the range of the chart axis.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 ## Numerical Range Padding
 

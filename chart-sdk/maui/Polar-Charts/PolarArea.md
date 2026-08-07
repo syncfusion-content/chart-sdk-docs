@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Polar Area Chart in .NET MAUI Polar Chart Control | Syncfusion
-description: Learn here all about the Polar area chart type and its features in the Syncfusion® .NET MAUI Polar Chart (SfPolarChart) control.
+title: Polar Area Chart in .NET MAUI Polar Chart | Syncfusion®
+description: Polar Area Chart in .NET MAUI Polar Chart displays data as proportional segments in a polar coordinate system, enabling effective comparison of values.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
@@ -13,7 +13,7 @@ documentation: ug
 
 To display an area series in a polar chart, instantiate the [PolarAreaSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.PolarAreaSeries.html) and include it in the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfPolarChart.html#Syncfusion_Maui_Charts_SfPolarChart_Series) collection property of [SfPolarChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfPolarChart.html).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
 
 {% tabs %}
 
