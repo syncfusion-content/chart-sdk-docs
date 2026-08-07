@@ -1,15 +1,15 @@
 ---
 layout: post
-title: About .NET MAUI Linear Gauge control | Syncfusion®
-description: Learn here all about introduction of Syncfusion® .NET MAUI Linear Gauge (SfLinearGauge) control, its features, and more.
+title: About Syncfusion® .NET MAUI Linear Gauge Control | Syncfusion®
+description: Learn about the overview of Syncfusion® .NET MAUI Linear Gauge control, including scales, pointers, ranges, labels, and customization features.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---
 
-# .NET MAUI Linear Gauge (SfLinearGauge) Overview
+# About Syncfusion® .NET MAUI Linear Gauge Control
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started)** guide.
 
 Syncfusion® [.NET MAUI Linear Gauge](https://www.syncfusion.com/maui-controls/maui-linear-gauge) is a data visualization control to display values on a linear scale. Use this control to craft high-quality mobile app user interfaces. The .NET MAUI Linear Gauge is supported on Windows, macOS, iOS, and Android.
 
@@ -27,10 +27,10 @@ Syncfusion® [.NET MAUI Linear Gauge](https://www.syncfusion.com/maui-controls/m
 - **Orientation** enables displaying the gauge in horizontal or vertical layouts based on UI requirements.
 - **Customizable scale** enables configuring thickness, edge styles, and reversing the scale direction.
 - **Labels and ticks** enables styling labels, major ticks, and minor ticks for better readability.
-- **[Range support](https://help.syncfusion.com/maui/linear-gauge/range)** enables highlighting value intervals on the scale with different visual styles.
-- **[Pointer support](https://help.syncfusion.com/maui/linear-gauge/pointers)** enables using shape marker, content marker, and bar pointers to indicate values.
-- **[Mirror mode](https://help.syncfusion.com/maui/linear-gauge/mirror-linear-gauge)** enables rendering gauge elements in a mirrored layout for alternate visual representation.
-- **[Animation](https://help.syncfusion.com/maui/linear-gauge/animation)** enables animating gauge elements during load or value changes for better user experience.
+- **[Range support](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/range)** enables highlighting value intervals on the scale with different visual styles.
+- **[Pointer support](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/pointers)** enables using shape marker, content marker, and bar pointers to indicate values.
+- **[Mirror mode](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/mirror-linear-gauge)** enables rendering gauge elements in a mirrored layout for alternate visual representation.
+- **[Animation](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/animation)** enables animating gauge elements during load or value changes for better user experience.
 - **Interactive pointer** enables you to adjust values dynamically through drag or swipe gestures.
 
 ## Globalization
@@ -84,15 +84,15 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Radial Gauge](https://help.syncfusion.com/maui/radial-gauge/overview) for visualizing values using circular gauge representation.
-- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for visualizing proportional data using circular charts.
-- [Digital Gauge](https://help.syncfusion.com/maui/digitalgauge/overview) for displaying numeric or character values using segmented digital display styles.
+- [Radial Gauge](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/overview) for visualizing values using circular gauge representation.
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for visualizing proportional data using circular charts.
+- [Digital Gauge](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/overview) for displaying numeric or character values using segmented digital display styles.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started) shows a step-by-step guide to begin using the Linear Gauge control.
-- [Range](https://help.syncfusion.com/maui/linear-gauge/range) explains how to configure ranges and scale visualization.
-- [Pointers](https://help.syncfusion.com/maui/linear-gauge/pointers) helps customize pointer types and behavior.
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) shows a step-by-step guide to begin using the Linear Gauge control.
+- [Range](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/range) explains how to configure ranges and scale visualization.
+- [Pointers](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/pointers) helps customize pointer types and behavior.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready-made UI examples.
 
 ## Resources

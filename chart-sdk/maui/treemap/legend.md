@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend in .NET MAUI TreeMap Control | Syncfusion®
-description: Learn here all about how to customize the appearance of legend items in Syncfusion® .NET MAUI TreeMap control by changing text color, icon size, and more.
+title: Legend in .NET MAUI TreeMap | Syncfusion®
+description: Legend in .NET MAUI TreeMap displays hierarchical data categories with customizable styles, helping users identify and interpret TreeMap data effectively.
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The legend provides valuable information for interpreting TreeMap displays by presenting data through various colors, shapes, and other identifiers.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started)** guide.
 
 ## Enable legend
 

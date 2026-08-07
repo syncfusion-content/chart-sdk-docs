@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Stacked Area Chart in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about stacked area chart support in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Stacked Area Chart in .NET MAUI Cartesian Chart | Syncfusion®
+description: Stacked Area Chart in .NET MAUI Cartesian Chart displays cumulative data as stacked areas, helping visualize part-to-whole relationships and trends over time.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -16,7 +16,7 @@ The stacked area chart enables users to visually represent data points on top of
 
 To render a stacked area chart, create an instance of the [StackingAreaSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.StackingAreaSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of the [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 N> The Cartesian chart has a [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) as its default content.
 
