@@ -80,15 +80,15 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/overview) for displaying values along a linear scale. 
-- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for visualizing proportional data using circular charts.   
-- [Digital Gauge](https://help.syncfusion.com/maui/digitalgauge/overview) for displaying numeric or character values using segmented digital display styles. 
+- [Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/overview) for displaying values along a linear scale. 
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for visualizing proportional data using circular charts.   
+- [Digital Gauge](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/overview) for displaying numeric or character values using segmented digital display styles. 
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started) shows a step‑by‑step guide to begin using the Radial Gauge control.  
-- [Pointers](https://help.syncfusion.com/maui/radial-gauge/pointers) explains how to configure different pointer types and behavior.  
-- [Annotation](https://help.syncfusion.com/maui/radial-gauge/annotation) helps add labels, shapes, or custom content inside the gauge for context.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started) shows a step‑by‑step guide to begin using the Radial Gauge control.  
+- [Pointers](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/pointers) explains how to configure different pointer types and behavior.  
+- [Annotation](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/annotation) helps add labels, shapes, or custom content inside the gauge for context.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources

@@ -74,24 +74,24 @@ The following table summarizes the globalization support available in this contr
 <tr>
 <td><a href="/maui/treemap/overview">TreeMap</a></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
-<td align="center"><a href="https://help.syncfusion.com/maui/treemap/right-to-left"><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
+<td align="center"><a href="https://help.syncfusion.com/chart-sdk/maui/treemap/right-to-left"><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
-<td align="center"><a href="https://help.syncfusion.com/maui/treemap/accessibility"><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
-<td align="center"><a href="https://help.syncfusion.com/maui/treemap/accessibility"><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
+<td align="center"><a href="https://help.syncfusion.com/chart-sdk/maui/treemap/accessibility"><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
+<td align="center"><a href="https://help.syncfusion.com/chart-sdk/maui/treemap/accessibility"><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
 </tr> 
 </table>
 
 ## Related Controls
 
-- [Sunburst Chart](https://help.syncfusion.com/maui/sunburstchart/overview) for visualizing hierarchical data using a radial layout.
-- [.NET MAUI Cartesian Chart](https://help.syncfusion.com/maui/cartesian-charts/overview) for analyzing data trends using axis-based charts.
-- [Maps](https://help.syncfusion.com/maui/maps/overview) for visualizing location-based hierarchical data.
+- [Sunburst Chart](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/overview) for visualizing hierarchical data using a radial layout.
+- [.NET MAUI Cartesian Chart](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/overview) for analyzing data trends using axis-based charts.
+- [Maps](https://help.syncfusion.com/chart-sdk/maui/maps/overview) for visualizing location-based hierarchical data.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/treemap/getting-started) shows a step‑by‑step guide to begin using the TreeMap control.
-- [Layouts](https://help.syncfusion.com/maui/treemap/layouts) explains how to configure layout types and data arrangement.
-- [Drilldown](https://help.syncfusion.com/maui/treemap/drilldown) helps dive into details by exploring data hierarchies step by step.
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started) shows a step‑by‑step guide to begin using the TreeMap control.
+- [Layouts](https://help.syncfusion.com/chart-sdk/maui/treemap/layouts) explains how to configure layout types and data arrangement.
+- [Drilldown](https://help.syncfusion.com/chart-sdk/maui/treemap/drilldown) helps dive into details by exploring data hierarchies step by step.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources

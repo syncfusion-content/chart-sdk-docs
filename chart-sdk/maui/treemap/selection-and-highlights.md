@@ -11,7 +11,7 @@ documentation: ug
 
 The TreeMap control enables users to select specific groups or items for distinction, with the tooltip feature providing additional information during interaction. However, when the [SelectionMode](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_SelectionMode) is set to [None](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SelectionMode.html#Syncfusion_Maui_TreeMap_SelectionMode_None), interaction with treemap items is disabled.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started)** guide.
 
 ## Selection Mode
 

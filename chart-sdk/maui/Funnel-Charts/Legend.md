@@ -12,7 +12,7 @@ keywords: .net maui funnel chart, chart legend, legend wrap, legend view, legend
 
 The [Legend](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartBase.html#Syncfusion_Maui_Charts_ChartBase_Legend) provides a list of data points, helping to identify the corresponding funnel segments in the chart. Here's a detailed guide on how to define and customize the legend in the funnel chart.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Funnel Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/funnel-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Funnel Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/getting-started)** guide.
 
 ## Defining the legend
 

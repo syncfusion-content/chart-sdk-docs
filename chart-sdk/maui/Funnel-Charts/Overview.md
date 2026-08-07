@@ -82,16 +82,16 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Cartesian Charts](https://help.syncfusion.com/maui/cartesian-charts/overview) for visualizing data using line, bar, and other chart types.  
-- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for representing proportional data using pie and doughnut charts.  
-- [TreeMap](https://help.syncfusion.com/maui/treemap/overview) for displaying hierarchical and comparative data. 
-- [Pyramid Charts](https://help.syncfusion.com/maui/pyramid-charts/overview) for hierarchical or comparative data representation.
+- [Cartesian Charts](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/overview) for visualizing data using line, bar, and other chart types.  
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for representing proportional data using pie and doughnut charts.  
+- [TreeMap](https://help.syncfusion.com/chart-sdk/maui/treemap/overview) for displaying hierarchical and comparative data. 
+- [Pyramid Charts](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/overview) for hierarchical or comparative data representation.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/funnel-charts/getting-started) shows a step‑by‑step guide to begin using the Funnel Chart control.  
-- [Appearance](https://help.syncfusion.com/maui/funnel-charts/appearance) explains how to customize chart appearance and behavior.  
-- [Data Labels](https://help.syncfusion.com/maui/funnel-charts/datalabels) helps configure data labels and segment display.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/getting-started) shows a step‑by‑step guide to begin using the Funnel Chart control.  
+- [Appearance](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/appearance) explains how to customize chart appearance and behavior.  
+- [Data Labels](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/datalabels) helps configure data labels and segment display.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples. 
 
 ## Resources

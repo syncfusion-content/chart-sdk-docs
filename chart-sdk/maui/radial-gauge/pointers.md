@@ -11,14 +11,14 @@ documentation: ug
 
 A pointer is used to indicate values on an axis. The radial gauge control has the following types of pointers:
 
-* [`Shape pointer`](https://help.syncfusion.com/maui/radial-gauge/shape-pointer)
-* [`Content pointer`](https://help.syncfusion.com/maui/radial-gauge/content-pointer)
-* [`Needle pointer`](https://help.syncfusion.com/maui/radial-gauge/needle-pointer)
-* [`Range pointer`](https://help.syncfusion.com/maui/radial-gauge/range-pointer)
+* [`Shape pointer`](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/shape-pointer)
+* [`Content pointer`](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/content-pointer)
+* [`Needle pointer`](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/needle-pointer)
+* [`Range pointer`](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/range-pointer)
 
 All the pointers can be customized as needed. You can add multiple pointers to the gauge to point to multiple values on the same scale. The value of the pointer is set using the [`Value`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.RadialPointer.html#Syncfusion_Maui_Gauges_RadialPointer_Value) property.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started)** guide.
 
 ![Pointers in .NET MAUI Radial Gauge](images/pointers/maui-radial-gauge-pointers.png)
 

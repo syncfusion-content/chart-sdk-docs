@@ -12,7 +12,7 @@ keywords: .net maui step line chart, maui step line chart, step line chart custo
 
 A step line chart is used to display the data showing changes in values over time by connecting points on plots with a combination of horizontal and vertical lines. And it's used when it is necessary to highlight the irregularity changes. It appears to be steps.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 ## Step Line Chart
 

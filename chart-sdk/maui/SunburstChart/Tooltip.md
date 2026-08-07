@@ -11,7 +11,7 @@ documentation: ug
 
 Tooltips provide additional information about segments in the sunburst chart. A tooltip is displayed when a segment is tapped or clicked. By default, the tooltip displays the corresponding segment's category (from the `Levels` group property) and value (from the `ValueMemberPath` property).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started)** guide.
 
 
 ## Enable tooltip

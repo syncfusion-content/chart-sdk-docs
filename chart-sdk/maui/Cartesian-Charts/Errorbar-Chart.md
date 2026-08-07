@@ -16,7 +16,7 @@ keywords: .net maui error bar chart, error bar chart customization .net maui, sy
 
 N> The Error Bar is not an individual chart; it associates with a main chart. Here, we use `Scatter Series Chart` as the main chart with the Error Bar Series chart support.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 The following code examples illustrate how to create an error bar series:
 

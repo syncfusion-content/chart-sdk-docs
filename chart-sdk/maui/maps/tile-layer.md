@@ -11,7 +11,7 @@ documentation: ug
 
 The tile layer renders the tiles returned from web map tile services such as Bing Maps, OpenStreetMaps, Google Maps, TomTom, etc.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfMaps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfMaps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide.
 
 To learn more about the .NET MAUI Maps tile layer, you can check the following video.
 
@@ -93,7 +93,7 @@ private async Task GenerateBing(MapTileLayer tileLayer)
 
 Our tile layer is not limited or specific to any tile providers mentioned here. It supports requesting tiles from any tile providers using the unique URL for respective tile providers and renders them.
 
-For other map providers like TomTom, MapBox, etc., you can check the respective official websites and provide the URL in the format mentioned in the [`Setting URL template`](https://help.syncfusion.com/maui/maps/tile-layer#setting-url-template) section.
+For other map providers like TomTom, MapBox, etc., you can check the respective official websites and provide the URL in the format mentioned in the [`Setting URL template`](https://help.syncfusion.com/chart-sdk/maui/maps/tile-layer#setting-url-template) section.
 
 Below is the example of adding TomTom map. You can get the TomTom API key from this [`link`](https://developer.tomtom.com/map-display-api/documentation/product-information/introduction).
 
@@ -113,7 +113,7 @@ this.Content = map;
 
 You can set the center position by setting the [`MapTileLayer.Center`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapTileLayer.html#Syncfusion_Maui_Maps_MapTileLayer_Center) property. It represents the center position of the map layer.
 
-Based on the size of the [`SfMaps`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.html) control, [`Center`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapTileLayer.html#Syncfusion_Maui_Maps_MapTileLayer_Center) and [`ZoomLevel`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapZoomPanBehavior.html#Syncfusion_Maui_Maps_MapZoomPanBehavior_ZoomLevel), the number of initial tiles needed in the viewport alone will be rendered. Refer this section for enabling [`zooming and panning`](https://help.syncfusion.com/maui/maps/zoom-pan).
+Based on the size of the [`SfMaps`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.html) control, [`Center`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapTileLayer.html#Syncfusion_Maui_Maps_MapTileLayer_Center) and [`ZoomLevel`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapZoomPanBehavior.html#Syncfusion_Maui_Maps_MapZoomPanBehavior_ZoomLevel), the number of initial tiles needed in the viewport alone will be rendered. Refer this section for enabling [`zooming and panning`](https://help.syncfusion.com/chart-sdk/maui/maps/zoom-pan).
 
 Defaults to [`MapLatLng`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapLatLng.html)`(0.0, 0.0)`.
 
@@ -213,7 +213,7 @@ tileLayer.DeleteTilesFromCache();
 
 ## Markers
 
-You can add markers in the tile layer. The procedure is very similar to the shape layer. Kindly refer to the [markers](https://help.syncfusion.com/maui/maps/markers) section.
+You can add markers in the tile layer. The procedure is very similar to the shape layer. Kindly refer to the [markers](https://help.syncfusion.com/chart-sdk/maui/maps/markers) section.
 
 ##  Event
 

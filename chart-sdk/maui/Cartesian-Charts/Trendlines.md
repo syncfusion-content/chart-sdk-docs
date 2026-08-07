@@ -10,13 +10,13 @@ keywords: .net maui cartesian chart trendlines, maui chart trendlines, cartesian
 
 # Trendlines in .NET MAUI Cartesian Chart
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 A [trendline](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartTrendline.html) is a visual representation of the linear relationship between data points in a series. It shows the overall direction and trend of data by fitting a line (or curve) through the data points.
 
 N> Trendlines can be drawn for all types of Cartesian series except bar-type series (Bar, StackingBar, and their 100% variants).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 You can add trendlines to your charts using XAML or C# as shown in the following examples.
 
@@ -488,7 +488,7 @@ this.Content = chart;
 
 ## Trendline legend label
 
-N> The chart [legend](https://help.syncfusion.com/maui/cartesian-charts/legend) must be enabled for trendline legend labels to appear.
+N> The chart [legend](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/legend) must be enabled for trendline legend labels to appear.
 
 You can display a custom label for the trendline in the chart legend using the [Label](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartTrendline.html#Syncfusion_Maui_Charts_ChartTrendline_Label) property, of type `string`. This helps distinguish between multiple trendlines and makes your chart more descriptive.
 

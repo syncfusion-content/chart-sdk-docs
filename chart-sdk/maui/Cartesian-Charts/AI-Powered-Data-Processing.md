@@ -12,9 +12,9 @@ keywords: .net maui chart AI data cleaning, maui chart data, .net maui chart dat
 
 Raw datasets often contain missing values, outliers, or noise that can distort visualizations and analysis. This is common in web traffic data, which may have gaps or spikes. Before visualizing such data, it’s essential to clean it.
 
-This guide shows how to use Azure OpenAI to clean and preprocessing e-commerce website traffic data, then visualize the results using [Syncfusion .NET MAUI Cartesian Chart](https://help.syncfusion.com/maui/cartesian-charts/getting-started).
+This guide shows how to use Azure OpenAI to clean and preprocessing e-commerce website traffic data, then visualize the results using [Syncfusion .NET MAUI Cartesian Chart](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 ## Integrating Azure OpenAI for cleaning and preprocessing the data
 

@@ -12,7 +12,7 @@ keywords: .net maui chart localization, sfCartesianchart localization in .net ma
 
 Localization is the process of translating the application resources into different languages for the specific cultures. The `SfCartesianChart` can be localized by adding `resource` file. 
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 ## Setting CurrentUICulture to the application
 

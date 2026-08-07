@@ -14,7 +14,7 @@ The liquid glass effect is a modern design style that provides a sleek, minimali
 
 
 N> **Prerequisite:** 
-- Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started)** guide.
+- Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started)** guide.
 - To use **SfGlassEffectView**, ensure that the Syncfusion.Maui.Core package is installed and import the Syncfusion.Maui.Core namespace.
 
 N> The liquid glass effect is supported only on `.NET 10` and on `iOS 26` and `macOS 26` or later. Enabling these properties on other platforms (such as Windows or Android) has no effect; the chart renders normally without the glass appearance.

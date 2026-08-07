@@ -86,15 +86,15 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [TreeMap](https://help.syncfusion.com/maui/treemap/overview) for visualizing hierarchical data using rectangular layouts.
-- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for representing proportional data using pie and doughnut charts.
-- [Cartesian Charts](https://help.syncfusion.com/maui/cartesian-charts/overview) for visualizing tabular data trends and comparisons.
+- [TreeMap](https://help.syncfusion.com/chart-sdk/maui/treemap/overview) for visualizing hierarchical data using rectangular layouts.
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for representing proportional data using pie and doughnut charts.
+- [Cartesian Charts](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/overview) for visualizing tabular data trends and comparisons.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started) shows a step‑by‑step guide to begin using the Sunburst Chart control.  
-- [Appearance](https://help.syncfusion.com/maui/sunburstchart/appearance) explains how to customize chart appearance and styling.  
-- [Labels](https://help.syncfusion.com/maui/sunburstchart/datalabels) helps configure data labels and segment display.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started) shows a step‑by‑step guide to begin using the Sunburst Chart control.  
+- [Appearance](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/appearance) explains how to customize chart appearance and styling.  
+- [Labels](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/datalabels) helps configure data labels and segment display.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources

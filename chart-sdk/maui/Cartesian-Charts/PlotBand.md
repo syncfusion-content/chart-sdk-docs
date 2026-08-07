@@ -12,7 +12,7 @@ keywords: .net maui plot band, maui plot band, .net maui chart plot band type, p
 
 A plot band, also known as a stripline, allows for shading specific regions or ranges in the plot area background at regular or custom intervals. It also provides options to customize the size of these bands. Text can be added to plot band and indicate the significance of each particular region.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 Plot bands are classified into [NumericalPlotBand](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.NumericalPlotBand.html) and [DateTimePlotBand](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.DateTimePlotBand.html). Based on the axis, plot bands are drawn using these classifications. The following properties are used to configure the plot band:
 

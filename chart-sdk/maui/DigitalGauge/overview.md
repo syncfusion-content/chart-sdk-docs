@@ -79,15 +79,15 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for visualizing proportional data using circular charts.   
-- [Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/overview) for representing values using gauge-based visualization.  
-- [Radial Gauge](https://help.syncfusion.com/maui/radial-gauge/overview) for displaying progress values in a circular style.
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for visualizing proportional data using circular charts.   
+- [Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/overview) for representing values using gauge-based visualization.  
+- [Radial Gauge](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/overview) for displaying progress values in a circular style.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/digitalgauge/getting-started) shows a step‑by‑step guide to begin using the Digital Gauge control.  
-- [Segments Types](https://help.syncfusion.com/maui/digitalgauge/character-segment-types) helps you understand different segment types and configurations.  
-- [Customization](https://help.syncfusion.com/maui/digitalgauge/customization) explains how to customize appearance and behavior of the control.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/getting-started) shows a step‑by‑step guide to begin using the Digital Gauge control.  
+- [Segments Types](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/character-segment-types) helps you understand different segment types and configurations.  
+- [Customization](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/customization) explains how to customize appearance and behavior of the control.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources

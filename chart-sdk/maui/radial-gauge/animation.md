@@ -13,7 +13,7 @@ documentation: ug
 
 The radial gauge allows all of its elements to be animated using the [`EnableLoadingAnimation`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.RadialAxis.html#Syncfusion_Maui_Gauges_RadialAxis_EnableLoadingAnimation) property. The default value of this property is `false`. The duration of the loading animation can be controlled by using the [`AnimationDuration`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.RadialAxis.html#Syncfusion_Maui_Gauges_RadialAxis_AnimationDuration) property of the [`RadialAxis`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.RadialAxis.html). The default value of [`AnimationDuration`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.RadialAxis.html#Syncfusion_Maui_Gauges_RadialAxis_AnimationDuration) is `1500` milliseconds.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started)** guide.
 
 {% tabs %}
 
