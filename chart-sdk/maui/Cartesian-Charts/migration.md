@@ -806,7 +806,7 @@ this.Content = chart;
 </tr>
 </table>
 
-N> For more information about selection check [here](https://help.syncfusion.com/maui/cartesian-charts/selection).
+N> For more information about selection check [here](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/selection).
 
 ### Zooming and Panning
 

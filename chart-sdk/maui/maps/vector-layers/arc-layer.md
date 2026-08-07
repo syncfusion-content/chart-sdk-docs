@@ -9,7 +9,7 @@ documentation: ug
 
 # Arc Layer in .NET MAUI Maps (SfMaps)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide.
 
 The arc layer is a sublayer that renders a group of [`MapArc`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapArc.html) on a [`MapArcLayer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapArcLayer.html), which can be added as a sublayer of [`MapShapeLayer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapShapeLayer.html). This section explains how to add and customize arcs.
 

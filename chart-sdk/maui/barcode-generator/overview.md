@@ -31,15 +31,15 @@ The Syncfusion<sup>&reg;</sup> [.NET MAUI Barcode Generator](https://www.syncfus
 
 ## Related controls
 
-- [DataGrid](https://help.syncfusion.com/maui/datagrid/overview) for managing and displaying barcode-related data in tabular format.  
-- [ListView](https://help.syncfusion.com/maui/listview/overview) for presenting barcode items in list-based layouts.
-- [TreeMap](https://help.syncfusion.com/maui/treemap/overview) for visualize barcode usage or distribution patterns in a hierarchical, comparative view.
+- [DataGrid](https://help.syncfusion.com/chart-sdk/maui/datagrid/overview) for managing and displaying barcode-related data in tabular format.  
+- [ListView](https://help.syncfusion.com/chart-sdk/maui/listview/overview) for presenting barcode items in list-based layouts.
+- [TreeMap](https://help.syncfusion.com/chart-sdk/maui/treemap/overview) for visualize barcode usage or distribution patterns in a hierarchical, comparative view.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/barcode-generator/getting-started) shows how to begin using the Barcode Generator step by step.  
-- [One Dimensional Symbology](https://help.syncfusion.com/maui/barcode-generator/one-dimensional-symbology) explains supported linear barcode types and usage.  
-- [Customization](https://help.syncfusion.com/maui/barcode-generator/customization) shows how to customize barcode appearance and behavior.
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/getting-started) shows how to begin using the Barcode Generator step by step.  
+- [One Dimensional Symbology](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/one-dimensional-symbology) explains supported linear barcode types and usage.  
+- [Customization](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/customization) shows how to customize barcode appearance and behavior.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready-made UI examples.  
 
 ## Resources

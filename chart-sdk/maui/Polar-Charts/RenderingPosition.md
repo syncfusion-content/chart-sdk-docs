@@ -11,7 +11,7 @@ documentation: ug
 
 The rendering position in a .NET MAUI Polar Chart defines the starting angle from which the chart series is drawn on the polar coordinate system. By adjusting the rendering position, you can rotate the entire chart visualization to start from different angular points (0°, 90°, 180°, or 270°).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
 
 ## Start Angle
 

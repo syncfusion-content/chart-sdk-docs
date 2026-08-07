@@ -88,17 +88,17 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for proportional data visualization using pie, doughnut, and radial bar charts.
-- [Funnel Charts](https://help.syncfusion.com/maui/funnel-charts/overview) for visualizing stages in a process or pipeline.
-- [Pyramid Charts](https://help.syncfusion.com/maui/pyramid-charts/overview) for hierarchical or comparative data representation.
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for proportional data visualization using pie, doughnut, and radial bar charts.
+- [Funnel Charts](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/overview) for visualizing stages in a process or pipeline.
+- [Pyramid Charts](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/overview) for hierarchical or comparative data representation.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started) shows how to begin using the Cartesian chart control step by step.  
-- [Customization and Styling](https://help.syncfusion.com/maui/cartesian-charts/appearance) shows how to configure chart appearance, axes, gridlines, labels, legends, and themes.  
-- [Labels](https://help.syncfusion.com/maui/cartesian-charts/datalabels) display values directly on data points.
-- [Zooming & Panning](https://help.syncfusion.com/maui/cartesian-charts/zooming-and-panning) provides interactive navigation to focus on specific ranges and move across large datasets smoothly.
-- [Annotation](https://help.syncfusion.com/maui/cartesian-charts/annotation) adds custom text, shapes, or markers to highlight important areas or notes within the chart.
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started) shows how to begin using the Cartesian chart control step by step.  
+- [Customization and Styling](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/appearance) shows how to configure chart appearance, axes, gridlines, labels, legends, and themes.  
+- [Labels](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/datalabels) display values directly on data points.
+- [Zooming & Panning](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/zooming-and-panning) provides interactive navigation to focus on specific ranges and move across large datasets smoothly.
+- [Annotation](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/annotation) adds custom text, shapes, or markers to highlight important areas or notes within the chart.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready-made UI examples.
 
 ## Resources
