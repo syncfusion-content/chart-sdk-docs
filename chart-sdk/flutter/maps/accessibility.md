@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Accessibility in Flutter maps widget | Syncfusion
-description: Learn here all about the accessibility support in Syncfusion Flutter maps (SfMaps) widget and how to customize it.
-platform: chart-sdk
+title: Accessibility in Flutter Maps | Syncfusion®
+description: Learn about accessibility support in Syncfusion® Flutter Maps (SfMaps), including screen readers, keyboard navigation, and assistive technologies.
+platform: flutter
 control: SfMaps
 documentation: ug
 ---
@@ -16,6 +16,15 @@ The [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps
 {% tabs %}
 {% highlight Dart %}
 
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatefulWidget {
+  @override
+  _MapsExampleState createState() => _MapsExampleState();
+}
+
+class _MapsExampleState extends State<MapsExample> {
   late List<PopulationModel> _data;
   late MapShapeSource _dataSource;
   late String _semanticLabel = 'Asia is the most populated continent and Australia is the least populated continent';
@@ -56,6 +65,7 @@ The [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps
       ),
     );
   }
+}
 
 class PopulationModel {
   const PopulationModel(this.continent, this.populationInCrores);
