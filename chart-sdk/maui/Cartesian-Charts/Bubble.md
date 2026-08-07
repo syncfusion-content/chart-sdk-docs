@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bubble chart in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about the bubble chart and its features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Bubble Chart in .NET MAUI Cartesian Chart | Syncfusion®
+description: Bubble Chart in .NET MAUI Cartesian Chart visualizes data using bubbles of varying sizes, enabling comparison of three dimensions within a single chart.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -12,11 +12,11 @@ keywords: .net maui bubble chart, maui bubble chart, bubble chart customization 
 
 ## Bubble Chart
 
-The bubble chart is represented by closely packed circles, whose areas are proportional to the data values they represent. The bubble chart is similar to a [scatter plot](https://help.syncfusion.com/maui/cartesian-charts/scatter), but with the additional dimension of bubble size to represent a third variable. 
+The bubble chart is represented by closely packed circles, whose areas are proportional to the data values they represent. The bubble chart is similar to a [scatter plot](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/scatter), but with the additional dimension of bubble size to represent a third variable. 
 
 To render a bubble chart, create an instance of [BubbleSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.BubbleSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html). The data model must include `XValue`, `YValue`, and `Size` properties; the bubble size is proportional to the value bound via the [SizeValuePath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.BubbleSeries.html#Syncfusion_Maui_Charts_BubbleSeries_SizeValuePath) property. You can constrain the bubble size using the [MinimumRadius](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.BubbleSeries.html#Syncfusion_Maui_Charts_BubbleSeries_MinimumRadius) (default `3`) and [MaximumRadius](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.BubbleSeries.html#Syncfusion_Maui_Charts_BubbleSeries_MaximumRadius) (default `10`) properties. The following code shows how to configure these properties. 
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 N> The Cartesian chart has [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) as its default content.
 

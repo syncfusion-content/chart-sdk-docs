@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Radial Range in .NET MAUI Radial Gauge control | Syncfusion®
-description: Learn here all about the Range feature of Syncfusion® .NET MAUI Radial Gauge control with customization support and more.
+title: Radial Range in .NET MAUI Radial Gauge | Syncfusion®
+description: Radial Range in .NET MAUI Radial Gauge highlights specific value intervals on the gauge axis, improving data visualization and emphasizing important thresholds.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 A radial range is a visual element that helps to quickly visualize where a value falls on the axis.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started)** guide.
 
 ## Setting start and end values
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Waterfall Chart in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about the Waterfall Series chart and its features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Waterfall Chart in .NET MAUI Cartesian Chart | Syncfusion®
+description: Waterfall Chart in .NET MAUI Cartesian Chart shows cumulative changes from positive and negative values, helping analyze trends across sequential data points.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -22,7 +22,7 @@ The following properties customize the waterfall series:
 * [AllowAutoSum](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.WaterfallSeries.html#Syncfusion_Maui_Charts_WaterfallSeries_AllowAutoSum), of type `bool`, is used to change the summary segment calculation. The default value is `true`. When this property is disabled, the segment is rendered using the y value of the provided ItemsSource collection.
 * [ShowConnectorLine](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.WaterfallSeries.html#Syncfusion_Maui_Charts_WaterfallSeries_ShowConnectorLine), of type `bool`, is used to enable or disable the connector line. The default value is `true`.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 {% tabs %}
 

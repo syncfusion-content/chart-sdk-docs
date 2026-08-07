@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance in .NET MAUI Pyramid Chart control | Syncfusion
-description: Learn here all about appearance customization in .NET MAUI Pyramid Chart (SfPyramidChart) control, its elements and more.
+title: Appearance in .NET MAUI Pyramid Chart | Syncfusion®
+description: Appearance in .NET MAUI Pyramid Chart allows you to customize visuals using colors, palettes and styling options.
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
@@ -12,7 +12,7 @@ keywords: maui pyramid chart, appearance, palette, gradient, title, customizatio
 
 The appearance of the [SfPyramidChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfPyramidChart.html) can be customized by using the custom palettes and gradients that enhance the visual appeal of the application.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Pyramid Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/pyramid-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Pyramid Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/getting-started)** guide.
 
 ## Add a title
 
