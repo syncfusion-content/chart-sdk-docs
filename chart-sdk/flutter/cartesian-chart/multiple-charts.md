@@ -2,7 +2,7 @@
 layout: post
 title: Multiple Charts in Flutter Cartesian Chart | Syncfusion®
 description: The multiple charts support in Flutter Cartesian Chart offers displaying and arranging multiple chart instances to compare and analyze datasets together.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -123,5 +123,5 @@ Also refer [multiple axes](./axis-customization#multiple-axes) for customizing t
 * Cartesian type series cannot be combined with circular series (pie, doughnut, and radial bar).  
 
 >**Note**:
-* `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+* `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.
 * You can refer to our [Flutter Combination Chart](https://www.syncfusion.com/flutter-widgets/flutter-charts/chart-types/combination-chart) feature tour page for its groundbreaking feature representations.

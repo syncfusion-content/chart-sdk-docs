@@ -2,7 +2,7 @@
 layout: post
 title: Pie Chart in Flutter Circular Chart | Syncfusion®
 description: The pie chart support in Flutter Circular Chart offers customizable slice-based visualizations to represent proportions and part-to-whole relationships.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

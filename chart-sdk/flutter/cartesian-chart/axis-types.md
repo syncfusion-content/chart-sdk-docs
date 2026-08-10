@@ -2,7 +2,7 @@
 layout: post
 title: Axis Types in Flutter Cartesian Chart | Syncfusion®
 description: The axis types support in Flutter Cartesian Chart offers numeric, category, date-time, logarithmic, and custom axes for diverse data visualization needs.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -1519,4 +1519,4 @@ By using the [`isInversed`](https://pub.dev/documentation/syncfusion_flutter_cha
 
 * [Applying currency format to axis labels](https://support.syncfusion.com/kb/article/9852/how-to-apply-the-currency-format-to-the-axis-labels-sfcartesianchart).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

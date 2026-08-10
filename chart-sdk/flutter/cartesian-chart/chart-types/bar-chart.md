@@ -2,7 +2,7 @@
 layout: post
 title: Bar Chart in Flutter Cartesian Chart | Syncfusion®
 description: The bar chart support in Flutter Cartesian Chart offers horizontal or vertical data comparison with customizable styling and flexible data representation.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

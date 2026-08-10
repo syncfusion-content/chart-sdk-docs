@@ -2,7 +2,7 @@
 layout: post
 title: Trackball and Crosshair in Flutter Cartesian Chart | Syncfusion®
 description: The trackball and crosshair support in Flutter Cartesian Chart offers precise data inspection with interactive pointers for accurate analysis and comparison.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -891,10 +891,10 @@ The ActivationMode enum contains the following values:
 {% endhighlight %}
 {% endtabs %}
 
-Also refer [`crosshair`](https://help.syncfusion.com/flutter/cartesian-charts/callbacks#oncrosshairpositionchanging) and [`trackball`](https://help.syncfusion.com/flutter/cartesian-charts/callbacks#ontrackballpositionchanging) events for customizing the crosshair and trackball further.
+Also refer [`crosshair`](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/callbacks#oncrosshairpositionchanging) and [`trackball`](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/callbacks#ontrackballpositionchanging) events for customizing the crosshair and trackball further.
 
 #### See Also
 
 * [Disabling trackball tooltip for particular series in Cartesian chart](https://support.syncfusion.com/kb/article/10176/how-to-disable-trackball-tooltip-for-particular-series-in-cartesian-charts-sfcartesianchart).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

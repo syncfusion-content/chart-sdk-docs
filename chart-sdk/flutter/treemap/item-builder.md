@@ -2,7 +2,7 @@
 layout: post
 title: Item Builder in Flutter Treemap | Syncfusion®
 description: Learn about item builder support in Syncfusion® Flutter Treemap (SfTreemap), including custom tile content, templates, layouts, and data visualization.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---

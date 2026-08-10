@@ -2,7 +2,7 @@
 layout: post
 title: Bubble Chart in Flutter Cartesian Chart | Syncfusion®
 description: The bubble chart support in Flutter Cartesian Chart offers multi-dimensional data visualization using varying bubble sizes to represent additional values.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

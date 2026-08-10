@@ -2,7 +2,7 @@
 layout: post
 title: Axis in Flutter Radial Gauge | Syncfusion®
 description: Learn about axis customization in Syncfusion® Flutter Radial Gauge (SfRadialGauge), including ranges, labels, ticks, intervals, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 ---

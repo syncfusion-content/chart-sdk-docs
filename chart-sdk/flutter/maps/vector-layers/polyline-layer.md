@@ -2,7 +2,7 @@
 layout: post
 title: Polylines in Flutter Maps | Syncfusion®
 description: Learn about polyline support in Syncfusion® Flutter Maps (SfMaps), including route visualization, line customization, styling, and map overlays.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

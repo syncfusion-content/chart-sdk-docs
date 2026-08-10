@@ -2,7 +2,7 @@
 layout: post
 title: Zooming and Panning in Flutter Maps | Syncfusion®
 description: Learn about zooming and panning in Syncfusion® Flutter Maps (SfMaps), including zoom levels, focal points, toolbar support, and interaction settings.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

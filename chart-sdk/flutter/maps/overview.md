@@ -2,7 +2,7 @@
 layout: post
 title: About Flutter Maps Control | Syncfusion®
 description: Learn about the Syncfusion® Flutter Maps (SfMaps), its features, map layers, data visualization capabilities, and customization options.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
@@ -11,7 +11,7 @@ documentation: ug
 
 [Flutter Maps](https://www.syncfusion.com/flutter-widgets/flutter-maps) is a powerful data visualization component that displays statistical information for geographical areas. Its rich feature set includes tile rendering from OpenStreetMap, Bing Maps, and other tile providers with marker support, as well as shape layer capabilities such as selection, legends, labels, markers, tooltips, bubbles, color mapping, and much more.
 
-To get started with the Flutter Maps widget, refer to the [Getting Started with Flutter Maps](https://help.syncfusion.com/flutter/maps/getting-started) documentation.
+To get started with the Flutter Maps widget, refer to the [Getting Started with Flutter Maps](https://help.syncfusion.com/chart-sdk/flutter/maps/getting-started) documentation.
 
 ## Shape layer
 

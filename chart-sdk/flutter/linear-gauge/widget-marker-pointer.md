@@ -2,7 +2,7 @@
 layout: post
 title: Widget Marker Pointer in Flutter Linear Gauge | Syncfusion®
 description: Learn about widget marker pointers in Syncfusion® Flutter Linear Gauge (SfLinearGauge), including custom widgets, positioning, styling, and interactions.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

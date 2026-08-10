@@ -2,7 +2,7 @@
 layout: post
 title: Selection in Flutter Funnel Chart | Syncfusion®
 description: The selection support in Flutter Funnel Chart offers interactive segment selection with customizable styles to highlight and analyze data points.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -186,7 +186,7 @@ Defaults to `true`.
 {% endhighlight %}
 {% endtabs %}
 
-Also refer to the [selection event](https://help.syncfusion.com/flutter/funnel-chart/callbacks#onselectionchanged) for further selection customization.
+Also refer to the [selection event](https://help.syncfusion.com/chart-sdk/flutter/funnel-chart/callbacks#onselectionchanged) for further selection customization.
 
 ## Methods in SelectionBehavior
 

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Flutter Maps | Syncfusion®
 description: Learn how to get started with the Syncfusion® Flutter Maps (SfMaps). Explore map visualization, data binding, layers, and customization options.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
@@ -97,7 +97,7 @@ class MapsExample extends StatelessWidget {
 
 The [`layers`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps/layers.html) in [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps-class.html) contains collection of either [`MapShapeLayer`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayer-class.html) or [`MapTileLayer`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer-class.html). The actual geographical rendering is done in each [`MapShapeLayer`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayer-class.html). The [`source`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayer/source.html) property of the [`MapShapeLayer`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayer-class.html) is of type [`MapShapeSource`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource-class.html). The [`source`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayer/source.html) can be set as the .json source from an asset bundle, from network or from Uint8List as bytes. Use the respective constructor depending on the source type.
 
-The [`shapeDataField`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource/shapeDataField.html) property of the [`MapShapeSource`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource-class.html) is used to refer to the unique field name in the .json source to identify each shape. In [`Mapping the data source`](https://help.syncfusion.com/flutter/maps/getting-started#mapping-the-data-source-for-shape-layer) section of this document, this [`shapeDataField`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource/shapeDataField.html) will be used to map with the respective value returned in [`primaryValueMapper`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource/primaryValueMapper.html) from the data source.
+The [`shapeDataField`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource/shapeDataField.html) property of the [`MapShapeSource`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource-class.html) is used to refer to the unique field name in the .json source to identify each shape. In [`Mapping the data source`](https://help.syncfusion.com/chart-sdk/flutter/maps/getting-started#mapping-the-data-source-for-shape-layer) section of this document, this [`shapeDataField`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource/shapeDataField.html) will be used to map with the respective value returned in [`primaryValueMapper`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource/primaryValueMapper.html) from the data source.
 
 I> The Mercator projection is the default projection in the maps.
 
@@ -435,7 +435,7 @@ class Model {
 
 The [`MapTileLayer`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer-class.html) needs to be added in the [`layers`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps/layers.html) collection in [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps-class.html). The URL of the providers must be set in the [`MapTileLayer.urlTemplate`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/urlTemplate.html) property.
 
-Refer to the [tile layer](https://help.syncfusion.com/flutter/maps/tile-layer#setting-url-template) section for more information.
+Refer to the [tile layer](https://help.syncfusion.com/chart-sdk/flutter/maps/tile-layer#setting-url-template) section for more information.
 
 {% tabs %}
 {% highlight Dart %}

@@ -2,7 +2,7 @@
 layout: post
 title: Localization in Flutter Cartesian Chart | Syncfusion®
 description: The localization support in Flutter Cartesian Chart offers region-specific formatting and translated chart elements for global audience support.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

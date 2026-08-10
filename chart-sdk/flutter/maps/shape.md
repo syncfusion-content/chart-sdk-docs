@@ -2,7 +2,7 @@
 layout: post
 title: Shape Colors in Flutter Maps | Syncfusion®
 description: Learn about shape color customization in Syncfusion® Flutter Maps (SfMaps), including fill colors, color mapping, selection colors, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
@@ -463,7 +463,7 @@ class Model {
 
 ## Opacity
 
-You can apply the maximum and minimum opacity to the shape or [`bubbles`](https://help.syncfusion.com/flutter/maps/bubble) while using [`MapColorMapper.from`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapColorMapper/from.html) and [`MapColorMapper.to`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapColorMapper/to.html) properties.
+You can apply the maximum and minimum opacity to the shape or [`bubbles`](https://help.syncfusion.com/chart-sdk/flutter/maps/bubble) while using [`MapColorMapper.from`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapColorMapper/from.html) and [`MapColorMapper.to`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapColorMapper/to.html) properties.
 
 The shapes or bubbles with the lowest value (from) will be applied [`minOpacity`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapColorMapper/minOpacity.html) and the shapes or bubbles with the highest value (to) will be applied [`maxOpacity`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapColorMapper/maxOpacity.html). The shapes or bubbles with values in-between the range will get an opacity based on their respective value.
 

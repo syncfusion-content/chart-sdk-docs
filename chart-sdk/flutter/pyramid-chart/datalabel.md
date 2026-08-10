@@ -2,7 +2,7 @@
 layout: post
 title: Data label in Flutter Pyramid Chart | Syncfusion®
 description: The data label support in Flutter Pyramid Chart offers customizable labels, smart positioning, and overflow handling for clear data presentation.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

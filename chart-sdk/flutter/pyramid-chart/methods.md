@@ -2,7 +2,7 @@
 layout: post
 title: Methods in Flutter Pyramid Chart | Syncfusion®
 description: The methods in Flutter Pyramid Chart documentation provide publicly accessible APIs for performing chart-related operations programmatically.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

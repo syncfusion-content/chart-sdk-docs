@@ -2,7 +2,7 @@
 layout: post
 title: About Syncfusion® Flutter Cartesian Chart | Syncfusion®
 description: Learn here all about introduction of Syncfusion® Flutter Cartesian Chart widget, its features, and more details
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

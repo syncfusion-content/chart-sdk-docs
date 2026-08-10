@@ -2,7 +2,7 @@
 layout: post
 title: Radial Bar Chart in Flutter Circular Chart | Syncfusion®
 description: The radial bar chart support in Flutter Circular Chart offers customizable radial visuals to represent values, progress, and comparative data effectively.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

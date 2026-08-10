@@ -2,7 +2,7 @@
 layout: post
 title: Bar Pointer in Flutter Linear Gauge | Syncfusion®
 description: Learn about bar pointers in Syncfusion® Flutter Linear Gauge (SfLinearGauge), including value representation, customization, animation, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

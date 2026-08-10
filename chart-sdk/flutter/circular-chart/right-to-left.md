@@ -2,7 +2,7 @@
 layout: post
 title: RTL support in Flutter Circular Chart | Syncfusion®
 description: The RTL support in Flutter Circular Chart offers right-to-left rendering for chart elements, improving usability in RTL language applications.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Marker Pointer in Flutter Radial Gauge | Syncfusion®
 description: Learn about marker pointers in Syncfusion® Flutter Radial Gauge (SfRadialGauge), including marker types, positioning, customization, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 ---

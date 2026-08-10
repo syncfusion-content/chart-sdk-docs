@@ -2,7 +2,7 @@
 layout: post
 title: Legend in Flutter Maps | Syncfusion®
 description: Learn about legend support in Syncfusion® Flutter Maps (SfMaps), including legend customization, icons, text, positioning, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

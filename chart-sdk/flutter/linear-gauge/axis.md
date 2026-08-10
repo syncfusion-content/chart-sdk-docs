@@ -2,7 +2,7 @@
 layout: post
 title: Axis in Flutter Linear Gauge | Syncfusion®
 description: Learn about axis customization in Syncfusion® Flutter Linear Gauge (SfLinearGauge), including ranges, labels, ticks, intervals, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

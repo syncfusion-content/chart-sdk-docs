@@ -2,7 +2,7 @@
 layout: post
 title: Ranges in Flutter Radial Gauge | Syncfusion®
 description: Learn about ranges in Syncfusion® Flutter Radial Gauge (SfRadialGauge), including range customization, colors, gradients, labels, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 ---

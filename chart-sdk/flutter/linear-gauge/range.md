@@ -2,7 +2,7 @@
 layout: post
 title: Ranges in Flutter Linear Gauge | Syncfusion®
 description: Learn about ranges in Syncfusion® Flutter Linear Gauge (SfLinearGauge), including range customization, colors, positioning, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Flutter Radial Gauge | Syncfusion®
 description: Learn how to get started with the Syncfusion® Flutter Radial Gauge (SfRadialGauge). Explore setup, gauge configuration, and customization options.
-platform: flutter
+platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 ---

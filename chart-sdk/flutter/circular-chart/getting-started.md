@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Flutter Circular Chart | Syncfusion®
 description: Learn how to get started with Flutter Circular Chart provides step-by-step guidance to create, configure, and display interactive circular charts quickly.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

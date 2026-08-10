@@ -2,14 +2,14 @@
 layout: post
 title: Shape Sublayer in Flutter Maps | Syncfusion®
 description: Learn about shape sublayers in Syncfusion® Flutter Maps (SfMaps), including shape layer customization, data visualization, and map overlays.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
 
 # Shape Sublayer in Flutter Maps (SfMaps)
 
-The shape sublayer is where geographical rendering happens for the sublayer. This is similar to the main [`shape layer`](https://help.syncfusion.com/flutter/maps/getting-started#add-a-geojson-file-for-shape-layer) rendering. This section explains how to add a shape sublayer on both the shape layer and tile layer.
+The shape sublayer is where geographical rendering happens for the sublayer. This is similar to the main [`shape layer`](https://help.syncfusion.com/chart-sdk/flutter/maps/getting-started#add-a-geojson-file-for-shape-layer) rendering. This section explains how to add a shape sublayer on both the shape layer and tile layer.
 
 ## Shape sublayer on tile layer
 
@@ -373,7 +373,7 @@ class Model {
 
 You can enable data labels for the shape sublayer using the [`showDataLabels`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSublayer/showDataLabels.html) property and customize the data labels text using the [`dataLabelMapper`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeSource/dataLabelMapper.html) property.
 
-N> Refer to the [`DataLabels`](https://help.syncfusion.com/flutter/maps/data-labels) section, for customizing data labels.
+N> Refer to the [`DataLabels`](https://help.syncfusion.com/chart-sdk/flutter/maps/data-labels) section, for customizing data labels.
 
 {% tabs %}
 {% highlight Dart %}
@@ -473,7 +473,7 @@ You can enable bubbles for the shape sublayer using the [`bubbleSizeMapper`](htt
 
 N> It is applicable for both tile layer and shape layer.
 
-N> Refer to the [`Bubbles`](https://help.syncfusion.com/flutter/maps/bubble#tooltip-for-the-bubbles) section, to know more about the bubbles customization.
+N> Refer to the [`Bubbles`](https://help.syncfusion.com/chart-sdk/flutter/maps/bubble#tooltip-for-the-bubbles) section, to know more about the bubbles customization.
 
 {% tabs %}
 {% highlight Dart %}
@@ -598,7 +598,7 @@ You can enable tooltips for the shape sublayer using the [`shapeTooltipBuilder`]
 
 N> It is applicable for both tile layer and shape layer.
 
-N> Refer to the [`Tooltip`](https://help.syncfusion.com/flutter/maps/tooltip) section to know more about the tooltip customization.
+N> Refer to the [`Tooltip`](https://help.syncfusion.com/chart-sdk/flutter/maps/tooltip) section to know more about the tooltip customization.
 
 {% tabs %}
 {% highlight Dart %}
@@ -722,7 +722,7 @@ If the selected shape is tapped or clicked again, the index will be passed as -1
 
 N> It is applicable for both tile layer and shape layer.
 
-N> Refer the [`Shape selection`](https://help.syncfusion.com/flutter/maps/selection) section to know more about the selection feature.
+N> Refer the [`Shape selection`](https://help.syncfusion.com/chart-sdk/flutter/maps/selection) section to know more about the selection feature.
 
 {% tabs %}
 {% highlight Dart %}
@@ -830,8 +830,8 @@ The [`markerBuilder`](https://pub.dev/documentation/syncfusion_flutter_maps/late
 N> It is applicable for both tile layer and shape layer.
 
 N>
-* Refer to the [`Marker`](https://help.syncfusion.com/flutter/maps/markers) section to know more about the marker feature.
-* Refer to the [`Tooltip`](https://help.syncfusion.com/flutter/maps/tooltip) section to know more about the tooltip feature.
+* Refer to the [`Marker`](https://help.syncfusion.com/chart-sdk/flutter/maps/markers) section to know more about the marker feature.
+* Refer to the [`Tooltip`](https://help.syncfusion.com/chart-sdk/flutter/maps/tooltip) section to know more about the tooltip feature.
 
 {% tabs %}
 {% highlight Dart %}

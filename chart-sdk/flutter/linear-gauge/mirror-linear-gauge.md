@@ -2,7 +2,7 @@
 layout: post
 title: Mirroring in Flutter Linear Gauge | Syncfusion®
 description: Learn about mirroring support in Syncfusion® Flutter Linear Gauge (SfLinearGauge), including reverse layout configuration using the isMirrored property.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

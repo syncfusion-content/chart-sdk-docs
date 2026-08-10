@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Flutter Linear Gauge | Syncfusion®
 description: Learn how to get started with the Syncfusion® Flutter Linear Gauge (SfLinearGauge). Explore setup, gauge configuration, and customization options.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

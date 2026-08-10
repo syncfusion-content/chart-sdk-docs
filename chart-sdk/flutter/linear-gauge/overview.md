@@ -2,7 +2,7 @@
 layout: post
 title: About Flutter Linear Gauge Control | Syncfusion®
 description: Learn about the Syncfusion® Flutter Linear Gauge (SfLinearGauge), its features, gauge elements, data visualization, and customization options.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

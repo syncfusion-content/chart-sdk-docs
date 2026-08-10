@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Flutter Pyramid Chart | Syncfusion®
 description: Learn how to get started with Syncfusion® Flutter Pyramid Chart widget, its elements, features and more customization.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

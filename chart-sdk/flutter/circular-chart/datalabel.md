@@ -2,7 +2,7 @@
 layout: post
 title: Data Labels in Flutter Circular Chart | Syncfusion®
 description: The data label support in Flutter Circular Chart offers customizable labels, smart positioning, and flexible formatting for clear data presentation.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

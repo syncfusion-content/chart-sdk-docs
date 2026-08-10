@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in Flutter Maps widget | Syncfusion 
 description: Learn here all about adding the Tooltip feature of Syncfusion Flutter Maps (SfMaps) widget and more.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

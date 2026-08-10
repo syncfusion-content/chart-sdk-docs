@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in Flutter Treemap | Syncfusion®
 description: Learn about tooltip support in Syncfusion® Flutter Treemap (SfTreemap), including customization, formatting, templates, and data visualization.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---

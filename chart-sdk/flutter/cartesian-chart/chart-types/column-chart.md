@@ -2,7 +2,7 @@
 layout: post
 title: Column Chart in Flutter Cartesian Chart | Syncfusion®
 description: The column chart support in Flutter Cartesian Chart offers vertical data comparison with customizable styling to visualize trends and category-based values.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -249,11 +249,11 @@ Renders columns with tracks. A track is a rectangular bar rendered from the star
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)
 
 >**Note**: You can refer to our [Flutter Column Chart](https://www.syncfusion.com/flutter-widgets/flutter-charts/chart-types/column-chart) feature tour page for its groundbreaking feature representations.

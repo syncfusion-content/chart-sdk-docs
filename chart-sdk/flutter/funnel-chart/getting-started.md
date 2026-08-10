@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with Flutter Funnel Chart | Syncfusion®
 description: Learn how to get started with Syncfusion® Flutter Funnel Chart widget, its elements, and more customization details.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

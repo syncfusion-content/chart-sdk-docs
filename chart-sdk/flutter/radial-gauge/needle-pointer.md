@@ -2,7 +2,7 @@
 layout: post
 title: Needle Pointer in Flutter Radial Gauge | Syncfusion®
 description: Learn about needle pointers in Syncfusion® Flutter Radial Gauge (SfRadialGauge), including pointer customization, animation, positioning, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 ---

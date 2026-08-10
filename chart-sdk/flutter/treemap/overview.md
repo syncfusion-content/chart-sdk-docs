@@ -2,7 +2,7 @@
 layout: post
 title: About Flutter Treemap Control | Syncfusion®
 description: Learn about the Syncfusion® Flutter Treemap (SfTreemap), its features, hierarchical data visualization, and customization options.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---

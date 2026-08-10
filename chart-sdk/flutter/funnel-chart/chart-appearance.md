@@ -2,7 +2,7 @@
 layout: post
 title: Appearance customization in Flutter Funnel Chart | Syncfusion®
 description: The appearance customization support in Flutter Funnel Chart offers chart sizing, margins, and chart area settings for flexible visual design.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Shape Selection in Flutter Maps | Syncfusion®
 description: Learn about shape selection in Syncfusion® Flutter Maps (SfMaps), including selection customization, interaction, highlighting, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

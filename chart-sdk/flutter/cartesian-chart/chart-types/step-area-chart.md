@@ -2,7 +2,7 @@
 layout: post
 title: Step Area Chart in Flutter Cartesian Chart | Syncfusion®
 description: The step area chart support in Flutter Cartesian Chart offers stepped, filled visualizations to highlight changes that occur at discrete intervals.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -83,9 +83,9 @@ The [`dashArray`](https://pub.dev/documentation/syncfusion_flutter_charts/latest
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)

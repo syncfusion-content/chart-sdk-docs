@@ -2,7 +2,7 @@
 layout: post
 title: Stacked Line Chart in Flutter Cartesian Chart | Syncfusion®
 description: The stacked line chart support in Flutter Cartesian Chart offers cumulative trend visualization by stacking series values to show overall contribution.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -183,9 +183,9 @@ You can show the cumulative data label values using the [`showCumulativeValues`]
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points) 
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points) 
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)

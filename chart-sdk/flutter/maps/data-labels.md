@@ -2,7 +2,7 @@
 layout: post
 title: Data Labels in Flutter Maps | Syncfusion®
 description: Learn about data labels in Syncfusion® Flutter Maps (SfMaps), including shape labeling, customization options, text styling, and placement.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

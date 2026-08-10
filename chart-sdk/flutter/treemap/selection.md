@@ -2,7 +2,7 @@
 layout: post
 title: Tile Selection in Flutter Treemap | Syncfusion®
 description: Learn about tile selection in Syncfusion® Flutter Treemap (SfTreemap), including selection customization, interaction, highlighting, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---

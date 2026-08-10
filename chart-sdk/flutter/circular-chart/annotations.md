@@ -2,7 +2,7 @@
 layout: post
 title: Annotation in Flutter Circular Chart | Syncfusion®
 description: The annotation support in Flutter Circular Chart offers custom content placement within the chart area to highlight insights and enhance visualization.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

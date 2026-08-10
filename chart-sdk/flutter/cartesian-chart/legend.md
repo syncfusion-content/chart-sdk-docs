@@ -2,7 +2,7 @@
 layout: post
 title: Legend in Flutter Cartesian Chart | Syncfusion®
 description: The legend support in Flutter Cartesian Chart offers customizable legend items, layouts, and positioning to improve chart readability.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -557,4 +557,4 @@ You can customize the appearance of legend items with your template by using [`l
 {% endhighlight %}
 {% endtabs %}
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.
