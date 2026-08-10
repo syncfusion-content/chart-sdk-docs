@@ -2,7 +2,7 @@
 layout: post
 title: Series Customization in Flutter Cartesian Chart | Syncfusion®
 description: The series customization support in Flutter Cartesian Chart offers control over colors, borders, spacing, animations, and series appearance.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -696,4 +696,4 @@ The chart’s data source can be sorted using the [`sortingOrder`](https://pub.d
 
 * [Rendering a chart using JSON data retrieved from a fire base](https://support.syncfusion.com/kb/article/10589/how-to-render-the-flutter-chart-using-json-data-stored-in-firebase-database).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

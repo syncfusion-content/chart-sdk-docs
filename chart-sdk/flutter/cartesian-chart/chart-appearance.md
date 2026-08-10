@@ -2,7 +2,7 @@
 layout: post
 title: Customization in Flutter Cartesian Chart | Syncfusion®
 description: The customization support in Flutter Cartesian Chart offers extensive control over chart appearance, layout, styling, colors, and interactive behavior.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: About Flutter Funnel Chart widget | Syncfusion®
 description: Learn here all about introduction of Syncfusion® Flutter Funnel Chart widget, its features, and more details
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Marker and Data Label in Flutter Cartesian Chart | Syncfusion®
 description: The marker and data label support in Flutter Cartesian Chart offers customizable markers and labels to enhance data visibility and interpretation.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -581,4 +581,4 @@ If the user didn't provide text color to the data label, then by default, the sa
 
 ![label_saturation](images/marker-datalabel/cartesian_saturation.png)
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

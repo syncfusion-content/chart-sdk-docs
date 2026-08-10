@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Flutter Cartesian Chart | Syncfusion
 description: 	Learn how to get started with Flutter Cartesian Chart provides step-by-step guidance to create, configure, and display interactive charts quickly.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

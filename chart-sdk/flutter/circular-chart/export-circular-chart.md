@@ -2,7 +2,7 @@
 layout: post
 title: Exporting in Flutter Circular Chart | Syncfusion®
 description: The exporting support in Flutter Circular Chart offers image and document export options for easy sharing, reporting, and presentation.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Legend in Flutter Funnel Chart | Syncfusion®
 description: The legend support in Flutter Funnel Chart offers customizable legend items and positioning to improve chart readability and data understanding.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

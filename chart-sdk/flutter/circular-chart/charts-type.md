@@ -2,7 +2,7 @@
 layout: post
 title: Chart Types in Flutter Circular Chart | Syncfusion®
 description: The chart types support in Flutter Circular Chart offers pie, doughnut, radial bar charts for diverse data visualization needs.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -17,7 +17,7 @@ This page helps you navigate to the chart types available in the Syncfusion<sup>
             Pie Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/flutter/circular-charts/chart-types/pie-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/pie-chart">Link</a>
         </td>
     </tr>
      <tr>
@@ -25,7 +25,7 @@ This page helps you navigate to the chart types available in the Syncfusion<sup>
             Doughnut Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/flutter/circular-charts/chart-types/doughnut-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/doughnut-chart">Link</a>
         </td>
     </tr>
     <tr>
@@ -33,7 +33,7 @@ This page helps you navigate to the chart types available in the Syncfusion<sup>
             Radial Bar Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/flutter/circular-charts/chart-types/radial-bar-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/radial-bar-chart">Link</a>
         </td>
     </tr>
 </table>

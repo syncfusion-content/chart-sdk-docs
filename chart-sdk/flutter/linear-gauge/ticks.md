@@ -2,7 +2,7 @@
 layout: post
 title: Ticks in Flutter Linear Gauge | Syncfusion®
 description: Learn about tick customization in Syncfusion® Flutter Linear Gauge (SfLinearGauge), including major ticks, minor ticks, intervals, and styling options.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

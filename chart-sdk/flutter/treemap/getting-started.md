@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Flutter Treemap | Syncfusion®
 description: Learn how to get started with the Syncfusion® Flutter Treemap (SfTreemap). Explore setup, hierarchical data visualization, and customization options.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---

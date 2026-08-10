@@ -2,7 +2,7 @@
 layout: post
 title: Chart title in Flutter Funnel Chart widget | Syncfusion® 
 description: The chart title support in Flutter Funnel Chart widget offers customizable titles with appearance settings to enhance context and visual presentation.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

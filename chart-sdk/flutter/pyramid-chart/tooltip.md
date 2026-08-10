@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in Flutter Pyramid Chart | Syncfusion®
 description: The tooltip support in Flutter Pyramid Chart offers interactive data insights with customizable content and appearance for better user engagement.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

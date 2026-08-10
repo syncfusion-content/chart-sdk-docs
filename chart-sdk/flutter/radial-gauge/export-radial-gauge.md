@@ -2,7 +2,7 @@
 layout: post
 title: Export in Flutter Radial Gauge | Syncfusion®
 description: Learn about export support in Syncfusion® Flutter Radial Gauge (SfRadialGauge), including exporting gauges as images and sharing visualizations.
-platform: flutter
+platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 ---

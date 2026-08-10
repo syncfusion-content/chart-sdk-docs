@@ -2,7 +2,7 @@
 layout: post
 title: Selection in Flutter Cartesian Chart | Syncfusion®
 description: The selection support in Flutter Cartesian Chart offers interactive point and series selection with customizable styles to highlight data insights.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -357,10 +357,10 @@ Defaults to `true`.
 
 ![Toggle selection](images/selection/cartesian_deselection.gif)
 
-Also refer [selection event](https://help.syncfusion.com/flutter/cartesian-charts/callbacks#onselectionchanged) for customizing the selection further.
+Also refer [selection event](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/callbacks#onselectionchanged) for customizing the selection further.
 
 #### See Also
 
 * [Dynamically selecting the data points in a chart](https://support.syncfusion.com/kb/article/10146/how-to-select-the-data-points-dynamically-in-cartesian-charts-sfcartesianchart).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

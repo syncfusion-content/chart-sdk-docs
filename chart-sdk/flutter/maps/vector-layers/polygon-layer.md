@@ -2,7 +2,7 @@
 layout: post
 title: Polygons in Flutter Maps | Syncfusion®
 description: Learn about polygon support in Syncfusion® Flutter Maps (SfMaps), including polygon customization, styling, data visualization, and map overlays.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

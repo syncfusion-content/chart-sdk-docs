@@ -2,7 +2,7 @@
 layout: post
 title: Markers in Flutter Maps | Syncfusion®
 description: Learn about marker support in Syncfusion® Flutter Maps (SfMaps), including built-in markers, custom widgets, positioning, and customization options.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
@@ -473,7 +473,7 @@ You can update multiple markers at the same time by passing indices to the [`upd
 
 N>
 * You can get the current markers count from [`MapShapeLayerController.markersCount`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayerController/markersCount.html).
-* You can refer to this [`snippet`](https://help.syncfusion.com/flutter/maps/markers#for-tile-layer) to update the markers dynamically for tile layer.
+* You can refer to this [`snippet`](https://help.syncfusion.com/chart-sdk/flutter/maps/markers#for-tile-layer) to update the markers dynamically for tile layer.
 
 {% tabs %}
 {% highlight Dart %}
@@ -563,7 +563,7 @@ You can remove a marker at any index using the [`removeMarkerAt`](https://pub.de
 
 N>
 * You can get the current markers count from [`MapShapeLayerController.markersCount`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayerController/markersCount.html).
-* You can refer to this [`snippet`](https://help.syncfusion.com/flutter/maps/markers#for-tile-layer) to update the markers dynamically for tile layer.
+* You can refer to this [`snippet`](https://help.syncfusion.com/chart-sdk/flutter/maps/markers#for-tile-layer) to update the markers dynamically for tile layer.
 
 {% tabs %}
 {% highlight Dart %}
@@ -646,7 +646,7 @@ You can clear all markers using the [`clearMarkers`](https://pub.dev/documentati
 
 N>
 * You can get the current markers count from [`MapShapeLayerController.markersCount`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayerController/markersCount.html).
-* You can refer to this [`snippet`](https://help.syncfusion.com/flutter/maps/markers#for-tile-layer) to update the markers dynamically for tile layer.
+* You can refer to this [`snippet`](https://help.syncfusion.com/chart-sdk/flutter/maps/markers#for-tile-layer) to update the markers dynamically for tile layer.
 
 {% tabs %}
 {% highlight Dart %}

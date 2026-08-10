@@ -2,7 +2,7 @@
 layout: post
 title: Selection in Flutter Pyramid Chart | Syncfusion®
 description: The selection support in Flutter Pyramid Chart offers interactive segment selection with customizable styles to highlight and analyze data points.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

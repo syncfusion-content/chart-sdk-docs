@@ -2,7 +2,7 @@
 layout: post
 title: Customization in Flutter Funnel Chart | Syncfusion®
 description: The customization support in Flutter Funnel Chart offers control over funnel size, neck size, segment gaps, explode behavior, and palette colors.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Line Layer in Flutter Maps | Syncfusion®
 description: Learn about line layers in Syncfusion® Flutter Maps (SfMaps), including route visualization, line customization, styling, and map overlays.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

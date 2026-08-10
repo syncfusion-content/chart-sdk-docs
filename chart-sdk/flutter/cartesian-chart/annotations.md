@@ -2,7 +2,7 @@
 layout: post
 title: Annotation in Flutter Cartesian Chart | Syncfusion®
 description: The annotation support in Flutter Cartesian Chart offers custom content placement within the chart area to highlight insights and enhance visualization.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -454,4 +454,4 @@ Chart supports watermark which allows you to mark the specific area of interest 
 
 ![Chart with Watermark](images/annotation/watermark.png)
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

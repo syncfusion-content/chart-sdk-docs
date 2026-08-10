@@ -2,7 +2,7 @@
 layout: post
 title: How to Add Treemap in FlutterFlow | Syncfusion®
 description: Learn how to add and use Syncfusion® Flutter Treemap (SfTreemap) in FlutterFlow, including setup, integration, and configuration.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---

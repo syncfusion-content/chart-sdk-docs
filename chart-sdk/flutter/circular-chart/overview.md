@@ -2,7 +2,7 @@
 layout: post
 title: About Syncfusion® Flutter Circular Chart widget | Syncfusion®
 description: Learn here all about introduction of Syncfusion® Flutter Circular Charts widget, its features, and more details.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

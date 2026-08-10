@@ -2,7 +2,7 @@
 layout: post
 title: Right To Left (RTL) support in Flutter Cartesian Chart | Syncfusion®
 description: The RTL support in Flutter Cartesian Chart offers right-to-left rendering for chart elements, improving usability in RTL language applications.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

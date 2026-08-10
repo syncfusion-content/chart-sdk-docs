@@ -2,7 +2,7 @@
 layout: post
 title: About Syncfusion® Flutter Pyramid Chart widget | Syncfusion®
 description: Learn here all about introduction of Syncfusion® Flutter Pyramid Chart widget, its features, and more.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

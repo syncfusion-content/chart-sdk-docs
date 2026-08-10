@@ -2,7 +2,7 @@
 layout: post
 title: Pointers in Flutter Radial Gauge | Syncfusion®
 description: Learn about pointers in Syncfusion® Flutter Radial Gauge (SfRadialGauge), including needle, marker, and range pointers with customization options.
-platform: flutter
+platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 ---
@@ -11,10 +11,10 @@ documentation: ug
 
  Pointer is used to indicate values on an axis. The Syncfusion Flutter Radial Gauge control offers four types of pointers:
 
-[`Marker pointer`](https://help.syncfusion.com/flutter/radial-gauge/marker-pointer)
-[`Needle pointer`](https://help.syncfusion.com/flutter/radial-gauge/needle-pointer)
-[`Range pointer`](https://help.syncfusion.com/flutter/radial-gauge/range-pointer)
-[`Widget pointer`](https://help.syncfusion.com/flutter/radial-gauge/widget-pointer)
+[`Marker pointer`](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/marker-pointer)
+[`Needle pointer`](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/needle-pointer)
+[`Range pointer`](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/range-pointer)
+[`Widget pointer`](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/widget-pointer)
 
 All pointers can be customized to meet your specific requirement. You can add multiple pointers to the gauge to indicate multiple values on the same scale. The value of the pointer is set using the [`value`](https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/GaugePointer/value.html) property.
 

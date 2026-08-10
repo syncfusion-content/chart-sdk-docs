@@ -2,7 +2,7 @@
 layout: post
 title: Callbacks in Flutter Pyramid Chart | Syncfusion®
 description: The callback support in Flutter Pyramid Chart offers events for selection, legend, data labels, tooltips, and rendering to enable rich user interactions.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

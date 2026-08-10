@@ -2,7 +2,7 @@
 layout: post
 title: Customization in Flutter Pyramid Chart | Syncfusion®
 description: The customization support in Flutter Pyramid Chart offers control over pyramid size, segment gaps, explode behavior, and palette colors for tailored visuals.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

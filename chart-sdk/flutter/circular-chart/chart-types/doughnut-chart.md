@@ -2,7 +2,7 @@
 layout: post
 title: Doughnut Chart in Flutter Circular Chart | Syncfusion®
 description: The doughnut chart support in Flutter Circular Chart offers customizable ring-shaped visualizations to display proportions and part-to-whole relationships.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

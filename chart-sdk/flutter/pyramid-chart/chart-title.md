@@ -2,7 +2,7 @@
 layout: post
 title: Chart title in Flutter Pyramid Chart | Syncfusion®
 description: The chart title support in Flutter Pyramid Chart offers customizable titles with appearance settings for enhanced context and visual presentation.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Legend in Flutter Circular Chart | Syncfusion®
 description: The legend support in Flutter Circular Chart offers customizable legend items, layouts, and positioning to improve chart readability.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

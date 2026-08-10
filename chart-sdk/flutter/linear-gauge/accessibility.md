@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in Flutter Linear Gauge | Syncfusion®
 description: Learn about accessibility support in Syncfusion® Flutter Linear Gauge (SfLinearGauge), including screen readers, keyboard navigation, and more.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---
@@ -49,22 +49,22 @@ class LinearGaugeDemo extends StatelessWidget {
 
 You can customize the color of the [`SfLinearGauge`](https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/SfLinearGauge-class.html) elements using the following APIs to ensure sufficient contrast.
 
-* [`Axis solid color`](https://help.syncfusion.com/flutter/linear-gauge/axis#apply-solid-color)
-* [`Axis gradient`](https://help.syncfusion.com/flutter/linear-gauge/axis#apply-gradient)
-* [`Ticks`](https://help.syncfusion.com/flutter/linear-gauge/ticks#customize-tick-style)
-* [`Labels`](https://help.syncfusion.com/flutter/linear-gauge/labels#customize-label-styles)
-* [`Range`](https://help.syncfusion.com/flutter/linear-gauge/getting-started#add-range)
-* [`Radial gradient`](https://help.syncfusion.com/flutter/linear-gauge/range#apply-radial-gradient-to-a-range)
-* [`Linear gradient`](https://help.syncfusion.com/flutter/linear-gauge/range#apply-linear-gradient-to-a-range)
-* [`Sweep gradient`](https://help.syncfusion.com/flutter/linear-gauge/range#apply-sweep-gradient-to-a-range)
-* [`Bar pointer`](https://help.syncfusion.com/flutter/linear-gauge/bar-pointer#change-the-color-of-bar-pointer)
-* [`Marker`](https://help.syncfusion.com/flutter/linear-gauge/shape-marker-pointer#customize-color)
+* [`Axis solid color`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/axis#apply-solid-color)
+* [`Axis gradient`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/axis#apply-gradient)
+* [`Ticks`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/ticks#customize-tick-style)
+* [`Labels`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/labels#customize-label-styles)
+* [`Range`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/getting-started#add-range)
+* [`Radial gradient`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/range#apply-radial-gradient-to-a-range)
+* [`Linear gradient`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/range#apply-linear-gradient-to-a-range)
+* [`Sweep gradient`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/range#apply-sweep-gradient-to-a-range)
+* [`Bar pointer`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/bar-pointer#change-the-color-of-bar-pointer)
+* [`Marker`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/shape-marker-pointer#customize-color)
 
 ## Large fonts
 
 You can adjust the font size of the [`SfLinearGauge`](https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/SfLinearGauge-class.html) elements using the following API:
 
-* [`Labels`](https://help.syncfusion.com/flutter/linear-gauge/labels#customize-label-styles)
+* [`Labels`]https://help.syncfusion.com/chart-sdk/flutter/linear-gauge/labels#customize-label-styles)
 
 ## Easily touch targets
 

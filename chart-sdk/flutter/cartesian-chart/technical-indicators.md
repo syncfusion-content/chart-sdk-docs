@@ -2,7 +2,7 @@
 layout: post
 title: Technical Indicators in Flutter Cartesian Chart | Syncfusion®
 description: The technical indicators support in Flutter Cartesian Chart offers built-in financial indicators to analyze trends, momentum, and market movements effectively.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -761,7 +761,7 @@ Refer the following example below
 
 #### See Also
 
-* [Refer this link for technical indicators callback](https://help.syncfusion.com/flutter/cartesian-charts/callbacks#onrenderdetailsupdate).
+* [Refer this link for technical indicators callback](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/callbacks#onrenderdetailsupdate).
 
 * [Bind data source to technical indicators in Flutter Cartesian chart](https://support.syncfusion.com/kb/article/11420/bind-data-source-to-technical-indicators-in-flutter-cartesian-chart).
 
@@ -790,4 +790,4 @@ Refer the following example below
 
 *	[`Weighted moving average indicator`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/WmaIndicator-class.html) (WMA) - can be rendered with five value mappers ([`xValueMapper`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/TechnicalIndicator/xValueMapper.html), [`lowValueMapper`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/TechnicalIndicator/lowValueMapper.html), [`highValueMapper`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/TechnicalIndicator/highValueMapper.html), [`openValueMapper`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/TechnicalIndicator/openValueMapper.html), [`closeValueMapper`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/TechnicalIndicator/closeValueMapper.html)).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

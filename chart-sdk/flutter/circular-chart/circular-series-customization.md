@@ -2,7 +2,7 @@
 layout: post
 title: Series Customization in Flutter Circular Chart | Syncfusion®
 description: The series customization support in Flutter Circular Chart offers control over colors, borders, spacing, animations, and segment appearance.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

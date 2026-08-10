@@ -2,7 +2,7 @@
 layout: post
 title: Axis Customization in Flutter Cartesian Chart | Syncfusion®
 description: The axis customization support in Flutter Cartesian Chart offers control over axis labels, ticks, ranges, and intervals for tailored data visualization.
-platform: flutter
+platform: chart-sdk
 control: Cartesian Charts
 documentation: ug
 ---

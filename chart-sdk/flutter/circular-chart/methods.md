@@ -2,7 +2,7 @@
 layout: post
 title: Methods in Flutter Circular Chart | Syncfusion®
 description: The methods in Flutter Circular Chart documentation provide publicly accessible APIs for performing chart-related operations programmatically.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

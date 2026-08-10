@@ -2,7 +2,7 @@
 layout: post
 title: Selection in Flutter Circular Chart | Syncfusion®
 description: The selection support in Flutter Circular Chart offers interactive point and segment selection with customizable styles to highlight data insights.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -170,7 +170,7 @@ Defaults to `true`.
 
 ![Toggle selection](images/selection/deselection.gif)
 
-Also refer [`selection event`](https://help.syncfusion.com/flutter/circular-charts/callbacks#onselectionchanged) for customizing the selection further.
+Also refer [`selection event`](https://help.syncfusion.com/chart-sdk/flutter/circular-chart/callbacks#onselectionchanged) for customizing the selection further.
 
 #### See Also
 

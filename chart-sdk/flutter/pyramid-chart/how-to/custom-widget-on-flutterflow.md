@@ -2,7 +2,7 @@
 layout: post
 title: How to add Syncfusion® Pyramid Chart in FlutterFlow | Syncfusion®
 description: Add Syncfusion® Flutter Pyramid Chart in FlutterFlow to create compact, interactive charts that visualize trends and data patterns with ease.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

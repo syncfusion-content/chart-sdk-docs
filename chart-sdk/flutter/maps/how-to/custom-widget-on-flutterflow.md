@@ -2,7 +2,7 @@
 layout: post
 title: How to Add Maps in FlutterFlow | Syncfusion®
 description: Learn how to add and use Syncfusion® Flutter Maps (SfMaps) in FlutterFlow, including setup, integration, data visualization, and configuration.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Series customization in Flutter Funnel Chart | Syncfusion®
 description: The series customization support in Flutter Funnel Chart offers control over segment appearance, spacing, colors, and rendering for tailored visualizations.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

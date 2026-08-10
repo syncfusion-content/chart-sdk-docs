@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in Flutter Maps | Syncfusion®
 description: Learn about accessibility support in Syncfusion® Flutter Maps (SfMaps), including screen readers, keyboard navigation, and assistive technologies.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
@@ -81,17 +81,17 @@ class PopulationModel {
 
 You can customize the color of the [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps-class.html) elements using the following APIs to ensure sufficient contrast:
 
-* [`Shape`](https://help.syncfusion.com/flutter/maps/shape#shape-color)
-* [`Bubble`](https://help.syncfusion.com/flutter/maps/bubble#color)
-* [`Data labels`](https://help.syncfusion.com/flutter/maps/data-labels#appearance-customization)
-* [`Legend`](https://help.syncfusion.com/flutter/maps/legend#icon-and-text-customization)
-* [`Tooltip`](https://help.syncfusion.com/flutter/maps/tooltip#appearance-customization)
-* [`Sublayer`](https://help.syncfusion.com/flutter/maps/shape-sublayer#color-and-stroke-color)
-* [`Line layer`](https://help.syncfusion.com/flutter/maps/vector-layers/line-layer#color)
-* [`Arc layer`](https://help.syncfusion.com/flutter/maps/vector-layers/arc-layer#color)
-* [`Polyline layer`](https://help.syncfusion.com/flutter/maps/vector-layers/polyline-layer#color)
-* [`Polygon layer`](https://help.syncfusion.com/flutter/maps/vector-layers/polygon-layer#fill-color)
-* [`Circle layer`](https://help.syncfusion.com/flutter/maps/vector-layers/circle-layer#fill-color)
+* [`Shape`](https://help.syncfusion.com/chart-sdk/flutter/maps/shape#shape-color)
+* [`Bubble`](https://help.syncfusion.com/chart-sdk/flutter/maps/bubble#color)
+* [`Data labels`](https://help.syncfusion.com/chart-sdk/flutter/maps/data-labels#appearance-customization)
+* [`Legend`](https://help.syncfusion.com/chart-sdk/flutter/maps/legend#icon-and-text-customization)
+* [`Tooltip`](https://help.syncfusion.com/chart-sdk/flutter/maps/tooltip#appearance-customization)
+* [`Sublayer`](https://help.syncfusion.com/chart-sdk/flutter/maps/shape-sublayer#color-and-stroke-color)
+* [`Line layer`](https://help.syncfusion.com/chart-sdk/flutter/maps/vector-layers/line-layer#color)
+* [`Arc layer`](https://help.syncfusion.com/chart-sdk/flutter/maps/vector-layers/arc-layer#color)
+* [`Polyline layer`](https://help.syncfusion.com/chart-sdk/flutter/maps/vector-layers/polyline-layer#color)
+* [`Polygon layer`](https://help.syncfusion.com/chart-sdk/flutter/maps/vector-layers/polygon-layer#fill-color)
+* [`Circle layer`](https://help.syncfusion.com/chart-sdk/flutter/maps/vector-layers/circle-layer#fill-color)
 
 ## Large fonts
 
@@ -99,9 +99,9 @@ The font size of the [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter
 
 Additionally, you can manually adjust the font size of the [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps-class.html) elements using these APIs:
 
-* [`Data label style`](https://help.syncfusion.com/flutter/maps/data-labels#appearance-customization)
-* [`Legend text style`](https://help.syncfusion.com/flutter/maps/legend#text-style)
-* [`Tooltip label style`](https://help.syncfusion.com/flutter/maps/tooltip#tooltip-for-the-shapes)
+* [`Data label style`](https://help.syncfusion.com/chart-sdk/flutter/maps/data-labels#appearance-customization)
+* [`Legend text style`](https://help.syncfusion.com/chart-sdk/flutter/maps/legend#text-style)
+* [`Tooltip label style`](https://help.syncfusion.com/chart-sdk/flutter/maps/tooltip#tooltip-for-the-shapes)
 
 ## Easier touch targets
 

@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in Flutter Treemap | Syncfusion®
 description: Learn about accessibility support in Syncfusion® Flutter Treemap (SfTreemap), including screen readers, keyboard navigation, and more.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---
@@ -84,18 +84,18 @@ class PopulationModel {
 
 You can customize the color of the [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) elements using the following APIs for the sufficient contrast.
 
-* [`Level`](https://help.syncfusion.com/flutter/treemap/color-customization#level-color)
-* [`Labels`](https://help.syncfusion.com/flutter/treemap/labels)
-* [`Legend`](https://help.syncfusion.com/flutter/treemap/legend#icon-and-text-customization)
-* [`Tooltip`](https://help.syncfusion.com/flutter/treemap/tooltip#appearance-customization)
+* [`Level`](https://help.syncfusion.com/chart-sdk/flutter/treemap/color-customization#level-color)
+* [`Labels`](https://help.syncfusion.com/chart-sdk/flutter/treemap/labels)
+* [`Legend`](https://help.syncfusion.com/chart-sdk/flutter/treemap/legend#icon-and-text-customization)
+* [`Tooltip`](https://help.syncfusion.com/chart-sdk/flutter/treemap/tooltip#appearance-customization)
 
 ## Large fonts
 
 The font size of the [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) will be automatically scaled based on the device settings. Additionally, you can change the font size of the [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) elements using the following APIs:
 
-* [`Label style`](https://help.syncfusion.com/flutter/treemap/labels#add-labels)
-* [`Legend text style`](https://help.syncfusion.com/flutter/treemap/legend#text-style)
-* [`Tooltip label style`](https://help.syncfusion.com/flutter/treemap/tooltip#tooltip-for-the-tiles)
+* [`Label style`](https://help.syncfusion.com/chart-sdk/flutter/treemap/labels#add-labels)
+* [`Legend text style`](https://help.syncfusion.com/chart-sdk/flutter/treemap/legend#text-style)
+* [`Tooltip label style`](https://help.syncfusion.com/chart-sdk/flutter/treemap/tooltip#tooltip-for-the-tiles)
 
 ## Easier touch targets
 

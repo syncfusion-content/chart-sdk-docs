@@ -2,7 +2,7 @@
 layout: post
 title: Tile Layer in Flutter Maps | Syncfusion®
 description: Learn about tile layers in Syncfusion® Flutter Maps (SfMaps), including map providers, URL templates, zooming, and tile customization.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
@@ -100,7 +100,7 @@ class MapsExample extends StatelessWidget {
 
 Our tile layer is not limited or specific to any of the tile providers mentioned here. It supports requesting tiles from any tile provider using the unique URL for respective tile providers and renders them.
 
-For other map providers like TomTom, MapBox, etc., you can check their respective official websites and provide the URL in the format mentioned in the [`Setting URL template`](https://help.syncfusion.com/flutter/maps/tile-layer#setting-url-template) section.
+For other map providers like TomTom, MapBox, etc., you can check their respective official websites and provide the URL in the format mentioned in the [`Setting URL template`](https://help.syncfusion.com/chart-sdk/flutter/maps/tile-layer#setting-url-template) section.
 
 Below is an example of adding TomTom map. You can get the TomTom API key from this [`link`](https://developer.tomtom.com/map-display-api/documentation/product-information/introduction).
 
@@ -132,7 +132,7 @@ class MapsExample extends StatelessWidget {
 
 You can set the initial focal point by setting the [`MapTileLayer.initialFocalLatLng`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialFocalLatLng.html) property. It represents the initial focal latitude and longitude position of the map layer.
 
-Based on the size of the [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps-class.html) widget, [`initialFocalLatLng`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialFocalLatLng.html) and [`initialZoomLevel`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialZoomLevel.html), only the number of initial tiles needed in the viewport will be rendered. Refer to this section for enabling [zooming and panning](https://help.syncfusion.com/flutter/maps/zoom-pan).
+Based on the size of the [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps-class.html) widget, [`initialFocalLatLng`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialFocalLatLng.html) and [`initialZoomLevel`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialZoomLevel.html), only the number of initial tiles needed in the viewport will be rendered. Refer to this section for enabling [zooming and panning](https://help.syncfusion.com/chart-sdk/flutter/maps/zoom-pan).
 
 This property cannot be changed dynamically. Defaults to `MapLatLng(0.0, 0.0)`.
 
@@ -195,6 +195,6 @@ class MapsExample extends StatelessWidget {
 
 ## Markers
 
-You can add markers in the tile layer. The procedure is very similar to the shape layer. Please refer to the [markers](https://help.syncfusion.com/flutter/maps/markers#adding-markers) section for more details.
+You can add markers in the tile layer. The procedure is very similar to the shape layer. Please refer to the [markers](https://help.syncfusion.com/chart-sdk/flutter/maps/markers#adding-markers) section for more details.
 
 N> You can refer to our [Flutter Maps](https://www.syncfusion.com/flutter-widgets/flutter-maps) feature tour page for its groundbreaking feature representations. You can also explore our [Flutter Maps TileLayer example](https://flutter.syncfusion.com/#/maps/tile-layer/openstreetmap) that shows how to configure a Maps in Flutter.

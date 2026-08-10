@@ -2,7 +2,7 @@
 layout: post
 title: Right-to-Left (RTL) in Flutter Maps | Syncfusion®
 description: Learn about right-to-left (RTL) support in Syncfusion® Flutter Maps (SfMaps), including map rendering, localization, and layout customization.
-platform: flutter
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

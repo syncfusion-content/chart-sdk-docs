@@ -2,7 +2,7 @@
 layout: post
 title: Labels in Flutter Treemap | Syncfusion®
 description: Learn about label support in Syncfusion® Flutter Treemap (SfTreemap), including label customization, text styling, placement, and data visualization.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---

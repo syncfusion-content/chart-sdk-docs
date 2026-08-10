@@ -2,7 +2,7 @@
 layout: post
 title: Drilldown in Flutter Treemap | Syncfusion®
 description: Learn about drilldown support in Syncfusion® Flutter Treemap (SfTreemap), including hierarchical navigation, drilldown levels, and interactive data exploration.
-platform: flutter
+platform: chart-sdk
 control: SfTreemap
 documentation: ug
 ---

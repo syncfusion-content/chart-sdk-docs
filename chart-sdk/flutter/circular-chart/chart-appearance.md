@@ -2,7 +2,7 @@
 layout: post
 title: Customization in Flutter Circular Chart | Syncfusion®
 description: The customization support in Flutter Circular Chart offers extensive control over chart appearance, series styling, colors, animations, and layout settings.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---

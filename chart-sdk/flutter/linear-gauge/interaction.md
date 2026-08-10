@@ -2,7 +2,7 @@
 layout: post
 title: Interaction in Flutter Linear Gauge | Syncfusion®
 description: Learn about interaction support in Syncfusion® Flutter Linear Gauge (SfLinearGauge), including dragging, pointer interaction, and user input handling.
-platform: flutter
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

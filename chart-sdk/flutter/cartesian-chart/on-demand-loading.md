@@ -2,7 +2,7 @@
 layout: post
 title: On-demand loading in Flutter Cartesian Chart | Syncfusion®
 description: The on-demand loading support in Flutter Cartesian Chart offers dynamic data loading as users interact, improving performance with large datasets.
-platform: flutter
+platform: chart-sdk
 control: Chart
 documentation: ug
 ---
@@ -69,7 +69,7 @@ The example below demonstrates the infinite scrolling by showing the ci
 
 ![Infinite_scrolling](images/on-demand-loading/infinite_scrolling.gif)
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.
 
 #### See Also
 
