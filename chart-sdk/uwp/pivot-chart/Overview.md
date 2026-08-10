@@ -23,4 +23,4 @@ The key features of the [`SfPivotChart`](https://help.syncfusion.com/cr/uwp/Sync
 * **Legend**: Helps to differentiate between chart series using a color code along with labels to indicate that it applies to information from Series 1, Series 2, and so on.
 * **Zooming and scrolling**: Enables you to zoom into an area of the chart so that the data can be viewed more accurately.
 * **Exporting**: Allows you to export the SfPivotChart control into various formats such as PDF, Microsoft Word, and image formats.
-* **Tooltip**: Displays data point values of the respective chart series on mouse hovering over the series.
+* **Tooltip**: Displays data point values of the respective chart series on mouse hovering over the series.   
