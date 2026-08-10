@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with WPF TreeMap control | Syncfusion
 description: Learn here about getting started with Syncfusion WPF TreeMap (SfTreeMap) control, its elements and more.
-platform: wpf
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in WPF OLAP Gauge control | Syncfusion
 description: Learn about Tooltip support in Syncfusion Essential Studio WPF OLAP Gauge control, its elements and more details.
-platform: wpf
+platform: chart-sdk
 control: OLAP Gauge
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: TreeMap Legend in WPF TreeMap control | Syncfusion
 description: Learn here all about TreeMap Legend support in Syncfusion WPF TreeMap (SfTreeMap) control, its elements and more.
-platform: wpf
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

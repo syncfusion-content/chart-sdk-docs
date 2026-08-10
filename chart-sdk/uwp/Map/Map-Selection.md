@@ -2,7 +2,7 @@
 layout: post
 title: Map Selection in UWP Map control | Syncfusion
 description: Learn how to enable and customize single and multiple shape selection in the Syncfusion UWP Map control using SfMaps selection properties.
-platform: uwp
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

@@ -1,8 +1,8 @@
----
+ ---
 layout: post
 title: Getting Started with UWP Digital Gauge control | Syncfusion
 description: Learn here about getting started with Syncfusion UWP Digital Gauge (SfDigitalGauge) control, its elements and more.
-platform: uwp
+platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
 ---

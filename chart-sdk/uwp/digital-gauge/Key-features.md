@@ -2,7 +2,7 @@
 layout: post
 title: Key Features in UWP Digital Gauge control | Syncfusion
 description: Learn here all about Key Features support in Syncfusion UWP Digital Gauge (SfDigitalGauge) control and more.
-platform: uwp
+platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
 ---

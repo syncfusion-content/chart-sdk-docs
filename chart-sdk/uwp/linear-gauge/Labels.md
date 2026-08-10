@@ -2,7 +2,7 @@
 layout: post
 title: Labels in UWP Linear Gauge control | Syncfusion
 description: Learn here all about Labels support in Syncfusion UWP Linear Gauge (SfLinearGauge) control and more.
-platform: uwp
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

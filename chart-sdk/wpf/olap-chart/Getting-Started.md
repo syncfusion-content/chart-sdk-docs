@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with WPF Olap Chart control | Syncfusion
 description: Learn here about getting started with Syncfusion® WPF Olap Chart control, its elements and more details.
-platform: wpf
+platform: chart-sdk
 control: OLAP Chart
 documentation: ug
 ---

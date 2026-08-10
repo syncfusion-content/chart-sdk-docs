@@ -2,7 +2,7 @@
 layout: post
 title: Map Providers in UWP Map control | Syncfusion
 description: Learn how to use OpenStreetMap and Bing Maps providers, configure imagery layers, and calculate zoom levels in the Syncfusion UWP SfMap control.
-platform: uwp
+platform: chart-sdk
 control: SfMap
 documentation: ug
 ---

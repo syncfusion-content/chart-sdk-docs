@@ -2,7 +2,7 @@
 layout: post
 title: KML Shapes Rendered in ShapeFileLayer for SfMap control | Syncfusion
 description: Learn how to render KML shapes in a ShapeFileLayer using the Syncfusion UWP SfMap control and configure the KML file as an embedded resource.
-platform: uwp
+platform: chart-sdk
 control: SfMap
 documentation: ug
 ---

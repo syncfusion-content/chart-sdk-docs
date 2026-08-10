@@ -2,7 +2,7 @@
 layout: post
 title: Digital Characters in UWP Digital Gauge control | Syncfusion
 description: Learn here all about Digital Characters support in Syncfusion UWP Digital Gauge (SfDigitalGauge) control and more.
-platform: uwp
+platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
 ---

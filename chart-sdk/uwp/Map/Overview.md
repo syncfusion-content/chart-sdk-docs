@@ -2,7 +2,7 @@
 layout: post
 title: About UWP Map control | Syncfusion
 description: Learn here all about introduction of Syncfusion Essential Studio UWP Map (SfMaps) control, its elements and more.
-platform: uwp
+platform: chart-sdk
 control: SfMap
 documentation: ug
 ---
