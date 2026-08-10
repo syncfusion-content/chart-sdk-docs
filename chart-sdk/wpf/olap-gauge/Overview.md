@@ -2,7 +2,7 @@
 layout: post
 title: About the WPF OLAP Gauge control | Syncfusion
 description: Learn here all about introduction of Syncfusion WPF OLAP Gauge control, its elements and more details.
-platform: wpf
+platform: chart-sdk
 control: OLAP Gauge
 documentation: ug
 ---

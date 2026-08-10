@@ -2,7 +2,7 @@
 layout: post
 title: XAML Configuration in WPF OLAP Gauge control | Syncfusion
 description: Learn about XAML Configuration support in Syncfusion WPF OLAP Gauge control, its elements and more details.
-platform: wpf
+platform: chart-sdk
 control: OLAP Gauge
 documentation: ug
 ---

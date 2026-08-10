@@ -2,7 +2,7 @@
 layout: post
 title: LeafItemSettings in WPF TreeMap control | Syncfusion
 description: Learn here all about LeafItemSettings support in Syncfusion WPF TreeMap (SfTreeMap) control and more.
-platform: wpf
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

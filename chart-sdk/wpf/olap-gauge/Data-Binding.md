@@ -2,7 +2,7 @@
 layout: post
 title: Data Binding in WPF OLAP Gauge control | Syncfusion
 description: Learn about Data Binding support in Syncfusion Essential Studio WPF OLAP Gauge control, its elements and more details.
-platform: wpf
+platform: chart-sdk
 control: OLAP Gauge
 documentation: ug
 ---

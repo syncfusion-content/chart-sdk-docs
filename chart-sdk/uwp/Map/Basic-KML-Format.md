@@ -2,7 +2,7 @@
 layout: post
 title: Basic KML Format in UWP Map control | Syncfusion
 description: Learn how to load and display KML geographic data using the Syncfusion UWP Map control, including supported elements and styling options.
-platform: uwp
+platform: chart-sdk
 control: SfMap
 documentation: ug
 ---

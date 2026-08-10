@@ -2,7 +2,7 @@
 layout: post
 title: Exporting in WPF Olap Chart control | Syncfusion
 description: Learn about Exporting support in Syncfusion Essential Studio® WPF Olap Chart control, its elements and more details.
-platform: wpf
+platform: chart-sdk
 control: OLAP Chart
 documentation: ug
 ---

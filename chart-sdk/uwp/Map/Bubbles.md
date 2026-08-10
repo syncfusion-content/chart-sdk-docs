@@ -2,7 +2,7 @@
 layout: post
 title: Bubbles in UWP Map control | Syncfusion
 description: Learn how to add and customize bubbles in the Syncfusion UWP Map control, including bubble symbols, size settings, and range color mapping.
-platform: uwp
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

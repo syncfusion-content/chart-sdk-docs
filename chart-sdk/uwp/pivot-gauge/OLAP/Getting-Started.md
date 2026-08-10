@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with UWP OLAP Pivot Gauge control | Syncfusion
 description: Learn how to create and configure the Syncfusion UWP SfPivotGauge control, connect an OLAP data source, and bind OLAP reports through a WCF service.
-platform: uwp
+platform: chart-sdk
 control: SfPivotGauge
 documentation: ug
 ---

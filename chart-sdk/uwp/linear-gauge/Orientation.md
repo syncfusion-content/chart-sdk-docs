@@ -2,7 +2,7 @@
 layout: post
 title: Orientation in UWP Linear Gauge control | Syncfusion
 description: Learn here all about Orientation support in Syncfusion UWP Linear Gauge (SfLinearGauge) control and more.
-platform: uwp
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

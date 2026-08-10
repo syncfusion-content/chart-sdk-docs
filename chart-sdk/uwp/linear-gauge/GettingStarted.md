@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with UWP Linear Gauge control | Syncfusion
 description: Learn here about getting started with Syncfusion UWP Linear Gauge (SfLinearGauge) control, its elements and more.
-platform: uwp
+platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---

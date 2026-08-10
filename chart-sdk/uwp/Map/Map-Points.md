@@ -2,7 +2,7 @@
 layout: post
 title: Map Points in Syncfusion UWP SfMaps control
 description: Learn how to display and customize map points in the Syncfusion UWP SfMaps control using templates, coordinates, and popup content.
-platform: uwp
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

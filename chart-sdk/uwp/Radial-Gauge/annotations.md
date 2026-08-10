@@ -3,7 +3,7 @@
 layout: post
 title: Annotations in UWP Radial Gauge control | Syncfusion
 description: Learn here all about Annotations support in Syncfusion UWP Radial Gauge (SfCircularGauge) control and more.
-platform: uwp
+platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
 

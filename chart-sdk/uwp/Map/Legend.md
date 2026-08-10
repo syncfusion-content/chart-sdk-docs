@@ -2,7 +2,7 @@
 layout: post
 title: Legend in UWP Map control | Syncfusion
 description: Learn how to configure, position, and customize legends for shape and bubble layers in the Syncfusion UWP Map control using SfMaps properties.
-platform: uwp
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---

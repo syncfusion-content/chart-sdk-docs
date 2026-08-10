@@ -2,7 +2,7 @@
 layout: post
 title: About UWP Pivot Gauge control | Syncfusion
 description: Learn here all about introduction of Syncfusion UWP Pivot Gauge (SfPivotGauge) control, its elements and more.
-platform: uwp
+platform: chart-sdk
 control: SfPivotGauge
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Shape Types in UWP Maps control | Syncfusion
 description: Learn about the Shape Types support in the Syncfusion UWP Maps (SfMaps) control, including its elements and more.
-platform: uwp
+platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
