@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Methods in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to use methods in Syncfusion Flutter Cartesian Charts—show or hide tooltips, trackball, zoom, and configure key features.
+title: Methods in Flutter Cartesian Chart | Syncfusion®
+description: The methods in Flutter Cartesian Chart documentation provide publicly accessible APIs for performing chart-related operations programmatically.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Methods (SfCartesianChart)
+# Methods in Flutter Cartesian Chart
 
 ## Methods in Plot band
 
@@ -15,7 +15,7 @@ documentation: ug
 
 The `drawRect` method is used to customize the appearance of the plot band.
 
-This following code sample shows how to customize the appearance of the plot band by using drawRect method.
+The following code sample shows how to customize the appearance of the plot band by using the drawRect method.
 
 {% tabs %}
 {% highlight dart %} 
@@ -1245,7 +1245,7 @@ The [`drawHorizontalAxisTooltip`](https://pub.dev/documentation/syncfusion_flutt
 
 The [`drawVerticalAxisTooltip`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/CrosshairBehavior/drawVerticalAxisTooltip.html) method is used to customize the tooltip label, position, and style for vertical axis tooltip.
 
-For further reference, please consult the [`drawHorizontalAxisTooltip`](https://help.syncfusion.com/flutter/cartesian-charts/methods#drawhorizontalaxistooltip-method-in-crosshairbehavior) code sample.
+For further reference, please consult the [`drawHorizontalAxisTooltip`](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/methods#drawhorizontalaxistooltip-method-in-crosshairbehavior) code sample.
 
 ![Crosshair Vertical Axis Tooltip](images\trackball-crosshair/custom_crosshair_vertical_tooltip.png)
 
@@ -2377,4 +2377,4 @@ and funnel charts.
 * [Show or hide trackball dynamically in Cartesian chart](https://support.syncfusion.com/kb/article/9960/how-to-show-or-hide-trackball-dynamically-in-flutter-cartesian-charts-sfcartesianchart).
 * [Show or hide crosshair dynamically in Cartesian chart](https://support.syncfusion.com/kb/article/9911/how-to-show-or-hide-crosshair-dynamically-in-flutter-cartesian-charts-sfcartesianchart).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

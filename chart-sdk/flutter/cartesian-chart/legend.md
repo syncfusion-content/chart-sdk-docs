@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Legend in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to control legends in Syncfusion Flutter Cartesian Charts—enable, position, style, and configure key features.
+title: Legend in Flutter Cartesian Chart | Syncfusion®
+description: The legend support in Flutter Cartesian Chart offers customizable legend items, layouts, and positioning to improve chart readability.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Legend (SfCartesianChart)
+# Legend in Flutter Cartesian Chart
 
-The [`legend`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart/legend.html) contains a list of chart series/data points in chart. The information provided in each legend item helps to identify the corresponding data series in chart.
+The [`legend`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart/legend.html) contains a list of chart series or data points in the chart. The information provided in each legend item helps identify the corresponding data series in the chart.
 
 {% tabs %}
 {% highlight dart hl_lines="9" %} 
@@ -557,4 +557,4 @@ You can customize the appearance of legend items with your template by using [`l
 {% endhighlight %}
 {% endtabs %}
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.
