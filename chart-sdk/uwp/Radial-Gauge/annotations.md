@@ -1,15 +1,15 @@
 ---
 
 layout: post
-title: Annotations in UWP Radial Gauge control | Syncfusion
-description: Learn here all about Annotations support in Syncfusion UWP Radial Gauge (SfCircularGauge) control and more.
+title: Annotations in UWP Radial Gauge | Syncfusion®
+description: Annotations in the UWP Radial Gauge allow you to add custom text, shapes, and UI elements to provide additional gauge information.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
 
 ---
 
-# Annotations in UWP Radial Gauge (SfCircularGauge)
+# Annotations in UWP Radial Gauge
 
 [`SfCircularGauge`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfCircularGauge.html) supports [`Annotations`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfCircularGauge.html#Syncfusion_UI_Xaml_Gauges_SfCircularGauge_Annotations), which allows you to mark the specific area of interest in circular gauge. You can place custom views as annotations. The text and images also can be added by using [`Annotations`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfCircularGauge.html#Syncfusion_UI_Xaml_Gauges_SfCircularGauge_Annotations) property.
 
