@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Box and Whisker Chart in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about box and whisker chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Box and Whisker Chart in Flutter Cartesian Chart | Syncfusion®
+description: The box and whisker chart support in Flutter Cartesian Chart offers statistical data visualization to display distribution, quartiles, and outliers effectively.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Box and Whisker Chart in Flutter Cartesian Charts (SfCartesianChart)
+# Box and Whisker Chart in Flutter Cartesian Chart
 
-The [Flutter Box and Whisker Charts](https://www.syncfusion.com/flutter-widgets/flutter-charts/chart-types/box-and-whisker-chart) can be used to visualize a group of numerical data through their quartiles. It is also referred to as box plot. Box plots may also have lines extending vertically from the boxes (whiskers) indicating variability outside the upper and lower quartiles.
+The [Flutter Box and Whisker Charts](https://www.syncfusion.com/flutter-widgets/flutter-charts/chart-types/box-and-whisker-chart) can be used to visualize a group of numerical data through their quartiles. It is also referred to as a box plot. Box plots may also have lines extending vertically from the boxes (whiskers), indicating variability outside the upper and lower quartiles.
 
 To render a Box and Whisker chart, create an instance of [`BoxAndWhiskerSeries`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/BoxAndWhiskerSeries-class.html), and add it to the [`series`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart/series.html) collection property of [`SfCartesianChart`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart/SfCartesianChart.html). The following properties can be used to customize the appearance.
 
@@ -51,9 +51,9 @@ To render a Box and Whisker chart, create an instance of [`BoxAndWhiskerSeries`]
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)

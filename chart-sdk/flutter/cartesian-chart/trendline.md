@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Trendlines in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about Trendlines feature of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Trendlines in Flutter Cartesian Chart | Syncfusion®
+description: The trendlines support in Flutter Cartesian Chart offers built-in trend analysis by displaying data patterns and forecasting directions visually.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Trendlines in Flutter Cartesian Charts (SfCartesianChart)
+# Trendlines in Flutter Cartesian Chart
 
-Trendlines are used to show the direction and speed of price.
+Trendlines are used to show the direction and speed of price changes.
 
 Trendlines can be generated for the Cartesian type series (Line, Column, Scatter, Area, Candle, HiLo, etc.) except bar type series. You can add more than one trendline to a series.
 
@@ -534,6 +534,6 @@ Chart will display details about the points through tooltip when user interactio
 
 ![tooltip](images/trendline/tooltip.png)
 
-Also refer [`trendline event`](https://help.syncfusion.com/flutter/cartesian-charts/callbacks#onrenderdetailsupdate-trendline) for customizing the tooltip further.
+Also refer [`trendline event`](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/callbacks#onrenderdetailsupdate-trendline) for customizing the tooltip further.
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.
