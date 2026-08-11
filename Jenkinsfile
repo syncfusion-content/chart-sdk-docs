@@ -46,15 +46,13 @@ String platform='chart-sdk';
               else  {
                 writeFile file: env.WORKSPACE+"/cireports/content.txt", text: "There are no filepaths found for this commit."
               }
-			  
+           }
 		    }
 			 
 		   //Checkout the ug_spellchecker from development Source
 	  checkout([$class: 'GitSCM', branches: [[name: '*/development']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'ug_spellchecker']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: env.githubCredentialId, url: 'https://github.com/syncfusion-content/ug_spellchecker.git']]])
-		 
-	  }
+  }
 	  
-	}
 	
     catch(Exception e)
     {
