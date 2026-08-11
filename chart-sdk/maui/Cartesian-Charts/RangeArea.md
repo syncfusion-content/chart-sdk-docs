@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Range Area Chart in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about range area chart support in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Range Area Chart in .NET MAUI Cartesian Chart | Syncfusion®
+description: Range Area Chart in .NET MAUI Cartesian Chart displays value ranges as filled areas between minimum and maximum values, enabling effective range comparison.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -16,7 +16,7 @@ Range Area Chart is a type of data visualization useful for displaying the relat
 
 By displaying ranges of data, range area series can make it easier to compare multiple datasets at once.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 To render a range area chart, create an instance of the [RangeAreaSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RangeAreaSeries.html), and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of the [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html).
 

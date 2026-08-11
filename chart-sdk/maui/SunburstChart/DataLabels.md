@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data label in .NET MAUI Sunburst Chart control | Syncfusion
-description: This section explains about how to configure the data labels and its features in .NET MAUI Sunburst Chart.
+title: Data Labels in .NET MAUI Sunburst Chart | Syncfusion®
+description: Data Labels in .NET MAUI Sunburst Chart display values directly on chart segments, helping users understand hierarchical data more effectively.
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
@@ -11,11 +11,11 @@ documentation: ug
 
 Data labels are used to display information about segments of the sunburst chart.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started)** guide.
 
 ## Enable Data Labels
 
-Data labels are enabled and disabled using the [ShowLabels](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ShowLabels) property. The default value of the ShowLabels property is `False`. For data labels to appear, the chart must also be bound to data via the [ItemsSource](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ItemsSource), [ValueMemberPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ValueMemberPath), and [Levels](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_Levels) properties. See the [Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started) topic for setup details.
+Data labels are enabled and disabled using the [ShowLabels](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ShowLabels) property. The default value of the ShowLabels property is `False`. For data labels to appear, the chart must also be bound to data via the [ItemsSource](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ItemsSource), [ValueMemberPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ValueMemberPath), and [Levels](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_Levels) properties. See the [Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started) topic for setup details.
 
 The following code explains how to enable data labels.
 
