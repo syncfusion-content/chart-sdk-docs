@@ -2,7 +2,7 @@
 layout: post
 title: Downloading Syncfusion Chart SDK Mac installer - Syncfusion
 description: Learn here about the how to download Syncfusion Chart SDK Mac installer from our syncfusion website with license.
-platform: Chart SDK
+platform: chart-sdk
 control: Installation and Deployment
 documentation: ug
 ---
