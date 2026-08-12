@@ -1,8 +1,8 @@
 ---
 layout: post
+title: Legend in React Accumulation Charts | Syncfusion
 description: Learn how to enable and customize the legend in the Syncfusion React Accumulation Charts to identify each slice, with options for position, shape, and more.
 control: Legend
-platform: ej2-react
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
