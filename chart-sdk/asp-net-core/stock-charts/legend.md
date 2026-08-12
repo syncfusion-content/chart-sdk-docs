@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Syncfusion ASP.NET Core Stock Chart Legend Component
-description: Learn here all about Legend in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Legend in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
 publishingplatform: chart-sdk
@@ -9,13 +9,13 @@ documentation: ug
 ---
 
 
-# Stock Chart Legend in Syncfusion ASP.NET Core
+# Legend in ASP.NET Core Stock Charts
 
-Legend provides information about the series rendered in the Stock Chart. Legend can be added to a Stock Chart by enabling the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Visible) option in the [`legendSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings).
+Legend provides information about the series rendered in the Stock Charts. Legend can be added to a Stock Charts by enabling the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Visible) option in the [`legendSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings).
 
 ## Position and Alignment
 
-By using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Position) property, legend can be placed at `Left`, `Right`, `Top`, `Bottom` or `Custom` of the Stock Chart. The legend is positioned at the bottom of the Stock Chart, by default.
+By using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Position) property, legend can be placed at `Left`, `Right`, `Top`, `Bottom` or `Custom` of the Stock Charts. The legend is positioned at the bottom of the Stock Charts, by default.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -28,7 +28,7 @@ By using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 
 
 
-[`Custom`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Position) position is used to position the legend anywhere in the Stock Chart using x, y coordinates.
+[`Custom`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Position) position is used to position the legend anywhere in the Stock Charts using x, y coordinates.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -43,7 +43,7 @@ By using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 
 ## Legend Alignment
 
-The legend can be align as `Center`, `Far` or `Near` to the Stock Chart using [`alignment`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Alignment) property.
+The legend can be align as `Center`, `Far` or `Near` to the Stock Charts using [`alignment`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Alignment) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -58,7 +58,7 @@ The legend can be align as `Center`, `Far` or `Near` to the Stock Chart using [`
 
 ## Customization
 
-To change the legend icon shape, [`legendShape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries_LegendShape) property in the [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries) can be used. By default legend icon shape is `seriesType`.
+To change the legend icon shape, [`legendShape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries_LegendShape)Â property in theÂ [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries) can be used. By default legend icon shape isÂ `seriesType`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -73,7 +73,7 @@ To change the legend icon shape, [`legendShape`](https://help.syncfusion.com/cr/
 
 ## Legend Size
 
-By default, legend takes 20% - 25% of the Stock Chart's height horizontally, when it is placed on top or bottom position and 20% - 25% of the width vertically, while placing on left or right position of the Stock Chart. The default legend size can be changed by using the [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Height) property of the `legendSettings`.
+By default, legend takes 20% - 25% of the Stock Charts's height horizontally, when it is placed on top or bottom position and 20% - 25% of the width vertically, while placing on left or right position of the Stock Charts. The default legend size can be changed by using the [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Height) property of the `legendSettings`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

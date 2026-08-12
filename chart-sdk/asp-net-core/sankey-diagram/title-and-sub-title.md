@@ -1,16 +1,16 @@
----
+﻿---
 layout: post
-title: Title and Subtitle in ASP.NET Core Sankey Chart Component
-description: Learn here all about Title and Subtitle in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Title and Subtitle in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title and Subtitle
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Title and Subtitle in ASP.NET Core Sankey Chart component
+# Title and Subtitle in ASP.NET Core Sankey Diagram
 
-The Sankey Chart supports adding descriptive titles and subtitles to provide context and information about your data visualization. These text elements help users quickly understand the purpose and content of the diagram. You can fully customize the text, styling, alignment, and appearance using dedicated properties.
+The Sankey Diagram supports adding descriptive titles and subtitles to provide context and information about your data visualization. These text elements help users quickly understand the purpose and content of the diagram. You can fully customize the text, styling, alignment, and appearance using dedicated properties.
 
 This guide covers title and subtitle configuration, styling options, and best practices for effective diagram labeling.
 
@@ -39,7 +39,7 @@ Both `TitleStyle` and `SubTitleStyle` support the following properties:
 
 ## Basic Title and Subtitle
 
-Add a main title and descriptive subtitle to your Sankey Chart to provide context about the data visualization:
+Add a main title and descriptive subtitle to your Sankey Diagram to provide context about the data visualization:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -65,7 +65,7 @@ Apply custom styling to both the title and subtitle including font properties, c
 
 ## Title Only (Without Subtitle)
 
-Add only a title to the Sankey Chart when a subtitle is not needed. This provides a clean, minimal header for your visualization:
+Add only a title to the Sankey Diagram when a subtitle is not needed. This provides a clean, minimal header for your visualization:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

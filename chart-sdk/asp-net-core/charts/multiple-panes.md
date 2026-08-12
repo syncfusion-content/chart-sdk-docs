@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Multiple Panes in ASP.NET Core Chart Component
-description: Learn here all about Multiple Panes in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Multiple Panes in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Multiple Panes in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Multiple Panes
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Multiple Panes
+# Multiple Panes in ASP.NET Core Charts
 
 Chart area can be divided into multiple panes using [`rows`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRow.html) and [`columns`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartColumn.html).
 
@@ -74,5 +74,6 @@ For spanning the horizontal axis along multiple column, you can use [`span`](htt
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple-panes/column-span/column-span.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 

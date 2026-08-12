@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Accessibility in Syncfusion ASP.NET Core TreeMap component
+title: Accessibility in ASP.NET Core TreeMap | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Accessibility in ASP.NET Core TreeMap component
+# Accessibility in ASP.NET Core TreeMap
 
 The TreeMap component follows commonly used accessibility guidelines and standards, such as [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles).
 
@@ -58,7 +58,7 @@ Accessibility in the TreeMap component ensures that all users, regardless of abi
 | Data labels | Reads the labels displayed on leaf items of the TreeMap. |
 | Title | Reads the title in the TreeMap. |
 | Subtitle | Reads the title below the main title content in the TreeMap. |
-| Legend title | Reads the title of the legend in the TreeMap. |
+| Legend title | Reads the titleÂ of the legend in the TreeMap. |
 | Legend item label | Reads the label of the legend item in the TreeMap. |
 
 ## Ensuring accessibility

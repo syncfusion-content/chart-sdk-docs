@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Chart Dimensions in ASP.NET Core Stock Chart Component
-description: Learn here all about Chart Dimensions in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Chart Dimensions in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Chart Dimensions in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Dimensions
 publishingplatform: chart-sdk
@@ -9,11 +9,11 @@ documentation: ug
 ---
 
 
-# Stock Chart Dimensions
+# Chart Dimensions in ASP.NET Core Stock Charts
 
 ## Size for Container
 
-Chart can render to its container size. You can set the size via inline or CSS as demonstrated below.
+Chart can render to its container size.Â You can set the size via inline or CSS as demonstrated below.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -26,7 +26,7 @@ Chart can render to its container size. You can set the size via inline or CSS 
 
 
 
-## Size for Stock Chart
+## Size for Stock Charts
 
 You can also set size for chart directly through [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Height) properties.
 
@@ -49,7 +49,7 @@ You can set the size of chart in pixel as demonstrated below.
 
 **In Percentage**
 
-By setting value in percentage, chart gets its dimension with respect to its container. For example, when the height is ‘50%’, chart renders to half of the container height.
+By setting value in percentage,Â chart gets its dimension with respect to its container. For example, when the height is â€˜50%â€™, chart renders to half of the container height.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -62,4 +62,4 @@ By setting value in percentage, chart gets its dimension with respect to its co
 
 
 
-N> When you do not specify the size, it takes `450px` as the height and window size as its width.
+N>Â When you do not specify the size, it takesÂ `450px`Â as the height and window size as its width.

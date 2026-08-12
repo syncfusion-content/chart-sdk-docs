@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dynamic data update in ASP.NET Core Syncfusion Chart Component
-description: Learn here all about dynamic data update in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Dynamic Data Update in ASP.NET Core Charts | Syncfusion
+description: Learn here all about dynamic data update in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dynamic Data Update
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Dynamic data update in ASP.NET Core Chart Component
+# Dynamic Data Update in ASP.NET Core Charts
 
 ## Adding a new data point
 
@@ -79,5 +79,6 @@ To remove a data point from the existing data source, simply click on the desire
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/click-add-point/click-add-point.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 

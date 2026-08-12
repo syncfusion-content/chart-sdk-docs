@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Accessibility in Syncfusion Sparkline Component
-description: Learn here all about Accessibility in Syncfusion ASP Core Sparkline component of Syncfusion Essential JS 2 and more.
+title: Accessibility in ASP.NET Core Sparkline Charts | Syncfusion
+description: Learn here all about Accessibility in Syncfusion ASP Core Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
 publishingplatform: chart-sdk
@@ -9,11 +9,11 @@ documentation: ug
 ---
 
 
-# Accessibility in ASP.NET Core Sparkline component
+# Accessibility in ASP.NET Core Sparkline Charts
 
-The Sparkline component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
+The Sparkline Charts component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 
-The accessibility compliance for the Sparkline component is outlined below.
+The accessibility compliance for the Sparkline Charts component is outlined below.
 
 | Accessibility Criteria | Compatibility |
 | -- | -- |
@@ -41,7 +41,7 @@ The accessibility compliance for the Sparkline component is outlined below.
 
 ## WAI-ARIA attributes
 
-The Sparkline component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Sparkline component:
+The Sparkline Charts component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Sparkline Charts component:
 
 * img (role)
 * aria-label (attribute)
@@ -49,17 +49,17 @@ The Sparkline component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/
 
 ## Keyboard interaction
 
-The Sparkline component followed the [keyboard interaction](https://www.w3.org/WAI/ARIA/apg/patterns/alert/#keyboardinteraction) guideline, making it easy for people who use assistive technologies (AT) and those who completely rely on keyboard navigation. The following keyboard shortcuts are supported by the Sparkline component.
+The Sparkline Charts component followed the [keyboard interaction](https://www.w3.org/WAI/ARIA/apg/patterns/alert/#keyboardinteraction) guideline, making it easy for people who use assistive technologies (AT) and those who completely rely on keyboard navigation. The following keyboard shortcuts are supported by the Sparkline Charts component.
 
 | **Press** | **To do this** |
 | --- | --- |
-| <kbd>Ctrl + P</kbd> | Prints the Sparkline. |
+| <kbd>Ctrl + P</kbd> | Prints the Sparkline Charts. |
 
 ## Ensuring accessibility
 
-The Sparkline component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
+The Sparkline Charts component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Sparkline component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/spark-line-chart.html) in a new window to evaluate the accessibility of the Sparkline component with accessibility tools.
+The accessibility compliance of the Sparkline Charts component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/spark-line-chart.html) in a new window to evaluate the accessibility of the Sparkline Charts component with accessibility tools.
 
 {% previewsample "https://ej2.syncfusion.com/accessibility/spark-line-chart.html" %}
 

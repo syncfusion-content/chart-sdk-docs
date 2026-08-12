@@ -1,14 +1,14 @@
----
+﻿---
 layout: post
-title: Tooltip in ASP.NET Core Treemap Component
-description: Learn here all about Tooltip in Syncfusion ASP.NET Core Treemap component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET Core TreeMap | Syncfusion
+description: Learn here all about Tooltip in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Tooltip
+# Tooltip in ASP.NET Core TreeMap
 
 Tooltip is used to display details about the items in the TreeMap. When space constraints prevent us from displaying the information using Data Labels, the tooltip comes in handy.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started with ASP.NET Core 3D Circular Chart | Syncfusion
-description: Checkout and learn about getting started with Syncfusion ASP.NET Core 3D Circular Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET Core 3D Circular Charts | Syncfusion
+description: Check out and learn about getting started with Syncfusion ASP.NET Core 3D Circular Charts control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET Core 3D Circular Chart Control
+# Getting Started with ASP.NET Core 3D Circular Charts
 
 This section briefly explains about how to include [ASP.NET Core 3D Circular Chart](https://www.syncfusion.com/aspnet-core-ui-controls/charts) control in your ASP.NET Core application using Visual Studio.
 

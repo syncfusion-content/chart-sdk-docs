@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data Labels in ASP.NET Core Syncfusion Chart Component
-description: Learn here all about Data Labels in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Data Labels in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Data Labels in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Labels
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Data Labels in ASP.NET Core Chart
+# Data Labels in ASP.NET Core Charts
 
 Data label can be added to a chart series by enabling the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Marker) option in the dataLabel. By default, the labels will arrange smartly without overlapping.
 
@@ -196,3 +196,4 @@ You can calculate the percentage value based on the sum for each series using th
 {% include code-snippet/chart-sdk/asp-net-core/charts/datalabels/series-percentage/series-percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
+

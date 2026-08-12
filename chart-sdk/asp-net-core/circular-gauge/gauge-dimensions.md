@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Gauge Dimensions in ASP.NET Core Circular Gauge Control | Syncfusion
+title: Dimensions in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge Dimensions in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge Dimensions
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Circular Gauge Dimensions
+# Dimensions in ASP.NET Core Circular Gauge
 
 ## Size for Circular Gauge
 
@@ -30,7 +30,7 @@ You can set the size of the gauge in pixel as demonstrated below.
 
 **In Percentage**
 
-By setting value in percentage, gauge gets its dimension with respect to its container. For example, when the height is ‘50%’, gauge renders to half of the container height.
+By setting value in percentage, gauge gets its dimension with respect to its container. For example, when the height is â€˜50%â€™, gauge renders to half of the container height.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

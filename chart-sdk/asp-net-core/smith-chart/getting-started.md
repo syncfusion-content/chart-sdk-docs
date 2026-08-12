@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Getting Started with ASP.NET Core Smith Chart Control | Syncfusion
+title: Getting Started with ASP.NET Core Smith Chart | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Smith Chart control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Smith Chart
@@ -8,17 +8,17 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET Core Smith Chart Control
+# Getting Started with ASP.NET Core Smith Chart
 
 This section briefly explains how to include the [ASP.NET Core Smith Chart](https://www.syncfusion.com/aspnet-core-ui-controls/smith-chart) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/).
 
 ## Create an ASP.NET Core Web App with Razor Pages
 
-Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [Syncfusion® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project). For detailed instructions, refer to the [ASP.NET Core Web App Getting Started](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages) documentation.
+Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [SyncfusionÂ® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project). For detailed instructions, refer to the [ASP.NET Core Web App Getting Started](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages) documentation.
 
 ## Install the required ASP.NET Core package
 
-To add [ASP.NET Core Smith Chart](https://www.syncfusion.com/aspnet-core-ui-controls/smith-chart) control in the app, open the NuGet package manager in Visual Studio *(Tools → NuGet Package Manager → Manage NuGet Packages for Solution)*, search for and install the [Syncfusion.AspNetCore.Smithchart](https://www.nuget.org/packages/Syncfusion.AspNetCore.Smithchart/) package. All Syncfusion ASP.NET Core packages are available in [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2). See the [NuGet packages](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) topic for details.
+To add [ASP.NET Core Smith Chart](https://www.syncfusion.com/aspnet-core-ui-controls/smith-chart) control in the app, open the NuGet package manager in Visual Studio *(Tools â†’ NuGet Package Manager â†’ Manage NuGet Packages for Solution)*, search for and install the [Syncfusion.AspNetCore.Smithchart](https://www.nuget.org/packages/Syncfusion.AspNetCore.Smithchart/) package. All Syncfusion ASP.NET Core packages are available in [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2). See the [NuGet packages](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) topic for details.
 
 Alternatively, you can install the same package using the Package Manager Console with the following command.
 
@@ -90,7 +90,7 @@ Add the [ASP.NET Core Smith Chart](https://www.syncfusion.com/aspnet-core-ui-con
 
 ## Run the application
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Smith Chart](https://www.syncfusion.com/aspnet-core-ui-controls/smith-chart) control will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>âŒ˜</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Smith Chart](https://www.syncfusion.com/aspnet-core-ui-controls/smith-chart) control will render in your default web browser.
 
 ![ASP.NET Core SmithChart Control](images/smithchart-control.webp)
 

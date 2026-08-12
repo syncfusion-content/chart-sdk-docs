@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Technical Indicators in ASP.NET Core Stock Chart Control | Syncfusion
-description: Learn here all about Technical Indicators in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Technical Indicators in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Technical Indicators in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Technical Indicators
 publishingplatform: chart-sdk
@@ -11,11 +11,11 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Technical Indicators in ASP.NET Core Stock Chart component
+# Technical Indicators in ASP.NET Core Stock Charts
 
 A technical indicator is a mathematical calculation based on historic price, volume or open interest information that aims to forecast financial market direction.
 
-Stock Chart supports 10 types of technical indicators namely `Accumulation Distribution`, `ATR`, `EMA`,`SMA`,`TMA`,`Momentum`,`MACD`,`RSI`,`Stochastic`,`Bollinger Band`. By using indicator dropdown box you can add an remove the required indicators types.
+Stock Charts supports 10 types of technical indicators namely `Accumulation Distribution`, `ATR`, `EMA`,`SMA`,`TMA`,`Momentum`,`MACD`,`RSI`,`Stochastic`,`Bollinger Band`. By using indicator dropdown box you can add an remove the required indicators types.
 
 ## Accumulation Distribution
 
@@ -64,7 +64,7 @@ Moving average Indicators are used to define the direction of the trend. To rend
 
 <!-- markdownlint-disable MD034 -->
 
-A Stock Chart overlay that shows the upper and lower limits of normal price movements based on the standard deviation of prices.
+A Stock Charts overlay that shows the upper and lower limits of normal price movements based on the standard deviation of prices.
 
 To render a Bollinger Band, use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartIndicator.html#Syncfusion_EJ2_Charts_StockChartStockChartIndicator_Type) as `BollingerBand`. Bollinger band will be represented by three lines (upperLine, lowerLine, signalLine).(https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartIndicator.html#Syncfusion_EJ2_Charts_StockChartStockChartIndicator_Type) and [`standardDeviations`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartIndicator.html#Syncfusion_EJ2_Charts_StockChartStockChartIndicator_StandardDeviation) is 2.
 
@@ -83,9 +83,9 @@ The StockChart component supports **indicator lifecycle events**, allowing you t
 
 The following indicator events are supported by the StockChart component:
 
-- **`beforeIndicatorChange`** – Fired before an indicator is added or removed. This event allows you to review the requested action in advance and cancel it by setting `cancel` to `true`.
+- **`beforeIndicatorChange`** â€“ Fired before an indicator is added or removed. This event allows you to review the requested action in advance and cancel it by setting `cancel` to `true`.
 
-- **`indicatorChanged`** – Fired after an indicator has been added or removed successfully. This event occurs only if the action was not canceled and can be used to handle the updated state in your application.
+- **`indicatorChanged`** â€“ Fired after an indicator has been added or removed successfully. This event occurs only if the action was not canceled and can be used to handle the updated state in your application.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

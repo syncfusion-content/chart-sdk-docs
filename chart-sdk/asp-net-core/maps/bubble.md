@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Bubble in Syncfusion ASP.NET Core Maps Component
+title: Bubbles in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Bubble in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Bubble
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Bubbles in ASP.NET Core Maps Component
+# Bubbles in ASP.NET Core Maps
 
 Bubbles in the Maps component represent the underlying data values of the Maps. It can be scattered throughout the Maps shapes that contain values in the data source. Bubbles are enabled by setting the `Visible` property of `MapsBubble` to **true**. To add bubbles to the Maps, bind the data source to the `DataSource` property of `MapsBubble` and set the field name, that contains the numerical data, in the data source to the `ValuePath` property.
 
@@ -51,9 +51,9 @@ By default, bubbles are rendered in the **Circle** type. To change the type of t
 
 The following properties are available in `MapsBubble` to customize the bubbles of the Maps component.
 
-* `Border` – To customize the color, width and opacity of the border of the bubbles in Maps.
-* `Fill` – To apply the color for bubbles in Maps.
-* `Opacity` – To apply opacity to the bubbles in Maps.
+* `Border` â€“ To customize the color, width and opacity of the border of the bubbles in Maps.
+* `Fill` â€“ To apply the color for bubbles in Maps.
+* `Opacity` â€“ To apply opacity to the bubbles in Maps.
 * `AnimationDelay` - To change the time delay in the transition for bubbles.
 * `AnimationDuration` - To change the time duration of animation for bubbles.
 

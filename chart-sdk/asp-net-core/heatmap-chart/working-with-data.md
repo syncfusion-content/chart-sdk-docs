@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Working With Data in Syncfusion ASP.NET Core Heatmap Chart Component
+title: Working with Data in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about Working With Data in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working With Data
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Working with data in ASP.NET Core HeatMap Chart Component
+# Working with Data in ASP.NET Core HeatMap Chart
 
 Heat map visualizes the JSON data and two-dimensional array data. Using the data adaptor support, data can be bound to the heat map.
 
@@ -116,4 +116,4 @@ In complex data binding, you can bind the nested JSON data to the data points in
 
 ## See Also
 
-* [To bind data for bubble heat map with size and color attributes](./bubble-heatmap/#binding-data-for-bubble-heat-map-with-size-and-color-attributes)
+* [To bind data for bubble heat map with size and color attributes](./bubble-heatmap#binding-data-for-bubble-heat-map-with-size-and-color-attributes)

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Selection in ASP.NET Core Syncfusion Chart Component
-description: Learn here all about Selection in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Selection in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Selection in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Selection
 publishingplatform: chart-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Selection in ASP.NET Core Chart Component
+# Selection in ASP.NET Core Charts
 
 Chart provides selection support for the series and its data points on mouse click.
 
@@ -152,4 +152,5 @@ You can apply custom style to selected points or series with [`selectionStyle`](
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/selection/custom-selection/custom-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

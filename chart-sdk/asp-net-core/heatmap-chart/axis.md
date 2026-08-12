@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Axis in Syncfusion ASP.NET Core HeatMap Chart Component
+title: Axis in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about axis in Syncfusion ASP.NET Core HeatMap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Axis in ASP.NET Core HeatMap Chart Component
+# Axis in ASP.NET Core HeatMap Chart
 
 HeatMap consists of two axes namely, X-axis and Y-axis that displays the row headers and column headers to plot the data points respectively. You can define the type, format, and other customizing options for both axes in the HeatMap.
 
@@ -170,7 +170,7 @@ The axis labels can be rotated to the desired angles by using the [labelRotation
 
 ### Label formatting
 
-HeatMap supports formatting the axis labels by using the [labelFormat](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapAxis.html#Syncfusion_EJ2_HeatMap_HeatMapAxis_LabelFormat) property. Using this property, you can customize the axis label by global string format ('P', 'C', etc) or customized format like '{value}°C'.
+HeatMap supports formatting the axis labels by using the [labelFormat](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapAxis.html#Syncfusion_EJ2_HeatMap_HeatMapAxis_LabelFormat) property. Using this property, you can customize the axis label by global string format ('P', 'C', etc) or customized format like '{value}Â°C'.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

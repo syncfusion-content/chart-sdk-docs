@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Legend in Syncfusion ASP.NET Core Syncfusion Maps Component
+title: Legend in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Legend in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Legend in ASP.NET Core Maps Component
+# Legend in ASP.NET Core Maps
 
 A Legend is a visual representation of the symbols used on the Maps. It can be represented in various colors, shapes or other identifiers based on the data and provides valuable information for interpreting what the Maps are displaying. It explains what each symbol in the Maps represents. Legends are enabled by setting the `Visible` property of `MapsLegendSettings` to **true**.
 
@@ -261,10 +261,10 @@ The toggle option has been provided for legend. If the legend can be toggled, th
 
 The following properties are available to customize the toggle option in legend.
 
-* `ApplyShapeSettings` – To apply the `Fill` property value to the shape of the Maps when toggling the legend items.
+* `ApplyShapeSettings` â€“ To apply the `Fill` property value to the shape of the Maps when toggling the legend items.
 * `Fill` - To apply the color to the shape of the Maps for which legend item is toggled.
-* `Opacity` – To customize the transparency for the shapes for which legend item is toggled.
-* `Border` – To customize the color, width and opacity of the border of the shapes in Maps.
+* `Opacity` â€“ To customize the transparency for the shapes for which legend item is toggled.
+* `Border` â€“ To customize the color, width and opacity of the border of the shapes in Maps.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Ej1 Api Migration in ASP.NET Core Range Navigator Component
+title: Ej1 Api Migration in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Ej1 Api Migration in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ej1 Api Migration
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Migration from Essential<sup style="font-size:70%">&reg;</sup> JS 1
+# EJ1 API Migration in ASP.NET Core Range Navigator
 
 This article describes the API migration process of Chart component from Essential<sup style="font-size:70%">&reg;</sup> JS 1 to Essential<sup style="font-size:70%">&reg;</sup> JS 2.
 

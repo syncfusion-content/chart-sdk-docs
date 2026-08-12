@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Chart Print in ASP.NET Core Accumulation Chart Component
-description: Learn here all about Chart Print in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Chart Print in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Chart Print in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Print
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Print and Export
+# Print and Export in ASP.NET Core Accumulation Charts
 
 ## Print
 

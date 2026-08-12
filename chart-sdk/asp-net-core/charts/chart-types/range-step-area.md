@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Range Step Area Chart in ASP.NET Core Charts
+title: Range Step Area Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Range Step Area Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Range Step Area Chart

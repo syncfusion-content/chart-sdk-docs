@@ -1,14 +1,14 @@
----
+﻿---
 layout: post
-title: Gradient in ASP.NET Core Stock Chart Component
-description: Learn here all about Gradient in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Gradient in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Gradient in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gradient
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Gradient in ASP.NET Core Stock chart control
+# Gradient in ASP.NET Core Stock Charts
 
 Gradients add depth and modern styling to charts by smoothly blending multiple colors. The Charts component supports two gradient types:
 
@@ -68,7 +68,7 @@ Apply a linear gradient to a technical indicator by adding `LinearGradient` insi
 
 ## Radial gradient
 
-A radial gradient blends colors outward from a central point, creating a circular or elliptical color progression. Configure it by adding `RadialGradient` inside the target element (Series, Trendline, or Indicator) and define one or more color stops to control how colors transition from the center to the outer edge. Set the gradient’s center, optional focal point, and radius using `RadialGradient` properties. The color stop values such as `Offset`, `Color`, `Opacity`, `Lighten`, and `Brighten` are set using the `ChartGradientColorStop` property.
+A radial gradient blends colors outward from a central point, creating a circular or elliptical color progression. Configure it by adding `RadialGradient` inside the target element (Series, Trendline, or Indicator) and define one or more color stops to control how colors transition from the center to the outer edge. Set the gradientâ€™s center, optional focal point, and radius using `RadialGradient` properties. The color stop values such as `Offset`, `Color`, `Opacity`, `Lighten`, and `Brighten` are set using the `ChartGradientColorStop` property.
 
 In the `RadialGradient`:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tooltip in ASP.NET Core Bullet Chart Component | Syncfusion
+title: Tooltip in ASP.NET Core Bullet Chart | Syncfusion
 description: Learn here all about Tooltip in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip in Bullet Chart Control
+# Tooltip in ASP.NET Core Bullet Chart
 
 When the mouse is hovered over a bar in the Bullet Chart, the tooltip displays important summary about the actual and the target bar values.
 

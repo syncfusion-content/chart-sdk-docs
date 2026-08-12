@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Multiple Panes in ASP.NET Core 3D Chart Component
-description: Learn here all about Multiple Panes in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Multiple Panes in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about Multiple Panes in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Multiple Panes
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Multiple panes in ASP.NET Core 3D Chart Component
+# Multiple Panes in ASP.NET Core 3D Charts
 
 The chart area can be divided into multiple panes using [`Rows`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_Rows) and [`Columns`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_Columns).
 

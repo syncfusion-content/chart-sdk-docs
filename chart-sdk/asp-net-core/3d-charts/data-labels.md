@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data labels in ASP.NET Core Syncfusion 3D Chart Component
-description: Learn here all about data labels in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Data Labels in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about data labels in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Labels
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Data labels in ASP.NET Core 3D Chart Component
+# Data Labels in ASP.NET Core 3D Charts
 
 Data labels are fields that includes information about the sample point connected to an output. It can be added to a chart series by enabling the [`Visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DDataLabelSettings.html#Syncfusion_EJ2_Charts_Chart3DDataLabelSettings_Visible) property in the [`DataLabel`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_DataLabel). By default, the labels will arrange smartly without overlapping.
 

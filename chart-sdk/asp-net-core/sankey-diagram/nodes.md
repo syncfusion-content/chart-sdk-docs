@@ -1,22 +1,22 @@
----
+﻿---
 layout: post
-title: Nodes in Syncfusion ASP.NET Core Sankey Chart Component
-description: Learn here all about Nodes in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Nodes in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Nodes in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Nodes
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Nodes in ASP.NET Core Sankey Chart component
+# Nodes in ASP.NET Core Sankey Diagram
 
-Nodes are the fundamental building blocks of a Sankey Chart, representing sources, targets, and intermediate entities in flow diagrams. The Sankey Chart provides extensive customization options for node appearance, enabling you to create visually meaningful and interactive flow diagrams.
+Nodes are the fundamental building blocks of a Sankey Diagram, representing sources, targets, and intermediate entities in flow diagrams. The Sankey Diagram provides extensive customization options for node appearance, enabling you to create visually meaningful and interactive flow diagrams.
 
 This guide covers node customization including styling, individual appearance changes, opacity control, positioning, and dynamic rendering events.
 
 ## Node Appearance
 
-The `NodeStyle` property allows you to customize the visual appearance of all nodes in the Sankey Chart. This provides a unified style for all nodes, which can be overridden at the individual node level or through rendering events.
+The `NodeStyle` property allows you to customize the visual appearance of all nodes in the Sankey Diagram. This provides a unified style for all nodes, which can be overridden at the individual node level or through rendering events.
 
 ### Node Style Properties
 
@@ -59,7 +59,7 @@ Beyond global styling, you can customize the appearance of specific nodes by set
 
 ## Opacity and Interaction
 
-Control how nodes appear during user interactions. The Sankey Chart provides three opacity properties:
+Control how nodes appear during user interactions. The Sankey Diagram provides three opacity properties:
 
 - **`Opacity`**: The default opacity of nodes in their normal state (0 to 1)
 - **`HighlightOpacity`**: The opacity when a node is highlighted or hovered

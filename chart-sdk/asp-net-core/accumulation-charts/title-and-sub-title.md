@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Title And Sub Title in ASP.NET Core Accumulation Chart Component | Syncfusion
-description: Learn here all about Title And Sub Title in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Title And Sub Title in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title And Sub Title
 publishingplatform: chart-sdk
@@ -10,7 +10,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Title in ASP.NET Core Accumulation Chart Component
+# Title and Subtitle in ASP.NET Core Accumulation Charts
 
 Accumulation Chart can be given a title using [`title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_Title) property, to show the information about the data plotted.
 

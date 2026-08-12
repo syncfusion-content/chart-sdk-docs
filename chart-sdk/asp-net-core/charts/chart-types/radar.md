@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Radar Chart in ASP.NET Core Charts
+title: Radar Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Radar Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Radar Chart

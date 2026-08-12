@@ -1,22 +1,22 @@
----
+﻿---
 layout: post
-title: Customization in ASP.NET Core Sankey Chart Component
-description: Learn here all about Customization in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Customization in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Customization in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Customization
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Customization in ASP.NET Core Sankey Chart component
+# Customization in ASP.NET Core Sankey Diagram
 
-The Sankey Chart provides extensive customization options to create visualizations that match your specific design requirements and data presentation needs. From styling and theming to advanced visual techniques, the component enables complete control over appearance and behavior.
+The Sankey Diagram provides extensive customization options to create visualizations that match your specific design requirements and data presentation needs. From styling and theming to advanced visual techniques, the component enables complete control over appearance and behavior.
 
 This guide covers comprehensive customization techniques including styling, theming, color mapping, and visual customization strategies.
 
 ## Styling Overview
 
-The Sankey Chart supports multiple levels of styling customization:
+The Sankey Diagram supports multiple levels of styling customization:
 
 - **Global Styling**: Apply consistent styles to all elements
 - **Element-Level Styling**: Customize specific nodes, links, or labels

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Overview in ASP.NET Core Circular Gauge Component
 description: Learn here all about Overview in Syncfusion ASP.NET Core Circular Gauge component of Syncfusion Essential JS 2 and more.
@@ -11,7 +11,7 @@ documentation: ug
 
 # Overview
 
-The Circular Gauge control is ideal to visualize numeric values over a circular scale. All circular gauge elements are rendered using Scalable Vector Graphics (SVG).
+The Circular Gauge control isÂ ideal to visualize numeric values over a circular scale. All circular gauge elements are rendered using Scalable Vector Graphics (SVG).
 
 ## Key Features
 

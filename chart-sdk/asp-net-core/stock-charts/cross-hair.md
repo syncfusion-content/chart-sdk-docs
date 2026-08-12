@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Cross Hair in ASP.NET Core Syncfusion Stock Chart Component
-description: Learn here all about Cross Hair in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Cross Hair in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Cross Hair in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Cross Hair
 publishingplatform: chart-sdk
@@ -9,11 +9,11 @@ documentation: ug
 ---
 
 
-# Add Crosshair
+# Cross Hair in ASP.NET Core Stock Charts
 
 Crosshair has a vertical and horizontal line to view the value of the axis at mouse or touch position.
 
-Crosshair lines can be enabled by using [`enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_Enable) property in the `crosshair`.
+Crosshair lines can be enabled by usingÂ [`enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_Enable) property in theÂ `crosshair`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -28,7 +28,7 @@ Crosshair lines can be enabled by using [`enable`](https://help.syncfusion.com/
 
 ## Tooltip for axis
 
-Tooltip label for an axis can be enabled by using [`enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairTooltip.html#Syncfusion_EJ2_Charts_ChartCrosshairTooltip_Enable) property of `crosshairTooltip` in the corresponding axis.
+Tooltip label for an axis can be enabled by usingÂ [`enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairTooltip.html#Syncfusion_EJ2_Charts_ChartCrosshairTooltip_Enable) property ofÂ `crosshairTooltip`Â in the corresponding axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -56,17 +56,17 @@ The [`fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts
 
 ## Crosshair label customization
 
-The [`crosshairLabelRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_CrosshairLabelRender) event is triggered before each crosshair axis label is rendered in the stock chart. This event allows you to customize the appearance and content of the crosshair labels or prevent specific labels from being displayed.
+The [`crosshairLabelRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_CrosshairLabelRender) event is triggered before each crosshair axis label is rendered in the Stock Charts. This event allows you to customize the appearance and content of the crosshair labels or prevent specific labels from being displayed.
 
 The event arguments include:
 
-* `text` – The default text displayed in the crosshair label. You can modify this value to show custom content.
-* `value` – The actual data value at the crosshair position.
-* `axisName` – The name of the axis associated with the label.
-* `axisOrientation` – The orientation of the axis (`Horizontal` or `Vertical`).
-* `textStyle` – Defines the font properties of the label text such as color, size, and font family.
-* `fill` – Specifies the background color of the crosshair label.
-* `cancel` – Set this property to **true** to prevent the label from being rendered.
+* `text` â€“ The default text displayed in the crosshair label. You can modify this value to show custom content.
+* `value` â€“ The actual data value at the crosshair position.
+* `axisName` â€“ The name of the axis associated with the label.
+* `axisOrientation` â€“ The orientation of the axis (`Horizontal` or `Vertical`).
+* `textStyle` â€“ Defines the font properties of the label text such as color, size, and font family.
+* `fill` â€“ Specifies the background color of the crosshair label.
+* `cancel` â€“ Set this property to **true** to prevent the label from being rendered.
 
 {% tabs %}
 

@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Trend Lines in ASP.NET Core Stock Chart Control | Syncfusion
-description: Learn here all about Trend Lines in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Trendlines in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Trendlines in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Trend Lines
 publishingplatform: chart-sdk
@@ -9,11 +9,11 @@ documentation: ug
 ---
 
 
-# Trendlines in Stock Chart Control
+# Trendlines in ASP.NET Core Stock Charts
 
 Trendlines are used to show the direction and speed of price.
 
-Stock Chart supports 6 types of trendlines namely `Linear`,`Exponential`,`Logarithmic`,`Polynomial`,`Power`,`Moving Average`. By using trendline dropdown button you can add or remove the required trendline type.
+Stock Charts supports 6 types of trendlines namely `Linear`,`Exponential`,`Logarithmic`,`Polynomial`,`Power`,`Moving Average`. By using trendline dropdown button you can add or remove the required trendline type.
 
 ## Linear
 

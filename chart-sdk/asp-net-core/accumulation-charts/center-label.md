@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Center Label in Syncfusion ASP.NET Core Accumulation Chart
-description: Learn here all about Center Label in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Center Label in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Center Label in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Center Label
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Center label in ASP.NET Core Accumulation Chart Component
+# Center Label in ASP.NET Core Accumulation Charts
 
 ## Center label
 

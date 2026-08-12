@@ -1,22 +1,22 @@
----
+﻿---
 layout: post
-title: Orientation and RTL in ASP.NET Core Sankey Chart Component
-description: Learn here all about Orientation and RTL in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Orientation and RTL in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Orientation and RTL in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Orientation and RTL
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Orientation and RTL in ASP.NET Core Sankey Chart component
+# Orientation and RTL in ASP.NET Core Sankey Diagram
 
-The Sankey Chart supports flexible layout options including horizontal and vertical orientations, as well as right-to-left (RTL) rendering for international applications. These features enable you to create localized and directionally appropriate visualizations.
+The Sankey Diagram supports flexible layout options including horizontal and vertical orientations, as well as right-to-left (RTL) rendering for international applications. These features enable you to create localized and directionally appropriate visualizations.
 
 This guide covers orientation options and RTL configuration for different languages and reading directions.
 
 ## Orientation
 
-Control the layout direction of the Sankey Chart using the `Orientation` property. The orientation determines how nodes are arranged and how links flow through the diagram.
+Control the layout direction of the Sankey Diagram using the `Orientation` property. The orientation determines how nodes are arranged and how links flow through the diagram.
 
 ### Orientation Options
 

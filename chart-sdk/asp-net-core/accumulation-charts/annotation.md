@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Annotation in ASP.NET Core Accumulation Chart Component | Syncfusion
-description: Learn here all about Annotation in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Annotation in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Annotation in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Annotation
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Annotation in ASP.NET Core Accumulation Chart Component
+# Annotation in ASP.NET Core Accumulation Charts
 
 The annotations are used to mark the specific area of interest in the chart area with texts, shapes or images.
 

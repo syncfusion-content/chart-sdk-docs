@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spline Range Area Chart in ASP.NET Core Charts
+title: Spline Range Area Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Spline Range Area Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Spline Range Area Chart

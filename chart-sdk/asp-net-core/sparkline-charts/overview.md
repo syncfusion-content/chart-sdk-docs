@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Overview in ASP.NET Core Sparkline Component
-description: Learn here all about Overview in Syncfusion ASP.NET Core Sparkline component of Syncfusion Essential JS 2 and more.
+title: Overview in ASP.NET Core Sparkline Charts Component
+description: Learn here all about Overview in Syncfusion ASP.NET Core Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Index
 publishingplatform: chart-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 # Overview
 
-The Sparkline is a very small chart; it is drawn without axes or coordinates. This presents a common shape of data in a simple and highly condensed way. The sparklines are easy to interpret, and convey more information to users by visualizing data in a small amount of space.
+The Sparkline Charts is a very small chart; it is drawn without axes or coordinates. This presents a common shape of data in a simple and highly condensed way. The sparklines are easy to interpret, and convey more information to users by visualizing data in a small amount of space.
 
 ## Key features
 

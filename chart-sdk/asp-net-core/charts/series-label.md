@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Series label in Syncfusion ASP.NET Core Chart Component
-description: Learn here all about Series label in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Series label in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Series label in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Series label
 documentation: ug
 ---
 
-# Series label in ASP.NET Core Chart component
+# Series label in ASP.NET Core Charts
 
 The series label displays the name of each series inline, positioned near the end of the series path or the last visible data point. This helps identify each series without referring to the legend.
 

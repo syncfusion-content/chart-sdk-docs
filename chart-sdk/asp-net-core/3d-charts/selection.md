@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Selection in ASP.NET Core Syncfusion 3D Chart Component
-description: Learn here all about selection in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Selection in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about selection in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Selection
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Selection in ASP.NET Core 3D Chart Component
+# Selection in ASP.NET Core 3D Charts
 
 The 3D chart provides selection support for the series and its data points on mouse click.
 

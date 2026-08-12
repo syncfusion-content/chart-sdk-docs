@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Binding in ASP.NET Core Bullet Chart Component | Syncfusion
+title: Data Binding in ASP.NET Core Bullet Chart | Syncfusion
 description: Learn here all about Data Binding in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Binding
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Working with data in Bullet Chart Control
+# Data Binding in ASP.NET Core Bullet Chart
 
 Bullet Chart can visualize data bound from local or remote data.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data Editing in ASP.NET Core Chart Component
-description: Learn here all about Data Editing in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Data Editing in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Data Editing in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Editing
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Data Editing
+# Data Editing in ASP.NET Core Charts
 
 ## Enable Data Editing
 
@@ -23,4 +23,5 @@ It provides drag and drop support to the rendered points. Now, the location or v
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/data-editing/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Tooltip in Syncfusion ASP.NET Core Heatmap Chart Component
+title: Tooltip in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about Tooltip in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip in ASP.NET Core HeatMap Chart Component
+# Tooltip in ASP.NET Core HeatMap Chart
 
 Tooltip is used to provide the details of the heatmap cell, and this can be displayed, while hovering the cursor over the cell or performing tap action in touch devices.
 

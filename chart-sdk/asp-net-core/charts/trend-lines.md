@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Trend Lines in ASP.NET Core Chart Component
-description: Learn here all about Trend Lines in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Trend Lines in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Trend Lines in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Trend Lines
 publishingplatform: chart-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Trend Lines in ASP.NET Core Chart Component
+# Trend Lines in ASP.NET Core Charts
 
 Trendlines are used to show the direction and speed of price. Trendlines can be generated for Cartesian type series (Line, Column, Scatter, Area, Candle, Hilo etc.) except bar type series. You can add more than one trendline to a series.
 
@@ -177,3 +177,4 @@ You can show or hide the trendline by setting trendline `visible` property.
 {% include code-snippet/chart-sdk/asp-net-core/charts/trendlines/hide/hide.cs %}
 {% endhighlight %}
 {% endtabs %}
+

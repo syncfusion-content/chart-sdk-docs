@@ -1,19 +1,19 @@
----
+﻿---
 layout: post
-title: Tool Tip in ASP.NET Core Stock Chart Component
-description: Learn here all about Tool Tip in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Tooltip in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tool Tip
+control: Tooltip
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Tooltip
+# Tooltip in ASP.NET Core Stock Charts
 
 <!-- markdownlint-disable MD036 -->
 
-Stock Chart will display details about the points through tooltip, when the mouse is moved over the point.
+Stock Charts will display details about the points through tooltip, when the mouse is moved over the point.
 
 ## Default tooltip
 
@@ -36,7 +36,7 @@ By default, tooltip is not visible. Enable the tooltip by setting [`enable`](htt
 
 <!-- markdownlint-disable MD013 -->
 
-By default, tooltip shows information of x and y value in points. In addition to that, you can show more information in tooltip. For example the format `${series.name} ${point.x}` shows series name and point x value.
+By default, tooltip shows information of x and y value in points. In addition to that, you can show more information in tooltip. For example the formatÂ `${series.name} ${point.x}`Â shows series name and point x value.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -51,7 +51,7 @@ By default, tooltip shows information of x and y value in points. In addition to
 
 ## Position the tooltip
 
-By default, the tooltip is positioned at the left side of the stock chart. You can move the tooltip along with the mouse by setting **Nearest** to the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockTooltipSettings.html#Syncfusion_EJ2_Charts_StockChartStockTooltipSettings_Position) property.
+By default, the tooltip is positioned at the left side of the Stock Charts. You can move the tooltip along with the mouse by setting **Nearest** to the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockTooltipSettings.html#Syncfusion_EJ2_Charts_StockChartStockTooltipSettings_Position) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

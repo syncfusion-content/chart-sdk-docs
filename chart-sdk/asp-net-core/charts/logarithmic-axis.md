@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Logarithmic Axis in ASP.NET Core Chart Component | Syncfusion
-description: Learn here all about Logarithmic Axis in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Logarithmic Axis in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Logarithmic Axis in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Logarithmic Axis
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# ASP.NET Core Logarithmic Axis
+# Logarithmic Axis in ASP.NET Core Charts
 
 <!-- markdownlint-disable MD033 -->
 
@@ -72,4 +72,5 @@ Logarithmic axis interval can be customized by using the [`interval`](https://he
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/log/interval/interval.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

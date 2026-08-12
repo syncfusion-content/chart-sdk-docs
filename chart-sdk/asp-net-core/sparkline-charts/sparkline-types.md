@@ -1,17 +1,17 @@
----
+﻿---
 layout: post
-title: Sparkline Types in ASP.NET Core Sparkline Component
-description: Learn here all about Sparkline Types in Syncfusion ASP.NET Core Sparkline component of Syncfusion Essential JS 2 and more.
+title: Types in ASP.NET Core Sparkline Charts | Syncfusion
+description: Learn here all about Types in Syncfusion ASP.NET Core Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Sparkline Types
+control: Sparkline Charts Types
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Sparkline Types
+# Types in ASP.NET Core Sparkline Charts
 
-Different types of shapes can be used to represent the sparkline. You can change the sparkline type by setting the type property. Sparkline supports the following types:
+Different types of shapes can be used to represent the Sparkline Charts. You can change the Sparkline Charts type by setting the type property. Sparkline Charts supports the following types:
 
 * Line
 * Column
@@ -25,69 +25,69 @@ The following code sample shows different types of sparklines.
 
 **Line**
 
-The [`Line`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as line.
+The [`Line`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline Charts~Type.html) type is used to render the Sparkline Charts series as line.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/line/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/line/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/line/line.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/line/line.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 **Column**
 
-The [`Column`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as column.
+The [`Column`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline Charts~Type.html) type is used to render the Sparkline Charts series as column.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/column/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Column.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/column/column.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/column/column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 **Pie**
 
-The [`Pie`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as pie.
+The [`Pie`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline Charts~Type.html) type is used to render the Sparkline Charts series as pie.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/pie/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/pie/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Pie.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/pie/pie.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/pie/pie.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 **Win Loss**
 
-The [`WinLoss`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as Win Loss.
+The [`WinLoss`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline Charts~Type.html) type is used to render the Sparkline Charts series as Win Loss.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/winloss/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/winloss/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Winloss.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/winloss/winloss.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/winloss/winloss.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 **Area**
 
-The [`Area`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as area.
+The [`Area`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline Charts~Type.html) type is used to render the Sparkline Charts series as area.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/area/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/area/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Area.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-types/area/area.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-types/area/area.cs %}
 {% endhighlight %}
 {% endtabs %}

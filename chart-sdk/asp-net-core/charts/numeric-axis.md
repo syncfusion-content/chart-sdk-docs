@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Numeric Axis in ASP.NET Core Chart Component
-description: Learn here all about Numeric Axis in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Numeric Axis in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Numeric Axis in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Numeric Axis
 publishingplatform: chart-sdk
@@ -11,9 +11,9 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Numeric Axis
+# Numeric Axis in ASP.NET Core Charts
 
-You can use numeric [`axis`](https://ej2.syncfusion.com/aspnetcore/Chart/NumericAxis#/material) to represent numeric values of data in chart. By default, the `valueType` of an axis is [`Double`](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-axis).
+You can use numeric [`axis`](https://ej2.syncfusion.com/aspnetcore/Chart/NumericAxis#material) to represent numeric values of data in chart. By default, the `valueType` of an axis is [`Double`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_ValueType).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -231,4 +231,5 @@ Axis also supports custom label format using placeholder like {value}°C, in w
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/double/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

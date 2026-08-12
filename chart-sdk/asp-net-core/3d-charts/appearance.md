@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance in ASP.NET Core Syncfusion 3D Chart Component
-description: Learn here all about appearance in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Appearance in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about appearance in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Appearance in ASP.NET Core 3D Chart Component
+# Appearance in ASP.NET Core 3D Charts
 
 ## Custom color palette
 

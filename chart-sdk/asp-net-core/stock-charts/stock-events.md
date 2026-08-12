@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Stock Events in ASP.NET Core Stock Chart Component
-description: Learn here all about Stock Events in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Stock Events in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Stock Events in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stock Events
 publishingplatform: chart-sdk
@@ -10,7 +10,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Stock Events
+# Stock Events in ASP.NET Core Stock Charts
 
 Stock Events visualizes stockevents in stockchart. 'SplineSeries' is used to represent selected data value. You can customize the specific data value using `stockEvents` event.
 

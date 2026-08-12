@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Annotations in ASP.NET Core Linear Gauge Component
+title: Annotations in ASP.NET Core Linear Gauge | Syncfusion
 description: Learn here all about Annotations in Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Annotations
@@ -47,7 +47,7 @@ The following properties are used to customize the annotation.
 
 ### Changing the z-index
 
-To change the stack order of an annotation element, the [`ZIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_ZIndex) property of the [`e-lineargauge-annotation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html) can be used.
+To change the stack order of an annotation element, theÂ [`ZIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_ZIndex)Â property of the [`e-lineargauge-annotation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html) can be used.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

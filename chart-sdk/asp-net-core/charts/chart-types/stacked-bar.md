@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stacked Bar Chart in ASP.NET Core Charts
+title: Stacked Bar Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Stacked Bar Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stacked Bar Chart

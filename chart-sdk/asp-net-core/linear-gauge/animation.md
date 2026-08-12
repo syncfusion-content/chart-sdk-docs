@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Animation in the Syncfusion ASP.NET Core Linear Gauge component
+title: Animation in Syncfusion ASP.NET Core Linear Gauge | Syncfusion
 description: Learn here all about animation in the Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Animation
@@ -30,4 +30,4 @@ The animation of the Linear Gauge is demonstrated in the following example.
 
 ![Linear Gauge with animation](../linear-gauge/images/animation.gif)
 
-> Only the pointer of the Linear Gauge can be animated individually, not the axis lines, ticks, labels, ranges, and annotations. You can refer this [link](https://ej2.syncfusion.com/aspnetcore/documentation/linear-gauge/pointers#pointer-animation) to enable only pointer animation.
+> Only the pointer of the Linear Gauge can be animated individually, not the axis lines, ticks, labels, ranges, and annotations. You can referÂ this [link](https://ej2.syncfusion.com/aspnetcore/documentation/linear-gauge/pointers#pointer-animation) to enable only pointer animation.

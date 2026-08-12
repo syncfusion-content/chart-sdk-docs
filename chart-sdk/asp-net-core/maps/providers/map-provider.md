@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Map Provider in Syncfusion ASP.NET Core Maps Component
+title: OpenStreetMap in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Map Provider in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Map Provider
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# OpenStreetMaps in ASP.NET Core Maps Component
+# OpenStreetMap in ASP.NET Core Maps
 
 The OpenStreetMap (OSM) is the online Maps provider built by a community of developers; it is free to use under an open license. It allows to view geographical data in a collaborative way from anywhere on the earth. The OSM Maps provides small tile images based on our requests and combines those images into a single image to display the Maps area in the Maps component.
 

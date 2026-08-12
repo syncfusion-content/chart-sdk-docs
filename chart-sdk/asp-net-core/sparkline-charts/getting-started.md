@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Get Started with ASP.NET Core Sparkline Charts Control | Syncfusion
+title: Getting Started with ASP.NET Core Sparkline Charts | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Sparkline Charts control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Sparkline Charts
@@ -8,24 +8,24 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET Core Sparkline Charts Control
+# Getting Started with ASP.NET Core Sparkline Charts
 
-This section briefly explains how to include the [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/sparkline) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/).
+This section briefly explains how to include the [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/Sparkline Charts) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/).
 
 ## Create an ASP.NET Core Web App with Razor Pages
 
-Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [Syncfusion® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project). For detailed instructions, refer to the [ASP.NET Core Web App Getting Started](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages) documentation.
+Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [SyncfusionÂ® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project). For detailed instructions, refer to the [ASP.NET Core Web App Getting Started](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages) documentation.
 
 ## Install the required ASP.NET Core package
 
-To add [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/sparkline) control in the app, open the NuGet package manager in Visual Studio *(Tools → NuGet Package Manager → Manage NuGet Packages for Solution)*, search for and install the [Syncfusion.AspNetCore.Sparkline](https://www.nuget.org/packages/Syncfusion.AspNetCore.Sparkline/) package. All Syncfusion ASP.NET Core packages are available in [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2). See the [NuGet packages](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) topic for details.
+To add [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/Sparkline Charts) control in the app, open the NuGet package manager in Visual Studio *(Tools â†’ NuGet Package Manager â†’ Manage NuGet Packages for Solution)*, search for and install the [Syncfusion.AspNetCore.Sparkline Charts](https://www.nuget.org/packages/Syncfusion.AspNetCore.Sparkline Charts/) package. All Syncfusion ASP.NET Core packages are available in [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2). See the [NuGet packages](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) topic for details.
 
 Alternatively, you can install the same package using the Package Manager Console with the following command.
 
 {% tabs %}
 {% highlight C# tabtitle="Package Manager Console" %}
 
-Install-Package Syncfusion.AspNetCore.Sparkline -Version {{ site.releaseversion }}
+Install-Package Syncfusion.AspNetCore.Sparkline Charts -Version {{ site.releaseversion }}
 
 {% endhighlight %}
 {% endtabs %}
@@ -53,7 +53,7 @@ Include the [script reference](https://ej2.syncfusion.com/aspnetcore/documentati
 <head>
     ...
     <!-- ASP.NET Core controls scripts -->
-    <script src="_content/Syncfusion.AspNetCore.Sparkline/scripts/sf-sparkline.min.js"></script>
+    <script src="_content/Syncfusion.AspNetCore.Sparkline Charts/scripts/sf-Sparkline Charts.min.js"></script>
 </head>
 
 {% endhighlight %}
@@ -77,13 +77,13 @@ Open the **~/Pages/Shared/_Layout.cshtml** file and register the script manager 
 
 ## Add ASP.NET Core Sparkline Charts control
 
-Add the [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/sparkline) control in the **~/Pages/Index.cshtml** file.
+Add the [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/Sparkline Charts) control in the **~/Pages/Index.cshtml** file.
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
 
-<ejs-sparkline id="sparkline">
-</ejs-sparkline>
+<ejs-Sparkline Charts id="Sparkline Charts">
+</ejs-Sparkline Charts>
 
 {% endhighlight %}
 {% endtabs %}
@@ -94,7 +94,7 @@ The `dataSource` property is used for binding data source to the Sparkline Chart
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/getting-started/data-source/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/getting-started/data-source/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Index.cshtml.cs" %}
 
@@ -125,17 +125,17 @@ public class DataSource
 
 ## Run the application
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/sparkline) will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>âŒ˜</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/Sparkline Charts) will render in your default web browser.
 
-![ASP.NET Core Sparkline Charts Control](images/sparkline-control.webp)
+![ASP.NET Core Sparkline Charts Control](images/Sparkline Charts-control.webp)
 
 ## Change the type of Sparkline Charts
 
-You can change the Sparkline Charts type by setting the `type` property to `Line`, `Column`, `WinLoss`, `Pie`, or `Area`. Here, the sparkline type has been set to `area`.
+You can change the Sparkline Charts type by setting the `type` property to `Line`, `Column`, `WinLoss`, `Pie`, or `Area`. Here, the Sparkline Charts type has been set to `area`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/getting-started/type/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/getting-started/type/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Index.cshtml.cs" %}
 
@@ -164,15 +164,15 @@ public class DataSource
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET Core Area Sparkline Charts](images/area-sparkline.webp)
+![ASP.NET Core Area Sparkline Charts](images/area-Sparkline Charts.webp)
 
 ## Enable tooltip for Sparkline Charts
 
-The Sparkline Charts displays additional information through tooltip when the mouse is hovered over the sparkline. You can enable tooltip by setting the `visible` property to true in `tooltipSettings` object.
+The Sparkline Charts displays additional information through tooltip when the mouse is hovered over the Sparkline Charts. You can enable tooltip by setting the `visible` property to true in `tooltipSettings` object.
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/getting-started/tooltip/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/getting-started/tooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Index.cshtml.cs" %}
 
@@ -201,9 +201,9 @@ public class DataSource
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET Core Sparkline Charts with Tooltip](images/sparkline-with-tooltip.webp)
+![ASP.NET Core Sparkline Charts with Tooltip](images/Sparkline Charts-with-tooltip.webp)
 
-N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/SparkLine/ASP.NET%20Core%20Tag%20Helper%20Examples).
+N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Sparkline Charts/ASP.NET%20Core%20Tag%20Helper%20Examples).
 
 ## See also
 

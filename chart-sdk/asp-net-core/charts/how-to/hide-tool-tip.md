@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hide Tool Tip in ASP.NET Core Chart Component
-description: Learn here all about Hide Tool Tip in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Hide Tooltip in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Hide Tool Tip in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Hide Tool Tip
 publishingplatform: chart-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Hide the tooltip for unselected series
+# How to hide the tooltip for unselected series in ASP.NET Core Charts
 
 By using the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TooltipRender) event, you can cancel the tooltip for unselected series in the chart.
 
@@ -27,4 +27,5 @@ To hide the tooltip value in unselected series, follow the given steps:
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/hide-tooltip/hide-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

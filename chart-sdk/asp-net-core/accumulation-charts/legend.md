@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend in ASP.NET Core Syncfusion Accumulation Chart Component
-description: Learn here all about Legend in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Legend in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Legend in ASP.NET Core Accumulation Chart Component
+# Legend in ASP.NET Core Accumulation Charts
 
 Like chart, the legend is also available for accumulation charts, which gives information about the points. By default, the legend will be placed on the right if the width of the chart is high or will be placed on the bottom if the height of the chart is high. Other customization features regarding the legend element are same as the [`chart legend`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html). Here, the legend for a point can be collapsed by giving the empty string to the x value of the point.
 

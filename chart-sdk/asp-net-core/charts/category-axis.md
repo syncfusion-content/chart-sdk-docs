@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Category Axis in ASP.NET Core Chart Component | Syncfusion
-description: Learn here all about Category Axis in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Category Axis in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Category Axis in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Category Axis
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# ASP.NET Core Category Axis
+# Category Axis in ASP.NET Core Charts
 
 <!-- markdownlint-disable MD036 -->
 
@@ -76,4 +76,5 @@ Category axis also can be rendered based on the index values of data source. Thi
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/index/index.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

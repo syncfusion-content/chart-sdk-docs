@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tool Tip in Syncfusion ASP.NET Core Chart Component
-description: Learn here all about Tool Tip in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Tooltip in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool Tip
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip in ASP.NET Core Chart Component
+# Tooltip in ASP.NET Core Charts
 
 <!-- markdownlint-disable MD036 -->
 
@@ -235,5 +235,6 @@ The [`ShowNearestTooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/nearest-tooltip/nearest-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 

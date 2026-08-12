@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Navigation Line in Syncfusion ASP.NET Core Maps Component
+title: Navigation Lines in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Navigation Line in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Navigation Line
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Navigation lines
+# Navigation Lines in ASP.NET Core Maps
 
 The navigation lines are used to denote the path between two locations. This feature can be used to draw flight or sea routes. Navigation lines are enabled by setting the `Visible` property of the `MapsNavigationLine` to **true**.
 

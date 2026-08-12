@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Accessibility in Syncfusion Accumulation chart Component
-description: Learn here all about Accessibility in Syncfusion ASP Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Accessibility in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Accessibility in Syncfusion ASP Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Accessibility in ASP.NET Core accumulation chart component
+# Accessibility in ASP.NET Core Accumulation Charts
 
 The Accumulation chart component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

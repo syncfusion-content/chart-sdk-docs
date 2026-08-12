@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Export Print in ASP.NET Core Stock Chart Component
-description: Learn here all about Export Print in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Export and Print in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Export Print in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Export Print
 publishingplatform: chart-sdk
@@ -9,11 +9,11 @@ documentation: ug
 ---
 
 
-# Print and Export
+# Export and Print in ASP.NET Core Stock Charts
 
-The rendered stock chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the export dropdown button in the period selector toolbar. You can choose the required format using the export dropdown button in stock-chart.
+The rendered Stock Charts can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the export dropdown button in the period selector toolbar. You can choose the required format using the export dropdown button in stock-chart.
 
-The rendered stock chart can be printed directly using print button in period selector toolbar.
+The rendered Stock Charts can be printed directly using print button in period selector toolbar.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Gauge User Interaction in ASP.NET Core Circular Gauge Control | Syncfusion
+title: User Interaction in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge User Interaction in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge User Interaction
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# User Interaction in Circular Gauge Control
+# User Interaction in ASP.NET Core Circular Gauge
 
 ## Tooltip for pointers
 
@@ -42,7 +42,7 @@ Any HTML elements can be displayed in the tooltip by using the [template](https:
 
 ## Tooltip for ranges
 
-Circular gauge displays the information about the ranges through tooltip when hovering the mouse over the ranges. You can enable this feature by setting the type property of tooltip to ‘Range’ in the array collection.
+Circular gauge displays the information about the ranges throughâ€¯tooltip when hovering the mouse over the ranges. You can enable this feature by setting the type property of tooltip to â€˜Rangeâ€™ in the array collection.
 
 **Tooltip customization for ranges**
 
@@ -58,7 +58,7 @@ To customize the range tooltip, use the `rangeSettings` property in tooltip. The
 
 ## Tooltip for annotations
 
-Circular gauge displays the information about the annotations through tooltip when hovering the mouse over the annotation. You can enable this feature by setting the type property of tooltip to ‘Annotation’ in the array collection.
+Circular gauge displays the information about the annotations throughâ€¯tooltip when hovering the mouse over the annotation. You can enable this feature by setting the type property of tooltip to â€˜Annotationâ€™ in the array collection.
 
 **Tooltip customization for annotations**
 

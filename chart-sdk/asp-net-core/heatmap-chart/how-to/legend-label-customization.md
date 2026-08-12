@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend Label Customization in ASP.NET Core Heatmap Chart Component
-description: Learn here all about Legend Label Customization in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
+title: Legend Label Customization in ##Platform_Name## HeatMap Chart | Syncfusion
+description: Learn here all about Legend Label Customization in Syncfusion ##Platform_Name## Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend Label Customization
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Change the legend label text
+# How to Customize Legend Label in ##Platform_Name## HeatMap Chart
 
 You can change the legend label using the `LegendRender` client-side event. You can also hide the legend label using this client-side event.
 

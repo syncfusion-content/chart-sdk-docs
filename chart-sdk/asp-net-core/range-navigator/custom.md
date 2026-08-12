@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Custom in ASP.NET Core Range Navigator Component
+title: Customization in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Custom in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Custom
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Customization
+# Customization in ASP.NET Core Range Navigator
 
 ## Navigator appearance
 
@@ -108,5 +108,5 @@ The speed of the animation can be controlled using the `animationDuration` prope
 
 ## See Also
 
-* [Grid and Tick Lines](./grid-tick/)
-* [Labels](./labels/)
+* [Grid and Tick Lines](./grid-tick)
+* [Labels](./labels)

@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: User Interactions in Syncfusion ASP.NET Core Maps Component
+title: User Interactions in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about User Interactions in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: User Interactions
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# User Interactions in ASP.NET Core Maps Component
+# User Interactions in ASP.NET Core Maps
 
 ## Zooming
 

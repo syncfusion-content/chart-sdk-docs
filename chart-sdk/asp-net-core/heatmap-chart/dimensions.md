@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Dimensions in Syncfusion ASP.NET Core Heatmap Chart Component
+title: Dimensions in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about Dimensions in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dimensions
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Dimensions in ASP.NET Core HeatMap Chart Component
+# Dimensions in ASP.NET Core HeatMap Chart
 
 ## Size for container
 
@@ -42,7 +42,7 @@ You can set the size for heat map in a pixel.
 
 ## In percentage
 
-By setting value in percentage, heat map gets its dimension with respect to its container. For example, when the height is ‘50%’, heat map rendered to half of the container height.
+By setting value in percentage, heat map gets its dimension with respect to its container. For example, when the height is â€˜50%â€™, heat map rendered to half of the container height.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

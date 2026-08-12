@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Column Chart in ASP.NET Core Charts
+title: Column Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Column Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Column Chart

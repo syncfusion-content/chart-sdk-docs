@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend in ASP.NET Core Syncfusion 3D Circular Chart Component
-description: Learn here all about legend in Syncfusion ASP.NET Core 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in ASP.NET Core 3D Circular Charts | Syncfusion
+description: Learn here all about legend in Syncfusion ASP.NET Core 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Legend in ASP.NET Core 3D Circular Chart Component
+# Legend in ASP.NET Core 3D Circular Charts
 
 The legend provides information about the data points rendered in the 3D Circular Chart. It can be added by enabling the `Visible` option in the `LegendSettings` property.
 
@@ -170,3 +170,4 @@ The `ItemPadding` property can be used to adjust the space between the legend it
 {% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/user-interaction/item-padding/item-padding.cs %}
 {% endhighlight %}
 {% endtabs %}
+

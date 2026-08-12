@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Pointers in Syncfusion ASP.NET Core Linear Gauge Component
+title: Pointers in Syncfusion ASP.NET Core Linear Gauge | Syncfusion
 description: Learn here all about Pointers in Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pointers
@@ -77,7 +77,7 @@ Image can be rendered instead of rendering a shape as a pointer. It can be achie
 ![Linear Gauge with image pointer](../linear-gauge/images/marker-pointer-image.png)
 
 
-Text can be added instead of rendering a shape as a pointer. It can be achieved by setting the [markerType](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_MarkerType) property to **Text**, and the text content can be set using the [text](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Text)  property in [pointer](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html).
+Text can be added instead of rendering a shapeÂ as a pointer. It can be achieved by setting the [markerType](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_MarkerType) property to **Text**, and the text content can be set using the [text](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Text)  property in [pointer](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html).
 
 The following properties in the [textStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_TextStyle) property can be used to set the text style for the text pointer.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Cross Hair And Track Ball in Syncfusion ASP.NET Core Chart Component
-description: Learn here all about Cross Hair and Track Ball in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Cross Hair and Track Ball in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Cross Hair and Track Ball in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Cross Hair And Track Ball
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Crosshair in ASP.NET Core Chart Component
+# Cross Hair and Track Ball in ASP.NET Core Charts
 
 Crosshair has a vertical and horizontal line to view the value of the axis at mouse or touch position.
 
@@ -120,5 +120,6 @@ The [`HighlightCategory`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/crosshair-trackball/highlight-category/highlight-category.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 

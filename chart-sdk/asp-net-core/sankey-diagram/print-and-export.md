@@ -1,22 +1,22 @@
----
+﻿---
 layout: post
-title: Print and Export in ASP.NET Core Sankey Chart Component
-description: Learn here all about Print and Export in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Print and Export in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Print and Export in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Print and Export
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Print and Export in ASP.NET Core Sankey Chart component
+# Print and Export in ASP.NET Core Sankey Diagram
 
-The Sankey Chart provides comprehensive print and export functionality, enabling users to generate static files in multiple formats (PNG, JPEG, SVG, PDF) or print the diagram directly. This is useful for reports, documentation, sharing, and offline access.
+The Sankey Diagram provides comprehensive print and export functionality, enabling users to generate static files in multiple formats (PNG, JPEG, SVG, PDF) or print the diagram directly. This is useful for reports, documentation, sharing, and offline access.
 
 This guide covers printing the chart and exporting to various formats with customization options.
 
 ## Print
 
-Print the Sankey Chart directly to paper or PDF using the `print()` method. This opens the browser's print dialog, allowing users to select printer settings and output format:
+Print the Sankey Diagram directly to paper or PDF using the `print()` method. This opens the browser's print dialog, allowing users to select printer settings and output format:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -29,11 +29,11 @@ Print the Sankey Chart directly to paper or PDF using the `print()` method. This
 
 ## Export
 
-Export the Sankey Chart to various file formats using the `export()` method. This allows you to generate standalone files suitable for sharing, archiving, or embedding in documents.
+Export the Sankey Diagram to various file formats using the `export()` method. This allows you to generate standalone files suitable for sharing, archiving, or embedding in documents.
 
 ### Export Formats
 
-The Sankey Chart supports exporting to the following formats:
+The Sankey Diagram supports exporting to the following formats:
 
 - **PNG** - Portable Network Graphics (raster format, good for web)
 - **JPEG** - Joint Photographic Experts Group (compressed raster, smaller file size)

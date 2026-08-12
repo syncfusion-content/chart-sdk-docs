@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Range Column Chart in ASP.NET Core Charts
+title: Range Column Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Range Column Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Range Column Chart

@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Methods in ASP.NET Core Linear Gauge Component
+title: Methods in ASP.NET Core Linear Gauge | Syncfusion
 description: Learn here all about Methods in Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Methods

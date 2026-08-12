@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Dimensions in ASP.NET Core 3D Chart Component
-description: Learn here all about dimensions in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Dimensions in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about dimensions in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dimensions
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Dimensions in ASP.NET Core 3D Chart Component
+# Dimensions in ASP.NET Core 3D Charts
 
 ## Size for container
 

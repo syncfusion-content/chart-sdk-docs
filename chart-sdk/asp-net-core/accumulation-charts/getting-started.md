@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting Started with ASP.NET Core Accumulation Chart | Syncfusion
-description: Check out and learn about getting started with ASP.NET Core Accumulation Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET Core Accumulation Charts | Syncfusion
+description: Checkout and learn about getting started with ASP.NET Core Accumulation Charts control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
 publishingplatform: chart-sdk
@@ -10,7 +10,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Getting Started with the ASP.NET Core Accumulation Chart Control
+# Getting Started with the ASP.NET Core Accumulation Charts
 
 This section explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET Core Accumulation Chart](https://www.syncfusion.com/aspnet-core-ui-controls/charts) control to a Razor Pages application using Visual Studio or Visual Studio Code.
 

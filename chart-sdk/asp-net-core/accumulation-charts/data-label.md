@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data Label in Syncfusion ASP.NET Core Accumulation Chart
-description: Learn here all about Data Label in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Data Label in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Data Label in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Data Label in ASP.NET Core Accumulation Chart Component
+# Data Label in ASP.NET Core Accumulation Charts
 
 Data label can be added to a chart series by enabling the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationDataLabelSettings.html#Syncfusion_EJ2_Charts_AccumulationDataLabelSettings_Visible) option in the dataLabel property.
 

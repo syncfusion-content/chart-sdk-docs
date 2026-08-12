@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 100% Stacked Area Chart in ASP.NET Core Charts
+title: 100% Stacked Area Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about 100% Stacked Area Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: 100% Stacked Area Chart

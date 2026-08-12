@@ -1,14 +1,14 @@
 ---
 layout: post
-title: DateTime axis in ASP.NET Core 3D Chart Component
-description: Learn here all about datetime axis in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: DateTime Axis in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about datetime axis in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: DateTime Axis
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# DateTime axis in ASP.NET Core 3D Chart Component
+# DateTime Axis in ASP.NET Core 3D Charts
 
 ## DateTime axis
 

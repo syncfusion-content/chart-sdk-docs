@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pie and Donut in ASP.NET Core 3D Circular Chart Component | Syncfusion
-description: Learn here all about Pie and Donut in Syncfusion ASP.NET Core 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Pie and Donut in ASP.NET Core 3D Circular Charts | Syncfusion
+description: Learn here all about Pie and Donut in Syncfusion ASP.NET Core 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pie and Donut
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Pie and Donut in ASP.NET Core 3D Circular Chart Component
+# Pie and Donut in ASP.NET Core 3D Circular Charts
 
 ## Pie chart
 
@@ -98,5 +98,6 @@ Individual points in pie chart can be customized using the `PointRender` event.
 {% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/pie-donut/customization/customization.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 

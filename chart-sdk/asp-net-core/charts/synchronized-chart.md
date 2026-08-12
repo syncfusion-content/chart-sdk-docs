@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Synchronized Charts in ASP.NET Core Chart Component
-description: Learn here all about Synchronized Charts in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Synchronized Charts in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Synchronized Charts in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Synchronized charts
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Synchronized charts in ASP.NET Core Chart Component
+# Synchronized Charts in ASP.NET Core Charts
 
 ## Tooltip synchronization
 
@@ -78,5 +78,6 @@ You can select the data across multiple charts using the [`SelectionComplete`](h
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/selection/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 

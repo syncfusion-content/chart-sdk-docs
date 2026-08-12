@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Gauge Appearance in ASP.NET Core Circular Gauge Control | Syncfusion
+title: Appearance in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge Appearance in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge Appearance
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Appearance in Circular Gauge Control
+# Appearance in ASP.NET Core Circular Gauge
 
 ## Gauge Title
 
@@ -42,7 +42,7 @@ You can set the mid point of the gauge in pixel as demonstrated below,
 
 **In Percentage**
 
-By setting the value in percentage, gauge gets its mid point with respect to its plot area. For example, when the [centerX](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_CenterX) value as '0%' and [centerY](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_CenterY) value is ‘50%’, gauge will get positioned at the top left corner of the plot area.
+By setting the value in percentage, gauge gets its mid point with respect to its plot area. For example, when the [centerX](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_CenterX) value as '0%' and [centerY](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_CenterY) value is â€˜50%â€™, gauge will get positioned at the top left corner of the plot area.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -62,9 +62,6 @@ Using [background](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-appearance/area-customization/tagHelper %}
 {% endhighlight %}
-<!-- {% highlight c# tabtitle="Area-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-appearance/area-customization/area-customization.cs %}
-{% endhighlight %} -->
 {% endtabs %}
 
 
@@ -77,9 +74,6 @@ You can set margin for gauge from its container through [margin](https://help.sy
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-appearance/margin/tagHelper %}
 {% endhighlight %}
-<!-- {% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-appearance/margin/margin.cs %}
-{% endhighlight %} -->
 {% endtabs %}
 
 

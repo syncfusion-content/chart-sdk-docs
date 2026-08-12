@@ -1,14 +1,14 @@
----
+﻿---
 layout: post
-title: Leaf Item in ASP.NET Core Treemap Component
-description: Learn here all about Leaf Item in Syncfusion ASP.NET Core Treemap component of Syncfusion Essential JS 2 and more.
+title: Leaf Item in ASP.NET Core TreeMap | Syncfusion
+description: Learn here all about Leaf Item in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Leaf Item
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Leaf Item
+# Leaf Item in ASP.NET Core TreeMap
 
 A leaf item defines a visualized data element and does not contain child nodes but contains parent node if the levels are specified in the TreeMap.
 

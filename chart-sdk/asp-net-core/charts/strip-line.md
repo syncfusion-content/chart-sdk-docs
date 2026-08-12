@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Strip Line in ASP.NET Core Chart Component
-description: Learn here all about Strip Line in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Strip Lines in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Strip Lines in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Strip Line
 publishingplatform: chart-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Strip lines
+# Strip Lines in ASP.NET Core Charts
 
 <!-- markdownlint-disable MD036 -->
 
@@ -152,4 +152,5 @@ You can create stripline in a particular region with respect to segment. You can
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/strip-line/segment/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

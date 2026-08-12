@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Empty Points in ASP.NET Core Accumulation Chart Component | Syncfusion
-description: Learn here all about Empty Points in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Empty Points in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Empty Points in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Empty Points
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Empty Points in ASP.NET Core Accumulation Chart Component
+# Empty Points in ASP.NET Core Accumulation Charts
 
 The data points those uses the `null` or `undefined` as value are considered as empty points. The empty data points are ignored and not plotted in the chart. You can customize those points, using the `emptyPointSettings` property in series. The default mode of the empty point is `Gap`. Other supported modes are `Average` and `Zero`.
 

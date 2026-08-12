@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Axis Customization in ASP.NET Core Stock Chart Component
-description: Learn here all about Axis Customization in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Axis Customization in ASP.NET Core Stock Charts | Syncfusion
+description: Learn here all about Axis Customization in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Customization
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Axis Customization
+# Axis Customization in ASP.NET Core Stock Charts
 
 <!-- markdownlint-disable MD034 -->
 
@@ -45,7 +45,7 @@ You can add a title to the axis using [`title`](https://help.syncfusion.com/cr/a
 
 ## Tick Lines Customization
 
-You can customize the  `width`, `color` and `size` of the minor and major tick lines, using [`majorTickLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MajorTickLines) and [`minorTickLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MinorTickLines) properties in the axis.
+You can customize theÂ Â `width`,Â `color`Â andÂ `size`Â of the minor and major tick lines, using [`majorTickLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MajorTickLines)Â and [`minorTickLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MinorTickLines)Â properties in the axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -60,7 +60,7 @@ You can customize the  `width`, `color` and `size` of the minor and major 
 
 ## Grid Lines Customization
 
-You can customize the `width`, `color` and `dashArray` of the minor and major grid lines, using [`majorGridLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MajorGridLines) and [`minorGridLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MinorGridLines) properties in the axis.
+You can customize theÂ `width`,Â `color`Â andÂ `dashArray`Â of the minor and major grid lines, using [`majorGridLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MajorGridLines)Â and [`minorGridLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MinorGridLines) properties in the axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
