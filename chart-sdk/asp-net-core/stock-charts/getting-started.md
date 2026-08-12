@@ -10,7 +10,7 @@ documentation: ug
 
 # Getting Started with ASP.NET Core Stock Charts
 
-This section briefly explains how to include the [ASP.NET Core Stock Charts](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/), and [Visual Studio Code](https://code.visualstudio.com/).
+This section briefly explains how to include the [ASP.NET Core Stock Chart](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/), and [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Create an ASP.NET Core Web App with Razor pages
 
@@ -18,7 +18,7 @@ This section briefly explains how to include the [ASP.NET Core Stock Charts](htt
 
 {% tabcontent Visual Studio %}
 
-Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [SyncfusionÂ® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project). For detailed instructions, refer to the [ASP.NET Core Web App Getting Started](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages) documentation.
+Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [Syncfusion® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project). For detailed instructions, refer to the [ASP.NET Core Web App Getting Started](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages) documentation.
 
 {% endtabcontent %}
 
@@ -35,7 +35,7 @@ code -r RazorPagesMovie
 {% endhighlight %}
 {% endtabs %}
 
-Alternatively, create an **ASP.NET Core Web App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code#create-a-razor-pages-web-app), or the [SyncfusionÂ® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-code-integration/create-project), or the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
+Alternatively, create an **ASP.NET Core Web App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code#create-a-razor-pages-web-app), or the [Syncfusion® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-code-integration/create-project), or the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
 
 {% endtabcontent %}
 
@@ -49,7 +49,7 @@ Install the [Syncfusion.AspNetCore.StockChart](https://www.nuget.org/packages/Sy
 
 {% tabcontent Visual Studio %}
 
-1. Go to *Tools â†’ NuGet Package Manager â†’ Manage NuGet Packages for Solution*.
+1. Go to *Tools → NuGet Package Manager → Manage NuGet Packages for Solution*.
 2. Search the required NuGet packages (`Syncfusion.AspNetCore.StockChart` and `Syncfusion.AspNetCore.Themes`) and install them.
 
 Alternatively, you can install the same packages using the Package Manager Console with the following commands.
@@ -129,9 +129,9 @@ Open the **~/Pages/Shared/_Layout.cshtml** file and register the script manager 
 {% endhighlight %}
 {% endtabs %}
 
-## Add ASP.NET Core Stock Charts control
+## Add ASP.NET Core Stock Chart control
 
-Add the [ASP.NET Core Stock Charts](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) control in the **~/Pages/Index.cshtml** file.
+Add the [ASP.NET Core Stock Chart](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) control in the **~/Pages/Index.cshtml** file.
 
 {% tabs %}
 {% highlight cshtml tabtitle="Index.cshtml" %}
@@ -154,7 +154,7 @@ Add the [ASP.NET Core Stock Charts](https://www.syncfusion.com/aspnet-core-ui-co
 
 {% tabcontent Visual Studio %}
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>âŒ˜</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Stock Charts](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) control will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Stock Chart](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) control will render in your default web browser.
 
 {% endtabcontent %}
 
@@ -174,11 +174,11 @@ dotnet run
 
 {% endtabcontents %}
 
-![ASP.NET Core Stock Charts Control](images/stockchart-control.webp)
+![ASP.NET Core Stock Chart Control](images/stockchart-control.webp)
 
-## Populate ASP.NET Core Stock Charts with Data
+## Populate ASP.NET Core Stock Chart with Data
 
-This section explains how to populate the [ASP.NET Core Stock Charts](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) using data defined in an external JavaScript file.
+This section explains how to populate the [ASP.NET Core Stock Chart](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) using data defined in an external JavaScript file.
 
 Create a file inside the **~/wwwroot/js** folder as `financial-data.js` and add the data shown below inside the file.
 
@@ -193,7 +193,7 @@ Add a series object to the chart by using the [`series`](https://help.syncfusion
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET Core Stock Charts with Data](images/stockchart.webp)
+![ASP.NET Core Stock Chart with Data](images/stockchart.webp)
 
 N> Explore the sample on [GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/StockChart/ASP.NET%20Core%20Tag%20Helper%20Examples) to understand how this getting started example works.
  

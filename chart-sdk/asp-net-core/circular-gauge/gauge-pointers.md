@@ -24,7 +24,7 @@ Gauge supports 3 types of pointers such as `Needle`, `RangeBar` and `Marker`. Yo
 
 ## Needle Pointers
 
-A needle pointer contains three parts, a needle, a cap / knob and a tail. The length of the needle can be customized by usingÂ [radius](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html#Syncfusion_EJ2_CircularGauge_CircularGaugePointer_Radius)Â property. The length of the tail can be customized by usingÂ [length](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html)Â property. The radius of the cap can be customized by usingÂ [radius](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html)Â in cap object. The needle and tail length takes value either inÂ `percentage`Â orÂ `pixel`.
+A needle pointer contains three parts, a needle, a cap / knob and a tail. The length of the needle can be customized by using [radius](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html#Syncfusion_EJ2_CircularGauge_CircularGaugePointer_Radius) property. The length of the tail can be customized by using [length](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) property. The radius of the cap can be customized by using [radius](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) in cap object. The needle and tail length takes value either in `percentage` or `pixel`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -103,7 +103,7 @@ Different type of marker shape can be used to mark the pointer value in axis. Yo
 * InvertedTriangle
 * Diamond
 
-The image can be used instead of rendering marker shape to denote the pointer value. It can be achieved by settingÂ [markerShape](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html)Â toÂ ImageÂ and assigningÂ Â image path toÂ [imageUrl](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html)Â inÂ pointer.
+The image can be used instead of rendering marker shape to denote the pointer value. It can be achieved by setting [markerShape](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) to Image and assigning  image path to [imageUrl](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugePointer.html) in pointer.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

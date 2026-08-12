@@ -11,20 +11,20 @@ documentation: ug
 
 # User Interaction in ASP.NET Core Sparkline Charts
 
-Sparkline Charts has two user interaction features: tooltip and tracker line.
+Sparkline has two user interaction features: tooltip and tracker line.
 
 ## Tooltip
 
-The Sparkline Charts displays additional information via a tooltip when the mouse hovers over it. Enable the tooltip by adding the `<e-Sparkline Charts-tooltipsettings>` child element to the `<ejs-Sparkline Charts>` tag helper and setting its `visible` attribute to `true`.
+The Sparkline displays additional information via a tooltip when the mouse hovers over it. Enable the tooltip by adding the `<e-sparkline-tooltipsettings>` child element to the `<ejs-sparkline>` tag helper and setting its `visible` attribute to `true`.
 
-The following code example shows enabling tooltip for Sparkline Charts with format.
+The following code example shows enabling tooltip for Sparkline with format.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/tooltip/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/tooltip/tooltip.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ The fill color, text styles, format, and border of the tooltip can be customized
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/tooltip-custom/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-custom/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Tooltip-custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/tooltip-custom/tooltip-custom.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-custom/tooltip-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,15 +52,15 @@ A format specifier can be applied to a tooltip token by adding a colon (`:`) fol
 For example:
 
 ```cshtml
-<e-Sparkline Charts-tooltipsettings enable="true" format="${x:MMM yyyy} : ${y:n2}"></e-Sparkline Charts-tooltipsettings>
+<e-sparkline-tooltipsettings enable="true" format="${x:MMM yyyy} : ${y:n2}"></e-sparkline-tooltipsettings>
 ```
 
 In the above example, `x` is displayed in month-year format and `y` is displayed with two decimal places.
 
 Inline formatting can be applied to the following tooltip tokens:
 
-- `${x}` or `${x:MMM yyyy}` â€“ Specifies the x-value of the Sparkline Charts data point, such as DateTime or category values.
-- `${y}` or `${y:n2}` â€“ Specifies the numeric y-value of the Sparkline Charts data point.
+- `${x}` or `${x:MMM yyyy}` â€“ Specifies the x-value of the Sparkline data point, such as DateTime or category values.
+- `${y}` or `${y:n2}` â€“ Specifies the numeric y-value of the Sparkline data point.
 
 **Important:** DateTime formatting is applied when the resolved value is a Date object, and number formatting is applied when the resolved value is numeric. 
 
@@ -77,24 +77,24 @@ If the specified format does not match the resolved value type, the original val
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/inline-format/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/inline-format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Inline-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/inline-format/inline-format.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/inline-format/inline-format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 ### Tooltip template
 
-Sparkline Charts tooltip has template support. By using tooltip template, you can customize tooltips. The following code example shows more customization options provided to  `Sparkline Charts-tooltip` class that is used in tooltip template div. Using this template, images also can be added to tooltip.
+Sparkline tooltip has template support. By using tooltip template, you can customize tooltips. The following code example shows more customization options provided to  `sparkline-tooltip` class that is used in tooltip template div. Using this template, images also can be added to tooltip.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/tooltip-template/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Tooltip_template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/tooltip-template/tooltip-template.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-template/tooltip-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -103,15 +103,15 @@ Sparkline Charts tooltip has template support. By using tooltip template, you ca
 
 The track line tracks data points that are closer to the mouse position or touch contact.
 
-To enable track lines for Sparkline Charts, specify the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineTrackLineSettings~Visible.html) option of  [`trackLineSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineTrackLineSettings.html) to true. Based on theme, tracker color will be changed. The default value of tracker color is black.
+To enable track lines for Sparkline, specify the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineTrackLineSettings~Visible.html) option of  [`trackLineSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineTrackLineSettings.html) to true. Based on theme, tracker color will be changed. The default value of tracker color is black.
 
-To use track line in Sparkline Charts, inject the [`SparklineTooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineTooltipSettings.html) module to Sparkline Charts using the inject method.
+To use track line in Sparkline, inject the [`SparklineTooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineTooltipSettings.html) module to Sparkline using the inject method.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/tooltip-trackline/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-trackline/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Tooltip_trackline.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/user-interaction/tooltip-trackline/tooltip-trackline.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-trackline/tooltip-trackline.cs %}
 {% endhighlight %}
 {% endtabs %}

@@ -11,9 +11,9 @@ documentation: ug
 
 # Export and Print in ASP.NET Core Stock Charts
 
-The rendered Stock Charts can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the export dropdown button in the period selector toolbar. You can choose the required format using the export dropdown button in stock-chart.
+The rendered Stock Chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the export dropdown button in the period selector toolbar. You can choose the required format using the export dropdown button in stock-chart.
 
-The rendered Stock Charts can be printed directly using print button in period selector toolbar.
+The rendered Stock Chart can be printed directly using print button in period selector toolbar.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

@@ -51,9 +51,9 @@ By default, bubbles are rendered in the **Circle** type. To change the type of t
 
 The following properties are available in `MapsBubble` to customize the bubbles of the Maps component.
 
-* `Border` â€“ To customize the color, width and opacity of the border of the bubbles in Maps.
-* `Fill` â€“ To apply the color for bubbles in Maps.
-* `Opacity` â€“ To apply opacity to the bubbles in Maps.
+* `Border` – To customize the color, width and opacity of the border of the bubbles in Maps.
+* `Fill` – To apply the color for bubbles in Maps.
+* `Opacity` – To apply opacity to the bubbles in Maps.
 * `AnimationDelay` - To change the time delay in the transition for bubbles.
 * `AnimationDuration` - To change the time duration of animation for bubbles.
 

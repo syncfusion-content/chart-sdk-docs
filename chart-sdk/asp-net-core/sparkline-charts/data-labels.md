@@ -15,7 +15,7 @@ Data labels are used to display values of data points to improve the readability
 
 ## Enable data label
 
-To enable data label for Sparkline Charts series, provide [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineDataLabelSettings~Visible.html) of the [`dataLabelSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineDataLabelSettings.html) as following possible values:
+To enable data label for Sparkline series, provide [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineDataLabelSettings~Visible.html) of the [`dataLabelSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineDataLabelSettings.html) as following possible values:
 
 * All - Enables data label of  all points.
 * Start - Enables data label of the start point.
@@ -24,14 +24,14 @@ To enable data label for Sparkline Charts series, provide [`visible`](https://he
 * Low - Enables data label of the low point.
 * Negative - Enables data labels of the negative points.
 
-The following example shows enabling Sparkline Charts data label for all points.
+The following example shows enabling Sparkline data label for all points.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/datalabel/enable/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/datalabel/enable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Enable.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/datalabel/enable/enable.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/datalabel/enable/enable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,23 +42,23 @@ Data labels can be customized using the fill, border, opacity, and text Style. T
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/datalabel/custom/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/datalabel/custom/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/datalabel/custom/custom.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/datalabel/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 ## Format data label text
 
-The text of data labels can be formatted using the [`format`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineDataLabelSettings~Format.html) API in the Sparkline Charts [`dataLabelSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineDataLabelSettings.html). By default, data label shows the y-value of point. The following code example shows how to display x and y-values for points.
+The text of data labels can be formatted using the [`format`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineDataLabelSettings~Format.html) API in the Sparkline [`dataLabelSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineDataLabelSettings.html). By default, data label shows the y-value of point. The following code example shows how to display x and y-values for points.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/datalabel/format/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/datalabel/format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/datalabel/format/format.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/datalabel/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}

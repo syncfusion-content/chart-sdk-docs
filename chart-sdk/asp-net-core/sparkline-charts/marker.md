@@ -13,9 +13,9 @@ documentation: ug
 
 This section explains how to add markers to the sparklines.
 
-## Adding marker to the Sparkline Charts
+## Adding marker to the Sparkline
 
-To add marker to the Sparkline Charts, specify the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineMarkerSettings~Visible.html) of [`markerSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineMarkerSettings.html) as following values. The [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineMarkerSettings~Visible.html) will accept multiple values too.
+To add marker to the Sparkline, specify the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineMarkerSettings~Visible.html) of [`markerSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineMarkerSettings.html) as following values. The [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineMarkerSettings~Visible.html) will accept multiple values too.
 
 * All - Enables markers for all points.
 * Start - Enables marker for the start point.
@@ -28,38 +28,38 @@ The following code example shows enabling markers for all points.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/marker/allpoint/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/marker/allpoint/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Allpoint.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/marker/allpoint/allpoint.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/marker/allpoint/allpoint.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 ## Adding marker to special point
 
-In Sparkline Charts, markers can be enabled for particular points such as the start, end, low, high, or negative. The following code examples shows enabling markers for the high and low points.
+In Sparkline, markers can be enabled for particular points such as the start, end, low, high, or negative. The following code examples shows enabling markers for the high and low points.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/marker/specialpoint/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/marker/specialpoint/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Specialpoint.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/marker/specialpoint/specialpoint.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/marker/specialpoint/specialpoint.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 ## Customizing markers
 
-Sparkline Charts markers can be customized in terms of fill color, border color, width, opacity, and size. The following code example shows customizing marker's fill, border, and size.
+Sparkline markers can be customized in terms of fill color, border color, width, opacity, and size. The following code example shows customizing marker's fill, border, and size.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/marker/custom/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/marker/custom/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/marker/custom/custom.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/marker/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
 

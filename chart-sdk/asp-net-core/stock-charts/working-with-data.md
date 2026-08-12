@@ -30,7 +30,7 @@ You can bind a simple JSON data to the chart using [`dataSource`](https://help.s
 
 ## Handling No Data
 
-When no data is available to render in the Stock Charts, the `noDataTemplate` property can be used to display a custom layout within the chart area. This layout may include a message indicating the absence of data, a relevant image, or a button to initiate data loading. Styled text, images, or interactive elements can be incorporated to maintain design consistency and improve user guidance. Once data becomes available, the chart automatically updates to display the appropriate visualization.
+When no data is available to render in the Stock Chart, the `noDataTemplate` property can be used to display a custom layout within the chart area. This layout may include a message indicating the absence of data, a relevant image, or a button to initiate data loading. Styled text, images, or interactive elements can be incorporated to maintain design consistency and improve user guidance. Once data becomes available, the chart automatically updates to display the appropriate visualization.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -42,7 +42,7 @@ When no data is available to render in the Stock Charts, the `noDataTemplate` pr
 {% endtabs %}
 
 
-![ASP.NET Core Stock Charts Control](images/nodatatemplate-stockchart.png)
+![ASP.NET Core Stock Chart Control](images/nodatatemplate-stockchart.png)
 
 ## See Also
 

@@ -14,7 +14,7 @@ You can categories certain interval on gauge axis using [ranges](https://help.sy
 
 ## Start and End
 
-Start and end value of a range in an axis can be customized by using [start](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_Start) and [end](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_End)Â properties.
+Start and end value of a range in an axis can be customized by using [start](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_Start) and [end](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_End) properties.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -40,7 +40,7 @@ Color and thickness of the range can be customized by using [color](https://help
 
 ## Radius
 
-You can place the range inside or outside of the axis by usingÂ [radius](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_Radius) property. The radius of the range can take value either in percentage or in pixels. By default, ranges take 100% of the axis radius.
+You can place the range inside or outside of the axis by using [radius](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html#Syncfusion_EJ2_CircularGauge_CircularGaugeRange_Radius) property. The radius of the range can take value either in percentage or in pixels. By default, ranges take 100% of the axis radius.
 
 **In Pixel**
 
@@ -58,7 +58,7 @@ You can set the radius of the range in pixel.
 
 **In Percentage**
 
-By setting value in percentage, range gets its dimension with respect to its axis radius. For example, when the radius is â€˜50%â€™, range renders to half of the axis radius.
+By setting value in percentage, range gets its dimension with respect to its axis radius. For example, when the radius is ‘50%’, range renders to half of the axis radius.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

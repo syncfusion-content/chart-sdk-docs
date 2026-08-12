@@ -11,7 +11,7 @@ documentation: ug
 
 # Range Band in ASP.NET Core Sparkline Charts
 
-This section explains how to customize the Sparkline Charts with multiple range bands.
+This section explains how to customize the Sparkline with multiple range bands.
 
 ## Range band customization
 
@@ -19,23 +19,23 @@ The range band feature is used to highlight a particular range along with the y-
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/rangeband/range/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/rangeband/range/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/rangeband/range/range.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/rangeband/range/range.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 ## Multiple range band customization
 
-You can define multiple range bands to a Sparkline Charts as shown in the following code sample.
+You can define multiple range bands to a Sparkline as shown in the following code sample.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/rangeband/multi-range/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/rangeband/multi-range/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Multi_range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/rangeband/multi-range/multi-range.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/rangeband/multi-range/multi-range.cs %}
 {% endhighlight %}
 {% endtabs %}

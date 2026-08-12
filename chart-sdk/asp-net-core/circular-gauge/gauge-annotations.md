@@ -14,7 +14,7 @@ Annotations are used to mark a specific area of interest in the gauge with texts
 
 ## Content
 
-You can place any custom element on the axis area by assigning the id of the element to [content](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAnnotation.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAnnotation_Content)Â property ofÂ [annotation](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAnnotation.html)Â object.
+You can place any custom element on the axis area by assigning the id of the element to [content](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAnnotation.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAnnotation_Content) property of [annotation](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAnnotation.html) object.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

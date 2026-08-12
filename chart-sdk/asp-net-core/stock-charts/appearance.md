@@ -11,9 +11,9 @@ documentation: ug
 
 # Appearance in ASP.NET Core Stock Charts
 
-## Stock Charts Title
+## Stock Chart Title
 
-Stock Charts can be given a title using [`title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Title) property, to show the information about the data plotted.
+Stock Chart can be given a title using [`title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Title) property, to show the information about the data plotted.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -43,11 +43,11 @@ The `textStyle` property of chart title provides options to customize the `size`
 
 
 
-## Stock Charts Theme
+## Stock Chart Theme
 
 Changing theme will affect background color,gridlines,tooltip colors and appearance.
 
-[`theme`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Theme) property of Stock Charts is shipped with several built-in themes such as `Material`, `Fabric`, `Bootstrap` , `HighContrastLight`, `MaterialDark`, `FabricDark`, `FabricDark`, `HighContrast` and `BootstrapDark`.
+[`theme`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Theme) property of Stock Chart is shipped with several built-in themes such as `Material`, `Fabric`, `Bootstrap` , `HighContrastLight`, `MaterialDark`, `FabricDark`, `FabricDark`, `HighContrast` and `BootstrapDark`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

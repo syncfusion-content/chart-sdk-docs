@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET Core 3D 
+# Getting Started with ASP.NET Core 3D Charts
 
 This section briefly explains how to include the [ASP.NET Core 3D Charts](https://www.syncfusion.com/aspnet-core-ui-controls/3d-chart) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/).
 

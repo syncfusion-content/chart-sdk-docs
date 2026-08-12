@@ -13,7 +13,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-Stock Charts will display details about the points through tooltip, when the mouse is moved over the point.
+Stock Chart will display details about the points through tooltip, when the mouse is moved over the point.
 
 ## Default tooltip
 
@@ -51,7 +51,7 @@ By default, tooltip shows information of x and y value in points. In addition to
 
 ## Position the tooltip
 
-By default, the tooltip is positioned at the left side of the Stock Charts. You can move the tooltip along with the mouse by setting **Nearest** to the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockTooltipSettings.html#Syncfusion_EJ2_Charts_StockChartStockTooltipSettings_Position) property.
+By default, the tooltip is positioned at the left side of the Stock Chart. You can move the tooltip along with the mouse by setting **Nearest** to the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockTooltipSettings.html#Syncfusion_EJ2_Charts_StockChartStockTooltipSettings_Position) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

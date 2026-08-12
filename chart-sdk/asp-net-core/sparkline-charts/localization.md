@@ -11,18 +11,18 @@ documentation: ug
 
 # Localization in ASP.NET Core Sparkline Charts
 
-The Sparkline Charts control supports localization. The default culture for localization is `en-US`. You can change the culture using the `setCulture` method.
+The Sparkline control supports localization. The default culture for localization is `en-US`. You can change the culture using the `setCulture` method.
 
 ## Tooltip format
 
-Sparkline Charts tooltip supports localization. The following code sample shows tooltip text with currency format based on culture.
+Sparkline tooltip supports localization. The following code sample shows tooltip text with currency format based on culture.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/localization/tooltip/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/localization/tooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/localization/tooltip/tooltip.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/localization/tooltip/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
 

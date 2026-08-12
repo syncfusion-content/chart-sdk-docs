@@ -16,7 +16,7 @@ By default, gauge will be displayed with an axis. Each axis contains its own ran
 
 ## Axis Customization
 
-You can customize the width and color of an axis line by usingÂ [lineStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_LineStyle)Â property. Background for an axis can be customized by usingÂ [background](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_Background) property.
+You can customize the width and color of an axis line by using [lineStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_LineStyle) property. Background for an axis can be customized by using [background](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_Background) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -28,7 +28,7 @@ You can customize the width and color of an axis line by usingÂ [lineStyle](ht
 
 ## Angles and Direction
 
-Circular gauge axis can sweep from 0 to 360 degrees. By default start angle of an axis isÂ 200Â degree and end angle isÂ 160Â degree and you can customize this option by using [startAngle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_StartAngle) and [endAngle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_EndAngle) property.
+Circular gauge axis can sweep from 0 to 360 degrees. By default start angle of an axis is 200 degree and end angle is 160 degree and you can customize this option by using [startAngle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_StartAngle) and [endAngle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_EndAngle) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -37,7 +37,7 @@ Circular gauge axis can sweep from 0 to 360 degrees. By default start angle of a
 {% endtabs %}
 
 
-The [direction](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_Direction)Â property enables you to render the gauge axis either in `ClockWise`Â orÂ in `AntiClockWise` direction.
+The [direction](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAxis.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAxis_Direction) property enables you to render the gauge axis either in `ClockWise` or in `AntiClockWise` direction.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -65,7 +65,7 @@ You can set the radius of the gauge in pixel as demonstrated below,
 
 **In Percentage**
 
-By setting value in percentage, gauge gets its dimension with respect to its available size. For example, when the radius is â€˜50%â€™, gauge renders to half of the available size.
+By setting value in percentage, gauge gets its dimension with respect to its available size. For example, when the radius is ‘50%’, gauge renders to half of the available size.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -221,7 +221,7 @@ The following table describes the result of applying some commonly used label fo
 
 **Custom Label Format**
 
-Axis labels support custom label format using placeholder likeÂ {value}Â°C,Â in which the value represent the axis label e.g 20Â°C.
+Axis labels support custom label format using placeholder like {value}°C, in which the value represent the axis label e.g 20°C.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

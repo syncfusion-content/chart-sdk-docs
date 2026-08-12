@@ -25,7 +25,7 @@ The following table lists the main tooltip configuration properties:
 | opacity | number | 0.75 | Opacity of the tooltip container (0 to 1). |
 | textStyle | object | null | Text styling for the tooltip content. |
 | nodeFormat | string | '$name : $value' | Format string for node tooltips. |
-| linkFormat | string | '$start.name $start.value â†’ $target.name $target.value' | Format string for link tooltips. |
+| linkFormat | string | '$start.name $start.value → $target.name $target.value' | Format string for link tooltips. |
 | enableAnimation | boolean | true | Toggles tooltip animation. |
 | duration | number | 300 | Animation duration in milliseconds. |
 | fadeOutDuration | number | 1000 | Fade-out duration in milliseconds. |
@@ -111,7 +111,7 @@ For example:
     <e-sparkline-tooltipsettings
         enable="true"
         nodeFormat="${name} : ${value:n2} TBtu"
-        linkFormat="${start.name} : ${start.out:n2} TBtu â†’ ${target.name} : ${target.in:n2} TBtu<br>Flow: ${value:n2} TBtu">
+        linkFormat="${start.name} : ${start.out:n2} TBtu → ${target.name} : ${target.in:n2} TBtu<br>Flow: ${value:n2} TBtu">
     </e-sparkline-tooltipsettings>
 ```
 
@@ -119,32 +119,32 @@ In the above example, `${name}`, `${start.name}`, and `${target.name}` display t
 
 Sankey tooltip values can be displayed in either of the following ways:
 
-- `$start.name` or `${start.name}` â€“ Displays the source node name.
-- `$target.name` or `${target.name}` â€“ Displays the target node name.
-- `$value` or `${value}` â€“ Displays the node or link value.
+- `$start.name` or `${start.name}` – Displays the source node name.
+- `$target.name` or `${target.name}` – Displays the target node name.
+- `$value` or `${value}` – Displays the node or link value.
 
 To apply formatting, use the `${}` syntax with the required format specifier. For example, `${value:n2}` displays the value with two decimal places.
 
 Inline formatting can be applied to the following tooltip placeholders:
 
-- `$name` or `${name}` â€“ Specifies the name or label of the hovered node.
-- `$value`, `${value}`, or `${value:n2}` â€“ Specifies the value of the hovered node or link.
-- `$start.name` or `${start.name}` â€“ Specifies the name of the source node in a link tooltip.
-- `$start.value`, `${start.value}`, or `${start.value:n2}` â€“ Specifies the value of the source node in a link tooltip.
-- `$start.out`, `${start.out}`, or `${start.out:n2}` â€“ Specifies the outgoing value from the source node in a link tooltip.
-- `$target.name` or `${target.name}` â€“ Specifies the name of the target node in a link tooltip.
-- `$target.value`, `${target.value}`, or `${target.value:n2}` â€“ Specifies the value of the target node in a link tooltip.
-- `$target.in`, `${target.in}`, or `${target.in:n2}` â€“ Specifies the incoming value to the target node in a link tooltip.
+- `$name` or `${name}` – Specifies the name or label of the hovered node.
+- `$value`, `${value}`, or `${value:n2}` – Specifies the value of the hovered node or link.
+- `$start.name` or `${start.name}` – Specifies the name of the source node in a link tooltip.
+- `$start.value`, `${start.value}`, or `${start.value:n2}` – Specifies the value of the source node in a link tooltip.
+- `$start.out`, `${start.out}`, or `${start.out:n2}` – Specifies the outgoing value from the source node in a link tooltip.
+- `$target.name` or `${target.name}` – Specifies the name of the target node in a link tooltip.
+- `$target.value`, `${target.value}`, or `${target.value:n2}` – Specifies the value of the target node in a link tooltip.
+- `$target.in`, `${target.in}`, or `${target.in:n2}` – Specifies the incoming value to the target node in a link tooltip.
 
 **Important:** Sankey tooltip placeholders can be used in both `$placeholder` and `${placeholder}` formats, such as `$start.name` or `${start.name}`. However, when applying number formatting, the `${placeholder:format}` syntax must be used, such as `${value:n2}`, `${start.out:n2}`, and `${target.in:n2}`. Formatting is applied only when the resolved value supports the specified format. String tokens, such as `${name}`, `${start.name}`, and `${target.name}`, are displayed as plain text and do not support number formatting.
 
 The following number formats are supported:
 
-- `n2` â€“ number with two decimal places
-- `n0` â€“ number without decimals
-- `c2` â€“ currency format
-- `p1` â€“ percentage format
-- `e1` â€“ exponential notation
+- `n2` – number with two decimal places
+- `n0` – number without decimals
+- `c2` – currency format
+- `p1` – percentage format
+- `e1` – exponential notation
 
 If the specified format does not match the resolved value type, the original value is displayed.
 

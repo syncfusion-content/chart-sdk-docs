@@ -28,7 +28,7 @@ DateTime axis uses date time scale and displays the date time values as axis lab
 
 ## DateTimeCategory axis
 
-DateTimeCategory axis in the Stock Charts is used to display only business days. To use DateTimeCategory axis, set the [`ValueType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) of axis to `DateTimeCategory`.
+DateTimeCategory axis in the Stock Chart is used to display only business days. To use DateTimeCategory axis, set the [`ValueType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) of axis to `DateTimeCategory`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

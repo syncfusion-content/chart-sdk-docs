@@ -58,7 +58,7 @@ Accessibility in the TreeMap component ensures that all users, regardless of abi
 | Data labels | Reads the labels displayed on leaf items of the TreeMap. |
 | Title | Reads the title in the TreeMap. |
 | Subtitle | Reads the title below the main title content in the TreeMap. |
-| Legend title | Reads the titleÂ of the legend in the TreeMap. |
+| Legend title | Reads the title of the legend in the TreeMap. |
 | Legend item label | Reads the label of the legend item in the TreeMap. |
 
 ## Ensuring accessibility

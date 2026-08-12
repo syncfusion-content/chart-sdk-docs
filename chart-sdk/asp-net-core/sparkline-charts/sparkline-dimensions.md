@@ -13,49 +13,49 @@ documentation: ug
 
 ## Size for container
 
-Sparkline Charts can be rendered to its container size. You can set the size through inline or CSS as shown in the following code.
+Sparkline can be rendered to its container size. You can set the size through inline or CSS as shown in the following code.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-dimensions/size/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-dimensions/size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-dimensions/size/size.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-dimensions/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 <!-- markdownlint-disable MD036 -->
 
-## Size for Sparkline Charts
+## Size for Sparkline
 
 <!-- markdownlint-disable MD036 -->
 
-You can also set the size for Sparkline Charts directly using the [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline Charts~Width.html) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline Charts~Height.html) properties.
+You can also set the size for Sparkline directly using the [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Width.html) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Height.html) properties.
 
 **In pixel**
 
-You can set the size for Sparkline Charts in pixel as demonstrated in the following code.
+You can set the size for Sparkline in pixel as demonstrated in the following code.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-dimensions/pixel/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-dimensions/pixel/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Pixel.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-dimensions/pixel/pixel.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-dimensions/pixel/pixel.cs %}
 {% endhighlight %}
 {% endtabs %}
 
 
 **In percentage**
 
-By setting values in percentage, Sparkline Charts gets its dimension with respect to its container. For example, when the height is set to â€˜50%â€™, Sparkline Charts is rendered to half of its container height.
+By setting values in percentage, Sparkline gets its dimension with respect to its container. For example, when the height is set to â€˜50%â€™, Sparkline is rendered to half of its container height.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-dimensions/percentage/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-dimensions/percentage/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Percentage.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/Sparkline Charts-charts/Sparkline Charts-dimensions/percentage/percentage.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/sparkline-dimensions/percentage/percentage.cs %}
 {% endhighlight %}
 {% endtabs %}

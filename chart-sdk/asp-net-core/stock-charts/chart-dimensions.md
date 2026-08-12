@@ -26,7 +26,7 @@ Chart can render to its container size.Â You can set the size via inline or CS
 
 
 
-## Size for Stock Charts
+## Size for Stock Chart
 
 You can also set size for chart directly through [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_Height) properties.
 

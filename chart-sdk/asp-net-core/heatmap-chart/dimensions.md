@@ -42,7 +42,7 @@ You can set the size for heat map in a pixel.
 
 ## In percentage
 
-By setting value in percentage, heat map gets its dimension with respect to its container. For example, when the height is â€˜50%â€™, heat map rendered to half of the container height.
+By setting value in percentage, heat map gets its dimension with respect to its container. For example, when the height is ‘50%’, heat map rendered to half of the container height.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

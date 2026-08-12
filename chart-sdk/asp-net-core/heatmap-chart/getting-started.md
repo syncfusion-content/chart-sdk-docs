@@ -14,11 +14,11 @@ This section briefly explains how to include the [ASP.NET Core HeatMap Chart](ht
 
 ## Create an ASP.NET Core Web App with Razor Pages
 
-Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [SyncfusionÂ® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project). For detailed instructions, refer to the [ASP.NET Core Web App Getting Started](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages) documentation.
+Create an **ASP.NET Core Web App** using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-10.0&tabs=visual-studio#create-a-razor-pages-web-app) or the [Syncfusion® ASP.NET Core Extension](https://ej2.syncfusion.com/aspnetcore/documentation/visual-studio-integration/create-project). For detailed instructions, refer to the [ASP.NET Core Web App Getting Started](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages) documentation.
 
 ## Install the required ASP.NET Core package
 
-To add [ASP.NET Core HeatMap Chart](https://www.syncfusion.com/aspnet-core-ui-controls/heatmap-chart) control in the app, open the NuGet package manager in Visual Studio *(Tools â†’ NuGet Package Manager â†’ Manage NuGet Packages for Solution)*, search for and install the [Syncfusion.AspNetCore.HeatMap](https://www.nuget.org/packages/Syncfusion.AspNetCore.HeatMap/) package. All Syncfusion ASP.NET Core packages are available in [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2). See the [NuGet packages](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) topic for details.
+To add [ASP.NET Core HeatMap Chart](https://www.syncfusion.com/aspnet-core-ui-controls/heatmap-chart) control in the app, open the NuGet package manager in Visual Studio *(Tools → NuGet Package Manager → Manage NuGet Packages for Solution)*, search for and install the [Syncfusion.AspNetCore.HeatMap](https://www.nuget.org/packages/Syncfusion.AspNetCore.HeatMap/) package. All Syncfusion ASP.NET Core packages are available in [nuget.org](https://www.nuget.org/packages?q=syncfusion.EJ2). See the [NuGet packages](https://ej2.syncfusion.com/aspnetcore/documentation/nuget-packages) topic for details.
 
 Alternatively, you can install the same package using the Package Manager Console with the following command.
 
@@ -100,7 +100,7 @@ This section explains how to populate the following two-dimensional array data t
 
 ## Run the application
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>âŒ˜</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core HeatMap Chart](https://www.syncfusion.com/aspnet-core-ui-controls/heatmap-chart) will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core HeatMap Chart](https://www.syncfusion.com/aspnet-core-ui-controls/heatmap-chart) will render in your default web browser.
 
 ![ASP.NET Core HeatMap Chart with Data](images/heatmap-with-data.webp)
 
