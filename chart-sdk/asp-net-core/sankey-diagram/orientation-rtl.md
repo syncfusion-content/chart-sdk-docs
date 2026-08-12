@@ -27,7 +27,7 @@ Control the layout direction of the Sankey Chart using the `Orientation` propert
 
 ## Horizontal Orientation
 
-The default orientation displays nodes horizontally across the chart, with flows moving from left to right. This is the standard layout for most Sankey Charts:
+The default orientation displays nodes horizontally across the chart, with flows moving from left to right. This is the standard layout for most Sankey diagrams:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

@@ -83,7 +83,7 @@ Equal color mapping applies the color to the shapes of the Maps when the `Value`
 { Country: 'Bolivia', Membership: 'Non-Permanent' },
 { Country: 'Eq. Guinea', Membership: 'Non-Permanent' },
 { Country: 'Ethiopia', Membership: 'Non-Permanent' },
-{ Country: "CÃ´te d'Ivoire", Membership: 'Permanent' },
+{ Country: "Côte d'Ivoire", Membership: 'Permanent' },
 { Country: 'Kazakhstan', Membership: 'Non-Permanent' },
 { Country: 'Kuwait', Membership: 'Non-Permanent' },
 { Country: 'Netherlands', Membership: 'Non-Permanent' },

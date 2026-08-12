@@ -35,7 +35,7 @@ By using the `Content` property of `MapsAnnotation`, text content or id of an el
 
 ### Changing the z-index
 
-The stack order of an annotation element can be changed using theÂ `ZIndex` property in the `MapsAnnotation`.
+The stack order of an annotation element can be changed using the `ZIndex` property in the `MapsAnnotation`.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

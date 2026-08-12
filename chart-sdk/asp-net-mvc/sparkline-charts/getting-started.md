@@ -11,7 +11,7 @@ documentation: ug
 
 # Getting Started with ASP.NET MVC Sparkline Charts
 
-This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET MVC Sparkline Charts](https://www.syncfusion.com/aspnet-mvc-ui-controls/Sparkline Charts) control to your ASP.NET MVC application using Visual Studio.
+This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET MVC Sparkline](https://www.syncfusion.com/aspnet-mvc-ui-controls/sparkline) control to your ASP.NET MVC application using Visual Studio.
 
 ## Prerequisites
 

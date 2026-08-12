@@ -11,7 +11,7 @@ documentation: ug
 
 # Range Selector in ASP.NET Core Stock Charts
 
-The period selector allows to select a range with specified periods. By default the period selector is enabled in Stock chart.
+The period selector allows to select a range with specified periods. By default the period selector is enabled in stock chart.
 
 # Selecting Range
 

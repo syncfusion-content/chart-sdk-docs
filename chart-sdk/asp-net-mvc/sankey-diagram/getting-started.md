@@ -11,7 +11,7 @@ documentation: ug
 
 # Getting started with ASP.NET MVC Sankey Diagram
 
-This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Sankey Diagram control to your ASP.NET MVC application using Visual Studio.
+This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Sankey Chart control to your ASP.NET MVC application using Visual Studio.
 
 ## Prerequisites
 

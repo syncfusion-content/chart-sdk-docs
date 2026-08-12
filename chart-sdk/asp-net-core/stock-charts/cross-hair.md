@@ -56,7 +56,7 @@ The [`fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts
 
 ## Crosshair label customization
 
-The [`crosshairLabelRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_CrosshairLabelRender) event is triggered before each crosshair axis label is rendered in the Stock chart. This event allows you to customize the appearance and content of the crosshair labels or prevent specific labels from being displayed.
+The [`crosshairLabelRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_CrosshairLabelRender) event is triggered before each crosshair axis label is rendered in the stock chart. This event allows you to customize the appearance and content of the crosshair labels or prevent specific labels from being displayed.
 
 The event arguments include:
 

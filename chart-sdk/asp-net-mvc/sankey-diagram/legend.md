@@ -10,7 +10,7 @@ documentation: ug
 
 # Legend in ASP.NET MVC Sankey Diagram
 
-A legend provides a visual key that helps users understand the categories and meanings represented by nodes in the Sankey Diagram. The Sankey Diagram provides comprehensive legend configuration options including positioning, styling, customization, and interactive behaviors. You can enable and customize legend using the `Legend` property.
+A legend provides a visual key that helps users understand the categories and meanings represented by nodes in the Sankey Chart. The Sankey Chart provides comprehensive legend configuration options including positioning, styling, customization, and interactive behaviors. You can enable and customize legend using the `Legend` property.
 
 This guide covers legend configuration, positioning strategies, customization options, and dynamic legend rendering events.
 

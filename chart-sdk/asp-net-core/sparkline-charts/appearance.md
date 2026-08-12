@@ -32,7 +32,7 @@ The following code example shows the sparkline with overall border.
 
 ## Sparkline padding
 
-Padding is used to specify padding value between container and sparkline. By default, padding value of the Sparkline is 5. sparkline [`padding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklinePadding.html) values are specified by the left, right, top, and bottom.
+Padding is used to specify padding value between container and sparkline. By default, padding value of the sparkline is 5. sparkline [`padding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklinePadding.html) values are specified by the left, right, top, and bottom.
 
 The following code example shows the sparkline with overall padding is set to 20.
 

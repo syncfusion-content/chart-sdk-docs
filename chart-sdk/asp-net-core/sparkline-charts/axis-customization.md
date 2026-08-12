@@ -11,9 +11,9 @@ documentation: ug
 
 # Axis Customization in ASP.NET Core Sparkline Charts
 
-You can customize axis value types and min and max values of the Sparkline.
+You can customize axis value types and min and max values of the sparkline.
 
-## Change value type of the Sparkline
+## Change value type of the sparkline
 
 You can change the sparkline value type by setting the [`valueType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~ValueType.html) property to `Numeric`, `Category`, or `DateTime`.
 <!-- markdownlint-disable MD036 -->

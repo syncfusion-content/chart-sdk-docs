@@ -129,7 +129,7 @@ Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (m
 
 ![ASP.NET Core Sparkline Charts Control](images/sparkline-control.webp)
 
-## Change the type of Sparkline harts
+## Change the type of Sparkline Charts
 
 You can change the Sparkline Charts type by setting the `type` property to `Line`, `Column`, `WinLoss`, `Pie`, or `Area`. Here, the sparkline type has been set to `area`.
 
@@ -203,7 +203,7 @@ public class DataSource
 
 ![ASP.NET Core Sparkline Charts with Tooltip](images/sparkline-with-tooltip.webp)
 
-N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/sparkline/ASP.NET%20Core%20Tag%20Helper%20Examples).
+N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Sparkline/ASP.NET%20Core%20Tag%20Helper%20Examples).
 
 ## See also
 

@@ -11,7 +11,7 @@ documentation: ug
 
 # Types in ASP.NET Core Sparkline Charts
 
-Different types of shapes can be used to represent the sparkline. You can change the Sparkline type by setting the type property. sparkline supports the following types:
+Different types of shapes can be used to represent the sparkline. You can change the sparkline type by setting the type property. Sparkline supports the following types:
 
 * Line
 * Column
