@@ -1,13 +1,13 @@
 ---
 layout: post
-title: KML Shapes Rendered in SubShapeFileLayer for SfMaps control
-description: How to render KML files in SubShapeFileLayer?
+title: How to render KML in sub shape file layer for UWP Maps | Syncfusion®
+description: Learn how to render KML shapes in a SubShapeFileLayer and configure KML files as embedded resources in UWP Maps.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
 
-# KML Shapes Rendered in SubShapeFileLayer
+# How to render KML shapes in sub shape file layer for UWP Maps
 
 A `KML` file can be rendered with the help of SubShapeFileLayer also in SfMap. The KML file should be added as an `Embedded Resource` to the application project. For more information on the Uri for KML refer [KML rendering in ShapeFileLayer](/wpf/SfMap/KML-Shapes-Rendered-in-ShapeFileLayer)
 

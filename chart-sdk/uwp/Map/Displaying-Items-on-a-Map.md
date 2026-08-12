@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Displaying Items on a Map in UWP Map control | Syncfusion
-description: Learn here all about Displaying Items on a Map support in Syncfusion UWP Map (SfMaps) control and more.
+title: Displaying Items on a Map in UWP Maps | Syncfusion®
+description: Displaying items on a map in the UWP Maps enables visualization of geographic data using shapes, markers, bubbles, and other map elements.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
 
-# Displaying Items on a Map in UWP Map (SfMaps)
+# Displaying Items on a Map in UWP Maps
 
 Along with bubbles, the ItemsSource data can be visualized with other elements. The `ItemsTemplate` property is used to define the template for the items that are displayed on the map. By default, the map elements show the values of the object that is defined in the `ShapeValuePath` of the ShapeFileLayer’s `ShapeSetting`.
 

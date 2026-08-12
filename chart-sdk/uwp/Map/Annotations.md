@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Annotations in UWP Map control | Syncfusion
-description: Learn here all about Annotations support in Syncfusion Essential UWP Map (SfMaps) control, its elements, and more.
+title: Annotations in UWP Maps | Syncfusion®
+description: Annotations in the UWP Maps allow you to add custom text, shapes, and UI elements to provide additional map information.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
 
-# Annotations in UWP Map (SfMaps)
+# Annotations in UWP Maps
 
 `Annotations` are notes used to leave some message on the map. In SfMap, annotations are denoted by the `MapAnnotations`. MapAnnotation has two major parts:
 

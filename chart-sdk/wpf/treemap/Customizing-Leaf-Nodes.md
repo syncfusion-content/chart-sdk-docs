@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Customizing Leaf Nodes in WPF TreeMap control | Syncfusion
-description: Learn here all about Customizing Leaf Nodes support in Syncfusion WPF TreeMap (SfTreeMap) control and more.
+title: Leaf Nodes Customization in WPF TreeMap | Syncfusion®
+description: Leaf nodes customization in the WPF TreeMap allows you to modify the appearance, styling, and layout of hierarchical data items.
 platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---
 
-# Customizing Leaf Nodes in WPF TreeMap (SfTreeMap)
+# Leaf Nodes Customization in WPF TreeMap
 
 You can customize leaf nodes by assigning data template to LeafTemplate of SfTreeMap. 
 

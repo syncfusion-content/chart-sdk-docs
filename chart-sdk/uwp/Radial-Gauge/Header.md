@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Header in UWP Radial Gauge control | Syncfusion
-description: Learn here all about Header support in Syncfusion UWP Radial Gauge (SfCircularGauge) control and more.
+title: Header in UWP Radial Gauge | Syncfusion®
+description: Header in the UWP Radial Gauge displays a title for the gauge, providing context and helping users understand displayed values.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
 ---
-# Header in UWP Radial Gauge (SfCircularGauge)
+# Header in UWP Radial Gauge
 
 Header allows you to show text or any UI content inside the gauge control using [`GaugeHeader`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfCircularGauge.html#Syncfusion_UI_Xaml_Gauges_SfCircularGauge_GaugeHeader)  option. This provides information about the data that is being plotted in the circular gauge.
 

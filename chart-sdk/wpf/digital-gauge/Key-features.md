@@ -7,7 +7,7 @@ control: SfDigitalGauge
 documentation: ug
 ---
 
-# Key Features in WPF Digital Gauge (SfDigitalGauge)
+# Key Features in WPF Digital Gauge
 
 A digital gauge is composed of segments, which are a major UI component of the digital gauge. `SfDigitalGauge` comprises the following segments to display the digital characters.
 

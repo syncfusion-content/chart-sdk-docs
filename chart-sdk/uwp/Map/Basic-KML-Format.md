@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Basic KML Format in UWP Map control | Syncfusion
-description: Learn here all about Basic KML Format support in Syncfusion UWP Map (SfMaps) control and more.
+title: KML Format in UWP Maps | Syncfusion®
+description: KML format in the UWP Maps enables geographic data from KML files to be loaded and visualized for location-based mapping applications.
 platform: chart-sdk
 control: SfMap
 documentation: ug
