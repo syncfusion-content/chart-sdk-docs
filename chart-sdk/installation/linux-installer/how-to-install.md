@@ -2,7 +2,7 @@
 layout: post
 title: Installing Syncfusion Chart SDK Linux installer - Syncfusion
 description: Learn here about how to install the Syncfusion Chart SDK Linux installer after downloading it from our Syncfusion website.
-platform: Chart SDK
+platform: chart-sdk
 control: Installation and Deployment
 documentation: ug
 
