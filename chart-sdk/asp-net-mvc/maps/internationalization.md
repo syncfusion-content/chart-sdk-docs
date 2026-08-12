@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Internationalization in Syncfusion ASP.NET MVC Maps Component
+title: Internationalization in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Internationalization in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Internationalization
+# Internationalization in ASP.NET MVC Maps
 
 Maps provide support for internationalization for the below elements.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tooltip Template in ASP.NET MVC Heatmap Chart Component
+title: Tooltip Template in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Tooltip Template in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip Template
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Customizing tooltip as a table
+# How to Customize Tooltip as a template in ASP.NET MVC HeatMap Chart
 
 You can show a tooltip as a table using the `template` property in `TooltipSettings`.
 

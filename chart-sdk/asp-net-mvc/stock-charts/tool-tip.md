@@ -1,15 +1,15 @@
----
+﻿---
 layout: post
-title: Tool Tip in ASP.NET MVC Stock Chart Component
-description: Learn here all about Tool Tip in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET MVC Stock Charts | Syncfusion
+description: Learn here all about Tooltip in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tool Tip
+control: Tooltip
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Tooltip
+# Tooltip in ASP.NET MVC Stock Charts
 
 <!-- markdownlint-disable MD036 -->
 

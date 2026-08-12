@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Accessibility customization in Syncfusion Accumulation chart Component
-description: Learn here all about Accessibility customization in Syncfusion ASP MVC Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Advanced Accessibility in ASP.NET MVC Accumulation Charts | Syncfusion 
+description: Learn here all about Accessibility customization in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility customization
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Accessibility customization
+# Advanced Accessibility Configuration in ASP.NET MVC Accumulation Charts
 
 The Syncfusion® ASP.NET MVC Accumulation Chart component is structured to visualize data in a graphical manner. It provides robust customization options for accessibility, allowing you to enhance the user experience for those with disabilities. The main attributes of the ASP.NET MVC Accumulation Chart component's accessibility customization are briefly explained in this section.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Color Mapping in ASP.NET MVC Treemap Component
-description: Learn here all about Color Mapping in Syncfusion ASP.NET MVC Treemap component of Syncfusion Essential JS 2 and more.
+title: Color Mapping in ASP.NET MVC TreeMap | Syncfusion
+description: Learn here all about Color Mapping in Syncfusion ASP.NET MVC TreeMap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Color Mapping
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Color Mapping
+# Color Mapping in ASP.NET MVC TreeMap
 
 Color mapping is used to customize the color for each group or item based on the specified types. The following options are available to customize the group and leaf items in the TreeMap.
 

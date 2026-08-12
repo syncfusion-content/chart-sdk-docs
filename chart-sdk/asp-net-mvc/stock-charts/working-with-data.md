@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Working With Data in ASP.NET MVC Stock Chart Component
-description: Learn here all about Working With Data in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
+itle: Working with Data in ASP.NET MVC Stock Charts | Syncfusion
+description: Learn here all about Working With Data in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working With Data
 publishingplatform: chart-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Working with Data
+# Working with Data in ASP.NET MVC Stock Charts
 
 Chart can visualise data bound from local or remote data.
 
@@ -46,4 +46,4 @@ When no data is available to render in the stock chart, the `NoDataTemplate` pro
 
 ## See Also
 
-* [Series Types](./series-types/)
+* [Series Types](./series-types)

@@ -1,15 +1,15 @@
----
+﻿---
 layout: post
-title: Axis Types in ASP.NET MVC Stock Chart Component
-description: Learn here all about Axis Types in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Axis Types in ASP.NET MVC Stock Charts | Syncfusion
+description: Learn here all about Axis Types in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis types
+control: Axis Types
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Axis types
+# Axis Types in ASP.NET MVC Stock Charts
 
 ## DateTime axis
 
@@ -60,4 +60,4 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing dat
 
 ## See also
 
-* [Axis Customization](./axis-customization/)
+* [Axis Customization](./axis-customization)

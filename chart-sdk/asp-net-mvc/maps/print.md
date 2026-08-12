@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Print in ASP.NET MVC Maps Component
+title: Print and Export in ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Print in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Print
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Print and Export in ASP.NET MVC Maps component
+# Print and Export in ASP.NET MVC Maps
 
 ## Print
 

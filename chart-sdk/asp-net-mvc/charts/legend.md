@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend and Customization in ASP.NET MVC Syncfusion Chart Component
-description: Learn here all about Legend in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Legend in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Legend and in ASP.NET MVC Chart Component
+# Legend in ASP.NET MVC Charts
 
 Legend provides information about the series rendered in the chart.
 

@@ -17,7 +17,7 @@ Sparkline has two user interaction features: tooltip and tracker line.
 
 The Sparkline displays additional information via a tooltip when the mouse hovers over it. Enable the tooltip by adding the `<e-sparkline-tooltipsettings>` child element to the `<ejs-sparkline>` tag helper and setting its `visible` attribute to `true`.
 
-The following code example shows enabling tooltip for Sparkline with format.
+The following code example shows enabling tooltip for sparkline with format.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -59,8 +59,8 @@ In the above example, `x` is displayed in month-year format and `y` is displayed
 
 Inline formatting can be applied to the following tooltip tokens:
 
-- `${x}` or `${x:MMM yyyy}` â€“ Specifies the x-value of the Sparkline data point, such as DateTime or category values.
-- `${y}` or `${y:n2}` â€“ Specifies the numeric y-value of the Sparkline data point.
+- `${x}` or `${x:MMM yyyy}` – Specifies the x-value of the Sparkline data point, such as DateTime or category values.
+- `${y}` or `${y:n2}` – Specifies the numeric y-value of the Sparkline data point.
 
 **Important:** DateTime formatting is applied when the resolved value is a Date object, and number formatting is applied when the resolved value is numeric. 
 
@@ -68,10 +68,10 @@ The following format types are supported:
 
 - DateTime formats such as `MMM yyyy`, `MM:yy`, and `dd MMM`
 - Number formats such as:
-  - `n2` â€“ number with two decimal places
-  - `n0` â€“ number without decimals
-  - `c2` â€“ currency format
-  - `p1` â€“ percentage format
+  - `n2` – number with two decimal places
+  - `n0` – number without decimals
+  - `c2` – currency format
+  - `p1` – percentage format
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
@@ -103,9 +103,9 @@ Sparkline tooltip has template support. By using tooltip template, you can custo
 
 The track line tracks data points that are closer to the mouse position or touch contact.
 
-To enable track lines for Sparkline, specify the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineTrackLineSettings~Visible.html) option of  [`trackLineSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineTrackLineSettings.html) to true. Based on theme, tracker color will be changed. The default value of tracker color is black.
+To enable track lines for sparkline, specify the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineTrackLineSettings~Visible.html) option of  [`trackLineSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineTrackLineSettings.html) to true. Based on theme, tracker color will be changed. The default value of tracker color is black.
 
-To use track line in Sparkline, inject the [`SparklineTooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineTooltipSettings.html) module to Sparkline using the inject method.
+To use track line in sparkline, inject the [`SparklineTooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineTooltipSettings.html) module to Sparkline using the inject method.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

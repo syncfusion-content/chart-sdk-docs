@@ -10,9 +10,9 @@ documentation: ug
 
 # Accessibility in ASP.NET Core Sankey Diagram
 
-The Sankey Diagram component follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
+The Sankey Chart component follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 
-The Sankey Diagram component's accessibility compliance is outlined below.
+The Sankey Chart component's accessibility compliance is outlined below.
 
 | Accessibility Criteria | Compatibility |
 | -- | -- |
@@ -40,7 +40,7 @@ The Sankey Diagram component's accessibility compliance is outlined below.
 
 ## WAI-ARIA attributes
 
-The Sankey Diagram component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert) patterns to meet the accessibility. The following ARIA attributes are used in the Sankey Diagram component:
+The Sankey Chart component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert) patterns to meet the accessibility. The following ARIA attributes are used in the Sankey Chart component:
 
 * img (role)
 * button (role)
@@ -51,11 +51,11 @@ The Sankey Diagram component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA
 
 ## Keyboard interaction
 
-The Sankey Diagram component follows the [keyboard interaction](https://www.w3.org/WAI/ARIA/apg/patterns/alert#keyboardinteraction) guidelines, making it easier for assistive technology users and keyboard-only users to navigate the chart. The following keyboard shortcuts are supported by the Sankey Diagram component.
+The Sankey Chart component follows the [keyboard interaction](https://www.w3.org/WAI/ARIA/apg/patterns/alert#keyboardinteraction) guidelines, making it easier for assistive technology users and keyboard-only users to navigate the chart. The following keyboard shortcuts are supported by the Sankey Chart component.
 
 | **Press** | **To do this** |
 | --- | --- |
-| <kbd>Alt + J</kbd> | Moves the focus to the Sankey Diagram element. |
+| <kbd>Alt + J</kbd> | Moves the focus to the Sankey Chart element. |
 | <kbd>Tab</kbd> | Moves the focus to the next element in the chart. |
 | <kbd>Shift + Tab</kbd> | Moves the focus to the previous element in the chart. |
 | <kbd>Down Arrow</kbd> | Moves the focus to the node or link below from the selected element. |
@@ -63,11 +63,11 @@ The Sankey Diagram component follows the [keyboard interaction](https://www.w3.o
 | <kbd>Left Arrow</kbd> | Moves the focus to the next node or link from the selected element. |
 | <kbd>Right Arrow</kbd> | Moves the focus to the previous node or link from the selected element. |
 | <kbd>ESC</kbd> | Cancel the tooltip for the node or link. |
-| <kbd>Ctrl + P</kbd> | Prints the Sankey Diagram. |
+| <kbd>Ctrl + P</kbd> | Prints the Sankey Chart. |
 
 ## Ensuring accessibility
 
-The Sankey Diagram component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
+The Sankey Chart component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
 {% previewsample "https://ej2.syncfusion.com/accessibility/sankey.html" %}
 

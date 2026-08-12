@@ -28,5 +28,5 @@ The animation of the Circular Gauge is demonstrated in the following example.
 
 ![Circular Gauge with Animation](../circular-gauge/images/animation.gif)
 
-> Only the pointer of the Circular Gauge can be animated individually, not the axis lines, ticks, labels, ranges, and annotations. You can referÂ this [link](https://ej2.syncfusion.com/aspnetcore/documentation/circular-gauge/gauge-pointers#animation) to enable only pointer animation.
+> Only the pointer of the Circular Gauge can be animated individually, not the axis lines, ticks, labels, ranges, and annotations. You can refer this [link](https://ej2.syncfusion.com/aspnetcore/documentation/circular-gauge/gauge-pointers#animation) to enable only pointer animation.
 

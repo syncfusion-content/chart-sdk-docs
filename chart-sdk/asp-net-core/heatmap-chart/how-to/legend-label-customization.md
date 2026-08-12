@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# How to Customize Legend Label in ##Platform_Name## HeatMap Chart
+# How to Customize Legend Label in ASP.NET Core HeatMap Chart
 
 You can change the legend label using the `LegendRender` client-side event. You can also hide the legend label using this client-side event.
 

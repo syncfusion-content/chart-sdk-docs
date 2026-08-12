@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Populate Data in Syncfusion ASP.NET MVC Maps Component
+title: Populate Data in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Populate Data in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Populate Data
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Populate data
+# Populate Data in ASP.NET MVC Maps
 
 ## Geometry types
 

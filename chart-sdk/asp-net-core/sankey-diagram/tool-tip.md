@@ -10,9 +10,9 @@ documentation: ug
 
 # Tooltip in ASP.NET Core Sankey Diagram
 
-The Sankey Diagram provides tooltips that surface contextual details for hovered elements without cluttering the diagram. Tooltips display additional information when users hover over nodes or links in the Sankey Diagram. You can enable and customize tooltips using the `Tooltip` property.
+The Sankey Chart provides tooltips that surface contextual details for hovered elements without cluttering the diagram. Tooltips display additional information when users hover over nodes or links in the Sankey Chart. You can enable and customize tooltips using the `Tooltip` property.
 
-This guide outlines how to enable and customize tooltips in the ASP.NET Core Sankey Diagram.
+This guide outlines how to enable and customize tooltips in the ASP.NET Core Sankey Chart.
 
 ## Tooltip Settings Properties
 

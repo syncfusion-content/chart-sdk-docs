@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To in ASP.NET MVC Linear Gauge Component
+title: Render Linear gauges in ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about How To in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: How To
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# How To
+# How to render gauges in ASP.NET MVC Linear Gauge
 
 <!-- markdownlint-disable MD034 -->
 

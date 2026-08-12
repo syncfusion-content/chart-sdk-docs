@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Data Labels in ASP.NET MVC Sparkline Component
-description: Learn here all about Data Labels in Syncfusion ASP.NET MVC Sparkline component of Syncfusion Essential JS 2 and more.
+title: Data Labels in ASP.NET MVC Sparkline Charts | Syncfusion
+description: Learn here all about Data Labels in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Labels
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Data Labels
+# Data Labels in ASP.NET MVC Sparkline Charts
 
 Data labels are used to display values of data points to improve the readability.
 

@@ -10,13 +10,13 @@ documentation: ug
 
 # Orientation and RTL in ASP.NET Core Sankey Diagram
 
-The Sankey Diagram supports flexible layout options including horizontal and vertical orientations, as well as right-to-left (RTL) rendering for international applications. These features enable you to create localized and directionally appropriate visualizations.
+The Sankey Chart supports flexible layout options including horizontal and vertical orientations, as well as right-to-left (RTL) rendering for international applications. These features enable you to create localized and directionally appropriate visualizations.
 
 This guide covers orientation options and RTL configuration for different languages and reading directions.
 
 ## Orientation
 
-Control the layout direction of the Sankey Diagram using the `Orientation` property. The orientation determines how nodes are arranged and how links flow through the diagram.
+Control the layout direction of the Sankey Chart using the `Orientation` property. The orientation determines how nodes are arranged and how links flow through the diagram.
 
 ### Orientation Options
 
@@ -27,7 +27,7 @@ Control the layout direction of the Sankey Diagram using the `Orientation` prope
 
 ## Horizontal Orientation
 
-The default orientation displays nodes horizontally across the chart, with flows moving from left to right. This is the standard layout for most Sankey diagrams:
+The default orientation displays nodes horizontally across the chart, with flows moving from left to right. This is the standard layout for most Sankey Charts:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: State Persistence in Syncfusion ASP.NET MVC Maps Component
+title: State Persistence in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about State Persistence in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: State Persistence
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# State Persistence
+# State Persistence in ASP.NET MVC Maps
 
 ## State persistence
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Control Chart in ASP.NET MVC Chart Component
-description: Learn here all about Control Chart in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: How to create a control chart in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Control Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Control Chart
 publishingplatform: chart-sdk
@@ -10,7 +10,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Create a control chart
+# How to create a control chart in ASP.NET MVC Charts
 
 You can create a control chart (with UCL, CL, and LCL limits) using the stripline and annotation features.
 

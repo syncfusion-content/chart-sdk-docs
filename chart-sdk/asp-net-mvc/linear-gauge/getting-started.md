@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting Started with ASP.NET MVC Linear Gauge Control | Syncfusion
-description: Check out and learn about getting started with the ASP.NET MVC Linear Gauge control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET MVC Linear Gauge | Syncfusion
+description: Checkout and learn about getting started with ASP.NET MVC Linear Gauge control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
 publishingplatform: chart-sdk
@@ -10,7 +10,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Getting Started with the ASP.NET MVC Linear Gauge Control
+# Getting Started with ASP.NET MVC Linear Gauge
 
 This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET MVC Linear Gauge](https://www.syncfusion.com/aspnet-mvc-ui-controls/linear-gauge) control to an ASP.NET MVC 5 (.NET Framework) application using Visual Studio.
 

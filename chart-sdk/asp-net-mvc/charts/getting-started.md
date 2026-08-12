@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting Started with ASP.NET MVC Chart Control | Syncfusion
-description: Check out and learn about getting started with ASP.NET MVC Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET MVC Charts | Syncfusion
+description: Checkout and learn about getting started with ASP.NET MVC Charts control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Getting Started with the ASP.NET MVC Chart Control
+# Getting Started with ASP.NET MVC Charts
 
 This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET MVC Chart](https://www.syncfusion.com/aspnet-mvc-ui-controls/charts) control to your ASP.NET MVC application using Visual Studio.
 

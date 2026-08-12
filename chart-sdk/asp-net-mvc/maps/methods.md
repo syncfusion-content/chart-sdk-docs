@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Methods in Syncfusion ASP.NET MVC Maps Component
+title: Methods in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about the methods in the Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Maps
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Methods in ASP.NET MVC Maps component
+# Methods in ASP.NET MVC Maps
 
 ## Methods
 

@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Syncfusion Series Type in ASP.NET MVC Range Navigator Component
+title: Series Types in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about Series Type in Syncfusion ASP.NET MVC Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Series Type
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Range Navigator Series Types
+# Series Types in ASP.NET MVC Range Navigator
 
 To render the data, the Range Selector supports six types of series.
 

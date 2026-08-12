@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Appearance in Syncfusion ASP.NET MVC Heatmap Chart Component
+title: Appearance in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Appearance in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Appearance in ASP.NET MVC HeatMap Chart Component
+# Appearance in ASP.NET MVC HeatMap Chart
 
 ## Cell customization
 

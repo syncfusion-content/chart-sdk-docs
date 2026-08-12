@@ -10,7 +10,7 @@ documentation: ug
 
 # Events in ASP.NET Core Sankey Diagram
 
-The Sankey Diagram provides comprehensive events that allow you to customize behavior, respond to user interactions, and hook into the chart lifecycle. These events enable advanced customization scenarios including data transformation, analytics tracking, and dynamic UI updates.
+The Sankey Chart provides comprehensive events that allow you to customize behavior, respond to user interactions, and hook into the chart lifecycle. These events enable advanced customization scenarios including data transformation, analytics tracking, and dynamic UI updates.
 
 This guide covers lifecycle events, rendering events, interaction events, and export/print events.
 
@@ -41,7 +41,7 @@ This guide covers lifecycle events, rendering events, interaction events, and ex
 
 ### Load Event
 
-The `Load` event triggers before the Sankey Diagram begins rendering. Use this event to customize configuration, apply themes, or prepare data before the chart loads:
+The `Load` event triggers before the Sankey Chart begins rendering. Use this event to customize configuration, apply themes, or prepare data before the chart loads:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -54,7 +54,7 @@ The `Load` event triggers before the Sankey Diagram begins rendering. Use this e
 
 ### Loaded Event
 
-The `Loaded` event triggers after the Sankey Diagram is completely rendered and ready for interaction. Use this event to initialize calculations, perform analytics, or trigger dependent components:
+The `Loaded` event triggers after the Sankey Chart is completely rendered and ready for interaction. Use this event to initialize calculations, perform analytics, or trigger dependent components:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

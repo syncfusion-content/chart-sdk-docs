@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Data in ASP.NET MVC Range Navigator Component
+title: Data in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about Data in Syncfusion ASP.NET MVC Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Types of data
+# Data in ASP.NET MVC Range Navigator
 
 ## Numeric
 

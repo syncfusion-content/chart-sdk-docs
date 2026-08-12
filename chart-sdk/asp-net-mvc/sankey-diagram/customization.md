@@ -1,14 +1,14 @@
----
+﻿---
 layout: post
-title: Customization in ASP.NET MVC Sankey Chart Component
-description: Learn here all about Customization in Syncfusion ASP.NET MVC Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Customization in ASP.NET MVC Sankey Diagram | Syncfusion
+description: Learn here all about Customization in Syncfusion ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Customization
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Customization in ASP.NET MVC Sankey Chart component
+# Customization in ASP.NET MVC Sankey Diagram
 
 The Sankey Chart provides extensive customization options to create visualizations that match your specific design requirements and data presentation needs. From styling and theming to advanced visual techniques, the component enables complete control over appearance and behavior.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart Series in ASP.NET MVC Chart Component
-description: Learn here all about Chart Series in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Chart Series in Syncfusion ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Chart Series in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Series
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Chart Series in Chart Component
+# Chart Series in ASP.NET MVC Charts
 
 ## Multiple Series
 

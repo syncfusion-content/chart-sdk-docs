@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Annotation in ASP.NET MVC Accumulation Chart Component
-description: Learn here all about Annotation in Syncfusion ASP.NET MVC Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Annotation in ASP.NET MVC Accumulation Charts | Syncfusion
+description: Learn here all about Annotation in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Annotation
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Annotation
+# Annotation in ASP.NET MVC Accumulation Charts
 
 The annotations are used to mark the specific area of interest in the chart area with texts, shapes or images.
 

@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Layers in Syncfusion ASP.NET MVC Maps Component
+title: Layers in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Layers in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Layers
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Layers
+# Layers in ASP.NET MVC Maps
 
 The Maps component is rendered through [`Layers`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.Maps.html#Syncfusion_EJ2_Maps_Maps_Layers) and any number of layers can be added to the Maps.
 

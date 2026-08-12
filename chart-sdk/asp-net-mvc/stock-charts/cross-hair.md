@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Cross Hair in ASP.NET MVC Syncfusion Stock Chart Component
-description: Learn here all about Cross Hair in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Cross Hair in ASP.NET MVC Stock Charts | Syncfusion
+description: Learn here all about Cross Hair in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Cross Hair
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Add Crosshair
+# Cross Hair in ASP.NET MVC Stock Charts
 
 Crosshair has a vertical and horizontal line to view the value of the axis at mouse or touch position.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Last Value Label in ASP.NET MVC Syncfusion Chart Component
-description: Learn here all about Data Labels in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Last Value Label in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Data Labels in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Last value label
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Last value label in ASP.NET MVC Chart Control
+# Last Value Label in ASP.NET MVC Charts
 
 The `lastValueLabel` in a chart allows you to easily display the value of the last data point in a series. This feature provides an intuitive way to highlight the most recent or last data value in a series on your chart.
 

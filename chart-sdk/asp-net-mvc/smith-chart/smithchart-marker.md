@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Smithchart Marker in ASP.NET MVC Smithchart Component
-description: Learn here all about Smithchart Marker in Syncfusion ASP.NET MVC Smithchart component of Syncfusion Essential JS 2 and more.
+title: Marker and DataLabels in ASP.NET MVC Smith Chart | Syncfusion
+description: Learn here all about Smith Chart Marker in Syncfusion ASP.NET MVC Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Marker
 publishingplatform: chart-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Marker & Datalabels
+# Marker and Datalabels in ASP.NET MVC Smith Chart
 
 Markers and Datalabels are used to provide information about the data points in the series. You can add a shape to adorn each data point. By default marker and datalabel both are disabled in smithchart. You can enable both of them by setting visible property as true in marker and datalabel settings
 

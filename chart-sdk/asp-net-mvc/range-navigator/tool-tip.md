@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Tool Tip in ASP.NET MVC Range Navigator Component
+title: Tooltip in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about Tool Tip in Syncfusion ASP.NET MVC Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool Tip
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip
+# Tooltip in ASP.NET MVC Range Navigator
 
 <!-- markdownlint-disable MD036 -->
 

@@ -36,7 +36,7 @@ By default, tooltip is not visible. Enable the tooltip by setting [`enable`](htt
 
 <!-- markdownlint-disable MD013 -->
 
-By default, tooltip shows information of x and y value in points. In addition to that, you can show more information in tooltip. For example the formatÂ `${series.name} ${point.x}`Â shows series name and point x value.
+By default, tooltip shows information of x and y value in points. In addition to that, you can show more information in tooltip. For example the format `${series.name} ${point.x}` shows series name and point x value.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -51,7 +51,7 @@ By default, tooltip shows information of x and y value in points. In addition to
 
 ## Position the tooltip
 
-By default, the tooltip is positioned at the left side of the Stock Chart. You can move the tooltip along with the mouse by setting **Nearest** to the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockTooltipSettings.html#Syncfusion_EJ2_Charts_StockChartStockTooltipSettings_Position) property.
+By default, the tooltip is positioned at the left side of the Stock chart. You can move the tooltip along with the mouse by setting **Nearest** to the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockTooltipSettings.html#Syncfusion_EJ2_Charts_StockChartStockTooltipSettings_Position) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

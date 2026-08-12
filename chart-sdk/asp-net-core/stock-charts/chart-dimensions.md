@@ -13,7 +13,7 @@ documentation: ug
 
 ## Size for Container
 
-Chart can render to its container size.Â You can set the size via inline or CSS as demonstrated below.
+Chart can render to its container size. You can set the size via inline or CSS as demonstrated below.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -49,7 +49,7 @@ You can set the size of chart in pixel as demonstrated below.
 
 **In Percentage**
 
-By setting value in percentage,Â chart gets its dimension with respect to its container. For example, when the height is â€˜50%â€™, chart renders to half of the container height.
+By setting value in percentage, chart gets its dimension with respect to its container. For example, when the height is ‘50%’, chart renders to half of the container height.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -62,4 +62,4 @@ By setting value in percentage,Â chart gets its dimension with respect to its 
 
 
 
-N>Â When you do not specify the size, it takesÂ `450px`Â as the height and window size as its width.
+N> When you do not specify the size, it takes `450px` as the height and window size as its width.

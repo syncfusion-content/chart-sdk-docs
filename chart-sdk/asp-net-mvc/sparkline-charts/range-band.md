@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Range Band in ASP.NET MVC Sparkline Component
-description: Learn here all about Range Band in Syncfusion ASP.NET MVC Sparkline component of Syncfusion Essential JS 2 and more.
+title: Range Band in ASP.NET MVC Sparkline Charts | Syncfusion
+description: Learn here all about Range Band in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Range Band
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Range Band
+# Range Band in ASP.NET MVC Sparkline Charts
 
 This section explains how to customize the sparkline with multiple range bands.
 

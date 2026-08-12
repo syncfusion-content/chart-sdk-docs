@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Animation in ASP.NET MVC Circular Gauge component | Syncfusion
+title: Animation in ASP.NET MVC Circular Gauge | Syncfusion
 description: Learn here all about animation in the Syncfusion ASP.NET MVC Circular Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Circular Gauge
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Animation in Circular Gauge component
+# Animation in ASP.NET MVC Circular Gauge
 
 All of the elements in the Circular Gauge, such as the axis lines, ticks, labels, ranges, pointers, and annotations, can be animated sequentially by using the [AnimationDuration](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_AnimationDuration) property. The animation for the Circular Gauge is enabled when the `AnimationDuration` property is set to an appropriate value in milliseconds, providing a smooth rendering effect for the component. If the `AnimationDuration` property is set to **0**, which is the default value, the animation effect is disabled. If the animation is enabled, the component will behave in the following order.
 

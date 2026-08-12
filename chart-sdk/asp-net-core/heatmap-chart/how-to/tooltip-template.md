@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# How to Customize Tooltip as a template in ##Platform_Name## HeatMap Chart
+# How to Customize Tooltip as a template in ASP.NET Core HeatMap Chart
 
 You can show a tooltip as a table using the `template` property in `TooltipSettings`.
 

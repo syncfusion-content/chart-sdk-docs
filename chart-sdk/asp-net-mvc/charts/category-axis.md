@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Category Axis in ASP.NET MVC Chart Component
-description: Learn here all about Category Axis in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Category Axis in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Category Axis in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Category Axis
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Category Axis
+# Category Axis in ASP.NET MVC Charts
 
 <!-- markdownlint-disable MD036 -->
 

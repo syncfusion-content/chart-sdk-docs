@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Annotations in ASP.NET MVC Linear Gauge Component
+title: Annotations in ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about Annotations in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Annotations

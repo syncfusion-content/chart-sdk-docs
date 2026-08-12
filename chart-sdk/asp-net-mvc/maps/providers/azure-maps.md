@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Azure Maps in Syncfusion ASP.NET MVC Syncfusion Maps Component
+title: Azure Maps in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Azure Maps in the Syncfusion ASP.NET MVC Maps component and much more details.
 platform: chart-sdk
 control: Azure Maps
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Azure Maps in ASP.NET MVC Maps Component
+# Azure Maps in ASP.NET MVC Maps
 
 Azure Maps is yet another online Maps provider, owned by Microsoft. As like OSM and Bing Maps, it provides Maps tile images based on our requests and combines those images into a single one to display Maps area.
 

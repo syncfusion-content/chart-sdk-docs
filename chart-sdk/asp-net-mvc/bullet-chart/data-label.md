@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Label in ASP.NET MVC Bullet Chart Component
+title: Data Label in ASP.NET MVC Bullet Chart | Syncfusion
 description: Learn here all about Data Label in Syncfusion ASP.NET MVC Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Data label
+# Data Label in ASP.NET MVC Bullet Chart
 
 Data Labels are used to identify the value of actual bar in the Bullet Chart component. The Data Labels will be shown by specifying the [`DataLabel`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.BulletChart.html#Syncfusion_EJ2_Charts_BulletChart_DataLabel) setting's [`Enable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.BulletChartBulletDataLabel.html#Syncfusion_EJ2_Charts_BulletChartBulletDataLabel_Enable) property to **true**.
 

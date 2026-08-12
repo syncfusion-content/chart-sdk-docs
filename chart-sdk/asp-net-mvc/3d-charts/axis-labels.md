@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Axis labels in ASP.NET MVC 3D Chart Component
-description: Learn here all about axis labels in Syncfusion ASP.NET MVC 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Axis Labels in ASP.NET MVC 3D Charts | Syncfusion
+description: Learn here all about axis labels in Syncfusion ASP.NET MVC 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Labels
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Axis labels in ASP.NET MVC 3D Chart Component
+# Axis Labels in ASP.NET MVC 3D Charts
 
 Axis labels are the labels that are positioned adjacent to the y-axis and beneath the x-axis. It provides descriptive information about the axis.
 

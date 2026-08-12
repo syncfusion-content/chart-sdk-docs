@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pointers in Syncfusion ASP.NET MVC Linear Gauge Component
+title: Pointers in Syncfusion ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about Pointers in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pointers

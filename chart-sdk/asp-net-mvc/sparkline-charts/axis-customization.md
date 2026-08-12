@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Axis Customization in ASP.NET MVC Sparkline Component
-description: Learn here all about Axis Customization in Syncfusion ASP.NET MVC Sparkline component of Syncfusion Essential JS 2 and more.
+title: Axis Customization in ASP.NET MVC Sparkline Charts | Syncfusion
+description: Learn here all about Axis Customization in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Customization
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Axis Customization
+# Axis Customization in ASP.NET MVC Sparkline Charts
 
 You can customize axis value types and min and max values of the sparkline.
 

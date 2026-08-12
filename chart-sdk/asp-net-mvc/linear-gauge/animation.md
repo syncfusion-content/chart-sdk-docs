@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Animation in the Syncfusion ASP.NET MVC Linear Gauge component
+title: Animation in Syncfusion ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about animation in the Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Linear Gauge

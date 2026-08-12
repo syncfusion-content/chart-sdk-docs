@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Partial Chart in ASP.NET MVC Chart Component
-description: Learn here all about Partial Chart in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Partial Chart in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Partial Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Partial Chart
 publishingplatform: chart-sdk
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Render chart in partial view in ajax call
+# How to render a chart in a partial view in ASP.NET MVC Charts
 
 You can render the charts in partial view in ajax call by calling the partial view action method in ajax.
 

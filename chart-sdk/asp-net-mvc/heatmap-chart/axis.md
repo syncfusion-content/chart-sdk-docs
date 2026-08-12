@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Axis in Syncfusion ASP.NET MVC HeatMap Chart Component
+title: Axis in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about axis in Syncfusion ASP.NET MVC HeatMap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Axis in ASP.NET MVC HeatMap Chart Component
+# Axis in ASP.NET MVC HeatMap Chart
 
 HeatMap consists of two axes namely, X-axis and Y-axis that displays the row headers and column headers to plot the data points respectively. You can define the type, format, and other customizing options for both axes in the HeatMap.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Waterfall Chart in ASP.NET MVC Charts
+title: Waterfall Chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Waterfall Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Waterfall Chart

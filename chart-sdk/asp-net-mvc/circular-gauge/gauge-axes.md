@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gauge Axes in ASP.NET MVC Circular Gauge Control | Syncfusion
+title: Axes in ASP.NET MVC Circular Gauge | Syncfusion
 description: Learn here all about Gauge Axes in Syncfusion ASP.NET MVC Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge Axes
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Axes in Circular Gauge Control
+# Axes in ASP.NET MVC Circular Gauge
 
 By default, gauge will be displayed with an axis. Each axis contains its own ranges, pointers and annotation.
 

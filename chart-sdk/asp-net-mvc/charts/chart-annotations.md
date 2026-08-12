@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Chart Annotations in ASP.NET MVC Chart Component
-description: Learn here all about Chart Annotations in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Chart Annotations in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Chart Annotations in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Annotations
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Annotation
+# Chart Annotations in ASP.NET MVC Charts
 
 Annotations are used to mark the specific area of interest in the chart area with texts, shapes or images.
 

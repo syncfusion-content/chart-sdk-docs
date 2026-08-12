@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data Labels in ASP.NET MVC Syncfusion Chart Component
-description: Learn here all about Data Labels in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Data Labels in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Data Labels in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Labels
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Data Labels in ASP.NET MVC Chart
+# Data Labels in ASP.NET MVC Charts
 
 Data label can be added to a chart series by enabling the [`Visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Marker) option in the dataLabel. By default, the labels will arrange smartly without overlapping.
 

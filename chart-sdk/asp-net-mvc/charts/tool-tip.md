@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip in Syncfusion ASP.NET MVC Chart Component
-description: Learn here all about Tooltip in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Tooltip in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip in ASP.NET MVC Chart Component
+# Tooltip in ASP.NET MVC Charts
 
 <!-- markdownlint-disable MD036 -->
 

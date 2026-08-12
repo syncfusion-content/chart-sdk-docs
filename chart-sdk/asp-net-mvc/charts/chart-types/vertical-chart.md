@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vertical Chart in ASP.NET MVC Charts
+title: Vertical Chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Vertical Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Vertical Chart

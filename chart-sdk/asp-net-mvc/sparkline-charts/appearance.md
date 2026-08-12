@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Appearance in ASP.NET MVC Sparkline Component
-description: Learn here all about Appearance in Syncfusion ASP.NET MVC Sparkline component of Syncfusion Essential JS 2 and more.
+title: Appearance in ASP.NET MVC Sparkline Charts | Syncfusion
+description: Learn here all about Appearance in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Appearance
+# Appearance in ASP.NET MVC Sparkline Charts
 
 The appearance of the sparkline can be customized using margin, container Area border, and container Area background.
 

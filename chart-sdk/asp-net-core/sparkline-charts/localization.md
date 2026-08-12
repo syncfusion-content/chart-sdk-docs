@@ -11,7 +11,7 @@ documentation: ug
 
 # Localization in ASP.NET Core Sparkline Charts
 
-The Sparkline control supports localization. The default culture for localization is `en-US`. You can change the culture using the `setCulture` method.
+The sparkline control supports localization. The default culture for localization is `en-US`. You can change the culture using the `setCulture` method.
 
 ## Tooltip format
 

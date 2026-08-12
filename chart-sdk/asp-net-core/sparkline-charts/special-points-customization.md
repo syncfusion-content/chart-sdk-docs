@@ -28,7 +28,7 @@ You can customize the points by initializing the point colors. The customization
 
 **Tie point color**
 
-Tie point color is used to configure the win-loss series type Sparkline's y-value point color. The following code sample shows the tie point color of Sparkline series.
+Tie point color is used to configure the win-loss series type sparkline's y-value point color. The following code sample shows the tie point color of sparkline series.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

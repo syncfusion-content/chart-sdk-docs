@@ -58,7 +58,7 @@ The legend can be align as `Center`, `Far` or `Near` to the Stock Chart using [`
 
 ## Customization
 
-To change the legend icon shape, [`legendShape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries_LegendShape)Â property in theÂ [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries) can be used. By default legend icon shape isÂ `seriesType`.
+To change the legend icon shape, [`legendShape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries_LegendShape) property in the [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries) can be used. By default legend icon shape is `seriesType`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

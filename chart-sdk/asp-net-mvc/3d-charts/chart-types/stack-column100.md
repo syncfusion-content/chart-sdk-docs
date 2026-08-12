@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 100% Stacked column chart in ASP.NET MVC Syncfusion  3D Chart Component
-description: Learn here all about 100% stacked column chart in Syncfusion ASP.NET MVC 3D Chart component of Syncfusion Essential JS 2 and more.
+title: 100% Stacked Column in ASP.NET MVC 3D Charts | Syncfusion
+description: Learn here all about 100% stacked column chart in Syncfusion ASP.NET MVC 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: 100% Stacked column chart
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# 100% Stacked column chart in ASP.NET MVC 3D Chart Component
+# 100% Stacked Column in ASP.NET MVC 3D Charts
 
 ## 100% Stacked column chart
 

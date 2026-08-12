@@ -10,13 +10,13 @@ documentation: ug
 
 # Appearance in ASP.NET Core Sankey Diagram
 
-The Sankey Diagram provides comprehensive customization options to control visual appearance, dimensions, responsiveness, colors, borders, and themes. These appearance settings enable you to create diagrams that match your application's design system and user experience requirements.
+The Sankey Chart provides comprehensive customization options to control visual appearance, dimensions, responsiveness, colors, borders, and themes. These appearance settings enable you to create diagrams that match your application's design system and user experience requirements.
 
 This guide covers dimension configuration, responsive sizing, backgrounds, borders, margins, and theme selection.
 
 ## Dimensions
 
-Control the size of the Sankey Diagram using the `Width` and `Height` properties. You can specify dimensions in pixels (px) or percentages (%) to create fixed or responsive layouts.
+Control the size of the Sankey Chart using the `Width` and `Height` properties. You can specify dimensions in pixels (px) or percentages (%) to create fixed or responsive layouts.
 
 ### Width and Height Properties
 
@@ -50,7 +50,7 @@ Use percentage-based dimensions for responsive layouts that adapt to container s
 
 ## Background Customization
 
-Customize the background of the Sankey Diagram with solid colors or background images to match your application's theme or create specific visual effects.
+Customize the background of the Sankey Chart with solid colors or background images to match your application's theme or create specific visual effects.
 
 ### Background Properties
 
@@ -70,7 +70,7 @@ Customize the background of the Sankey Diagram with solid colors or background i
 
 ## Border Customization
 
-Customize the border of the Sankey Diagram container.
+Customize the border of the Sankey Chart container.
 
 ### Border Properties
 
@@ -114,7 +114,7 @@ Control the spacing around the chart content using margins.
 
 ## Theme
 
-The Sankey Diagram provides multiple built-in themes to customize the visual appearance. Apply a theme using the `Theme` property.
+The Sankey Chart provides multiple built-in themes to customize the visual appearance. Apply a theme using the `Theme` property.
 
 ### Theme Configuration
 

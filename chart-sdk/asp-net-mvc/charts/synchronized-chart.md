@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Synchronized Charts in ASP.NET MVC Chart Component
-description: Learn here all about Synchronized Charts in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Synchronized Charts in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Synchronized Charts in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Synchronized charts
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Synchronized charts in ASP.NET MVC Chart Component
+# Synchronized Charts in ASP.NET MVC Charts
 
 ## Tooltip synchronization
 

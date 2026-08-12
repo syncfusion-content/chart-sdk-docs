@@ -10,13 +10,13 @@ documentation: ug
 
 # Links in ASP.NET Core Sankey Diagram
 
-Links are the connecting paths that visualize flow between nodes in a Sankey Diagram. Each link connects a source node to a target node and carries a quantitative value that determines its visual thickness. The Sankey Diagram provides comprehensive customization options for link styling, colors, curvature, and interactions.
+Links are the connecting paths that visualize flow between nodes in a Sankey Chart. Each link connects a source node to a target node and carries a quantitative value that determines its visual thickness. The Sankey Chart provides comprehensive customization options for link styling, colors, curvature, and interactions.
 
 This guide covers link customization including appearance properties, color blending, curvature control, and dynamic rendering events.
 
 ## Link Style Properties
 
-The `LinkStyle` property allows you to customize the visual appearance of all links in the Sankey Diagram. These properties control opacity, highlighting behavior, curvature, and color blending.
+The `LinkStyle` property allows you to customize the visual appearance of all links in the Sankey Chart. These properties control opacity, highlighting behavior, curvature, and color blending.
 
 ### Link Style Configuration Properties
 

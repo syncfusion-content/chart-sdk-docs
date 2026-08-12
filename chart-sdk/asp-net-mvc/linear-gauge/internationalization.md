@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Internationalization in ASP.NET MVC Linear Gauge Component
+title: Internationalization in ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about Internationalization in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization
@@ -16,7 +16,7 @@ Globalization is the process of designing and developing a component that works 
 * Axis label
 * Tooltip
 
-The static text on above features can be changed to any culture such as Arabic, Deutsch and French. To know more about the globalization in ASP.NET MVC components, refer [here](https://ej2.syncfusion.com/aspnetmvc/documentation/common/internationalization/).
+The static text on above features can be changed to any culture such as Arabic, Deutsch and French. To know more about the globalization in ASP.NET MVC components, refer [here](https://ej2.syncfusion.com/aspnetmvc/documentation/common/internationalization).
 
 ## Numeric Format
 

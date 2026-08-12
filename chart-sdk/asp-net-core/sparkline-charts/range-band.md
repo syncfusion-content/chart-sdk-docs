@@ -11,7 +11,7 @@ documentation: ug
 
 # Range Band in ASP.NET Core Sparkline Charts
 
-This section explains how to customize the Sparkline with multiple range bands.
+This section explains how to customize the sparkline with multiple range bands.
 
 ## Range band customization
 
@@ -29,7 +29,7 @@ The range band feature is used to highlight a particular range along with the y-
 
 ## Multiple range band customization
 
-You can define multiple range bands to a Sparkline as shown in the following code sample.
+You can define multiple range bands to a sparkline as shown in the following code sample.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

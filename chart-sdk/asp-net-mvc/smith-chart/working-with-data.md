@@ -1,15 +1,15 @@
----
+﻿---
 layout: post
-title: Working With Data in ASP.NET MVC Smithchart Component
-description: Learn here all about Working With Data in Syncfusion ASP.NET MVC Smithchart component of Syncfusion Essential JS 2 and more.
+title: Working with Data in ASP.NET MVC Smith Chart | Syncfusion
+description: Learn here all about Working With Data in Syncfusion ASP.NET MVC Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Working With Data
+control: Working with Data
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Working with Data
+# Working with Data in ASP.NET MVC Smith Chart
 
 Smithchart can visualise the data bound from local data. The data you bind for the smithchart, should be an array of object and that should contain the field resistance and rectangle. This should be bind to points or datasource in the smithchart.
 

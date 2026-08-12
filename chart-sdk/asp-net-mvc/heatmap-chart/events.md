@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Events in Syncfusion ASP.NET MVC HeatMap Chart Component
+title: Events in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Events in Syncfusion ASP.NET MVC HeatMap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Events
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Events in ASP.NET MVC HeatMap Chart Component
+# Events in ASP.NET MVC HeatMap Chart
 
 This section describes the HeatMap chart event, which occurs when the required actions are performed.
 

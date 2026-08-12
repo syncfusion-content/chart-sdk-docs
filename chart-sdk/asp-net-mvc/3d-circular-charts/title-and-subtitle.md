@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Title and subtitle in ASP.NET MVC Syncfusion 3D Circular Chart Component
-description: Learn here all about title and subtitle in Syncfusion ASP.NET MVC 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in ASP.NET MVC 3D Circular Charts | Syncfusion
+description: Learn here all about title and subtitle in Syncfusion ASP.NET MVC 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title and subtitle
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Title and subtitle in ASP.NET MVC 3D Circular Chart Component
+# Title and Subtitle in ASP.NET MVC 3D Circular Charts
 
 ## Title
 

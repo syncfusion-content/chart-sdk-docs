@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Center Label in Syncfusion ASP.NET MVC Accumulation Chart
-description: Learn here all about Center Label in Syncfusion ASP.NET MVC Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Center Label in ASP.NET MVC Accumulation Charts | Syncfusion
+description: Learn here all about Center Label in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Center Label
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Center label in ASP.NET MVC Accumulation Chart Component
+# Center Label in ASP.NET MVC Accumulation Charts
 
 ## Center label
 

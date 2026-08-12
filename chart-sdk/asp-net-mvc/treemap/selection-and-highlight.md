@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Selection And Highlight in ASP.NET MVC Treemap Component
-description: Learn here all about Selection And Highlight in Syncfusion ASP.NET MVC Treemap component of Syncfusion Essential JS 2 and more.
+title: Selection and Highlight in ASP.NET MVC TreeMap | Syncfusion
+description: Learn here all about Selection and Highlight in Syncfusion ASP.NET MVC Treemap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Selection And Highlight
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Selection and Highlight
+# Selection and Highlight in ASP.NET MVC TreeMap
 
 ## Selection
 

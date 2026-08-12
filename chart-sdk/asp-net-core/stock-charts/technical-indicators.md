@@ -83,9 +83,9 @@ The StockChart component supports **indicator lifecycle events**, allowing you t
 
 The following indicator events are supported by the StockChart component:
 
-- **`beforeIndicatorChange`** â€“ Fired before an indicator is added or removed. This event allows you to review the requested action in advance and cancel it by setting `cancel` to `true`.
+- **`beforeIndicatorChange`** – Fired before an indicator is added or removed. This event allows you to review the requested action in advance and cancel it by setting `cancel` to `true`.
 
-- **`indicatorChanged`** â€“ Fired after an indicator has been added or removed successfully. This event occurs only if the action was not canceled and can be used to handle the updated state in your application.
+- **`indicatorChanged`** – Fired after an indicator has been added or removed successfully. This event occurs only if the action was not canceled and can be used to handle the updated state in your application.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

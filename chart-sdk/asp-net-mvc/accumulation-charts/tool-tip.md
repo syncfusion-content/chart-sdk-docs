@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tool Tip in ASP.NET MVC Syncfusion Accumulation Chart Component
-description: Learn here all about Tool Tip in Syncfusion ASP.NET MVC Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET MVC Accumulation Charts | Syncfusion
+description: Learn here all about Tool Tip in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool Tip
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip in ASP.NET MVC Accumulation chart component
+# Tooltip in ASP.NET MVC Accumulation Charts
 
 Tooltip for the accumulation chart can be enabled by using the [`Enable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_Enable) property.
 

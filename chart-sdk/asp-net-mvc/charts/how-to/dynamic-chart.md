@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dynamic Chart in ASP.NET MVC Chart Component
-description: Learn here all about Dynamic Chart in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: How to add a chart dynamically in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Dynamic Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dynamic Chart
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# To add chart dynamically
+# How to add a chart dynamically in ASP.NET MVC Charts
 
 By using html button, you can add the chart dynamically by clicking the button.
 

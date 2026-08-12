@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Column chart in ASP.NET MVC Syncfusion 3D Chart Component
-description: Learn here all about column chart in Syncfusion ASP.NET MVC 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Column in ASP.NET MVC 3D Charts | Syncfusion
+description: Learn here all about column chart in Syncfusion ASP.NET MVC 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Column chart
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Column chart in ASP.NET MVC 3D Chart Component
+# Column in ASP.NET MVC 3D Charts
 
 ## Column chart
 
@@ -81,8 +81,8 @@ The following properties can be used to customize the [`Column`](https://help.sy
 
 The following properties can be used to customize the `column` series.
 
-* [fill](../../api/chart3d/series3DModel/#fill) – Specifies the color of the series.
-* [opacity](../../api/chart3d/series3DModel/#opacity) – Specifies the opacity of the [fill](../../api/chart3d/series3DModel/#fill) color.
+* [fill](../../api/chart3d/series3DModel#fill) – Specifies the color of the series.
+* [opacity](../../api/chart3d/series3DModel#opacity) – Specifies the opacity of the [fill](../../api/chart3d/series3DModel#fill) color.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

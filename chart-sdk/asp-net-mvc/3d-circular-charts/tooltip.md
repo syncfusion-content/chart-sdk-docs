@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip in ASP.NET MVC Syncfusion 3D Circular Chart Component
-description: Learn here all about tooltip in Syncfusion ASP.NET MVC 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET MVC 3D Circular Charts | Syncfusion
+description: Learn here all about tooltip in Syncfusion ASP.NET MVC 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Tooltip in ASP.NET MVC 3D Circular Chart component
+# Tooltip in ASP.NET MVC 3D Circular Charts
 
 The 3D Circular Chart will display details about the points through a tooltip, when the mouse is moved over a specific point. By default, the tooltip is not visible. It can be enabled by using the `Enable` property in `Tooltip` to **true**.
 

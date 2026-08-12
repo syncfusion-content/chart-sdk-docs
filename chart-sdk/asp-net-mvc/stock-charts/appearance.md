@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Appearance in ASP.NET MVC Stock Chart Component
-description: Learn here all about Appearance in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Appearance in ASP.NET MVC Stock Charts | Syncfusion
+description: Learn here all about Appearance in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Appearance
+# Appearance in ASP.NET MVC Stock Charts
 
 ## Stock Chart Title
 
@@ -62,4 +62,4 @@ Changing theme will affect background color,gridlines,tooltip colors and appeara
 
 ## See Also
 
-* [Axis Customization](./axis-customization/)
+* [Axis Customization](./axis-customization)

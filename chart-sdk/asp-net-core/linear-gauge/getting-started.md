@@ -90,7 +90,7 @@ Add the [ASP.NET Core Linear Gauge](https://www.syncfusion.com/aspnet-core-ui-co
 
 ## Run the application
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Linear Gauge](https://www.syncfusion.com/aspnet-core-ui-controls/linear-gauge) will render in your default web browser
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Linear Gauge](https://www.syncfusion.com/aspnet-core-ui-controls/linear-gauge) will render in your default web browser.
 
 ![ASP.NET Core Linear Gauge Control](images/lineargauge-control.webp)
 

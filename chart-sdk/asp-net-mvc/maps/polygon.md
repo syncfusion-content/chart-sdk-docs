@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Polygon in Syncfusion ASP.NET MVC Maps component
+title: Polygon in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Polygon in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Polygon
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Polygon shape in ASP.NET MVC Maps component
+# Polygon shape in ASP.NET MVC Maps
 
 The Maps component allows you to add polygon shape to a geometry map or an online map by using the properties in the [Polygons](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsPolygonSettings.html#Syncfusion_EJ2_Maps_MapsPolygonSettings_Polygons). This section describes how to add polygon shape to the map and customize them.
 
@@ -65,7 +65,7 @@ The following properties are available in the [TooltipSettings](https://help.syn
 
 ### Tooltip template
 
-Any HTML element can be rendered in the tooltip of the polygon shapes using the [TooltipTemplate](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsPolygon.html#Syncfusion_EJ2_Maps_MapsPolygon_TooltipTemplate) property of the `Polygons`. If you add 'n' numbers of polygon shapes, you can add the `TooltipTemplate` property to each polygon, which will display the tooltip for the associated polygon shape.
+Any HTML element can be rendered in the tooltip of the polygon shapes using the [TooltipTemplate](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsPolygon.html#Syncfusion_EJ2_Maps_MapsPolygon_TooltipTemplate) property of theÂ `Polygons`. If you add 'n' numbers of polygon shapes, you can add the `TooltipTemplate`Â property to each polygon, which will display the tooltip for the associated polygon shape.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Add Remove in ASP.NET MVC Chart Component
-description: Learn here all about Add Remove in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Add or remove series in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Add or Remove series in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Add Remove
+control: Add or Remove
 publishingplatform: chart-sdk
 documentation: ug
 ---
@@ -11,7 +11,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-# Add or remove a series from the chart dynamically
+# How to add or remove a series dynamically in ASP.NET MVC Charts
 
 You can add or remove the chart series dynamically by using the `addSeries` or `removeSeries` method.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tooltip in ASP.NET MVC Syncfusion 3D Chart Component
-description: Learn here all about tooltip in Syncfusion ASP.NET MVC 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET MVC 3D Charts | Syncfusion
+description: Learn here all about tooltip in Syncfusion ASP.NET MVC 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Tooltip in ASP.NET MVC 3D Chart Component
+# Tooltip in ASP.NET MVC 3D Charts
 
 The 3D Chart will display details about the points through tooltip, when the mouse is moved over the specific point.
 

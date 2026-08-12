@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with ASP.NET MVC Circular Gauge | Syncfusion
-description: Check out and learn about getting started with the ASP.NET MVC Circular Gauge control of Syncfusion Essential JS 2 and more details.
+description: Checkout and learn about getting started with ASP.NET MVC Circular Gauge component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
 publishingplatform: chart-sdl
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Getting Started with the ASP.NET MVC Circular Gauge Control
+# Getting Started with ASP.NET MVC Circular Gauge
 
 This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET MVC Circular Gauge](https://www.syncfusion.com/aspnet-mvc-ui-controls/circular-gauge) control to an ASP.NET MVC 5 (.NET Framework) application using Visual Studio.
 

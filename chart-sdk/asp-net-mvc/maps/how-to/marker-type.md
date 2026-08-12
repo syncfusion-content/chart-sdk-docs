@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Marker Type in Syncfusion ASP.NET MVC Maps Component
+title: How to add marker types in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Marker Type in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Marker Type
@@ -8,7 +8,7 @@ publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Marker types in ASP.NET MVC Maps Component
+# How to add marker types in ASP.NET MVC Maps
 
 ## Add different types of markers
 

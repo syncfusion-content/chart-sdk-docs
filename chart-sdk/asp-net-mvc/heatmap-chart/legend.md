@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Legend in Syncfusion ASP.NET MVC Heatmap Chart Component
+title: Legend in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Legend in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Legend in ASP.NET MVC HeatMap Chart Component
+# Legend in ASP.NET MVC HeatMap Chart
 
 The legend is used to provide the information about the heat map cell. You can enable the legend by setting the [visible](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.HeatMap.HeatMapLegendSettings~Visible.html) property to **true**.
 

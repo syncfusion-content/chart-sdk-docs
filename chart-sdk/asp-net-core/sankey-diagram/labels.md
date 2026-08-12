@@ -10,7 +10,7 @@ documentation: ug
 
 # Labels in ASP.NET Core Sankey Diagram
 
-Labels display descriptive text associated with nodes in the Sankey Diagram, making the diagram more understandable and interpretable. The Sankey Diagram provides comprehensive label customization options including visibility control, font styling, individual label configuration, and dynamic rendering events.
+Labels display descriptive text associated with nodes in the Sankey Chart, making the diagram more understandable and interpretable. The Sankey Chart provides comprehensive label customization options including visibility control, font styling, individual label configuration, and dynamic rendering events.
 
 This guide covers label appearance configuration, visibility control, font styling, and advanced label customization.
 

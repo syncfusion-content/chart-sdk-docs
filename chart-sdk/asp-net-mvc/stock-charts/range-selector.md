@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
-title: Range Selector in ASP.NET MVC Stock Chart Component
-description: Learn here all about Range Selector in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
+title: Range Selector in ASP.NET MVC Stock Charts | Syncfusion
+description: Learn here all about Range Selector in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Range Selector
 publishingplatform: chart-sdk
@@ -9,11 +9,11 @@ documentation: ug
 ---
 
 
-# Range selector
+# Range Selector in ASP.NET MVC Stock Charts
 
 The period selector allows to select a range with specified periods. By default the period selector is enabled in stock chart.
 
-# Selecting Range
+## Selecting Range
 
 The left and right thumb of RangeNavigator are used to indicate the selected range in the large collection of data. Following are the ways you can select a range.
 

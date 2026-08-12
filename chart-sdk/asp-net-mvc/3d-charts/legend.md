@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend in ASP.NET MVC Syncfusion 3D Chart Component
-description: Learn here all about legend in Syncfusion ASP.NET MVC 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in ASP.NET MVC 3D Charts | Syncfusion
+description: Learn here all about legend in Syncfusion ASP.NET MVC 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Legend in ASP.NET MVC 3D Chart Component
+# Legend in ASP.NET MVC 3D Charts
 
 Legend provides information about the series rendered in the 3D chart.
 

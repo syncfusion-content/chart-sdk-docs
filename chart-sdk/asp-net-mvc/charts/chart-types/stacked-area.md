@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stacked Area Chart in ASP.NET MVC Charts
+title: Stacked Area Chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Stacked Area Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stacked Area Chart

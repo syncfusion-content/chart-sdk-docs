@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Axis Customization in ASP.NET MVC Syncfusion Chart Component
-description: Learn here all about Axis Customization in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Axis Customization in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Axis Customization in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Customization
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 ---
 
 
-# Axis Customization in ASP.NET MVC Chart Component
+# Axis Customization in ASP.NET MVC Charts
 
 ## Axis Crossing
 
