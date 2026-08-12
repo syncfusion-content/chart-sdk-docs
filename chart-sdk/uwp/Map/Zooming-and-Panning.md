@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Zooming and Panning in UWP Map control | Syncfusion
-description: Learn here all about Zooming and Panning support in Syncfusion UWP Map (SfMaps) control and more.
+title: Zooming and Panning in UWP Maps | Syncfusion®
+description: Zooming and panning in the UWP Maps enable interactive navigation using gestures, mouse actions, zoom levels, and programmatic controls.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
