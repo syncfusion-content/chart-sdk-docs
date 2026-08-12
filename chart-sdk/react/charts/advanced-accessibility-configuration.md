@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Accessibility customization in React Chart component | Syncfusion
-description: Learn here all about Accessibility customization in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Accessibility Customization in React Charts | Syncfusion
+description: Learn how to customize accessibility in Syncfusion React Charts with descriptions, roles, focus borders, and tab order for chart elements, series, title, and legend.
 control: Accessibility customization
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility customization in React Chart component
+# Accessibility Customization in React Charts
 
 The [React Charts](https://www.syncfusion.com/react-components/react-charts) component visualizes data graphically and provides accessibility customization options to improve usability for people with disabilities. The primary accessibility attributes are described in this section.
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Smithchart legend in React Smithchart component | Syncfusion
-description: Learn here all about Smithchart legend in Syncfusion React Smithchart component of Syncfusion Essential JS 2 and more.
-control: Smithchart legend 
+title: Legend in React Smith Chart | Syncfusion
+description: Add and customize legends in the React Smith Chart with position, alignment, custom coordinates, shape, size, padding, and toggle visibility.
+control: Smithchart legend
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Smithchart legend in React Smithchart component
+# Legend in React Smith Chart
 
 Legend is a key used in smithchart; it contains symbols and descriptions. The legends provide a valuable information for interpreting what the Smith chart displays. They can be represented in various colors, shapes, or other identifiers based on the data. The legends are used to denote the series rendered in the Smith chart.
 

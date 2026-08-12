@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data editing in React Chart component | Syncfusion
-description: Learn here all about Data editing in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Data Editing in React Charts | Syncfusion
+description: Learn how to enable interactive data editing in Syncfusion React Charts so users can drag and drop chart points to update values within a configured range.
 control: Data editing 
 platform: chart-sdk
 documentation: ug
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Data editing in React Chart component
+# Data Editing in React Charts
 
 ## Enable Data Editing
 

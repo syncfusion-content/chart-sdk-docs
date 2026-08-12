@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Title and subtitle in React 3D Circular Chart component | Syncfusion
-description: Learn here all about title and subtitle in Syncfusion React 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in React 3D Circular Charts | Syncfusion
+description: Learn how to add and customize a title and subtitle for the Syncfusion React 3D Circular Charts using text, alignment, and style options.
 control: Title and subtitle
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and subtitle in React 3D Circular Chart component
+# Title and Subtitle in React 3D Circular Charts
 
 ## Title
 

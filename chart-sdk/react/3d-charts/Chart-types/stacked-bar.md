@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 100% Stacked Bar Chart in React 3D Chart component | Syncfusion
-description: Learn here all about 100% stacked bar chart in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart
+title: 100% Stacked Bar Chart in React 3D Charts | Syncfusion
+description: Learn how to render a 100% stacked 3D bar chart in Syncfusion React 3D Charts to show the relative share of each category as a full horizontal bar.
+control: Stack Bar Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# 100% Stacked bar chart in React 3D Chart control
+# 100% Stacked Bar Chart in React 3D Charts
 
 ## 100% Stacked bar chart
 

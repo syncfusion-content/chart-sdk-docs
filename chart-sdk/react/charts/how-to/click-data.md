@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Click data in React Chart component | Syncfusion
-description: Learn here all about Click data in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to handle point click in React Charts | Syncfusion
+description: Learn how to handle point-click events on Syncfusion React Charts and read the clicked data point values in your app.
 control: Click data 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Click data in React Chart component
+# How to handle point click in React Charts
 
 By using the [`pointClick`](https://ej2.syncfusion.com/react/documentation/api/chart#pointclick) event, you can get the chart data of clicked area.
 

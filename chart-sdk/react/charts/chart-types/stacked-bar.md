@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 100% Stacked Bar Chart in React Charts | Syncfusion
-description: Learn here all about 100% Stacked Bar Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind 100% Stacked Bar series in Syncfusion React Charts to compare proportional segment contributions across categories.
 control: 100% Stacked Bar chart 
 platform: chart-sdk
 documentation: ug

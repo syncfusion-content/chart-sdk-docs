@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pareto Chart in React Charts | Syncfusion
-description: Learn here all about Pareto in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind Pareto series in Syncfusion React Charts to show cumulative contributions via a combined column and line chart.
 control: Pareto
 platform: chart-sdk
 documentation: ug

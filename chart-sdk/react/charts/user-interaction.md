@@ -1,7 +1,7 @@
 ---
 layout: post
-title: User interaction in React Chart component | Syncfusion
-description: Learn here all about User interaction in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: User interaction in React Charts | Syncfusion
+description: Learn how Syncfusion React Charts respond to user interactions including tooltips, zooming, panning, crosshair, trackball, selection, and data editing.
 control: User interaction 
 platform: chart-sdk
 documentation: ug
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# User interaction in React Chart component
+# User interaction in React Charts
 
 ## Tooltip
 

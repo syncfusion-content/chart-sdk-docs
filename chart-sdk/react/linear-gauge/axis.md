@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis in React Linear gauge component | Syncfusion
-description: Learn here all about Axis in Syncfusion React Linear gauge component of Syncfusion Essential JS 2 and more.
+title: Axis in React Linear Gauge | Syncfusion
+description: Customize the React Linear Gauge axis with formatted labels, major and minor ticks, range start and end values, and label positioning.
 control: Axis 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis in React Linear gauge component
+# Axis in React Linear Gauge
 
 <!-- markdownlint-disable MD013 -->
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Financial types in React Chart component | Syncfusion
-description: Learn here all about Financial types in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Financial Types in React Charts | Syncfusion
+description: Learn how to render Hilo, candle, and Hilo Open-Close financial chart types in Syncfusion React Charts for market data visualization.
 control: Financial types 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Financial types in React Chart component
+# Financial Types in React Charts
 
 Financial charts are used to illustrate the movements in the price of a financial instrument over time.
 

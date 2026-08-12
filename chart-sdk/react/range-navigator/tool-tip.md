@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tool tip in React Range navigator component | Syncfusion
-description: Learn here all about Tool tip in Syncfusion React Range navigator component of Syncfusion Essential JS 2 and more.
-control: Tool tip 
+title: Tooltip in React Range Navigator | Syncfusion
+description: Learn how to enable and customize tooltips on the Syncfusion React Range Navigator Component with format, display mode, and template options.
+control: Tooltip 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip in React Range navigator component
+# Tooltip in React Range Navigator
 
 <!-- markdownlint-disable MD036 -->
 
