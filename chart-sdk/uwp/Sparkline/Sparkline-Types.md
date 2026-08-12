@@ -9,7 +9,6 @@ documentation: ug
 
 # Sparkline Types in UWP Sparkline
 
-
 ## Line Sparkline
 
 Line sparkline is rendered using a polyline and the following code is used to create a line sparkline.

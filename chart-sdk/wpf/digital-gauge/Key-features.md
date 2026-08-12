@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Key Features in WPF Digital Gauge control | Syncfusion
-description: Learn here all about Key Features support in Syncfusion WPF Digital Gauge (SfDigitalGauge) control and more.
+title: Key Features in WPF Digital Gauge | Syncfusion®
+description: Key features in the WPF Digital Gauge include customizable digital displays, segment styling, and flexible value presentation.
 platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
