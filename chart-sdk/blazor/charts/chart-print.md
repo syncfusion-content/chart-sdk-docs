@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Blazor Charts Print and Export Examples | Syncfusion®
-description: Learn how to print and export Blazor Charts using Syncfusion. Use PrintAsync for browser printing and export to image, SVG, or PDF.
-platform: Blazor
-control: Charts
+title: Print and Export in Blazor Charts Component | Syncfusion®
+description: Checkout and learn here all the features about Print and Export in Blazor Charts component and much more.
+platform: chart-sdk
+control: Chart
 documentation: ug
 ---
 
-# Blazor Charts Print and Export
+# Print and Export in Blazor Charts Component
 
 ## Print
 
@@ -482,9 +482,9 @@ In the code example below, the chart is exported to Excel format. The exported E
 }
 
 ```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VjrdtRCVoMLHBfGP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BNrStfNGMaalzwin?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=bootstrap5) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
 
 ## See Also
 

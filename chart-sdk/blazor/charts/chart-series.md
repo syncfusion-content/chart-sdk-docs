@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Blazor Charts Mixed Series Examples | Syncfusion®
-description: Learn how to combine multiple chart types in Syncfusion Blazor Charts. Add several ChartSeries entries to render in declaration order.
-platform: Blazor
-control: Charts
+title: Mixed Chart in Blazor Charts Component | Syncfusion®
+description: Checkout and learn here all the features about the Mixed Chart in Blazor Charts component and much more.
+platform: chart-sdk
+control: Chart
 documentation: ug
 ---
 
-# Blazor Charts Mixed Series
+# Mixed Chart in Blazor Charts Component
 
 ## Multiple chart series
 
@@ -115,7 +115,7 @@ N> Bar series cannot be combined with any other series as the axis orientation i
 
 ![Displaying Combination of Blazor Chart](images/multiple-series/blazor-chart-combination.webp)
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=bootstrap5) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
 
 ## See also
 

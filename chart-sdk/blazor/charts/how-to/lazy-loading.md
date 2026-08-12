@@ -1,13 +1,13 @@
 ---
 layout: post
-title: How to Enable Lazy Loading in Blazor Charts | Syncfusion®
-description: Learn how to enable lazy loading in Blazor Charts using Syncfusion. Use the OnScrollChanged event to fetch data on demand for the visible range.
-platform: Blazor
-control: Charts
+title: Lazy Loading in Blazor Charts Component | Syncfusion®
+description: Checkout and Checkout and learn here all the features about Lazy Loading in Blazor Charts component and much more.
+platform: chart-sdk
+control: Chart
 documentation: ug
 ---
 
-# How to Enable Lazy Loading in Blazor Charts
+# Lazy Loading in Blazor Charts Component
 
 The lazy loading loads data for the chart on demand. The  [OnScrollChanged](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_OnScrollChanged) event will be fired by the chart, allowing us to get the minimum and maximum ranges of the axes and then upload the data to the chart.
 
@@ -98,10 +98,10 @@ else
 
 ### Line 
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDLdtnWLeifIjcYa?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[LazyLoad Column](../images/lazyload-column.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjVpZhLxzguqSeHM?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[LazyLoad Column](../images/lazyload-column.png)" %}
 
 ### Column 
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VZBHjdMLyiSjFBzI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZrTXBLdpqQSSsSy?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=bootstrap5) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.

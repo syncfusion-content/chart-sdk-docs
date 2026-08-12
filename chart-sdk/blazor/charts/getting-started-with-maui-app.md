@@ -1,49 +1,46 @@
 ---
 layout: post
-title: Getting Started with Blazor Charts in MAUI App | Syncfusion®
-description: Learn how to get started with Syncfusion Blazor Charts in a Blazor MAUI hybrid app. Explore setup, packages, and first chart example.
-platform: Blazor
-control: Charts
+title: Getting Started with Chart Component in Blazor MAUI App | Syncfusion®
+description: Checkout and learn about the documentation for getting started with Blazor Chart Component in Blazor MAUI App.
+platform: chart-sdk
+control: Chart
 documentation: ug
 ---
 
-# Getting Started with Blazor Charts in MAUI App
+# Getting Started with Blazor Chart Component in Blazor MAUI App
 
-This section explains the step-by-step process of integrating the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-Charts) component in your Blazor MAUI App using both [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section explains the step-by-step process of integrating the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) component in your Blazor MAUI App using both [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/).
 
-> **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Code Studio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
-
-## Create a new MAUI Blazor Hybrid App
+> **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, CodeStudio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
 {% tabcontents %}
 
 {% tabcontent Visual Studio %}
 
-Create a Blazor MAUI App using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/tutorials/maui?view=aspnetcore-10.0). For detailed instructions, refer to the [Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
+## Prerequisites
+
+To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio. For more details, refer to [here](https://learn.microsoft.com/en-us/dotnet/MAUI/get-started/installation?tabs=vswin) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
+
+## Create a new Blazor MAUI App in Visual Studio
+
+Create a Blazor MAUI App using Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=vswin). For detailed instructions, refer to the [Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
 
 {% endtabcontent %}
 
 {% tabcontent Visual Studio Code %}
 
-Run the following command to create a new MAUI Blazor Hybrid App.
+## Prerequisites
+
+To use the MAUI project templates, install the Mobile development with the .NET extension for Visual Studio Code. For more details, refer to [here](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project).
+
+## Create a new Blazor MAUI App in Visual Studio Code
+
+Create a Blazor MAUI App using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-9.0&tabs=visual-studio-code) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project). For detailed instructions, refer to the [Blazor MAUI App Getting Started](https://blazor.syncfusion.com/documentation/getting-started/maui-blazor-app) documentation.
+
+Alternatively, create a MAUI application by using the following command in the integrated terminal (<kbd>Ctrl</kbd>+<kbd>`</kbd>).
 
 {% tabs %}
-{% highlight razor tabtitle="Terminal" %}
-
-dotnet new maui-blazor -o MauiBlazorApp
-cd MauiBlazorApp
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% tabcontent .NET CLI %}
-
-Run the following command to create a new MAUI Blazor Hybrid App.
-
-{% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
+{% highlight c# tabtitle="Blazor MAUI App" %}
 
 dotnet new maui-blazor -o MauiBlazorApp
 cd MauiBlazorApp
@@ -55,81 +52,47 @@ cd MauiBlazorApp
 
 {% endtabcontents %}
 
-## Install the required Blazor package
+## Install required Blazor packages
 
-Install the [Syncfusion.Blazor.Charts](https://www.nuget.org/packages/Syncfusion.Blazor.Charts/) NuGet package. All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
+Install the [Syncfusion.Blazor.Charts](https://www.nuget.org/packages/Syncfusion.Blazor.Charts/) NuGet package in your project using the NuGet Package Manager in Visual Studio (*Tools → NuGet Package Manager → Manage NuGet Packages for Solution*), or the integrated terminal in Visual Studio Code (dotnet add package Syncfusion.Blazor.Charts --version {{ site.releaseversion }}).
 
-{% tabcontents %}
-
-{% tabcontent Visual Studio %}
-
-1. Go to *Tools → NuGet Package Manager → Manage NuGet Packages for Solution*.
-2. Search the required NuGet package (`Syncfusion.Blazor.Charts`) and install it.
-
-Alternatively, you can install the same package using the Package Manager Console with the following command.
+Alternatively, run the following command in the Package Manager Console to achieve the same.
 
 {% tabs %}
-{% highlight razor tabtitle="Package Manager Console" %}
+{% highlight C# tabtitle="Package Manager" %}
 
 Install-Package Syncfusion.Blazor.Charts -Version {{ site.releaseversion }}
 
 {% endhighlight %}
 {% endtabs %}
 
-{% endtabcontent %}
-
-{% tabcontent Visual Studio Code %}
-
-Open the terminal and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Terminal" %}
-
-dotnet add package Syncfusion.Blazor.Charts -v {{ site.releaseversion }}
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% tabcontent .NET CLI %}
-
-Open the command prompt and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
-
-dotnet add package Syncfusion.Blazor.Charts -v {{ site.releaseversion }}
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% endtabcontents %}
+N> All Syncfusion Blazor packages are available on [nuget.org](https://www.nuget.org/packages?q=syncfusion.blazor). See the [NuGet packages](https://blazor.syncfusion.com/documentation/nuget-packages) topic for details.
 
 ## Add import namespaces
 
-After the package is installed, open the **~/Components/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Charts` namespaces.
+After the package is installed, open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Charts` namespaces.
+
+N> The `~/` notation represents the root directory of your project. This file is typically located in your project's root folder.
 
 {% tabs %}
 {% highlight razor tabtitle="~/_Imports.razor" %}
 
-@using Syncfusion.Blazor
+@using Syncfusion.Blazor 
 @using Syncfusion.Blazor.Charts
 
 {% endhighlight %}
 {% endtabs %}
 
-## Register the Blazor service
+## Register Blazor service
 
-Open the **MauiProgram.cs** file in Blazor MAUI App and register the Blazor service.
+Register the Blazor service in the **~/MauiProgram.cs** file. This step enables the Blazor components to work in your application.
 
 {% tabs %}
-{% highlight c# tabtitle="MauiProgram.cs" %}
+{% highlight c# tabtitle="~/MauiProgram.cs" %}
 
 ....
 using Syncfusion.Blazor;
+
 ....
 
 public static class MauiProgram
@@ -145,26 +108,26 @@ public static class MauiProgram
 {% endhighlight %}
 {% endtabs %}
 
-## Add script resource
+## Add script resources
 
-The script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) in the **~wwwroot/index.html** file.
+The JavaScript library needs to be included in your application. The script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/common/adding-script-references#static-web-assets). Include the script reference in the **~/index.html** file (this is the main HTML entry point of your MAUI Blazor application).
 
-{% tabs %}
-{% highlight html tabtitle="index.html" %}
+```html
 
 <script src="_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
 
-{% endhighlight %}
-{% endtabs %}
+```
 
-## Add the Blazor Charts component
+N> Check out the [Adding Script Reference](https://blazor.syncfusion.com/documentation/common/adding-script-references) topic to learn different approaches for adding script references in your Blazor application.
 
-Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-Charts) component inside the razor file.
+## Add Blazor Chart component
+
+Add the Blazor Chart component in the **~/Pages/Home.razor** file.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
 
-@* SfChart is the root container component for the chart *@
+<!-- SfChart is the root container component for the chart -->
 <SfChart>
 
 </SfChart>
@@ -172,59 +135,23 @@ Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **
 {% endhighlight %}
 {% endtabs %}
 
-## Run the application on Windows
+### How to run the sample on windows
 
-{% tabcontents %}
+Run the sample in Windows Machine mode, and it will run Blazor MAUI in Windows.
 
-{% tabcontent Visual Studio %}
+![Blazor Chart Component](images/blazor-chart-maui-app.webp)
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The Blazor Charts component will render in your default web browser.
+### How to run the sample on android
 
-{% endtabcontent %}
-
-{% tabcontent Visual Studio Code %}
-
-Open the terminal and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Terminal" %}
-
-dotnet run
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% tabcontent .NET CLI %}
-
-Open the command prompt and run the following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Command Prompt" %}
-
-dotnet run
-
-{% endhighlight %}
-{% endtabs %}
-
-{% endtabcontent %}
-
-{% endtabcontents %}
-
-![Blazor Charts Component](images/blazor-chart-maui-app.webp)
-
-## Run the application on Android
-
-To run the Blazor Charts in a Blazor Android MAUI application using the Android emulator, follow these steps:
+To run the Blazor Chart in a Blazor Android MAUI application using the Android emulator, follow these steps:
 
 Refer [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/device-manager#android-device-manager-on-windows) to install and launch the Android emulator.
 
-N> If you encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance [Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
+N> If you encounter any errors while using the Android Emulator, refer to the following link for troubleshooting guidance[Troubleshooting Android Emulator](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/troubleshooting).
 
-![Blazor Charts Component](images/getting-started/blazor-chart.webp)
+![Blazor Chart Component](images/getting-started/blazor-chart.webp)
 
 ## See also
 
-1. [Getting Started with Blazor Web Assembly App in Visual Studio or .NET CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app)
-2. [Getting Started with Blazor Web App in Visual Studio or .NET CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-web-app)
+* [Getting Started with Blazor Web Assembly App in Visual Studio or .NET CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app)
+* [Getting Started with Blazor Web App in Visual Studio or .NET CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-web-app)

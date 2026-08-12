@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Blazor Bullet Chart Tooltip Examples | Syncfusion®
-description: Learn how to enable and customize tooltips in Syncfusion Blazor Bullet Chart, including format, template, and styling options.
-platform: Blazor
-control: Bullet Chart
+title: Tooltip in Blazor Bullet Chart Component | Syncfusion®
+description: Checkout and learn here all about Tooltip in Blazor Bullet Chart component including customization and templates.
+platform: chart-sdk
+control: Bullet Chart 
 documentation: ug
 ---
 
-# Blazor Bullet Chart Tooltip
+# Tooltip in Blazor Bullet Chart Component
 
 When the mouse is hovered over a bar in the Bullet Chart, the tooltip displays important summary about the actual and the target bar values.
 

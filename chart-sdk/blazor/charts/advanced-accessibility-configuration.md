@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Blazor Charts Accessibility Customization | Syncfusion®
-description: Learn how to configure accessibility in Syncfusion Blazor Charts. Set AccessibilityDescription, AccessibilityRole, and Focusable for screen readers.
-platform: Blazor
-control: Charts
+title: Accessibility Customization in Blazor Charts Component | Syncfusion®
+description: Checkout and learn here all the features about Accessibility Customization in Blazor Charts component and much more.
+platform: chart-sdk
+control: Chart
 documentation: ug
 ---
 
-# Blazor Charts Accessibility Customization
+# Accessibility Customization in Blazor Chart Component
 
-The [Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) component is structured to visualize data in a graphical manner. It provides robust customization options for accessibility, allowing you to enhance the user experience for those with disabilities. The main attributes of the Blazor Chart component's accessibility customization are briefly explained in this section.
+The Blazor Chart component is structured to visualize data in a graphical manner. It provides robust customization options for accessibility, allowing you to enhance the user experience for those with disabilities. The main attributes of the Blazor Chart component's accessibility customization are briefly explained in this section.
 
 The chart component has a number of characteristics that enable accessibility features to be customized, including:
 *  [AccessibilityDescription](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_AccessibilityDescription) - Provides a text description for the chart, improving support for screen readers.
@@ -319,4 +319,4 @@ The [ChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazo
 ```
 
 Here is a preview sample demonstrating the accessibility customization support for all chart elements:
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BNhRDHsreiUpbASQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hDhfXnWhVHFlrqSz?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}

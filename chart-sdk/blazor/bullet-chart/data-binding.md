@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Blazor Bullet Chart Working with Data Examples | Syncfusion®
-description: Learn how to bind data to Syncfusion Blazor Bullet Chart using DataSource, ValueField, TargetField, and CategoryField with code samples.
-platform: Blazor
-control: Bullet Chart
+title: Working with Data in Blazor Bullet Chart Component | Syncfusion®
+description: Checkout and learn here all features about working with data in Blazor Bullet Chart component and much more.
+platform: chart-sdk
+control: Bullet Chart 
 documentation: ug
 ---
 
-# Blazor Bullet Chart Working with Data
+# Working with Data in Blazor Bullet Chart Component
 
 The [DataSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfBulletChart-1.html#Syncfusion_Blazor_Charts_SfBulletChart_1_DataSource) property accepts a collection of values as input that helps to display measures, and compares them to a target bar. To display the actual and target bar, specify the property from the datasource into the [ValueField](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfBulletChart-1.html#Syncfusion_Blazor_Charts_SfBulletChart_1_ValueField) and [TargetField](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfBulletChart-1.html#Syncfusion_Blazor_Charts_SfBulletChart_1_TargetField) respectively.
 
@@ -41,4 +41,4 @@ The [DataSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.
     };
 }
 ```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrxNnsVLCpMXlIO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Data Binding in Blazor Bullet Chart](images/blazor-bullet-chart-data-binding.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtVKshVizpSfJRvO?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Data Binding in Blazor Bullet Chart](images/blazor-bullet-chart-data-binding.webp)" %}
