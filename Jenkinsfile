@@ -15,7 +15,18 @@ String platform='file-formats';
 	    { 
 	    dir('Spell-Checker') 
            {
-		     checkout scm
+		     checkout([
+			    $class: 'GitSCM',
+			    branches: [[name: "${env.githubSourceBranch}"]],
+			    extensions: [
+			        [$class: 'RelativeTargetDirectory', relativeTargetDir: 'ug_spellchecker'],
+			        [$class: 'CheckoutOption', timeout: 30]
+			    ],
+			    userRemoteConfigs: [[
+			        credentialsId: env.githubCredentialId,
+			        url: 'https://github.com/syncfusion-content/chart-sdk-docs.git'
+			    ]]
+			])
 			 
 			 def page = 1
 			 while(true)
