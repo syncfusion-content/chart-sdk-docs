@@ -1,4 +1,4 @@
-node('Maui')
+node('content')
 { 
 timestamps
   {
@@ -13,9 +13,9 @@ String platform='file-formats';
 		//Clone scm repository in Workspace source directory
 		stage ('Checkout')   
 	    { 
-	    dir('Spell-Checker') 
+	    ('S') 
            {
-		  
+		  	echo "checkout starting"
 			 checkout([
 	            $class: 'GitSCM',
 	            branches: [[name: "${env.githubSourceBranch}"]],
@@ -32,9 +32,11 @@ String platform='file-formats';
 	                ])
 	            ]
 	        ])
+			   echo "Checkout finish"
 			 def page = 1
 			 while(true)
             {  
+				echo "get commit details"
 			 def branchCommit = 'https://api.github.com/repos/syncfusion-content/'+env.githubSourceRepoHttpUrl.split('/')[env.githubSourceRepoHttpUrl.split('/').size() - 1]+'/pulls/' + env.pullRequestId + '/files?per_page=100^&page='+ page
              
             String branchCommitDetails = bat returnStdout: true, script: 'curl -H "Accept: application/vnd.github.v3+json" -u SyncfusionBuild:' + env.GithubBuildAutomation_PrivateToken + " " + branchCommit
@@ -63,9 +65,9 @@ String platform='file-formats';
               }
 			  
 		    }
-			 
+			 echo "Checkout UG spellchecker"
 		   //Checkout the ug_spellchecker from development Source
-	  checkout([$class: 'GitSCM', branches: [[name: '*/development']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'ug_spellchecker']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: env.githubCredentialId, url: 'https://github.com/syncfusion-content/ug_spellchecker.git']]])
+	  checkout([$class: 'GitSCM', branches: [[name: '*/development']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'ug_spell']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: env.githubCredentialId, url: 'https://github.com/syncfusion-content/ug_spellchecker.git']]])
 		 
 	  }
 	}
@@ -78,6 +80,7 @@ String platform='file-formats';
 if(currentBuild.result != 'FAILURE')
 { 
 	stage 'Build Source'
+	echo "Build start"
 	try
 	{
 	    gitlabCommitStatus("Build")
