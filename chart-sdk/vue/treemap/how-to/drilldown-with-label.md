@@ -3,7 +3,7 @@ layout: post
 title: How to add a label template with drilldown in Vue TreeMap | Syncfusion
 description: Learn here all about Drilldown with label in Syncfusion Vue TreeMap component of Syncfusion Essential JS 2 and more.
 control: Drilldown with label 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

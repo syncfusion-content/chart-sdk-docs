@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue HeatMap Chart | Syncfusion
 description: Learn how to get started with the Syncfusion Vue HeatMap Chart control. Explore setup, features, examples, and customization options.
 control: HeatMap Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 framework-version: 2
 domainurl: https://help.syncfusion.com/chart-sdk

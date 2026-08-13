@@ -3,7 +3,7 @@ layout: post
 title: Series in Vue Smith Chart | Syncfusion
 description: Learn here all about Smithchart series in Syncfusion Vue Smithchart component of Syncfusion Essential JS 2 and more.
 control: Smith Chart
-platform: Vue
+platform: ej2-vue
 documentation: ug
 domainurl: ##DomainURL##
 ---

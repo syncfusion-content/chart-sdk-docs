@@ -2,7 +2,7 @@
 layout: post
 title: 100% Stacked Bar Chart in Angular 3D Chart | Syncfusion
 description: Learn here all about 100% stacked bar chart in Syncfusion Angular 3D Chart control of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

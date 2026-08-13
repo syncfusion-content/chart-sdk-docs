@@ -3,7 +3,7 @@ layout: post
 title: Gauge Ranges in Vue Circular Gauge | Syncfusion
 description: Learn how to add and customize ranges in the Vue Circular Gauge using start, end, color, width, and rounded corner options.
 control: Gauge ranges 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

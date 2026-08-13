@@ -3,7 +3,7 @@ layout: post
 title: Events in Angular Sankey | Syncfusion
 description: Learn here all about Events in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Events
-platform: Angular
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

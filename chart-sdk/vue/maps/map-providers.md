@@ -3,7 +3,7 @@ layout: post
 title: Map providers in Vue Maps component | Syncfusion
 description: Learn here all about Map providers in Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
 control: Map providers 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

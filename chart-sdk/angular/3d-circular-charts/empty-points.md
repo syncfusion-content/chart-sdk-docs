@@ -2,7 +2,7 @@
 layout: post
 title: Empty Points in Angular 3D Circular Chart | Syncfusion
 description: Learn here all about empty points in Syncfusion Angular 3D Circular Chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Empty points 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

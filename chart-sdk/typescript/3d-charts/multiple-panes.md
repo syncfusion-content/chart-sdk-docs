@@ -2,7 +2,7 @@
 layout: post
 title: Multiple panes in TypeScript 3D Chart | Syncfusion
 description: Learn how to split the Syncfusion TypeScript 3D Chart area into multiple rows and columns to create multiple panes.
-platform: TypeScript
+platform: chart-sdk
 control: 3D Chart 
 publishingplatform: chart-sdk
 documentation: ug

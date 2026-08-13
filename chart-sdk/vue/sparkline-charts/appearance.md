@@ -3,7 +3,7 @@ layout: post
 title: Appearance in Vue Sparkline | Syncfusion
 description: Learn here all about the Appearance in Syncfusion Vue Sparkline of Syncfusion Essential JS 2 and more.
 control: Appearance 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

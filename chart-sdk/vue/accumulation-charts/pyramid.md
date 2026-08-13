@@ -3,7 +3,7 @@ layout: post
 title: Pyramid in Vue Accumulation Chart | Syncfusion
 description: Learn here all about Pyramid in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
 control: Pyramid 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

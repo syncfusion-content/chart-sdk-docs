@@ -2,7 +2,7 @@
 layout: post
 title: Special points customization in JavaScript Sparkline | Syncfusion
 description: Learn here all about Special points customization in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Special points customization 
 publishingplatform: chart-sdk
 documentation: ug

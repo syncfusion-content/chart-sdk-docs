@@ -2,7 +2,7 @@
 layout: post
 title: Animation in Angular Circular Gauge | Syncfusion
 description: Learn here all about animation in the Syncfusion Angular Circular Gauge component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Animation
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

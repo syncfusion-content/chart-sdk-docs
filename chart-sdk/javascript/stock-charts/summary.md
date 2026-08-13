@@ -2,7 +2,7 @@
 layout: post
 title: Summary in JavaScript Stock chart control | Syncfusion
 description: Learn here all about Summary in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Summary 
 publishingplatform: chart-sdk
 documentation: ug

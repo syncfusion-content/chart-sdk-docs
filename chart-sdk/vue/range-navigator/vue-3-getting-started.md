@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue 3 Range Navigator | Syncfusion
 description: Quickstart to create a Vite-based Vue 3 project and integrate the Syncfusion Essential JS 2 Range Navigator using Composition or Options API with examples.
 control: Vue 3 getting started
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

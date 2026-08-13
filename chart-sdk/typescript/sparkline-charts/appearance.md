@@ -2,7 +2,7 @@
 layout: post
 title: Appearance in TypeScript Sparkline | Syncfusion
 description: Learn here all about Appearance in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Appearance 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Empty points in Vue 3D Circular Chart | Syncfusion
 description: Learn here all about empty points in Syncfusion Vue 3D Circular Chart component of Syncfusion Essential JS 2 and more.
 control: Empty points 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

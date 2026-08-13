@@ -2,7 +2,7 @@
 layout: post
 title: Localization in TypeScript Maps | Syncfusion
 description: Learn here all about Localization in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Localization 
 publishingplatform: chart-sdk
 documentation: ug

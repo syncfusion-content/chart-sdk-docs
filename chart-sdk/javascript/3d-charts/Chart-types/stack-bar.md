@@ -2,7 +2,7 @@
 layout: post
 title: Stacked Bar Chart in JavaScript 3D Chart | Syncfusion
 description: Learn how to render a stacked bar series in the Syncfusion JavaScript 3D Chart using the StackingBarSeries3D module.
-platform: JavaScript
+platform: chart-sdk
 control: 3D Chart 
 publishingplatform: chart-sdk
 documentation: ug

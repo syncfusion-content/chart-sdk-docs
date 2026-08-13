@@ -2,7 +2,7 @@
 layout: post
 title: Smith Chart Dimensions in Angular Smith Chart | Syncfusion
 description: Learn here all about Smith chart dimensions in Syncfusion Angular Smithchart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Smith chart dimensions 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

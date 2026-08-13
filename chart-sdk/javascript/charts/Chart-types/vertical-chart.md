@@ -2,7 +2,7 @@
 layout: post
 title: Vertical Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Vertical Chart in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

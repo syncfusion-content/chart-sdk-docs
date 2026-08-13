@@ -2,7 +2,7 @@
 layout: post
 title: Ej1 api migration in TypeScript Circular Gauge | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion TypeScript Circular Gauge of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Ej1 api migration 
 publishingplatform: chart-sdk
 documentation: ug

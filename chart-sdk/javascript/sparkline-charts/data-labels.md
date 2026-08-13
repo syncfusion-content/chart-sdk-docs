@@ -2,7 +2,7 @@
 layout: post
 title: Data labels in JavaScript Sparkline control | Syncfusion
 description: Learn here all about Data labels in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Data labels 
 publishingplatform: chart-sdk
 documentation: ug

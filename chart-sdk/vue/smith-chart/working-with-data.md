@@ -3,7 +3,7 @@ layout: post
 title: Working with Data in Vue Smith Chart | Syncfusion
 description: Learn here all about Working with data in Syncfusion Vue Smithchart component of Syncfusion Essential JS 2 and more.
 control: Smith Chart
-platform: Vue
+platform: ej2-vue
 documentation: ug
 domainurl: ##DomainURL##
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: How to in JavaScript Chart control | Syncfusion
 description: Learn here all about How to in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: How to 
 publishingplatform: chart-sdk
 documentation: ug

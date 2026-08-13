@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with JavaScript 3D Chart (ES5) | Syncfusion
 description: Learn how to get started with the Syncfusion JavaScript 3D Chart in an ES5 application using the CDN approach.
-platform: JavaScript
+platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

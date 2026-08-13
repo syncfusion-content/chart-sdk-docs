@@ -2,7 +2,7 @@
 layout: post
 title: Legend in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart legend in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Smith chart legend 
 publishingplatform: chart-sdk
 documentation: ug

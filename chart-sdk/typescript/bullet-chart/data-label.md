@@ -2,7 +2,7 @@
 layout: post
 title: Data Label in TypeScript Bullet Chart | Syncfusion
 description: Learn how to enable and customize data labels in the Syncfusion TypeScript Bullet Chart for the actual bar.
-platform: TypeScript
+platform: chart-sdk
 control: Bullet Chart 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Vue 3 Getting Started with Vue Sparklinet | Syncfusion
 description: Create a Vite-based Vue 3 project and integrate the Syncfusion Vue Sparkline control using the Composition API or Options API.
 control: Vue 3 getting started
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

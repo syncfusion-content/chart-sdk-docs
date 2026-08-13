@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in Vue Sankey | Syncfusion
 description: Learn here all about Print and Export in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Print and Export
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

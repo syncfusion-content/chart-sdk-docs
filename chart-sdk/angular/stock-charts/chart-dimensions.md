@@ -2,7 +2,7 @@
 layout: post
 title: Chart Dimensions in Angular Stock Chart | Syncfusion
 description: Learn here all about Chart dimensions in Syncfusion Angular Stock chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Chart dimensions 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

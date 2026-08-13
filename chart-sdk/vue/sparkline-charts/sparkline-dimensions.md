@@ -3,7 +3,7 @@ layout: post
 title: Sparkline Dimensions in Vue Sparkline | Syncfusion
 description: Learn here all about Sparkline dimensions in Syncfusion Vue Sparkline of Syncfusion Essential JS 2 and more.
 control: Sparkline dimensions 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

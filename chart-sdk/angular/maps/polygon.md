@@ -2,7 +2,7 @@
 layout: post
 title: Polygon in Angular Maps | Syncfusion
 description: Learn here all about Polygon in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Polygon 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

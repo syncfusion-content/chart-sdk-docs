@@ -2,7 +2,7 @@
 layout: post
 title: Comparative Bar in JavaScript Bullet Chart | Syncfusion
 description: Learn how to display the target bar in the Syncfusion JavaScript Bullet Chart using the targetField property.
-platform: JavaScript
+platform: chart-sdk
 control: Comparative Bar 
 publishingplatform: chart-sdk
 documentation: ug

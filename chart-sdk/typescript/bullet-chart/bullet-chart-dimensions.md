@@ -2,7 +2,7 @@
 layout: post
 title: Bullet Chart Dimensions in TypeScript Bullet Chart | Syncfusion
 description: Learn how to set the width and height of the Syncfusion TypeScript Bullet Chart by configuring the container size.
-platform: TypeScript
+platform: chart-sdk
 control: Bullet chart
 publishingplatform: chart-sdk
 documentation: ug

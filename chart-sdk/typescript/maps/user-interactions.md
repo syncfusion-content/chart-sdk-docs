@@ -2,7 +2,7 @@
 layout: post
 title: User interactions in TypeScript Maps | Syncfusion
 description: Enable zooming, panning, single and double click, highlight, and selection in TypeScript Maps to give users rich ways to interact with elements.
-platform: TypeScript
+platform: chart-sdk
 control: User interactions 
 publishingplatform: chart-sdk
 documentation: ug

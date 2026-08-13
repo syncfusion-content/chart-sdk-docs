@@ -2,7 +2,7 @@
 layout: post
 title: Data Labels in Angular Maps | Syncfusion
 description: Learn here all about Data labels in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Data labels 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

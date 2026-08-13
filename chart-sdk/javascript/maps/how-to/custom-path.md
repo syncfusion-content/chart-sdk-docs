@@ -2,7 +2,7 @@
 layout: post
 title: Custom path in JavaScript Maps | Syncfusion
 description: Learn here all about Custom path in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Custom path 
 publishingplatform: chart-sdk
 documentation: ug

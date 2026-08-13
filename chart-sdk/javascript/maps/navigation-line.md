@@ -2,7 +2,7 @@
 layout: post
 title: Navigation line in JavaScript Maps | Syncfusion
 description: Draw curved navigation lines between two locations on a JavaScript Maps to represent flight routes, sea paths, or other connecting journeys.
-platform: JavaScript
+platform: chart-sdk
 control: Navigation line 
 publishingplatform: chart-sdk
 documentation: ug

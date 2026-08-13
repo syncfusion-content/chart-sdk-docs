@@ -2,7 +2,7 @@
 layout: post
 title: Customize the legend label in Angular HeatMap Chart | Syncfusion
 description: Learn here all about Legend customization in Syncfusion Angular Heatmap chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Legend customization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

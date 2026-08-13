@@ -2,7 +2,7 @@
 layout: post
 title: Legend in JavaScript Maps | Syncfusion
 description: Show color, shape, or symbol legends on a JavaScript Maps that describe the meaning of each visual element for the displayed geographic data.
-platform: JavaScript
+platform: chart-sdk
 control: Legend 
 publishingplatform: chart-sdk
 documentation: ug

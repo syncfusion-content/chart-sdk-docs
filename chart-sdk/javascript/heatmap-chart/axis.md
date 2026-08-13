@@ -2,7 +2,7 @@
 layout: post
 title: Axis in JavaScript HeatMap Chart | Syncfusion
 description: Configure X and Y axes in the JavaScript HeatMap Chart with category, numeric, or date-time types, plus inversed, opposed, multilevel, and formatted labels.
-platform: JavaScript
+platform: chart-sdk
 control: Axis 
 publishingplatform: chart-sdk
 documentation: ug

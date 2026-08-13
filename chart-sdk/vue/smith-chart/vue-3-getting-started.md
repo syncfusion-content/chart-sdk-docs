@@ -3,7 +3,7 @@ layout: post
 title: Vue 3 Getting Started with Vue Smith Chart | Syncfusion
 description: Create a Vite-based Vue 3 project and integrate the Syncfusion Essential JS 2 Vue Smith Chart component using the Composition API or Options API.
 control: Smith Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Internationalization in Angular Maps | Syncfusion
 description: Learn here all about Internationalization in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Internationalization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -3,7 +3,7 @@ layout: post
 title: Chart Dimensions in Vue 3D Chart | Syncfusion
 description: Learn here all about dimensions in Syncfusion 3D Chart component of Syncfusion Essential JS 2 and more.
 control: 3D Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

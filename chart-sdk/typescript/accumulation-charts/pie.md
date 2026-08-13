@@ -2,7 +2,7 @@
 layout: post
 title: Pie in TypeScript Accumulation Chart | Syncfusion
 description: Learn here all about Pie in Syncfusion TypeScript Accumulation chart control of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Pie 
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Empty points in JavaScript 3D Circular Chart | Syncfusion
 description: Learn here all about empty points in Syncfusion JavaScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Empty points 
 publishingplatform: chart-sdk
 documentation: ug

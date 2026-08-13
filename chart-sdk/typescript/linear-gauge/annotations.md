@@ -2,7 +2,7 @@
 layout: post
 title: Annotations in TypeScript Linear Gauge | Syncfusion
 description: Add text, image, or HTML annotations to the TypeScript Linear Gauge and customize position, alignment, and z-index.
-platform: TypeScript
+platform: chart-sdk
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

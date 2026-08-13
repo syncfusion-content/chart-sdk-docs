@@ -3,7 +3,7 @@ layout: post
 title: Legend in Vue Sankey | Syncfusion
 description: Learn here all about Legend in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Legend
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

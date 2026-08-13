@@ -2,7 +2,7 @@
 layout: post
 title: Annotations in Angular Linear Gauge | Syncfusion
 description: Learn how to use annotations in the Syncfusion Angular Linear Gauge to mark specific areas of interest with text, HTML elements, or images.
-platform: Angular
+platform: chart-sdk
 control: Annotations 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

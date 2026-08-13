@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with TypeScript TreeMap Component | Syncfusion
 description: Create and configure a Syncfusion JavaScript TreeMap in TypeScript using the Essential JS 2 webpack quickstart project.
-platform: TypeScript
+platform: chart-sdk
 control: TreeMap
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Data Label in JavaScript Bullet Chart | Syncfusion
 description: Learn how to enable and customize data labels in the Syncfusion JavaScript Bullet Chart for the actual bar.
-platform: JavaScript
+platform: chart-sdk
 control: Bullet Chart
 publishingplatform: chart-sdk
 documentation: ug

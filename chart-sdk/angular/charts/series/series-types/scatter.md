@@ -2,7 +2,7 @@
 layout: post
 title: Scatter Chart in Angular Charts | Syncfusion
 description: Learn here all about Scatter in Syncfusion Angular Charts component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Scatter
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

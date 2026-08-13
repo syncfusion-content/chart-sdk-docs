@@ -2,7 +2,7 @@
 layout: post
 title: Pie and Doughnut in Angular Accumulation Chart | Syncfusion
 description: Learn here all about Pie and Doughnut in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Pie and Doughnut 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

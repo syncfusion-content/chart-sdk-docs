@@ -2,7 +2,7 @@
 layout: post
 title: Bing maps in TypeScript Maps | Syncfusion
 description: Integrate Microsoft Bing Maps as a tile provider in TypeScript Maps to display aerial imagery, road maps, and themed canvas map content.
-platform: TypeScript
+platform: chart-sdk
 control: Bing maps 
 publishingplatform: chart-sdk
 documentation: ug

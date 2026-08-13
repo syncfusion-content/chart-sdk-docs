@@ -3,7 +3,7 @@ layout: post
 title: Target Bar in Vue Bullet Chartt | Syncfusion
 description: Learn here all about Comparative bar in Syncfusion Vue Bullet chart component of Syncfusion Essential JS 2 and more.
 control: Comparative bar
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

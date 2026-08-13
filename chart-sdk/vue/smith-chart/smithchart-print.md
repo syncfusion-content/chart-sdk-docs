@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in Vue Smith Chart | Syncfusion
 description: Learn here all about Smithchart print in Syncfusion Vue Smithchart component of Syncfusion Essential JS 2 and more.
 control: Smith Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

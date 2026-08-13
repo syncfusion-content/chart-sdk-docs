@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with TypeScript Chart control | Syncfusion
 description: Check out and learn about Getting started with TypeScript Chart control of Syncfusion Essential JS 2 and more details.
-platform: TypeScript
+platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

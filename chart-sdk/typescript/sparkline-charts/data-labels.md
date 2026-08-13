@@ -2,7 +2,7 @@
 layout: post
 title: Data labels in TypeScript Sparkline | Syncfusion
 description: Learn here all about Data labels in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Data labels 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Accessibility in Vue Sparkline | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Vue Sparkline of Syncfusion Essential JS 2 and more.
 control: Accessibility 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

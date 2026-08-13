@@ -2,7 +2,7 @@
 layout: post
 title: How to add dotted line in TypeScript Chart | Syncfusion
 description: Learn here all about Dotted line in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

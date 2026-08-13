@@ -2,7 +2,7 @@
 layout: post
 title: Print and Export in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart print in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Smith chart print 
 publishingplatform: chart-sdk
 documentation: ug

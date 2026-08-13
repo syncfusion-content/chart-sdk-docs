@@ -2,7 +2,7 @@
 layout: post
 title: Title and Subtitle in Angular Accumulation Chart | Syncfusion
 description: Learn here all about Title and sub title in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Title and sub title 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

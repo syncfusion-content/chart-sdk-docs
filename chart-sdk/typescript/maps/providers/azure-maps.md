@@ -2,7 +2,7 @@
 layout: post
 title: Azure maps in TypeScript Maps | Syncfusion
 description: Add Microsoft Azure Maps as a tile provider in TypeScript Maps to display satellite imagery, road maps, and terrain views with global coverage.
-platform: TypeScript
+platform: chart-sdk
 control: Azure maps 
 publishingplatform: chart-sdk
 documentation: ug

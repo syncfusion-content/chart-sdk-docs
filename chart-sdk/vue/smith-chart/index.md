@@ -3,7 +3,7 @@ layout: post
 title: Index in Vue Smithchart component | Syncfusion
 description: Learn here all about Index in Syncfusion Vue Smithchart component of Syncfusion Essential JS 2 and more.
 control: Index 
-platform: Vue
+platform: ej2-vue
 documentation: ug
 domainurl: ##DomainURL##
 ---

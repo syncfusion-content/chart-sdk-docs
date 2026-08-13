@@ -3,7 +3,7 @@ layout: post
 title: Technical Indicators in Vue Chart | Syncfusion
 description: Learn here all about Technical indicators in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Technical indicators 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

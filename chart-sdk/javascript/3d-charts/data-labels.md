@@ -2,7 +2,7 @@
 layout: post
 title: Data labels in JavaScript 3D Chart | Syncfusion
 description: Learn how to add and customize data labels in the Syncfusion JavaScript 3D Chart for each chart series.
-platform: JavaScript
+platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

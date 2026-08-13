@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in Vue Circular Gauge component | Syncfusion
 description: Learn how to print the Vue Circular Gauge and export it as image (JPEG, PNG, SVG) or PDF using the built-in methods.
 control: Gauge print and Export 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

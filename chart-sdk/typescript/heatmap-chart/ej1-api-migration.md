@@ -2,7 +2,7 @@
 layout: post
 title: Ej1 api migration in TypeScript HeatMap Chart | Syncfusion
 description: Migrate Essential JS 1 HeatMap properties, events, and member mappings to their TypeScript HeatMap Chart equivalents in Essential JS 2.
-platform: TypeScript
+platform: chart-sdk
 control: Ej1 api migration 
 publishingplatform: chart-sdk
 documentation: ug

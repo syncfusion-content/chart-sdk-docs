@@ -2,7 +2,7 @@
 layout: post
 title: Axis Labels in Angular Chart | Syncfusion
 description: Learn here all about Axis labels in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Axis labels 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

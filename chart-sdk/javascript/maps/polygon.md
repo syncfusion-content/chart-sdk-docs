@@ -2,7 +2,7 @@
 layout: post
 title: Polygon in JavaScript Maps | Syncfusion
 description: Render custom polygon overlays on JavaScript Maps to highlight regions, mark zones, or draw boundaries using latitude and longitude coordinates.
-platform: JavaScript
+platform: chart-sdk
 control: Polygon 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Data Labels in Vue Sparkline | Syncfusion
 description: Learn here all about Data labels in Syncfusion Vue Sparkline of Syncfusion Essential JS 2 and more.
 control: Data labels 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Internationalization in Vue Chart | Syncfusion
 description: Learn here all about Internationalization in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Internationalization 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

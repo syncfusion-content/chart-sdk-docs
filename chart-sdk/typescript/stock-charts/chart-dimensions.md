@@ -2,7 +2,7 @@
 layout: post
 title: Chart dimensions in TypeScript Stock Charts | Syncfusion
 description: Learn here all about Chart dimensions in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug

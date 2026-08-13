@@ -2,7 +2,7 @@
 layout: post
 title: Other maps in TypeScript Maps | Syncfusion
 description: Connect any third-party tile-based map provider to TypeScript Maps by configuring the urlTemplate property with the provider's tile request URL.
-platform: TypeScript
+platform: chart-sdk
 control: Other maps 
 publishingplatform: chart-sdk
 documentation: ug

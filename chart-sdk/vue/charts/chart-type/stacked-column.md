@@ -3,7 +3,7 @@ layout: post
 title: 100% Stacked Column Chart in Vue Chart | Syncfusion
 description: Learn here all about 100% Stacked Column in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: 100% Stacked Column Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

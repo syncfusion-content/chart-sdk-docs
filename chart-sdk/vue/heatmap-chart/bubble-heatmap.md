@@ -3,7 +3,7 @@ layout: post
 title: Bubble heatmap in Vue HeatMap Chart | Syncfusion
 description: Render data points as bubbles in the Syncfusion Vue HeatMap Chart control with size, color, sector, and combined representations for varied visualizations.
 control: Bubble heatmap 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

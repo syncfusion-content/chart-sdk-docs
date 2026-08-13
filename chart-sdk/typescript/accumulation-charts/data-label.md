@@ -2,7 +2,7 @@
 layout: post
 title: Data Label in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to add and customize data labels in the Syncfusion TypeScript Accumulation Chart series.
-platform: TypeScript
+platform: chart-sdk
 control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

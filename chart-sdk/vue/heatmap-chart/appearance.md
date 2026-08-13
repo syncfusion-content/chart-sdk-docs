@@ -3,7 +3,7 @@ layout: post
 title: Appearance in Vue HeatMap Chart | Syncfusion
 description: Customize the appearance of the Syncfusion Vue HeatMap Chart control with options for cell border, background color, margin, title, and data label templates.
 control: Appearance 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

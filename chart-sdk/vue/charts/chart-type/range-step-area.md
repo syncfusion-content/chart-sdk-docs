@@ -3,7 +3,7 @@ layout: post
 title: Range Step Area Chart in Vue Chart | Syncfusion
 description: Learn here all about Range Step Area in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Range Step Area Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

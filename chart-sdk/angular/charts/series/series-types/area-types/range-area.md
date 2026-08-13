@@ -2,7 +2,7 @@
 layout: post
 title: Range Area Chart in Angular Charts | Syncfusion
 description: Learn here all about Range Area Chart in Syncfusion Angular Charts component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Range Area Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

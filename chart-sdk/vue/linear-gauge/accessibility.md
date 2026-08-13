@@ -3,7 +3,7 @@ layout: post
 title: Accessibility in Vue Linear Gauge | Syncfusion
 description: Learn how the Vue Linear Gauge component follows WCAG 2.2, Section 508, and WAI-ARIA accessibility standards.
 control: Accessibility 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Accessibility in Vue HeatMap Chart | Syncfusion
 description: Explore the accessibility features of the Syncfusion Vue HeatMap Chart control, including WAI-ARIA attributes, screen reader support, and keyboard navigation.
 control: Accessibility 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Title in typeScript Linear gauge control | Syncfusion
 description:  Add and customize a title for the TypeScript Linear Gauge using the title and titleStyle properties to control text and appearance.
-platform: TypeScript
+platform: chart-sdk
 control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug

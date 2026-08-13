@@ -2,7 +2,7 @@
 layout: post
 title: Migration from EJ1 in JavaScript Linear Gauge | Syncfusion
 description: Migrate the Essential JS 1 Linear Gauge API to the Syncfusion JavaScript Linear Gauge (EJ2) with property and event mapping.
-platform: JavaScript
+platform: chart-sdk
 control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug

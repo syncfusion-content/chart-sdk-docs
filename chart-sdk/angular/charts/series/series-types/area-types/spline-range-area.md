@@ -2,7 +2,7 @@
 layout: post
 title: Spline Range Area Chart in Angular Charts | Syncfusion
 description: Learn here all about Spline Range Area Chart in Syncfusion Angular Charts component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Spline Range Area Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

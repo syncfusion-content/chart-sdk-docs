@@ -2,7 +2,7 @@
 layout: post
 title: Selection in TypeScript HeatMap Chart | Syncfusion
 description: Enable single or multiple cell selection in the JavaScript HeatMap Chart with mouse, touch, and keyboard interactions and clear selection support.
-platform: TypeScript
+platform: chart-sdk
 control: Selection 
 publishingplatform: chart-sdk
 documentation: ug

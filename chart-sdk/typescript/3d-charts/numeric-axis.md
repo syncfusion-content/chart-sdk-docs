@@ -2,7 +2,7 @@
 layout: post
 title: Numeric Axis in TypeScript 3D Chart | Syncfusion
 description: Learn how to render the Syncfusion TypeScript 3D Chart with a numeric axis to represent numeric values along an axis.
-platform: TypeScript
+platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

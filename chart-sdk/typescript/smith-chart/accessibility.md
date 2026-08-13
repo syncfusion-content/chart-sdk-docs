@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Accessibility in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Accessibility 
 publishingplatform: chart-sdk
 documentation: ug

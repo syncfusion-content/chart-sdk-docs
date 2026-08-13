@@ -2,7 +2,7 @@
 layout: post
 title: Ranges in Angular Circular Gauge | Syncfusion
 description: Learn here all about Gauge ranges in Syncfusion Angular Circular gauge component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Ranges 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -3,7 +3,7 @@ layout: post
 title: Period Selector in Vue Range Navigator | Syncfusion
 description: Learn here all about Period selector in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: Period selector 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

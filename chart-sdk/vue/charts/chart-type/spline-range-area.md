@@ -3,7 +3,7 @@ layout: post
 title: Spline Range Area Chart in Vue Chart | Syncfusion
 description: Learn here all about Spline Range Area in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Spline Range Area Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

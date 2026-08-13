@@ -2,7 +2,7 @@
 layout: post
 title: User interaction in JavaScript Sparkline control | Syncfusion
 description: Learn here all about User interaction in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: User interaction 
 publishingplatform: chart-sdk
 documentation: ug

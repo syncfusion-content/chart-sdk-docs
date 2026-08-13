@@ -2,7 +2,7 @@
 layout: post
 title: How to Customize Column Width in Angular Chart | Syncfusion
 description: Learn here all about Column width in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Column width 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

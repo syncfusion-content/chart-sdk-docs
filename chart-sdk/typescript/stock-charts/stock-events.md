@@ -2,7 +2,7 @@
 layout: post
 title: Stock events in TypeScript Stock Charts | Syncfusion
 description: Learn here all about Stock events in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug

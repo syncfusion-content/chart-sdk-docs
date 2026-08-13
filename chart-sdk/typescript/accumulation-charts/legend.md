@@ -2,7 +2,7 @@
 layout: post
 title: Legend in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to add and customize the legend in the Syncfusion TypeScript Accumulation Chart, including position and visibility.
-platform: TypeScript
+platform: chart-sdk
 control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

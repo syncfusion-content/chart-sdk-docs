@@ -3,7 +3,7 @@ layout: post
 title: DateTime Axis in Vue Chart | Syncfusion
 description: Learn here all about Date time axis in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Date time axis 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

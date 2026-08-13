@@ -3,7 +3,7 @@ layout: post
 title: Selection and Highlight in Vue TreeMap | Syncfusion
 description: Learn here all about Selection and highlight in Syncfusion Vue Treemap component of Syncfusion Essential JS 2 and more.
 control: Selection and highlight 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

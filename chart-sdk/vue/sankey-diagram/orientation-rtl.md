@@ -3,7 +3,7 @@ layout: post
 title: Orientation and RTL in Vue Sankey | Syncfusion
 description: Learn here all about Orientation and RTL in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Orientation and RTL
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Azure Maps in JavaScript Maps | Syncfusion
 description: Add Microsoft Azure Maps as a tile provider in JavaScript Maps to display satellite imagery, road maps, and terrain views with global coverage.
-platform: JavaScript
+platform: chart-sdk
 control: Azure maps 
 publishingplatform: chart-sdk
 documentation: ug

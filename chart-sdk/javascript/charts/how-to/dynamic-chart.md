@@ -2,7 +2,7 @@
 layout: post
 title: How to create a dynamic chart in JavaScript Chart | Syncfusion
 description: Learn here all about Dynamic chart in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Angular Maps | Syncfusion
 description: Check out and learn about the Getting started with Angular Maps component of Syncfusion Essential JS 2 and more details.
-platform: Angular
+platform: chart-sdk
 control: Getting started
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

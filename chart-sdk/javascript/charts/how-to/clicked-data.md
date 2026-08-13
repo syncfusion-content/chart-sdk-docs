@@ -2,7 +2,7 @@
 layout: post
 title: How to get pie clicked data in JavaScript Chart | Syncfusion
 description: Learn here all about Clicked data in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

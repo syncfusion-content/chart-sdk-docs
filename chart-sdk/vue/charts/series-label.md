@@ -3,7 +3,7 @@ layout: post
 title: Series Labels in Vue Chart | Syncfusion
 description: Learn here all about Series label in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Series label 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

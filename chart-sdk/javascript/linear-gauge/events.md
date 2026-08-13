@@ -2,7 +2,7 @@
 layout: post
 title: Events in JavaScript Linear Gauge | Syncfusion
 description: Handle events in the JavaScript Linear Gauge such as load, loaded, animationComplete, drag, tooltipRender, valueChange, and mouse events.
-platform: JavaScript
+platform: chart-sdk
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

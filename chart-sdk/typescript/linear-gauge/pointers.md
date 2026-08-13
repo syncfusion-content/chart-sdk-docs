@@ -2,7 +2,7 @@
 layout: post
 title: Pointers in TypeScript Linear Gauge Control | Syncfusion
 description: Configure bar and marker pointers in the TypeScript Linear Gauge with type, value, position, animation, and gradient customization options.
-platform: TypeScript
+platform: chart-sdk
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

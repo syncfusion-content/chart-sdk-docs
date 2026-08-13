@@ -3,7 +3,7 @@ layout: post
 title: Appearance in Angular Sankey | Syncfusion
 description: Learn here all about Appearance in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Appearance
-platform: Angular
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

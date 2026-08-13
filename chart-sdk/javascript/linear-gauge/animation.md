@@ -2,7 +2,7 @@
 layout: post
 title: Animation in JavaScript Linear Gauge | Syncfusion
 description: Animate the elements of the JavaScript Linear Gauge, including axis lines, ticks, labels, ranges, pointers, and annotations.
-platform: JavaScript
+platform: chart-sdk
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Working with Data in TypeScript 3D Chart | Syncfusion
 description: Learn how to bind local, remote, and complex data sources to the Syncfusion TypeScript 3D Chart using the dataSource property.
-platform: TypeScript
+platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

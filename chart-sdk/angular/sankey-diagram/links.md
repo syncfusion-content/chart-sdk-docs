@@ -3,7 +3,7 @@ layout: post
 title: Links in Angular Sankey | Syncfusion
 description: Learn here all about Links in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Links
-platform: Angular
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

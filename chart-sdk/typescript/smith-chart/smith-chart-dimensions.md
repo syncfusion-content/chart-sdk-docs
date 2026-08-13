@@ -2,7 +2,7 @@
 layout: post
 title: Smith Chart Dimensions in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart dimensions in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Smith chart dimensions 
 publishingplatform: chart-sdk
 documentation: ug

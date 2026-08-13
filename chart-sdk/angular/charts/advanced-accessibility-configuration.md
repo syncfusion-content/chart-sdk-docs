@@ -2,7 +2,7 @@
 layout: post
 title: Advanced Accessibility Configuration in Angular Chart | Syncfusion
 description: Learn here all about Accessibility customization in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Accessibility customization
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

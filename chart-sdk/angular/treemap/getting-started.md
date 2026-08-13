@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Angular TreeMap | Syncfusion
 description: Checkout and learn about Getting started with Angular TreeMap component of Syncfusion Essential JS 2 and more details.
-platform: Angular
+platform: chart-sdk
 control: Getting started
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

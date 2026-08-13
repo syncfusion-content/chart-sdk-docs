@@ -2,7 +2,7 @@
 layout: post
 title: How to display selected data in JavaScript Chart | Syncfusion
 description: Learn here all about Selected data grid in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

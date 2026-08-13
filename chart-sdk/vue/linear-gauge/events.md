@@ -3,7 +3,7 @@ layout: post
 title: Events in Vue Linear Gauge | Syncfusion
 description: Use the Syncfusion Vue Linear Gauge events, such as animationComplete, load, drag, tooltipRender, and valueChange, to hook into the component lifecycle.
 control: Events 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

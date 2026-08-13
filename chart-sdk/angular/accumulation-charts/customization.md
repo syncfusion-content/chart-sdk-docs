@@ -2,7 +2,7 @@
 layout: post
 title: Customization in Angular Accumulation chart component | Syncfusion
 description: Learn here all about Customization in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Customization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

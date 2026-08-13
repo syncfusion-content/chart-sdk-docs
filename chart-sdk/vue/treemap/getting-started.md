@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue TreeMap | Syncfusion
 description: Set up a Vue 2 application and integrate the Syncfusion Vue TreeMap component with data binding, and a working example.
 control: TreeMap
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

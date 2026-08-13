@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue Smith Chart | Syncfusion
 description: Set up a Vue 2 application and integrate the Syncfusion Essential JS 2 Vue Smith Chart with module registration, and data binding.
 control: Smith Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

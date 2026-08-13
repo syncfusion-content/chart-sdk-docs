@@ -3,7 +3,7 @@ layout: post
 title: Gauge User Interaction in Vue Circular Gauge | Syncfusion
 description: Learn how to add tooltips for pointers, ranges, and annotations in the Vue Circular Gauge with template support and drag.
 control: Gauge User Interaction 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

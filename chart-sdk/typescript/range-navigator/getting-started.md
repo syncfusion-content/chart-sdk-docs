@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with TypeScript Range Navigator control | Syncfusion
 description: Check out and learn about Getting started with TypeScript Range Navigator control of Syncfusion Essential JS 2 and more details.
-platform: TypeScript
+platform: chart-sdk
 control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug

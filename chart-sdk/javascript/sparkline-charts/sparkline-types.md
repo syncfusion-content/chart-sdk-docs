@@ -2,7 +2,7 @@
 layout: post
 title: Sparkline types in JavaScript Sparkline control | Syncfusion
 description: Learn here all about Sparkline types in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Sparkline types 
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: 100% Stacked Column Chart in TypeScript 3D Chart | Syncfusion
 description: Learn here all about 100% stacked column chart in Syncfusion TypeScript 3D Chart control of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

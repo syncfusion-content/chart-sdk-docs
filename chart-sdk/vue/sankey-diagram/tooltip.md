@@ -3,7 +3,7 @@ layout: post
 title: ToolTip in Vue Sankey | Syncfusion
 description: Learn here all about ToolTip in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: ToolTip
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Appearance in Angular 3D Chart control | Syncfusion
 description: Learn here all about appearance in Syncfusion Angular 3D Chart control of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

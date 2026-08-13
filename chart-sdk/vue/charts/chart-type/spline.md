@@ -3,7 +3,7 @@ layout: post
 title: Spline Chart in Vue Chart | Syncfusion
 description: Learn here all about Spline in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Spline Chart
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

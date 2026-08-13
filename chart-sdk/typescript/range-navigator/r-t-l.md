@@ -2,7 +2,7 @@
 layout: post
 title: R t l in TypeScript Range Selector | Syncfusion
 description: Learn here all about R t l in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug

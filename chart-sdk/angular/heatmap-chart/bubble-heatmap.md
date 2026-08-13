@@ -2,7 +2,7 @@
 layout: post
 title: Bubble HeatMap in Angular HeatMap Chart | Syncfusion
 description: Learn here all about Bubble heatmap in Syncfusion Angular Heatmap chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Bubble heatmap 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

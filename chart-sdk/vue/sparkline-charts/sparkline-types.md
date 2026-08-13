@@ -3,7 +3,7 @@ layout: post
 title: Sparkline types in Vue Sparkline | Syncfusion
 description: Learn here all about Sparkline types in Syncfusion Vue Sparkline of Syncfusion Essential JS 2 and more.
 control: Sparkline types 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

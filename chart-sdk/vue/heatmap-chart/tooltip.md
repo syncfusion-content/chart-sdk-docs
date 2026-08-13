@@ -3,7 +3,7 @@ layout: post
 title: Tooltip in Vue HeatMap Chart | Syncfusion
 description: Show tooltips on the Syncfusion Vue HeatMap Chart control with customizable templates, fill, border, and text style for richer cell information display.
 control: Tooltip 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

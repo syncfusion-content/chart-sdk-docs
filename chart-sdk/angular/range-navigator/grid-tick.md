@@ -2,7 +2,7 @@
 layout: post
 title: Grid Tick in Angular Range Navigator | Syncfusion
 description: Learn here all about Grid tick in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Grid tick 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

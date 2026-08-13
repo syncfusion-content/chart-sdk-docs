@@ -3,7 +3,7 @@ layout: post
 title: Crosshair and Trackball in Vue Chart | Syncfusion
 description: Learn here all about Cross hair and track ball in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Cross hair and track ball 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

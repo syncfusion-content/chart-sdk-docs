@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in Angular Sankey | Syncfusion
 description: Learn here all about Print and Export in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Print and Export
-platform: Angular
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

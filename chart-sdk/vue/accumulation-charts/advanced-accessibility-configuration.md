@@ -3,7 +3,7 @@ layout: post
 title: Advanced Accessibility in Vue Accumulation Chart | Syncfusion
 description: Learn here all about Accessibility customization in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
 control: Accessibility customization
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

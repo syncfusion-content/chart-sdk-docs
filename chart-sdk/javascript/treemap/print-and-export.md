@@ -2,7 +2,7 @@
 layout: post
 title: Print and export in JavaScript Treemap control | Syncfusion
 description: Learn here all about Print and export in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: TreeMap
 publishingplatform: chart-sdk
 documentation: ug

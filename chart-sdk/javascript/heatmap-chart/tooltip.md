@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in JavaScript HeatMap Chart | Syncfusion
 description: Show default, templated, or styled tooltips on the JavaScript HeatMap Chart by configuring the tooltip module and tooltipRender event.
-platform: JavaScript
+platform: chart-sdk
 control: Tooltip 
 publishingplatform: chart-sdk
 documentation: ug

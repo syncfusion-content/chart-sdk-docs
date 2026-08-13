@@ -2,7 +2,7 @@
 layout: post
 title: Ranges in JavaScript Bullet Chart | Syncfusion
 description: Learn how to define qualitative ranges in the Syncfusion JavaScript Bullet Chart scale using the ranges property.
-platform: JavaScript
+platform: chart-sdk
 control: Bullet Chart 
 publishingplatform: chart-sdk
 documentation: ug

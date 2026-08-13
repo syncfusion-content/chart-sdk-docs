@@ -2,7 +2,7 @@
 layout: post
 title: Dimensions in JavaScript 3D Chart | Syncfusion
 description: Learn here all about dimensions in Syncfusion JavaScript 3D Chart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in Angular Circular Gauge | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Angular Circular gauge component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Accessibility
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

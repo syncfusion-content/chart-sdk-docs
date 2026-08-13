@@ -3,7 +3,7 @@ layout: post
 title: Working with Data in Vue Stock Chart | Syncfusion
 description: Learn here all about Working with data in Syncfusion Vue Stock chart component of Syncfusion Essential JS 2 and more.
 control: Working with data 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

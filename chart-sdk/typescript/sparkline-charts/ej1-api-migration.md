@@ -2,7 +2,7 @@
 layout: post
 title: Ej1 api migration in TypeScript Sparkline | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Ej1 api migration 
 publishingplatform: chart-sdk
 documentation: ug

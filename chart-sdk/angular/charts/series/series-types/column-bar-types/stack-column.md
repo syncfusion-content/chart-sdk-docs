@@ -2,7 +2,7 @@
 layout: post
 title: Stacked Column Chart in Angular Charts | Syncfusion
 description: Learn here all about Stacked Column Chart in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Stacked Column Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

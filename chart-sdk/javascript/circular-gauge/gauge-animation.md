@@ -2,7 +2,7 @@
 layout: post
 title: Animation in JavaScript Circular Gauge control | Syncfusion
 description: Learn here all about animation in the Syncfusion JavaScript Circular Gauge control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug

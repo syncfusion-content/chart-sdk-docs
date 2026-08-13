@@ -3,7 +3,7 @@ layout: post
 title: Methods in Vue Linear Gauge | Syncfusion
 description: Use the Syncfusion Vue Linear Gauge methods, such as setPointerValue, setAnnotationValue, and refresh, to update the component at runtime.
 control: Methods 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

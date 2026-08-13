@@ -2,7 +2,7 @@
 layout: post
 title: Migration from Essential JS 1 in JavaScript Chart | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

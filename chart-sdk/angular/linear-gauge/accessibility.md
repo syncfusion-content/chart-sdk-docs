@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in Angular Linear Gauge | Syncfusion
 description: Learn how the Syncfusion Angular Linear Gauge supports accessibility, including WCAG 2.2, Section 508, keyboard navigation, and screen reader support.
-platform: Angular
+platform: chart-sdk
 control: Accessibility 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

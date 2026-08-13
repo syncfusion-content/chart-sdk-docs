@@ -3,7 +3,7 @@ layout: post
 title: Events in Vue HeatMap Chart | Syncfusion
 description: Handle cell interactions in the Syncfusion Vue HeatMap Chart control using events like cellClick, cellRender, cellSelected, loaded, resized, and tooltipRender.
 control: Events 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

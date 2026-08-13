@@ -2,7 +2,7 @@
 layout: post
 title: Annotations in TypeScript Maps | Syncfusion
 description: Add custom text, images, shapes, or HTML elements at specific points on a TypeScript Maps to highlight areas of interest and overlay content.
-platform: TypeScript
+platform: chart-sdk
 control: Annotations 
 publishingplatform: chart-sdk
 documentation: ug

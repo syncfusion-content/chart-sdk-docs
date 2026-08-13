@@ -2,7 +2,7 @@
 layout: post
 title: Internationalization in TypeScript Maps | Syncfusion
 description: Learn here all about Internationalization in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Internationalization 
 publishingplatform: chart-sdk
 documentation: ug

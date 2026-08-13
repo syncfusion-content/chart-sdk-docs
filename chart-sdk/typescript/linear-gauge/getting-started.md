@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with TypeScript Linear Gauge control | Syncfusion
 description: Create and configure a Syncfusion JavaScript Linear Gauge in TypeScript using the Essential JS 2 webpack quickstart project.
-platform: TypeScript
+platform: chart-sdk
 control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug

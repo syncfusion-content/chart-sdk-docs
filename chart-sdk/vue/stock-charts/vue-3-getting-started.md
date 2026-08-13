@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue 3 Stock Charts | Syncfusion
 description: Quick guide to scaffold a Vite‑Vue 3 app and integrate Syncfusion Stock Chart with setup steps and examples for Composition and Options APIs.
 control: Vue 3 Getting Started
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

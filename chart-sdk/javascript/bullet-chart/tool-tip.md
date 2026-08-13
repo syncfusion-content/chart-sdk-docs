@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in JavaScript Bullet Chart | Syncfusion
 description: Learn how to enable and customize tooltips in the SyncfusionJavaScript Bullet Chart to display actual and target values.
-platform: JavaScript
+platform: chart-sdk
 control: Bullet Chart 
 publishingplatform: chart-sdk
 documentation: ug

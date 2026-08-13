@@ -2,7 +2,7 @@
 layout: post
 title: Axis in JavaScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart axis in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Smith chart axis 
 publishingplatform: chart-sdk
 documentation: ug

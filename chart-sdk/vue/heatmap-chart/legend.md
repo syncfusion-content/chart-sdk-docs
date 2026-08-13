@@ -3,7 +3,7 @@ layout: post
 title: Legend in Vue HeatMap Chart | Syncfusion
 description: Display a legend in the Syncfusion Vue HeatMap Chart control with gradient or list types, custom placement, alignment, dimensions, paging, and titles.
 control: Legend 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

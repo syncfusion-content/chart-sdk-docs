@@ -3,7 +3,7 @@ layout: post
 title: Color Mapping in Vue TreeMap | Syncfusion
 description: Learn here all about Color mapping in Syncfusion Vue Treemap component of Syncfusion Essential JS 2 and more.
 control: Color mapping 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

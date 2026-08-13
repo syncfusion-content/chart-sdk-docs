@@ -2,7 +2,7 @@
 layout: post
 title: Events in Angular Linear Gauge | Syncfusion
 description: Learn about the events available in the Syncfusion Angular Linear Gauge component, which are triggered when corresponding operations are performed.
-platform: Angular
+platform: chart-sdk
 control: Events 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

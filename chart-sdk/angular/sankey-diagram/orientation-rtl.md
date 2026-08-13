@@ -3,7 +3,7 @@ layout: post
 title: Orientation Rtl in Angular Sankey | Syncfusion
 description: Learn here all about Orientation and RTL in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Orientation and RTL
-platform: Angular
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

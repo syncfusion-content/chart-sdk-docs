@@ -2,7 +2,7 @@
 layout: post
 title: Bar Chart in TypeScript 3D Chart | Syncfusion
 description: Learn how to render a bar series in the Syncfusion TypeScript 3D Chart using the BarSeries3D module.
-platform: TypeScript
+platform: chart-sdk
 control: 3D Chart 
 publishingplatform: chart-sdk
 documentation: ug

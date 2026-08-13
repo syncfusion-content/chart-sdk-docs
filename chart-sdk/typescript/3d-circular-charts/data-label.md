@@ -2,7 +2,7 @@
 layout: post
 title: Data Label in TypeScript 3D Circular Chart | Syncfusion
 description: Learn here all about data label in Syncfusion TypeScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: 3D Circular Chart
 publishingplatform: chart-sdk
 documentation: ug

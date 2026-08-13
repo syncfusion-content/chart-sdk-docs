@@ -2,7 +2,7 @@
 layout: post
 title: Title and Subtitle in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Title subtitle in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Title subtitle 
 publishingplatform: chart-sdk
 documentation: ug

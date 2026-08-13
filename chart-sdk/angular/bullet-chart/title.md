@@ -2,7 +2,7 @@
 layout: post
 title: Title and Subtitle in Angular Bullet Chart | Syncfusion
 description: Learn here all about Title in Syncfusion Angular Bullet chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Title 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

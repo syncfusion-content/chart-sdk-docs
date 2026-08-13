@@ -3,7 +3,7 @@ layout: post
 title: Drilldown in Vue Maps component | Syncfusion
 description: Learn here all about Drilldown in Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
 control: Maps
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

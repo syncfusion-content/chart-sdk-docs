@@ -2,7 +2,7 @@
 layout: post
 title: How to create routes between markers in Angular Maps | Syncfusion
 description: Learn here all about creating routes between markers in the Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Maps 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

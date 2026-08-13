@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in JavaScript 3D Chart | Syncfusion
 description: Learn how to enable and customize tooltips in the Syncfusion JavaScript 3D Chart to display point details on hover.
-platform: JavaScript
+platform: chart-sdk
 control: 3D Chart 
 publishingplatform: chart-sdk
 documentation: ug

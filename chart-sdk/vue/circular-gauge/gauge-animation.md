@@ -3,7 +3,7 @@ layout: post
 title: Animation in Vue Circular Gauge component | Syncfusion
 description: Learn how to animate the axes, ticks, labels, ranges, pointers, and annotations in the Vue Circular Gauge component.
 control: Circular Gauge
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Migration from Essential JS 1 in Angular Accumulation Chart | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Ej1 api migration 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

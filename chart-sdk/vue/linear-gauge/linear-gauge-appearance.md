@@ -3,7 +3,7 @@ layout: post
 title: Appearance in Vue Linear Gauge | Syncfusion
 description: Customize the area, title, and container appearance of the Syncfusion Vue Linear Gauge, including background, borders, margins, and thermometer style.
 control: Linear gauge appearance 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

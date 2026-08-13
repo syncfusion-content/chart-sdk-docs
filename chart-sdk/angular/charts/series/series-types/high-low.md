@@ -2,7 +2,7 @@
 layout: post
 title: High Low Chart in Angular Charts | Syncfusion
 description: Learn here all about High Low in Syncfusion Angular Charts component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: High Low
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

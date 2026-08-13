@@ -2,7 +2,7 @@
 layout: post
 title: Layers in TypeScript Maps | Syncfusion
 description: Add multiple shape and map provider layers in TypeScript Maps to display GeoJSON data and tile sources together as a single layered visualization.
-platform: TypeScript
+platform: chart-sdk
 control: Layers 
 publishingplatform: chart-sdk
 documentation: ug

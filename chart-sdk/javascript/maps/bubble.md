@@ -2,7 +2,7 @@
 layout: post
 title: Bubble in JavaScript Maps | Syncfusion
 description: Add custom text, images, shapes, or HTML elements at specific points on a JavaScript Maps to highlight areas of interest and overlay content.
-platform: JavaScript
+platform: chart-sdk
 control: Bubble 
 publishingplatform: chart-sdk
 documentation: ug

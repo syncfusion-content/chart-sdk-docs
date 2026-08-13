@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue Sankey Chart Component | Syncfusion
 description: Quick guide to create a Vue 2 project and integrate the Syncfusion Vue Sankey Chart component; includes setup, module registration, data binding, and examples.
 control: Getting started 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

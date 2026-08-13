@@ -2,7 +2,7 @@
 layout: post
 title: Axis customization in JavaScript Sparkline control | Syncfusion
 description: Learn here all about Axis customization in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Axis customization 
 publishingplatform: chart-sdk
 documentation: ug

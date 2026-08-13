@@ -2,7 +2,7 @@
 layout: post
 title: Axes in JavaScript Circular Gauge | Syncfusion
 description: Learn here all about Gauge axes in Syncfusion JavaScript Circular Gauge of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug

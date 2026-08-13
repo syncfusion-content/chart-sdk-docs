@@ -2,7 +2,7 @@
 layout: post
 title: Bubble heatmap in TypeScript HeatMap Chart | Syncfusion
 description: Render JavaScript HeatMap Chart data points as bubbles with size, color, sector, or combined size-and-color attributes for richer visualizations.
-platform: TypeScript
+platform: chart-sdk
 control: Bubble heatmap 
 publishingplatform: chart-sdk
 documentation: ug

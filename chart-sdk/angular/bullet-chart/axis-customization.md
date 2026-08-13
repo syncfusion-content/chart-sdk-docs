@@ -2,7 +2,7 @@
 layout: post
 title: Axis Customization in Angular Bullet Chart | Syncfusion
 description: Learn here all about Axis customization in Syncfusion Angular Bullet chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Axis customization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in JavaScript 3D Chart | Syncfusion
 description: Learn how to make the Syncfusion JavaScript 3D Chart accessible using WAI-ARIA roles and keyboard navigation.
-platform: JavaScript
+platform: chart-sdk
 control: 3D Chart 
 publishingplatform: chart-sdk
 documentation: ug

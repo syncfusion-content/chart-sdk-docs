@@ -2,7 +2,7 @@
 layout: post
 title: Axis in Angular Linear Gauge | Syncfusion
 description: Learn how to customize the axis in the Syncfusion Angular Linear Gauge, including labels, ranges, pointers, and tick styles.
-platform: Angular
+platform: chart-sdk
 control: Axis 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

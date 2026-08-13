@@ -3,7 +3,7 @@ layout: post
 title: Range Band in Vue Sparkline | Syncfusion
 description: Learn here all about the Range band in Syncfusion Vue Sparkline of Syncfusion Essential JS 2 and more.
 control: Range band 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

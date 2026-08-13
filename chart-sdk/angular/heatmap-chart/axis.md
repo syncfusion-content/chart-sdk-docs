@@ -2,7 +2,7 @@
 layout: post
 title: Axis in Angular HeatMap Chart | Syncfusion
 description: Learn here all about axis in Syncfusion Angular HeatMap chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Axis 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

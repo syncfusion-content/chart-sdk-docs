@@ -3,7 +3,7 @@ layout: post
 title: Ranges in Vue Linear Gauge | Syncfusion
 description: Define and customize ranges in the Syncfusion Vue Linear Gauge, including colors, width, gradient fills, and label-color matching.
 control: Ranges 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

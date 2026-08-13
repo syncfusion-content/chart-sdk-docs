@@ -2,7 +2,7 @@
 layout: post
 title: Series types in TypeScript Stock Charts | Syncfusion
 description: Learn here all about Series types in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug

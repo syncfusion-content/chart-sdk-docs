@@ -2,7 +2,7 @@
 layout: post
 title: Pie and Doughnut in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to render pie and doughnut series in the Syncfusion JavaScript Accumulation Chart with various customizations.
-platform: JavaScript
+platform: chart-sdk
 control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

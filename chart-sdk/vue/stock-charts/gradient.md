@@ -3,7 +3,7 @@ layout: post
 title: Gradient in Vue Stock Chart | Syncfusion
 description: Learn here all about Gradient in Syncfusion Vue Stock chart component of Syncfusion Essential JS 2 and more.
 control: Gradient
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

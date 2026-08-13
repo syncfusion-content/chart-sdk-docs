@@ -3,7 +3,7 @@ layout: post
 title: Marker in Vue Sparkline | Syncfusion
 description: Learn here all about Marker in Syncfusion Vue Sparkline of Syncfusion Essential JS 2 and more.
 control: Marker 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

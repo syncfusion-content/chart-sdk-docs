@@ -2,7 +2,7 @@
 layout: post
 title: Create routes between markers in JavaScript Maps | Syncfusion
 description: Learn here all about creating routes between markers in the Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Maps 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Gradient in Vue Accumulation Chart | Syncfusion
 description: Learn here all about Gradient in Syncfusion Vue Accumulation Chart of Syncfusion Essential JS 2 and more.
 control: Gradient
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

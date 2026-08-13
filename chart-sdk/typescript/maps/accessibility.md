@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in TypeScript Maps | Syncfusion
 description: Learn here all about Accessibility in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Accessibility 
 publishingplatform: chart-sdk
 documentation: ug

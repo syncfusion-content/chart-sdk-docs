@@ -2,7 +2,7 @@
 layout: post
 title: Axis Labels in TypeScript 3D Chart | Syncfusion
 description: Learn how to customize axis labels in the Syncfusion TypeScript 3D Chart, including smart labels and edge label placement.
-platform: TypeScript
+platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Gauge Pointers in Vue Circular Gauge | Syncfusion
 description: Learn how to add and customize needle, range bar, and marker pointers in the Vue Circular Gauge component.
 control: Gauge Pointers 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

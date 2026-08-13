@@ -3,7 +3,7 @@ layout: post
 title: Axis in Vue Linear Gauge | Syncfusion
 description: Configure the axis of the Syncfusion Vue Linear Gauge, including start and end values, ticks, labels, multiple axes, and orientation.
 control: Axis 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

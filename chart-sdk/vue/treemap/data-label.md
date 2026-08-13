@@ -3,7 +3,7 @@ layout: post
 title: Data Label in Vue TreeMap | Syncfusion
 description: Learn here all about Data label in Syncfusion Vue Treemap component of Syncfusion Essential JS 2 and more.
 control: Data label 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

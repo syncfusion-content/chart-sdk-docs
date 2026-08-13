@@ -2,7 +2,7 @@
 layout: post
 title: Period Selector in Angular Range Navigator | Syncfusion
 description: Learn here all about Period selector in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Period selector 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

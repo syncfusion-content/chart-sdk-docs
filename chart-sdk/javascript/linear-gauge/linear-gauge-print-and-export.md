@@ -2,7 +2,7 @@
 layout: post
 title: Print and Export in JavaScript Linear Gauge | Syncfusion
 description: Learn here all about Linear gauge print and export in Syncfusion JavaScript Linear gauge control of Syncfusion Essential JS 2 and more.
-platform: JavaScript
+platform: chart-sdk
 control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug

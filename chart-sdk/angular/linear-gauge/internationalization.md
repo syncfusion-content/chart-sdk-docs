@@ -2,7 +2,7 @@
 layout: post
 title: Internationalization in Angular Linear Gauge | Syncfusion
 description: Learn how to globalize the number content in the Syncfusion Angular Linear Gauge component using the format property for different cultures and locales.
-platform: Angular
+platform: chart-sdk
 control: Internationalization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

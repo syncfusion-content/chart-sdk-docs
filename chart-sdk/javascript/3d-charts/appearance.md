@@ -2,7 +2,7 @@
 layout: post
 title: Appearance in JavaScript 3D Chart | Syncfusion
 description: Learn how to customize the appearance of the Syncfusion JavaScript 3D Chart using palettes, background, border, animation, and title.
-platform: JavaScript
+platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

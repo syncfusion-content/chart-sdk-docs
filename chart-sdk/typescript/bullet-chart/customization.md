@@ -2,7 +2,7 @@
 layout: post
 title: Customization in TypeScript Bullet Chart | Syncfusion
 description: Learn how to customize the Syncfusion TypeScript Bullet Chart, including orientation, flow direction, and animation.
-platform: TypeScript
+platform: chart-sdk
 control: Bullet Chart 
 publishingplatform: chart-sdk
 documentation: ug

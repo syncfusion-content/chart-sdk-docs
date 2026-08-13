@@ -2,7 +2,7 @@
 layout: post
 title: Gradient in Angular Accumulation Chart | Syncfusion
 description: Learn here all about Gradient in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: Angular
+platform: chart-sdk
 control: Gradient 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

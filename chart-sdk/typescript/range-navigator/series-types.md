@@ -2,7 +2,7 @@
 layout: post
 title: Series types in TypeScript Range Selector | Syncfusion
 description: Learn here all about Series types in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug

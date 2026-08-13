@@ -3,7 +3,7 @@ layout: post
 title: Palette in Vue HeatMap Chart | Syncfusion
 description: Configure color palettes in the Syncfusion Vue HeatMap Chart control using gradient or fixed types, custom color stops, and value-based color ranges for cells.
 control: Palette 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

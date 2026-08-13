@@ -3,7 +3,7 @@ layout: post
 title: Internationalization in Vue Circular Gauge component | Syncfusion
 description: Learn how to globalize number formats and render the Vue Circular Gauge in right-to-left layout for internationalization.
 control: Internationalization 
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

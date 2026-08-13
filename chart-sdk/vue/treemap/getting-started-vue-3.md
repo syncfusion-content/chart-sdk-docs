@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue 3 TreeMap | Syncfusion
 description: Create a Vite-based Vue 3 project and integrate the Syncfusion Vue TreeMap component with data binding using the Composition API or Options API.
 control: TreeMap
-platform: Vue
+platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

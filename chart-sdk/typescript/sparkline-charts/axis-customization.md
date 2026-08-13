@@ -2,7 +2,7 @@
 layout: post
 title: Axis customization in TypeScript Sparkline | Syncfusion
 description: Learn here all about Axis customization in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
-platform: TypeScript
+platform: chart-sdk
 control: Axis customization 
 publishingplatform: chart-sdk
 documentation: ug
