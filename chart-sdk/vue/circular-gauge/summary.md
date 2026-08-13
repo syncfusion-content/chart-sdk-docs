@@ -3,7 +3,7 @@ layout: post
 title: Summary in Vue Circular gauge component | Syncfusion
 description: Learn here all about Summary in Syncfusion Vue Circular gauge component of Syncfusion Essential JS 2 and more.
 control: Summary 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Dimensions in Vue HeatMap Chart | Syncfusion
 description: Set the size of the Syncfusion Vue HeatMap Chart control in pixels or percentage using width and height properties for responsive container-based layouts.
 control: Dimensions 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -3,7 +3,7 @@ layout: post
 title: High Low Open Close Chart in Vue Chart | Syncfusion
 description: Learn here all about High Low Open Close Chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: High Low Open Close Chart
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

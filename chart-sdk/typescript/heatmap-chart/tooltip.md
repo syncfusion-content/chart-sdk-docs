@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in TypeScript HeatMap Chart | Syncfusion
 description: Learn here all about Tooltip in Syncfusion TypeScript HeatMap Chart of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Tooltip 
 publishingplatform: chart-sdk
 documentation: ug

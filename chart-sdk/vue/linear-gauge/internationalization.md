@@ -3,7 +3,7 @@ layout: post
 title: Internationalization in Vue Linear Gauge | Syncfusion
 description: Globalize the numeric content of the Syncfusion Vue Linear Gauge by applying culture-specific number formats to axis labels and tooltips.
 control: Internationalization 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

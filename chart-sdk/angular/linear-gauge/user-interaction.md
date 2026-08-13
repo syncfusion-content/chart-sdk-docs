@@ -2,7 +2,7 @@
 layout: post
 title: User Interaction in Angular Linear Gauge | Syncfusion
 description: Learn about user interaction features in the Syncfusion Angular Linear Gauge, including tooltips and context menu support.
-platform: chart-sdk
+platform: Angular
 control: User interaction 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -3,7 +3,7 @@ layout: post
 title: Gauge Appearance in Vue Circular Gauge | Syncfusion
 description: Learn how to customize the title, position, background, margin, and radius of the Vue Circular Gauge component.
 control: Gauge Appearance 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

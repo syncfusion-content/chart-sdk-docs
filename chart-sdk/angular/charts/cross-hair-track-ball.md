@@ -2,7 +2,7 @@
 layout: post
 title: Cross hair track ball in Angular Chart component | Syncfusion
 description: Learn here all about Cross hair track ball in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Cross hair track ball 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -3,7 +3,7 @@ layout: post
 title: Gauge Legend in Vue Circular Gauge | Syncfusion
 description: Learn how to enable and customize the legend in the Vue Circular Gauge, including position, shape, paging, and toggle options.
 control: Gauge Legend 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

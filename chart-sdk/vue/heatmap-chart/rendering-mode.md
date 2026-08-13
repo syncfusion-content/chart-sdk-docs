@@ -3,7 +3,7 @@ layout: post
 title: Rendering mode in Vue HeatMap Chart | Syncfusion
 description: Switch between SVG and Canvas rendering in the Syncfusion Vue HeatMap Chart using the renderingMode property for improved performance on large datasets.
 control: Rendering mode 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Legend in TypeScript Stock Charts | Syncfusion
 description: Learn here all about Legend in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Stock Charts 
 publishingplatform: chart-sdk
 documentation: ug

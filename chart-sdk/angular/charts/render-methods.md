@@ -2,7 +2,7 @@
 layout: post
 title: Rendering Modes in Angular Chart | Syncfusion
 description: Learn here all about Render modes in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Render modes 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

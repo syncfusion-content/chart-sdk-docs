@@ -2,7 +2,7 @@
 layout: post
 title: How to hide axis on legend click in TypeScript Chart | Syncfusion
 description: Learn here all about Axis hide in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

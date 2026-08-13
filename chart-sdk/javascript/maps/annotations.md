@@ -2,7 +2,7 @@
 layout: post
 title: Annotations in JavaScript Maps | Syncfusion
 description: Add custom text, images, shapes, or HTML elements at specific points on a JavaScript Maps to highlight areas of interest and overlay content.
-platform: chart-sdk
+platform: JavaScript
 control: Annotations 
 publishingplatform: chart-sdk
 documentation: ug

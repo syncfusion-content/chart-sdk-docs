@@ -3,7 +3,7 @@ layout: post
 title: Leaf Item in Vue TreeMap | Syncfusion
 description: Learn here all about Leaf item in Syncfusion Vue TreeMap component of Syncfusion Essential JS 2 and more.
 control: Leaf item 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Selection in Angular HeatMap Chart | Syncfusion
 description: Learn here all about Selection in Syncfusion Angular HeatMap chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Selection 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

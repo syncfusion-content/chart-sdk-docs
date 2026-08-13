@@ -2,7 +2,7 @@
 layout: post
 title: Color mapping in TypeScript Treemap control | Syncfusion
 description: Learn here all about Color mapping in Syncfusion TypeScript Treemap control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: TreeMap
 publishingplatform: chart-sdk
 documentation: ug

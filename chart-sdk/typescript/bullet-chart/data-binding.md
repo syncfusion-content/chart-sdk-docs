@@ -2,7 +2,7 @@
 layout: post
 title: Working with Data in TypeScript Bullet Chart | Syncfusion
 description: Learn how to bind local and remote data to the Syncfusion TypeScript Bullet Chart using valueField and targetField.
-platform: chart-sdk
+platform: TypeScript
 control: Data binding 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Tool Tip in Angular Sankey | Syncfusion
 description: Learn here all about ToolTip in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: ToolTip
-platform: chart-sdk
+platform: Angular
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

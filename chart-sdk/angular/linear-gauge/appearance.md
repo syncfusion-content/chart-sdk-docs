@@ -2,7 +2,7 @@
 layout: post
 title: Appearance in Angular Linear gauge component | Syncfusion
 description: Learn how to customize the appearance of the Syncfusion Angular Linear Gauge, including container area, background, and border styles.
-platform: chart-sdk
+platform: Angular
 control: Appearance 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

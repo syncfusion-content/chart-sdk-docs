@@ -2,7 +2,7 @@
 layout: post
 title: Axis Labels in JavaScript 3D Chart | Syncfusion
 description: Learn how to customize axis labels in the Syncfusion JavaScript 3D Chart, including smart labels and edge label placement.
-platform: chart-sdk
+platform: JavaScript
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

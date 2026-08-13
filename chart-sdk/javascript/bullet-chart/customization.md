@@ -2,7 +2,7 @@
 layout: post
 title: Customization in JavaScript Bullet Chart | Syncfusion
 description: Learn how to customize the Syncfusion JavaScript Bullet Chart, including orientation, flow direction, and animation.
-platform: chart-sdk
+platform: JavaScript
 control: Bullet Chart 
 publishingplatform: chart-sdk
 documentation: ug

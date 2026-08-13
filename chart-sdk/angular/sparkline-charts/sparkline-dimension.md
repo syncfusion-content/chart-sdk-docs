@@ -2,7 +2,7 @@
 layout: post
 title: Sparkline Dimension in Angular Sparkline | Syncfusion
 description: Learn here all about Sparkline dimension in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Sparkline dimension 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

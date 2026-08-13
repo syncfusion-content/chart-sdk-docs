@@ -2,7 +2,7 @@
 layout: post
 title: Smith Chart Axis in Angular Smith Chart | Syncfusion
 description: Learn here all about Smith chart axis in Syncfusion Angular Smithchart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Smith chart axis 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

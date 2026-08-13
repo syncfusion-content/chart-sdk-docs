@@ -2,7 +2,7 @@
 layout: post
 title: User Interaction in Angular Sparkline | Syncfusion
 description: Learn here all about User interaction in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: User interaction 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

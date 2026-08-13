@@ -3,7 +3,7 @@ layout: post
 title: Accessibility customization in Vue Chart | Syncfusion
 description: Learn here all about Accessibility customization in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Accessibility customization
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

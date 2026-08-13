@@ -3,7 +3,7 @@ layout: post
 title: Levels in Vue TreeMap | Syncfusion
 description: Learn here all about Levels in Syncfusion Vue TreeMap component of Syncfusion Essential JS 2 and more.
 control: Levels 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

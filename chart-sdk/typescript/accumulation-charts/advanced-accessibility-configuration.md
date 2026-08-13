@@ -2,7 +2,7 @@
 layout: post
 title: Advanced Accessibility in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to customize accessibility features in the Syncfusion TypeScript Accumulation Chart for users with disabilities.
-platform: chart-sdk
+platform: TypeScript
 control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

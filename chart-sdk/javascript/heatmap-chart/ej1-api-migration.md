@@ -2,7 +2,7 @@
 layout: post
 title: Ej1 api migration in JavaScript HeatMap Chart | Syncfusion
 description: Migrate Essential JS 1 HeatMap properties, events, and member mappings to their JavaScript HeatMap Chart equivalents in Essential JS 2.
-platform: chart-sdk
+platform: JavaScript
 control: Ej1 api migration 
 publishingplatform: chart-sdk
 documentation: ug

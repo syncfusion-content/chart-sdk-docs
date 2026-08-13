@@ -2,7 +2,7 @@
 layout: post
 title: Range Step Area Chart in Angular Charts | Syncfusion
 description: Learn here all about Range Step Area Chart in Syncfusion Angular Charts component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Range Step Area Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

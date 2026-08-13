@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Angular Smith Chart | Syncfusion
 description: Check out and learn about getting started with the Angular Smith Chart component of Syncfusion Essential JS 2 and more details.
-platform: chart-sdk
+platform: Angular
 control: Getting Started
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -2,7 +2,7 @@
 layout: post
 title: Bar Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Bar in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Bar 
 publishingplatform: chart-sdk
 documentation: ug

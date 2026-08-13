@@ -2,7 +2,7 @@
 layout: post
 title: Dimensions in Angular Linear Gauge | Syncfusion
 description: Learn how to set the size and dimensions of the Syncfusion Angular Linear Gauge, including width, height, and container area.
-platform: chart-sdk
+platform: Angular
 control: Dimensions 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

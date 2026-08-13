@@ -2,7 +2,7 @@
 layout: post
 title: Internationalization in Angular TreeMap  | Syncfusion
 description: Learn here all about Internationalization in Syncfusion Angular Treemap component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Internationalization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in Vue Linear Gauge | Syncfusion
 description: Print the Syncfusion Vue Linear Gauge from the browser and export it as PNG, JPEG, SVG, or PDF, or as a base64 encoded string.
 control: Linear gauge print and export 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

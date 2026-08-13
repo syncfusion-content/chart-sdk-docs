@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue 3 3D Circular Chart | Syncfusion
 description: Create a Vite-based Vue 3 project and integrate the Syncfusion Essential JS 2 Vue 3D Circular Chart component using the Composition API or Options API.
 control: Vue 3 getting started
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

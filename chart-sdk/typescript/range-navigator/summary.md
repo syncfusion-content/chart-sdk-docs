@@ -2,7 +2,7 @@
 layout: post
 title: Summary in TypeScript Range navigator control | Syncfusion
 description: Learn here all about Summary in Syncfusion TypeScript Range navigator control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Summary 
 publishingplatform: chart-sdk
 documentation: ug

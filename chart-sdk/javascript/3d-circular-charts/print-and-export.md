@@ -2,7 +2,7 @@
 layout: post
 title: Print and Export in JavaScript 3D Circular Chart | Syncfusion
 description: Learn here all about print and export in Syncfusion JavaScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Print and Export
 publishingplatform: chart-sdk
 documentation: ug

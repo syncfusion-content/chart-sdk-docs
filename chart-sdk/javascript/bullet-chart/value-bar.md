@@ -2,7 +2,7 @@
 layout: post
 title: Value Bar in JavaScript Bullet Chart | Syncfusion
 description: Learn how to display the actual bar in the Syncfusion JavaScript Bullet Chart using the valueField property.
-platform: chart-sdk
+platform: JavaScript
 control: Bullet Chart
 publishingplatform: chart-sdk
 documentation: ug

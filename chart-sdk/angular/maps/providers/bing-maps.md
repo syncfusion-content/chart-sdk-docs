@@ -2,7 +2,7 @@
 layout: post
 title: Bing Maps in Angular Maps | Syncfusion
 description: Learn here all about Bing maps in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Bing maps 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -3,7 +3,7 @@ layout: post
 title: Events in Vue Sankey | Syncfusion
 description: Learn here all about Events in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Events
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

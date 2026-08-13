@@ -2,7 +2,7 @@
 layout: post
 title: Center Label in Angular Accumulation Chart | Syncfusion
 description: Learn here all about configuring and customizing the center label in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Center label
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

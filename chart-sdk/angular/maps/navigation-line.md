@@ -2,7 +2,7 @@
 layout: post
 title: Navigation Lines in Angular Maps | Syncfusion
 description: Learn here all about Navigation line in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Navigation line 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

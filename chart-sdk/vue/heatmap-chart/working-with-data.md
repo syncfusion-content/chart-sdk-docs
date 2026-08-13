@@ -3,7 +3,7 @@ layout: post
 title: Working with data in Vue HeatMap Chart | Syncfusion
 description: Bind data to the Syncfusion Vue HeatMap Chart control from JSON or two-dimensional arrays using adaptors for table and cell binding with empty point support.
 control: Working with data 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

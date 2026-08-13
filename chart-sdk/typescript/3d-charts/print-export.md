@@ -2,7 +2,7 @@
 layout: post
 title: Print and Export in TypeScript 3D Chart | Syncfusion
 description: Learn how to print and export the Syncfusion TypeScript 3D Chart from the browser using the built-in print method.
-platform: chart-sdk
+platform: TypeScript
 control: 3D Chart 
 publishingplatform: chart-sdk
 documentation: ug

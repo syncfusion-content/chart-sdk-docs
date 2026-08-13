@@ -2,7 +2,7 @@
 layout: post
 title: Ej1 Api Migration in Angular Range Navigator | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Ej1 api migration 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

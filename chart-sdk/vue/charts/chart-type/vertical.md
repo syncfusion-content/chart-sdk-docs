@@ -3,7 +3,7 @@ layout: post
 title: Vertical Chart in Vue Chart | Syncfusion
 description: Learn here all about Vertical Chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Vertical Chart
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

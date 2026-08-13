@@ -3,7 +3,7 @@ layout: post
 title: Nodes in Vue Sankey | Syncfusion
 description: Learn here all about Nodes in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Nodes
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

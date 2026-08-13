@@ -3,7 +3,7 @@ layout: post
 title: RTL in Vue Range Navigator | Syncfusion
 description: Learn here all about R t l in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: RTL 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

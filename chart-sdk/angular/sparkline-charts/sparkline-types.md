@@ -2,7 +2,7 @@
 layout: post
 title: Sparkline Types in Angular Sparkline | Syncfusion
 description: Learn here all about Sparkline types in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Sparkline types 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

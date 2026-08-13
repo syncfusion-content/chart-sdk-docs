@@ -3,7 +3,7 @@ layout: post
 title: Synchronized Charts in Vue Chart | Syncfusion
 description: Learn here all about Synchronized Charts in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Synchronized charts
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

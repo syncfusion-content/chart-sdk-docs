@@ -2,7 +2,7 @@
 layout: post
 title: Dimensions in TypeScript HeatMap Chart | Syncfusion
 description: Set the JavaScript HeatMap Chart width and height in pixels or as a percentage of its container for responsive layouts.
-platform: chart-sdk
+platform: TypeScript
 control: Dimensions 
 publishingplatform: chart-sdk
 documentation: ug

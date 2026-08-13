@@ -3,7 +3,7 @@ layout: post
 title: Feature Modules in Vue Chart | Syncfusion
 description: Learn here all about Module in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Module 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

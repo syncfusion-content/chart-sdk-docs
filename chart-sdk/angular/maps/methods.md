@@ -2,7 +2,7 @@
 layout: post
 title: Methods in Angular Maps | Syncfusion
 description: Learn here all about the methods in the Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Maps 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

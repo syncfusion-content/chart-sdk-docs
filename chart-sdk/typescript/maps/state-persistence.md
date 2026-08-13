@@ -2,7 +2,7 @@
 layout: post
 title: State persistence in TypeScript Maps | Syncfusion
 description: Persist TypeScript Maps state across page refreshes by enabling enablePersistence to retain zoom, center, and selection values in browser storage.
-platform: chart-sdk
+platform: TypeScript
 control: State persistence 
 publishingplatform: chart-sdk
 documentation: ug

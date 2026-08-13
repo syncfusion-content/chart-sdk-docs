@@ -3,7 +3,7 @@ layout: post
 title: Accessibility in Vue Smith Chart | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Vue Smithchart component of Syncfusion Essential JS 2 and more.
 control: Smith Chart 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

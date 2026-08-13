@@ -2,7 +2,7 @@
 layout: post
 title: DateTime Axis in JavaScript 3D Chart | Syncfusion
 description: Learn how to render the Syncfusion JavaScript 3D Chart with a DateTime axis that displays date and time scale values.
-platform: chart-sdk
+platform: JavaScript
 control: 3D Chart 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Axis customization in Vue Chart component | Syncfusion
 description: Learn here all about Axis customization in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Axis customization 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Center Label in Vue Accumulation Chart | Syncfusion
 description: Learn here all about Center Label in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
 control: Center Label
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

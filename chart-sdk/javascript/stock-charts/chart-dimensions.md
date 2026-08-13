@@ -2,7 +2,7 @@
 layout: post
 title: Chart dimensions in JavaScript Stock Charts | Syncfusion
 description: Learn here all about Chart dimensions in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug

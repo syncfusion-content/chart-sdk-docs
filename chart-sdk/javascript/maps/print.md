@@ -2,7 +2,7 @@
 layout: post
 title: Print in JavaScript Maps | Syncfusion
 description: Print and export JavaScript Maps as images in JPEG, PNG, or SVG formats, or save the rendered map as a PDF document from the browser.
-platform: chart-sdk
+platform: JavaScript
 control: Print 
 publishingplatform: chart-sdk
 documentation: ug

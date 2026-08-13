@@ -2,7 +2,7 @@
 layout: post
 title: Labels in Angular Range Navigator | Syncfusion
 description: Learn here all about Labels in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Labels 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

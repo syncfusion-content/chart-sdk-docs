@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in JavaScript Sankey Diagram | Syncfusion
 description: Learn here all about Print and Export in Syncfusion JavaScript Sankey Diagram of Syncfusion Essential JS 2 and more.
 control: Sankey Diagram
-platform: chart-sdk
+platform: JavaScript
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

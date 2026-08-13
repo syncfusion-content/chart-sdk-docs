@@ -2,7 +2,7 @@
 layout: post
 title: Axis Overview in Angular Chart | Syncfusion
 description: Learn about chart axes, axis elements, types of axes, and customization options in the Syncfusion Angular Chart component.
-platform: chart-sdk
+platform: Angular
 control: Axis Overview
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

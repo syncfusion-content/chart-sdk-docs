@@ -2,7 +2,7 @@
 layout: post
 title: Navigation line in TypeScript Maps | Syncfusion
 description: Draw curved navigation lines between two locations on a TypeScript Maps to represent flight routes, sea paths, or other connecting journeys.
-platform: chart-sdk
+platform: TypeScript
 control: Navigation line 
 publishingplatform: chart-sdk
 documentation: ug

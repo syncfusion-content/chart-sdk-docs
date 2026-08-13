@@ -3,7 +3,7 @@ layout: post
 title: Drilldown in Vue TreeMap | Syncfusion
 description: Learn here all about Drilldown in Syncfusion Vue Treemap component of Syncfusion Essential JS 2 and more.
 control: Drilldown 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

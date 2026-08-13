@@ -2,7 +2,7 @@
 layout: post
 title: Appearance in JavaScript Linear Gauge | Syncfusion
 description: Customize the appearance of the Syncfusion JavaScript Linear Gauge area, title, and container with background, border, margin, and container type options.
-platform: chart-sdk
+platform: JavaScript
 control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug

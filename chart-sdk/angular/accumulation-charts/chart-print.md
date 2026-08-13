@@ -2,7 +2,7 @@
 layout: post
 title: Print and Export in Angular Accumulation Chart | Syncfusion
 description: Learn here all about Chart print in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Chart print 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

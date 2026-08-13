@@ -3,7 +3,7 @@ layout: post
 title: Numeric Axis in Vue Chart | Syncfusion
 description: Learn here all about Numeric axis in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Numeric axis 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

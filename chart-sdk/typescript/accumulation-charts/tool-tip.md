@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to enable and customize tooltips in the Syncfusion TypeScript Accumulation Chart to display point details on hover.
-platform: chart-sdk
+platform: TypeScript
 control: Tooltip 
 publishingplatform: chart-sdk
 documentation: ug

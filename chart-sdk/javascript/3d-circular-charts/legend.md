@@ -2,7 +2,7 @@
 layout: post
 title: Legend in JavaScript 3D Circular Chart | Syncfusion
 description: Learn here all about legend in Syncfusion JavaScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Legend 
 publishingplatform: chart-sdk
 documentation: ug

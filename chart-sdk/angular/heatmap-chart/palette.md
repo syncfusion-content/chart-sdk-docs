@@ -2,7 +2,7 @@
 layout: post
 title: Palette in Angular HeatMap Chart | Syncfusion
 description: Learn here all about Palette in Syncfusion Angular Heatmap chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Palette 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

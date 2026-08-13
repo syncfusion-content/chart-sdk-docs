@@ -3,7 +3,7 @@ layout: post
 title: User Interaction in Vue Linear Gauge | Syncfusion
 description: Enable tooltips and pointer drag in the Syncfusion Vue Linear Gauge with custom tooltips, formats, templates, and pointer drag behavior.
 control: User interaction 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

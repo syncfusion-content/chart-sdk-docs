@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in TypeScript Sparkline | Syncfusion
 description: Learn here all about Accessibility in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Accessibility 
 publishingplatform: chart-sdk
 documentation: ug

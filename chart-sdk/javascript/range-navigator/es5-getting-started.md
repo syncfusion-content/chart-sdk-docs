@@ -2,7 +2,7 @@
 layout: post
 title: ES5 getting started with JavaScript Range Navigator control | Syncfusion
 description: Check out and learn about ES5 getting started with JavaScript Range Navigator control of Syncfusion Essential JS 2 and more details.
-platform: chart-sdk
+platform: JavaScript
 control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug

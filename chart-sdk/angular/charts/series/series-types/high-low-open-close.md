@@ -2,7 +2,7 @@
 layout: post
 title: High Low Open Close Chart in Angular Charts | Syncfusion
 description: Learn here all about High Low Open Close in Syncfusion Angular Charts component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: High Low Open Close
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

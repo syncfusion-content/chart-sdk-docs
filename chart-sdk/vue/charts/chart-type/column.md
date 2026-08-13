@@ -3,7 +3,7 @@ layout: post
 title: Column Chart in Vue Chart | Syncfusion
 description: Learn here all about Column in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Column Chart
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

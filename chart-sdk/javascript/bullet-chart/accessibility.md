@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in JavaScript Bullet Chart | Syncfusion
 description: Learn how to make the Syncfusion JavaScript Bullet Chart accessible using ADA, Section 508, WCAG 2.2, and ARIA roles.
-platform: chart-sdk
+platform: JavaScript
 control: Bullet Chart 
 publishingplatform: chart-sdk
 documentation: ug

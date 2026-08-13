@@ -3,7 +3,7 @@ layout: post
 title: Data labels in Vue Maps component | Syncfusion
 description: Learn here all about Data labels in Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
 control: Maps
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

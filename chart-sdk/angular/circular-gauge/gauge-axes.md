@@ -2,7 +2,7 @@
 layout: post
 title: Axes in Angular Circular Gauge | Syncfusion
 description: Learn here all about Gauge axes in Syncfusion Angular Circular gauge component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Axes 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

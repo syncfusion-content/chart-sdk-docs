@@ -3,7 +3,7 @@ layout: post
 title: Series Types in Vue Range Navigator | Syncfusion
 description: Learn here all about Series types in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: Series types 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

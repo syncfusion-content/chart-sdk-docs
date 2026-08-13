@@ -2,7 +2,7 @@
 layout: post
 title: Feature modules in JavaScript Chart | Syncfusion
 description: Learn here all about Module in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Chart 
 publishingplatform: chart-sdk
 documentation: ug

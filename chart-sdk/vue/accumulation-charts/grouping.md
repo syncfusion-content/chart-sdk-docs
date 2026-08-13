@@ -3,7 +3,7 @@ layout: post
 title: Grouping in Vue Accumulation Chart | Syncfusion
 description: Learn here all about Grouping in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
 control: Grouping 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

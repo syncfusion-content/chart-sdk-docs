@@ -2,7 +2,7 @@
 layout: post
 title: How to Customize Points in Angular Chart | Syncfusion
 description: Learn here all about Points customization in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Points customization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

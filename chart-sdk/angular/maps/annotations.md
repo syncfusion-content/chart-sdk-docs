@@ -2,7 +2,7 @@
 layout: post
 title: Annotation in Angular Maps | Syncfusion
 description: Learn here all about Annotations in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Annotations 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

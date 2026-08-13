@@ -2,7 +2,7 @@
 layout: post
 title: Methods in JavaScript Linear Gauge | Syncfusion
 description: Use the built-in methods of the JavaScript Linear Gauge such as setPointerValue, setAnnotationValue, and refresh to update the component dynamically.
-platform: chart-sdk
+platform: JavaScript
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

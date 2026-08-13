@@ -2,7 +2,7 @@
 layout: post
 title: About Syncfusion Angular Chart Component | Syncfusion
 description: Learn here all about the Chart component in Syncfusion Angular Chart of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

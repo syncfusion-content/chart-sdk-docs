@@ -3,7 +3,7 @@ layout: post
 title: Gauge Annotations in Vue Circular Gauge | Syncfusion
 description: Learn how to add custom content, images, or sub-gauges as annotations inside the Vue Circular Gauge component.
 control: Gauge Annotations 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

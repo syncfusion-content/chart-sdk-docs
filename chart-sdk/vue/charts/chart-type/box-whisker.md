@@ -3,7 +3,7 @@ layout: post
 title: Box and Whisker Chart in Vue Chart | Syncfusion
 description: Learn here all about Box and Whisker Chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Box and Whisker Chart
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

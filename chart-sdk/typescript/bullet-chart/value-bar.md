@@ -2,7 +2,7 @@
 layout: post
 title: Value Bar in TypeScript Bullet Chart | Syncfusion
 description: Learn how to display the actual bar in the Syncfusion TypeScript Bullet Chart using the valueField property.
-platform: chart-sdk
+platform: TypeScript
 control: Bullet Chart
 publishingplatform: chart-sdk
 documentation: ug

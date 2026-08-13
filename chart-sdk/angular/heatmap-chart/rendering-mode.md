@@ -2,7 +2,7 @@
 layout: post
 title: Rendering Mode in Angular HeatMap Chart | Syncfusion
 description: Learn here all about Rendering mode in Syncfusion Angular Heatmap chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Rendering mode 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

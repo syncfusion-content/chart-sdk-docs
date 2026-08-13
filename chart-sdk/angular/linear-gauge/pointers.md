@@ -2,7 +2,7 @@
 layout: post
 title: Pointers in Angular Linear Gauge | Syncfusion
 description: Learn how to configure and customize pointers in the Syncfusion Angular Linear Gauge, including pointer types, value, position, and styles.
-platform: chart-sdk
+platform: Angular
 control: Pointers 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

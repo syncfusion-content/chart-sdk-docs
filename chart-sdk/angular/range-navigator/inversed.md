@@ -2,7 +2,7 @@
 layout: post
 title: Inversed in Angular Range navigator component | Syncfusion
 description: Learn here all about Inversed in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Inversed 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

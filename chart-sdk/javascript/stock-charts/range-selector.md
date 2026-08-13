@@ -2,7 +2,7 @@
 layout: post
 title: Range selector in JavaScript Stock Charts | Syncfusion
 description: Learn here all about Range selector in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug

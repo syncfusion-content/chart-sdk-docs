@@ -2,7 +2,7 @@
 layout: post
 title: Sparkline dimensions in JavaScript Sparkline control | Syncfusion
 description: Learn here all about Sparkline dimensions in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Sparkline dimensions 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: How to create routes between markers in Maps component | Syncfusion
 description: Learn here all about creating routes between markers in the Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
 control: Maps
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

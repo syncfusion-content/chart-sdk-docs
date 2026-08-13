@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in JavaScript Maps | Syncfusion
 description: Learn here all about Accessibility in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Accessibility 
 publishingplatform: chart-sdk
 documentation: ug

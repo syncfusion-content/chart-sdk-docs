@@ -3,7 +3,7 @@ layout: post
 title: Data Labels in Vue Bullet Chart | Syncfusion
 description: Learn here all about Data label in Syncfusion Vue Bullet chart component of Syncfusion Essential JS 2 and more.
 control: Data label
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

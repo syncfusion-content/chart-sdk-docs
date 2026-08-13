@@ -3,7 +3,7 @@ layout: post
 title: Understanding Vue Chart | Syncfusion
 description: Explore and understand the Syncfusion Vue Chart component in Essential JS 2 and discover its powerful features.
 control: Understanding
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

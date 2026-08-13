@@ -2,7 +2,7 @@
 layout: post
 title: Layers in Angular Maps | Syncfusion
 description: Learn here all about Layers in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Layers 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

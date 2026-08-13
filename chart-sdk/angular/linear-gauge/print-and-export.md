@@ -2,7 +2,7 @@
 layout: post
 title: Print and Export in Angular Linear Gauge | Syncfusion
 description: Learn how to print and export the Syncfusion Angular Linear Gauge component as an image or printable document for sharing and reporting.
-platform: chart-sdk
+platform: Angular
 control: Print and export 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -3,7 +3,7 @@ layout: post
 title: Watterfall Chart in Vue Chart | Syncfusion
 description: Learn here all about Watterfall Chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Watterfall Chart
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

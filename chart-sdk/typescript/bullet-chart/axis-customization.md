@@ -2,7 +2,7 @@
 layout: post
 title: Axis customization in TypeScript Bullet Chart | Syncfusion
 description: Learn how to customize the major and minor tick lines and grid lines of the Syncfusion TypeScript Bullet Chart axis.
-platform: chart-sdk
+platform: TypeScript
 control: Bullet Chart
 publishingplatform: chart-sdk
 documentation: ug

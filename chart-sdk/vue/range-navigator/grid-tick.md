@@ -3,7 +3,7 @@ layout: post
 title: Grid and Tick Lines in Vue Range Navigator | Syncfusion
 description: Learn here all about Grid tick in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: Grid tick 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

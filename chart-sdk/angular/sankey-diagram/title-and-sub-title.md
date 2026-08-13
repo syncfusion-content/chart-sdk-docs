@@ -3,7 +3,7 @@ layout: post
 title: Title and Sub Title in Angular Sankey | Syncfusion
 description: Learn here all about Title and Subtitle in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Title and Subtitle
-platform: chart-sdk
+platform: Angular
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

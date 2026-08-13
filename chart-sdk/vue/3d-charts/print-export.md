@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in Vue 3D Chart | Syncfusion
 description: Learn here all about print and export in Syncfusion 3D Chart component of Syncfusion Essential JS 2 and more.
 control: 3D Chart
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

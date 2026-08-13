@@ -3,7 +3,7 @@ layout: post
 title: Tooltip in Vue Smith Chart | Syncfusion
 description: Learn here all about Smithchart tooltip in Syncfusion Vue Smithchart component of Syncfusion Essential JS 2 and more.
 control: Smith Chart
-platform: ej2-vue
+platform: Vue
 documentation: ug
 domainurl: ##DomainURL##
 ---

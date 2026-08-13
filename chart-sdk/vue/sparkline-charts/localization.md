@@ -3,7 +3,7 @@ layout: post
 title: Localization in Vue Sparkline | Syncfusion
 description: Learn here all about Localization in Syncfusion Vue Sparkline of Syncfusion Essential JS 2 and more.
 control: Localization 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

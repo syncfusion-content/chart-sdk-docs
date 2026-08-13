@@ -2,7 +2,7 @@
 layout: post
 title: Animation in Angular Linear Gauge | Syncfusion
 description: Learn how to animate the Syncfusion Angular Linear Gauge elements, such as axis, ticks, labels, ranges, and pointers, using animationDuration.
-platform: chart-sdk
+platform: Angular
 control: Animation
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

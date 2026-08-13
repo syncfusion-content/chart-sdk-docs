@@ -2,7 +2,7 @@
 layout: post
 title: Pyramid in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to render a pyramid series in the Syncfusion TypeScript Accumulation Chart using the PyramidSeries module.
-platform: chart-sdk
+platform: TypeScript
 control: Accumulation Chart 
 publishingplatform: chart-sdk
 documentation: ug

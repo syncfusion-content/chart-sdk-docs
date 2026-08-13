@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart tooltip in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Smith chart tooltip 
 publishingplatform: chart-sdk
 documentation: ug

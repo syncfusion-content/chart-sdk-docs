@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue Range Navigator Component | Syncfusion
 description: Set up a Vue 2 app and integrate the Syncfusion EJ2 Vue Range Navigator with setup steps, module registration, data binding and a full working example.
 control: Getting started
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

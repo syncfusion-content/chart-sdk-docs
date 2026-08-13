@@ -2,7 +2,7 @@
 layout: post
 title: Ej1 api migration in JavaScript Sparkline control | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Ej1 api migration 
 publishingplatform: chart-sdk
 documentation: ug

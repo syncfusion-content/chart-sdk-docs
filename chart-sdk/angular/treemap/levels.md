@@ -2,7 +2,7 @@
 layout: post
 title: Levels in Angular TreeMap | Syncfusion
 description: Learn here all about Levels in Syncfusion Angular Treemap component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Levels 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

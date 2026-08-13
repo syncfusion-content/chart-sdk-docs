@@ -2,7 +2,7 @@
 layout: post
 title: Chart axis in Angular Chart component | Syncfusion
 description: Learn here all about Chart axis in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Chart axis 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

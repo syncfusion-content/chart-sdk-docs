@@ -2,7 +2,7 @@
 layout: post
 title: Advanced Accessibility in Angular Accumulation Chart | Syncfusion
 description: Learn here all about Accessibility customization in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Accessibility customization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -3,7 +3,7 @@ layout: post
 title: Axis in Vue HeatMap Chart | Syncfusion
 description: Configure X and Y axes in the Syncfusion Vue HeatMap Chart with categorical, numeric, and date-time types, including labels, intervals, and multilevel features.
 control: Axis 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

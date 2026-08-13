@@ -3,7 +3,7 @@ layout: post
 title: Pointers in Vue Linear Gauge | Syncfusion
 description: Configure marker and bar pointers in the Syncfusion Vue Linear Gauge with custom shapes, labels, animations, and multiple pointers.
 control: Pointers 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Axis Customization in JavaScript 3D Chart | Syncfusion
 description: Learn how to customize the axes of the Syncfusion JavaScript 3D Chart 3D Chart, including titles, labels, and tick lines.
-platform: chart-sdk
+platform: JavaScript
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

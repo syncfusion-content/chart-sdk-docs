@@ -2,7 +2,7 @@
 layout: post
 title: Methods in JavaScript Maps | Syncfusion
 description: Use public JavaScript Maps methods to retrieve coordinates, manipulate layers, refresh content, and export map visualizations programmatically.
-platform: chart-sdk
+platform: JavaScript
 control: Maps 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue Sankey Chart Component in Vue 3 | Syncfusion
 description: Scaffold a Vue 3 project with Vite and integrate Syncfusion EJ2 Vue Sankey Chart, featuring examples using both the Composition and Options APIs.
 control: Vue 3 Getting Started
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

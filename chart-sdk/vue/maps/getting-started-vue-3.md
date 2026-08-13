@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with the Vue Maps Component in Vue 3 | Syncfusion
 description: Learn how to set up a Vue 3 and Vite project from scratch and integrate the Syncfusion Vue Maps component to render geographic data.
 control: Maps
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

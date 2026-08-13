@@ -3,7 +3,7 @@ layout: post
 title: Dimensions in Vue Linear Gauge | Syncfusion
 description: Set the width and height of the Syncfusion Vue Linear Gauge in pixels or as a percentage to make the component responsive in Vue apps.
 control: Linear gauge dimensions 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

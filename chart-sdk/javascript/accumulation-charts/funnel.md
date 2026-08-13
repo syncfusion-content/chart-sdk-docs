@@ -2,7 +2,7 @@
 layout: post
 title: Funnel in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to render a funnel series in the Syncfusion JavaScript Accumulation Chart using the FunnelSeries module.
-platform: chart-sdk
+platform: JavaScript
 control: FAccumulation Chart 
 publishingplatform: chart-sdk
 documentation: ug

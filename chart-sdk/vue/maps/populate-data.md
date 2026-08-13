@@ -3,7 +3,7 @@ layout: post
 title: Populate data in Vue Maps component | Syncfusion
 description: Learn here all about Populate data in Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
 control: Maps
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

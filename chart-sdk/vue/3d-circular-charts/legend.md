@@ -3,7 +3,7 @@ layout: post
 title: Legend in Vue 3D Circular Chart | Syncfusion
 description: Learn here all about legend in Syncfusion Vue 3D Circular Chart component of Syncfusion Essential JS 2 and more.
 control: Legend 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

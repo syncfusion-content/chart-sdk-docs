@@ -2,7 +2,7 @@
 layout: post
 title: Legend in TypeScript Maps | Syncfusion
 description: Show color, shape, or symbol legends on a TypeScript Maps that describe the meaning of each visual element for the displayed geographic data.
-platform: chart-sdk
+platform: TypeScript
 control: Legend 
 publishingplatform: chart-sdk
 documentation: ug

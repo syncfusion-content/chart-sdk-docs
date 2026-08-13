@@ -2,7 +2,7 @@
 layout: post
 title: Axes in JavaScript Linear Gauge | Syncfusion
 description: Configure axes, ticks, labels, and orientation in the JavaScript Linear Gauge for clear numeric scale rendering.
-platform: chart-sdk
+platform: JavaScript
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

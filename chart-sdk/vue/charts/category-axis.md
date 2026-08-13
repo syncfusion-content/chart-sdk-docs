@@ -3,7 +3,7 @@ layout: post
 title: Category axis in Vue Chart | Syncfusion
 description: Learn here all about Category axis in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Category axis 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

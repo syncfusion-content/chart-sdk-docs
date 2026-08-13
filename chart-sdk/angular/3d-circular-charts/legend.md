@@ -2,7 +2,7 @@
 layout: post
 title: Legend in Angular 3D Circular Chart | Syncfusion
 description: Learn here all about legend in Syncfusion Angular 3D Circular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Legend 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

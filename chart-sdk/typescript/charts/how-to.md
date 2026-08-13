@@ -2,7 +2,7 @@
 layout: post
 title: How to in TypeScript Chart | Syncfusion
 description: Learn here all about How to in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: How to 
 publishingplatform: chart-sdk
 documentation: ug

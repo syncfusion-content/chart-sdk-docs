@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in TypeScript Linear Gauge | Syncfusion
 description: Learn about the accessibility features of the TypeScript Linear Gauge, including ARIA attributes, screen reader support, and WCAG compliance.
-platform: chart-sdk
+platform: TypeScript
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Print and Export in Angular 3D Circular Chart | Syncfusion
 description: Learn here all about print and export in Syncfusion Angular 3D Circular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Print and Export
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

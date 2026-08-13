@@ -3,7 +3,7 @@ layout: post
 title: Gauge Dimensions in Vue Circular Gauge | Syncfusion
 description: Learn how to set the width and height of the Vue Circular Gauge using pixel or percentage values to fit its container.
 control: Gauge Dimensions 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

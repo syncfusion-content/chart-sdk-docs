@@ -2,7 +2,7 @@
 layout: post
 title: Center Label in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to place a label at the center of a pie or doughnut chart in the Syncfusion JavaScript Accumulation Chart.
-platform: chart-sdk
+platform: JavaScript
 control: Center label 
 publishingplatform: chart-sdk
 documentation: ug

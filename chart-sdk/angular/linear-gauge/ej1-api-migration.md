@@ -2,7 +2,7 @@
 layout: post
 title: EJ1 API Migration in Angular Linear Gauge | Syncfusion
 description: Learn how to migrate the Syncfusion Angular Linear Gauge component from Essential JS 1 to Essential JS 2 using the API migration guide.
-platform: chart-sdk
+platform: Angular
 control: Ej1 api migration 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

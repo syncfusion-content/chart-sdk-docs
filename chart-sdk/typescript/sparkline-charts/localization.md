@@ -2,7 +2,7 @@
 layout: post
 title: Localization in TypeScript Sparkline | Syncfusion
 description: Learn here all about Localization in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Localization 
 publishingplatform: chart-sdk
 documentation: ug

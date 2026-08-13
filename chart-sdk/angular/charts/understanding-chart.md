@@ -2,7 +2,7 @@
 layout: post
 title: Understanding the Chart in Angular Chart | Syncfusion
 description: Explore and understand the Syncfusion Angular Chart component in Essential JS 2 and discover its powerful features.
-platform: chart-sdk
+platform: Angular
 control: Understanding
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

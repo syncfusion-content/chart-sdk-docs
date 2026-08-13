@@ -2,7 +2,7 @@
 layout: post
 title: Axis Customization in Angular 3D Chart | Syncfusion
 description: Learn here all about axis customization in Syncfusion Angular 3D Chart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: 3D Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -2,7 +2,7 @@
 layout: post
 title: Marker in TypeScript Sparkline | Syncfusion
 description: Learn here all about Marker in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Marker 
 publishingplatform: chart-sdk
 documentation: ug

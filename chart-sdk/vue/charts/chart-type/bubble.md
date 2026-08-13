@@ -3,7 +3,7 @@ layout: post
 title: Bubble Chart in Vue Chart | Syncfusion
 description: Learn here all about Bubble Chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Bubble Chart
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

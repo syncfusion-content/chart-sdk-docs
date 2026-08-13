@@ -2,7 +2,7 @@
 layout: post
 title: ES5 getting started with JavaScript Chart control | Syncfusion
 description: Check out and learn about ES5 getting started with JavaScript Chart control of Syncfusion Essential JS 2 and more details.
-platform: chart-sdk
+platform: JavaScript
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with TypeScript HeatMap Chart | Syncfusion
 description: Create a JavaScript HeatMap Chart in TypeScript with the Syncfusion EJ2 webpack quickstart, including setup, rendering, and module injection.
-platform: chart-sdk
+platform: TypeScript
 control: HeatMap
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with TypeScript Accumulation Chart | Syncfusion
 description: Learn how to get started with the Syncfusion TypeScript Accumulation Chart in a TypeScript application using the EJ2 webpack quickstart.
-platform: chart-sdk
+platform: TypeScript
 control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

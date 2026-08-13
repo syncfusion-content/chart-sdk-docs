@@ -2,7 +2,7 @@
 layout: post
 title: Polygon in TypeScript Maps | Syncfusion
 description: Render custom polygon overlays on TypeScript Maps to highlight regions, mark zones, or draw boundaries using latitude and longitude coordinates.
-platform: chart-sdk
+platform: TypeScript
 control: Polygon 
 publishingplatform: chart-sdk
 documentation: ug

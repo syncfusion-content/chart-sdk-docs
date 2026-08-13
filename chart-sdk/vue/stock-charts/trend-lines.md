@@ -3,7 +3,7 @@ layout: post
 title: Trendlines in Vue Stock Chart | Syncfusion
 description: Learn here all about Trend lines in Syncfusion Vue Stock chart component of Syncfusion Essential JS 2 and more.
 control: Trend lines 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

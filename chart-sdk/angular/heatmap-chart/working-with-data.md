@@ -2,7 +2,7 @@
 layout: post
 title: Working with data in Angular HeatMap Chart | Syncfusion
 description: Learn here all about Working with data in Syncfusion Angular Heatmap chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Working with data 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

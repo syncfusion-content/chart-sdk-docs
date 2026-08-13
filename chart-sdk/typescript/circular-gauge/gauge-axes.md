@@ -2,7 +2,7 @@
 layout: post
 title: Axes in TypeScript Circular Gauge | Syncfusion
 description: Learn here all about Gauge axes in Syncfusion TypeScript Circular Gauge of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug

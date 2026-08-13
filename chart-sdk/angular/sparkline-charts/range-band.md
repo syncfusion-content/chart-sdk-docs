@@ -2,7 +2,7 @@
 layout: post
 title: Range Band in Angular Sparkline | Syncfusion
 description: Learn here all about Range band in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Range band 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

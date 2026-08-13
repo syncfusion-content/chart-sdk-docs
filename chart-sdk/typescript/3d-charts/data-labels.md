@@ -2,7 +2,7 @@
 layout: post
 title: Data labels in TypeScript 3D Chart | Syncfusion
 description: Learn how to add and customize data labels in the Syncfusion TypeScript 3D Chart for each chart series.
-platform: chart-sdk
+platform: TypeScript
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

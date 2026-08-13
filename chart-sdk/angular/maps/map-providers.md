@@ -2,7 +2,7 @@
 layout: post
 title: Map providers in Angular Maps component | Syncfusion
 description: Learn here all about Map providers in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Map providers 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -2,7 +2,7 @@
 layout: post
 title: Multiple Panes in Angular Chart | Syncfusion
 description: Learn here all about Multiple panes in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Multiple panes 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

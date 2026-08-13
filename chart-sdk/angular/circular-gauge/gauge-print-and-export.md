@@ -2,7 +2,7 @@
 layout: post
 title: Print and Export in Angular Circular Gauge | Syncfusion
 description: Learn here all about Gauge print and export in Syncfusion Angular Circular gauge component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Print and Export
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

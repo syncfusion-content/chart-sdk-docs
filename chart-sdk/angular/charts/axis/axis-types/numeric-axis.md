@@ -2,7 +2,7 @@
 layout: post
 title: Numeric Axis in Angular Chart | Syncfusion
 description: Learn here all about Numeric axis in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Numeric axis 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

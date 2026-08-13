@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in Angular TreeMap | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Angular TreeMap component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Accessibility 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -2,7 +2,7 @@
 layout: post
 title: Grouping in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to group data points in the Syncfusion JavaScript Accumulation Chart using the groupTo property.
-platform: chart-sdk
+platform: JavaScript
 control: Accumulation Chart 
 publishingplatform: chart-sdk
 documentation: ug

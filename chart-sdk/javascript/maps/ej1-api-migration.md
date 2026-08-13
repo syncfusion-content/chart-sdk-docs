@@ -2,7 +2,7 @@
 layout: post
 title: EJ1 API migration in JavaScript Maps | Syncfusion
 description: Migrate JavaScript Maps applications from Essential JS 1 to Essential JS 2 by mapping old APIs to their new equivalents with side-by-side examples.
-platform: chart-sdk
+platform: JavaScript
 control: Ej1 api migration 
 publishingplatform: chart-sdk
 documentation: ug

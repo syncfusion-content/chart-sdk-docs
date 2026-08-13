@@ -2,7 +2,7 @@
 layout: post
 title: Working with Data in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Working with data in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Working with data 
 publishingplatform: chart-sdk
 documentation: ug

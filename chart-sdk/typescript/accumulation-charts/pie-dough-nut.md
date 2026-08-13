@@ -2,7 +2,7 @@
 layout: post
 title: Pie and Doughnut in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to render pie and doughnut series in the Syncfusion TypeScript Accumulation Chart with various customizations.
-platform: chart-sdk
+platform: TypeScript
 control: Pie dough nut 
 publishingplatform: chart-sdk
 documentation: ug

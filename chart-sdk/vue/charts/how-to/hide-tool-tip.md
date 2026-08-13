@@ -3,7 +3,7 @@ layout: post
 title: How to hide tooltip in Vue Chart | Syncfusion
 description: Learn here all about Hide tool tip in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Hide tool tip
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

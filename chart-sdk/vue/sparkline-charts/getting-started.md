@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue Sparkline | Syncfusion
 description: Set up a Vue 2 application and integrate the Syncfusion Vue Sparkline control with component registration, and data binding.
 control: Getting started
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

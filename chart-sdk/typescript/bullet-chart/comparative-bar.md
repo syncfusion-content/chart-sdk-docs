@@ -2,7 +2,7 @@
 layout: post
 title: Comparative Bar in TypeScript Bullet Chart | Syncfusion
 description: Learn how to display the target bar in the Syncfusion TypeScript Bullet Chart using the targetField property.
-platform: chart-sdk
+platform: TypeScript
 control: Comparative Bar 
 publishingplatform: chart-sdk
 documentation: ug

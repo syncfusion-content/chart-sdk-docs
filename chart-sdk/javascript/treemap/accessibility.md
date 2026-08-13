@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in JavaScript TreeMap control | Syncfusion
 description: Learn here all about Accessibility in Syncfusion JavaScript TreeMap control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: ATreeMap 
 publishingplatform: chart-sdk
 documentation: ug

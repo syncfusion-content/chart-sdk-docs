@@ -3,7 +3,7 @@ layout: post
 title: Markers in Vue Chart | Syncfusion
 description: Learn here all about Data markers in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Data markers 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

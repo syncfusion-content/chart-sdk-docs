@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue 2 Linear Gauge | Syncfusion
 description: Learn how to get started with the Syncfusion Vue 2 Linear Gauge control. Explore setup, features, examples, and customization options.
 control: Getting started
-platform: chart-sdk
+platform: Vue
 documentation: ug
 framework-version: 2
 domainurl: https://help.syncfusion.com/chart-sdk

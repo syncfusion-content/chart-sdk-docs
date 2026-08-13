@@ -2,7 +2,7 @@
 layout: post
 title: Range band in TypeScript Sparkline | Syncfusion
 description: Learn here all about Range band in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Range band 
 publishingplatform: chart-sdk
 documentation: ug

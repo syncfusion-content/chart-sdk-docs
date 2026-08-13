@@ -3,7 +3,7 @@ layout: post
 title: Labels in Vue Range Navigator | Syncfusion
 description: Learn here all about Labels in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: Labels 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

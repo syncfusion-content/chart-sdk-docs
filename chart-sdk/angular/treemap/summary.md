@@ -2,7 +2,7 @@
 layout: post
 title: Summary in Angular Treemap component | Syncfusion
 description: Learn here all about Summary in Syncfusion Angular Treemap component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Summary 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

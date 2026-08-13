@@ -2,7 +2,7 @@
 layout: post
 title: Empty Points in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to handle and customize empty data points in the Syncfusion TypeScript Accumulation Chart.
-platform: chart-sdk
+platform: TypeScript
 control:  Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

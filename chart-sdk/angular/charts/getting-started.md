@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Angular Chart | Syncfusion
 description: Check out and learn about the Getting Started with Angular Chart component of Syncfusion Essential JS 2 and more details.
-platform: chart-sdk
+platform: Angular
 control: Getting Started 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

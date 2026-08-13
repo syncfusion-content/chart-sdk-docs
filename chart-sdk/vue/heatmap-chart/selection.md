@@ -3,7 +3,7 @@ layout: post
 title: Selection in Vue HeatMap Chart | Syncfusion
 description: Select single or multiple cells in the Syncfusion Vue HeatMap Chart control using mouse, touch, or keyboard interactions with the allowSelection property.
 control: Selection 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

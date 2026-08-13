@@ -2,7 +2,7 @@
 layout: post
 title: Grouping in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to group data points in the Syncfusion TypeScript Accumulation Chart using the groupTo property.
-platform: chart-sdk
+platform: TypeScript
 control: Accumulation Chart 
 publishingplatform: chart-sdk
 documentation: ug

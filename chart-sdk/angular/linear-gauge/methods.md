@@ -2,7 +2,7 @@
 layout: post
 title: Methods in Angular Linear Gauge | Syncfusion
 description: Learn about the methods available in the Syncfusion Angular Linear Gauge component, such as setPointerValue and setAnnotationValue.
-platform: chart-sdk
+platform: Angular
 control: Methods 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

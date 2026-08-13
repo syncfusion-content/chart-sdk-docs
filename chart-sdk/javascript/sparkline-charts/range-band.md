@@ -2,7 +2,7 @@
 layout: post
 title: Range band in JavaScript Sparkline control | Syncfusion
 description: Learn here all about Range band in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Range band 
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Bubble heatmap in JavaScript HeatMap Chart | Syncfusion
 description: Render JavaScript HeatMap Chart data points as bubbles with size, color, sector, or combined size-and-color attributes for richer visualizations.
-platform: chart-sdk
+platform: JavaScript
 control: Bubble heatmap 
 publishingplatform: chart-sdk
 documentation: ug

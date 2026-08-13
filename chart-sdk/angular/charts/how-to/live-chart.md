@@ -2,7 +2,7 @@
 layout: post
 title: How to Live Chart in Angular Chart | Syncfusion
 description: Learn here all about Live chart in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Live chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

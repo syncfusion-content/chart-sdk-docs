@@ -3,7 +3,7 @@ layout: post
 title: Stripline in Vue Chart | Syncfusion
 description: Learn here all about Strip line in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Strip line 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

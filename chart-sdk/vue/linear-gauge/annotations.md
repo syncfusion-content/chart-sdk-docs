@@ -3,7 +3,7 @@ layout: post
 title: Annotations in Vue Linear Gauge | Syncfusion
 description: Add text, image, or HTML annotations to the Syncfusion Vue Linear Gauge and customize their position, alignment, and z-index.
 control: Annotations 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Event in TypeScript Maps control | Syncfusion
 description: Learn here all about Event in Syncfusion TypeScript Maps control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Event 
 publishingplatform: chart-sdk
 documentation: ug

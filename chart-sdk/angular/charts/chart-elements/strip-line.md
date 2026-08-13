@@ -2,7 +2,7 @@
 layout: post
 title: Stripline in Angular Chart | Syncfusion
 description: Learn here all about strip line in Syncfusion Essential Angular Chart component, it's elements and more.
-platform: chart-sdk
+platform: Angular
 control: Strip line 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

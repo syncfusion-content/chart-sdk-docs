@@ -2,7 +2,7 @@
 layout: post
 title: Bar Chart in Angular Charts | Syncfusion
 description: Learn here all about Bar Chart in Syncfusion Angular Charts component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Bar Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

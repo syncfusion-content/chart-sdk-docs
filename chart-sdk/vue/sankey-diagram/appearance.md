@@ -3,7 +3,7 @@ layout: post
 title: Appearance in Vue Sankey | Syncfusion
 description: Learn here all about Appearance in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Appearance 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

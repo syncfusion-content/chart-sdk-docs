@@ -2,7 +2,7 @@
 layout: post
 title: Center Label in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to place a label at the center of a pie or doughnut chart in the Syncfusion TypeScript Accumulation Chart.
-platform: chart-sdk
+platform: TypeScript
 control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

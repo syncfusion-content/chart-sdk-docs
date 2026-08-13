@@ -2,7 +2,7 @@
 layout: post
 title: Migration from Essential JS 1 in Angular Circular Gauge | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion Angular Circular gauge component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: EJ1 API Migration
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

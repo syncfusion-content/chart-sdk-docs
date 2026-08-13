@@ -2,7 +2,7 @@
 layout: post
 title: Linear Gauge Dimensions in JavaScript Linear Gauge | Syncfusion
 description: Learn how to set the width and height of the JavaScript Linear Gauge using pixel values or percentage values for a responsive layout.
-platform: chart-sdk
+platform: JavaScript
 control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug

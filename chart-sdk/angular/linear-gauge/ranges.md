@@ -2,7 +2,7 @@
 layout: post
 title: Ranges in Angular Linear Gauge | Syncfusion
 description: Learn how to add and customize ranges in the Syncfusion Angular Linear Gauge component to highlight specific value intervals on the axis.
-platform: chart-sdk
+platform: Angular
 control: Ranges 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

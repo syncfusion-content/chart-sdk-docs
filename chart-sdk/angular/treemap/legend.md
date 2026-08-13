@@ -2,7 +2,7 @@
 layout: post
 title: Legend in Angular TreeMap | Syncfusion
 description: Learn here all about Legend in Syncfusion Angular Treemap component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Legend 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

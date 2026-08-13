@@ -3,7 +3,7 @@ layout: post
 title: Title and Subtitle in Vue Chart | Syncfusion
 description: Learn here all about Chart title in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Chart title
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

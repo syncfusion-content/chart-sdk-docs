@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in Angular Accumulation Chart | Syncfusion
 description: Learn here all about Tooltip in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Tooltip 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

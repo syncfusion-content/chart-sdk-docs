@@ -2,7 +2,7 @@
 layout: post
 title: Tooltip in JavaScript 3D Circular Chart | Syncfusion
 description: Learn here all about tooltip in Syncfusion JavaScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Tooltip 
 publishingplatform: chart-sdk
 documentation: ug

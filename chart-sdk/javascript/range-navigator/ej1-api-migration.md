@@ -2,7 +2,7 @@
 layout: post
 title: Ej1 api migration in JavaScript Range Selector | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion JavaScript Range Selector of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug

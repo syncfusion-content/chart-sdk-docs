@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with TypeScript Sankey control | Syncfusion
 description: Check out and learn about Getting started with TypeScript Sankey control of Syncfusion Essential JS 2 and more details.
-platform: chart-sdk
+platform: TypeScript
 control: Sankey
 publishingplatform: chart-sdk
 documentation: ug

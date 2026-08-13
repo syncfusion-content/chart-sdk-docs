@@ -2,7 +2,7 @@
 layout: post
 title: Tool Tip in Angular Stock Chart | Syncfusion
 description: Learn here all about Tool tip in Syncfusion Angular Stock chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Tool tip 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

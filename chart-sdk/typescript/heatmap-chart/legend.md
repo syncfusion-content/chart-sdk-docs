@@ -2,7 +2,7 @@
 layout: post
 title: Legend in TypeScript HeatMap Chart | Syncfusion
 description: Enable gradient or list legends in the JavaScript HeatMap Chart with placement, alignment, dimensions, paging, smart labels, and selection toggling.
-platform: chart-sdk
+platform: TypeScript
 control: Legend 
 publishingplatform: chart-sdk
 documentation: ug

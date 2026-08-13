@@ -2,7 +2,7 @@
 layout: post
 title: Legend in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to add and customize the legend in the Syncfusion JavaScript Accumulation Chart, including position and visibility.
-platform: chart-sdk
+platform: JavaScript
 control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Tooltip in Vue TreeMap | Syncfusion
 description: Learn here all about Tooltip in Syncfusion Vue Treemap component of Syncfusion Essential JS 2 and more.
 control: Tooltip 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

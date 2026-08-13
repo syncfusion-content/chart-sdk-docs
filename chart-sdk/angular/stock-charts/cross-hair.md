@@ -2,7 +2,7 @@
 layout: post
 title: Cross Hair in Angular Stock Chart | Syncfusion
 description: Learn here all about Cross hair in Syncfusion Angular Stock chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Cross hair 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

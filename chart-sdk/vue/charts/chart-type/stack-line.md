@@ -3,7 +3,7 @@ layout: post
 title: Stacked Line Chart in Vue Chart | Syncfusion
 description: Learn here all about Stacked Line in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Stacked Line Chart
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

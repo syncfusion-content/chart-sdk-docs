@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with JavaScript Range Selector | Syncfusion
 description:  Checkout and learn about Getting started with JavaScript Range Selector of Syncfusion Essential JS 2 and more details.
-platform: chart-sdk
+platform: JavaScript
 control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug

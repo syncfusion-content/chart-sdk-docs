@@ -2,7 +2,7 @@
 layout: post
 title: Selection and Highlight in Angular TreeMap | Syncfusion
 description: Learn here all about Selection and highlight in Syncfusion Angular Treemap component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Selection and highlight 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

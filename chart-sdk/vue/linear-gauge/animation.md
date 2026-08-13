@@ -3,7 +3,7 @@ layout: post
 title: Animation in Vue Linear Gauge | Syncfusion
 description: Enable sequential animation for the axis, ticks, labels, ranges, pointers, and annotations of the Syncfusion Vue Linear Gauge.
 control: Linear gauge 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

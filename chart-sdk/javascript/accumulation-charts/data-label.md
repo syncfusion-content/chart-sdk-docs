@@ -2,7 +2,7 @@
 layout: post
 title: Data label in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to add and customize data labels in the Syncfusion JavaScript Accumulation Chart series.
-platform: chart-sdk
+platform: JavaScript
 control: Data label 
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Empty Points in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to handle and customize empty data points in the Syncfusion JavaScript Accumulation Chart.
-platform: chart-sdk
+platform: JavaScript
 control:  Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

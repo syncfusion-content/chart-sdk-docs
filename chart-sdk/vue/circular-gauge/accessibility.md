@@ -3,7 +3,7 @@ layout: post
 title: Accessibility in Vue Circular Gauge | Syncfusion
 description: Learn how the Vue Circular Gauge component follows WCAG 2.2, Section 508, and WAI-ARIA accessibility standards.
 control: Accessibility 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

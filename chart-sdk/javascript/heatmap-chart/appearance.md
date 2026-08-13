@@ -2,7 +2,7 @@
 layout: post
 title: Appearance in JavaScript HeatMap Chart | Syncfusion
 description: Customize JavaScript HeatMap Chart cell borders, background, margins, title, data labels, templates, and text style to match your application design.
-platform: chart-sdk
+platform: JavaScript
 control: Appearance 
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Axes in TypeScript Linear Gauge | Syncfusion
 description: Configure axes, ticks, labels, and orientation in the TypeScript Linear Gauge for clear numeric scale rendering.
-platform: chart-sdk
+platform: TypeScript
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

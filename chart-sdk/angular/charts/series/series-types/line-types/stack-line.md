@@ -2,7 +2,7 @@
 layout: post
 title: Stacked Line Chart in Angular Charts | Syncfusion
 description: Learn here all about Stacked Line Chart in Syncfusion Angular Charts component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Stacked Line Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

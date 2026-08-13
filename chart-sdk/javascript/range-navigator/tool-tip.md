@@ -2,7 +2,7 @@
 layout: post
 title: Tool tip in JavaScript Range Selector | Syncfusion
 description: Learn here all about Tool tip in Syncfusion JavaScript Range Selector of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug

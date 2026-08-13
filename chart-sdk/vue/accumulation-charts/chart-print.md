@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in Vue Accumulation Chart | Syncfusion
 description: Learn here all about Chart print in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
 control: Chart print 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

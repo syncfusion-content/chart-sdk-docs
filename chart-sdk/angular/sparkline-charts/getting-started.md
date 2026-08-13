@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Angular Sparkline | Syncfusion
 description: Learn how to get started with the Syncfusion Angular Sparkline control. Explore setup, features, examples, and customization options.
-platform: chart-sdk
+platform: Angular
 control: Getting started 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

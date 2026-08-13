@@ -2,7 +2,7 @@
 layout: post
 title: User Interaction in TypeScript Linear Gauge | Syncfusion
 description: Enable tooltips and pointer drag-and-drop interactions in the TypeScript Linear Gauge with customizable format, template, and appearance.
-platform: chart-sdk
+platform: TypeScript
 control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug

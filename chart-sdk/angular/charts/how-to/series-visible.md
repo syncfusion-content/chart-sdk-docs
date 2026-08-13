@@ -2,7 +2,7 @@
 layout: post
 title: How to Show or Hide Series in Angular Chart | Syncfusion
 description: Learn how to dynamically show or hide chart series by handling legend click events in the Syncfusion Angular Chart component.
-platform: chart-sdk
+platform: Angular
 control: Series visible 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

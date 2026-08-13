@@ -2,7 +2,7 @@
 layout: post
 title: Axis in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart axis in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Smith chart axis 
 publishingplatform: chart-sdk
 documentation: ug

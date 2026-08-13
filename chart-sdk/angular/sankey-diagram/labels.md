@@ -3,7 +3,7 @@ layout: post
 title: Labels in Angular Sankey | Syncfusion
 description: Learn here all about Labels in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Labels
-platform: chart-sdk
+platform: Angular
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

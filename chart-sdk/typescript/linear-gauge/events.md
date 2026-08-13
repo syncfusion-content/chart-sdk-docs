@@ -2,7 +2,7 @@
 layout: post
 title: Events in TypeScript Linear Gauge | Syncfusion
 description: Handle events in the TypeScript Linear Gauge such as load, loaded, animationComplete, drag, tooltipRender, valueChange, and mouse events.
-platform: chart-sdk
+platform: TypeScript
 control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug

@@ -3,7 +3,7 @@ layout: post
 title: Tooltip in Vue Bullet Chart | Syncfusion
 description: Learn here all about Tool tip in Syncfusion Vue Bullet chart component of Syncfusion Essential JS 2 and more.
 control: Tool tip
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

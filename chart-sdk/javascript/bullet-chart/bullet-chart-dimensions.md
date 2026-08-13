@@ -2,7 +2,7 @@
 layout: post
 title: Bullet Chart Dimensions in JavaScript Bullet Chart | Syncfusion
 description: Learn how to set the width and height of the Syncfusion JavaScript Bullet Chart by configuring the container size.
-platform: chart-sdk
+platform: JavaScript
 control: Bullet chart
 publishingplatform: chart-sdk
 documentation: ug

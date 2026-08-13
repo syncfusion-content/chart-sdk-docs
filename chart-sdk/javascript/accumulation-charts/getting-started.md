@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with JavaScript Accumulation Chart (ES5) | Syncfusion
 description:  Learn how to get started with the Syncfusion JavaScript Accumulation Chart in an ES5 application using the CDN approach.
-platform: chart-sdk
+platform: JavaScript
 control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug

@@ -2,7 +2,7 @@
 layout: post
 title: Working with Data in JavaScript Smith Chart | Syncfusion
 description: Learn here all about Working with data in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Working with data 
 publishingplatform: chart-sdk
 documentation: ug

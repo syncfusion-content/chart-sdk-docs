@@ -2,7 +2,7 @@
 layout: post
 title: Working with Data in Angular Bullet Chart | Syncfusion
 description: Learn here all about Data binding in Syncfusion Angular Bullet chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Data binding 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

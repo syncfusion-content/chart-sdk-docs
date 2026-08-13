@@ -2,7 +2,7 @@
 layout: post
 title: Data label in JavaScript Maps | Syncfusion
 description: Learn here all about Data label in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Data label 
 publishingplatform: chart-sdk
 documentation: ug

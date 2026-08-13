@@ -2,7 +2,7 @@
 layout: post
 title: Populate data in JavaScript Maps | Syncfusion
 description: Bind GeoJSON, geographic, or remote data sources to JavaScript Maps to populate shape geometry and render the requested geographic features.
-platform: chart-sdk
+platform: JavaScript
 control: Populate data 
 publishingplatform: chart-sdk
 documentation: ug

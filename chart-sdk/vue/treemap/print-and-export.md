@@ -3,7 +3,7 @@ layout: post
 title: Print and Export in Vue TreeMap | Syncfusion
 description: Learn here all about Print and export in Syncfusion Vue TreeMap component of Syncfusion Essential JS 2 and more.
 control: Print and export 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

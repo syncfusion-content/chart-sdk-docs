@@ -2,7 +2,7 @@
 layout: post
 title: Ej1 api migration in JavaScript Treemap control | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: TreeMap
 publishingplatform: chart-sdk
 documentation: ug

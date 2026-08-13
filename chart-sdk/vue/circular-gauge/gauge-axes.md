@@ -3,7 +3,7 @@ layout: post
 title: Gauge Axes in Vue Circular Gauge | Syncfusion
 description: Learn how to configure the axes of the Vue Circular Gauge, including line style, angles, direction, ticks, and labels.
 control: Gauge Axes 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

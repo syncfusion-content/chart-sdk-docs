@@ -2,7 +2,7 @@
 layout: post
 title: Pointers in Angular Circular Gauge | Syncfusion
 description: Learn here all about Gauge pointers in Syncfusion Angular Circular Gauge component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Pointers 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

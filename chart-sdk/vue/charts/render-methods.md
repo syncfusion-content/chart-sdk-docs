@@ -3,7 +3,7 @@ layout: post
 title: Rendering Methods in Vue Chart | Syncfusion
 description: Learn here all about Render methods in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Render methods 
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

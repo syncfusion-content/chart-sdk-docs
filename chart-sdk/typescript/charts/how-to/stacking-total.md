@@ -2,7 +2,7 @@
 layout: post
 title: How to display stacking series total in TypeScript Chart | Syncfusion
 description: Learn here all about Stacking total in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: TypeScript
 control: Chart
 publishingplatform: chart-sdk
 documentation: ug

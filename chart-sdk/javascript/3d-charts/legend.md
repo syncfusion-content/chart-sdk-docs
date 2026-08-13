@@ -2,7 +2,7 @@
 layout: post
 title: Legend in JavaScript 3D Chart | Syncfusion
 description: Learn how to add and customize the legend in the Syncfusion JavaScript 3D Chart, including position, alignment, and title.
-platform: chart-sdk
+platform: JavaScript
 control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug

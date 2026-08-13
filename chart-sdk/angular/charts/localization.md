@@ -2,7 +2,7 @@
 layout: post
 title: Localization in Angular Chart | Syncfusion
 description: Learn here all about Localization in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: Angular
 control: Localization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

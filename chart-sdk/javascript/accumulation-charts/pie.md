@@ -2,7 +2,7 @@
 layout: post
 title: Pie in JavaScript Accumulation Chart | Syncfusion
 description: Learn here all about Pie in Syncfusion JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more.
-platform: chart-sdk
+platform: JavaScript
 control: Pie 
 publishingplatform: chart-sdk
 documentation: ug

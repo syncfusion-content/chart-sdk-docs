@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Vue Circular Gauge | Syncfusion
 description: Set up a Vue 2 application and integrate the Syncfusion Vue Circular Gauge component with a working example.
 control: Circular Gauge
-platform: chart-sdk
+platform: Vue
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
