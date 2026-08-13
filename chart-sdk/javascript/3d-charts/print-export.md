@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Print and Export in JavaScript 3D Chart control | Syncfusion
-description: Learn here all about print and export in Syncfusion JavaScript 3D Chart control of Syncfusion Essential JS 2 and more.
+title: Print and Export in JavaScript 3D Chart | Syncfusion
+description: Learn how to print and export the Syncfusion JavaScript 3D Chart from the browser using the built-in print method.
 platform: chart-sdk
 control: 3D Chart 
 publishingplatform: chart-sdk
@@ -9,11 +9,11 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Print and Export in JavaScript 3D Chart control
+# Print and Export in JavaScript 3D Chart
 
 ## Print
 
-The rendered 3D chart can be printed directly from the browser by calling the public method [`print`](../api/chart3d/printUtils/#print). The ID of the 3D chart's div element must be passed as the input parameter to that method.
+The rendered 3D chart can be printed directly from the browser by calling the public method [`print`](../api/chart3d/printUtils#print). The ID of the 3D chart's div element must be passed as the input parameter to that method.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -28,7 +28,7 @@ The rendered 3D chart can be printed directly from the browser by calling the pu
 
 ## Export
 
-The rendered 3D chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the [`export`](../api/chart3d/exportUtils/#export) method. The input parameters for this method are: `type` for format and `fileName` for result.
+The rendered 3D chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the [`export`](../api/chart3d/exportUtils#export) method. The input parameters for this method are: `type` for format and `fileName` for result.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

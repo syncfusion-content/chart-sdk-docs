@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Print and Export in Vue 3D Circular Chart component
+# Print and Export in Vue 3D Circular Chart
 
 ## Print
 

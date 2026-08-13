@@ -3,7 +3,7 @@ layout: post
 title: Tooltip in TypeScript Treemap control | Syncfusion
 description: Learn here all about Tooltip in Syncfusion TypeScript Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tooltip 
+control: TreeMap 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

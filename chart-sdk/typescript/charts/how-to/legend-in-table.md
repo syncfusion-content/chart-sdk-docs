@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Legend in table in TypeScript Chart control | Syncfusion
+title: How to add legend in table in TypeScript Chart | Syncfusion
 description: Learn here all about Legend in table in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Legend in table 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in table in TypeScript Chart control
+# How to add legend in table in TypeScript Chart
 
 The `annotation` property is used to add legend in table and the `multiLevelLabels` property is used to customize the axis label in table format.
 

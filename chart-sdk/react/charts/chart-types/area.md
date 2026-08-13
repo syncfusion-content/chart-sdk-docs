@@ -2,7 +2,7 @@
 layout: post
 title: Area Chart in React Charts | Syncfusion
 description: Learn here all about Area Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
-control: Area Chart 
+control: Chart 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -1,21 +1,21 @@
 ---
 layout: post
-title: Methods in JavaScript Linear gauge control | Syncfusion
-description: Learn here all about Methods in Syncfusion JavaScript Linear gauge control of Syncfusion Essential JS 2 and more.
+title: Methods in JavaScript Linear Gauge | Syncfusion
+description: Use the built-in methods of the JavaScript Linear Gauge such as setPointerValue, setAnnotationValue, and refresh to update the component dynamically.
 platform: chart-sdk
-control: Methods 
+control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Methods in JavaScript Linear gauge control
+# Methods in JavaScript Linear Gauge
 
 The following methods are available in the Linear Gauge component.
 
 ## setPointerValue
 
-To change the pointer value dynamically, use the [`setPointerValue`](../api/linear-gauge/#setpointervalue) method in the Linear Gauge component. The following are the arguments for this method.
+To change the pointer value dynamically, use the [`setPointerValue`](../api/linear-gauge#setpointervalue) method in the Linear Gauge component. The following are the arguments for this method.
 
 |   Argument name      |   Description                            |
 |----------------------| -----------------------------------------|

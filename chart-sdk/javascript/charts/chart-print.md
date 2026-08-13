@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Chart print in JavaScript Chart control | Syncfusion
+title: Print and export in JavaScript Chart | Syncfusion
 description: Learn here all about Chart print in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart print 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart print in JavaScript Chart control
+# Print and export in JavaScript Chart
 
 ## Print
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Chart series in TypeScript Chart control | Syncfusion
+title: Multiple series in TypeScript Chart | Syncfusion
 description: Learn here all about Chart series in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart series 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart series in TypeScript Chart control
+# Multiple series in TypeScript Chart
 
 ## Multiple Series
 

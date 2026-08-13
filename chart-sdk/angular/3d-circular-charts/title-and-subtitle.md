@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Title and subtitle in Angular 3D Circular Chart | Syncfusion
+title: Title and Subtitle in Angular 3D Circular Chart | Syncfusion
 description: Learn here all about title and subtitle in Syncfusion Angular 3D Circular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title and subtitle 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and subtitle in Angular 3D Circular Chart component
+# Title and Subtitle in Angular 3D Circular Chart
 
 ## Title
 
@@ -16,15 +16,15 @@ The 3D Circular Chart can be given a title by using the `title` property to disp
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/title/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/title/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/title/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/title/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/title" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/title" %}
 
 ## Title customization
 
@@ -32,15 +32,15 @@ The title of the 3D Circular Chart can be customized using the `titleStyle` prop
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/title-custom/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/title-custom/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/title-custom/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/title-custom/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/title-custom" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/title-custom" %}
 
 ## Subtitle
 
@@ -48,15 +48,15 @@ The 3D Circular Chart can be given a subtitle by using the `subTitle` property t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/subtitle/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/subtitle/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/subtitle/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/subtitle/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/subtitle" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/subtitle" %}
 
 ## Subtitle customization
 
@@ -64,12 +64,12 @@ The subtitle of the 3D Circular Chart can be customized using the `subTitleStyle
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/subtitle-custom/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/subtitle-custom/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/subtitle-custom/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/subtitle-custom/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/subtitle-custom" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/subtitle-custom" %}

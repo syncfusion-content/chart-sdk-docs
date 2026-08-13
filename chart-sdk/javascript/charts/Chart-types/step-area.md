@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Step Area Chart in JavaScript Charts | Syncfusion
+title: Step Area Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Step Area in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Step Area 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Step Area Chart in JavaScript Charts
+# Step Area Chart in JavaScript Chart
 
 ## Step Area
 

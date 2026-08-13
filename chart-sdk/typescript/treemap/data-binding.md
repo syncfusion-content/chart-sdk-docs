@@ -3,7 +3,7 @@ layout: post
 title: Data binding in TypeScript Treemap control | Syncfusion
 description: Learn here all about Data binding in Syncfusion TypeScript Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data binding 
+control: TreeMap
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

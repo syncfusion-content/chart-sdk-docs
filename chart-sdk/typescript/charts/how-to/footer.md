@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Footer in TypeScript Chart control | Syncfusion
+title: How to add footer and watermark in TypeScript Chart | Syncfusion
 description: Learn here all about Footer in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Footer 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Footer in TypeScript Chart control
+# How to add footer and watermark in TypeScript Chart
 
 By using `annotation`, you can place any html elements to chart in a desired view.
 

@@ -8,21 +8,21 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in Angular 3D Circular Chart component
+# Tooltip in Angular 3D Circular Chart
 
 The 3D Circular Chart will display details about the points through a tooltip, when the mouse is moved over a specific point. By default, the tooltip is not visible. It can be enabled by using the `enable` property in `tooltip` to **true**.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/tooltip/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/tooltip/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/tooltip" %}
 
 >To use tooltip feature, inject the `CircularChartTooltip3DService` into the `@NgModule.providers`.
 
@@ -32,15 +32,15 @@ You can specify a header for the tooltip by using the `header` property in `tool
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/header/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/header/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/header/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/header/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/header" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/header" %}
 
 ## Format
 
@@ -48,15 +48,15 @@ By default, the tooltip shows information about the x and y values in points. Ad
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-format/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/tooltip-format/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-format/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/tooltip-format/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-format" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/tooltip-format" %}
 
 ## Inline tooltip formatting
 
@@ -105,15 +105,15 @@ If the specified format does not match the resolved value type, the original val
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/inline-tooltip-format/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/inline-tooltip-format/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/inline-tooltip-format/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/inline-tooltip-format/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/inline-tooltip-format" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/inline-tooltip-format" %}
 
 ## Tooltip template
 
@@ -121,15 +121,15 @@ Any HTML elements can be displayed in the tooltip by using the `template` proper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/template/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/template/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/template/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/template/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/template" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/template" %}
 
 ## Fixed tooltip
 
@@ -137,15 +137,15 @@ By default, the tooltip tracks the mouse movement, but it can be set to a fixed 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/fixed-tooltip/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/fixed-tooltip/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/fixed-tooltip/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/fixed-tooltip/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/fixed-tooltip" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/fixed-tooltip" %}
 
 ## Customization
 
@@ -153,15 +153,15 @@ The `fill` and `border` properties are used to customize the background color an
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-custom/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/tooltip-custom/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-custom/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/tooltip-custom/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-custom" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/tooltip-custom" %}
 
 ## Customization of individual tooltip
 
@@ -169,12 +169,12 @@ Using the `tooltipRender` event, you can customize tooltip values for a particul
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-event/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/tooltip-event/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-event/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/tooltip-event/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/tooltip-event" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/tooltip-event" %}

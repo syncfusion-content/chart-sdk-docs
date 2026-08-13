@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to in TypeScript Chart control | Syncfusion
+title: How to in TypeScript Chart | Syncfusion
 description: Learn here all about How to in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: How to 
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to in TypeScript Chart control
+# How to in TypeScript Chart
 
 ## Create a Live Chart
 

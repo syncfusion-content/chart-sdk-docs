@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Histogram Chart in JavaScript Charts | Syncfusion
+title: Histogram Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Histogram in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Histogram 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Histogram Chart in JavaScript Charts
+# Histogram Chart in JavaScript Chart
 
 ## Histogram
 

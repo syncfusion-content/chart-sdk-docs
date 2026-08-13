@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Grouping in TypeScript Accumulation chart control | Syncfusion
-description: Learn here all about Grouping in Syncfusion TypeScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Grouping in TypeScript Accumulation Chart | Syncfusion
+description: Learn how to group data points in the Syncfusion TypeScript Accumulation Chart using the groupTo property.
 platform: chart-sdk
-control: Grouping 
+control: Accumulation Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Grouping in TypeScript Accumulation chart control
+# Grouping in TypeScript Accumulation Chart
 
 You can club/group few points of the series based on
 [`groupTo`](../api/accumulation-chart/accumulationSeries/) property. For example, if the club

@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Print and Export in Angular 3D Circular Chart component
+# Print and Export in Angular 3D Circular Chart
 
 ## Print
 
@@ -16,15 +16,15 @@ The rendered 3D Circular Chart can be printed directly from the browser by calli
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/print/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/print/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/print/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/print/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/print" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/print" %}
 
 ## Export
 
@@ -33,12 +33,12 @@ The rendered 3D Circular Chart can be exported to `JPEG`, `PNG`, or `SVG` format
 Input parameters for this method are `Export` Type for `format` and `fileName` of result.
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/export/src/app.component.ts %}
+{% include code-snippet/circular-chart/user-interaction/export/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/export/src/main.ts %}
+{% include code-snippet/circular-chart/user-interaction/export/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/export" %}
+{% previewsample "page.domainurl/samples/circular-chart/user-interaction/export" %}

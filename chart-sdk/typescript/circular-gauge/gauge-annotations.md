@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Gauge annotations in TypeScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge annotations in Syncfusion TypeScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Annotations in TypeScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge annotations in Syncfusion TypeScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge annotations 
+control: Circular Gauge 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Gauge annotations in TypeScript Circular gauge control
+# Annotations in TypeScript Circular Gauge
 
 Annotations are used to mark a specific area of interest in the gauge with texts, shapes or images.
 

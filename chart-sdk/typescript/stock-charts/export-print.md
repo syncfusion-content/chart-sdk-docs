@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Export print in TypeScript Stock chart control | Syncfusion
-description: Learn here all about Export print in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Export print in TypeScript Stock Charts | Syncfusion
+description: Learn here all about Export print in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Export print 
+control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Export print in TypeScript Stock chart control
+# Export print in TypeScript Stock Charts
 
 The rendered stock chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the export dropdown button in the period selector toolbar. You can choose the required format using the export dropdown button in stock-chart.
 

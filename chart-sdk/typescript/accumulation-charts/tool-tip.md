@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip in TypeScript Accumulation chart control | Syncfusion
-description: Learn here all about Tooltip in Syncfusion TypeScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Tooltip in TypeScript Accumulation Chart | Syncfusion
+description: Learn how to enable and customize tooltips in the Syncfusion TypeScript Accumulation Chart to display point details on hover.
 platform: chart-sdk
 control: Tooltip 
 publishingplatform: chart-sdk
@@ -9,9 +9,9 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in TypeScript Accumulation chart control
+# Tooltip in TypeScript Accumulation Chart
 
-Tooltip for the accumulation chart can be enabled by using the [`enable`](../api/accumulation-chart/tooltipSettingsModel/#enable) property.
+Tooltip for the accumulation chart can be enabled by using the [`enable`](../api/accumulation-chart/tooltipSettingsModel#enable) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,7 +28,7 @@ Tooltip for the accumulation chart can be enabled by using the [`enable`](../ap
 
 ## Header
 
-We can specify header for the tooltip using [`header`](../api/accumulation-chart/tooltipSettingsModel/#header) property.
+We can specify header for the tooltip using [`header`](../api/accumulation-chart/tooltipSettingsModel#header) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -58,7 +58,7 @@ By default, tooltip shows information of x and y value in points. In addition to
 
 ## Inline tooltip formatting
 
-The tooltip content can be formatted directly within the [`format`](../api/accumulation-chart/tooltipSettingsModel/#format) property by adding DateTime or number format specifiers to supported tooltip tokens. This allows you to control how point and series values are displayed without using additional events.
+The tooltip content can be formatted directly within the [`format`](../api/accumulation-chart/tooltipSettingsModel#format) property by adding DateTime or number format specifiers to supported tooltip tokens. This allows you to control how point and series values are displayed without using additional events.
 
 A format specifier can be applied to a tooltip token by adding a colon (`:`) followed by the required format.
 
@@ -114,7 +114,7 @@ If the specified format does not match the resolved value type, the original val
 
 ## Tooltip Template
 
-Any HTML element can be displayed in the tooltip by using the [`template`](../api/accumulation-chart/tooltipSettingsModel/#template) property.
+Any HTML element can be displayed in the tooltip by using the [`template`](../api/accumulation-chart/tooltipSettingsModel#template) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -129,7 +129,7 @@ Any HTML element can be displayed in the tooltip by using the [`template`](../ap
 
 ## Fixed tooltip
 
-By default, tooltip track the mouse movement, but you can set a fixed position for the tooltip by using the [`location`](../api/accumulation-chart/tooltipSettingsModel/#location) property.
+By default, tooltip track the mouse movement, but you can set a fixed position for the tooltip by using the [`location`](../api/accumulation-chart/tooltipSettingsModel#location) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -144,7 +144,7 @@ By default, tooltip track the mouse movement, but you can set a fixed position f
 
 ## Customization
 
-The [`fill`](../api/accumulation-chart/tooltipSettingsModel/#fill) and [`border`](../api/accumulation-chart/tooltipSettingsModel/#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/accumulation-chart/tooltipSettingsModel/#textstyle) property in the tooltip is used to customize the font of the tooltip text. The [`highlightColor`](../api/accumulation-chart/accumulationChartModel/#highlightcolor) property can be used to change the color of the data point when hovering.
+The [`fill`](../api/accumulation-chart/tooltipSettingsModel#fill) and [`border`](../api/accumulation-chart/tooltipSettingsModel#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/accumulation-chart/tooltipSettingsModel#textstyle) property in the tooltip is used to customize the font of the tooltip text. The [`highlightColor`](../api/accumulation-chart/accumulationChartModel#highlightcolor) property can be used to change the color of the data point when hovering.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -174,7 +174,7 @@ Using [`tooltipRender`](../api/accumulation-chart/iAccTooltipRenderEventArgs/) 
 
 ## Enable highlight
 
-By setting the [`enableHighlight`](../api/accumulation-chart/tooltipSettingsModel/#enablehighlight) property to **true**, the hovered pie slice is highlighted, while the remaining slices are dimmed, enhancing focus and clarity.
+By setting the [`enableHighlight`](../api/accumulation-chart/tooltipSettingsModel#enablehighlight) property to **true**, the hovered pie slice is highlighted, while the remaining slices are dimmed, enhancing focus and clarity.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

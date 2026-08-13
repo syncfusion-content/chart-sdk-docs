@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Appearance in Vue Sankey Chart component | Syncfusion
+title: Appearance in Vue Sankey | Syncfusion
 description: Learn here all about Appearance in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Appearance 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in Vue Sankey Chart component
+# Appearance in Vue Sankey
 
 The Sankey Chart provides comprehensive customization options to control visual appearance, dimensions, responsiveness, colors, borders, and themes. These appearance settings enable you to create diagrams that match your application's design system and user experience requirements. This guide covers dimension configuration, responsive sizing, backgrounds, borders, margins, and theme selection.
 

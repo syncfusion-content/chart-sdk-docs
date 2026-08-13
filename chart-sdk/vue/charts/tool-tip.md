@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tooltip in Vue Chart component | Syncfusion
+title: Tooltip in Vue Chart | Syncfusion
 description: Learn here all about Tooltip in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Tooltip 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in Vue Chart component
+# Tooltip in Vue Chart
 
 <!-- markdownlint-disable MD036 -->
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Series visible in TypeScript Chart control | Syncfusion
+title: How to show series on legend click in TypeScript Chart | Syncfusion
 description: Learn here all about Series visible in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Series visible 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Series visible in TypeScript Chart control
+# How to show series on legend click in TypeScript Chart
 
 By using the `chartMouseClick` event, you can show the series based on respective legend click. In this event, you can get the legend target id, using which you can get the current series index. Based on the index, you can set value of `visible` to `true` or `false`.
 

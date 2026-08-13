@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Internationalization in TypeScript Maps component | Syncfusion
-description: Learn here all about Internationalization in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Internationalization in TypeScript Maps | Syncfusion
+description: Learn here all about Internationalization in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Internationalization in TypeScript Maps component
+# Internationalization in TypeScript Maps
 
 Internationalization enables the Maps component to display content in different cultures and locales, making it accessible to users worldwide. The Maps component supports internationalization for the following elements:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Smith chart print in JavaScript Smithchart control | Syncfusion
+title: Print and Export in JavaScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart print in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smith chart print 
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Smith chart print in JavaScript Smithchart control
+# Print and Export in JavaScript Smith Chart
 
 ## Print
 

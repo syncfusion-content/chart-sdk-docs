@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Comparative bar in JavaScript Bullet chart control | Syncfusion
-description: Learn here all about Comparative bar in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
+title: Comparative Bar in JavaScript Bullet Chart | Syncfusion
+description: Learn how to display the target bar in the Syncfusion JavaScript Bullet Chart using the targetField property.
 platform: chart-sdk
-control: Comparative bar 
+control: Comparative Bar 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Comparative bar in JavaScript Bullet chart control
+# Comparative Bar in JavaScript Bullet Chart
 
 The line marker that runs perpendicular to the orientation of the graph is known as the **Comparative Measure** and it is used as a target marker to compare against the feature measure value. This is also called as the **Target Bar** in the Bullet Chart. To display the target bar, the [`targetField`](../api/bullet-chart#targetfield) should be mapped to the appropriate field from the datasource.
 
@@ -42,7 +42,7 @@ The shape of the target bar can be customized using the [`targetTypes`](../api/b
 
 ## Target bar customization
 
-The following properties can be used to customize the target bar. Also, you can bind the color for the target bar from [`dataSource`](../api/bullet-chart/#datasource) for the bullet chart.
+The following properties can be used to customize the target bar. Also, you can bind the color for the target bar from [`dataSource`](../api/bullet-chart#datasource) for the bullet chart.
 
 * [`targetColor`](../api/bullet-chart#targetcolor) - Specifies the fill color of target bar.
 * [`targetWidth`](../api/bullet-chart#targetwidth) - Specifies the width of target bar.

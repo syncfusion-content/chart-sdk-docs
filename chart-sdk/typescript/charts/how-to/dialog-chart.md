@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Dialog chart in TypeScript Chart control | Syncfusion
+title: How to show chart in dialog in TypeScript Chart | Syncfusion
 description: Learn here all about Dialog chart in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Dialog chart 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dialog chart in TypeScript Chart control
+# How to show chart in dialog in TypeScript Chart
 
 Using the `content` property of the dialog component, you can show the chart in dialog pop-up.
 

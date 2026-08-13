@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Marker in TypeScript Sparkline control | Syncfusion
-description: Learn here all about Marker in Syncfusion TypeScript Sparkline control of Syncfusion Essential JS 2 and more.
+title: Marker in TypeScript Sparkline | Syncfusion
+description: Learn here all about Marker in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Marker 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Marker in TypeScript Sparkline control
+# Marker in TypeScript Sparkline
 
 This section explains how to add markers to the sparklines.
 

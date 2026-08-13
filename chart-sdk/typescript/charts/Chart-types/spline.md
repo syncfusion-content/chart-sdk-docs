@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Spline Chart in TypeScript Charts | Syncfusion
+title: Spline Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Spline in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Spline 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Spline Chart in TypeScript Charts
+# Spline Chart in TypeScript Chart
 
 ## Spline
 

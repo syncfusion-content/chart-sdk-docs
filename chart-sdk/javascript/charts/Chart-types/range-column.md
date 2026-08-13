@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Range Column in JavaScript Chart control | Syncfusion
+title: Range Column in JavaScript Chart | Syncfusion
 description: Learn here all about Range Column in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Column 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Range Column Chart in JavaScript Charts
+# Range Column Chart in JavaScript Chart
 
 ## Range Column
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize scatter chart in Angular Chart component | Syncfusion
+title: How to Customize Scatter Chart in Angular Chart | Syncfusion
 description: Learn here all about Customize scatter chart in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Customize scatter chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Customize scatter chart in Angular Chart component
+# How to Customize Scatter Chart in Angular Chart
 
 By using the [`shape`](https://ej2.syncfusion.com/angular/documentation/api/chart/markerSettingsModel/#shape) property in the [`marker`](https://ej2.syncfusion.com/angular/documentation/api/chart/markerSettingsModel), you can customize the shape of the scatter series points such as `Circle`, `Rectangle`, `Triangle`, `Diamond`, `Cross`, `HorizontalLine`, `VerticalLine`, `Pentagon`, `InvertedTriangle`, and `Image`.
 

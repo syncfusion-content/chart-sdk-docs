@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Line Chart in TypeScript Charts | Syncfusion
+title: Line Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Line Chart in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Line Chart
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Line Chart in TypeScript Charts
+# Line Chart in TypeScript Chart
 
 ## Line
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Tool tip table in JavaScript Chart control | Syncfusion
+title: How to show table in tooltip in JavaScript Chart | Syncfusion
 description: Learn here all about Tool tip table in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tool tip table 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip table in JavaScript Chart control
+# How to show table in tooltip in JavaScript Chart
 
 You can show the tooltip as table by using template property in tooltip.
 

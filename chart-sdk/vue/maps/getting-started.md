@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Vue Maps Component | Syncfusion
 description: Learn how to set up a Vue 2 project from scratch and integrate the Syncfusion Vue Maps component to render geographic data.
-control: Getting Started
+control: Maps
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

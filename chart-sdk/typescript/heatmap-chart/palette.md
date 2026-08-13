@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Palette in TypeScript Heatmap chart control | Syncfusion
-description: Learn here all about Palette in Syncfusion TypeScript Heatmap chart control of Syncfusion Essential JS 2 and more.
+title: Palette in TypeScript HeatMap Chart | Syncfusion
+description: Apply gradient or fixed color palettes to the JavaScript HeatMap Chart cells, with custom color stops, ranges, and labels for the legend.
 platform: chart-sdk
 control: Palette 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Palette in TypeScript Heatmap chart control
+# Palette in TypeScript HeatMap Chart
 
 In heat map, each data point is displayed as a cell with applied color based on the data value. The palette in the heat map is used to define the color range for cells and gradient type for colors. You can define the colors either in RGB or hex codes using the [color](../api/heatmap/paletteCollection#color) property in the `palette`. The defined colors are applied to the cell background based on the palette type and cell value.
 

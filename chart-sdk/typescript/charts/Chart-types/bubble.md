@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bubble Chart in TypeScript Charts | Syncfusion
+title: Bubble Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Bubble in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Bubble 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Bubble Chart in TypeScript Charts
+# Bubble Chart in TypeScript Chart
 
 ## Bubble
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data label in JavaScript Maps component | Syncfusion
-description: Learn here all about Data label in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Data label in JavaScript Maps | Syncfusion
+description: Learn here all about Data label in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data label 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data label in JavaScript Maps component
+# Data label in JavaScript Maps
 
 Data labels display information about map shapes. Enable data labels by setting the [visible](../api/maps/dataLabelSettingsModel#visible) property of [dataLabelSettings](../api/maps/dataLabelSettingsModel#) to **true**.
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Accessibility in TypeScript Linear Gauge control | Syncfusion
-description: Learn here all about Accessibility in Syncfusion TypeScript Linear Gauge control of Syncfusion Essential JS 2 and more.
+title: Accessibility in TypeScript Linear Gauge | Syncfusion
+description: Learn about the accessibility features of the TypeScript Linear Gauge, including ARIA attributes, screen reader support, and WCAG compliance.
 platform: chart-sdk
-control: Accessibility 
+control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in TypeScript Linear Gauge control
+# Accessibility in TypeScript Linear Gauge
 
 The Linear Gauge control follows commonly used accessibility guidelines and standards, such as [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles).
 

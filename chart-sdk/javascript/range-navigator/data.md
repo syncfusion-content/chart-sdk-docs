@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Data in JavaScript Range navigator control | Syncfusion
-description: Learn here all about Data in Syncfusion JavaScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Data in JavaScript Range Selector | Syncfusion
+description: Learn here all about Data in Syncfusion JavaScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data 
+control: Range Selector 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Data in JavaScript Range navigator control
+# Data in JavaScript Range Selector
 
 ## Numeric
 

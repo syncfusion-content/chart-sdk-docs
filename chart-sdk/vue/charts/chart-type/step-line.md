@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Step Line Chart in Vue Charts | Syncfusion
-description: Learn here all about Step Line in Syncfusion Vue Charts component of Syncfusion Essential JS 2 and more.
+title: Step Line Chart in Vue Chart | Syncfusion
+description: Learn here all about Step Line in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Step Line Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Step Line Chart in Vue Charts
+# Step Line Chart in Vue Chart
 
 ## Step Line
 

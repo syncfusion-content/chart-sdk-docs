@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Polar radar in JavaScript Chart control | Syncfusion
+title: Polar radar in JavaScript Chart | Syncfusion
 description: Learn here all about Polar radar in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Polar radar 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Polar radar in JavaScript Chart control
+# Polar radar in JavaScript Chart
 
 ## Polar Chart
 

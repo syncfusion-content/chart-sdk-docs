@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dimensions in JavaScript Heatmap chart control | Syncfusion
-description: Learn here all about Dimensions in Syncfusion JavaScript Heatmap chart control of Syncfusion Essential JS 2 and more.
+title: Dimensions in JavaScript HeatMap Chart | Syncfusion
+description: Set the JavaScript HeatMap Chart width and height in pixels or as a percentage of its container for responsive layouts.
 platform: chart-sdk
 control: Dimensions 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dimensions in JavaScript Heatmap chart control
+# Dimensions in JavaScript HeatMap Chart
 
 ## Size for container
 
@@ -23,7 +23,7 @@ Heat map can be rendered to its container size. You can set the size through inl
 
 ## Size for heat map
 
-You can  set the size of heat map directly by using the [width](../api/heatmap/#width) and [height](../api/heatmap/#height) properties.
+You can  set the size of heat map directly by using the [width](../api/heatmap#width) and [height](../api/heatmap#height) properties.
 
 ## In Pixel
 

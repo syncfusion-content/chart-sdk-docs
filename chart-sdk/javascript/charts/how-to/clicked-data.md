@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Clicked data in JavaScript Chart control | Syncfusion
+title: How to get pie clicked data in JavaScript Chart | Syncfusion
 description: Learn here all about Clicked data in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Clicked data 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Clicked data in JavaScript Chart control
+# How to get pie clicked data in JavaScript Chart
 
 By using the [`pointClick`](../../api/accumulation-chart#pointClick-emittypeIPointEventArgs) event, you can get the chart data of clicked area.
 

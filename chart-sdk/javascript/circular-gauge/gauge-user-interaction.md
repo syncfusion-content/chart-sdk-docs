@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Gauge user interaction in JavaScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge user interaction in Syncfusion JavaScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: User Interaction in JavaScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge user interaction in Syncfusion JavaScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge user interaction 
+control: Circular Gauge 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Gauge user interaction in JavaScript Circular gauge control
+# User Interaction in JavaScript Circular Gauge
 
 ## Tooltip for pointers
 
@@ -18,7 +18,7 @@ Circular gauge will displays the pointer details through [tooltip](../api/circul
 
 **Enable Tooltip**
 
-By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/circular-gauge/tooltipSettings/#enable-boolean) property to true and injecting `GaugeTooltip` module using `CircularGauge.Inject(GaugeTooltip)` method.
+By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/circular-gauge/tooltipSettings#enable-boolean) property to true and injecting `GaugeTooltip` module using `CircularGauge.Inject(GaugeTooltip)` method.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -33,7 +33,7 @@ By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../
 
 **Template**
 
-Any HTML elements can be displayed in the tooltip by using the [`template`](../api/circular-gauge/tooltipSettings/#template-string) property of the tooltip.
+Any HTML elements can be displayed in the tooltip by using the [`template`](../api/circular-gauge/tooltipSettings#template-string) property of the tooltip.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -104,7 +104,7 @@ The following code example shows the tooltip for the ranges and annotation.
 ## Pointer Drag
 
 Pointers can be dragged over the axis value. This can be achieved by clicking and dragging the pointer. To enable or disable the pointer drag, you can use
-[`enablePointerDrag`](../api/circular-gauge/#enablepointerdrag-boolean) property.
+[`enablePointerDrag`](../api/circular-gauge#enablepointerdrag-boolean) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

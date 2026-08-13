@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with TypeScript HeatMap component | Syncfusion
-description: Create and configure a Syncfusion JavaScript HeatMap in TypeScript using the Essential JS 2 webpack quickstart project.
+title: Getting Started with TypeScript HeatMap Chart | Syncfusion
+description: Create a JavaScript HeatMap Chart in TypeScript with the Syncfusion EJ2 webpack quickstart, including setup, rendering, and module injection.
 platform: chart-sdk
 control: HeatMap
 publishingplatform: chart-sdk
@@ -9,11 +9,11 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with TypeScript HeatMap Component
+# Getting Started with TypeScript HeatMap Chart
 
 This document explains how to create a HeatMap and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-> The quickstart project uses its included `webpack.config.js` file to compile and bundle the TypeScript application. For more information, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
+> The quickstart project uses its included `webpack.config.js` file to compile and bundle the TypeScript application. For more information, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started).
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Before you begin, ensure that the following software is installed:
 
 * Node.js with npm
 * [Visual Studio Code](https://code.visualstudio.com) or another text editor
-* [Git](https://git-scm.com/) for cloning the quickstart repository
+* [Git](https://git-scm.com) for cloning the quickstart repository
 * A modern web browser such as Chrome, Edge, Firefox, or Safari
 
 Basic familiarity with TypeScript, npm, and webpack is recommended.

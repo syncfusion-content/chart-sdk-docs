@@ -1,7 +1,7 @@
 ---
 layout: post
-title: User interactions in TypeScript Maps component | Syncfusion
-description: Learn here all about User interactions in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: User interactions in TypeScript Maps | Syncfusion
+description: Enable zooming, panning, single and double click, highlight, and selection in TypeScript Maps to give users rich ways to interact with elements.
 platform: chart-sdk
 control: User interactions 
 publishingplatform: chart-sdk
@@ -9,17 +9,17 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# User interactions in TypeScript Maps component
+# User interactions in TypeScript Maps
 
 Zooming, panning, single and double click, highlight and selection are all options that allow for effective interaction with Map elements.
 
 ## Zooming
 
-The zooming feature is used to zoom in and out of Maps to show in-depth information. It is controlled by the [`zoomFactor`](../api/maps/zoomSettingsModel/zoomfactor) property of the [`zoomSettings`](../api/maps/zoomSettingsModel) of the Maps. The [`zoomFactor`](../api/maps/zoomSettingsModel/zoomfactor) increases or decreases dynamically based on zoom in and out interactions.
+The zooming feature is used to zoom in and out of Maps to show in-depth information. It is controlled by the [`zoomFactor`](../api/maps/zoomSettingsModel#zoomfactor) property of the [`zoomSettings`](../api/maps/zoomSettingsModel) of the Maps. The [`zoomFactor`](../api/maps/zoomSettingsModel#zoomfactor) increases or decreases dynamically based on zoom in and out interactions.
 
 ### Enable zooming
 
-Zooming of Maps is enabled by setting the [`enable`](../api/maps/zoomSettingsModel/enable) property of [`zoomSettings`](../api/maps/zoomSettingsModel) to **true**. To enable Zooming in Maps, the **Zoom** module must be injected into Maps using **Maps.Inject(Zoom)** method. The following code snippet demonstrates injecting the Zoom module into the Maps component.
+Zooming of Maps is enabled by setting the [`enable`](../api/maps/zoomSettingsModel#enable) property of [`zoomSettings`](../api/maps/zoomSettingsModel) to **true**. To enable Zooming in Maps, the **Zoom** module must be injected into Maps using **Maps.Inject(Zoom)** method. The following code snippet demonstrates injecting the Zoom module into the Maps component.
 
 ```ts
 import { Maps, Zoom } from '@syncfusion/ej2-maps';
@@ -29,7 +29,7 @@ let map: Maps = new Maps({ });
 
 ### Enable panning
 
-To enable the panning feature, set the [`enablePanning`](../api/maps/zoomSettingsModel/enablepanning) property of [`zoomSettings`](../api/maps/zoomSettingsModel) to **true**.
+To enable the panning feature, set the [`enablePanning`](../api/maps/zoomSettingsModel#enablepanning) property of [`zoomSettings`](../api/maps/zoomSettingsModel) to **true**.
 
 ```ts
 import { world_map } from './world-map.ts';

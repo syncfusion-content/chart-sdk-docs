@@ -48,7 +48,7 @@ In order, to achieve a doughnut in pie, you need to customize the [`innerRadius`
 **Smart Labels**
 
 As like in chart, you can also enable labels for the points in accumulation chart using [`dataLabel`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationSeries/#datalabel) property in series. This label will arrange smartly
-without overlapping with each other. You can enable or disable this feature using [`enableSmartLabels`]../api/accumulation-chart/accumulationChartModel/#enablesmartlabels)property.
+without overlapping with each other. You can enable or disable this feature using [`enableSmartLabels`]../api/accumulation-chart/accumulationChartModel#enablesmartlabels)property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -80,7 +80,7 @@ As like in chart, you can use datalabel template for the points in accumulation 
 
 ## Grouping
 
-You can club/group few points of the series based on [`groupTo`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationSeries/#groupto) property. For example, if the club value is 11, then the points with value less than 11 is grouped together and will be showed as a single point with label `others`. You can customize the label for that point using [`textRender`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationChartModel/#textrender) event. The property also takes value in percentage (percentage of total data points value).
+You can club/group few points of the series based on [`groupTo`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationSeries/#groupto) property. For example, if the club value is 11, then the points with value less than 11 is grouped together and will be showed as a single point with label `others`. You can customize the label for that point using [`textRender`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationChartModel#textrender) event. The property also takes value in percentage (percentage of total data points value).
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

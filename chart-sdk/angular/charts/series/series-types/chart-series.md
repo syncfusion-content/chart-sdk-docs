@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Chart series in Angular Chart component | Syncfusion
+title: Multiple Series in Angular Chart | Syncfusion
 description: Learn here all about Chart series in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart series 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
----
-
-# Chart series in Angular Chart component
+---
+# Multiple Series in Angular Chart
 
 ## Multiple Series
 

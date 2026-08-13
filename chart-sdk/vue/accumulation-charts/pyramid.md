@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pyramid in Vue Accumulation chart component | Syncfusion
+title: Pyramid in Vue Accumulation Chart | Syncfusion
 description: Learn here all about Pyramid in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
 control: Pyramid 
 platform: chart-sdk
@@ -8,9 +8,9 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pyramid in Vue Accumulation chart component
+# Pyramid in Vue Accumulation Chart
 
-To render a pyramid series, use the series [`type`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/accumulationSeriesModel/#type) as `Pyramid` and inject `PyramidSeries` module into the `provide`.
+To render a pyramid series, use the series [`type`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/accumulationSeriesModel#type) as `Pyramid` and inject `PyramidSeries` module into the `provide`.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

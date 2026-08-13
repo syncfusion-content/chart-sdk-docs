@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create routes between markers in TypeScript Maps | Syncfusion
-description: Learn here all about creating routes between markers in the Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+description: Learn here all about creating routes between markers in the Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Maps 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Creating Routes Between Markers in the TypeScript Maps component
+# Creating Routes Between Markers in the TypeScript Maps
 
 The Syncfusion<sup style="font-size:70%">&reg;</sup> Maps component supports plotting routes between two locations (source and destination) using the navigation line feature. Markers can be placed at these locations to visually indicate the source and destination, making it easier to view the path between them on the map.
 

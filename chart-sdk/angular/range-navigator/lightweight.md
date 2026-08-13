@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Lightweight in Angular Range navigator component | Syncfusion
-description: Learn here all about Lightweight in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
+title: Lightweight in Angular Range Navigator | Syncfusion
+description: Learn here all about Lightweight in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more
 platform: chart-sdk
 control: Lightweight 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+
 ---
 
-# Lightweight in Angular Range navigator component
+# Lightweight in Angular Range Navigator
 
-By default, when the [`dataSource`](https://ej2.syncfusion.com/angular/documentation/api/range-navigator/#datasource) for [`series`](https://ej2.syncfusion.com/angular/documentation/api/range-navigator/#series) is empty, a lightweight Range Selector will be shown without Chart.
+By default, when the [`dataSource`](https://ej2.syncfusion.com/angular/documentation/api/range-navigator#datasource) for [`series`](https://ej2.syncfusion.com/angular/documentation/api/range-navigator#series) is empty, a lightweight Range Selector will be shown without Chart.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

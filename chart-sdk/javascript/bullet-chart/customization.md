@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Customization in JavaScript Bullet chart control | Syncfusion
-description: Learn here all about Customization in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
+title: Customization in JavaScript Bullet Chart | Syncfusion
+description: Learn how to customize the Syncfusion JavaScript Bullet Chart, including orientation, flow direction, and animation.
 platform: chart-sdk
-control: Customization 
+control: Bullet Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Customization in JavaScript Bullet chart control
+# Customization in JavaScript Bullet Chart
 
 ## Orientation
 

@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started in JavaScript Smithchart control
+# Getting started in JavaScript Smith Chart
 
 This section explains you the steps required to create a Smith Chart and demonstrate the basic usage of the Smith Chart control.
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Selected data grid in TypeScript Chart control | Syncfusion
+title: How to display selected data in TypeScript Chart | Syncfusion
 description: Learn here all about Selected data grid in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Selected data grid 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Selected data grid in TypeScript Chart control
+# How to display selected data in TypeScript Chart
 
 By using the [`dragComplete`](../../api/chart/chartModel/#dragcomplete), you can get the selected data values for range selection.
 

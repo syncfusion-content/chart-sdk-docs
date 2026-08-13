@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Pareto Chart in Vue Charts | Syncfusion
-description: Learn here all about Pareto Chart in Syncfusion Vue Charts component of Syncfusion Essential JS 2 and more.
+title: Pareto Chart in Vue Chart | Syncfusion
+description: Learn here all about Pareto Chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Pareto Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pareto Chart in Vue Charts
+# Pareto Chart in Vue Chart
 
 ## Pareto
 

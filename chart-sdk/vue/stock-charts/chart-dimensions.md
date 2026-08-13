@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chart dimensions in Vue Stock chart component | Syncfusion
+title: Chart Dimensions in Vue Stock Chart | Syncfusion
 description: Learn here all about Chart dimensions in Syncfusion Vue Stock chart component of Syncfusion Essential JS 2 and more.
 control: Chart dimensions 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart dimensions in Vue Stock chart component
+# Chart Dimensions in Vue Stock Chart
 
 ## Size for Container
 
@@ -27,8 +27,8 @@ Stock Chart can render to its container size. You can set the size via inline or
 
 ## Size for Stock Chart
 
-You can also set size for stock chart directly through [`width`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/#width) and
-[`height`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/#height) properties.
+You can also set size for stock chart directly through [`width`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart#width) and
+[`height`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart#height) properties.
 <!-- markdownlint-disable MD036 -->
 * In Pixel
 <!-- markdownlint-disable MD036 -->

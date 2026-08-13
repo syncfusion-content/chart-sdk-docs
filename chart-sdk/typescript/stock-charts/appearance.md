@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Appearance in TypeScript Stock chart control | Syncfusion
-description: Learn here all about Appearance in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Appearance in TypeScript Stock Charts | Syncfusion
+description: Learn here all about Appearance in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Appearance 
+control: Stock Charts 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in TypeScript Stock chart control
+# Appearance in TypeScript Stock Charts
 
 ## Stock Chart Title
 

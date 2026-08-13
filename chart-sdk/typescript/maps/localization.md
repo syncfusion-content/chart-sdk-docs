@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Localization in TypeScript Maps component | Syncfusion
-description: Learn here all about Localization in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Localization in TypeScript Maps | Syncfusion
+description: Learn here all about Localization in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Localization 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Localization in TypeScript Maps component
+# Localization in TypeScript Maps
 
 The localization library allows localizing the default text content of the Maps component. The Maps component has the static text of some features such as tooltip of zoom toolbar, and that can be changed to any other culture(Arabic, Deutsch, French, etc) by defining the locale value and translation object.
 

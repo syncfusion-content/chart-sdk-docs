@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Accessibility in TypeScript Accumulation chart control | Syncfusion
-description: Learn here all about Accessibility in Syncfusion TypeScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Accessibility in TypeScript Accumulation Chart | Syncfusion
+description: Learn how to make the Syncfusion TypeScript Accumulation Chart accessible using ADA, Section 508, WCAG 2.2, and ARIA roles.
 platform: chart-sdk
-control: Accessibility 
+control: Accumulation Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in TypeScript Accumulation chart control
+# Accessibility in TypeScript Accumulation Chart
 
 The Accumulation chart control followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

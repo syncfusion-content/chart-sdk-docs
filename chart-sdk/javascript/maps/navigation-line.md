@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Navigation line in JavaScript Maps component | Syncfusion
-description: Learn here all about Navigation line in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Navigation line in JavaScript Maps | Syncfusion
+description: Draw curved navigation lines between two locations on a JavaScript Maps to represent flight routes, sea paths, or other connecting journeys.
 platform: chart-sdk
 control: Navigation line 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Navigation line in JavaScript Maps component
+# Navigation line in JavaScript Maps
 
 Navigation lines are curved paths used to denote the route between two locations on the Maps. This feature is commonly used to draw flight routes, sea routes, or any path connecting two geographic points. Navigation lines are enabled by setting the [`visible`](../api/maps/navigationLineSettingsModel#visible) property of the [`navigationLineSettings`](../api/maps/navigationLineSettingsModel) to **true**.
 

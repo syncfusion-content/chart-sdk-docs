@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Gauge user interaction in Angular Circular gauge component |Syncfusion
+title: User Interaction in Angular Circular Gauge | Syncfusion
 description: Learn here all about Gauge user interaction in Syncfusion Angular Circular gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge user interaction 
+control: User Interaction 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Gauge user interaction in Angular Circular gauge component
+# User Interaction in Angular Circular Gauge
 
 ## Tooltip for pointers
 

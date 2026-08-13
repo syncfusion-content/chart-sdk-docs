@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Labels in JavaScript Range navigator control | Syncfusion
-description: Learn here all about Labels in Syncfusion JavaScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Labels in JavaScript Range Selector | Syncfusion
+description: Learn here all about Labels in Syncfusion JavaScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Labels 
+control: Range Selector 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Labels in JavaScript Range navigator control
+# Labels in JavaScript Range Selector
 
 ## Multilevel labels
 

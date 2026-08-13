@@ -1,16 +1,16 @@
 ---
 layout: post
-title: User interaction in JavaScript Chart control | Syncfusion
+title: User Interaction in JavaScript Chart | Syncfusion
 description: Learn here all about User interaction in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: User interaction 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# User interaction in JavaScript Chart control
+# User Interaction in JavaScript Chart
 
 <!-- markdownlint-disable MD036 -->
 

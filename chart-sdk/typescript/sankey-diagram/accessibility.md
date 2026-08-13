@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Accessibility in TypeScript Sankey Chart component | Syncfusion
-description: Learn here all about Accessibility in Syncfusion TypeScript Sankey Chart component of Syncfusion Essential JS 2 and more.
-control: Accessibility
+title: Accessibility in TypeScript Sankey Diagram | Syncfusion
+description: Learn here all about Accessibility in Syncfusion TypeScript Sankey Diagram of Syncfusion Essential JS 2 and more.
+control: Sankey Diagram
 platform: chart-sdk
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in TypeScript Sankey Chart component
+# Accessibility in TypeScript Sankey Diagram
 
 The Sankey Chart component follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 

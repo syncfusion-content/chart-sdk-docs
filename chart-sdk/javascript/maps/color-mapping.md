@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Color mapping in JavaScript Maps component | Syncfusion
-description: Learn here all about Color mapping in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Color mapping in JavaScript Maps | Syncfusion
+description: Apply range, equal, or desaturation color mapping in JavaScript Maps to differentiate shape regions based on their underlying data values.
 platform: chart-sdk
 control: Color mapping 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Color mapping in JavaScript Maps component
+# Color mapping in JavaScript Maps
 
 Color mapping customizes shape colors based on data values. It supports three primary types: range, equal, and desaturation. To apply color mapping, bind data to the [`dataSource`](../api/maps/layerSettingsModel#datasource) property of [`layerSettings`](../api/maps/layerSettingsModel) and set the [`colorValuePath`](../api/maps/shapeSettingsModel#colorvaluepath) property in [`shapeSettings`](../api/maps/shapeSettingsModel) to specify which field controls the color value.
 

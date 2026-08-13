@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selected data grid in Angular Chart component | Syncfusion
+title: How to Display Selected Data in Angular Chart | Syncfusion
 description: Learn here all about Selected data grid in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Selected data grid 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Selected data grid in Angular Chart component
+# How to Display Selected Data in Angular Chart
 
 By using the [`dragComplete`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel/#dragcomplete) event, you can get the selected data values for range selection.
 

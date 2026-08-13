@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with TypeScript Bullet Chart control | Syncfusion
-description: Check out and learn about Getting started with TypeScript Bullet Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with TypeScript Bullet Chart control | Syncfusion
+description: Learn how to get started with the Syncfusion TypeScript Bullet Chart in a TypeScript application using the EJ2 webpack quickstart.
 platform: chart-sdk
 control: Bullet Chart
 publishingplatform: chart-sdk
@@ -9,19 +9,19 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with TypeScript Bullet Chart control
+# Getting Started with TypeScript Bullet Chart control
 
 This document explains how to create a simple Bullet Chart and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
+> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started).
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
 
-* [Node.js](https://nodejs.org/) (v14.15.0 or higher)
+* [Node.js](https://nodejs.org) (v14.15.0 or higher)
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
-* [Git](https://git-scm.com/) for cloning the quickstart repository
+* [Git](https://git-scm.com) for cloning the quickstart repository
 * A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result
 
 ## Dependencies
@@ -136,7 +136,7 @@ Locate the `src/app/app.ts` file in your project and add the Bullet Chart compon
 {% endhighlight %}
 {% endtabs %}
 
-> You can refer to our [JavaScript Bullet Chart](https://www.syncfusion.com/javascript-ui-controls/js-bullet-chart) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Bullet Chart example](https://ej2.syncfusion.com/demos/#/bootstrap5/bullet-chart/default-functionalities.html) that shows various Bullet Chart configurations.
+> You can refer to our [JavaScript Bullet Chart](https://www.syncfusion.com/javascript-ui-controls/js-bullet-chart) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Bullet Chart example](https://ej2.syncfusion.com/demos#/bootstrap5/bullet-chart/default-functionalities.html) that shows various Bullet Chart configurations.
 
 ### Step 8: Run the Application
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Range Area Chart in JavaScript Charts | Syncfusion
+title: Range Area Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Range Area in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Area
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Range Area Chart in JavaScript Charts
+# Range Area Chart in JavaScript Chart
 
 ## Range Area
 

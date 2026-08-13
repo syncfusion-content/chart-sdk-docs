@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Title and Subtitle in JavaScript Sankey Chart component | Syncfusion
-description: Learn here all about Title and Subtitle in Syncfusion JavaScript Sankey Chart component of Syncfusion Essential JS 2 and more.
-control: Title and Subtitle
+title: Title and Subtitle in JavaScript Sankey Diagram | Syncfusion
+description: Learn here all about Title and Subtitle in Syncfusion JavaScript Sankey Diagram of Syncfusion Essential JS 2 and more.
+control: Sankey Diagram
 platform: chart-sdk
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and Subtitle in JavaScript Sankey Chart component
+# Title and Subtitle in JavaScript Sankey Diagram
 
 The Sankey Chart supports adding descriptive titles and subtitles to provide context and information about your data visualization. These text elements help users quickly understand the purpose and content of the diagram. You can fully customize the text, styling, alignment, and appearance using dedicated properties.
 

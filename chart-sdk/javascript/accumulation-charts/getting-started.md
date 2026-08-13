@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Getting started with JavaScript Accumulation chart control | Syncfusion
-description:  Checkout and learn about Getting started with JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more details.
+title: Getting started with JavaScript Accumulation Chart (ES5) | Syncfusion
+description:  Learn how to get started with the Syncfusion JavaScript Accumulation Chart in an ES5 application using the CDN approach.
 platform: chart-sdk
-control: Getting started 
+control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Getting started in JavaScript Accumulation chart control
+# Getting Started in JavaScript Accumulation Chart
 
 In EJ2, accumulation chart is implemented as a separate control to avoid the axis related logics. The dependencies for accumulation chart is same as chart control.
 
@@ -116,7 +116,7 @@ chart.appendTo('#element');
 
 **Pie Series**
 
-By default, the pie series will be rendered when assigning the JSON data to the series using the [`dataSource`](../api/accumulation-chart/accumulationSeries/#datasource) property. Map the field names in the JSON data to the [`xName`](../api/accumulation-chart/accumulationSeries/#xname) and [`yName`](../api/accumulation-chart/accumulationSeries/#yname) properties of the series.
+By default, the pie series will be rendered when assigning the JSON data to the series using the [`dataSource`](../api/accumulation-chart/accumulationSeries#datasource) property. Map the field names in the JSON data to the [`xName`](../api/accumulation-chart/accumulationSeries#xname) and [`yName`](../api/accumulation-chart/accumulationSeries#yname) properties of the series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

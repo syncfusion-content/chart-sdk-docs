@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Getting Started with Vue Accumulation Chart Component | Syncfusion
-description: Set up a Vue 2 project and add Syncfusion EJ2 Accumulation Charts, covering install steps, module registration, and practical usage examples.
+description: Set up a Vue 2 project and add Syncfusion EJ2 Accumulation Chart, covering install steps, module registration, and practical usage examples.
 control: Getting started 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue Accumulation Chart Component in Vue 2
+# Getting Started with Vue Accumulation Chart
 
 This article provides a step-by-step guide for setting up a Vue 2 project using [Vue CLI](https://cli.vuejs.org) and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Accumulation Chart component.
 

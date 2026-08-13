@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Internationalization in JavaScript Circular gauge control | Syncfusion
-description: Learn here all about Internationalization in Syncfusion JavaScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Internationalization in JavaScript Circular Gauge | Syncfusion
+description: Learn here all about Internationalization in Syncfusion JavaScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Internationalization 
+control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Internationalization in JavaScript Circular gauge control
+# Internationalization in JavaScript Circular Gauge
 
 Circular Gauge provides internationalization support for below elements.
 
@@ -22,7 +22,7 @@ For more information about number formatter, you can refer [internationalization
 
 Globalization is the process of designing and developing a control that works in different cultures/locales.
 
-Internationalization library is used to globalize number in the Circular Gauge using [format](../api/circular-gauge/label/#format-string) property in [labelStyle](../api/circular-gauge/label).
+Internationalization library is used to globalize number in the Circular Gauge using [format](../api/circular-gauge/label#format-string) property in [labelStyle](../api/circular-gauge/label).
 
 **Numeric Format**
 
@@ -41,7 +41,7 @@ In the below example, axis labels are globalized to **EUR**.
 
 ## Right-to-left
 
-Circular Gauge can render its elements from right to left, which improves the user experience for certain language users. To do so, set the [enableRtl](../api/circular-gauge/#enablertl) property to **true**. When this property is enabled, elements such as the tooltip and legend will be rendered from right to left. Meanwhile, the axis can be rendered from right to left by setting the [direction](../api/circular-gauge/axis/#direction) property to **AntiClockWise**. For more information on axis, click [here](../circular-gauge/gauge-axes/#angles-and-direction).
+Circular Gauge can render its elements from right to left, which improves the user experience for certain language users. To do so, set the [enableRtl](../api/circular-gauge#enablertl) property to **true**. When this property is enabled, elements such as the tooltip and legend will be rendered from right to left. Meanwhile, the axis can be rendered from right to left by setting the [direction](../api/circular-gauge/axis#direction) property to **AntiClockWise**. For more information on axis, click [here](../circular-gauge/gauge-axes#angles-and-direction).
 
 The following example illustrates the right to left rendering of the Circular Gauge.
 

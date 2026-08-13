@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Pareto Chart in JavaScript Charts | Syncfusion
+title: Pareto Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Pareto in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Pareto 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pareto Chart in JavaScript Charts
+# Pareto Chart in JavaScript Chart
 
 ## Pareto
 

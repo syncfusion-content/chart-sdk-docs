@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance in JavaScript HeatMap chart control | Syncfusion
-description: Learn here all about Appearance in Syncfusion JavaScript HeatMap chart control of Syncfusion Essential JS 2 and more.
+title: Appearance in JavaScript HeatMap Chart | Syncfusion
+description: Customize JavaScript HeatMap Chart cell borders, background, margins, title, data labels, templates, and text style to match your application design.
 platform: chart-sdk
 control: Appearance 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in JavaScript HeatMap chart control
+# Appearance in JavaScript HeatMap Chart
 
 ## Cell customization
 
@@ -17,7 +17,7 @@ You can customize the cell by using the [cellSettings](../api/heatmap/cellSettin
 
 ### Border
 
-Change the width, color, and radius of the heat map cells by using the [border](../api/heatmap/cellSettings/#border) property.
+Change the width, color, and radius of the heat map cells by using the [border](../api/heatmap/cellSettings#border) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -32,7 +32,7 @@ Change the width, color, and radius of the heat map cells by using the [border](
 
 ### Cell highlighting
 
-Enable or disable the cell highlighting while hovering over the heat map cells by using the [enableCellHighlighting](../api/heatmap/cellSettings/#enablecellhighlighting) property.
+Enable or disable the cell highlighting while hovering over the heat map cells by using the [enableCellHighlighting](../api/heatmap/cellSettings#enablecellhighlighting) property.
 
 >Note: The cell highlighting only works in a SVG rendering mode.
 
@@ -49,7 +49,7 @@ Enable or disable the cell highlighting while hovering over the heat map cells b
 
 ### Color gradient mode
 
-The [colorGradientMode](../api/heatmap/paletteSettingsModel/#colorgradientmode) property can be used to set the minimum and maximum values for colors based on row and column. Three types of color gradient modes are available.
+The [colorGradientMode](../api/heatmap/paletteSettingsModel#colorgradientmode) property can be used to set the minimum and maximum values for colors based on row and column. Three types of color gradient modes are available.
 
 * **Table**: The minimum and maximum value colors calculated for overall data.
 * **Row**: The minimum and maximum value colors calculated for each row of data.
@@ -70,7 +70,7 @@ The [colorGradientMode](../api/heatmap/paletteSettingsModel/#colorgradientmode) 
 
 ## Background color
 
-The background color of the HeatMap can be customized using the [backgroundColor](../api/heatmap/#backgroundcolor) property.
+The background color of the HeatMap can be customized using the [backgroundColor](../api/heatmap#backgroundcolor) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -85,7 +85,7 @@ The background color of the HeatMap can be customized using the [backgroundColor
 
 ## Margin
 
-Set the margin for the HeatMap from its container by using the [margin](../api/heatmap/#margin) property.
+Set the margin for the HeatMap from its container by using the [margin](../api/heatmap#margin) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -100,7 +100,7 @@ Set the margin for the HeatMap from its container by using the [margin](../api/h
 
 ## Title
 
-The title is used to provide a quick information about the data plotted in HeatMap. The [text](../api/heatmap/title/#text) property is used to set the title for the HeatMap. The text style of the title can be customized by using the [textStyle](../api/heatmap/title/#textstyle) property.
+The title is used to provide a quick information about the data plotted in HeatMap. The [text](../api/heatmap/title#text) property is used to set the title for the HeatMap. The text style of the title can be customized by using the [textStyle](../api/heatmap/title#textstyle) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -115,7 +115,7 @@ The title is used to provide a quick information about the data plotted in HeatM
 
 ## Data label
 
-The visibility of data labels can be toggled using the [showLabel](../api/heatmap/cellSettings/#showlabel) property. By default, the data labels will be visible.
+The visibility of data labels can be toggled using the [showLabel](../api/heatmap/cellSettings#showlabel) property. By default, the data labels will be visible.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -130,7 +130,7 @@ The visibility of data labels can be toggled using the [showLabel](../api/heatma
 
 ### Customize the data label
 
-The label displayed in the HeatMap cell can be changed using the [cellRender](../api/heatmap/#cellrender) event.
+The label displayed in the HeatMap cell can be changed using the [cellRender](../api/heatmap#cellrender) event.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -145,7 +145,7 @@ The label displayed in the HeatMap cell can be changed using the [cellRender](..
 
 ### Text style
 
-The text attributes of the data label such as font-family, font-size, and color can be customized using the [textStyle](../api/heatmap/cellSettings/#textstyle) in the [cellSettings](../api/heatmap/#cellsettings) property.
+The text attributes of the data label such as font-family, font-size, and color can be customized using the [textStyle](../api/heatmap/cellSettings#textstyle) in the [cellSettings](../api/heatmap#cellsettings) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -160,7 +160,7 @@ The text attributes of the data label such as font-family, font-size, and color 
 
 ### Format
 
-The format of the data label, such as currency, decimal, percent etc. can be changed using [format](../api/heatmap/cellSettings/#format) property.
+The format of the data label, such as currency, decimal, percent etc. can be changed using [format](../api/heatmap/cellSettings#format) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -175,7 +175,7 @@ The format of the data label, such as currency, decimal, percent etc. can be cha
 
 ### Template
 
-Any HTML elements can be added as a template in the data labels by using the [labelTemplate](../api/heatmap/cellSettings/#labeltemplate) property of [cellSettings](../api/heatmap/cellSettings) in the HeatMap.
+Any HTML elements can be added as a template in the data labels by using the [labelTemplate](../api/heatmap/cellSettings#labeltemplate) property of [cellSettings](../api/heatmap/cellSettings) in the HeatMap.
 
 The following examples show various data binding methods in the HeatMap using the `labelTemplate` property.
 
@@ -249,4 +249,4 @@ The following example demonstrates how to add a data label template for JSON cel
 
 ## See Also
 
-* [To customize the appearance of tool tip](./tooltip/#customize-the-appearance-of-tooltip)
+* [To customize the appearance of tool tip](./tooltip#customize-the-appearance-of-tooltip)

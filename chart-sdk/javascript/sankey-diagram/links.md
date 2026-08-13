@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Links in JavaScript Sankey Chart component | Syncfusion
-description: Learn here all about Links in Syncfusion JavaScript Sankey Chart component of Syncfusion Essential JS 2 and more.
-control: Links
+title: Links in JavaScript Sankey Diagram | Syncfusion
+description: Learn here all about Links in Syncfusion JavaScript Sankey Diagram of Syncfusion Essential JS 2 and more.
+control: Sankey Diagram
 platform: chart-sdk
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Links in JavaScript Sankey Chart component
+# Links in JavaScript Sankey Diagram
 
 Links are the connecting paths that visualize flow between nodes in a Sankey Chart. Each link connects a source node to a target node and carries a quantitative value that determines its visual thickness. The Sankey Chart provides comprehensive customization options for link styling, colors, curvature, and interactions.
 

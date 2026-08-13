@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Bullet chart dimensions in TypeScript Bullet chart control | Syncfusion
-description: Learn here all about Bullet chart dimensions in Syncfusion TypeScript Bullet chart control of Syncfusion Essential JS 2 and more.
+title: Bullet Chart Dimensions in TypeScript Bullet Chart | Syncfusion
+description: Learn how to set the width and height of the Syncfusion TypeScript Bullet Chart by configuring the container size.
 platform: chart-sdk
-control: Bullet chart dimensions 
+control: Bullet chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Bullet chart dimensions in TypeScript Bullet chart control
+# Bullet Chart Dimensions in TypeScript Bullet Chart
 
 ## Size for Container
 

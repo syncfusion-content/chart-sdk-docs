@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Dynamic data update in JavaScript Chart control | Syncfusion
+title: Dynamic data update in JavaScript Chart | Syncfusion
 description: Learn here all about dynamic data update in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Dynamic Data Update
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dynamic data update in JavaScript Chart control
+# Dynamic data update in JavaScript Chart
 
 The JavaScript Chart control provides methods to dynamically modify data without requiring a full chart refresh. This enables real-time data visualization, interactive features, and responsive user experiences. Common scenarios include adding sensor readings, removing outdated data points, replacing entire datasets, and enabling click-based data manipulation.
 

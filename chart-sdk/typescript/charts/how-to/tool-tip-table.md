@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Tool tip table in TypeScript Chart control | Syncfusion
+title: How to show table in tooltip in TypeScript Chart | Syncfusion
 description: Learn here all about Tool tip table in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tool tip table 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip table in TypeScript Chart control
+# How to show table in tooltip in TypeScript Chart
 
 You can show the tooltip as table by using template property in tooltip.
 

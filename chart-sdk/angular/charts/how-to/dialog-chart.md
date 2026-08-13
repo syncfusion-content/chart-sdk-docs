@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dialog chart in Angular Chart component | Syncfusion
+title: How to Show a Chart in a Dialog in Angular Chart | Syncfusion
 description: Learn here all about Dialog chart in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dialog chart
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dialog chart in Angular Chart component
+# How to Show a Chart in a Dialog in Angular Chart
 
 Using the [`content`](https://ej2.syncfusion.com/angular/documentation/api/dialog/#content) property of the Dialog component, you can show the chart in a dialog pop-up.
 

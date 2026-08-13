@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Render methods in JavaScript Chart control | Syncfusion
+title: Render methods in JavaScript Chart | Syncfusion
 description: Learn here all about Render methods in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Render methods 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Render methods in JavaScript Chart control
+# Render methods in JavaScript Chart
 
 Chart uses following two rendering methods.
 

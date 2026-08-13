@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip template in JavaScript Heatmap chart control | Syncfusion
-description: Learn here all about Tooltip template in Syncfusion JavaScript Heatmap chart control of Syncfusion Essential JS 2 and more.
+title: How to create a table in JavaScript HeatMap Chart | Syncfusion
+description: Build a custom table-style tooltip for the JavaScript HeatMap Chart using an HTML template bound to xValue, yValue, and value in the tooltipRender event.
 platform: chart-sdk
 control: Tooltip template 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip template in JavaScript Heatmap chart control
+# How to create a table in JavaScript HeatMap Chart
 
 You can show a tooltip as a table using the `template` property in `tooltipSettings`.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started with the Vue Circular Gauge Component | Syncfusion
-description: Set up a Vue 2 application and integrate the Syncfusion Essential JS 2 Vue Circular Gauge component with a working example.
+title: Getting Started with Vue Circular Gauge | Syncfusion
+description: Set up a Vue 2 application and integrate the Syncfusion Vue Circular Gauge component with a working example.
 control: Circular Gauge
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue Circular Gauge Component in Vue 2
+# Getting Started with Vue Circular Gauge in Vue 2
 
 This article provides a step-by-step guide to creating a Vue 2 application using [Vue CLI](https://cli.vuejs.org/) and integrating the Syncfusion<sup>®</sup> Vue Circular Gauge component.
 
@@ -37,7 +37,7 @@ Use a package release that supports Vue 2. Before upgrading, check the [Vue syst
 
 ## Set Up the Vue 2 Project
 
-Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org/#getting-started) command.
+Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org#getting-started) command.
 
 **npm**
 
@@ -161,6 +161,6 @@ For additional assistance, refer to the [Vue Circular Gauge API documentation](h
 ## See Also
 
 - [Vue Circular Gauge pointers](https://ej2.syncfusion.com/vue/documentation/circular-gauge/gauge-pointers)
-- [Vue Circular Gauge examples](https://ej2.syncfusion.com/vue/demos/#/material3/circular-gauge/default-functionalities.html)
+- [Vue Circular Gauge examples](https://ej2.syncfusion.com/vue/demos#/material3/circular-gauge/default-functionalities.html)
 - [Getting Started with Vue 3 using the Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)
 - [Getting Started with Vue 3 using the Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)

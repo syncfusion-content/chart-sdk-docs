@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Special points customization in TypeScript Sparkline | Syncfusion
-description: Learn here all about Special points customization in Syncfusion TypeScript Sparkline control of Syncfusion Essential JS 2 and more.
+description: Learn here all about Special points customization in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Special points customization 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Special points customization in TypeScript Sparkline control
+# Special points customization in TypeScript Sparkline
 
 You can customize the points by initializing the point colors. The customization options allows to differentiate the [`start`], [`end`], [`positive`], [`negative`], and [`low`] points. This customization is only applicable for line, column, and area type sparklines.
 

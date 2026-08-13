@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Events in TypeScript HeatMap chart control | Syncfusion
-description: Learn here all about events in Syncfusion TypeScript HeatMap chart control of Syncfusion Essential JS 2 and more.
+title: Events in TypeScript HeatMap Chart | Syncfusion
+description: Handle cellClick, cellDoubleClick, cellRender, cellSelected, created, legendRender, load, loaded, resized, and tooltipRender events in JavaScript HeatMap Chart.
 platform: chart-sdk
 control: Events 
 publishingplatform: chart-sdk
@@ -9,13 +9,13 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Events in TypeScript HeatMap chart control
+# Events in TypeScript HeatMap Chart
 
 This section describes the HeatMap chart control event, which occurs when the required actions are performed.
 
 ## cellClick
 
-When you click on a HeatMap cell, the [cellClick](../api/heatmap/#cellclick/) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iCellClickEventArgs/).
+When you click on a HeatMap cell, the [cellClick](../api/heatmap#cellclick) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iCellClickEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -30,7 +30,7 @@ When you click on a HeatMap cell, the [cellClick](../api/heatmap/#cellclick/) ev
 
 ## cellDoubleClick
 
-When you double click on a HeatMap cell, the [cellDoubleClick](../api/heatmap/#celldoubleclick/) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iCellClickEventArgs/).
+When you double click on a HeatMap cell, the [cellDoubleClick](../api/heatmap#celldoubleclick) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iCellClickEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -45,7 +45,7 @@ When you double click on a HeatMap cell, the [cellDoubleClick](../api/heatmap/#c
 
 ## cellRender
 
-The [cellRender](../api/heatmap/#cellrender) event will be triggered before each HeatMap cell is rendered. To know more about arguments of this event, refer [here](../api/heatmap/iCellEventArgs/).
+The [cellRender](../api/heatmap#cellrender) event will be triggered before each HeatMap cell is rendered. To know more about arguments of this event, refer [here](../api/heatmap/iCellEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -60,7 +60,7 @@ The [cellRender](../api/heatmap/#cellrender) event will be triggered before each
 
 ## cellSelected
 
-When single or multiple cells in the HeatMap are selected, the [cellSelected](../api/heatmap/#cellselected/) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iSelectedEventArgs/).
+When single or multiple cells in the HeatMap are selected, the [cellSelected](../api/heatmap#cellselected) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iSelectedEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -75,7 +75,7 @@ When single or multiple cells in the HeatMap are selected, the [cellSelected](..
 
 ## created
 
-Once HeatMap has been completely rendered, the [created](../api/heatmap/#created) event is triggered.
+Once HeatMap has been completely rendered, the [created](../api/heatmap#created) event is triggered.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -90,7 +90,7 @@ Once HeatMap has been completely rendered, the [created](../api/heatmap/#created
 
 ## legendRender
 
-The [legendRender](../api/heatmap/#legendrender/) event is triggered before the legend is rendered. To know more about arguments of this event, refer [here](../api/heatmap/iLegendRenderEventArgs/).
+The [legendRender](../api/heatmap#legendrender) event is triggered before the legend is rendered. To know more about arguments of this event, refer [here](../api/heatmap/iLegendRenderEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -105,7 +105,7 @@ The [legendRender](../api/heatmap/#legendrender/) event is triggered before the 
 
 ## load
 
-The [load](../api/heatmap/#load) event is triggered before the HeatMap is rendered. To know more about arguments of this event, refer [here](../api/heatmap/iLoadedEventArgs/).
+The [load](../api/heatmap#load) event is triggered before the HeatMap is rendered. To know more about arguments of this event, refer [here](../api/heatmap/iLoadedEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -120,7 +120,7 @@ The [load](../api/heatmap/#load) event is triggered before the HeatMap is render
 
 ## loaded
 
-Once HeatMap is loaded, the [loaded](../api/heatmap/#loaded/) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iLoadedEventArgs/).
+Once HeatMap is loaded, the [loaded](../api/heatmap#loaded) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iLoadedEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -135,7 +135,7 @@ Once HeatMap is loaded, the [loaded](../api/heatmap/#loaded/) event is triggered
 
 ## resized
 
-When the window is resized, the [resized](../api/heatmap/#resized/) event is triggered to notify the resize of the HeatMap. To know more about arguments of this event, refer [here](../api/heatmap/iResizeEventArgs/).
+When the window is resized, the [resized](../api/heatmap#resized) event is triggered to notify the resize of the HeatMap. To know more about arguments of this event, refer [here](../api/heatmap/iResizeEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -150,7 +150,7 @@ When the window is resized, the [resized](../api/heatmap/#resized/) event is tri
 
 ## tooltipRender
 
-The [tooltipRender](../api/heatmap/#tooltiprender/) event is triggered before the tooltip is rendered on the HeatMap cell. To know more about arguments of this event, refer [here](../api/heatmap/iTooltipEventArgs/).
+The [tooltipRender](../api/heatmap#tooltiprender) event is triggered before the tooltip is rendered on the HeatMap cell. To know more about arguments of this event, refer [here](../api/heatmap/iTooltipEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

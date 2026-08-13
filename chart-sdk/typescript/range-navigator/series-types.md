@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Series types in TypeScript Range navigator control | Syncfusion
-description: Learn here all about Series types in Syncfusion TypeScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Series types in TypeScript Range Selector | Syncfusion
+description: Learn here all about Series types in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Series types 
+control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Series types in TypeScript Range navigator control
+# Series types in TypeScript Range Selector
 
 To render the data, the Range Selector supports three types of series.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Labels in Vue Sankey Chart component | Syncfusion
+title: Labels in Vue Sankey | Syncfusion
 description: Learn here all about Labels in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Labels
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Labels in Vue Sankey Chart component
+# Labels in Vue Sankey
 
 Labels display descriptive text associated with nodes in the Sankey Chart, making the diagram more understandable and interpretable. The Sankey Chart provides comprehensive label customization options including visibility control, font styling, individual label configuration, and dynamic rendering events.
 

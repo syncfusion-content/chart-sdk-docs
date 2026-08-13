@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Stacked Step Area Chart in JavaScript Charts | Syncfusion
+title: Stacked Step Area Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Stacked Step Area in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stacked Step Area 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Stacked Step Area Chart in JavaScript Charts
+# Stacked Step Area Chart in JavaScript Chart
 
 ## Stacked Step Area
 
