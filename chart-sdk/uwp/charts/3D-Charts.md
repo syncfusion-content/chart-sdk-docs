@@ -30,9 +30,9 @@ The following steps explain how to create 3D charts.
 2. Choose Windows > Extensions > Syncfusion controls for UWP XAML.
 3. Add the following namespace in your XAML page:
 
-{% highlight xaml %}
+{% highlight xaml %} 
 
-    xmlns:Syncfusion="using:Syncfusion.UI.Xaml.Charts"
+xmlns:syncfusion="using:Syncfusion.UI.Xaml.Charts"
 
 {% endhighlight %}
 
