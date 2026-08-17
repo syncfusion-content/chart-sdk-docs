@@ -15,24 +15,7 @@ String platform='chart-sdk';
 	    { 
 	    dir('Spell-Checker') 
            {
-		     checkout([
-              $class: 'GitSCM',
-              branches: [[name: "*/${env.githubSourceBranch}"]],
-              userRemoteConfigs: [[
-                credentialsId: env.githubCredentialId,
-                url: 'https://github.com/syncfusion-content/chart-sdk-docs.git'
-              ]],
-              extensions: [
-                cloneOption([
-                  depth:   1,
-                  noTags:  true,
-                  shallow: true,
-                  timeout: 30
-                ])
-              ]
-            ])
-
-            echo "Checkout finish"
+		     checkout scm
 			 
 			 def page = 1
 			 while(true)
