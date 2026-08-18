@@ -1,4 +1,4 @@
-node('Maui')
+node('GithubContent')
 { 
 timestamps
   {
