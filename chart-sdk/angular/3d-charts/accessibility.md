@@ -10,7 +10,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Accessibility in Angular 3D Chart control
 
-
 Accessibility is achieved in the 3D chart control through WAI-ARIA standard and keyboard navigation. The 3D chart features can be effectively accessed through assistive technologies such as screen readers.
 
 ## WAI-ARIA
