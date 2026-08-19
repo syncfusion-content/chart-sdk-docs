@@ -7,7 +7,7 @@ control: 3D Chart
 documentation: ug
 ---
 
-# Bar Chart in Blazor 3D Chart control
+# Blazor 3D Bar Chart Control
 
 ## Bar chart
 
