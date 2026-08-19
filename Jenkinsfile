@@ -1,4 +1,4 @@
-node('content')
+node('GithubContent')
 { 
 timestamps
   {
@@ -7,7 +7,7 @@ String platform='chart-sdk';
    try
 	{   
 	
-	def Content="";
+	def ="";
 		env.PATH = "${ProgramFiles}"+"\\Git\\mingw64\\bin;${env.PATH}"
 		
 		//Clone scm repository in Workspace source directory
