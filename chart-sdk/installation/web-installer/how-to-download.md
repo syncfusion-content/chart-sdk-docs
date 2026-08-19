@@ -2,7 +2,7 @@
 layout: post
 title: Downloading Syncfusion Chart SDK web installer - Syncfusion
 description: Learn here about how to download Syncfusion Chart SDK web installer from our Syncfusion website with license.
-platform: Chart SDK
+platform: chart-sdk
 control: Installation and Deployment
 documentation: ug
 

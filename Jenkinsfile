@@ -1,8 +1,9 @@
-node('content')
-{
-	timestamps
-	{
-		def Content="";
+node('Maui')
+{ 
+timestamps
+  {
+   
+  def Content="";
 		env.PATH = "${ProgramFiles}"+"\\Git\\mingw64\\bin;${env.PATH}"
 
 		timeout(time: 7200000, unit: 'MILLISECONDS') {
