@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Getting Started with React Stock Chart Component | Syncfusion
 description: Check out and learn about getting started with Syncfusion Essential React Stock Chart component, its elements, and more details.
