@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Exporting in .NET MAUI Funnel Chart control | Syncfusion
-description: Learn how to export the Syncfusion® .NET MAUI Funnel Chart (SfFunnelChart) control as an image and stream.
+title: Exporting in .NET MAUI Funnel Chart | Syncfusion®
+description: Exporting in .NET MAUI Funnel Chart enables charts to be saved as image files for sharing, reporting, and presentation purposes.
 platform: chart-sdk
 control: SfFunnelChart
 documentation: ug
@@ -10,7 +10,7 @@ keywords: .net maui funnel chart, export chart, save image, export stream, png, 
 
 # Exporting in .NET MAUI Funnel Chart
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Funnel Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/funnel-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Funnel Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/getting-started)** guide.
 
 ## Export as an image
 

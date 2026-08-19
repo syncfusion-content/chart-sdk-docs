@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Orientation in .NET MAUI Pyramid Chart control (Syncfusion)
-description: Learn how to change the rendering direction of segments in .NET MAUI Pyramid Chart (SfPyramidChart) using the Orientation property.
+title: Orientation in .NET MAUI Pyramid Chart | Syncfusion®
+description: Orientation in .NET MAUI Pyramid Chart allows you to display the pyramid vertically or horizontally, improving layout flexibility and data presentation.
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The rendering direction of the pyramid chart can be changed using the [Orientation](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfPyramidChart.html#Syncfusion_Maui_Charts_SfPyramidChart_Orientation) property. The default value of this property is `Vertical`, which arranges segments from top to bottom. It can be set to `Horizontal` to render segments from right to left.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Pyramid Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/pyramid-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Pyramid Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/getting-started)** guide.
 
 {% tabs %}
 

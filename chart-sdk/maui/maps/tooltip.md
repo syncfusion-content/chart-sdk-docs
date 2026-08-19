@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip in .NET MAUI Maps control | Syncfusion
-description: Learn here all about adding the Tooltip feature of Syncfusion® .NET MAUI Maps (SfMaps) control and more.
+title: Tooltip in .NET MAUI Maps | Syncfusion®
+description: Tooltip in .NET MAUI Maps displays detailed information for map elements on interaction, helping users understand and analyze geographic data.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 A tooltip indicates the shape, bubble, and marker information during the tap or hover interactions. This section demonstrates how to show tooltips for the shapes, bubbles, and markers in the maps and how to customize them.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfMaps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfMaps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide.
 
 To learn more about the .NET MAUI Maps tooltip, you can check the following video.
 

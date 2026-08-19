@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Radial Bar chart in .NET MAUI Circular Chart control | Syncfusion
-description: Learn here all about radial bar chart and its features in Syncfusion® .NET MAUI Circular Chart (SfCircularChart) control.
+title: Radial Bar Chart in .NET MAUI Circular Chart | Syncfusion®
+description: Radial Bar Chart in .NET MAUI Circular Chart visualizes values as radial bars in a circular layout, making it easy to compare and track data effectively.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 [RadialBarSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html) is a type of doughnut chart that represents each segment as a separate circle. It is used to compare values between various categories. To render a [RadialBarSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html) in circular chart, create an instance of the [RadialBarSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCircularChart.html#Syncfusion_Maui_Charts_SfCircularChart_Series) collection property of [SfCircularChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCircularChart.html).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/circular-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/circular-charts/getting-started)** guide.
 
 N> The circular chart has [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCircularChart.html#Syncfusion_Maui_Charts_SfCircularChart_Series) as its default content.
 

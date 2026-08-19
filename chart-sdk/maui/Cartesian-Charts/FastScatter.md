@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Fast Scatter Chart in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about the fast scatter chart and its features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Fast Scatter Chart in .NET MAUI Cartesian Chart | Syncfusion®
+description: Fast Scatter Chart in .NET MAUI Cartesian Chart renders large data sets efficiently, enabling high-performance visualization for scatter plot analysis.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -12,7 +12,7 @@ keywords: .net maui fast scatter chart, .net maui performance scatter chart, fas
 
 The [FastScatterSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.FastScatterSeries.html) is a specialized scatter series designed to efficiently render a large number of data points. It is optimized for performance when compared to the regular scatter series, making it suitable for large datasets. To render a fast scatter chart, create an instance of [FastScatterSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.FastScatterSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 N> The Cartesian chart has [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) as its default content.
 

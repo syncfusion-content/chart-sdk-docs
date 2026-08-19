@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Leaf Item Settings in .NET MAUI TreeMap | Syncfusion®
-description: Learn about leaf items in Syncfusion® .NET MAUI TreeMap, including key features and functionalities for effective and insightful TreeMap visualization.
+description: Leaf Item Settings in .NET MAUI TreeMap customize the appearance and behavior of leaf nodes, improving data representation and visual clarity.
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---
  
-# Leaf Item Settings in .NET MAUI TreeMap (SfTreeMap)
+# Leaf Item Settings in .NET MAUI TreeMap
 
 A leaf item in the TreeMap represents a visualized data element. It does not contain child items but may have a parent item if levels are specified in the TreeMap control. It also allows you to customize the spacing between items, stroke color, stroke width, text style, and text format option in the TreeMap control.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started)** guide.
 
 ## Add Labels
 
