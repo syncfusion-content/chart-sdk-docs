@@ -18,7 +18,7 @@ In addition to text translation, localization also improves the user experience 
 
 N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
 
-### Key Benefits of Localization in Charts
+## Key Benefits of Localization in Charts
 
 - Enhances accessibility for global users
 - Improves readability and clarity of data
@@ -26,7 +26,7 @@ N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/bla
 - Enables accurate representation of region-specific formats
 - Provides a consistent user experience across applications
 
-### Localization can be particularly useful in the following scenarios:
+## Localization can be particularly useful in the following scenarios:
 
 
 - Chart-based dashboards for multinational teams

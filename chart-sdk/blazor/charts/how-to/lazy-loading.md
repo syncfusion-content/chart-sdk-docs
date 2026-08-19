@@ -96,11 +96,11 @@ else
 
 ![LazyLoad Line](../images/lazyload-line.webp)
 
-### Line 
+## Line 
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LDLdtnWLeifIjcYa?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[LazyLoad Column](../images/lazyload-column.webp)" %}
 
-### Column 
+## Column 
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VZBHjdMLyiSjFBzI?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
