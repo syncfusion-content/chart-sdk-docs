@@ -13,6 +13,7 @@ documentation: ug
 
 To render a bar series, set series `Type` as `Bar`.
 
+
 ```cshtml
 
 @using Syncfusion.Blazor.Chart3D
