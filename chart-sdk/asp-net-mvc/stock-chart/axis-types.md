@@ -1,0 +1,62 @@
+---
+layout: post
+title: Axis Types in ASP.NET MVC Stock Chart | Syncfusion
+description: Learn here all about Axis Types in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
+platform: chart-sdk
+control: Axis types
+documentation: ug
+---
+
+
+# Axis types in ASP.NET MVC Stock chart
+
+## DateTime axis
+
+DateTime axis uses date time scale and displays the date time values as axis labels in the specified format. To use DateTime axis, set the [`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) of axis to `DateTime`.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetime/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="Datetime.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetime/datetime.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+
+
+## DateTimeCategory axis
+
+DateTimeCategory axis in the stock chart is used to display only business days. To use DateTimeCategory axis, set the [`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) of axis to `DateTimeCategory`.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetimecategory/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="Datetimecategory.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetimecategory/datetimecategory.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+
+
+## Logarithmic axis
+
+<!-- markdownlint-disable MD033 -->
+
+Logarithmic axis uses logarithmic scale and it is very useful in visualizing data, when it has numerical values in both lower order of magnitude (eg: 10<sup>-6</sup>) and higher order of magnitude (eg: 10<sup>6</sup>). To use Logarithmic axis, set the[`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) of axis to `Logarithmic`.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/log/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="Log.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/log/log.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+
+
+## See also
+
+* [Axis Customization](./axis-customization)
