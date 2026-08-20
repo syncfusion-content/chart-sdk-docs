@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Annotation in .NET MAUI Radial Gauge control | Syncfusion®
-description: Learn here all about Annotation feature of Syncfusion® .NET MAUI Radial Gauge control with positioning support and more.
+title: Annotation in .NET MAUI Radial Gauge | Syncfusion®
+description: Annotation in .NET MAUI Radial Gauge displays custom content within the gauge, enabling additional information and enhanced visual presentation.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
@@ -23,7 +23,7 @@ The following properties are available in [`Annotation`](https://help.syncfusion
 
 * [`VerticalAlignment`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.GaugeAnnotation.html#Syncfusion_Maui_Gauges_GaugeAnnotation_VerticalAlignment), of the [`GaugeAlignment`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.GaugeAlignment.html) enum, specifies the vertical alignment for positioning the annotation.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started)** guide.
 
 {% tabs %}
 

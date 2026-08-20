@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Axis Grid Lines in .NET MAUI Polar Chart Control | Syncfusion
-description: Learn here all about the chart axis grid lines and their customization in Syncfusion® .NET MAUI Polar Chart (SfPolarChart).
+title: Grid Lines in .NET MAUI Polar Chart | Syncfusion®
+description: Grid lines in .NET MAUI Polar Chart provide visual references across the plot area, helping improve data readability and value comparison.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
 ---
 
-# Grid lines in .NET MAUI Polar Chart
+# Grid Lines in .NET MAUI Polar Chart
 
 ## Major grid lines
 
 By default, major gridlines are automatically added to the [ChartAxis](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAxis.html) at its defined intervals. The visibility of the major gridlines can be controlled using the [ShowMajorGridLines](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAxis.html#Syncfusion_Maui_Charts_ChartAxis_ShowMajorGridLines) property. The default value of [ShowMajorGridLines](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAxis.html#Syncfusion_Maui_Charts_ChartAxis_ShowMajorGridLines) is `true`.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
 
 {% tabs %}
 

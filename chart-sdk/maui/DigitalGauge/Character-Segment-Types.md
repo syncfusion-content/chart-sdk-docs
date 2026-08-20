@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Character Types in .NET MAUI Digital Gauge | Syncfusion
-description: Learn here all about Character Types support in Syncfusion<sup>&reg;</sup> .NET MAUI Digital Gauge (SfDigitalGauge) control and more.
+title: Character Types in .NET MAUI Digital Gauge | Syncfusion®
+description: Character Types in .NET MAUI Digital Gauge support different character formats for displaying numeric and alphanumeric values in digital gauge displays.
 platform: chart-sdk
 control: DigitalGauge
 documentation: ug
@@ -17,7 +17,7 @@ The digital characters can be displayed in the following four different segments
 * [SixteenSegment](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.DigitalGaugeCharacterType.html#Syncfusion_Maui_Gauges_DigitalGaugeCharacterType_SixteenSegment)
 * [EightCrossEightDotMatrix](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.DigitalGaugeCharacterType.html#Syncfusion_Maui_Gauges_DigitalGaugeCharacterType_EightCrossEightDotMatrix)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfDigitalGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/digitalgauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfDigitalGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/getting-started)** guide.
 
 ## Seven segment
 

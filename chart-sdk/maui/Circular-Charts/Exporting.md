@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Exporting in .NET MAUI Circular Chart control | Syncfusion
-description: Learn here how to export the chart view as an image and stream in the Syncfusion® .NET MAUI Circular Chart (SfCircularChart) control.
+title: Exporting in .NET MAUI Circular Chart | Syncfusion®
+description: Exporting in .NET MAUI Circular Chart enables you to save charts as image files or export them for sharing, reporting, and presentation purposes.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
@@ -9,7 +9,7 @@ documentation: ug
 
 # Exporting in .NET MAUI Circular Chart
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/circular-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/circular-charts/getting-started)** guide.
 
 ## Export as an image
 

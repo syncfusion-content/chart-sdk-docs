@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Fast Line Chart in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about the fast line chart and its features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Fast Line Chart in .NET MAUI Cartesian Chart | Syncfusion®
+description: Fast Line Chart in .NET MAUI Cartesian Chart renders large data sets efficiently, delivering high-performance visualization for real-time and continuous data.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -12,9 +12,9 @@ keywords: .net maui fast line chart, .net maui performance line chart, fast line
 
 ## Fast Line Chart
 
-The [FastLineSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.FastLineSeries.html) is a special kind of line series that can render a collection with a large number of data points. It is optimized for performance when compared to the regular [LineSeries](https://help.syncfusion.com/maui/cartesian-charts/line), making it suitable for large datasets. To render a fast line chart, create an instance of [FastLineSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.FastLineSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html). 
+The [FastLineSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.FastLineSeries.html) is a special kind of line series that can render a collection with a large number of data points. It is optimized for performance when compared to the regular [LineSeries](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/line), making it suitable for large datasets. To render a fast line chart, create an instance of [FastLineSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.FastLineSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html). 
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 N> The Cartesian chart has [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) as its default content.
 
