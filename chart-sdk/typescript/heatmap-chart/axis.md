@@ -4,7 +4,6 @@ title: Axis in TypeScript HeatMap chart control | Syncfusion
 description: Learn here all about axis in Syncfusion TypeScript HeatMap chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

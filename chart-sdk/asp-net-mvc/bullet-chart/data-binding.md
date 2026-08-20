@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data Binding in ASP.NET MVC Bullet Chart Component
+title: Data Binding in ASP.NET MVC Bullet Chart | Syncfusion
 description: Learn here all about Data Binding in Syncfusion ASP.NET MVC Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Binding
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Working with data
+# Working with data in ASP.NET MVC Bullet Chart
 
 Bullet Chart can visualise data bound from local or remote data.
 

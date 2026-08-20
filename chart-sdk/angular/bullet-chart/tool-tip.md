@@ -30,7 +30,7 @@ You can enable the tooltip for the Bullet Chart by setting the [`enable`](https:
 
 ## Tooltip Template
 
-Any HTML elements can be displayed in the tooltip by using the [`template`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel/#template) property of the [`tooltip`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#tooltip). You can use the **${target}** and **${value}** as place holders in the HTML element to display the value and target values from the data source of corresponding data point.
+Any HTML elements can be displayed in the tooltip by using the [`template`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel#template) property of the [`tooltip`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#tooltip). You can use the **${target}** and **${value}** as place holders in the HTML element to display the value and target values from the data source of corresponding data point.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -48,9 +48,9 @@ Any HTML elements can be displayed in the tooltip by using the [`template`](http
 
 The following properties can be used to customize the Bullet Chart tooltip.
 
-* [`fill`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel/#fill) - Specifies the color of tooltip.
-* [`border`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel/#border) - Specifies the tooltip border color and width.
-* [`textStyle`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel/#textstyle) - Specifies the tooltip font family, font style, font weight, color and size.
+* [`fill`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel#fill) - Specifies the color of tooltip.
+* [`border`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel#border) - Specifies the tooltip border color and width.
+* [`textStyle`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel#textstyle) - Specifies the tooltip font family, font style, font weight, color and size.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

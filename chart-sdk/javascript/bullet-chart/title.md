@@ -4,7 +4,6 @@ title: Title in JavaScript Bullet chart control | Syncfusion
 description: Learn here all about Title in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

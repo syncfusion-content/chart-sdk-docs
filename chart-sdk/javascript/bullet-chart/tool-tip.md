@@ -4,7 +4,6 @@ title: Tool tip in JavaScript Bullet chart control | Syncfusion
 description: Learn here all about Tool tip in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool tip 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -15,7 +14,7 @@ When the mouse is hovered over a bar in the Bullet Chart, the tooltip displays i
 
 ## Default tooltip
 
-By setting [`enable`](https://ej2.syncfusion.com/documentation/api/bullet-chart/bulletTooltipSettingsModel/#enable)the property to 'True' and by injecting `BulletTooltip` module using `BulletChart.Inject(BulletTooltip)`.The 'Tooltip' is visible in the 'Bullet chart' by default.
+By setting [`enable`](https://ej2.syncfusion.com/documentation/api/bullet-chart/bulletTooltipSettingsModel#enable)the property to 'True' and by injecting `BulletTooltip` module using `BulletChart.Inject(BulletTooltip)`.The 'Tooltip' is visible in the 'Bullet chart' by default.
 The tooltip is not visible by default. To make it visible, set the `enable` property in the `tooltip` to **true** and injecting `BulletTooltip` module using `BulletChart.Inject(BulletTooltip)`.
 
 {% tabs %}
@@ -46,7 +45,7 @@ Any HTML elements can be displayed in the tooltip by using the `template` proper
 
 ## Customization of the appearance of tooltip
 
-The [`fill`](https://ej2.syncfusion.com/documentation/api/bullet-chart/bulletTooltipSettingsModel/#fill) and [`border`](https://ej2.syncfusion.com/documentation/api/bullet-chart/bulletTooltipSettingsModel/#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](https://ej2.syncfusion.com/documentation/api/bullet-chart/bulletTooltipSettingsModel/#textstyle) property in the tooltip is used to customize the font of the tooltip text.
+The [`fill`](https://ej2.syncfusion.com/documentation/api/bullet-chart/bulletTooltipSettingsModel#fill) and [`border`](https://ej2.syncfusion.com/documentation/api/bullet-chart/bulletTooltipSettingsModel#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](https://ej2.syncfusion.com/documentation/api/bullet-chart/bulletTooltipSettingsModel#textstyle) property in the tooltip is used to customize the font of the tooltip text.
 
 The following properties can be used to customize the Bullet Chart tooltip.
 

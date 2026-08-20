@@ -4,7 +4,6 @@ title: Getting Started with ASP.NET Core Bullet Charts Control |Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Bullets Chart control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Bullet Charts
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

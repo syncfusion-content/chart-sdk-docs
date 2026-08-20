@@ -4,7 +4,6 @@ title: Axis in Syncfusion ASP.NET MVC HeatMap Chart Component
 description: Learn here all about axis in Syncfusion ASP.NET MVC HeatMap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

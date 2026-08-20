@@ -4,7 +4,6 @@ title: Working With Data in Syncfusion ASP.NET MVC Heatmap Chart Component
 description: Learn here all about Working With Data in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working With Data
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
@@ -116,4 +115,4 @@ In complex data binding, you can bind the nested JSON data to the data points in
 
 ## See Also
 
-* [To bind data for bubble heat map with size and color attributes](./bubble-heatmap/#binding-data-for-bubble-heat-map-with-size-and-color-attributes)
+* [To bind data for bubble heat map with size and color attributes](./bubble-heatmap#binding-data-for-bubble-heat-map-with-size-and-color-attributes)

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Axis Customization in ASP.NET Core Sparkline Component
+title: Axis Customization in ASP.NET Core Sparkline | Syncfusion
 description: Learn here all about Axis Customization in Syncfusion ASP.NET Core Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

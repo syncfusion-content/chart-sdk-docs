@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Range Selector in ASP.NET Core Stock Chart Component
+title: Range Selector in ASP.NET Core Stock Chart | Syncfusion
 description: Learn here all about Range Selector in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Range Selector
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Range selector
+# Range selector in ASP.NET Core Stock chart
 
 The period selector allows to select a range with specified periods. By default the period selector is enabled in stock chart.
 

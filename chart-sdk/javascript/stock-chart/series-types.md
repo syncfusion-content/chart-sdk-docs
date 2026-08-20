@@ -4,7 +4,6 @@ title: Series types in JavaScript Stock chart control | Syncfusion
 description: Learn here all about Series types in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Series types 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -17,27 +16,27 @@ Essential JS 2 StockChart supports 6 major types of series namely `Line`, `Splin
 
 ## Line
 
-To render a line series, use series [`type`](../api/stock-chart/stockSeriesModel/#type-string) as `Line` and inject `LineSeries` module using `StockChart.Inject(LineSeries)` method.
+To render a line series, use series [`type`](../api/stock-chart/stockSeriesModel#type-string) as `Line` and inject `LineSeries` module using `StockChart.Inject(LineSeries)` method.
 
 ## Spline
 
-To render a spline series, use series [`type`](../api/stock-chart/stockSeriesModel/#type-string) as `Spline` and inject `SplineSeries` module using `StockChart.Inject(SplineSeries)` method.
+To render a spline series, use series [`type`](../api/stock-chart/stockSeriesModel#type-string) as `Spline` and inject `SplineSeries` module using `StockChart.Inject(SplineSeries)` method.
 
 ## Hilo
 
-To render a hilo series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `Hilo` and inject `HiloSeries` module using `StockChart.Inject(HiloSeries)` method.
+To render a hilo series, use series [`type`](../api/stock-chart/stockSeriesModel#type) as `Hilo` and inject `HiloSeries` module using `StockChart.Inject(HiloSeries)` method.
 
 ## HiloOpenClose
 
-To render a hiloOpenClose series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `HiloOpenClose` and inject `HiloOpenCloseSeries` module using `StockChart.Inject(HiloOpenCloseSeries)` method.
+To render a hiloOpenClose series, use series [`type`](../api/stock-chart/stockSeriesModel#type) as `HiloOpenClose` and inject `HiloOpenCloseSeries` module using `StockChart.Inject(HiloOpenCloseSeries)` method.
 
 ## HollowCandle
 
-To render a hollowcandle series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `Candle` and set `enableSolidCandle` as false. Now inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
+To render a hollowcandle series, use series [`type`](../api/stock-chart/stockSeriesModel#type) as `Candle` and set `enableSolidCandle` as false. Now inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
 
 ## Candle
 
-To render a candle series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `Candle` and inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
+To render a candle series, use series [`type`](../api/stock-chart/stockSeriesModel#type) as `Candle` and inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

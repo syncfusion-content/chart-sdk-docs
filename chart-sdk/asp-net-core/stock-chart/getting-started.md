@@ -4,7 +4,6 @@ title: Getting Started with ASP.NET Core Stock Chart Control | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Stock Chart control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Stock Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

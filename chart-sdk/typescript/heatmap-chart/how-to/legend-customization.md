@@ -4,7 +4,6 @@ title: Legend customization in TypeScript Heatmap chart control | Syncfusion
 description: Learn here all about Legend customization in Syncfusion TypeScript Heatmap chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend customization 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

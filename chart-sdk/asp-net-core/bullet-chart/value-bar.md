@@ -4,7 +4,6 @@ title: Value Bar in ASP.NET Core Bullet Chart Component | Syncfusion
 description: Learn here all about Value Bar in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Value Bar
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

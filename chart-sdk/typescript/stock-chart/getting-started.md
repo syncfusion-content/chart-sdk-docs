@@ -4,7 +4,6 @@ title: Getting started with TypeScript Stock Chart control | Syncfusion
 description: Check out and learn about Getting started with TypeScript Stock Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Stock Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

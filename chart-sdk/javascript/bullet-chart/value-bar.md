@@ -4,7 +4,6 @@ title: Value bar in JavaScript Bullet chart control | Syncfusion
 description: Learn here all about Value bar in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Value bar 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -12,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Value bar in JavaScript Bullet chart control
 
-To display the primary data or the current value of the data being measured known as the **Feature Measure** that should be encoded as a bar. This is called as the **Actual Bar** or the **Feature Bar** in the Bullet Chart, and to display the actual bar the [`valueField`](../api/bullet-chart/#valuefield) should be mapped to the appropriate field from the data source.
+To display the primary data or the current value of the data being measured known as the **Feature Measure** that should be encoded as a bar. This is called as the **Actual Bar** or the **Feature Bar** in the Bullet Chart, and to display the actual bar the [`valueField`](../api/bullet-chart#valuefield) should be mapped to the appropriate field from the data source.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -27,7 +26,7 @@ To display the primary data or the current value of the data being measured know
 
 ## Types of actual bar
 
-The shape of the actual bar can be customized using the [`type`](../api/bullet-chart/#type) property of the Bullet Chart. The actual bar contains `Rect` and `Dot` shapes. By default, the actual bar shape is Rect.
+The shape of the actual bar can be customized using the [`type`](../api/bullet-chart#type) property of the Bullet Chart. The actual bar contains `Rect` and `Dot` shapes. By default, the actual bar shape is Rect.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -44,7 +43,7 @@ The shape of the actual bar can be customized using the [`type`](../api/bullet-c
 
 ### Border customization
 
-Using the [`valueBorder`](../api/bullet-chart/#valueborder) property of the bullet chart, you can customize the border [`color`](../api/bullet-chart/border/#color) and [`width`](../api/bullet-chart/border/#width) of the actual bar.
+Using the [`valueBorder`](../api/bullet-chart#valueborder) property of the bullet chart, you can customize the border [`color`](../api/bullet-chart/border#color) and [`width`](../api/bullet-chart/border#width) of the actual bar.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -59,7 +58,7 @@ Using the [`valueBorder`](../api/bullet-chart/#valueborder) property of the bull
 
 ### Fill color and height customization
 
-Customize the fill color and height of the actual bar using the [`valueFill`](../api/bullet-chart/#valuefill) and [`valueHeight`](../api/bullet-chart/#valueheight) properties of the bullet chart. Also, you can bind the color for the actual bar from [`dataSource`](../api/bullet-chart/#datasource) for the bullet chart using [`valueFill`](../api/bullet-chart/#valuefill) property.
+Customize the fill color and height of the actual bar using the [`valueFill`](../api/bullet-chart#valuefill) and [`valueHeight`](../api/bullet-chart#valueheight) properties of the bullet chart. Also, you can bind the color for the actual bar from [`dataSource`](../api/bullet-chart#datasource) for the bullet chart using [`valueFill`](../api/bullet-chart#valuefill) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

@@ -30,7 +30,7 @@ The left and right thumb of RangeNavigator are used to indicate the selected ran
 
 ## Visibility of range selector
 
-The [`enableSelector`](https://ej2.syncfusion.com/angular/documentation/api/stock-chart/stockChartModel/#enableselector) property allows users to toggle the visibility of range selector.
+The [`enableSelector`](https://ej2.syncfusion.com/angular/documentation/api/stock-chart/stockChartModel#enableselector) property allows users to toggle the visibility of range selector.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

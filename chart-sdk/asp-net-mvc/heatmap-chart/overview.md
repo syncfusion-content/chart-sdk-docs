@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Overview in ASP.NET MVC Heatmap Chart Component
+title: Overview in ASP.NET MVC Heatmap Chart | Syncfusion
 description: Learn here all about Overview in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Index
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Overview
+# Overview in ASP.NET MVC HeatMap Chart
 
 The HeatMap control is used to visualize a two-dimensional data in which the values are represented in gradient or fixed colors.
 

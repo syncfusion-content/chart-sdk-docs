@@ -4,7 +4,6 @@ title: Data binding in JavaScript Bullet chart control | Syncfusion
 description: Learn here all about Data binding in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data binding 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

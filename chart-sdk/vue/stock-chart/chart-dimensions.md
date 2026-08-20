@@ -27,8 +27,8 @@ Stock Chart can render to its container size. You can set the size via inline or
 
 ## Size for Stock Chart
 
-You can also set size for stock chart directly through [`width`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/#width) and
-[`height`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/#height) properties.
+You can also set size for stock chart directly through [`width`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart#width) and
+[`height`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart#height) properties.
 <!-- markdownlint-disable MD036 -->
 * In Pixel
 <!-- markdownlint-disable MD036 -->

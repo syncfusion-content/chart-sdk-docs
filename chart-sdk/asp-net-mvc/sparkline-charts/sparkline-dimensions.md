@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Sparkline Dimensions in ASP.NET MVC Sparkline Component
+title: Dimensions in ASP.NET MVC Sparkline | Syncfusion
 description: Learn here all about Sparkline Dimensions in Syncfusion ASP.NET MVC Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Sparkline Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Sparkline Dimensions
+# Sparkline Dimensions in ASP.NET MVC
 
 ## Size for container
 

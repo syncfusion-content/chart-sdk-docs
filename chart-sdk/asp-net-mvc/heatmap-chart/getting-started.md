@@ -4,7 +4,6 @@ title: Getting Started with ASP.NET MVC HeatMap Chart Control | Syncfusion
 description: Check out and learn about getting started with the ASP.NET MVC HeatMap Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

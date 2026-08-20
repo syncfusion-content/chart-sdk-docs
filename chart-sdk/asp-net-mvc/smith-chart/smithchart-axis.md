@@ -4,7 +4,6 @@ title: Smithchart Axis in ASP.NET MVC Smithchart Control | Syncfusion
 description: Learn here all about Smithchart Axis in Syncfusion ASP.NET MVC Smithchart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

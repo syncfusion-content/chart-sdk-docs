@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Range Band in ASP.NET Core Sparkline Component
+title: Range Band in ASP.NET Core Sparkline | Syncfusion
 description: Learn here all about Range Band in Syncfusion ASP.NET Core Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Range Band
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Range Band
+# Range Band in ASP.NET Core Sparkline Charts
 
 This section explains how to customize the sparkline with multiple range bands.
 

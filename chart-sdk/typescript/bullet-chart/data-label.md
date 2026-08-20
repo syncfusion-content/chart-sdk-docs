@@ -4,7 +4,6 @@ title: Data label in TypeScript Bullet chart control | Syncfusion
 description: Learn here all about Data label in Syncfusion TypeScript Bullet chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data label 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

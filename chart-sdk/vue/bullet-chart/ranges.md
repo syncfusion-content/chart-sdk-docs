@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Ranges in Vue Bullet chart component
 
-Ranges represent the quality of a specific range such as **Good**, **Bad** and **Satisfactory** in the Bullet Chart scale. The ending point of a qualitative range is specified in the [`end`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/rangeModel/#end) property in [`ranges`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#ranges). The [`minimum`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#minimum) value of a quantitative scale is considered the starting point of the first range or the previous range end point.
+Ranges represent the quality of a specific range such as **Good**, **Bad** and **Satisfactory** in the Bullet Chart scale. The ending point of a qualitative range is specified in the [`end`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/rangeModel#end) property in [`ranges`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#ranges). The [`minimum`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#minimum) value of a quantitative scale is considered the starting point of the first range or the previous range end point.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -25,7 +25,7 @@ Ranges represent the quality of a specific range such as **Good**, **Bad** and *
 
 ## Color Customization
 
-Enhance the readability of ranges with color and opacity. It can be applied using the [`color`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart/rangeModel/#color) and [`opacity`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart/rangeModel/#opacity) properties in [`ranges`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#ranges).
+Enhance the readability of ranges with color and opacity. It can be applied using the [`color`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart/rangeModel#color) and [`opacity`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart/rangeModel#opacity) properties in [`ranges`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#ranges).
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

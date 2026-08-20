@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Series Types in ASP.NET Core Stock Chart Component
+title: Series Types in ASP.NET Core Stock Chart | Syncfusion
 description: Learn here all about Series Types in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Series Types
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

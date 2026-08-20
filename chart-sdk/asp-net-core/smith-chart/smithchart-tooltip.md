@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Smithchart Tooltip in ASP.NET Core Smithchart Control
+title: Tooltip in ASP.NET Core Smithchart | Syncfusion
 description: Learn here all about Smithchart Tooltip in Syncfusion ASP.NET Core Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Tooltip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

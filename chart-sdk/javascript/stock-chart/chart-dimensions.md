@@ -4,7 +4,6 @@ title: Chart dimensions in JavaScript Stock chart control | Syncfusion
 description: Learn here all about Chart dimensions in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart dimensions 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -32,7 +31,7 @@ Stock Chart can render to its container size. You can set the size via inline or
 
 <!-- markdownlint-disable MD036 -->
 
-You can also set size for chart directly through [`width`](../api/stock-chart/#width) and [`height`](../api/stock-chart/#height) properties.
+You can also set size for chart directly through [`width`](../api/stock-chart#width) and [`height`](../api/stock-chart#height) properties.
 
 **In Pixel**
 

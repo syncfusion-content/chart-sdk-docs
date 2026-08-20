@@ -4,7 +4,6 @@ title: ES5 JavaScript Smith Chart control | Syncfusion
 description: Render an interactive Smith Chart with the Syncfusion JavaScript (ES5) library by adding a CDN script and writing a few lines of code.
 platform: chart-sdk
 control: Smith Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Smithchart Dimensions in ASP.NET MVC Smithchart Component
+title: Dimensions in ASP.NET MVC Smithchart | Syncfusion
 description: Learn here all about Smithchart Dimensions in Syncfusion ASP.NET MVC Smithchart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

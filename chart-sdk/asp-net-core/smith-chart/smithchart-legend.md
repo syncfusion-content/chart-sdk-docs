@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Smithchart Legend in ASP.NET Core Smithchart Component
+title: Smithchart Legend in ASP.NET Core Smithchart | Syncfusion
 description: Learn here all about Smithchart Legend in Syncfusion ASP.NET Core Smithchart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# Legend
+# Legend in ASP.NET Core Smith Chart
 
 Legend is a key used in smithchart, that contains symbol and descriptions. It provides valuable information for interpreting what the smithchart is displaying and can be represented in various colors, shapes or other identifiers based on the data. In simple words, we can define that legend is used to denote the series rendered in the smithchart.
 

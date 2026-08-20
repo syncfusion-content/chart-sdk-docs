@@ -15,7 +15,7 @@ Bullet Chart can visualise data bound from local or remote data.
 
 ## Local Data
 
-The [`dataSource`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#datasource) property accepts a collection of values as input that helps to display measures, and compares them to a target bar. To display the actual and target bar, specify the property from the datasource into the [`valueField`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#valuefield) and [`targetField`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#targetfield) respectively.
+The [`dataSource`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#datasource) property accepts a collection of values as input that helps to display measures, and compares them to a target bar. To display the actual and target bar, specify the property from the datasource into the [`valueField`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#valuefield) and [`targetField`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#targetfield) respectively.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

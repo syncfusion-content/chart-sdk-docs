@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis Customization in ASP.NET MVC Bullet Chart Component
+title: Axis Customization in ASP.NET MVC Bullet Chart | Syncfusion
 description: Learn here all about Axis Customization in Syncfusion ASP.NET MVC Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Axis customization
+# Axis customization in ASP.NET MVC Bullet chart
 
 ## MajorTickLines and MinorTickLines customization
 

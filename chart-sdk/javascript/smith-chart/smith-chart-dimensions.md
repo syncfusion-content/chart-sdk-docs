@@ -4,7 +4,6 @@ title: Smith chart dimensions in JavaScript Smithchart control | Syncfusion
 description: Learn here all about Smith chart dimensions in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smith chart dimensions 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

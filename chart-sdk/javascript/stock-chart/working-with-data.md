@@ -4,7 +4,6 @@ title: Working with data in JavaScript Stock chart control | Syncfusion
 description: Learn here all about Working with data in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working with data 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -16,7 +15,7 @@ Stock Chart can visualise data bound from local or remote data.
 
 ## Local Data
 
-You can bind a simple JSON data to the chart using [`dataSource`](../api/stock-chart/stockSeriesModel/#datasource) property in series.
+You can bind a simple JSON data to the chart using [`dataSource`](../api/stock-chart/stockSeriesModel#datasource) property in series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -46,4 +45,4 @@ When no data is available to render in the stock chart, the `noDataTemplate` pro
 
 ## See Also
 
-* [Series Types](./series-types/)
+* [Series Types](./series-types)

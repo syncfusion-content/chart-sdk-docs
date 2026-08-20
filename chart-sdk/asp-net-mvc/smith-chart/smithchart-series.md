@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Smithchart Series in ASP.NET MVC Smithchart Component
+title: Series in ASP.NET MVC Smithchart | Syncfusion
 description: Learn here all about Smithchart Series in Syncfusion ASP.NET MVC Smithchart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Series
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Series
+# Series in ASP.NET MVC Smithchart 
 
 You can add any number of series to the smithchart as per your requirement. You can use series setting to either add or customize the data. For the points or datasource added in the series, line is drawn. You can customize the each series as per your requirement with marker, datalabel, animation, opacity and so on.
 
