@@ -32,7 +32,7 @@ The following steps explain how to create 3D charts.
 
 {% highlight xaml %} 
 
-xmlns:syncfusion="using:Syncfusion.UI.Xaml.Charts"
+xmlns:Syncfusion="using:Syncfusion.UI.Xaml.Charts"
 
 {% endhighlight %}
 
