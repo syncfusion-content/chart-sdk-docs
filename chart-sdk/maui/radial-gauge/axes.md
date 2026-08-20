@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Axis in .NET MAUI Radial Gauge | Syncfusion®
-description: Axis in .NET MAUI Radial Gauge defines the gauge scale and supports customizable ranges, labels, ticks, and styling for effective value representation.
+title: Axis in .NET MAUI Radial Gauge control | Syncfusion®
+description: Learn here all about the Axis feature of Syncfusion® .NET MAUI Radial Gauge (SfRadialGauge) control using the custom scale support.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The [`Radial Axis`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.RadialAxis.html) is a circular arc in which a set of values are displayed along a linear or custom scale based on the design requirements. Axis elements such as labels, ticks, and the axis line can be easily customized.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started)** guide.
 
 ## Axis customization
 
@@ -1273,7 +1273,7 @@ N> The [`OffsetUnit`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges
 
 ## Multiple axis
 
-The [`radial gauge`](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/overview) allows you to add any number of radial axes to its [`Axes`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfRadialGauge.html#Syncfusion_Maui_Gauges_SfRadialGauge_Axes) collection. You can also customize each axis added to the collection independently.
+The [`radial gauge`](https://help.syncfusion.com/maui/radial-gauge/overview) allows you to add any number of radial axes to its [`Axes`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfRadialGauge.html#Syncfusion_Maui_Gauges_SfRadialGauge_Axes) collection. You can also customize each axis added to the collection independently.
 
 {% tabs %}
 

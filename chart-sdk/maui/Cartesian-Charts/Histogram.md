@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Histogram Chart in .NET MAUI Cartesian Chart | Syncfusion®
-description: Histogram Chart in .NET MAUI Cartesian Chart displays data distribution across value ranges, helping analyze frequency patterns and data variation.
+title: Histogram Chart in .NET MAUI Cartesian Chart control | Syncfusion
+description: Learn here all about the Histogram chart and its type in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -12,7 +12,7 @@ keywords: .net maui histogram chart, histogram chart customization .net maui, sy
 
 [Histogram chart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.HistogramSeries.html) is a graphical representation that organizes a group of data points into user-specified ranges. It is similar in appearance to a column chart.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
 
 Customize histogram intervals using the [HistogramInterval](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.HistogramSeries.html#Syncfusion_Maui_Charts_HistogramSeries_HistogramInterval) property and normal distribution curve can be collapsed using the [ShowNormalDistributionCurve](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.HistogramSeries.html#Syncfusion_Maui_Charts_HistogramSeries_ShowNormalDistributionCurve) property. 
 

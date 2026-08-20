@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip in .NET MAUI Pyramid Chart | Syncfusion®
-description: Tooltip in .NET MAUI Pyramid Chart displays detailed information for chart segments on interaction, helping users analyze and understand data easily.
+title: Tooltip in .NET MAUI Pyramid Chart control | Syncfusion
+description: This section explains how to enable and customize the tooltip in Syncfusion® .NET MAUI Pyramid Chart (SfPyramidChart) control
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The tooltip provides additional information when hovering over a pyramid segment. By default, the segment's Y value will be shown in the tooltip.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Pyramid Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Pyramid Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/pyramid-charts/getting-started)** guide.
 
 ## Enable Tooltip
 

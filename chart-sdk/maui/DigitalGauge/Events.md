@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Events in .NET MAUI Digital Gauge | Syncfusion®
-description: Events in .NET MAUI Digital Gauge provide notifications for user interactions and control actions, enabling customized behavior and dynamic updates.
+title: Events in .NET MAUI Digital Gauge | Syncfusion
+description: Learn about events in the Syncfusion® .NET MAUI Digital Gauge (SfDigitalGauge) control, its introduction, elements, and more.
 platform: chart-sdk
 control: DigitalGauge
 documentation: ug
@@ -12,7 +12,7 @@ keywords: .net maui, .net maui digital gauge, digital gauge, character segments,
 
 The [SfDigitalGauge](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfDigitalGauge.html) control provides events that notify when the text value changes, allowing you to perform custom actions.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfDigitalGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfDigitalGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/digitalgauge/getting-started)** guide.
 
 ## TextChanged
 

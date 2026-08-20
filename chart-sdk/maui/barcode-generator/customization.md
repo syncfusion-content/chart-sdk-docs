@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Customization in .NET MAUI Barcode Generator | Syncfusion®
-description: Customization in .NET MAUI Barcode Generator allows barcode appearance to be tailored using colors, sizing, labels, margins, and styling options.
+title: Customization in .NET MAUI Barcodes | Syncfusion®
+description: Learn here all about Customization of Syncfusion<sup>&reg;</sup> .NET MAUI Barcodes(SfBarcodeGenerator) control with key features and more.
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
@@ -9,7 +9,7 @@ documentation: ug
 
 # Customization in .NET MAUI Barcode Generator
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Barcode Generator** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Barcode Generator** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/barcode-generator/getting-started)** guide.
 
 ## Text customization
 
@@ -166,7 +166,7 @@ this.Content = barcode;
 
 Both one-dimensional and two-dimensional symbologies support the [`Module`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Barcode.SymbologyBase.html#Syncfusion_Maui_Barcode_SymbologyBase_Module) property. This property is used to define the size of the smallest bar line or module in the barcode. The `Module` property is available on all symbology classes derived from [`SymbologyBase`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Barcode.SymbologyBase.html) and accepts a positive `double` value.
 
-N> `SymbologyBase` is a public abstract base class. To use a barcode, instantiate one of its derived classes such as `Codabar`, `Code128`, `QRCode`, `DataMatrix`, or other available symbology types. For an introduction to symbologies and how to assign them, refer to the **[One-dimensional symbology](https://help.syncfusion.com/chart-sdk/barcode-generator/one-dimensional-symbology)** and **[Two-dimensional symbology](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/two-dimensional-symbology)** topics.
+N> `SymbologyBase` is a public abstract base class. To use a barcode, instantiate one of its derived classes such as `Codabar`, `Code128`, `QRCode`, `DataMatrix`, or other available symbology types. For an introduction to symbologies and how to assign them, refer to the **[One-dimensional symbology](https://help.syncfusion.com/maui/barcode-generator/one-dimensional-symbology)** and **[Two-dimensional symbology](https://help.syncfusion.com/maui/barcode-generator/two-dimensional-symbology)** topics.
 
 If this property is not set for a one-dimensional barcode, the size of the smallest bar line is determined based on the available width. If the [`Module`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Barcode.SymbologyBase.html#Syncfusion_Maui_Barcode_SymbologyBase_Module) property is not set for a two-dimensional barcode, the size of the smallest module is calculated based on the minimum of the available width and height. When `Module` is not set, the barcode automatically scales to fit the available space while maintaining proper proportions for scanner readability.
 
@@ -372,6 +372,6 @@ this.Content = barcode;
 
 ## Troubleshooting
 
-- **Value not rendered or appears truncated:** Verify that the `Value` is valid for the assigned `Symbology`. Some symbologies restrict the supported character set and length; for example, `Codabar` accepts only digits and the start/stop characters `A`, `B`, `C`, and `D`. Refer to the **[One-dimensional symbology](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/one-dimensional-symbology)** and **[Two-dimensional symbology](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/two-dimensional-symbology)** topics for the supported input rules.
+- **Value not rendered or appears truncated:** Verify that the `Value` is valid for the assigned `Symbology`. Some symbologies restrict the supported character set and length; for example, `Codabar` accepts only digits and the start/stop characters `A`, `B`, `C`, and `D`. Refer to the **[One-dimensional symbology](https://help.syncfusion.com/maui/barcode-generator/one-dimensional-symbology)** and **[Two-dimensional symbology](https://help.syncfusion.com/maui/barcode-generator/two-dimensional-symbology)** topics for the supported input rules.
 - **Barcode appears too small or too large:** Adjust the `Module` property on the assigned symbology, or increase the `WidthRequest` and `HeightRequest` of the `SfBarcodeGenerator`.
 - **Colors do not appear:** Confirm that `ForegroundColor` and `BackgroundColor` are set to contrasting colors; setting both to the same value produces a blank barcode.

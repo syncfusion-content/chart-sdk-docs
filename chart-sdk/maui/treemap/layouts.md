@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Layouts in .NET MAUI TreeMap | Syncfusion®
-description: Layouts in .NET MAUI TreeMap determine how hierarchical data is arranged, enabling clear visualization through different layout algorithms and structures.
+title: Layout Types in .NET MAUI TreeMap (SfTreeMap) Control | Syncfusion®
+description: Learn here all about adding different layouts of the Syncfusion® .NET MAUI TreeMap (SfTreeMap) control and more.
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---
  
-# Layouts in .NET MAUI TreeMap
+# Layouts in .NET MAUI TreeMap (SfTreeMap)
 
 The TreeMap control provides multiple layout types for organizing hierarchical data effectively. You can utilize the [LayoutType](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html#Syncfusion_Maui_TreeMap_SfTreeMap_LayoutType) property within the [SfTreeMap](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.SfTreeMap.html) to switch between four distinct layouts: [Squarified](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.LayoutType.html#Syncfusion_Maui_TreeMap_LayoutType_Squarified), [SliceAndDiceAuto](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.LayoutType.html#Syncfusion_Maui_TreeMap_LayoutType_SliceAndDiceAuto), [SliceAndDiceHorizontal](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.LayoutType.html#Syncfusion_Maui_TreeMap_LayoutType_SliceAndDiceHorizontal), and [SliceAndDiceVertical](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.LayoutType.html#Syncfusion_Maui_TreeMap_LayoutType_SliceAndDiceVertical).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
 
 ## Squarified
 

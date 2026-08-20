@@ -1,17 +1,17 @@
 ---
 layout: post
-title: AI-Driven Smart Location Search in .NET MAUI Maps | Syncfusion®
-description: AI-Driven Smart Location Search in .NET MAUI Maps enables intelligent location discovery through AI-powered search, improving navigation and map interactions.
+title: AI-Driven smart location search in .NET MAUI Maps control | Syncfusion
+description: Learn here all about the AI-Driven smart location searching feature of Syncfusion® .NET MAUI Maps (SfMaps) control and more.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
 
-# AI-Driven Smart Location Search in .NET MAUI Maps
+# AI-Driven Smart Location Search in .NET MAUI Maps (SfMaps)
 
 This document provides a comprehensive guide to implementing advanced search functionality within the Syncfusion [.NET MAUI Maps](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.SfMaps.html) control. By integrating **Azure OpenAI**, this solution enables an intelligent, AI-powered location search experience.
 
-N> **Prerequisite:** Ensure that the required NuGet packages are installed, the necessary namespaces are imported, and the **.NET MAUI Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[.NET MAUI Maps Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide. Also, refer to the **[.NET MAUI Autocomplete Getting Started](https://help.syncfusion.com/chart-sdk/maui/autocomplete/getting-started)** guide before proceeding with this documentation.
+N> **Prerequisite:** Ensure that the required NuGet packages are installed, the necessary namespaces are imported, and the **.NET MAUI Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[.NET MAUI Maps Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide. Also, refer to the **[.NET MAUI Autocomplete Getting Started](https://help.syncfusion.com/maui/autocomplete/getting-started)** guide before proceeding with this documentation.
 
 ## Integrating Azure OpenAI with the .NET MAUI app
 
@@ -153,7 +153,7 @@ public class CustomMarker : MapMarker
 
 ### Step 2: Add Maps tile layer in .NET MAUI Maps
 
-Add a [tile layer](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started#add-tile-layer) in the .NET MAUI Maps that can be used to search for and locate landmarks based on user input. The `EnableCenterAnimation` property animates the map center change, `CanCacheTiles` enables local tile caching for faster reloads, and `ZoomLevel` sets the initial magnification.
+Add a [tile layer](https://help.syncfusion.com/maui/maps/getting-started#add-tile-layer) in the .NET MAUI Maps that can be used to search for and locate landmarks based on user input. The `EnableCenterAnimation` property animates the map center change, `CanCacheTiles` enables local tile caching for faster reloads, and `ZoomLevel` sets the initial magnification.
 
 N> The OpenStreetMap tile URL used here is subject to the [OSM Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles/). Use a suitable tile provider for production and respect the provider's usage limits.
 

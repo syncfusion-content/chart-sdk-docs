@@ -1,14 +1,14 @@
 ---
 layout: post
-title: About Syncfusion® .NET MAUI Cartesian Chart Control | Syncfusion®
-description: Learn about the overview of Syncfusion® .NET MAUI Cartesian Chart control, including chart types, axes, interactivity, and visualization features.
+title: About .NET MAUI Cartesian Chart control | Syncfusion
+description: Learn here all about introduction of Syncfusion® .NET MAUI Chart (SfCartesianChart) control with key features and more.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui sfCartesianChart overview,  introduction to sfCartesianChart in .net maui, exploring sfCartesianChart in .net maui.
 ---
 
-# About Syncfusion® .NET MAUI Cartesian Chart Control
+# .NET MAUI Cartesian Chart Overview
 
 The Syncfusion® [.NET MAUI Cartesian chart](https://www.syncfusion.com/maui-controls/maui-cartesian-charts) provides a perfect way to visualize data with a high level of user involvement that focuses on development, productivity, and simplicity of use. Chart also provides a wide variety of charting features that can be used to visualize large quantities of data, as well as flexibility in data binding and user customization.
 
@@ -88,17 +88,17 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for proportional data visualization using pie, doughnut, and radial bar charts.
-- [Funnel Charts](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/overview) for visualizing stages in a process or pipeline.
-- [Pyramid Charts](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/overview) for hierarchical or comparative data representation.
+- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for proportional data visualization using pie, doughnut, and radial bar charts.
+- [Funnel Charts](https://help.syncfusion.com/maui/funnel-charts/overview) for visualizing stages in a process or pipeline.
+- [Pyramid Charts](https://help.syncfusion.com/maui/pyramid-charts/overview) for hierarchical or comparative data representation.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started) shows how to begin using the Cartesian chart control step by step.  
-- [Customization and Styling](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/appearance) shows how to configure chart appearance, axes, gridlines, labels, legends, and themes.  
-- [Labels](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/datalabels) display values directly on data points.
-- [Zooming & Panning](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/zooming-and-panning) provides interactive navigation to focus on specific ranges and move across large datasets smoothly.
-- [Annotation](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/annotation) adds custom text, shapes, or markers to highlight important areas or notes within the chart.
+- [Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started) shows how to begin using the Cartesian chart control step by step.  
+- [Customization and Styling](https://help.syncfusion.com/maui/cartesian-charts/appearance) shows how to configure chart appearance, axes, gridlines, labels, legends, and themes.  
+- [Labels](https://help.syncfusion.com/maui/cartesian-charts/datalabels) display values directly on data points.
+- [Zooming & Panning](https://help.syncfusion.com/maui/cartesian-charts/zooming-and-panning) provides interactive navigation to focus on specific ranges and move across large datasets smoothly.
+- [Annotation](https://help.syncfusion.com/maui/cartesian-charts/annotation) adds custom text, shapes, or markers to highlight important areas or notes within the chart.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready-made UI examples.
 
 ## Resources

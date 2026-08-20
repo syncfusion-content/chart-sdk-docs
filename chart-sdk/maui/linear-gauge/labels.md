@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Labels in .NET MAUI Linear Gauge | Syncfusion®
-description: Labels in .NET MAUI Linear Gauge display scale values with customizable formatting and positioning, improving readability and gauge interpretation.
+title: Labels in .NET MAUI Linear Gauge control | Syncfusion®
+description: Learn here all about adding and customizing Labels of Syncfusion® .NET MAUI Linear Gauge (SfLinearGauge) control and more.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---
 
-# Labels in .NET MAUI Linear Gauge
+# Labels in .NET MAUI Linear Gauge (SfLinearGauge)
 
 The default style of gauge labels is as follows.
 
 ![Default .NET MAUI Linear Gauge labels](images/getting-started/default_linear_gauge.PNG)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started)** guide.
 
 ## Customize label styles
 

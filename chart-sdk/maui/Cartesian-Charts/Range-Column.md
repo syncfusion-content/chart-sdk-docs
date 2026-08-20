@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Range Column Chart in .NET MAUI Cartesian Chart | Syncfusion®
-description: Range Column Chart in .NET MAUI Cartesian Chart displays value ranges using vertical columns, helping compare minimum and maximum values effectively.
+title: Range Column Chart in .NET MAUI Cartesian Chart control | Syncfusion
+description: Learn here all about range column and range bar chart support in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -14,7 +14,7 @@ keywords: .net maui range column chart, maui range column chart, range column ch
 
 Range Column Chart is used to visualize data points with columns, with the height of each column representing the difference between the lowest and highest values of the data point. 
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
 
 To render a range column chart, create an instance of [RangeColumnSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RangeColumnSeries.html), and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html).
 

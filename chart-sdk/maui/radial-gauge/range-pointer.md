@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Range Pointer in .NET MAUI Radial Gauge | Syncfusion®
-description: Range Pointer in .NET MAUI Radial Gauge highlights values using a filled arc along the gauge axis, enabling clear progress tracking and value visualization.
+title: Range Pointer in .NET MAUI Radial Gauge control | Syncfusion®
+description: Learn here all about the Range Pointer feature of Syncfusion® .NET MAUI Radial Gauge control with customization support.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 A range pointer is an accenting line or shaded background range that can be placed on a gauge to mark the current value.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started)** guide.
 
 {% tabs %}
 

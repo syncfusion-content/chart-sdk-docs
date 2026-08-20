@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Circle Layer in .NET MAUI Maps | Syncfusion®
-description: Circle Layer in .NET MAUI Maps displays data using scalable circles, enabling effective visualization of geographic values and location-based information.
+title: Adding Circle Layer in .NET MAUI Maps control | Syncfusion
+description: Learn here all about adding Circle Layer feature of Syncfusion® .NET MAUI Maps (SfMaps) control to customize its appearance and more.
 platform: MAUI
 control: SfMaps
 documentation: ug
 ---
 
-# Circle Layer in .NET MAUI Maps
+# Circle Layer in .NET MAUI Maps (SfMaps)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide.
 
 The circle layer is a sublayer that renders a group of [`MapCircle`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapCircle.html) on a [`MapCircleLayer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapCircleLayer.html), which can be added as a sublayer of [`MapShapeLayer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapShapeLayer.html). This section explains how to add and customize circles.
 

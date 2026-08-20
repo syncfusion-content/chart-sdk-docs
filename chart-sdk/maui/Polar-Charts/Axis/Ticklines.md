@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Tick Lines in .NET MAUI Polar Chart | Syncfusion®
-description: Tick lines in .NET MAUI Polar Chart indicate axis intervals, helping users interpret scale values accurately and improve chart readability.
+title: Axis Tick Line in .NET MAUI Polar Chart Control | Syncfusion
+description: Learn here all about the chart axis tick lines and their customization in the Syncfusion® .NET MAUI Polar Chart (SfPolarChart) control.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
 ---
 
-# Tick Lines in .NET MAUI Polar Chart
+# Tick lines in .NET MAUI Polar Chart
 
 Tick lines are the small lines drawn on the axis line to represent the axis labels. By default, tick lines are drawn outside of the axis.
 
 Minor tick lines can be added to the axis by defining the [MinorTicksPerInterval](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RangeAxisBase.html#Syncfusion_Maui_Charts_RangeAxisBase_MinorTicksPerInterval) property. This property adds the minor tick lines to every interval based on the value.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
 
 N> For category axis, minor tick lines are not applicable as it is rendered based on index positions.
 

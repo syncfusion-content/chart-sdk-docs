@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Drill Down in .NET MAUI Sunburst Chart | Syncfusion®
-description: Drill Down in .NET MAUI Sunburst Chart enables interactive navigation through hierarchical data, allowing deeper exploration of chart segments and levels.
+title: Drill Down in .NET MAUI Sunburst Chart control | Syncfusion
+description: This section explains how to enable and customize drill-down toolbar in the Syncfusion<sup>®</sup> .NET MAUI Sunburst Chart control.
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 Drill-down provides better visualization of hierarchical data by allowing large datasets to be visualized as simplified views. Users can drill down into each segment level. The Sunburst Chart provides animation along with drill-down support. Double-tapping (or double-clicking) a segment initiates the drill-down operation. A toolbar is enabled during drill-down, allowing zoom-back and reset operations.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started)** guide.
 
 ## Enable Drill Down
 

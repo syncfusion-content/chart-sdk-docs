@@ -1,21 +1,21 @@
 ---
 layout: post
-title: Pointers in .NET MAUI Linear Gauge | Syncfusion®
-description: Pointers in .NET MAUI Linear Gauge indicate values along the gauge scale using different pointer types, enabling clear and effective data representation.
+title: Pointers and Interaction in .NET MAUI Linear Gauge | Syncfusion®
+description: Learn here all about the pointers and interactions in Syncfusion® .NET MAUI Linear Gauge (SfLinearGauge) control and more.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---
 
-# Pointers in .NET MAUI Linear Gauge
+# Pointers in .NET MAUI Linear Gauge (SfLinearGauge)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started)** guide.
 
 The pointer is used to indicate values on a scale. The Linear Gauge control has three types of pointers:
 
-* [`Bar pointer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.BarPointer.html) - A shaded bar from the minimum scale value to the specified value. For more details, refer to the [Bar pointer](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/bar-pointer) documentation.
-* [`Shape pointer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearShapePointer.html) - A built-in shape marker (e.g., circle, triangle) placed on the scale. For more details, refer to the [Shape marker pointer](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/shape-marker-pointer) documentation.
-* [`Content pointer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearContentPointer.html) - Any .NET MAUI content (e.g., image, text, or custom view) placed on the scale. For more details, refer to the [Content marker pointer](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/content-marker-pointer) documentation.
+* [`Bar pointer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.BarPointer.html) - A shaded bar from the minimum scale value to the specified value. For more details, refer to the [Bar pointer](https://help.syncfusion.com/maui/linear-gauge/bar-pointer) documentation.
+* [`Shape pointer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearShapePointer.html) - A built-in shape marker (e.g., circle, triangle) placed on the scale. For more details, refer to the [Shape marker pointer](https://help.syncfusion.com/maui/linear-gauge/shape-marker-pointer) documentation.
+* [`Content pointer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearContentPointer.html) - Any .NET MAUI content (e.g., image, text, or custom view) placed on the scale. For more details, refer to the [Content marker pointer](https://help.syncfusion.com/maui/linear-gauge/content-marker-pointer) documentation.
 
 All the pointers can be customized as needed. You can add multiple pointers to the gauge to point multiple values on the same scale. The value of the pointer is set using the [`Value`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearPointer.html#Syncfusion_Maui_Gauges_LinearPointer_Value) property. All three pointer types support interaction when the `IsInteractive` property is enabled.
 

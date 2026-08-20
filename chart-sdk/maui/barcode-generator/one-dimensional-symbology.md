@@ -1,13 +1,13 @@
 ---
 layout: post
-title: One-Dimensional Symbology in .NET MAUI Barcode Generator | Syncfusion®
-description: One-Dimensional Symbology in .NET MAUI Barcode Generator supports linear barcode formats, enabling accurate encoding and scanning of business data.
+title: One-dimensional symbology in .NET MAUI Barcodes | Syncfusion®
+description: Learn here all about one dimensional symbology of Syncfusion<sup>&reg;</sup> .NET MAUI Barcodes(SfBarcodeGenerator) control with key features and more.
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
 ---
 
-# One-Dimensional Symbology in .NET MAUI Barcode Generator
+# One-dimensional symbology in .NET MAUI Barcode Generator
 
 The one-dimensional [.NET MAUI Barcode Generator](https://www.syncfusion.com/maui-controls/maui-barcodes) represents the data by varying the widths and spacings of the parallel lines. These barcode types are also known as linear barcode types. The Syncfusion<sup>&reg;</sup> .NET MAUI barcode generator supports the following one-dimensional barcode types:
 
@@ -24,7 +24,7 @@ The one-dimensional [.NET MAUI Barcode Generator](https://www.syncfusion.com/mau
 * [`EAN8`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Barcode.EAN8.html)
 * [`EAN13`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Barcode.EAN13.html)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Barcode Generator** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Barcode Generator** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/barcode-generator/getting-started)** guide.
 
 N> All one-dimensional symbologies support the [`Module`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Barcode.SymbologyBase.html#Syncfusion_Maui_Barcode_SymbologyBase_Module) property, which defines the size of the smallest bar line of the barcode. By default, `Module` is not set; the smallest bar line size is automatically calculated based on the available size and the total number of bars for the provided input value.
 

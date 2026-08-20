@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Trackball in .NET MAUI Cartesian Chart | Syncfusion®
-description: Trackball in .NET MAUI Cartesian Chart displays detailed information across series at a specific position, enabling precise data analysis and comparison.
+title: Trackball in .NET MAUI Cartesian Chart control | Syncfusion
+description: This section explains about how to enable trackball and its customization in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -12,7 +12,7 @@ keywords: .net maui cartesian chart trackball, maui chart trackball, .net maui t
 
 The trackball allows you to show a tooltip for the nearest data points when you interact with the chart area. On mobile, long-press the chart to show the trackball, and drag the chart to change the trackball's location constantly. To display the trackball on the desktop, move the cursor over the chart area.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
 
 ## Enable trackball
 

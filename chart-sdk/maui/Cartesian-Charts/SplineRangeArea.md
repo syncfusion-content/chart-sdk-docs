@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Spline Range Area Chart in .NET MAUI Cartesian Chart | Syncfusion®
-description: Spline Range Area Chart in .NET MAUI Cartesian Chart displays value ranges with smooth curves between minimum and maximum values, improving trend visualization.
+title: Spline Range Area Chart in .NET MAUI Cartesian Chart control | Syncfusion
+description: Learn here all about Spline Range Area chart support in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -18,7 +18,7 @@ To render a spline range area chart, create an instance of [SplineRangeAreaSerie
 
 Since the [SplineRangeAreaSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SplineRangeAreaSeries.html) requires two Y values for each point, your data should contain both the high and low values. These high and low values specify the maximum and minimum ranges of the point.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
 
 N> The Cartesian chart has [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) as its default content.
 

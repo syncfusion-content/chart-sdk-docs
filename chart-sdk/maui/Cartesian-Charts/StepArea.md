@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Step Area Chart in .NET MAUI Cartesian Chart | Syncfusion®
-description: Step Area Chart in .NET MAUI Cartesian Chart displays data as stepped filled areas, making it easy to visualize changes between discrete values.
+title: Step Area Chart in .NET MAUI Cartesian Chart control | Syncfusion
+description: Learn here all about the Step area chart types and its features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -14,7 +14,7 @@ keywords: .net maui step area chart, maui step area chart, .net maui chart step 
 A step area chart displays data that changes over time or across different categories. 
 In a step area chart, the data points are connected by horizontal and vertical lines to create a series of steps. Each step represents a specific time interval or category. The area between the steps is then filled with a color or shading. To render an area chart, create an instance of [StepAreaSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.StepAreaSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of the [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
 
 N> The Cartesian chart has [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) as its default content.
 

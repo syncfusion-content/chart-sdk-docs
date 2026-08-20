@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Levels in .NET MAUI TreeMap | Syncfusion®
-description: Levels in .NET MAUI TreeMap organize hierarchical data into grouped categories, enabling structured visualization and improved data interpretation.
+title: Understanding Levels in .NET MAUI TreeMap | Syncfusion®
+description: Learn about the levels within Syncfusion® .NET MAUI TreeMap control, exploring its fundamental features and functionalities for effective treemap visualization.
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---
  
-# Levels in .NET MAUI TreeMap
+# Levels in .NET MAUI TreeMap (SfTreeMap)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
 
 Levels in .NET MAUI TreeMap allow for hierarchical data visualization, enabling multi-level categorization and exploration of complex datasets. The TreeMap supports n number of levels and each level is separated using the [GroupPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TreeMap.TreeMapLevel.html#Syncfusion_Maui_TreeMap_TreeMapLevel_GroupPath) property.
 

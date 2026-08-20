@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tooltip in .NET MAUI Sunburst Chart | Syncfusion®
-description: Tooltip in .NET MAUI Sunburst Chart displays detailed information for chart segments on interaction, helping users analyze and understand hierarchical data.
+title: Tooltip in .NET MAUI Sunburst Chart control | Syncfusion
+description: This section explains how to enable and customize tooltips in the Syncfusion<sup>®</sup> .NET MAUI Sunburst Chart control.
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 Tooltips provide additional information about segments in the sunburst chart. A tooltip is displayed when a segment is tapped or clicked. By default, the tooltip displays the corresponding segment's category (from the `Levels` group property) and value (from the `ValueMemberPath` property).
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started)** guide.
 
 
 ## Enable tooltip

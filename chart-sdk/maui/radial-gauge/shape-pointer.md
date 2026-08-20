@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Shape Pointer in .NET MAUI Radial Gauge | Syncfusion®
-description: Shape Pointer in .NET MAUI Radial Gauge displays values using customizable pointer shapes, enabling clear value indication and enhanced gauge visualization.
+title: Shape Pointer in .NET MAUI Radial Gauge control | Syncfusion®
+description: Learn here all about the Shape Pointer feature of Syncfusion® .NET MAUI Radial Gauge control with built-in shapes.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 Indicate current values by using different types of shape pointers. You can change the shape type using the [`ShapeType`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.ShapeType.html) property.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started)** guide.
 
 {% tabs %}
 

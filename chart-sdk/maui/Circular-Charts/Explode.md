@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Explode Segments in .NET MAUI Circular Chart | Syncfusion®
-description: Explode segments in .NET MAUI Circular Chart highlights specific data points by separating slices, making key values easier to identify and analyze.
+title: Explode segments in .NET MAUI Circular Chart control | Syncfusion
+description: This section explains about how to explode a single segment or all segments in the Syncfusion® .NET MAUI Circular Chart (SfCircularChart) control.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
 ---
 
-# Explode Segments in .NET MAUI Circular Chart
+# Explode segments in .NET MAUI SfCircularChart
 
 ## Exploding a segment
 
@@ -17,7 +17,7 @@ Exploding a segment pulls attention to a specific area of the circular chart. Th
 * [ExplodeRadius](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.PieSeries.html#Syncfusion_Maui_Charts_PieSeries_ExplodeRadius), of type `double`, defines the explode distance in pixels (px). The default value is `10`. A positive value moves the segment outward from the center.
 * [ExplodeOnTouch](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.PieSeries.html#Syncfusion_Maui_Charts_PieSeries_ExplodeOnTouch), of type `bool`, enables a segment to be exploded on tap interaction. The default value is `false`. The explosion is animated when tapped.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/circular-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/circular-charts/getting-started)** guide.
 
 {% tabs %}
 

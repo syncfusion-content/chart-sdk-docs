@@ -1,13 +1,13 @@
 ---
 layout: post
-title: About Syncfusion® .NET MAUI Maps Control | Syncfusion®
-description: Learn about the overview of Syncfusion® .NET MAUI Maps control, including map layers, markers, legends, shapes, and geographic visualization features.
+title: Overview of .NET MAUI Maps Control | Syncfusion
+description: Learn here all about the introduction of Syncfusion® .NET MAUI Maps (SfMaps) control, its features, and more.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
 
-# About Syncfusion® .NET MAUI Maps Control
+# .NET MAUI Maps (SfMaps) Overview
 
 The Syncfusion® [.NET MAUI Maps](https://www.syncfusion.com/maui-controls/maui-maps) control is a powerful data visualization component that displays statistical information for a geographical area. It has highly interactive and customizable features such as selection, tooltip, legends, markers, bubbles, and color mapping. Using the Maps control, you can generate maps for population density, sales, political boundaries, weather, elections, and routes.
 
@@ -22,25 +22,25 @@ The Syncfusion® [.NET MAUI Maps](https://www.syncfusion.com/maui-controls/maui-
 
 ## Key features
 
-- **[Shape layer](https://help.syncfusion.com/chart-sdk/maui/maps/shape)** allows visualizing geographical regions using GeoJSON or shapefile data.
-- **[Data labels](https://help.syncfusion.com/chart-sdk/maui/maps/data-labels)** allows displaying names or information for map shapes with intelligent layout handling.
-- **[Markers](https://help.syncfusion.com/chart-sdk/maui/maps/markers)** allows placing symbols or custom UI elements at specific latitude and longitude locations.
-- **[Bubbles](https://help.syncfusion.com/chart-sdk/maui/maps/bubble)** allows representing data values using varying sizes and colors of bubbles.
-- **[Shape selection](https://help.syncfusion.com/chart-sdk/maui/maps/selection)** allows highlighting specific regions and handling selection interactions.
-- **[Legend](https://help.syncfusion.com/chart-sdk/maui/maps/legend)** allows explaining the data representation used in the map for better understanding.
-- **[Colors](https://help.syncfusion.com/chart-sdk/maui/maps/shape#shape-color)** allows categorizing and styling regions based on underlying data values or ranges.
-- **[Tooltip](https://help.syncfusion.com/chart-sdk/maui/maps/tooltip)** allows displaying additional information for shapes, markers, and bubbles interactively.
+- **[Shape layer](https://help.syncfusion.com/maui/maps/shape)** allows visualizing geographical regions using GeoJSON or shapefile data.
+- **[Data labels](https://help.syncfusion.com/maui/maps/data-labels)** allows displaying names or information for map shapes with intelligent layout handling.
+- **[Markers](https://help.syncfusion.com/maui/maps/markers)** allows placing symbols or custom UI elements at specific latitude and longitude locations.
+- **[Bubbles](https://help.syncfusion.com/maui/maps/bubble)** allows representing data values using varying sizes and colors of bubbles.
+- **[Shape selection](https://help.syncfusion.com/maui/maps/selection)** allows highlighting specific regions and handling selection interactions.
+- **[Legend](https://help.syncfusion.com/maui/maps/legend)** allows explaining the data representation used in the map for better understanding.
+- **[Colors](https://help.syncfusion.com/maui/maps/shape#shape-color)** allows categorizing and styling regions based on underlying data values or ranges.
+- **[Tooltip](https://help.syncfusion.com/maui/maps/tooltip)** allows displaying additional information for shapes, markers, and bubbles interactively.
 
 ## Related controls
 
-- [TreeMap](https://help.syncfusion.com/chart-sdk/maui/treemap/overview) for displaying hierarchical and comparative data visualization.
-- [DataGrid](https://help.syncfusion.com/chart-sdk/maui/datagrid/overview) for managing and presenting location-based data in tabular format.
-- [Cartesian Charts](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/overview) for visualizing geographical or statistical data trends using interactive charts.
+- [TreeMap](https://help.syncfusion.com/maui/treemap/overview) for displaying hierarchical and comparative data visualization.
+- [DataGrid](https://help.syncfusion.com/maui/datagrid/overview) for managing and presenting location-based data in tabular format.
+- [Cartesian Charts](https://help.syncfusion.com/maui/cartesian-charts/overview) for visualizing geographical or statistical data trends using interactive charts.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started) shows a step‑by‑step guide to begin using the Maps control.  
-- [Vector Layers](https://help.syncfusion.com/chart-sdk/maui/maps/vector-layers/line-layer) lets you add line, polygon, or point layers to visualize geographic data clearly.  
+- [Getting Started](https://help.syncfusion.com/maui/maps/getting-started) shows a step‑by‑step guide to begin using the Maps control.  
+- [Vector Layers](https://help.syncfusion.com/maui/maps/vector-layers/line-layer) lets you add line, polygon, or point layers to visualize geographic data clearly.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources

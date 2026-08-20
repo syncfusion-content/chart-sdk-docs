@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Polygons Layer in .NET MAUI Maps | Syncfusion®
-description: Polygons Layer in .NET MAUI Maps displays geographic regions using polygon shapes, enabling visualization and analysis of area-based spatial data.
+title: Adding polygons in .NET MAUI Maps control | Syncfusion
+description: Learn here all about adding the Polygons feature of Syncfusion® .NET MAUI Maps (SfMaps) control to customize its appearance and more.
 platform: MAUI
 control: SfMaps
 documentation: ug
 ---
 
-# Polygons Layer in .NET MAUI Maps
+# Polygons in .NET MAUI Maps (SfMaps)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide.
 
 The polygon layer is a sublayer that renders a group of [`MapPolygon`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapPolygon.html) on a [`MapPolygonLayer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapPolygonLayer.html), which can be added as a sublayer of [`MapShapeLayer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapShapeLayer.html). This section explains how to add and customize polygons.
 

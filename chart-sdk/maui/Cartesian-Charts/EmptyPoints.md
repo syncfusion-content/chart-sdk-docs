@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Empty Points in .NET MAUI Cartesian Chart | Syncfusion®
-description: Empty Points in .NET MAUI Cartesian Chart handle missing or null values using configurable modes, ensuring clear and meaningful data visualization.
+title: Empty points in .NET MAUI Cartesian Chart control | Syncfusion
+description: Learn here all about empty points support and their features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui chart empty points, .net maui empty points customization, syncfusion maui chart empty points, maui chart empty points, .net maui chart empty points visualization, cartesian empty points maui, missing data handling
 ---
 
-# Empty Points in .NET MAUI Cartesian Chart
+# Empty points in .NET MAUI Cartesian Chart
 
 Empty points are used to indicate missing or null data in a series. These empty points can occur when data is unavailable, improperly formatted, or explicitly set as null or `double.NaN`. The chart provides options to handle and customize these empty points to enhance visualization and maintain the integrity of data representation.
 
 [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html) provides support for empty points, allowing users to handle missing data effectively.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
 
 The data collection that is passed to the chart can have `NaN` or null values that are considered as empty points. The empty points can be defined as in the following code example.
 

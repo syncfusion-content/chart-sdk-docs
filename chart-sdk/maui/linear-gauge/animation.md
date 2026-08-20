@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Animation in .NET MAUI Linear Gauge | Syncfusion®
-description: Animation in .NET MAUI Linear Gauge provides smooth transitions for gauge elements, improving visual feedback and enhancing the overall user experience.
+title: Animation in .NET MAUI Linear Gauge control | Syncfusion®
+description: Learn here all about adding and customizing animation of Syncfusion® .NET MAUI Linear Gauge (SfLinearGauge) control and more.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---
 
-# Animation in .NET MAUI Linear Gauge
+# Animation in .NET MAUI Linear Gauge (SfLinearGauge)
 
 All Linear Gauge elements including the scale, ticks and labels, range, bar pointer, shape marker pointer, and content marker pointer, can be animated separately. 
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started)** guide.
 
 ## Animate axis
 

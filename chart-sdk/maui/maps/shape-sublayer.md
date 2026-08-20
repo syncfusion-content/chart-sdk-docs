@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Shape Sublayer in .NET MAUI Maps | Syncfusion®
-description: Shape Sublayer in .NET MAUI Maps overlays additional shape data on maps, enabling visualization of multiple geographic layers within a single map view.
+title: Shape Sublayer in .NET MAUI Maps control | Syncfusion®
+description: Learn here all about the Shape Sublayer feature of the Syncfusion® .NET MAUI Maps (SfMaps) control to customize their appearances and more.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The shape sublayer is where geographical rendering will happen for the sublayer. This is similar to the main [`MapShapeLayer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapShapeLayer.html) rendering. This section explains adding a shape sublayer on the shape layer.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfMaps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfMaps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide.
 
 To learn more about the .NET MAUI Maps shape sub layer, you can check the following video.
 
@@ -457,7 +457,7 @@ public class Model
 
 You can enable bubbles to the shape sublayer using the [`ShowBubbles`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapShapeSublayer.html#Syncfusion_Maui_Maps_MapShapeSublayer_ShowBubbles) property. You can customize the bubbles appearance using the [`BubbleSettings`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapShapeSublayer.html#Syncfusion_Maui_Maps_MapShapeSublayer_BubbleSettings) property. This property is used to specify the value based on which the bubble's size has to be rendered.
 
-N> Refer to the [`Bubbles`](https://help.syncfusion.com/chart-sdk/maui/maps/bubble) section, to know more about the bubbles customization.
+N> Refer to the [`Bubbles`](https://help.syncfusion.com/maui/maps/bubble) section, to know more about the bubbles customization.
 
 {% tabs %}
 
@@ -569,7 +569,7 @@ You can enable tooltip for the shape sublayer using the [`ShowShapeTooltip`](htt
 
 N> It is applicable for shape layer.
 
-N> Refer to the [`Tooltip`](https://help.syncfusion.com/chart-sdk/maui/maps/tooltip) section to know more about the tooltip customization.
+N> Refer to the [`Tooltip`](https://help.syncfusion.com/maui/maps/tooltip) section to know more about the tooltip customization.
 
 {% tabs %}
 
@@ -768,7 +768,7 @@ The [`ShapeSelected`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.M
 
 N> It is applicable for shape layer.
 
-N> Refer to the [`Shape selection`](https://help.syncfusion.com/chart-sdk/maui/maps/selection) section to know more about the selection feature.
+N> Refer to the [`Shape selection`](https://help.syncfusion.com/maui/maps/selection) section to know more about the selection feature.
 
 {% tabs %}
 
@@ -878,8 +878,8 @@ You can show markers at any position on the map by providing latitude and longit
 N> It is applicable for both tile layer and shape layer.
 
 N>
-* Refer to the [`Markers`](https://help.syncfusion.com/chart-sdk/maui/maps/markers) section to know more about the marker feature.
-* Refer to the [`Tooltip`](https://help.syncfusion.com/chart-sdk/maui/maps/tooltip) section to know more about the tooltip feature.
+* Refer to the [`Markers`](https://help.syncfusion.com/maui/maps/markers) section to know more about the marker feature.
+* Refer to the [`Tooltip`](https://help.syncfusion.com/maui/maps/tooltip) section to know more about the tooltip feature.
 
 
 N> You can refer to our [.NET MAUI Maps](https://www.syncfusion.com/maui-controls/maui-maps) feature tour page for its groundbreaking feature representations. You can also explore our [.NET MAUI Maps Sublayer example](https://github.com/syncfusion/maui-demos/tree/master/MAUI/Maps) that shows how to configure a Maps in .NET MAUI.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance in .NET MAUI Polar Chart | Syncfusion®
-description: Appearance in .NET MAUI Polar Chart allows customization of chart visuals using colors, palettes and styling options.
+title: Appearance in .NET MAUI Polar Chart control | Syncfusion
+description: Learn here all about appearance customization in Syncfusion® .NET MAUI Polar Chart (SfPolarChart), including its elements, and more.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The appearance of [SfPolarChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfPolarChart.html) can be customized using the predefined brushes, custom brushes, and gradient, which allows for the enrichment of the application.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
 
 ## Default PaletteBrushes for chart
 

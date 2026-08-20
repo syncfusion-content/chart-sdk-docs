@@ -1,13 +1,13 @@
 ---
 layout: post
-title: About Syncfusion® .NET MAUI Radial Gauge Control | Syncfusion®
-description: Learn about the overview of Syncfusion® .NET MAUI Radial Gauge control, including axes, pointers, ranges, annotations, and customization features.
+title: About .NET MAUI Radial Gauge control | Syncfusion®
+description: Learn here all about introduction of Syncfusion® .NET MAUI Radial Gauge(SfRadialGauge) control with key features and more.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 ---
 
-# About Syncfusion® .NET MAUI Radial Gauge Control
+# Overview of .NET MAUI Radial Gauge
 
 The Syncfusion<sup>&reg;</sup> [.NET MAUI Radial Gauge](https://www.syncfusion.com/maui-controls/maui-radial-gauge) is a multi-purpose data visualization control, that displays numerical values on a circular scale. It has a rich set of features such as axes, ranges, pointers, and annotations that are fully customizable and extendable. Use it to create speedometers, temperature monitors, dashboards, meter gauges, multi axis clocks, watches, progress indicators, compasses, and more.
 
@@ -80,15 +80,15 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/overview) for displaying values along a linear scale. 
-- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for visualizing proportional data using circular charts.   
-- [Digital Gauge](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/overview) for displaying numeric or character values using segmented digital display styles. 
+- [Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/overview) for displaying values along a linear scale. 
+- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for visualizing proportional data using circular charts.   
+- [Digital Gauge](https://help.syncfusion.com/maui/digitalgauge/overview) for displaying numeric or character values using segmented digital display styles. 
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started) shows a step‑by‑step guide to begin using the Radial Gauge control.  
-- [Pointers](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/pointers) explains how to configure different pointer types and behavior.  
-- [Annotation](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/annotation) helps add labels, shapes, or custom content inside the gauge for context.  
+- [Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started) shows a step‑by‑step guide to begin using the Radial Gauge control.  
+- [Pointers](https://help.syncfusion.com/maui/radial-gauge/pointers) explains how to configure different pointer types and behavior.  
+- [Annotation](https://help.syncfusion.com/maui/radial-gauge/annotation) helps add labels, shapes, or custom content inside the gauge for context.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Migrate Xamarin.Forms Sunburst to .NET MAUI Sunburst | Syncfusion®
-description: Migrate from Xamarin.Forms Sunburst Chart to .NET MAUI Sunburst Chart with updated APIs, improved performance, and modern hierarchical visualization features.
+title: Xamarin to .NET MAUI Sunburst Chart Migration | Syncfusion
+description: This section explains the .NET MAUI SfSunburstChart features relative to the Xamarin SfSunburstChart control.
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
 ---
 
-# Migrate from Xamarin.Forms Sunburst Chart to .NET MAUI Sunburst Chart
+# Migrate from Xamarin.Forms SunburstChart to .NET MAUI SunburstChart
 
 The SfSunburstChart was created from scratch using the upgraded APIs and performance of the .NET MAUI graphics library and framework layouts. However, to maintain API naming consistency in .NET MAUI SfSunburstChart, we renamed some of the APIs. The changes in APIs from Xamarin SfSunburstChart to .NET MAUI SfSunburstChart are detailed below.
 
@@ -584,7 +584,7 @@ this.Content = sunburstChart;
 </table>
 
 ### Selection
-Selection in Xamarin was enabled by assigning a [SunburstSelectionSettings](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfSunburstChart.XForms.SunburstSelectionSettings.html) instance to the chart. In .NET MAUI, the [SelectionSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_SelectionSettings) property of [SfSunburstChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html) accepts the [SunburstSelectionSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SunburstSelectionSettings.html) class. The [SelectionType](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfSunburstChart.XForms.SunburstSelectionSettings.html) property in Xamarin is renamed to [Type](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SunburstSelectionSettings.html#Syncfusion_Maui_SunburstChart_SunburstSelectionSettings_Type), and the [SelectionMode](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfSunburstChart.XForms.SunburstSelectionSettings.html) property is renamed to [DisplayMode](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SunburstSelectionSettings.html#Syncfusion_Maui_SunburstChart_SunburstSelectionSettings_DisplayMode). For the full list of selection APIs, refer to the [Selection](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/selection) topic.
+Selection in Xamarin was enabled by assigning a [SunburstSelectionSettings](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfSunburstChart.XForms.SunburstSelectionSettings.html) instance to the chart. In .NET MAUI, the [SelectionSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_SelectionSettings) property of [SfSunburstChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html) accepts the [SunburstSelectionSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SunburstSelectionSettings.html) class. The [SelectionType](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfSunburstChart.XForms.SunburstSelectionSettings.html) property in Xamarin is renamed to [Type](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SunburstSelectionSettings.html#Syncfusion_Maui_SunburstChart_SunburstSelectionSettings_Type), and the [SelectionMode](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfSunburstChart.XForms.SunburstSelectionSettings.html) property is renamed to [DisplayMode](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SunburstSelectionSettings.html#Syncfusion_Maui_SunburstChart_SunburstSelectionSettings_DisplayMode). For the full list of selection APIs, refer to the [Selection](https://help.syncfusion.com/maui/sunburstchart/selection) topic.
 
 <table>
 <tr>
@@ -698,7 +698,7 @@ this.Content = sunburstChart;
 </table>
 
 ### Drill down
-Drill down in Xamarin was enabled by setting the `EnableDrillDown` property. In .NET MAUI, the [EnableDrillDown](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_EnableDrillDown) property enables the same feature, and the drill-down toolbar appearance and position can be customized using the [ToolbarSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ToolbarSettings) property of [SfSunburstChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html). For the full list of drill-down APIs, refer to the [Drill Down](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/drilldown) topic.
+Drill down in Xamarin was enabled by setting the `EnableDrillDown` property. In .NET MAUI, the [EnableDrillDown](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_EnableDrillDown) property enables the same feature, and the drill-down toolbar appearance and position can be customized using the [ToolbarSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ToolbarSettings) property of [SfSunburstChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html). For the full list of drill-down APIs, refer to the [Drill Down](https://help.syncfusion.com/maui/sunburstchart/drilldown) topic.
 
 <table>
 <tr>

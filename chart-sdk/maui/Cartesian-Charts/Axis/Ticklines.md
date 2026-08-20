@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tick Lines in .NET MAUI Cartesian Chart | Syncfusion®
-description: Tick Lines in .NET MAUI Cartesian Chart indicate axis intervals, helping users interpret scale values accurately and improve chart readability.
+title: Axis tick lines in .NET MAUI Cartesian Chart control | Syncfusion
+description: Learn here all about chart axis tick line and its customization in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -14,7 +14,7 @@ Tick lines are the small lines which are drawn on the axis line representing the
 
 Minor tick lines can also be added to the axis by defining the [MinorTicksPerInterval](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RangeAxisBase.html#Syncfusion_Maui_Charts_RangeAxisBase_MinorTicksPerInterval) property, of type `int` with a default value of `0`. This property is available on axes derived from [RangeAxisBase](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RangeAxisBase.html) and will add the minor tick lines to every interval based on the value.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
 
 N> For the category axis, minor tick lines are not applicable because it is rendered based on index positions.
 

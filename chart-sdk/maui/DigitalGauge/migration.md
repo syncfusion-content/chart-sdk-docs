@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Migrate SfDigitalGauge to .NET MAUI SfDigitalGauge | Syncfusion®
-description: Migrate from Xamarin.Forms SfDigitalGauge to .NET MAUI SfDigitalGauge with updated APIs, improved performance, and modern digital gauge features.
+title: Migrate from Xamarin to in .NET MAUI Digital Gauge | Syncfusion
+description: Learn here all about Migrating from Syncfusion<sup>&reg;</sup> Xamarin SfDigitalGauge to Syncfusion<sup>&reg;</sup> .NET MAUI SfDigitalGauge control and more.
 platform: chart-sdk
 control: DigitalGauge
 documentation: ug

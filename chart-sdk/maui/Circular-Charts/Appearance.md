@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance in .NET MAUI Circular Chart | Syncfusion®
-description: Appearance customization in .NET MAUI Circular Chart allows you to personalize chart visuals using colors, palettes, gradients.
+title: Appearance in .NET MAUI Circular Chart control | Syncfusion
+description: Learn here all about appearance customization in .NET MAUI Circular Chart (SfCircularChart), its elements and more.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The appearance of the [SfCircularChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCircularChart.html) can be customized by using the predefined palettes, custom palettes, and gradient which allows enriching the application.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/circular-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/circular-charts/getting-started)** guide.
 
 ## Add a title
 

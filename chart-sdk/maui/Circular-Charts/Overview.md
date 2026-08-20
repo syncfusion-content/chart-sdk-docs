@@ -1,13 +1,13 @@
 ---
 layout: post
-title: About Syncfusion® .NET MAUI Circular Chart Control | Syncfusion
-description: Learn about the overview of Syncfusion® .NET MAUI Circular Chart control, including chart types, customization options, and data visualization features.
+title: About .NET MAUI Circular Chart Control | Syncfusion
+description: Learn here all about introduction of Syncfusion® .NET MAUI Chart(SfCircularChart) control with key features and more.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
 ---
 
-# About Syncfusion® .NET MAUI Circular Chart Control
+# .NET MAUI Circular Chart Overview
 
 Syncfusion® [.NET MAUI Charts](https://www.syncfusion.com/maui-controls/maui-circular-charts) (SfCircularChart) is used to create the chart with beautiful and enhanced UI visualization of data that are used in high-quality .NET MAUI applications.
 
@@ -83,16 +83,16 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Cartesian Charts](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/overview) for trend analysis, comparisons, and multi‑series data visualization using X and Y axes.
-- [Funnel Charts](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/overview) for visualizing stages in a process or pipeline.
-- [Pyramid Charts](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/overview) for hierarchical or comparative data representation.  
+- [Cartesian Charts](https://help.syncfusion.com/maui/cartesian-charts/overview) for trend analysis, comparisons, and multi‑series data visualization using X and Y axes.
+- [Funnel Charts](https://help.syncfusion.com/maui/funnel-charts/overview) for visualizing stages in a process or pipeline.
+- [Pyramid Charts](https://help.syncfusion.com/maui/pyramid-charts/overview) for hierarchical or comparative data representation.  
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/circular-charts/getting-started) shows a step‑by‑step guide to begin using the Circular Chart control.  
-- [Pie Chart](https://help.syncfusion.com/chart-sdk/maui/circular-charts/piechart) creates simple part‑to‑whole visualizations with clear category splits.  
-- [Doughnut Chart](https://help.syncfusion.com/chart-sdk/maui/circular-charts/doughnutchart) highlights proportions with a modern ring‑style chart for better readability.  
-- [RadialBar Chart](https://help.syncfusion.com/chart-sdk/maui/circular-charts/radialbarchart) displays values in a circular bar style, making comparisons visually clear and engaging.
+- [Getting Started](https://help.syncfusion.com/maui/circular-charts/getting-started) shows a step‑by‑step guide to begin using the Circular Chart control.  
+- [Pie Chart](https://help.syncfusion.com/maui/circular-charts/piechart) creates simple part‑to‑whole visualizations with clear category splits.  
+- [Doughnut Chart](https://help.syncfusion.com/maui/circular-charts/doughnutchart) highlights proportions with a modern ring‑style chart for better readability.  
+- [RadialBar Chart](https://help.syncfusion.com/maui/circular-charts/radialbarchart) displays values in a circular bar style, making comparisons visually clear and engaging.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources

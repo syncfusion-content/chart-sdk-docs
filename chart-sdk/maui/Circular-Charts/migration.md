@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Migrate SfChart to Circular Chart | Syncfusion®
-description: Migrate from Xamarin.Forms SfChart to .NET MAUI Circular Chart with updated APIs, enhanced performance, and modern features for circular data visualization.
+title: Migration from Xamarin to .NET MAUI CircularChart control | Syncfusion
+description: This section explains the features available in the .NET MAUI Chart (SfCircularChart) control over Xamarin SfChart.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
 ---
 
-# Migrate from Xamarin.Forms SfChart to .NET MAUI Circular Chart
+# Migrate from Xamarin.Forms SfChart to .NET MAUI SfCircularChart
 
 The Circular Chart was created from scratch using the upgraded APIs and performance of the .NET MAUI graphics library and framework layouts. However, a minor code change is required. In addition, [SfChart](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfChart.XForms.SfChart.html) has been divided into five chart controls in .NET MAUI for a better user experience and understanding.
 
@@ -631,7 +631,7 @@ this.Content = chart;
 </tr>
 </table>
 
-N> For more information about selection check [here](https://help.syncfusion.com/chart-sdk/maui/circular-charts/selection).
+N> For more information about selection check [here](https://help.syncfusion.com/maui/circular-charts/selection).
 
 ## Upcoming features in .NET MAUI
 

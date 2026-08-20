@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Grid Lines in .NET MAUI Cartesian Chart | Syncfusion®
-description: Grid Lines in .NET MAUI Cartesian Chart provide visual references across the plot area, helping improve data readability and value comparison.
+title: Axis grid lines in .NET MAUI Cartesian Chart control | Syncfusion
+description: Learn here all about the chart axis grid lines and its customization in syncfusion® .NET MAUI Cartesian Chart(SfCartesianChart).
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -14,7 +14,7 @@ keywords: .net maui cartesian chart grid lines, .net maui cartesian chart grid c
 
 By default, major gridlines are automatically added to the [ChartAxis](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAxis.html) in its defined intervals. The visibility of the major gridlines can be controlled using the [ShowMajorGridLines](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAxis.html#Syncfusion_Maui_Charts_ChartAxis_ShowMajorGridLines) property. The default value of [ShowMajorGridLines](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAxis.html#Syncfusion_Maui_Charts_ChartAxis_ShowMajorGridLines) is `true`.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
 
 
 {% tabs %}

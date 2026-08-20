@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data label in .NET MAUI Circular Chart | Syncfusion®
-description: Data label in .NET MAUI Circular Chart displays data point values directly on chart segments, improving readability and enabling quick data interpretation.
+title: Data label in .NET MAUI Circular Chart control | Syncfusion
+description: This section explains about how to configure the data labels and its features in .NET MAUI Circular Chart (SfCircularChart).
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
@@ -16,7 +16,7 @@ Each data label can be represented by the following:
 * Label - displays the segment label content at the (X, Y) point.
 * Connector line - used to connect the (X, Y) point and the label element.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/circular-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCircularChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/circular-charts/getting-started)** guide.
 
 ## Enable data labels
 

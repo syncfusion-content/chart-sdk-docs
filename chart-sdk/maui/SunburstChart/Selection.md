@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Selection in .NET MAUI Sunburst Chart | Syncfusion®
-description: Selection in .NET MAUI Sunburst Chart allows chart segments to be highlighted on interaction, improving data analysis and visual exploration.
+title: Selection in .NET MAUI Sunburst Chart control | Syncfusion
+description: This section explains how to enable and customize selection in the Syncfusion<sup>®</sup> .NET MAUI Sunburst Chart control.
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
@@ -10,7 +10,7 @@ documentation: ug
 
 The Sunburst Chart supports segment selection and visual highlighting. Selection is triggered by tapping (touch) or clicking (mouse) a segment, enabling users to interact with hierarchical data. Selection requires the chart to be bound to data via the [ItemsSource](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ItemsSource), [ValueMemberPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_ValueMemberPath), and [Levels](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_Levels) properties.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started)** guide.
 
 To enable selection, create an instance of the [SunburstSelectionSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SunburstSelectionSettings.html) class and assign it to the [SelectionSettings](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_SelectionSettings) property of the [SfSunburstChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html). The `Type` and `DisplayMode` properties of `SunburstSelectionSettings` are independent and can be combined.
 

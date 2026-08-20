@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Axis Labels in .NET MAUI Polar Chart | Syncfusion®
-description: Axis labels in .NET MAUI Polar Chart display category and value information along the axes, improving chart readability and data interpretation.
+title: Axis Labels in .NET MAUI Polar Chart Control | Syncfusion
+description: Learn here all about axis labels and their customization in the Syncfusion® .NET MAUI Polar Chart (SfPolarChart) control.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
 ---
 
-# Axis Labels in .NET MAUI Polar Chart
+# Axis labels in .NET MAUI Polar Chart
 
 Axis labels are used to display the units, measures, or category values of an axis in a user-friendly way. They are generated based on the range and the values bound to the [XBindingPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartSeries.html#Syncfusion_Maui_Charts_ChartSeries_XBindingPath) or [YBindingPath](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.XYDataSeries.html#Syncfusion_Maui_Charts_XYDataSeries_YBindingPath) properties of the series.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
 
 ## Positioning the labels
 

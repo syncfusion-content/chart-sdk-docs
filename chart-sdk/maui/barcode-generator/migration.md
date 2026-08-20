@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Migrate SfBarcode to .NET MAUI SfBarcodeGenerator | Syncfusion®
-description: Migrate from Xamarin.Forms SfBarcode to .NET MAUI SfBarcodeGenerator with updated APIs, improved performance, and modern barcode generation features.
+title: Migrate from Xamarin to .NET MAUI Barcodes | Syncfusion®
+description: Learn here all about Migrating from Syncfusion<sup>&reg;</sup> Xamarin SfBarcode to Syncfusion<sup>&reg;</sup> .NET MAUI SfBarcodeGenerator control and more.
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug

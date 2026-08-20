@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Types of Axis in .NET MAUI Polar Chart | Syncfusion®
-description: Types of axis in .NET MAUI Polar Chart support different axis configurations for representing category, numeric, and date-based data effectively.
+title: Axis types in .NET MAUI Polar Chart Control | Syncfusion
+description: Learn here all about axis types and their features in Syncfusion® .NET MAUI Polar Chart (SfPolarChart) control and more.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
 ---
 
-# Types of Axis in .NET MAUI Polar Chart
+# Types of axis in .NET MAUI Polar Chart
 
 Polar chart supports the following types of chart axis:
 
@@ -16,7 +16,7 @@ Polar chart supports the following types of chart axis:
 * DateTimeAxis
 * DateTimeCategoryAxis
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
 
 ## Numerical axis
 

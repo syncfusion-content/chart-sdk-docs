@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend in .NET MAUI Polar Chart | Syncfusion®
-description: Legend in .NET MAUI Polar Chart displays series information with customizable styles, helping users identify and interpret chart data effectively.
+title: Legend in .NET MAUI Polar Chart control | Syncfusion
+description: This section explains about how to initialize legend and its customization in Syncfusion® .NET MAUI Polar Chart (SfPolarChart) control.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
@@ -12,7 +12,7 @@ keywords: .net maui polar chart, polar-chart, chart legend, legend-wrap, legend 
 
 The [Legend](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartBase.html#Syncfusion_Maui_Charts_ChartBase_Legend) provides a list of polar series, helping to identify the corresponding data series in the chart. Here's a detailed guide on how to define and customize the legend in the polar chart.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
 
 ## Defining the legend
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Brush Settings in .NET MAUI TreeMap | Syncfusion®
-description: Brush Settings in .NET MAUI TreeMap customize item colors using solid, gradient, and palette brushes, improving visual distinction and data presentation.
+title: Brush Settings in .NET MAUI TreeMap Control | Syncfusion®
+description: Learn here how to apply brush settings for tree map items in Syncfusion® .NET MAUI TreeMap control, enhancing the tree map visualization.
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---
  
-# Brush Settings in .NET MAUI TreeMap
+# Brush Settings in .NET MAUI TreeMap (SfTreeMap)
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
 
 ## Leaf Item Brush Settings
 

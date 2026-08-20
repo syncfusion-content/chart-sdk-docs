@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Axis Title in .NET MAUI Polar Chart | Syncfusion®
-description: Axis title in .NET MAUI Polar Chart provides descriptive text for chart axes, helping clarify data context and improve chart understanding.
+title: Title for axis in .NET MAUI Polar Chart Control | Syncfusion
+description: Learn here all about chart axis title, title style, title template, and its customization in the Syncfusion® .NET MAUI Polar Chart (SfPolarChart).
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
 ---
 
-# Axis Title in .NET MAUI Polar Chart
+# Axis title in .NET MAUI Polar Chart
 
 The [Title](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAxis.html#Syncfusion_Maui_Charts_ChartAxis_Title) property is used to set the title for the chart axis.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfPolarChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started)** guide.
 
 N> The polar chart supports a title for the secondary axis only.
 
