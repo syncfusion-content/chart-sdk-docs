@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Gradient in ASP.NET Core Stock Chart Component
+title: Gradient in ASP.NET Core Stock Chart | Syncfusion
 description: Learn here all about Gradient in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gradient
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

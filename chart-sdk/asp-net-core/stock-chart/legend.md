@@ -4,7 +4,6 @@ title: Syncfusion ASP.NET Core Stock Chart Legend Component
 description: Learn here all about Legend in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Range selector in TypeScript Stock chart control | Syncfusion
 description: Learn here all about Range selector in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Range selector 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -17,7 +16,7 @@ The left and right thumb of RangeNavigator are used to indicate the selected ran
 * By tapping on the labels.
 * By setting the start and end through Date Range button.
 
-Following code example shows the [`enableSelector`](../api/stock-chart/stockChartModel/#enableselector) property allows users to toggle the visibility of range selector.
+Following code example shows the [`enableSelector`](../api/stock-chart/stockChartModel#enableselector) property allows users to toggle the visibility of range selector.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

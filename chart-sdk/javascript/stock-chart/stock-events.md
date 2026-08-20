@@ -4,7 +4,6 @@ title: Stock events in JavaScript Stock chart control | Syncfusion
 description: Learn here all about Stock events in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stock events 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -44,4 +43,4 @@ By default, stock events will be showed for all series. Now, you can set the sto
 
 ## See Also
 
-* [Series Types](./series-types/)
+* [Series Types](./series-types)

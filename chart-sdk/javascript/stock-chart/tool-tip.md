@@ -4,7 +4,6 @@ title: Tool tip in JavaScript Stock chart control | Syncfusion
 description: Learn here all about Tool tip in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool tip 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -17,7 +16,7 @@ StockChart will display details about the points through tooltip, when the mouse
 
 ## Default tooltip
 
-By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/chart/tooltipSettings/#enable) property to true and by injecting [`Tooltip`](../api/stock-chart/stockChartModel/#tooltip) module using `StockChart.Inject(Tooltip)`.
+By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/chart/tooltipSettings#enable) property to true and by injecting [`Tooltip`](../api/stock-chart/stockChartModel#tooltip) module using `StockChart.Inject(Tooltip)`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -51,7 +50,7 @@ By default, tooltip shows information of x and y value in points. In addition to
 
 ## Position the tooltip
 
-By default, the tooltip is positioned at the left side of the stock chart. You can move the tooltip along with the mouse by setting **Nearest** to the [`position`](../api/stock-chart/stockTooltipSettings/#position) property.
+By default, the tooltip is positioned at the left side of the stock chart. You can move the tooltip along with the mouse by setting **Nearest** to the [`position`](../api/stock-chart/stockTooltipSettings#position) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -66,7 +65,7 @@ By default, the tooltip is positioned at the left side of the stock chart. You c
 
 ## Customize the appearance of the tooltip
 
-The [`fill`](../api/chart/tooltipSettingsModel/#fill) and [`border`](../api/chart/tooltipSettingsModel/#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/chart/tooltipSettingsModel/#textStyle) property in the tooltip is used to customize the font of the tooltip text.
+The [`fill`](../api/chart/tooltipSettingsModel#fill) and [`border`](../api/chart/tooltipSettingsModel#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/chart/tooltipSettingsModel#textStyle) property in the tooltip is used to customize the font of the tooltip text.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

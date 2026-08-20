@@ -4,7 +4,6 @@ title: Accessibility in Syncfusion Stock Chart Component
 description: Learn here all about Accessibility in Syncfusion ASP MVC Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
