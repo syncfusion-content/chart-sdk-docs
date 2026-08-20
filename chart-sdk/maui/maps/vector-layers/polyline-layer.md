@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Adding Polylines in .NET MAUI Maps control | Syncfusion
-description: Learn here all about adding the Polylines feature of Syncfusion® .NET MAUI Maps (SfMaps) control to customize their appearances and more.
+title: Polylines Layer in .NET MAUI Maps | Syncfusion®
+description: Polylines Layer in .NET MAUI Maps displays connected line paths between geographic locations, enabling visualization of routes and spatial relationships.
 platform: MAUI
 control: SfMaps
 documentation: ug
 ---
 
-# Polylines in .NET MAUI Maps (SfMaps)
+# Polylines Layer in .NET MAUI Maps
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfMaps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfMaps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide.
 
 The polyline layer is a sublayer that renders a group of [`MapPolyline`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapPolyline.html) on [`MapShapeLayer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.MapShapeLayer.html). This section explains how to add and customize polylines.
 

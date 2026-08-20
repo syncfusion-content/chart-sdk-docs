@@ -1,13 +1,13 @@
 ---
 layout: post
-title: About .NET MAUI Barcode Generator control | Syncfusion®
-description: Learn here all about introduction of Syncfusion .NET MAUI Barcodes(SfBarcodeGenerator) control with key features and more.
+title: About Syncfusion® .NET MAUI Barcode Generator Control | Syncfusion®
+description: Learn about the overview of Syncfusion® .NET MAUI Barcode Generator control, including barcode symbologies, customization options, and generation features.
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
 ---
 
-# .NET MAUI Barcode Generator Overview
+# About Syncfusion® .NET MAUI Barcode Generator Control
 
 The Syncfusion<sup>&reg;</sup> [.NET MAUI Barcode Generator](https://www.syncfusion.com/maui-controls/maui-barcodes) is a data visualization control used to generate and display data in a machine-readable format. It provides a perfect approach to encode text using supported symbology types.
 
@@ -31,15 +31,13 @@ The Syncfusion<sup>&reg;</sup> [.NET MAUI Barcode Generator](https://www.syncfus
 
 ## Related controls
 
-- [DataGrid](https://help.syncfusion.com/maui/datagrid/overview) for managing and displaying barcode-related data in tabular format.  
-- [ListView](https://help.syncfusion.com/maui/listview/overview) for presenting barcode items in list-based layouts.
-- [TreeMap](https://help.syncfusion.com/maui/treemap/overview) for visualize barcode usage or distribution patterns in a hierarchical, comparative view.
+- [TreeMap](https://help.syncfusion.com/chart-sdk/maui/treemap/overview) for visualize barcode usage or distribution patterns in a hierarchical, comparative view.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/barcode-generator/getting-started) shows how to begin using the Barcode Generator step by step.  
-- [One Dimensional Symbology](https://help.syncfusion.com/maui/barcode-generator/one-dimensional-symbology) explains supported linear barcode types and usage.  
-- [Customization](https://help.syncfusion.com/maui/barcode-generator/customization) shows how to customize barcode appearance and behavior.
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/getting-started) shows how to begin using the Barcode Generator step by step.  
+- [One Dimensional Symbology](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/one-dimensional-symbology) explains supported linear barcode types and usage.  
+- [Customization](https://help.syncfusion.com/chart-sdk/maui/barcode-generator/customization) shows how to customize barcode appearance and behavior.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready-made UI examples.  
 
 ## Resources

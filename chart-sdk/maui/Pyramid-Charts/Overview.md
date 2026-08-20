@@ -1,13 +1,13 @@
 ---
 layout: post
-title: About .NET MAUI Pyramid Chart Control | Syncfusion
-description: Learn here all about introduction of Syncfusion® .NET MAUI Chart(SfPyramidChart) control with key features and more.
+title: About Syncfusion .NET MAUI Pyramid Chart Control | Syncfusion®
+description: Learn about the overview of Syncfusion® .NET MAUI Pyramid Chart control, including customization options, data labels, legends, and visualization features.
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
 ---
 
-# .NET MAUI Pyramid Chart Overview
+# About Syncfusion® .NET MAUI Pyramid Chart Control
 
 Syncfusion® .NET MAUI Chart ([SfPyramidChart]((https://www.syncfusion.com/maui-controls/maui-pyramid-charts))) is used to create the beautiful pyramid segments to visualize the proportions of a total in hierarchies, which are used in high-quality .NET MAUI applications. As a single series chart without an axis. Data is shown as percentages of a total (The sum of the parts makes up the whole).
 
@@ -71,7 +71,7 @@ The following table summarizes the globalization support available in this contr
 <th align="center">Keyboard navigation</th>
 </tr>
 <tr>
-<td><a href="/maui/pyramid-charts/overview">Pyramid Charts</a></td>
+<td><a href="/maui/pyramid-charts/overview" aria-label="MAUI Pyramid Charts Control overview">Pyramid Charts</a></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
 <td align="center"><img src="../Images/full-support.svg" alt="full-support" width="16" /></td>
@@ -82,15 +82,15 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Funnel Charts](https://help.syncfusion.com/maui/funnel-charts/overview) for visualizing process stages and conversion flows using funnel charts.  
-- [Circular Charts](https://help.syncfusion.com/maui/cartesian-charts/overview) for representing proportional data using pie and doughnut charts.  
-- [Cartesian Charts](https://help.syncfusion.com/maui/cartesian-charts/getting-started) for visualizing data trends and comparisons using axis-based charts.  
+- [Funnel Charts](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/overview) for visualizing process stages and conversion flows using funnel charts.  
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/overview) for representing proportional data using pie and doughnut charts.  
+- [Cartesian Charts](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started) for visualizing data trends and comparisons using axis-based charts.  
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/pyramid-charts/getting-started) shows a step‑by‑step guide to begin using the Pyramid Chart control.  
-- [Customization](https://help.syncfusion.com/maui/pyramid-charts/appearance) explains how to customize chart appearance and behavior.  
-- [Labels](https://help.syncfusion.com/maui/pyramid-charts/datalabels) helps configure data labels and segment details.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/getting-started) shows a step‑by‑step guide to begin using the Pyramid Chart control.  
+- [Customization](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/appearance) explains how to customize chart appearance and behavior.  
+- [Labels](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/datalabels) helps configure data labels and segment details.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Zooming and Panning in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about Zooming and Panning feature of Syncfusion® .NET MAUI Cartesian Chart(SfCartesianChart) control.
+title: Zooming and Panning in .NET MAUI Cartesian Chart | Syncfusion®
+description: Zooming and Panning in .NET MAUI Cartesian Chart enable interactive navigation across chart data, making it easier to explore and analyze large data sets.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -14,7 +14,7 @@ keywords: .net maui cartesian chart zooming and panning, .net maui zooming and p
 
 Zooming and panning allow you to take a close-up look at the data points plotted in the series.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 ## Enable zooming
 

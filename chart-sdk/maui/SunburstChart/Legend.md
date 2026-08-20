@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend in .NET MAUI Sunburst Chart control | Syncfusion
-description: Learn here all about Legend in Syncfusion<sup>®</sup> .NET MAUI Sunburst Chart control, its elements, and more.
+title: Legend in .NET MAUI Sunburst Chart | Syncfusion®
+description: Legend in .NET MAUI Sunburst Chart displays chart segment information with customizable styles, helping users identify and interpret hierarchical data.
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The legend provides information about the data points (segments) displayed in the sunburst chart. The [Legend](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_Legend) property of the [SfSunburstChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html) is used to enable the legend. By default, this property is `null`.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started)** guide.
 
 ## Enable a Legend
 

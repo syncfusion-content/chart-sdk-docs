@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Exporting in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here how to export the chart view as an image and stream in the Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Exporting in .NET MAUI Cartesian Chart | Syncfusion®
+description: Exporting in .NET MAUI Cartesian Chart enables charts to be saved as image files for sharing, reporting, and presentation purposes.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -14,7 +14,7 @@ keywords: .net maui chart exporting, maui chart exporting, .net maui chart expor
 
 You can export the chart view as an image in the desired file format using the [SaveAsImage](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartBase.html#Syncfusion_Maui_Charts_ChartBase_SaveAsImage_System_String_) method of [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html). The supported image formats are **JPEG and PNG**. By default, if you don't mention any image format with the filename, the chart view will be exported as an image in the PNG format.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 N> The chart view can be exported as an image only when the chart view is added to the visual tree.
 

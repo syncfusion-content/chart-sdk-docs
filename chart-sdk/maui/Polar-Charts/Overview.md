@@ -1,13 +1,13 @@
 ---
 layout: post
-title: About .NET MAUI Polar Chart Control | Syncfusion
-description: Learn here all about the introduction of Syncfusion® .NET MAUI Polar Chart (SfPolarChart) control with key features and more.
+title: About Syncfusion .NET MAUI Polar Chart Control | Syncfusion®
+description: Learn about the overview of Syncfusion® .NET MAUI Polar Chart control, including axis customization, data labels, legends, and visualization features.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
 ---
 
-# Overview of .NET MAUI Polar Chart
+# About Syncfusion® .NET MAUI Polar Chart Control
 
 The Syncfusion® [.NET MAUI Polar Chart](https://www.syncfusion.com/maui-controls/maui-polar-charts) allows for the creation of visually stunning polar series for data visualization in high-quality applications. This chart type, commonly known as a radar or spider chart, effectively represents data in terms of values and angles.
 
@@ -72,7 +72,7 @@ The following table summarizes the globalization support available in this contr
 <th align="center">Keyboard navigation</th>
 </tr>
 <tr>
-<td><a href="/maui/polar-charts/overview">Polar Charts</a></td>
+<td><a href="/maui/polar-charts/overview" aria-label="MAUI Polar Charts Control overview">Polar Charts</a></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
 <td align="center"><img src="../Images/full-support.svg" alt="full-support" width="16" /></td>
@@ -83,15 +83,15 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Cartesian Charts](https://help.syncfusion.com/maui/cartesian-charts/overview) for visualizing data using line, column, and bar charts.  
-- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for representing proportional data using pie and doughnut charts.  
-- [Funnel Charts](https://help.syncfusion.com/maui/funnel-charts/overview) for visualizing process stages and conversion flows.
+- [Cartesian Charts](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/overview) for visualizing data using line, column, and bar charts.  
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for representing proportional data using pie and doughnut charts.  
+- [Funnel Charts](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/overview) for visualizing process stages and conversion flows.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started) shows a step‑by‑step guide to begin using the Polar Chart control.  
-- [Chart Types](https://help.syncfusion.com/maui/polar-charts/polararea) explores different polar chart types.  
-- [Customization](https://help.syncfusion.com/maui/polar-charts/appearance) explains how to customize appearance and interaction settings.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started) shows a step‑by‑step guide to begin using the Polar Chart control.  
+- [Chart Types](https://help.syncfusion.com/chart-sdk/maui/polar-charts/polararea) explores different polar chart types.  
+- [Customization](https://help.syncfusion.com/chart-sdk/maui/polar-charts/appearance) explains how to customize appearance and interaction settings.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 
 ## Resources
