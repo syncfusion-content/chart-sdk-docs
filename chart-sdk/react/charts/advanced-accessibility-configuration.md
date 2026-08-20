@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility Customization in React Chart
+# Accessibility customization in React Chart component
 
 The [React Charts](https://www.syncfusion.com/react-components/react-charts) component visualizes data graphically and provides accessibility customization options to improve usability for people with disabilities. This section describes the primary accessibility attributes.
 

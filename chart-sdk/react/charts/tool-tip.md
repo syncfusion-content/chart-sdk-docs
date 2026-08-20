@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in React Chart
+# Tooltip in React Chart component
 
 The chart displays detailed information about a data point through a tooltip when the mouse pointer moves over the point.
 
