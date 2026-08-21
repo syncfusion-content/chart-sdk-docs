@@ -14,15 +14,15 @@ A data label refers to a label associated with specific data points. It can be a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/datalabel/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/datalabel/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/datalabel/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/datalabel/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/datalabel" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/datalabel" %}
 
 >To use the data label feature, inject the `CircularChartDataLabel3DService` into the `@NgModule.providers`.
 
@@ -32,15 +32,15 @@ Using the `position` property, we can place the data label either `inside` or `o
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/position/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/position/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/position/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/position/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/position" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/position" %}
 
 ## Data label template
 
@@ -48,15 +48,15 @@ The label content can be formatted using the template option. Inside the templat
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/template/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/template/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/template/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/template/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/template" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/template" %}
 
 ## Connector line
 
@@ -64,15 +64,15 @@ The connector line will be visible when the data label is placed `outside` the c
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/connector-line/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/connector-line/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/connector-line/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/connector-line/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/connector-line" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/connector-line" %}
 
 ## Text mapping
 
@@ -80,15 +80,15 @@ Text from the data source can be mapped using the `name` property within the dat
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/text-mapping/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/text-mapping/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/text-mapping/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/text-mapping/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/text-mapping" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/text-mapping" %}
 
 ## Format
 
@@ -96,15 +96,15 @@ The data label for the 3D Circular Chart can be formatted using the `format` pro
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/format/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/format/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/format/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/format/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/format" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/format" %}
 
 <table>
   <tr>
@@ -169,15 +169,15 @@ Individual text for the data points in the 3D Circular Chart can be customized u
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/custom/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/custom/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/custom/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/custom/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/custom" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/custom" %}
 
 ## Using textRender event
 
@@ -185,15 +185,15 @@ You can customize the data label of a pie chart using the `textRender` event as 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/text-render/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/text-render/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/text-render/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/text-render/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/text-render" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/text-render" %}
 
 ## Using template
 
@@ -201,12 +201,12 @@ You can display the percentage values in the data label of a pie chart using the
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/datalabel/percentage/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/percentage/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/datalabel/percentage/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/datalabel/percentage/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/datalabel/percentage" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/datalabel/percentage" %}

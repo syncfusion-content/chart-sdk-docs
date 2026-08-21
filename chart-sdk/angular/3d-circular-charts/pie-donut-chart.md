@@ -16,15 +16,15 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/pie-donut/pie/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/pie/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/pie-donut/pie/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/pie/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/pie-donut/pie" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/pie-donut/pie" %}
 
 ## Radius customization
 
@@ -32,15 +32,15 @@ By default, the radius of the pie series will be 80% of the size, which is the m
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/pie-donut/radius/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/radius/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/pie-donut/radius/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/radius/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/pie-donut/radius" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/pie-donut/radius" %}
 
 ## Various radius pie chart
 
@@ -48,15 +48,15 @@ You can assign different radii to each slice of the pie by fetching the radius f
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/pie-donut/various-radius/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/various-radius/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/pie-donut/various-radius/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/various-radius/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/pie-donut/various-radius" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/pie-donut/various-radius" %}
 
 ## Donut chart
 
@@ -64,15 +64,15 @@ To achieve a donut in the pie series, customize the `innerRadius` property of th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/pie-donut/donut/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/donut/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/pie-donut/donut/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/donut/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/pie-donut/donut" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/pie-donut/donut" %}
 
 ## Text and fill color mapping
 
@@ -80,15 +80,15 @@ The text and the fill color from the data source can be mapped to the 3D Circula
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/pie-donut/color/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/color/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/pie-donut/color/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/color/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/pie-donut/color" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/pie-donut/color" %}
 
 ## Customization
 
@@ -96,12 +96,12 @@ Individual points in pie chart can be customized using the `pointRender` event.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/pie-donut/customization/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/customization/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/pie-donut/customization/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/customization/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/pie-donut/customization" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/pie-donut/customization" %}

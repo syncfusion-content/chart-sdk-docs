@@ -14,15 +14,15 @@ The legend provides information about the data points rendered in the 3D Circula
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/legend/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/legend/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/legend/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/legend/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/legend" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/legend" %}
 
 >To use the legends feature, inject the `CircularChartLegend3DService` into the `@NgModule.providers`.
 
@@ -32,15 +32,15 @@ By using the `position` property, the legend can be positioned at the `left`, `r
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/position/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/position/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/position/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/position/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/position" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/position" %}
 
 ## Legend reverse
 
@@ -48,15 +48,15 @@ You can reverse the order of the legend items by using the `reverse` property in
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/reverse/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/reverse/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/reverse/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/reverse/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/reverse" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/reverse" %}
 
 ## Legend shape
 
@@ -64,15 +64,15 @@ To change the legend shape, use the `legendShape` property in the `series`. By d
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/legend-shape/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/legend-shape/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/legend-shape/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/legend-shape/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/legend-shape" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/legend-shape" %}
 
 ## Legend size
 
@@ -80,15 +80,15 @@ The legend size can be changed by using the `width` and `height` properties in `
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/legend-size/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/legend-size/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/legend-size/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/legend-size/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/legend-size" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/legend-size" %}
 
 ## Legend item size
 
@@ -96,15 +96,15 @@ The size of the legend items can be customized by using the `shapeHeight` and `s
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/item-size/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/item-size/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/item-size/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/item-size/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/item-size" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/item-size" %}
 
 ## Legend paging
 
@@ -112,15 +112,15 @@ Paging will be enabled by default when the legend items exceed the legend bounds
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/paging/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/paging/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/paging/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/paging/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/paging" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/paging" %}
 
 ## Legend text wrap
 
@@ -128,15 +128,15 @@ When the legend text exceeds the container, the text can be wrapped using the `t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/text-wrap/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/text-wrap/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/text-wrap/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/text-wrap/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/text-wrap" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/text-wrap" %}
 
 ## Legend title
 
@@ -144,15 +144,15 @@ You can set a title for the legend using the `title` property in `legendSettings
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/legend-title/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/legend-title/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/legend-title/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/legend-title/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/legend-title" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/legend-title" %}
 
 ## Arrow page navigation
 
@@ -160,15 +160,15 @@ The page number will always be visible when using legend paging. However, it is 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/arrow-page/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/arrow-page/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/arrow-page/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/arrow-page/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/arrow-page" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/arrow-page" %}
 
 ## Legend item padding
 
@@ -176,12 +176,12 @@ The `itemPadding` property can be used to adjust the space between the legend it
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/user-interaction/item-padding/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/item-padding/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/user-interaction/item-padding/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/user-interaction/item-padding/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/user-interaction/item-padding" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/user-interaction/item-padding" %}

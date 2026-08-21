@@ -14,15 +14,15 @@ Data points containing `null` or `undefined` values are considered empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/pie-donut/empty-points/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/empty-points/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/pie-donut/empty-points/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/empty-points/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/pie-donut/empty-points" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/pie-donut/empty-points" %}
 
 ## Customization
 
@@ -30,12 +30,12 @@ A specific color for an empty point can be set by using the `fill` property in `
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/pie-donut/empty-point-custom/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/empty-point-custom/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/pie-donut/empty-point-custom/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/pie-donut/empty-point-custom/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/pie-donut/empty-point-custom" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/pie-donut/empty-point-custom" %}

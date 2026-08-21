@@ -158,15 +158,15 @@ The 3D Circular Chart renders a 3D pie with one slice for each data point. Hover
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/circular-chart/getting-started/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/getting-started/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/circular-chart/getting-started/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/3d-circular-charts/getting-started/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "page.domainurl/samples/circular-chart/getting-started" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-circular-charts/getting-started" %}
 
 ## Troubleshooting
 
