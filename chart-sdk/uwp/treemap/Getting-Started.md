@@ -11,7 +11,7 @@ documentation: ug
 
 TreeMap is a growing trend in data visualization. It displays hierarchical information in a series of clustered rectangles, which together represent a whole. The size of each box represents a quantity. TreeMap can also use color to represent any number of values, but it is often used to categorize the various boxes within the treemap.
 
-### Creating treemap for a windows store app
+## Creating treemap for a windows store app
 
 TreeMap is available in the following assembly and namespace.
 
@@ -19,14 +19,14 @@ Assembly: Syncfusion.SfTreeMap.UWP
 
 Namespace: Syncfusion.UI.Xaml.TreeMap
 
-### Adding assembly reference
+## Adding assembly reference
 
 1. Open the Add Reference window from your project.
 2. Choose Windows > Extensions > Syncfusion Controls for UWP XAML.
 
 ![Image to choose Syncfusion Controls for UWP XAML](GettingStarted_images/gettingstarted_1.png)
 
-### Add SfTreeMap from toolbox
+## Add SfTreeMap from toolbox
 
 Drag and drop the SfTreeMap control from the toolbox to your application.
 
@@ -56,7 +56,7 @@ Refer to the following code to add a TreeMap in an application:
 </Page>
 {% endhighlight %}
 
-### Create data for treemap:
+## Create data for treemap:
 
 SfTreeMap is a data-bound control. Hence you have to create a data model to bind it to the control.
 
@@ -120,7 +120,7 @@ public class PopulationViewModel
 
 {{ codesnippet2 | OrderList_Indent_Level_1 }} 
 
-### Populating data to the TreeMap
+## Populating data to the TreeMap
 
 1.Setting DataContext to the MainWindow
 {% capture codesnippet3 %}
