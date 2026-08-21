@@ -4,7 +4,6 @@ title: Map providers in TypeScript Maps component | Syncfusion
 description: Learn here all about Map providers in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Map providers 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

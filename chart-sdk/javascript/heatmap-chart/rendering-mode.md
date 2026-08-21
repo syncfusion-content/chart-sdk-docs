@@ -4,7 +4,6 @@ title: Rendering mode in JavaScript HeatMap Chart | Syncfusion
 description: Switch the JavaScript HeatMap Chart rendering between SVG, Canvas, or automatic mode to optimize performance for large or small datasets.
 platform: chart-sdk
 control: Rendering mode 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

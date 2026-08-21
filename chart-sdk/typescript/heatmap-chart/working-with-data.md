@@ -4,7 +4,6 @@ title: Working with data in TypeScript HeatMap Chart | Syncfusion
 description: Bind data to the JavaScript HeatMap Chart from JSON objects or two-dimensional arrays using array or cell adaptors with nested data mapping support.
 platform: chart-sdk
 control: Working with data 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

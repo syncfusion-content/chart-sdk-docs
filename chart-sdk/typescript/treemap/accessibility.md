@@ -4,7 +4,6 @@ title: Accessibility in TypeScript TreeMap control | Syncfusion
 description: Learn here all about Accessibility in Syncfusion TypeScript TreeMap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: TreeMap 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

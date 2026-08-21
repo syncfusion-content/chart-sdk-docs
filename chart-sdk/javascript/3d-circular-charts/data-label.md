@@ -4,7 +4,6 @@ title: Data Label in JavaScript 3D Circular Chart | Syncfusion
 description: Learn here all about data label in Syncfusion JavaScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

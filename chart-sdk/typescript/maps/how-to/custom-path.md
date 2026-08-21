@@ -4,7 +4,6 @@ title: Custom path in TypeScript Maps | Syncfusion
 description: Learn here all about Custom path in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Custom path 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

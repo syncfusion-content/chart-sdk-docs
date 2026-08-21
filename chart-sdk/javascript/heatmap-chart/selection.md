@@ -4,7 +4,6 @@ title: Selection in JavaScript HeatMap Chart | Syncfusion
 description: Enable single or multiple cell selection in the JavaScript HeatMap Chart with mouse, touch, and keyboard interactions and clear selection support.
 platform: chart-sdk
 control: Selection 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

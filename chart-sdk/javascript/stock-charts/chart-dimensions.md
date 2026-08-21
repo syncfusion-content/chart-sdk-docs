@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart dimensions in JavaScript Stock Charts | Syncfusion
-description: Learn here all about Chart dimensions in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
+title: Chart dimensions in JavaScript Stock Chart | Syncfusion
+description: Learn here all about Chart dimensions in Syncfusion JavaScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stock Charts
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart dimensions in JavaScript Stock Charts
+# Chart dimensions in JavaScript Stock Chart
 
 ## Size for Container
 

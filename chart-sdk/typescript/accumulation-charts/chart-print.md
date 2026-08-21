@@ -4,7 +4,6 @@ title: Print and Export in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to print and export the Syncfusion TypeScript Accumulation Chart to PNG, JPEG, SVG, or PDF formats.
 platform: chart-sdk
 control: Accumulation Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

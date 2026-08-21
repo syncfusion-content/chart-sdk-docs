@@ -4,7 +4,6 @@ title: Tooltip in TypeScript Bullet Chart | Syncfusion
 description: Learn how to enable and customize tooltips in the Syncfusion TypeScript Bullet Chart to display actual and target values.
 platform: chart-sdk
 control: Bullet Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

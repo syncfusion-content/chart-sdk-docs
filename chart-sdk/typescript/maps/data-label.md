@@ -4,7 +4,6 @@ title: Data label in TypeScript Maps | Syncfusion
 description: Display informative text labels on TypeScript Maps shapes by enabling dataLabelSettings to give users context about each geographic region.
 platform: chart-sdk
 control: Data label 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

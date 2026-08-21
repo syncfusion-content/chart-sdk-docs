@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Appearance in JavaScript Stock Charts | Syncfusion
-description: Learn here all about Appearance in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
+title: Appearance in JavaScript Stock Chart| Syncfusion
+description: Learn here all about Appearance in Syncfusion JavaScript Stock Chartof Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stock Charts 
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in JavaScript Stock Charts
+# Appearance in JavaScript Stock Chart
 
 ## Stock Chart Title
 

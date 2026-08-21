@@ -4,7 +4,6 @@ title: Axis in TypeScript HeatMap Chart | Syncfusion
 description: Configure X and Y axes in the JavaScript HeatMap Chart with category, numeric, or date-time types, plus inversed, opposed, multilevel, and formatted labels.
 platform: chart-sdk
 control: Axis 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Trend lines in TypeScript Stock Charts | Syncfusion
-description: Learn here all about Trend lines in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
+title: Trend lines in TypeScript Stock Chart | Syncfusion
+description: Learn here all about Trend lines in Syncfusion TypeScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stock Charts
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Trend lines in TypeScript Stock Charts
+# Trend lines in TypeScript Stock Chart
 
 Trendlines are used to show the direction and speed of price.
 

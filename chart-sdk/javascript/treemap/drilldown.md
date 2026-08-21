@@ -3,8 +3,7 @@ layout: post
 title: Drilldown in JavaScript Treemap control | Syncfusion
 description: Learn here all about Drilldown in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: TreeMap
-publishingplatform: chart-sdk
+control: Tree
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

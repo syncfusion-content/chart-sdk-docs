@@ -4,7 +4,6 @@ title: Advanced Accessibility in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to customize accessibility features in the Syncfusion JavaScript Accumulation Chart for users with disabilities.
 platform: chart-sdk
 control: Accumulation Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

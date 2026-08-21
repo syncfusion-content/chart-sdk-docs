@@ -4,7 +4,6 @@ title: Understanding TypeScript Chart control | Syncfusion
 description: Learn here all about Understanding the Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

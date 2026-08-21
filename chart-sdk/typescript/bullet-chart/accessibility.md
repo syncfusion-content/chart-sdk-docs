@@ -4,7 +4,6 @@ title: Accessibility in TypeScript Bullet Chart | Syncfusion
 description: Learn how to make the Syncfusion TypeScript Bullet Chart accessible using ADA, Section 508, WCAG 2.2, and ARIA roles.
 platform: chart-sdk
 control: Bullet Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

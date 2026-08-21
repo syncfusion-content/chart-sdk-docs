@@ -4,7 +4,6 @@ title: Methods in TypeScript Linear Gauge | Syncfusion
 description: Use the built-in methods of the TypeScript Linear Gauge such as setPointerValue, setAnnotationValue, and refresh to update the component dynamically.
 platform: chart-sdk
 control: Linear Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

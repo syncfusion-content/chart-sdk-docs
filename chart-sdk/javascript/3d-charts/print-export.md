@@ -4,7 +4,6 @@ title: Print and Export in JavaScript 3D Chart | Syncfusion
 description: Learn how to print and export the Syncfusion JavaScript 3D Chart from the browser using the built-in print method.
 platform: chart-sdk
 control: 3D Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

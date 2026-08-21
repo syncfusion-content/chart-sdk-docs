@@ -4,7 +4,6 @@ title: Other maps in JavaScript Maps | Syncfusion
 description: Connect any third-party tile-based map provider to JavaScript Maps by configuring the urlTemplate property with the provider's tile request URL.
 platform: chart-sdk
 control: Other maps 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

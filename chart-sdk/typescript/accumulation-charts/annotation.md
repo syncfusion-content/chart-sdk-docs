@@ -3,8 +3,7 @@ layout: post
 title: Annotation in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to add annotations to the Syncfusion TypeScript Accumulation Chart to mark areas of interest with text, shapes, or images.
 platform: chart-sdk
-control: Annotation 
-publishingplatform: chart-sdk
+control: Annotation
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -4,7 +4,6 @@ title: How to create an arc gauge in TypeScript Circular Gauge | Syncfusion
 description: Learn how to create an arc gauge in the Syncfusion TypeScript Circular Gauge by customizing the startAngle and endAngle properties.
 platform: chart-sdk
 control: Arc Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

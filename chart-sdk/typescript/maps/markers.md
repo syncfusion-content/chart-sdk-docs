@@ -4,7 +4,6 @@ title: Markers in TypeScript Maps | Syncfusion
 description: Place visual marker symbols on a TypeScript Maps to pinpoint specific locations, points of interest, or important geographic positions.
 platform: chart-sdk
 control: Markers 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

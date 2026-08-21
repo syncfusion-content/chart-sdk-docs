@@ -4,7 +4,6 @@ title: Annotations in JavaScript Linear Gauge | Syncfusion
 description: Add text, image, or HTML annotations to the Syncfusion JavaScript Linear Gauge and customize position, alignment, and z-index.
 platform: chart-sdk
 control: Linear Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

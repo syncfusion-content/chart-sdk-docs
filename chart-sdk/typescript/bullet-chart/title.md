@@ -4,7 +4,6 @@ title: Title and Subtitle in TypeScript Bullet Chart | Syncfusion
 description: Learn how to add a title and subtitle to the Syncfusion TypeScript Bullet Chart and customize their text styles.
 platform: chart-sdk
 control: Bullet Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -4,7 +4,6 @@ title: Ranges in JavaScript Linear Gauge | Syncfusion
 description: Add and customize ranges in the JavaScript Linear Gauge with start, end, color, position, and gradient support to highlight value intervals.
 platform: chart-sdk
 control: Linear Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -4,7 +4,6 @@ title: Category Axis in JavaScript 3D Chart | Syncfusion
 description: Learn how to render the Syncfusion JavaScript 3D Chart with a category axis that shows text values along the horizontal axis.
 platform: chart-sdk
 control: 3D Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

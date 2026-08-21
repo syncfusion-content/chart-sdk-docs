@@ -4,7 +4,6 @@ title: Grid tick in TypeScript Range Selector | Syncfusion
 description: Learn here all about Grid tick in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Range Selector
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

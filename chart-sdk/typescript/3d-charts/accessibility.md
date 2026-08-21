@@ -4,7 +4,6 @@ title: Accessibility in TypeScript 3D Chart | Syncfusion
 description: Learn how to make the Syncfusion TypeScript 3D Chart accessible using WAI-ARIA roles and keyboard navigation.
 platform: chart-sdk
 control: 3D Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

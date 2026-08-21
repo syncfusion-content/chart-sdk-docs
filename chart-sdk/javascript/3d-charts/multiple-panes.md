@@ -4,7 +4,6 @@ title: Multiple Panes in JavaScript 3D Chart | Syncfusion
 description: Learn how to split the Syncfusion JavaScript 3D Chart area into multiple rows and columns to create multiple panes.
 platform: chart-sdk
 control: 3D Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

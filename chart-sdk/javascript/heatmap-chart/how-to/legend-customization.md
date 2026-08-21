@@ -4,7 +4,6 @@ title: How to customize legend labels in JavaScript HeatMap Chart | Syncfusion
 description: Customize or hide JavaScript HeatMap Chart legend labels by handling the legendRender client-side event to change label text on the fly.
 platform: chart-sdk
 control: Legend customization 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

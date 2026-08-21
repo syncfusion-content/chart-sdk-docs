@@ -4,7 +4,6 @@ title: Map provider in TypeScript Maps | Syncfusion
 description: Render OpenStreetMap tiles inside a TypeScript Maps layer using the open-source OSM provider for collaborative, license-friendly geographic visualization.
 platform: chart-sdk
 control: Map provider 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

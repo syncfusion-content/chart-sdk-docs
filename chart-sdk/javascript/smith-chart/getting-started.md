@@ -4,7 +4,6 @@ title: Getting started with JavaScript Smithchart control | Syncfusion
 description:  Checkout and learn about Getting started with JavaScript Smithchart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting started 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

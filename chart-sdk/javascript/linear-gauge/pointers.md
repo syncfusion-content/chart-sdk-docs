@@ -4,7 +4,6 @@ title: Pointers in JavaScript Linear Gauge Control | Syncfusion
 description: Configure bar and marker pointers in the JavaScript Linear Gauge with type, value, position, animation, and gradient customization options.
 platform: chart-sdk
 control: Linear Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

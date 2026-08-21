@@ -4,7 +4,6 @@ title: Layers in JavaScript Maps | Syncfusion
 description: Add multiple shape and map provider layers in JavaScript Maps to display GeoJSON data and tile sources together as a single layered visualization.
 platform: chart-sdk
 control: Layers 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

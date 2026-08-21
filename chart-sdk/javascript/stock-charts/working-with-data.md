@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Working with data in JavaScript Stock Charts | Syncfusion
-description: Learn here all about Working with data in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
+title: Working with data in JavaScript Stock Chart | Syncfusion
+description: Learn here all about Working with data in Syncfusion JavaScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stock Charts
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in JavaScript Stock Charts
+# Working with data in JavaScript Stock Chart
 
 Stock Chart can visualise data bound from local or remote data.
 

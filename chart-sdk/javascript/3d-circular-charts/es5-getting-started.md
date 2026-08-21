@@ -4,7 +4,6 @@ title: ES5 getting started with JavaScript 3D Circular Chart | Syncfusion
 description: Check out and learn about ES5 getting started with JavaScript 3D Circular Chart of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: 3D Circular Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

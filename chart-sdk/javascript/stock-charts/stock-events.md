@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Stock events in JavaScript Stock Charts | Syncfusion
-description: Learn here all about Stock events in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
+title: Stock events in JavaScript Stock Chart | Syncfusion
+description: Learn here all about Stock events in Syncfusion JavaScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stock Charts
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 <!-- markdownlint-disable MD036 -->
 
-# Stock events in JavaScript Stock Charts
+# Stock events in JavaScript Stock Chart
 
 Stock Events visualizes stock events in stock chart. 'SplineSeries' is used to represent selected data value. You can customize the specific data value using `stockEvents` event.
 

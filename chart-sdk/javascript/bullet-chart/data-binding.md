@@ -4,7 +4,6 @@ title: Working with Data in JavaScript Bullet Chart | Syncfusion
 description: Learn how to bind local and remote data to the Syncfusion JavaScript Bullet Chart using valueField and targetField.
 platform: chart-sdk
 control: Data binding 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

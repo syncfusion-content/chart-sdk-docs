@@ -4,7 +4,6 @@ title: Axis customization in JavaScript Bullet Chart | Syncfusion
 description: Learn how to customize the major and minor tick lines and grid lines of the Syncfusion JavaScript Bullet Chart axis.
 platform: chart-sdk
 control: Bullet Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -4,7 +4,6 @@ title: Accessibility in JavaScript Smith Chart | Syncfusion
 description: Learn here all about Accessibility in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

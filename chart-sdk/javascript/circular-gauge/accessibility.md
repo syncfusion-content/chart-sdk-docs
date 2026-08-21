@@ -4,7 +4,6 @@ title: Accessibility in JavaScript Circular Gauge | Syncfusion
 description: Learn here all about Accessibility in Syncfusion JavaScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Circular Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

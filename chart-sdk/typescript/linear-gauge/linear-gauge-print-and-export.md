@@ -4,7 +4,6 @@ title: Print and Export in TypeScript Linear Gauge | Syncfusion
 description: Learn here all about Linear gauge print and export in Syncfusion TypeScript Linear gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Linear Gauge
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

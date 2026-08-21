@@ -4,7 +4,6 @@ title: Bar Chart in JavaScript 3D Chart | Syncfusion
 description: Learn how to render a bar series in the Syncfusion JavaScript 3D Chart using the BarSeries3D module.
 platform: chart-sdk
 control: 3D Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

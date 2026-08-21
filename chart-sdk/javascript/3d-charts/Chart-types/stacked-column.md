@@ -4,7 +4,6 @@ title: 100% Stacked Column Chart in JavaScript 3D Chart | Syncfusion
 description: Learn how to render a 100% stacked column series in the Syncfusion JavaScript 3D Chart using the StackingColumnSeries3D module.
 platform: chart-sdk
 control: 3D Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

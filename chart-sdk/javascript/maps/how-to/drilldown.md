@@ -4,7 +4,6 @@ title: Drilldown in JavaScript Maps | Syncfusion
 description: Learn here all about Drilldown in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Drilldown 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

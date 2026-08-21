@@ -4,7 +4,6 @@ title: Appearance in TypeScript Linear Gauge | Syncfusion
 description: Customize the appearance of the Syncfusion TypeScript Linear Gauge area, title, and container with background, border, margin, and container type options.
 platform: chart-sdk
 control: Linear Gauge
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

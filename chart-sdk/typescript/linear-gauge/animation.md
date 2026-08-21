@@ -4,7 +4,6 @@ title: Animation in TypeScript Linear Gauge | Syncfusion
 description: Animate the elements of the TypeScript Linear Gauge, including axis lines, ticks, labels, ranges, pointers, and annotations.
 platform: chart-sdk
 control: Linear Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

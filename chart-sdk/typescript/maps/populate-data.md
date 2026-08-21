@@ -4,7 +4,6 @@ title: Populate data in TypeScript Maps | Syncfusion
 description: Bind GeoJSON, geographic, or remote data sources to TypeScript Maps to populate shape geometry and render the requested geographic features.
 platform: chart-sdk
 control: Populate data 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

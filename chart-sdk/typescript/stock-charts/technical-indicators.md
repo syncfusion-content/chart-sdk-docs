@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Technical indicators in TypeScript Stock Charts | Syncfusion
-description: Learn here all about Technical indicators in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
+title: Technical indicators in TypeScript Stock Chart | Syncfusion
+description: Learn here all about Technical indicators in Syncfusion TypeScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stock Charts
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Technical indicators in TypeScript Stock Charts
+# Technical indicators in TypeScript Stock Chart
 
 A technical indicator is a mathematical calculation based on historic price, volume or open interest information that aims to forecast financial market direction.
 

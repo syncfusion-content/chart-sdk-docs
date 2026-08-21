@@ -4,7 +4,6 @@ title: Print and Export in TypeScript 3D Circular Chart | Syncfusion
 description: Learn here all about print and export in Syncfusion TypeScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: 3D Circular Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

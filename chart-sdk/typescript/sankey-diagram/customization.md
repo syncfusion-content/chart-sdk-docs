@@ -4,7 +4,6 @@ title: Customization in TypeScript Sankey Diagram | Syncfusion
 description: Learn here all about Customization in Syncfusion TypeScript Sankey Diagram of Syncfusion Essential JS 2 and more.
 control: Sankey Diagram
 platform: chart-sdk
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

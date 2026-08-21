@@ -4,7 +4,6 @@ title: Methods in TypeScript Maps | Syncfusion
 description: Use public TypeScript Maps methods to retrieve coordinates, manipulate layers, refresh content, and export map visualizations programmatically.
 platform: chart-sdk
 control: Maps 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

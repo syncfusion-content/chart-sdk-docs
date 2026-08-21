@@ -4,7 +4,6 @@ title: Ranges in TypeScript Bullet Chart | Syncfusion
 description: Learn how to define qualitative ranges in the Syncfusion TypeScript Bullet Chart scale using the ranges property.
 platform: chart-sdk
 control: Bullet Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

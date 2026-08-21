@@ -4,7 +4,6 @@ title: Palette in JavaScript HeatMap Chart | Syncfusion
 description: Apply gradient or fixed color palettes to the JavaScript HeatMap Chart cells, with custom color stops, ranges, and labels for the legend.
 platform: chart-sdk
 control: Palette 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

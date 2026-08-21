@@ -4,7 +4,6 @@ title: OpenStreetMap in JavaScript Maps | Syncfusion
 description: Learn here all about Map provider in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Map provider 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

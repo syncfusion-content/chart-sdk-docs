@@ -4,7 +4,6 @@ title: Events in JavaScript HeatMap Chart | Syncfusion
 description: Handle cellClick, cellDoubleClick, cellRender, cellSelected, created, legendRender, load, loaded, resized, and tooltipRender events in JavaScript HeatMap Chart.
 platform: chart-sdk
 control: Events 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -4,7 +4,6 @@ title: Ranges in TypeScript Linear Gauge | Syncfusion
 description: Add and customize ranges in the TypeScript Linear Gauge with start, end, color, position, and gradient support to highlight value intervals.
 platform: chart-sdk
 control: Ranges 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

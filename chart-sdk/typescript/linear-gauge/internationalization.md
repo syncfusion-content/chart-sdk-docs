@@ -4,7 +4,6 @@ title: Internationalization in TypeScript Linear Gauge | Syncfusion
 description: Globalize the number content of the TypeScript Linear Gauge using the format property to support different cultures and numeric formats.
 platform: chart-sdk
 control: Linear Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

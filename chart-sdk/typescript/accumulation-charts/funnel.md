@@ -4,7 +4,6 @@ title: Funnel in TypeScript Accumulation Chart | Syncfusion
 description: Learn how to render a funnel series in the Syncfusion TypeScript Accumulation Chart using the FunnelSeries module.
 platform: chart-sdk
 control: Accumulation Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

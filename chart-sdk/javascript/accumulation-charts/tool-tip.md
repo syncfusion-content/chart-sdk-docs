@@ -4,7 +4,6 @@ title: Tooltip in JavaScript Accumulation Chart | Syncfusion
 description: Learn how to enable and customize tooltips in the Syncfusion JavaScript Accumulation Chart to display point details on hover.
 platform: chart-sdk
 control: Tooltip 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

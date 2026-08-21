@@ -4,7 +4,6 @@ title: Accessibility in JavaScript Linear Gauge | Syncfusion
 description: Learn about the accessibility features of the JavaScript Linear Gauge, including ARIA attributes, screen reader support, and WCAG compliance.
 platform: chart-sdk
 control: Linear Gauge 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

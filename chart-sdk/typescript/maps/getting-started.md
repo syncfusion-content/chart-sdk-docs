@@ -4,7 +4,6 @@ title: Getting Started with TypeScript Maps | Syncfusion
 description: Learn how to bootstrap a TypeScript Maps application using the Essential JS 2 webpack quickstart, configure a project, and render a basic map.
 platform: chart-sdk
 control: Getting started
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

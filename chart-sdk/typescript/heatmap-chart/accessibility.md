@@ -4,7 +4,6 @@ title: Accessibility in TypeScript HeatMap Chart | Syncfusion
 description: Learn how the JavaScript HeatMap Chart supports WCAG 2.2, Section 508, screen readers, color contrast, and keyboard navigation for accessible apps.
 platform: chart-sdk
 control: Accessibility 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

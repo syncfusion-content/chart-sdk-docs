@@ -4,7 +4,6 @@ title: Selection in JavaScript 3D Chart | Syncfusion
 description: Learn how to enable selection in the Syncfusion JavaScript 3D Chart for series and data points on mouse click.
 platform: chart-sdk
 control: 3D Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

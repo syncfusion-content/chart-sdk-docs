@@ -4,7 +4,6 @@ title: Customization in the TypeScript Maps | Syncfusion
 description: Customize TypeScript Maps by configuring dimensions, titles, themes, colors, shapes, and projection types to create tailored map visualizations.
 platform: chart-sdk
 control: Customization 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

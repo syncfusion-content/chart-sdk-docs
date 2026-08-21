@@ -4,7 +4,6 @@ title: Column Chart in TypeScript 3D Chart | Syncfusion
 description: Learn how to render a column series in the Syncfusion TypeScript 3D Chart using the ColumnSeries3D module.
 platform: chart-sdk
 control: 3D Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

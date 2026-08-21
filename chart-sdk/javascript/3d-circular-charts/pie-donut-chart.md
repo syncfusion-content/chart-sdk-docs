@@ -4,7 +4,6 @@ title: Pie and Donut in JavaScript 3D Circular Chart | Syncfusion
 description: Learn here all about Pie and Donut in Syncfusion JavaScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pie and Donut 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

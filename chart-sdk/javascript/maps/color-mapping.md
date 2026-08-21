@@ -4,7 +4,6 @@ title: Color mapping in JavaScript Maps | Syncfusion
 description: Apply range, equal, or desaturation color mapping in JavaScript Maps to differentiate shape regions based on their underlying data values.
 platform: chart-sdk
 control: Color mapping 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
