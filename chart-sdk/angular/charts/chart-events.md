@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart Events in Angular Chart | Syncfusion
+title: Chart events in Angular Chart component | Syncfusion
 description: Learn here all about Chart events in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: ej2-angular
+platform: chart-sdk
 control: Chart events 
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart Events in Angular Chart
+# Chart Event in Angular Chart Component
 
 Chart events are callback functions that the Syncfusion EJ2 Chart component triggers at different stages of its life cycle. They allow developers to respond to user interactions, customize rendering, control behavior, and extend chart functionality without modifying the core component. These events enable developers to implement custom logic, enhance interactivity, and tailor the chart's behavior to specific requirements, thereby providing a more dynamic and responsive user experience.
 

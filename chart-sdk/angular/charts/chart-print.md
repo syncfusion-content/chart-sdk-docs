@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Print and Export in Angular Chart | Syncfusion
+title: Chart print in Angular Chart component | Syncfusion
 description: Learn here all about Chart print in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
-platform: ej2-angular
+platform: chart-sdk
 control: Chart print 
 documentation: ug
-domainurl: ##DomainURL##
+domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Print and Export in Angular Chart
+# Chart print in Angular Chart component
 
 The print and export features in the Angular Chart require the `ExportService` to be registered in the component's `providers` array. If you have not already added it, include the following in your component:
 
