@@ -31,8 +31,6 @@ The Syncfusion<sup>&reg;</sup> [.NET MAUI Barcode Generator](https://www.syncfus
 
 ## Related controls
 
-- [DataGrid](https://help.syncfusion.com/chart-sdk/maui/datagrid/overview) for managing and displaying barcode-related data in tabular format.  
-- [ListView](https://help.syncfusion.com/chart-sdk/maui/listview/overview) for presenting barcode items in list-based layouts.
 - [TreeMap](https://help.syncfusion.com/chart-sdk/maui/treemap/overview) for visualize barcode usage or distribution patterns in a hierarchical, comparative view.
 
 ## See Also
