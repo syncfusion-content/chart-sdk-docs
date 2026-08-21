@@ -404,7 +404,6 @@ The [`pointRender`](https://ej2.syncfusion.com/react/documentation/api/chart/ipo
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/charts/preview-sample/series/line-cs61" %}
 
-
 ## See also
 
 * [Data label](../data-labels)
