@@ -11,7 +11,7 @@ documentation: ug
 
 This document provides a comprehensive guide to implementing advanced search functionality within the Syncfusion [.NET MAUI Maps](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Maps.SfMaps.html) control. By integrating **Azure OpenAI**, this solution enables an intelligent, AI-powered location search experience.
 
-N> **Prerequisite:** Ensure that the required NuGet packages are installed, the necessary namespaces are imported, and the **.NET MAUI Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[.NET MAUI Maps Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide. Also, refer to the **[.NET MAUI Autocomplete Getting Started](https://help.syncfusion.com/chart-sdk/maui/autocomplete/getting-started)** guide before proceeding with this documentation.
+N> **Prerequisite:** Ensure that the required NuGet packages are installed, the necessary namespaces are imported, and the **.NET MAUI Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[.NET MAUI Maps Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide. Also, refer to the **[.NET MAUI Autocomplete Getting Started](https://help.syncfusion.com/maui/autocomplete/getting-started)** guide before proceeding with this documentation.
 
 ## Integrating Azure OpenAI with the .NET MAUI app
 
