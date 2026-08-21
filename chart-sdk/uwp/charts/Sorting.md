@@ -11,15 +11,15 @@ documentation: ug
 
 Chart provides support for sorting the data point rendering in either ascending or descending order based on the X or Y axis.
 
-### Enable sorting
+## Enable sorting
 
 The [`IsSortData`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_IsSortData) property is used to enable sorting in the series.
 
-### Changing sorting direction
+## Changing sorting direction
 
 The [`SortDirection`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_SortDirection) property defines the direction of sorting in either Ascending or Descending order based on the X or Y value.
 
-### Changing sorting axis
+## Changing sorting axis
 
 The [`SortBy`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_SortBy) property decides whether sorting should be done based on the [`X`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SortingAxis.html#Syncfusion_UI_Xaml_Charts_SortingAxis_X) or [`Y`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SortingAxis.html#Syncfusion_UI_Xaml_Charts_SortingAxis_Y) values.
 
