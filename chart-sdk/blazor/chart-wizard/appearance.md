@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Appearance | Blazor Chart Wizard Component | Syncfusion®
-description: Check out and learn how to customize the appearance of the Blazor Chart Wizard component including themes and layout.
-platform: chart-sdk
+title: Blazor Chart Wizard Appearance Examples | Syncfusion®
+description: Learn how to customize the appearance of Syncfusion Blazor Chart Wizard, including theme, width, height, RTL, and property panel settings.
+platform: Blazor
 control: Chart Wizard
 documentation: ug
 keywords: chart wizard, blazor, chart
 ---
 
 
-# Customizing Appearance in the Blazor Chart Wizard Component
+# Blazor Chart Wizard Appearance
 
 This guide explains how to tailor the appearance of the `Chart Wizard` component in Blazor. Discover the available properties and see practical examples for each customization option.
 
