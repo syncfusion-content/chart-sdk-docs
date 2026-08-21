@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Range in .NET MAUI Linear Gauge control | Syncfusion®
-description: Learn here all about adding and customizing Range of Syncfusion® .NET MAUI Linear Gauge (SfLinearGauge) control and more.
+title: Range in .NET MAUI Linear Gauge | Syncfusion®
+description: Range in .NET MAUI Linear Gauge highlights specific value intervals on the gauge scale, improving data visualization and emphasizing important thresholds.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 ---
 
-# Range in .NET MAUI Linear Gauge (SfLinearGauge)
+# Range in .NET MAUI Linear Gauge
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started)** guide.
 
 A range is a visual element that helps you quickly visualize where a range falls on the axis track. Multiple ranges with different styles can be added to a linear gauge. The default style of range will be as follows.
 

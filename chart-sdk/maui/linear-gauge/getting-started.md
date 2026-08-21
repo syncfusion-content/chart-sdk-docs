@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with .NET MAUI Linear Gauge control | Syncfusion®
-description: Learn here about getting started with Syncfusion® .NET MAUI Linear Gauge (SfLinearGauge) control, its elements, and more. 
+title: Getting Started with .NET MAUI Linear Gauge | Syncfusion®
+description: Learn how to get started with the Syncfusion® .NET MAUI Linear Gauge control. Explore setup, scales, pointers, ranges, and customization features.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
@@ -126,7 +126,7 @@ using Syncfusion.Maui.Gauges;
 
 ## Step 5: Add a Linear Gauge with Pointers, Ranges, and Bar Pointers
 
-Initialize the [SfLinearGauge](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfLinearGauge.html?tabs=tabid-1) to show values on a linear scale, with [ranges](https://help.syncfusion.com/maui/linear-gauge/range) highlighting value segments and [pointers](https://help.syncfusion.com/maui/linear-gauge/pointers) indicating specific values clearly. The [LinearRange](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearRange.html) highlights a value segment, the [LinearShapePointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearShapePointer.html) and [LinearContentPointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearContentPointer.html) are marker pointers, and the [BarPointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.BarPointer.html) is a shaded bar from the minimum scale value to the specified value.
+Initialize the [SfLinearGauge](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfLinearGauge.html?tabs=tabid-1) to show values on a linear scale, with [ranges](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/range) highlighting value segments and [pointers](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/pointers) indicating specific values clearly. The [LinearRange](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearRange.html) highlights a value segment, the [LinearShapePointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearShapePointer.html) and [LinearContentPointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.LinearContentPointer.html) are marker pointers, and the [BarPointer](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.BarPointer.html) is a shaded bar from the minimum scale value to the specified value.
 
 N> The image used in the `LinearContentPointer` source (e.g., `pin.png`) must be added to your project's resources.
 

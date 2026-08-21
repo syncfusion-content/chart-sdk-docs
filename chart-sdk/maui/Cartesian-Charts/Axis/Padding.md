@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Axis padding in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about how to set padding for chart axis in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Axis Padding in .NET MAUI Cartesian Chart | Syncfusion®
+description: Axis Padding in .NET MAUI Cartesian Chart controls the space around axis ranges, improving data visibility and preventing points from rendering at chart edges.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -14,7 +14,7 @@ keywords: .net maui cartesian chart axis padding, .net maui cartesian chart axis
 
 The [PlotOffsetStart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAxis.html#Syncfusion_Maui_Charts_ChartAxis_PlotOffsetStart) property, of type `double` and measured in pixels (px), is used to provide padding to the axis at the start position. The default value is `0`. The following code sample demonstrates the padding applied to the start position for both the X and Y axes.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 {% tabs %}
 

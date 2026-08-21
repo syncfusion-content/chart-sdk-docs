@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Plot band in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about plot band and its features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control and more.
+title: Plot Band in .NET MAUI Cartesian Chart | Syncfusion®
+description: Plot Band in .NET MAUI Cartesian Chart highlights specific axis ranges with custom backgrounds, making important values and regions easier to identify.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui plot band, maui plot band, .net maui chart plot band type, plot band customization .net maui, syncfusion maui plot band, cartesian plot band maui, .net maui chart plot band visualization, .net maui shaded region chart, .net maui recurrence plot band.
 ---
 
-# Plot band in .NET MAUI Cartesian Chart
+# Plot Band in .NET MAUI Cartesian Chart
 
 A plot band, also known as a stripline, allows for shading specific regions or ranges in the plot area background at regular or custom intervals. It also provides options to customize the size of these bands. Text can be added to plot band and indicate the significance of each particular region.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 Plot bands are classified into [NumericalPlotBand](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.NumericalPlotBand.html) and [DateTimePlotBand](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.DateTimePlotBand.html). Based on the axis, plot bands are drawn using these classifications. The following properties are used to configure the plot band:
 

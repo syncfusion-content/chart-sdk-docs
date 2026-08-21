@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Tooltip in .NET MAUI TreeMap Control | Syncfusion®
-description: Learn here all about how to customize the appearance of tooltip in Syncfusion® .NET MAUI TreeMap control and more.
+title: Tooltip in .NET MAUI TreeMap | Syncfusion®
+description: Tooltip in .NET MAUI TreeMap displays detailed information for TreeMap items on interaction, helping users analyze and understand hierarchical data.
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---
 
-# Tooltip in .NET MAUI TreeMap (SfTreeMap)
+# Tooltip in .NET MAUI TreeMap
 
 The tooltip provides information when hovering over or selecting items in the interactive TreeMap, displaying details about the values of each item.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started)** guide.
 
 ## Enable Tooltip
 

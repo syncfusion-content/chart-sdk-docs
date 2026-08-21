@@ -1,13 +1,13 @@
 ---
 layout: post 
-title: 3D Charts in UWP Charts control | Syncfusion
-description: Learn here about how to add proper 3D Charts support that can be rotated in Syncfusion® UWP Charts(SfChart) control and more.
+title: 3D Charts in UWP Chart | Syncfusion®
+description: 3D charts in the UWP Chart visualize data with depth and perspective, supporting rotation and interactive exploration of chart data.
 platform: chart-sdk
 control: SfChart
 documentation: ug
 ---
 
-# 3D Charts in UWP Charts (SfChart)
+# 3D Charts in UWP Chart
 
 3D charts are used to view two-dimensional data in a three-dimensional view, and can be rotated in all 3 dimensions to get the best possible view of the data.
 
@@ -30,9 +30,9 @@ The following steps explain how to create 3D charts.
 2. Choose Windows > Extensions > Syncfusion controls for UWP XAML.
 3. Add the following namespace in your XAML page:
 
-{% highlight xaml %}
+{% highlight xaml %} 
 
-    xmlns:Syncfusion="using:Syncfusion.UI.Xaml.Charts"
+xmlns:Syncfusion="using:Syncfusion.UI.Xaml.Charts"
 
 {% endhighlight %}
 

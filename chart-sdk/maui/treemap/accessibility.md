@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Accessibility in .NET MAUI TreeMap (SfTreeMap) Control | Syncfusion®
-description: Learn here about performing actions using accessibility in Syncfusion® .NET MAUI TreeMap (SfTreeMap) control.
+title: Accessibility in .NET MAUI TreeMap | Syncfusion®
+description: Accessibility in .NET MAUI TreeMap provides support for keyboard navigation, screen readers, and assistive technologies, improving usability for all users.
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
 ---
 
-# Accessibility in .NET MAUI TreeMap (SfTreeMap)
+# Accessibility in .NET MAUI TreeMap
 
 The .NET MAUI TreeMap (SfTreeMap) control supports keyboard navigation and provides accessible descriptions of its items for assistive technologies such as Narrator and VoiceOver. This topic covers the keyboard shortcuts available in the control and explains how selection behavior interacts with keyboard focus.
 
 Keyboard navigation is enabled by default; no additional configuration is required to move focus between items. To interact with the control using the keyboard, first set focus on the TreeMap (for example, by clicking an item or by tabbing to the control from the previous focusable element). Keyboard shortcuts are supported on Windows and macOS only. On Android and iOS, the keyboard shortcuts have no effect and interaction is performed through touch gestures.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/treemap/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **TreeMap** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started)** guide.
 
 ## Keyboard shortcuts in .NET MAUI TreeMap (SfTreeMap)
 
