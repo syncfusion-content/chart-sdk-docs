@@ -4,7 +4,6 @@ title: Data label in JavaScript Bullet chart control | Syncfusion
 description: Learn here all about Data label in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data label 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

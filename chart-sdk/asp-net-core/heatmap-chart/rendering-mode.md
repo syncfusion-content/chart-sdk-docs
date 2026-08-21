@@ -4,7 +4,6 @@ title: Rendering Mode in Syncfusion ASP.NET Core Heatmap Chart Component
 description: Learn here all about Rendering Mode in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Rendering Mode
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

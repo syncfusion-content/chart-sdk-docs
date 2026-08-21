@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Special points customization in Angular Sparkline component | Syncfusion
+title: Special points customization in Angular Sparkline | Syncfusion
 description: Learn here all about Special points customization in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Special points customization 

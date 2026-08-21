@@ -4,7 +4,6 @@ title: Axis in JavaScript HeatMap chart control | Syncfusion
 description: Learn here all about axis in Syncfusion JavaScript HeatMap chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -16,7 +15,7 @@ You can define the type, format, and other customizing options for both axes in 
 
 ## Types
 
-There are three different axis types available in the HeatMap, which defines the data type of the axis labels. You can define the axis type by using the [valueType](../api/heatmap/axis/#valuetype) property in the HeatMap.
+There are three different axis types available in the HeatMap, which defines the data type of the axis labels. You can define the axis type by using the [valueType](../api/heatmap/axis#valuetype) property in the HeatMap.
 
 ### Category axis
 
@@ -50,7 +49,7 @@ Numeric axis type is used to represent the numeric values in axis labels.
 
 ### Date-time axis
 
-Date-time axis type is used to represent the date-time values in axis labels with a specific format. In date-time axis, you can define the start and end date/time using the [minimum](../api/heatmap/axis/#minimum) and [maximum](../api/heatmap/axis/#maximum) properties.
+Date-time axis type is used to represent the date-time values in axis labels with a specific format. In date-time axis, you can define the start and end date/time using the [minimum](../api/heatmap/axis#minimum) and [maximum](../api/heatmap/axis#maximum) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -65,7 +64,7 @@ Date-time axis type is used to represent the date-time values in axis labels wit
 
 ## Inversed axis
 
-HeatMap supports inversing the axis origin for both axes, where the axis labels are placed in an inversed manner. You can enable axis inversing by enabling the [isInversed](../api/heatmap/axis/#isinversed) property.
+HeatMap supports inversing the axis origin for both axes, where the axis labels are placed in an inversed manner. You can enable axis inversing by enabling the [isInversed](../api/heatmap/axis#isinversed) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -80,7 +79,7 @@ HeatMap supports inversing the axis origin for both axes, where the axis labels 
 
 ## Opposed axis
 
-In HeatMap, you can place the axis label in an opposite position of its default axis label position by using the [opposedPosition](../api/heatmap/axis/#opposedposition) property.
+In HeatMap, you can place the axis label in an opposite position of its default axis label position by using the [opposedPosition](../api/heatmap/axis#opposedposition) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -112,15 +111,15 @@ You can add axis labels to the HeatMap and format those labels using the [xAxis]
 
 ### Customizing the text style
 
-The text style of the axis labels can be customized using the following options available in the [textStyle](../api/heatmap/axisModel/#textstyle) property.
+The text style of the axis labels can be customized using the following options available in the [textStyle](../api/heatmap/axisModel#textstyle) property.
 
-* [color](../api/heatmap/fontModel/#color) - It is used to change the text color of the axis labels.
-* [fontFamily](../api/heatmap/fontModel/#fontfamily) - It is used to change the font family of the axis labels.
-* [fontStyle](../api/heatmap/fontModel/#fontstyle) - It is used to change the font style of the axis labels.
-* [fontWeight](../api/heatmap/fontModel/#fontweight) - It is used to change the font weight of the axis labels.
-* [size](../api/heatmap/fontModel/#size) - It is used to change the font size of the axis labels.
-* [textAlignment](../api/heatmap/fontModel/#textalignment) - It is used to position and align the axis labels. This property allows you to specify values such as **Near**, **Center**, and **Far**.
-* [textOverflow](../api/heatmap/fontModel/#textoverflow) - When the axis label exceeds the intended space, this property is used to trim or wrap it. This property takes values such as **None**, **Trim**, and **Wrap**.
+* [color](../api/heatmap/fontModel#color) - It is used to change the text color of the axis labels.
+* [fontFamily](../api/heatmap/fontModel#fontfamily) - It is used to change the font family of the axis labels.
+* [fontStyle](../api/heatmap/fontModel#fontstyle) - It is used to change the font style of the axis labels.
+* [fontWeight](../api/heatmap/fontModel#fontweight) - It is used to change the font weight of the axis labels.
+* [size](../api/heatmap/fontModel#size) - It is used to change the font size of the axis labels.
+* [textAlignment](../api/heatmap/fontModel#textalignment) - It is used to position and align the axis labels. This property allows you to specify values such as **Near**, **Center**, and **Far**.
+* [textOverflow](../api/heatmap/fontModel#textoverflow) - When the axis label exceeds the intended space, this property is used to trim or wrap it. This property takes values such as **None**, **Trim**, and **Wrap**.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -150,7 +149,7 @@ Axis labels with line breaks improve the readability of the HeatMap by splitting
 
 ### Customizing labels when intersecting with other labels
 
-When the axis labels intersect, [labelIntersectAction](../api/heatmap/axisModel/#labelintersectaction) property is used to handle the intersection. The `labelIntersectAction` property can take the following values.
+When the axis labels intersect, [labelIntersectAction](../api/heatmap/axisModel#labelintersectaction) property is used to handle the intersection. The `labelIntersectAction` property can take the following values.
 
 * **None** - It specifies that no action is taken when the axis labels intersect.
 * **Trim** - It specifies to trim the axis labels when they intersect.
@@ -172,7 +171,7 @@ The below example demonstrates to trim the axis labels by using the `labelInters
 
 ### Rotating labels
 
-The axis labels can be rotated to the desired angles by using the [labelRotation](../api/heatmap/axisModel/#labelrotation) property.
+The axis labels can be rotated to the desired angles by using the [labelRotation](../api/heatmap/axisModel#labelrotation) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -187,7 +186,7 @@ The axis labels can be rotated to the desired angles by using the [labelRotation
 
 ### Label formatting
 
-HeatMap supports formatting the axis labels by using the [labelFormat](../api/heatmap/axis/#labelformat) property. Using this property, you can customize the axis label by global string format ('P', 'C', etc) or customized format like '{value}°C'.
+HeatMap supports formatting the axis labels by using the [labelFormat](../api/heatmap/axis#labelformat) property. Using this property, you can customize the axis label by global string format ('P', 'C', etc) or customized format like '{value}°C'.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -202,7 +201,7 @@ HeatMap supports formatting the axis labels by using the [labelFormat](../api/he
 
 ## Axis intervals
 
-In HeatMap, you can define an interval between the axis labels using the [interval](../api/heatmap/axis/#interval) property. In date-time axis, you can change the interval mode by using the [intervalType](../api/heatmap/axis/#intervaltype) property. The date-time axis supports the following interval types:
+In HeatMap, you can define an interval between the axis labels using the [interval](../api/heatmap/axis#interval) property. In date-time axis, you can change the interval mode by using the [intervalType](../api/heatmap/axis#intervaltype) property. The date-time axis supports the following interval types:
 
 * Years
 * Months
@@ -223,7 +222,7 @@ In HeatMap, you can define an interval between the axis labels using the [interv
 
 ## Axis label increment
 
-Axis label increment in the HeatMap is used to display the axis labels with regular interval values in numeric and date-time axes. The labels will be displayed with tick gaps when you set the label interval. But, to achieve the same behavior without tick gaps, use the label increment. You can set the axis label increment using the [increment](../api/heatmap/axis/#increment) property and the default value of this property is **1**.
+Axis label increment in the HeatMap is used to display the axis labels with regular interval values in numeric and date-time axes. The labels will be displayed with tick gaps when you set the label interval. But, to achieve the same behavior without tick gaps, use the label increment. You can set the axis label increment using the [increment](../api/heatmap/axis#increment) property and the default value of this property is **1**.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -238,7 +237,7 @@ Axis label increment in the HeatMap is used to display the axis labels with regu
 
 ## Limiting labels in date-time axis
 
-You can display the axis labels at specific time intervals along with the date-time axis using the [showLabelOn](../api/heatmap/axis/#showlabelon) property. This property supports the following types:
+You can display the axis labels at specific time intervals along with the date-time axis using the [showLabelOn](../api/heatmap/axis#showlabelon) property. This property supports the following types:
 
 * None: Displays the axis labels based on the `intervalType` and `interval` property of the axis. This type is default value of the `showLabelOn` property.
 * Years: Displays the axis labels on every year between given date-time range.
@@ -259,16 +258,16 @@ You can display the axis labels at specific time intervals along with the date-t
 
 ## Multilevel Labels
 
-Multilevel labels are used to classify a group of axis labels as a single category, which is then displayed with a label. By using [multiLevelLabels](../api/heatmap/axis/#multilevellabels), you can add multiple levels on top of the axis labels.
+Multilevel labels are used to classify a group of axis labels as a single category, which is then displayed with a label. By using [multiLevelLabels](../api/heatmap/axis#multilevellabels), you can add multiple levels on top of the axis labels.
 
-To divide and group the axis labels, you can use `multiLevelLabels` property. The starting and ending indexes of the axis labels can be set using the [start](../api/heatmap/multiLevelCategoriesModel/#start) and [end](../api/heatmap/multiLevelCategoriesModel/#end) properties in the [categories](../api/heatmap/multiLevelCategoriesModel/). The [text](../api/heatmap/multiLevelCategoriesModel/#text) property can be used to specify a name for the grouped axis labels.
+To divide and group the axis labels, you can use `multiLevelLabels` property. The starting and ending indexes of the axis labels can be set using the [start](../api/heatmap/multiLevelCategoriesModel#start) and [end](../api/heatmap/multiLevelCategoriesModel#end) properties in the [categories](../api/heatmap/multiLevelCategoriesModel). The [text](../api/heatmap/multiLevelCategoriesModel#text) property can be used to specify a name for the grouped axis labels.
 
 The multilevel labels can be customized by using the following properties.
-* [overflow](../api/heatmap/multiLevelLabels/#overflow) - It is used to trim or wrap the multilevel labels when the label overflows the intended space. NOTE: This property is only for x-axis.
-* [alignment](../api/heatmap/multiLevelLabels/#alignment) - It is used to place and align the multilevel labels.
-* [maximumTextWidth](../api/heatmap/multiLevelCategoriesModel/#maximumtextwidth) - It is used to set the maximum width of the text. When the text length exceeds the maximum text width, the overflow action will be performed.
-* [textStyle](../api/heatmap/multiLevelLabels/#textstyle) - It is used to customize the font style of the multilevel labels.
-* [border](../api/heatmap/multiLevelLabels/#border) - It is used to customize the border of the multilevel labels displayed in the x-axis and y-axis.
+* [overflow](../api/heatmap/multiLevelLabels#overflow) - It is used to trim or wrap the multilevel labels when the label overflows the intended space. NOTE: This property is only for x-axis.
+* [alignment](../api/heatmap/multiLevelLabels#alignment) - It is used to place and align the multilevel labels.
+* [maximumTextWidth](../api/heatmap/multiLevelCategoriesModel#maximumtextwidth) - It is used to set the maximum width of the text. When the text length exceeds the maximum text width, the overflow action will be performed.
+* [textStyle](../api/heatmap/multiLevelLabels#textstyle) - It is used to customize the font style of the multilevel labels.
+* [border](../api/heatmap/multiLevelLabels#border) - It is used to customize the border of the multilevel labels displayed in the x-axis and y-axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

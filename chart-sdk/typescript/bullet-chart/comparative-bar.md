@@ -4,7 +4,6 @@ title: Comparative bar in TypeScript Bullet chart control | Syncfusion
 description: Learn here all about Comparative bar in Syncfusion TypeScript Bullet chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Comparative bar 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -42,7 +41,7 @@ The shape of the target bar can be customized using the [`targetTypes`](../api/b
 
 ## Target bar customization
 
-The following properties can be used to customize the target bar. Also, you can bind the color for the target bar from [`dataSource`](../api/bullet-chart/#datasource) for the bullet chart.
+The following properties can be used to customize the target bar. Also, you can bind the color for the target bar from [`dataSource`](../api/bullet-chart#datasource) for the bullet chart.
 
 * [`targetColor`](../api/bullet-chart#targetcolor) - Specifies the fill color of target bar.
 * [`targetWidth`](../api/bullet-chart#targetwidth) - Specifies the width of target bar.

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Value Bar in ASP.NET MVC Bullet Chart Component
+title: Value Bar in ASP.NET MVC Bullet Chart | Syncfusion
 description: Learn here all about Value Bar in Syncfusion ASP.NET MVC Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Value Bar
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Actual bar
+# Actual bar in ASP.NET MVC Bullet Chart
 
 To display the primary data or the current value of the data being measured known as the **Feature Measure** that should be encoded as a bar. This is called as the **Actual Bar** or the **Feature Bar** in the Bullet Chart, and to display the actual bar the [`ValueField`](https://help.syncfusion.com/cr/aspnetmvc-js2/syncfusion.ej2.charts.bulletchart.html#Syncfusion_EJ2_Charts_BulletChart_ValueField) should be mapped to the appropriate field from the data source.
 

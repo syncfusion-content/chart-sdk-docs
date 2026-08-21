@@ -4,7 +4,6 @@ title: User interaction in TypeScript Sparkline control | Syncfusion
 description: Learn here all about User interaction in Syncfusion TypeScript Sparkline control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: User interaction 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -4,7 +4,6 @@ title: Getting started with TypeScript Sparkline control | Syncfusion
 description: Check out and learn how to get started with the TypeScript Sparkline control in Syncfusion Essential JS 2.
 platform: chart-sdk
 control: Sparkline
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

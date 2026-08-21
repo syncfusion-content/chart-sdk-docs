@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Legend Label Customization in ASP.NET Core Heatmap Chart Component
+title: Legend Label Customization in ASP.NET Core Heatmap Chart | Syncfusion
 description: Learn here all about Legend Label Customization in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend Label Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

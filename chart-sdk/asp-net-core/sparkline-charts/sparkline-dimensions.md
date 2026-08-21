@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Sparkline Dimensions in ASP.NET Core Sparkline Component
+title: Sparkline Dimensions in ASP.NET Core Sparkline | Syncfusion
 description: Learn here all about Sparkline Dimensions in Syncfusion ASP.NET Core Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Sparkline Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Sparkline Dimensions
+# Dimensions in ASP.NET Core Sparkline Charts
 
 ## Size for container
 

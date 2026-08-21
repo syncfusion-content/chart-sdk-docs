@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Title Subtitle in ASP.NET Core Smithchart Component
+title: Title Subtitle in ASP.NET Core Smithchart | Syncfusion
 description: Learn here all about Title Subtitle in Syncfusion ASP.NET Core Smithchart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title Subtitle
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Title and Subtitle
+# Title and Subtitle in ASP.NET Core Smith Chart
 
 ## Enable title
 

@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Bullet chart dimensions in JavaScript Bullet chart control | Syncfusion
+title: Dimensions in JavaScript Bullet chart control | Syncfusion
 description: Learn here all about Bullet chart dimensions in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Bullet chart dimensions 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

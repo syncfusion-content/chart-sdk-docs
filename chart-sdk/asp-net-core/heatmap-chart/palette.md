@@ -4,7 +4,6 @@ title: Palette in Syncfusion ASP.NET Core Heatmap Chart Component
 description: Learn here all about Palette in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Palette
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
@@ -64,4 +63,4 @@ You can define the colors ranges or color stops for data values in both gradient
 
 ## See Also
 
-* [How to enable smart legend](./legend/#smart-legend)
+* [How to enable smart legend](./legend#smart-legend)

@@ -51,7 +51,7 @@ export default {
 
 ## Size for Bullet Chart
 
-The [`width`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart/#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart/#height) properties are used to adjust the size of the Bullet Chart.
+The [`width`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#height) properties are used to adjust the size of the Bullet Chart.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

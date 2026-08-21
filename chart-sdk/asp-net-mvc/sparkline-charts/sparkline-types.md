@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Sparkline Types in ASP.NET MVC Sparkline Component
+title: Types in ASP.NET MVC Sparkline | Syncfusion
 description: Learn here all about Sparkline Types in Syncfusion ASP.NET MVC Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Sparkline Types
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Sparkline Types
+# Types in ASP.NET MVC Sparkline
 
 Different types of shapes can be used to represent the sparkline. You can change the sparkline type by setting the type property. Sparkline supports the following types:
 

@@ -4,7 +4,6 @@ title: Dimensions in Syncfusion ASP.NET Core Heatmap Chart Component
 description: Learn here all about Dimensions in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

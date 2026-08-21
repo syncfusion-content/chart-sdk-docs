@@ -12,11 +12,11 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Cell customization
 
-You can customize the cell by using the [cellSettings](https://ej2.syncfusion.com/angular/documentation/api/heatmap/#cellsettings) property.
+You can customize the cell by using the [cellSettings](https://ej2.syncfusion.com/angular/documentation/api/heatmap#cellsettings) property.
 
 ### Border
 
-Change the width, color, and radius of the heat map cells by using the [border](https://ej2.syncfusion.com/angular/documentation/api/heatmap/cellSettings/#border) property.
+Change the width, color, and radius of the heat map cells by using the [border](https://ej2.syncfusion.com/angular/documentation/api/heatmap/cellSettings#border) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -32,7 +32,7 @@ Change the width, color, and radius of the heat map cells by using the [border](
 
 ### Cell highlighting
 
-Enable or disable the cell highlighting while hovering over the heat map cells by using the [enableCellHighlighting](https://ej2.syncfusion.com/angular/documentation/api/heatmap/cellSettings/#enablecellhighlighting) property.
+Enable or disable the cell highlighting while hovering over the heat map cells by using the [enableCellHighlighting](https://ej2.syncfusion.com/angular/documentation/api/heatmap/cellSettings#enablecellhighlighting) property.
 
 >Note: The cell highlighting only works in a SVG rendering mode.
 

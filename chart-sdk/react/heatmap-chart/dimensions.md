@@ -22,7 +22,7 @@ Heat map can be rendered to its container size. You can set the size through inl
 
 ## Size for heat map
 
-You can  set the size of heat map directly by using the [width](https://ej2.syncfusion.com/react/documentation/api/heatmap/#width) and [height](https://ej2.syncfusion.com/react/documentation/api/heatmap/#height) properties.
+You can  set the size of heat map directly by using the [width](https://ej2.syncfusion.com/react/documentation/api/heatmap#width) and [height](https://ej2.syncfusion.com/react/documentation/api/heatmap#height) properties.
 
 ## In pixel
 

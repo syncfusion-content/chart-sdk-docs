@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Special Points Customization in ASP.NET Core Sparkline Component
+title: Special Points Customization in ASP.NET Core Sparkline | Syncfusion
 description: Learn here all about Special Points Customization in Syncfusion ASP.NET Core Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Special Points Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

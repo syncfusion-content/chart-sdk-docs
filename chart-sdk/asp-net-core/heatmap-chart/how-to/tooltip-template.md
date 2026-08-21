@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Tooltip Template in ASP.NET Core Heatmap Chart Component
+title: Tooltip Template in ASP.NET Core Heatmap Chart | Syncfusion
 description: Learn here all about Tooltip Template in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip Template
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

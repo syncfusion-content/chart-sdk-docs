@@ -4,7 +4,6 @@ title: Smith chart print in JavaScript Smithchart control | Syncfusion
 description: Learn here all about Smith chart print in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smith chart print 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

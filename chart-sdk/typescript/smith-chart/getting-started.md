@@ -4,7 +4,6 @@ title: Getting started with TypeScript Smith Chart control | Syncfusion
 description: Create your first Smith Chart in TypeScript using Syncfusion Essential JS 2, with step-by-step setup and configuration guidance.
 platform: chart-sdk
 control: Smith Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

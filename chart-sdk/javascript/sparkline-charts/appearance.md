@@ -4,7 +4,6 @@ title: Appearance in JavaScript Sparkline control | Syncfusion
 description: Learn here all about Appearance in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

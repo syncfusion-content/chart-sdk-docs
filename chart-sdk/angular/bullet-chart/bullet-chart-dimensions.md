@@ -55,7 +55,7 @@ export class AppComponent {
 
 <!-- markdownlint-disable MD036 -->
 
-The [`width`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#width) and [`height`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#height) properties are used to adjust the size of the Bullet Chart.
+The [`width`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#width) and [`height`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart#height) properties are used to adjust the size of the Bullet Chart.
 
 ### Pixel
 

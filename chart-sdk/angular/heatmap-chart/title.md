@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Title in Angular Heatmap chart component | Syncfusion
-description: Learn here all about Title in Syncfusion Angular Heatmap chart component of Syncfusion Essential JS 2 and more.
+description: Add HeatMap titles in the Syncfusion Angular HeatMap Chart component to improve data visualization and chart readability.
 platform: chart-sdk
 control: Title
 documentation: ug
