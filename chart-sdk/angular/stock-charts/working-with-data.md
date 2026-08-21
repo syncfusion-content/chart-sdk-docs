@@ -63,4 +63,4 @@ When no data is available to render in the stock chart, the `noDataTemplate` pro
 
 ## See Also
 
-* [Series Types](./series-types/)
+* [Series Types](./series-types)

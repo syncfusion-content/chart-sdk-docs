@@ -33,7 +33,7 @@ Sparkline can be rendered to its container size. You can set the size through in
 
 ## Size for sparkline
 
-You can also set the size for sparkline directly using the [`width`](../../api/sparkline/#width-string) and [`height`](../../api/sparkline/#height-string) properties.
+You can also set the size for sparkline directly using the [`width`](../../api/sparkline#width-string) and [`height`](../../api/sparkline#height-string) properties.
 
 **In pixel**
 

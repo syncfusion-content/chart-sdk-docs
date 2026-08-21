@@ -10,13 +10,13 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # How to Display Selected Data in Angular Chart
 
-By using the [`dragComplete`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel/#dragcomplete) event, you can get the selected data values for range selection.
+By using the [`dragComplete`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel#dragcomplete) event, you can get the selected data values for range selection.
 
 To display the selected data values, follow the given steps:
 
 **Step 1**:
 
-Get the selected data point values and display the values through the [grid](https://ej2.syncfusion.com/angular/documentation/grid/getting-started) component by using the [`dragComplete`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel/#dragcomplete) event.
+Get the selected data point values and display the values through the [grid](https://ej2.syncfusion.com/angular/documentation/grid/getting-started) component by using the [`dragComplete`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel#dragcomplete) event.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

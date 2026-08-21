@@ -176,7 +176,7 @@ To enable or disable the desired legend item for each color mapping, set the [`s
 
 ## Hide legend items based data source value
 
-To enable or disable the legend visibility for each item through the data source, bind the appropriate data source field name to [`showLegendPath`](https://ej2.syncfusion.com/angular/documentation/api/treemap/legendSettings/#showlegendpath) property in the [`legendSettings`](https://ej2.syncfusion.com/angular/documentation/api/treemap/legendSettings/).
+To enable or disable the legend visibility for each item through the data source, bind the appropriate data source field name to [`showLegendPath`](https://ej2.syncfusion.com/angular/documentation/api/treemap/legendSettings#showlegendpath) property in the [`legendSettings`](https://ej2.syncfusion.com/angular/documentation/api/treemap/legendSettings).
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

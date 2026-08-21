@@ -14,7 +14,7 @@ To prevent the chart data label when the data value is 0, follow the given steps
 
 **Step 1**:
 
-Get the point value and check whether the `args.point.y` value is zero or not by using the [`textRender`](../../api/chart/chartModel/#textrender) event. If the value is zero, then set the `args.cancel` to true.
+Get the point value and check whether the `args.point.y` value is zero or not by using the [`textRender`](../../api/chart/chartModel#textrender) event. If the value is zero, then set the `args.cancel` to true.
 
 The output will appear as follows,
 

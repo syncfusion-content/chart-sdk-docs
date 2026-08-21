@@ -15,7 +15,7 @@ Circular Gauge provides internationalization support for below elements.
 * Axis Labels
 * Tooltip
 
-For more information about number formatter, you can refer [internationalization](https://ej2.syncfusion.com/documentation/common/internationalization/).
+For more information about number formatter, you can refer [internationalization](https://ej2.syncfusion.com/documentation/common/internationalization).
 
 ## Globalization
 

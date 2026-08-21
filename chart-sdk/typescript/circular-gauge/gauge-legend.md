@@ -141,7 +141,7 @@ By default, paging will be enabled if the legend items exceed the legend bounds.
 
 ## Legend text customization
 
-You can customize the legend text using [`legendText`](../api/circular-gauge/range/#legendtext) property in `ranges`.
+You can customize the legend text using [`legendText`](../api/circular-gauge/range#legendtext) property in `ranges`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

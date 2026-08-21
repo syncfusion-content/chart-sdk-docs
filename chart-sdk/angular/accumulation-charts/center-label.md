@@ -26,7 +26,7 @@ Using [`centerLabel`](https://ej2.syncfusion.com/angular/documentation/api/accum
 
 ## Hover text
 
-The default text in the center label can be changed when the mouse pointer hovers over the pie and doughnut charts slice using the [`hoverTextFormat`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/centerLabel/#hovertextformat) property.
+The default text in the center label can be changed when the mouse pointer hovers over the pie and doughnut charts slice using the [`hoverTextFormat`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/centerLabel#hovertextformat) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -42,7 +42,7 @@ The default text in the center label can be changed when the mouse pointer hover
 
 ## Customization
 
-Customize the center label text using the [`textStyle`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/centerLabel/#textstyle) property.
+Customize the center label text using the [`textStyle`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/centerLabel#textstyle) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

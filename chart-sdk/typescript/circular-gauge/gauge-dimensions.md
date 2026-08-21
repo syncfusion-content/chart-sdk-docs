@@ -34,7 +34,7 @@ Circular gauge can render to its container size. You can set the size via inline
 
 ## Size for Circular Gauge
 
-You can also set size for the gauge directly through [`width`](../api/circular-gauge/#width-string) and [`height`](../api/circular-gauge/#height-string) properties.
+You can also set size for the gauge directly through [`width`](../api/circular-gauge#width-string) and [`height`](../api/circular-gauge#height-string) properties.
 
 **In Pixel**
 

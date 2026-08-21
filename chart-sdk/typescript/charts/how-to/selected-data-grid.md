@@ -10,13 +10,13 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # How to display selected data in TypeScript Chart
 
-By using the [`dragComplete`](../../api/chart/chartModel/#dragcomplete), you can get the selected data values for range selection.
+By using the [`dragComplete`](../../api/chart/chartModel#dragcomplete), you can get the selected data values for range selection.
 
 To display the selected data value, follow the given steps:
 
 **Step 1**:
 
-Get the selected data point values and display the values through grid component by using the [`dragComplete`](../../api/chart/chartModel/#dragcomplete) event.
+Get the selected data point values and display the values through grid component by using the [`dragComplete`](../../api/chart/chartModel#dragcomplete) event.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

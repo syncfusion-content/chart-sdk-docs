@@ -31,7 +31,7 @@ Stock Chart can render to its container size. You can set the size via inline or
 
 <!-- markdownlint-disable MD036 -->
 
-You can also set size for chart directly through [`width`](../api/stock-chart/#width) and [`height`](../api/stock-chart/#height) properties.
+You can also set size for chart directly through [`width`](../api/stock-chart#width) and [`height`](../api/stock-chart#height) properties.
 
 **In Pixel**
 

@@ -16,7 +16,7 @@ To show the total value in data points, follow the given steps:
 
 **Step 1**:
 
-Define annotation for each x point in chart, now change the annotation value in chart by using the [`annotationRender`](../../api/chart/chartModel/#annotationrender) event. In this event, assign the stacked value of the last series to the annotation to show the total value of the
+Define annotation for each x point in chart, now change the annotation value in chart by using the [`annotationRender`](../../api/chart/chartModel#annotationrender) event. In this event, assign the stacked value of the last series to the annotation to show the total value of the
 stacking series.
 
  {% tabs %}

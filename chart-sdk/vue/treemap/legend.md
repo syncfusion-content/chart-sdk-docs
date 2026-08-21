@@ -108,7 +108,7 @@ The legends can be made interactive with an arrow mark that indicates exact rang
 
 ## Legend size
 
-Customize the legend size by modifying the [`height`](https://ej2.syncfusion.com/vue/documentation/api/treemap/legendSettings#height) and [`width`](https://ej2.syncfusion.com/vue/documentation/api/treemap/legendSettings#width) properties in the [`legendSettings`](https://ej2.syncfusion.com/vue/documentation/api/treemap/legendSettings/). It accepts values in both percentage and pixel.
+Customize the legend size by modifying the [`height`](https://ej2.syncfusion.com/vue/documentation/api/treemap/legendSettings#height) and [`width`](https://ej2.syncfusion.com/vue/documentation/api/treemap/legendSettings#width) properties in the [`legendSettings`](https://ej2.syncfusion.com/vue/documentation/api/treemap/legendSettings). It accepts values in both percentage and pixel.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 # Ranges in Angular Linear Gauge
 
 <!-- markdownlint-disable MD013 -->
-Range is the set of values in the axis. The range can be defined using the [`start`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel#start) and [`end`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel#end) properties in the [`e-range`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel/). Any number of ranges can be added to the Linear Gauge using the [`e-ranges`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/axisModel#ranges).
+Range is the set of values in the axis. The range can be defined using the [`start`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel#start) and [`end`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel#end) properties in the [`e-range`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel). Any number of ranges can be added to the Linear Gauge using the [`e-ranges`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/axisModel#ranges).
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -27,7 +27,7 @@ Range is the set of values in the axis. The range can be defined using the [`sta
 
 ## Customizing the range
 
-Ranges can be customized using the following properties in [`e-range`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel/).
+Ranges can be customized using the following properties in [`e-range`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel).
 
 * [`startWidth`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel#startwidth) - Customize the range thickness at the start axis value.
 * [`endWidth`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel#endwidth) - Customize the range thickness at the end axis value.
@@ -66,7 +66,7 @@ To set the color of the labels like the range color, set the [`useRangeColor`](h
 
 ## Multiple ranges
 
-Multiple ranges can be added to the Linear Gauge by adding collections of [`e-range`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel/) in the [`e-ranges`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/axisModel#ranges) and customization of ranges can be done with [`e-range`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel/).
+Multiple ranges can be added to the Linear Gauge by adding collections of [`e-range`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel) in the [`e-ranges`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/axisModel#ranges) and customization of ranges can be done with [`e-range`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/rangeModel).
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -119,4 +119,4 @@ Using radial gradient, colors will be applied in circular progression. The inner
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/linear-gauge/ranges-cs6" %}
 
->If we set both gradients for the range, only the linear gradient gets rendered. If we set the [`startValue`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/linearGradient#startvalue) and [`endValue`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/linearGradient#endvalue) property of the [`linearGradient`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/linearGradient/) as empty strings, then the radial gradient gets rendered in the range of the Linear Gauge.
+>If we set both gradients for the range, only the linear gradient gets rendered. If we set the [`startValue`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/linearGradient#startvalue) and [`endValue`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/linearGradient#endvalue) property of the [`linearGradient`](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/linearGradient) as empty strings, then the radial gradient gets rendered in the range of the Linear Gauge.

@@ -15,7 +15,7 @@ Stock Chart can visualise data bound from local or remote data.
 
 ## Local Data
 
-You can bind a simple JSON data to the chart using [`dataSource`](../api/stock-chart/stockSeriesModel/#datasource) property in series.
+You can bind a simple JSON data to the chart using [`dataSource`](../api/stock-chart/stockSeriesModel#datasource) property in series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

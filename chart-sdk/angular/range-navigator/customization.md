@@ -108,5 +108,5 @@ The speed of the animation can be controlled using the [`animationDuration`](htt
 
 ## See Also
 
-* [Grid and Tick Lines](./grid-tick/)
-* [Labels](./labels/)
+* [Grid and Tick Lines](./grid-tick)
+* [Labels](./labels)

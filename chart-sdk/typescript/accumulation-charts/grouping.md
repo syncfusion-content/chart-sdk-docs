@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 # Grouping in TypeScript Accumulation Chart
 
 You can club/group few points of the series based on
-[`groupTo`](../api/accumulation-chart/accumulationSeries/) property. For example, if the club
+[`groupTo`](../api/accumulation-chart/accumulationSeries) property. For example, if the club
 value is 11, then the points with value less than 11 is grouped together and will be showed as a single
 point with label `others`. The property also takes value in percentage (percentage of total data points value).
 

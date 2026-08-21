@@ -10,15 +10,15 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # How to Show a Chart in a Dialog in Angular Chart
 
-Using the [`content`](https://ej2.syncfusion.com/angular/documentation/api/dialog/#content) property of the Dialog component, you can show the chart in a dialog pop-up.
+Using the [`content`](https://ej2.syncfusion.com/angular/documentation/api/dialog#content) property of the Dialog component, you can show the chart in a dialog pop-up.
 
 To show the chart in the Dialog component, follow the given steps:
 
 **Step 1**:
 
-Initialize the Dialog and Button components, and then create a basic chart and set the [`visible`](https://ej2.syncfusion.com/angular/documentation/api/dialog/#visible) property of the Dialog to `false` when initialized.
+Initialize the Dialog and Button components, and then create a basic chart and set the [`visible`](https://ej2.syncfusion.com/angular/documentation/api/dialog#visible) property of the Dialog to `false` when initialized.
 
-By setting the chart inside the [`content`](https://ej2.syncfusion.com/angular/documentation/api/dialog/#content) template of the Dialog component, you can show the chart when clicking the Button component.
+By setting the chart inside the [`content`](https://ej2.syncfusion.com/angular/documentation/api/dialog#content) template of the Dialog component, you can show the chart when clicking the Button component.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

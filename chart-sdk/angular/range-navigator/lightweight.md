@@ -27,4 +27,4 @@ By default, when the [`dataSource`](https://ej2.syncfusion.com/angular/documenta
 
 ## See Also
 
-* [Period Selector](./period-selector/)
+* [Period Selector](./period-selector)

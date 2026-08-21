@@ -10,13 +10,13 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # How to customize legend in JavaScript Chart
 
-By using the [`legendRender`](../../api/chart/chartModel/#legendrender), you can customize the legend shape.
+By using the [`legendRender`](../../api/chart/chartModel#legendrender), you can customize the legend shape.
 
 To Customize the legend shape, follow the given steps:
 
 **Step 1**:
 
-Set the shape value for each legend using `args.shape` in [`legendRender`](../../api/chart/chartModel/#legendrender) event.
+Set the shape value for each legend using `args.shape` in [`legendRender`](../../api/chart/chartModel#legendrender) event.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

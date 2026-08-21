@@ -158,7 +158,7 @@ The [`fill`](../api/accumulation-chart/tooltipSettingsModel#fill) and [`border`]
 
 ## To customize individual tooltip
 
-Using [`tooltipRender`](../api/accumulation-chart/iAccTooltipRenderEventArgs/) event, you can customize a tooltip for particular point. event, you can customize a tooltip for particular point.
+Using [`tooltipRender`](../api/accumulation-chart/iAccTooltipRenderEventArgs) event, you can customize a tooltip for particular point. event, you can customize a tooltip for particular point.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

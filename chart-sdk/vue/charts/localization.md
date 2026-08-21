@@ -48,7 +48,7 @@ The localization library localizes the Chart's default text content. Static text
 To load translations in an application, load function of L10n class.
 
 For more information about localization, see the localization guide:
-[`localization`](https://ej2.syncfusion.com/vue/documentation/common/localization/)
+[`localization`](https://ej2.syncfusion.com/vue/documentation/common/localization)
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

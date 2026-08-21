@@ -22,7 +22,7 @@ Before using Azure Maps with the Maps component, the following prerequisites mus
 
 To obtain an Azure Maps subscription key, follow the steps outlined in the [Azure Maps authentication documentation](https://docs.microsoft.com/en-us/azure/azure-maps/how-to-manage-authentication). The subscription key must be included in all API requests to authenticate and access Azure Maps services.
 
->Refer to [Azure Maps Licensing](https://azure.microsoft.com/en-in/support/legal/) for terms of use and pricing information.
+>Refer to [Azure Maps Licensing](https://azure.microsoft.com/en-in/support/legal) for terms of use and pricing information.
 
 ## Adding Azure Maps
 

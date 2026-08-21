@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Data Label in TypeScript Accumulation Chart
 
-Data label can be added to a chart series by enabling the [`visible`](../api/accumulation-chart/accumulationDataLabelSettingsModel/)
+Data label can be added to a chart series by enabling the [`visible`](../api/accumulation-chart/accumulationDataLabelSettingsModel)
 option in the dataLabel property.
 
  {% tabs %}
@@ -58,7 +58,7 @@ Data labels will be arranged smartly without overlapping with each other. You ca
 
 ## Data Label Template
 
-Label content can be formatted by using the template option. Inside the template, you can add the placeholder text `${point.x}` and `${point.y}` to display corresponding data points x & y value. Using [`template`](../api/accumulation-chart/accumulationDataLabelSettingsModel/)property, you can set data label template in chart.
+Label content can be formatted by using the template option. Inside the template, you can add the placeholder text `${point.x}` and `${point.y}` to display corresponding data points x & y value. Using [`template`](../api/accumulation-chart/accumulationDataLabelSettingsModel)property, you can set data label template in chart.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

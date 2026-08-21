@@ -16,27 +16,27 @@ Essential JS 2 StockChart supports 6 major types of series namely `Line`, `Splin
 
 ## Line
 
-To render a line series, use series [`type`](../api/stock-chart/stockSeriesModel/#type-string) as `Line` and inject `LineSeries` module using `StockChart.Inject(LineSeries)` method.
+To render a line series, use series [`type`](../api/stock-chart/stockSeriesModel#type-string) as `Line` and inject `LineSeries` module using `StockChart.Inject(LineSeries)` method.
 
 ## Spline
 
-To render a spline series, use series [`type`](../api/stock-chart/stockSeriesModel/#type-string) as `Spline` and inject `SplineSeries` module using `StockChart.Inject(SplineSeries)` method.
+To render a spline series, use series [`type`](../api/stock-chart/stockSeriesModel#type-string) as `Spline` and inject `SplineSeries` module using `StockChart.Inject(SplineSeries)` method.
 
 ## Hilo
 
-To render a hilo series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `Hilo` and inject `HiloSeries` module using `StockChart.Inject(HiloSeries)` method.
+To render a hilo series, use series [`type`](../api/stock-chart/stockSeriesModel#type) as `Hilo` and inject `HiloSeries` module using `StockChart.Inject(HiloSeries)` method.
 
 ## HiloOpenClose
 
-To render a hiloOpenClose series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `HiloOpenClose` and inject `HiloOpenCloseSeries` module using `StockChart.Inject(HiloOpenCloseSeries)` method.
+To render a hiloOpenClose series, use series [`type`](../api/stock-chart/stockSeriesModel#type) as `HiloOpenClose` and inject `HiloOpenCloseSeries` module using `StockChart.Inject(HiloOpenCloseSeries)` method.
 
 ## HollowCandle
 
-To render a hollowcandle series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `Candle` and set `enableSolidCandle` as false. Now inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
+To render a hollowcandle series, use series [`type`](../api/stock-chart/stockSeriesModel#type) as `Candle` and set `enableSolidCandle` as false. Now inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
 
 ## Candle
 
-To render a candle series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `Candle` and inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
+To render a candle series, use series [`type`](../api/stock-chart/stockSeriesModel#type) as `Candle` and inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

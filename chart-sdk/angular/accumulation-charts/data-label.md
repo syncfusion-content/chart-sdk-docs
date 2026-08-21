@@ -151,7 +151,7 @@ Data label for the accumulation chart can be formatted using [`format`](https://
 ## DataLabel template
 
 Label content can be formatted by using the template option. Inside the template, you can add the placeholder text `${point.x}` and `${point.y}` to display corresponding data points x & y value. Using
-[`template`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationDataLabelSettings/#template)property, you can set data label template in chart.
+[`template`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationDataLabelSettings#template)property, you can set data label template in chart.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -216,7 +216,7 @@ Individual text can be customized using the `textRender` event.
 
 ## Text wrap
 
-When the data label text exceeds the container, the text can be wrapped by using [`textWrap`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationDataLabelSettings/#textwrap) property. End user can also wrap the data label text based on [`maxWidth`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationDataLabelSettings/#maxwidth) property.
+When the data label text exceeds the container, the text can be wrapped by using [`textWrap`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationDataLabelSettings#textwrap) property. End user can also wrap the data label text based on [`maxWidth`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/accumulationDataLabelSettings#maxwidth) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -236,7 +236,7 @@ You can show the percentages in data labels of pie chart using `textRender` even
 
 ### Using textRender event
 
-You can customize the data label of pie chart using [textRender](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/#textrender) event as follows to show percentage.
+You can customize the data label of pie chart using [textRender](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart#textrender) event as follows to show percentage.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

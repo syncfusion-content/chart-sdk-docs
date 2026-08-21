@@ -90,4 +90,4 @@ The [`disableRangeSelector`](https://ej2.syncfusion.com/angular/documentation/ap
 
 ## See Also
 
-* [LightWeight](./lightweight/)
+* [LightWeight](./lightweight)

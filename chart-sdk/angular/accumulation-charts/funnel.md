@@ -126,7 +126,7 @@ Individual points can be customized using the `pointRender` event.
 
 ## Modes
 
-The Funnel chart supports both Standard and Trapezoidal modes of rendering. The default value of the [`funnelMode`](https://helpej2.syncfusion.com/angular/documentation/api/accumulation-chart/funnelModes/) is `Standard`.
+The Funnel chart supports both Standard and Trapezoidal modes of rendering. The default value of the [`funnelMode`](https://helpej2.syncfusion.com/angular/documentation/api/accumulation-chart/funnelModes) is `Standard`.
 
 ### Standard
 
@@ -162,5 +162,5 @@ The `Trapezoidal` mode is a modified funnel shape where the width narrows, but f
 
 ## See Also
 
-* [Data label](./data-label/)
-* [Grouping](./grouping/)
+* [Data label](./data-label)
+* [Grouping](./grouping)

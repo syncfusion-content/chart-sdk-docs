@@ -42,7 +42,7 @@ Accumulation Chart can be customizing a title using [`titleStyle`](../api/accumu
 
 ### Position
 
-The [`position`](../api/accumulation-chart/titlePosition/) property customizes the placement of the accumulation chart title. It supports the following options: `Right`, `Left`, `Bottom`, `Top`, and `Custom`. The custom option allows you to position the title anywhere on the chart using x and y coordinates, providing flexible title alignment based on layout requirements.
+The [`position`](../api/accumulation-chart/titlePosition) property customizes the placement of the accumulation chart title. It supports the following options: `Right`, `Left`, `Bottom`, `Top`, and `Custom`. The custom option allows you to position the title anywhere on the chart using x and y coordinates, providing flexible title alignment based on layout requirements.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Multiple Series
 
-You can add multiple series to the chart by using [`series`](../api/chart/seriesModel/) property. The series are rendered in the order as it is added to the series array.
+You can add multiple series to the chart by using [`series`](../api/chart/seriesModel) property. The series are rendered in the order as it is added to the series array.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

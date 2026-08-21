@@ -10,13 +10,13 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # How to customize markers in TypeScript Chart
 
-By using the [`pointRender`](../../api/chart/chartModel/#pointrender), you can customize the marker shape.
+By using the [`pointRender`](../../api/chart/chartModel#pointrender), you can customize the marker shape.
 
 To Customize the marker shape, follow the given steps:
 
 **Step 1**:
 
-Customize the marker shape in each data point by using the [`pointRender`](../../api/chart/chartModel/#pointrender) event. Using this event, you can set the `shape` value to the argument.
+Customize the marker shape in each data point by using the [`pointRender`](../../api/chart/chartModel#pointrender) event. Using this event, you can set the `shape` value to the argument.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

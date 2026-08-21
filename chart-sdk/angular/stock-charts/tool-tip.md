@@ -16,7 +16,7 @@ stockchart will display details about the points through tooltip, when the mouse
 
 ## Default tooltip
 
-By default, tooltip is not visible. Enable the tooltip by setting [`enable`](https://ej2.syncfusion.com/angular/documentation/api/chart/tooltipSettingsModel/) property to true and by injecting `TooltipService` into the `NgModule.providers`.
+By default, tooltip is not visible. Enable the tooltip by setting [`enable`](https://ej2.syncfusion.com/angular/documentation/api/chart/tooltipSettingsModel) property to true and by injecting `TooltipService` into the `NgModule.providers`.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

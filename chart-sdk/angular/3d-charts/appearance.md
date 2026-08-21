@@ -48,7 +48,7 @@ The color for the points can be bound from the [`dataSource`](https://ej2.syncfu
 
 ## Point level customization
 
-The data label and fill color of each data point can be customized using the [`pointRender`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/i3DPointRenderEventArgs/) and [`textRender`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/i3DTextRenderEventArgs/) events.
+The data label and fill color of each data point can be customized using the [`pointRender`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/i3DPointRenderEventArgs) and [`textRender`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/i3DTextRenderEventArgs) events.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

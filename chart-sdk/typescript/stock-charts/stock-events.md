@@ -43,4 +43,4 @@ By default, stock events will be showed for all series. Now, you can set the sto
 
 ## See Also
 
-* [Series Types](./series-types/)
+* [Series Types](./series-types)

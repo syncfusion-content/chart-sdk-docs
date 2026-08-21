@@ -25,4 +25,4 @@ By default, when the [`dataSource`](https://ej2.syncfusion.com/vue/documentation
 
 ## See Also
 
-* [Period Selector](./period-selector/)
+* [Period Selector](./period-selector)

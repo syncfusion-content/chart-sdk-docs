@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Polar Chart
 
-To render a polar series, use series [`type`](../api/chart/seriesModel/#type-string) as `Polar` and inject `PolarSeries` module using `Chart.Inject(PolarSeries)` method.
+To render a polar series, use series [`type`](../api/chart/seriesModel#type-string) as `Polar` and inject `PolarSeries` module using `Chart.Inject(PolarSeries)` method.
 
 ### Draw Types
 
@@ -21,9 +21,9 @@ Polar drawType property is used to change the series plotting type to line, colu
 
 **Line**
 
-To render a line draw type, use series [`drawType`](../api/chart/seriesModel/#drawtype-string) as `Line` and inject `LineSeries` module using `Chart.Inject(LineSeries)` method.
+To render a line draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `Line` and inject `LineSeries` module using `Chart.Inject(LineSeries)` method.
 
-[`isClosed`](../api/chart/seriesModel/#isclosed-boolean) property specifies whether to join start and end point of a line series used in polar chart to form a closed path. Default value of isClosed is true.
+[`isClosed`](../api/chart/seriesModel#isclosed-boolean) property specifies whether to join start and end point of a line series used in polar chart to form a closed path. Default value of isClosed is true.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -38,7 +38,7 @@ To render a line draw type, use series [`drawType`](../api/chart/seriesModel/#dr
 
 **Spline**
 
-To render a spline draw type, use series [`drawType`](../api/chart/seriesModel/#drawtype-string) as `Spline` and inject `SplineSeries` module using `Chart.Inject(SplineSeries)` method.
+To render a spline draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `Spline` and inject `SplineSeries` module using `Chart.Inject(SplineSeries)` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -53,7 +53,7 @@ To render a spline draw type, use series [`drawType`](../api/chart/seriesModel/#
 
 **Area**
 
-To render a area draw type, use series [`drawType`](../api/chart/seriesModel/#drawtype-string) as `Area` and inject `AreaSeries` module using `Chart.Inject(AreaSeries)` method.
+To render a area draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `Area` and inject `AreaSeries` module using `Chart.Inject(AreaSeries)` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -68,7 +68,7 @@ To render a area draw type, use series [`drawType`](../api/chart/seriesModel/#dr
 
 **Stacked Area**
 
-To render a stacked area draw type, use series [`drawType`](../api/chart/seriesModel/#drawtype-string) as `StackingArea` and inject `StackingAreaSeries` moduleusing `Chart.Inject(StackingAreaSeries)` method.
+To render a stacked area draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `StackingArea` and inject `StackingAreaSeries` moduleusing `Chart.Inject(StackingAreaSeries)` method.
  
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -83,7 +83,7 @@ To render a stacked area draw type, use series [`drawType`](../api/chart/seriesM
 
 **Column**
 
-To render a column draw type, use series [`drawType`](../api/chart/seriesModel/#drawtype-string) as `Column`.
+To render a column draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `Column`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -98,7 +98,7 @@ To render a column draw type, use series [`drawType`](../api/chart/seriesModel/#
 
 **Stacked Column**
 
-To render a stacked column draw type, use series [`drawType`](../api/chart/seriesModel/#drawtype-string) as `StackingColumn`.
+To render a stacked column draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `StackingColumn`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -113,7 +113,7 @@ To render a stacked column draw type, use series [`drawType`](../api/chart/serie
 
 **Range Column**
 
-To render a range column draw type, use series [`drawType`](../api/chart/seriesModel/#drawtype-string) as `RangeColumn`.
+To render a range column draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `RangeColumn`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -128,7 +128,7 @@ To render a range column draw type, use series [`drawType`](../api/chart/seriesM
 
 **Scatter**
 
-To render a scatter draw type, use series [`DrawType`](../api/chart/seriesModel/#drawtype-string) as `Scatter` and inject `ScatterSeries` module using `Chart.Inject(ScatterSeries)` method.
+To render a scatter draw type, use series [`DrawType`](../api/chart/seriesModel#drawtype-string) as `Scatter` and inject `ScatterSeries` module using `Chart.Inject(ScatterSeries)` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -143,7 +143,7 @@ To render a scatter draw type, use series [`DrawType`](../api/chart/seriesModel/
 
 ## Radar Chart
 
-To render a radar series, use series [`type`](../api/chart/seriesModel/#type-string) as `Radar` and inject `PolarSeries` module using `Chart.Inject(RadarSeries)` method.
+To render a radar series, use series [`type`](../api/chart/seriesModel#type-string) as `Radar` and inject `PolarSeries` module using `Chart.Inject(RadarSeries)` method.
 
 ### Draw Type
 
@@ -164,7 +164,7 @@ similar to Polar drawType, Radar draw property is used to change the series plot
 
 **Start Angle**
 
-You can customize the start angle of the polar series using [`startAngle`](../api/chart/axis/#startangle-number) property. By default, `startAngle` is 0 degree.
+You can customize the start angle of the polar series using [`startAngle`](../api/chart/axis#startangle-number) property. By default, `startAngle` is 0 degree.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -179,7 +179,7 @@ You can customize the start angle of the polar series using [`startAngle`](../ap
 
 **Coefficient in axis**
 
-You can customize the radius of the polar series using [`coefficient`](../api/chart/axis/#coefficient-number) property. By default, `coefficient` is 100.
+You can customize the radius of the polar series using [`coefficient`](../api/chart/axis#coefficient-number) property. By default, `coefficient` is 100.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -194,5 +194,5 @@ You can customize the radius of the polar series using [`coefficient`](../api/ch
 
 ## See Also
 
-* [Data label](./data-labels/)
-* [Tooltip](./tool-tip/)
+* [Data label](./data-labels)
+* [Tooltip](./tool-tip)

@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # How to hide axis on legend click in JavaScript Chart
 
-By using the [`chartMouseClick`](../../api/chart/chartModel/#chartmouseclick) event, you can hide the axis line through legend.
+By using the [`chartMouseClick`](../../api/chart/chartModel#chartmouseclick) event, you can hide the axis line through legend.
 
 To hide the axis line through legend click, follow the given steps:
 
@@ -18,7 +18,7 @@ To hide the axis line through legend click, follow the given steps:
 
 Create a chart with multiple axes.
 
-By using the [`chartMouseClick`](../../api/chart/chartModel/#chartmousemove) event, you can get the legend's target ids. Using this event, you can also get the `yAxisName` of each axis, based on which you can hide the axis line when clicking the legend.
+By using the [`chartMouseClick`](../../api/chart/chartModel#chartmousemove) event, you can get the legend's target ids. Using this event, you can also get the `yAxisName` of each axis, based on which you can hide the axis line when clicking the legend.
 
 The following code sample demonstrates the output.
 

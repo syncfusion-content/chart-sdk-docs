@@ -17,7 +17,7 @@ Circular gauge will displays the pointer details through [tooltip](../api/circul
 
 **Enable Tooltip**
 
-By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/circular-gauge/tooltipSettings/#enable-boolean) property to true and injecting `GaugeTooltip` module using `CircularGauge.Inject(GaugeTooltip)` method.
+By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/circular-gauge/tooltipSettings#enable-boolean) property to true and injecting `GaugeTooltip` module using `CircularGauge.Inject(GaugeTooltip)` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -32,7 +32,7 @@ By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../
 
 **Template**
 
-Any HTML elements can be displayed in the tooltip by using the [`template`](../api/circular-gauge/tooltipSettings/#template-string) property of the tooltip.
+Any HTML elements can be displayed in the tooltip by using the [`template`](../api/circular-gauge/tooltipSettings#template-string) property of the tooltip.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -103,7 +103,7 @@ The following code example shows the tooltip for the ranges and annotation.
 ## Pointer Drag
 
 Pointers can be dragged over the axis value. This can be achieved by clicking and dragging the pointer. To enable or disable the pointer drag, you can use
-[`enablePointerDrag`](../api/circular-gauge/#enablepointerdrag-boolean) property.
+[`enablePointerDrag`](../api/circular-gauge#enablepointerdrag-boolean) property.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

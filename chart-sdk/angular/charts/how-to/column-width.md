@@ -10,9 +10,9 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # How to Customize Column Width in Angular Chart
 
-By using the [`columnWidth`](https://ej2.syncfusion.com/documentation/api/chart/series/#columnwidth) and [`columnSpacing`](https://ej2.syncfusion.com/documentation/api/chart/series/#columnspacing) properties in the series of the chart, you can customize the column width and column spacing values for all points of the column series.
+By using the [`columnWidth`](https://ej2.syncfusion.com/documentation/api/chart/series#columnwidth) and [`columnSpacing`](https://ej2.syncfusion.com/documentation/api/chart/series#columnspacing) properties in the series of the chart, you can customize the column width and column spacing values for all points of the column series.
 
-You can customize the column width by setting the [`columnWidth`](https://ej2.syncfusion.com/documentation/api/chart/series/#columnwidth) value from 0 to 1 for every point in the column series. Similarly, you can use the [`columnSpacing`](https://ej2.syncfusion.com/documentation/api/chart/series/#columnspacing) property to adjust the spacing between columns.
+You can customize the column width by setting the [`columnWidth`](https://ej2.syncfusion.com/documentation/api/chart/series#columnwidth) value from 0 to 1 for every point in the column series. Similarly, you can use the [`columnSpacing`](https://ej2.syncfusion.com/documentation/api/chart/series#columnspacing) property to adjust the spacing between columns.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
