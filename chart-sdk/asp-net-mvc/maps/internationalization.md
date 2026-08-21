@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Internationalization in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Internationalization in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.

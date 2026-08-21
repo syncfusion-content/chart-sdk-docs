@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Ej1 Api Migration in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Ej1 Api Migration in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.

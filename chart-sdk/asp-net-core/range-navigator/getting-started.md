@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Getting Started with ASP.NET Core Range Navigator | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Range Selector control of Essential JS 2 and more details.

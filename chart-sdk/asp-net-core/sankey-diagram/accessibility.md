@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Accessibility in ASP.NET Core Sankey Diagram | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.

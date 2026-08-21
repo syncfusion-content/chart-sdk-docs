@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Selecting Range in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about Range in Syncfusion ASP.NET MVC Range Navigator component of Syncfusion Essential JS 2 and more.

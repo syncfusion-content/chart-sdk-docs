@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Accessibility in ASP.NET Core Sparkline Charts | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP Core Sparkline Charts component of Syncfusion Essential JS 2 and more.

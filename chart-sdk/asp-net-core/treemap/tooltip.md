@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Tooltip in ASP.NET Core TreeMap | Syncfusion
 description: Learn here all about Tooltip in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Nodes in ASP.NET MVC Sankey Diagram | Syncfusion
 description: Learn here all about Nodes in Syncfusion ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Legend in ASP.NET MVC Stock Charts | Syncfusion
 description: Learn here all about Legend in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.

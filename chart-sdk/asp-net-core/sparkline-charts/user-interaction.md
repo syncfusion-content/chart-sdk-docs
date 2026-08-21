@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: User Interaction in ASP.NET Core Sparkline Charts | Syncfusion
 description: Learn here all about User Interaction in Syncfusion ASP.NET Core Sparkline Charts component of Syncfusion Essential JS 2 and more.

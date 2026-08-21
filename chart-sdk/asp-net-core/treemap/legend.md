@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Legend in ASP.NET Core TreeMap | Syncfusion
 description: Learn here all about Legend in Syncfusion ASP.NET Core TreeMap control of Syncfusion Essential JS 2 and more.

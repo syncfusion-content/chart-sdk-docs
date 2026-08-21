@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Overview in Syncfusion ASP.NET Core Maps Component
 description: Learn here all about Overview in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.

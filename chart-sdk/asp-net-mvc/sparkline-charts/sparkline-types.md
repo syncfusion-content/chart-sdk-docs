@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Types in ASP.NET MVC Sparkline Charts | Syncfusion
 description: Learn here all about Types in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.

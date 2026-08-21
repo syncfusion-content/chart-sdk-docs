@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Axis Customization in ASP.NET MVC Sparkline Charts | Syncfusion
 description: Learn here all about Axis Customization in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Tooltip in ASP.NET MVC Smith Chart | Syncfusion
 description: Learn here all about Smith Chart Tooltip in Syncfusion ASP.NET MVC Smith Chart control of Syncfusion Essential JS 2 and more.

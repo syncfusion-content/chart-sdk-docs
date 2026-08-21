@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Export and Print in ASP.NET Core Stock Charts | Syncfusion
 description: Learn here all about Export Print in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.

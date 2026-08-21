@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Azure Maps in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Azure Maps in the Syncfusion ASP.NET Core Maps component and much more details.

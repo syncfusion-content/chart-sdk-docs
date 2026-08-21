@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Legend in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge Legend in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.

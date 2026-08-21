@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Events in ASP.NET Core Linear Gauge | Syncfusion
 description: Learn here all about Events in Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.

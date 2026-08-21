@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Working with Data in ASP.NET Core Smith Chart | Syncfusion
 description: Learn here all about Working With Data in Syncfusion ASP.NET Core Smith Chart component of Syncfusion Essential JS 2 and more.

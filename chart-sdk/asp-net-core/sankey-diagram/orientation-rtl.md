@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Orientation and RTL in ASP.NET Core Sankey Diagram | Syncfusion
 description: Learn here all about Orientation and RTL in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.

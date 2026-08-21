@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Getting Started with ASP.NET MVC Range Navigator | Syncfusion
 description: Checkout and learn about getting started with ASP.NET MVC Range Navigator control of Syncfusion Essential JS 2 and more details.

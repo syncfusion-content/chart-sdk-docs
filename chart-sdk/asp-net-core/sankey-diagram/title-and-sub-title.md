@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Title and Subtitle in ASP.NET Core Sankey Diagram | Syncfusion
 description: Learn here all about Title and Subtitle in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.

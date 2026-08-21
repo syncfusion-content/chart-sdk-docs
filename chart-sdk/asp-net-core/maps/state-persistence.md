@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: State Persistence in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about State Persistence in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.

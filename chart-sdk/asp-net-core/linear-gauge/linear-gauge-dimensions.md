@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Dimensions in ASP.NET Core Linear Gauge | Syncfusion
 description: Learn here all about Linear Gauge Dimensions in Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.

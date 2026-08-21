@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Data Binding in ASP.NET Core TreeMap | Syncfusion
 description: Learn here all about Data Binding in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.

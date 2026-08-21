@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Add custom path map in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Custom Path in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.

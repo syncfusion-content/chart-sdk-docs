@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Axis in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about axis in Syncfusion ASP.NET Core HeatMap Chart component of Syncfusion Essential JS 2 and more.

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Accessibility in ASP.NET Core Smith Chart | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP.NET Core Smith Chart component of Syncfusion Essential JS 2 and more.

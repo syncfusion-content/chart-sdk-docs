@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Methods in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about the methods in the Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.

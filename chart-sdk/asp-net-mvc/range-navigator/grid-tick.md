@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Grid and Tick Lines in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about Grid Tick in Syncfusion ASP.NET MVC Range Navigator component of Syncfusion Essential JS 2 and more.

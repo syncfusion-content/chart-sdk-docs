@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Gradient in ASP.NET MVC Stock Charts | Syncfusion
 description: Learn here all about Gradient in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.

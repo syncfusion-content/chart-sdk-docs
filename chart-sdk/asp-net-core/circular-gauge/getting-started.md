@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Getting Started with ASP.NET Core Circular Gauge Control | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Circular Gauge control of Essential JS 2 and more details.

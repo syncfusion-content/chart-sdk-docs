@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Markers in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Markers in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.

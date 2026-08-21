@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Bing Maps in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Bing Maps in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.

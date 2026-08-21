@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: RTL in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about R T L in Syncfusion ASP.NET MVC Range Navigator component of Syncfusion Essential JS 2 and more.

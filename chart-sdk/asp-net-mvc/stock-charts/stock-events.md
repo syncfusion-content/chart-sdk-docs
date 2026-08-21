@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Stock Events in ASP.NET MVC Stock Charts | Syncfusion
 description: Learn here all about Stock Events in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.

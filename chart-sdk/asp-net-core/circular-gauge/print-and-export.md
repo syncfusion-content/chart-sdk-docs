@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Print and Export in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Print And Export in Syncfusion ASP.NET Core Circular Gauge component of Syncfusion Essential JS 2 and more.

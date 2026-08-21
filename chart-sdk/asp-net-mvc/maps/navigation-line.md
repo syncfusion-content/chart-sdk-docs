@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Navigation Lines in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Navigation Line in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.

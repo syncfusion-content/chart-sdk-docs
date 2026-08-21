@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Selection and Highlight in ASP.NET Core TreeMap | Syncfusion
 description: Learn here all about Selection and Highlight in Syncfusion ASP.NET Core Treemap component of Syncfusion Essential JS 2 and more.

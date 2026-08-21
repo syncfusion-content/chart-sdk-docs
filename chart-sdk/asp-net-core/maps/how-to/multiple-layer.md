@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Add multiple layers in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Multiple Layer in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.

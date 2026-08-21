@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Axis in ASP.NET MVC Smith Chart | Syncfusion
 description: Learn here all about Smith Chart Axis in Syncfusion ASP.NET MVC Smith Chart component of Syncfusion Essential JS 2 and more.

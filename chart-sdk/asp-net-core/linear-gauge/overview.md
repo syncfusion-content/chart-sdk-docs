@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Overview in ASP.NET Core Linear Gauge Component
 description: Learn here all about Overview in Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.

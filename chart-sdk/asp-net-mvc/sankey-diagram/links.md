@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Links in ASP.NET MVC Sankey Diagram | Syncfusion
 description: Learn here all about Links in Syncfusion ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.

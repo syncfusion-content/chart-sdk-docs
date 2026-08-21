@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Getting Started with ASP.NET Core Sankey Diagram | Syncfusion
 description: Check out and learn about Getting started with ASP.NET Core Sankey Diagram Control of Essential JS 2 and more.

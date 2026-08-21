@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Dimensions in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about Dimensions in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.

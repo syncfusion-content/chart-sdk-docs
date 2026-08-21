@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Localization in ASP.NET Core Sparkline Charts | Syncfusion
 description: Learn here all about Localization in Syncfusion ASP.NET Core Sparkline Charts component of Syncfusion Essential JS 2 and more.

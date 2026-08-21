@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Period Selector in ASP.NET Core Stock Charts | Syncfusion
 description: Learn here all about Period Selector in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
