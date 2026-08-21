@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Overview in ASP.NET Core Accumulation Charts | Syncfusion
-description: Learn here all about Overview in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
+title: Overview in ASP.NET Core Accumulation Chart Component
+description: Learn here all about Overview in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Index
+control: Index  
+publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Overview in ASP.NET Core Accumulation Charts
+# Overview
 
 A pie chart is a circular graphics, which can be divided into multiple segments to illustrate the numerical proportions. All elements are rendered using the Scalable Vector Graphics (SVG).
 
