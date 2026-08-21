@@ -4,7 +4,6 @@ title: ES5 getting started with JavaScript Circular Gauge control | Syncfusion
 description: Create and configure your first Syncfusion JavaScript ES5 Circular Gauge using CDN resources, sample data, and pointer settings.
 platform: chart-sdk
 control: Circular Gauge
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

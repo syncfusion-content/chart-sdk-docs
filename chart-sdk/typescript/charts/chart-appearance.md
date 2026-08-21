@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart appearance in TypeScript Chart control | Syncfusion
+title: Appearance in TypeScript Chart | Syncfusion
 description: Learn here all about Chart appearance in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart appearance 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart appearance in TypeScript Chart control
+# Appearance in TypeScript Chart
 
 ## Custom color palette
 

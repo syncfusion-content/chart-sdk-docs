@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Data editing in TypeScript Chart control | Syncfusion
+title: Data editing in TypeScript Chart | Syncfusion
 description: Learn here all about Data editing in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data editing 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 <!-- markdownlint-disable MD036 -->
 
-# Data editing in TypeScript Chart control
+# Data editing in TypeScript Chart
 
 ## Enable Data Editing
 

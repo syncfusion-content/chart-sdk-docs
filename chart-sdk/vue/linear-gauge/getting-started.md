@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting Started with the Vue Linear Gauge in Vue 2 | Syncfusion
-description: Set up a Vue 2 application and integrate the Syncfusion Vue Linear Gauge component with a working example.
+title: Getting Started with Vue 2 Linear Gauge | Syncfusion
+description: Learn how to get started with the Syncfusion Vue 2 Linear Gauge control. Explore setup, features, examples, and customization options.
 control: Getting started
 platform: chart-sdk
 documentation: ug
@@ -9,7 +9,7 @@ framework-version: 2
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue Linear Gauge Component in Vue 2
+# Getting Started with Vue 2 Linear Gauge
 
 This article provides a step-by-step guide to creating a Vue 2 application using [Vue CLI](https://cli.vuejs.org/) and integrating the Syncfusion<sup>®</sup> Vue Linear Gauge component.
 
@@ -37,7 +37,7 @@ Use a package release that supports Vue 2. Before upgrading, check the [Vue syst
 
 ## Set Up the Vue 2 Project
 
-Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org/#getting-started) command.
+Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org#getting-started) command.
 
 **npm**
 
@@ -198,7 +198,7 @@ For additional assistance, refer to the [Vue Linear Gauge API documentation](htt
 
 - [Vue Linear Gauge overview](https://www.syncfusion.com/vue-components/vue-linear-gauge)
 - [Vue Linear Gauge annotations](https://ej2.syncfusion.com/vue/documentation/linear-gauge/annotations)
-- [Vue Linear Gauge examples](https://ej2.syncfusion.com/vue/demos/#/material3/linear-gauge/default-functionalities.html)
+- [Vue Linear Gauge examples](https://ej2.syncfusion.com/vue/demos#/material3/linear-gauge/default-functionalities.html)
 - [Vue Linear Gauge getting-started sample](https://github.com/SyncfusionExamples/getting-started-with-the-vue-linear-gauge-component)
 - [Getting Started with Vue 3 using the Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)
 - [Getting Started with Vue 3 using the Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)

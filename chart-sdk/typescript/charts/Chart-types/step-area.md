@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Step Area Chart in TypeScript Charts | Syncfusion
+title: Step Area Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Step Area in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Step Area 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Step Area Chart in TypeScript Charts
+# Step Area Chart in TypeScript Chart
 
 ## Step Area
 

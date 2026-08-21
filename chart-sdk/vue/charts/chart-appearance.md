@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chart appearance in Vue Chart component | Syncfusion
+title: Appearance in Vue Chart | Syncfusion
 description: Learn here all about Chart appearance in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Chart appearance 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart appearance in Vue Chart component
+#Appearance in Vue Chart
 
 ## Custom color palette
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Getting started with TypeScript 3D Circular Chart control | Syncfusion
-description: Check out and learn about Getting started with TypeScript 3D Circular Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting started with TypeScript 3D Circular Chart | Syncfusion
+description: Check out and learn about Getting started with TypeScript 3D Circular Chart of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: 3D Circular Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with TypeScript 3D Circular Chart control
+# Getting started with TypeScript 3D Circular Chart
 
 This document explains how to create a simple 3D Circular Chart and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 

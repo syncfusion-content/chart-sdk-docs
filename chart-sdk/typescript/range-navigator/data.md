@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Data in TypeScript Range navigator control | Syncfusion
-description: Learn here all about Data in Syncfusion TypeScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Data in TypeScript Range Selector | Syncfusion
+description: Learn here all about Data in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data 
-publishingplatform: chart-sdk
+control: Range Selector 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Data in TypeScript Range navigator control
+# Data in TypeScript Range Selector
 
 ## Numeric
 

@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Legend in TypeScript Heatmap chart control | Syncfusion
-description: Learn here all about Legend in Syncfusion TypeScript Heatmap chart control of Syncfusion Essential JS 2 and more.
+title: Legend in TypeScript HeatMap Chart | Syncfusion
+description: Enable gradient or list legends in the JavaScript HeatMap Chart with placement, alignment, dimensions, paging, smart labels, and selection toggling.
 platform: chart-sdk
 control: Legend 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in TypeScript Heatmap chart control
+# Legend in TypeScript HeatMap Chart
 
-The legend is used to provide the information about the heat map cell. You can enable the legend by setting the [visible](../api/heatmap/legendSettings/#visible) property to **true** and injecting the `Legend` module using the `HeatMap.Inject(Legend)`.
+The legend is used to provide the information about the heat map cell. You can enable the legend by setting the [visible](../api/heatmap/legendSettings#visible) property to **true** and injecting the `Legend` module using the `HeatMap.Inject(Legend)`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -31,7 +30,7 @@ Heat map supports two legend types: Gradient and list type.
 * Gradient: This is a continuous color legend with smooth color transition between palette color values.
 * List: List is a fixed color legend. Each palette color information is shown separately in the list item.
 
-You can change the legend type by using the [type](../api/heatmap/paletteSettings/#type) property in the `paletteSettings` property.
+You can change the legend type by using the [type](../api/heatmap/paletteSettings#type) property in the `paletteSettings` property.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -46,7 +45,7 @@ You can change the legend type by using the [type](../api/heatmap/paletteSetting
 
 ## Placement
 
-You can place the legend at left, right, top, or bottom to the heat map layout by using the [position](../api/heatmap/legendSettings/#position)property. The legend is positioned at the right to the heat map by default.
+You can place the legend at left, right, top, or bottom to the heat map layout by using the [position](../api/heatmap/legendSettings#position)property. The legend is positioned at the right to the heat map by default.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -61,7 +60,7 @@ You can place the legend at left, right, top, or bottom to the heat map layout b
 
 ## Alignment
 
-You can align the legend as center, far, or near to the heat map using the [alignment](../api/heatmap/legendSettings/#alignment) property.
+You can align the legend as center, far, or near to the heat map using the [alignment](../api/heatmap/legendSettings#alignment) property.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -76,7 +75,7 @@ You can align the legend as center, far, or near to the heat map using the [alig
 
 ## Legend dimensions
 
-You can change the legend dimensions with values in pixels or percentage by using the [width](../api/heatmap/legendSettings/#width) and [height](../api/heatmap/legendSettings/#height) properties.
+You can change the legend dimensions with values in pixels or percentage by using the [width](../api/heatmap/legendSettings#width) and [height](../api/heatmap/legendSettings#height) properties.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -108,9 +107,9 @@ Paging is available only for the list type legend in the heat map, and it can be
 
 ## Smart Legend
 
-Smart legend is another way of showing list type legend with responsiveness and readability, when the palette has more number of items. You can enable this smart legend by using the [enableSmartLegend](../api/heatmap/legendSettings/#enablesmartlegend) property when the palette type is set to **Fixed**.
+Smart legend is another way of showing list type legend with responsiveness and readability, when the palette has more number of items. You can enable this smart legend by using the [enableSmartLegend](../api/heatmap/legendSettings#enablesmartlegend) property when the palette type is set to **Fixed**.
 
-In smart legend, you can change the display type of legend labels by using the [labelDisplayType](../api/heatmap/legendSettings/#labeldisplaytype) property.
+In smart legend, you can change the display type of legend labels by using the [labelDisplayType](../api/heatmap/legendSettings#labeldisplaytype) property.
 
 The following are the legend label display types:
 * All: Displays all labels in the legend.
@@ -130,7 +129,7 @@ The following are the legend label display types:
 
 ## Legend Selection
 
-In the HeatMap, the legend selection is used to toggle the visibility of cell for view the specific range value. You can enable the legend selection using [toggleVisibility](../api/heatmap/legendSettings/#togglevisibility).
+In the HeatMap, the legend selection is used to toggle the visibility of cell for view the specific range value. You can enable the legend selection using [toggleVisibility](../api/heatmap/legendSettings#togglevisibility).
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -145,7 +144,7 @@ In the HeatMap, the legend selection is used to toggle the visibility of cell fo
 
 ## Legend Title
 
-The legend title displays a specific information about the legend. You can enable the legend title by setting the [title](../api/heatmap/legendSettings/#title) property by providing the text and customizing the legend title text style using the [textStyle](../api/heatmap/legendSettings/titleModel/#textStyle) property.
+The legend title displays a specific information about the legend. You can enable the legend title by setting the [title](../api/heatmap/legendSettings#title) property by providing the text and customizing the legend title text style using the [textStyle](../api/heatmap/legendSettings/titleModel#textStyle) property.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

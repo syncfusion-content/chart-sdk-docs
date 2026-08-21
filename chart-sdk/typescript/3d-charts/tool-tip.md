@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Tooltip in TypeScript 3D Chart control | Syncfusion
-description: Learn here all about tooltip in Syncfusion TypeScript 3D Chart control of Syncfusion Essential JS 2 and more.
+title: Tooltip in TypeScript 3D Chart | Syncfusion
+description: Learn how to enable and customize tooltips in the Syncfusion TypeScript 3D Chart to display point details on hover.
 platform: chart-sdk
 control: 3D Chart 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in TypeScript 3D Chart control
+# Tooltip in TypeScript 3D Chart
 
 <!-- markdownlint-disable MD036 -->
 
@@ -17,7 +16,7 @@ The 3D Chart will display details about the points through tooltip, when the mou
 
 ## Default tooltip
 
-By default, tooltip is not visible. The tooltip can be enabled by setting the [`enable`](../../api/chart3d/tooltipSettings/#enable) property in `tooltipSettings` to **true** and by injecting `Tooltip3D` module using `Chart3D.Inject(Tooltip3D)`.
+By default, tooltip is not visible. The tooltip can be enabled by setting the [`enable`](../../api/chart3d/tooltipSettings#enable) property in `tooltipSettings` to **true** and by injecting `Tooltip3D` module using `Chart3D.Inject(Tooltip3D)`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -34,7 +33,7 @@ By default, tooltip is not visible. The tooltip can be enabled by setting the [`
 
 ## Fixed tooltip
 
-By default, tooltip track the mouse movement, but the tooltip can be set in fixed position by using the [`location`](../../api/chart3d/tooltipSettings/#location) property.
+By default, tooltip track the mouse movement, but the tooltip can be set in fixed position by using the [`location`](../../api/chart3d/tooltipSettings#location) property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -51,7 +50,7 @@ By default, tooltip track the mouse movement, but the tooltip can be set in fixe
 
 <!-- markdownlint-disable MD013 -->
 
-By default, tooltip shows information of x and y value in points. In addition to that, more information can be shown in tooltip by using the [`format`](../../api/chart3d/tooltipSettings/#format) property. For example the format `${series.name} : ${point.y}` shows series name and point y value.
+By default, tooltip shows information of x and y value in points. In addition to that, more information can be shown in tooltip by using the [`format`](../../api/chart3d/tooltipSettings#format) property. For example the format `${series.name} : ${point.y}` shows series name and point y value.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -66,7 +65,7 @@ By default, tooltip shows information of x and y value in points. In addition to
 
 ## Inline tooltip formatting
 
-The tooltip content can be formatted directly within the [`format`](../../api/chart3d/tooltipSettings/#format) property by adding DateTime or number format specifiers to supported tooltip tokens. This allows you to control how point and series values are displayed without using additional events.
+The tooltip content can be formatted directly within the [`format`](../../api/chart3d/tooltipSettings#format) property by adding DateTime or number format specifiers to supported tooltip tokens. This allows you to control how point and series values are displayed without using additional events.
 
 A format specifier can be applied to a tooltip token by adding a colon (`:`) followed by the required format.
 
@@ -116,7 +115,7 @@ If the specified format does not match the resolved value type, the original val
 
 ## Tooltip template
 
-Any HTML elements can be displayed in the tooltip by using the [`template`](../../api/chart3d/tooltipSettings/#template) property of the tooltip. The ${x} and ${y} can be used as place holders in the HTML element to display the x and y values of the corresponding data point.
+Any HTML elements can be displayed in the tooltip by using the [`template`](../../api/chart3d/tooltipSettings#template) property of the tooltip. The ${x} and ${y} can be used as place holders in the HTML element to display the x and y values of the corresponding data point.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -131,7 +130,7 @@ Any HTML elements can be displayed in the tooltip by using the [`template`](../.
 
 ## Customize the appearance of tooltip
 
-The [`fill`](../../api/chart3d/tooltipSettings/#fill) and [`border`](../../api/chart3d/tooltipSettings/#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../../api/chart3d/tooltipSettings/#textstyle) property in the tooltip is used to customize the font of the tooltip text.
+The [`fill`](../../api/chart3d/tooltipSettings#fill) and [`border`](../../api/chart3d/tooltipSettings#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../../api/chart3d/tooltipSettings#textstyle) property in the tooltip is used to customize the font of the tooltip text.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

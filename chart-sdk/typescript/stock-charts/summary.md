@@ -4,7 +4,6 @@ title: Summary in TypeScript Stock chart control | Syncfusion
 description: Learn here all about Summary in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Summary 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

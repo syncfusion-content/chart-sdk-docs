@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Step Line Chart in JavaScript Charts | Syncfusion
+title: Step Line Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Step Line in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Step Line 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Step Line Chart in JavaScript Charts
+# Step Line Chart in JavaScript Chart
 
 ## Step Line
 

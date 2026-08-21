@@ -1,23 +1,22 @@
 ---
 layout: post
-title: Tool tip format in JavaScript Chart control | Syncfusion
+title: How to format tooltip in JavaScript Chart | Syncfusion
 description: Learn here all about Tool tip format in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tool tip format 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip format in JavaScript Chart control
+# How to format tooltip in JavaScript Chart
 
-Using [`tooltipRender`](../../api/chart/chartModel/#tooltiprender) event, you can able to format the datetime value instead of rendered value.
+Using [`tooltipRender`](../../api/chart/chartModel#tooltiprender) event, you can able to format the datetime value instead of rendered value.
 
 To format the datetime value,please follow the steps below
 
 **Step 1**:
 
-By using [`tooltipRender`](../../api/chart/chartModel/#tooltiprender) event we can able to get the current point x value. Using this value to format the tooltip by using `formatDate` method.
+By using [`tooltipRender`](../../api/chart/chartModel#tooltiprender) event we can able to get the current point x value. Using this value to format the tooltip by using `formatDate` method.
 
 The output will appear as follows,
 

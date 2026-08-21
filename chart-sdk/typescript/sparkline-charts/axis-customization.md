@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis customization in TypeScript Sparkline control | Syncfusion
-description: Learn here all about Axis customization in Syncfusion TypeScript Sparkline control of Syncfusion Essential JS 2 and more.
+title: Axis customization in TypeScript Sparkline | Syncfusion
+description: Learn here all about Axis customization in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis customization 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in TypeScript Sparkline control
+# Axis customization in TypeScript Sparkline
 
 You can customize axis value types and min and max values of the sparkline.
 

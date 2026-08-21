@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Api accumulationDistributionIndicator in JavaScript Chart control | Syncfusion
+title: Api accumulationDistributionIndicator in JavaScript Chart | Syncfusion
 description: Learn here all about Api accumulationDistributionIndicator in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Api accumulationDistributionIndicator 
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Api accumulationDistributionIndicator in JavaScript Chart control
+# Api accumulationDistributionIndicator in JavaScript Chart
 
 `AccumulationDistributionIndicator` module is used to render accumulation distribution indicator.
 

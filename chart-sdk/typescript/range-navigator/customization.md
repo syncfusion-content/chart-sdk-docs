@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Customization in TypeScript Range navigator control | Syncfusion
-description: Learn here all about Customization in Syncfusion TypeScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Customization in TypeScript Range Selector | Syncfusion
+description: Learn here all about Customization in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Customization 
-publishingplatform: chart-sdk
+control: Range Selector 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Customization in TypeScript Range navigator control
+# Customization in TypeScript Range Selector
 
 ## Navigator appearance
 
@@ -103,5 +102,5 @@ The speed of the animation can be controlled using the `animationDuration` prope
 
 ## See Also
 
-* [Grid and Tick Lines](./grid-tick/)
-* [Labels](./labels/)
+* [Grid and Tick Lines](./grid-tick)
+* [Labels](./labels)

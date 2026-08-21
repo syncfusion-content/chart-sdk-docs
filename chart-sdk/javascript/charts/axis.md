@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Axis in JavaScript Chart control | Syncfusion
+title: Axis in JavaScript Chart | Syncfusion
 description: Learn here all about Axis in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Axis in JavaScript Chart control
+# Axis in JavaScript Chart
 
 Chart typically has two axis, which are used to measure and categorize data: a horizontal or primary x axis and a vertical or primary y axis.
 
@@ -44,7 +43,7 @@ Category axis are used to represent, the string values instead of numbers.
 
 **Positioning Axis Labels**
 
-By default, category labels are placed between the ticks in an axis, this can also be placed on ticks using [`labelPlacement`](../api/chart/axis/#labelplacement) property.
+By default, category labels are placed between the ticks in an axis, this can also be placed on ticks using [`labelPlacement`](../api/chart/axis#labelplacement) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -57,7 +56,7 @@ By default, category labels are placed between the ticks in an axis, this can al
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs25" %}
 
->Note: To use category axis, we need to inject `Category` module using `Chart.Inject(Category)` method and set the [`valueType`](../api/chart/axis/#valuetype) of axis to Category.
+>Note: To use category axis, we need to inject `Category` module using `Chart.Inject(Category)` method and set the [`valueType`](../api/chart/axis#valuetype) of axis to Category.
 
 ## Numeric Axis
 
@@ -76,7 +75,7 @@ You can use numeric axis to represent numeric values of data in chart. By defaul
 
 **Customize Numeric Range**
 
-Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) property of
+Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis#minimum), [`maximum`](../api/chart/axis#maximum) and [`interval`](../api/chart/axis#interval) property of
 the axis.
 
 {% tabs %}
@@ -92,7 +91,7 @@ the axis.
 
 **Apply Padding to the Range**
 
-Padding can be applied to the minimum and maximum extremes of an axis range by using the [`rangePadding`](../api/chart/axis/#rangepadding) property. Numeric axis supports the following types of padding.
+Padding can be applied to the minimum and maximum extremes of an axis range by using the [`rangePadding`](../api/chart/axis#rangepadding) property. Numeric axis supports the following types of padding.
 
 * None
 * Round
@@ -102,7 +101,7 @@ Padding can be applied to the minimum and maximum extremes of an axis range by u
 
 **Numeric - None**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `None`, minimum and maximum of the axis is based on the data.
+When the [`rangePadding`](../api/chart/axis#rangepadding) is set to `None`, minimum and maximum of the axis is based on the data.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -117,7 +116,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `None`, min
 
 **Numeric - Round**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 3.5 and the interval is 1, then the minimum will be rounded to 3.
+When the [`rangePadding`](../api/chart/axis#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 3.5 and the interval is 1, then the minimum will be rounded to 3.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -132,7 +131,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, mi
 
 **Numeric - Additional**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
+When the [`rangePadding`](../api/chart/axis#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -147,7 +146,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Additional
 
 **Numeric - Normal**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Normal`, padding is applied to the axis based on default range calculation.
+When the [`rangePadding`](../api/chart/axis#rangepadding) is set to `Normal`, padding is applied to the axis based on default range calculation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -162,7 +161,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Normal`, p
 
 **Numeric - Auto**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Auto`, horizontal numeric axis takes None as padding calculation, while the vertical numeric axis takes Normal as padding calculation.
+When the [`rangePadding`](../api/chart/axis#rangepadding) is set to `Auto`, horizontal numeric axis takes None as padding calculation, while the vertical numeric axis takes Normal as padding calculation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -192,7 +191,7 @@ Date time axis uses date time scale and displays the date time values as axis la
 
 **Customizing Date Time Range**
 
-Range of an axis will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) property of the axis.
+Range of an axis will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis#minimum), [`maximum`](../api/chart/axis#maximum) and [`interval`](../api/chart/axis#interval) property of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -207,7 +206,7 @@ Range of an axis will be calculated automatically based on the provided data, yo
 
 **Date Time Intervals**
 
-Date time intervals can be customized by using the [`interval`](./../api/chart/axis/#interval) and [`intervalType`](../api/chart/axis/#intervaltype) properties of the axis. For example, when you set interval as 2 and intervalType as years, it considers 2 years as interval.
+Date time intervals can be customized by using the [`interval`](./../api/chart/axis#interval) and [`intervalType`](../api/chart/axis#intervaltype) properties of the axis. For example, when you set interval as 2 and intervalType as years, it considers 2 years as interval.
 Datetime axis supports following interval types,
 
 * Auto
@@ -231,7 +230,7 @@ Datetime axis supports following interval types,
 
 **Applying Padding to the Range**
 
-Padding can be applied to the minimum and maximum extremes of the range by using the [`rangePadding`](../api/chart/axis/#rangepadding) property. Date time axis supports the following types of padding,
+Padding can be applied to the minimum and maximum extremes of the range by using the [`rangePadding`](../api/chart/axis#rangepadding) property. Date time axis supports the following types of padding,
 
 * None
 * Round
@@ -239,7 +238,7 @@ Padding can be applied to the minimum and maximum extremes of the range by using
 
 **Datetime - None**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `None`, minimum and maximum of an axis is based on the data.
+When the [`rangePadding`](../api/chart/axis#rangepadding) is set to `None`, minimum and maximum of an axis is based on the data.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -254,7 +253,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `None`, min
 
 **Datetime - Round**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 15th Jan, interval is 1 and the interval type is ‘month’, then the axis minimum will be Jan 1st.
+When the [`rangePadding`](../api/chart/axis#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 15th Jan, interval is 1 and the interval type is ‘month’, then the axis minimum will be Jan 1st.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -269,7 +268,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, mi
 
 **Datetime - Additional**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
+When the [`rangePadding`](../api/chart/axis#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -282,7 +281,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Additional
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs38" %}
 
->Note: To use datetime axis, we need to inject DateTime using `Chart.Inject(DateTime)` method and set the [`valueType`](../api/chart/axis/#valuetype) of axis to DateTime.
+>Note: To use datetime axis, we need to inject DateTime using `Chart.Inject(DateTime)` method and set the [`valueType`](../api/chart/axis#valuetype) of axis to DateTime.
 
 <!-- markdownlint-disable MD033 -->
 
@@ -305,7 +304,7 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing dat
 
 **Customize Logarithmic Range**
 
-Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of an axis using [`minimum`](../api/chart/axis/#minimum),[`maximum`](../api/chart/axis/#maximum) and [`interval`](./../api/chart/axis/#interval) property of the axis.
+Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of an axis using [`minimum`](../api/chart/axis#minimum),[`maximum`](../api/chart/axis#maximum) and [`interval`](./../api/chart/axis#interval) property of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -320,7 +319,7 @@ Range of an axis, will be calculated automatically based on the provided data, y
 
 **Logarithmic Base**
 
-Logarithmic base can be customized by using the [`logBase`](../api/chart/axis/#logbase) property of the axis. For example when the logBase is 5, the axis values follows 5<sup>-2</sup>, 5<sup>-1</sup>, 5<sup>0</sup>, 5<sup>1</sup>, 5<sup>2</sup> etc.
+Logarithmic base can be customized by using the [`logBase`](../api/chart/axis#logbase) property of the axis. For example when the logBase is 5, the axis values follows 5<sup>-2</sup>, 5<sup>-1</sup>, 5<sup>0</sup>, 5<sup>1</sup>, 5<sup>2</sup> etc.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -335,7 +334,7 @@ Logarithmic base can be customized by using the [`logBase`](../api/chart/axis/#
 
 **Logarithmic Interval**
 
-Logarithmic axis interval can be customized by using the [`interval`](./../api/chart/axis/#interval) property of the axis. When the logarithmic base is 10 and logarithmic interval is 2, then the axis labels are placed at an interval of 10<sup>2</sup>. The default value of the interval is 1.
+Logarithmic axis interval can be customized by using the [`interval`](./../api/chart/axis#interval) property of the axis. When the logarithmic base is 10 and logarithmic interval is 2, then the axis labels are placed at an interval of 10<sup>2</sup>. The default value of the interval is 1.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -348,13 +347,13 @@ Logarithmic axis interval can be customized by using the [`interval`](./../api/c
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs42" %}
 
->Note: To use log axis, we need to inject `Logarithmic` using method `Chart.Inject(Logarithmic)` and set the [`valueType`](../api/chart/axis/#valuetype) of axis to `Logarithmic`.
+>Note: To use log axis, we need to inject `Logarithmic` using method `Chart.Inject(Logarithmic)` and set the [`valueType`](../api/chart/axis#valuetype) of axis to `Logarithmic`.
 
 ## Inversed Axis
 
 <!-- markdownlint-disable MD033 -->
 
-When an axis is inversed, highest value of the axis comes closer to origin and vice versa. To place an axis in inversed manner set this property [`isInversed`](../api/chart/axis/#isinversed) to true.
+When an axis is inversed, highest value of the axis comes closer to origin and vice versa. To place an axis in inversed manner set this property [`isInversed`](../api/chart/axis#isinversed) to true.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -371,7 +370,7 @@ When an axis is inversed, highest value of the axis comes closer to origin and v
 
 **Numeric Label Format**
 
-Numeric labels can be formatted by using the [`labelFormat`](../api/chart/axis/#labelformat) property. Numeric labels supports all globalize format.
+Numeric labels can be formatted by using the [`labelFormat`](../api/chart/axis#labelformat) property. Numeric labels supports all globalize format.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -446,7 +445,7 @@ The following table describes the result of applying some commonly used label fo
 
 **DateTime Label Format**
 
-You can format and parse the date to all globalize format using [`labelFormat`](../api/chart/axis/#labelformat) property in an axis.
+You can format and parse the date to all globalize format using [`labelFormat`](../api/chart/axis#labelformat) property in an axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -520,7 +519,7 @@ Axis also supports custom label format using placeholder like {value}°C, in w
 
 **Axis Title**
 
-You can add a title to the axis using [`title`](../api/chart/axis/#title) property to provide quick information to the user about the data plotted in the axis.
+You can add a title to the axis using [`title`](../api/chart/axis#title) property to provide quick information to the user about the data plotted in the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -535,7 +534,7 @@ You can add a title to the axis using [`title`](../api/chart/axis/#title) proper
 
 **Label Customization**
 
-The [`labelStyle`](../api/chart/axis/#labelstyle) property of an axis provides options to customize the `color`, `font-family`, `font-size` and `font-weight` of the axis labels.
+The [`labelStyle`](../api/chart/axis#labelstyle) property of an axis provides options to customize the `color`, `font-family`, `font-size` and `font-weight` of the axis labels.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -550,7 +549,7 @@ The [`labelStyle`](../api/chart/axis/#labelstyle) property of an axis provides
 
 **Edge Label Placement**
 
-Labels with long text at the edges of an axis may appear partially in the chart. To avoid this, use [`edgeLabelPlacement`](../api/chart/axis/#edgelabelplacement) property in axis, which moves the label inside the chart area for better appearance or hides it.
+Labels with long text at the edges of an axis may appear partially in the chart. To avoid this, use [`edgeLabelPlacement`](../api/chart/axis#edgelabelplacement) property in axis, which moves the label inside the chart area for better appearance or hides it.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -565,7 +564,7 @@ Labels with long text at the edges of an axis may appear partially in the chart.
 
 **Grid Lines Customization**
 
-You can customize the `width`, `color` and `dashArray` of the minor and major grid lines, using [`majorGridLines`](../api/chart/axis/#majorgridlines) and [`minorGridLines`](../api/chart/axis/#minorgridlines) properties in the axis.
+You can customize the `width`, `color` and `dashArray` of the minor and major grid lines, using [`majorGridLines`](../api/chart/axis#majorgridlines) and [`minorGridLines`](../api/chart/axis#minorgridlines) properties in the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -580,7 +579,7 @@ You can customize the `width`, `color` and `dashArray` of the minor and maj
 
 **Tick Lines Customization**
 
-You can customize the  `width`, `color` and `size` of the minor and major tick lines, using [`majorTickLines`](../api/chart/axis/#majorticklines) and [`minorTickLines`](../api/chart/axis/#minorticklines) properties in the axis.
+You can customize the  `width`, `color` and `size` of the minor and major tick lines, using [`majorTickLines`](../api/chart/axis#majorticklines) and [`minorTickLines`](../api/chart/axis#minorticklines) properties in the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -595,7 +594,7 @@ You can customize the  `width`, `color` and `size` of the minor and major 
 
 **Place Axes at the Opposite Side**
 
-To place an axis opposite from its original position, set [`opposedPosition`](../api/chart/axis/#opposedposition) property of the axis to true.
+To place an axis opposite from its original position, set [`opposedPosition`](../api/chart/axis#opposedposition) property of the axis to true.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -625,7 +624,7 @@ In addition to primary X and Y axis, we can add n number of axis to the chart. S
 
 ## Smart Axis Labels
 
-When the axis labels overlap with each other, you can use [`labelIntersectAction`](../api/chart/axis/#labelintersectaction) property in the axis, to place them smartly.
+When the axis labels overlap with each other, you can use [`labelIntersectAction`](../api/chart/axis#labelintersectaction) property in the axis, to place them smartly.
 
 When setting `labelIntersectAction` as `Hide`
 

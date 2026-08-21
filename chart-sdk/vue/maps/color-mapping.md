@@ -2,7 +2,7 @@
 layout: post
 title: Color mapping in Vue Maps component | Syncfusion
 description: Learn here all about Color mapping in Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
-control: Color mapping 
+control: Maps 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

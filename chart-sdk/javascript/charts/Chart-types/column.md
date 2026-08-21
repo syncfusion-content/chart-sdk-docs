@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Column Chart in JavaScript Charts | Syncfusion
+title: Column Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Column in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Column 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Column Chart in JavaScript Charts
+# Column Chart in JavaScript Chart
 
 ## Column
 

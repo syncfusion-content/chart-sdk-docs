@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Smith chart axis in TypeScript Smithchart control | Syncfusion
+title: Axis in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart axis in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smith chart axis 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Smith chart axis in TypeScript Smithchart control
+# Axis in TypeScript Smith Chart
 
 Like chart, Smithchart is having support for two types of axis.
 * Horizontal axis - axis drawn as straight line in the horizontal direction of the chart.

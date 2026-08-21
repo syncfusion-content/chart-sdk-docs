@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Arc Gauge in JavaScript Circular gauge control | Syncfusion
-description: Learn here all about Arc Gauge in Syncfusion JavaScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: How to create an arc gauge in JavaScript Circular Gauge | Syncfusion
+description: Learn how to create an arc gauge in the Syncfusion JavaScript Circular Gauge by customizing the startAngle and endAngle properties.
 platform: chart-sdk
-control: Arc Gauge 
-publishingplatform: chart-sdk
+control: Circular Gauge 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# JavaScript Arc gauge control
+# How to create an arc gauge in JavaScript Circular Gauge
 
 An arc gauge in a Circular Gauge can be created by setting the startAngle and endAngle properties. These angles define the portion of the circle to be displayed as the gauge arc.
 

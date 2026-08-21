@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Polar Chart in JavaScript Charts | Syncfusion
+title: Polar Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Polar in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Polar 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Polar Chart in JavaScript Charts
+# Polar Chart in JavaScript Chart
 
 ## Polar Chart
 

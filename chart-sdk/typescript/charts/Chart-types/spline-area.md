@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Spline Area Chart in TypeScript Charts | Syncfusion
+title: Spline Area Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Spline Area in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Spline Area 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Spline Area Chart in TypeScript Charts
+# Spline Area Chart in TypeScript Chart
 
 ## Spline Area
 

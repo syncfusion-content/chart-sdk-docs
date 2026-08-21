@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart print in JavaScript Chart control | Syncfusion
+title: Print and export in JavaScript Chart | Syncfusion
 description: Learn here all about Chart print in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart print 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart print in JavaScript Chart control
+# Print and export in JavaScript Chart
 
 ## Print
 
@@ -115,7 +114,7 @@ The chart can be exported as an image in the form of a base64 string by utilizin
 
 ## Excel export
 
-You can export the rendered chart data to Excel in either `XLSX` or `CSV` format. The [`excelProperties`](../api/chart/iExportEventArgs/#excelproperties) property in the [`beforeExport`](../api/chart/iExportEventArgs/) event allows users to customize the exported Excel sheet by modifying row, column, and cell properties before the file is generated. You can customize row titles, column titles, cell values, as well as row and column widths.
+You can export the rendered chart data to Excel in either `XLSX` or `CSV` format. The [`excelProperties`](../api/chart/iExportEventArgs#excelproperties) property in the [`beforeExport`](../api/chart/iExportEventArgs) event allows users to customize the exported Excel sheet by modifying row, column, and cell properties before the file is generated. You can customize row titles, column titles, cell values, as well as row and column widths.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Funnel in Vue Accumulation chart component | Syncfusion
+title: Funnel in Vue Accumulation Chart | Syncfusion
 description: Learn here all about Funnel in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
 control: Funnel 
 platform: chart-sdk
@@ -8,9 +8,9 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Funnel in Vue Accumulation chart component
+# Funnel in Vue Accumulation Chart
 
-To render a funnel series, use the series [`type`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/accumulationSeriesModel/#type) as `Funnel` and inject, the `FunnelSeries` module  into the `provide`.
+To render a funnel series, use the series [`type`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/accumulationSeriesModel#type) as `Funnel` and inject, the `FunnelSeries` module  into the `provide`.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -116,7 +116,7 @@ Individual points can be customized using the `pointRender` event.
 
 ## Modes
 
-The Funnel chart supports both Standard and Trapezoidal modes of rendering. The default value of the [`funnelMode`](https://helpej2.syncfusion.com/vue/documentation/api/accumulation-chart/funnelModes/) is `Standard`.
+The Funnel chart supports both Standard and Trapezoidal modes of rendering. The default value of the [`funnelMode`](https://helpej2.syncfusion.com/vue/documentation/api/accumulation-chart/funnelModes) is `Standard`.
 
 ### Standard
 
@@ -150,5 +150,5 @@ The `Trapezoidal` mode is a modified funnel shape where the width narrows, but f
 
 ## See Also
 
-* [Data label](./data-label/)
-* [Grouping](./grouping/)
+* [Data label](./data-label)
+* [Grouping](./grouping)

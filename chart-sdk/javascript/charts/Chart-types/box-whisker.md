@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Box and Whiskerk Chart in JavaScript Charts | Syncfusion
+title: Box and Whiskerk Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Box and Whisker in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Box and Whisker 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Box and Whisker Chart in JavaScript Charts
+# Box and Whisker Chart in JavaScript Chart
 
 ## Box and Whisker
 

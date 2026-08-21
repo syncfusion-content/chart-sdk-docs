@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Labels in Angular Sankey component \ Syncfusion
+title: Labels in Angular Sankey | Syncfusion
 description: Learn here all about Labels in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Labels
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Labels in Angular Sankey component
+# Labels in Angular Sankey
 
 Labels display descriptive text associated with nodes in the Sankey diagram, improving readability and interpretation. Additionally, labels make the diagram more understandable and interpretable, and the component provides comprehensive label customization options including visibility control, font styling, individual label configuration, and dynamic rendering events.
 

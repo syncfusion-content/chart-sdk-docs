@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Stacked Area Chart in JavaScript Charts | Syncfusion
+title: Stacked Area Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Stacked Area in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stacked Area 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Stacked Area Chart in JavaScript Charts
+# Stacked Area Chart in JavaScript Chart
 
 ## 100% Stacked Area
 

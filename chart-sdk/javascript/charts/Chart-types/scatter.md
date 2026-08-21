@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Scatter Chart in JavaScript Charts | Syncfusion
+title: Scatter Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Scatter in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Scatter 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Scatter Chart in JavaScript Charts
+# Scatter Chart in JavaScript Chart
 
 ## Scatter Chart
 

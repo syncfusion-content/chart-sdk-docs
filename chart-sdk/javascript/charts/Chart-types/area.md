@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Area Chart in JavaScript Charts | Syncfusion
+title: Area Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Area in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Area 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Area Chart in JavaScript Charts
+# Area Chart in JavaScript Chart
 
 ## Area
 

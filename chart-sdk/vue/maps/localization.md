@@ -2,7 +2,7 @@
 layout: post
 title: Localization in Vue Maps component | Syncfusion
 description: Learn here all about Localization in Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
-control: Localization 
+control: Maps 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

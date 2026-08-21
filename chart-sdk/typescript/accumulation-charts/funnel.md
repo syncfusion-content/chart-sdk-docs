@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Funnel in TypeScript Accumulation chart control | Syncfusion
-description: Learn here all about Funnel in Syncfusion TypeScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Funnel in TypeScript Accumulation Chart | Syncfusion
+description: Learn how to render a funnel series in the Syncfusion TypeScript Accumulation Chart using the FunnelSeries module.
 platform: chart-sdk
-control: Funnel 
-publishingplatform: chart-sdk
+control: Accumulation Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Funnel in TypeScript Accumulation chart control
+# Funnel in TypeScript Accumulation Chart
 
-To render a funnel series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel/) as `Funnel` and inject, the `FunnelSeries` module using the `AccumulationChart.Inject(FunnelSeries)` method.
+To render a funnel series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel) as `Funnel` and inject, the `FunnelSeries` module using the `AccumulationChart.Inject(FunnelSeries)` method.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -116,7 +115,7 @@ Individual points can be customized using the `pointRender` event.
 
 ## Modes
 
-The Funnel chart supports both Standard and Trapezoidal modes of rendering. The default value of the [`funnelMode`](../api/accumulation-chart/funnelModes/) is `Standard`.
+The Funnel chart supports both Standard and Trapezoidal modes of rendering. The default value of the [`funnelMode`](../api/accumulation-chart/funnelModes) is `Standard`.
 
 ### Standard
 

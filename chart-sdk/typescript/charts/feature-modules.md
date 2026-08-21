@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Module in TypeScript Chart control | Syncfusion
+title: Feature modules in TypeScript Chart | Syncfusion
 description: Learn here all about Module in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Module 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Module in TypeScript Chart control
+# Feature modules in TypeScript Chart
 
 The following available modules should be injected to extend the Chart's functionality.
 

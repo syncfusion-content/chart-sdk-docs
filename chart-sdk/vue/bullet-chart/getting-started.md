@@ -40,7 +40,7 @@ Use a package release that supports Vue 2. Before upgrading, check the [Vue syst
 
 ## Setting Up the Vue 2 Project
 
-Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org/#getting-started) command.
+Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org#getting-started) command.
 
 **npm**
 
@@ -234,7 +234,7 @@ For additional assistance, refer to the [Vue Bullet Chart API documentation](htt
 ## See Also
 
 - [Vue Bullet Chart overview](https://www.syncfusion.com/vue-components/vue-bullet-chart)
-- [Vue Bullet Chart examples](https://ej2.syncfusion.com/vue/demos/#/bootstrap5/bullet-chart/default.html)
+- [Vue Bullet Chart examples](https://ej2.syncfusion.com/vue/demos#/bootstrap5/bullet-chart/default.html)
 - [Vue Bullet Chart customization](https://ej2.syncfusion.com/vue/documentation/bullet-chart/customization)
 - [Vue Bullet Chart getting-started sample](https://github.com/SyncfusionExamples/getting-started-with-the-vue-bullet-chart-component)
 - [Getting Started with the Vue 3 Bullet Chart](vue-3-getting-started)

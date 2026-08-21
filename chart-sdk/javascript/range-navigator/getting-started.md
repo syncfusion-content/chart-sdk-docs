@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Getting started with JavaScript Range navigator control | Syncfusion
-description:  Checkout and learn about Getting started with JavaScript Range navigator control of Syncfusion Essential JS 2 and more details.
+title: Getting started with JavaScript Range Selector | Syncfusion
+description:  Checkout and learn about Getting started with JavaScript Range Selector of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
-control: Getting started 
-publishingplatform: chart-sdk
+control: Range Selector
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started in JavaScript Range navigator control
+# Getting started in JavaScript Range Selector
 
 This section explains you the steps required to create a simple range navigator and demonstrate the basic usage of the range navigator control.
 

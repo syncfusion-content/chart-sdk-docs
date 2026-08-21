@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Range Step Area Chart in JavaScript Charts | Syncfusion
+title: Range Step Area Chart in JavaScript Chart | Syncfusion
 description: Learn here all about Range Step Area in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Step Area 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Range Step Area Chart in JavaScript Charts
+# Range Step Area Chart in JavaScript Chart
 
 ## Range Step Area
 

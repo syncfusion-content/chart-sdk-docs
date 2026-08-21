@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart appearance in JavaScript Chart control | Syncfusion
+title: Appearance in JavaScript Chart | Syncfusion
 description: Learn here all about Chart appearance in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart appearance 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart appearance in JavaScript Chart control
+# Appearance in JavaScript Chart
 
 ## Custom color palette
 

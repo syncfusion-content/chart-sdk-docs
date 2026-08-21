@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Syn pan in TypeScript Chart control | Syncfusion
+title: How to synchronize panning in TypeScript Chart | Syncfusion
 description: Learn here all about Syn pan in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Syn pan 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Syn pan in TypeScript Chart control
+# How to synchronize panning in TypeScript Chart
 
-Using the [`chartMouseMove`](../../api/chart/chartModel/#chartmousemove) event, you can achieve the synchronized panning between multiple charts.
+Using the [`chartMouseMove`](../../api/chart/chartModel#chartmousemove) event, you can achieve the synchronized panning between multiple charts.
 
 To make a synchronized panning chart, follow the given steps:
 
@@ -19,7 +18,7 @@ To make a synchronized panning chart, follow the given steps:
 
 Initially create two charts, and enable `zoomSettings` for both charts.
 
-To use the [`chartMouseMove`](../../api/chart/chartModel/#chartmousemove) event, assign the first chart's `zoomFactor` and `zoomPosition` values to the second chart. Now, pan the first zoomed chart, and then the second chart will be panned automatically based on `zoomFactor` and `zoomPosition`.
+To use the [`chartMouseMove`](../../api/chart/chartModel#chartmousemove) event, assign the first chart's `zoomFactor` and `zoomPosition` values to the second chart. Now, pan the first zoomed chart, and then the second chart will be panned automatically based on `zoomFactor` and `zoomPosition`.
 
 The following code sample demonstrates the output.
 

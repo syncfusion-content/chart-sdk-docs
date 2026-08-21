@@ -1,15 +1,14 @@
 ---
 layout: post
-title: High Low Open Close Chart in TypeScript Charts | Syncfusion
+title: High Low Open Close Chart in TypeScript Chart | Syncfusion
 description: Learn here all about High Low Open Close in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: High Low Open Close
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# High Low Open Close Chart in TypeScript Charts
+# High Low Open Close Chart in TypeScript Chart
 
 ## High Low Open Close
 

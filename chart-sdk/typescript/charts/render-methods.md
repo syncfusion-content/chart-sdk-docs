@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Render methods in TypeScript Chart control | Syncfusion
+title: Rendering methods in TypeScript Chart | Syncfusion
 description: Learn here all about Render methods in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Render methods 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 <!-- markdownlint-disable MD036 -->
 
-# Render methods in TypeScript Chart control
+# Rendering methods in TypeScript Chart
 
 Chart uses following two rendering methods.
 

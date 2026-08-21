@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Module in Vue Chart component | Syncfusion
+title: Feature Modules in Vue Chart | Syncfusion
 description: Learn here all about Module in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Module 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Module in Vue Chart component
+# Feature Modules in Vue Chart
 
 The following available modules should be injected to extend the Chart's functionality.
 

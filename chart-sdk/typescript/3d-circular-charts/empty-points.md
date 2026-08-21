@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Empty points in TypeScript 3D Circular Chart control | Syncfusion
-description: Learn here all about empty points in Syncfusion TypeScript 3D Circular Chart control of Syncfusion Essential JS 2 and more.
+title: Empty points in TypeScript 3D Circular Chart | Syncfusion
+description: Learn here all about empty points in Syncfusion TypeScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Empty points 
-publishingplatform: chart-sdk
+control: 3D Circular Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Empty points in TypeScript 3D Circular Chart control
+# Empty points in TypeScript 3D Circular Chart
 
 Data points containing `null` or `undefined` values are considered empty points. These empty data points are ignored and not plotted in the 3D Circular Chart. You can customize the handling of empty points using the `emptyPointSettings` property in the series. The default mode for empty points is `Gap`. Other supported modes include `Average`, `Drop`, and `Zero`.
 
