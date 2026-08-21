@@ -1,23 +1,37 @@
 ---
 layout: post
-title: Legend customization in React Chart component | Syncfusion
-description: Learn here all about Legend customization in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to customize legend in React Charts | Syncfusion
+description: Learn how to customize legend per series in Syncfusion React Charts for a more meaningful legend display.
 control: Legend customization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend customization in React Chart component
+# How to customize legend in React Charts
 
-By using the [`legendRender`](https://ej2.syncfusion.com/react/documentation/api/chart/chartModel#legendrender), you can customize the legend shape.
+To change the legend shape per series, hook the [`legendRender`](https://ej2.syncfusion.com/react/documentation/api/chart#legendrender) callback on the chart and assign `args.shape`. The callback fires once per legend entry and lets you pick a different shape for each one.
 
-To Customize the legend shape, follow the given steps:
+## Customize the shape
 
-**Step 1**:
+The `legendRender` callback receives an `args` object whose `args.text` is the series `name` and whose `args.shape` is the legend-shape string you want to use. Assign a new value to `args.shape` to override the default. The example maps two series to two different shapes:
 
-Set the shape value for each legend using `args.shape` in
-[`legendRender`](https://ej2.syncfusion.com/react/documentation/api/chart/chartModel#legendrender) event.
+```
+const legendRender = (args) => {
+    if (args.text === 'Renewable') {
+        args.shape = 'Circle';
+    }
+    else if (args.text === 'Non-Renewable') {
+        args.shape = 'Triangle';
+    }
+};
+```
+
+Bind the callback on the `<ChartComponent>`:
+
+```
+<ChartComponent id='charts' legendRender={legendRender} ... >
+```
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -35,3 +49,14 @@ Set the shape value for each legend using `args.shape` in
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/charts/preview-sample/how-to-cs4" %}
+
+## Troubleshooting
+
+* **"The legend does not appear at all"** — `Legend` is missing from the chart's `<Inject services={[…]}>` array, or the chart has `legendSettings.visible: false`.
+* **"All shapes look the same regardless of the callback"** — the `legendRender` prop is not bound on `<ChartComponent>`, or the callback assigns `args.shape` but returns before the assignment is reached. Make sure the assignment is on a code path that runs for every expected `args.text`.
+
+## See also
+
+* [Getting started](../getting-started)
+* [Legend](../legend)
+* [Chart annotations](../chart-annotations)
