@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Tooltip in UWP Pivot Gauge control | Syncfusion
-description: Learn here all about Tooltip support in Syncfusion UWP Pivot Gauge (SfPivotGauge) control and more.
+title: Tooltip in UWP Pivot Gauge | Syncfusion®
+description: Tooltip in the UWP Pivot Gauge displays detailed information about gauge values and supports interactive data analysis and visualization.
 platform: chart-sdk
 control: SfPivotGauge
 documentation: ug
 ---
 
-# Tooltip in UWP Pivot Gauge (SfPivotGauge)
+# Tooltip in UWP Pivot Gauge
 
-The SfPivotGauge provides the information about values when the mouse pointer is moved over the gauge. The following code snippet illustrates how to show a tooltip by using the `ShowGaugeTooltip` property.
+The [SfPivotGauge](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.PivotGauge.SfPivotGauge.html) provides the information about values when the mouse pointer is moved over the gauge. The following code snippet illustrates how to show a tooltip by using the [ShowGaugeTooltip](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.PivotGauge.SfPivotGauge.html#Syncfusion_UI_Xaml_PivotGauge_SfPivotGauge_ShowGaugeTooltip) property.
 
 {% tabs %}
 
@@ -17,8 +17,7 @@ The SfPivotGauge provides the information about values when the mouse pointer is
 
 <syncfusion:SfPivotGauge x:Name="PivotGauge1" ShowGaugeTooltip="True"
                          ItemSource="{Binding ProductSalesData}" PivotRows="{Binding PivotRows}"
-                         PivotColumns="{Binding PivotColumns}" PivotCalculations="{Binding PivotCalculations}">
-</syncfusion:SfPivotGauge>
+                         PivotColumns="{Binding PivotColumns}" PivotCalculations="{Binding PivotCalculations}"/>
 
 {% endhighlight %}
 
@@ -36,4 +35,4 @@ PivotGauge1.ShowGaugeTooltip = True
 
 {% endtabs %}
 
-![Tooltip](Tooltip_images/Tooltip.png)
+![UWP SfPivotGauge Tooltip](Tooltip_images/Tooltip.png)
