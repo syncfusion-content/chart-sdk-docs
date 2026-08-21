@@ -4,7 +4,6 @@ title: Animation in ASP.NET MVC Circular Gauge | Syncfusion
 description: Learn here all about animation in the Syncfusion ASP.NET MVC Circular Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Circular Gauge
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: EJ1 API Migration in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about EJ! API Migration in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ej1 Api Migration
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

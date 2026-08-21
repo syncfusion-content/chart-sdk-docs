@@ -4,7 +4,6 @@ title: Technical Indicators in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Technical Indicators in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Technical Indicators
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

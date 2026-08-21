@@ -4,7 +4,6 @@ title: Getting Started with ASP.NET MVC Circular Gauge | Syncfusion
 description: Checkout and learn about getting started with ASP.NET MVC Circular Gauge component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
-publishingplatform: chart-sdl
 documentation: ug
 ---
 

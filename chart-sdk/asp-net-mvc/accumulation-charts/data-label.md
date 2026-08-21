@@ -4,7 +4,6 @@ title: Data Label in ASP.NET MVC Accumulation Charts | Syncfusion
 description: Learn here all about Data Label in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

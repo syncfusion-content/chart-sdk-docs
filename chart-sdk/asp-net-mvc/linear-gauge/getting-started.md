@@ -4,7 +4,6 @@ title: Getting Started with ASP.NET MVC Linear Gauge | Syncfusion
 description: Checkout and learn about getting started with ASP.NET MVC Linear Gauge control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

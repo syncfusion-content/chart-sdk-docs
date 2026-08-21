@@ -4,7 +4,6 @@ title: Customize the Drilldown Header in ASP.NET MVC TreeMap | Syncfusion
 description: Learn here all about how to customize the header for treemap drilldown in Syncfusion ASP.NET MVC TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: How To
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Strip Lines in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Strip Lines in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Strip Line
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

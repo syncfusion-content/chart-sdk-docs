@@ -4,7 +4,6 @@ title: Internationalization in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Internationalization in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

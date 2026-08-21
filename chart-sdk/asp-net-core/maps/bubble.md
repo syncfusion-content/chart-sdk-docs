@@ -4,7 +4,6 @@ title: Bubbles in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Bubble in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Bubble
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

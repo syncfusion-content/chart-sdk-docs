@@ -4,7 +4,6 @@ title: Working with Data in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Working with data in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working with data
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: How to add marker types in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Marker Type in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Marker Type
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

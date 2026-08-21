@@ -4,7 +4,6 @@ title: Trendlines in ASP.NET Core Stock Charts | Syncfusion
 description: Learn here all about Trendlines in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Trend Lines
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

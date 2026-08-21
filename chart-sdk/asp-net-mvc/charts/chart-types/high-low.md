@@ -4,7 +4,6 @@ title: High Low Chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about High Low Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: High Low Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

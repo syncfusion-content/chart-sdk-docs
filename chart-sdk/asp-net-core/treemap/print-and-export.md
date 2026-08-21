@@ -4,7 +4,6 @@ title: Print and Export in ASP.NET Core TreeMap | Syncfusion
 description: Learn here all about Print and Export in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Print And Export
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

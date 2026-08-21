@@ -4,7 +4,6 @@ title: Category Axis in ASP.NET MVC 3D Charts | Syncfusion
 description: Learn here all about category axis in Syncfusion ASP.NET MVC 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Category Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Accessibility in ASP.NET Core 3D Charts | Syncfusion
 description: Learn here all about accessibility in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

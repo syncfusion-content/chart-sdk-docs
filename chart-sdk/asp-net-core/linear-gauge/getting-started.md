@@ -4,7 +4,6 @@ title: Getting Started with ASP.NET Core Linear Gauge | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Linear Gauge control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Linear Gauge
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

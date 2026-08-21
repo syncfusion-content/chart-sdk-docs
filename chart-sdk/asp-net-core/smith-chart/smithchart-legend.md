@@ -4,7 +4,6 @@ title: Legend in ASP.NET Core Smith Chart | Syncfusion
 description: Learn here all about Smith Chart Legend in Syncfusion ASP.NET Core Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

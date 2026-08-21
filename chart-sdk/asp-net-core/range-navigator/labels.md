@@ -4,7 +4,6 @@ title: Labels in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Labels in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Labels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

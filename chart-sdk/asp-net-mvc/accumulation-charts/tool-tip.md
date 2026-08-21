@@ -4,7 +4,6 @@ title: Tooltip in ASP.NET MVC Accumulation Charts | Syncfusion
 description: Learn here all about Tool Tip in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool Tip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

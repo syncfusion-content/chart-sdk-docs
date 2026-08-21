@@ -4,7 +4,6 @@ title: Date Time Axis in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Date Time Axis in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Date Time Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Tooltip in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Tooltip in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool Tip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

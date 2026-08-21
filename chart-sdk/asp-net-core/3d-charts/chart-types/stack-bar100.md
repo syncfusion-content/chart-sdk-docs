@@ -4,7 +4,6 @@ title: 100% Stacked Bar in ASP.NET Core 3D Charts | Syncfusion
 description: Learn here all about 100% stacked bar chart in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: 100% Stacked bar chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

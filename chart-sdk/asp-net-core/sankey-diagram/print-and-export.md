@@ -4,7 +4,6 @@ title: Print and Export in ASP.NET Core Sankey Diagram | Syncfusion
 description: Learn here all about Print and Export in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Print and Export
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: OpenStreetMap in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Map Provider in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Map Provider
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

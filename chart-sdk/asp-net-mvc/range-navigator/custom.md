@@ -4,7 +4,6 @@ title: Customization in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about Custom in Syncfusion ASP.NET MVC Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Custom
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

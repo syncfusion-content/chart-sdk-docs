@@ -4,7 +4,6 @@ title: Light Weight in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Light Weight in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Light Weight
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

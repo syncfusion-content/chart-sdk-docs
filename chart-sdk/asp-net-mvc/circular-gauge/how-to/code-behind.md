@@ -4,7 +4,6 @@ title: Code-behind gauge in ASP.NET MVC Circular Gauge | Syncfusion
 description: Learn here all about Code Behind in Syncfusion ASP.NET MVC Circular Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Code Behind
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Ajax Chart Call in ASP.NET Core Chart Component
 description: Learn here all about Ajax Chart Call in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ajax Chart Call
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

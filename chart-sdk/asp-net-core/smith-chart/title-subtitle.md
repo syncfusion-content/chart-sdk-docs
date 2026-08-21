@@ -4,7 +4,6 @@ title: Title and Subtitle in ASP.NET Core Smith Chart | Syncfusion
 description: Learn here all about Title and Subtitle in Syncfusion ASP.NET Core Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title and Subtitle
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

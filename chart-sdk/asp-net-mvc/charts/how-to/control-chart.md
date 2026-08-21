@@ -4,7 +4,6 @@ title: How to create a control chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Control Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Control Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

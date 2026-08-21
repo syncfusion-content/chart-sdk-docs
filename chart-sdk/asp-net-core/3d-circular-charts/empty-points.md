@@ -4,7 +4,6 @@ title: Empty Points in ASP.NET Core 3D Circular Charts | Syncfusion
 description: Learn here all about empty points in Syncfusion ASP.NET Core 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Empty points
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Customization in ASP.NET Core Bullet Chart | Syncfusion
 description: Learn here all about Customization in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

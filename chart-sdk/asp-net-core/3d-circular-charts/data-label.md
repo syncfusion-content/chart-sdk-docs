@@ -4,7 +4,6 @@ title: Data Label in ASP.NET Core 3D Circular Charts | Syncfusion
 description: Learn here all about data label in Syncfusion ASP.NET Core 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

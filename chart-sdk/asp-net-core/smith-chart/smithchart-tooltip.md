@@ -4,7 +4,6 @@ title: Tooltip in ASP.NET Core Smith Chart | Syncfusion
 description: Learn here all about Smith Chart Tooltip in Syncfusion ASP.NET Core Smith Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Tooltip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

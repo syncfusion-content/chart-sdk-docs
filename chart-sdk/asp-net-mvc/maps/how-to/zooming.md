@@ -4,7 +4,6 @@ title: How to enable zooming in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Zooming in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Zooming
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

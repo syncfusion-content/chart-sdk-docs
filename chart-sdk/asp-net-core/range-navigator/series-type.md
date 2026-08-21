@@ -4,7 +4,6 @@ title: Series Types in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Series Type in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Series Type
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

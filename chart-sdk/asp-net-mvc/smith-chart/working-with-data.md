@@ -4,7 +4,6 @@ title: Working with Data in ASP.NET MVC Smith Chart | Syncfusion
 description: Learn here all about Working With Data in Syncfusion ASP.NET MVC Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working with Data
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

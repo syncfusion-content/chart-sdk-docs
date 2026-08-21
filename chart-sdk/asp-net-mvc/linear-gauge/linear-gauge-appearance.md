@@ -4,7 +4,6 @@ title: Appearance in ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about Linear Gauge Appearance in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Linear Gauge Appearance
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

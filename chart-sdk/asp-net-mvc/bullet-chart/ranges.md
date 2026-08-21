@@ -4,7 +4,6 @@ title: Ranges in ASP.NET MVC Bullet Chart | Syncfusion
 description: Learn here all about Ranges in Syncfusion ASP.NET MVC Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ranges
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

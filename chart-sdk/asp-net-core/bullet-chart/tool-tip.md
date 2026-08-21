@@ -4,7 +4,6 @@ title: Tooltip in ASP.NET Core Bullet Chart | Syncfusion
 description: Learn here all about Tooltip in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

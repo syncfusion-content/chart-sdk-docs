@@ -4,7 +4,6 @@ title: Azure Maps in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Azure Maps in the Syncfusion ASP.NET MVC Maps component and much more details.
 platform: chart-sdk
 control: Azure Maps
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

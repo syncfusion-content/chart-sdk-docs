@@ -4,7 +4,6 @@ title: Getting Started with ASP.NET Core 3D Charts | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core 3D Charts control of Essential JS 2 and more details.
 platform: chart-sdk
 control: 3D Charts
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

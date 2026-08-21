@@ -4,7 +4,6 @@ title: How to add a dotted line in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Dotted Line in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dotted Line
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

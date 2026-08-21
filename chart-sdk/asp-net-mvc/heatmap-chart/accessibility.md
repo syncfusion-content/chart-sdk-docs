@@ -4,7 +4,6 @@ title: Accessibility in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP.NET MVC HeatMap chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

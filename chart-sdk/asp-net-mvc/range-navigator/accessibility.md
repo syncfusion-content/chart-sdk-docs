@@ -4,7 +4,6 @@ title: Accessibility in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP MVC Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Stacked Line Chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Stacked Line Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stacked Line Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

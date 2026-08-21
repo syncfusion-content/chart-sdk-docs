@@ -4,7 +4,6 @@ title: Links in ASP.NET Core Sankey Diagram | Syncfusion
 description: Learn here all about Links in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Links
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

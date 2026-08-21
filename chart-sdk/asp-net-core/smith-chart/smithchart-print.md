@@ -4,7 +4,6 @@ title: Print and Export in ASP.NET Core Smith Chart | Syncfusion
 description: Learn here all about Smith Chart Print in Syncfusion ASP.NET Core Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Print
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

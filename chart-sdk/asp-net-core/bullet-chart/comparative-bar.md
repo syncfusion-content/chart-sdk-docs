@@ -4,7 +4,6 @@ title: Target Bar in ASP.NET Core Bullet Chart | Syncfusion
 description: Learn here all about Comparative Bar in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Comparative Bar
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

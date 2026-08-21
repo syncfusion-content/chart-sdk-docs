@@ -4,7 +4,6 @@ title: Tooltip Template in ##Platform_Name## HeatMap Chart | Syncfusion
 description: Learn here all about Tooltip Template in Syncfusion ##Platform_Name## Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip Template
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

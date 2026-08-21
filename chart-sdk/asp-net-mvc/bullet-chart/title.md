@@ -4,7 +4,6 @@ title: Title and Subtitle in ASP.NET MVC Bullet Chart | Syncfusion
 description: Learn here all about Title in Syncfusion ASP.NET MVC Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

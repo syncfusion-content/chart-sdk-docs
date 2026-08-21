@@ -4,7 +4,6 @@ title: Title and Subtitle in ASP.NET Core 3D Circular Charts | Syncfusion
 description: Learn here all about title and subtitle in Syncfusion ASP.NET Core 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title and subtitle
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

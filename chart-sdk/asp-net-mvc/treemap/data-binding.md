@@ -4,7 +4,6 @@ title: Data Binding in ASP.NET MVC TreeMap | Syncfusion
 description: Learn here all about Data Binding in Syncfusion ASP.NET MVC TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Binding
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

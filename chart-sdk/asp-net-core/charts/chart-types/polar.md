@@ -4,7 +4,6 @@ title: Polar Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Polar Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Polar Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

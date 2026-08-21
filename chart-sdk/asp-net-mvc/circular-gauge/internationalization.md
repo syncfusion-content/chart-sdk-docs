@@ -4,7 +4,6 @@ title: Internationalization in ASP.NET MVC Circular Gauge | Syncfusion
 description: Learn here all about Internationalization in Syncfusion ASP.NET MVC Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Export and Print in ASP.NET MVC Stock Charts | Syncfusion
 description: Learn here all about Export and Print in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Export and Print
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

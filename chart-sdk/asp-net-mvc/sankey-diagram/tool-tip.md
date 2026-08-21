@@ -4,7 +4,6 @@ title: Tooltip in ASP.NET MVC Sankey Diagram | Syncfusion
 description: Learn here all about ToolTip in Syncfusion ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Title and Subtitle in ASP.NET MVC Accumulation Charts | Syncfusion
 description: Learn here all about Title And Sub Title in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title And Sub Title
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Legend in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Legend in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

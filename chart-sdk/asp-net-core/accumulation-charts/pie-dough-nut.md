@@ -4,7 +4,6 @@ title: Pie and Doughnut in ASP.NET Core Accumulation Charts | Syncfusion
 description: Learn here all about Pie Dough Nut in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pie Dough Nut
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

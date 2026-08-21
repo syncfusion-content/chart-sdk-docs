@@ -4,7 +4,6 @@ title: Overview in Syncfusion ASP.NET MVC Maps Component
 description: Learn here all about Overview in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Index
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

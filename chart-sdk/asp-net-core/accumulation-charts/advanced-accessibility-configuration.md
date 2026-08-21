@@ -4,7 +4,6 @@ title: Advanced Accessibility in ASP.NET Core Accumulation Charts | Syncfusion
 description: Learn here all about Accessibility customization in Syncfusion ASP MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

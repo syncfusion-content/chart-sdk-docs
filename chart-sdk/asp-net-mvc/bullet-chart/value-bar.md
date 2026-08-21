@@ -4,7 +4,6 @@ title: Actual Bar in ASP.NET MVC Bullet Chart | Syncfusion
 description: Learn here all about Value Bar in Syncfusion ASP.NET MVC Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Value Bar
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

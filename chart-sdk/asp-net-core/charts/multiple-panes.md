@@ -4,7 +4,6 @@ title: Multiple Panes in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Multiple Panes in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Multiple Panes
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

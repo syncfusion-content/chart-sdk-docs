@@ -4,7 +4,6 @@ title: Stacked Column in ASP.NET MVC 3D Charts | Syncfusion
 description: Learn here all about stacked column chart in Syncfusion ASP.NET MVC 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stacked column chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

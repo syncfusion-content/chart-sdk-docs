@@ -4,7 +4,6 @@ title: Accessibility in ASP.NET Core Accumulation Charts | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

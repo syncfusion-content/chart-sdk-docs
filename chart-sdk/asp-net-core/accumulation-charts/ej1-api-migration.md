@@ -4,7 +4,6 @@ title: EJ1 API Migration in ASP.NET Core Accumulation Charts | Syncfusion
 description: Learn here all about Ej1 Api Migration in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ej1 Api Migration
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

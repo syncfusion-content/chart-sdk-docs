@@ -4,7 +4,6 @@ title: Cross Hair and Track Ball in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Cross Hair and Track Ball in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Cross Hair And Track Ball
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

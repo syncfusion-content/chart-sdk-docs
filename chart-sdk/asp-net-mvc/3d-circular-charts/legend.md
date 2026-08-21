@@ -4,7 +4,6 @@ title: Legend in ASP.NET MVC 3D Circular Charts | Syncfusion
 description: Learn here all about legend in Syncfusion ASP.NET MVC 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

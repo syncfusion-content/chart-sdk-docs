@@ -4,7 +4,6 @@ title: Chart Annotations in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Chart Annotations in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Annotations
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

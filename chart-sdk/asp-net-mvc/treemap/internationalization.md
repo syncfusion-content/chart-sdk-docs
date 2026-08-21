@@ -4,7 +4,6 @@ title: Internationalization in ASP.NET MVC TreeMap | Syncfusion
 description: Learn here all about Internationalization in Syncfusion ASP.NET MVC TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

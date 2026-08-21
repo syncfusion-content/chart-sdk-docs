@@ -4,7 +4,6 @@ title: Pyramid in ASP.NET MVC Accumulation Charts | Syncfusion
 description: Learn here all about Pyramid in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pyramid
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

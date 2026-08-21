@@ -4,7 +4,6 @@ title: Axis Customization in ASP.NET Core Bullet Chart | Syncfusion
 description: Learn here all about Axis Customization in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

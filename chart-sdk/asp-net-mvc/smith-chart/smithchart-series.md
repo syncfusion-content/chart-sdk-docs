@@ -4,7 +4,6 @@ title: Series in ASP.NET MVC Smith Chart | Syncfusion
 description: Learn here all about Smith Chart Series in Syncfusion ASP.NET MVC Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Series
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

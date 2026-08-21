@@ -4,7 +4,6 @@ title: EJ1 API Migration in ASP.NET Core TreeMap Component | Syncfusion
 description: Learn here all about EJ1 API Migration in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ej1 Api Migration
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

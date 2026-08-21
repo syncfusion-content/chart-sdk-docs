@@ -4,7 +4,6 @@ title: Pointers in Syncfusion ASP.NET Core Linear Gauge | Syncfusion
 description: Learn here all about Pointers in Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pointers
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

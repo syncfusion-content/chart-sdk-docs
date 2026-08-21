@@ -4,7 +4,6 @@ title: Animation in Syncfusion ASP.NET Core Linear Gauge | Syncfusion
 description: Learn here all about animation in the Syncfusion ASP.NET Core Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Animation
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

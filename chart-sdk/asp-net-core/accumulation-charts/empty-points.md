@@ -4,7 +4,6 @@ title: Empty Points in ASP.NET Core Accumulation Charts | Syncfusion
 description: Learn here all about Empty Points in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Empty Points
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

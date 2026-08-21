@@ -4,7 +4,6 @@ title: Cross Hair in ASP.NET Core Stock Charts | Syncfusion
 description: Learn here all about Cross Hair in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Cross Hair
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Legend in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Legend in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

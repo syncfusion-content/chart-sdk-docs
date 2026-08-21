@@ -4,7 +4,6 @@ title: User Interaction in ASP.NET MVC Sparkline Charts | Syncfusion
 description: Learn here all about User Interaction in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: User Interaction
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

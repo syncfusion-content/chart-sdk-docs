@@ -1,10 +1,9 @@
-﻿---
+---
 layout: post
 title: Accessibility in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP.NET Core Circular Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

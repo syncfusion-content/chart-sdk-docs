@@ -4,7 +4,6 @@ title: Funnel in ASP.NET Core Accumulation Charts Component | Syncfusion
 description: Learn here all about Funnel in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Funnel
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

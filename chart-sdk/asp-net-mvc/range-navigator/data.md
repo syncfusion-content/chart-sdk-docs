@@ -4,7 +4,6 @@ title: Data in ASP.NET MVC Range Navigator | Syncfusion
 description: Learn here all about Data in Syncfusion ASP.NET MVC Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

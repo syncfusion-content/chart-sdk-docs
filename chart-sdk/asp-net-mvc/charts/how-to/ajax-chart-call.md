@@ -4,7 +4,6 @@ title: Render chart via Ajax in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Ajax Chart Call in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ajax Chart Call
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

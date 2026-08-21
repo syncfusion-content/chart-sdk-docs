@@ -4,7 +4,6 @@ title: Dynamic Data Update in ASP.NET MVC Accumulation Charts | Syncfusion
 description: Learn here all about dynamic data update in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dynamic Data Update
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

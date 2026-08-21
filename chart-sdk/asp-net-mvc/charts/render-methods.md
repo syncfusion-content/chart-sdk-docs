@@ -4,7 +4,6 @@ title: Render Methods in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Render Methods in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Render Methods
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

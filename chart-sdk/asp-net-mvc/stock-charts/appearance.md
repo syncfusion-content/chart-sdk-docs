@@ -4,7 +4,6 @@ title: Appearance in ASP.NET MVC Stock Charts | Syncfusion
 description: Learn here all about Appearance in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -4,7 +4,6 @@ title: Bubble HeatMap in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about Bubble Heatmap in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Bubble Heatmap
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

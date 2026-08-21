@@ -4,7 +4,6 @@ title: Export and Print in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Export in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Export
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

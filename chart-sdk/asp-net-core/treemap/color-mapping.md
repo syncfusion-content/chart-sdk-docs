@@ -4,7 +4,6 @@ title: Color Mapping in ASP.NET Core TreeMap | Syncfusion
 description: Learn here all about Color Mapping in Syncfusion ASP.NET Core TreeMap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Color Mapping
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

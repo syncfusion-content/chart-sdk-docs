@@ -4,7 +4,6 @@ title: User Interactions in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about User Interactions in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: User Interactions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

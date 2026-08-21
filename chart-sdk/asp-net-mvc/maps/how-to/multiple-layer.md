@@ -4,7 +4,6 @@ title: Add multiple layers in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Multiple Layer in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Multiple Layer
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

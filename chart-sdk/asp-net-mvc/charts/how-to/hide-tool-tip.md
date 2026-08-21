@@ -4,7 +4,6 @@ title: Hide Tooltip in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Hide Tool Tip in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Hide Tooltip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

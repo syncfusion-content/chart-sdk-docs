@@ -4,7 +4,6 @@ title: Getting Started with ASP.NET MVC 3D Circular Charts | Syncfusion
 description: Checkout and learn about getting started with Syncfusion ASP.NET MVC 3D Circular Charts control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

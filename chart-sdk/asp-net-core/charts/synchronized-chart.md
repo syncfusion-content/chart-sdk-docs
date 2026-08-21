@@ -4,7 +4,6 @@ title: Synchronized Charts in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Synchronized Charts in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Synchronized charts
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

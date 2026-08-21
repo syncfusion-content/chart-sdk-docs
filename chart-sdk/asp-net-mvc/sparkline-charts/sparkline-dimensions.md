@@ -4,7 +4,6 @@ title: Dimensions in ASP.NET MVC Sparkline Charts | Syncfusion
 description: Learn here all about Dimensions in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Sparkline Charts Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

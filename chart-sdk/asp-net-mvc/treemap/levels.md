@@ -4,7 +4,6 @@ title: Levels in ASP.NET MVC TreeMap | Syncfusion
 description: Learn here all about Levels in Syncfusion ASP.NET MVC TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Levels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
