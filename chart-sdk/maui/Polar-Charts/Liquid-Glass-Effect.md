@@ -71,7 +71,7 @@ var glass = new SfGlassEffectView
 
 {% endtabs %}
 
-For detailed guidance on [SfGlassEffectView](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Core.SfGlassEffectView.html), refer to the Getting Started [documentation](https://help.syncfusion.com/maui/liquid-glass-ui/getting-started).
+For detailed guidance on [SfGlassEffectView](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Core.SfGlassEffectView.html), refer to the Getting Started [documentation](https://help.syncfusion.com/chart-sdk/maui/liquid-glass-ui/getting-started).
 
 ### Enable Liquid Glass Effect to SfPolarChart Tooltip
 
