@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Zooming in JavaScript Chart control | Syncfusion
+title: Zooming in JavaScript Chart | Syncfusion
 description: Learn here all about Zooming in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Zooming 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Zooming in JavaScript Chart control
+# Zooming in JavaScript Chart
 
 ## Enable zooming
 

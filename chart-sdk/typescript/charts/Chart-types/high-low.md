@@ -1,14 +1,14 @@
 ---
 layout: post
-title: High Low Chart in TypeScript Charts | Syncfusion
+title: High Low Chart in TypeScript Chart | Syncfusion
 description: Learn here all about High Low in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: High Low 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# High Low Chart in TypeScript Charts
+# High Low Chart in TypeScript Chart
 
 ## Hilo
 

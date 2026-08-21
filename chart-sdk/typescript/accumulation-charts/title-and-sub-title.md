@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Title and sub title in TypeScript Accumulation chart control | Syncfusion
-description: Learn here all about Title and sub title in Syncfusion TypeScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in TypeScript Accumulation Chart | Syncfusion
+description: Learn how to add a title and subtitle to the Syncfusion TypeScript Accumulation Chart using the title property.
 platform: chart-sdk
-control: Title and sub title 
+control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and sub title in TypeScript Accumulation chart control
+# Title and Subtitle in TypeScript Accumulation Chart
 
 ## Title
 
-Accumulation Chart can be given a title using [`title`](../api/accumulation-chart/accumulationChartModel/#title) property, to show the information about the data plotted.
+Accumulation Chart can be given a title using [`title`](../api/accumulation-chart/accumulationChartModel#title) property, to show the information about the data plotted.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,7 +28,7 @@ Accumulation Chart can be given a title using [`title`](../api/accumulation-char
 
 ## Title customization
 
-Accumulation Chart can be customizing a title using [`titleStyle`](../api/accumulation-chart/accumulationChartModel/#titlestyle) property.
+Accumulation Chart can be customizing a title using [`titleStyle`](../api/accumulation-chart/accumulationChartModel#titlestyle) property.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -58,7 +58,7 @@ The [`position`](../api/accumulation-chart/titlePosition/) property customizes t
 
 ## SubTitle
 
-Accumulation Chart can be given a subtitle using [`subTitle`](../api/accumulation-chart/accumulationChartModel/#subtitle) property, to show the information about the data plotted.
+Accumulation Chart can be given a subtitle using [`subTitle`](../api/accumulation-chart/accumulationChartModel#subtitle) property, to show the information about the data plotted.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -73,7 +73,7 @@ Accumulation Chart can be given a subtitle using [`subTitle`](../api/accumulatio
 
 ## SubTitle customization
 
-Accumulation Chart can be customizing a subtitle using [`subTitleStyle`](../api/accumulation-chart/accumulationChartModel/#subtitlestyle) property, to show the information about the data plotted.
+Accumulation Chart can be customizing a subtitle using [`subTitleStyle`](../api/accumulation-chart/accumulationChartModel#subtitlestyle) property, to show the information about the data plotted.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -88,7 +88,7 @@ Accumulation Chart can be customizing a subtitle using [`subTitleStyle`](../api/
 
 ### Position
 
-The [`position`](../api/accumulation-chart/titleStyleSettings/#position) property customizes the placement of the accumulation chart subtitle. It supports the following options: `Right`, `Left`, `Bottom`, `Top`, and `Custom`. The Custom option allows you to position the subtitle anywhere on the chart using x and y coordinates, providing flexible subtitle alignment based on layout requirements.
+The [`position`](../api/accumulation-chart/titleStyleSettings#position) property customizes the placement of the accumulation chart subtitle. It supports the following options: `Right`, `Left`, `Bottom`, `Top`, and `Custom`. The Custom option allows you to position the subtitle anywhere on the chart using x and y coordinates, providing flexible subtitle alignment based on layout requirements.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

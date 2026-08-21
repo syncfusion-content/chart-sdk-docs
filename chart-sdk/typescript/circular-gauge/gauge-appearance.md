@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Gauge appearance in TypeScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge appearance in Syncfusion TypeScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Appearance in TypeScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge appearance in Syncfusion TypeScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge appearance 
+control: Circular Gauge 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Gauge appearance in TypeScript Circular gauge control
+# Appearance in TypeScript Circular Gauge
 
 ## Gauge Title
 
-Circular gauge can be given a title by using [`title`](../api/circular-gauge/#title-string) property, to show the information about the gauge.
-Title can be customized by using [`titleStyle`](../api/circular-gauge/#titlestyle-fontmodel) property in gauge.
+Circular gauge can be given a title by using [`title`](../api/circular-gauge#title-string) property, to show the information about the gauge.
+Title can be customized by using [`titleStyle`](../api/circular-gauge#titlestyle-fontmodel) property in gauge.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -29,9 +29,9 @@ Title can be customized by using [`titleStyle`](../api/circular-gauge/#titlestyl
 
 ## Gauge Position
 
-Gauge can be positioned anywhere in the container with the help of [`centerX`](../api/circular-gauge/#centerx-string) and [`centerY`](../api/circular-gauge/#centery-string) property and it accepts values either in percentage or in pixels.
-The default value of the [`centerX`](../api/circular-gauge/#centerx-string) and
-[`centerY`](../api/circular-gauge/#centery-string) property is 50%, which means gauge will get rendered to the centre of the container.
+Gauge can be positioned anywhere in the container with the help of [`centerX`](../api/circular-gauge#centerx-string) and [`centerY`](../api/circular-gauge#centery-string) property and it accepts values either in percentage or in pixels.
+The default value of the [`centerX`](../api/circular-gauge#centerx-string) and
+[`centerY`](../api/circular-gauge#centery-string) property is 50%, which means gauge will get rendered to the centre of the container.
 
 **In Pixel**
 
@@ -51,7 +51,7 @@ You can set the mid point of the gauge in pixel as demonstrated below,
 **In Percentage**
 
 By setting the value in percentage, gauge gets its mid point with respect to its plot area.
-For example, when the [`centerX`](../api/circular-gauge/#centerx-string) value as '0%' and [`centerY`](../api/circular-gauge/#centery-string) value is ‘50%’, gauge will get positioned at the top left corner of the plot area.
+For example, when the [`centerX`](../api/circular-gauge#centerx-string) value as '0%' and [`centerY`](../api/circular-gauge#centery-string) value is ‘50%’, gauge will get positioned at the top left corner of the plot area.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -68,7 +68,7 @@ For example, when the [`centerX`](../api/circular-gauge/#centerx-string) value a
 
 **Customize the gauge background**
 
-Using [`background`](../api/circular-gauge/#background-string) and [`border`](../api/circular-gauge/#border-bordermodel) properties, you can change the background color and border of the circular gauge.
+Using [`background`](../api/circular-gauge#background-string) and [`border`](../api/circular-gauge#border-bordermodel) properties, you can change the background color and border of the circular gauge.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -83,7 +83,7 @@ Using [`background`](../api/circular-gauge/#background-string) and [`border`](..
 
 **Gauge Margin**
 
-You can set margin for gauge from its container through [`margin`](../api/circular-gauge/#margin-marginmodel) property.
+You can set margin for gauge from its container through [`margin`](../api/circular-gauge#margin-marginmodel) property.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

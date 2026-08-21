@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Selecting range in JavaScript Range navigator control | Syncfusion
-description: Learn here all about Selecting range in Syncfusion JavaScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Selecting range in JavaScript Range Selector | Syncfusion
+description: Learn here all about Selecting range in Syncfusion JavaScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Selecting range 
+control: Range Selector
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Selecting range in JavaScript Range navigator control
+# Selecting range in JavaScript Range Selector
 
 The Range Selector's left and right thumbs are used to indicate the selected range in the large collection of data. A range can be selected in the following ways:
 

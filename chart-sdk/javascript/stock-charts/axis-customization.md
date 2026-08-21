@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Axis customization in JavaScript Stock chart control | Syncfusion
-description: Learn here all about Axis customization in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Axis customization in JavaScript Stock Charts | Syncfusion
+description: Learn here all about Axis customization in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis customization 
+control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in JavaScript Stock chart control
+# Axis customization in JavaScript Stock Charts
 
 ## Axis Crossing
 

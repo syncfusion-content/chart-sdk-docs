@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Labels in TypeScript Range navigator control | Syncfusion
-description: Learn here all about Labels in Syncfusion TypeScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Labels in TypeScript Range Selector | Syncfusion
+description: Learn here all about Labels in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Labels 
+control: Range Selector 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Labels in TypeScript Range navigator control
+# Labels in TypeScript Range Selector
 
 ## Multilevel labels
 

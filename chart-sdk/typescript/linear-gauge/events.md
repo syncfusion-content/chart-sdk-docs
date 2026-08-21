@@ -1,21 +1,21 @@
 ---
 layout: post
-title: Events in TypeScript Linear gauge control | Syncfusion
-description: Learn here all about Events in Syncfusion TypeScript Linear gauge control of Syncfusion Essential JS 2 and more.
+title: Events in TypeScript Linear Gauge | Syncfusion
+description: Handle events in the TypeScript Linear Gauge such as load, loaded, animationComplete, drag, tooltipRender, valueChange, and mouse events.
 platform: chart-sdk
-control: Events 
+control: Linear Gauge 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Events in TypeScript Linear gauge control
+# Events in TypeScript Linear Gauge
 
 This section describes the Linear Gauge component's event that gets triggered when corresponding operations are performed.
 
 ## animationComplete
 
-When the pointer animation is completed, the [`animationComplete`](../api/linear-gauge/#animationcomplete) event will be triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iAnimationCompleteEventArgs/).
+When the pointer animation is completed, the [`animationComplete`](../api/linear-gauge#animationcomplete) event will be triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iAnimationCompleteEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -30,7 +30,7 @@ When the pointer animation is completed, the [`animationComplete`](../api/linear
 
 ## annotationRender
 
-Before the annotation is rendered in the Linear Gauge, the [`annotationRender`](../api/linear-gauge/#annotationrender) event will be triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iAnnotationRenderEventArgs/).
+Before the annotation is rendered in the Linear Gauge, the [`annotationRender`](../api/linear-gauge#annotationrender) event will be triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iAnnotationRenderEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -45,7 +45,7 @@ Before the annotation is rendered in the Linear Gauge, the [`annotationRender`](
 
 ## axisLabelRender
 
-Before each axis label is rendered in the Linear Gauge, the [`axisLabelRender`](../api/linear-gauge/#axislabelrender) event is fired. To know more about the arguments of this event, refer [here](../api/linear-gauge/iAxisLabelRenderEventArgs/).
+Before each axis label is rendered in the Linear Gauge, the [`axisLabelRender`](../api/linear-gauge#axislabelrender) event is fired. To know more about the arguments of this event, refer [here](../api/linear-gauge/iAxisLabelRenderEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -60,7 +60,7 @@ Before each axis label is rendered in the Linear Gauge, the [`axisLabelRender`](
 
 ## beforePrint
 
-The [`beforePrint`](../api/linear-gauge/#beforeprint) event is fired before the print begins. To know more about the arguments of this event, refer [here](../api/linear-gauge/iPrintEventArgs/).
+The [`beforePrint`](../api/linear-gauge#beforeprint) event is fired before the print begins. To know more about the arguments of this event, refer [here](../api/linear-gauge/iPrintEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -75,7 +75,7 @@ The [`beforePrint`](../api/linear-gauge/#beforeprint) event is fired before the 
 
 ## dragEnd
 
-The [`dragEnd`](../api/linear-gauge/#dragend) event will be fired before the pointer drag is completed. To know more about the argument of this event, refer [here](../api/linear-gauge/iPointerDragEventArgs/).
+The [`dragEnd`](../api/linear-gauge#dragend) event will be fired before the pointer drag is completed. To know more about the argument of this event, refer [here](../api/linear-gauge/iPointerDragEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -90,7 +90,7 @@ The [`dragEnd`](../api/linear-gauge/#dragend) event will be fired before the poi
 
 ## dragMove
 
-The [`dragMove`](../api/linear-gauge/#dragmove) event will be fired when the pointer is dragged. To know more about the arguments of this event, refer [here](../api/linear-gauge/iPointerDragEventArgs/).
+The [`dragMove`](../api/linear-gauge#dragmove) event will be fired when the pointer is dragged. To know more about the arguments of this event, refer [here](../api/linear-gauge/iPointerDragEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -105,7 +105,7 @@ The [`dragMove`](../api/linear-gauge/#dragmove) event will be fired when the poi
 
 ## dragStart
 
-When the pointer drag begins, the [`dragStart`](../api/linear-gauge/#dragstart) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iPointerDragEventArgs/).
+When the pointer drag begins, the [`dragStart`](../api/linear-gauge#dragstart) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iPointerDragEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -120,7 +120,7 @@ When the pointer drag begins, the [`dragStart`](../api/linear-gauge/#dragstart) 
 
 ## gaugeMouseDown
 
-When mouse is pressed down on the gauge, the [`gaugeMouseDown`](../api/linear-gauge/#gaugemousedown) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iMouseEventArgs/).
+When mouse is pressed down on the gauge, the [`gaugeMouseDown`](../api/linear-gauge#gaugemousedown) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iMouseEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -135,7 +135,7 @@ When mouse is pressed down on the gauge, the [`gaugeMouseDown`](../api/linear-ga
 
 ## gaugeMouseLeave
 
-When mouse pointer moves over the gauge, the [`gaugemouseleave`](../api/linear-gauge/#gaugemouseleave) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iMouseEventArgs/).
+When mouse pointer moves over the gauge, the [`gaugemouseleave`](../api/linear-gauge#gaugemouseleave) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iMouseEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -150,7 +150,7 @@ When mouse pointer moves over the gauge, the [`gaugemouseleave`](../api/linear-g
 
 ## gaugeMouseMove
 
-When mouse pointer leaves the gauge, the [`gaugeMouseMove`](../api/linear-gauge/#gaugemousemove) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iMouseEventArgs/).
+When mouse pointer leaves the gauge, the [`gaugeMouseMove`](../api/linear-gauge#gaugemousemove) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iMouseEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -165,7 +165,7 @@ When mouse pointer leaves the gauge, the [`gaugeMouseMove`](../api/linear-gauge/
 
 ## gaugeMouseUp
 
-When the mouse pointer is released over the Linear Gauge, the [`gaugeMouseUp`](../api/linear-gauge/#gaugemouseup) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iMouseEventArgs/).
+When the mouse pointer is released over the Linear Gauge, the [`gaugeMouseUp`](../api/linear-gauge#gaugemouseup) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iMouseEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -180,7 +180,7 @@ When the mouse pointer is released over the Linear Gauge, the [`gaugeMouseUp`](.
 
 ## load
 
-Before the Linear Gauge is loaded, the [`load`](../api/linear-gauge/#load) event is fired. To know more about the arguments of this event, refer [here](../api/linear-gauge/iLoadEventArgs/).
+Before the Linear Gauge is loaded, the [`load`](../api/linear-gauge#load) event is fired. To know more about the arguments of this event, refer [here](../api/linear-gauge/iLoadEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -195,7 +195,7 @@ Before the Linear Gauge is loaded, the [`load`](../api/linear-gauge/#load) event
 
 ## loaded
 
-After the Linear Gauge has been loaded, the [`loaded`](../api/linear-gauge/#loaded) event will be triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iLoadedEventArgs/).
+After the Linear Gauge has been loaded, the [`loaded`](../api/linear-gauge#loaded) event will be triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iLoadedEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -210,7 +210,7 @@ After the Linear Gauge has been loaded, the [`loaded`](../api/linear-gauge/#load
 
 ## resized
 
-After the window resizing, the [`resized`](../api/linear-gauge/#resized) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iResizeEventArgs/).
+After the window resizing, the [`resized`](../api/linear-gauge#resized) event is triggered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iResizeEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -225,7 +225,7 @@ After the window resizing, the [`resized`](../api/linear-gauge/#resized) event i
 
 ## tooltipRender
 
-The [`tooltipRender`](../api/linear-gauge/#tooltiprender) event is fired before the tooltip is rendered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iTooltipRenderEventArgs/).
+The [`tooltipRender`](../api/linear-gauge#tooltiprender) event is fired before the tooltip is rendered. To know more about the arguments of this event, refer [here](../api/linear-gauge/iTooltipRenderEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -240,7 +240,7 @@ The [`tooltipRender`](../api/linear-gauge/#tooltiprender) event is fired before 
 
 ## valueChange
 
-The [`valueChange`](../api/linear-gauge/#valuechange) event is triggered when the pointer is dragged from one value to another. To know more about the arguments of this event, refer [here](../api/linear-gauge/iValueChangeEventArgs/).
+The [`valueChange`](../api/linear-gauge#valuechange) event is triggered when the pointer is dragged from one value to another. To know more about the arguments of this event, refer [here](../api/linear-gauge/iValueChangeEventArgs).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

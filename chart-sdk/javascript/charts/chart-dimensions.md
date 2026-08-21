@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Chart dimensions in JavaScript Chart control | Syncfusion
+title: Chart dimensions in JavaScript Chart | Syncfusion
 description: Learn here all about Chart dimensions in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart dimensions 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart dimensions in JavaScript Chart control
+# Chart dimensions in JavaScript Chart
 
 ## Size for Container
 

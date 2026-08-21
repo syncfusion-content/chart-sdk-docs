@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Customization in JavaScript Sankey Chart component | Syncfusion
-description: Learn here all about Customization in Syncfusion JavaScript Sankey Chart component of Syncfusion Essential JS 2 and more.
-control: Customization
+title: Customization in JavaScript Sankey Diagram | Syncfusion
+description: Learn here all about Customization in Syncfusion JavaScript Sankey Diagram of Syncfusion Essential JS 2 and more.
+control: Sankey Diagram
 platform: chart-sdk
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Customization in JavaScript Sankey Chart component
+# Customization in JavaScript Sankey Diagram
 
 The Sankey Chart provides extensive customization options to create visualizations that match your specific design requirements and data presentation needs. From styling and theming to advanced visual techniques, the component enables complete control over appearance and behavior.
 

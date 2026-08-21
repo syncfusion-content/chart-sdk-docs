@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Cross hair and track ball in JavaScript Chart control | Syncfusion
+title: Crosshair and trackball in JavaScript Chart | Syncfusion
 description: Learn here all about Cross hair and track ball in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Cross hair and track ball 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Cross hair and track ball in JavaScript Chart control
+# Crosshair and trackball in JavaScript Chart
 
 The crosshair feature displays vertical and horizontal guide lines that intersect at the mouse or touch position, helping to identify the corresponding axis values precisely.
 

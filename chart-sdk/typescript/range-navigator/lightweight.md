@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Lightweight in TypeScript Range navigator control | Syncfusion
-description: Learn here all about Lightweight in Syncfusion TypeScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Lightweight in TypeScript Range Selector | Syncfusion
+description: Learn here all about Lightweight in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Lightweight 
+control: Range Selector 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Lightweight in TypeScript Range navigator control
+# Lightweight in TypeScript Range Selector
 
 By default, when the `dataSource` for `series` is empty, a lightweight Range Selector will be shown without Chart.
 

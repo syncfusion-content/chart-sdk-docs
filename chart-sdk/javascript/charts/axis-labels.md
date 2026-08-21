@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Axis labels in JavaScript Chart control | Syncfusion
+title: Axis labels in JavaScript Chart | Syncfusion
 description: Learn here all about Axis labels in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis labels 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis labels in JavaScript Chart control
+# Axis labels in JavaScript Chart
 
 ## Smart axis labels
 

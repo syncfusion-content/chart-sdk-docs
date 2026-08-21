@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Color mapping in TypeScript Maps control | Syncfusion
-description: Learn here all about Color mapping in Syncfusion TypeScript Maps control of Syncfusion Essential JS 2 and more.
+description: Apply range, equal, or desaturation color mapping in TypeScript Maps to differentiate shape regions based on their underlying data values.
 platform: chart-sdk
 control: Color mapping 
 publishingplatform: chart-sdk

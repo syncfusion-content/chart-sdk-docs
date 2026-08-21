@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue Chart Component in the Quasar Framework
+# Integrating Syncfusion Vue Chart with Quasar
 
 This section provides a step-by-step guide to creating a [`Quasar`](https://quasar.dev) application and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Chart component using the [`Composition API`](https://vuejs.org/guide/introduction.html#composition-api). It helps developers set up a responsive, high-performance charting solution within the Quasar ecosystem.
 

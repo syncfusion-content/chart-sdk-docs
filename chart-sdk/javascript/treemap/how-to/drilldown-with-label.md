@@ -3,7 +3,7 @@ layout: post
 title: Drilldown with label in JavaScript Treemap control | Syncfusion
 description: Learn here all about Drilldown with label in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Drilldown with label 
+control: TreeMap
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Legend in JavaScript Stock chart control | Syncfusion
-description: Learn here all about Legend in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Legend in JavaScript Stock Charts | Syncfusion
+description: Learn here all about Legend in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Legend 
+control: Stock Charts 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Legend in JavaScript Stock chart control
+# Legend in JavaScript Stock Charts
 
 <!-- markdownlint-disable MD038 -->
 

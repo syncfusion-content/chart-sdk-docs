@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bubble in TypeScript Maps Component | Syncfusion
-description: Learn here all about Bubble in Syncfusion TypeScript Maps Component of Syncfusion Essential JS 2 and more.
+description: Render data values as sized circular or square bubbles on a TypeScript Maps to visualize proportional information across geographical regions.
 platform: chart-sdk
 control: Bubble 
 publishingplatform: chart-sdk

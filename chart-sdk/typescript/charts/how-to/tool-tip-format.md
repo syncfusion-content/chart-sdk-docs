@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Tool tip format in TypeScript Chart control | Syncfusion
+title: How to format tooltip in TypeScript Chart | Syncfusion
 description: Learn here all about Tool tip format in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tool tip format 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip format in TypeScript Chart control
+# How to format tooltip in TypeScript Chart
 
 Using [`tooltipRender`](../../api/chart/chartModel/#tooltiprender) event, you can able to format the datetime value instead of rendered value.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with the Vue Maps Component in Vue 3 | Syncfusion
 description: Learn how to set up a Vue 3 and Vite project from scratch and integrate the Syncfusion Vue Maps component to render geographic data.
-control: Getting Started
+control: Maps
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Getting Started with the Vue Maps Component in Vue 3
 
-This guide provides a step-by-step walkthrough for setting up a [Vite](https://vitejs.dev/) project with JavaScript and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Maps component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api). By the end, you'll have a working Maps component displaying geographic data with legends, tooltips, and data labels.
+This guide provides a step-by-step walkthrough for setting up a [Vite](https://vitejs.dev) project with JavaScript and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Maps component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api). By the end, you'll have a working Maps component displaying geographic data with legends, tooltips, and data labels.
 
 ## Choosing Between Composition API and Options API
 

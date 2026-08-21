@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Down sampling in TypeScript Chart control | Syncfusion
+title: How to downsample data in TypeScript Chart | Syncfusion
 description: Learn here all about Down sampling in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Down sampling 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Down sampling in TypeScript Chart control
+# How to downsample data in TypeScript Chart
 
 Downsampling is the process of reducing the data rate. We have given a 2000 data points for chart. After applying downsampling algorithm, chart data points has been reduced  and rendered with 400 data points.
 

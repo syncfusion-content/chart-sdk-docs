@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Gauge ranges in TypeScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge ranges in Syncfusion TypeScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Ranges in TypeScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge ranges in Syncfusion TypeScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge ranges 
+control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Gauge ranges in TypeScript Circular gauge control
+# Ranges in TypeScript Circular Gauge
 
 You can categories certain interval on gauge axis using [`ranges`](../api/circular-gauge/range/#properties) property.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tooltip in Vue 3D Circular Chart component | Syncfusion
+title: Tooltip in Vue 3D Circular Chart | Syncfusion
 description: Learn here all about tooltip in Syncfusion Vue 3D Circular Chart component of Syncfusion Essential JS 2 and more.
 control: Tooltip 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in Vue 3D Circular Chart component
+# Tooltip in Vue 3D Circular Chart
 
 The 3D Circular Chart will display details about the points through a tooltip, when the mouse is moved over a specific point. By default, the tooltip is not visible. It can be enabled by using the `enable` property in `tooltip` to **true**.
 

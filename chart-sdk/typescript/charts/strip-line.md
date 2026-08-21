@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Strip line in TypeScript Chart control | Syncfusion
+title: Stripline in TypeScript Chart | Syncfusion
 description: Learn here all about Strip line in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Strip line 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Strip line in TypeScript Chart control
+# Stripline in TypeScript Chart
 
 <!-- markdownlint-disable MD036 -->
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Data editing in JavaScript Chart control | Syncfusion
+title: Data editing in JavaScript Chart | Syncfusion
 description: Learn here all about Data editing in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data editing 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Data editing in JavaScript Chart control
+# Data editing in JavaScript Chart
 
 ## Enable Data Editing
 

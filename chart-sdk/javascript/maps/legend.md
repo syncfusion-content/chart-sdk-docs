@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Legend in JavaScript Maps component | Syncfusion
-description: Learn here all about Legend in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Legend in JavaScript Maps | Syncfusion
+description: Show color, shape, or symbol legends on a JavaScript Maps that describe the meaning of each visual element for the displayed geographic data.
 platform: chart-sdk
 control: Legend 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in JavaScript Maps component
+# Legend in JavaScript Maps
 
 A Legend is a key on a Maps that contains descriptions for swatches of symbols. It can be represented in various colors, shapes or other identifiers based on the data and provides valuable information for interpreting what the Maps are displaying. It explains what each symbol in the Maps represents. Legends are enabled by setting the [`visible`](../api/maps/legendSettingsModel#visible) property of [`legendSettings`](../api/maps/legendSettingsModel) to **true**.
 

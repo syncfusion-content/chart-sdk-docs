@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Polar Chart in Vue Charts | Syncfusion
-description: Learn here all about Polar Chart in Syncfusion Vue Charts component of Syncfusion Essential JS 2 and more.
+title: Polar Chart in Vue Chart | Syncfusion
+description: Learn here all about Polar Chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Polar Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Polar Chart in Vue Charts
+# Polar Chart in Vue Chart
 
 ## Polar Chart
 

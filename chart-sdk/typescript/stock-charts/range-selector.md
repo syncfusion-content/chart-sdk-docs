@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Range selector in TypeScript Stock chart control | Syncfusion
-description: Learn here all about Range selector in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Range selector in TypeScript Stock Charts | Syncfusion
+description: Learn here all about Range selector in Syncfusion TypeScript Stock Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range selector 
+control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Range selector in TypeScript Stock chart control
+# Range selector in TypeScript Stock Charts
 
 The left and right thumb of RangeNavigator are used to indicate the selected range in the large collection of data. Following are the ways you can select a range.
 

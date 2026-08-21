@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Numeric axis in Vue Chart component | Syncfusion
+title: Numeric Axis in Vue Chart | Syncfusion
 description: Learn here all about Numeric axis in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Numeric axis 
 platform: chart-sdk
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Numeric axis in Vue Chart component
+# Numeric Axis in Vue Chart
 
 The numeric axis is used to represent numeric values in a chart. By default, the `valueType` of an axis is set to `Double`, which is suitable for displaying continuous numerical data.
 

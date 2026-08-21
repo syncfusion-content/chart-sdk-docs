@@ -2,7 +2,7 @@
 layout: post
 title: Legend in Vue Maps component | Syncfusion
 description: Explore here all about Legend in Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
-control: Legend 
+control: Maps 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Es5 getting started with JavaScript Maps component | Syncfusion
-description:  Checkout and learn about Es5 getting started with JavaScript Maps component of Syncfusion Essential JS 2 and more details.
+title: Es5 getting started with JavaScript Maps | Syncfusion
+description:  Build your first JavaScript Maps (ES5) app from the CDN in a few minutes by loading the script, initializing the control, and rendering a sample map.
 platform: chart-sdk
 control: Es5 getting started 
 publishingplatform: chart-sdk

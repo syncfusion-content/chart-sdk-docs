@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Map providers in JavaScript Maps component | Syncfusion
-description: Learn here all about Map providers in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Map providers in JavaScript Maps | Syncfusion
+description: Learn here all about Map providers in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Map providers 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Map providers in JavaScript Maps component
+# Map providers in JavaScript Maps
 
 Map control support map providers such as OpenStreetMap that can be added to any layers in maps.
 

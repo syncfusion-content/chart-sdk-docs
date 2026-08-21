@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Initial scrollbar in JavaScript Chart control | Syncfusion
+title: How to enable initial scrollbar in JavaScript Chart | Syncfusion
 description: Learn here all about Initial scrollbar in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Initial scrollbar 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Initial scrollbar in JavaScript Chart control
+# How to enable initial scrollbar in JavaScript Chart
 
 By setting `zoomFactor` in primaryXAxis and `isZoomed` value as `true` in [`load`](../../api/chart/chartModel/#load) event and `enableScrollbar` value as `true` in`zoomSettings`, you can make the scrollbar visible in initial rendering of chart.
 

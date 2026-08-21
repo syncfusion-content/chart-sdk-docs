@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dimensions in TypeScript 3D Chart control | Syncfusion
-description: Learn here all about dimensions in Syncfusion TypeScript 3D Chart control of Syncfusion Essential JS 2 and more.
+title: Dimensions in TypeScript 3D Chart | Syncfusion
+description: Learn how to set the width and height of the Syncfusion TypeScript 3D Chart by configuring the container size.
 platform: chart-sdk
 control: 3D Chart
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dimensions in TypeScript 3D Chart control
+# Dimensions in TypeScript 3D Chart
 
 ## Size for container
 
@@ -37,7 +37,7 @@ The 3D chart can be rendered to its container size and it can be set via inline 
 
 <!-- markdownlint-disable MD036 -->
 
-The size of the 3D chart can be set directly through [`width`](../api/chart3d/chart3DModel/#width) and [`height`](../api/chart3d/chart3DModel/#height) properties.
+The size of the 3D chart can be set directly through [`width`](../api/chart3d/chart3DModel#width) and [`height`](../api/chart3d/chart3DModel#height) properties.
 
 **In Pixel**
 

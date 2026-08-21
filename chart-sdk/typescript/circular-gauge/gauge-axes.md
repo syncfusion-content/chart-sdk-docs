@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Gauge axes in TypeScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge axes in Syncfusion TypeScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Axes in TypeScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge axes in Syncfusion TypeScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge axes 
+control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Gauge axes in TypeScript Circular gauge control
+# Axes in TypeScript Circular Gauge
 
 By default, gauge will be displayed with an axis. Each axis contains its own ranges, pointers and annotation.
 

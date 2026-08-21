@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add series in Angular Chart component | Syncfusion
+title: How to Add or Remove Series in Angular Chart | Syncfusion
 description: Learn here all about Add series in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Add series 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Add series in Angular Chart component
+# How to Add or Remove Series in Angular Chart
 
 You can add or remove the chart series dynamically by using the [`addSeries`](https://ej2.syncfusion.com/angular/documentation/api/chart/#addseries) or [`removeSeries`](https://ej2.syncfusion.com/angular/documentation/api/chart/#removeseries) method.
 

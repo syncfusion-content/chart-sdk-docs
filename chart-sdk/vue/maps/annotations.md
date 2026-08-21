@@ -2,7 +2,7 @@
 layout: post
 title: Annotations in Vue Maps component | Syncfusion
 description: Learn here all about Annotations in Syncfusion Vue Maps component of Syncfusion Essential JS 2 and more.
-control: Annotations 
+control: Maps 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

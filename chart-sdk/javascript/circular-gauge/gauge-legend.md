@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Gauge legend in JavaScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge legend in Syncfusion JavaScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Legend in JavaScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge legend in Syncfusion JavaScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge legend 
+control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Gauge legend in JavaScript Circular gauge control
+# Legend in JavaScript Circular Gauge
 
 Legend provides valuable information for interpreting what the circular gauge axis range displays, and they can be represented in various colors, shapes, and other identifiers based on the data. It gives a breakdown of what each symbol represents in the axis range of circular gauge.
 
@@ -142,7 +142,7 @@ By default, paging will be enabled if the legend items exceed the legend bounds.
 
 ## Legend text customization
 
-You can customize the legend text using [`legendText`](../api/circular-gauge/range/#legendtext) property in `ranges`.
+You can customize the legend text using [`legendText`](../api/circular-gauge/range#legendtext) property in `ranges`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

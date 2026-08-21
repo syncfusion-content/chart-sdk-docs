@@ -1,0 +1,66 @@
+---
+layout: post
+title: Bullet Chart Dimensions in TypeScript Bullet Chart | Syncfusion
+description: Learn how to set the width and height of the Syncfusion TypeScript Bullet Chart by configuring the container size.
+platform: chart-sdk
+control: Bullet chart
+publishingplatform: chart-sdk
+documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
+---
+
+# Bullet Chart Dimensions in TypeScript Bullet Chart
+
+## Size for Container
+
+The size of the Bullet Chart is determined by the container size, and it can be changed inline or via CSS as following.
+
+```javascript
+    <div id='container'>
+        <div id='element' style="width:650px; height:350px;"></div>
+    </div>
+```
+
+ {% tabs %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/bullet-chart/bullet-chart-dimensions-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/bullet-chart/bullet-chart-dimensions-cs1" %}
+
+## Size for Bullet Chart
+
+The `width` and `height` properties are used to adjust the size of the Bullet Chart.
+
+### Pixel
+
+Can set the size of the Bullet Chart in pixels as shown below.
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/bullet-chart/bullet-chart-dimensions-cs2/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/bullet-chart/bullet-chart-dimensions-cs2/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/bullet-chart/bullet-chart-dimensions-cs2" %}
+
+### Percentage
+
+By setting a value in percentage, the Bullet Chart gets its dimension with respect to its container. For example, when the height is **50%**, the Bullet Chart renders to half of the container’s height.
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/bullet-chart/bullet-chart-dimensions-cs3/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/bullet-chart/bullet-chart-dimensions-cs3/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/bullet-chart/bullet-chart-dimensions-cs3" %}
+
+>If the size is not specified, the Bullet Chart will be rendered with a height of **126px** and a width of the window.

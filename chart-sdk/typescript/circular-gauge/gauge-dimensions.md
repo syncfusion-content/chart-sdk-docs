@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Gauge dimensions in TypeScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge dimensions in Syncfusion TypeScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Dimensions in TypeScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge dimensions in Syncfusion TypeScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge dimensions 
+control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Gauge dimensions in TypeScript Circular gauge control
+# Dimensions in TypeScript Circular Gauge
 
 ## Size for Container
 

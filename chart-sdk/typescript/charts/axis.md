@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Axis in TypeScript Chart control | Syncfusion
+title: Axis in TypeScript Chart | Syncfusion
 description: Learn here all about Axis in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Axis in TypeScript Chart control
+# Axis in TypeScript Chart
 
 Chart typically has two axis, which are used to measure and categorize data: a horizontal or primary x axis and a vertical or primary y axis.
 

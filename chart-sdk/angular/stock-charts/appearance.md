@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Appearance in Angular Stock chart component | Syncfusion
+title: Appearance in Angular Stock Chart | Syncfusion
 description: Learn here all about Appearance in Syncfusion Angular Stock chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in Angular Stock chart component
+# Appearance in Angular Stock Chart
 
 ## Stock Chart Title
 

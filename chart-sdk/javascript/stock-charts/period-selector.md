@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Period selector in JavaScript Stock chart control | Syncfusion
-description: Learn here all about Period selector in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Period selector in JavaScript Stock Charts | Syncfusion
+description: Learn here all about Period selector in Syncfusion JavaScript Stock Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Period selector 
+control: Stock Charts
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Period selector in JavaScript Stock chart control
+# Period selector in JavaScript Stock Charts
 
 The period selector allows to select a range with specified periods. By default the period selector is enabled in stock chart.
 

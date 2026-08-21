@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pie in TypeScript Accumulation chart control | Syncfusion
+title: Pie in TypeScript Accumulation Chart | Syncfusion
 description: Learn here all about Pie in Syncfusion TypeScript Accumulation chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pie 
@@ -9,11 +9,11 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pie in TypeScript Accumulation chart control
+# Pie in TypeScript Accumulation Chart
 
 ## Pie Chart
 
-To render a pie series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel/#type) as `Pie` and inject the `PieSeries` module using `AccumulationChart.Inject(PieSeries)` method. If the `PieSeries` module is not injected, this module will be loaded by default.
+To render a pie series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel#type) as `Pie` and inject the `PieSeries` module using `AccumulationChart.Inject(PieSeries)` method. If the `PieSeries` module is not injected, this module will be loaded by default.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,7 +28,7 @@ To render a pie series, use the series [`type`](../api/accumulation-chart/accumu
 
 ## Radius Customization
 
-By default, radius of the pie series will be 80% of the size (minimum of chart width and height). You can customize this using [`radius`](../api/accumulation-chart/accumulationSeries/#radius) property of the series.
+By default, radius of the pie series will be 80% of the size (minimum of chart width and height). You can customize this using [`radius`](../api/accumulation-chart/accumulationSeries#radius) property of the series.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -43,7 +43,7 @@ By default, radius of the pie series will be 80% of the size (minimum of chart w
 
 ## Doughnut Chart
 
-To achieve a [doughnut](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/donut-chart) in pie series, customize the [`innerRadius`](../api/accumulation-chart/accumulationSeries/#innerradius) property of the series. By setting value greater than 0%, a doughnut will appear. The `innerRadius` property takes value from 0% to 100% of the pie radius.
+To achieve a [doughnut](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/donut-chart) in pie series, customize the [`innerRadius`](../api/accumulation-chart/accumulationSeries#innerradius) property of the series. By setting value greater than 0%, a doughnut will appear. The `innerRadius` property takes value from 0% to 100% of the pie radius.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -58,7 +58,7 @@ To achieve a [doughnut](https://www.syncfusion.com/javascript-ui-controls/js-cha
 
 ## Start and End angles
 
-You can customize the start and end angle of the pie series using the [`startAngle`](../api/accumulation-chart/accumulationSeries/#startangle) and [`endAngle`](../api/accumulation-chart/accumulationSeries/#endangle) properties. The default value of  `startAngle` is 0 degree, and `endAngle` is 360 degrees. By customizing this, you can achieve a semi pie series.
+You can customize the start and end angle of the pie series using the [`startAngle`](../api/accumulation-chart/accumulationSeries#startangle) and [`endAngle`](../api/accumulation-chart/accumulationSeries#endangle) properties. The default value of  `startAngle` is 0 degree, and `endAngle` is 360 degrees. By customizing this, you can achieve a semi pie series.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

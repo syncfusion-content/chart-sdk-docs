@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Animation in TypeScript Linear Gauge control | Syncfusion
-description: Learn here all about animation in the Syncfusion TypeScript Linear Gauge control of Syncfusion Essential JS 2 and more.
+title: Animation in TypeScript Linear Gauge | Syncfusion
+description: Animate the elements of the TypeScript Linear Gauge, including axis lines, ticks, labels, ranges, pointers, and annotations.
 platform: chart-sdk
 control: Linear Gauge 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Animation in TypeScript Linear Gauge control
+# Animation in TypeScript Linear Gauge
 
 All of the elements in the Linear Gauge, such as the axis lines, ticks, labels, ranges, pointers, and annotations, can be animated sequentially by using the [animationDuration](../api/linear-gauge#animationduration) property. The animation for the Linear Gauge is enabled when the `animationDuration` property is set to an appropriate value in milliseconds, providing a smooth rendering effect for the control. If the `animationDuration` property is set to **0**, which is the default value, the animation effect is disabled. If the animation is enabled, the control will behave in the following order.
 

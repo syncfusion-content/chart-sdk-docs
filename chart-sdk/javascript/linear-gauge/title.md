@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Title in JavaScript Linear gauge control | Syncfusion
-description: Learn here all about Title in Syncfusion JavaScript Linear gauge control of Syncfusion Essential JS 2 and more.
+title: Title in JavaScript Linear Gauge | Syncfusion
+description: Add and customize a title for the JavaScript Linear Gauge using the title and titleStyle properties to control text and appearance.
 platform: chart-sdk
-control: Title
+control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

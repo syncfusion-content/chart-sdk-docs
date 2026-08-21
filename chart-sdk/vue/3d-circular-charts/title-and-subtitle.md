@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Title and subtitle in Vue 3D Circular Chart component | Syncfusion
+title: Title and Subtitle in Vue 3D Circular Chart | Syncfusion
 description: Learn here all about title and subtitle in Syncfusion Vue 3D Circular Chart component of Syncfusion Essential JS 2 and more.
 control: Title and subtitle 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and subtitle in Vue 3D Circular Chart component
+# Title and Subtitle in Vue 3D Circular Chart
 
 ## Title
 

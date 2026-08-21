@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Ej1 api migration in TypeScript Linear gauge control | Syncfusion
-description: Learn here all about Ej1 api migration in Syncfusion TypeScript Linear gauge control of Syncfusion Essential JS 2 and more.
+title: Migration from EJ1 in TypeScript Linear Gauge | Syncfusion
+description: Migrate the Essential JS 1 Linear Gauge API to the Syncfusion TypeScript Linear Gauge (EJ2) with property and event mapping.
 platform: chart-sdk
-control: Ej1 api migration 
+control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Ej1 api migration in TypeScript Linear gauge control
+# Migration from EJ1 in TypeScript Linear Gauge
 
 This article describes the API migration process of Accordion component from Essential<sup style="font-size:70%">&reg;</sup> JS 1 to Essential<sup style="font-size:70%">&reg;</sup> JS 2.
 

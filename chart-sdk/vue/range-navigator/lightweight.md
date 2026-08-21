@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lightweight in Vue Range navigator component | Syncfusion
+title: Lightweight in Vue Range Navigator | Syncfusion
 description: Learn here all about Lightweight in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: Lightweight 
 platform: chart-sdk
@@ -8,9 +8,9 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Lightweight in Vue Range navigator component
+# Lightweight in Vue Range Navigator
 
-By default, when the [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/#datasource) for [`series`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/#series) is empty, a lightweight Range Selector will be shown without Chart.
+By default, when the [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#datasource) for [`series`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#series) is empty, a lightweight Range Selector will be shown without Chart.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

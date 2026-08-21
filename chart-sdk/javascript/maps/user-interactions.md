@@ -1,7 +1,7 @@
 ---
 layout: post
-title: User interactions in JavaScript Maps component | Syncfusion
-description: Learn here all about User interactions in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: User interactions in JavaScript Maps | Syncfusion
+description: Enable zooming, panning, single and double click, highlight, and selection in JavaScript Maps to give users rich ways to interact with elements.
 platform: chart-sdk
 control: User interactions 
 publishingplatform: chart-sdk
@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# User interactions in JavaScript Maps component
+# User interactions in JavaScript Maps
 
 Zooming, panning, single and double click, highlight and selection are all options that allow for effective interaction with Map elements.
 

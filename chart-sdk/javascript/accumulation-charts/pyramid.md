@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Pyramid in JavaScript Accumulation chart control | Syncfusion
-description: Learn here all about Pyramid in Syncfusion JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Pyramid in JavaScript Accumulation Chart | Syncfusion
+description: Learn how to render a pyramid series in the Syncfusion JavaScript Accumulation Chart using the PyramidSeries module.
 platform: chart-sdk
-control: Pyramid 
+control: Accumulation Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pyramid in JavaScript Accumulation chart control
+# Pyramid in JavaScript Accumulation Chart
 
-To render a pyramid series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel/) as `Pyramid` and inject `PyramidSeries` module using the `AccumulationChart.Inject(PyramidSeries)` method.
+To render a pyramid series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel) as `Pyramid` and inject `PyramidSeries` module using the `AccumulationChart.Inject(PyramidSeries)` method.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -101,5 +101,5 @@ Individual points can be customized using the `pointRender` event.
 
 ## See also
 
-* [Data label](./data-label/)
-* [Grouping](./grouping/)
+* [Data label](./data-label)
+* [Grouping](./grouping)

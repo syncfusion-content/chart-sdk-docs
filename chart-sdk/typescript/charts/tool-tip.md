@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Tooltip in TypeScript Chart control | Syncfusion
+title: Tooltip in TypeScript Chart | Syncfusion
 description: Learn here all about Tooltip in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tooltip 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in TypeScript Chart control
+# Tooltip in TypeScript Chart
 
 <!-- markdownlint-disable MD036 -->
 

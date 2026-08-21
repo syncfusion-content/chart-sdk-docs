@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Synchronized Charts in JavaScript Chart control | Syncfusion
+title: Synchronized Charts in JavaScript Chart | Syncfusion
 description: Learn here all about Synchronized Charts in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Synchronized charts 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Synchronized Charts in JavaScript Chart control
+# Synchronized Charts in JavaScript Chart
 
 Synchronized charts allow multiple chart instances to share common interactions so that actions performed on one chart are reflected across the others. This approach is useful for comparing related datasets and analyzing trends consistently across multiple visualizations.
 

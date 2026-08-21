@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Period selector in Vue Range navigator component | Syncfusion
+title: Period Selector in Vue Range Navigator | Syncfusion
 description: Learn here all about Period selector in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: Period selector 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Period selector in Vue Range navigator component
+# Period Selector in Vue Range Navigator
 
 The period selector allows to select a range with specified periods.
 

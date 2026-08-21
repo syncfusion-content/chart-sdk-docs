@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Range Column in TypeScript Chart control | Syncfusion
+title: Range Column in TypeScript Chart | Syncfusion
 description: Learn here all about Range Column in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Column 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Range Column Chart in TypeScript Charts
+# Range Column Chart in TypeScript Chart
 
 ## Range Column
 

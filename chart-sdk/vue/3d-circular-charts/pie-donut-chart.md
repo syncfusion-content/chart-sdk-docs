@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pie and Donut in Vue 3D Circular Chart component | Syncfusion
+title: Pie and Donut in Vue 3D Circular Chart | Syncfusion
 description: Learn here all about Pie and Donut in Syncfusion Vue 3D Circular Chart component of Syncfusion Essential JS 2 and more.
 control: Pie and Donut 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pie and Donut in Vue 3D Circular Chart component
+# Pie and Donut in Vue 3D Circular Chart
 
 ## Pie chart
 

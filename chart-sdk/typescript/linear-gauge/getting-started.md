@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 This document explains how to create a Linear Gauge and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-> The quickstart project uses the provided `webpack.config.js` configuration to compile and bundle the TypeScript application. For more information about webpack, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
+> The quickstart project uses the provided `webpack.config.js` configuration to compile and bundle the TypeScript application. For more information about webpack, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started).
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Before you begin, ensure that the following software is installed:
 
 * Node.js with npm
 * [Visual Studio Code](https://code.visualstudio.com) or another text editor
-* [Git](https://git-scm.com/) for cloning the quickstart repository
+* [Git](https://git-scm.com) for cloning the quickstart repository
 * A modern web browser such as Chrome, Edge, Firefox, or Safari
 
 > Register your Syncfusion license key before initializing the component. For more information, refer to the [license key registration documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).

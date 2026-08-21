@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Axis in JavaScript Chart control | Syncfusion
+title: Axis in JavaScript Chart | Syncfusion
 description: Learn here all about Axis in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Axis in JavaScript Chart control
+# Axis in JavaScript Chart
 
 Chart typically has two axis, which are used to measure and categorize data: a horizontal or primary x axis and a vertical or primary y axis.
 

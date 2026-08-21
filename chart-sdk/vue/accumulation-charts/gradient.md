@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Gradient in Vue Accumulation chart component | Syncfusion
-description: Learn here all about Grouping in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
+title: Gradient in Vue Accumulation Chart | Syncfusion
+description: Learn here all about Gradient in Syncfusion Vue Accumulation Chart of Syncfusion Essential JS 2 and more.
 control: Gradient
 platform: chart-sdk
 documentation: ug

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Print and Export in Vue Sankey Chart component | Syncfusion
+title: Print and Export in Vue Sankey | Syncfusion
 description: Learn here all about Print and Export in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
 control: Print and Export
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Print and Export in Vue Sankey Chart component
+# Print and Export in Vue Sankey
 
 The Sankey Chart provides comprehensive print and export functionality, enabling users to generate static files in multiple formats (PNG, JPEG, SVG, PDF) or print the diagram directly. This is useful for reports, documentation, sharing, and offline access.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Error Bar Chart in Vue Charts | Syncfusion
-description: Learn here all about Error Bar Chart in Syncfusion Vue Charts component of Syncfusion Essential JS 2 and more.
+title: Error Bar Chart in Vue Chart | Syncfusion
+description: Learn here all about Error Bar Chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
 control: Error Bar Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Error Bar Chart in Vue Charts
+# Error Bar Chart in Vue Chart
 
 ## Error Bar
 

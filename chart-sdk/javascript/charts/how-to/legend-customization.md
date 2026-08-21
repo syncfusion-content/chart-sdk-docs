@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Legend customization in JavaScript Chart control | Syncfusion
+title: How to customize legend in JavaScript Chart | Syncfusion
 description: Learn here all about Legend customization in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Legend customization 
+control: Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend customization in JavaScript Chart control
+# How to customize legend in JavaScript Chart
 
 By using the [`legendRender`](../../api/chart/chartModel/#legendrender), you can customize the legend shape.
 

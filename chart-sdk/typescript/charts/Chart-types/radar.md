@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Radar Chart in TypeScript Charts | Syncfusion
+title: Radar Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Radar in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Radar 
+control: Chart 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Radar Chart in TypeScript Charts
+# Radar Chart in TypeScript Chart
 
 ## Radar Chart
 

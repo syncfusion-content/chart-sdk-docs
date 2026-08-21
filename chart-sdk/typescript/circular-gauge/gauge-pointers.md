@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Gauge pointers in TypeScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge pointers in Syncfusion TypeScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Pointers in TypeScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge pointers in Syncfusion TypeScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge pointers 
+control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Gauge pointers in TypeScript Circular gauge control
+# Pointers in TypeScript Circular Gauge
 
 Pointers are used to indicate values on the axis. Value of the pointer can be modified using the [`value`](../api/circular-gauge/pointer/#value-number) property.
 

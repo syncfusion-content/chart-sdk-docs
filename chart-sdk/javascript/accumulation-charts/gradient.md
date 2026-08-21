@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Gradient in JavaScript Accumulation chart control | Syncfusion
-description: Learn here all about Gradient in Syncfusion JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Gradient in JavaScript Accumulation Chart | Syncfusion
+description: Learn how to apply linear and radial gradients to the Syncfusion JavaScript Accumulation Chart for richer styling.
 platform: chart-sdk
-control: Gradient
+control: Accumulation Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Gradient in JavaScript Accumulation chart control
+# Gradient in JavaScript Accumulation Chart
 
 Gradients add depth and modern styling to charts by smoothly blending multiple colors. The Charts component supports two gradient types:
 
