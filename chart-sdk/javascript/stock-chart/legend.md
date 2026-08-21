@@ -18,7 +18,7 @@ Legend provides information about the series rendered in the Stock Chart. Legend
 
 ## Position and Alignment
 
-By using the [`position`](../api/stock-chart/legendSettings/#position) property, legend can be placed at `Left`, `Right`, `Top`, `Bottom` or `Custom` of the Stock Chart. The legend is positioned at the bottom of the Stock Chart, by default.
+By using the [`position`](../api/stock-chart/legendSettings#position) property, legend can be placed at `Left`, `Right`, `Top`, `Bottom` or `Custom` of the Stock Chart. The legend is positioned at the bottom of the Stock Chart, by default.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

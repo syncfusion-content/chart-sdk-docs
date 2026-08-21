@@ -14,7 +14,7 @@ This section describes the HeatMap chart control event, which occurs when the re
 
 ## cellClick
 
-When you click on a HeatMap cell, the [cellClick](../api/heatmap/#cellclick) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iCellClickEventArgs).
+When you click on a HeatMap cell, the [cellClick](../api/heatmap#cellclick) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iCellClickEventArgs).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -29,7 +29,7 @@ When you click on a HeatMap cell, the [cellClick](../api/heatmap/#cellclick) eve
 
 ## cellDoubleClick
 
-When you double click on a HeatMap cell, the [cellDoubleClick](../api/heatmap/#celldoubleclick) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iCellClickEventArgs).
+When you double click on a HeatMap cell, the [cellDoubleClick](../api/heatmap#celldoubleclick) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iCellClickEventArgs).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -59,7 +59,7 @@ The [cellRender](../api/heatmap#cellrender) event will be triggered before each 
 
 ## cellSelected
 
-When single or multiple cells in the HeatMap are selected, the [cellSelected](../api/heatmap/#cellselected) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iSelectedEventArgs).
+When single or multiple cells in the HeatMap are selected, the [cellSelected](../api/heatmap#cellselected) event is triggered. To know more about arguments of this event, refer [here](../api/heatmap/iSelectedEventArgs).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

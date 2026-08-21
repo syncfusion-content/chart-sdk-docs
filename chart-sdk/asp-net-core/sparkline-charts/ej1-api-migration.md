@@ -8,7 +8,7 @@ documentation: ug
 ---
 
 
-# Migration from Essential<sup style="font-size:70%">&reg;</sup> JS 1
+# EJ1 API migration in ASP.NET Core Sparkline
 
 This article describes the API migration process of Accordion component from Essential<sup style="font-size:70%">&reg;</sup> JS 1 to Essential<sup style="font-size:70%">&reg;</sup> JS 2.
 

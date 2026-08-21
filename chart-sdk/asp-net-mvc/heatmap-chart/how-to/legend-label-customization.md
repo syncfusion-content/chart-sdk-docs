@@ -4,7 +4,6 @@ title: Legend Label Customization in ASP.NET MVC Heatmap Chart | Syncfusion
 description: Learn here all about Legend Label Customization in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend Label Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

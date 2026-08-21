@@ -8,7 +8,7 @@ documentation: ug
 ---
 
 
-# Axis Customization
+# Axis Customization in ASP.NET Core Sparkline
 
 You can customize axis value types and min and max values of the sparkline.
 

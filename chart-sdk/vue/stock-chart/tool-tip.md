@@ -51,7 +51,7 @@ value.
 
 ## Position the tooltip
 
-By default, the tooltip is positioned at the left side of the stock chart. You can move the tooltip along with the mouse by setting **Nearest** to the [`position`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockTooltipSettings/#position) property.
+By default, the tooltip is positioned at the left side of the stock chart. You can move the tooltip along with the mouse by setting **Nearest** to the [`position`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockTooltipSettings#position) property.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -66,7 +66,7 @@ By default, the tooltip is positioned at the left side of the stock chart. You c
 
 ## Customize the appearance of the tooltip
 
-The [`fill`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/tooltipSettingsModel/#fill-string) and [`border`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/tooltipSettingsModel#border-bordermodel) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/tooltipSettingsModel#textstyle-fontmodel) property in the tooltip is used to customize the font of the tooltip text.
+The [`fill`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/tooltipSettingsModel#fill-string) and [`border`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/tooltipSettingsModel#border-bordermodel) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/tooltipSettingsModel#textstyle-fontmodel) property in the tooltip is used to customize the font of the tooltip text.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

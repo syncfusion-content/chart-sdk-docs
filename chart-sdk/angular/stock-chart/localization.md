@@ -47,7 +47,7 @@ Localization library allows to localize the default text content of StockChart. 
 
 To load translation object in an application use load function of `L10n` class.
 
-For more information about localization, refer this [`localization`](https://ej2.syncfusion.com/angular/documentation/common/localization)
+For more information about localization, refer this [`localization`](https://ej2.syncfusion.com/react/documentation/common/globalization/localization)
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

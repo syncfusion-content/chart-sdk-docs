@@ -8,7 +8,7 @@ documentation: ug
 ---
 
 
-# Migration from Essential<sup style="font-size:70%">&reg;</sup> JS 1 in ASP.NET Core HeatMap Chart
+# EJ1 API migration in ASP.NET Core HeatMap Chart
 
 This article describes the API migration process of heat map component from Essential<sup style="font-size:70%">&reg;</sup> JS 1 to Essential<sup style="font-size:70%">&reg;</sup> JS 2.
 

@@ -111,7 +111,7 @@ You can add axis labels to the HeatMap and format those labels using the [xAxis]
 
 ### Customizing the text style
 
-The text style of the axis labels can be customized using the following options available in the [textStyle](../api/heatmap/axisModel/#textstyle) property.
+The text style of the axis labels can be customized using the following options available in the [textStyle](../api/heatmap/axisModel#textstyle) property.
 
 * [color](../api/heatmap/fontModel#color) - It is used to change the text color of the axis labels.
 * [fontFamily](../api/heatmap/fontModel#fontfamily) - It is used to change the font family of the axis labels.

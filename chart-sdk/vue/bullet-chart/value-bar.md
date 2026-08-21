@@ -57,7 +57,7 @@ Using the [`valueBorder`](https://ej2.syncfusion.com/vue/documentation/api/bulle
 
 ### Fill color and height customization
 
-Customize the fill color and height of the actual bar using the [`valueFill`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#valuefill) and [`valueHeight`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart/#valueheight) properties of the bullet chart. Also, you can bind the color for the actual bar from [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#datasource) for the bullet chart using [`valueFill`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#valuefill) property.
+Customize the fill color and height of the actual bar using the [`valueFill`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#valuefill) and [`valueHeight`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#valueheight) properties of the bullet chart. Also, you can bind the color for the actual bar from [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#datasource) for the bullet chart using [`valueFill`](https://ej2.syncfusion.com/vue/documentation/api/bullet-chart#valuefill) property.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

@@ -4,7 +4,6 @@ title: Overview in ASP.NET MVC Smithchart | Syncfusion
 description: Learn here all about Overview in Syncfusion ASP.NET MVC Smithchart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Index
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

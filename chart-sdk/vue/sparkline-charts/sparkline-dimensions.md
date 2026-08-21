@@ -27,7 +27,7 @@ Sparkline can be rendered to its container size. You can set the size through in
 
 <!-- markdownlint-disable MD036 -->
 
-You can also set the size for sparkline directly using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/sparkline/#width-string) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/sparkline/#height-string) properties.
+You can also set the size for sparkline directly using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/sparkline#width-string) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/sparkline#height-string) properties.
 
 ### In pixel
 

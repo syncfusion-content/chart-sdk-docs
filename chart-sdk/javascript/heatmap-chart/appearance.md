@@ -84,7 +84,7 @@ The background color of the HeatMap can be customized using the [backgroundColor
 
 ## Margin
 
-Set the margin for the HeatMap from its container by using the [margin](../api/heatmap/#margin) property.
+Set the margin for the HeatMap from its container by using the [margin](../api/heatmap#margin) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -99,7 +99,7 @@ Set the margin for the HeatMap from its container by using the [margin](../api/h
 
 ## Title
 
-The title is used to provide a quick information about the data plotted in HeatMap. The [text](../api/heatmap/title/#text) property is used to set the title for the HeatMap. The text style of the title can be customized by using the [textStyle](../api/heatmap/title#textstyle) property.
+The title is used to provide a quick information about the data plotted in HeatMap. The [text](../api/heatmap/title#text) property is used to set the title for the HeatMap. The text style of the title can be customized by using the [textStyle](../api/heatmaptitle#textstyle) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
