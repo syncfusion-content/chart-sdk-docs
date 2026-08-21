@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Pyramid in ASP.NET Core Accumulation Chart Component | Syncfusion
-description: Learn here all about Pyramid in Syncfusion ASP.NET Core Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Pyramid in ASP.NET Core Accumulation Charts | Syncfusion
+description: Learn here all about Pyramid in Syncfusion ASP.NET Core Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pyramid
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Pyramid Chart in ASP.NET Core Accumulation Chart Component
+# Pyramid in ASP.NET Core Accumulation Charts
 
 To render a pyramid series, use the series [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Pyramid`.
 
@@ -129,5 +128,5 @@ public class PyramidChartData
 
 ## See Also
 
-* [Data label](./data-label/)
-* [Grouping](./grouping/)
+* [Data label](./data-label)
+* [Grouping](./grouping)

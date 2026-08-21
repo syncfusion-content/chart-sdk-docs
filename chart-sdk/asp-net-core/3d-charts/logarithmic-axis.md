@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Logarithmic axis in ASP.NET Core 3D Chart Component
-description: Learn here all about logarithmic axis in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Logarithmic Axis in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about logarithmic axis in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Logarithmic Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Logarithmic axis in ASP.NET Core 3D Chart Component
+# Logarithmic Axis in ASP.NET Core 3D Charts
 
 Logarithmic axis uses logarithmic scale and it is very useful in visualizing data, when it has numerical values in both lower order of magnitude (eg: 10<sup>-6</sup>) and higher order of magnitude (eg: 10<sup>6</sup>).
 
