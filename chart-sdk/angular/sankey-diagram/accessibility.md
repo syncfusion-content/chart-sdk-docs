@@ -75,7 +75,7 @@ The following keyboard shortcuts are supported:
 
 The Sankey component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Sankey component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/sankey.html) in a new window to evaluate the accessibility with accessibility tools.
+The accessibility compliance of the Sankey component is shown in the following sample. Open the sample in a new window to evaluate the accessibility with accessibility tools.
 
 {% previewsample "https://ej2.syncfusion.com/accessibility/sankey.html" %}
 
