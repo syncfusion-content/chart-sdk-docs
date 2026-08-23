@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started with Angular HeatMap Chart | Syncfusion
+title: Getting started with Angular HeatMap chart component | Syncfusion
 description:  Check out and learn about the Getting started with Angular HeatMap chart component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: HeatMap
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with Angular HeatMap Chart
+# Getting started with Angular HeatMap chart component
 
 This section explains the steps required to create a HeatMap and demonstrates the basic usage of the HeatMap component.
 

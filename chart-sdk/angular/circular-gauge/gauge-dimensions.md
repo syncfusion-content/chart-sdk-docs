@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Dimensions in Angular Circular Gauge | Syncfusion
+title: Gauge dimensions in Angular Circular gauge component | Syncfusion
 description: Learn here all about Gauge dimensions in Syncfusion Angular Circular gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Dimensions 
+control: Gauge dimensions 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Dimensions in Angular Circular Gauge
+# Gauge dimensions in Angular Circular gauge component
 
 ## Size for Container
 
@@ -38,7 +38,7 @@ You can set width and height to the element of the container. It determines the 
 
 <!-- markdownlint-disable MD036 -->
 
-You can also set size for the gauge directly through [`width`](https://ej2.syncfusion.com/angular/documentation/api/circular-gauge#width-string) and [`height`](https://ej2.syncfusion.com/angular/documentation/api/circular-gauge#height-string) properties.
+You can also set size for the gauge directly through [`width`](https://ej2.syncfusion.com/angular/documentation/api/circular-gauge/#width-string) and [`height`](https://ej2.syncfusion.com/angular/documentation/api/circular-gauge/#height-string) properties.
 
 **In Pixel**
 
