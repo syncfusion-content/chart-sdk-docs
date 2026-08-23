@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started with Angular Chart | Syncfusion
-description: Check out and learn about the Getting Started with Angular Chart component of Syncfusion Essential JS 2 and more details.
+title: Getting Started with Angular Chart component | Syncfusion
+description:  Check out and learn about Getting Started with Angular Chart component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with Angular Chart
+# Getting Started with Angular Chart Component
 
 This section explains the steps required to create a simple chart and demonstrates the basic usage of the [Angular Chart](https://www.syncfusion.com/angular-components/angular-charts) component.
 

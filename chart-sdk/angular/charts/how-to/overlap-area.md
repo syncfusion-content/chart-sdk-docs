@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Color the Overlapped Area in Angular Chart | Syncfusion
+title: Overlap area in Angular Chart component | Syncfusion
 description: Learn here all about Overlap area in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Overlap area 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to Color the Overlapped Area in Angular Chart
+# Overlap area in Angular Chart component
 
 You can add a new range area series to show the overlapped area in different color.
 

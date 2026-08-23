@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selection in Angular Chart | Syncfusion
+title: Selection in Angular Chart component | Syncfusion
 description: Learn here all about Selection in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Selection 
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Selection in Angular Chart
+# Selection in Angular Chart component
 
 The chart provides selection support for both series and individual data points when users interact with the chart using mouse clicks.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Bind Chart Data from SQL Server in Angular Chart | Syncfusion
+title: Database data in Angular Chart component | Syncfusion
 description: Learn here all about Database data in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Database data 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to Bind Chart Data from SQL Server in Angular Chart
+# Database data in Angular Chart component
 
 * Create the chart data table using a database. You can find the database table below.
 

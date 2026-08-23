@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Syncfusion Angular Chart Component | Syncfusion
+title: Chart in Angular Chart component | Syncfusion
 description: Learn here all about the Chart component in Syncfusion Angular Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# About Syncfusion Angular Chart Component.
+# Angular Chart Component Overview
 
 The EJ2 Chart component is a high-performance, interactive visualization library for presenting data across a broad set of chart types. It supports line, bar, area, column, pie, financial, spline and other series formats, and is optimized for responsive rendering, smooth interactions, and large datasets. Typical use cases include trend analysis, comparisons, distributions, and time-series exploration.
 

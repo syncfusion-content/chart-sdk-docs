@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Use Grid Data in Angular Chart | Syncfusion
+title: Grid data chart in Angular Chart component | Syncfusion
 description: Learn here all about Grid data chart in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Grid data chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to Use Grid Data in Angular Chart
+# Grid data chart in Angular Chart component
 
 You can visualize the data that is returned by the grid in the chart.
 

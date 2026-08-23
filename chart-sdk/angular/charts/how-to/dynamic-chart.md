@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Render Dynamic Chart in Angular Chart | Syncfusion
+title: Dynamic chart in Angular Chart component | Syncfusion
 description: Learn here all about Dynamic chart in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dynamic chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to Render Dynamic Chart in Angular Chart
+# Dynamic chart in Angular Chart component
 
 By using an HTML button, you can add the chart dynamically when the button is clicked.
 

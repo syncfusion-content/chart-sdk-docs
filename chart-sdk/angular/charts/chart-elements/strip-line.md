@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stripline in Angular Chart | Syncfusion
+title: Strip Line in Angular Chart Component | Syncfusion
 description: Learn here all about strip line in Syncfusion Essential Angular Chart component, it's elements and more.
 platform: chart-sdk
 control: Strip line 
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Stripline in Angular Chart
+# Strip Line in Angular Chart Component
 
 <!-- markdownlint-disable MD036 -->
 

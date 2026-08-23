@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Understanding the Chart in Angular Chart | Syncfusion
+title: Understanding Angular Chart component | Syncfusion
 description: Explore and understand the Syncfusion Angular Chart component in Essential JS 2 and discover its powerful features.
 platform: chart-sdk
 control: Understanding
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-
-# Understanding the Chart in Angular Chart
+# Understanding the Angular Chart component
 
 The [Angular Charts](https://www.syncfusion.com/angular-components/angular-charts) component is a versatile visualization tool that presents data using a wide range of graphical formats. Each chart is composed of essential elements—such as the title, series, tooltip, legend, and axes—that work together to provide clear, interactive, and meaningful insights. Understanding these elements helps in configuring and customizing charts for various analytical needs.
 

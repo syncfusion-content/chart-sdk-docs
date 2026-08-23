@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Migration from Essential JS 1 in Angular Chart | Syncfusion
+title: Ej1 api migration in Angular Chart component | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ej1 api migration 
@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD038 -->
 
-# Migration from Essential JS 1 in Angular Chart
+# Ej1 api migration in Angular Chart component
 
 This article describes the API migration process of the Chart component from Essential<sup style="font-size:70%">&reg;</sup> JS 1 to Essential<sup style="font-size:70%">&reg;</sup> JS 2.
 

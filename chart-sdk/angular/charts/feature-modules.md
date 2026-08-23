@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Feature Modules in Angular Chart | Syncfusion
+title: Module in Angular Chart component | Syncfusion
 description: Learn here all about Module in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Module 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Feature Modules in Angular Chart
+# Module in Angular Chart component
 
 The following available modules should be injected to extend the Chart's functionality.
 

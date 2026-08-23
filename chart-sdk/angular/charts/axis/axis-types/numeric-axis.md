@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Numeric Axis in Angular Chart | Syncfusion
+title: Numeric axis in Angular Chart component | Syncfusion
 description: Learn here all about Numeric axis in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Numeric axis 
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Numeric Axis in Angular Chart
+# Numeric axis in Angular Chart component
 
 The numeric axis displays numerical values along the chart's x-axis or y-axis. By default, the `valueType` of an axis is set to `Double`, which is suitable for displaying continuous numerical data such as temperatures, measurements, sales figures, or any decimal values.
 

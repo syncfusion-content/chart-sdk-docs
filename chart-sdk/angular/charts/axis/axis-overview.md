@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Axis Overview in Angular Chart | Syncfusion
+title: Axis in Angular Chart component | Syncfusion
 description: Learn about chart axes, axis elements, types of axes, and customization options in the Syncfusion Angular Chart component.
 platform: chart-sdk
 control: Axis Overview
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis Overview in Angular Chart
+# What is an Axis in a Chart?
 
 In a chart, an axis refers to the lines that define the boundaries of the chart and provide a scale for measuring data. Charts have two axes: the horizontal axis (x-axis) and the vertical axis (y-axis). Here is the quick overview of axis elements.
 
