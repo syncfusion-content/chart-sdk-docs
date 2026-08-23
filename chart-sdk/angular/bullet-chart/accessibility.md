@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in Angular Bullet chart component | Syncfusion
+title: Accessibility in Angular Bullet Chart | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Angular Bullet chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility 
