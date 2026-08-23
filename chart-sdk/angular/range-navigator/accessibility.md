@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in Angular Range navigator component | Syncfusion
+title: Accessibility in Angular Range Navigator | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in Angular Range navigator component
+# Accessibility in Angular Range Navigator
 
 The Range navigator component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Legend in Angular Treemap component | Syncfusion
+title: Legend in Angular TreeMap | Syncfusion
 description: Learn here all about Legend in Syncfusion Angular Treemap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in Angular Treemap component
+# Legend in Angular TreeMap
 
 Legend is used to provide valuable information for interpreting what the TreeMap displays. The legends can be represented in various colors, shapes or other identifiers based on the data.
 
@@ -176,7 +176,7 @@ To enable or disable the desired legend item for each color mapping, set the [`s
 
 ## Hide legend items based data source value
 
-To enable or disable the legend visibility for each item through the data source, bind the appropriate data source field name to [`showLegendPath`](https://ej2.syncfusion.com/angular/documentation/api/treemap/legendSettings/#showlegendpath) property in the [`legendSettings`](https://ej2.syncfusion.com/angular/documentation/api/treemap/legendSettings/).
+To enable or disable the legend visibility for each item through the data source, bind the appropriate data source field name to [`showLegendPath`](https://ej2.syncfusion.com/angular/documentation/api/treemap/legendSettings#showlegendpath) property in the [`legendSettings`](https://ej2.syncfusion.com/angular/documentation/api/treemap/legendSettings).
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

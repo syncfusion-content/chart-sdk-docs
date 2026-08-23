@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Localization in Angular Stock chart component | Syncfusion
+title: Localization in Angular Stock Chart | Syncfusion
 description: Learn here all about Localization in Syncfusion Angular Stock chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Localization 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Localization in Angular Stock chart component
+# Localization in Angular Stock Chart
 
 Localization library allows to localize the default text content of StockChart. In stock chart component, it has the static text on some features(like zooming toolbars) and this can be changed to any other culture(Arabic, Deutsch, French, etc) by defining the locale value and translation object.
 
@@ -47,7 +47,7 @@ Localization library allows to localize the default text content of StockChart. 
 
 To load translation object in an application use load function of `L10n` class.
 
-For more information about localization, refer this [`localization`](https://ej2.syncfusion.com/angular/documentation/common/localization/)
+For more information about localization, refer this [`localization`](https://ej2.syncfusion.com/angular/documentation/common/localization)
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
