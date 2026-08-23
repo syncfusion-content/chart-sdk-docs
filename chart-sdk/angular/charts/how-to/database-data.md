@@ -50,7 +50,7 @@ export class ChartService {
 
 ```
 
-* Create a function call inside [`ngOnInit()`](https://angular.io/api/core/OnInit#ngOnInit) to fetch the chart data from the service in `app.component.ts` file.
+* Create a function call inside [`ngOnInit()`](https://v17.angular.io/api/core/OnInit#ngOnInit) to fetch the chart data from the service in `app.component.ts` file.
 
 app.component.ts (partial)
 
@@ -93,7 +93,7 @@ import { HttpClientModule } from '@angular/common/http';
 export class AppModule { }
 ```
 
-The Angular [`HttpClient`](https://angular.io/api/common/http/HttpClient) method returns an [`Observable`](https://rxjs.dev/guide/observable).
+The Angular [`HttpClient`](https://v17.angular.io/api/common/http/HttpClient) method returns an [`Observable`](https://rxjs.dev/guide/observable).
 
 chart.service.ts
 
