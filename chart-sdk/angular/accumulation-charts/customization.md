@@ -133,7 +133,7 @@ Points can also be exploded on load, by using [`explodeIndex`](https://ej2.syncf
   As like chart, legend is also available for accumulation, which gives information about the points. But
   by default, the legend will be placed on right hand side, if the width of the chart is high or will be
   placed on the bottom, if the height of the chart is high. Other customization regarding the legend
-  element are same as [`chart legend`](http://ej2.syncfusion.com/documentation/chart/legend.html/#position-and-alignment).
+  element are same as [`chart legend`](http://ej2.syncfusion.com/documentation/chart/legend.html#position-and-alignment).
   Here legend for a point can be collapsed by giving empty string to the x value of the point.
 
 {% tabs %}
