@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Gradient in Angular Accumulation chart component | Syncfusion
-description: Learn here all abount Gradient in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
+title: Gradient in Angular Accumulation Chart | Syncfusion
+description: Learn here all about Gradient in Syncfusion Angular Accumulation chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gradient
+control: Gradient 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Gradient in Angular Accumulation chart component
+# Gradient in Angular Accumulation Chart
 
 Gradients add depth and modern styling to charts by smoothly blending multiple colors. The Charts component supports two gradient types:
 
