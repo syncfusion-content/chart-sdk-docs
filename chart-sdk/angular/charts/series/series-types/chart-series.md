@@ -46,8 +46,8 @@ Combinations of different types like Line, Column, etc., can be rendered in a ch
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/series/combination-cs1" %}
 
 ## Enable Complex Property in Series
-#
-By setting the [`enableComplexProperty`](https://ej2.syncfusion.com/angular/documentation/api/chart/seriesDirective/#enablecomplexproperty) value as `true` in series, you can bind complex data to the chart.
+
+By setting the [`enableComplexProperty`](https://ej2.syncfusion.com/angular/documentation/api/chart/seriesdirective#enablecomplexproperty) value as `true` in series, you can bind complex data to the chart.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
