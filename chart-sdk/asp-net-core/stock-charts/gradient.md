@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Gradient in ASP.NET Core Stock Charts | Syncfusion
-description: Learn here all about Gradient in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
+title: Gradient in ASP.NET Core Stock Chart | Syncfusion
+description: Learn here all about Gradient in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gradient
 documentation: ug
 ---
 
-# Gradient in ASP.NET Core Stock Charts
+# Gradient in ASP.NET Core Stock Chart
 
 Gradients add depth and modern styling to charts by smoothly blending multiple colors. The Charts component supports two gradient types:
 
@@ -21,6 +21,9 @@ Gradients can be applied to:
 - Technical Indicators
 
 The gradient can be defined in the `@{ }` Razor code block or dynamically configured in the `load` event of the chart.
+
+
+## Linear gradient
 
 A linear gradient blends color along a straight path from a defined start point to an end point. Configure it by adding `LinearGradient` inside the target element (Series, Trendlines or Indicators) and define one or more color stops that control how colors transition across the gradient. Set the start and end positions of the gradient using `X1`, `Y1`, `X2` and `Y2` properties. The gradient color stop values such as `Offset`, `Color`, `Opacity`, `Lighten` and `Brighten` are set using the `ChartGradientColorStop` property.
 

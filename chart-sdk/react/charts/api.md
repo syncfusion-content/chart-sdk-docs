@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# API in React Charts
+# API Reference in React Charts
 
 ## Components
 

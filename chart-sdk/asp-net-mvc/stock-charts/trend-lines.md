@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Trendlines in ASP.NET MVC Stock Charts | Syncfusion
-description: Learn here all about Trendlines in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
+title: Trendlines in ASP.NET MVC Stock Chart | Syncfusion
+description: Learn here all about Trendlines in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Trend Lines
 documentation: ug
 ---
 
 
-# Trendlines in ASP.NET MVC Stock Charts
+# Trendlines in ASP.NET MVC Stock Chart
 
 Trendlines are used to show the direction and speed of price.
 

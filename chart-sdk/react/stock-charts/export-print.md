@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Export and Print in React Stock Charts | Syncfusion
-description: Learn how to export and print the Syncfusion React Stock Charts Component to PDF, image, or SVG using the public export and print methods.
+title: Export and Print in React Stock Chart | Syncfusion
+description: Learn how to export and print the Syncfusion React Stock Chart Component to PDF, image, or SVG using the public export and print methods.
 control: Export print 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Export and Print in React Stock Charts
+# Export and Print in React Stock Chart
 
 The rendered stock chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the export dropdown button in the period selector toolbar. You can choose the required format using the export dropdown button in stock-chart.
 

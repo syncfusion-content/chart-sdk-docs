@@ -5,7 +5,6 @@ description: Learn how to update the Syncfusion React Accumulation Charts data d
 platform: ej2-react
 control: Dynamic Data Update
 documentation: ug
-publishingplatform: chart-sdk
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 

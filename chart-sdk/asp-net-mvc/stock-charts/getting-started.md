@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with ASP.NET MVC Stock Charts | Syncfusion
-description: Checkout and learn about getting started with ASP.NET MVC Stock Charts control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET MVC Stock Chart | Syncfusion
+description: Checkout and learn about getting started with ASP.NET MVC Stock Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
 documentation: ug
 ---
 
-# Getting Started with ASP.NET MVC Stock Charts
+# Getting Started with ASP.NET MVC Stock Chart
 
 This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET MVC Stock Chart](https://www.syncfusion.com/aspnet-mvc-ui-controls/stock-chart) control to your ASP.NET MVC application using Visual Studio.
 

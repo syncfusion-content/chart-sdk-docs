@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Export and Print in ASP.NET MVC Stock Charts | Syncfusion
-description: Learn here all about Export and Print in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
+title: Export and Print in ASP.NET MVC Stock Chart | Syncfusion
+description: Learn here all about Export and Print in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Export and Print
 documentation: ug
 ---
 
 
-# Export and Print in ASP.NET MVC Stock Charts
+# Export and Print in ASP.NET MVC Stock Chart
 
 The rendered stock chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` format using the export dropdown button in the period selector toolbar. You can choose the required format using the export dropdown button in stock-chart.
 

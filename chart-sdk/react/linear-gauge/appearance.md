@@ -33,7 +33,7 @@ The following properties are available in the [`LinearGaugeComponent`](https://e
 
 ## Setting up the Linear Gauge title
 
-The title for the Linear Gauge can be set using [`title`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge#title) property in [`LinearGaugeComponent`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge). Its appearance can be customized using the [`titleStyle`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/#titlestyle) with the below properties.
+The title for the Linear Gauge can be set using [`title`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge#title) property in [`LinearGaugeComponent`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge). Its appearance can be customized using the [`titleStyle`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge#titlestyle) with the below properties.
 
 * [`color`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/fontModel#color) - Specifies the text color of the title.
 * [`fontStyle`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/fontModel#fontStyle) - Specifies the font style of the title.
@@ -129,4 +129,4 @@ The Linear Gauge component is rendered with margin by default. To remove the mar
 
  {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/linear-gauge/appearance-cs6" %}
 
->To use this feature, set the [`allowMargin`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/#allowmargin) property to **false**, the [`width`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/#width) property to **100%** and the properties of [`margin`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/#margin) to **0**.
+>To use this feature, set the [`allowMargin`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge#allowmargin) property to **false**, the [`width`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge#width) property to **100%** and the properties of [`margin`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge#margin) to **0**.

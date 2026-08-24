@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Working with Data in React Stock Charts | Syncfusion
-description: Learn how to bind JSON data to the Syncfusion React Stock Charts Component by mapping fields to date, open, high, low, and close.
+title: Working with Data in React Stock Chart | Syncfusion
+description: Learn how to bind JSON data to the Syncfusion React Stock Chart Component by mapping fields to date, open, high, low, and close.
 control: Working with data 
 platform: chart-sdk
 documentation: ug
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Working with Data in React Stock Charts
+# Working with Data in React Stock Chart
 
 Stock Chart can visualizes data bound from local or remote data.
 

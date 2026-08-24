@@ -16,7 +16,7 @@ Annotations are used to mark the specific area of interest in the Linear Gauge w
 
 ## Adding annotation
 
-To render the custom HTML elements in the Linear Gauge component, use the [`content`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/annotation#content) property in the [`AnnotationDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gaugeannotation). The annotation can be rendered either by specifying the id of the element or specifying the code to create a new element that needs to be displayed in the gauge area.
+To render the custom HTML elements in the Linear Gauge component, use the [`content`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/annotation#content) property in the [`AnnotationDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge#annotation). The annotation can be rendered either by specifying the id of the element or specifying the code to create a new element that needs to be displayed in the gauge area.
 
 <!-- markdownlint-disable MD036 -->
 
@@ -110,7 +110,7 @@ The annotation can be aligned horizontally and vertically by using the [`horizon
 
 ## Multiple annotations
 
-Multiple annotations can be added to the Linear Gauge component by adding the multiple [`AnnotationDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/annotation) in the [`AnnotationsDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/#annotations) and customization for the annotation can be done with the [`AnnotationDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/annotation).
+Multiple annotations can be added to the Linear Gauge component by adding the multiple [`AnnotationDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/annotation) in the [`AnnotationsDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge#annotations) and customization for the annotation can be done with the [`AnnotationDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/annotation).
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

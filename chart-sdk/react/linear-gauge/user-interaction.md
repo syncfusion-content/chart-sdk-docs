@@ -100,7 +100,7 @@ The tooltip is positioned at the **End** of the pointer. To change the position 
 
 ## Pointer Drag
 
-To drag either marker or bar pointer to the desired axis value, set the [`enableDrag`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/pointer/#enabledrag) property as **true** in the [`PointerDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/pointerModel/).
+To drag either marker or bar pointer to the desired axis value, set the [`enableDrag`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/pointer#enabledrag) property as **true** in the [`PointerDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/pointerModel).
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

@@ -4,6 +4,7 @@ title: Data Label Customization in ASP.NET Core Chart Component
 description: Learn here all about Data Label Customization in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label Customization
+publishingplatform: chart-sdk
 documentation: ug
 ---
 
@@ -112,4 +113,3 @@ public class EmployeeModel
 
 
 **Sample:** Customize the background color of data label is available in [`chart sample`](http://www.syncfusion.com/downloads/support/directtrac/general/ze/chartsample1860216677).
-

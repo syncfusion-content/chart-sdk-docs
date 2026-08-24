@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tooltip in ASP.NET Core Stock Charts | Syncfusion
-description: Learn here all about Tooltip in Syncfusion ASP.NET Core Stock Charts component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET Core Stock Chart | Syncfusion
+description: Learn here all about Tooltip in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
 documentation: ug
 ---
 
 
-# Tooltip in ASP.NET Core Stock Charts
+# Tooltip in ASP.NET Core Stock Chart
 
 <!-- markdownlint-disable MD036 -->
 

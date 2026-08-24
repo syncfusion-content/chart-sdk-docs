@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with React Charts | Syncfusion
-description: Learn how to add Syncfusion React Charts to a React app using the Syncfusion CLI or Vite, install the package, inject modules, bind data, and render your first chart.
+description: Learn to add Syncfusion React Charts to a React app using the Syncfusion CLI or Vite, install packages, inject modules, bind data, and render your first chart.
 control: Getting started
 platform: chart-sdk
 documentation: ug

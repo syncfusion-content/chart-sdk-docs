@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Series Types in React Stock Charts | Syncfusion
-description: Learn how to render line, candle, OHLC, HLC, area, and spline series in the Syncfusion React Stock Charts Component for financial data.
+title: Series Types in React Stock Chart | Syncfusion
+description: Learn how to render line, candle, OHLC, HLC, area, and spline series in the Syncfusion React Stock Chart Component for financial data.
 control: Series types  
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Series Types in React Stock Charts
+# Series Types in React Stock Chart
 
 Essential<sup style="font-size:70%">&reg;</sup> JS 2 StockChart supports 6 major types of series namely `Line`, `Spline`, `Hilo`, `HiloOpenClose`, `Hollow Candle` and `Candle` . By using the series dropdown button you can navigate between the above listed series types.
 

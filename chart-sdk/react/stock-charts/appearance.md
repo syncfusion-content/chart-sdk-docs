@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Appearance in React Stock Charts | Syncfusion
-description: Learn how to customize the appearance of the Syncfusion React Stock Charts Component with custom title and theme.
+title: Appearance in React Stock Chart | Syncfusion
+description: Learn how to customize the appearance of the Syncfusion React Stock Chart Component with custom title and theme.
 control: Appearance
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in React Stock Charts
+# Appearance in React Stock Chart
 
 ## Stock Chart Title
 

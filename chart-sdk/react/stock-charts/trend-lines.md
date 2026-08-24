@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Trendlines in React Stock Charts | Syncfusion
-description: Learn how to add trendlines to the Syncfusion React Stock Charts Component to show the direction and speed of a price trend over time.
+title: Trendlines in React Stock Chart | Syncfusion
+description: Learn how to add trendlines to the Syncfusion React Stock Chart Component to show the direction and speed of a price trend over time.
 control: Trendlines 
 platform: chart-sdk
 documentation: ug
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Trendlines in React Stock Charts
+# Trendlines in React Stock Chart
 
 Trendlines are used to show the direction and speed of price.
 

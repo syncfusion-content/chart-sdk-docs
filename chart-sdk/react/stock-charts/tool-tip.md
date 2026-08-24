@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tooltip in React Stock Charts | Syncfusion
-description: Learn how to enable and customize tooltips on the Syncfusion React Stock Charts Component with template, and shared tooltip options.
+title: Tooltip in React Stock Chart | Syncfusion
+description: Learn how to enable and customize tooltips on the Syncfusion React Stock Chart Component with template, and shared tooltip options.
 control: Tooltip
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in React Stock Charts
+# Tooltip in React Stock Chart
 
 <!-- markdownlint-disable MD036 -->
 

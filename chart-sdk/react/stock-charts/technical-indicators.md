@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Technical Indicators in React Stock Charts | Syncfusion
-description: Learn how to add technical indicators to the Syncfusion React Stock Charts Component, including SMA, EMA, RSI, MACD, and Bollinger Bands.
+title: Technical Indicators in React Stock Chart | Syncfusion
+description: Learn how to add technical indicators to the Syncfusion React Stock Chart Component, including SMA, EMA, RSI, MACD, and Bollinger Bands.
 control: Technical indicators
 platform: chart-sdk
 documentation: ug
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Technical Indicators in React Stock Charts
+# Technical Indicators in React Stock Chart
 
 A technical indicator is a mathematical calculation based on historic price, volume or open interest information that aims to forecast financial market direction.
 

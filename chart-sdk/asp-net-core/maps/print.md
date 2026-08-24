@@ -11,7 +11,7 @@ documentation: ug
 
 ## Print
 
-The rendered Maps can be printed directly from the browser by calling the [`print`](https://ej2.syncfusion.com/documentation/api/maps/#print) method. To use the print functionality, set the [`AllowPrint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.Maps.html#Syncfusion_EJ2_Maps_Maps_AllowPrint) property to "**true**".
+The rendered Maps can be printed directly from the browser by calling the [`print`](https://ej2.syncfusion.com/documentation/api/maps#print) method. To use the print functionality, set the [`AllowPrint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.Maps.html#Syncfusion_EJ2_Maps_Maps_AllowPrint) property to "**true**".
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

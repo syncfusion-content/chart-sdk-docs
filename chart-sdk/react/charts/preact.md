@@ -16,10 +16,6 @@ This article provides a step-by-step guide for setting up a [Preact](https://pre
 
 ## Prerequisites
 
-* [Node.js](https://nodejs.org) 18 or later.
-* [Preact](https://preactjs.com) 10.x.
-* `@syncfusion/ej2-react-charts` 27.2.x or later.
-
 Refer to the [system requirements for Syncfusion React UI components](../system-requirement) for additional details.
 
 ## Step 1: Set up the Preact project

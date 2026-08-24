@@ -10,7 +10,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD036 -->
 
-## How to customize the data label background in ASP.NET MVC Charts
+# How to customize the data label background in ASP.NET MVC Charts
 
 Bind the text and interior information for a point from dataSource. To change the background color in the datalabel template, use `${point.text}`. You have to bind the property from dataSource to name in the data label options to use point.text.
 

@@ -202,7 +202,7 @@ public class DataSource
 
 ![ASP.NET Core Sparkline Charts with Tooltip](images/sparkline-with-tooltip.webp)
 
-N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/Sparkline/ASP.NET%20Core%20Tag%20Helper%20Examples).
+N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-Getting-Started-Examples/tree/main/SparkLine/ASP.NET%20Core%20Tag%20Helper%20Examples).
 
 ## See also
 

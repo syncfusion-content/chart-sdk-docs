@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility Customization in React Accumulation Charts | Syncfusion
+title: Accessibility Customization in React Accumulation Chart | Syncfusion
 description: Learn how to configure advanced accessibility options in the Syncfusion React Accumulation Charts with custom ARIA attributes, roles, and keyboard patterns.
 control: Accessibility customization 
 platform: chart-sdk

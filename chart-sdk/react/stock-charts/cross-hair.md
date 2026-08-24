@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Crosshair in React Stock Charts | Syncfusion
-description: Learn how to enable crosshair on the Syncfusion React Stock Charts Component to show vertical and horizontal lines at the cursor position.
+title: Crosshair in React Stock Chart | Syncfusion
+description: Learn how to enable crosshair on the Syncfusion React Stock Chart Component to show vertical and horizontal lines at the cursor position.
 control: Cross hair
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Crosshair in React Stock Charts
+# Crosshair in React Stock Chart
 
 Crosshair has a vertical and horizontal line to view the value of the axis at mouse or touch position.
 

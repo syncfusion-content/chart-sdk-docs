@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with ASP.NET Core Stock Charts | Syncfusion
-description: Check out and learn about getting started with ASP.NET Core Stock Charts control of Essential JS 2 and more details.
+title: Getting Started with ASP.NET Core Stock Chart | Syncfusion
+description: Check out and learn about getting started with ASP.NET Core Stock Chart control of Essential JS 2 and more details.
 platform: chart-sdk
-control: Stock Charts
+control: Stock Chart
 documentation: ug
 ---
 
-# Getting Started with ASP.NET Core Stock Charts
+# Getting Started with ASP.NET Core Stock Chart
 
 This section briefly explains how to include the [ASP.NET Core Stock Chart](https://www.syncfusion.com/aspnet-core-ui-controls/stock-chart) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/), and [Visual Studio Code](https://code.visualstudio.com/).
 

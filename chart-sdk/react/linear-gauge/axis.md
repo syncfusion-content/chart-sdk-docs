@@ -33,7 +33,7 @@ To change the pointer value from the default value of the gauge, set the [`value
 
 ## Setting the start value and end value of the axis
 
-The start value and end value for the Linear Gauge can be set using the [`minimum`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axisModel#minimum) and [`maximum`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axisModel#maximum) properties in the [`AxisDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axis/) respectively. By default, the start value of the axis is **0** and the end value of the axis is **100**.
+The start value and end value for the Linear Gauge can be set using the [`minimum`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axisModel#minimum) and [`maximum`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axisModel#maximum) properties in the [`AxisDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axis) respectively. By default, the start value of the axis is **0** and the end value of the axis is **100**.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -264,7 +264,7 @@ By default, the Linear Gauge is rendered vertically. To change its orientation, 
 
 ## Inverted Axis
 
-The axis of the Linear Gauge component can be inversed by setting the [`isInversed`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axis/#isinversed) property to **true** in the [`AxisDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axisModel).
+The axis of the Linear Gauge component can be inversed by setting the [`isInversed`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axis#isinversed) property to **true** in the [`AxisDirective`](https://ej2.syncfusion.com/react/documentation/api/linear-gauge/axisModel).
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

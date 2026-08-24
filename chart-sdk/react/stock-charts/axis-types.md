@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Axis Types in React Stock Charts | Syncfusion
-description: Learn how to use datetime and logarithmic axis types in the Syncfusion React Stock Charts Component for plotting financial time-series data.
+title: Axis Types in React Stock Chart | Syncfusion
+description: Learn how to use datetime and logarithmic axis types in the Syncfusion React Stock Chart Component for plotting financial time-series data.
 control: Axis types 
 platform: chart-sdk
 documentation: ug
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Axis Types in React Stock Charts
+# Axis Types in React Stock Chart
 
 ## DateTime axis
 

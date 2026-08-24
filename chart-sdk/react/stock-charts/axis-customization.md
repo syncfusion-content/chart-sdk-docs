@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis Customization in React Stock Charts | Syncfusion
-description: Learn how to customize the axes in the Syncfusion React Stock Charts Component with titles, tick lines, grid lines, and opposed position options.
+title: Axis Customization in React Stock Chart | Syncfusion
+description: Learn how to customize the axes in the Syncfusion React Stock Chart Component with titles, tick lines, grid lines, and opposed position options.
 control: Axis customization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis Customization in React Stock Charts
+# Axis Customization in React Stock Chart
 
 ## Axis Crossing
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis Types in ASP.NET MVC Stock Charts | Syncfusion
-description: Learn here all about Axis Types in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
+title: Axis Types in ASP.NET MVC Stock Chart | Syncfusion
+description: Learn here all about Axis Types in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Types
 documentation: ug
 ---
 
 
-# Axis Types in ASP.NET MVC Stock Charts
+# Axis Types in ASP.NET MVC Stock Chart
 
 ## DateTime axis
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spline Range Area Chart in React Charts | Syncfusion
-description: Learn to render, customize, and bind Spline Range Area series in Syncfusion React Charts to display continuous high-low value ranges with smooth curved boundaries.
+description: Learn to render, customize, and bind Spline Range Area series in Syncfusion React Charts to display high-low value ranges with smooth curved boundaries.
 control: Spline Range Area Chart 
 platform: chart-sdk
 documentation: ug

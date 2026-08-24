@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart Dimensions in ASP.NET MVC Stock Charts | Syncfusion
-description: Learn here all about Chart Dimensions in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
+title: Chart Dimensions in ASP.NET MVC Stock Chart | Syncfusion
+description: Learn here all about Chart Dimensions in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Dimensions
 documentation: ug
 ---
 
 
-# Chart Dimensions in ASP.NET MVC Stock Charts
+# Chart Dimensions in ASP.NET MVC Stock Chart
 
 ## Size for Container
 

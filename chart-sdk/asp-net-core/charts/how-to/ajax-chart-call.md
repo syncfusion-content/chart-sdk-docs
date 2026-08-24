@@ -4,6 +4,7 @@ title: Ajax Chart Call in ASP.NET Core Chart Component
 description: Learn here all about Ajax Chart Call in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ajax Chart Call
+publishingplatform: chart-sdk
 documentation: ug
 ---
 
@@ -109,4 +110,3 @@ Make ajax call to the GetServerData() action method in chart load event to get J
 **Sample reference**
 
 Sample for how to get data from ajax call is available in [`chart sample`](http://www.syncfusion.com/downloads/support/directtrac/general/ze/samples1051291506).
-

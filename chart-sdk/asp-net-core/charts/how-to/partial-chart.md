@@ -4,6 +4,7 @@ title: Partial Chart in ASP.NET Core Chart Component
 description: Learn here all about Partial Chart in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Partial Chart
+publishingplatform: chart-sdk
 documentation: ug
 ---
 
@@ -73,4 +74,3 @@ Follow the given steps to render the charts in partial view.
 ```
 
 **Sample reference:** Sample for how to render the charts in partial view is available in [`chart sample`](http://www.syncfusion.com/downloads/support/directtrac/general/ze/chartsample1860216677).
-

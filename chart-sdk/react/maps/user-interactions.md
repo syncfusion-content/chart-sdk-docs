@@ -346,7 +346,7 @@ The appearance of the tooltip of the zoom toolbar can be customized by using the
 
 ### Zooming using center position
 
-The center position zooming can be achieved by using the [`centerPosition`](https://ej2.syncfusion.com/react/documentation/api/maps/#centerposition) and [`zoomFactor`](https://ej2.syncfusion.com/react/documentation/api/maps/zoomSettingsModel/#zoomfactor) properties as mentioned in the following example. The center position is used to configure the zoom level of Maps, and the zoom factor is used to specify the center position where the Maps should be displayed.
+The center position zooming can be achieved by using the [`centerPosition`](https://ej2.syncfusion.com/react/documentation/api/maps#centerposition) and [`zoomFactor`](https://ej2.syncfusion.com/react/documentation/api/maps/zoomSettingsModel#zoomfactor) properties as mentioned in the following example. The center position is used to configure the zoom level of Maps, and the zoom factor is used to specify the center position where the Maps should be displayed.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

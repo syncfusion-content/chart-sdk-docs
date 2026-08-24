@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis Customization in ASP.NET MVC Stock Charts | Syncfusion
-description: Learn here all about Axis Customization in Syncfusion ASP.NET MVC Stock Charts component of Syncfusion Essential JS 2 and more.
+title: Axis Customization in ASP.NET MVC Stock Chart | Syncfusion
+description: Learn here all about Axis Customization in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Customization
 documentation: ug
 ---
 
 
-# Axis Customization in ASP.NET MVC Stock Charts
+# Axis Customization in ASP.NET MVC Stock Chart
 
 <!-- markdownlint-disable MD034 -->
 
