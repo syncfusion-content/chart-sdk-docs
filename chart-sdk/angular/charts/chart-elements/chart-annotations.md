@@ -136,7 +136,7 @@ Use the [`x`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartAn
 ```bash
 <e-annotations>
    #  footer for chart
-        <e-annotation  content='<div id="chart" > <a href="https://www.syncfusion.com" target="_blank">www.syncfusion.com</a></div>'
+        <e-annotation  content='<div id="chart" > <a href="https://www.syncfusion.com" target="_blank" aria-label="Visit Syncfusion website">www.syncfusion.com</a></div>'
             x=400 y=440 coordinateUnits='Pixel' horizontalAlignment='Center'>
             </e-annotation>
         </e-annotations>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Line Chart in Angular Charts | Syncfusion
-description: Learn all about the Line Chart in Syncfusion Angular Charts (Essential JS 2).
+description: Learn how to create and customize Line Charts in Syncfusion Angular Charts (Essential JS 2) with features, examples, and best practices.
 platform: chart-sdk
 control: Line Chart
 documentation: ug
