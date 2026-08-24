@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Axis customization in Angular Sparkline component | Syncfusion
+title: Axis Customization in Angular Sparkline | Syncfusion
 description: Learn here all about Axis customization in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis customization 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in Angular Sparkline component
+# Axis Customization in Angular Sparkline
 
 You can customize axis value types and min and max values of the sparkline.
 

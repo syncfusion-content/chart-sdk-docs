@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gradient in Angular Stock chart component | Syncfusion
+title: Gradient in Angular Stock Chart | Syncfusion
 description: Learn here all about Gradient in Syncfusion Angular Stock chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gradient
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Gradient in Angular Stock chart control
+# Gradient in Angular Stock Chart
 
 <!-- markdownlint-disable MD038 -->
 

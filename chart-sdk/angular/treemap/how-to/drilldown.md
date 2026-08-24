@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drilldown in Angular Treemap component | Syncfusion
+title: How to drilldown in Angular TreeMap | Syncfusion
 description: Learn here all about Drilldown in Syncfusion Angular Treemap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Drilldown 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Drilldown in Angular Treemap component
+# How to drilldown in Angular TreeMap
 
 ## Customize the header for treemap drilldown
 
