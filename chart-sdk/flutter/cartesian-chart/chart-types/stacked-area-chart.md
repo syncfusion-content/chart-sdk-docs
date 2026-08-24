@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Stacked area Chart in Flutter Cartesian Charts | Syncfusion 
-description: Learn here all about stacked area chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Stacked Area Chart in Flutter Cartesian Chart | Syncfusion®
+description: The stacked area chart support in Flutter Cartesian Chart offers visualization of cumulative trends by stacking series values to show overall contribution.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Stacked area Chart in Flutter Cartesian Charts (SfCartesianChart)
+# Stacked Area Chart in Flutter Cartesian Chart
 
 To create a Flutter stacked area chart quickly, you can check this video.
 
@@ -179,9 +179,9 @@ You can show the cumulative data label values using the [`showCumulativeValues`]
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)

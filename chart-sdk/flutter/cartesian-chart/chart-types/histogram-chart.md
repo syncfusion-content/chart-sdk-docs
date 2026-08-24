@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Histogram Chart in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about histogram chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Histogram Chart in Flutter Cartesian Chart | Syncfusion®
+description: The histogram chart support in Flutter Cartesian Chart offers data distribution visualization by grouping values into bins for statistical analysis.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Histogram Chart in Flutter Cartesian Charts (SfCartesianChart)
+# Histogram Chart in Flutter Cartesian Chart
 
 Histogram chart is a graphical representation that organizes a group of data points into user-specified ranges. It is similar in appearance to a bar chart. The histogram condenses a data series into an easily interpreted visual by taking many data points and grouping them into logical ranges.
 
@@ -166,9 +166,9 @@ You can collapse the normal distribution curve using the [`showNormalDistributio
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)

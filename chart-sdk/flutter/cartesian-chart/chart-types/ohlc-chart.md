@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Open High Low Close in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about open high low close chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Open High Low Close in Flutter Cartesian Chart | Syncfusion®
+description: The open high low close chart support in Flutter Cartesian Chart offers financial data visualization for market analysis.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Open High Low Close in Flutter Cartesian Charts (SfCartesianChart)
+# Open High Low Close in Flutter Cartesian Chart
 
 To create a Flutter open high low close chart quickly, you can check this video.
 
@@ -127,8 +127,8 @@ The following are the types of indication when the combination of high, low, ope
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points) 
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points) 
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)
