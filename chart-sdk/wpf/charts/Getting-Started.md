@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with WPF Charts control | Syncfusion
-description: Learn here about getting started with Syncfusion® WPF Charts (SfChart) control, its elements, and more details.
+title: Getting Started with WPF Charts control | Syncfusion®
+description: Learn how to get started with the Syncfusion® WPF Charts control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfChart
 documentation: ug
 ---
 
-# Getting Started with WPF Charts (SfChart)
+# Getting Started with WPF Charts
 
 This section explains the steps required to populate the chart with data, header, data labels, legend, and tooltips in the chart. This section covers only the minimal features that you need to learn to get started with the chart.
 
@@ -287,7 +287,7 @@ chart.Series.Add(series)
 
 {% endtabs %} 
 
-N> Syncfusion® Chart also supports rendering a combination of multiple series. Refer to [`this`](https://help.syncfusion.com/wpf/charts/area#multiple-area) for details.
+N> Syncfusion® Chart also supports rendering a combination of multiple series. Refer to [`this`](https://help.syncfusion.com/chart-sdk/wpf/charts/area#multiple-area) for details.
 
 ## Add title
 
@@ -320,7 +320,7 @@ chart.Header = "Chart"
 
 {% endtabs %}
 
-Refer to [`this`](https://help.syncfusion.com/wpf/charts/header) link to learn more about the options available in [`SfChart`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SfChart.html) to customize chart header.
+Refer to [`this`](https://help.syncfusion.com/chart-sdk/wpf/charts/header) link to learn more about the options available in [`SfChart`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SfChart.html) to customize chart header.
 
 
 ## Enable data labels

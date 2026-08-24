@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Legend in WPF Charts control | Syncfusion
-description: Learn here all about Legend support in Syncfusion® WPF Charts (SfChart) control, its elements and more details.
+title: Legend in WPF Charts | Syncfusion®
+description: Legend in the WPF Chart identifies series and data categories, helping users understand and interpret chart information clearly.
 platform: chart-sdk
 control: SfChart
 documentation: ug
 ---
 
-# Legend in WPF Charts (SfChart)
+# Legend in WPF Charts
 
-[`Legend`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Legend) provides metadata which helps for identifying elements in chart like [chart series](https://help.syncfusion.com/wpf/charts/seriestypes/series), 
-[technical indicators](https://help.syncfusion.com/wpf/charts/technical-indicators), and [trendlines](https://help.syncfusion.com/wpf/charts/trendlines). 
+[`Legend`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Legend) provides metadata which helps for identifying elements in chart like [chart series](https://help.syncfusion.com/chart-sdk/wpf/charts/seriestypes/series), 
+[technical indicators](https://help.syncfusion.com/chart-sdk/wpf/charts/technical-indicators), and [trendlines](https://help.syncfusion.com/chart-sdk/wpf/charts/trendlines). 
 You can define the legend using the following code example.
 
 {% tabs %}
@@ -306,7 +306,7 @@ The series can be collapsed by unchecking the CheckBox as below:
 
 ## ToggleSeriesVisibility 
 
-[`ToggleSeriesVisibility`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartLegend.html#Syncfusion_UI_Xaml_Charts_ChartLegend_ToggleSeriesVisibility) is used to view or collapse the associated [`series`](https://help.syncfusion.com/wpf/charts/seriestypes/series), by clicking on its legend item. By default, the [`ToggleSeriesVisibility`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartLegend.html#Syncfusion_UI_Xaml_Charts_ChartLegend_ToggleSeriesVisibility) property is `false`.
+[`ToggleSeriesVisibility`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartLegend.html#Syncfusion_UI_Xaml_Charts_ChartLegend_ToggleSeriesVisibility) is used to view or collapse the associated [`series`](https://help.syncfusion.com/chart-sdk/wpf/charts/seriestypes/series), by clicking on its legend item. By default, the [`ToggleSeriesVisibility`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartLegend.html#Syncfusion_UI_Xaml_Charts_ChartLegend_ToggleSeriesVisibility) property is `false`.
 
 We can enable the [`ToggleSeriesVisibility`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartLegend.html#Syncfusion_UI_Xaml_Charts_ChartLegend_ToggleSeriesVisibility) property as in the below code example:
 
@@ -332,12 +332,12 @@ chart.Legend = new ChartLegend()
 {% endtabs %}
 
 
-The [`series`](https://help.syncfusion.com/wpf/charts/seriestypes/series) can be collapsed by clicking on the respective legend item.
+The [`series`](https://help.syncfusion.com/chart-sdk/wpf/charts/seriestypes/series) can be collapsed by clicking on the respective legend item.
 
 ![Collapse Toggle Series for Legend in WPF Chart](Legend_images/wpf-chart-collapse-toggle-series.png)
 
 
-We can also view the associated [`series`](https://help.syncfusion.com/wpf/charts/seriestypes/series) by clicking on its disabled legend item.
+We can also view the associated [`series`](https://help.syncfusion.com/chart-sdk/wpf/charts/seriestypes/series) by clicking on its disabled legend item.
 
 ![Visible Toggle Series for Legend in WPF Chart](Legend_images/wpf-chart-visible-toggle-series.png)
 
