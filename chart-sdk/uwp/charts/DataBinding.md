@@ -1,17 +1,17 @@
 ---
 layout: post
-title: DataBinding in UWP Charts control | Syncfusion
-description: Learn all about DataBinding support in Syncfusion® UWP Charts (SfChart) control, its functionality, and more
+title: Data Binding in UWP Charts | Syncfusion®
+description: Data binding in the UWP Chart connects chart series to data sources, enabling dynamic visualization and automatic data updates.
 platform: chart-sdk
 control: SfChart
 documentation: ug
 ---
 
-# DataBinding in UWP Charts (SfChart)
+# Data Binding in UWP Charts
 
 [`SfChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html) offers [`ItemsSource`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_ItemsSource) property to bind various datasource ranges from simple collection property to complex properties.
 
-### Binding a simple collection to the chart
+## Binding a simple collection to the chart
 
 {% tabs %}
 
@@ -80,7 +80,7 @@ public sealed partial class MainPage : Page
 
 {% endtabs %}
 
-### Binding complex property to the chart
+## Binding complex property to the chart
 
 The complex property binding feature enables you to access nested object reference property values to render the chart segment. 
 {% tabs %}
@@ -130,7 +130,7 @@ public class DataPointWithMultipleData
 
 {% endtabs %}
 
-### Binding array property to the chart
+## Binding array property to the chart
 
 The [`SfChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html) supports array values for the [`XBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_XBindingPath) and [`YBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.XYDataSeries.html#Syncfusion_UI_Xaml_Charts_XyDataSeries_YBindingPath). [`XBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_XBindingPath) and [`YBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.XYDataSeries.html#Syncfusion_UI_Xaml_Charts_XyDataSeries_YBindingPath) are bound with the property name in the corresponding index value. You can bind the same property with different index values.
 
@@ -221,7 +221,7 @@ private void CreateChart()
 
 {% endtabs %}
 
-### Listening property changes
+## Listening property changes
 
 You can notify the [`XBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_XBindingPath) and [`YBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.XYDataSeries.html#Syncfusion_UI_Xaml_Charts_XyDataSeries_YBindingPath) properties changes by setting [`ListenPropertyChange`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_ListenPropertyChange) as true as shown in the below code snippet.
 
