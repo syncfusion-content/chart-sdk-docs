@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Points customization in JavaScript Chart control | Syncfusion
+title: How to customize points in JavaScript Chart | Syncfusion
 description: Learn here all about Points customization in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Points customization 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Points customization in JavaScript Chart control
+# How to customize points in JavaScript Chart
 
 You can customize the series points with patterns by using the `pointColorMapping` property.
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Threshold in JavaScript Chart control | Syncfusion
+title: How to add threshold in JavaScript Chart | Syncfusion
 description: Learn here all about Threshold in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Threshold 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Threshold in JavaScript Chart control
+# How to add threshold in JavaScript Chart
 
 You can mark a threshold in chart by using the `stripline`.
 
