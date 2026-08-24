@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Zooming in ASP.NET Core Syncfusion Chart Component
-description: Learn here all about Zooming in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Zooming in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Zooming in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Zooming
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Zooming and Panning in ASP.NET Core Chart Component
+# Zooming in ASP.NET Core Charts
 
 ## Enable zooming
 
@@ -157,4 +156,5 @@ By using [`enableAutoIntervalOnZooming`](https://help.syncfusion.com/cr/aspnetco
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/zoom/auto-interval/auto-interval.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

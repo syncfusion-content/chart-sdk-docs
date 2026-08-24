@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Legend and Customization in ASP.NET Core Syncfusion Chart Component
-description: Learn here all about Legend in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Legend in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Legend in ASP.NET Core Chart Component
+# Legend in ASP.NET Core Charts
 
 Legend provides information about the series rendered in the chart.
 
@@ -174,7 +173,7 @@ You can set the legend label color based on series color by using chart's [loade
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET Core Chart Label Color](../images/legend-label.png)
+![ASP.NET Core Chart Label Color](images/legend-label.png)
 
 ## Series Selection on Legend
 

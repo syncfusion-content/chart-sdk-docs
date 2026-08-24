@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart Annotations in ASP.NET Core Chart Component
-description: Learn here all about Chart Annotations in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Chart Annotations in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Chart Annotations in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Annotations
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Annotation
+# Chart Annotations in ASP.NET Core Charts
 
 Annotations are used to mark the specific area of interest in the chart area with texts, shapes or images.
 
@@ -85,4 +84,5 @@ By setting text div in the `content` option of annotation object, you can add su
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/axis-sub/axis-sub.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
