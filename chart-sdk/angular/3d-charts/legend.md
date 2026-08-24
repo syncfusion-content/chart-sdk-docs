@@ -129,7 +129,7 @@ By default, legend takes 20% - 25% of the 3D chart's height horizontally, when i
 
 ### Legend item size
 
-The size of the legend items can be customised by using the [`shapeHeight`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/threeDimensionalLegendSettingsModel#shapeheight) and [`shapeWidth`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/threeDimensionalLegendSettingsModel#shapewidth) properties.\
+The size of the legend items can be customized by using the [`shapeHeight`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/threeDimensionalLegendSettingsModel#shapeheight) and [`shapeWidth`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/threeDimensionalLegendSettingsModel#shapewidth) properties.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

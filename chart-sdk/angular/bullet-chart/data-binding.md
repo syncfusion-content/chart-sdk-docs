@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Working with Data in Angular Bullet Chart
 
-Bullet Chart can visualise data bound from local or remote data.
+Bullet Chart can visualize data bound from local or remote data.
 
 ## Local Data
 
