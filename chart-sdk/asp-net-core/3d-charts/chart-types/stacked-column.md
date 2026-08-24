@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Stacked column chart in ASP.NET Core Syncfusion 3D Chart Component
-description: Learn here all about stacked column chart in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Stacked Column in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about stacked column chart in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stacked column chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Stacked column chart in ASP.NET Core 3D Chart Component
+# Stacked Column in ASP.NET Core 3D Charts
 
 ## Stacked column chart
 

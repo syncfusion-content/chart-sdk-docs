@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Tooltip in ASP.NET Core Syncfusion 3D Circular Chart Component
-description: Learn here all about tooltip in Syncfusion ASP.NET Core 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET Core 3D Circular Charts | Syncfusion
+description: Learn here all about tooltip in Syncfusion ASP.NET Core 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tooltip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Tooltip in ASP.NET Core 3D Circular Chart component
+# Tooltip in ASP.NET Core 3D Circular Charts
 
 The 3D Circular Chart will display details about the points through a tooltip, when the mouse is moved over a specific point. By default, the tooltip is not visible. It can be enabled by using the `Enable` property in `Tooltip` to **true**.
 
@@ -165,5 +164,6 @@ Using the `TooltipRender` event, you can customize tooltip values for a particu
 {% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/user-interaction/tooltip-event/tooltip-event.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 
