@@ -47,7 +47,7 @@ The localization library localizes the Chart's default text content. Static text
 
 To load translation object in an application use load function of L10n class.
 
-For more information about localization, see the localization guide:  [`localization`](https://ej2.syncfusion.com/development/react/documentation/common/globalization/localization)
+For more information about localization, see the localization guide:  [`localization`](https://ej2.syncfusion.com/react/documentation/common/globalization/localization)
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

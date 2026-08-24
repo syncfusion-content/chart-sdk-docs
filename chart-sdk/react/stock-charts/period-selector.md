@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Period Selector in React Stock Chart | Syncfusion
-description: Learn how to add a period selector to the Syncfusion React Stock Chart Component for quick presets.
+description: Learn how to add a period selector to the Syncfusion React Stock Chart Component for quick date range presets.
 control: Period selector 
 platform: chart-sdk
 documentation: ug
