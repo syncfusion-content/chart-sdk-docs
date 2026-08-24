@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Drilldown in ASP.NET MVC Treemap Component
-description: Learn here all about Drilldown in Syncfusion ASP.NET MVC Treemap component of Syncfusion Essential JS 2 and more.
+title: Drilldown in ASP.NET MVC TreeMap | Syncfusion
+description: Learn here all about Drilldown in Syncfusion ASP.NET MVC TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Drilldown
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Drill-down
+# Drilldown in ASP.NET MVC TreeMap
 
 The TreeMap supports drill-down to expose the hierarchy, achieved by clicking a node. If an item is clicked in the TreeMap, it will be moved to the next level or sub level hierarchy and returned back to the previous level by clicking the node.
 

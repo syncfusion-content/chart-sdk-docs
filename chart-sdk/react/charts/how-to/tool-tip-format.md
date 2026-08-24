@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tool tip format in React Chart component | Syncfusion
-description: Learn here all about Tool tip format in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to format date tooltips in React Charts | Syncfusion
+description: Learn how to format date and time values in Syncfusion React Charts tooltips for clearer, locale-friendly data display.
 control: Tool tip format 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip format in React Chart component
+# How to format date tooltips in React Charts
 
 Using [`tooltipRender`](https://ej2.syncfusion.com/react/documentation/api/chart/chartModel#tooltiprender) event, you can able to format the datetime value instead of rendered value.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Selected data grid in React Chart component | Syncfusion
-description: Learn here all about Selected data grid in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to display selected data in a grid in React Charts | Syncfusion
+description: Learn how to display Syncfusion React Charts range-selected data values inside a Syncfusion Grid using drag events.
 control: Selected data grid 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Selected data grid in React Chart component
+# How to display selected data in a grid in React Charts
 
 By using the [`dragComplete`](https://ej2.syncfusion.com/react/documentation/api/chart/chartModel#dragcomplete), you can get the selected data values for range selection.
 

@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Links in ASP.NET Core Sankey Chart Component
-description: Learn here all about Links in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Links in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Links in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Links
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Links in ASP.NET Core Sankey Chart component
+# Links in ASP.NET Core Sankey Diagram
 
 Links are the connecting paths that visualize flow between nodes in a Sankey Chart. Each link connects a source node to a target node and carries a quantitative value that determines its visual thickness. The Sankey Chart provides comprehensive customization options for link styling, colors, curvature, and interactions.
 

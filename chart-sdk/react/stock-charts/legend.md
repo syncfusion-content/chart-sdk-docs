@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Legend in React Stock chart component | Syncfusion
-description: Learn here all about Legend in Syncfusion React Stock chart component of Syncfusion Essential JS 2 and more.
+title: Legend in React Stock Chart | Syncfusion
+description: Learn how to enable the legend in the Syncfusion React Stock Chart Component to identify each series, with options for position, shape, and paging.
 control: Legend 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in React Stock chart component
+# Legend in React Stock Chart
 
 Legend provides information about the series rendered in the Stock Chart. Legend can be added to a Stock Chart by enabling the [`visible`](https://ej2.syncfusion.com/react/documentation/api/stock-chart/legendSettings#visible) option in the [`legendSettings`](https://ej2.syncfusion.com/react/documentation/api/stock-chart/legendSettings).
 

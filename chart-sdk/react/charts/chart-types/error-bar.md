@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Error Bar Chart in React Charts | Syncfusion
-description: Learn here all about Error Bar in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn how to render and customize Error Bar series in Syncfusion React Charts to visualize data variability and uncertainty.
 control: Error Bar
 platform: chart-sdk
 documentation: ug

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Selection in Syncfusion ASP.NET MVC HeatMap Chart Component
+title: Selection in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Selection in Syncfusion ASP.NET MVC HeatMap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Selection
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Selection in ASP.NET MVC HeatMap Chart Component
+# Selection in ASP.NET MVC HeatMap Chart
 
 In the HeatMap, the cell selection is used to select single or multiple HeatMap cells at runtime and get the selected cell details using the [CellSelected](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_CellSelected) event. You can enable the cell selection using the [AllowSelection](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_AllowSelection) property.
 

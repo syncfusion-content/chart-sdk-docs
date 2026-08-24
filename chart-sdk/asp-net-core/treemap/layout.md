@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Layout in ASP.NET Core Treemap Component
-description: Learn here all about Layout in Syncfusion ASP.NET Core Treemap component of Syncfusion Essential JS 2 and more.
+title: Layout in ASP.NET Core TreeMap | Syncfusion
+description: Learn here all about Layout in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Layout
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Layout
+# Layout in ASP.NET Core TreeMap
 
 Determine the visual representation of nodes belonging to all the TreeMap levels using the `layoutType` property.
 

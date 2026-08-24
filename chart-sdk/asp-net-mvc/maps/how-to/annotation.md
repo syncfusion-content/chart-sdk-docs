@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Annotation in Syncfusion ASP.NET MVC Maps Component
+title: How to add annotation in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Annotation in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Annotation
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Annotations in ASP.NET MVC Maps Component
+# How to add annotation in ASP.NET MVC Maps
 
 Annotations are used to mark the specific area of interest in the Maps with texts, shapes, or images. Any number of annotations can be added to the Maps component.
 

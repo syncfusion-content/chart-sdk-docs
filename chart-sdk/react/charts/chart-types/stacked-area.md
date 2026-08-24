@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 100% Stacked Area Chart in React Charts | Syncfusion
-description: Learn here all about 100% Stacked Area Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind 100% Stacked Area series in Syncfusion React Charts to compare proportional contributions as percentages over time.
 control: 100% Stacked Area Chart 
 platform: chart-sdk
 documentation: ug

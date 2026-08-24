@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Legend in React Sankey Chart component | Syncfusion
-description: Learn here all about Legend in Syncfusion React Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in React Sankey Diagram | Syncfusion
+description: Learn how to enable and customize the legend in the Syncfusion React Sankey Diagram Component to identify nodes.
 control: Legend
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in React Sankey Chart component
+# Legend in React Sankey Diagram
 
 A legend provides a visual key that helps users understand the categories and meanings represented by nodes in the Sankey Chart. The Sankey Chart provides comprehensive legend configuration options including positioning, styling, customization, and interactive behaviors. You can enable and customize legend using the `legend` property and by injecting the `SankeyLegend` module.
 
