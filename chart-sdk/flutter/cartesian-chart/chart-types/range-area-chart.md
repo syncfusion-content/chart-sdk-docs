@@ -94,7 +94,7 @@ The borders of the range area chart can be customized using the [`borderDrawMode
 
 ![Range area border](cartesian-chart-types-images/range_area_border.png)
 
-#### See Also
+### See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)

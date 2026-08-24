@@ -213,7 +213,7 @@ You can show the cumulative data label values using the [`showCumulativeValues`]
 
 ![Stacked column cumulative](cartesian-chart-types-images/stacked_column_cumulative.jpg)
 
-#### See Also
+### See Also
 
 * [Cumulative and non-cumulative values on the stacked column charts](https://support.syncfusion.com/kb/article/11406/how-to-show-cumulative-and-non-cumulative-values-on-the-stacked-column-charts).
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 

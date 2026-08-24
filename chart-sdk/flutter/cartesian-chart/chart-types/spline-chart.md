@@ -199,7 +199,7 @@ The [`isTransposed`](https://pub.dev/documentation/syncfusion_flutter_charts/lat
 
 ![Vertical spline chart](cartesian-chart-types-images/inversed-spline.png)
 
-#### See Also
+### See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)

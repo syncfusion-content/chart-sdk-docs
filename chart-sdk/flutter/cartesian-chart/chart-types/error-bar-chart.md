@@ -286,7 +286,7 @@ The [`capLength`](https://pub.dev/documentation/syncfusion_flutter_charts/latest
 
 ![Error bar cap length](cartesian-chart-types-images/error_bar_caplength.png)
 
-#### See Also
+### See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)

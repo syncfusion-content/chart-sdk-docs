@@ -65,7 +65,7 @@ To render a OpenHighLowClose chart, create an instance of [` HiloOpenCloseSeries
 
 ![hiLoopenclose chart](cartesian-chart-types-images/hilo_open_close.png)
 
-#### See Also 
+### See Also 
 
 * [Display volume data of financial series](https://support.syncfusion.com/kb/article/11479/display-volume-data-of-financial-series-in-flutter-cartesian-chart).
 
@@ -125,7 +125,7 @@ The following are the types of indication when the combination of high, low, ope
 
 ![OHLC Indication](cartesian-chart-types-images/hilo_open_close_indication.jpg)
 
-#### See Also
+### See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)

@@ -66,7 +66,7 @@ To render a 100% stacked area chart, create an instance of [`StackedArea100Serie
 
 ![Stacked 100Area chart](cartesian-chart-types-images/stacked_area_100.png)
 
-#### See Also
+### See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
