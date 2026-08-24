@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic data update in React Chart component | Syncfusion
+title: Dynamic data update in React Chart | Syncfusion
 description: Learn here all about dynamic data update in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
 control: Dynamic Data Update
 platform: chart-sdk
