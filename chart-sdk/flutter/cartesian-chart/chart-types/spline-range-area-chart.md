@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Spline range area in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about spline range area chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Spline Range Area Chart in Flutter Cartesian Chart | Syncfusion®
+description: The spline range area chart support in Flutter Cartesian Chart offers smooth visualization of value ranges between upper and lower bounds across data points.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Spline range area Chart in Flutter Cartesian Charts (SfCartesianChart)
+# Spline Range Area Chart in Flutter Cartesian Chart
 
 To create a Flutter spline range area chart quickly, you can check this video.
 
@@ -141,9 +141,9 @@ The borders of the spline range area chart can be customized using the [`borderD
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)

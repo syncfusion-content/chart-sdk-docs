@@ -1,13 +1,13 @@
 ---
 layout: post
-title: HiLo Chart in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about hiLo chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: HiLo Chart in Flutter Cartesian Chart | Syncfusion®
+description: The HiLo chart support in Flutter Cartesian Chart offers visualization of high and low values across categories for effective range analysis.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# HiLo Chart in Flutter Cartesian Charts (SfCartesianChart)
+# HiLo Chart in Flutter Cartesian Chart
 
 To create a Flutter hilo chart quickly, you can check this video.
 
@@ -57,8 +57,8 @@ To render a HiLo chart, create an instance of [`HiloSeries`](https://pub.dev/doc
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points) 
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points) 
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)

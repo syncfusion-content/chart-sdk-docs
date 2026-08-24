@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Candle Chart in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to create and customize Candle Chart in Syncfusion Flutter Cartesian Charts—add candle series, style, and configure key features.
+title: Candle Chart in Flutter Cartesian Chart | Syncfusion®
+description: The candle chart support in Flutter Cartesian Chart offers financial data visualization with open, high, low, and close values for trend analysis.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Candle Chart (SfCartesianChart)
+# Candle Chart in Flutter Cartesian Chart
 
-To create a Flutter candle chart quickly, you can check this video.
+To create a Flutter candle chart quickly, you can watch this video.
 
 <style>#flutterCandleChartTutorial{width : 90% !important; height: 300px !important }</style>
 <iframe id='flutterCandleChartTutorial' src='https://www.youtube.com/embed/g5cniDExpRw'></iframe>
@@ -241,8 +241,8 @@ The following are the types of indication when the combination of high, low, ope
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)  
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)  

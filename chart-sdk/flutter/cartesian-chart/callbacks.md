@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Callbacks in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to handle callback events in Syncfusion Flutter Cartesian Charts—handle tooltip, data label, legend, and configure key features.
+title: Callbacks in Flutter Cartesian Chart | Syncfusion®
+description: The callback support in Flutter Cartesian Chart offers events for selection, zooming, tooltips, axes, rendering, and user interactions.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Callback Events (SfCartesianChart)
+# Callbacks in Flutter Cartesian Chart
 
-This document describes the callbacks available for the Cartesian chart
+This document describes the callbacks available for the Cartesian chart.
 
 ## onTooltipRender
 
@@ -1198,7 +1198,7 @@ Defaults to `null`.
 The [`onCreateShader`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/CartesianSeries/onCreateShader.html)  provides options to get the outer rect, inner rect, and render type (either series or legend) using [`ChartShaderDetails`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ChartShaderDetails-class.html)  class.
 
 The onCreateShader callback is called once while rendering
-the data points and legend. For further reference on this callback, Check the [`Gradient fill`](https://help.syncfusion.com/flutter/cartesian-charts/series-customization#gradient-fill) section.
+the data points and legend. For further reference on this callback, Check the [`Gradient fill`](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill) section.
 
 {% tabs %}
 {% highlight dart %}
@@ -1380,4 +1380,4 @@ Triggers while rendering the multi-level labels. Text and text styles such as co
 
 * [To Synchronize panning in multiple charts](https://support.syncfusion.com/kb/article/9939/how-to-synchronize-panning-in-multiple-charts-sfcartesianchart).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

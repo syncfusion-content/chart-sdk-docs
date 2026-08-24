@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Stacked Bar Chart in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to create and customize Stacked Bar Chart in Syncfusion Flutter Cartesian Charts—add stacked bar series, style, and configure key features.
+title: Stacked Bar Chart in Flutter Cartesian Chart | Syncfusion®
+description: The stacked bar chart support in Flutter Cartesian Chart offers cumulative data comparison by stacking series values to show overall contribution.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Stacked Bar Chart (SfCartesianChart)
+# Stacked Bar Chart in Flutter Cartesian Chart
 
 To create a Flutter stacked bar chart quickly, you can check this video.
 
@@ -168,9 +168,9 @@ You can show the cumulative data label values using the [`showCumulativeValues`]
 
 #### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)
