@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dynamic Data Update in Angular Accumulation Chart component
+# Dynamic Data Update in Angular Accumulation Chart
 
 ## Adding a new data point
 
