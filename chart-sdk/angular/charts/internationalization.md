@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Internationalization in Angular Chart component | Syncfusion
+title: Internationalization in Angular Chart | Syncfusion
 description: Learn here all about Internationalization in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Internationalization in Angular Chart component
+# Internationalization in Angular Chart
 
 Chart provides support for internationalization for the following elements:
 
