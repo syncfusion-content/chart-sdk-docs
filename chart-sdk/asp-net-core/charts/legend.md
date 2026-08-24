@@ -173,7 +173,7 @@ You can set the legend label color based on series color by using chart's [loade
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET Core Chart Label Color](../images/legend-label.png)
+![ASP.NET Core Chart Label Color](images/legend-label.png)
 
 ## Series Selection on Legend
 

@@ -82,4 +82,4 @@ To get the data from data base and render the gauge from code behind, follow the
 
 **Screenshot**
 
-![Screenshot for your reference](../images/database.png)
+![Circular gauge Database data for your reference](../images/database.png)

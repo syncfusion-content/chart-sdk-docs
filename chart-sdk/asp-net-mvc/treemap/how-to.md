@@ -69,7 +69,7 @@ Customize the population for drilled countries or states in the header element w
 
 **Screenshot**
 
-![Screenshot for your reference](./images/header-template.png)
+![Customized header shown during TreeMap drilldown](./images/header-template.png)
 
 ## Add label template with drill down
 
@@ -110,4 +110,4 @@ Add the label template in the `leafItemSettings` options, and then set the `show
 
 **Screenshot**
 
-![Screenshot for your reference](./images/label-template.png)
+![TreeMap displaying label templates with drilldown](./images/label-template.png)

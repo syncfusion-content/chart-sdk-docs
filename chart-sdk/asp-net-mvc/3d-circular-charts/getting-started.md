@@ -98,7 +98,7 @@ By default, the pie series will be rendered when assigning the JSON data to the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/circular-chart/getting-started/razor %}
+{% include code-snippet/chart-sdk/asp-net-mvc/3d-circular-charts/getting-started/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
 public ActionResult Index()

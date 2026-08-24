@@ -174,7 +174,7 @@ You can set the legend label color based on series color by using chart's [Loade
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET MVC Chart Label Color](../images/legend-label.png)
+![ASP.NET MVC Chart Label Color](images/legend-label.png)
 
 ## Series Selection on Legend
 
