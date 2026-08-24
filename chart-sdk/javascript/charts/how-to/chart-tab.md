@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Chart tab in JavaScript Chart | Syncfusion
+title: Chart tab in JavaScript Chart control | Syncfusion
 description: Learn here all about Chart tab in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Chart tab 
+publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart tab in JavaScript Chart
+# Chart tab in JavaScript Chart control
 
 By using Tab control you can add the charts inside of the tab. Tab control contains content property. By setting container ID in content property, you can display chart in tab.
 

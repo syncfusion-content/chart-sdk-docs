@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to visualize grid records in pie chart in JavaScript Chart | Syncfusion
+title: Visualize Grid Records in JavaScript Pie Chart | Syncfusion | Syncfusion
 description: Learn here all about Grid data pie in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -20,7 +20,7 @@ Initialize the grid with datasource.
 
 **Step 2**:
 
-By using the grid’s `actionComplete` event and `getCurrentViewRecords` method, you can get the current page records. By setting `allowFiltering` value as `true`, you can filter the data. By using the grid’s `databound` event, you can update the current page filtered records into the chart’s datasource and display the grid filtered data in chart.
+By using the grid’s `actionComplete` event and `getCurrentViewRecords` method, you can get the current page records. By setting `allowFiltering` value as `true`, you can filter the data. By using the grid’s [`databound`](https://ej2.syncfusion.com/documentation/api/grid/index-default#databound) event, you can update the current page filtered records into the chart’s datasource and display the grid filtered data in chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
