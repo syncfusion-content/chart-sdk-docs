@@ -4,11 +4,10 @@ title: Overview in Syncfusion ASP.NET Core Maps Component
 description: Learn here all about Overview in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Index
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Overview
+# Overview in ASP.NET Core Maps Control
 
 The Maps component is used to visualize the geographical data. It is used to represent the statistical data of a particular geographical area on Earth, with user interactivity and provides various customizing options. All the Maps elements are rendered using Scalable Vector Graphics (SVG).
 

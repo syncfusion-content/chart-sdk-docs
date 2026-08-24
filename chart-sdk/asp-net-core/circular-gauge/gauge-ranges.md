@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Gauge Ranges in ASP.NET Core Circular Gauge Control | Syncfusion
+title: Ranges in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge Ranges in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge Ranges
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Ranges in Circular Gauge Control
+# Ranges in ASP.NET Core Circular Gauge
 
 You can categories certain interval on gauge axis using [ranges](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeRange.html) property.
 

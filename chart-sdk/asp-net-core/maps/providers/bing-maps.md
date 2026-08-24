@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Bing Maps in Syncfusion ASP.NET Core Syncfusion Maps Component
+title: Bing Maps in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Bing Maps in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Bing Maps
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Bing Maps in ASP.NET Core Maps Component
+# Bing Maps in ASP.NET Core Maps
 
 Bing Maps is a online Maps provider, owned by Microsoft. As like OSM, it provide Maps tile images based on our requests and combines those images into a single one to display Maps area.
 
