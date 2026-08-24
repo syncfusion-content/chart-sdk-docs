@@ -17,7 +17,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Line Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/line-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/line-chart" aria-label="Flutter Cartesian Line Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -25,7 +25,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
            Fast line Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/fast-line-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/fast-line-chart" aria-label="Flutter Cartesian Fast Line Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -33,7 +33,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Area Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/area-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/area-chart" aria-label="Flutter Cartesian Area Chart Link">Link</a>
         </td>
     </tr>
      <tr>
@@ -41,7 +41,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Spline Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/spline-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/spline-chart" aria-label="Flutter Cartesian Spline Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -49,7 +49,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
           Column Chart
         </td>
        <td>
-           <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/column-chart">Link</a>
+           <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/column-chart" aria-label="Flutter Cartesian Column Chart Link">Link</a>
       </td>
     </tr>
 	<tr>
@@ -57,7 +57,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Bar Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/bar-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/bar-chart" aria-label="Flutter Cartesian Bar Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -65,7 +65,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Bubble Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/bubble-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/bubble-chart" aria-label="Flutter Cartesian Bubble Chart Link">Link</a>
         </td>
     </tr>
      <tr>
@@ -73,7 +73,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Scatter Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/scatter-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/scatter-chart" aria-label="Flutter Cartesian Scatter Chart Link">Link</a>
         </td>
     </tr>
      <tr>
@@ -81,7 +81,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Step line Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/step-line-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/step-line-chart" aria-label="Flutter Cartesian Step Line Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -89,7 +89,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Range column Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/range-column-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/range-column-chart" aria-label="Flutter Cartesian Range Column Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -97,7 +97,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Range area Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/range-area-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/range-area-chart" aria-label="Flutter Cartesian Range Area Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -105,7 +105,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Spline area Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/spline-area-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/spline-area-chart" aria-label="Flutter Cartesian Spline Area Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -113,7 +113,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Spline range area Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/spline-range-area-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/spline-range-area-chart" aria-label="Flutter Cartesian Spline Range Area Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -121,7 +121,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
            Step area Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/step-area-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/step-area-chart" aria-label="Flutter Cartesian Step Area Chart Link">Link</a>
         </td>
     </tr>
      <tr>
@@ -129,7 +129,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
            Histogram Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/histogram-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/histogram-chart" aria-label="Flutter Cartesian Histogram Chart Link">Link</a>
         </td>
     </tr>
      <tr>
@@ -137,7 +137,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
            Stacked line Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-line-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-line-chart" aria-label="Flutter Cartesian Stacked Line Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -145,7 +145,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Stacked area Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-area-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-area-chart" aria-label="Flutter Cartesian Stacked Area Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -153,7 +153,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Stacked column Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-column-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-column-chart" aria-label="Flutter Cartesian Stacked Column Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -161,7 +161,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Stacked bar Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-bar-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-bar-chart" aria-label="Flutter Cartesian Stacked Bar Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -169,7 +169,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Stacked area 100 Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-area-100-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-area-100-chart" aria-label="Flutter Cartesian Stacked Area 100 Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -177,7 +177,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
           Stacked column 100 Chart
         </td>
        <td>
-           <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-column-100-chart">Link</a>
+           <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-column-100-chart" aria-label="Flutter Cartesian Stacked Column 100 Chart Link">Link</a>
       </td>
     </tr>
       <tr>
@@ -185,7 +185,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Stacked bar 100 Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-bar-100-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-bar-100-chart" aria-label="Flutter Cartesian Stacked Bar 100 Chart Link">Link</a>
         </td>
     </tr>
      <tr>
@@ -193,7 +193,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
            Stacked line 100 Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-line-100-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/stacked-line-100-chart" aria-label="Flutter Cartesian Stacked Line 100 Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -201,7 +201,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
            HiLo Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/hilo-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/hilo-chart" aria-label="Flutter Cartesian HiLo Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -209,7 +209,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             OHLC Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/ohlc-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/ohlc-chart" aria-label="Flutter Cartesian OHLC Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -217,7 +217,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
           Candle Chart
         </td>
        <td>
-           <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/candle-chart">Link</a>
+           <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/candle-chart" aria-label="Flutter Cartesian Candle Chart Link">Link</a>
       </td>
     </tr>
     <tr>
@@ -225,7 +225,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Box and Whisker Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/box-and-whisker-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/box-and-whisker-chart" aria-label="Flutter Cartesian Box and Whisker Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -233,7 +233,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Waterfall Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/waterfall-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/waterfall-chart" aria-label="Flutter Cartesian Waterfall Chart Link">Link</a>
         </td>
     </tr>
     <tr>
@@ -241,7 +241,7 @@ This page helps you navigate the chart types available in the Syncfusion®<sup>&
             Error bar Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/error-bar-chart">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/chart-types/error-bar-chart" aria-label="Flutter Cartesian Error Bar Chart Link">Link</a>
         </td>
     </tr>
 </table>

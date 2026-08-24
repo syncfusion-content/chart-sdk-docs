@@ -51,7 +51,7 @@ You can use the following properties to customize the appearance:
 
 ![Sparkline trackball](images/trackball/spark-trackball.png)
 
-### Activation mode
+## Activation mode
 
 The [`activationMode`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/sparkcharts/SparkChartTrackball/activationMode.html) property is used to restrict the visibility of trackball based on the touch actions. The default value of this property is [`ActivationMode.tap`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/sparkcharts/SparkChartActivationMode.html).
 

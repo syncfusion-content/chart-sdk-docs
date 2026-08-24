@@ -164,7 +164,7 @@ You can collapse the normal distribution curve using the [`showNormalDistributio
 
 ![histogram chart](cartesian-chart-types-images/Histogram.png)
 
-#### See Also
+### See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)

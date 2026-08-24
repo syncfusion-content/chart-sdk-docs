@@ -139,7 +139,7 @@ The borders of the spline range area chart can be customized using the [`borderD
 
 ![splinerangearea_bordermode](cartesian-chart-types-images/splinerangearea_bordermode.png)
 
-#### See Also
+### See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)

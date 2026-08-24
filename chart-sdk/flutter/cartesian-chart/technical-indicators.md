@@ -759,7 +759,7 @@ Refer the following example below
 
 ![Binding data source to Indicators](images/technical-indicators/indicator_binding.jpg)
 
-#### See Also
+### See Also
 
 * [Refer this link for technical indicators callback](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/callbacks#onrenderdetailsupdate).
 

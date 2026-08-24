@@ -181,7 +181,7 @@ You can show the cumulative data label values using the [`showCumulativeValues`]
 
 ![Stacked line cumulative](cartesian-chart-types-images/stacked_line_cumulative.jpg)
 
-#### See Also
+### See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
