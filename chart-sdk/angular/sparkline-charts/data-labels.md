@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data labels in Angular Sparkline component | Syncfusion
+title: Data Labels in Angular Sparkline | Syncfusion
 description: Learn here all about Data labels in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data labels 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data labels in Angular Sparkline component
+# Data Labels in Angular Sparkline
 
 Data labels are used to display values of data points to improve the readability.
 
