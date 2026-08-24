@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Globalization in Blazor TreeMap Component | Syncfusion
-description: Checkout and learn here all about Globalization in Syncfusion Blazor TreeMap component and much more.
-platform: chart-sdk
+title: Blazor TreeMap Internationalization | Syncfusion®
+description: Learn how to localize the Blazor TreeMap by formatting numbers, dates, and times for different cultures using the Format property.
+platform: Blazor
 control: TreeMap
 documentation: ug
 ---
 
-# Globalization in Blazor TreeMap Component
+# Blazor TreeMap Internationalization
 
 The [Blazor TreeMap](https://www.syncfusion.com/blazor-components/blazor-treemap) component supports globalization for the following elements:
 
@@ -49,6 +49,6 @@ In the following code example, tooltip and Data Label is globalized to currency 
 }
 ```
 
-N> Refer to [Blazor Localization](https://blazor.syncfusion.com/documentation/common/localization) topic to localize Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor components.
+N> Refer to [Blazor Localization](https://blazor.syncfusion.com/documentation/common/localization) topic to localize Blazor components.
 
 ![Localization in Blazor TreeMap](images/Internationalization/blazor-treemap-localization.webp)

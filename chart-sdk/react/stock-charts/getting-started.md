@@ -166,6 +166,7 @@ The following code snippet demonstrates the complete configuration required to r
 
 {% tabs %}
 {% highlight ts tabtitle="~/src/App.tsx" %}
+{% raw %}
 import {
   StockChartComponent, StockChartSeriesCollectionDirective, StockChartSeriesDirective,
   Inject, DateTime, CandleSeries
@@ -231,6 +232,7 @@ function App() {
 }
 
 export default App;
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
 

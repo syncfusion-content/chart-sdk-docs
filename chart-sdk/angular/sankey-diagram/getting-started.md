@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started with Angular Sankey Chart component | Syncfusion
+title: Getting Started with Angular Sankey | Syncfusion
 description:  Check out and learn about Getting Started with Angular Sankey Chart component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with Angular Sankey Chart Component
+# Getting Started with Angular Sankey
 
 This section explains the steps required to create a simple [Angular Sankey Chart](https://www.syncfusion.com/angular-components/angular-sankey-chart) and demonstrates the basic usage of the Angular Sankey Chart component.
 

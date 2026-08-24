@@ -1,13 +1,13 @@
 ---
 layout: post
-title: How to place Circular Gauge inside other components | Syncfusion®
-description: Learn here about how to place the Circular Gauge inside other components like Dashboard Layout, Tab, Dialog and Accordion.
-platform: chart-sdk
+title: Place gauge in other components in Blazor Circular Gauge | Syncfusion®
+description: Learn how to render the Blazor Circular Gauge inside Dashboard Layout, Tabs, Dialog, or other components using a boolean flag and RefreshAsync on resize.
+platform: Blazor
 control: Circular Gauge
 documentation: ug
 ---
 
-# Render Circular Gauge component inside other components
+# How to place gauge in other components in Blazor Circular Gauge
 
 The Circular Gauge can be rendered within components such as the Dashboard Layout, Tabs, Dialog, and others. In general, the Circular Gauge component renders before other components, so a boolean variable (i.e. boolean flag) is used to determine when to begin rendering the Circular Gauge component.
 
@@ -403,7 +403,7 @@ When you drag and resize the Dialog component, the Circular Gauge component is n
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjLSZkicrHnxtFdb?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blazor Circular Gauge inside Dialog component](../images/blazor-circulargauge-with-dialog.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXVdZdLdLOxBcdrQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Circular Gauge inside Dialog component](../images/blazor-circulargauge-with-dialog.webp)" %}
 
 
 ## Circular Gauge component inside Accordion

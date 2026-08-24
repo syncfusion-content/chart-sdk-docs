@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Axis in UWP Charts control | Syncfusion
-description: Learn here all about Axis support in Syncfusion® Universal Windows Platform (UWP) Charts (SfChart) control and more.
+title: Axis types and customization in UWP Chart | Syncfusion®
+description: Chart axis in the UWP Chart defines data scales, categories, and value ranges, supporting accurate data visualization and analysis.
 platform: chart-sdk
 control: SfChart
 documentation: ug
 ---
 
-# Axis in UWP Charts (SfChart)
+# Axis types and customization in UWP Chart
 
 [`ChartAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAxis.html) is used to locate a data point inside the chart area. Generally, to locate a data point, you require two axes along each direction, that is, horizontal and vertical, in a chart. The vertical axis, or y-axis, usually represents numerical values. The horizontal axis, or x-axis, represents categorical or numerical or date and time values. [`ChartAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAxis.html) supports the following types.
 
@@ -2505,7 +2505,7 @@ chart.SecondaryAxis = secondaryAxis;
 
 ## Multi-level labels
 
-[`Axis`](https://help.syncfusion.com/uwp/charts/axis) can be customized with multiple levels of label by using its [`MultiLevelLabels`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAxisBase2D.html#Syncfusion_UI_Xaml_Charts_ChartAxisBase2D_MultiLevelLabels) property. These labels are placed based on the provided [`Start`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartMultiLevelLabel.html#Syncfusion_UI_Xaml_Charts_ChartMultiLevelLabel_Start) and [`End`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartMultiLevelLabel.html#Syncfusion_UI_Xaml_Charts_ChartMultiLevelLabel_End) range values and we can add any number of labels to an axis. The below code snippet shows how to set a multilevel label,
+[`Axis`](https://help.syncfusion.com/chart-sdk/uwp/charts/axis) can be customized with multiple levels of label by using its [`MultiLevelLabels`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAxisBase2D.html#Syncfusion_UI_Xaml_Charts_ChartAxisBase2D_MultiLevelLabels) property. These labels are placed based on the provided [`Start`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartMultiLevelLabel.html#Syncfusion_UI_Xaml_Charts_ChartMultiLevelLabel_Start) and [`End`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartMultiLevelLabel.html#Syncfusion_UI_Xaml_Charts_ChartMultiLevelLabel_End) range values and we can add any number of labels to an axis. The below code snippet shows how to set a multilevel label,
 
 {% tabs %}
 
