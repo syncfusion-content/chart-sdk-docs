@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data Markers in ASP.NET Core Syncfusion Chart Component
-description: Learn here all about Data Markers in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Data Markers in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Data Markers in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Markers
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Data Markers in ASP.NET Core Chart Component
+# Data Markers in ASP.NET Core Charts
 
 Data markers are used to provide information about the data points in the series. You can add a shape to adorn each data point.
 
