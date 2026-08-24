@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Palette in Syncfusion ASP.NET Core Heatmap Chart Component
+title: Palette in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about Palette in Syncfusion ASP.NET Core Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Palette
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Palette in ASP.NET Core HeatMap Chart Component
+# Palette in ASP.NET Core HeatMap Chart
 
 In heat map, each data point is displayed as a cell with applied color based on the data value. The palette in the heat map is used to define the color range for cells and gradient type for colors. You can define the colors either in RGB or hex codes using the [color](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.HeatMap.HeatMapPalette~Color.html) property in the `palette`. The defined colors are applied to the cell background based on the palette type and cell value.
 
@@ -64,4 +63,4 @@ You can define the colors ranges or color stops for data values in both gradient
 
 ## See Also
 
-* [How to enable smart legend](./legend/#smart-legend)
+* [How to enable smart legend](./legend#smart-legend)

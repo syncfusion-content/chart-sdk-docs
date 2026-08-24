@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Accessibility in Syncfusion ASP.NET Core HeatMap chart component
+title: Accessibility in ASP.NET Core HeatMap Chart | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP.NET Core HeatMap chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Accessibility in ASP.NET Core HeatMap chart component
+# Accessibility in ASP.NET Core HeatMap Chart
 
 The HeatMap component follows commonly used accessibility guidelines and standards, such as [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles).
 

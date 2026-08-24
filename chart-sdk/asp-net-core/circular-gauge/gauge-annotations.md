@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Gauge Annotations in ASP.NET Core Circular Gauge Control | Syncfusion
+title: Annotations in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge Annotations in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge Annotations
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Annotations in Circular Gauge Control
+# Annotations in ASP.NET Core Circular Gauge
 
 Annotations are used to mark a specific area of interest in the gauge with texts, shapes or images.
 
@@ -46,9 +45,6 @@ As the annotation allows to place any custom element, it can initialize a gauge 
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-annotations/subgauge/tagHelper %}
 {% endhighlight %}
-<!-- {% highlight c# tabtitle="Subgauge.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-annotations/subgauge/subgauge.cs %}
-{% endhighlight %} -->
 {% endtabs %}
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG-Examples/tree/main/CircularGauge/AnnotationandLegendSample).
