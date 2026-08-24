@@ -3,7 +3,7 @@ layout: post
 title: Getting started with JavaScript Accumulation chart control | Syncfusion
 description:  Checkout and learn about Getting started with JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
-control: Getting started
+control: Getting started 
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
