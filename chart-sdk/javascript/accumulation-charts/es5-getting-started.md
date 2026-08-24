@@ -4,7 +4,6 @@ title: ES5 getting started with JavaScript Accumulation Chart control | Syncfusi
 description: Check out and learn about ES5 getting started with JavaScript Accumulation Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Accumulation Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -13,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Build your first Syncfusion JavaScript (ES5) application with a simple Accumulation Chart control in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) Accumulation Chart from the CDN, initializes it with sample data, and renders an interactive chart.
 
-> The `34.1.29` version segment in the CDN URLs is shown for reference. Replace it with the latest published version from the [Syncfusion EJ2 CDN](https://cdn.syncfusion.com/ej2/) when you start a new project.
+> The `34.1.29` version segment in the CDN URLs is shown for reference. Replace it with the latest published version from the [Syncfusion EJ2 CDN](https://cdn.syncfusion.com/ej2) when you start a new project.
 
 ## Prerequisites
 
