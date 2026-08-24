@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Stacked Column Chart in ASP.NET MVC Charts
+title: Stacked Column Chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Stacked Column Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stacked Column Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

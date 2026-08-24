@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bullet chart dimensions in React Bullet chart component | Syncfusion
-description: Learn here all about Bullet chart dimensions in Syncfusion React Bullet chart component of Syncfusion Essential JS 2 and more.
+title: Dimensions in React Bullet Chart | Syncfusion
+description: Learn how to set the Syncfusion React Bullet Chart Component size to a fixed container or a custom width and height using CSS or inline style.
 control: Bullet chart dimensions 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Bullet chart dimensions in React Bullet chart component
+# Dimensions in React Bullet Chart
 
 ## Size for Container
 

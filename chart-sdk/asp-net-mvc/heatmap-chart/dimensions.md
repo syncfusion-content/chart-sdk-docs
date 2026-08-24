@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Dimensions in Syncfusion ASP.NET MVC Heatmap Chart Component
+title: Dimensions in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Dimensions in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Dimensions in ASP.NET MVC HeatMap Chart Component
+# Dimensions in ASP.NET MVC HeatMap Chart
 
 ## Size for container
 

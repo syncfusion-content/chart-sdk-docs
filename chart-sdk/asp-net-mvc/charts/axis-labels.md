@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis Labels in Syncfusion ASP.NET MVC Chart Component
-description: Learn here all about Axis Labels in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Axis Labels in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Axis Labels in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Labels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Axis Labels in ASP.NET MVC Chart Component
+# Axis Labels in ASP.NET MVC Charts
 
 ## Smart Axis Labels
 

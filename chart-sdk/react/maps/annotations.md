@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Annotations in React Maps component | Syncfusion
-description: Learn here all about Annotations in Syncfusion React Maps component of Syncfusion Essential JS 2 and more.
+title: Annotations in React Maps | Syncfusion
+description: Learn how to overlay custom text, images, or HTML elements as annotations on React Maps to mark areas of interest beyond markers and data labels.
 control: Annotations 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Annotations in React Maps component
+# Annotations in React Maps
 
 <!-- markdownlint-disable MD013 -->
 

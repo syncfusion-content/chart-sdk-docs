@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis customization in React 3D Chart component | Syncfusion
-description: Learn here all about axis customization in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart
+title: Axis Customization in React 3D Charts | Syncfusion
+description: Learn how to customize axes in Syncfusion React 3D Charts with axis titles, tick lines, grid lines, multiple axes, inversed direction, and opposed position.
+control: Axis Customization
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in React 3D Chart control
+# Axis Customization in React 3D Charts
 
 ## Title
 

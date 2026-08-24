@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Levels in ASP.NET Core Treemap Component
-description: Learn here all about Levels in Syncfusion ASP.NET Core Treemap component of Syncfusion Essential JS 2 and more.
+title: Levels in ASP.NET Core TreeMap | Syncfusion
+description: Learn here all about Levels in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Levels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Levels
+# Levels in ASP.NET Core TreeMap
 
 TreeMap supports **n** number of levels and each level is separated by using the `groupPath` property.
 

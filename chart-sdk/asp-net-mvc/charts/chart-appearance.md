@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart Appearance in Syncfusion Chart Component
-description: Learn here all about Chart Appearance in Syncfusion ASP MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Chart Appearance in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Chart Appearance in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Appearance
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Appearance in MVC Chart component
+# Appearance in ASP.NET MVC Charts component
 
 ## Chart theme customization
 

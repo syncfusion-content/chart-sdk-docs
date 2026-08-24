@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Smithchart marker in React Smithchart component | Syncfusion
-description: Learn here all about Smithchart marker in Syncfusion React Smithchart component of Syncfusion Essential JS 2 and more.
+title: Marker in React Smith Chart | Syncfusion
+description: Enable markers and data labels in the React Smith Chart to highlight data points, with per-series customization of shape, fill, border, and label style.
 control: Smithchart marker 
 platform: chart-sdk
 documentation: ug
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Smithchart marker in React Smithchart component
+# Marker in React Smith Chart
 
 The markers and data labels are used to provide information about the data points in the series. You can add a shape to adorn each data point. By default, both the marker and data label are disabled in Smith chart. You can enable them by setting the visible property to true in marker and data label settings.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Accessibility in React Sparkline component | Syncfusion
-description: Learn here all about Accessibility in Syncfusion React Sparkline component of Syncfusion Essential JS 2 and more.
+title: Accessibility in React Sparkline Charts | Syncfusion
+description: Learn how the Syncfusion React Sparkline Charts meet WCAG 2.2, Section 508, and WAI-ARIA standards, with keyboard, screen reader, and RTL support.
 control: Accessibility 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in React Sparkline component
+# Accessibility in React Sparkline Charts
 
 The Sparkline component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

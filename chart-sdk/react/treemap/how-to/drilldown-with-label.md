@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Drilldown with label in React Treemap component | Syncfusion
-description: Learn here all about Drilldown with label in Syncfusion React Treemap component of Syncfusion Essential JS 2 and more.
+title: How to drilldown with label in React TreeMap | Syncfusion
+description: Learn how to add a label template to nodes on drill-down in the Syncfusion React TreeMap using a div template.
 control: Drilldown with label 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Drilldown with label in React Treemap component
+# How to drilldown with label in React TreeMap
 
 Yon can add a label template as <div> element to the treemap control when using the label template. To add a label template to the tree map control, you have to hide another labels by setting the `showLabels` property to **false** in `leafItemSettings` to show only the label template.
 

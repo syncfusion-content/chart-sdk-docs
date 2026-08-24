@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Points customization in React Chart component | Syncfusion
-description: Learn here all about Points customization in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to customize point colors in React Charts | Syncfusion
+description: Learn how to customize individual point colors in Syncfusion React Charts series for clearer category highlighting.
 control: Points customization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Points customization in React Chart component
+# How to customize point colors in React Charts
 
 You can customize the series points by using the `pointColorMapping` property.
 

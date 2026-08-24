@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart Dimensions in ASP.NET Core Stock Chart Component
+title: Chart Dimensions in ASP.NET Core Stock Chart | Syncfusion
 description: Learn here all about Chart Dimensions in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Stock Chart Dimensions
+# Chart Dimensions in ASP.NET Core Stock Chart
 
 ## Size for Container
 

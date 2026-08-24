@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Stacked Bar Chart in React Charts | Syncfusion
-description: Learn here all about Stacked Bar Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
-control: Stacked Bar Chart 
+description: Learn to render, customize, and bind Stacked Bar series in Syncfusion React Charts to compare segment contributions across categories using stacked bars.
+control: Stacked Bar Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart Print in ASP.NET MVC Accumulation Chart Component
-description: Learn here all about Chart Print in Syncfusion ASP.NET MVC Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Chart Print in ASP.NET MVC Accumulation Charts | Syncfusion
+description: Learn here all about Chart Print in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart Print
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Print and Export
+# Print and Export in ASP.NET MVC Accumulation Charts
 
 ## Print
 

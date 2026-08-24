@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data Editing in ASP.NET MVC Chart Component
-description: Learn here all about Data Editing in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Data Editing in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Data Editing in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Editing
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Data Editing
+# Data Editing in ASP.NET MVC Charts
 
 ## Enable Data Editing
 

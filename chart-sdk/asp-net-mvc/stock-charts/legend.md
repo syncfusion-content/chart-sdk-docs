@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Syncfusion ASP.NET MVC Stock Chart Legend Component
+title: Legend in ASP.NET MVC Stock Chart | Syncfusion
 description: Learn here all about Legend in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Stock Chart Legend in Syncfusion ASP.NET MVC
+# Legend in ASP.NET MVC Stock Chart
 
 Legend provides information about the series rendered in the Stock Chart. Legend can be added to a Stock Chart by enabling the [`Visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings_Visible) option in the [`LegendSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartLegendSettings.html#Syncfusion_EJ2_Charts_StockChartStockChartLegendSettings).
 

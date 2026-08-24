@@ -1,24 +1,20 @@
 ---
 layout: post
-title: Getting Started with React Chart Component for Preact | Syncfusion
-description: Check out and learn about getting started with the Preact Framework and React Chart Component of Syncfusion Essential JS 2 and more details.
+title: Getting Started with React Charts in Preact | Syncfusion
+description: Learn how to set up Syncfusion React Charts in a Preact project, install the package, and render your first chart in this lightweight React alternative.
 control: Preact
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with React Chart Component in the Preact Framework
+# Getting Started with React Charts in Preact
 
 This article provides a step-by-step guide for setting up a [Preact](https://preactjs.com) project and integrating the [React Charts](https://www.syncfusion.com/react-components/react-charts) component.
 
 [Preact](https://preactjs.com) is a fast and lightweight JavaScript library for building user interfaces, often used as an alternative to React. It uses the same modern API as React but with a much smaller bundle size, which makes it a good choice for projects where file size and load times are critical.
 
 ## Prerequisites
-
-* [Node.js](https://nodejs.org) 18 or later.
-* [Preact](https://preactjs.com) 10.x.
-* `@syncfusion/ej2-react-charts` 27.2.x or later.
 
 Refer to the [system requirements for Syncfusion React UI components](../system-requirement) for additional details.
 

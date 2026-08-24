@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Working with data in ASP.NET MVC Syncfusion Chart Component
-description: Learn here all about Working with data in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Working with Data in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Working with data in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working with data
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in ASP.NET MVC Chart Component
+# Working with Data in ASP.NET MVC Charts
 
 Chart can visualize data bound from local or remote data.
 

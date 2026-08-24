@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Histogram Chart in ASP.NET MVC Charts
+title: Histogram Chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Histogram Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Histogram Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

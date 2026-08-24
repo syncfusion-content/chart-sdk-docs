@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bar Chart in React Charts | Syncfusion
-description: Learn here all about Bar Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind Bar series in Syncfusion React Charts for comparing values across categories with adjustable width and spacing.
 control: Bar Chart 
 platform: chart-sdk
 documentation: ug

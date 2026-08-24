@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Range Area Chart in React Charts | Syncfusion
-description: Learn here all about Range Area Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
-control: Range Area Chart 
+description: Learn to render, customize, and bind Range Area series in Syncfusion React Charts to visualize value ranges between high and low with smooth filled regions.
+control: Range Area Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
