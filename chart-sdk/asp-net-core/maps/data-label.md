@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Data Label in Syncfusion ASP.NET Core Maps Component
+title: Data Labels in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Data Label in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Data labels in ASP.NET Core Maps Component
+# Data Labels in ASP.NET Core Maps
 
 Data labels provide information to users about the shapes of the Maps component. It can be enabled by setting the `Visible` property of the `MapsDataLabelSettings` to **true**.
 
