@@ -105,7 +105,7 @@ By default, legend takes 20% - 25% of the 3D chart's height horizontally, when i
 
 ### Legend item size
 
-The size of the legend items can be customised by using the [`shapeHeight`](../api/chart3d/legendSettings#shapeheight) and [`shapeWidth`](../api/chart3d/legendSettings#shapewidth) properties.
+The size of the legend items can be customized by using the [`shapeHeight`](../api/chart3d/legendSettings#shapeheight) and [`shapeWidth`](../api/chart3d/legendSettings#shapewidth) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
