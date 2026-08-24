@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 To render an [`hiloOpenClose`](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/ohlc-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `HiloOpenClose` in your chart configuration. This indicates that the data should be represented as a hiloOpenClose chart, which displays the high, low, open, and close values for each data point, providing a comprehensive visualization of stock price movements.
+* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `HiloOpenClose` in your chart configuration. This indicates that the data should be represented as a HiloOpenClose chart, which displays the high, low, open, and close values for each data point, providing a comprehensive visualization of stock price movements.
 
 * **Provide high, low, open, and close values**: The `HiloOpenClose` series requires five fields (x, high, low, open, and close) to accurately display the stock's high, low, open, and close prices. Ensure that your data source includes these fields to create a detailed representation of stock price movements over time.
 

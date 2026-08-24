@@ -93,7 +93,7 @@ The [shape](../../api/chart/markerSettings#shape) property allows you to customi
 
 **Border**
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the scatter series.
+Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dash array of the scatter series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
