@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Annotations in Syncfusion ASP.NET Core Maps Component
+title: Annotations in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Annotations in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Annotations
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Annotations in ASP.NET Core Maps Component
+# Annotations in ASP.NET Core Maps
 
 <!-- markdownlint-disable MD013 -->
 

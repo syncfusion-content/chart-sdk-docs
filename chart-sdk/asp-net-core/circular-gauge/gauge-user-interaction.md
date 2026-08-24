@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Gauge User Interaction in ASP.NET Core Circular Gauge Control | Syncfusion
+title: User Interaction in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge User Interaction in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge User Interaction
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# User Interaction in Circular Gauge Control
+# User Interaction in ASP.NET Core Circular Gauge
 
 ## Tooltip for pointers
 
