@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Pie and Donut in React 3D Circular Chart component | Syncfusion
-description: Learn here all about Pie and Donut in Syncfusion React 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Pie and Donut in React 3D Circular Charts Component | Syncfusion
+description: Learn how to render pie and donut series in the Syncfusion React 3D Circular Charts to compare category shares with inner-radius and explode options.
 control: Pie and Donut 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pie and Donut in React 3D Circular Chart component
+# Pie and Donut in React 3D Circular Charts
 
 ## Pie chart
 

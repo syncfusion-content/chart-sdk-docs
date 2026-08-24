@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data markers in React Chart component | Syncfusion
-description: Learn here all about Data markers in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Data Markers in React Charts | Syncfusion
+description: Learn how to add markers to Syncfusion React Charts with custom shapes, images, fill colors, borders, and per-point styling for clear data point visualization.
 control: Data markers 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data markers in React Chart component
+# Data Markers in React Charts
 
 Data markers are visual indicators placed at each data point on a series, helping to clearly identify and highlight individual values in your chart. Markers improve readability and accessibility, especially in line and area charts where data points may otherwise be unclear. Customize marker shape, color, size, and appearance to match your design requirements.
 

@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Data in ASP.NET Core Range Navigator Component
+title: Data in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Data in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# Types of data
+# Data in ASP.NET Core Range Navigator
 
 ## Numeric
 

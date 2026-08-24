@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Range selector in React Stock chart component | Syncfusion
-description: Learn here all about Range selector in Syncfusion React Stock chart component of Syncfusion Essential JS 2 and more.
+title: Range Selector in React Stock Chart | Syncfusion
+description: Learn how to enable the range selector on the Syncfusion React Stock Chart Component to select a range by dragging thumbs, tapping label, or using a date range.
 control: Range selector 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Range selector in React Stock chart component
+# Range Selector in React Stock Chart
 
 The left and right thumb of RangeNavigator are used to indicate the selected range in the large collection of data. Following are the ways you can select a range.
 

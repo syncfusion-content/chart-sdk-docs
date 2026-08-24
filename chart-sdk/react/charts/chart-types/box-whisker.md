@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Box and Whisker Chart in React Charts | Syncfusion
-description: Learn here all about Box and Whisker in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize and bind Box and Whisker series in Syncfusion React Charts to visualize statistical distribution with plot modes and mean indicators.
 control: Box and Whisker
 platform: chart-sdk
 documentation: ug

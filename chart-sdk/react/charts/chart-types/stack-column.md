@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Stacked Column Chart in React Charts | Syncfusion
-description: Learn here all about Stacked Column Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
-control: Stacked Column Chart 
+description: Learn to render, customize, and bind Stacked Column series in Syncfusion React Charts to compare segment contributions across categories using stacked columns.
+control: Stacked Column Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Stacked bar chart in ASP.NET MVC Syncfusion 3D Chart Component
-description: Learn here all about stacked bar chart in Syncfusion ASP.NET MVC 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Stacked Bar in ASP.NET MVC 3D Charts | Syncfusion
+description: Learn here all about stacked bar chart in Syncfusion ASP.NET MVC 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Stacked bar chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Stacked bar chart in ASP.NET MVC 3D Chart Component
+# Stacked Bar in ASP.NET MVC 3D Charts
 
 ## Stacked bar chart
 

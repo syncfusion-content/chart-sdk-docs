@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Line Chart in React Charts | Syncfusion
-description: Learn here all about Line Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind Line series in Syncfusion React Charts to visualize trends over time with width, dash array, fill, and marker styling.
 control: Line Chart 
 platform: chart-sdk
 documentation: ug

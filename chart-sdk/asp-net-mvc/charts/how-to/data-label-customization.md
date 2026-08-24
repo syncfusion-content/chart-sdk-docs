@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Data Label Customization in ASP.NET MVC Chart Component
-description: Learn here all about Data Label Customization in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Data Label Customization in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Data Label Customization in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# Customize the background color of data label template from webservice
+# How to customize the data label background in ASP.NET MVC Charts
 
 Bind the text and interior information for a point from dataSource. To change the background color in the datalabel template, use `${point.text}`. You have to bind the property from dataSource to name in the data label options to use point.text.
 

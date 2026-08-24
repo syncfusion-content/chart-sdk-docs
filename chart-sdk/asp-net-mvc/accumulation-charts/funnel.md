@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Funnel in ASP.NET MVC Accumulation Chart Component | Syncfusion
-description: Learn here all about Funnel in Syncfusion ASP.NET MVC Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Funnel in ASP.NET MVC Accumulation Charts | Syncfusion
+description: Learn here all about Funnel in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Funnel
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Funnel chart in ASP.NET MVC Accumulation Chart Component
+# Funnel in ASP.NET MVC Accumulation Charts
 
 To render a funnel series, use the series [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Funnel`.
 
@@ -150,5 +149,5 @@ The `Trapezoidal` mode is a modified funnel shape where the width narrows, but f
 
 ## See also
 
-* [Data label](./data-label/)
-* [Grouping](./grouping/)
+* [Data label](./data-label)
+* [Grouping](./grouping)

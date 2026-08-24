@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Appearance in ASP.NET Core Sankey Chart Component
-description: Learn here all about Appearance in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Appearance in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Appearance in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Appearance in ASP.NET Core Sankey Chart component
+# Appearance in ASP.NET Core Sankey Diagram
 
 The Sankey Chart provides comprehensive customization options to control visual appearance, dimensions, responsiveness, colors, borders, and themes. These appearance settings enable you to create diagrams that match your application's design system and user experience requirements.
 
