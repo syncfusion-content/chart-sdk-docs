@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Chart series in JavaScript Chart control | Syncfusion
+title: Multiple series in JavaScript Chart | Syncfusion
 description: Learn here all about Chart series in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart series 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart series in JavaScript Chart control
+# Multiple series in JavaScript Chart
 
 ## Multiple Series
 
-You can add multiple series to the chart by using [`series`](../api/chart/seriesModel/) property. The series are rendered in the order as it is added to the series array.
+You can add multiple series to the chart by using [`series`](../api/chart/seriesModel) property. The series are rendered in the order as it is added to the series array.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
