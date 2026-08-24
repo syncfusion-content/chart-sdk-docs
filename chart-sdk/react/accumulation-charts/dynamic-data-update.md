@@ -5,7 +5,6 @@ description: Learn here all about dynamic data update in Syncfusion React Accumu
 platform: chart-sdk
 control: Dynamic Data Update
 documentation: ug
-publishingplatform: chart-sdk
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
