@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Error Bar Chart in ASP.NET Core Charts
+title: Error Bar Chart in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Error Bar Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Error Bar Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
