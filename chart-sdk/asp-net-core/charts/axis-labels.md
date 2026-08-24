@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis Labels in Syncfusion ASP.NET Core Chart Component
-description: Learn here all about Axis Labels in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Axis Labels in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Axis Labels in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis Labels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Axis Labels in ASP.NET Core Chart Component
+# Axis Labels in ASP.NET Core Charts
 
 ## Smart Axis Labels
 
@@ -249,3 +248,4 @@ The axis label template allows you to customize axis labels by formatting them w
 {% endtabs %}
 
 ![ASP.NET Core Chart Control](images/axislabel-template.png)
+

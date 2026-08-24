@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Dotted Line in ASP.NET Core Chart Component
-description: Learn here all about Dotted Line in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: How to add a dotted line in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Dotted Line in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dotted Line
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# To add dotted line using annotation
+# How to add a dotted line using Annotation in ASP.NET Core Charts
 
 By using `annotation`, you can add dotted lines in the chart.
 
@@ -27,4 +26,5 @@ By setting `coordinateUnits` value as `point` in annotation object, you can plac
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/dotted-annotation/dotted-annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

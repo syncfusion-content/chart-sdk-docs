@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Bullet Chart Dimensions in ASP.NET Core Bullet Chart Component | Syncfusion
+title: Dimensions in ASP.NET Core Bullet Chart | Syncfusion
 description: Learn here all about Bullet Chart Dimensions in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Bullet Chart Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Bullet chart dimensions
+# Dimensions in ASP.NET Core Bullet Chart
 
 ## Size for container
 
