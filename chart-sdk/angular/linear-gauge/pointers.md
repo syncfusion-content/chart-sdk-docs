@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Pointers in Angular Linear gauge component | Syncfusion
-description: Learn here all about Pointers in Syncfusion Angular Linear gauge component of Syncfusion Essential JS 2 and more.
+title: Pointers in Angular Linear Gauge | Syncfusion
+description: Learn how to configure and customize pointers in the Syncfusion Angular Linear Gauge, including pointer types, value, position, and styles.
 platform: chart-sdk
 control: Pointers 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pointers in Angular Linear gauge component
+# Pointers in Angular Linear Gauge
 
 ## Set the pointer value
 
@@ -109,7 +109,7 @@ The marker pointer can be customized using the following properties.
 * [position](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointermodel#position) - The position of the pointer can be changed by setting the value as **Inside**, **Outside**, **Cross**, or **Auto**.
 * [width](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointermodel#width) - To set the width of the pointer.
 * [color](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointermodel#color) - To set the color of the pointer.
-* [placement](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointermodel#placement) - To place the pointer in the specified position. By default, the pointer is placed **Far** from the axis. To change the placement, set the [placement](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointerModel/#placement) property as **Near**, **Center**, or **None**.
+* [placement](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointermodel#placement) - To place the pointer in the specified position. By default, the pointer is placed **Far** from the axis. To change the placement, set the [placement](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointerModel#placement) property as **Near**, **Center**, or **None**.
 * [offset](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointer#offset) - To place the pointer with specified distance from the axis.
 * [opacity](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointermodel#opacity) - To set the opacity of the pointer.
 * [animationDuration](https://ej2.syncfusion.com/angular/documentation/api/linear-gauge/pointermodel#animationduration) - To specify the duration of the animation in pointer.
