@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Prevent data label in React Chart component | Syncfusion
-description: Learn here all about Prevent data label in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to prevent data labels in React Charts | Syncfusion
+description: Learn how to prevent Syncfusion React Charts data labels from showing zero values for cleaner numeric visualizations.
 control: Prevent data label 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Prevent data label in React Chart component
+# How to prevent data labels in React Charts
 
 To prevent the chart data label when the data value is 0, follow the given steps:
 

@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Code Behind in ASP.NET MVC Circular Gauge Component
+title: Code-behind gauge in ASP.NET MVC Circular Gauge | Syncfusion
 description: Learn here all about Code Behind in Syncfusion ASP.NET MVC Circular Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Code Behind
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# How To
+# How to render data from code behind in ASP.NET MVC Circular Gauge
 
 ## Get data from database for circular gauge and render gauge from code behind
 
@@ -83,4 +82,4 @@ To get the data from data base and render the gauge from code behind, follow the
 
 **Screenshot**
 
-![Screenshot for your reference](../images/database.png)
+![Circular gauge Database data for your reference](../images/database.png)

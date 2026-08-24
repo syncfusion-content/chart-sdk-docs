@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Localization in React Sparkline component | Syncfusion
-description: Learn here all about Localization in Syncfusion React Sparkline component of Syncfusion Essential JS 2 and more.
+title: Localization in React Sparkline Charts | Syncfusion
+description: Localize the Syncfusion React Sparkline Charts tooltip and values by changing the culture with the setCulture method for region-specific formats.
 control: Localization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Localization in React Sparkline component
+# Localization in React Sparkline Charts
 
 The sparkline control supports localization. The default culture for localization is `en-US`. You can change the culture using the `setCulture` method.
 

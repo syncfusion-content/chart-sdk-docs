@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 100% Stacked Line Chart in React Charts | Syncfusion
-description: Learn here all about 100% Stacked Line Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind 100% Stacked Line series in Syncfusion React Charts to compare proportional series contributions over time.
 control: 100% Stacked Line Chart 
 platform: chart-sdk
 documentation: ug

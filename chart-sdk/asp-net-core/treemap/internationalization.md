@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Internationalization in ASP.NET Core Treemap Component
-description: Learn here all about Internationalization in Syncfusion ASP.NET Core Treemap component of Syncfusion Essential JS 2 and more.
+title: Internationalization in ASP.NET Core TreeMap | Syncfusion
+description: Learn here all about Internationalization in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Internationalization
+# Internationalization in ASP.NET Core TreeMap
 
 The TreeMap control supports internationalization for the following elements:
 

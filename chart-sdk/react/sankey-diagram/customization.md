@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Customization in React Sankey Chart component | Syncfusion
-description: Learn here all about Customization in Syncfusion React Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Customization in React Sankey Diagram | Syncfusion
+description: Learn how to customize the Syncfusion React Sankey Diagram Component with node and link styling, color mapping, theme, and conditional rendering patterns.
 control: Customization
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Customization in React Sankey Chart component
+# Customization in React Sankey Diagram
 
 The Sankey Chart provides extensive customization options to create visualizations that match your specific design requirements and data presentation needs. From styling and theming to advanced visual techniques, the component enables complete control over appearance and behavior.
 

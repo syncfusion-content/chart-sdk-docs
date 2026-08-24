@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Custom Path in Syncfusion ASP.NET MVC Maps Component
+title: Add custom path map in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Custom Path in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Custom Path
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Custom path map in ASP.NET MVC Maps Component
+# How to add custom path map in ASP.NET MVC Maps
 
 Maps component can be customized as the desired layout using the custom path map feature. Here, the Maps component has been showcased with normal geometry type shapes to represent the bus seat selection layout.
 

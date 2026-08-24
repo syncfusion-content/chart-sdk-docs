@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Labels in ASP.NET MVC Sankey Chart Component
-description: Learn here all about Labels in Syncfusion ASP.NET MVC Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Labels in ASP.NET MVC Sankey Diagram | Syncfusion
+description: Learn here all about Labels in Syncfusion ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Labels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Labels in ASP.NET MVC Sankey Chart component
+# Labels in ASP.NET MVC Sankey Diagram
 
 Labels display descriptive text associated with nodes in the Sankey Chart, making the diagram more understandable and interpretable. The Sankey Chart provides comprehensive label customization options including visibility control, font styling, individual label configuration, and dynamic rendering events.
 

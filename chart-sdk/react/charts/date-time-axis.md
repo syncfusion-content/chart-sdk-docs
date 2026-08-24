@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Date time axis in React Chart component | Syncfusion
-description: Learn here all about Date time axis in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
-control: Date time axis 
+title: DateTime Axis in React Charts | Syncfusion
+description: Learn how to use DateTime and DateTimeCategory axes in Syncfusion React Charts for time-based data with custom range, interval, and label formatting.
+control: Date time axis
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Date time axis in React Chart component
+# DateTime Axis in React Charts
 
 ## DateTime Axis
 

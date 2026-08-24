@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tooltip in React Accumulation chart component | Syncfusion
-description: Learn here all about Tooltip in Syncfusion React Accumulation chart component of Syncfusion Essential JS 2 and more.
-control: Tooltip 
+title: Tooltip in React Accumulation Charts | Syncfusion
+description: Learn how to enable tooltips in the Syncfusion React Accumulation Charts to show point details on hover with template and format options.
+control: Tooltip
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in React Accumulation chart component
+# Tooltip in React Accumulation Charts
 
 Tooltip for the accumulation chart can be enabled by using the [`enable`](https://ej2.syncfusion.com/react/documentation/api/accumulation-chart/tooltipSettingsModel#enable) property.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis customization in React Sparkline component | Syncfusion
-description: Learn here all about Axis customization in Syncfusion React Sparkline component of Syncfusion Essential JS 2 and more.
+title: Axis Customization in React Sparkline Charts | Syncfusion
+description: Customize the Syncfusion React Sparkline Charts axis with Numeric, Category, or DateTime value types, min/max bounds, line color, width, and dash array.
 control: Axis customization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in React Sparkline component
+# Axis Customization in React Sparkline Charts
 
 You can customize axis value types and min and max values of the sparkline.
 

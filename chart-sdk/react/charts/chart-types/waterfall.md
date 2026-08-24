@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Waterfall Chart in React Charts | Syncfusion
-description: Learn here all about Waterfall in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind Waterfall series in Syncfusion React Charts to visualize cumulative effects of positive and negative values.
 control: Waterfall
 platform: chart-sdk
 documentation: ug

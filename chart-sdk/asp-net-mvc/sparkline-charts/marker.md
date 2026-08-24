@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Marker in ASP.NET MVC Sparkline Component
-description: Learn here all about Marker in Syncfusion ASP.NET MVC Sparkline component of Syncfusion Essential JS 2 and more.
+title: Marker in ASP.NET MVC Sparkline Charts | Syncfusion
+description: Learn here all about Marker in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Marker
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Markers
+# Marker in ASP.NET MVC Sparkline Charts
 
 This section explains how to add markers to the sparklines.
 

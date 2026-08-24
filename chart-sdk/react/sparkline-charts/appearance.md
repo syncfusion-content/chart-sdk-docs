@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Appearance in React Sparkline component | Syncfusion
-description: Learn here all about Appearance in Syncfusion React Sparkline component of Syncfusion Essential JS 2 and more.
+title: Appearance in React Sparkline Charts | Syncfusion
+description: Customize the Syncfusion React Sparkline Charts appearance with border, padding, container area background, and built-in Material, Fabric, Bootstrap themes.
 control: Appearance 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in React Sparkline component
+# Appearance in React Sparkline Charts
 
 The appearance of the sparkline can be customized using margin, container Area border, and container Area background.
 

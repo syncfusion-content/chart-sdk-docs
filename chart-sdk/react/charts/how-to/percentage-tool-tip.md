@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Percentage tool tip in React Chart component | Syncfusion
-description: Learn here all about Percentage tool tip in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to show percentage in pie tooltip in React Charts | Syncfusion
+description: Learn how to show each point's percentage share in the Syncfusion React Charts pie tooltip for clearer comparison.
 control: Percentage tool tip 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Percentage tool tip in React Chart component
+# How to show percentage in pie tooltip in React Charts
 
 By using the [`tooltipRender`](https://ej2.syncfusion.com/react/documentation/api/chart/chartModel#tooltiprender) event, you can show the percentage value for each point of pie series in tooltip.
 

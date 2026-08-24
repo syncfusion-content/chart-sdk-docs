@@ -1,14 +1,13 @@
 ---
 layout: post
-title: ToolTip in ASP.NET Core Syncfusion Sankey Chart Component
-description: Learn here all about ToolTip in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about ToolTip in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: ToolTip
-publishingplatform: chart-sdk
+control: Tooltip
 documentation: ug
 ---
 
-# ToolTip in ASP.NET Core Sankey Chart component
+# Tooltip in ASP.NET Core Sankey Diagram
 
 The Sankey Chart provides tooltips that surface contextual details for hovered elements without cluttering the diagram. Tooltips display additional information when users hover over nodes or links in the Sankey Chart. You can enable and customize tooltips using the `Tooltip` property.
 

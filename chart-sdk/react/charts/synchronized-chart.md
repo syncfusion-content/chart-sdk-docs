@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Synchronized Charts in React Chart component | Syncfusion
-description: Learn here all about Synchronized Charts in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Synchronized Charts in React Charts | Syncfusion
+description: Learn how to synchronize Syncfusion React Charts across multiple panels so tooltip, crosshair, and selection events move together for linked views.
 control: Synchronized charts
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Synchronized Charts in React Chart component
+# Synchronized Charts in React Charts
 
 Synchronized charts allow multiple chart instances to share common interactions so that actions performed on one chart are reflected across the others. This approach is useful for comparing related datasets and analyzing trends consistently across multiple visualizations.
 

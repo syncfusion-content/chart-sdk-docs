@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Print and Export in ASP.NET MVC Syncfusion 3D Circular Chart Component
-description: Learn here all about print and export in Syncfusion ASP.NET MVC 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Print and Export in ASP.NET MVC 3D Circular Charts | Syncfusion
+description: Learn here all about print and export in Syncfusion ASP.NET MVC 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Print and Export
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Print and Export in ASP.NET MVC 3D Circular Chart Component
+# Print and Export in ASP.NET MVC 3D Circular Charts
 
 ## Print
 

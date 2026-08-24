@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis customization in React Bullet chart component | Syncfusion
-description: Learn here all about Axis customization in Syncfusion React Bullet chart component of Syncfusion Essential JS 2 and more.
+title: Axis Customization in React Bullet Chart | Syncfusion
+description: Learn how to customize the axis in the Syncfusion React Bullet Chart Component with title, labels, ranges, and tick lines.
 control: Axis customization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in React Bullet chart component
+# Axis Customization in React Bullet Chart
 
 ## MajorTickLines and MinorTickLines Customization
 

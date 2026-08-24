@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Footer in React Chart component | Syncfusion
-description: Learn here all about Footer in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to add a footer in React Charts | Syncfusion
+description: Learn how to add a footer to Syncfusion React Charts using custom HTML annotations on the chart area.
 control: Footer 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Footer in React Chart component
+# How to add a footer in React Charts
 
 By using `annotation`, you can place any html elements to chart in a desired view.
 

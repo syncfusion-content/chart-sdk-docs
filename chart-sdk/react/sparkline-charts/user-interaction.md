@@ -1,14 +1,14 @@
 ---
 layout: post
-title: User interaction in React Sparkline component | Syncfusion
-description: Learn here all about User interaction in Syncfusion React Sparkline component of Syncfusion Essential JS 2 and more.
+title: User Interaction in React Sparkline Charts | Syncfusion
+description: Enable hover tooltips with custom format and template, plus track lines, on the Syncfusion React Sparkline Charts to highlight nearby data points.
 control: User interaction 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# User interaction in React Sparkline component
+# User Interaction in React Sparkline Charts
 
 Sparkline has two user interaction features: tooltip and tracker line.
 

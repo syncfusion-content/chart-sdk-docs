@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Localization in React Chart component | Syncfusion
-description: Learn here all about Localization in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Localization in React Charts | Syncfusion
+description: Learn how to localize Syncfusion React Charts by translating axis labels, tooltips, and legends into different languages for global audiences.
 control: Localization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Localization in React Chart component
+# Localization in React Charts
 
 The localization library localizes the Chart's default text content. Static text used by chart features (for example, zoom toolbar labels) can be translated by providing a locale value and a translation object.
 
@@ -47,7 +47,7 @@ The localization library localizes the Chart's default text content. Static text
 
 To load translation object in an application use load function of L10n class.
 
-For more information about localization, see the localization guide:  [`localization`](https://ej2.syncfusion.com/development/react/documentation/common/globalization/localization)
+For more information about localization, see the localization guide:  [`localization`](https://ej2.syncfusion.com/react/documentation/common/globalization/localization)
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

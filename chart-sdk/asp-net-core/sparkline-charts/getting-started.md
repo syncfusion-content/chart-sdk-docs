@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Get Started with ASP.NET Core Sparkline Charts Control | Syncfusion
+title: Getting Started with ASP.NET Core Sparkline Charts | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Sparkline Charts control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Sparkline Charts
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET Core Sparkline Charts Control
+# Getting Started with ASP.NET Core Sparkline Charts
 
 This section briefly explains how to include the [ASP.NET Core Sparkline Charts](https://www.syncfusion.com/aspnet-core-ui-controls/sparkline) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/).
 
