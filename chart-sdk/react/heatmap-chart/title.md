@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Title in React Heatmap chart component | Syncfusion
-description: Learn here all about Title in Syncfusion Angular Heatmap chart component of Syncfusion Essential JS 2 and more.
+description: Learn here all about Title in Syncfusion React Heatmap chart component of Syncfusion Essential JS 2 and more.
 control: Title 
 platform: chart-sdk
 documentation: ug
