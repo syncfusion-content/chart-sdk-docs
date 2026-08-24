@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Getting Started with ASP.NET Core Chart Control | Syncfusion
-description: Check out and learn about getting started with ASP.NET Core Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET Core Charts | Syncfusion
+description: Check out and learn about getting started with ASP.NET Core Charts control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Getting Started with the ASP.NET Core Chart Control
+# Getting Started with ASP.NET Core Charts
 
 This section briefly explains how to include the [ASP.NET Core Chart](https://www.syncfusion.com/aspnet-core-ui-controls/charts) control in your ASP.NET Core Web App using [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -210,3 +209,4 @@ N> Explore the sample on [GitHub](https://github.com/SyncfusionExamples/ASP-NET-
 
 1. [Getting Started with ASP.NET Core in Visual Studio Mac](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/visual-studio-mac)
 2. [Getting Started with ASP.NET Core MVC using Tag Helper](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/aspnet-core-mvc-taghelper)
+
