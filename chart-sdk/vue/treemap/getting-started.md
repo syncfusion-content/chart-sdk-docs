@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started with the Vue TreeMap Component in Vue 2 | Syncfusion
+title: Getting Started with Vue TreeMap | Syncfusion
 description: Set up a Vue 2 application and integrate the Syncfusion Vue TreeMap component with data binding, and a working example.
 control: TreeMap
 platform: chart-sdk
@@ -8,9 +8,9 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue TreeMap Component in Vue 2
+# Getting Started with Vue TreeMap
 
-This article provides a step-by-step guide to creating a Vue 2 application using [Vue CLI](https://cli.vuejs.org/) and integrating the Syncfusion<sup>®</sup> Vue TreeMap component.
+This article provides a step-by-step guide to creating a Vue 2 application using [Vue CLI](https://cli.vuejs.org) and integrating the Syncfusion<sup>®</sup> Vue TreeMap component.
 
 You can explore some useful features of the TreeMap component in the following video.
 
@@ -44,7 +44,7 @@ Use a package release that supports Vue 2. Before upgrading, check the [Vue syst
 
 ## Set Up the Vue 2 Project
 
-Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org/#getting-started) command.
+Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org#getting-started) command.
 
 **npm**
 
@@ -211,6 +211,6 @@ For additional assistance, refer to the [Vue TreeMap API documentation](https://
 
 - [Vue TreeMap color mapping](https://ej2.syncfusion.com/vue/documentation/treemap/color-mapping)
 - [Vue TreeMap legend](https://ej2.syncfusion.com/vue/documentation/treemap/legend)
-- [Vue TreeMap examples](https://ej2.syncfusion.com/vue/demos/#/material3/treemap/default.html)
+- [Vue TreeMap examples](https://ej2.syncfusion.com/vue/demos#/material3/treemap/default.html)
 - [Getting Started with Vue 3 using the Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)
 - [Getting Started with Vue 3 using the Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)
