@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Events in Vue Sankey Diagram | Syncfusion
-description: Learn here all about Events in Syncfusion Vue Sankey Diagram of Syncfusion Essential JS 2 and more.
+description: Learn how to handle and customize events in the Syncfusion Vue Sankey Diagram to manage interactions and respond to user actions.
 control: Events
 platform: chart-sdk
 documentation: ug

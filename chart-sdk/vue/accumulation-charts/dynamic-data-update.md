@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dynamic Data Update in Vue Accumulation Charts | Syncfusion
-description: Learn here all about dynamic data update in Syncfusion Accumulation Chart component in Syncfusion Essential JS 2 and more.
+description: Learn here all about dynamic data update in Syncfusion Vue Accumulation Chart component in Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dynamic Data Update
 documentation: ug

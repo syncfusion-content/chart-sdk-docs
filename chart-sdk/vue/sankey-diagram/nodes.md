@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nodes in Vue Sankey Diagram | Syncfusion
-description: Learn here all about Nodes in Syncfusion Vue Sankey Diagram of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize nodes in the Syncfusion Vue Sankey Diagram to represent entities and visualize flow relationships effectively.
 control: Nodes
 platform: chart-sdk
 documentation: ug

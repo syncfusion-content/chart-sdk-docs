@@ -234,7 +234,7 @@ For additional assistance, refer to the [Vue Bullet Chart API documentation](htt
 ## See Also
 
 - [Vue Bullet Chart overview](https://www.syncfusion.com/vue-components/vue-bullet-chart)
-- [Vue Bullet Chart examples](https://ej2.syncfusion.com/vue/demos#/bootstrap5/bullet-chart/default.html)
+- [Vue Bullet Chart examples](https://ej2.syncfusion.com/vue/demos/#/bootstrap5/bullet-chart/default.html)
 - [Vue Bullet Chart customization](https://ej2.syncfusion.com/vue/documentation/bullet-chart/customization)
 - [Vue Bullet Chart getting-started sample](https://github.com/SyncfusionExamples/getting-started-with-the-vue-bullet-chart-component)
 - [Getting Started with the Vue 3 Bullet Chart](vue-3-getting-started)

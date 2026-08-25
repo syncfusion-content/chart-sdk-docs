@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Links in Vue Sankey Diagram | Syncfusion
-description: Learn here all about Links in Syncfusion Vue Sankey Diagram of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize links in the Syncfusion Vue Sankey Diagram to represent data flow relationships clearly and effectively.
 control: Links
 platform: chart-sdk
 documentation: ug

@@ -25,7 +25,7 @@ You can club/group few points of the series based on [`groupTo`](https://ej2.syn
 
 ## Broken slice
 
-You can visualize all points available in club/group points by clicking on the grouped point. For example, if 5 points are grouped together it will be showed as a single slice with label `others`. If we click on `others` slice it will explode and broke into 5 seperate slices.
+You can visualize all points available in club/group points by clicking on the grouped point. For example, if 5 points are grouped together it will be showed as a single slice with label `others`. If we click on `others` slice it will explode and broke into 5 separate slices.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

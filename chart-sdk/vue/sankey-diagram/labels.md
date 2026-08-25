@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Labels in Vue Sankey Diagram | Syncfusion
-description: Learn here all about Labels in Syncfusion Vue Sankey Diagram of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize labels in the Syncfusion Vue Sankey Diagram to improve readability and present flow data clearly.
 control: Labels
 platform: chart-sdk
 documentation: ug

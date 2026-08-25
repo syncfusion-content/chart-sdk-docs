@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legend in Vue Sankey Diagram | Syncfusion
-description: Learn here all about Legend in Syncfusion Vue Sankey Diagram of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize legends in the Syncfusion Vue Sankey Diagram to improve data interpretation and visual clarity.
 control: Legend
 platform: chart-sdk
 documentation: ug
