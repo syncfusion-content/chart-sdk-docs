@@ -49,7 +49,7 @@ To render a Box and Whisker chart, create an instance of [`BoxAndWhiskerSeries`]
 
 ![box and whisker chart](cartesian-chart-types-images/box_and_whisker.png)
 
-### See Also
+## See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)

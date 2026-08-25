@@ -17,7 +17,7 @@ This page helps you navigate to the chart types available in the Syncfusion<sup>
             Pie Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/pie-chart" aria-label="Flutter Circular Pie Chart Link">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/pie-chart" aria-label="Flutter Circular Pie Chart Link">Pie Chart Link</a>
         </td>
     </tr>
      <tr>
@@ -25,7 +25,7 @@ This page helps you navigate to the chart types available in the Syncfusion<sup>
             Doughnut Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/doughnut-chart" aria-label="Flutter Circular Doughnut Chart Link">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/doughnut-chart" aria-label="Flutter Circular Doughnut Chart Link">Doughnut Chart Link</a>
         </td>
     </tr>
     <tr>
@@ -33,7 +33,7 @@ This page helps you navigate to the chart types available in the Syncfusion<sup>
             Radial Bar Chart
         </td>
         <td>
-            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/radial-bar-chart" aria-label="Flutter Circular Radial Bar Chart Link">Link</a>
+            <a href="https://help.syncfusion.com/chart-sdk/flutter/circular-chart/chart-types/radial-bar-chart" aria-label="Flutter Circular Radial Bar Chart Link">Radial Bar Chart Link</a>
         </td>
     </tr>
 </table>

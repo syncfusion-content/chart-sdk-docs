@@ -45,7 +45,7 @@ documentation: ug
 
 ![Fast line chart](cartesian-chart-types-images/fastline.jpg)
 
-### See Also
+## See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
