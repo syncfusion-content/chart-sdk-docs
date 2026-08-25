@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart print in React Chart component | Syncfusion
-description: Learn here all about Chart print in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Print and Export in React Charts | Syncfusion
+description: Learn how to print and export Syncfusion React Charts to PDF, image, Excel, and CSV formats with multiple Charts on one page.
 control: Chart print 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart print in React Chart component
+# Print and Export in React Charts
 
 ## Print
 

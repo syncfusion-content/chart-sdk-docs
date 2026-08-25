@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Customization in React Bullet chart component | Syncfusion
-description: Learn here all about Customization in Syncfusion React Bullet chart component of Syncfusion Essential JS 2 and more.
+title: Customization in React Bullet Chart | Syncfusion
+description: Learn how to customize the Syncfusion React Bullet Chart Component with themes, orientation, and animation options.
 control: Customization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Customization in React Bullet chart component
+# Customization in React Bullet Chart
 
 ## Orientation
 

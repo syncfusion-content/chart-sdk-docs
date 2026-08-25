@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stacked Step Area Chart in React Charts | Syncfusion
-description: Learn here all about Stacked Step Area Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind Stacked Step Area series in Syncfusion React Charts to combine stacked areas with stepped boundaries.
 control: Stacked Step Area Chart 
 platform: chart-sdk
 documentation: ug

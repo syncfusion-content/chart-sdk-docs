@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Scatter Chart in ASP.NET MVC Charts
+title: Scatter Chart in ASP.NET MVC Charts | Syncfusion
 description: Learn here all about Scatter Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Scatter Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

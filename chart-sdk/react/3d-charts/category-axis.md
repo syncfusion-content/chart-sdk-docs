@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Category axis in React 3D Chart component | Syncfusion
-description: Learn here all about category axis in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart
+title: Category Axis in React 3D Charts | Syncfusion
+description: Learn how to configure the category axis in the Syncfusion React 3D Charts to render text labels along the horizontal axis with flexible label placement.
+control: Category Axis
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Category axis in React 3D Chart control
+# Category Axis in React 3D Charts
 
 The category axis is the horizontal axis of a 3D chart that shows text values rather than numerical values. Compared to the vertical axis, this axis has fewer labels. The following sample shows to render the 3D chart using category axis.
 

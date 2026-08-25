@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Ej1 api migration in React Chart component | Syncfusion
-description: Learn here all about Ej1 api migration in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
-control: Ej1 api migration 
+title: EJ1 API Migration in React Charts | Syncfusion
+description: Learn how to migrate Syncfusion React Charts from Essential JS 1 to Essential JS 2, covering property, method, event, and series API changes.
+control: Ej1 api migration
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Ej1 api migration in React Chart component
+# EJ1 API Migration in React Charts
 
 This article describes the API migration process of the Chart component from Essential<sup style="font-size:70%">&reg;</sup> JS 1 to Essential<sup style="font-size:70%">&reg;</sup> JS 2.
 

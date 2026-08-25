@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chart Dimensions in Angular Chart Component | Syncfusion
+title: Chart Dimensions in Angular Chart | Syncfusion
 description: Learn here all about Chart dimensions in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart dimensions 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart Dimensions in Angular Chart Component
+# Chart Dimensions in Angular Chart
 
 ## Container Size
 

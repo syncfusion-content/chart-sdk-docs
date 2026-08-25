@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Dynamic Chart in ASP.NET Core Chart Component
-description: Learn here all about Dynamic Chart in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: How to add a chart dynamically in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Dynamic Chart in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dynamic Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# To add chart dynamically
+# How to add a chart dynamically in ASP.NET Core Charts
 
 By using html button, you can add the chart dynamically by clicking the button.
 
@@ -25,4 +24,5 @@ To add the chart dynamically through button click, follow the given steps:
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/dynamic-chart/dynamic-chart.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

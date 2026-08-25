@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Range Column Chart in React Charts | Syncfusion
-description: Learn here all about Range Column Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind Range Column series in Syncfusion React Charts to visualize data ranges with paired high and low columns per category.
 control: Range Column Chart 
 platform: chart-sdk
 documentation: ug

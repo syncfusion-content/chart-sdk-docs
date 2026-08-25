@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Nodes in Syncfusion ASP.NET MVC Sankey Chart Component
-description: Learn here all about Nodes in Syncfusion ASP.NET MVC Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Nodes in ASP.NET MVC Sankey Diagram | Syncfusion
+description: Learn here all about Nodes in Syncfusion ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Nodes
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Nodes in ASP.NET MVC Sankey Chart component
+# Nodes in ASP.NET MVC Sankey Diagram
 
 Nodes are the fundamental building blocks of a Sankey Chart, representing sources, targets, and intermediate entities in flow diagrams. The Sankey Chart provides extensive customization options for node appearance, enabling you to create visually meaningful and interactive flow diagrams.
 

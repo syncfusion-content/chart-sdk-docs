@@ -1,7 +1,7 @@
 ---
 layout: post
 title: High Low Chart in React Charts | Syncfusion
-description: Learn here all about Hilo Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render, customize, and bind Hilo series in Syncfusion React Charts to display stock price ranges with high and low values, fill, and border styling.
 control: High Low Chart 
 platform: chart-sdk
 documentation: ug

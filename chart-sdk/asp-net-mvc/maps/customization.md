@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Customization in Syncfusion ASP.NET MVC Maps Component
+title: Customization in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Customization in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Customization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Customization in ASP.NET MVC Maps Component
+# Customization in ASP.NET MVC Maps
 
 ## Setting the size for Maps
 

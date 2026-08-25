@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Getting Started with ASP.NET MVC HeatMap Chart Control | Syncfusion
-description: Check out and learn about getting started with the ASP.NET MVC HeatMap Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET MVC Heatmap Chart | Syncfusion
+description: Checkout and learn about getting started with ASP.NET MVC Heatmap Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Getting Started with the ASP.NET MVC HeatMap Chart Control
+# Getting Started with ASP.NET MVC HeatMap Chart
 
 This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET MVC HeatMap Chart](https://www.syncfusion.com/aspnet-mvc-ui-controls/heatmap-chart) control to an ASP.NET MVC 5 (.NET Framework) application using Visual Studio.
 

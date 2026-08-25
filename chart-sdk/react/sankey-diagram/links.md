@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Links in React Sankey Chart component | Syncfusion
-description: Learn here all about Links in Syncfusion React Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Links in React Sankey Diagram | Syncfusion
+description: Learn how to add and customize links in the Syncfusion React Sankey Diagram Component to show flow between nodes with custom color, width, and opacity.
 control: Links
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Links in React Sankey Chart component
+# Links in React Sankey Diagram
 
 Links are the connecting paths that visualize flow between nodes in a Sankey Chart. Each link connects a source node to a target node and carries a quantitative value that determines its visual thickness. The Sankey Chart provides comprehensive customization options for link styling, colors, curvature, and interactions.
 

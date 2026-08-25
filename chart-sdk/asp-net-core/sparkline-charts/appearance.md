@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Appearance in ASP.NET Core Sparkline Component
-description: Learn here all about Appearance in Syncfusion ASP.NET Core Sparkline component of Syncfusion Essential JS 2 and more.
+title: Appearance in ASP.NET Core Sparkline Charts | Syncfusion
+description: Learn here all about Appearance in Syncfusion ASP.NET Core Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Appearance
+# Appearance in ASP.NET Core Sparkline Charts
 
 The appearance of the sparkline can be customized using margin, container Area border, and container Area background.
 
@@ -32,7 +31,7 @@ The following code example shows the sparkline with overall border.
 
 ## Sparkline padding
 
-Padding is used to specify padding value between container and sparkline. By default, padding value of the sparkline is 5. Sparkline [`padding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklinePadding.html) values are specified by the left, right, top, and bottom.
+Padding is used to specify padding value between container and sparkline. By default, padding value of the sparkline is 5. sparkline [`padding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklinePadding.html) values are specified by the left, right, top, and bottom.
 
 The following code example shows the sparkline with overall padding is set to 20.
 

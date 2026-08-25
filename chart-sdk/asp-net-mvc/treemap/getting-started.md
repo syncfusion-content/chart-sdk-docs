@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Getting Started with ASP.NET MVC TreeMap Control | Syncfusion
-description: Check out and learn about getting started with ASP.NET MVC TreeMap control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET MVC TreeMap | Syncfusion
+description: Checkout and learn about getting started with ASP.NET MVC TreeMap control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Getting Started with the ASP.NET MVC TreeMap Control
+# Getting Started with ASP.NET MVC TreeMap
 
 This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> [ASP.NET MVC TreeMap](https://www.syncfusion.com/aspnet-mvc-ui-controls/treemap) control to your ASP.NET MVC application using Visual Studio.
 

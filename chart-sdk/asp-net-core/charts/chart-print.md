@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Chart Print in Syncfusion ASP.NET Core Chart Component
-description: Learn here all about Chart Print in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Print and Export in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Chart Print in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart print
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Print and Export in ASP.NET Core Chart component
+# Print and Export in ASP.NET Core Charts
 
 ## Print
 
@@ -150,5 +149,6 @@ You can export the rendered chart data to Excel in either `XLSX` or `CSV` format
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/excel-export/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 

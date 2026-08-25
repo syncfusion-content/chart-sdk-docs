@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Legend customization in React Chart component | Syncfusion
-description: Learn here all about Legend customization in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to customize legend in React Charts | Syncfusion
+description: Learn how to customize legend per series in Syncfusion React Charts for a more meaningful legend display.
 control: Legend customization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend customization in React Chart component
+# How to customize legend in React Charts
 
 By using the [`legendRender`](https://ej2.syncfusion.com/react/documentation/api/chart/chartModel#legendrender), you can customize the legend shape.
 

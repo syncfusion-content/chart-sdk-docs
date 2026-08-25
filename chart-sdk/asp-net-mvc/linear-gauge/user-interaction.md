@@ -1,10 +1,9 @@
 ---
 layout: post
-title: User Interaction in ASP.NET MVC Linear Gauge Component
+title: User Interaction in ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about User Interaction in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: User Interaction
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

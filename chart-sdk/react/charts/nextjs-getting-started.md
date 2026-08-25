@@ -1,14 +1,14 @@
 ---
 layout: post
-title: React Chart getting started with Next.js | Syncfusion
-description: Check out and learn here all about how to use the Syncfusion React UI components in the Next.js project.
+title: Getting Started with React Charts in Next.js | Syncfusion
+description: Learn how to set up Syncfusion React Charts in a Next.js 14 or 15 project, install the package, and add the Chart component to a server-rendered page.
 control: Next.js
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with React Chart in Next.js
+# Getting Started with React Charts in Next.js
 
 This section provides a step-by-step guide for setting up a Next.js application and integrating the [React Charts](https://www.syncfusion.com/react-components/react-charts) component.
 

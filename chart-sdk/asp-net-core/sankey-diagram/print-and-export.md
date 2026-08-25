@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Print and Export in ASP.NET Core Sankey Chart Component
-description: Learn here all about Print and Export in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Print and Export in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Print and Export in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Print and Export
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Print and Export in ASP.NET Core Sankey Chart component
+# Print and Export in ASP.NET Core Sankey Diagram
 
 The Sankey Chart provides comprehensive print and export functionality, enabling users to generate static files in multiple formats (PNG, JPEG, SVG, PDF) or print the diagram directly. This is useful for reports, documentation, sharing, and offline access.
 
