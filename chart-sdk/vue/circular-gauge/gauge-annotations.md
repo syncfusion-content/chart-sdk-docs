@@ -67,4 +67,4 @@ be used to place that in another gauge.
 
 ## See also
 
-* [Tooltip for Annotation](https://ej2.syncfusion.com/documentation/circular-gauge/gauge-user-interaction/tooltip-for-ranges-and-annotations)
+* [Tooltip for Annotation](https://ej2.syncfusion.com/vue/documentation/circular-gauge/gauge-user-interaction#tooltip-for-annotation)

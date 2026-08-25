@@ -213,6 +213,6 @@ For additional assistance, refer to the [Vue Circular Gauge API documentation](h
 - [Vue Circular Gauge axes](https://ej2.syncfusion.com/vue/documentation/circular-gauge/gauge-axes)
 - [Vue Circular Gauge ranges](https://ej2.syncfusion.com/vue/documentation/circular-gauge/gauge-ranges)
 - [Vue Circular Gauge user interaction](https://ej2.syncfusion.com/vue/documentation/circular-gauge/gauge-user-interaction)
-- [Vue Circular Gauge examples](https://ej2.syncfusion.com/vue/demos#/material3/circular-gauge/default-functionalities.html)
+- [Vue Circular Gauge examples](https://ej2.syncfusion.com/vue/demos/#/material3/circular-gauge/default-functionalities.html)
 - [Getting Started with Vue UI Components using the Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)
 - [Getting Started with Vue UI Components using the Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)
