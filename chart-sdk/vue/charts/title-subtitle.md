@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart title in Vue Chart component | Syncfusion
-description: Learn here all about Chart title in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in Vue Charts | Syncfusion
+description: Learn how to customize chart titles and subtitles in Syncfusion Vue Charts to improve presentation, context, and overall chart readability.
 control: Chart title
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and Subtitle in Vue Chart Component
+# Title and Subtitle in Vue Charts
 
 Chart titles and subtitles help provide context for the visualized data. The title typically indicates the main subject or metric represented in the chart, while the subtitle adds supporting details such as data sources, time ranges, or explanatory notes. Both elements can be customized in terms of position, alignment, and style to align with application design requirements.
 
