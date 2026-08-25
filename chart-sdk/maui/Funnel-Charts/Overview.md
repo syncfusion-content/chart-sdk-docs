@@ -1,13 +1,13 @@
 ---
 layout: post
-title: About .NET MAUI Funnel Chart Control | Syncfusion
-description: Learn here all about introduction of Syncfusion® .NET MAUI Chart(SfFunnelChart) control with key features and more
+title: About Syncfusion .NET MAUI Funnel Chart Control | Syncfusion®
+description: Learn about the overview of Syncfusion® .NET MAUI Funnel Chart control, including customization options, data labels, legends, and visualization features.
 platform: chart-sdk
 control: SfFunnelChart
 documentation: ug
 ---
 
-# .NET MAUI Funnel Chart Overview
+# About Syncfusion® .NET MAUI Funnel Chart Control
 
 Syncfusion® [.NET MAUI Funnel Chart](https://www.syncfusion.com/maui-controls/maui-funnel-charts) (SfFunnelChart) is used to create the beautiful funnel segments to analyze the various stages in a process, which are used in high-quality .NET MAUI applications.
 
@@ -71,7 +71,7 @@ The following table summarizes the globalization support available in this contr
 <th align="center">Keyboard navigation</th>
 </tr>
 <tr>
-<td><a href="/maui/funnel-charts/overview">Funnel Charts</a></td>
+<td><a href="/maui/funnel-charts/overview" aria-label="MAUI Funnel Charts Control overview">Funnel Charts</a></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
 <td align="center"><img src="../Images/full-support.svg" alt="full-support" width="16" /></td>
@@ -82,16 +82,16 @@ The following table summarizes the globalization support available in this contr
 
 ## Related controls
 
-- [Cartesian Charts](https://help.syncfusion.com/maui/cartesian-charts/overview) for visualizing data using line, bar, and other chart types.  
-- [Circular Charts](https://help.syncfusion.com/maui/circular-charts/overview) for representing proportional data using pie and doughnut charts.  
-- [TreeMap](https://help.syncfusion.com/maui/treemap/overview) for displaying hierarchical and comparative data. 
-- [Pyramid Charts](https://help.syncfusion.com/maui/pyramid-charts/overview) for hierarchical or comparative data representation.
+- [Cartesian Charts](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/overview) for visualizing data using line, bar, and other chart types.  
+- [Circular Charts](https://help.syncfusion.com/chart-sdk/maui/circular-charts/overview) for representing proportional data using pie and doughnut charts.  
+- [TreeMap](https://help.syncfusion.com/chart-sdk/maui/treemap/overview) for displaying hierarchical and comparative data. 
+- [Pyramid Charts](https://help.syncfusion.com/chart-sdk/maui/pyramid-charts/overview) for hierarchical or comparative data representation.
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/funnel-charts/getting-started) shows a step‑by‑step guide to begin using the Funnel Chart control.  
-- [Appearance](https://help.syncfusion.com/maui/funnel-charts/appearance) explains how to customize chart appearance and behavior.  
-- [Data Labels](https://help.syncfusion.com/maui/funnel-charts/datalabels) helps configure data labels and segment display.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/getting-started) shows a step‑by‑step guide to begin using the Funnel Chart control.  
+- [Appearance](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/appearance) explains how to customize chart appearance and behavior.  
+- [Data Labels](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/datalabels) helps configure data labels and segment display.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples. 
 
 ## Resources

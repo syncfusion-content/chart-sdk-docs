@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Column chart in ASP.NET Core Syncfusion 3D Chart Component
-description: Learn here all about column chart in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Column in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about column chart in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Column chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Column chart in ASP.NET Core 3D Chart Component
+# Column in ASP.NET Core 3D Charts
 
 ## Column chart
 

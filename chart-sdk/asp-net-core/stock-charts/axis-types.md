@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis Types in ASP.NET Core Stock Chart Component
+title: Axis Types in ASP.NET Core Stock Chart | Syncfusion
 description: Learn here all about Axis Types in Syncfusion ASP.NET Core Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis types
-publishingplatform: chart-sdk
+control: Axis Types
 documentation: ug
 ---
 
 
-# Axis types
+# Axis Types in ASP.NET Core Stock Chart
 
 ## DateTime axis
 
@@ -60,4 +59,4 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing dat
 
 ## See also
 
-* [Axis Customization](./axis-customization/)
+* [Axis Customization](./axis-customization)

@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Accessibility in ASP.NET MVC Sankey Chart Component
-description: Learn here all about Accessibility in Syncfusion ASP.NET MVC Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Accessibility in ASP.NET MVC Sankey Diagram | Syncfusion
+description: Learn here all about Accessibility in Syncfusion ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Accessibility in ASP.NET MVC Sankey Chart component
+# Accessibility in ASP.NET MVC Sankey Diagram
 
 The Sankey Chart component follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 
@@ -68,8 +67,6 @@ The Sankey Chart component follows the [keyboard interaction](https://www.w3.org
 ## Ensuring accessibility
 
 The Sankey Chart component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
-
-The accessibility compliance of the Sankey Chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/sankey.html) in a new window to evaluate the accessibility of the Sankey Chart component with accessibility tools.
 
 {% previewsample "https://ej2.syncfusion.com/accessibility/sankey.html" %}
 

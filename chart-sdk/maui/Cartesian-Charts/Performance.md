@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Performance in .NET MAUI Cartesian Chart control | Syncfusion
-description: Explore performance optimization techniques for .NET MAUI Cartesian Chart with fast series, real-time updates, and responsive data visualization.
+title: Performance in .NET MAUI Cartesian Chart | Syncfusion®
+description: Performance in .NET MAUI Cartesian Chart enables efficient rendering of large data sets, ensuring smooth interaction and responsive data visualization.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -12,7 +12,7 @@ keywords: .net maui chart performance, maui chart optimization, .net maui fast l
 
 The .NET MAUI Cartesian Chart provides performance optimization techniques to efficiently handle large datasets and dynamic data updates. Whether you are rendering thousands of data points or pushing real-time updates, the following strategies help you get the best rendering performance from `SfCartesianChart`.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 ## Fast chart in .NET MAUI Cartesian Charts
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Module in React Chart component | Syncfusion
-description: Learn here all about Module in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
-control: Module 
+title: Feature Modules in React Charts | Syncfusion
+description: Learn how to load Syncfusion React Charts feature modules on demand to keep your bundle size small and load only what you need.
+control: Module
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Module in React Chart component
+# Feature Modules in React Charts
 
 The following available modules should be injected to extend the Chart's functionality.
 

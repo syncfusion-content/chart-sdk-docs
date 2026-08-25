@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Legend in .NET MAUI Maps control | Syncfusion®
-description: Learn all about the Legend feature of Syncfusion® .NET MAUI Maps (SfMaps) control to customize its appearance including text, icon and more.
+title: Legend in .NET MAUI Maps | Syncfusion®
+description: Legend in .NET MAUI Maps displays map data categories with customizable styles, helping users identify and interpret geographic information effectively.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
 
-# Legend in .NET MAUI Maps (SfMaps)
+# Legend in .NET MAUI Maps
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/maps/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Maps** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started)** guide.
 
 Using a legend, you can provide clear information on the data plotted on the map.
 

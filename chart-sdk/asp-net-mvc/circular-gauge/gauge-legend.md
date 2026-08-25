@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Gauge Legend in ASP.NET MVC Circular Gauge Control | Syncfusion
+title: Legend in ASP.NET MVC Circular Gauge | Syncfusion
 description: Learn here all about Gauge Legend in Syncfusion ASP.NET MVC Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Legend in Circular Gauge Control
+# Legend in ASP.NET MVC Circular Gauge
 
 Legend provides valuable information for interpreting what the circular gauge axis range displays, and they can be represented in various colors, shapes, and other identifiers based on the data. It gives a breakdown of what each symbol represents in the axis range of circular gauge.
 

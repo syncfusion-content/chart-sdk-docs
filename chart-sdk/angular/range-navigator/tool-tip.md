@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tool tip in Angular Range navigator component | Syncfusion
+title: Tool Tip in Angular Range Navigator | Syncfusion
 description: Learn here all about Tool tip in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool tip 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip in Angular Range navigator component
+# Tool Tip in Angular Range Navigator
 
 The tooltip for sliders are supported by the Range Selector. Sliders are used in the Range Selector to select data from a specific range. The tooltip displays the selected start and end values.
 

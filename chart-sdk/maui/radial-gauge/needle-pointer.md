@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Needle Pointer in .NET MAUI Radial Gauge control | Syncfusion®
-description: Learn here all about the Needle Pointer feature of Syncfusion® .NET MAUI Radial Gauge control using the customization support.
+title: Needle Pointer in .NET MAUI Radial Gauge | Syncfusion®
+description: Needle Pointer in .NET MAUI Radial Gauge indicates values using a needle-shaped pointer, enabling precise measurement and intuitive gauge visualization.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The [`Needle Pointer`](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.NeedlePointer.html) contains three parts, namely needle, knob, and tail, and can be placed on a gauge to mark values.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfRadialGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started)** guide.
 
 {% tabs %}
 

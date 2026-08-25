@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart dimensions in React Stock chart component | Syncfusion
-description: Learn here all about Chart dimensions in Syncfusion React Stock chart component of Syncfusion Essential JS 2 and more.
+title: Chart Dimensions in React Stock Chart | Syncfusion
+description: Learn how to set the Syncfusion React Stock Chart Component size to a fixed container or a custom width and height using CSS or inline style.
 control: Chart dimensions 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart dimensions in React Stock chart component
+# Chart Dimensions in React Stock Chart
 
 ## Size for Container
 

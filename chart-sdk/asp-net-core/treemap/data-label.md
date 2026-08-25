@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Data Label in ASP.NET Core Treemap Control | Syncfusion
-description: Learn here all about Data Label in Syncfusion ASP.NET Core Treemap component of Syncfusion Essential JS 2 and more.
+title: Data Label in ASP.NET Core TreeMap | Syncfusion
+description: Learn here all about Data Label in Syncfusion ASP.NET Core TreeMap component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Data Label in ASP.NET Core TreeMap Control
+# Data Label in ASP.NET Core TreeMap
 
 Data Labels are used to identify the name of items or groups in the TreeMap component. Data Labels will be shown by specifying the data source properties in the `labelPath` of the `leafItemSettings`.
 

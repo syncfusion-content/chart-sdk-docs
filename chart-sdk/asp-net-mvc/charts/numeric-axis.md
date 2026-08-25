@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Numeric Axis in ASP.NET MVC Chart Component
-description: Learn here all about Numeric Axis in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Numeric Axis in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Numeric Axis in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Numeric Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# Numeric Axis
+# Numeric Axis in ASP.NET MVC Charts
 
 You can use numeric [`Axis`](https://ej2.syncfusion.com/aspnetcore/Chart/NumericAxis#/material) to represent numeric values of data in chart. By default, the `ValueType` of an axis is [`Double`](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-axis).
 

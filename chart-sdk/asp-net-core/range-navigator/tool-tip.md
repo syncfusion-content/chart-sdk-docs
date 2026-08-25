@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Tool Tip in ASP.NET Core Range Navigator Component
+title: Tooltip in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Tool Tip in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Tool Tip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Tooltip
+# Tooltip in ASP.NET Core Range Navigator
 
 <!-- markdownlint-disable MD036 -->
 

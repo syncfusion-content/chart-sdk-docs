@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with React Linear Gauge component | Syncfusion
-description:  Check out and learn about Getting started with React Linear Gauge component of Syncfusion Essential JS 2 and more details.
+title: Getting Started with React Linear Gauge | Syncfusion
+description: Learn how to get started with the Syncfusion React Linear Gauge control. Explore setup, features, examples, and customization options.
 control: Getting started
 platform: chart-sdk
 documentation: ug

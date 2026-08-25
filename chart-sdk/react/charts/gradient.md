@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Gradient in React Chart component | Syncfusion
-description: Learn here all about Gradient in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Gradient in React Charts | Syncfusion
+description: Learn how to apply linear and radial gradient fills to Syncfusion React Charts series for richer visual styling.
 control: Gradient
 platform: chart-sdk
 documentation: ug
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Gradient in React Chart control
+# Gradient in React Charts
 
 <!-- markdownlint-disable MD036 -->
 

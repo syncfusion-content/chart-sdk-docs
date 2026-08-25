@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Gradient in ASP.NET MVC Syncfusion Accumulation Chart Component
-description: Learn here all about Gradient in Syncfusion ASP.NET MVC Accumulation Chart component of Syncfusion Essential JS 2 and more.
+title: Gradient in ASP.NET MVC Accumulation Charts | Syncfusion
+description: Learn here all about Gradient in Syncfusion ASP.NET MVC Accumulation Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gradient
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Gradient in ASP.NET MVC Accumulation Chart Component
+# Gradient in ASP.NET MVC Accumulation Charts
 
 Gradients add depth and modern styling to charts by smoothly blending multiple colors. The Charts component supports two gradient types:
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Character Display Types in .NET MAUI Digital Gauge | Syncfusion
-description: Learn here all about Display Types support in Syncfusion<sup>&reg;</sup> .NET MAUI Digital Gauge (SfDigitalGauge) control and more.
+title: Character Display Types in .NET MAUI Digital Gauge | Syncfusion®
+description: Character Display Types in .NET MAUI Digital Gauge support various segment styles for rendering characters, enabling flexible and customizable digital displays.
 platform: chart-sdk
 control: DigitalGauge
 documentation: ug
@@ -12,7 +12,7 @@ keywords: .net maui, .net maui digital gauge, digital gauge, character segments,
 
 The digital gauge displays numbers, the alphabet, and special characters, which are given in the [text](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfDigitalGauge.html#Syncfusion_Maui_Gauges_SfDigitalGauge_Text) property.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfDigitalGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/digitalgauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfDigitalGauge** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/digitalgauge/getting-started)** guide.
 
 ## Display numbers
 

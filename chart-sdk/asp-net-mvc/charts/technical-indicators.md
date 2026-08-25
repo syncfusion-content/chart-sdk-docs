@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Technical Indicators in ASP.NET MVC Chart Component
-description: Learn here all about Technical Indicators in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Technical Indicators in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Technical Indicators in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Technical Indicators
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# Technical Indicators
+# Technical Indicators in ASP.NET MVC Charts
 
 A [`Technical indicator`](https://www.syncfusion.com/aspnet-core-ui-controls/charts/technical-indicators) is a mathematical calculation based on historic price, volume or open interest information that aims to forecast financial market direction.
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Internationalization in ASP.NET MVC Chart Component
-description: Learn here all about Internationalization in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Internationalization in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Internationalization in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Internationalization
+# Internationalization in ASP.NET MVC Charts
 
 Chart provide supports for internationalization for below chart elements.
 

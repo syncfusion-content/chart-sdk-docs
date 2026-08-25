@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in Angular Sankey component | Syncfusion
+title: Accessibility in Angular Sankey | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Angular Sankey component of Syncfusion Essential JS 2 and more.
 control: Accessibility
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in Angular Sankey component
+# Accessibility in Angular Sankey
 
 The Sankey component follows accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 
@@ -75,7 +75,7 @@ The following keyboard shortcuts are supported:
 
 The Sankey component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Sankey component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/sankey.html) in a new window to evaluate the accessibility with accessibility tools.
+The accessibility compliance of the Sankey component is shown in the following sample. Open the sample in a new window to evaluate the accessibility with accessibility tools.
 
 {% previewsample "https://ej2.syncfusion.com/accessibility/sankey.html" %}
 

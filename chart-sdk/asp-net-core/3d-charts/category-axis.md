@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Category Axis in ASP.NET Core 3D Chart Component
-description: Learn here all about Category Axis in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Category Axis in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about Category Axis in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Category Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Category Axis in MVC 3D Chart component
+# Category Axis in ASP.NET Core 3D Charts
 
 The category axis is the horizontal axis of a 3D chart that shows text values rather than numerical values. Compared to the vertical axis, this axis has fewer labels. The following sample shows to render the 3D chart using category axis.
 

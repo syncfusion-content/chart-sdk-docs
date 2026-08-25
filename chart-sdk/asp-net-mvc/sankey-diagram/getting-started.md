@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Getting started with ASP.NET MVC Sankey Chart | Syncfusion
-description: Check out and learn about getting started with ASP.NET MVC Sankey Chart component of Syncfusion Essential JS 2 and more details.
+title: Getting Started with ASP.NET MVC Sankey Diagram | Syncfusion
+description: Checkout and learn about Getting started with ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Getting Started
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Getting Started with the ASP.NET MVC Sankey Chart Control
+# Getting started with ASP.NET MVC Sankey Diagram
 
 This section briefly explains how to add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Sankey Chart control to your ASP.NET MVC application using Visual Studio.
 

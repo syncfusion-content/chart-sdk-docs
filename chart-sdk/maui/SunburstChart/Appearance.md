@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Appearance in .NET MAUI Sunburst Chart control | Syncfusion
-description: Learn here all about Sunburst Chart appearance customization in Syncfusion<sup>®</sup> .NET MAUI Sunburst Chart control.
+title: Appearance in .NET MAUI Sunburst Chart | Syncfusion®
+description: Appearance in .NET MAUI Sunburst Chart allows customization of chart visuals using colors, palettes and styling options.
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
@@ -11,7 +11,7 @@ documentation: ug
 
 The appearance of the [SfSunburstChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html) can be customized using properties such as Title, Angle, Radius, Inner radius, and Stroke, which allow you to enhance the visual presentation of your application.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **Sunburst Chart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started)** guide.
 
 ## Add a Title
 The title of the sunburst chart provides quick information to the user about the data being plotted in the chart. The [Title](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.SunburstChart.SfSunburstChart.html#Syncfusion_Maui_SunburstChart_SfSunburstChart_Title) property accepts a `View` and is used to set a title for the sunburst chart. The following example uses a `Label` as the title within a `ContentPage`.

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart series in React Chart component | Syncfusion
-description: Learn here all about Chart series in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Chart Series in React Charts | Syncfusion
+description: Learn how to render multiple or combination of chart series in Syncfusion React Charts to compare distinct datasets in a single chart area.
 control: Chart series 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart series in React Chart component
+# Chart Series in React Charts
 
 ## Multiple Series
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Series in Angular Chart component | Syncfusion
+title: Series Overview in Angular Chart | Syncfusion
 description: Learn about chart series, single and multiple series, and common series properties in the Syncfusion Angular Chart component.
 platform: chart-sdk
 control: Chart Series
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Overview of Chart Series
+# Series Overview in Angular Chart
 
 ## **What is a series?**
 

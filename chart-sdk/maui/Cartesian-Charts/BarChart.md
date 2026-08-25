@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bar Chart in .NET MAUI Cartesian Chart control | Syncfusion
-description: Learn here all about bar chart and its features in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
+title: Bar Chart in .NET MAUI Cartesian Chart | Syncfusion®
+description: Bar Chart in .NET MAUI Cartesian Chart displays data using horizontal bars, making it easy to compare values across different categories.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
@@ -10,13 +10,13 @@ keywords: .net maui bar chart, maui bar chart, .net maui chart bar type, bar cha
 
 # Bar Chart in .NET MAUI Cartesian Chart
 
-A bar chart uses bars to represent data points and compare values across different categories. To render a bar chart, initialize the [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html) and set the [IsTransposed](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_IsTransposedProperty) property to `true` to switch the chart's X and Y axes. Then, create a [ColumnSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ColumnSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html). For more information on column chart setup, see the [Column Chart](https://help.syncfusion.com/maui/cartesian-charts/column) documentation.
+A bar chart uses bars to represent data points and compare values across different categories. To render a bar chart, initialize the [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html) and set the [IsTransposed](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_IsTransposedProperty) property to `true` to switch the chart's X and Y axes. Then, create a [ColumnSeries](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ColumnSeries.html) and add it to the [Series](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_Series) collection property of [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html). For more information on column chart setup, see the [Column Chart](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/column) documentation.
 
 N> By default, the [IsTransposed](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_IsTransposedProperty) property of the [SfCartesianChart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html) is `false`.
 
 N> The Cartesian chart has `Series` as its default content.
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the **SfCartesianChart** control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started)** guide.
 
 {% tabs %}
 

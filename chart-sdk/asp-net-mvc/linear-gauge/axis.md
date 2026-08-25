@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Axis in ASP.NET MVC Linear Gauge Component
+title: Axis in ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about Axis in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Column Chart in React 3D Chart component | Syncfusion
-description: Learn here all about column chart in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart 
+title: Column Chart in React 3D Charts | Syncfusion
+description: Learn how to render a 3D column chart in Syncfusion React 3D Charts to compare values across categories with a vertical cylindrical look.
+control: Column Chart 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Column Chart in React 3D Chart control
+# Column Chart in React 3D Charts
 
 ## Column chart
 
