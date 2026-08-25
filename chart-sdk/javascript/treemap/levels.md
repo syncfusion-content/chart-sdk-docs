@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Levels in JavaScript TreeMap | Syncfusion
-description: Learn here all about Levels in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
+description: Learn how to configure levels in Syncfusion JavaScript TreeMap to organize hierarchical data and enhance data visualization.
 platform: chart-sdk
 control: TreeMap
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Layout in JavaScript TreeMap | Syncfusion
-description: Learn here all about Layout in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
+description: Learn how to configure TreeMap layouts in Syncfusion JavaScript TreeMap to optimize data visualization and improve hierarchical data presentation.
 platform: chart-sdk
 control: TreeMap 
 documentation: ug

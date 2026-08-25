@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legend in JavaScript TreeMap | Syncfusion
-description: Learn here all about Legend in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize legends in Syncfusion JavaScript TreeMap to improve data interpretation and visual clarity.
 platform: chart-sdk
 control: TreeMap
 documentation: ug
