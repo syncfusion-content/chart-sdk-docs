@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Waterfall Chart in JavaScript Chart | Syncfusion
-description: Learn here all about Waterfall in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: Waterfall Chart in JavaScript Charts | Syncfusion
+description: Learn here all about Waterfall in Syncfusion JavaScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Waterfall Chart in JavaScript Chart
+# Waterfall Chart in JavaScript Charts
 
 ## Waterfall Chart
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Bar Chart in JavaScript Chart | Syncfusion
-description: Learn here all about Bar in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: Bar Chart in JavaScript Charts | Syncfusion
+description: Learn here all about Bar in Syncfusion JavaScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Bar Chart in JavaScript Chart
+# Bar Chart in JavaScript Charts
 
 ## Bar
 

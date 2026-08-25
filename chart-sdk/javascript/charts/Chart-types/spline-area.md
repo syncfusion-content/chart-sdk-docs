@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Spline Area Chart in JavaScript Chart | Syncfusion
-description: Learn here all about Spline Area in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: Spline Area Chart in JavaScript Charts | Syncfusion
+description: Learn here all about Spline Area in Syncfusion JavaScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Spline Area Chart in JavaScript Chart
+# Spline Area Chart in JavaScript Charts
 
 ## Spline Area
 
