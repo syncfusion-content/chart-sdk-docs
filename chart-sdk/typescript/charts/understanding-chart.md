@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Understanding TypeScript Chart control | Syncfusion
-description: Learn here all about Understanding the Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Understanding TypeScript Charts control | Syncfusion
+description: Learn here all about Understanding the Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Understanding 
-publishingplatform: chart-sdk
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Understanding of TypeScript Chart
+# Understanding of TypeScript Charts
 
 The TypeScript Chart control is a versatile visualization tool that presents data using a wide range of graphical formats. Each chart is composed of essential elements—such as the title, series, tooltip, legend, and axes—that work together to provide clear, interactive, and meaningful insights. Understanding these elements helps in configuring and customizing charts for various analytical needs.
 

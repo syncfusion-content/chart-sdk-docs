@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Grid data chart in TypeScript Chart control | Syncfusion
-description: Learn here all about Grid data chart in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to visualize grid records in TypeScript Charts | Syncfusion
+description: Learn here all about Grid data chart in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Grid data chart 
-publishingplatform: chart-sdk
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Grid data chart in TypeScript Chart control
+# How to visualize grid records in TypeScript Charts
 
 You can visualize the data that returned by grid in chart.
 

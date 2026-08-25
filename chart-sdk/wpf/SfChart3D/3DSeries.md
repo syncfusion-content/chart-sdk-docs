@@ -39,7 +39,7 @@ The following APIs are common for most of the series types:
 {% highlight xaml %}
 
 <chart:ColumnSeries3D 
-    ItemsSource="{Binding CategoricalData}"         
+    ItemsSource="{Binding CategoricalData}" 
     XBindingPath="Year" 
     YBindingPath="Metal"/>
 

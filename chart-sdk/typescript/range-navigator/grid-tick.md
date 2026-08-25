@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Grid tick in TypeScript Range navigator control | Syncfusion
-description: Learn here all about Grid tick in Syncfusion TypeScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Grid tick in TypeScript Range Navigator | Syncfusion
+description: Learn here all about Grid tick in Syncfusion TypeScript Range Navigator of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Grid tick 
-publishingplatform: chart-sdk
+control: Range Navigator
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Grid tick in TypeScript Range navigator control
+# Grid tick in TypeScript Range Navigator
 
 ## Grid line customization
 

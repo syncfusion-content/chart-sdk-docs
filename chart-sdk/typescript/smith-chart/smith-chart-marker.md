@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Smith chart marker in TypeScript Smithchart control | Syncfusion
+title: Marker and DataLabel in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart marker in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smith chart marker 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 <!-- markdownlint-disable MD036 -->
 
-# Smith chart marker in TypeScript Smithchart control
+# Marker and DataLabel in TypeScript Smith Chart
 
 Markers and Datalabels are used to provide information about the data points in the series. You can add a shape to adorn each data point. By default marker and datalabel both are disabled in smithchart. You can enable both of them by setting visible property as true in marker and datalabel settings
 
