@@ -4,7 +4,6 @@ title: ES5 getting started with JavaScript HeatMap component | Syncfusion
 description: Learn how to create and configure a Syncfusion JavaScript ES5 HeatMap component using CDN resources and data binding.
 platform: chart-sdk
 control: HeatMap
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
