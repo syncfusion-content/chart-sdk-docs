@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Range Column Chart in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to create and customize Range Column Chart in Syncfusion Flutter Cartesian Charts—add range column series, style, and configure key features.
+title: Range Column Chart in Flutter Cartesian Chart | Syncfusion®
+description: The range column chart support in Flutter Cartesian Chart offers visualization of value ranges using columns to compare upper and lower bounds effectively.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Range Column Chart (SfCartesianChart)
+# Range Column Chart in Flutter Cartesian Chart
 
 To create a Flutter range column chart quickly, you can check this video.
 
@@ -145,11 +145,11 @@ The [`isTransposed`](https://pub.dev/documentation/syncfusion_flutter_charts/lat
 {% endhighlight %}
 {% endtabs %}
 
-#### See Also
+### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)
