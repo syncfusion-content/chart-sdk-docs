@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # How to create a live chart in React Charts
 
-A live chart updates its series as new data arrives. The pattern is to seed an array with initial points and then, on a recurring timer (here, `setTimeout`), push a new point onto the end of the array and `shift` the oldest one off. After modifying the array, assign it to `args.chart.series[0].dataSource` so that the series receives the updated data. If updates are managed outside the chart event lifecycle, refresh the chart after changing its data source when required.
+A live chart updates its series as new data arrives. The pattern is to seed an array with initial points and then, on a recurring timer (here, `setTimeout`), push a new point onto the end of the array and `shift` the oldest one off. After modifying the array, assign it to `args.chart.series[0].dataSource` so that the series receives the updated data. If updates are managed outside the chart event life cycle, refresh the chart after changing its data source when required.
 
 ## Initialize the chart with seed data
 
@@ -51,11 +51,11 @@ function loaded(args) {
 }
 ```
 
-After modifying the array, assign it to `args.chart.series[0].dataSource` so that the series receives the updated data. If updates are managed outside the chart event lifecycle, refresh the chart after updating the data source when required.
+After modifying the array, assign it to `args.chart.series[0].dataSource` so that the series receives the updated data. If updates are managed outside the chart event life cycle, refresh the chart after updating the data source when required.
 
 ## Stop the timer on unmount
 
-Clear the pending timeout when the component unmounts so that updates do not continue after the chart is removed.
+Clear the pending timeout when the component unmount so that updates do not continue after the chart is removed.
 
 The complete example below ties the seed array, the recurring `setTimeout`, and the chart together.
 
@@ -72,9 +72,9 @@ The complete example below ties the seed array, the recurring `setTimeout`, and 
 
 ## Troubleshooting
 
-* **The chart updates once and then stops:** Confirm that the chart raises the `loaded` event again after the series is updated. If updates are controlled independently of the chart lifecycle, use a self-scheduling `setTimeout` or `setInterval`, and cancel the timer when the component unmounts.
+* **The chart updates once and then stops:** Confirm that the chart raises the `loaded` event again after the series is updated. If updates are controlled independently of the chart life cycle, use a self-scheduling `setTimeout` or `setInterval`, and cancel the timer when the component unmount.
 * **Memory usage grows over time** — Ensure that each call to `push` is paired with a call to `shift`. Keeping the array bounded prevents the chart from rendering an continuously increasing number of points.
-* **Updates continue after the chart is removed** — Store the timer identifier and cancel it when the component unmounts. Use `clearTimeout` for `setTimeout` or `clearInterval` for `setInterval`.
+* **Updates continue after the chart is removed** — Store the timer identifier and cancel it when the component unmount. Use `clearTimeout` for `setTimeout` or `clearInterval` for `setInterval`.
 
 ## See also
 

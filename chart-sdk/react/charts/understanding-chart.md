@@ -48,7 +48,7 @@ For more details, see the [Data label](https://help.syncfusion.com/chart-sdk/rea
 
 ## Annotations
 
-Annotations overlay arbitrary HTML or SVG content on the chart — for example, footers, watermarks, reference lines, or callouts. They are useful when you need to draw the user's attention to a specific area of the chart that the other building blocks cannot express.  
+Annotations overlay arbitrary HTML or SVG content on the chart — for example, footers, watermarks, reference lines, or callout elements. They are useful when you need to draw the user's attention to a specific area of the chart that the other building blocks cannot express.  
 For more details, see the [Chart annotations](./chart-annotations) section.
 
 ## Next steps

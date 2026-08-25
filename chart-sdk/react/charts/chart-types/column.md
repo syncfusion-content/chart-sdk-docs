@@ -125,7 +125,7 @@ The [opacity](https://ej2.syncfusion.com/react/documentation/api/chart/series#op
 
 **Border**
 
-Use the [border](https://ej2.syncfusion.com/react/documentation/api/chart/series#border) property to configure the width, color, and dasharray of the column borders.
+Use the [border](https://ej2.syncfusion.com/react/documentation/api/chart/series#border) property to configure the `width`, `color` and `dashArray` of the column borders.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Working with data in React Charts
 
-The [React Charts](https://www.syncfusion.com/react-components/react-charts) component supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, fetched from remote services using various adaptor patterns, or handled when the dataset is missing or contains empty points. This guide covers all available data binding methods and additional scenarios, helping you choose the right approach for your use case based on data size, performance requirements, and backend architecture.
+The [React Charts](https://www.syncfusion.com/react-components/react-charts) component supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, fetched from remote services using various adaptor patterns, or handled when the dataset is missing or contains empty points. This guide covers all available data binding methods and additional scenarios, helping you choose the right approach for your use case based on data size, performance requirements, and back-end architecture.
 
 ## Choosing a data binding approach
 
@@ -93,7 +93,7 @@ Bind the same JSON data to all series by setting the [`dataSource`](https://ej2.
 
 ## Remote data
 
-Bind remote data from a web service by using the `DataManager` class. The `DataManager` simplifies communication with REST APIs, OData services, and custom web endpoints. It requires minimal configuration—typically just the service URL and an appropriate adaptor—and then handles all request and response processing. Import the class from `@syncfusion/ej2-data`, assign a `DataManager` instance to the [`dataSource`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesmodel#datasource) property in the series, and map the response fields to [`xName`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesmodel#xname) and [`yName`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesmodel#yname). Use the optional [`query`](https://ej2.syncfusion.com/react/documentation/api/query) property of the `DataManager` to filter, sort, or paginate data on the server.
+Bind remote data from a web service by using the `DataManager` class. The `DataManager` simplifies communication with REST APIs, OData services, and custom web endpoints. It requires minimal configuration—typically just the service URL and an appropriate adaptor—and then handles all request and response processing. Import the class from `@syncfusion/ej2-data`, assign a `DataManager` instance to the [`dataSource`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesmodel#datasource) property in the series, and map the response fields to [`xName`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesmodel#xname) and [`yName`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesmodel#yname). Use the optional [`query`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesmodel#query) property of the `DataManager` to filter, sort, or paginate data on the server.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
