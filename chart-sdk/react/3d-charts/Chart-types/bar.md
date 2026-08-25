@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Bar chart in React 3D Chart component | Syncfusion
-description: Learn here all about bar chart in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart
+title: Bar Chart in React 3D Charts | Syncfusion
+description: Learn how to render a 3D bar chart in Syncfusion React 3D Charts to compare values across categories with a horizontal cylindrical look.
+control: Bar Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Bar Chart in React 3D Chart component
+# Bar Chart in React 3D Charts
 
 ## Bar chart
 

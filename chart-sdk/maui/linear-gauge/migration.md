@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Migrate from Xamarin to .NET MAUI SfLinearGauge | Syncfusion® 
-description: Learn here all about Migrating from Syncfusion Xamarin SfLinearGauge to Syncfusion® .NET MAUI SfLinearGauge control and more.
+title: Migrate Xamarin SfLinearGauge to .NET MAUI SfLinearGauge | Syncfusion®
+description: Migrate from Xamarin.Forms SfLinearGauge to .NET MAUI SfLinearGauge with updated APIs, improved performance, and modern gauge visualization features.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
@@ -9,13 +9,13 @@ documentation: ug
 
 # Migrate from Xamarin.Forms SfLinearGauge to .NET MAUI SfLinearGauge
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started)** guide.
 
 To make the migration from the [Xamarin SfLinearGauge](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.SfLinearGauge.html) to the [.NET MAUI SfLinearGauge](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfLinearGauge.html) easier, most of the similar APIs from the Xamarin [SfLinearGauge](https://help.syncfusion.com/cr/xamarin/Syncfusion.SfGauge.XForms.SfLinearGauge.html) were kept in the .NET MAUI [SfLinearGauge](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Gauges.SfLinearGauge.html). Also, the APIs have been restructured by considering various use cases and maintaining API consistency. Please find the difference in the following topics.
 
 ## Initialize control
 
-To initialize the control, import the gauge namespace and initialize SfLinearGauge as shown in the following code sample. In .NET MAUI, you also need to register the Syncfusion core handler by calling `builder.ConfigureSyncfusionCore()` in the `MauiProgram.cs` file. For more information, refer to the [Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started) guide.
+To initialize the control, import the gauge namespace and initialize SfLinearGauge as shown in the following code sample. In .NET MAUI, you also need to register the Syncfusion core handler by calling `builder.ConfigureSyncfusionCore()` in the `MauiProgram.cs` file. For more information, refer to the [Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) guide.
 
 <table>
 <tr>

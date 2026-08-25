@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Numeric axis in React Chart component | Syncfusion
-description: Learn here all about Numeric axis in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Numeric axis in React Charts | Syncfusion
+description: Learn how to configure a numeric axis in Syncfusion React Charts to plot continuous numeric values with a defined range and interval.
 control: Numeric axis 
 platform: chart-sdk
 documentation: ug
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Numeric axis in React Chart component
+# Numeric axis in React Charts
 
 The numeric axis is used to represent numeric values in a chart. By default, the `valueType` of an axis is set to `Double`, which is suitable for displaying continuous numerical data.
 

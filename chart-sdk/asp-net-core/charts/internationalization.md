@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Internationalization in ASP.NET Core Chart Component
-description: Learn here all about Internationalization in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Internationalization in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Internationalization in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Internationalization
+# Internationalization in ASP.NET Core Charts
 
 Chart provides supports for internationalization for the following chart elements.
 
@@ -36,4 +35,5 @@ In the following example axis, point and tooltip labels are globalized to EUR.
 {% include code-snippet/chart-sdk/asp-net-core/charts/number-format/number-format.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

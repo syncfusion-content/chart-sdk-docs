@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Light Weight in ASP.NET Core Range Navigator Component
+title: Light Weight in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Light Weight in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Light Weight
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Lightweight range navigator
+# Light Weight in ASP.NET Core Range Navigator
 
 By default, when the `dataSource` for `series` is empty, a lightweight Range Selector will be shown without Chart.
 
@@ -28,4 +27,4 @@ By default, when the `dataSource` for `series` is empty, a lightweight Range Sel
 
 ## See Also
 
-* [Period Selector](./period-selector/)
+* [Period Selector](./period-selector)

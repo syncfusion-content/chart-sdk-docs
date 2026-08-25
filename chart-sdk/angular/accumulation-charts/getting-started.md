@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started with Angular Accumulation Chart component | Syncfusion
-description:  Check out and learn about Getting Started with Angular Accumulation Chart component of Syncfusion Essential JS 2 and more details.
+title: Getting Started with Angular Accumulation Chart | Syncfusion
+description: Check out and learn about Getting Started with Angular Accumulation Chart component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with Angular Accumulation Chart Component
+# Getting Started with Angular Accumulation Chart
 
 This section explains the steps required to create a simple accumulation chart and demonstrates the basic usage of the [Angular Accumulation Chart](https://www.syncfusion.com/angular-components/angular-charts) component.
 

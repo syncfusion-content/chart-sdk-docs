@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Multiple panes in React Chart component | Syncfusion
-description: Learn here all about Multiple panes in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Multiple Panes in React Charts | Syncfusion
+description: Learn how to split Syncfusion React Charts into multiple panes to compare related series like price and volume in a single, aligned view.
 control: Multiple panes 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Multiple panes in React Chart component
+# Multiple Panes in React Charts
 
 The chart area can be divided into multiple panes by defining rows and columns using the [`rows`](https://ej2.syncfusion.com/react/documentation/api/chart/row) and [`columns`](https://ej2.syncfusion.com/react/documentation/api/chart/column) collections. This feature is useful for displaying multiple related datasets within the same chart container while maintaining clear visual separation.
 

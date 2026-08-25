@@ -4,11 +4,10 @@ title: Getting Started with ASP.NET Core Circular Gauge Control | Syncfusion
 description: Check out and learn about getting started with ASP.NET Core Circular Gauge control of Essential JS 2 and more details.
 platform: chart-sdk
 control: Circular Gauge
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Getting Started with ASP.NET Core Circular Gauge Control
+# Getting Started with ASP.NET Core Circular Gauge
 
 This section briefly explains how to include the [ASP.NET Core Circular Gauge](https://www.syncfusion.com/aspnet-core-ui-controls/circular-gauge) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/).
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Title and subtitle in JavaScript 3D Circular Chart control | Syncfusion
-description: Learn here all about title and subtitle in Syncfusion JavaScript 3D Circular Chart control of Syncfusion Essential JS 2 and more.
+title: Title and subtitle in JavaScript 3D Circular Chart | Syncfusion
+description: Learn here all about title and subtitle in Syncfusion JavaScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title and subtitle 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and subtitle in JavaScript 3D Circular Chart control
+# Title and subtitle in JavaScript 3D Circular Chart
 
 ## Title
 

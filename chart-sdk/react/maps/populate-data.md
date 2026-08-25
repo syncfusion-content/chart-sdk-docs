@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Populate data in React Maps component | Syncfusion
-description: Learn here all about Populate data in Syncfusion React Maps component of Syncfusion Essential JS 2 and more.
+title: Populate Data in React Maps | Syncfusion
+description: Learn how to populate React Maps with GeoJSON shape data, including supported geometry types like Polygon, LineString, and MultiPolygon for custom layouts.
 control: Populate data 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Populate data in React Maps component
+# Populate Data in React Maps
 
 ## Geometry types
 

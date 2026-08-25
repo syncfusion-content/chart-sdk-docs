@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Methods in ASP.NET MVC Linear Gauge Component
+title: Methods in ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about Methods in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Methods
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
