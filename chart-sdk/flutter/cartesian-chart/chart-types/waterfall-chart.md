@@ -80,7 +80,7 @@ To render a waterfall chart, create an instance of [`WaterfallSeries`](https://p
 
 ![waterfall_chart](cartesian-chart-types-images/waterfall_series.png)
 
-### See Also
+## See Also
 
 * [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
 * [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
