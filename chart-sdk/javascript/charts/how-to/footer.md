@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to add footer and watermark in JavaScript Charts | Syncfusion
-description: Learn here all about Footer in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to add and customize footers in Syncfusion JavaScript Charts to provide additional context, annotations, and chart information.
 platform: chart-sdk
 control: Chart
 documentation: ug

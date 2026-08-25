@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to synchronize panning in JavaScript Charts | Syncfusion
-description: Learn here all about Syn pan in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to use synchronized panning in Syncfusion JavaScript Charts to navigate multiple charts together and compare data efficiently.
 platform: chart-sdk
 control: Chart
 documentation: ug
