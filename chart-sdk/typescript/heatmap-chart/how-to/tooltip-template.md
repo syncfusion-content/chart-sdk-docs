@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to create a table in TypeScript HeatMap Chart | Syncfusion
-description: Build a custom table-style tooltip for the JavaScript HeatMap Chart using an HTML template bound to xValue, yValue, and value in the tooltipRender event.
+description: Build a custom table-style tooltip for the TypeScript HeatMap Chart using an HTML template bound to xValue, yValue, and value in the tooltipRender event.
 platform: chart-sdk
 control: Tooltip template 
 documentation: ug

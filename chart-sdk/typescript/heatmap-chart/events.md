@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Events in TypeScript HeatMap Chart | Syncfusion
-description: Handle cellClick, cellDoubleClick, cellRender, cellSelected, created, legendRender, load, loaded, resized, and tooltipRender events in JavaScript HeatMap Chart.
+description: Handle cellClick, cellDoubleClick, cellRender, cellSelected, created, legendRender, load, loaded, resized, and tooltipRender events in TypeScript HeatMap Chart.
 platform: chart-sdk
 control: Events 
 documentation: ug

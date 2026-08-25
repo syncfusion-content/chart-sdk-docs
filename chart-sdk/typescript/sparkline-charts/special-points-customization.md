@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Special points customization in TypeScript Sparkline Charts | Syncfusion
+title: Special points customization in TypeScript Sparkline | Syncfusion
 description: Learn here all about Special points customization in Syncfusion TypeScript Sparkline Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Special points customization 

@@ -18,7 +18,7 @@ This document explains how to create a simple Chart and configure its features i
 
 Before you begin, ensure you have the following installed on your machine:
 
-* [Node.js](https://nodejs.org/) (v14.15.0 or higher)
+* [Node.js](https://nodejs.org/en) (v14.15.0 or higher)
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
 * [Git](https://git-scm.com/) (for cloning the quickstart repository)
 * A web browser to view the result

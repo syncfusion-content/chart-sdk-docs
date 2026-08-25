@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to add a range to the Circular Gauge dynamically | Syncfusion
-description: Learn how to add a range to the Circular Gauge dynamically on a button click by pushing new ranges to the axes collection.
+title: Add a range to the Circular Gauge dynamically | Syncfusion
+description: Learn how to add a range to the Syncfusion TypeScript Circular Gauge dynamically on a button click by pushing new ranges to the axes collection.
 platform: chart-sdk
 control: Gauge range 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to add a range to the Circular Gauge dynamically
+# How to add a range to the TypeScript Circular Gauge dynamically
 
 ## Add a range to the circular gauge dynamically
 

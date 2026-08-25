@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Appearance in TypeScript HeatMap Chart | Syncfusion
-description: Customize JavaScript HeatMap Chart cell borders, background, margins, title, data labels, templates, and text style to match your application design.
+description: Customize TypeScript HeatMap Chart cell borders, background, margins, title, data labels, templates, and text style to match your application design.
 platform: chart-sdk
 control: Appearance 
 documentation: ug
