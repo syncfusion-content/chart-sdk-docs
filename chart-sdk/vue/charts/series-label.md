@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Series Labels in Vue Charts | Syncfusion
-description: Learn here all about Series label in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to display and customize series labels in Syncfusion Vue Charts to identify data series clearly and improve chart readability.
 control: Series label 
 platform: chart-sdk
 documentation: ug
