@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Grid data pie in TypeScript Chart control | Syncfusion
-description: Learn here all about Grid data pie in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Visualize grid records in pie chart in TypeScript Charts | Syncfusion
+description: Learn here all about Grid data pie in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Grid data pie 
-publishingplatform: chart-sdk
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Grid data pie in TypeScript Chart control
+# How to visualize grid records in pie chart in TypeScript Charts
 
 You can visualize the filtered data that returned by grid in pie chart.
 

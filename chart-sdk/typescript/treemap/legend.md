@@ -3,8 +3,7 @@ layout: post
 title: Legend in TypeScript Treemap control | Syncfusion
 description: Learn here all about Legend in Syncfusion TypeScript Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Legend 
-publishingplatform: chart-sdk
+control: TreeMap 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

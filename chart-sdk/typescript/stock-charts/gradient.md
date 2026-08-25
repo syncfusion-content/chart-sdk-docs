@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Gradient in TypeScript Stock chart control | Syncfusion
-description: Learn here all about Gradient in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Gradient in TypeScript Stock Chart | Syncfusion
+description: Learn here all about Gradient in Syncfusion TypeScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gradient
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 <!-- markdownlint-disable MD036 -->
 
-# Gradient in TypeScript Stock chart control
+# Gradient in TypeScript Stock Chart
 
 <!-- markdownlint-disable MD038 -->
 

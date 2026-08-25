@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Legend in TypeScript Maps component | Syncfusion
-description: Learn here all about Legend in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Legend in TypeScript Maps | Syncfusion
+description: Show color, shape, or symbol legends on a TypeScript Maps that describe the meaning of each visual element for the displayed geographic data.
 platform: chart-sdk
 control: Legend 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in TypeScript Maps component
+# Legend in TypeScript Maps
 
-A Legend is a key on a Maps that contains descriptions for swatches of symbols. It can be represented in various colors, shapes or other identifiers based on the data and provides valuable information for interpreting what the Maps are displaying. It explains what each symbol in the Maps represents. Legends are enabled by setting the [`visible`](../api/maps/legendSettingsModel/visible) property of [`legendSettings`](../api/maps/legendSettingsModel) to **true**. To render Legend in Maps, the **Legend** module must be injected into the Maps using the **Maps.Inject(Legend)** method. Refer to the below code snippet to inject the Legend module into the Maps component.
+A Legend is a key on a Maps that contains descriptions for swatches of symbols. It can be represented in various colors, shapes or other identifiers based on the data and provides valuable information for interpreting what the Maps are displaying. It explains what each symbol in the Maps represents. Legends are enabled by setting the [`visible`](../api/maps/legendSettingsModel#visible) property of [`legendSettings`](../api/maps/legendSettingsModel) to **true**. To render Legend in Maps, the **Legend** module must be injected into the Maps using the **Maps.Inject(Legend)** method. Refer to the below code snippet to inject the Legend module into the Maps component.
 
 ```ts
 import { Maps, Legend } from '@syncfusion/ej2-maps';
@@ -25,11 +24,11 @@ Legends support two display modes: **Default** mode and **Interactive** mode.
 
 ### Default mode
 
-Default mode legends display symbols with corresponding labels to identify shape, bubble, or marker colors. Enable this mode by setting the [`mode`](../api/maps/legendSettingsModel/mode) property of [`legendSettings`](../api/maps/legendSettingsModel) to **Default**.
+Default mode legends display symbols with corresponding labels to identify shape, bubble, or marker colors. Enable this mode by setting the [`mode`](../api/maps/legendSettingsModel#mode) property of [`legendSettings`](../api/maps/legendSettingsModel) to **Default**.
 
 #### Interactive mode
 
-Interactive mode enhances user experience by displaying an arrow pointer that indicates the exact range color in the legend when hovering over corresponding map shapes. Enable this mode by setting the [`mode`](../api/maps/legendSettingsModel/mode) property of [`legendSettings`](../api/maps/legendSettingsModel) to **Interactive**. The [`invertedPointer`](../api/maps/legendSettingsModel/invertedpointer) property controls the visibility of the inverted pointer in the interactive legend.
+Interactive mode enhances user experience by displaying an arrow pointer that indicates the exact range color in the legend when hovering over corresponding map shapes. Enable this mode by setting the [`mode`](../api/maps/legendSettingsModel#mode) property of [`legendSettings`](../api/maps/legendSettingsModel) to **Interactive**. The [`invertedPointer`](../api/maps/legendSettingsModel#invertedpointer) property controls the visibility of the inverted pointer in the interactive legend.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -52,11 +51,11 @@ The legend can be positioned in the following two ways:
 
 **Absolute position**
 
-The legend of the Maps can be positioned using the [`location`](../api/maps/legendSettingsModel/location) property in the [`legendSettings`](../api/maps/legendSettingsModel), which is based on the margin values of the X and Y axes. For positioning the legend based on margins corresponding to a Maps, the [`position`](../api/maps/legendSettingsModel/position) property is set as **Float**.
+The legend of the Maps can be positioned using the [`location`](../api/maps/legendSettingsModel#location) property in the [`legendSettings`](../api/maps/legendSettingsModel), which is based on the margin values of the X and Y axes. For positioning the legend based on margins corresponding to a Maps, the [`position`](../api/maps/legendSettingsModel#position) property is set as **Float**.
 
 **Dock position**
 
-Legends can be docked to specific locations within the map container. The [`position`](../api/maps/legendSettingsModel/position) property in [`legendSettings`](../api/maps/legendSettingsModel) is used to set these options.
+Legends can be docked to specific locations within the map container. The [`position`](../api/maps/legendSettingsModel#position) property in [`legendSettings`](../api/maps/legendSettingsModel) is used to set these options.
 
 * Top
 
@@ -66,7 +65,7 @@ Legends can be docked to specific locations within the map container. The [`posi
 
 * Right
 
-Each of these four positions can be further aligned using **Near**, **Center**, or **Far** through the [`alignment`](../api/maps/legendSettingsModel/alignment) property in [`legendSettings`](../api/maps/legendSettingsModel). This provides 12 possible alignment combinations for precise legend placement.
+Each of these four positions can be further aligned using **Near**, **Center**, or **Far** through the [`alignment`](../api/maps/legendSettingsModel#alignment) property in [`legendSettings`](../api/maps/legendSettingsModel). This provides 12 possible alignment combinations for precise legend placement.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -103,7 +102,7 @@ export let unCountries: object[] = [
 ];
 ```
 
-The following code snippet demonstrates how to configure equal color mapping legends for shapes. Bind the data source to the [`dataSource`](../api/maps/layerSettingsModel/datasource) property of [`layerSettings`](../api/maps/layerSettingsModel). Set the [`shapePropertyPath`](../api/maps/layerSettingsModel/shapepropertypath) to **name** and [`shapeDataPath`](../api/maps/layerSettingsModel/shapedatapath) to **Country**. Configure equal color mapping by setting the [`colorMapping`](../api/maps/colorMappingSettingsModel) as an array in [`shapeSettings`](../api/maps/shapeSettingsModel). Finally, enable the legend by setting the [`visible`](../api/maps/legendSettingsModel/visible) property of [`legendSettings`](../api/maps/legendSettingsModel) to **true**. The [`label`](../api/maps/colorMappingSettingsModel/label) property in [`colorMapping`](../api/maps/colorMappingSettingsModel) is used to define the text displayed in the legend.
+The following code snippet demonstrates how to configure equal color mapping legends for shapes. Bind the data source to the [`dataSource`](../api/maps/layerSettingsModel#datasource) property of [`layerSettings`](../api/maps/layerSettingsModel). Set the [`shapePropertyPath`](../api/maps/layerSettingsModel#shapepropertypath) to **name** and [`shapeDataPath`](../api/maps/layerSettingsModel#shapedatapath) to **Country**. Configure equal color mapping by setting the [`colorMapping`](../api/maps/colorMappingSettingsModel) as an array in [`shapeSettings`](../api/maps/shapeSettingsModel). Finally, enable the legend by setting the [`visible`](../api/maps/legendSettingsModel#visible) property of [`legendSettings`](../api/maps/legendSettingsModel) to **true**. The [`label`](../api/maps/colorMappingSettingsModel#label) property in [`colorMapping`](../api/maps/colorMappingSettingsModel) is used to define the text displayed in the legend.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -118,7 +117,7 @@ The following code snippet demonstrates how to configure equal color mapping leg
 
 ## Legend shape
 
-The Maps component supports various legend shape types to match different visualization needs. Use the [`shape`](../api/maps/legendSettingsModel/shape) property in the [`legendSettings`](../api/maps/legendSettingsModel) to specify the desired shape.
+The Maps component supports various legend shape types to match different visualization needs. Use the [`shape`](../api/maps/legendSettingsModel#shape) property in the [`legendSettings`](../api/maps/legendSettingsModel) to specify the desired shape.
 
 	
 Available legend shapes:
@@ -134,7 +133,7 @@ Available legend shapes:
 * Pentagon
 * InvertedTriangle
 
-Customize legend shape dimensions and appearance using the [`shapeWidth`](../api/maps/legendSettingsModel/shapewidth), [`shapeHeight`](../api/maps/legendSettingsModel/shapeheight), [`shapeBorder`](../api/maps/legendSettingsModel/shapeborder), and [`shapePadding`](../api/maps/legendSettingsModel/shapepadding) properties.
+Customize legend shape dimensions and appearance using the [`shapeWidth`](../api/maps/legendSettingsModel#shapewidth), [`shapeHeight`](../api/maps/legendSettingsModel#shapeheight), [`shapeBorder`](../api/maps/legendSettingsModel#shapeborder), and [`shapePadding`](../api/maps/legendSettingsModel#shapepadding) properties.
 
 ## Customization
 

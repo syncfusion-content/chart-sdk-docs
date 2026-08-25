@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Appearance in TypeScript Sankey Chart component | Syncfusion
-description: Learn here all about Appearance in Syncfusion TypeScript Sankey Chart component of Syncfusion Essential JS 2 and more.
-control: Appearance
+title: Appearance in TypeScript Sankey Diagram | Syncfusion
+description: Learn here all about Appearance in Syncfusion TypeScript Sankey Diagram of Syncfusion Essential JS 2 and more.
+control: Sankey Diagram
 platform: chart-sdk
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in TypeScript Sankey Chart component
+# Appearance in TypeScript Sankey Diagram
 
 The Sankey Chart provides comprehensive customization options to control visual appearance, dimensions, responsiveness, colors, borders, and themes. These appearance settings enable you to create diagrams that match your application's design system and user experience requirements.
 

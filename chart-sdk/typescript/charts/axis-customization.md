@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis customization in TypeScript Chart control | Syncfusion
-description: Learn here all about Axis customization in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Axis customization in TypeScript Charts | Syncfusion
+description: Learn here all about Axis customization in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis customization 
-publishingplatform: chart-sdk
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in TypeScript Chart control
+# Axis customization in TypeScript Charts
 
 ## Axis Crossing
 

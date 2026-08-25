@@ -1,22 +1,21 @@
 ---
 layout: post
-title: Working with data in TypeScript Stock chart control | Syncfusion
-description: Learn here all about Working with data in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Working with data in TypeScript Stock Chart | Syncfusion
+description: Learn here all about Working with data in Syncfusion TypeScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Working with data 
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in TypeScript Stock chart control
+# Working with data in TypeScript Stock Chart
 
 Stock Chart can visualise data bound from local or remote data.
 
 ## Local Data
 
-You can bind a simple JSON data to the chart using [`dataSource`](../api/stock-chart/stockSeriesModel/#datasource) property in series.
+You can bind a simple JSON data to the chart using [`dataSource`](../api/stock-chart/stockSeriesModel#datasource) property in series.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -46,4 +45,4 @@ When no data is available to render in the stock chart, the `noDataTemplate` pro
 
 ## See Also
 
-* [Series Types](./series-types/)
+* [Series Types](./series-types)

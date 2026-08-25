@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Series label in TypeScript Chart control | Syncfusion
-description: Learn here all about Series label in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Series label in TypeScript Charts | Syncfusion
+description: Learn here all about Series label in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Series label 
-publishingplatform: chart-sdk
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Series label in TypeScript Chart control
+# Series label in TypeScript Charts
 
 The series label displays the name of each series inline, positioned near the end of the series path or the last visible data point. This helps identify each series without referring to the legend.
 

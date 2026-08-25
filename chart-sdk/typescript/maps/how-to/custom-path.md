@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Custom path in TypeScript Maps component | Syncfusion
-description: Learn here all about Custom path in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Custom path in TypeScript Maps | Syncfusion
+description: Learn here all about Custom path in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Custom path 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Custom path in TypeScript Maps component
+# Custom path in TypeScript Maps
 
 Maps component can be customized as the desired layout using the custom path map feature. Here, the Maps component has been showcased with normal geometry type shapes to represent the bus seat selection layout. Please refer to the following example to render the bus seat selection.
 

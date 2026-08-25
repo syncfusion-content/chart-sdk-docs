@@ -1,25 +1,24 @@
 ---
 layout: post
-title: Getting started with TypeScript 3D Chart control | Syncfusion
-description: Check out and learn about Getting started with TypeScript 3D Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with TypeScript 3D Charts | Syncfusion
+description: Learn how to get started with the Syncfusion TypeScript 3D Charts in a TypeScript application using the EJ2 webpack quickstart.
 platform: chart-sdk
-control: 3D Chart
-publishingplatform: chart-sdk
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with TypeScript 3D Chart control
+# Getting started with TypeScript 3D Charts
 
 This document explains how to create a simple 3D Chart and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
+> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started).
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
 
-* [Node.js](https://nodejs.org/) (v14.15.0 or higher)
+* [Node.js](https://nodejs.org/en) (v14.15.0 or higher)
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
 * [Git](https://git-scm.com/) for cloning the quickstart repository
 * A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result
@@ -163,7 +162,7 @@ Wait for the webpack dev server to complete the build process. Once completed, y
 
 The following screenshot shows the output of the Syncfusion 3D Chart quick start application — a Column series rendering 12 months of sample sales data with a Category axis on the x-axis and a formatted vertical axis.
 
-![Syncfusion 3D Chart Quick Start Output](./images/3D-Chart-TS.png)
+![Syncfusion 3D Chart Quick Start Output](./images/Chart-3D-TS.png)
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs7" %}
 
