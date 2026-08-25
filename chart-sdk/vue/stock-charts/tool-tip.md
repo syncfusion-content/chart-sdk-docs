@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tooltip in Vue Stock Chart | Syncfusion
-description: Learn here all about Tool tip in Syncfusion Vue Stock Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize tooltips in Syncfusion Vue Stock Charts to display detailed financial data and improve user interaction.
 control: Tool tip 
 platform: chart-sdk
 documentation: ug

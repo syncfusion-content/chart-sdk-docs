@@ -276,7 +276,7 @@ The following are common issues and solutions when integrating the Stock Chart c
 
 - **Incorrect date formatting**: Verify that date values in the data are created using `new Date()` constructor to avoid parsing errors.
 
-> You can refer to our [Vue Stock Chart](https://www.syncfusion.com/vue-ui-components/vue-stock-chart) feature tour page for its groundbreaking feature representations. You can also explore our [Vue Stock Chart example](https://ej2.syncfusion.com/vue/demos#material3/stock-chart/default.html) that shows you how to present and manipulate data.
+> You can refer to our [Vue Stock Chart](https://www.syncfusion.com/vue-ui-components/vue-stock-chart) feature tour page for its groundbreaking feature representations. You can also explore our [Vue Stock Chart example](https://ej2.syncfusion.com/vue/demos/#material3/stock-chart/default.html) that shows you how to present and manipulate data.
 
 ## See Also
 

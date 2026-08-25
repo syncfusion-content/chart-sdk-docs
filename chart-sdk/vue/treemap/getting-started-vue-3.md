@@ -334,6 +334,6 @@ For additional assistance, refer to the [Vue TreeMap API documentation](https://
 
 - [Vue TreeMap color mapping](https://ej2.syncfusion.com/vue/documentation/treemap/color-mapping)
 - [Vue TreeMap legend](https://ej2.syncfusion.com/vue/documentation/treemap/legend)
-- [Vue TreeMap examples](https://ej2.syncfusion.com/vue/demos#/material3/treemap/default.html)
+- [Vue TreeMap examples](https://ej2.syncfusion.com/vue/demos/#/material3/treemap/default.html)
 - [Composition API with TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)
 - [Options API with TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)

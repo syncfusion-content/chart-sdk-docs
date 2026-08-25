@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legend in Vue Stock Chart | Syncfusion
-description: Learn here all about Legend in Syncfusion Vue Stock Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize legends in Syncfusion Vue Stock Charts to improve data interpretation and enhance chart readability.
 control: Legend 
 platform: chart-sdk
 documentation: ug

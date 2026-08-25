@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gradient in Vue Stock Chart | Syncfusion
-description: Learn here all about Gradient in Syncfusion Vue Stock Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to apply and customize gradient fills in Syncfusion Vue Stock Charts to create visually appealing financial data visualizations.
 control: Gradient
 platform: chart-sdk
 documentation: ug
