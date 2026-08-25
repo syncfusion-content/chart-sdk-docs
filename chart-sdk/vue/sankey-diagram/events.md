@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Events in Vue Sankey Chart component | Syncfusion
-description: Learn here all about Events in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Events in Vue Sankey Diagram | Syncfusion
+description: Learn here all about Events in Syncfusion Vue Sankey Diagram of Syncfusion Essential JS 2 and more.
 control: Events
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Events in Vue Sankey Chart component
+# Events in Vue Sankey Diagram
 
 The Sankey Chart provides comprehensive events that allow you to customize behavior, respond to user interactions, and hook into the chart life cycle. These events enable advanced customization scenarios including data transformation, analytics tracking, and dynamic UI updates.
 
