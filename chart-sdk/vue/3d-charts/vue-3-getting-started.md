@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vue 3 Getting Started with the 3D Chart Component | Syncfusion
+title: Getting Started with Vue 3 3D Chart | Syncfusion
 description: Create a Vite-based Vue 3 project and integrate the Syncfusion Essential JS 2 3D Chart component using the Composition API or Options API.
 control: Vue 3 getting started
 platform: chart-sdk
@@ -8,9 +8,9 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue 3D Chart Component in Vue 3
+# Getting Started with Vue 3D Chart
 
-This article provides a step-by-step guide to setting up a [Vite](https://vite.dev/) project with JavaScript and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue 3D Chart component using either the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) or the [Options API](https://vuejs.org/guide/introduction.html#options-api).
+This article provides a step-by-step guide to setting up a [Vite](https://vite.dev/) project with JavaScript and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue 3D Chart using either the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) or the [Options API](https://vuejs.org/guide/introduction.html#options-api).
 
 The **Composition API** groups related logic into reusable functions and is suitable for larger code bases. The **Options API** organizes component logic with options such as `data`, `methods`, and life cycle hooks. Choose the API that best fits the application's structure and maintainability requirements.
 
@@ -82,7 +82,7 @@ yarn add @syncfusion/ej2-vue-charts
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue 3D Chart Component
 
-Follow these steps to add the Vue 3D Chart component using the Composition API or Options API.
+Follow these steps to add the Vue 3D Chart using the Composition API or Options API.
 
 **Step 1:** Import and Register the Component
 
