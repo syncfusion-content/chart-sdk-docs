@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Polar Chart in React Chart | Syncfusion
-description: Learn here all about Polar Chart in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
-control: Polar Chart 
+title: Polar Chart in React Charts | Syncfusion
+description: Learn to render, customize, and bind Polar series in Syncfusion React Charts to plot data on a circular grid with line, column, area, or spline draw types.
+control: Polar Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk

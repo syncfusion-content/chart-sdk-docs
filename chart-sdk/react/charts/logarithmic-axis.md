@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Logarithmic axis in React Chart component | Syncfusion
-description: Learn here all about Logarithmic axis in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Logarithmic Axis in React Charts | Syncfusion
+description: Learn how to use a logarithmic axis in Syncfusion React Charts to plot data that spans several orders of magnitude on a compressed scale.
 control: Logarithmic axis 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Logarithmic axis in React Chart component
+# Logarithmic Axis in React Charts
 
 <!-- markdownlint-disable MD033 -->
 

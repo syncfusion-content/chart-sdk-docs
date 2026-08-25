@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Events in ASP.NET MVC Sankey Chart Component
-description: Learn here all about Events in Syncfusion ASP.NET MVC Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Events in ASP.NET MVC Sankey Diagram | Syncfusion
+description: Learn here all about Events in Syncfusion ASP.NET MVC Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Events
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Events in ASP.NET MVC Sankey Chart component
+# Events in ASP.NET MVC Sankey Diagram
 
 The Sankey Chart provides comprehensive events that allow you to customize behavior, respond to user interactions, and hook into the chart lifecycle. These events enable advanced customization scenarios including data transformation, analytics tracking, and dynamic UI updates.
 

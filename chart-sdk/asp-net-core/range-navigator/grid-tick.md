@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Grid Tick in ASP.NET Core Range Navigator Component
+title: Grid and Tick Lines in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Grid Tick in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Grid Tick
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Grid and Tick Lines
+# Grid and Tick Lines in ASP.NET Core Range Navigator
 
 ## Grid line customization
 

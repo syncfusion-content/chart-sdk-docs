@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting started with React 3D Circular Chart component | Syncfusion
-description: Check out and learn about getting started with the React 3D Circular Chart component of Syncfusion Essential JS 2 and more details.
+title: Getting Started with React 3D Circular Charts Component | Syncfusion
+description: Learn how to get started with the Syncfusion React 3D Circular Charts control. Explore setup, features, examples, and customization options.
 control: Getting started
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with React 3D Circular Chart component
+# Getting Started with React 3D Circular Charts
 
 This section describes the steps to create a simple 3D Circular Chart and demonstrates the basic usage of the 3D Circular Chart component.
 

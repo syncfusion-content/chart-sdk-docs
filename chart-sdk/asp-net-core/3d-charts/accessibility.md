@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Accessibility in ASP.NET Core Syncfusion 3D Chart Component
-description: Learn here all about accessibility in Syncfusion ASP.NET Core 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Accessibility in ASP.NET Core 3D Charts | Syncfusion
+description: Learn here all about accessibility in Syncfusion ASP.NET Core 3D Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Accessibility in ASP.NET Core 3D Chart Component
+# Accessibility in ASP.NET Core 3D Charts
 
 Accessibility is achieved in the 3D chart component through WAI-ARIA standard and keyboard navigation. The 3D chart features can be effectively accessed through assistive technologies such as screen readers.
 

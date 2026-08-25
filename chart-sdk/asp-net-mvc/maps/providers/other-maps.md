@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Other Maps in Syncfusion ASP.NET MVC Maps Component
+title: Other Maps providers in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about other Maps in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Other Maps
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Other Maps providers
+# Other Maps providers in ASP.NET MVC Maps
 
 Apart from OpenStreetMap and Bing Maps, you can also render Maps from other online map service providers by specifying the URL provided by those providers in the [UrlTemplate](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Maps.MapsLayer.html#Syncfusion_EJ2_Maps_MapsLayer_UrlTemplate) property. The URL template concept has been implemented in such a way that any online map service providers using the following template can benefit from previewing their Map in the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Maps component.
 

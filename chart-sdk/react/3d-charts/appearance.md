@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Appearance in React 3D Chart component | Syncfusion
-description: Learn here all about appearance in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart
+title: Appearance in React 3D Charts | Syncfusion
+description: Learn how to customize the appearance of Syncfusion React 3D Charts with custom palettes, point colors, chart area, animation, rotation, and title styling.
+control: Appearance
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in React 3D Chart control
+# Appearance in React 3D Charts
 
 ## Custom color palette
 

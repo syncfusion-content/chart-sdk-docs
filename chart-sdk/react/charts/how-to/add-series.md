@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Add series in React Chart component | Syncfusion
-description: Learn here all about Add series in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: How to add or remove series in React Charts | Syncfusion
+description: Learn how to add or remove series dynamically in Syncfusion React Charts at runtime without re-rendering the chart.
 control: Add series 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Add series in React Chart component
+# How to add or remove series in React Charts
 
 You can add or remove the chart series dynamically by using the `addSeries` or `removeSeries` method.
 

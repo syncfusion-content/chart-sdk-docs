@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Series types in Angular Range navigator component | Syncfusion
+title: Series Types in Angular Range Navigator | Syncfusion
 description: Learn here all about Series types in Syncfusion Angular Range navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Series types 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Series types in Angular Range navigator component
+# Series Types in Angular Range Navigator
 
 To render the data, the Range Selector supports six types of series.
 

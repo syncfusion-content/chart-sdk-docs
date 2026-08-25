@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Smithchart axis in React Smithchart component | Syncfusion
-description: Learn here all about Smithchart axis in Syncfusion React Smithchart component of Syncfusion Essential JS 2 and more.
+title: Axis in React Smith Chart | Syncfusion
+description: Configure horizontal and radial axes in the React Smith Chart, including label position, label intersection handling, gridlines, and axis line styling.
 control: Smithchart axis 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Smithchart axis in React Smithchart component
+# Axis in React Smith Chart
 
 Like chart, Smith chart also has support for two types of axis:
 

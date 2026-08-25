@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Strip Line in ASP.NET MVC Chart Component
-description: Learn here all about Strip Line in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Strip Line in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Strip Line in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Strip Line
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# Strip lines
+# Strip Line in ASP.NET MVC Charts
 
 <!-- markdownlint-disable MD036 -->
 

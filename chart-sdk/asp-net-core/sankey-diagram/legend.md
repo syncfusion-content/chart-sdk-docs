@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Legend in Syncfusion ASP.NET Core Sankey Chart Component
-description: Learn here all about Legend in Syncfusion ASP.NET Core Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in ASP.NET Core Sankey Diagram | Syncfusion
+description: Learn here all about Legend in Syncfusion ASP.NET Core Sankey Diagram component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Legend in ASP.NET Core Sankey Chart component
+# Legend in ASP.NET Core Sankey Diagram
 
 A legend provides a visual key that helps users understand the categories and meanings represented by nodes in the Sankey Chart. The Sankey Chart provides comprehensive legend configuration options including positioning, styling, customization, and interactive behaviors. You can enable and customize legend using the `Legend` property.
 

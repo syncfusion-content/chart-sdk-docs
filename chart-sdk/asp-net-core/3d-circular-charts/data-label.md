@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data Label in Syncfusion ASP.NET Core 3D Circular Chart Component
-description: Learn here all about data label in Syncfusion ASP.NET Core 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Data Label in ASP.NET Core 3D Circular Charts | Syncfusion
+description: Learn here all about data label in Syncfusion ASP.NET Core 3D Circular Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Label
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Data Label in ASP.NET Core 3D Circular Chart Component
+# Data Label in ASP.NET Core 3D Circular Charts
 
 A data label refers to a label associated with specific data points. It can be added to a 3D Circular Chart series by enabling the `Visible` option in the `DataLabel` property. By default, the labels will arrange themselves smartly to avoid overlapping.
 
@@ -184,5 +183,6 @@ You can display the percentage values in the data label of a pie chart using the
 {% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/datalabel/percentage/percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 
 

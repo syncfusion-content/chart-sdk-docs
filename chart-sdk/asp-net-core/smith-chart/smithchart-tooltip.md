@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Smithchart Tooltip in ASP.NET Core Smithchart Control
-description: Learn here all about Smithchart Tooltip in Syncfusion ASP.NET Core Smithchart control of Syncfusion Essential JS 2 and more.
+title: Tooltip in ASP.NET Core Smith Chart | Syncfusion
+description: Learn here all about Smith Chart Tooltip in Syncfusion ASP.NET Core Smith Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Tooltip
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Tooltip in Smith Chart
+# Tooltip in ASP.NET Core Smith Chart
 
 The Smith Chart displays the details of each point via a tooltip when the mouse hovers over it. By default, the tooltip is disabled. To enable the tooltip, add the `<e-smithchartseries-tooltip>` child element to each series and set its `visible` attribute to `true`. You can customize the tooltip's visibility and appearance for each series individually.
 

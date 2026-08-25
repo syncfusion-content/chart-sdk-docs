@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Gauge dimensions in JavaScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge dimensions in Syncfusion JavaScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Dimensions in JavaScript Circular Gauge | Syncfusion
+description: Learn here all about Gauge dimensions in Syncfusion JavaScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gauge dimensions 
-publishingplatform: chart-sdk
+control: Circular Gauge
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Gauge dimensions in JavaScript Circular gauge control
+# Dimensions in JavaScript Circular Gauge
 
 ## Size for Container
 
@@ -35,7 +34,7 @@ Circular gauge can render to its container size. You can set the size via inline
 
 ## Size for Circular Gauge
 
-You can also set size for the gauge directly through [`width`](../api/circular-gauge/#width-string) and [`height`](../api/circular-gauge/#height-string) properties.
+You can also set size for the gauge directly through [`width`](../api/circular-gauge#width-string) and [`height`](../api/circular-gauge#height-string) properties.
 
 **In Pixel**
 

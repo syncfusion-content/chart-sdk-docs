@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Accessibility in JavaScript HeatMap chart control | Syncfusion
-description: Learn here all about Accessibility in Syncfusion JavaScript HeatMap chart control of Syncfusion Essential JS 2 and more.
+title: Accessibility in JavaScript HeatMap Chart | Syncfusion
+description: Learn how the JavaScript HeatMap Chart supports WCAG 2.2, Section 508, screen readers, color contrast, and keyboard navigation for accessible apps.
 platform: chart-sdk
 control: Accessibility 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in JavaScript HeatMap chart control
+# Accessibility in JavaScript HeatMap Chart
 
 The HeatMap control follows commonly used accessibility guidelines and standards, such as [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles).
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Histogram Chart in React Charts | Syncfusion
-description: Learn here all about Histogram in Syncfusion React Charts component of Syncfusion Essential JS 2 and more.
+description: Learn to render and customize Histogram series in Syncfusion React Charts to display large data distributions with automatic binning and bin intervals.
 control: Histogram
 platform: chart-sdk
 documentation: ug

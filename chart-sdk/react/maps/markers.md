@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Markers in React Maps component | Syncfusion
-description: Learn here all about Markers in Syncfusion React Maps component of Syncfusion Essential JS 2 and more.
-control: Markers 
+title: Markers in React Maps | Syncfusion
+description: Learn how to add and customize markers in React Maps to pinpoint specific locations, highlight points of interest, and display custom symbols.
+control: Markers
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Markers in React Maps component
+# Markers in React Maps
 
 This section shows how to add and customize the markers in the Maps component. The below video demonstrates the same.
 
@@ -319,7 +319,7 @@ Different marker objects can be added to the Maps component using the marker set
 
 **Step 1**:
 
-Initialize the Maps component with marker settings. Here, a marker has been added with specified latitude and longitude of California by using the [`dataSource`](https://ej2.syncfusion.com/react/documentation/api/maps/markerSettingsModel/#datasource) property. To customize the shape of the marker using the [`shape`](https://ej2.syncfusion.com/react/documentation/api/maps/markerSettingsModel/#shape) property and change the border color and width of the marker using the [`border`](https://ej2.syncfusion.com/react/documentation/api/maps/markerSettingsModel/#border) property as mentioned in the following example.
+Initialize the Maps component with marker settings. Here, a marker has been added with specified latitude and longitude of California by using the [`dataSource`](https://ej2.syncfusion.com/react/documentation/api/maps/markerSettingsModel#datasource) property. To customize the shape of the marker using the [`shape`](https://ej2.syncfusion.com/react/documentation/api/maps/markerSettingsModel#shape) property and change the border color and width of the marker using the [`border`](https://ej2.syncfusion.com/react/documentation/api/maps/markerSettingsModel#border) property as mentioned in the following example.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

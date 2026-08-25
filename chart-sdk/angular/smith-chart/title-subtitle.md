@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Title subtitle in Angular Smithchart component | Syncfusion
+title: Title Subtitle in Angular Smith Chart | Syncfusion
 description: Learn here all about Title subtitle in Syncfusion Angular Smithchart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title subtitle 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title subtitle in Angular Smithchart component
+# Title Subtitle in Angular Smith Chart
 
 ## Add a title to the Smith Chart
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Working with data in React Chart component | Syncfusion
-description: Learn here all about Working with data in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
+title: Working with data in React Charts | Syncfusion
+description: Learn how to bind local, remote, and observable data sources to Syncfusion React Charts and map fields to series and axes.
 control: Working with data 
 platform: chart-sdk
 documentation: ug
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in React Chart component
+# Working with data in React Charts
 
 The [React Charts](https://www.syncfusion.com/react-components/react-charts) component supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, or fetched from remote services using various adaptor patterns. This guide covers all available data binding methods, helping you choose the right approach for your use case based on data size, performance requirements, and backend architecture.
 

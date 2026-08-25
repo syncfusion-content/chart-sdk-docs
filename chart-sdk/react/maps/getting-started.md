@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting started with React Maps component | Syncfusion
-description: Check out and learn about Getting started with React Maps component of Syncfusion Essential JS 2 and more details.
+title: Getting Started with React Maps | Syncfusion
+description: Learn how to get started with the Syncfusion React Maps control. Explore setup, features, examples, and customization options.
 control: Getting started 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with React Maps component
+# Getting Started with React Maps
 
 This section explains the steps required to create a basic Maps component.
 
