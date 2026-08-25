@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Accessibility in JavaScript Accumulation Chart | Syncfusion
-description: Learn how to make the Syncfusion JavaScript Accumulation Chart accessible using ADA, Section 508, WCAG 2.2, and ARIA roles.
+title: Accessibility in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to make the Syncfusion JavaScript Accumulation Charts accessible using ADA, Section 508, WCAG 2.2, and ARIA roles.
 platform: chart-sdk
 control: Accumulation Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in JavaScript Accumulation Chart
+# Accessibility in JavaScript Accumulation Charts
 
 The Accumulation chart control followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

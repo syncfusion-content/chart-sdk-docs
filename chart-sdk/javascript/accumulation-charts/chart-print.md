@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Print and Export in JavaScript Accumulation Chart | Syncfusion
-description: Learn how to print and export the Syncfusion JavaScript Accumulation Chart to PNG, JPEG, SVG, or PDF formats.
+title: Print and Export in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to print and export the Syncfusion JavaScript Accumulation Charts to PNG, JPEG, SVG, or PDF formats.
 platform: chart-sdk
 control: Chart print 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart Print in JavaScript Accumulation Chart
+# Chart Print in JavaScript Accumulation Charts
 
 ## Print
 

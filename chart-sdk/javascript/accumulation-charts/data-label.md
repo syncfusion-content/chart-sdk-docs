@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data label in JavaScript Accumulation Chart | Syncfusion
-description: Learn how to add and customize data labels in the Syncfusion JavaScript Accumulation Chart series to improve data visualization and readability.
+title: Data label in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to add and customize data labels in the Syncfusion JavaScript Accumulation Charts series to improve data visualization and readability.
 platform: chart-sdk
 control: Data label 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data label in JavaScript Accumulation Chart
+# Data label in JavaScript Accumulation Charts
 
 Data label can be added to a chart series by enabling the [`visible`](../api/accumulation-chart/accumulationDataLabelSettingsModel)
 option in the dataLabel property.

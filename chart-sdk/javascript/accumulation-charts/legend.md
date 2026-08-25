@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Legend in JavaScript Accumulation Chart | Syncfusion
-description: Learn how to add and customize the legend in the Syncfusion JavaScript Accumulation Chart, including position and visibility.
+title: Legend in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to add and customize the legend in the Syncfusion JavaScript Accumulation Charts, including position and visibility.
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in JavaScript Accumulation Chart
+# Legend in JavaScript Accumulation Charts
 
 As like a chart, the legend is also available for accumulation charts, which gives information about the points. By default, the legend will be placed on the right, if the width of the chart is high or will be placed on the bottom, if the height of the chart is high. Other customization features regarding the legend element are same as the [`chart legend`](http://ej2.syncfusion.com/documentation/chart/legend). Here, the legend for a point can be collapsed by giving the empty string to the x value of the point.
 

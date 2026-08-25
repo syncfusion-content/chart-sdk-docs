@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Migration from EJ 1 in JavaScript Accumulation Chart | Syncfusion
+title: Migration from EJ 1 in JavaScript Accumulation Charts | Syncfusion
 description: Learn how to migrate Accumulation Chart code and APIs from Syncfusion Essential JS 1 to Syncfusion Essential JS 2.
 platform: chart-sdk
 control: Accumulation Chart
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Migration from Essential JS 1 in JavaScript Accumulation Chart
+# Migration from Essential JS 1 in JavaScript Accumulation Charts
 
 This article describes the API migration process of Chart component from Essential JS 1 to Essential JS 2.
 

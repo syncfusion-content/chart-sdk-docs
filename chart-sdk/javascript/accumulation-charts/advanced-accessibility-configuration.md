@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Advanced Accessibility in JavaScript Accumulation Chart | Syncfusion
-description: Learn how to customize accessibility features in the Syncfusion JavaScript Accumulation Chart for users with disabilities.
+title: Advanced Accessibility in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to customize accessibility features in the Syncfusion JavaScript Accumulation Charts for users with disabilities.
 platform: chart-sdk
 control: Accumulation Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Advanced Accessibility in ##Platform_Name## Accumulation Chart
+# Advanced Accessibility in JavaScript Accumulation Charts
 
-The Syncfusion® JavaScript Accumulation Chart control is structured to visualize data in a graphical manner. It provides robust customization options for accessibility, allowing you to enhance the user experience for those with disabilities. The main attributes of the JavaScript Accumulation Chart control's accessibility customization are briefly explained in this section.
+The Syncfusion® JavaScript Accumulation Charts control is structured to visualize data in a graphical manner. It provides robust customization options for accessibility, allowing you to enhance the user experience for those with disabilities. The main attributes of the JavaScript Accumulation Charts control's accessibility customization are briefly explained in this section.
 
 The accumulation chart control has a number of characteristics that enable accessibility features to be customized, including:
 

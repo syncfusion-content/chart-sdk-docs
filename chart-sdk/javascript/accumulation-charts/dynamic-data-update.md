@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Dynamic Data Update in JavaScript Accumulation Chart | Syncfusion
-description: Learn how to dynamically add, update, or remove data points in the Syncfusion JavaScript Accumulation Chart at runtime.
+title: Dynamic Data Update in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to dynamically add, update, or remove data points in the Syncfusion JavaScript Accumulation Charts at runtime.
 platform: chart-sdk
 control: Dynamic Data Update
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dynamic Data Update in Angular Accumulation Chart
+# Dynamic Data Update in JavaScript Accumulation Charts
 
 ## Adding a new data point
 

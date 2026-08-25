@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Pyramid in JavaScript Accumulation Chart | Syncfusion
-description: Learn how to render a pyramid series in the Syncfusion JavaScript Accumulation Chart using the PyramidSeries module.
+title: Pyramid in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to render a pyramid series in the Syncfusion JavaScript Accumulation Charts using the PyramidSeries module.
 platform: chart-sdk
 control: Accumulation Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pyramid in JavaScript Accumulation Chart
+# Pyramid in JavaScript Accumulation Charts
 
 To render a pyramid series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel) as `Pyramid` and inject `PyramidSeries` module using the `AccumulationChart.Inject(PyramidSeries)` method.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Title and Subtitle in JavaScript Accumulation Chart | Syncfusion
-description: Learn how to add a title and subtitle to the Syncfusion JavaScript Accumulation Chart using the title property.
+title: Title and Subtitle in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to add a title and subtitle to the Syncfusion JavaScript Accumulation Charts using the title property.
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and Subtitle in JavaScript Accumulation Chart
+# Title and Subtitle in JavaScript Accumulation Charts
 
 ## Title
 
