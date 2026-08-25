@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Size for Linear Gauge
 
-The height and width of the Linear Gauge can be set using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#height) properties in [`ejs-lineargauge`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge).
+The height and width of the Linear Gauge can be set using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#height) properties in [`Linear Gauge`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge).
 
 ### In Pixel
 

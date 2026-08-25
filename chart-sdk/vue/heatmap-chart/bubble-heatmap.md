@@ -30,7 +30,7 @@ In bubble HeatMap, you can display the data points with bubble size, bubble colo
 
 In this bubble HeatMap type, the size factor of the bubble is used to denote the data variations. The radius of the bubble varies according to data values.
 
-By default, the bubble with small size denotes the data value with small magnitude and the larger bubble size denotes the data value with larger magnitude. This behavior can be inversed by using the [isInversedbubblesize](https://ej2.syncfusion.com/vue/documentation/api/heatmap/cellSettings#isinversedbubblesize) property.
+By default, the bubble with small size denotes the data value with small magnitude and the larger bubble size denotes the data value with larger magnitude. This behavior can be inversed by using the [isInversedBubbleSize](https://ej2.syncfusion.com/vue/documentation/api/heatmap/cellSettings#isinversedbubblesize) property.
 
 To render a bubble HeatMap with size series, set the [bubbleType](https://ej2.syncfusion.com/vue/documentation/api/heatmap/cellSettings#bubbletype) property to **Size**.
 

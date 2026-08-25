@@ -134,7 +134,7 @@ When mouse is pressed down on the gauge, the [`gaugeMouseDown`](https://ej2.sync
 
 ## gaugeMouseLeave
 
-When mouse pointer moves over the gauge, the [`gaugemouseleave`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#gaugemouseleave) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge/iMouseEventArgs).
+When mouse pointer moves over the gauge, the [`gaugeMouseLeave`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#gaugemouseleave) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge/iMouseEventArgs).
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

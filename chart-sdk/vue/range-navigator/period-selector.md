@@ -14,7 +14,7 @@ The period selector allows to select a range with specified periods.
 
 ## Periods
 
-An array of objects that allows the users to specify pre-defined time intervals. The [`interval`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#interval) property specifies the count value of the button, and the `text` property specifies the text to be displayed on the button. The [`intervaltype`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#intervaltype) property allows the users to customize the interval type, and it supports the following types:
+An array of objects that allows the users to specify pre-defined time intervals. The [`interval`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#interval) property specifies the count value of the button, and the `text` property specifies the text to be displayed on the button. The [`intervalType`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#intervaltype) property allows the users to customize the interval type, and it supports the following types:
 
 * Auto
 * Years

@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Customizing the Linear Gauge area
 
-The following properties are available in the [`ejs-lineargauge`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge) to customize the Linear Gauge area.
+The following properties are available in the [`linear gauge`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge) to customize the Linear Gauge area.
 
 * [`background`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#background) - Applies the background color for the Linear gauge.
 * [`border`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#border) - To customize the color and width of the border in Linear Gauge.
@@ -114,7 +114,7 @@ The **Thermometer** type will render the container similar to the appearance of 
 
 ## Fitting Linear Gauge to the control
 
-The Linear Gauge component is rendered with margin by default. To remove the margin around the Linear Gauge, the [`allowMargin`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#allowmargin) property in the [`ejs-lineargauge`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge) is set as **false**.
+The Linear Gauge component is rendered with margin by default. To remove the margin around the Linear Gauge, the [`allowMargin`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge#allowmargin) property in the [`linear gauge`](https://ej2.syncfusion.com/vue/documentation/api/linear-gauge) is set as **false**.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
