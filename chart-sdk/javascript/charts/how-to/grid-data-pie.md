@@ -20,7 +20,7 @@ Initialize the grid with datasource.
 
 **Step 2**:
 
-By using the grid’s `actionComplete` event and `getCurrentViewRecords` method, you can get the current page records. By setting `allowFiltering` value as `true`, you can filter the data. By using the grid’s [`databound`](https://ej2.syncfusion.com/documentation/api/grid/index-default#databound) event, you can update the current page filtered records into the chart’s datasource and display the grid filtered data in chart.
+By using the grid’s `actionComplete` event and `getCurrentViewRecords` method, you can get the current page records. By setting `allowFiltering` value as `true`, you can filter the data. By using the grid’s [`dataBound`](https://ej2.syncfusion.com/documentation/api/grid/index-default#databound) event, you can update the current page filtered records into the chart’s datasource and display the grid filtered data in chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
