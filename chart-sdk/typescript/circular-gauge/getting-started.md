@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Getting started with TypeScript Circular Gauge control | Syncfusion
+title: Getting Started with TypeScript Circular Gauge control | Syncfusion
 description: Create and configure a Syncfusion JavaScript Circular Gauge in TypeScript using the Essential JS 2 webpack quickstart project.
 platform: chart-sdk
 control: Circular Gauge
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

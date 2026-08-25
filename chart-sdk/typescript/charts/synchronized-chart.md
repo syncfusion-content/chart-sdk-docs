@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Synchronized Charts in TypeScript Chart control | Syncfusion
-description: Learn here all about Synchronized Charts in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Synchronized Charts in TypeScript Charts | Syncfusion
+description: Learn here all about Synchronized Charts in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Synchronized charts 
-publishingplatform: chart-sdk
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Synchronized Charts in TypeScript Chart control
+# Synchronized Charts in TypeScript Charts
 
 Synchronized charts allow multiple chart instances to share common interactions so that actions performed on one chart are reflected across the others. This approach is useful for comparing related datasets and analyzing trends consistently across multiple visualizations.
 

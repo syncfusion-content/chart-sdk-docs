@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Localization in TypeScript Chart control | Syncfusion
-description: Learn here all about Localization in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Localization in TypeScript Charts | Syncfusion
+description: Learn here all about Localization in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Localization 
-publishingplatform: chart-sdk
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Localization in TypeScript Chart control
+# Localization in TypeScript Charts
 
 The localization library localizes the Chart's default text content. Static text used by chart features (for example, zoom toolbar labels) can be translated by providing a locale value and a translation object.
 

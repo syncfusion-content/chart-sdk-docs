@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Getting started with TypeScript Sparkline control | Syncfusion
-description: Check out and learn how to get started with the TypeScript Sparkline control in Syncfusion Essential JS 2.
+title: Getting Started with TypeScript Sparkline Charts | Syncfusion
+description: Check out and learn how to get started with the TypeScript Sparkline Charts in Syncfusion Essential JS 2.
 platform: chart-sdk
-control: Sparkline
-publishingplatform: chart-sdk
+control: Sparkline Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with TypeScript Sparkline control
+# Getting Started with TypeScript Sparkline Charts
 
 This document explains how to create a simple Sparkline and configure its basic features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-> This application uses the `webpack.config.js` configuration included in the quickstart repository. It requires Node.js `v14.15.0` or later. For information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
+> This application uses the `webpack.config.js` configuration included in the quickstart repository. It requires Node.js `v14.15.0` or later. For information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started).
 
 ## Prerequisites
 
@@ -21,7 +20,7 @@ Before you begin, ensure that the following software is installed:
 
 * Node.js `v14.15.0` or later, including npm
 * [Visual Studio Code](https://code.visualstudio.com) or another text editor
-* [Git](https://git-scm.com/) for cloning the quickstart repository
+* [Git](https://git-scm.com) for cloning the quickstart repository
 * A modern web browser, such as Chrome, Edge, Firefox, or Safari
 
 ## Dependencies
@@ -96,7 +95,7 @@ Open the `ej2-quickstart` folder in Visual Studio Code or another text editor. L
     <title>Essential JS 2 Sparkline</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Syncfusion TypeScript Sparkline control" />
+    <meta name="description" content="Syncfusion TypeScript Sparkline" />
     <meta name="author" content="Syncfusion" />
     <!-- Preserve the existing head content from the seed template. -->
 </head>

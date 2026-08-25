@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Polygon in TypeScript Maps component | Syncfusion
-description: Learn here all about Polygon in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Polygon in TypeScript Maps | Syncfusion
+description: Render custom polygon overlays on TypeScript Maps to highlight regions, mark zones, or draw boundaries using latitude and longitude coordinates.
 platform: chart-sdk
 control: Polygon 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Polygon shape in TypeScript Maps component
+# Polygon shape in TypeScript Maps
 
 The Maps component supports rendering custom polygon shapes as overlays on both geometry-based maps and online tile maps. Polygons are useful for highlighting specific geographic regions, marking zones of interest, drawing custom boundaries, or visualizing areas such as coverage zones, territorial boundaries, or restricted areas. This feature is configured using the [polygons](../api/maps/polygonSettingsModel/polygons) property, which allows multiple polygon shapes to be added and customized independently.
 
