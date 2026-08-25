@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Leaf item in React Treemap component | Syncfusion
-description: Learn here all about Leaf item in Syncfusion React Treemap component of Syncfusion Essential JS 2 and more.
+title: Leaf Item in React TreeMap | Syncfusion
+description: Learn how to configure leaf items, labels, and styles in the Syncfusion React TreeMap using leafItemSettings.
 control: Leaf item 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Leaf item in React Treemap component
+# Leaf Item in React TreeMap
 
 A leaf item defines a visualized data element and does not contain child nodes but contains parent node if the levels are specified in the TreeMap.
 

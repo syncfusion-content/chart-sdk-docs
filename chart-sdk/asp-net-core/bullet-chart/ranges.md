@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Ranges in ASP.NET Core Bullet Chart Control | Syncfusion
-description: Learn all about Ranges in Syncfusion ASP.NET Core Bullet Chart control of Syncfusion Essential JS 2 and more.
+title: Ranges in ASP.NET Core Bullet Chart | Syncfusion
+description: Learn here all about Ranges in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ranges
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Ranges in Bullet Chart Control
+# Ranges in ASP.NET Core Bullet Chart
 
 Add a range by including an `<e-bullet-range>` element inside the `<e-bullet-range-collection>` child of the Bullet Chart.
 

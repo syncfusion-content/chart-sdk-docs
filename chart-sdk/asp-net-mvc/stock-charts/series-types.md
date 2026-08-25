@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Series Types in ASP.NET MVC Stock Chart Component
+title: Series Types in ASP.NET MVC Stock Chart | Syncfusion
 description: Learn here all about Series Types in Syncfusion ASP.NET MVC Stock Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Series Types
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Stock Chart Series Types
+# Series Types in ASP.NET MVC Stock Chart
 
 Essential<sup style="font-size:70%">&reg;</sup> JS 2 StockChart  Stock Chart supports 6 major types of series namely `Line`, `Spline`, `Hilo`, `HiloOpenClose`, `Hollow Candle` and `Candle` . By using the series dropdown button you can navigate between the above listed series types.
 

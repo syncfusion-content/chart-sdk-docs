@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Accessibility in Flutter treemap widget | Syncfusion
-description: Learn here all about the accessibility support in Syncfusion Flutter treemap (SfTreemap) widget and how to customize it.
+title: Accessibility in Flutter Treemap | Syncfusion®
+description: Learn about accessibility support in Syncfusion® Flutter Treemap (SfTreemap), including screen readers, keyboard navigation, and more.
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
@@ -11,61 +11,64 @@ documentation: ug
 
 ## Screen reader
 
-The [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) can be accessed by the screen readers by wrapping the [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) widget to the [`Semantics`](https://api.flutter.dev/flutter/widgets/Semantics-class.html) widget.
+The [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) can be accessed by screen readers by wrapping the [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) widget with the [`Semantics`](https://api.flutter.dev/flutter/widgets/Semantics-class.html) widget.
 
 {% tabs %}
-{% highlight Dart %}
+{% highlight dart %}
 
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_treemap/treemap.dart';
+
+class TreemapAccessibilityExample extends StatefulWidget {
+  const TreemapAccessibilityExample({super.key});
+
+  @override
+  State<TreemapAccessibilityExample> createState() =>
+      _TreemapAccessibilityExampleState();
+}
+
+class _TreemapAccessibilityExampleState
+    extends State<TreemapAccessibilityExample> {
   late List<PopulationModel> _source;
-  late String _semanticLabel = 'Asia is the most populated continent and Australia is the least populated continent';
+  final String _semanticLabel =
+      'Asia is the most populated continent and Australia is the least populated continent';
 
   @override
   void initState() {
-    _source = const <PopulationModel>[
-        PopulationModel('Asia', 456.07),
-        PopulationModel('Africa', 121.61),
-        PopulationModel('Europe', 74.64),
-        PopulationModel('North America', 57.9),
-        PopulationModel('South America', 42.25),
-        PopulationModel('Australia', 2.54),
+    _source = <PopulationModel>[
+      const PopulationModel('Asia', 456.07),
+      const PopulationModel('Africa', 121.61),
+      const PopulationModel('Europe', 74.64),
+      const PopulationModel('North America', 57.9),
+      const PopulationModel('South America', 42.25),
+      const PopulationModel('Australia', 2.54),
     ];
     super.initState();
-  }
-
-  @override
-  void dispose() {
-    _source.clear();
-    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Semantics(
-          label: 'Syncfusion Flutter Treemap',
-          value: _semanticLabel,
-          child: Column(
-            children: [
-              Expanded(
-                child: SfTreemap(
-                  dataCount: _source.length,
-                  weightValueMapper: (int index) {
-                    return _source[index].populationInCrores;
-                  },
-                  levels: [
-                    TreemapLevel(
-                      groupMapper: (int index) {
-                        return _source[index].continent;
-                      },
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
+        label: 'Syncfusion Flutter Treemap',
+        value: _semanticLabel,
+        child: SfTreemap(
+          dataCount: _source.length,
+          weightValueMapper: (int index) {
+            return _source[index].populationInCrores;
+          },
+          levels: [
+            TreemapLevel(
+              groupMapper: (int index) {
+                return _source[index].continent;
+              },
+            ),
+          ],
         ),
+      ),
     );
   }
+}
 
 class PopulationModel {
   const PopulationModel(this.continent, this.populationInCrores);
@@ -81,19 +84,19 @@ class PopulationModel {
 
 You can customize the color of the [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) elements using the following APIs for the sufficient contrast.
 
-* [`Level`](https://help.syncfusion.com/flutter/treemap/color-customization#level-color)
-* [`Labels`](https://help.syncfusion.com/flutter/treemap/labels)
-* [`Legend`](https://help.syncfusion.com/flutter/treemap/legend#icon-and-text-customization)
-* [`Tooltip`](https://help.syncfusion.com/flutter/treemap/tooltip#appearance-customization)
+* [`Level`](https://help.syncfusion.com/chart-sdk/flutter/treemap/color-customization#level-color)
+* [`Labels`](https://help.syncfusion.com/chart-sdk/flutter/treemap/labels)
+* [`Legend`](https://help.syncfusion.com/chart-sdk/flutter/treemap/legend#icon-and-text-customization)
+* [`Tooltip`](https://help.syncfusion.com/chart-sdk/flutter/treemap/tooltip#appearance-customization)
 
 ## Large fonts
 
 The font size of the [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) will be automatically scaled based on the device settings. Additionally, you can change the font size of the [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) elements using the following APIs:
 
-* [`Label style`](https://help.syncfusion.com/flutter/treemap/labels#add-labels)
-* [`Legend text style`](https://help.syncfusion.com/flutter/treemap/legend#text-style)
-* [`Tooltip label style`](https://help.syncfusion.com/flutter/treemap/tooltip#tooltip-for-the-tiles)
+* [`Label style`](https://help.syncfusion.com/chart-sdk/flutter/treemap/labels#add-labels)
+* [`Legend text style`](https://help.syncfusion.com/chart-sdk/flutter/treemap/legend#text-style)
+* [`Tooltip label style`](https://help.syncfusion.com/chart-sdk/flutter/treemap/tooltip#tooltip-for-the-tiles)
 
 ## Easier touch targets
 
-The [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) has touch target as 48 * 48 for all elements, following standard accessibility guidelines.
+The [`SfTreemap`](https://pub.dev/documentation/syncfusion_flutter_treemap/latest/treemap/SfTreemap-class.html) has touch targets of 48 × 48 pixels for all elements, following standard accessibility guidelines.

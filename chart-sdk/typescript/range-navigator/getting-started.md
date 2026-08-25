@@ -4,7 +4,6 @@ title: Getting started with TypeScript Range Navigator control | Syncfusion
 description: Check out and learn about Getting started with TypeScript Range Navigator control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Range Navigator
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -19,7 +18,7 @@ This document explains how to create a simple Range Navigator and configure its 
 
 Before you begin, ensure you have the following installed on your machine:
 
-* [Node.js](https://nodejs.org/) (v14.15.0 or higher)
+* [Node.js](https://nodejs.org/en) (v14.15.0 or higher)
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
 * [Git](https://git-scm.com/) for cloning the quickstart repository
 * A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result

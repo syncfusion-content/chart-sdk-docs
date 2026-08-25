@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Zooming and Panning in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to enable zooming and panning in Syncfusion Flutter Cartesian Charts—use pinch, double-tap, selection, and configure key features.
+title: Zooming and Panning in Flutter Cartesian Chart | Syncfusion®
+description: The zooming and panning support in Flutter Cartesian Chart offers intuitive navigation to explore, inspect, and analyze large datasets efficiently.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Zooming and Panning (SfCartesianChart)
+# Zooming and Panning in Flutter Cartesian Chart
 
 
 ## Pinch zooming
@@ -50,7 +50,7 @@ Pinch zooming can be enabled by setting the [`enablePinching`](https://pub.dev/d
 
 ## Directional zooming
 
-The directional zooming feature improves the zoom experience by allowing users to zoom in and out in a specific direction (horizontal, vertical, or diagonal) based on their finger gesture. To enable this feature, set the [`enableDirectionalZooming`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ZoomPanBehavior/enableDirectionalZooming.html) property to `true`, the default value is `false`. The following code sample demonstrates how to enable directional zooming.
+The directional zooming feature improves the zoom experience by allowing users to zoom in and out in a specific direction (horizontal, vertical, or diagonal) based on their finger gesture. To enable this feature, set the [`enableDirectionalZooming`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ZoomPanBehavior/enableDirectionalZooming.html) property to `true`. The default value is `false`. The following code sample demonstrates how to enable directional zooming.
 
 {% tabs %}
 {% highlight dart hl_lines="7" %}
@@ -391,7 +391,7 @@ Also refer [`zooming`](./callbacks#onzooming), [`zoom start`](./callbacks#onzoom
 
 ### Calculate range based on visible points
 
-The [`anchorRangeToVisiblePoints`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ChartAxis/anchorRangeToVisiblePoints.html)  property can be used to calculate the value axis range based on the visible points. When the property is set to false the value axis range will be calculated based on all the data points in the chart irrespective of visible points. For further reference, check this [AutoRangeCalculation](https://help.syncfusion.com/flutter/cartesian-charts/axis-customization#auto-range-calculation) section.
+The [`anchorRangeToVisiblePoints`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ChartAxis/anchorRangeToVisiblePoints.html)  property can be used to calculate the value axis range based on the visible points. When the property is set to false the value axis range will be calculated based on all the data points in the chart irrespective of visible points. For further reference, check this [AutoRangeCalculation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/axis-customization#auto-range-calculation) section.
 
 #### See Also
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Period Selector in ASP.NET Core Range Navigator Component
+title: Period Selector in ASP.NET Core Range Navigator | Syncfusion
 description: Learn here all about Period Selector in Syncfusion ASP.NET Core Range Navigator component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Period Selector
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Period selector
+# Period Selector in ASP.NET Core Range Navigator
 
 The period selector allows to select a range with specified periods.
 

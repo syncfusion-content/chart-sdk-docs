@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Title in ASP.NET Core Bullet Chart Component | Syncfusion
+title: Title and Subtitle in ASP.NET Core Bullet Chart | Syncfusion
 description: Learn here all about Title in Syncfusion ASP.NET Core Bullet Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Title and subtitle in Bullet Chart Control
+# Title and Subtitle in Bullet Chart
 
 ## Title
 

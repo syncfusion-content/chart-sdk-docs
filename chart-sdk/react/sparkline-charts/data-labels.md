@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data labels in React Sparkline component | Syncfusion
-description: Learn here all about Data labels in Syncfusion React Sparkline component of Syncfusion Essential JS 2 and more.
+title: Data Labels in React Sparkline Charts | Syncfusion
+description: Display point values on the Syncfusion React Sparkline Charts by enabling data labels for all, start, end, high, low, or negative points with custom formatting.
 control: Data labels 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data labels in React Sparkline component
+# Data Labels in React Sparkline Charts
 
 Data labels are used to display values of data points to improve the readability.
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Series in WPF SfChart3D control | Syncfusion
-description: Learn about Series support in Syncfusion Essential Studio® WPF SfChart3D control, its elements and more.
+title: Series in WPF 3D Chart | Syncfusion®
+description: Series in the WPF 3D Chart define how data is visualized, enabling different 3D chart types and data representations.
 platform: chart-sdk
 control: SfChart3D
 documentation: ug
 ---
 
-# Series in WPF SfChart3D
+# Series in WPF 3D Chart
 
 ChartSeries is the visual representation of the data. SfChart3D offers eight types of series. Based on your requirements and specifications, any type of series can be added for data visualization. 
 
@@ -39,10 +39,9 @@ The following APIs are common for most of the series types:
 {% highlight xaml %}
 
 <chart:ColumnSeries3D 
-    ItemsSource="{Binding CategoricalData}"         
+    ItemsSource="{Binding CategoricalData}" 
     XBindingPath="Year" 
-    YBindingPath="Metal">
-</chart:ColumnSeries3D>
+    YBindingPath="Metal"/>
 
 {% endhighlight %}
 
@@ -191,8 +190,7 @@ chart3D.Series.Add(series1);
 <chart:LineSeries3D 
     ItemsSource="{Binding CategoricalData}" 
     XBindingPath="Year"
-    YBindingPath="Metal">
-</chart:LineSeries3D>
+    YBindingPath="Metal"/>
 
 {% endhighlight %}
 

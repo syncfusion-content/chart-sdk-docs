@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tooltip in React 3D Chart component | Syncfusion
-description: Learn here all about tooltip in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart
+title: Tooltip in React 3D Charts | Syncfusion
+description: Learn how to enable tooltip in the Syncfusion React 3D Charts to show point details on hover, with template and format options for richer context.
+control: Tooltip
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in React 3D Chart control
+# Tooltip in React 3D Charts
 
 <!-- markdownlint-disable MD036 -->
 

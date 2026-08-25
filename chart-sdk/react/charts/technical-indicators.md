@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Technical indicators in React Chart component | Syncfusion
-description: Learn here all about Technical indicators in Syncfusion React Chart component of Syncfusion Essential JS 2 and more.
-control: Technical indicators 
+title: Technical indicators in React Charts | Syncfusion
+description: Learn how to overlay technical indicators in Syncfusion React Charts for enhanced financial analysis and data visualization.
+control: Technical indicators
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Technical indicators in React Chart component
+# Technical indicators in React Charts
 
 A technical indicator is a mathematical calculation based on historical price, volume, or open‑interest information that aims to forecast financial market direction.
 

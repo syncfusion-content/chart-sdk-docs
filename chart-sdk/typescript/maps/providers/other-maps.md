@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Other maps in TypeScript Maps component | Syncfusion
-description: Learn here all about Other maps in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Other maps in TypeScript Maps | Syncfusion
+description: Connect any third-party tile-based map provider to TypeScript Maps by configuring the urlTemplate property with the provider's tile request URL.
 platform: chart-sdk
 control: Other maps 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Custom map provider integration in TypeScript Maps component
+# Custom map provider integration in TypeScript Maps
 
 In addition to OpenStreetMap, Bing Maps, and Azure Maps, the Maps component supports integration with other third-party online map service providers. Custom map providers can be rendered by specifying their tile server URL in the [urlTemplate](../../api/maps/layerSettingsModel/urltemplate) property. The Maps component supports any tile-based map provider that uses standard URL template formats for tile requests.
 

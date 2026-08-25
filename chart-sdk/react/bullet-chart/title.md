@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Title in React Bullet chart component | Syncfusion
-description: Learn here all about Title in Syncfusion React Bullet chart component of Syncfusion Essential JS 2 and more.
-control: Title 
+title: Title and Subtitle in React Bullet Chart | Syncfusion
+description: Learn how to add and customize a title and subtitle for the Syncfusion React Bullet Chart Component using text, position, and style options.
+control: Title
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title in React Bullet chart component
+# Title and Subtitle in React Bullet Chart
 
 ## Title
 

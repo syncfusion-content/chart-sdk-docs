@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Navigation line in React Maps component | Syncfusion
-description: Learn here all about Navigation line in Syncfusion React Maps component of Syncfusion Essential JS 2 and more.
+title: Navigation Lines in React Maps | Syncfusion
+description: Learn how to draw curved navigation lines in React Maps to visualize flight routes, sea routes, and other paths between geographic locations.
 control: Navigation line 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Navigation line in React Maps component
+# Navigation Lines in React Maps
 
 Navigation lines are curved paths used to denote the route between two locations on the Maps. This feature is commonly used to draw flight routes, sea routes, or any path connecting two geographic points. Navigation lines are enabled by setting the [`visible`](https://ej2.syncfusion.com/react/documentation/api/maps/navigationLineSettingsModel#visible) property of the [`navigationLineSettings`](https://ej2.syncfusion.com/react/documentation/api/maps/navigationLineSettingsModel) to **true**.
 

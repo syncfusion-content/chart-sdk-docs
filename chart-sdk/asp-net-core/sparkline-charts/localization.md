@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Localization in ASP.NET Core Sparkline Component
-description: Learn here all about Localization in Syncfusion ASP.NET Core Sparkline component of Syncfusion Essential JS 2 and more.
+title: Localization in ASP.NET Core Sparkline Charts | Syncfusion
+description: Learn here all about Localization in Syncfusion ASP.NET Core Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Localization
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Localization
+# Localization in ASP.NET Core Sparkline Charts
 
 The sparkline control supports localization. The default culture for localization is `en-US`. You can change the culture using the `setCulture` method.
 

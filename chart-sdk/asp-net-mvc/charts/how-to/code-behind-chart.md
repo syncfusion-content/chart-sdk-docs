@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Code Behind Chart in ASP.NET MVC Chart Component
-description: Learn here all about Code Behind Chart in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Code-behind chart in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Code Behind Chart in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Code Behind Chart
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# Render chart from code behind and update the chart using partial view
+# How to render a chart from code in ASP.NET MVC Charts
 
 You can render the charts from code behind and update the charts in partial view by calling the partial view action method in ajax.
 

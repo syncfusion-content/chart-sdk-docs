@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Print and export in React Treemap component | Syncfusion
-description: Learn here all about Print and export in Syncfusion React Treemap component of Syncfusion Essential JS 2 and more.
+title: Print and Export in React TreeMap | Syncfusion
+description: Learn how to print and export the Syncfusion React TreeMap as PDF or image using the Print and Export modules.
 control: Print and export 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Print and export in React Treemap component
+# Print and Export in React TreeMap
 
 ## Print
 

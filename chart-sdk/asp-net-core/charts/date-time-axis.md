@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Date Time Axis in Syncfusion ASP.NET Core Chart Component
-description: Learn here all about Date Time Axis in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Date Time Axis in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Date Time Axis in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Date Time Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# DateTime and DateTimeCategory Axis
+# DateTime and DateTimeCategory Axis in ASP.NET Core Charts
 
 ## DateTime Axis
 
@@ -208,4 +207,5 @@ Axis also supports custom label format using placeholder like {value}°C, in w
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/datetime/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
+
 

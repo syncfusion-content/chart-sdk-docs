@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Error bar chart in Flutter Cartesian Charts widget | Syncfusion
-description: Learn here all about error bar chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Error bar chart in Flutter Cartesian Chart | Syncfusion®
+description: The error bar chart support in Flutter Cartesian Chart offers data variability visualization with customizable error indicators for accurate analysis.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Error bar chart in Flutter Cartesian Charts (SfCartesianChart)
+# Error bar chart in Flutter Cartesian Chart
 
 Error bars are graphical representations of the variability of data and used on graphs to indicate the error or uncertainty in a reported measurement.
 
@@ -286,11 +286,11 @@ The [`capLength`](https://pub.dev/documentation/syncfusion_flutter_charts/latest
 
 ![Error bar cap length](cartesian-chart-types-images/error_bar_caplength.png)
 
-#### See Also
+### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points) 
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points) 
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)
