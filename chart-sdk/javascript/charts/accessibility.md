@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in JavaScript Chart | Syncfusion
+title: Accessibility in JavaScript Charts | Syncfusion
 description: Learn here all about Accessibility in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in JavaScript Chart
+# Accessibility in JavaScript Charts
 
 The Chart control follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 

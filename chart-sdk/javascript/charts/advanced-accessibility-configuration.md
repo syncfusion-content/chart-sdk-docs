@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advanced accessibility in JavaScript Chart | Syncfusion
+title: Advanced accessibility in JavaScript Charts | Syncfusion
 description: Learn here all about Accessibility customization in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Advanced accessibility in JavaScript Chart
+# Advanced accessibility in JavaScript Charts
 
 The JavaScript Chart control visualizes data graphically and provides accessibility customization options to improve usability for people with disabilities. The primary accessibility attributes are described in this section.
 
