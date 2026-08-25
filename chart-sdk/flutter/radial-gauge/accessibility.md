@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Accessibility in Flutter Radial Gauge widget | Syncfusion
-description: Learn here all about the accessibility support in Syncfusion Flutter Radial Gauge (SfRadialGauge) widget and how to customize it.
+title:  Accessibility in Flutter Radial Gauge | Syncfusion®
+description: Learn about accessibility support in Syncfusion® Flutter Radial Gauge (SfRadialGauge), including screen readers, keyboard navigation, and more.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
@@ -14,8 +14,38 @@ documentation: ug
 The [`SfRadialGauge`](https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/SfRadialGauge-class.html) can be made accessible to screen readers by wrapping it with the flutter [`Semantics`](https://api.flutter.dev/flutter/widgets/Semantics-class.html) widget. This provides meaningful information about the gauge to assistive technologies.
 
 {% tabs %}
-{% highlight Dart %}
+{% highlight dart %}
 
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_gauges/gauges.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Radial Gauge Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({Key? key}) : super(key: key);
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
   double _value = 50;
 
   @override
@@ -30,31 +60,32 @@ The [`SfRadialGauge`](https://pub.dev/documentation/syncfusion_flutter_gauges/la
       ),
     );
   }
+}
 
 {% endhighlight %}
 {% endtabs %}
 
 ## Sufficient contrast
 
-You can customize the color of the [`SfRadialGauge`](https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/SfRadialGauge-class.html) elements using the following APIs for the sufficient contrast.
+You can customize the color of the [`SfRadialGauge`](https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/SfRadialGauge-class.html) elements using the following APIs for a sufficient contrast.
 
-* [Title](https://help.syncfusion.com/flutter/radial-gauge/radial-gauge-title#text-alignment)
-* [Axis labels](https://help.syncfusion.com/flutter/radial-gauge/axes#label-style-customization)
-* [Ticks](https://help.syncfusion.com/flutter/radial-gauge/axes#tick-customization)
-* [Annotation](https://help.syncfusion.com/flutter/radial-gauge/annotation#alignment-of-annotation)
-* [Marker pointer](https://help.syncfusion.com/flutter/radial-gauge/marker-pointer#marker-customization)
-* [Text pointer](https://help.syncfusion.com/flutter/radial-gauge/marker-pointer#text-pointer)
-* [Knob](https://help.syncfusion.com/flutter/radial-gauge/needle-pointer#knob-customization)
-* [Tail](https://help.syncfusion.com/flutter/radial-gauge/needle-pointer#tail-customization)
-* [Range pointer](https://help.syncfusion.com/flutter/radial-gauge/ranges#range-customization)
+* [Title](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/radial-gauge-title#text-alignment)
+* [Axis labels](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/axes#label-style-customization)
+* [Ticks](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/axes#tick-customization)
+* [Annotation](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/annotation#alignment-of-annotation)
+* [Marker pointer](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/marker-pointer#marker-customization)
+* [Text pointer](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/marker-pointer#text-pointer)
+* [Knob](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/needle-pointer#knob-customization)
+* [Tail](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/needle-pointer#tail-customization)
+* [Range pointer](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/ranges#range-customization)
 
 ## Large fonts
 
 For users who need larger text, you can adjust the font size of the [`SfRadialGauge`](https://pub.dev/documentation/syncfusion_flutter_gauges/latest/gauges/SfRadialGauge-class.html) elements using these APIs:
 
-* [Title](https://help.syncfusion.com/flutter/radial-gauge/radial-gauge-title#text-alignment)
-* [Axis labels](https://help.syncfusion.com/flutter/radial-gauge/axes#label-style-customization)
-* [Annotation](https://help.syncfusion.com/flutter/radial-gauge/annotation#alignment-of-annotation)
+* [Title](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/radial-gauge-title#text-alignment)
+* [Axis labels](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/axes#label-style-customization)
+* [Annotation](https://help.syncfusion.com/chart-sdk/flutter/radial-gauge/annotation#alignment-of-annotation)
 
 ## Easier touch targets
 

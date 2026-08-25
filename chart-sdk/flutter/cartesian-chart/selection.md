@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Selection in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about Selection feature of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Selection in Flutter Cartesian Chart | Syncfusion®
+description: The selection support in Flutter Cartesian Chart offers interactive point and series selection with customizable styles to highlight data insights.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Selection in Flutter Cartesian Charts (SfCartesianChart)
+# Selection in Flutter Cartesian Chart
 
-The selection feature in chart let you to select a segment in a series or the series itself. This feature allows you to select either individual or cluster of segments in the chart series.
+The selection feature in the chart lets you select a segment in a series or the series itself. This feature allows you to select either an individual segment or a cluster of segments in the chart series.
 
 {% tabs %}
 {% highlight dart %} 
@@ -357,10 +357,10 @@ Defaults to `true`.
 
 ![Toggle selection](images/selection/cartesian_deselection.gif)
 
-Also refer [selection event](https://help.syncfusion.com/flutter/cartesian-charts/callbacks#onselectionchanged) for customizing the selection further.
+Also refer [selection event](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/callbacks#onselectionchanged) for customizing the selection further.
 
-#### See Also
+### See Also
 
 * [Dynamically selecting the data points in a chart](https://support.syncfusion.com/kb/article/10146/how-to-select-the-data-points-dynamically-in-cartesian-charts-sfcartesianchart).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

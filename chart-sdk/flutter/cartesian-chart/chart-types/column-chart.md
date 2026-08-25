@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Column Chart in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to create and customize Column Chart in Syncfusion Flutter Cartesian Charts—add column series, style, and configure key features.
+title: Column Chart in Flutter Cartesian Chart | Syncfusion®
+description: The column chart support in Flutter Cartesian Chart offers vertical data comparison with customizable styling to visualize trends and category-based values.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Column Chart (SfCartesianChart)
+# Column Chart in Flutter Cartesian Chart
 
 To render a column chart, create an instance of [`ColumnSeries`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ColumnSeries-class.html), and add it to the [`series`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart/series.html) collection property of [`SfCartesianChart`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart/SfCartesianChart.html). The following properties can be used to customize the appearance:
 
@@ -194,7 +194,7 @@ The [`borderRadius`](https://pub.dev/documentation/syncfusion_flutter_charts/lat
 
 ![Rounded corners](cartesian-chart-types-images/rounded_column.jpg)
 
-#### See Also
+### See Also
 
 * [Rendering each data points with different border radius in column charts](https://support.syncfusion.com/kb/article/10378/how-to-set-different-border-radius-for-each-rect-series-data-points-by-extending-the).
 
@@ -247,13 +247,13 @@ Renders columns with tracks. A track is a rectangular bar rendered from the star
 
 ![Track](cartesian-chart-types-images/track_column.jpg)
 
-#### See Also
+### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)
 
 >**Note**: You can refer to our [Flutter Column Chart](https://www.syncfusion.com/flutter-widgets/flutter-charts/chart-types/column-chart) feature tour page for its groundbreaking feature representations.

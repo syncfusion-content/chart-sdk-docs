@@ -77,6 +77,7 @@ The following table summarizes the globalization support available in this contr
 <td align="center"><a href="https://help.syncfusion.com/chart-sdk/maui/treemap/right-to-left" aria-label="MAUI TreeMap Control right-to-left support "><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
 <td align="center"><img src="../Images/not-applicable.svg" alt="not-applicable" width="16" /></td>
 <td align="center"><a href="https://help.syncfusion.com/chart-sdk/maui/treemap/accessibility" aria-label="MAUI TreeMap Control accessibility support "><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
+<td align="center"><a href="https://help.syncfusion.com/chart-sdk/maui/treemap/accessibility" aria-label="MAUI TreeMap Control accessibility support "><img src="../Images/full-support.svg" alt="full-support" width="16" /></a></td>
 </tr> 
 </table>
 
