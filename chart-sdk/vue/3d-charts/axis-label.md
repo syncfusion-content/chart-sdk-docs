@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Axis Labels in Vue 3D Charts | Syncfusion
-description: Learn here all about axis labels in Syncfusion 3D Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to customize axis labels in Syncfusion 3D Charts, including formatting, positioning, styling, and improved readability.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug

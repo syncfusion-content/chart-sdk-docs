@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Column Chart in Vue 3D Charts | Syncfusion
-description: Learn here all about column chart in Syncfusion 3D Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to create and customize column charts in Syncfusion 3D Charts to present data clearly with interactive visualization features.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug

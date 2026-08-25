@@ -403,6 +403,6 @@ For additional assistance, refer to the [Vue 3D Chart API documentation](https:/
 
 ## See Also
 
-- [Vue 3D Chart examples](https://ej2.syncfusion.com/vue/demos#/material3/three-dimension-chart/column.html)
+- [Vue 3D Chart examples](https://ej2.syncfusion.com/vue/demos/#/material3/three-dimension-chart/column.html)
 - [Getting Started with Vue UI Components using the Composition API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-composition)
 - [Getting Started with Vue UI Components using the Options API and TypeScript](https://ej2.syncfusion.com/vue/documentation/getting-started/vue-3-ts-options)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Selection in Vue 3D Charts | Syncfusion
-description: Learn here all about selection in Syncfusion 3D Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to enable and customize selection in Syncfusion 3D Charts to highlight data points, series, and chart elements interactively.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug

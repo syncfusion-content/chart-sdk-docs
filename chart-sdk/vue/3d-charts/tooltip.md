@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tooltip in Vue 3D Charts | Syncfusion
-description: Learn here all about tooltip in Syncfusion 3D Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize tooltips in Syncfusion 3D Charts to display detailed data information and improve user interaction.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug

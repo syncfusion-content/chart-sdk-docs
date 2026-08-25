@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Labels in Vue 3D Charts | Syncfusion
-description: Learn here all about data labels in Syncfusion 3D Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to add and customize data labels in Syncfusion 3D Charts to display data values clearly and enhance chart readability.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug

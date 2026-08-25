@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Appearance in Vue 3D Charts | Syncfusion
-description: Learn here all about appearance in Syncfusion 3D Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to customize the appearance of Syncfusion 3D Charts with styles, colors, themes, and visual settings for better presentation.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug

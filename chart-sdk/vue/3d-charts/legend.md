@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legend in Vue 3D Charts | Syncfusion
-description: Learn here all about chart legend in Syncfusion 3D Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize chart legends in Syncfusion 3D Charts to improve data interpretation and visual clarity.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug
@@ -121,7 +121,7 @@ By default, legend takes 20% - 25% of the 3D chart's height horizontally, when i
 
 ### Legend item size
 
-The size of the legend items can be customised by using the [`shapeHeight`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/legendSettings#shapeheight) and [`shapeWidth`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/legendSettings#shapewidth) properties.
+The size of the legend items can be customized by using the [`shapeHeight`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/legendSettings#shapeheight) and [`shapeWidth`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/legendSettings#shapewidth) properties.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

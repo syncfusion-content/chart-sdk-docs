@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Numeric Axis in Vue 3D Charts | Syncfusion
-description: Learn here all about numeric axis in Syncfusion 3D Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to use the numeric axis in Syncfusion 3D Charts to display numerical data with customized ranges, intervals, and labels.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug
