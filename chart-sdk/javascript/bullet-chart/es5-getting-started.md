@@ -1,10 +1,9 @@
 ---
 layout: post
-title: ES5 getting started with JavaScript Bullet Chart control | Syncfusion
-description: Check out and learn about ES5 getting started with JavaScript Bullet Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with JavaScript Bullet Chart (ES5) | Syncfusion
+description: Learn how to get started with the Syncfusion JavaScript Bullet Chart in an ES5 application using the CDN approach.
 platform: chart-sdk
 control: Bullet Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

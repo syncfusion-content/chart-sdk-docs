@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Palette in JavaScript Heatmap chart control | Syncfusion
-description: Learn here all about Palette in Syncfusion JavaScript Heatmap chart control of Syncfusion Essential JS 2 and more.
+title: Palette in JavaScript HeatMap Chart | Syncfusion
+description: Apply gradient or fixed color palettes to the JavaScript HeatMap Chart cells, with custom color stops, ranges, and labels for the legend.
 platform: chart-sdk
 control: Palette 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Palette in JavaScript Heatmap chart control
+# Palette in JavaScript HeatMap Chart
 
-In heat map, each data point is displayed as a cell with applied color based on the data value. The palette in the heat map is used to define the color range for cells and gradient type for colors. You can define the colors either in RGB or hex codes using the [color](../api/heatmap/paletteCollection/#color) property in the `palette`. The defined colors are applied to the cell background based on the palette type and cell value.
+In heat map, each data point is displayed as a cell with applied color based on the data value. The palette in the heat map is used to define the color range for cells and gradient type for colors. You can define the colors either in RGB or hex codes using the [color](../api/heatmap/paletteCollection#color) property in the `palette`. The defined colors are applied to the cell background based on the palette type and cell value.
 
 ## Palette types
 
@@ -19,7 +18,7 @@ You can display the heat map cells either in gradient colors or fixed colors.
 
 ### Gradient
 
-The smooth transition between the given palette colors can be applied for the heat map cells based on value. The heat map calculates all the gradient colors between the start and end colors for all distinct data values. Default start color and end color will be considered for gradient calculation, if the colors are not defined. The palette type must be defined as **Gradient** for the [type](../api/heatmap/paletteSettings/#type) property in `paletteSettings` property.
+The smooth transition between the given palette colors can be applied for the heat map cells based on value. The heat map calculates all the gradient colors between the start and end colors for all distinct data values. Default start color and end color will be considered for gradient calculation, if the colors are not defined. The palette type must be defined as **Gradient** for the [type](../api/heatmap/paletteSettings#type) property in `paletteSettings` property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -34,7 +33,7 @@ The smooth transition between the given palette colors can be applied for the he
 
 ### Fixed
 
-In fixed palette type, solid colors are applied to the heat map cells. The data values can be grouped based on the number of colors defined for the heat map. The palette type should be defined as **Fixed** for the [type](../api/heatmap/paletteSettings/#type) property in the `paletteSettings` property.
+In fixed palette type, solid colors are applied to the heat map cells. The data values can be grouped based on the number of colors defined for the heat map. The palette type should be defined as **Fixed** for the [type](../api/heatmap/paletteSettings#type) property in the `paletteSettings` property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -49,7 +48,7 @@ In fixed palette type, solid colors are applied to the heat map cells. The data 
 
 ## Defining color stops
 
-You can define the colors ranges or color stops for data values in both gradient and fixed palette types. You need to define the data value in the `value` property for `palette` property to calculate the color stops. The heat map automatically calculates the color stops if the `value` property is is not defined. The [label](../api/heatmap/paletteCollection/#label) property is used to provide the additional information about the color that is to be displayed in the legend. If the label is not provided, the [value](../api/heatmap/paletteCollection/#value) is displayed in the legend. The labels can be automatically calculated based on data values, if both the values and labels are not defined.
+You can define the colors ranges or color stops for data values in both gradient and fixed palette types. You need to define the data value in the `value` property for `palette` property to calculate the color stops. The heat map automatically calculates the color stops if the `value` property is is not defined. The [label](../api/heatmap/paletteCollection#label) property is used to provide the additional information about the color that is to be displayed in the legend. If the label is not provided, the [value](../api/heatmap/paletteCollection#value) is displayed in the legend. The labels can be automatically calculated based on data values, if both the values and labels are not defined.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -98,4 +97,4 @@ You can change the color mode of the cells to fixed or gradient mode using the [
    
 ## See Also
 
-* [How to enable smart legend](./legend/#smart-legend)
+* [How to enable smart legend](./legend#smart-legend)

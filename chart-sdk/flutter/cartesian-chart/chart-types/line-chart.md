@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Line Chart in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about line chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: Line Chart in Flutter Cartesian Chart | Syncfusion®
+description: The line chart support in Flutter Cartesian Chart offers trend visualization with customizable lines, markers, and styling for effective data analysis.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Line Chart in Flutter Cartesian Charts (SfCartesianChart)
+# Line Chart in Flutter Cartesian Chart
 
 To create a Flutter line chart quickly, you can check this video.
 
@@ -102,7 +102,7 @@ The [`dashArray`](https://pub.dev/documentation/syncfusion_flutter_charts/latest
 
 ![Dashed line chart](cartesian-chart-types-images/dashed_line.jpg)
 
-#### See Also
+### See Also
 
 * [Applying dashed pattern for line chart](https://support.syncfusion.com/kb/article/10763/how-to-create-dash-pattern-line-chart-in-flutter-using-cartesian-charts-widget).
 
@@ -153,11 +153,11 @@ To render a multi-colored line series, map the individual colors to the data usi
 
 ![Multi-colored line](cartesian-chart-types-images/multiColored_line.jpg)
 
-#### See Also
+### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points)
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting) 
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points)
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting) 
