@@ -59,7 +59,7 @@ map.appendTo('container');
 
 #### Key
 
-The bing Map key is provided as input to this key property. The Bing Map key can be obtained from [http://www.microsoft.com/maps/create-a-bing-maps-key.aspx](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).
+The bing Map key is provided as input to this key property. The Bing Map key can be obtained from [Getting a Bing Maps Key](https://learn.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 ## See Also
 

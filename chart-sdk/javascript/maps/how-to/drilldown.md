@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Drilldown in JavaScript Maps | Syncfusion
-description: Learn here all about Drilldown in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
+description: Learn how to implement drilldown in Syncfusion JavaScript Maps to navigate between geographic layers and explore data interactively.
 platform: chart-sdk
 control: Drilldown 
 documentation: ug

@@ -168,9 +168,9 @@ Since the JSON contains Datetime data, set the `valueType` as `DateTime`. By def
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs7" %}
 
->Note: Get data from [here](https://gitlab.syncfusion.com/essential-studio/ej2-samples/blob/master/src/rangenavigator/default_data.json).
+>Note: Get data from [here](https://gitea.syncfusion.com/essential-studio/ej2-samples/src/branch/development/src/range-navigator/default-data.json).
 
-The sample should look like our [default](http://npmci.syncfusion.com/production/demos/#/material/rangenavigator/default.html), don’t worry about the gradient color, let it takes the default color.
+The sample should look like our [default](https://npmci.syncfusion.com/development/demos/#/material/grid/grid-overview.html), don’t worry about the gradient color, let it takes the default color.
 
 ## Enable Tooltip
 
