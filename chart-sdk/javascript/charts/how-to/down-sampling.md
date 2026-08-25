@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to downsample data in JavaScript Chart | Syncfusion
-description: Learn here all about Down sampling in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to downsample data in JavaScript Charts | Syncfusion
+description: Learn here all about Down sampling in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to down sample data in JavaScript Chart
+# How to down sample data in JavaScript Charts
 
 Down sampling is the process of reducing the data rate. We have given a 2000 data points for chart. After applying down sampling algorithm, chart data points has been reduced  and rendered with 400 data points.
 

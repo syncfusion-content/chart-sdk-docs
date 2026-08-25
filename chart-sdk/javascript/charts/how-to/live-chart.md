@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to create a live chart in JavaScript Chart | Syncfusion
-description: Learn here all about Live chart in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to create a live chart in JavaScript Charts | Syncfusion
+description: Learn here all about Live chart in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to create a live chart in JavaScript Chart
+# How to create a live chart in JavaScript Charts
 
 You can update a chart with live data by using the set interval.
 

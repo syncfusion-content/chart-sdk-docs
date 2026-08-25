@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to hide axis on legend click in JavaScript Chart | Syncfusion
-description: Learn here all about Axis hide in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to hide axis on legend click in JavaScript Charts | Syncfusion
+description: Learn here all about Axis hide in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to hide axis on legend click in JavaScript Chart
+# How to hide axis on legend click in JavaScript Charts
 
 By using the [`chartMouseClick`](../../api/chart/chartModel#chartmouseclick) event, you can hide the axis line through legend.
 

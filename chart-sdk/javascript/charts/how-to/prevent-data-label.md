@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to prevent data label in JavaScript Chart | Syncfusion
-description: Learn here all about Prevent data label in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to prevent data label in JavaScript Charts | Syncfusion
+description: Learn here all about Prevent data label in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to prevent data label in JavaScript Chart
+# How to prevent data label in JavaScript Charts
 
 To prevent the chart data label when the data value is 0, follow the given steps:
 

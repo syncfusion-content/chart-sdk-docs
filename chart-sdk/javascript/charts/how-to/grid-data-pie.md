@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Visualize Grid Records in JavaScript Pie Chart | Syncfusion | Syncfusion
-description: Learn here all about Grid data pie in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: Visualize Grid Records in JavaScript Pie Chart | Syncfusion
+description: Learn here all about Grid data pie in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to visualize grid records in pie chart in JavaScript Chart
+# How to visualize grid records in pie chart in JavaScript Charts
 
 You can visualize the filtered data that returned by grid in pie chart.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to visualize grid records in JavaScript Chart | Syncfusion
-description: Learn here all about Grid data chart in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to visualize grid records in JavaScript Charts | Syncfusion
+description: Learn here all about Grid data chart in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to visualize grid records in JavaScript Chart
+# How to visualize grid records in JavaScript Charts
 
 You can visualize the data that returned by grid in chart.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to customize markers in JavaScript Chart | Syncfusion
-description: Learn here all about Marker customization in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to customize markers in JavaScript Charts | Syncfusion
+description: Learn here all about Marker customization in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to customize markers in JavaScript Chart
+# How to customize markers in JavaScript Charts
 
 By using the [`pointRender`](../../api/chart/chartModel#pointrender), you can customize the marker shape.
 
