@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Area Chart in TypeScript Chart | Syncfusion
-description: Learn here all about Area in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Area Chart in TypeScript Charts | Syncfusion
+description: Learn here all about Area in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Area 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Area Chart in TypeScript Chart
+# Area Chart in TypeScript Charts
 
 ## Area
 

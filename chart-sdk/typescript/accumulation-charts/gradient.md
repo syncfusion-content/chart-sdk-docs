@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Gradient in TypeScript Accumulation Chart | Syncfusion
-description: Learn how to apply linear and radial gradients to the Syncfusion TypeScript Accumulation Chart for richer styling.
+title: Gradient in TypeScript Accumulation Charts | Syncfusion
+description: Learn how to apply linear and radial gradients to the Syncfusion TypeScript Accumulation Charts for richer styling.
 platform: chart-sdk
-control: Accumulation Chart
+control: Accumulation Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Gradient in TypeScript Accumulation Chart
+# Gradient in TypeScript Accumulation Charts
 
 Gradients add depth and modern styling to charts by smoothly blending multiple colors. The Charts component supports two gradient types:
 

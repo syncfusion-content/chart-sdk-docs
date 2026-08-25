@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Drilldown in TypeScript Maps | Syncfusion
-description: Learn here all about Drilldown in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
+description: Learn here all about the Drilldown in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Drilldown 
 documentation: ug

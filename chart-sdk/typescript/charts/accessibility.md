@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Accessibility in TypeScript Chart | Syncfusion
-description: Learn here all about Accessibility in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Accessibility in TypeScript Charts | Syncfusion
+description: Learn here all about Accessibility in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in TypeScript Chart
+# Accessibility in TypeScript Charts
 
 The Chart control follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 

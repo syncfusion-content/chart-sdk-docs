@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to prevent data label in TypeScript Chart | Syncfusion
-description: Learn here all about Prevent data label in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to prevent data label in TypeScript Charts | Syncfusion
+description: Learn here all about Prevent data label in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to prevent data label in TypeScript Chart
+# How to prevent data label in TypeScript Charts
 
 To prevent the chart data label when the data value is 0, follow the given steps:
 

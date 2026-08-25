@@ -1,14 +1,14 @@
 ---
 layout: post
-title: User interaction in TypeScript Sparkline | Syncfusion
-description: Learn here all about User interaction in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
+title: User interaction in TypeScript Sparkline Charts | Syncfusion
+description: Learn here all about User interaction in Syncfusion TypeScript Sparkline Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: User interaction 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# User interaction in TypeScript Sparkline
+# User interaction in TypeScript Sparkline Charts
 
 Sparkline has two user interaction features: tooltip and tracker line.
 

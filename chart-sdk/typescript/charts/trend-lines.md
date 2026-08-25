@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Trendlines in TypeScript Chart | Syncfusion
-description: Learn here all about Trend lines in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Trendlines in TypeScript Charts | Syncfusion
+description: Learn here all about Trend lines in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Trendlines in TypeScript Chart
+# Trendlines in TypeScript Charts
 
 Trendlines help identify patterns, direction, and overall trends in numerical data. They project the general movement of data values and are widely used in analytics, forecasting, and financial charts. Trendlines can be added to Cartesian series types such as Line, Column, Scatter, Area, Candle, and Hilo (excluding bar series). Multiple trendlines can be added to a single series based on the analysis needs.
 

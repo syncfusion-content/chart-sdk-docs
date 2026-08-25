@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Legend in TypeScript 3D Circular Chart | Syncfusion
-description: Learn here all about legend in Syncfusion TypeScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
+title: Legend in TypeScript 3D Circular Charts | Syncfusion
+description: Learn here all about legend in Syncfusion TypeScript 3D Circular Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: 3D Circular Chart 
+control: 3D Circular Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in TypeScript 3D Circular Chart
+# Legend in TypeScript 3D Circular Charts
 
 The legend provides information about the data points rendered in the 3D Circular Chart. It can be added by enabling the `visible` option in the `legendSettings` property.
 

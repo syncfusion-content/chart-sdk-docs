@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Empty Points in TypeScript Accumulation Chart | Syncfusion
-description: Learn how to handle and customize empty data points in the Syncfusion TypeScript Accumulation Chart.
+title: Empty Points in TypeScript Accumulation Charts | Syncfusion
+description: Learn how to handle and customize empty data points in the Syncfusion TypeScript Accumulation Charts.
 platform: chart-sdk
-control:  Accumulation Chart
+control:  Accumulation Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Empty Points in TypeScript Accumulation Chart
+# Empty Points in TypeScript Accumulation Charts
 
 The data points those uses the `null` or `undefined` as value are considered as empty points. The empty data points are ignored and not plotted in the chart. You can customize those points, using the `emptyPointSettings` property in series. The default mode of the empty point is `Gap`. Other supported modes are `Average` and `Zero`.
 

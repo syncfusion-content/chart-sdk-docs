@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tool tip in TypeScript Range Selector | Syncfusion
-description: Learn here all about Tool tip in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
+title: Tool tip in TypeScript Range Navigator | Syncfusion
+description: Learn here all about Tool tip in Syncfusion TypeScript Range Navigator of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Selector
+control: Range Navigator
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip in TypeScript Range Selector
+# Tool tip in TypeScript Range Navigator
 
 <!-- markdownlint-disable MD036 -->
 

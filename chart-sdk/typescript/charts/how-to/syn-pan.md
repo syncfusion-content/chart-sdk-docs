@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to synchronize panning in TypeScript Chart | Syncfusion
-description: Learn here all about Syn pan in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to synchronize panning in TypeScript Charts | Syncfusion
+description: Learn here all about Syn pan in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to synchronize panning in TypeScript Chart
+# How to synchronize panning in TypeScript Charts
 
 Using the [`chartMouseMove`](../../api/chart/chartModel#chartmousemove) event, you can achieve the synchronized panning between multiple charts.
 

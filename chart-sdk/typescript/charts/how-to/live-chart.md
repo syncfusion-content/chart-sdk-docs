@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to create a live chart in TypeScript Chart | Syncfusion
-description: Learn here all about Live chart in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to create a live chart in TypeScript Charts | Syncfusion
+description: Learn here all about Live chart in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to create a live chart in TypeScript Chart
+# How to create a live chart in TypeScript Charts
 
 You can update a chart with live data by using the set interval.
 

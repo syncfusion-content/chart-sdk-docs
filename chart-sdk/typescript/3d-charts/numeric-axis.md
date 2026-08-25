@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Numeric Axis in TypeScript 3D Chart | Syncfusion
-description: Learn how to render the Syncfusion TypeScript 3D Chart with a numeric axis to represent numeric values along an axis.
+title: Numeric Axis in TypeScript 3D Charts | Syncfusion
+description: Learn how to render the Syncfusion TypeScript 3D Charts with a numeric axis to represent numeric values along an axis.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Numeric Axis in TypeScript 3D Chart
+# Numeric Axis in TypeScript 3D Charts
 
 The [numeric axis](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-axis) can be used to represent the numeric values of data in 3D chart. By default, the `valueType` of an axis is **Double**.
 

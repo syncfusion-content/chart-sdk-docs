@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Selecting range in TypeScript Range Selector | Syncfusion
-description: Learn here all about Selecting range in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
+title: Selecting range in TypeScript Range Navigator | Syncfusion
+description: Learn here all about Selecting range in Syncfusion TypeScript Range Navigator of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Selector
+control: Range Navigator
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Selecting range in TypeScript Range Selector
+# Selecting range in TypeScript Range Navigator
 
 The Range Selector's left and right thumbs are used to indicate the selected range in the large collection of data. A range can be selected in the following ways:
 

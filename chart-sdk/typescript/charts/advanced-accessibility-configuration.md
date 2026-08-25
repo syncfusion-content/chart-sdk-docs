@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Advanced accessibility in TypeScript Chart | Syncfusion
-description: Learn here all about Accessibility customization in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Advanced accessibility in TypeScript Charts | Syncfusion
+description: Learn here all about Accessibility customization in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Advanced accessibility in TypeScript Chart
+# Advanced accessibility in TypeScript Charts
 
 The TypeScript Chart control visualizes data graphically and provides accessibility customization options to improve usability for people with disabilities. The primary accessibility attributes are described in this section.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Print and export in TypeScript Chart | Syncfusion
-description: Learn here all about Chart print in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Print and export in TypeScript Charts | Syncfusion
+description: Learn here all about Chart print in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart print in TypeScript Chart
+# Chart print in TypeScript Charts
 
 ## Print
 

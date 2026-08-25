@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis Customization in TypeScript 3D Chart | Syncfusion
-description: Learn how to customize the axes of the Syncfusion TypeScript 3D Chart 3D Chart, including titles, labels, and tick lines.
+title: Axis Customization in TypeScript 3D Charts | Syncfusion
+description: Learn how to customize the axes of the Syncfusion TypeScript 3D Charts, including titles, labels, and tick lines.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis Customization in TypeScript 3D Chart
+# Axis Customization in TypeScript 3D Charts
 
 ## Title
 

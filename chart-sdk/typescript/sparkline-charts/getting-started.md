@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started with TypeScript Sparkline | Syncfusion
-description: Check out and learn how to get started with the TypeScript Sparkline in Syncfusion Essential JS 2.
+title: Getting Started with TypeScript Sparkline Charts | Syncfusion
+description: Check out and learn how to get started with the TypeScript Sparkline Charts in Syncfusion Essential JS 2.
 platform: chart-sdk
-control: Sparkline
+control: Sparkline Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with TypeScript Sparkline
+# Getting Started with TypeScript Sparkline Charts
 
 This document explains how to create a simple Sparkline and configure its basic features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 

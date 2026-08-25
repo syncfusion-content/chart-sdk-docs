@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to hide axis on legend click in TypeScript Chart | Syncfusion
-description: Learn here all about Axis hide in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to hide axis on legend click in TypeScript Charts | Syncfusion
+description: Learn here all about Axis hide in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to hide axis on legend click in TypeScript Chart
+# How to hide axis on legend click in TypeScript Charts
 
 By using the [`chartMouseClick`](../../api/chart/chartModel#chartmouseclick) event, you can hide the axis line through legend.
 

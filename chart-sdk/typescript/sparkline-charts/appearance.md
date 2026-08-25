@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Appearance in TypeScript Sparkline | Syncfusion
-description: Learn here all about Appearance in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
+title: Appearance in TypeScript Sparkline Charts | Syncfusion
+description: Learn here all about Appearance in Syncfusion TypeScript Sparkline Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in TypeScript Sparkline
+# Appearance in TypeScript Sparkline Charts
 
 The appearance of the sparkline can be customized using margin, containerArea border, and containerArea background.
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Polar Chart in TypeScript Chart | Syncfusion
-description: Learn here all about Polar in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Polar Chart in TypeScript Charts | Syncfusion
+description: Learn here all about Polar in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Polar Chart in TypeScript Chart
+# Polar Chart in TypeScript Charts
 
 ## Polar Chart
 

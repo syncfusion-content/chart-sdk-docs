@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Numeric axis in TypeScript Chart | Syncfusion
-description: Learn here all about Numeric axis in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Numeric axis in TypeScript Charts | Syncfusion
+description: Learn here all about Numeric axis in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Numeric axis in TypeScript Chart
+# Numeric axis in TypeScript Charts
 
 The [numeric axis](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-axis) is used to represent numeric values in a chart. By default, the `valueType` of an axis is set to `Double`, which is suitable for displaying continuous numerical data.
 

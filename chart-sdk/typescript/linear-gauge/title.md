@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title in ##Platform_Name## Linear Gauge Control
+# Title in TypeScript Linear Gauge Control
 
 ## Adding the Linear Gauge Title
 

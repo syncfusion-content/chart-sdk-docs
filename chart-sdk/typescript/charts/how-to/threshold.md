@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to add threshold in TypeScript Chart | Syncfusion
-description: Learn here all about Threshold in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to add threshold in TypeScript Charts | Syncfusion
+description: Learn here all about Threshold in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to add threshold in TypeScript Chart
+# How to add threshold in TypeScript Charts
 
 You can mark a threshold in chart by using the `stripline`.
 

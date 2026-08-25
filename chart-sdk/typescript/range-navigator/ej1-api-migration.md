@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Ej1 api migration in TypeScript Range Selector | Syncfusion
-description: Learn here all about Ej1 api migration in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
+title: Ej1 api migration in TypeScript Range Navigator | Syncfusion
+description: Learn here all about Ej1 api migration in Syncfusion TypeScript Range Navigator of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Selector
+control: Range Navigator
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Ej1 api migration in TypeScript Range Selector
+# Ej1 api migration in TypeScript Range Navigator
 
 This article describes the API migration process of Chart component from Essential JS 1 to Essential JS 2.
 

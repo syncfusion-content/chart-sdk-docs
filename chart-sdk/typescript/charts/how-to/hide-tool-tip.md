@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to hide tooltip in TypeScript Chart | Syncfusion
-description: Learn here all about Hide tool tip in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to hide tooltip in TypeScript Charts | Syncfusion
+description: Learn here all about Hide tool tip in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to hide tooltip in TypeScript Chart
+# How to hide tooltip in TypeScript Charts
 
 By using the [`tooltipRender`](../../api/chart/chartModel#tooltiprender) event, you can cancel the tooltip for unselected series in the chart.
 

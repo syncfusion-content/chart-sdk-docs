@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Export print in TypeScript Range Selector | Syncfusion
-description: Learn here all about Export print in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
+title: Export print in TypeScript Range Navigator | Syncfusion
+description: Learn here all about Export print in Syncfusion TypeScript Range Navigator of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Selector
+control: Range Navigator
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Export print in TypeScript Range Selector
+# Export print in TypeScript Range Navigator
 
 ## Export
 

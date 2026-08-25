@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Appearance in TypeScript 3D Chart | Syncfusion
-description: Learn how to customize the appearance of the Syncfusion TypeScript 3D Chart using palettes, background, border, animation, and title.
+title: Appearance in TypeScript 3D Charts | Syncfusion
+description: Learn how to customize the appearance of the Syncfusion TypeScript 3D Charts using palettes, background, border, animation, and title.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in TypeScript 3D Chart
+# Appearance in TypeScript 3D Charts
 
 ## Custom color palette
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Legend in TypeScript 3D Chart | Syncfusion
-description: Learn how to add and customize the legend in the Syncfusion TypeScript 3D Chart, including position, alignment, and title.
+title: Legend in TypeScript 3D Charts | Syncfusion
+description: Learn how to add and customize the legend in the Syncfusion TypeScript 3D Charts, including position, alignment, and title.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Legend in TypeScript 3D Chart
+# Legend in TypeScript 3D Charts
 
 <!-- markdownlint-disable MD036 -->
 

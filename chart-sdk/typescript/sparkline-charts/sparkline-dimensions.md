@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Sparkline dimensions in TypeScript Sparkline | Syncfusion
-description: Learn here all about Sparkline dimensions in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
+title: Sparkline dimensions in TypeScript Sparkline Charts | Syncfusion
+description: Learn here all about Sparkline dimensions in Syncfusion TypeScript Sparkline Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Sparkline dimensions 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Sparkline dimensions in TypeScript Sparkline
+# Sparkline dimensions in TypeScript Sparkline Charts
 
 ## Size for container
 

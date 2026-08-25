@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to get pie clicked data in TypeScript Chart | Syncfusion
-description: Learn here all about Clicked data in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to get pie clicked data in TypeScript Charts | Syncfusion
+description: Learn here all about Clicked data in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to get pie clicked data in TypeScript Chart
+# How to get pie clicked data in TypeScript Charts
 
 By using the [`pointClick`](../../api/accumulation-chart#pointClick-emittypeIPointEventArgs) event, you can get the chart data of clicked area.
 

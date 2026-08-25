@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started with TypeScript 3D Chart | Syncfusion
-description: Learn how to get started with the Syncfusion TypeScript 3D Chart in a TypeScript application using the EJ2 webpack quickstart.
+title: Getting Started with TypeScript 3D Charts | Syncfusion
+description: Learn how to get started with the Syncfusion TypeScript 3D Charts in a TypeScript application using the EJ2 webpack quickstart.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with TypeScript 3D Chart
+# Getting started with TypeScript 3D Charts
 
 This document explains how to create a simple 3D Chart and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
@@ -138,7 +138,7 @@ Locate the `src/app/app.ts` file in your project and add the 3D Chart component 
 {% endhighlight %}
 {% endtabs %}
 
-> You can refer to our [JavaScript 3D Charts](https://www.syncfusion.com/javascript-ui-controls/js-3d-charts) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript 3D Charts example](https://ej2.syncfusion.com/demos#/bootstrap5/three-dimension-chart/column.html) that shows various 3D Chart types.
+> You can refer to our [JavaScript 3D Charts](https://www.syncfusion.com/javascript-ui-controls/js-3d-charts) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript 3D Charts example](https://ej2.syncfusion.com/demos/#/bootstrap5/three-dimension-chart/column.html) that shows various 3D Chart types.
 
 ### Step 8: Run the Application
 
@@ -162,7 +162,7 @@ Wait for the webpack dev server to complete the build process. Once completed, y
 
 The following screenshot shows the output of the Syncfusion 3D Chart quick start application — a Column series rendering 12 months of sample sales data with a Category axis on the x-axis and a formatted vertical axis.
 
-![Syncfusion 3D Chart Quick Start Output](./images/3D-Chart-TS.png)
+![Syncfusion 3D Chart Quick Start Output](./images/Chart-3D-TS.png)
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs7" %}
 
@@ -173,4 +173,4 @@ The following screenshot shows the output of the Syncfusion 3D Chart quick start
 * **`Chart3D is undefined`** — `Chart3D.Inject(...)` was not called before the `new Chart3D(...)` call. Add the `Inject` line at the top of `app.ts`.
 * **The 3D chart renders without data** — Mismatched `xName`/`yName` and the field names in the data source. Ensure every series field matches the data keys exactly.
 * **TypeScript compile errors after `npm install`** — Run `npm run build` to see the full error; common causes are mismatched `ej2-charts` and theme package versions.
-> You can refer to our [JavaScript 3D Charts](https://www.syncfusion.com/javascript-ui-controls/js-3d-charts) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript 3D Charts example](https://ej2.syncfusion.com/demos#/bootstrap5/three-dimension-chart/column.html) that shows various 3D Chart types and how to represent time-dependent data, showing trends in data at equal intervals.
+> You can refer to our [JavaScript 3D Charts](https://www.syncfusion.com/javascript-ui-controls/js-3d-charts) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript 3D Charts example](https://ej2.syncfusion.com/demos/#/bootstrap5/three-dimension-chart/column.html) that shows various 3D Chart types and how to represent time-dependent data, showing trends in data at equal intervals.

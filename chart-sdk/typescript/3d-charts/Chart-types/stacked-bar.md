@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 100% Stacked Bar Chart in TypeScript 3D Chart | Syncfusion
-description: Learn how to render a 100% stacked bar series in the Syncfusion TypeScript 3D Chart using the StackingBarSeries3D module.
+title: 100% Stacked Bar Chart in TypeScript 3D Charts | Syncfusion
+description: Learn how to render a 100% stacked bar series in the Syncfusion TypeScript 3D Charts using the StackingBarSeries3D module.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# 100% Stacked bar chart in TypeScript 3D Chart
+# 100% Stacked bar chart in TypeScript 3D Charts
 
 ## 100% Stacked bar chart
 

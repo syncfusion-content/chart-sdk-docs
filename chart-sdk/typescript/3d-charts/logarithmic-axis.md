@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Logarithmic Axis in TypeScript 3D Chart | Syncfusion
-description: Learn how to render the Syncfusion TypeScript 3D Chart with a logarithmic axis to visualize data across many orders of magnitude.
+title: Logarithmic Axis in TypeScript 3D Charts | Syncfusion
+description: Learn how to render the Syncfusion TypeScript 3D Charts with a logarithmic axis to visualize data across many orders of magnitude.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Logarithmic Axis in TypeScript 3D Chart
+# Logarithmic Axis in TypeScript 3D Charts
 
 Logarithmic axis uses logarithmic scale and it is very useful in visualizing data, when it has numerical values in both lower order of magnitude (eg: 10<sup>-6</sup>) and higher order of magnitude (eg: 10<sup>6</sup>).
 

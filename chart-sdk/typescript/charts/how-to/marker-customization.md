@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to customize markers in TypeScript Chart | Syncfusion
-description: Learn here all about Marker customization in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to customize markers in TypeScript Charts | Syncfusion
+description: Learn here all about Marker customization in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to customize markers in TypeScript Chart
+# How to customize markers in TypeScript Charts
 
 By using the [`pointRender`](../../api/chart/chartModel#pointrender), you can customize the marker shape.
 

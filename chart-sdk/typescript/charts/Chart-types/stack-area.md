@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Stacked Area Chart in TypeScript Chart | Syncfusion
-description: Learn here all about Stacked area in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Stacked Area Chart in TypeScript Charts | Syncfusion
+description: Learn here all about Stacked area in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Stacked Area Chart in TypeScript Chart
+# Stacked Area Chart in TypeScript Charts
 
 ## Stacked Area
 

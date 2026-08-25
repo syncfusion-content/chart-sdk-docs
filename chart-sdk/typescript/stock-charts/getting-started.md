@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with ##Platform_Name## Stock Chart control
+# Getting started with Typescript Stock Chart control
 
 This document explains how to create a simple Stock Chart and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 

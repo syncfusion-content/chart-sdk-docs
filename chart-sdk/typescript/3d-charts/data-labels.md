@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data labels in TypeScript 3D Chart | Syncfusion
-description: Learn how to add and customize data labels in the Syncfusion TypeScript 3D Chart for each chart series.
+title: Data labels in TypeScript 3D Charts | Syncfusion
+description: Learn how to add and customize data labels in the Syncfusion TypeScript 3D Charts for each chart series.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data labels in TypeScript 3D Chart
+# Data labels in TypeScript 3D Charts
 
 Data labels are fields that includes information about the sample point connected to an output. It can be added to a chart series by enabling the [`visible`](../api/chart3d/dataLabelStyleModel#visible) property in the [`dataLabel`](../api/chart3d/series3DModel#datalabel). By default, the labels will arrange smartly without overlapping.
 

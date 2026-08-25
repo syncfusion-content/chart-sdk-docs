@@ -1,15 +1,15 @@
 ---
 layout: post
-title: DateTime axis in TypeScript Chart | Syncfusion
-description: Learn here all about Date time axis in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: DateTime axis in TypeScript Charts | Syncfusion
+description: Learn here all about Date time axis in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# DateTime axis in TypeScript Chart
+# DateTime axis in TypeScript Charts
 
 ## DateTime Axis
 

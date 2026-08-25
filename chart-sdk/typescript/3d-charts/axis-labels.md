@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Axis Labels in TypeScript 3D Chart | Syncfusion
-description: Learn how to customize axis labels in the Syncfusion TypeScript 3D Chart, including smart labels and edge label placement.
+title: Axis Labels in TypeScript 3D Charts | Syncfusion
+description: Learn how to customize axis labels in the Syncfusion TypeScript 3D Charts, including smart labels and edge label placement.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis Labels in TypeScript 3D Chart
+# Axis Labels in TypeScript 3D Charts
 
 Axis labels are the labels that are positioned adjacent to the y-axis and beneath the x-axis. It provides descriptive information about the axis.
 

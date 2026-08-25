@@ -135,7 +135,7 @@ Locate the `src/app/app.ts` file in your project and add the Bullet Chart compon
 {% endhighlight %}
 {% endtabs %}
 
-> You can refer to our [JavaScript Bullet Chart](https://www.syncfusion.com/javascript-ui-controls/js-bullet-chart) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Bullet Chart example](https://ej2.syncfusion.com/demos#/bootstrap5/bullet-chart/default-functionalities.html) that shows various Bullet Chart configurations.
+> You can refer to our [JavaScript Bullet Chart](https://www.syncfusion.com/javascript-ui-controls/js-bullet-chart) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript Bullet Chart example](https://ej2.syncfusion.com/demos/#/bootstrap5/bullet-chart/default.html) that shows various Bullet Chart configurations.
 
 ### Step 8: Run the Application
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Category Axis in TypeScript 3D Chart | Syncfusion
-description: Learn how to render the Syncfusion TypeScript 3D Chart with a category axis that shows text values along the horizontal axis.
+title: Category Axis in TypeScript 3D Charts | Syncfusion
+description: Learn how to render the Syncfusion TypeScript 3D Charts with a category axis that shows text values along the horizontal axis.
 platform: chart-sdk
-control: 3D Chart 
+control: 3D Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Category Axis in TypeScript 3D Chart
+# Category Axis in TypeScript 3D Charts
 
 The category axis is the horizontal axis of a 3D chart that shows text values rather than numerical values. Compared to the vertical axis, this axis has fewer labels. The following sample shows to render the 3D chart using category axis.
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Legend in TypeScript Chart | Syncfusion
-description: Learn here all about Legend in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Legend in TypeScript Charts | Syncfusion
+description: Learn here all about Legend in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Legend in TypeScript Chart
+# Legend in TypeScript Charts
 
 <!-- markdownlint-disable MD036 -->
 

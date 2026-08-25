@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Annotations in TypeScript Chart | Syncfusion
-description: Learn here all about Chart annotations in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Annotations in TypeScript Charts | Syncfusion
+description: Learn here all about Chart annotations in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Annotations in TypeScript Chart
+# Annotations in TypeScript Charts
 
 Chart annotations allow highlighting specific areas of the chart using text, shapes, images, or custom HTML elements. Annotations can be used to emphasize trends, mark thresholds, show custom notes, or display additional information directly inside the chart area.
 

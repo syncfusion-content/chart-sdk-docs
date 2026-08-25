@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tooltip in TypeScript 3D Chart | Syncfusion
-description: Learn how to enable and customize tooltips in the Syncfusion TypeScript 3D Chart to display point details on hover.
+title: Tooltip in TypeScript 3D Charts | Syncfusion
+description: Learn how to enable and customize tooltips in the Syncfusion TypeScript 3D Charts to display point details on hover.
 platform: chart-sdk
-control: 3D Chart 
+control: 3D Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in TypeScript 3D Chart
+# Tooltip in TypeScript 3D Charts
 
 <!-- markdownlint-disable MD036 -->
 

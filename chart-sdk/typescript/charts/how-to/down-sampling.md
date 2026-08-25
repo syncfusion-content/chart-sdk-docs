@@ -1,18 +1,18 @@
 ---
 layout: post
-title: How to downsample data in TypeScript Chart | Syncfusion
-description: Learn here all about Down sampling in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to downsample data in TypeScript Charts | Syncfusion
+description: Learn here all about Down sampling in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to downsample data in TypeScript Chart
+# How to downsample data in TypeScript Charts
 
 Downsampling is the process of reducing the data rate. We have given a 2000 data points for chart. After applying downsampling algorithm, chart data points has been reduced  and rendered with 400 data points.
 
-Downsampling data using the "Largest-Triangle-Three-Buckets algorithm"[`LTTB`](https://bl.ocks.org/FraserChapman/649f1aba28f6bc941d5c) which describes the point in the bucket that forms the largest triangle using the area of the triangles. This helps to reducing the number of points.
+Downsampling data using the "Largest-Triangle-Three-Buckets algorithm"[`LTTB`](https://gist.github.com/FraserChapman/649f1aba28f6bc941d5c) which describes the point in the bucket that forms the largest triangle using the area of the triangles. This helps to reducing the number of points.
 
 In Downsampling when we perform zooming, particular level of zoomed chart we can see the chart clearly with original data, so we can use original data for that level of zooming. This can be achieved by [`zoomComplete`](../../api/chart#zoomcomplete) event. Refer the below sample for downsampling with zooming feature.
 

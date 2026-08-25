@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Period selector in TypeScript Range Selector | Syncfusion
-description: Learn here all about Period selector in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
+title: Period selector in TypeScript Range Navigator | Syncfusion
+description: Learn here all about Period selector in Syncfusion TypeScript Range Navigator of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Selector
+control: Range Navigator
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Period selector in TypeScript Range Selector
+# Period selector in TypeScript Range Navigator
 
 The period selector allows to select a range with specified periods.
 

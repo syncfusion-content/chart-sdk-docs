@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Customization in TypeScript Range Selector | Syncfusion
-description: Learn here all about Customization in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
+title: Customization in TypeScript Range Navigator | Syncfusion
+description: Learn here all about Customization in Syncfusion TypeScript Range Navigator of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Selector 
+control: Range Navigator 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Customization in TypeScript Range Selector
+# Customization in TypeScript Range Navigator
 
 ## Navigator appearance
 

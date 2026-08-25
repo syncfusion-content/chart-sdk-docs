@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Advanced Accessibility in TypeScript Accumulation Chart | Syncfusion
-description: Learn how to customize accessibility features in the Syncfusion TypeScript Accumulation Chart for users with disabilities.
+title: Advanced Accessibility in TypeScript Accumulation Charts | Syncfusion
+description: Learn how to customize accessibility features in the Syncfusion TypeScript Accumulation Charts for users with disabilities.
 platform: chart-sdk
-control: Accumulation Chart
+control: Accumulation Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Advanced Accessibility in TypeScript Accumulation Chart
+# Advanced Accessibility in TypeScript Accumulation Charts
 
 The Syncfusion® TypeScript Accumulation Chart control is structured to visualize data in a graphical manner. It provides robust customization options for accessibility, allowing you to enhance the user experience for those with disabilities. The main attributes of the TypeScript Accumulation Chart control's accessibility customization are briefly explained in this section.
 

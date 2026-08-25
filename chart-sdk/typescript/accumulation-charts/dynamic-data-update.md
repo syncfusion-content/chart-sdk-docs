@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Dynamic Data Update in TypeScript Accumulation Chart | Syncfusion
-description: Learn how to dynamically add, update, or remove data points in the Syncfusion TypeScript Accumulation Chart at runtime.
+title: Dynamic Data Update in TypeScript Accumulation Charts | Syncfusion
+description: Learn how to dynamically add, update, or remove data points in the Syncfusion TypeScript Accumulation Charts at runtime.
 platform: chart-sdk
 control: Dynamic Data Update
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dynamic Data Update in Angular Accumulation Chart component
+# Dynamic Data Update in TypeScript Accumulation Charts component
 
 ## Adding a new data point
 

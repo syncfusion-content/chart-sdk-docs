@@ -1,15 +1,15 @@
 ---
 layout: post
-title: DateTime Axis in TypeScript 3D Chart | Syncfusion
-description: Learn how to render the Syncfusion TypeScript 3D Chart with a DateTime axis that displays date and time scale values.
+title: DateTime Axis in TypeScript 3D Charts | Syncfusion
+description: Learn how to render the Syncfusion TypeScript 3D Charts with a DateTime axis that displays date and time scale values.
 platform: chart-sdk
-control: 3D Chart 
+control: 3D Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# DateTime Axis in TypeScript 3D Chart
+# DateTime Axis in TypeScript 3D Charts
 
 ## DateTime axis
 

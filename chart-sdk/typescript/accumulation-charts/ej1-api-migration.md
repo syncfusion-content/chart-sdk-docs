@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Migration from Essential JS 1 in TypeScript Accumulation Chart | Syncfusion
-description: Learn how to migrate Accumulation Chart code and APIs from Syncfusion Essential JS 1 to Syncfusion Essential JS 2.
+title: EJ1 API Migration in TypeScript Accumulation Charts | Syncfusion
+description: Learn how to migrate Accumulation Charts code and APIs from Syncfusion Essential JS 1 to Syncfusion Essential JS 2.
 platform: chart-sdk
-control: Accumulation Chart
+control: Accumulation Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Migration from Essential JS 1 in TypeScript Accumulation Chart
+# Migration from Essential JS 1 in TypeScript Accumulation Charts
 
 This article describes the API migration process of Chart component from Essential JS 1 to Essential JS 2.
 

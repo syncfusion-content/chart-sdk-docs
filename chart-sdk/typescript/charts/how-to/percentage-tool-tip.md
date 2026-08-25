@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to show pie percentage in tooltip in TypeScript Chart | Syncfusion
-description: Learn here all about Percentage tool tip in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to show pie percentage in tooltip in TypeScript Charts | Syncfusion
+description: Learn here all about Percentage tool tip in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to show pie percentage in tooltip in TypeScript Chart
+# How to show pie percentage in tooltip in TypeScript Charts
 
 By using the [`tooltipRender`](../../api/accumulation-chart/accumulationChartModel#tooltiprender) event, you can show the percentage value for each point of pie series in tooltip.
 

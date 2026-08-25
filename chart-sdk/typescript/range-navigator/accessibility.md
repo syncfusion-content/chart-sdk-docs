@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Accessibility in TypeScript Range Selector | Syncfusion
-description: Learn here all about Accessibility in Syncfusion TypeScript Range Selector of Syncfusion Essential JS 2 and more.
+title: Accessibility in TypeScript Range Navigator | Syncfusion
+description: Learn here all about Accessibility in Syncfusion TypeScript Range Navigator of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Range Selector 
+control: Range Navigator 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in TypeScript Range Selector
+# Accessibility in TypeScript Range Navigator
 
 The Range navigator control followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

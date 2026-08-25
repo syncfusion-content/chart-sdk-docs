@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Selection in TypeScript 3D Chart | Syncfusion
-description: Learn how to enable selection in the Syncfusion TypeScript 3D Chart for series and data points on mouse click.
+title: Selection in TypeScript 3D Charts | Syncfusion
+description: Learn how to enable selection in the Syncfusion TypeScript 3D Charts for series and data points on mouse click.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Selection in TypeScript 3D Chart
+# Selection in TypeScript 3D Charts
 
 The 3D chart provides selection support for the series and its data points on mouse click.
 

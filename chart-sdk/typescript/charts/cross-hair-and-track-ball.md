@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Crosshair and trackball in TypeScript Chart | Syncfusion
-description: Learn here all about Cross hair and track ball in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Crosshair and trackball in TypeScript Charts | Syncfusion
+description: Learn here all about Cross hair and track ball in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Crosshair and trackball in TypeScript Chart
+# Crosshair and trackball in TypeScript Charts
 
 The crosshair feature displays vertical and horizontal guide lines that intersect at the mouse or touch position, helping to identify the corresponding axis values precisely.
 

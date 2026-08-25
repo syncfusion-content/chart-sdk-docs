@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data Label in TypeScript Accumulation Chart | Syncfusion
-description: Learn how to add and customize data labels in the Syncfusion TypeScript Accumulation Chart series.
+title: Data Label in TypeScript Accumulation Charts | Syncfusion
+description: Learn how to add and customize data labels in Syncfusion TypeScript Accumulation Chart series easily.
 platform: chart-sdk
-control: Accumulation Chart
+control: Accumulation Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data Label in TypeScript Accumulation Chart
+# Data Label in TypeScript Accumulation Charts
 
 Data label can be added to a chart series by enabling the [`visible`](../api/accumulation-chart/accumulationDataLabelSettingsModel)
 option in the dataLabel property.

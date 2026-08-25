@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Stacked Column Chart in TypeScript 3D Chart | Syncfusion
-description: Learn how to render a stacked column series in the Syncfusion TypeScript 3D Chart using the StackingColumnSeries3D module.
+title: Stacked Column Chart in TypeScript 3D Charts | Syncfusion
+description: Learn how to render a stacked column series in the Syncfusion TypeScript 3D Charts using the StackingColumnSeries3D module.
 platform: chart-sdk
-control: 3D Chart
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Stacked Column Chart in TypeScript 3D Chart
+# Stacked Column Chart in TypeScript 3D Charts
 
 ## Stacked column chart
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to customize points in in TypeScript Chart | Syncfusion
-description: Learn here all about Points customization in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to customize points in in TypeScript Charts | Syncfusion
+description: Learn here all about Points customization in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# How to customize points in in TypeScript Chart
+# How to customize points in in TypeScript Charts
 
 You can customize the series points with patterns by using the `pointColorMapping` property.
 

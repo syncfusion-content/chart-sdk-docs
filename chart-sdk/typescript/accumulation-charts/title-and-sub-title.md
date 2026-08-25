@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Title and Subtitle in TypeScript Accumulation Chart | Syncfusion
-description: Learn how to add a title and subtitle to the Syncfusion TypeScript Accumulation Chart using the title property.
+title: Title and Subtitle in TypeScript Accumulation Charts | Syncfusion
+description: Learn how to add a title and subtitle to the Syncfusion TypeScript Accumulation Charts using the title property.
 platform: chart-sdk
-control: Accumulation Chart
+control: Accumulation Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and Subtitle in TypeScript Accumulation Chart
+# Title and Subtitle in TypeScript Accumulation Charts
 
 ## Title
 

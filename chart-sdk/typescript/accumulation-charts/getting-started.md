@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Getting Started with TypeScript Accumulation Chart | Syncfusion
-description: Learn how to get started with the Syncfusion TypeScript Accumulation Chart in a TypeScript application using the EJ2 webpack quickstart.
+title: Getting Started with TypeScript Accumulation Charts | Syncfusion
+description: Learn how to get started with the Syncfusion TypeScript Accumulation Charts in a TypeScript application using the EJ2 webpack quickstart.
 platform: chart-sdk
-control: Accumulation Chart
-publishingplatform: chart-sdk
+control: Accumulation Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Getting Started with TypeScript Accumulation Chart
+# Getting Started with TypeScript Accumulation Charts
 
 This document explains how to create a simple Accumulation Chart and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
@@ -193,7 +192,7 @@ When the build completes, the Syncfusion<sup style="font-size:70%">&reg;</sup> A
 
 The following screenshot shows the output of the Syncfusion Accumulation Chart quick start application:
 
-![Syncfusion Accumulation Chart Quick Start Output - Pie chart of monthly sales data](./images/accumulation.png "Syncfusion Accumulation Chart displaying monthly sales data")
+![Syncfusion Accumulation Chart Quick Start Output - Pie chart of monthly sales data](./images/accumulation.png)
 
 ## Troubleshooting
 

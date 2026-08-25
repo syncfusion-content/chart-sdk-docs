@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data labels in TypeScript Chart | Syncfusion
-description: Learn here all about Data labels in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Data labels in TypeScript Charts | Syncfusion
+description: Learn here all about Data labels in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data labels in TypeScript Chart
+# Data labels in TypeScript Charts
 
 Data labels display the values of data points directly on the chart, reducing the need to reference axes for exact values. Enable data labels by setting the [`visible`](../api/chart/dataLabelSettingsModel#visible-boolean) option to `true` in the `dataLabel` configuration. Labels automatically adjust to avoid overlapping and maintain readability.
 

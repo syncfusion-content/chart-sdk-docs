@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Sparkline types in TypeScript Sparkline | Syncfusion
-description: Learn here all about Sparkline types in Syncfusion TypeScript Sparkline of Syncfusion Essential JS 2 and more.
+title: Sparkline types in TypeScript Sparkline Charts | Syncfusion
+description: Learn here all about Sparkline types in Syncfusion TypeScript Sparkline Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Sparkline types 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Sparkline types in TypeScript Sparkline
+# Sparkline types in TypeScript Sparkline Charts
 
 Different types of shapes can be used to represent the sparkline. You can change the sparkline type by setting the type property. Sparkline supports the following types:
 
