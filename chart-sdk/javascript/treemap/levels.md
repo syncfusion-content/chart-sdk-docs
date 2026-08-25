@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Levels in JavaScript Treemap control | Syncfusion
-description: Learn here all about Levels in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Levels in JavaScript TreeMap | Syncfusion
+description: Learn how to configure levels in Syncfusion JavaScript TreeMap to organize hierarchical data and enhance data visualization.
 platform: chart-sdk
-control: Levels 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Levels in JavaScript Treemap control
+# Levels in JavaScript TreeMap
 
 TreeMap supports **n** number of levels and each level is separated by using the `groupPath` property.
 

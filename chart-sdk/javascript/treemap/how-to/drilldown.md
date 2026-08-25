@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Drilldown in JavaScript Treemap control | Syncfusion
-description: Learn here all about Drilldown in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Drilldown in JavaScript TreeMap | Syncfusion
+description: Learn here all about Drilldown in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Drilldown 
-publishingplatform: chart-sdk
+control: TreeMap 
+
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Drilldown in JavaScript Treemap control
+# Drilldown in JavaScript TreeMap
 
 ## Customize the header for treemap drilldown
 

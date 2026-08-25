@@ -1,15 +1,14 @@
 ---
 layout: post
-title: ES5 getting started with JavaScript Sparkline control | Syncfusion
-description: Check out and learn about ES5 getting started with JavaScript Sparkline control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with JavaScript ES5 Sparkline | Syncfusion
+description: Check out and learn about ES5 getting started with JavaScript Sparkline Charts of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Sparkline
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with Syncfusion® JavaScript (ES5) Sparkline Control
+# Getting Started with JavaScript ES5 Sparkline
 
 Build your first Syncfusion JavaScript (ES5) application with a simple Sparkline in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 Sparkline control from the CDN, initializes it with sample data, and renders an interactive Sparkline.
 
