@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Accessibility in Vue Charts | Syncfusion
-description: Learn here all about Accessibility in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to implement accessibility features in Syncfusion Vue Charts, including keyboard navigation, screen reader support, and ARIA attributes.
 control: Accessibility 
 platform: chart-sdk
 documentation: ug

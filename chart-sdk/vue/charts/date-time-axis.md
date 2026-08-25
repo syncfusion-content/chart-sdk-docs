@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DateTime Axis in Vue Charts | Syncfusion
-description: Learn here all about Date time axis in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to use the datetime axis in Syncfusion Vue Charts to display time-based data with customized intervals, labels, and formatting.
 control: Date time axis 
 platform: chart-sdk
 documentation: ug

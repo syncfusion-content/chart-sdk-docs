@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multiple Panes in Vue Charts | Syncfusion
-description: Learn here all about Multiple panes in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to use multiple panes in Syncfusion Vue Charts to display, compare, and analyze different data series within a single chart.
 control: Multiple panes 
 platform: chart-sdk
 documentation: ug

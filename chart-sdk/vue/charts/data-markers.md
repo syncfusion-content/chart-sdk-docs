@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markers in Vue Charts | Syncfusion
-description: Learn here all about Data markers in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize data markers in Syncfusion Vue Charts to highlight data points and improve chart visualization.
 control: Data markers 
 platform: chart-sdk
 documentation: ug

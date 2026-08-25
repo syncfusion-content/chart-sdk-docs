@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Title and Subtitle in Vue Charts | Syncfusion
-description: Learn here all about Chart title in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to customize chart titles and subtitles in Syncfusion Vue Charts to improve presentation, context, and overall chart readability.
 control: Chart title
 platform: chart-sdk
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multiple Series in Vue Charts | Syncfusion
-description: Learn here all about Chart series in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize chart series in Syncfusion Vue Charts to visualize data effectively using various chart types.
 control: Chart series 
 platform: chart-sdk
 documentation: ug

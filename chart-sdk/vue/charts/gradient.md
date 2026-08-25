@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gradient in Vue Charts | Syncfusion
-description: Learn here all about Gradient in Syncfusion Vue Chart of Syncfusion Essential JS 2 and more.
+description: Learn how to apply and customize gradient colors in Syncfusion Vue Charts to create visually appealing charts and enhance data presentation.
 control: Gradient
 platform: chart-sdk
 documentation: ug

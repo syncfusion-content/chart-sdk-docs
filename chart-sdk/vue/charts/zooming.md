@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zooming in Vue Charts | Syncfusion
-description: Learn here all about Zooming in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to enable and customize zooming in Syncfusion Vue Charts to explore large datasets, focus on details, and improve data analysis.
 control: Zooming 
 platform: chart-sdk
 documentation: ug

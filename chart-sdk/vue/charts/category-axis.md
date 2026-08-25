@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Category axis in Vue Charts | Syncfusion
-description: Learn here all about Category axis in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to use the category axis in Syncfusion Vue Charts to display categorical data with customized labels, ranges, and formatting options.
 control: Category axis 
 platform: chart-sdk
 documentation: ug

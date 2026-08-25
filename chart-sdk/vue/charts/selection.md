@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Selection in Vue Charts | Syncfusion
-description: Learn here all about Selection in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to enable and customize selection in Syncfusion Vue Charts to highlight data points, series, and chart elements interactively.
 control: Selection 
 platform: chart-sdk
 documentation: ug

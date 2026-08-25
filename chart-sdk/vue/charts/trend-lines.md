@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trendlines in Vue Charts | Syncfusion
-description: Learn here all about Trend lines in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to add and customize trend lines in Syncfusion Vue Charts to analyze data patterns, identify trends, and improve visualization.
 control: Trend lines 
 platform: chart-sdk
 documentation: ug

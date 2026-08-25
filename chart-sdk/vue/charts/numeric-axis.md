@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Numeric Axis in Vue Charts | Syncfusion
-description: Learn here all about Numeric axis in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to use the numeric axis in Syncfusion Vue Charts to display numerical data with customized ranges, intervals, labels, and formatting.
 control: Numeric axis 
 platform: chart-sdk
 documentation: ug
@@ -201,7 +201,7 @@ The following table shows examples of commonly used numeric label formats and th
 </tr>
 </table>
 
-## GroupingSeperator
+## GroupingSeparator
 
 To separate groups of thousands in numeric labels, enable the [`useGroupingSeparator`](https://ej2.syncfusion.com/vue/documentation/api/chart/chartModel#usegroupingseparator) property in the chart.
 

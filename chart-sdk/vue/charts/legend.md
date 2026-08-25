@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legend in Vue Charts | Syncfusion
-description: Learn here all about Legend in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize legends in Syncfusion Vue Charts to improve data interpretation, visibility, and user interaction.
 control: Legend 
 platform: chart-sdk
 documentation: ug

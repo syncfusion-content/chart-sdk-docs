@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data editing in Vue Charts | Syncfusion
-description: Learn here all about Data editing in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to edit chart data interactively in Syncfusion Vue Charts, enabling dynamic updates and seamless data visualization.
 control: Data editing 
 platform: chart-sdk
 documentation: ug

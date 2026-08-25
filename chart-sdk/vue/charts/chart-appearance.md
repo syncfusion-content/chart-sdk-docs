@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-#Appearance in Vue Charts
+# Appearance in Vue Charts
 
 ## Custom color palette
 

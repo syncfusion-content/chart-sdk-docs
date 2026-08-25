@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stripline in Vue Charts | Syncfusion
-description: Learn here all about Strip line in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to add and customize strip lines in Syncfusion Vue Charts to highlight specific ranges, thresholds, and key data points.
 control: Strip line 
 platform: chart-sdk
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Feature Modules in Vue Charts | Syncfusion
-description: Learn here all about Module in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and use feature modules in Syncfusion Vue Charts to enable chart functionality and optimize application performance.
 control: Module 
 platform: chart-sdk
 documentation: ug

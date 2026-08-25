@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Localization in Vue Charts | Syncfusion
-description: Learn here all about Localization in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to localize Syncfusion Vue Charts by customizing language settings, culture-specific formats, and regional data presentation.
 control: Localization 
 platform: chart-sdk
 documentation: ug

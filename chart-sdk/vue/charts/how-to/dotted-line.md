@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to add a dotted line in Vue Charts | Syncfusion
-description: Learn here all about Dotted line in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to create and customize dotted lines in Syncfusion Vue Charts using dash patterns to highlight trends and improve visualization.
 control: Dotted line
 platform: chart-sdk
 documentation: ug

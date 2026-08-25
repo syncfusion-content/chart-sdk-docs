@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tooltip in Vue Charts | Syncfusion
-description: Learn here all about Tooltip in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+description: Learn how to configure and customize tooltips in Syncfusion Vue Charts to display detailed data insights and enhance user interaction.
 control: Tooltip 
 platform: chart-sdk
 documentation: ug
