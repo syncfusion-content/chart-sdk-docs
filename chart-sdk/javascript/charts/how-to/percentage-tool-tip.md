@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to show pie percentage in tooltip in JavaScript Charts | Syncfusion
+title: Show pie percentage in tooltip in JavaScript Charts | Syncfusion
 description: Learn here all about Percentage tool tip in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
