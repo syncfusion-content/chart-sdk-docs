@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Markers in JavaScript Maps component | Syncfusion
-description: Learn here all about Markers in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Markers in JavaScript Maps | Syncfusion
+description: Place visual marker symbols on a JavaScript Maps to pinpoint specific locations, points of interest, or important geographic positions.
 platform: chart-sdk
 control: Markers 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Markers in JavaScript Maps component
+# Markers in JavaScript Maps
 
 Markers are visual indicators used to pinpoint specific locations on the Maps. They can display desired symbols to highlight points of interest or important geographic positions. Markers can be enabled by setting the [`visible`](../api/maps/markerSettingsModel#visible) property of the [`markerSettings`](../api/maps/markerSettingsModel) to **true**.
 
