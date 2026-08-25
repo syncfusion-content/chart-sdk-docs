@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Drilldown in TypeScript Maps component | Syncfusion
-description: Learn here all about Drilldown in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Drilldown in TypeScript Maps | Syncfusion
+description: Learn here all about the Drilldown in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Drilldown 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Drilldown in TypeScript Maps component
+# Drilldown in TypeScript Maps
 
 By clicking a continent, all the countries available in that continent can be viewed using the drill-down feature. For example, the countries in the `Africa` continent have been showcased here. To showcase all the countries in `Africa` continent by clicking the [`shapeSelected`](../../api/mapsModel#shapeselected) event as mentioned in the following example.
 

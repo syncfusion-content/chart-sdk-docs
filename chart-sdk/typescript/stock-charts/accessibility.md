@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Accessibility in TypeScript Stock chart control | Syncfusion
-description: Learn here all about Accessibility in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Accessibility in TypeScript Stock Chart | Syncfusion
+description: Learn here all about Accessibility in Syncfusion TypeScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Accessibility 
-publishingplatform: chart-sdk
+control: Stock Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in TypeScript Stock chart control
+# Accessibility in TypeScript Stock Chart
 
 The Stock chart control followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

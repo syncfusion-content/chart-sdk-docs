@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Selection in TypeScript Chart control | Syncfusion
-description: Learn here all about Selection in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Selection in TypeScript Charts | Syncfusion
+description: Learn here all about Selection in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Selection 
-publishingplatform: chart-sdk
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Selection in TypeScript Chart control
+# Selection in TypeScript Charts
 
 The chart provides selection support for both series and individual data points when users interact with the chart using mouse clicks.
 

@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Title in TypeScript Bullet chart control | Syncfusion
-description: Learn here all about Title in Syncfusion TypeScript Bullet chart control of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in TypeScript Bullet Chart | Syncfusion
+description: Learn how to add a title and subtitle to the Syncfusion TypeScript Bullet Chart and customize their text styles.
 platform: chart-sdk
-control: Title 
-publishingplatform: chart-sdk
+control: Bullet Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Title in TypeScript Bullet chart control
+# Title in TypeScript Bullet Chart
 
 ## Title
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Ej1 api migration in TypeScript Chart control | Syncfusion
-description: Learn here all about Ej1 api migration in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Migration from Essential JS 1 in TypeScript Charts | Syncfusion
+description: Learn here all about Ej1 api migration in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Ej1 api migration 
-publishingplatform: chart-sdk
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Ej1 api migration in TypeScript Chart control
+# Migration from Essential JS 1 in TypeScript Charts
 
 This article describes the API migration process of the Chart component from Essential JS 1 to Essential JS 2.
 

@@ -3,8 +3,7 @@ layout: post
 title: Layout in TypeScript Treemap control | Syncfusion
 description: Learn here all about Layout in Syncfusion TypeScript Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Layout 
-publishingplatform: chart-sdk
+control: TreeMap 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

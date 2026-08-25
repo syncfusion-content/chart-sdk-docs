@@ -4,7 +4,6 @@ title: Animation in TypeScript Circular Gauge control | Syncfusion
 description: Learn here all about animation in the Syncfusion TypeScript Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Circular Gauge
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
