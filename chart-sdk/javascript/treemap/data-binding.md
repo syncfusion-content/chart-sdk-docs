@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data binding in JavaScript Treemap control | Syncfusion
-description: Learn here all about Data binding in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Data binding in JavaScript TreeMap | Syncfusion
+description: Learn here all about Data binding in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data binding 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data binding in JavaScript Treemap control
+# Data binding in JavaScript TreeMap
 
 The TreeMap control supports data binding using the dataSource property.
 

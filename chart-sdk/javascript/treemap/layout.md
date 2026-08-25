@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Layout in JavaScript Treemap control | Syncfusion
-description: Learn here all about Layout in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Layout in JavaScript TreeMap | Syncfusion
+description: Learn here all about Layout in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Layout 
-publishingplatform: chart-sdk
+control: TreeMap 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Layout in JavaScript Treemap control
+# Layout in JavaScript TreeMap
 
 Determine the visual representation of nodes belonging to all the TreeMap levels using the `layoutType` property.
 
