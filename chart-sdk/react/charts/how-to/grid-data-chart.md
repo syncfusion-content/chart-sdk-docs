@@ -39,7 +39,7 @@ function dataBound(args) {
 }
 ```
 
-The included `datasource.jsx` and `datasource.tsx` files define the Grid's `dataSource` (an array of `OrderDate`, `ShippedDate`, and `Freight` fields). The chart series reads `OrderDate` as its `xName` and `Freight` as its `yName`.
+The included `datasource` files define the Grid's `dataSource` (an array of `OrderDate`, `ShippedDate`, and `Freight` fields). The chart series reads `OrderDate` as its `xName` and `Freight` as its `yName`.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

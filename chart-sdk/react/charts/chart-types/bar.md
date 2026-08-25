@@ -125,7 +125,7 @@ The [opacity](https://ej2.syncfusion.com/react/documentation/api/chart/seriesMod
 
 **Border**
 
-Use the [border](https://ej2.syncfusion.com/react/documentation/api/chart/seriesModel#border) property to customize the width, color and dasharray of the series border.
+Use the [border](https://ej2.syncfusion.com/react/documentation/api/chart/seriesModel#border) property to customize the `width`, `color` and `dashArray` of the series border.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

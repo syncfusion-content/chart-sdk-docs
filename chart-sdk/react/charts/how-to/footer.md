@@ -20,7 +20,7 @@ The `content` option of `AnnotationDirective` is a JSX function reference, not t
 const content = chartTemplate;
 function chartTemplate() {
     return (<div className='template'>
-        <a href="https://www.syncfusion.com" target="_blank">www.syncfusion.com</a>
+        <a href="https://www.syncfusion.com" target="_blank" aria-label="Visit the Syncfusion website">www.syncfusion.com</a>
     </div>);
 }
 ```

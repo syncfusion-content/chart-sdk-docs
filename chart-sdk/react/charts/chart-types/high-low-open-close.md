@@ -1,7 +1,7 @@
 ---
 layout: post
 title: High Low Open Close Chart in React Charts | Syncfusion
-description: Learn to render, customize, and bind Hilo Open Close series in Syncfusion React Charts to visualize stock price movements with high, low, open, and close values.
+description: Learn to render, customize, and bind Hilo Open Close series in Syncfusion React Charts to visualize stock price movement with high, low, open, and close values.
 control: High Low Open Close
 platform: chart-sdk
 documentation: ug
@@ -67,7 +67,7 @@ Each data record must contain a category field plus the four price fields. Map t
 
 In the Hilo Open Close series, the [`bullFillColor`](https://ej2.syncfusion.com/react/documentation/api/chart/series#bullfillcolor) property is used to fill the segment when the open value is greater than the close value, while the [`bearFillColor`](https://ej2.syncfusion.com/react/documentation/api/chart/series#bearfillcolor) property is used to fill the segment when the open value is less than the close value. These properties accept any valid CSS color string and can be set directly on the `SeriesDirective`, for example:
 
-```tsx
+```
 <SeriesDirective bearFillColor="#e56590" bullFillColor="#f8b883" />
 ```
 

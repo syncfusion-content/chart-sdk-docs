@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Waterfall Chart
 
-Follow these steps to render a [waterfall](https://www.syncfusion.com/react-components/react-charts/chart-types/waterfall-chart) series, which visualizes the cumulative effect of sequentially introduced positive and negative values. Each bar connects to the next, making intermediate and running totals easy to follow.
+Follow these steps to render a waterfall series, which visualizes the cumulative effect of sequentially introduced positive and negative values. Each bar connects to the next, making intermediate and running totals easy to follow.
 
 1. **Set the series type**: Set the series [`type`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesmodel#type) to `Waterfall` in the series configuration.
 
