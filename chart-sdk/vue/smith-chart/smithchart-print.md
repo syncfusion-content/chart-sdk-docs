@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Print
 
-The rendered smithchart can be printed directly from the browser by calling the public method print. ID of the smithchart's div element must be passed as argument to that method.
+The rendered Smithchart can be printed directly from the browser by calling the public method print. ID of the Smithchart's div element must be passed as argument to that method.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -97,7 +97,7 @@ export default {
 
 ## Export
 
-The rendered smithchart can be exported to JPEG , PNG, SVG or PDF format by using export method in smithchart. Input parameters for this method are Export Type for format and fileName of result.
+The rendered Smithchart can be exported to JPEG , PNG, SVG or PDF format by using export method in Smithchart. Input parameters for this method are Export Type for format and fileName of result.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

@@ -10,11 +10,11 @@ domainurl: ##DomainURL##
 
 # Smith Chart Dimensions in Vue Smith Chart
 
-You can render the smithchart either corresponding to its container size or you can set the size of the  smithchart as per your requirement. To render the smithchart corresponding to its container size, you need to set the size for the smithchart container. Else to set the size for the smithchart as per your requirement, you can use the width and height properties in the smithchart.
+You can render the Smithchart either corresponding to its container size or you can set the size of the  Smithchart as per your requirement. To render the Smithchart corresponding to its container size, you need to set the size for the Smithchart container. Else to set the size for the Smithchart as per your requirement, you can use the width and height properties in the Smithchart.
 
 ## Size for Container
 
-You can render smithchart to it's container size. To achieve this, you need to specify the width and height of the smithchart's container via inline or CSS as demonstrated below.
+You can render Smithchart to it's container size. To achieve this, you need to specify the width and height of the Smithchart's container via inline or CSS as demonstrated below.
 
 ```javascript
     <div id='container'>
@@ -33,15 +33,15 @@ You can render smithchart to it's container size. To achieve this, you need to s
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/smithchart/getting-started-cs10" %}
 
-## Size for Smithchart
+## Size for Smith Chart
 
 <!-- markdownlint-disable MD036 -->
 
-You can also set size for smithchart directly through [`width`] and [`height`] properties. Using this properties, you can directly mention the width and height of the smithchart in pixels or you can set the width and height in percentage.
+You can also set size for Smithchart directly through [`width`] and [`height`] properties. Using this properties, you can directly mention the width and height of the Smithchart in pixels or you can set the width and height in percentage.
 
 **In Pixel**
 
-In smithchart's width and height property, you can directly give values in pixels like below demonstration. This will render smithchart in same size as you mentioned in you code.
+In Smithchart's width and height property, you can directly give values in pixels like below demonstration. This will render Smithchart in same size as you mentioned in you code.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -56,7 +56,7 @@ In smithchart's width and height property, you can directly give values in pixel
 
 **In percentage**
 
-You can also specify the width and height of the smithchart in percentage. If you mention the width and height in percentage, then smithchart will be render as per the percentage of it's container size. You can set the values in percentage like below demonstration.
+You can also specify the width and height of the Smithchart in percentage. If you mention the width and height in percentage, then Smithchart will be render as per the percentage of it's container size. You can set the values in percentage like below demonstration.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

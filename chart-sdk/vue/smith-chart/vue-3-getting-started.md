@@ -123,7 +123,7 @@ export default {
 {% endhighlight %}
 {% endtabs %}
 
-> **Note:** The module injection key must be `smithchart`. Register only the modules required by the features used in the application.
+> **Note:** The module injection key must be `Smithchart`. Register only the modules required by the features used in the application.
 
 **Step 2:** Declare the Data and Configuration
 

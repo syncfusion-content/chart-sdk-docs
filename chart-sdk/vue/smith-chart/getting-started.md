@@ -218,7 +218,7 @@ Replace the contents of **src/App.vue** with the following complete example:
 - **The Smith Chart is not rendered.** Verify that `SmithchartComponent` is imported and registered, the component has valid width and height values, and the browser console contains no component, data, or licensing errors.
 - **The series is not displayed.** Verify that `SeriesCollectionDirective` and `SeriesDirective` are imported and registered and that the series is declared inside `e-series-collection`.
 - **No data is displayed.** Verify that `dataSource` contains records, the `resistance` and `reactance` properties match fields in every data object, and both mapped fields contain numeric values.
-- **The tooltip is not displayed.** Set `tooltip.visible` to `true`, bind the tooltip object to the series, and register `TooltipRender` with the exact `smithchart` key.
+- **The tooltip is not displayed.** Set `tooltip.visible` to `true`, bind the tooltip object to the series, and register `TooltipRender` with the exact `Smithchart` key.
 - **A package or Vue version error occurs.** Confirm that the installed `@syncfusion/ej2-vue-charts` release supports Vue 2 and that all Syncfusion packages use compatible versions.
 
 For additional assistance, refer to the [Vue Smith Chart API documentation](https://ej2.syncfusion.com/vue/documentation/api/smithchart).

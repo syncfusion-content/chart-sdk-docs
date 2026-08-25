@@ -12,11 +12,11 @@ domainurl: ##DomainURL##
 
 # Marker and Data labels in Vue Smith Chart
 
-Markers and Data labels are used to provide information about the data points in the series. You can add a shape to adorn each data point. By default marker and datalabel both are disabled in smithchart. You can enable both of them by setting visible property as true in marker and datalabel settings
+Markers and Data labels are used to provide information about the data points in the series. You can add a shape to adorn each data point. By default marker and datalabel both are disabled in Smithchart. You can enable both of them by setting visible property as true in marker and datalabel settings
 
 ## Marker
 
-Default visibility of marker is false. You can enable the marker by setting property visible as true in marker settings. This will add marker for each point in the series. Using marker setting, you can customize marker differently for each series in smithchart.
+Default visibility of marker is false. You can enable the marker by setting property visible as true in marker settings. This will add marker for each point in the series. Using marker setting, you can customize marker differently for each series in Smithchart.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -31,7 +31,7 @@ Default visibility of marker is false. You can enable the marker by setting prop
 
 **Marker Customization**
 
-Using marker settings in series, you can customize the marker for each series differently. Using marker  settings, you can customize following properties differently for each series in the smithchart.
+Using marker settings in series, you can customize the marker for each series differently. Using marker  settings, you can customize following properties differently for each series in the Smithchart.
 
 * [`width`] - To control the width of the marker.
 * [`height`] - To control the height of the marker.
