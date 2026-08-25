@@ -2373,7 +2373,7 @@ and funnel charts.
 
 ### See Also
 
-* [Show or hide tooltip dynamically in Cartesian chart](https://support.syncfusion.com/kb/article/9957/how-to-show-or-hide-the-tooltip-dynamically-in-flutter-cartesian-charts-sfcartesianchart).
+* [Show or hide tooltip dynamically in Cartesian chart](https://support.syncfusion.com/kb/article/9957/how-to-show-or-hide-the-tooltip-dynamically-in-flutter-cartesian-charts-sfcartesianchart-).
 * [Show or hide trackball dynamically in Cartesian chart](https://support.syncfusion.com/kb/article/9960/how-to-show-or-hide-trackball-dynamically-in-flutter-cartesian-charts-sfcartesianchart).
 * [Show or hide crosshair dynamically in Cartesian chart](https://support.syncfusion.com/kb/article/9911/how-to-show-or-hide-crosshair-dynamically-in-flutter-cartesian-charts-sfcartesianchart).
 
