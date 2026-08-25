@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Title in TypeScript Chart control | Syncfusion
+title: Title and subtitle in TypeScript Chart | Syncfusion
 description: Learn here all about Title in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Title 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart title and subtitle in TypeScript Chart component
+# Title and subtitle in TypeScript Chart component
 
 Chart titles and subtitles help provide context for the visualized data. The title typically indicates the main subject or metric represented in the chart, while the subtitle adds supporting details such as data sources, time ranges, or explanatory notes. Both elements can be customized in terms of position, alignment, and style to align with application design requirements.
 

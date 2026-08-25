@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Error Bar Chart in TypeScript Charts | Syncfusion
+title: Error Bar Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Error Bar in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Error Bar 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Error Bar Chart in TypeScript Charts
+# Error Bar Chart in TypeScript Chart
 
 ## Error Bar
 

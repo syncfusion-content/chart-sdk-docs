@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Smith chart legend in TypeScript Smithchart control | Syncfusion
+title: Legend in TypeScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart legend in Syncfusion TypeScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smith chart legend 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 <!-- markdownlint-disable MD036 -->
 
-# Smith chart legend in TypeScript Smithchart control
+# Legend in TypeScript Smith Chart
 
 Legend is a key used in smithchart, that contains symbol and descriptions. It provides valuable information for interpreting what the smithchart is displaying and can be represented in various colors, shapes or other identifiers based on the data. In simple words, we can define that legend is used to denote the series rendered in the smithchart.
 

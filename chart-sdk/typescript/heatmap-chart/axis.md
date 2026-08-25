@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis in TypeScript HeatMap chart control | Syncfusion
-description: Learn here all about axis in Syncfusion TypeScript HeatMap chart control of Syncfusion Essential JS 2 and more.
+title: Axis in TypeScript HeatMap Chart | Syncfusion
+description: Configure X and Y axes in the JavaScript HeatMap Chart with category, numeric, or date-time types, plus inversed, opposed, multilevel, and formatted labels.
 platform: chart-sdk
 control: Axis 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis in TypeScript HeatMap chart control
+# Axis in TypeScript HeatMap Chart
 
 HeatMap consists of two axes namely, X-axis and Y-axis that displays the row headers and column headers to plot the data points respectively.
 You can define the type, format, and other customizing options for both axes in the HeatMap.

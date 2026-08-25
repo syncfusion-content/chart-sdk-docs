@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data label template in TypeScript Chart control | Syncfusion
+title: How to use data label template in TypeScript Chart | Syncfusion
 description: Learn here all about Data label template in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data label template 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data label template in TypeScript Chart control
+# How to use data label template in TypeScript Chart
 
 You can bind text and interior information for a point from dataSource other than x and y value. To change color for the background in the datalabel template, you can use `${point.text}`.
 

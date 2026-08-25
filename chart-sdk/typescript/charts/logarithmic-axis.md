@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Logarithmic axis in TypeScript Chart control | Syncfusion
+title: Logarithmic axis in TypeScript Chart | Syncfusion
 description: Learn here all about Logarithmic axis in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Logarithmic axis 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Logarithmic axis in TypeScript Chart control
+# Logarithmic axis in TypeScript Chart
 
 <!-- markdownlint-disable MD033 -->
 

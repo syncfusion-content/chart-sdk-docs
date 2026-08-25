@@ -1,21 +1,20 @@
 ---
 layout: post
-title: Axis in TypeScript Linear gauge control | Syncfusion
-description: Learn here all about Axis in Syncfusion TypeScript Linear gauge control of Syncfusion Essential JS 2 and more.
+title: Axes in TypeScript Linear Gauge | Syncfusion
+description: Configure axes, ticks, labels, and orientation in the TypeScript Linear Gauge for clear numeric scale rendering.
 platform: chart-sdk
-control: Axis 
-publishingplatform: chart-sdk
+control: Linear Gauge 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis in TypeScript Linear gauge control
+# Axis in TypeScript Linear Gauge
 
 Axis is used to indicate the numeric values in the linear scale. The Linear Gauge component can have any number of axes. The sub-elements of an axis are line, ticks, labels, ranges, and pointers.
 
 ## Setting the start value and end value of the axis
 
-The start value and end value for the Linear Gauge can be set using the [`minimum`](../api/linear-gauge/axisModel/#minimum) and [`maximum`](../api/linear-gauge/axisModel/#maximum) properties in the [`axes`](../api/linear-gauge/axisModel/) respectively. By default, the start value of the axis is **0** and the end value of the axis is **100**.
+The start value and end value for the Linear Gauge can be set using the [`minimum`](../api/linear-gauge/axisModel#minimum) and [`maximum`](../api/linear-gauge/axisModel#maximum) properties in the [`axes`](../api/linear-gauge/axisModel) respectively. By default, the start value of the axis is **0** and the end value of the axis is **100**.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -32,10 +31,10 @@ The start value and end value for the Linear Gauge can be set using the [`minimu
 
 The following properties in the [`line`](../api/linear-gauge/lineModel) can be used to customize the axis line in the Linear Gauge.
 
-* [`height`](../api/linear-gauge/lineModel/#height) - To set the length of the axis line.
-* [`width`](../api/linear-gauge/lineModel/#width) - To set the thickness of the axis line.
-* [`color`](../api/linear-gauge/lineModel/#color) - To set the color of the axis line.
-* [`offset`](../api/linear-gauge/lineModel/#offset) - To render the axis line with the specified distance from the Linear Gauge.
+* [`height`](../api/linear-gauge/lineModel#height) - To set the length of the axis line.
+* [`width`](../api/linear-gauge/lineModel#width) - To set the thickness of the axis line.
+* [`color`](../api/linear-gauge/lineModel#color) - To set the color of the axis line.
+* [`offset`](../api/linear-gauge/lineModel#offset) - To render the axis line with the specified distance from the Linear Gauge.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -50,12 +49,12 @@ The following properties in the [`line`](../api/linear-gauge/lineModel) can be u
 
 ## Ticks Customization
 
-Ticks are used to specify the interval in the axis. Ticks are of two types, major ticks and minor ticks. The following properties in the [`majorTicks`](../api/linear-gauge/axisModel/#majorticks) and [`minorTicks`](../api/linear-gauge/axisModel/#minorticks) can be used to customize the major ticks and minor ticks respectively
+Ticks are used to specify the interval in the axis. Ticks are of two types, major ticks and minor ticks. The following properties in the [`majorTicks`](../api/linear-gauge/axisModel#majorticks) and [`minorTicks`](../api/linear-gauge/axisModel#minorticks) can be used to customize the major ticks and minor ticks respectively
 
-* [`height`](../api/linear-gauge/tickModel/#height) - To set the length of the major and minor ticks in pixel values.
-* [`color`](../api/linear-gauge/tickModel/#color) - To set the color of the major and minor ticks of the Linear Gauge.
-* [`width`](../api/linear-gauge/tickModel/#width) - To set the thickness of the major and minor ticks in pixel values.
-* [`interval`](../api/linear-gauge/tickModel/#interval) - To set the interval for the major ticks and minor ticks in the Linear Gauge.
+* [`height`](../api/linear-gauge/tickModel#height) - To set the length of the major and minor ticks in pixel values.
+* [`color`](../api/linear-gauge/tickModel#color) - To set the color of the major and minor ticks of the Linear Gauge.
+* [`width`](../api/linear-gauge/tickModel#width) - To set the thickness of the major and minor ticks in pixel values.
+* [`interval`](../api/linear-gauge/tickModel#interval) - To set the interval for the major ticks and minor ticks in the Linear Gauge.
 
 
  {% tabs %}
@@ -71,7 +70,7 @@ Ticks are used to specify the interval in the axis. Ticks are of two types, majo
 
 ### Positioning the ticks
 
-The minor and major ticks can be positioned by using [`offset`](../api/linear-gauge/tickModel/#offset) and [`position`](../api/linear-gauge/tickModel/#position) properties. The [`offset`](../api/linear-gauge/tickModel/#offset) is used to render the ticks with the specified distance from the axis. By default, the offset value is **0**. The possible values of the [`position`](../api/linear-gauge/tickModel/#position) property are **Inside**, **Outside**, **Cross**, and **Auto**. By default, the ticks will be placed inside the axis.
+The minor and major ticks can be positioned by using [`offset`](../api/linear-gauge/tickModel#offset) and [`position`](../api/linear-gauge/tickModel#position) properties. The [`offset`](../api/linear-gauge/tickModel#offset) is used to render the ticks with the specified distance from the axis. By default, the offset value is **0**. The possible values of the [`position`](../api/linear-gauge/tickModel#position) property are **Inside**, **Outside**, **Cross**, and **Auto**. By default, the ticks will be placed inside the axis.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -86,14 +85,14 @@ The minor and major ticks can be positioned by using [`offset`](../api/linear-ga
 
 ## Labels Customization
 
-The style of the labels can be customized using the following properties in the [`font`](../api/linear-gauge/labelModel/#font) property in [`labelStyle`](../api/linear-gauge/labelModel).
+The style of the labels can be customized using the following properties in the [`font`](../api/linear-gauge/labelModel#font) property in [`labelStyle`](../api/linear-gauge/labelModel).
 
-* [`color`](../api/linear-gauge/font/#color) - To set the color of the axis label.
-* [`fontFamily`](../api/linear-gauge/fontModel/#fontfamily) - To set the font family of the axis label.
-* [`fontStyle`](../api/linear-gauge/fontModel/#fontstyle) - To set the font style of the axis label.
-* [`fontWeight`](../api/linear-gauge/fontModel/#fontweight) - To set the font weight of the axis label.
-* [`opacity`](../api/linear-gauge/fontModel/#opacity) - To set the opacity of the axis label.
-* [`size`](../api/linear-gauge/fontModel/#size) - To set the size of the axis label.
+* [`color`](../api/linear-gauge/font#color) - To set the color of the axis label.
+* [`fontFamily`](../api/linear-gauge/fontModel#fontfamily) - To set the font family of the axis label.
+* [`fontStyle`](../api/linear-gauge/fontModel#fontstyle) - To set the font style of the axis label.
+* [`fontWeight`](../api/linear-gauge/fontModel#fontweight) - To set the font weight of the axis label.
+* [`opacity`](../api/linear-gauge/fontModel#opacity) - To set the opacity of the axis label.
+* [`size`](../api/linear-gauge/fontModel#size) - To set the size of the axis label.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -108,7 +107,7 @@ The style of the labels can be customized using the following properties in the 
 
 ### Positioning the axis label
 
-Labels can be positioned by using [`offset`](../api/linear-gauge/labelModel/#offset) and [`position`](../api/linear-gauge/labelModel/#position) properties in the [`labelStyle`](../api/linear-gauge/labelModel). The [`offset`](../api/linear-gauge/labelModel/#offset) defines the distance between the labels and ticks. By default, the offset value is **0**. The possible values of the [`position`](../api/linear-gauge/labelModel/#position) property are **Inside**, **Outside**, **Cross**, and **Auto**. By default, labels will be placed inside the axis.
+Labels can be positioned by using [`offset`](../api/linear-gauge/labelModel#offset) and [`position`](../api/linear-gauge/labelModel#position) properties in the [`labelStyle`](../api/linear-gauge/labelModel). The [`offset`](../api/linear-gauge/labelModel#offset) defines the distance between the labels and ticks. By default, the offset value is **0**. The possible values of the [`position`](../api/linear-gauge/labelModel#position) property are **Inside**, **Outside**, **Cross**, and **Auto**. By default, labels will be placed inside the axis.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -123,7 +122,7 @@ Labels can be positioned by using [`offset`](../api/linear-gauge/labelModel/#off
 
 ### Customizing the display of the last label
 
-If the last label is not in the visible range, it will be hidden by default. The last label can be made visible by setting the [`showLastLabel`](../api/linear-gauge/axis/#showlastlabel) property as **true** in the [`axes`](../api/linear-gauge/axisModel/).
+If the last label is not in the visible range, it will be hidden by default. The last label can be made visible by setting the [`showLastLabel`](../api/linear-gauge/axis#showlastlabel) property as **true** in the [`axes`](../api/linear-gauge/axisModel).
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -138,7 +137,7 @@ If the last label is not in the visible range, it will be hidden by default. The
 
 ### Label Format
 
-Axis labels in the Linear Gauge control can be formatted using the [`format`](../api/linear-gauge/labelModel/#format) property in the [`labelStyle`](../api/linear-gauge/axis/#labelstyle). It is used to render the axis labels in a certain format or to add a user-defined unit in the label. It works with the help of placeholder like **{value}°C**, where **value** represents the axis value. For example, 20°C.
+Axis labels in the Linear Gauge control can be formatted using the [`format`](../api/linear-gauge/labelModel#format) property in the [`labelStyle`](../api/linear-gauge/axis#labelstyle). It is used to render the axis labels in a certain format or to add a user-defined unit in the label. It works with the help of placeholder like **{value}°C**, where **value** represents the axis value. For example, 20°C.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -153,7 +152,7 @@ Axis labels in the Linear Gauge control can be formatted using the [`format`](..
 
 ### Displaying numeric format in labels
 
-The numeric formats such as currency, percentage, and so on can be displayed in the labels of the Linear Gauge using the [`format`](../api/linear-gauge/linearGaugeModel/#format) property in the Linear Gauge component. The following table describes the result of applying some commonly used label formats on numeric values.
+The numeric formats such as currency, percentage, and so on can be displayed in the labels of the Linear Gauge using the [`format`](../api/linear-gauge/linearGaugeModel#format) property in the Linear Gauge component. The following table describes the result of applying some commonly used label formats on numeric values.
 
 <table>
 <tr>
@@ -225,7 +224,7 @@ The numeric formats such as currency, percentage, and so on can be displayed in 
 
 ## Orientation
 
-By default, the Linear Gauge is rendered vertically. To change its orientation, the [`orientation`](../api/linear-gauge/linearGaugeModel/#orientation) property must be set to **Horizontal**.
+By default, the Linear Gauge is rendered vertically. To change its orientation, the [`orientation`](../api/linear-gauge/linearGaugeModel#orientation) property must be set to **Horizontal**.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -240,7 +239,7 @@ By default, the Linear Gauge is rendered vertically. To change its orientation, 
 
 ## Inverted Axis
 
-The axis of the Linear Gauge component can be inversed by setting the [`isInversed`](../api/linear-gauge/axis/#isinversed) property to **true** in the [`axes`](../api/linear-gauge/axisModel/).
+The axis of the Linear Gauge component can be inversed by setting the [`isInversed`](../api/linear-gauge/axis#isinversed) property to **true** in the [`axes`](../api/linear-gauge/axisModel).
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -255,7 +254,7 @@ The axis of the Linear Gauge component can be inversed by setting the [`isInvers
 
 ## Opposed Axis
 
-To place an axis opposite from its original position, [`opposedPosition`](../api/linear-gauge/axis/#opposedposition) property in the [`axes`](../api/linear-gauge/axisModel/) must be set as **true**.
+To place an axis opposite from its original position, [`opposedPosition`](../api/linear-gauge/axis#opposedposition) property in the [`axes`](../api/linear-gauge/axisModel) must be set as **true**.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -270,7 +269,7 @@ To place an axis opposite from its original position, [`opposedPosition`](../api
 
 ## Multiple Axes
 
-Multiple axes can be added to the Linear Gauge by adding multiple [`axis`](../api/linear-gauge/axisModel/) object in the [`axes`](../api/linear-gauge/linearGaugeModel/#axes) and customization can be done with the [`axis`](../api/linear-gauge/axisModel/). Each axis can be customized separately as shown in the following example.
+Multiple axes can be added to the Linear Gauge by adding multiple [`axis`](../api/linear-gauge/axisModel) object in the [`axes`](../api/linear-gauge/linearGaugeModel#axes) and customization can be done with the [`axis`](../api/linear-gauge/axisModel). Each axis can be customized separately as shown in the following example.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

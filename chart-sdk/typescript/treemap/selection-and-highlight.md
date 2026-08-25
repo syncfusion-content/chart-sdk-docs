@@ -3,8 +3,7 @@ layout: post
 title: Selection and highlight in TypeScript Treemap control | Syncfusion
 description: Learn here all about Selection and highlight in Syncfusion TypeScript Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Selection and highlight 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

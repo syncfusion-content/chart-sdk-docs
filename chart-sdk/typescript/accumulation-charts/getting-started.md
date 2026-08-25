@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting started with TypeScript Accumulation Chart control | Syncfusion
-description: Check out and learn about Getting started with TypeScript Accumulation Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with TypeScript Accumulation Chart | Syncfusion
+description: Learn how to get started with the Syncfusion TypeScript Accumulation Chart in a TypeScript application using the EJ2 webpack quickstart.
 platform: chart-sdk
 control: Accumulation Chart
 publishingplatform: chart-sdk
@@ -10,11 +10,11 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Getting started with TypeScript Accumulation Chart control
+# Getting Started with TypeScript Accumulation Chart
 
 This document explains how to create a simple Accumulation Chart and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
+> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
 
 ## Prerequisites
 

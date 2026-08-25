@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart tab in TypeScript Chart control | Syncfusion
+title: Chart tab in TypeScript Chart | Syncfusion
 description: Learn here all about Chart tab in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart tab 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart tab in TypeScript Chart control
+# Chart tab in TypeScript Chart
 
 By using Tab control you can add the charts inside of the tab. Tab control contains content property. By setting container ID in content property, you can display chart in tab.
 

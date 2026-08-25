@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Pie and Donut in TypeScript 3D Circular Chart control | Syncfusion
-description: Learn here all about Pie and Donut in Syncfusion TypeScript 3D Circular Chart control of Syncfusion Essential JS 2 and more.
+title: Pie and Donut in TypeScript 3D Circular Chart | Syncfusion
+description: Learn here all about Pie and Donut in Syncfusion TypeScript 3D Circular Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Pie and Donut 
-publishingplatform: chart-sdk
+control: 3D Circular Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pie and Donut in TypeScript 3D Circular Chart control
+# Pie and Donut in TypeScript 3D Circular Chart
 
 ## Pie chart
 

@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Stacked Bar Chart in TypeScript Charts | Syncfusion
+title: Stacked Bar Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Stacked Bar in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stacked Bar 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Stacked Bar Chart in TypeScript Charts
+# Stacked Bar Chart in TypeScript Chart
 
 ## 100% Stacked Bar
 

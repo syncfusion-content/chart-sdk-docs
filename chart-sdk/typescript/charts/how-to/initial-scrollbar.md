@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Initial scrollbar in TypeScript Chart control | Syncfusion
+title: How to enable initial scrollbar in TypeScript Chart | Syncfusion
 description: Learn here all about Initial scrollbar in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Initial scrollbar 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Initial scrollbar in TypeScript Chart control
+# How to enable initial scrollbar in TypeScript Chart
 
-By setting `zoomFactor` in primaryXAxis and `isZoomed` value as `true` in [`load`](../../api/chart/chartModel/#load) event and `enableScrollbar` value as `true` in`zoomSettings`, you can make the scrollbar visible in initial rendering of chart.
+By setting `zoomFactor` in primaryXAxis and `isZoomed` value as `true` in [`load`](../../api/chart/chartModel#load) event and `enableScrollbar` value as `true` in`zoomSettings`, you can make the scrollbar visible in initial rendering of chart.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

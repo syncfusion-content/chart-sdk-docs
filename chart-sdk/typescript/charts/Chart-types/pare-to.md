@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Pareto Chart in TypeScript Charts | Syncfusion
+title: Pareto Chart in TypeScript Chart | Syncfusion
 description: Learn here all about Pareto in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Pareto 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pareto Chart in TypeScript Charts
+# Pareto Chart in TypeScript Chart
 
 ## Pareto
 
