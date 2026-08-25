@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Feature modules in JavaScript Chart | Syncfusion
+title: Feature modules in JavaScript Charts | Syncfusion
 description: Learn here all about Module in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Feature modules in JavaScript Chart
+# Feature modules in JavaScript Charts
 
 The following available modules should be injected to extend the Chart's functionality.
 

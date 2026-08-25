@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Internationalization in JavaScript Chart | Syncfusion
+title: Internationalization in JavaScript Charts | Syncfusion
 description: Learn here all about Internationalization in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Internationalization in JavaScript Chart
+# Internationalization in JavaScript Charts
 
 Chart provides support for internationalization for the following elements:
 

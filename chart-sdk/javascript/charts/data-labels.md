@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data labels in JavaScript Chart | Syncfusion
+title: Data labels in JavaScript Charts | Syncfusion
 description: Learn here all about Data labels in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data labels in JavaScript Chart
+# Data labels in JavaScript Charts
 
 Data labels display the values of data points directly on the chart, reducing the need to reference axes for exact values. Enable data labels by setting the [`visible`](../api/chart/dataLabelSettingsModel#visible-boolean) option to `true` in the `dataLabel` configuration. Labels automatically adjust to avoid overlapping and maintain readability.
 

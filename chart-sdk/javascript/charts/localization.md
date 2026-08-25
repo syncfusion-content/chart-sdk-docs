@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Localization in JavaScript Chart | Syncfusion
+title: Localization in JavaScript Charts | Syncfusion
 description: Learn here all about Localization in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Localization in JavaScript Chart
+# Localization in JavaScript Charts
 
 The localization library localizes the Chart's default text content. Static text used by chart features (for example, zoom toolbar labels) can be translated by providing a locale value and a translation object.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Series label in JavaScript Chart | Syncfusion
+title: Series label in JavaScript Charts | Syncfusion
 description: Learn here all about Series label in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Series label in JavaScript Chart
+# Series label in JavaScript Charts
 
 The series label displays the name of each series inline, positioned near the end of the series path or the last visible data point. This helps identify each series without referring to the legend.
 

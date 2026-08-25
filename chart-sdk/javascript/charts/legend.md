@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Legend in JavaScript Chart | Syncfusion
+title: Legend in JavaScript Charts | Syncfusion
 description: Learn here all about Legend in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Legend in JavaScript Chart
+# Legend in JavaScript Charts
 
 <!-- markdownlint-disable MD036 -->
 

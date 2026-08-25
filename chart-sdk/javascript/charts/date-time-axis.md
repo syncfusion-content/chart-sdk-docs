@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DateTime axis in JavaScript Chart | Syncfusion
+title: DateTime axis in JavaScript Charts | Syncfusion
 description: Learn here all about Date time axis in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# DateTime axis in JavaScript Chart
+# DateTime axis in JavaScript Charts
 
 ## DateTime Axis
 

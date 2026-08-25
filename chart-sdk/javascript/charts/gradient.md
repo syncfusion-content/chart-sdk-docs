@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gradient in JavaScript Chart | Syncfusion
+title: Gradient in JavaScript Charts | Syncfusion
 description: Learn here all about Gradient in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Gradient in JavaScript Chart
+# Gradient in JavaScript Charts
 
 <!-- markdownlint-disable MD036 -->
 

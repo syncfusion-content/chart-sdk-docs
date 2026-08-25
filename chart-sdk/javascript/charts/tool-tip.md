@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tooltip in JavaScript Chart | Syncfusion
+title: Tooltip in JavaScript Charts | Syncfusion
 description: Learn here all about Tooltip in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in JavaScript Chart
+# Tooltip in JavaScript Charts
 
 <!-- markdownlint-disable MD036 -->
 

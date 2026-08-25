@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logarithmic axis in JavaScript Chart | Syncfusion
+title: Logarithmic axis in JavaScript Charts | Syncfusion
 description: Learn here all about Logarithmic axis in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Logarithmic axis in JavaScript Chart
+# Logarithmic axis in JavaScript Charts
 
 <!-- markdownlint-disable MD033 -->
 

@@ -58,7 +58,7 @@ To prevent the chart data label when the data value is 0, follow the given steps
 
 **Step 1**:
 
-Get the point value and check whether the `args.point.y` value is zero or not by using the [`textRender`](https://ej2.syncfusion.com/documentation/api/chart/iTextRenderEventArgs) event. If the value is zero, then set the `args.cancel` to true.
+Get the point value and check whether the `args.point.y` value is zero or not by using the [`textRender`](https://ej2.syncfusion.com/documentation/api/chart/iTextRenderEventArgs/) event. If the value is zero, then set the `args.cancel` to true.
 
 The output will appear as follows,
 
@@ -75,14 +75,14 @@ The output will appear as follows,
 
 ## Format the tooltip value
 
-Using [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/chart/iTooltipRenderEventArgs) event, you can able to format the
+Using [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/chart/iTooltipRenderEventArgs/) event, you can able to format the
 datetime value instead of rendered value.
 
 To format the datetime value,please follow the steps below
 
 **Step 1**:
 
-By using [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/chart/iTooltipRenderEventArgs) event we can able to get the current point x value. Using this value to format the tooltip by using `formatDate` method.
+By using [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/chart/iTooltipRenderEventArgs/) event we can able to get the current point x value. Using this value to format the tooltip by using `formatDate` method.
 
 The output will appear as follows,
 
@@ -122,13 +122,13 @@ To remove the new series from chart dynamically, pass the series index to the `r
 
 ## Display selected data for range selection
 
-By using the [`dragComplete`](https://ej2.syncfusion.com/documentation/api/chart/iDragCompleteEventArgs), you can get the selected data values for range selection.
+By using the [`dragComplete`](https://ej2.syncfusion.com/documentation/api/chart/iDragCompleteEventArgs/), you can get the selected data values for range selection.
 
 To display the selected data value, follow the given steps:
 
 **Step 1**:
 
-Get the selected data point values and display the values through grid component by using the [`dragComplete`](https://ej2.syncfusion.com/documentation/api/chart/iDragCompleteEventArgs) event.
+Get the selected data point values and display the values through grid component by using the [`dragComplete`](https://ej2.syncfusion.com/documentation/api/chart/iDragCompleteEventArgs/) event.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -143,13 +143,13 @@ Get the selected data point values and display the values through grid component
 
 ## Customize the marker with different shape
 
-By using the [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointEventArgs), you can customize the marker shape.
+By using the [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointEventArgs/), you can customize the marker shape.
 
 To Customize the marker shape, follow the given steps:
 
 **Step 1**:
 
-Customize the marker shape in each data point by using the [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointEventArgs) event. Using this event, you can set the `shape` value to the argument.
+Customize the marker shape in each data point by using the [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointEventArgs/) event. Using this event, you can set the `shape` value to the argument.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -164,13 +164,13 @@ Customize the marker shape in each data point by using the [`pointRender`](https
 
 ## Customize each shape in legend
 
-By using the [`legendRender`](https://ej2.syncfusion.com/documentation/api/chart/iLegendRenderEventArgs), you can customize the legend shape.
+By using the [`legendRender`](https://ej2.syncfusion.com/documentation/api/chart/iLegendRenderEventArgs/), you can customize the legend shape.
 
 To Customize the legend shape, follow the given steps:
 
 **Step 1**:
 
-Set the shape value for each legend using `args.shape` in [`legendRender`](https://ej2.syncfusion.com/documentation/api/chart/iLegendRenderEventArgs) event.
+Set the shape value for each legend using `args.shape` in [`legendRender`](https://ej2.syncfusion.com/documentation/api/chart/iLegendRenderEventArgs/) event.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -278,10 +278,10 @@ By using the grid’s `actionComplete` event and `getCurrentViewRecords` method,
 
 ## Show percentage value in pie tooltip
 
-By using the [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/accumulation-chart/iAccTooltipRenderEventArgs) event, you can show the percentage value for each point of pie series in tooltip.
+By using the [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/accumulation-chart/iAccTooltipRenderEventArgs/) event, you can show the percentage value for each point of pie series in tooltip.
 
 To show the percentage value in pie tooltip, follow the given steps:
 
 **Step 1**:
 
-By using the [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/accumulation-chart/iAccTooltipRenderEventArgs) event, you can get the `args.point.y` and `args.series.sumOfPoints` values. You can use these values to calculate the percentage value for each point of pie series. To display the percentage value in tooltip, use the `args.content` property.
+By using the [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/accumulation-chart/iAccTooltipRenderEventArgs/) event, you can get the `args.point.y` and `args.series.sumOfPoints` values. You can use these values to calculate the percentage value for each point of pie series. To display the percentage value in tooltip, use the `args.content` property.

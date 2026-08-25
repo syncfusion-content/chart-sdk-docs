@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Working with data in JavaScript Chart | Syncfusion
+title: Working with data in JavaScript Charts | Syncfusion
 description: Learn here all about Working with data in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in JavaScript Chart
+# Working with data in JavaScript Charts
 
 The JavaScript Chart control supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, or fetched from remote services using various adaptor patterns. This guide covers all available data binding methods, helping you choose the right approach for your use case based on data size, performance requirements, and backend architecture.
 

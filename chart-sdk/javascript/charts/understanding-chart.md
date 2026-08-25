@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding JavaScript Chart control | Syncfusion
+title: Understanding JavaScript Charts control | Syncfusion
 description: Learn here all about Understanding the Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Understanding of JavaScript Chart
+# Understanding of JavaScript Charts
 
 The JavaScript Chart control is a versatile visualization tool that presents data using a wide range of graphical formats. Each chart is composed of essential elements—such as the title, series, tooltip, legend, and axes—that work together to provide clear, interactive, and meaningful insights. Understanding these elements helps in configuring and customizing charts for various analytical needs.
 

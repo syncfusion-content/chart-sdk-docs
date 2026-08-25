@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selection in JavaScript Chart | Syncfusion
+title: Selection in JavaScript Charts | Syncfusion
 description: Learn here all about Selection in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Selection in JavaScript Chart
+# Selection in JavaScript Charts
 
 The chart provides selection support for both series and individual data points when users interact with the chart using mouse clicks.
 
