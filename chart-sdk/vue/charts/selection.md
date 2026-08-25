@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Selection in Vue Chart component | Syncfusion
-description: Learn here all about Selection in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
+title: Selection in Vue Charts | Syncfusion
+description: Learn here all about Selection in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
 control: Selection 
 platform: chart-sdk
 documentation: ug
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Selection in Vue Chart component
+# Selection in Vue Charts
 
 The Chart provides selection support for both series and individual data points when users interact with the chart using mouse clicks.
 

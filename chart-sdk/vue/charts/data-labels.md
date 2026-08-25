@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data labels in Vue Chart component | Syncfusion
-description: Learn here all about Data labels in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
+title: Data labels in Vue Charts | Syncfusion
+description: Learn here all about Data labels in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
 control: Data labels 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data labels in Vue Chart component
+# Data labels in Vue Charts
 
 Data labels display the values of data points directly on the chart, reducing the need to reference axes for exact values. Enable data labels by setting the [`visible`](https://ej2.syncfusion.com/vue/documentation/api/chart/dataLabelSettings#visible) option to `true` in the `dataLabel` configuration. Labels automatically adjust to avoid overlapping and maintain readability.
 
@@ -226,7 +226,7 @@ Calculate and display percentage values based on each series’ total using the 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/charts/data-marker/datalabel-cs9" %}
 
-## Last value label in Vue Chart component
+## Last value label in Vue Charts component
 
 The `lastValueLabel` feature highlights the final data point in a series, making the latest trend or value easy to identify.
 

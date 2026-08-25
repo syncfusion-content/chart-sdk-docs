@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Dynamic chart in Vue Chart component | Syncfusion
-description: Learn here all about Dynamic chart in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
-control: Dynamic chart 
+title: How to render a dynamic chart in Vue Charts | Syncfusion
+description: Learn here all about Dynamic chart in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
+control: Dynamic chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Dynamic chart in Vue Chart component
+# How to render a dynamic chart in Vue Charts
 
 A chart can be rendered dynamically by using an HTML button. This approach is useful in scenarios where charts need to be created or updated based on user interaction, such as loading data on demand or rendering multiple charts conditionally.
 

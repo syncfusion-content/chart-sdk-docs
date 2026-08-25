@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Zooming in Vue Chart component | Syncfusion
-description: Learn here all about Zooming in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
+title: Zooming in Vue Charts | Syncfusion
+description: Learn here all about Zooming in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
 control: Zooming 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Zooming in Vue Chart component
+# Zooming in Vue Charts
 
 ## Enable zooming
 

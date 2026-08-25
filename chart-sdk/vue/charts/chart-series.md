@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart series in Vue Chart component | Syncfusion
-description: Learn here all about Chart series in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
+title: Multiple Series in Vue Charts | Syncfusion
+description: Learn here all about Chart series in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
 control: Chart series 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart series in Vue Chart component
+# Multiple Series in Vue Charts
 
 ## Multiple Series
 
