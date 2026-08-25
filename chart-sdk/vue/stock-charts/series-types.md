@@ -30,11 +30,11 @@ inject `HiloSeries` into the `provide`.
 
 ## HiloOpenClose
 
-To render a hiloOpenClose series, use series [`type`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockSeriesModel#type-string) as `HiloOpenClose` and inject `HiloOpenCloseSeries` into the `provide`.
+To render a HiloOpenClose series, use series [`type`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockSeriesModel#type-string) as `HiloOpenClose` and inject `HiloOpenCloseSeries` into the `provide`.
 
 ## HollowCandle
 
-To render a hollowcandle series, use series [`type`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockSeriesModel#type-string) as `Candle` and set `enableSolidCandle` as false. Now inject `CandleSeries` into the `provide`.
+To render a hollow candle series, use series [`type`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockSeriesModel#type-string) as `Candle` and set `enableSolidCandle` as false. Now inject `CandleSeries` into the `provide`.
 
 ## Candle
 

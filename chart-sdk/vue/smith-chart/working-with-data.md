@@ -10,7 +10,7 @@ domainurl: ##DomainURL##
 
 # Working with Data in Vue Smith Chart
 
-Smithchart can visualise the data bound from local data. The data you bind for the smithchart, should be an array of object and that should contain the field resistance and rectangle. This should be bind to points or datasource in the smithchart.
+Smithchart can visualize the data bound from local data. The data you bind for the smithchart, should be an array of object and that should contain the field resistance and rectangle. This should be bind to points or datasource in the smithchart.
 
 ## Data Binding
 
