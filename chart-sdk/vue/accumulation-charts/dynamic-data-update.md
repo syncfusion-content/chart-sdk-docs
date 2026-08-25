@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic data update in Accumulation Chart component | Syncfusion
+title: Dynamic Data Update in Vue Accumulation Charts | Syncfusion
 description: Learn here all about dynamic data update in Syncfusion Vue Accumulation Chart component in Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dynamic Data Update
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dynamic data update in Vue Accumulation Chart component
+# Dynamic Data Update in Vue Accumulation Charts
 
 ## Adding a new data point
 
