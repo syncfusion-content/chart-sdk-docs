@@ -4,7 +4,7 @@ import { Category, ChartComponent, ColumnSeries, DataLabel, Inject, Legend, Line
 import { data } from './datasource';
 function App() {
     const primaryxAxis = { valueType: 'Category' };
-    return <ChartComponent id='charts' primaryXAxis={primaryxAxis}>
+    return <ChartComponent id='charts' primaryXAxis={primaryxAxis} width='80%' height='90%'>
       <Inject services={[ColumnSeries, Legend, Tooltip, DataLabel, LineSeries, Category]}/>
       <SeriesCollectionDirective>
         <SeriesDirective dataSource={data} xName='month' yName='sales' type='Column' name='Sales'/>
