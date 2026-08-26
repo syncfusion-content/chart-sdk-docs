@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in Vue TreeMap component | Syncfusion
+title: Accessibility in Vue TreeMap | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Vue TreeMap component of Syncfusion Essential JS 2 and more.
 control: Accessibility 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in Vue Treemap component
+# Accessibility in Vue TreeMap
 
 The TreeMap component follows commonly used accessibility guidelines and standards, such as [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles).
 
