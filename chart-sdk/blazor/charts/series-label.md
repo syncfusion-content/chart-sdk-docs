@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-title: Blazor Charts Series Label Examples | Syncfusion�
+title: Blazor Charts Series Label Examples | Syncfusion®
 description: Learn how to display series names inline in Syncfusion Blazor Charts. Use SeriesLabelSettings to improve readability of multi-series charts.
 platform: Blazor
 control: Charts
