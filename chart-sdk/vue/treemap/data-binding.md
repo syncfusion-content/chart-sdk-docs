@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data binding in Vue Treemap component | Syncfusion
+title: Data Binding in Vue TreeMap | Syncfusion
 description: Learn here all about Data binding in Syncfusion Vue Treemap component of Syncfusion Essential JS 2 and more.
 control: Data binding 
 platform: chart-sdk
@@ -8,13 +8,13 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data binding in Vue Treemap component
+# Data Binding in Vue TreeMap
 
 The TreeMap control supports data binding using the dataSource property.
 
 ## Populate data
 
-The [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/treemap/#datasource) property accepts collection values as input. For example, a list of objects can be provided as input. Data can be given as either flat or hierarchical collection to the [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/treemap/#datasource) property.
+The [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/treemap#datasource) property accepts collection values as input. For example, a list of objects can be provided as input. Data can be given as either flat or hierarchical collection to the [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/treemap#datasource) property.
 
 <!-- markdownlint-disable MD036 -->
 
