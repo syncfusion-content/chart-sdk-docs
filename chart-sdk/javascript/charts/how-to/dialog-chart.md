@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Dialog chart in JavaScript Chart control | Syncfusion
-description: Learn here all about Dialog chart in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to show chart in dialog in JavaScript Charts | Syncfusion
+description: Learn here all about Dialog chart in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Dialog chart 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dialog chart in JavaScript Chart control
+# How to show chart in dialog in JavaScript Charts
 
 Using the `content` property of the dialog component, you can show the chart in dialog pop-up.
 
