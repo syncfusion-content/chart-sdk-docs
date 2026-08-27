@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zooming in Angular Chart component | Syncfusion
+title: Zooming in Angular Chart | Syncfusion
 description: Learn here all about Zooming in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Zooming 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Zooming in Angular Chart component
+# Zooming in Angular Chart
 
 Zooming in a chart refers to the process of magnifying a portion of the chart to focus on specific segments of data that matter most.
 

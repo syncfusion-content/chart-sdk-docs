@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Getting Started with the Vue Smith Chart Component | Syncfusion
+title: Getting Started with Vue Smith Chart | Syncfusion
 description: Set up a Vue 2 application and integrate the Syncfusion Essential JS 2 Vue Smith Chart with module registration, and data binding.
-control: Getting started
+control: Smith Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue Smith Chart Component in Vue 2
+# Getting Started with Vue Smith Chart in Vue 2
 
-This article provides a step-by-step guide to creating a Vue 2 application using [Vue CLI](https://cli.vuejs.org/) and integrating the Syncfusion<sup>®</sup> Vue Smith Chart component.
+This article provides a step-by-step guide to creating a Vue 2 application using [Vue CLI](https://cli.vuejs.org) and integrating the Syncfusion<sup>®</sup> Vue Smith Chart component.
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ Use a package release that supports Vue 2. Before upgrading, check the [Vue syst
 
 ## Setting Up the Vue 2 Project
 
-Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org/#getting-started) command.
+Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org#getting-started) command.
 
 **npm**
 
@@ -218,7 +218,7 @@ Replace the contents of **src/App.vue** with the following complete example:
 - **The Smith Chart is not rendered.** Verify that `SmithchartComponent` is imported and registered, the component has valid width and height values, and the browser console contains no component, data, or licensing errors.
 - **The series is not displayed.** Verify that `SeriesCollectionDirective` and `SeriesDirective` are imported and registered and that the series is declared inside `e-series-collection`.
 - **No data is displayed.** Verify that `dataSource` contains records, the `resistance` and `reactance` properties match fields in every data object, and both mapped fields contain numeric values.
-- **The tooltip is not displayed.** Set `tooltip.visible` to `true`, bind the tooltip object to the series, and register `TooltipRender` with the exact `smithchart` key.
+- **The tooltip is not displayed.** Set `tooltip.visible` to `true`, bind the tooltip object to the series, and register `TooltipRender` with the exact `Smithchart` key.
 - **A package or Vue version error occurs.** Confirm that the installed `@syncfusion/ej2-vue-charts` release supports Vue 2 and that all Syncfusion packages use compatible versions.
 
 For additional assistance, refer to the [Vue Smith Chart API documentation](https://ej2.syncfusion.com/vue/documentation/api/smithchart).

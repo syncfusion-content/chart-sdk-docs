@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Title and Subtitle in Vue Sankey Chart component \ Syncfusion
-description: Learn here all about Title and Subtitle in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in Vue Sankey Diagram \ Syncfusion
+description: Learn here all about Title and Subtitle in Syncfusion Vue Sankey Diagram of Syncfusion Essential JS 2 and more.
 control: Title and Subtitle
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title and Subtitle in Vue Sankey Chart component
+# Title and Subtitle in Vue Sankey Diagram
 
 The Sankey Chart supports adding descriptive titles and subtitles to provide context and information about your data visualization. These text elements help users quickly understand the purpose and content of the diagram. You can fully customize the text, styling, alignment, and appearance using dedicated properties.
 

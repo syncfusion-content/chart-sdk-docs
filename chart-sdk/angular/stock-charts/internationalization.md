@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Internationalization in Angular Stock chart component | Syncfusion
+title: Internationalization in Angular Stock Chart | Syncfusion
 description: Learn here all about Internationalization in Syncfusion Angular Stock chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Internationalization 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Internationalization in Angular Stock chart component
+# Internationalization in Angular Stock Chart
 
 Chart provide supports for internationalization for below chart elements.
 

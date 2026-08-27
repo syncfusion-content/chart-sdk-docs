@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Marker in Vue Sparkline component | Syncfusion
-description: Learn here all about Marker in Syncfusion Vue Sparkline component of Syncfusion Essential JS 2 and more.
+title: Marker in Vue Sparkline Charts | Syncfusion
+description: Learn here all about Marker in Syncfusion Vue Sparkline Charts of Syncfusion Essential JS 2 and more.
 control: Marker 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Marker in Vue Sparkline component
+# Marker in Vue Sparkline Charts
 
 This section explains how to add markers to the sparklines.
 

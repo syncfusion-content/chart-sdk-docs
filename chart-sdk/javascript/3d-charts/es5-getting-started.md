@@ -1,17 +1,16 @@
 ---
 layout: post
-title: ES5 getting started with JavaScript 3D Chart control | Syncfusion
-description: Check out and learn about ES5 getting started with JavaScript 3D Chart control of Syncfusion Essential JS 2 and more details.
+title: Getting Started with JavaScript 3D Chart (ES5) | Syncfusion
+description: Learn how to get started with the Syncfusion JavaScript 3D Chart in an ES5 application using the CDN approach.
 platform: chart-sdk
 control: 3D Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 # Getting Started with Syncfusion® JavaScript (ES5) 3D Chart Control
 
-Build your first Syncfusion JavaScript (ES5) application with a simple 3D Chart in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) 3D Chart from the CDN, initializes it with sample data, and renders an interactive Column chart with a title.
+Build your first Syncfusion JavaScript (ES5) application with a simple 3D Chart in just a few minutes. This quick start guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) 3D Chart from the CDN, initializes it with sample data, and renders an interactive Column chart with a title.
 
 ## Prerequisites
 
@@ -38,8 +37,8 @@ The 3D Chart control ships as part of the `@syncfusion/ej2-charts` package. Belo
 
 ### Step 1: Create Folder and HTML file
 
-* Create a folder named `quickstart` in your desired directory.
-* Inside the `quickstart` folder, create two new files: `index.html` and `index.js`.
+* Create a folder named `quick start` in your desired directory.
+* Inside the `quick start` folder, create two new files: `index.html` and `index.js`.
 
 ### Step 2: Add Syncfusion<sup style="font-size:70%">&reg;</sup> CDN Resources
 
@@ -74,7 +73,7 @@ Key options used in the configuration object:
 
 Finally, `chart3D.appendTo('#element')` renders the control into the `<div id="element">` element declared in `index.html`.
 
-Copy the snippets below into the matching files in your `quickstart` folder.
+Copy the snippets below into the matching files in your `quick start` folder.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -87,7 +86,7 @@ Copy the snippets below into the matching files in your `quickstart` folder.
 
 ### Step 4: Open in Browser
 
-Open `quickstart/index.html` through a local web server. With the VS Code **Live Server** extension installed, right-click `index.html` in the Explorer and choose **Open with Live Server**, then visit the URL it prints (for example, `http://127.0.0.1:5500/`). You should see the Syncfusion 3D Chart control displaying the sample sales data.
+Open `quick start/index.html` through a local web server. With the VS Code **Live Server** extension installed, right-click `index.html` in the Explorer and choose **Open with Live Server**, then visit the URL it prints (for example, `http://127.0.0.1:5500/`). You should see the Syncfusion 3D Chart control displaying the sample sales data.
 
 ## Output
 
@@ -95,7 +94,7 @@ The 3D Chart shows 12 months of sales data rendered as 3D columns. The title "Sa
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/getting-started-cs7" %}
 
-![Syncfusion 3D Chart Quick Start Output](./images/3D-Chart.png)
+![Syncfusion 3D Chart Quick Start Output](./images/Chart-3D.png)
 
 ## Troubleshooting
 

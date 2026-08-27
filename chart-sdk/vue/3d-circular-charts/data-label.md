@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data Label in Vue 3D Circular Chart component | Syncfusion
-description: Learn here all about data label in Syncfusion Vue 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Data Label in Vue 3D Circular Charts | Syncfusion
+description: Learn here all about data label in Syncfusion Vue 3D Circular Charts of Syncfusion Essential JS 2 and more.
 control: Data Label 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data Label in Vue 3D Circular Chart component
+# Data Label in Vue 3D Circular Charts
 
 A data label refers to a label associated with specific data points. It can be added to a 3D Circular Chart series by enabling the `visible` option in the `dataLabel` property. By default, the labels will arrange themselves smartly to avoid overlapping.
 

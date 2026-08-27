@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Special points customization in Vue Sparkline component | Syncfusion
-description: Learn here all about Special points customization in Syncfusion Vue Sparkline component of Syncfusion Essential JS 2 and more.
+title: Special Points Customization in Vue Sparkline Charts | Syncfusion
+description: Learn here all about Special points customization in Syncfusion Vue Sparkline Charts of Syncfusion Essential JS 2 and more.
 control: Special points customization 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Special points customization in Vue Sparkline component
+# Special Points Customization in Vue Sparkline Charts
 
 You can customize the points by initializing the point colors. The customization options allows to differentiate the [`start`], [`end`], [`positive`], [`negative`], and [`low`] points. This customization is only applicable for line, column, and area type sparklines.
 

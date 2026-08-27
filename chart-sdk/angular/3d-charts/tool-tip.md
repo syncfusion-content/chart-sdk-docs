@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tooltip in Angular 3D Chart control | Syncfusion
+title: Tooltip in Angular 3D Chart | Syncfusion
 description: Learn here all about tooltip in Syncfusion Angular 3D Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: 3D Chart
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in Angular 3D Chart control
+# Tooltip in Angular 3D Chart
 
 <!-- markdownlint-disable MD036 -->
 

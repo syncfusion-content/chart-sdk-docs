@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Appearance in Angular Sparkline component | Syncfusion
+title: Appearance in Angular Sparkline | Syncfusion
 description: Learn here all about Appearance in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Appearance 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Appearance in Angular Sparkline component
+# Appearance in Angular Sparkline
 
 The appearance of the sparkline can be customized using margin, container Area border, and container Area background.
 

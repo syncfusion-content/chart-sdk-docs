@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Live data in Angular Stock chart component | Syncfusion
+title: How to update live data in Angular Stock Chart | Syncfusion
 description: Learn here all about Live data in Syncfusion Angular Stock chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Live data 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Live data in Angular Stock chart component
+# How to update live data in Angular Stock Chart
 
 You can update a stockchart with live data by using the set interval.
 

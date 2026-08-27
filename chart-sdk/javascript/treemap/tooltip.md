@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Tooltip in JavaScript Treemap control | Syncfusion
-description: Learn here all about Tooltip in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Tooltip in JavaScript TreeMap | Syncfusion
+description: Learn here all about Tooltip in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Tooltip 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in JavaScript Treemap control
+# Tooltip in JavaScript TreeMap
 
 Tooltip is used to display details about the items in the TreeMap. When space constraints prevent us from displaying the information using Data Labels, the tooltip comes in handy.
 

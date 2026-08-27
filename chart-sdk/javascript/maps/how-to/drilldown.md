@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Drilldown in JavaScript Maps component | Syncfusion
-description: Learn here all about Drilldown in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Drilldown in JavaScript Maps | Syncfusion
+description: Learn how to implement drilldown in Syncfusion JavaScript Maps to navigate between geographic layers and explore data interactively.
 platform: chart-sdk
 control: Drilldown 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Drilldown in JavaScript Maps component
+# Drilldown in JavaScript Maps
 
 By clicking a continent, all the countries available in that continent can be viewed using the drill-down feature. For example, the countries in the `Africa` continent have been showcased here. To showcase all the countries in `Africa` continent by clicking the [`shapeSelected`](../../api/mapsModel#shapeselected) event as mentioned in the following example.
 

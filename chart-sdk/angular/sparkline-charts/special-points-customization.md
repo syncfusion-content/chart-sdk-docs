@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Special points customization in Angular Sparkline component | Syncfusion
+title: Special Points Customization in Angular Sparkline | Syncfusion
 description: Learn here all about Special points customization in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Special points customization 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Special points customization in Angular Sparkline component
+# Special Points Customization in Angular Sparkline
 
 You can customize the points by initializing the point colors. The customization options allows to differentiate the [`start`], [`end`], [`positive`], [`negative`], and [`low`] points. This customization is only applicable for line, column, and area type sparkline.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Working with data in Angular Chart component | Syncfusion
+title: Working with Data in Angular Chart | Syncfusion
 description: Learn here all about Working with data in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working with data 
@@ -10,9 +10,9 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in Angular Chart component
+# Working with Data in Angular Chart
 
-The Angular Chart component supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, or fetched from remote services using various adaptor patterns. This guide covers all available data binding methods, helping you choose the right approach for your use case based on data size, performance requirements, and backend architecture.
+The Angular Chart component supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, or fetched from remote services using various adaptor patterns. This guide covers all available data binding methods, helping you choose the right approach for your use case based on data size, performance requirements, and back-end architecture.
 
 ## Choosing a data binding approach
 

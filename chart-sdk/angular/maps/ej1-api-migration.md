@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ej1 api migration in Angular Maps component | Syncfusion
+title: Migration from Essential JS 1 in Angular Maps | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ej1 api migration 
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD034 -->
 
-# Ej1 api migration in Angular Maps component
+# EMigration from Essential JS 1 in Angular Maps
 
 This article describes the API migration process of Maps component from Essential<sup style="font-size:70%">&reg;</sup> JS 1 to Essential<sup style="font-size:70%">&reg;</sup> JS 2.
 

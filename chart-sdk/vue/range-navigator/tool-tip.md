@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tool tip in Vue Range navigator component | Syncfusion
+title: Tooltip in Vue Range Navigator | Syncfusion
 description: Learn here all about Tool tip in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: Tool tip 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tool tip in Vue Range navigator component
+# Tooltip in Vue Range Navigator
 
 <!-- markdownlint-disable MD036 -->
 
@@ -53,7 +53,7 @@ Tooltip can be customized using the following properties:
 
 ## Label Format
 
-You can format and parse the date to all globalize format using [`labelFormat`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/rangeNavigatorAxis/) property in an axis. The `labelFormat` property in the tooltip is used to format and parse the date to all globalize formats.
+You can format and parse the date to all globalize format using [`labelFormat`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/rangeNavigatorAxis) property in an axis. The `labelFormat` property in the tooltip is used to format and parse the date to all globalize formats.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

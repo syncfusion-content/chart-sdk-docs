@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Cross hair in JavaScript Stock chart control | Syncfusion
-description: Learn here all about Cross hair in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Cross hair in JavaScript Stock Chart | Syncfusion
+description: Learn here all about Cross hair in Syncfusion JavaScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Cross hair 
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Cross hair in JavaScript Stock chart control
+# Cross hair in JavaScript Stock Chart
 
 Crosshair has a vertical and horizontal line to view the value of the axis at mouse or touch position.
 
-Crosshair lines can be enabled by using [`enable`](../api/chart/crosshairSettingsModel/#enable) property in the `crosshair`.
+Crosshair lines can be enabled by using [`enable`](../api/chart/crosshairSettingsModel#enable) property in the `crosshair`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -28,7 +27,7 @@ Crosshair lines can be enabled by using [`enable`](../api/chart/crosshairSettin
 
 ## Tooltip for axis
 
-Tooltip label for an axis can be enabled by using [`enable`](../api/chart/crosshairTooltipModel/#enable) property of `crosshairTooltip` in the corresponding axis.
+Tooltip label for an axis can be enabled by using [`enable`](../api/chart/crosshairTooltipModel#enable) property of `crosshairTooltip` in the corresponding axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -43,7 +42,7 @@ Tooltip label for an axis can be enabled by using [`enable`](../api/chart/cross
 
 ## Customization
 
-The [`fill`](../api/chart/crosshairTooltipModel/#fill) and [`textStyle`](../api/chart/crosshairTooltipModel/#textstyle) property of the `crosshairTooltip` is used to customize the background color and font style of the crosshair label respectively. Color and width of the crosshair line can be customized by using the [`line`](../api/chart/crosshairSettingsModel/#line) property in the crosshair.
+The [`fill`](../api/chart/crosshairTooltipModel#fill) and [`textStyle`](../api/chart/crosshairTooltipModel#textstyle) property of the `crosshairTooltip` is used to customize the background color and font style of the crosshair label respectively. Color and width of the crosshair line can be customized by using the [`line`](../api/chart/crosshairSettingsModel#line) property in the crosshair.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -58,7 +57,7 @@ The [`fill`](../api/chart/crosshairTooltipModel/#fill) and [`textStyle`](../api/
 
 **Snap to data**
 
-Enabling the [`snapToData`](../api/chart/crosshairSettingsModel/#snaptodata) property in the crosshair aligns it with the nearest data point instead of following the exact mouse position.
+Enabling the [`snapToData`](../api/chart/crosshairSettingsModel#snaptodata) property in the crosshair aligns it with the nearest data point instead of following the exact mouse position.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

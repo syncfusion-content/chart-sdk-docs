@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Technical indicators in Vue Stock chart component | Syncfusion
-description: Learn here all about Technical indicators in Syncfusion Vue Stock chart component of Syncfusion Essential JS 2 and more.
+title: Technical Indicators in Vue Stock Chart | Syncfusion
+description: Learn here all about Technical indicators in Syncfusion Vue Stock Charts of Syncfusion Essential JS 2 and more.
 control: Technical indicators 
 platform: chart-sdk
 documentation: ug
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Technical indicators in Vue Stock chart component
+# Technical Indicators in Vue Stock Chart
 
 A technical indicator is a mathematical calculation based on historic price, volume or open interest information that aims to forecast financial market direction.
 

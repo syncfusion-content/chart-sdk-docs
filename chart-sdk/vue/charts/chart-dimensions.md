@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart dimensions in Vue Chart component | Syncfusion
-description: Learn here all about Chart dimensions in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
+title: Dimensions in Vue Charts | Syncfusion
+description: Learn here all about Chart dimensions in Syncfusion Vue Charts of Syncfusion Essential JS 2 and more.
 control: Chart dimensions 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart dimensions in Vue Chart component
+# Dimensions in Vue Charts
 
 ## Size for Container
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Color mapping in Angular Maps component | Syncfusion
+title: Color Mapping in Angular Maps | Syncfusion
 description: Learn here all about Color mapping in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Color mapping 
@@ -8,11 +8,11 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Color mapping in Angular Maps component
+# Color Mapping in Angular Maps
 
 Color mapping customizes shape colors based on data values. It supports three primary types: range, equal, and desaturation. To apply color mapping, bind data to the [`dataSource`](https://ej2.syncfusion.com/angular/documentation/api/maps/layerSettingsModel#datasource) property of [`layerSettings`](https://ej2.syncfusion.com/angular/documentation/api/maps/layerSettingsModel) and set the [`colorValuePath`](https://ej2.syncfusion.com/angular/documentation/api/maps/shapeSettingsModel#colorvaluepath) property in [`shapeSettings`](https://ej2.syncfusion.com/angular/documentation/api/maps/shapeSettingsModel) to specify which field controls the color value.
 
-### Range color mapping
+## Range color mapping
 
 Range color mapping assigns colors to shapes based on numeric value ranges. Use the [`from`](https://ej2.syncfusion.com/angular/documentation/api/maps/colorMappingSettingsModel#from) and [`to`](https://ej2.syncfusion.com/angular/documentation/api/maps/colorMappingSettingsModel#to) properties in the [`colorMapping`](https://ej2.syncfusion.com/angular/documentation/api/maps/colorMappingSettingsModel) to define the ranges and their corresponding colors.
 
@@ -58,7 +58,7 @@ Set the **population_density** data as the [`dataSource`](https://ej2.syncfusion
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/maps/default-map/datetime-cs13" %}
 
-### Equal color mapping
+## Equal color mapping
 
 Equal color mapping assigns colors to shapes when a data value matches a specified [`value`](https://ej2.syncfusion.com/angular/documentation/api/maps/colorMappingSettingsModel#value) property in [`colorMapping`](https://ej2.syncfusion.com/angular/documentation/api/maps/colorMappingSettingsModel). This approach is useful for categorical or discrete data. The following example demonstrates equal color mapping with the **unCountries** dataset, which categorizes UN Security Council members as permanent or non-permanent.
 
@@ -98,7 +98,7 @@ Set **unCountries** as the [`dataSource`](https://ej2.syncfusion.com/angular/doc
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/maps/default-map/datetime-cs14" %}
 
-### Desaturation color mapping
+## Desaturation color mapping
 
 Desaturation color mapping varies opacity across a numeric range, similar to range color mapping. The [`minOpacity`](https://ej2.syncfusion.com/angular/documentation/api/maps/colorMappingSettingsModel#minopacity) and [`maxOpacity`](https://ej2.syncfusion.com/angular/documentation/api/maps/colorMappingSettingsModel#maxopacity) properties in [`colorMapping`](https://ej2.syncfusion.com/angular/documentation/api/maps/colorMappingSettingsModel) control the opacity gradient.
 

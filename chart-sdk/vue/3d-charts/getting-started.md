@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Getting Started with Vue 3D Chart Component | Syncfusion
-description: Set up a Vue 2 application and integrate the Syncfusion EJ2 Vue 3D Chart component with module registration, and data binding.
+description: Set up a Vue 2 application and integrate the Syncfusion EJ2 Vue 3D Chart with module registration, and data binding.
 control: Getting started
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue 3D Chart Component in Vue 2
+# Getting Started with Vue 3D Chart Component in Vue 2
 
-This section provides a step-by-step guide to creating a Vue 2 application using [Vue CLI](https://cli.vuejs.org/) and integrating the Syncfusion<sup>�</sup> Vue 3D Chart component.
+This section provides a step-by-step guide to creating a Vue 2 application using [Vue CLI](https://cli.vuejs.org/) and integrating the Syncfusion<sup>�</sup> Vue 3D Chart.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ Ensure that the development environment meets the [system requirements for Syncf
 
 ## Dependencies
 
-The following are the minimum dependencies required to use the Vue 3D Chart component:
+The following are the minimum dependencies required to use the Vue 3D Chart:
 
 ```
 |-- @syncfusion/ej2-vue-charts
@@ -38,7 +38,7 @@ Use a package release that supports Vue 2. Before upgrading, check the [Vue syst
 
 ## Setting Up the Vue 2 Project
 
-Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org/#getting-started) command.
+Install Vue CLI globally using either npm or yarn, and create a project with the [`vue create`](https://cli.vuejs.org#getting-started) command.
 
 **npm**
 
@@ -86,7 +86,7 @@ yarn add @syncfusion/ej2-vue-charts
 
 ## Add the Syncfusion Vue 3D Chart Component
 
-Follow the steps below to add the Vue 3D Chart component:
+Follow the steps below to add the Vue 3D Chart:
 
 **Step 1:** Import and register the 3D Chart component in the `script` section of the **src/App.vue** file.
 
