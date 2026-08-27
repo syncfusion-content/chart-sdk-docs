@@ -474,7 +474,7 @@ NA</th></tr>
 
 Sample Link
 
-#### To view a sample:
+### To view a sample:
 
 1. Open the Syncfusion® Dashboard.
 2. Click the Windows Forms drop-down list and select Run Locally Installed Samples.
