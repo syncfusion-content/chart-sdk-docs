@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Caption Settings in Windows Forms Bullet Graph control | Syncfusion®
-description: Learn about Caption Settings support in Syncfusion® Windows Forms Bullet Graph control and more details.
+title: Caption Settings in Windows Forms Bullet Graph | Syncfusion®
+description: Caption settings in the Windows Forms Bullet Graph enable customization of caption content, positioning, formatting, and appearance.
 platform: chart-sdk
 control: Bullet Graph
 documentation: ug
@@ -36,7 +36,7 @@ Me.Controls.Add(bullet)
 
 ![WinForms Bullet Graph caption](Features_images/Features_img3.png)
 
-### Caption Position
+## Caption Position
 
 The caption in the Bullet Graph is placed at the start or end of the quantitative scale by choosing from one of the two options available in the [CaptionPosition](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.BulletGraph.BulletGraph.html#Syncfusion_Windows_Forms_BulletGraph_BulletGraph_CaptionPosition) property. They are:
 
@@ -68,4 +68,3 @@ Me.Controls.Add(bullet)
 {% endtabs %}
 
 ![WinForms Bullet Graph caption position](Features_images/Features_img4.png)
-
