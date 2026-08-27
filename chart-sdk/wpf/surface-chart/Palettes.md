@@ -26,7 +26,7 @@ The predefined palettes include the following:
 * LightCandy
 * SandyBeach
 
-### Applying predefined brushes
+## Applying predefined brushes
 
 Using the above palettes, you can apply a set of predefined brushes to the surface chart as shown in the following code example. 
 
@@ -52,7 +52,7 @@ grid.Children.Add(chart);
 ![surface_chart_img12](surface_chart_images/surface_chart_img12.jpeg)
 
 
-### Applying custom brushes
+## Applying custom brushes
 
 The custom palette option enables you to define your own color brushes for the Palette using the ColorModel property, as shown in the following code example.
 
