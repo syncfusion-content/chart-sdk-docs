@@ -3,8 +3,7 @@ layout: post
 title: Leaf item in TypeScript Treemap control | Syncfusion
 description: Learn here all about Leaf item in Syncfusion TypeScript Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Leaf item 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

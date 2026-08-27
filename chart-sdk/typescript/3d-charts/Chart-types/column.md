@@ -1,18 +1,17 @@
 ---
 layout: post
-title: Column Chart in TypeScript 3D Chart control | Syncfusion
-description: Learn here all about column chart in Syncfusion TypeScript 3D Chart control of Syncfusion Essential JS 2 and more.
+title: Column Chart in TypeScript 3D Charts | Syncfusion
+description: Learn how to render a column series in the Syncfusion TypeScript 3D Charts using the ColumnSeries3D module.
 platform: chart-sdk
-control: 3D Chart 
-publishingplatform: chart-sdk
+control: 3D Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Column Chart in TypeScript 3D Chart control
+# Column Chart in TypeScript 3D Charts
 
 ## Column chart
 
-To render a [column series](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/column-chart), use series [`type`](../../api/chart3d/series3DModel/#type) as `Column` and inject `ColumnSeries3D` module using `Chart3D.Inject(ColumnSeries3D)` method.
+To render a [column series](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/column-chart), use series [`type`](../../api/chart3d/series3DModel#type) as `Column` and inject `ColumnSeries3D` module using `Chart3D.Inject(ColumnSeries3D)` method.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -27,7 +26,7 @@ To render a [column series](https://www.syncfusion.com/javascript-ui-controls/js
 
 ## Column space and width
 
-The [`columnSpacing`](../../api/chart3d/series3DModel/#columnspacing) and [`columnWidth`](../../api/chart3d/series3DModel/#columnwidth) properties are used to customize the space between columns.
+The [`columnSpacing`](../../api/chart3d/series3DModel#columnspacing) and [`columnWidth`](../../api/chart3d/series3DModel#columnwidth) properties are used to customize the space between columns.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -42,7 +41,7 @@ The [`columnSpacing`](../../api/chart3d/series3DModel/#columnspacing) and [`colu
 
 ## Grouped column
 
-The data points can be grouped in the column type charts by using the [`groupName`](../../api/chart3d/series3DModel/#groupname) property. Data points with same group name are grouped together.
+The data points can be grouped in the column type charts by using the [`groupName`](../../api/chart3d/series3DModel#groupname) property. Data points with same group name are grouped together.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -57,7 +56,7 @@ The data points can be grouped in the column type charts by using the [`groupNam
 
 ## Cylindrical column chart
 
-To render a cylindrical column chart, set the [`columnFacet`](../../api/chart3d/series3DModel/#columnfacet) property to `Cylinder` in the chart series.
+To render a cylindrical column chart, set the [`columnFacet`](../../api/chart3d/series3DModel#columnfacet) property to `Cylinder` in the chart series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -74,8 +73,8 @@ To render a cylindrical column chart, set the [`columnFacet`](../../api/chart3d/
 
 The following properties can be used to customize the `column` series.
 
-* [fill](../../api/chart3d/series3DModel/#fill) – Specifies the color of the series.
-* [opacity](../../api/chart3d/series3DModel/#opacity) – Specifies the opacity of the [fill](../../api/chart3d/series3DModel/#fill) color.
+* [fill](../../api/chart3d/series3DModel#fill) – Specifies the color of the series.
+* [opacity](../../api/chart3d/series3DModel#opacity) – Specifies the opacity of the [fill](../../api/chart3d/series3DModel#fill) color.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

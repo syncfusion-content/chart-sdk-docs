@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart dimensions in TypeScript Chart control | Syncfusion
-description: Learn here all about Chart dimensions in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Chart dimensions in TypeScript Charts | Syncfusion
+description: Learn here all about Chart dimensions in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart dimensions 
-publishingplatform: chart-sdk
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart dimensions in TypeScript Chart control
+# Chart dimensions in TypeScript Charts
 
 ## Size for Container
 

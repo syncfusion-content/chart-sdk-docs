@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Legend in ASP.NET MVC Treemap Component
-description: Learn here all about Legend in Syncfusion ASP.NET MVC Treemap component of Syncfusion Essential JS 2 and more.
+title: Legend in ASP.NET MVC TreeMap | Syncfusion
+description: Learn here all about Legend in Syncfusion ASP.NET MVC TreeMap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Legend
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Legend
+# Legend in ASP.NET MVC TreeMap
 
 Legend is used to provide valuable information for interpreting what the TreeMap displays. The legends can be represented in various colors, shapes or other identifiers based on the data.
 

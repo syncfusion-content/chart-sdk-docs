@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Bubble Heatmap in Syncfusion ASP.NET MVC Heatmap Chart Component
+title: Bubble HeatMap in ASP.NET MVC HeatMap Chart | Syncfusion
 description: Learn here all about Bubble Heatmap in Syncfusion ASP.NET MVC Heatmap Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Bubble Heatmap
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Bubble HeatMap in ASP.NET MVC HeatMap Chart Component
+# Bubble HeatMap in ASP.NET MVC HeatMap Chart
 
 Data points represent the data source values with **gradient** or **fixed** colors in the HeatMap. You can customize the appearance of these data points by changing the `Color` and `Size` attributes.
 

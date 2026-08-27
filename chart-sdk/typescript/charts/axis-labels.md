@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis labels in TypeScript Chart control | Syncfusion
-description: Learn here all about Axis labels in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Axis labels in TypeScript Charts | Syncfusion
+description: Learn here all about Axis labels in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis labels 
-publishingplatform: chart-sdk
+control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis labels in TypeScript Chart control
+# Axis labels in TypeScript Charts
 
 ## Smart axis labels
 

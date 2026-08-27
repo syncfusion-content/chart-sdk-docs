@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Internationalization in TypeScript Chart control | Syncfusion
-description: Learn here all about Internationalization in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Internationalization in TypeScript Charts | Syncfusion
+description: Learn here all about Internationalization in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Internationalization 
-publishingplatform: chart-sdk
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Internationalization in TypeScript Chart control
+# Internationalization in TypeScript Charts
 
 Chart provides support for internationalization for the following elements:
 

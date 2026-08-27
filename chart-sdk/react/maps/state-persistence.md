@@ -1,14 +1,14 @@
 ---
 layout: post
-title: State persistence in React Maps component | Syncfusion
-description: Learn here all about State persistence in Syncfusion React Maps component of Syncfusion Essential JS 2 and more.
+title: State Persistence in React Maps | Syncfusion
+description: Learn how to enable state persistence in React Maps to retain model values in browser cookies across page refreshes using enablePersistence.
 control: State persistence 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# State persistence in React Maps component
+# State Persistence in React Maps
 
 ## State Persistence
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Bar Chart in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to create and customize Bar Chart in Syncfusion Flutter Cartesian Charts—add bar series, style, and configure key features.
+title: Bar Chart in Flutter Cartesian Chart | Syncfusion®
+description: The bar chart support in Flutter Cartesian Chart offers horizontal or vertical data comparison with customizable styling and flexible data representation.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Bar Chart (SfCartesianChart)
+# Bar Chart in Flutter Cartesian Chart
 
-To create a Flutter bar chart quickly, you can check this video.
+To create a Flutter bar chart quickly, you can watch this video.
 
 <style>#flutterBarChartTutorial{width : 90% !important; height: 300px !important }</style>
 <iframe id='flutterBarChartTutorial' src='https://www.youtube.com/embed/MHQzCN_jD1Q'></iframe>
@@ -188,7 +188,7 @@ Also refer, [color palette](./series-customization#color-palette), [color mappin
 
 >**Note**: You can refer to our [Flutter Bar Chart](https://www.syncfusion.com/flutter-widgets/flutter-charts/chart-types/bar-chart) feature tour page for its groundbreaking feature representations. You can also explore our [Flutter Bar Chart example](https://flutter.syncfusion.com/#/cartesian-charts/chart-types/bar/default-bar-chart) that shows how to easily configure with built-in support for creating stunning visual effects.
 
-#### See Also
+### See Also
 
 * [Create vertical bar chart](https://support.syncfusion.com/kb/article/10833/how-to-create-vertical-bar-chart-in-flutter-using-cartesian-charts-widget-sfcartesianchart).
 

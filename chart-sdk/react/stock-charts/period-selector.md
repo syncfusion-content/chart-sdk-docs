@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Period selector in React Stock chart component | Syncfusion
-description: Learn here all about Period selector in Syncfusion React Stock chart component of Syncfusion Essential JS 2 and more.
+title: Period Selector in React Stock Chart | Syncfusion
+description: Learn how to add a period selector to the Syncfusion React Stock Chart Component for quick date range presets.
 control: Period selector 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Period selector in React Stock chart component
+# Period Selector in React Stock Chart
 
 The period selector allows to select a range with specified periods. By default the period selector is enabled in stock chart.
 

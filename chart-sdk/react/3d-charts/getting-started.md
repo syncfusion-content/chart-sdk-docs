@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting started with React 3D Chart component | Syncfusion
-description: Check out and learn about the Getting started with the React 3D Chart component of Syncfusion Essential JS 2 and more details.
-control: Getting started
+title: Getting Started with React 3D Charts | Syncfusion
+description: Learn how to get started with the Syncfusion React 3D Charts Component. Explore setup, features, examples, and customization options.
+control: Getting Started
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with React 3D Chart component
+# Getting Started with React 3D Charts
 
 This section describes the steps to create a simple 3D Chart component and demonstrates its basic usage.
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 100% Stacked line in Flutter Cartesian Charts widget | Syncfusion 
-description: Learn here all about 100% stacked line chart of Syncfusion Flutter Cartesian Charts (SfCartesianChart) widget and more.
+title: 100% Stacked Line Chart in Flutter Cartesian Chart | Syncfusion®
+description: The 100% stacked line chart support in Flutter Cartesian Chart offers proportional trend visualization, showing each series contribution as a percentage.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# 100% Stacked line Chart in Flutter Cartesian Charts (SfCartesianChart)
+# 100% Stacked Line Chart in Flutter Cartesian Chart
 
 To create a Flutter 100% stacked line chart quickly, you can check this video.
 
@@ -114,11 +114,11 @@ The [`dashArray`](https://pub.dev/documentation/syncfusion_flutter_charts/latest
 
 ![Dashed line chart](cartesian-chart-types-images/stacked_line_100_dashes.png)
 
-#### See Also
+### See Also
 
-* [Color palette](/flutter/cartesian-charts/series-customization#color-palette) 
-* [Color mapping](/flutter/cartesian-charts/series-customization#color-mapping-for-data-points)
-* [Animation](/flutter/cartesian-charts/series-customization#animation)
-* [Gradient](/flutter/cartesian-charts/series-customization#gradient-fill)
-* [Empty points](/flutter/cartesian-charts/series-customization#empty-points) 
-* [Sorting](/flutter/cartesian-charts/series-customization#sorting)
+* [Color palette](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-palette) 
+* [Color mapping](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#color-mapping-for-data-points)
+* [Animation](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#animation)
+* [Gradient](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill)
+* [Empty points](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#empty-points) 
+* [Sorting](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#sorting)

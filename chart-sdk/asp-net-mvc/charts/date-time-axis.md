@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Date Time Axis in ASP.NET MVC Chart Component
-description: Learn here all about Date Time Axis in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Date Time Axis in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Date Time Axis in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Date Time Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
 <!-- markdownlint-disable MD036 -->
 
-# DateTime and DateTimeCategory Axis
+# DateTime and DateTimeCategory Axis in ASP.NET MVC Charts
 
 ## DateTime Axis
 

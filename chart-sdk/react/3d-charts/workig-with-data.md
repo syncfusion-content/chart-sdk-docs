@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Working with data source in React 3D Chart component | Syncfusion
-description: Learn here all about working with data source in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart
+title: Working with Data in React 3D Charts | Syncfusion
+description: Learn how to bind local or remote JSON data in the Syncfusion React 3D Charts by mapping fields to xName and yName on the series dataSource property.
+control: Working with data
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in React 3D Chart control
+# Working with Data in React 3D Charts
 
 ## Local Data
 

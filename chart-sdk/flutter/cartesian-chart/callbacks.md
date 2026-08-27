@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Callbacks in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to handle callback events in Syncfusion Flutter Cartesian Charts—handle tooltip, data label, legend, and configure key features.
+title: Callbacks in Flutter Cartesian Chart | Syncfusion®
+description: The callback support in Flutter Cartesian Chart offers events for selection, zooming, tooltips, axes, rendering, and user interactions.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Callback Events (SfCartesianChart)
+# Callbacks in Flutter Cartesian Chart
 
-This document describes the callbacks available for the Cartesian chart
+This document describes the callbacks available for the Cartesian chart.
 
 ## onTooltipRender
 
@@ -556,7 +556,7 @@ Triggers when tapping the axis label. The  [`onAxisLabelTapped`](https://pub.dev
 {% endhighlight %}
 {% endtabs %}
 
-#### See Also
+### See Also
 
 * [Navigating to an hyperlink on axis label tap](https://support.syncfusion.com/kb/article/10658/how-to-navigate-to-a-hyperlink-when-clicked-on-chart-axis-label-sfcartesianchart).
 
@@ -1053,7 +1053,7 @@ Triggers while swiping on the plot area. Whenever the swiping happens on th
 {% endhighlight %}
 {% endtabs %}
 
-#### See Also
+### See Also
 
 * [Achieve sliding viewport functionality using Cartesian chart](https://support.syncfusion.com/kb/article/11332/how-to-achieve-sliding-viewport-functionality-using-cartesian-chart-sfcartesianchart).
 
@@ -1198,7 +1198,7 @@ Defaults to `null`.
 The [`onCreateShader`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/CartesianSeries/onCreateShader.html)  provides options to get the outer rect, inner rect, and render type (either series or legend) using [`ChartShaderDetails`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ChartShaderDetails-class.html)  class.
 
 The onCreateShader callback is called once while rendering
-the data points and legend. For further reference on this callback, Check the [`Gradient fill`](https://help.syncfusion.com/flutter/cartesian-charts/series-customization#gradient-fill) section.
+the data points and legend. For further reference on this callback, Check the [`Gradient fill`](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/series-customization#gradient-fill) section.
 
 {% tabs %}
 {% highlight dart %}
@@ -1287,7 +1287,7 @@ Defaults to `null`.
 {% endhighlight %}
 {% endtabs %}
 
-#### See Also
+### See Also
 
 * [Format the date-time axis labels in Cartesian chart](https://support.syncfusion.com/kb/article/11396/how-to-format-the-date-time-axis-labels-in-cartesian-chart-sfcartesianchart).
 
@@ -1368,7 +1368,7 @@ Triggers while rendering the multi-level labels. Text and text styles such as co
 {% endhighlight %}
 {% endtabs %}
 
-#### See Also
+### See Also
 
 * [Customize the tooltip using its callback event](https://support.syncfusion.com/kb/article/9958/how-to-customize-the-tooltip-using-callback-events-sfcartesianchart).
 
@@ -1380,4 +1380,4 @@ Triggers while rendering the multi-level labels. Text and text styles such as co
 
 * [To Synchronize panning in multiple charts](https://support.syncfusion.com/kb/article/9939/how-to-synchronize-panning-in-multiple-charts-sfcartesianchart).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

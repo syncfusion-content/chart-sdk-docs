@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Gauge Appearance in ASP.NET Core Circular Gauge Control | Syncfusion
+title: Appearance in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge Appearance in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge Appearance
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Appearance in Circular Gauge Control
+# Appearance in ASP.NET Core Circular Gauge
 
 ## Gauge Title
 
@@ -62,9 +61,6 @@ Using [background](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-appearance/area-customization/tagHelper %}
 {% endhighlight %}
-<!-- {% highlight c# tabtitle="Area-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-appearance/area-customization/area-customization.cs %}
-{% endhighlight %} -->
 {% endtabs %}
 
 
@@ -77,9 +73,6 @@ You can set margin for gauge from its container through [margin](https://help.sy
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-appearance/margin/tagHelper %}
 {% endhighlight %}
-<!-- {% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/circular-gauge/gauge-appearance/margin/margin.cs %}
-{% endhighlight %} -->
 {% endtabs %}
 
 

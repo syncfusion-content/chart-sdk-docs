@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Color Mapping in Syncfusion ASP.NET MVC Maps Component
+title: Color Mapping in Syncfusion ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Color Mapping in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Color Mapping
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Color Mapping in ASP.NET MVC Maps Component
+# Color Mapping in ASP.NET MVC Maps
 
 Color mapping is used to customize the shape colors based on the given values. It has three types.
 
