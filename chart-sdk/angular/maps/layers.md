@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Layers in Angular Maps component | Syncfusion
+title: Layers in Angular Maps | Syncfusion
 description: Learn here all about Layers in Syncfusion Angular Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Layers 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Layers in Angular Maps component
+# Layers in Angular Maps
 
 Layers are the fundamental building blocks of the Maps component. Each layer can display shape data from GeoJSON files or map providers. The Maps component renders content through the [`layers`](https://ej2.syncfusion.com/angular/documentation/api/maps#layers) property, and multiple layers can be added to create rich, layered map visualizations.
 

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Column Chart in JavaScript Charts | Syncfusion
-description: Learn here all about Column in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+description: Learn here all about Column in Syncfusion JavaScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Column 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -91,7 +90,7 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
 
 **Border**
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the column series.
+Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dash array of the column series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

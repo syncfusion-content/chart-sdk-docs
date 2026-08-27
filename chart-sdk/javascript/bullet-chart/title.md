@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Title in JavaScript Bullet chart control | Syncfusion
-description: Learn here all about Title in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
+title: Title and Subtitle in JavaScript Bullet Chart | Syncfusion
+description: Learn how to add a title and subtitle to the Syncfusion JavaScript Bullet Chart and customize their text styles.
 platform: chart-sdk
-control: Title 
-publishingplatform: chart-sdk
+control: Bullet Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Title in JavaScript Bullet chart control
+# Title in JavaScript Bullet Chart
 
 ## Title
 

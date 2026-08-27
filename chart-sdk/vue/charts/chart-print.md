@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart print in Vue Chart component | Syncfusion
-description: Learn here all about Chart print in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
+title: Print and Export in Vue Charts | Syncfusion
+description: Learn how to print Syncfusion Vue Charts with ease, customize print settings, and generate high-quality chart outputs for reporting.
 control: Chart print 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart print in Vue Chart component
+# Print and Export in Vue Charts
 
 ## Print
 

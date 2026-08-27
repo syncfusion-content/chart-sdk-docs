@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Title in Angular Bullet chart component | Syncfusion
+title: Title and Subtitle in Angular Bullet Chart | Syncfusion
 description: Learn here all about Title in Syncfusion Angular Bullet chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title 
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Title in Angular Bullet chart component
+# Title and Subtitle in Angular Bullet Chart
 
 ## Title
 

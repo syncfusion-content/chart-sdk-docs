@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Scatter Chart in JavaScript Charts | Syncfusion
-description: Learn here all about Scatter in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+description: Learn here all about Scatter in Syncfusion JavaScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Scatter 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -94,7 +93,7 @@ The [shape](../../api/chart/markerSettings#shape) property allows you to customi
 
 **Border**
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the scatter series.
+Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dash array of the scatter series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

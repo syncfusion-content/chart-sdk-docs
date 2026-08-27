@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Bing maps in JavaScript Maps component | Syncfusion
-description: Learn here all about Bing maps in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Bing Maps in JavaScript Maps | Syncfusion
+description: Integrate Microsoft Bing Maps as a tile provider in JavaScript Maps to display aerial imagery, road maps, and themed canvas map content.
 platform: chart-sdk
 control: Bing maps 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Bing Maps integration in JavaScript Maps component
+# Bing Maps integration in JavaScript Maps
 
 Bing Maps is an online map service provider from Microsoft. Similar to OSM, it provides map tile images based on requests and combines those images into a single one to display the map area. Bing Maps offers various map styles including aerial imagery, road maps, and different canvas themes.
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Ej1 api migration in JavaScript Treemap control | Syncfusion
-description: Learn here all about Ej1 api migration in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Ej1 api migration in JavaScript TreeMap | Syncfusion
+description: Learn here all about Ej1 api migration in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Ej1 api migration 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Ej1 api migration in JavaScript Treemap control
+# Ej1 api migration in JavaScript TreeMap
 
 This article describes the API migration process of Accordion component from Essential<sup style="font-size:70%">&reg;</sup> JS 1 to Essential<sup style="font-size:70%">&reg;</sup> JS 2.
 

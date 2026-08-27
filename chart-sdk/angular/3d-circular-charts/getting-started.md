@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started with Angular 3D Circular Chart component | Syncfusion
+title: Getting Started with Angular 3D Circular Chart | Syncfusion
 description:  Check out and learn about Getting Started with Angular 3D Circular Chart component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with Angular 3D Circular Chart Component
+# Getting Started with Angular 3D Circular Chart
 
 This section explains the steps required to create a simple [Angular 3D Circular Chart](https://www.syncfusion.com/angular-components/angular-3d-circular-chart) and demonstrates the basic usage of the Angular 3D Circular Chart component.
 

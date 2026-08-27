@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Accessibility in Vue 3D Chart component | Syncfusion
-description: Learn here all about accessibility in Syncfusion 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Accessibility in Vue 3D Charts | Syncfusion
+description: Learn how to implement accessibility features in Syncfusion 3D Charts to improve usability, navigation, and support for assistive technologies.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in Vue 3D Chart component
+# Accessibility in Vue 3D Charts
 
 Accessibility is achieved in the 3D chart component through WAI-ARIA standard and keyboard navigation. The 3D chart features can be effectively accessed through assistive technologies such as screen readers.
 

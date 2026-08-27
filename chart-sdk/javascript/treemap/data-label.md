@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data label in JavaScript Treemap control | Syncfusion
-description: Learn here all about Data label in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Data label in JavaScript TreeMap | Syncfusion
+description: Learn here all about Data label in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data label 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data label in JavaScript Treemap control
+# Data label in JavaScript TreeMap
 
 Data Labels are used to identify the name of items or groups in the TreeMap component. Data Labels will be shown by specifying the data source properties in the `labelPath` of the `leafItemSettings`.
 
