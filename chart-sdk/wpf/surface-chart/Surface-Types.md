@@ -16,7 +16,7 @@ The Essential Surface Chart provides the following types to plot three-dimension
 * Contour 
 * WireframeContour
 
-### Surface
+## Surface
 
 Surface charts are used to explore the relationship between three-dimensional data. 
 
@@ -90,7 +90,7 @@ public class DataViewModel
 ![surface_chart_img8](surface_chart_images/surface_chart_img8.jpeg)
 
 
-### WireframeSurface
+## WireframeSurface
 
 You can draw the wireframe or mesh for the surface chart.
 
@@ -123,7 +123,7 @@ grid.Children.Add(chart);
 
 ![surface_chart_img9](surface_chart_images/surface_chart_img9.jpeg)
 
-### Contour
+## Contour
 
 Viewing the surface chart from the top is called a contour. It is a graphical technique that represents the three-dimensional surface in a two-dimensional format.  
 
@@ -186,7 +186,7 @@ The following code specifies the view model data bound to the chart for contour 
 ![surface_chart_img10](surface_chart_images/surface_chart_img10.jpeg)
 
 
-### WireframeContour
+## WireframeContour
 
 You can draw the wireframe or mesh for the contour chart.
 
