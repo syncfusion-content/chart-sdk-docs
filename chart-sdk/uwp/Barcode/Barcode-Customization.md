@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Customization in UWP Barcode | Syncfusion®
-description: Customization in the WPF Barcode allows you to modify appearance, colors, sizing, labels, and styling to meet application requirements.
+description: Customization in the UWP Barcode allows you to modify appearance, colors, sizing, labels, and styling to meet application requirements.
 platform: chart-sdk
 control: SfBarcode
 documentation: ug
