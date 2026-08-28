@@ -9,7 +9,7 @@ documentation: ug
 
 # Customization in Flutter Barcode Generator (SfBarcodeGenerator)
 
-To get started with the Flutter Barcode Generator and set up the package, refer to the [Getting Started with Flutter Barcode Generator](https://help.syncfusion.com/flutter/barcode/getting-started) documentation.
+To get started with the Flutter Barcode Generator and set up the package, refer to the [Getting Started with Flutter Barcode Generator](https://help.syncfusion.com/chart-sdk/flutter/barcode-generator/getting-started) documentation.
 
 ## Text customization 
 

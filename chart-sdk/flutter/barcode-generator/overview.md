@@ -11,7 +11,7 @@ documentation: ug
 
 The Syncfusion<sup>&reg;</sup> Flutter Barcode Generator is a data visualization widget designed to generate and display data in a machine-readable format. It offers an efficient way to encode text using supported symbology types.
 
-To get started with the Flutter Barcode Generator, refer to the [Getting Started with Flutter Barcode Generator](https://help.syncfusion.com/flutter/barcode/getting-started) documentation.
+To get started with the Flutter Barcode Generator, refer to the [Getting Started with Flutter Barcode Generator](https://help.syncfusion.com/chart-sdk/flutter/barcode-generator/getting-started) documentation.
 
 ![Overview Flutter Barcode Generator](images/getting-started/overview1.jpg)
 
