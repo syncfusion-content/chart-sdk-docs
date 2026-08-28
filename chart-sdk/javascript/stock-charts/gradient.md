@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Gradient in JavaScript Stock chart control | Syncfusion
-description: Learn here all about Gradient in Syncfusion JavaScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Gradient in JavaScript Stock Chart | Syncfusion
+description: Learn here all about Gradient in Syncfusion JavaScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Gradient
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 <!-- markdownlint-disable MD036 -->
 
-# Gradient in JavaScript Stock chart control
+# Gradient in JavaScript Stock Chart
 
 <!-- markdownlint-disable MD038 -->
 

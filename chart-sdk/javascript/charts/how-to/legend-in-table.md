@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Legend in table in JavaScript Chart control | Syncfusion
-description: Learn here all about Legend in table in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to add legend in table in table in JavaScript Charts | Syncfusion
+description: Learn here all about Legend in table in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Legend in table 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in table in JavaScript Chart control
+# How to add legend in table in table in JavaScript Charts
 
 The `annotation` property is used to add legend in table and the `multiLevelLabels` property is used to customize the axis label in table format.
 

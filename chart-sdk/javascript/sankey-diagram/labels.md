@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Labels in JavaScript Sankey Chart component | Syncfusion
-description: Learn here all about Labels in Syncfusion JavaScript Sankey Chart component of Syncfusion Essential JS 2 and more.
-control: Labels
+title: Labels in JavaScript Sankey Diagram | Syncfusion
+description: Learn here all about Labels in Syncfusion JavaScript Sankey Diagram of Syncfusion Essential JS 2 and more.
+control: Sankey Diagram
 platform: chart-sdk
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Labels in JavaScript Sankey Chart component
+# Labels in JavaScript Sankey Diagram
 
 Labels display descriptive text associated with nodes in the Sankey Chart, making the diagram more understandable and interpretable. The Sankey Chart provides comprehensive label customization options including visibility control, font styling, individual label configuration, and dynamic rendering events.
 

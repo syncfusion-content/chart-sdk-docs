@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Internationalization in JavaScript Treemap control | Syncfusion
-description: Learn here all about Internationalization in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Internationalization in JavaScript TreeMap | Syncfusion
+description: Learn here all about Internationalization in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Internationalization 
-publishingplatform: chart-sdk
+control: TreeMap
+
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Internationalization in JavaScript Treemap control
+# Internationalization in JavaScript TreeMap
 
 The TreeMap control supports internationalization for the following elements:
 

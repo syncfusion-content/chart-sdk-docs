@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sorting in Windows Forms Pivot Chart control | Syncfusion
-description: Learn about Sorting support in Syncfusion® Windows Forms Pivot Chart control, its elements and more details.
+title: Sorting in Windows Forms Pivot Chart | Syncfusion®
+description: Sorting in the Windows Forms Pivot Chart enables data to be arranged in ascending or descending order for effective analysis and visualization.
 platform: chart-sdk
 control: PivotChart
 documentation: ug
@@ -76,9 +76,9 @@ There are two events available in both `SortedAxis` and `SortedLegends` of the p
 <th>S.No</th><th>Event name</th><th>Details</th><th>Event arguments</th>
 </tr>
 <tr>
-<td>1</td><td>Changing</td><td>Occurs before a property in a nested element or the collection is changed.</td><td><a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.PivotChart.PivotItemSortingEventArgs.html">PivotItemSortingEventArgs</a></td>
+<td>1</td><td>Changing</td><td>Occurs before a property in a nested element or the collection is changed.</td><td><a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.PivotChart.PivotItemSortingEventArgs.html" aria-label="Windows Forms Pivot Chart Changing event PivotItemSortingEventArgs">PivotItemSortingEventArgs</a></td>
 </tr>
-<tr><td>2</td><td>Changed</td><td>Occurs after a property in a nested element or the collection is changed.</td><td><a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.PivotChart.PivotItemSortedEventArgs.html">PivotItemSortedEventArgs</a></td>
+<tr><td>2</td><td>Changed</td><td>Occurs after a property in a nested element or the collection is changed.</td><td><a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.PivotChart.PivotItemSortedEventArgs.html" aria-label="Windows Forms Pivot Chart Changed event PivotItemSortedEventArgs">PivotItemSortedEventArgs</a></td>
 </tr>
 </table>
 

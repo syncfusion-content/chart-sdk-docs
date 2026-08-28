@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Localization in JavaScript Sparkline control | Syncfusion
-description: Learn here all about Localization in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
+title: Localization in JavaScript Sparkline Charts | Syncfusion
+description: Learn here all about Localization in Syncfusion JavaScript Sparkline Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Localization 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Localization in JavaScript Sparkline control
+# Localization in JavaScript Sparkline Charts
 
 The sparkline control supports localization. The default culture for localization is `en-US`. You can change the culture using the `setCulture` method.
 

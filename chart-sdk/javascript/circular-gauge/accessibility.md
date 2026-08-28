@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Accessibility in JavaScript Circular gauge control | Syncfusion
-description: Learn here all about Accessibility in Syncfusion JavaScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Accessibility in JavaScript Circular Gauge | Syncfusion
+description: Learn here all about Accessibility in Syncfusion JavaScript Circular Gauge of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Accessibility 
-publishingplatform: chart-sdk
+control: Circular Gauge 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 
-# Accessibility in JavaScript Circular gauge control
+# Accessibility in JavaScript Circular Gauge
 
 The Circular Gauge control follows commonly used accessibility guidelines and standards, such as [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles).
 

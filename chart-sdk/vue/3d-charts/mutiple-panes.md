@@ -1,23 +1,23 @@
 ---
 layout: post
-title: Multiple panes in Vue 3D Chart component | Syncfusion
-description: Learn here all about multiple panes in Syncfusion 3D Chart component of Syncfusion Essential JS 2 and more.
+title: Multiple Panes in Vue 3D Charts | Syncfusion
+description: Learn how to use multiple panes in Syncfusion 3D Charts to display and compare different data series within a single chart view.
 control: 3D Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Multiple panes in Vue 3D Chart component
+# Multiple Panes in Vue 3D Charts
 
-The chart area can be divided into multiple panes using [`rows`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel/#rows) and [`columns`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel/#columns).
+The chart area can be divided into multiple panes using [`rows`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel#rows) and [`columns`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel#columns).
 
 ## Rows
 
-To split the chart area vertically into number of rows, use [`rows`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel/#rows) property of the 3D chart.
+To split the chart area vertically into number of rows, use [`rows`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel#rows) property of the 3D chart.
 
-* The space for each row can be allocated by using the [`height`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/threeDimensionRowModel/#height) property. The value can be either in percentage or in pixel.
-* To associate a vertical axis to a particular row, specify its index to [`rowIndex`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/axis3DModel/#rowindex) property of the axis.
+* The space for each row can be allocated by using the [`height`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/threeDimensionRowModel#height) property. The value can be either in percentage or in pixel.
+* To associate a vertical axis to a particular row, specify its index to [`rowIndex`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/axis3DModel#rowindex) property of the axis.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -30,7 +30,7 @@ To split the chart area vertically into number of rows, use [`rows`](https://ej2
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/3d-charts/axis/row" %}
 
-For spanning the vertical axis along multiple rows, use [`span`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/axis3DModel/#span) property of an axis.
+For spanning the vertical axis along multiple rows, use [`span`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/axis3DModel#span) property of an axis.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -45,10 +45,10 @@ For spanning the vertical axis along multiple rows, use [`span`](https://ej2.syn
 
 ## Columns
 
-To split the chart area horizontally into number of columns, use [`columns`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel/#columns) property of the 3D chart.
+To split the chart area horizontally into number of columns, use [`columns`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3DModel#columns) property of the 3D chart.
 
-* The space for each column can be allocated by using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/threeDimensionColumnModel/#width) property. The given width can be either in percentage or in pixel.
-* To associate a horizontal axis to a particular column, specify its index to [`columnIndex`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/axis3DModel/#columnindex) property of the axis.
+* The space for each column can be allocated by using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/threeDimensionColumnModel#width) property. The given width can be either in percentage or in pixel.
+* To associate a horizontal axis to a particular column, specify its index to [`columnIndex`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/axis3DModel#columnindex) property of the axis.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -61,7 +61,7 @@ To split the chart area horizontally into number of columns, use [`columns`](htt
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/3d-charts/axis/column" %}
 
-For spanning the vertical axis along multiple column, you can use [`span`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/axis3DModel/#span) property of an axis.
+For spanning the vertical axis along multiple column, you can use [`span`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/axis3DModel#span) property of an axis.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

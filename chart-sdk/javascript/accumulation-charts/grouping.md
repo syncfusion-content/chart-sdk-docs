@@ -1,18 +1,17 @@
 ---
 layout: post
-title: Grouping in JavaScript Accumulation chart control | Syncfusion
-description: Learn here all about Grouping in Syncfusion JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Grouping in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to group data points in the Syncfusion JavaScript Accumulation Charts using the groupTo property.
 platform: chart-sdk
-control: Grouping 
-publishingplatform: chart-sdk
+control: Accumulation Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Grouping in JavaScript Accumulation chart control
+# Grouping in JavaScript Accumulation Charts
 
 You can club/group few points of the series based on
-[`groupTo`](../api/accumulation-chart/accumulationSeries/) property. For example, if the club
+[`groupTo`](../api/accumulation-chart/accumulationSeries) property. For example, if the club
 value is 11, then the points with value less than 11 is grouped together and will be showed as a single
 point with label `others`. The property also takes value in percentage (percentage of total data points value).
 

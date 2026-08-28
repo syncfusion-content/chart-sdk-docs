@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technical indicators in Angular Chart component | Syncfusion
+title: Technical Indicators in Angular Chart | Syncfusion
 description: Learn here all about Technical indicators in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Technical indicators 
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Technical indicators in Angular Chart component
+# Technical Indicators in Angular Chart
 
 A [technical indicator](https://www.syncfusion.com/angular-components/angular-charts) is a mathematical calculation based on historic price, volume or open interest information that aims to forecast financial market direction.
 
@@ -250,7 +250,7 @@ Moving average indicators are used to define the direction of the trend. To rend
 
 **Customization of Technical Indicators**
 
-`stroke`, `stroke-width`, and `color` of signalLine can be customized by using [`fill`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#fill), [`width`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#width) and [`dashArray`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#dasharray) properties. The [`period`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#period) property is used to predict the data forecast calculations. The [`field`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#field) value is used to compare the current price with previous price. It is applicable to Bollingerbands and moving averages. The [`showZones`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#showzones) property is used to show/hide the overBought and overSold regions. It is applicable for RSI and stochastic indicators.
+`stroke`, `stroke-width`, and `color` of signalLine can be customized by using [`fill`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#fill), [`width`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#width) and [`dashArray`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#dasharray) properties. The [`period`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#period) property is used to predict the data forecast calculations. The [`field`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#field) value is used to compare the current price with previous price. It is applicable to BollingerBands and moving averages. The [`showZones`](https://ej2.syncfusion.com/angular/documentation/api/chart/technicalIndicatorModel#showzones) property is used to show/hide the overBought and overSold regions. It is applicable for RSI and stochastic indicators.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

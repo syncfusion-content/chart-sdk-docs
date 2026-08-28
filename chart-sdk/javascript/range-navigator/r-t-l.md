@@ -1,15 +1,14 @@
 ---
 layout: post
-title: R t l in JavaScript Range navigator control | Syncfusion
-description: Learn here all about R t l in Syncfusion JavaScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: R t l in JavaScript Range Selector | Syncfusion
+description: Learn here all about R t l in Syncfusion JavaScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: R t l 
-publishingplatform: chart-sdk
+control: Range Selector
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# R t l in JavaScript Range navigator control
+# R t l in JavaScript Range Selector
 
 The Range Selector supports right-to-left (RTL), which can be enabled with the `enableRtl` property.
 

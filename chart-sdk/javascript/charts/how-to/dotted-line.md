@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Dotted line in JavaScript Chart control | Syncfusion
-description: Learn here all about Dotted line in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to add dotted line in JavaScript Charts | Syncfusion
+description: Learn here all about Dotted line in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Dotted line 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dotted line in JavaScript Chart control
+# How to add dotted line in JavaScript Charts
 
 By using `annotation`, you can add dotted lines in the chart.
 

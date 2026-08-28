@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Box and Whiskerk Chart in JavaScript Charts | Syncfusion
-description: Learn here all about Box and Whisker in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+description: Learn here all about Box and Whisker in Syncfusion JavaScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Box and Whisker 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -94,7 +93,7 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
 
 **Border**
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the box and whisker series.
+Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dash array of the box and whisker series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
