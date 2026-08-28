@@ -170,30 +170,6 @@ The [`seriesRender`](https://ej2.syncfusion.com/angular/documentation/api/chart#
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/charts/series/waterfall-cs7/src/app.component.ts %}
-{% endhighlight %}
-
-{% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/charts/series/waterfall-cs7/src/main.ts %}
-{% endhighlight %}
-
-{% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/chart-sdk/angular/charts/series/waterfall-cs7/src/datasource.ts %}
-{% endhighlight %}
-{% endtabs %}
-  
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/series/waterfall-cs7" %}
-
-### Point render
-
-The [`pointRender`](https://ej2.syncfusion.com/angular/documentation/api/chart#pointrender) event allows you to customize each data point before it is rendered on the chart. The callback receives an `IPointRenderEventArgs` argument that exposes the current `point`, `series`, `fill`, and `border`, plus a `cancel` flag. You can also use this event for per-point corner radius.
-
-```html
-<ejs-chart (pointRender)="onPointRender($event)"></ejs-chart>
-```
-
-{% tabs %}
-{% highlight ts tabtitle="app.component.ts" %}
 {% include code-snippet/chart-sdk/angular/charts/series/waterfall-cs6/src/app.component.ts %}
 {% endhighlight %}
 
@@ -207,6 +183,30 @@ The [`pointRender`](https://ej2.syncfusion.com/angular/documentation/api/chart#p
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/series/waterfall-cs6" %}
+
+### Point render
+
+The [`pointRender`](https://ej2.syncfusion.com/angular/documentation/api/chart#pointrender) event allows you to customize each data point before it is rendered on the chart. The callback receives an `IPointRenderEventArgs` argument that exposes the current `point`, `series`, `fill`, and `border`, plus a `cancel` flag. You can also use this event for per-point corner radius.
+
+```html
+<ejs-chart (pointRender)="onPointRender($event)"></ejs-chart>
+```
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/series/waterfall-cs7/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/series/waterfall-cs7/src/main.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="datasource.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/series/waterfall-cs7/src/datasource.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/series/waterfall-cs7" %}
 
 #### Point corner radius
 
