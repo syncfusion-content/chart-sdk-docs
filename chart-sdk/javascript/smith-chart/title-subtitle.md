@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Title subtitle in JavaScript Smithchart control | Syncfusion
+title: Title and Subtitle in JavaScript Smith Chart | Syncfusion
 description: Learn here all about Title subtitle in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Title subtitle 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title subtitle in JavaScript Smithchart control
+# Title and Subtitle in JavaScript Smith Chart
 
 ## Enable title
 

@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Grouping in Vue Accumulation chart component | Syncfusion
-description: Learn here all about Grouping in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
+title: Grouping in Vue Accumulation Charts | Syncfusion
+description: Learn here all about Grouping in Syncfusion Vue Accumulation Charts of Syncfusion Essential JS 2 and more.
 control: Grouping 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Grouping in Vue Accumulation chart component
+# Grouping in Vue Accumulation Charts
 
-You can club/group few points of the series based on [`groupTo`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/accumulationSeries/#groupto) property. For example, if the club value is 11, then the points with value less than 11 is grouped together and will be showed as a single point with label `others`. The property also takes value in percentage (percentage of total data points value).
+You can club/group few points of the series based on [`groupTo`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/accumulationSeries#groupto) property. For example, if the club value is 11, then the points with value less than 11 is grouped together and will be showed as a single point with label `others`. The property also takes value in percentage (percentage of total data points value).
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -25,7 +25,7 @@ You can club/group few points of the series based on [`groupTo`](https://ej2.syn
 
 ## Broken slice
 
-You can visualize all points available in club/group points by clicking on the grouped point. For example, if 5 points are grouped together it will be showed as a single slice with label `others`. If we click on `others` slice it will explode and broke into 5 seperate slices.
+You can visualize all points available in club/group points by clicking on the grouped point. For example, if 5 points are grouped together it will be showed as a single slice with label `others`. If we click on `others` slice it will explode and broke into 5 separate slices.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

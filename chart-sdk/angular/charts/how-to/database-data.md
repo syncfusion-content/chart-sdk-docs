@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Database data in Angular Chart component | Syncfusion
+title: How to Bind Chart Data from SQL Server in Angular Chart | Syncfusion
 description: Learn here all about Database data in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Database data 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Database data in Angular Chart component
+# How to Bind Chart Data from SQL Server in Angular Chart
 
 * Create the chart data table using a database. You can find the database table below.
 
@@ -50,7 +50,7 @@ export class ChartService {
 
 ```
 
-* Create a function call inside [`ngOnInit()`](https://angular.io/api/core/OnInit#ngOnInit) to fetch the chart data from the service in `app.component.ts` file.
+* Create a function call inside [`ngOnInit()`](https://v17.angular.io/api/core/OnInit#ngOnInit) to fetch the chart data from the service in `app.component.ts` file.
 
 app.component.ts (partial)
 
@@ -93,7 +93,7 @@ import { HttpClientModule } from '@angular/common/http';
 export class AppModule { }
 ```
 
-The Angular [`HttpClient`](https://angular.io/api/common/http/HttpClient) method returns an [`Observable`](https://rxjs.dev/guide/observable).
+The Angular [`HttpClient`](https://v17.angular.io/api/common/http/HttpClient) method returns an [`Observable`](https://rxjs.dev/guide/observable).
 
 chart.service.ts
 

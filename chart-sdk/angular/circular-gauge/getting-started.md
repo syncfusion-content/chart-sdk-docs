@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting started with Angular Circular gauge component | Syncfusion
+title: Getting Started with Angular Circular Gauge | Syncfusion
 description:  Check out and learn about the Getting started with Angular Circular gauge component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Getting Started
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with Angular Circular gauge component
+# Getting Started with Angular Circular Gauge
 
 This article describes the steps to create a simple Circular Gauge and demonstrates its basic usage.
 

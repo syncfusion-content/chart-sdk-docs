@@ -7,7 +7,8 @@ platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
-# Getting Started with the Vue Stock Chart Component in Vue 2
+
+# Getting Started with Vue Stock Chart
 
 This article provides a step-by-step guide for setting up a Vue 2 project using [Vue-CLI](https://cli.vuejs.org) and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Stock Chart component.
 
@@ -57,13 +58,13 @@ Select **Default ([Vue 2] babel, eslint)** when prompted.
 
 ![Vue 2 project](../appearance/images/vue2-terminal.png)
 
-Once the `quickstart` project is set up with default settings, navigate to the project directory:
+Once the `quick start` project is set up with default settings, navigate to the project directory:
 
 ```bash
 cd quickstart
 ```
 
-All subsequent commands should be run from the `quickstart` directory. Now, proceed to add Syncfusion<sup style="font-size:70%">&reg;</sup> packages to the project.
+All subsequent commands should be run from the `quick start` directory. Now, proceed to add Syncfusion<sup style="font-size:70%">&reg;</sup> packages to the project.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Packages
 

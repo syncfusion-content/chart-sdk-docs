@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Grid data chart in JavaScript Chart control | Syncfusion
-description: Learn here all about Grid data chart in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to visualize grid records in JavaScript Charts | Syncfusion
+description: Learn here all about Grid data chart in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Grid data chart 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Grid data chart in JavaScript Chart control
+# How to visualize grid records in JavaScript Charts
 
 You can visualize the data that returned by grid in chart.
 
@@ -23,7 +22,7 @@ Initialize the grid with datasource.
 
 By using the grid’s `actionComplete` event and `getCurrentViewRecords` method, you can get the current page records.
 
-By using the grid’s `databound` event, you can update the current page records into the chart’s datasource and visualize the grid data in chart.
+By using the grid’s [`dataBound`](https://ej2.syncfusion.com/documentation/api/grid/index-default#databound) event, you can update the current page records into the chart’s datasource and visualize the grid data in chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

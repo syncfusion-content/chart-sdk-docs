@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Dynamic chart in JavaScript Chart control | Syncfusion
-description: Learn here all about Dynamic chart in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to create a dynamic chart in JavaScript Charts | Syncfusion
+description: Learn here all about Dynamic chart in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Dynamic chart 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Dynamic chart in JavaScript Chart control
+# How to create a dynamic chart in JavaScript Charts
 
 By using html button, you can add the chart dynamically when click the button.
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Stacking total in JavaScript Chart control | Syncfusion
-description: Learn here all about Stacking total in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+title: How to display stacking series total in JavaScript Charts | Syncfusion
+description: Learn here all about Stacking total in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stacking total 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Stacking total in JavaScript Chart control
+# How to display stacking series total in JavaScript Charts
 
 By using the `annotation`, you can show any element in desired view.
 
@@ -17,7 +16,7 @@ To show the total value in data points, follow the given steps:
 
 **Step 1**:
 
-Define annotation for each x point in chart, now change the annotation value in chart by using the [`annotationRender`](../../api/chart/chartModel/#annotationrender) event. In this event, assign the stacked value of the last series to the annotation to show the total value of the
+Define annotation for each x point in chart, now change the annotation value in chart by using the [`annotationRender`](../../api/chart/chartModel#annotationrender) event. In this event, assign the stacked value of the last series to the annotation to show the total value of the
 stacking series.
 
 {% tabs %}

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Customization in JavaScript Maps component | Syncfusion
-description: Explore here all about Customization in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Customization in JavaScript Maps | Syncfusion
+description: Explore here all about Customization in Syncfusion JavaScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Customization 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Customization in the JavaScript Maps component
+# Customization in the JavaScript Maps
 
 The Maps component provides various options to customize its appearance, including size, title, theme, container styling, shape properties, and projection type. This section explains how to configure these customization options.
 

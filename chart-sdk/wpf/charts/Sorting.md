@@ -1,24 +1,24 @@
 ---
 layout: post
-title: Sorting in WPF Charts control | Syncfusion
-description: Learn here all about Sorting support in Syncfusion® WPF Charts (SfChart) control, its elements and more details.
+title: Sorting in WPF Charts | Syncfusion®
+description: Sorting in the WPF Chart arranges data points based on specified values, enabling clearer visualization and comparison of chart data.
 platform: chart-sdk
 control: SfChart
 documentation: ug
 ---
 
-# Sorting in WPF Charts (SfChart)
+# Sorting in WPF Charts
 
 Chart provides the support for sorting the data point either in ascending or descending based on X or Y axis.
 
-### Enable Sorting
+## Enable Sorting
 This [`IsSortData`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_IsSortData) property used to enable the sorting in series.
 
-### Changing sorting direction
+## Changing sorting direction
 
 The [`SortDirection`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_SortDirection) property defines the direction of sorting either in [`Ascending`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.Direction.html) or [`Descending`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.Direction.html) based on x or y value.
 
-### Changing sorting axis
+## Changing sorting axis
 
 This [`SortBy`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_SortBy) property decides whether sorting should be done based on [`X`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SortingAxis.html) or [`Y`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SortingAxis.html) values.
 

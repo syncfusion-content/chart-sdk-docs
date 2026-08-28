@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Accessibility in Vue Chart component | Syncfusion
-description: Learn here all about Accessibility in Syncfusion Vue Chart component of Syncfusion Essential JS 2 and more.
+title: Accessibility in Vue Charts | Syncfusion
+description: Learn how to implement accessibility features in Syncfusion Vue Charts, including keyboard navigation, screen reader support, and ARIA attributes.
 control: Accessibility 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in Vue Chart component
+# Accessibility in Vue Charts
 
 The Chart component follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria/#roles) roles.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DateTime axis in Angular Chart component | Syncfusion
+title: DateTime Axis in Angular Chart | Syncfusion
 description: Learn here all about Date time axis in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Date time axis 
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Date time axis in Angular Chart component
+# DateTime Axis in Angular Chart
 
 ## DateTime Axis
 
