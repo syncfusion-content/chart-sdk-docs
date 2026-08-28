@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Live chart in Angular Chart component | Syncfusion
+title: How to Live Chart in Angular Chart | Syncfusion
 description: Learn here all about Live chart in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Live chart 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Live chart in Angular Chart component
+# How to Live Chart in Angular Chart
 
 You can update a chart with live data by using the `setInterval` method.
 

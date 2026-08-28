@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Render modes in Angular Chart component | Syncfusion
+title: Rendering Modes in Angular Chart | Syncfusion
 description: Learn here all about Render modes in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Render modes 
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Render modes in Angular Chart component
+# Rendering Modes in Angular Chart
 
 Chart supports two rendering modes:
 

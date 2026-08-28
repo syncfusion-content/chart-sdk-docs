@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Data binding in JavaScript Bullet chart control | Syncfusion
-description: Learn here all about Data binding in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
+title: Working with Data in JavaScript Bullet Chart | Syncfusion
+description: Learn how to bind local and remote data to the Syncfusion JavaScript Bullet Chart using valueField and targetField.
 platform: chart-sdk
 control: Data binding 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Data binding in JavaScript Bullet chart control
+# Working with Data in JavaScript Bullet Chart
 
 The `dataSource` property accepts a collection of values as input that helps to display measures, and compares them to a target bar. To display the actual and target bar, specify the property from the datasource into the `valueField` and `targetField` respectively.
 

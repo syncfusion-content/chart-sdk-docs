@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Marker in JavaScript Sparkline control | Syncfusion
-description: Learn here all about Marker in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
+title: Marker in JavaScript Sparkline Charts | Syncfusion
+description: Learn here all about Marker in Syncfusion JavaScript Sparkline Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Marker 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Marker in JavaScript Sparkline control
+# Marker in JavaScript Sparkline Charts
 
 This section explains how to add markers to the sparklines.
 

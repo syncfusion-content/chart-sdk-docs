@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Palettes in WPF Surface Chart control | Syncfusion
-description: Learn here all about Palettes support in Syncfusion WPF Surface Chart (SfSurfaceChart) control and more.
+title: Palettes in WPF Surface Chart | Syncfusion®
+description: Palettes in the WPF Surface Chart allow you to customize color schemes for surface data, improving visualization and data interpretation.
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
 ---
 
-# Palettes in WPF Surface Chart (SfSurfaceChart)
+# Palettes in WPF Surface Chart 
 
 [WPF Surface Chart](https://www.syncfusion.com/wpf-controls/surface-chart) provides options to apply different kinds of palettes.
 
@@ -26,7 +26,7 @@ The predefined palettes include the following:
 * LightCandy
 * SandyBeach
 
-### Applying predefined brushes
+## Applying predefined brushes
 
 Using the above palettes, you can apply a set of predefined brushes to the surface chart as shown in the following code example. 
 
@@ -52,7 +52,7 @@ grid.Children.Add(chart);
 ![surface_chart_img12](surface_chart_images/surface_chart_img12.jpeg)
 
 
-### Applying custom brushes
+## Applying custom brushes
 
 The custom palette option enables you to define your own color brushes for the Palette using the ColorModel property, as shown in the following code example.
 

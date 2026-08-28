@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Working with data in JavaScript Smithchart control | Syncfusion
+title: Working with Data in JavaScript Smith Chart | Syncfusion
 description: Learn here all about Working with data in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Working with data 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Working with data in JavaScript Smithchart control
+# Working with Data in JavaScript Smith Chart
 
 Smithchart can visualise the data bound from local data. The data you bind for the smithchart, should be an array of object and that should contain the field resistance and rectangle. This should be bind to points or datasource in the smithchart.
 

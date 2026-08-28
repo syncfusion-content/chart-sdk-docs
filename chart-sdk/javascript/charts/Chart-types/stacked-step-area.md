@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Stacked Step Area Chart in JavaScript Charts | Syncfusion
-description: Learn here all about Stacked Step Area in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+description: Learn here all about Stacked Step Area in Syncfusion JavaScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stacked Step Area 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -91,7 +90,7 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
 
 **Border**
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the stacked step area series.
+Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dash array of the stacked step area series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

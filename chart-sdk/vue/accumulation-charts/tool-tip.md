@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tooltip in Vue Accumulation chart component | Syncfusion
-description: Learn here all about Tooltip in Syncfusion Vue Accumulation chart component of Syncfusion Essential JS 2 and more.
+title: Tooltip in Vue Accumulation Charts | Syncfusion
+description: Learn here all about Tooltip in Syncfusion Vue Accumulation Charts of Syncfusion Essential JS 2 and more.
 control: Tooltip 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Tooltip in Vue Accumulation chart component
+# Tooltip in Vue Accumulation Charts
 
 Tooltip for the accumulation chart can be enabled by using the [`enable`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/tooltipSettingsModel#enable) property.
 

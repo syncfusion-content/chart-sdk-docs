@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Scale Label settings in Windows Forms Bullet Graph | Syncfusion®
-description: Learn about Scale Label settings support in Syncfusion® Windows Forms Bullet Graph control and more details.
+title: Scale Label Settings in Windows Forms Bullet Graph | Syncfusion®
+description: Scale label settings in the Windows Forms Bullet Graph enable customization of label content, formatting, positioning, and appearance.
 platform: chart-sdk
 control: Bullet Graph
 documentation: ug
@@ -10,11 +10,11 @@ documentation: ug
 
 # Scale Label Settings in Windows Forms Bullet Graph
 
-### Labels:
+## Labels:
 
 A quantitative scale label specifies the numeric value according to the major ticks in the range of the scale.
 
-### Customizing Labels:
+## Customizing Labels:
 
 The label's offset is changed by using the [LabelOffset](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.BulletGraph.BulletGraph.html#Syncfusion_Windows_Forms_BulletGraph_BulletGraph_LabelOffset) property. The foreground of the label is customized by setting [LabelStroke](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.BulletGraph.BulletGraph.html#Syncfusion_Windows_Forms_BulletGraph_BulletGraph_LabelStroke). By setting the [LabelFontSize](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.BulletGraph.BulletGraph.html#Syncfusion_Windows_Forms_BulletGraph_BulletGraph_LabelFontSize) property, the font size of the labels is modified.
 
@@ -54,7 +54,7 @@ Me.Controls.Add(bullet)
 
 ![WinForms Bullet Graph label customization](Features_images/Features_img11.png)
 
-### Label Position
+## Label Position
 
 The labels in the scale are placed above or below the qualitative ranges by choosing the following options available in the [LabelPosition](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.BulletGraph.BulletGraph.html#Syncfusion_Windows_Forms_BulletGraph_BulletGraph_LabelPosition) property.
 
@@ -90,5 +90,3 @@ Me.Controls.Add(bullet)
 {% endtabs %}
 
 ![WinForms Bullet Graph label position](Features_images/Features_img12.png)
-
-

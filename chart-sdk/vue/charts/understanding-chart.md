@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding Vue Chart component | Syncfusion
+title: Understanding Vue Chart | Syncfusion
 description: Explore and understand the Syncfusion Vue Chart component in Essential JS 2 and discover its powerful features.
 control: Understanding
 platform: chart-sdk
@@ -8,13 +8,13 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Understanding of Vue Chart
+# Understanding Vue Chart
 
 The [Vue Charts](https://www.syncfusion.com/vue-components/vue-charts) component is a versatile visualization tool that presents data using a wide range of graphical formats. Each chart is composed of essential elements—such as the title, series, tooltip, legend, and axes—that work together to provide clear, interactive, and meaningful insights. Understanding these elements helps in configuring and customizing charts for various analytical needs.
 
 The following image highlights the primary elements of a chart:
 
-<img src="../images/chart_elements.png" alt="Annotated visual showing the main elements of a Vue Chart component, including the title, series area, axes, legend, and tooltip" />
+<img src="../images/chart_elements.png" alt="Annotated visual showing the main elements of a Vue Chart, including the title, series area, axes, legend, and tooltip" />
 
 ## Title
 

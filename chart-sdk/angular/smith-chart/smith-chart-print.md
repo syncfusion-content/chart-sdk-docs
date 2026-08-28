@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Smith chart print in Angular Smithchart component | Syncfusion
+title: Smith Chart Print in Angular Smith Chart | Syncfusion
 description: Learn here all about Smith chart print in Syncfusion Angular Smithchart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smith chart print 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Smith chart print in Angular Smithchart component
+# Smith Chart Print in Angular Smith Chart
 
 ## Print
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sparkline types in Angular Sparkline component | Syncfusion
+title: Sparkline Types in Angular Sparkline | Syncfusion
 description: Learn here all about Sparkline types in Syncfusion Angular Sparkline component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Sparkline types 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Sparkline types in Angular Sparkline component
+# Sparkline Types in Angular Sparkline
 
 Different types of shapes can be used to represent the sparkline. You can change the sparkline type by setting the type property. Sparkline supports the following types:
 

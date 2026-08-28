@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Azure maps in JavaScript Maps component | Syncfusion
-description: Learn here all about Azure maps in Syncfusion JavaScript Maps component of Syncfusion Essential JS 2 and more.
+title: Azure Maps in JavaScript Maps | Syncfusion
+description: Add Microsoft Azure Maps as a tile provider in JavaScript Maps to display satellite imagery, road maps, and terrain views with global coverage.
 platform: chart-sdk
 control: Azure maps 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Azure Maps integration in JavaScript Maps component
+# Azure Maps integration in JavaScript Maps
 
 Azure Maps is an online map service provider from Microsoft. Similar to OSM and Bing Maps, it provides map tile images based on requests and combines them to display the map area. Azure Maps offers various map styles including satellite imagery, road maps, and terrain views with global coverage.
 
@@ -23,7 +22,7 @@ Before using Azure Maps with the Maps component, the following prerequisites mus
 
 To obtain an Azure Maps subscription key, follow the steps outlined in the [Azure Maps authentication documentation](https://docs.microsoft.com/en-us/azure/azure-maps/how-to-manage-authentication). The subscription key must be included in all API requests to authenticate and access Azure Maps services.
 
->Refer to [Azure Maps Licensing](https://azure.microsoft.com/en-in/support/legal/) for terms of use and pricing information.
+>Refer to [Azure Maps Licensing](https://azure.microsoft.com/en-in/support/legal) for terms of use and pricing information.
 
 ## Adding Azure Maps
 
