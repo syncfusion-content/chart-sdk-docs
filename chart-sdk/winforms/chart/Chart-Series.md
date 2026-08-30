@@ -8370,7 +8370,7 @@ You can set the co-ordinates (XValue and the YValue property), symbols and their
 
 ![Chart Series](Chart-Series_images/Chart-Series_img149.jpeg)
 
-#### Programmatically
+### Programmatically
 
 * Creating and Customizing the Custom Point.
 
@@ -8536,7 +8536,7 @@ A sample demonstrating all the custom point types is available in our installati
 
 ..\My Documents\Syncfusion\EssentialStudio\Version Number\Windows\Chart.Windows\Samples\2.0\Chart Series\Chart Custom Points
 
-### Custom Point in Multiple Axes
+## Custom Point in Multiple Axes
 
 The custom points for the Secondary axis can be achieved by assigning the Series Index for the ChartCoordinates type.
 
