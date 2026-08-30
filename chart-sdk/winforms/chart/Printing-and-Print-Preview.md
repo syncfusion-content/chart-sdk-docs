@@ -42,6 +42,7 @@ printPreviewDialog1.Document = Me.chartControl1.PrintDocument
 printPreviewDialog1.ShowDialog()
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart Print](Printing-and-Print-Preview_images/Printing-and-Print-Preview_img1.jpeg)
@@ -63,6 +64,7 @@ this.chartControl1.PrintDocument.Print();
 Me.chartControl1.PrintDocument.Print()
 
 {% endhighlight %}
+
 {% endtabs %}
 
 You can also specify if you want to print the chart in Color or GrayScale using [PrintColorMode](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html#Syncfusion_Windows_Forms_Chart_ChartControl_PrintColorMode) property.
@@ -98,6 +100,7 @@ this.chartControl1.PrintColorMode = ChartPrintColorMode.GrayScale;
 Me.chartControl1.PrintColorMode = ChartPrintColorMode.GrayScale
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ## Automatic GrayScale Handling
@@ -114,7 +117,9 @@ A sample illustrating the printing features is available in the below location.
 
 [ShowToolBar](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html#Syncfusion_Windows_Forms_Chart_ChartControl_ShowToolbar) property should be set to true to display a toolbar in the Chart. You can show or hide the toolbar while printing a Chart using [PrintToolBar](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartPrintDocument.html#Syncfusion_Windows_Forms_Chart_ChartPrintDocument_PrintToolBar) property. 
 
-{% tabs %}  {% highlight c# %}
+{% tabs %}  
+
+{% highlight c# %}
 
 chartControl1.ShowToolbar = true;
 
@@ -129,4 +134,5 @@ chartControl1.ShowToolbar = True
 chartControl1.PrintDocument.PrintToolBar = True
 
 {% endhighlight %}
+
 {% endtabs %}
