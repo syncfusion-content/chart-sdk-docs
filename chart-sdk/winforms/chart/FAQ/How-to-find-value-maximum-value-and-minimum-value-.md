@@ -95,7 +95,7 @@ Dim dp4 As ChartPoint = Me.chartControl1.Series(0).Summary.FindValue(70000, "Y",
 {% endtabs %}
 
 
-#### FindMaximumValue
+## FindMaximumValue
 
 _Properties_
 
@@ -162,7 +162,7 @@ Dim dp4 As ChartPoint = Me.chartControl1.Series[0].Summary.FindMaxValue("Y", ref
 
 {% endtabs %}
 
-#### FindMinimumValue
+## FindMinimumValue
 
 _Properties_
 
