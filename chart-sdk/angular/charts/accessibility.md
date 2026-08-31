@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility in Angular Chart component | Syncfusion
+title: Accessibility in Angular Charts | Syncfusion
 description: Learn here all about Accessibility in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in Angular Chart component
+# Accessibility in Angular Charts
 
 The Chart component follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 
@@ -139,5 +139,5 @@ The accessibility compliance of the Chart component is shown in the following sa
 
 * [Accessibility in Angular components](../common/accessibility)
 * [Getting Started with Angular Chart](../chart/getting-started)
-* [Legend in Angular Chart](../chart/legend)
-* [Chart Events in Angular Chart](../chart/chart-events)
+* [Legend in Angular Charts](../chart/legend)
+* [Chart Events in Angular Charts](../chart/chart-events)

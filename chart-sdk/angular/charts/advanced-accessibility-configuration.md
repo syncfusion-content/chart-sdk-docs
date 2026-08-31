@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility customization in Angular Chart component | Syncfusion
+title: Accessibility customization in Angular Charts | Syncfusion
 description: Learn here all about Accessibility customization in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility customization
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility customization in Angular Chart component
+# Accessibility customization in Angular Charts
 
 The [Angular Chart](https://www.syncfusion.com/angular-components/angular-charts) component visualizes data graphically and provides accessibility customization options to improve usability for people with disabilities. This section describes the accessibility attributes available for the Chart component.
 
@@ -120,7 +120,7 @@ The [`annotations`](https://ej2.syncfusion.com/angular/documentation/api/chart#a
 
 ## Trendlines
 
-The [`trendlines`](https://ej2.syncfusion.com/angular/documentation/api/chart#trendlines) property allows you to display trends in the data. For more information on configuring trendlines, see the [Trendlines in Angular Chart](../chart/chart-elements/trend-lines) feature page. The following [`accessibility`](https://ej2.syncfusion.com/angular/documentation/api/chart/trendlineModel#accessibility) properties in [`trendlines`](https://ej2.syncfusion.com/angular/documentation/api/chart#trendlines) can be customized for accessibility:
+The [`trendlines`](https://ej2.syncfusion.com/angular/documentation/api/chart#trendlines) property allows you to display trends in the data. For more information on configuring trendlines, see the [Trendlines in Angular Charts](../chart/chart-elements/trend-lines) feature page. The following [`accessibility`](https://ej2.syncfusion.com/angular/documentation/api/chart/trendlineModel#accessibility) properties in [`trendlines`](https://ej2.syncfusion.com/angular/documentation/api/chart#trendlines) can be customized for accessibility:
 
 * [`accessibilityDescription`](https://ej2.syncfusion.com/angular/documentation/api/chart/accessibilitymodel#accessibilitydescription) - Provides a text description for the trendline, enhancing support for screen readers.
 * [`accessibilityRole`](https://ej2.syncfusion.com/angular/documentation/api/chart/accessibilitymodel#accessibilityrole) - Specifies the role of the trendline, helping screen readers to identify the element appropriately.
@@ -141,7 +141,7 @@ The [`trendlines`](https://ej2.syncfusion.com/angular/documentation/api/chart#tr
 
 ## Zooming
 
-The [`zoomSettings`](https://ej2.syncfusion.com/angular/documentation/api/chart#zoomsettings) property allows you to adjust the chart's zooming capability. For complete setup, see the [Zooming in Angular Chart](../chart/chart-interactive/zooming) feature page. The following [`accessibility`](https://ej2.syncfusion.com/angular/documentation/api/chart/zoomsettingsmodel#accessibility) properties in [`zoomSettings`](https://ej2.syncfusion.com/angular/documentation/api/chart#zoomsettings) can be customized for accessibility:
+The [`zoomSettings`](https://ej2.syncfusion.com/angular/documentation/api/chart#zoomsettings) property allows you to adjust the chart's zooming capability. For complete setup, see the [Zooming in Angular Charts](../chart/chart-interactive/zooming) feature page. The following [`accessibility`](https://ej2.syncfusion.com/angular/documentation/api/chart/zoomsettingsmodel#accessibility) properties in [`zoomSettings`](https://ej2.syncfusion.com/angular/documentation/api/chart#zoomsettings) can be customized for accessibility:
 
 * [`accessibilityDescription`](https://ej2.syncfusion.com/angular/documentation/api/chart/accessibilitymodel#accessibilitydescription) - Provides a text description for the zoom toolkit items, enhancing support for screen readers.
 * [`accessibilityRole`](https://ej2.syncfusion.com/angular/documentation/api/chart/accessibilitymodel#accessibilityrole) - Specifies the role of the zoom toolkit items, helping screen readers to identify the element appropriately.
@@ -213,6 +213,6 @@ The [`legendSettings`](https://ej2.syncfusion.com/angular/documentation/api/char
 
 ## See also
 
-* [Accessibility in Angular Chart](../chart/accessibility)
+* [Accessibility in Angular Charts](../chart/accessibility)
 * [Getting Started with Angular Chart](../chart/getting-started)
-* [Chart Events in Angular Chart](../chart/chart-events)
+* [Chart Events in Angular Charts](../chart/chart-events)

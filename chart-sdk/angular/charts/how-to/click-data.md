@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Click data in Angular Chart component | Syncfusion
+title: Click data in Angular Charts | Syncfusion
 description: Learn here all about Click data in Syncfusion Angular Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Click data 
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Click data in Angular Chart component
+# Click data in Angular Charts
 
 By using the [`pointClick`](https://ej2.syncfusion.com/angular/documentation/api/chart#pointclick) event, you can get the chart data of the clicked area.
 
