@@ -68,7 +68,7 @@ To render a area draw type, use series [`drawType`](../api/chart/seriesModel#dra
 
 **Stacked Area**
 
-To render a stacked area draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `StackingArea` and inject `StackingAreaSeries` moduleusing `Chart.Inject(StackingAreaSeries)` method.
+To render a stacked area draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `StackingArea` and inject `StackingAreaSeries` module using `Chart.Inject(StackingAreaSeries)` method.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
