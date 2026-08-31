@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Smithchart legend in Vue Smithchart component | Syncfusion
+title: Legend in Vue Smith Chart | Syncfusion
 description: Learn here all about Smithchart legend in Syncfusion Vue Smithchart component of Syncfusion Essential JS 2 and more.
-control: Smithchart legend 
+control: Smith Chart
 platform: ej2-vue
 documentation: ug
 domainurl: ##DomainURL##
@@ -10,9 +10,9 @@ domainurl: ##DomainURL##
 
 <!-- markdownlint-disable MD036 -->
 
-# Smithchart legend in Vue Smithchart component
+# Legend in Vue Smith Chart
 
-Legend is a key used in smithchart, that contains symbol and descriptions. It provides valuable information for interpreting what the smithchart is displaying and can be represented in various colors, shapes or other identifiers based on the data. In simple words, we can define that legend is used to denote the series rendered in the smithchart.
+Legend is a key used in Smithchart, that contains symbol and descriptions. It provides valuable information for interpreting what the Smithchart is displaying and can be represented in various colors, shapes or other identifiers based on the data. In simple words, we can define that legend is used to denote the series rendered in the Smithchart.
 
 ## Enable legend for Smith chart
 
@@ -31,7 +31,7 @@ The legend displays series identifiers. Inject the `SmithchartLegend` module usi
 
 ## Position and Alignment
 
-By default visibility of the legend is false. To enable the legend, kindly set visible as true in  legendSettings. Default position for the legend is bottom. By using [`position`] property, you can change the position of the legend. You can either place the legend at bottom, top, right and left side of the smithchart. To use the legend in smithchart, you need to import and inject the SmithchartLegend from chart.
+By default visibility of the legend is false. To enable the legend, kindly set visible as true in  legendSettings. Default position for the legend is bottom. By using [`position`] property, you can change the position of the legend. You can either place the legend at bottom, top, right and left side of the Smithchart. To use the legend in Smithchart, you need to import and inject the SmithchartLegend from chart.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -46,7 +46,7 @@ By default visibility of the legend is false. To enable the legend, kindly set v
 
 ### Custom Position
 
-Other than these positions, you can place the legend anywhere in the smithchart. To achieve this, you have to set position as custom in legendSettings and specify the x and y coordinates using the x and y properties in the location.
+Other than these positions, you can place the legend anywhere in the Smithchart. To achieve this, you have to set position as custom in legendSettings and specify the x and y coordinates using the x and y properties in the location.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -61,7 +61,7 @@ Other than these positions, you can place the legend anywhere in the smithchart.
 
 ### Legend Alignment
 
-Other than positioning the legend in the smithchart, you can customize its alignment also. By default, legend is aligned at center. Using the [`alignment`] property, you can align the legend in near and far locations of the smithchart.
+Other than positioning the legend in the Smithchart, you can customize its alignment also. By default, legend is aligned at center. Using the [`alignment`] property, you can align the legend in near and far locations of the Smithchart.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -78,7 +78,7 @@ Other than positioning the legend in the smithchart, you can customize its align
 
 ### Legend Shape
 
-By default, legend is rendered in the circle shape and the color of the shape is as same as series color in the smithchart. Using the property [`shape`] in legend settings, you can change the icon shape of the legend as rectangle, triangle and so on.
+By default, legend is rendered in the circle shape and the color of the shape is as same as series color in the Smithchart. Using the property [`shape`] in legend settings, you can change the icon shape of the legend as rectangle, triangle and so on.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

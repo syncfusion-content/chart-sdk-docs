@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Data label in React Bullet chart component | Syncfusion
-description: Learn here all about Data label in Syncfusion React Bullet chart component of Syncfusion Essential JS 2 and more.
+title: Data Labels in React Bullet Chart | Syncfusion
+description: Learn how to show point values on the Syncfusion React Bullet Chart Component using data labels with customization.
 control: Data label 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data label in React Bullet chart component
+# Data Labels in React Bullet Chart
 
 Data Labels are used to identify the value of actual bar in the Bullet Chart component. The Data Labels will be shown by specifying the [`dataLabel`](https://ej2.syncfusion.com/react/documentation/api/bullet-chart#datalabel) setting's [`enable`](https://ej2.syncfusion.com/react/documentation/api/bullet-chart/bulletDataLabelModel#enable) property to **true**.
 

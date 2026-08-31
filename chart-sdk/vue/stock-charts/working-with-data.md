@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Working with data in Vue Stock chart component | Syncfusion
-description: Learn here all about Working with data in Syncfusion Vue Stock chart component of Syncfusion Essential JS 2 and more.
+title: Working with Data in Vue Stock Chart | Syncfusion
+description: Learn here all about Working with data in Syncfusion Vue Stock Charts of Syncfusion Essential JS 2 and more.
 control: Working with data 
 platform: chart-sdk
 documentation: ug
@@ -9,13 +9,13 @@ domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in Vue Stock chart component
+# Working with Data in Vue Stock Chart
 
 Stock Chart can visualizes data bound from local or remote data.
 
 ## Local Data
 
-You can bind a simple JSON data to the chart using [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockSeriesModel/#datasource) property in series.
+You can bind a simple JSON data to the chart using [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockSeriesModel#datasource) property in series.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

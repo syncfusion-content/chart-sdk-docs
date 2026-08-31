@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Numeric axis in React 3D Chart component | Syncfusion
-description: Learn here all about numeric axis in Syncfusion React 3D Chart component of Syncfusion Essential JS 2 and more.
-control: 3D Chart
+title: Numeric Axis in React 3D Charts | Syncfusion
+description: Learn how to use the numeric axis in the Syncfusion React 3D Charts to plot double values with optional range padding, formatting, and label customization.
+control: Numeric Axis
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-# Numeric axis in React 3D Chart control
+# Numeric Axis in React 3D Charts
 
 The numeric axis can be used to represent the numeric values of data in 3D chart. By default, the `valueType` of an axis is **Double**.
 

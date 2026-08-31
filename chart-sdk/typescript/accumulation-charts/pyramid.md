@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Pyramid in TypeScript Accumulation chart control | Syncfusion
-description: Learn here all about Pyramid in Syncfusion TypeScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Pyramid in TypeScript Accumulation Charts | Syncfusion
+description: Learn how to render a pyramid series in the Syncfusion TypeScript Accumulation Charts using the PyramidSeries module.
 platform: chart-sdk
-control: Pyramid 
-publishingplatform: chart-sdk
+control: Accumulation Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Pyramid in TypeScript Accumulation chart control
+# Pyramid in TypeScript Accumulation Charts
 
-To render a pyramid series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel/) as `Pyramid` and inject `PyramidSeries` module using the `AccumulationChart.Inject(PyramidSeries)` method.
+To render a pyramid series, use the series [`type`](../api/accumulation-chart/accumulationSeriesModel) as `Pyramid` and inject `PyramidSeries` module using the `AccumulationChart.Inject(PyramidSeries)` method.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -101,5 +100,5 @@ Individual points can be customized using the `pointRender` event.
 
 ## See also
 
-* [Data label](./data-label/)
-* [Grouping](./grouping/)
+* [Data label](./data-label)
+* [Grouping](./grouping)

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Legend in JavaScript Accumulation chart control | Syncfusion
-description: Learn here all about Legend in Syncfusion JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Legend in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to add and customize the legend in the Syncfusion JavaScript Accumulation Charts, including position and visibility.
 platform: chart-sdk
-control: Legend
-publishingplatform: chart-sdk
+control: Accumulation Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in JavaScript Accumulation chart control
+# Legend in JavaScript Accumulation Charts
 
 As like a chart, the legend is also available for accumulation charts, which gives information about the points. By default, the legend will be placed on the right, if the width of the chart is high or will be placed on the bottom, if the height of the chart is high. Other customization features regarding the legend element are same as the [`chart legend`](http://ej2.syncfusion.com/documentation/chart/legend). Here, the legend for a point can be collapsed by giving the empty string to the x value of the point.
 
@@ -43,7 +42,7 @@ By using the position property, you can position the legend at the `left`, `
 
 ## Legend reverse
 
-You can reverse the order of the legend items by using the [`reverse`](https://ej2.syncfusion.com/documentation/api/accumulation-chart/legendSettingsModel/#reverse) property. By default, legend for the first series in the collection will be placed first.
+You can reverse the order of the legend items by using the [`reverse`](https://ej2.syncfusion.com/documentation/api/accumulation-chart/legendSettingsModel#reverse) property. By default, legend for the first series in the collection will be placed first.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -163,7 +162,7 @@ By default, the page number will be enabled while legend paging. Now, you can di
 
 ## Legend item padding
 
-The [`itemPadding`](../api/accumulation-chart/legendSettings/#itempadding) property can be used to adjust the space between the legend items.
+The [`itemPadding`](../api/accumulation-chart/legendSettings#itempadding) property can be used to adjust the space between the legend items.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -178,7 +177,7 @@ The [`itemPadding`](../api/accumulation-chart/legendSettings/#itempadding) prope
 
 ## Legend layout
 
-The [`layout`](../api/accumulation-chart/legendSettingsModel/#layout) property in [`legendSettings`](../api/accumulation-chart/#legendsettings) allows you to display the legend either horizontally or vertically. By default, the [`layout`](../api/accumulation-chart/legendSettingsModel/#layout) is set to **Auto**. The [`maximumColumns`](../api/accumulation-chart/legendSettingsModel/#maximumcolumns) property in [`legendSettings`](../api/accumulation-chart/#legendsettings) defines the maximum number of columns that can be displayed within the available space when using the auto layout. Additionally, enabling the [`fixedWidth`](../api/accumulation-chart/legendSettingsModel/#fixedwidth) property in [`legendSettings`](../api/accumulation-chart/#legendsettings) ensures that all legend items are displayed with equal widths. The width of each item is determined by the maximum width among the legend items.
+The [`layout`](../api/accumulation-chart/legendSettingsModel#layout) property in [`legendSettings`](../api/accumulation-chart#legendsettings) allows you to display the legend either horizontally or vertically. By default, the [`layout`](../api/accumulation-chart/legendSettingsModel#layout) is set to **Auto**. The [`maximumColumns`](../api/accumulation-chart/legendSettingsModel#maximumcolumns) property in [`legendSettings`](../api/accumulation-chart#legendsettings) defines the maximum number of columns that can be displayed within the available space when using the auto layout. Additionally, enabling the [`fixedWidth`](../api/accumulation-chart/legendSettingsModel#fixedwidth) property in [`legendSettings`](../api/accumulation-chart#legendsettings) ensures that all legend items are displayed with equal widths. The width of each item is determined by the maximum width among the legend items.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

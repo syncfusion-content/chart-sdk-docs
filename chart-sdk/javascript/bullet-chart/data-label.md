@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Data label in JavaScript Bullet chart control | Syncfusion
-description: Learn here all about Data label in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
+title: Data Label in JavaScript Bullet Chart | Syncfusion
+description: Learn how to enable and customize data labels in the Syncfusion JavaScript Bullet Chart for the actual bar.
 platform: chart-sdk
-control: Data label 
-publishingplatform: chart-sdk
+control: Bullet Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Data label in JavaScript Bullet chart control
+# Data Label in JavaScript Bullet Chart
 
 Data Labels are used to identify the value of actual bar in the Bullet Chart component. The Data Labels will be shown by specifying the `dataLabel` setting's `enable` property to **true**.
 

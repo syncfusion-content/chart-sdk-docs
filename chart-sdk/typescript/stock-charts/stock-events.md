@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Stock events in TypeScript Stock chart control | Syncfusion
-description: Learn here all about Stock events in Syncfusion TypeScript Stock chart control of Syncfusion Essential JS 2 and more.
+title: Stock events in TypeScript Stock Chart | Syncfusion
+description: Learn here all about Stock events in Syncfusion TypeScript Stock Chart of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Stock events 
-publishingplatform: chart-sdk
+control: Stock Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 <!-- markdownlint-disable MD036 -->
 
-# Stock events in TypeScript Stock chart control
+# Stock events in TypeScript Stock Chart
 
 Stock Events visualizes stock events in stock chart. 'SplineSeries' is used to represent selected data value. You can customize the specific data value using `stockEvents` event.
 
@@ -44,4 +43,4 @@ By default, stock events will be showed for all series. Now, you can set the sto
 
 ## See Also
 
-* [Series Types](./series-types/)
+* [Series Types](./series-types)

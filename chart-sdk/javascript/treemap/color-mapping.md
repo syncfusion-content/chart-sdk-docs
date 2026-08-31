@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Color mapping in JavaScript Treemap control | Syncfusion
-description: Learn here all about Color mapping in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Color mapping in JavaScript TreeMap | Syncfusion
+description: Learn here all about Color mapping in Syncfusion JavaScript TreeMap of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Color mapping 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Color mapping in JavaScript Treemap control
+# Color mapping in JavaScript TreeMap
 
 Color mapping is used to customize the color for each group or item based on the specified types. The following options are available to customize the group and leaf items in the TreeMap.
 

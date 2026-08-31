@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Tile Layer in Flutter Maps | Syncfusion
-description: Step-by-step guide to configure the Tile Layer in Syncfusion Flutter Maps—set URL templates, add providers (OSM, Bing, TomTom), and focal point and zoom.
+title: Tile Layer in Flutter Maps | Syncfusion®
+description: Learn about tile layers in Syncfusion® Flutter Maps (SfMaps), including map providers, URL templates, zooming, and tile customization.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
 ---
 
-# Flutter Maps Tile Layer (SfMaps)
+# Tile Layer in Flutter Maps (SfMaps)
 
 The tile layer renders the tiles returned from web map tile services such as Bing Maps, OpenStreetMap, Google Maps, TomTom, and others.
 
@@ -34,15 +34,20 @@ N> Though OpenStreetMap is free of cost, we recommend you check the licensing te
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return SfMaps(
-        layers: [
-            MapTileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-            ),
-        ],
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return SfMaps(
+          layers: [
+              MapTileLayer(
+                  urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+              ),
+          ],
+      );
+  }
 }
  
 {% endhighlight %}
@@ -61,24 +66,29 @@ Some providers offer different map types. For example, Bing Maps provides map ty
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return FutureBuilder(
-        future: getBingUrlTemplate(
-            'https://dev.virtualearth.net/REST/V1/Imagery/Metadata/RoadOnDemand?output=json&uriScheme=https&include=ImageryProviders&key=YOUR_KEY'),
-        builder: (context, snapshot) {
-            if (snapshot.hasData) {
-                return SfMaps(
-                    layers: [
-                        MapTileLayer(
-                            urlTemplate: snapshot.data as String,
-                        ),
-                    ],
-                );
-           }
-        return CircularProgressIndicator();
-        }
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return FutureBuilder(
+          future: getBingUrlTemplate(
+              'https://dev.virtualearth.net/REST/V1/Imagery/Metadata/RoadOnDemand?output=json&uriScheme=https&include=ImageryProviders&key=YOUR_KEY'),
+          builder: (context, snapshot) {
+              if (snapshot.hasData) {
+                  return SfMaps(
+                      layers: [
+                          MapTileLayer(
+                              urlTemplate: snapshot.data as String,
+                          ),
+                      ],
+                  );
+             }
+          return CircularProgressIndicator();
+          }
+      );
+  }
 }
  
 {% endhighlight %}
@@ -90,22 +100,27 @@ Widget build(BuildContext context) {
 
 Our tile layer is not limited or specific to any of the tile providers mentioned here. It supports requesting tiles from any tile provider using the unique URL for respective tile providers and renders them.
 
-For other map providers like TomTom, MapBox, etc., you can check their respective official websites and provide the URL in the format mentioned in the [`Setting URL template`](https://help.syncfusion.com/flutter/maps/tile-layer#setting-url-template) section.
+For other map providers like TomTom, MapBox, etc., you can check their respective official websites and provide the URL in the format mentioned in the [`Setting URL template`](https://help.syncfusion.com/chart-sdk/flutter/maps/tile-layer#setting-url-template) section.
 
 Below is an example of adding TomTom map. You can get the TomTom API key from this [`link`](https://developer.tomtom.com/map-display-api/documentation/product-information/introduction).
 
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return SfMaps(
-        layers: [
-            MapTileLayer(
-                urlTemplate: 'http://api.tomtom.com/map/1/tile/basic/main/{z}/{x}/{y}.png?key=subscription_key',
-            ),
-        ],
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return SfMaps(
+          layers: [
+              MapTileLayer(
+                  urlTemplate: 'http://api.tomtom.com/map/1/tile/basic/main/{z}/{x}/{y}.png?key=subscription_key',
+              ),
+          ],
+      );
+  }
 }
 
 {% endhighlight %}
@@ -117,23 +132,28 @@ Widget build(BuildContext context) {
 
 You can set the initial focal point by setting the [`MapTileLayer.initialFocalLatLng`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialFocalLatLng.html) property. It represents the initial focal latitude and longitude position of the map layer.
 
-Based on the size of the [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps-class.html) widget, [`initialFocalLatLng`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialFocalLatLng.html) and [`initialZoomLevel`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialZoomLevel.html), only the number of initial tiles needed in the viewport will be rendered. Refer to this section for enabling [zooming and panning](https://help.syncfusion.com/flutter/maps/zoom-pan).
+Based on the size of the [`SfMaps`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/SfMaps-class.html) widget, [`initialFocalLatLng`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialFocalLatLng.html) and [`initialZoomLevel`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapTileLayer/initialZoomLevel.html), only the number of initial tiles needed in the viewport will be rendered. Refer to this section for enabling [zooming and panning](https://help.syncfusion.com/chart-sdk/flutter/maps/zoom-pan).
 
 This property cannot be changed dynamically. Defaults to `MapLatLng(0.0, 0.0)`.
 
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return SfMaps(
-        layers: [
-            MapTileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                initialFocalLatLng: MapLatLng(27.1751, 50.0421),
-            ),
-        ],
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return SfMaps(
+          layers: [
+              MapTileLayer(
+                  urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                  initialFocalLatLng: MapLatLng(27.1751, 50.0421),
+              ),
+          ],
+      );
+  }
 }
  
 {% endhighlight %}
@@ -150,17 +170,22 @@ This property cannot be changed dynamically.
 {% tabs %}
 {% highlight Dart %}
 
-@override
-Widget build(BuildContext context) {
-    return SfMaps(
-        layers: [
-            MapTileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                initialFocalLatLng: MapLatLng(27.1751, 78.0421),
-                initialZoomLevel: 5,
-            ),
-        ],
-    );
+import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_maps/maps.dart';
+
+class MapsExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+      return SfMaps(
+          layers: [
+              MapTileLayer(
+                  urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                  initialFocalLatLng: MapLatLng(27.1751, 78.0421),
+                  initialZoomLevel: 5,
+              ),
+          ],
+      );
+  }
 }
  
 {% endhighlight %}
@@ -170,6 +195,6 @@ Widget build(BuildContext context) {
 
 ## Markers
 
-You can add markers in the tile layer. The procedure is very similar to the shape layer. Please refer to the [markers](https://help.syncfusion.com/flutter/maps/markers#adding-markers) section for more details.
+You can add markers in the tile layer. The procedure is very similar to the shape layer. Please refer to the [markers](https://help.syncfusion.com/chart-sdk/flutter/maps/markers#adding-markers) section for more details.
 
 N> You can refer to our [Flutter Maps](https://www.syncfusion.com/flutter-widgets/flutter-maps) feature tour page for its groundbreaking feature representations. You can also explore our [Flutter Maps TileLayer example](https://flutter.syncfusion.com/#/maps/tile-layer/openstreetmap) that shows how to configure a Maps in Flutter.

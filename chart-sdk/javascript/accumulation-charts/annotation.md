@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Annotation in JavaScript Accumulation chart control | Syncfusion
-description: Learn here all about Annotation in Syncfusion JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more.
+title: Annotation in JavaScript Accumulation Charts | Syncfusion
+description: Learn how to add annotations to the Syncfusion JavaScript Accumulation Charts to mark areas of interest with text, shapes, or images.
 platform: chart-sdk
-control: Annotation 
-publishingplatform: chart-sdk
+control: Accumulation Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Annotation in JavaScript Accumulation chart control
+# Annotation in JavaScript Accumulation Charts
 
 The annotations are used to mark the specific area of interest in the chart area with texts, shapes or images.
 

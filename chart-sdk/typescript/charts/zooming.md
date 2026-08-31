@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Zooming in TypeScript Chart control | Syncfusion
-description: Learn here all about Zooming in Syncfusion TypeScript Chart control of Syncfusion Essential JS 2 and more.
+title: Zooming in TypeScript Charts | Syncfusion
+description: Learn here all about Zooming in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Zooming 
-publishingplatform: chart-sdk
+control: Charts 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Zooming in TypeScript Chart control
+# Zooming in TypeScript Charts
 
 ## Enable zooming
 

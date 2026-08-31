@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Range band in React Sparkline component | Syncfusion
-description: Learn here all about Range band in Syncfusion React Sparkline component of Syncfusion Essential JS 2 and more.
+title: Range Band in React Sparkline Charts | Syncfusion
+description: Highlight specific y-axis value regions in the Syncfusion React Sparkline Charts using one or multiple range bands with custom start, end, color, and opacity.
 control: Range band 
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Range band in React Sparkline component
+# Range Band in React Sparkline Charts
 
 This section explains how to customize the sparkline with multiple range bands.
 

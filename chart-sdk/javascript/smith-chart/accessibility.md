@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Accessibility in JavaScript Smithchart control | Syncfusion
+title: Accessibility in JavaScript Smith Chart | Syncfusion
 description: Learn here all about Accessibility in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in JavaScript Smithchart control
+# Accessibility in JavaScript Smith Chart
 
 The Smith chart control followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

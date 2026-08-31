@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Gauge Dimensions in ASP.NET Core Circular Gauge Control | Syncfusion
+title: Dimensions in ASP.NET Core Circular Gauge | Syncfusion
 description: Learn here all about Gauge Dimensions in Syncfusion ASP.NET Core Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Gauge Dimensions
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Circular Gauge Dimensions
+# Dimensions in ASP.NET Core Circular Gauge
 
 ## Size for Circular Gauge
 

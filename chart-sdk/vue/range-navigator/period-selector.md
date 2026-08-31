@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Period selector in Vue Range navigator component | Syncfusion
+title: Period Selector in Vue Range Navigator | Syncfusion
 description: Learn here all about Period selector in Syncfusion Vue Range navigator component of Syncfusion Essential JS 2 and more.
 control: Period selector 
 platform: chart-sdk
@@ -8,13 +8,13 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Period selector in Vue Range navigator component
+# Period Selector in Vue Range Navigator
 
 The period selector allows to select a range with specified periods.
 
 ## Periods
 
-An array of objects that allows the users to specify pre-defined time intervals. The [`interval`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/#interval) property specifies the count value of the button, and the `text` property specifies the text to be displayed on the button. The [`intervaltype`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/#intervaltype) property allows the users to customize the interval type, and it supports the following types:
+An array of objects that allows the users to specify pre-defined time intervals. The [`interval`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#interval) property specifies the count value of the button, and the `text` property specifies the text to be displayed on the button. The [`intervalType`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#intervaltype) property allows the users to customize the interval type, and it supports the following types:
 
 * Auto
 * Years
@@ -41,7 +41,7 @@ An array of objects that allows the users to specify pre-defined time intervals.
 
 ## Positioning period selector
 
-The [`position`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/periodSelectorSettingsModel/#position) property allows the users to position the period selector at the **Top** or **Bottom**.
+The [`position`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/periodSelectorSettingsModel#position) property allows the users to position the period selector at the **Top** or **Bottom**.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -56,7 +56,7 @@ The [`position`](https://ej2.syncfusion.com/vue/documentation/api/range-navigato
 
 ## Height
 
-The [`height`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/periodSelectorSettingsModel/#height) property allows the users to specify the height of the period selector. The default value of the height property is **43px**.
+The [`height`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/periodSelectorSettingsModel#height) property allows the users to specify the height of the period selector. The default value of the height property is **43px**.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -71,7 +71,7 @@ The [`height`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/
 
 ## Visibility of range navigator
 
-The [`disableRangeSelector`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/#disablerangeselector) property allows the users to display only the period selector and not the Range Selector.
+The [`disableRangeSelector`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator#disablerangeselector) property allows the users to display only the period selector and not the Range Selector.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -86,4 +86,4 @@ The [`disableRangeSelector`](https://ej2.syncfusion.com/vue/documentation/api/ra
 
 ## See Also
 
-* [LightWeight](./lightweight/)
+* [LightWeight](./lightweight)

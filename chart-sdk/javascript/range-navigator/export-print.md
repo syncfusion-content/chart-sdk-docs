@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Export print in JavaScript Range navigator control | Syncfusion
-description: Learn here all about Export print in Syncfusion JavaScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Export print in JavaScript Range Selector | Syncfusion
+description: Learn here all about Export print in Syncfusion JavaScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Export print 
-publishingplatform: chart-sdk
+control: Range Selector
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Export print in JavaScript Range navigator control
+# Export print in JavaScript Range Selector
 
 ## Export
 

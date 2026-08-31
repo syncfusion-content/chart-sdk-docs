@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Legend in Vue Sankey Chart component | Syncfusion
-description: Learn here all about Legend in Syncfusion Vue Sankey Chart component of Syncfusion Essential JS 2 and more.
+title: Legend in Vue Sankey Diagram | Syncfusion
+description: Learn how to configure and customize legends in the Syncfusion Vue Sankey Diagram to improve data interpretation and visual clarity.
 control: Legend
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in Vue Sankey Chart component
+# Legend in Vue Sankey Diagram
 
 A legend provides a visual key that helps users understand the categories and meanings represented by nodes in the Sankey Chart. The Sankey Chart provides comprehensive legend configuration options including positioning, styling, customization, and interactive behaviors. You can enable and customize the legend using the `legend` property and by injecting the `SankeyLegend` module.
 

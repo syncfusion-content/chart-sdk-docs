@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started with Vue Chart Component | Syncfusion
+title: Getting Started with Vue Chart | Syncfusion
 description: Set up a Vue 2 app and integrate Syncfusion EJ2 Vue Chart with setup steps, module registration, data binding, and a full working example.
 control: Getting started 
 platform: chart-sdk
@@ -8,7 +8,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started with the Vue Chart Component in Vue 2
+# Getting Started with Vue Chart
 
 This section provides a step-by-step guide to creating a Vue 2 application using [`Vue CLI`](https://cli.vuejs.org) and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Chart component. It helps users quickly configure a project and render an interactive chart.
 
@@ -62,7 +62,7 @@ When creating a new project, choose the option `Default ([Vue 2] babel, eslint)`
 
 ![Vue 2 project](../appearance/images/vue2-terminal.png)
 
-Once the `quickstart` project is set up with default settings, navigate to the project directory:
+Once the `quick start` project is set up with default settings, navigate to the project directory:
 
 ```bash
 cd quickstart

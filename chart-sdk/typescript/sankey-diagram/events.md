@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Events in TypeScript Sankey Chart component | Syncfusion
-description: Learn here all about Events in Syncfusion TypeScript Sankey Chart component of Syncfusion Essential JS 2 and more.
-control: Events
+title: Events in TypeScript Sankey Diagram | Syncfusion
+description: Learn here all about Events in Syncfusion TypeScript Sankey Diagram of Syncfusion Essential JS 2 and more.
+control: Sankey Diagram
 platform: chart-sdk
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Events in TypeScript Sankey Chart component
+# Events in TypeScript Sankey Diagram
 
 The Sankey Chart provides comprehensive events that allow you to customize behavior, respond to user interactions, and hook into the chart lifecycle. These events enable advanced customization scenarios including data transformation, analytics tracking, and dynamic UI updates.
 

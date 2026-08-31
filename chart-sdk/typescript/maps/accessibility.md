@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Accessibility in TypeScript Maps component | Syncfusion
-description: Learn here all about Accessibility in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Accessibility in TypeScript Maps | Syncfusion
+description: Learn here all about Accessibility in Syncfusion TypeScript Maps of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in TypeScript Maps component
+# Accessibility in TypeScript Maps
 
 Accessibility enables users with disabilities to interact with the Maps component through assistive technologies such as screen readers and keyboard navigation. The Maps component is designed to comply with [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria#roles).
 

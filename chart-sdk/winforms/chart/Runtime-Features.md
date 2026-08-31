@@ -1,7 +1,7 @@
 ---
 layout: post
-title: User Interactions in Windows Forms Chart control | Syncfusion
-description: Learn about User Interactions support in Syncfusion Essential Studio® Windows Forms Chart control and more details.
+title: User Interactions in Windows Forms Chart | Syncfusion®
+description: User interactions in the Windows Forms Chart enable selection, zooming, panning, and interactive exploration of chart data and elements.
 platform: chart-sdk
 control: Chart
 documentation: ug
@@ -126,6 +126,7 @@ Me.chartControl1.PrimaryXAxis.ZoomActions = ChartZoomingAction.Panning
 Me.chartControl1.PrimaryYAxis.ZoomActions = ChartZoomingAction.Panning
 
 {% endhighlight %}
+
 {% endtabs %}
 
 N> Remember to enable zooming on both the axis using [EnableXZooming](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html#Syncfusion_Windows_Forms_Chart_ChartControl_EnableXZooming) and [EnableYZooming](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html#Syncfusion_Windows_Forms_Chart_ChartControl_EnableYZooming) properties, before trying out the above panning feature. You cannot pan a chart without zooming it.
@@ -277,6 +278,7 @@ Me.chartControl1.PrimaryXAxis.SmartDateZoom = True
 Me.chartControl1.PrimaryXAxis.SmartDateZoomDayLevelLabelFormat = "dd MM/yy HH.00"
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart Runtime](Runtime-Features_images/Runtime-Features_img5.jpeg)
@@ -412,6 +414,7 @@ this.chartControl1.ToolBar.IncludeInExportedChart = false;
 Me.chartControl1.ToolBar.IncludeInExportedChart = false
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart exported with toolbar](Runtime-Features_images/Runtime-Features_img34.jpg)
@@ -510,6 +513,7 @@ x1.Checked = True
 Me.chartControl1.ToolBar.Items.Add(x1)
 
 {% endhighlight %}
+
 {% endtabs %}
   
 ![Chart Runtime](Runtime-Features_images/Runtime-Features_img8.jpeg)
@@ -674,6 +678,7 @@ this.chartControl1.ToolBar.Behavior = ChartDockingFlags.All;
 Me.chartControl1.ToolBar.Behavior = ChartDockingFlags.All
 
 {% endhighlight %}
+
 {% endtabs %}
 
 N> You can display or hide a toolbar while printing a Chart. See Printing And Print Preview topic for more details.
@@ -745,6 +750,7 @@ Me.chartControl1.ChartArea.InteractiveCursors.Add(cursor1))
 cursor1.Color = Color.Red
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart Runtime](Runtime-Features_images/Runtime-Features_img18.jpeg)
@@ -811,6 +817,7 @@ Dim bi As New BrushInfo(GradientStyle.Vertical, Color.Red, Color.Red)
 Me.chartControl1.Series(0).Style.HiddenInterior = New BrushInfo(0, bi
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart Runtime](Runtime-Features_images/Runtime-Features_img21.jpeg)
@@ -897,6 +904,7 @@ cursor1.CursorOrientation = InteractiveCursorOrientation.Horizontal
 cursor1.HorizontalCursorColor = Color.Red
 
 {% endhighlight %}
+
 {% endtabs %}
 
 The interactive cursor as described earlier can be set in three different orientations. 
@@ -916,13 +924,16 @@ cursor1.CursorOrientation = InteractiveCursorOrientation.Horizontal;
 cursor1.CursorOrientation = InteractiveCursorOrientation.Horizontal
 
 {% endhighlight %}
+
 {% endtabs %}
 
 The same step is repeated for **vertical** and **both** cursor orientations except for the naming **Vertical** and **Both** respectively.
 
 You can also add color(s) to individual interactive cursor. The default color (base color) is **Red**. You can change the default color by using [Color](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartInteractiveCursor.html#Syncfusion_Windows_Forms_Chart_ChartInteractiveCursor_Color), [HorizontalCursorColor](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartInteractiveCursor.html#Syncfusion_Windows_Forms_Chart_ChartInteractiveCursor_HorizontalCursorColor), and [VerticalCursorColor](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartInteractiveCursor.html#Syncfusion_Windows_Forms_Chart_ChartInteractiveCursor_VerticalCursorColor) properties. When you use the [Color](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartInteractiveCursor.html#Syncfusion_Windows_Forms_Chart_ChartInteractiveCursor_Color) property, the interactive cursor will be drawn based on the color specified by the Color property (assuming this as base/parent color) regardless of the colors specified for Horizontal and Vertical cursor orientations. This is shown in the following code snippets.
 
-{% tabs %}  {% highlight c# %}
+{% tabs %} 
+
+{% highlight c# %}
 
 cursor1.CursorOrientation = InteractiveCursorOrientation.Both ;
 
@@ -945,6 +956,7 @@ cursor1.VerticalCursorColor = Color.Green
 cursor1.HorizontalCursorColor = Color.Red
 
 {% endhighlight %}
+
 {% endtabs %}
 
 Now, the default color would be replaced with blue color at both the orientations as it is the parent color.
@@ -974,6 +986,7 @@ cursor1.VerticalCursorColor = Color.Green
 cursor1.HorizontalCursorColor = Color.Red
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart Runtime](Runtime-Features_images/Runtime-Features_img24.png)
@@ -1046,6 +1059,7 @@ this.chartControl1.ChartArea.InteractiveCursors[0].MoveToChartArea = true;
 Me.chartControl1.ChartArea.InteractiveCursors(0).MoveToChartArea = True
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ### XInterval
@@ -1077,6 +1091,7 @@ Me.chartControl1.ChartArea.InteractiveCursors(0).XInterval = 2
 Me.chartControl1.ChartArea.InteractiveCursors(0).YInterval = 50
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart Runtime](Runtime-Features_images/Runtime-Features_img25.png)
@@ -1211,6 +1226,7 @@ Protected Sub series1_PrepareStyle(ByVal sender As Object, ByVal args As ChartPr
 End Sub
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart Runtime](Runtime-Features_images/Runtime-Features_img28.jpeg)
@@ -1324,6 +1340,7 @@ series1.FancyToolTip.Visible = True
 series1.FancyToolTip.Alignment = TabAlignment.Top
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Chart Runtime](Runtime-Features_images/Runtime-Features_img29.jpeg)

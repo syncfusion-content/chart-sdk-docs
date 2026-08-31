@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Data Binding in WPF Surface Chart control | Syncfusion
-description: Learn here all about Data Binding support in Syncfusion WPF Surface Chart (SfSurfaceChart) control and more.
+title: Data Binding in WPF Surface Chart | Syncfusion®
+description: Data binding in the WPF Surface Chart connects data sources to surface visualizations, enabling dynamic updates and data-driven rendering.
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
 ---
 
-# Data Binding in WPF Surface Chart (SfSurfaceChart)
+# Data Binding in WPF Surface Chart
 
 In a surface chart, you can apply data in a grid table format that contains a number of rows and columns, as shown in the following table. 
 
@@ -54,7 +54,7 @@ You can apply the data to a surface in two ways.
 * Using the ItemsSource property.
 * Directly passing values through the Data.AddPoints method.
 
-### Using ItemsSource
+## Using ItemsSource
 
 You can bind the IEnumerable collection property to the [`ItemsSource`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SfSurfaceChart.html#Syncfusion_UI_Xaml_Charts_SfSurfaceChart_ItemsSource) property of a surface chart. Each item holds the model properties that are used to map the surface [`XBindingPath`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SfSurfaceChart.html#Syncfusion_UI_Xaml_Charts_SfSurfaceChart_XBindingPath), [`YBindingPath`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SfSurfaceChart.html#Syncfusion_UI_Xaml_Charts_SfSurfaceChart_YBindingPath), and [`ZBindingPath`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SfSurfaceChart.html#Syncfusion_UI_Xaml_Charts_SfSurfaceChart_ZBindingPath) properties. 
 
@@ -120,7 +120,7 @@ public class ViewModel
 {% endhighlight %}
 {% endtabs %}
 
-### Using Data.AddPoints method
+## Using Data.AddPoints method
 
 In this approach, you can directly pass the data points to the [`AddPoints(x, y, z)`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.DataPointCollection.html#Syncfusion_UI_Xaml_Charts_DataPointCollection_AddPoints_System_Double_System_Double_System_Double_) method of the [`Data`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.SfSurfaceChart.html#Syncfusion_UI_Xaml_Charts_SfSurfaceChart_Data) property. Here, you do not need to create an items source and its member path. However, you need to specify the data row and column size.
 

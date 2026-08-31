@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Print in TypeScript Maps component | Syncfusion
-description: Learn here all about Print in Syncfusion TypeScript Maps component of Syncfusion Essential JS 2 and more.
+title: Print in TypeScript Maps | Syncfusion
+description: Print and export TypeScript Maps as images in JPEG, PNG, or SVG formats, or save the rendered map as a PDF document from the browser.
 platform: chart-sdk
 control: Print 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Print in TypeScript Maps component
+# Print in TypeScript Maps
 
 ## Print
 

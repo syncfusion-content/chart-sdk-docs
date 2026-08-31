@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Legend in JavaScript Treemap control | Syncfusion
-description: Learn here all about Legend in Syncfusion JavaScript Treemap control of Syncfusion Essential JS 2 and more.
+title: Legend in JavaScript TreeMap | Syncfusion
+description: Learn how to configure and customize legends in Syncfusion JavaScript TreeMap to improve data interpretation and visual clarity.
 platform: chart-sdk
-control: Legend 
-publishingplatform: chart-sdk
+control: TreeMap
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Legend in JavaScript Treemap control
+# Legend in JavaScript TreeMap
 
 Legend is used to provide valuable information for interpreting what the TreeMap displays. The legends can be represented in various colors, shapes or other identifiers based on the data.
 

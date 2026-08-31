@@ -4,7 +4,6 @@ title: ES5 getting started with JavaScript Linear Gauge | Syncfusion
 description: Learn how to create and configure a Syncfusion JavaScript ES5 Linear Gauge component using CDN resources.
 platform: chart-sdk
 control: Linear Gauge
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Accessibility in Syncfusion Smith Chart Component
-description: Learn here all about Accessibility in Syncfusion ASP MVC Smith Chart component of Syncfusion Essential JS 2 and more.
+title: Accessibility in ASP.NET MVC Smith Chart | Syncfusion
+description: Learn here all about Accessibility in Syncfusion ASP.NET MVC Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Accessibility in ASP.NET MVC Smith chart component
+# Accessibility in ASP.NET MVC Smith Chart
 
 The Smith chart component followed the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 

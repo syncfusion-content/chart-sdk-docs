@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Multiple Panes in ASP.NET MVC Chart Component
-description: Learn here all about Multiple Panes in Syncfusion ASP.NET MVC Chart component of Syncfusion Essential JS 2 and more.
+title: Multiple Panes in ASP.NET MVC Charts | Syncfusion
+description: Learn here all about Multiple Panes in Syncfusion ASP.NET MVC Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Multiple Panes
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Multiple Panes
+# Multiple Panes in ASP.NET MVC Charts
 
 Chart area can be divided into multiple panes using [`Rows`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRow.html) and [`Columns`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartColumn.html).
 

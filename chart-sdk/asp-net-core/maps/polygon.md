@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Polygon in Syncfusion ASP.NET Core Maps component
+title: Polygon in Syncfusion ASP.NET Core Maps | Syncfusion
 description: Learn here all about Polygon in Syncfusion ASP.NET Core Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Polygon
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Polygon shape in ASP.NET Core Maps component
+# Polygon shape in ASP.NET Core Maps
 
 The Maps component allows you to add polygon shape to a geometry map or an online map by using the properties in the [polygons](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.MapsPolygonSettings.html#Syncfusion_EJ2_Maps_MapsPolygonSettings_Polygons). This section describes how to add polygon shape to the map and customize them.
 

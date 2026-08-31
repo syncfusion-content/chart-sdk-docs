@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Sparkline dimensions in JavaScript Sparkline control | Syncfusion
-description: Learn here all about Sparkline dimensions in Syncfusion JavaScript Sparkline control of Syncfusion Essential JS 2 and more.
+title: Sparkline dimensions in JavaScript Sparkline Charts | Syncfusion
+description: Learn here all about Sparkline dimensions in Syncfusion JavaScript Sparkline Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Sparkline dimensions 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Sparkline dimensions in JavaScript Sparkline control
+# Sparkline dimensions in JavaScript Sparkline Charts
 
 ## Size for container
 
@@ -33,7 +32,7 @@ Sparkline can be rendered to its container size. You can set the size through in
 
 ## Size for sparkline
 
-You can also set the size for sparkline directly using the [`width`](../../api/sparkline/#width-string) and [`height`](../../api/sparkline/#height-string) properties.
+You can also set the size for sparkline directly using the [`width`](../../api/sparkline#width-string) and [`height`](../../api/sparkline#height-string) properties.
 
 **In pixel**
 

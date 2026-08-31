@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Period selector in JavaScript Range navigator control | Syncfusion
-description: Learn here all about Period selector in Syncfusion JavaScript Range navigator control of Syncfusion Essential JS 2 and more.
+title: Period selector in JavaScript Range Selector | Syncfusion
+description: Learn here all about Period selector in Syncfusion JavaScript Range Selector of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Period selector 
-publishingplatform: chart-sdk
+control: Range Selector
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Period selector in JavaScript Range navigator control
+# Period selector in JavaScript Range Selector
 
 The period selector allows to select a range with specified periods.
 
@@ -75,4 +74,4 @@ The `disableRangeSelector` property allows the users to display only the period 
 
 ## See Also
 
-* [LightWeight](./lightweight/)
+* [LightWeight](./lightweight)

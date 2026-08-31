@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Accessibility in JavaScript Sankey Chart component | Syncfusion
-description: Learn here all about Accessibility in Syncfusion JavaScript Sankey Chart component of Syncfusion Essential JS 2 and more.
-control: Accessibility
+title: Accessibility in JavaScript Sankey Diagram | Syncfusion
+description: Learn here all about Accessibility in Syncfusion JavaScript Sankey Diagram of Syncfusion Essential JS 2 and more.
+control: Sankey Diagram
 platform: chart-sdk
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Accessibility in JavaScript Sankey Chart component
+# Accessibility in JavaScript Sankey Diagram
 
 The Sankey Chart component follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 
@@ -70,7 +69,7 @@ The Sankey Chart component follows the [keyboard interaction](https://www.w3.org
 
 The Sankey Chart component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Sankey Chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/sankey.html) in a new window to evaluate the accessibility of the Sankey Chart component with accessibility tools.
+The accessibility compliance of the Sankey Chart component is shown in the following sample. Open the sample in a new window to evaluate the accessibility of the Sankey Chart component with accessibility tools.
 
 {% previewsample "https://ej2.syncfusion.com/accessibility/sankey.html" %}
 

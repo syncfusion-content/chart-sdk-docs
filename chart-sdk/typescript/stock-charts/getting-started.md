@@ -4,12 +4,11 @@ title: Getting started with TypeScript Stock Chart control | Syncfusion
 description: Check out and learn about Getting started with TypeScript Stock Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Stock Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with ##Platform_Name## Stock Chart control
+# Getting started with Typescript Stock Chart control
 
 This document explains how to create a simple Stock Chart and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
@@ -19,7 +18,7 @@ This document explains how to create a simple Stock Chart and configure its feat
 
 Before you begin, ensure you have the following installed on your machine:
 
-* [Node.js](https://nodejs.org/) (v14.15.0 or higher)
+* [Node.js](https://nodejs.org/en) (v14.15.0 or higher)
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
 * [Git](https://git-scm.com/) for cloning the quickstart repository
 * A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result

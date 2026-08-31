@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Smith chart dimensions in JavaScript Smithchart control | Syncfusion
+title: Smith Chart Dimensions in JavaScript Smith Chart | Syncfusion
 description: Learn here all about Smith chart dimensions in Syncfusion JavaScript Smithchart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smith chart dimensions 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Smith chart dimensions in JavaScript Smithchart control
+# Smith Chart Dimensions in JavaScript Smith Chart
 
 You can render the smithchart either corresponding to its container size or you can set the size of the smithchart as per your requirement. To render the smithchart corresponding to its container size, you need to set the size for the smithchart container. Else to set the size for the smithchart as per your requirement, you can use the width and height properties in the smithchart.
 

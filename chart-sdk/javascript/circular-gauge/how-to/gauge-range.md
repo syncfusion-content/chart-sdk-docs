@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Gauge range in JavaScript Circular gauge control | Syncfusion
-description: Learn here all about Gauge range in Syncfusion JavaScript Circular gauge control of Syncfusion Essential JS 2 and more.
+title: How to add a range to the Circular Gauge dynamically | Syncfusion
+description: Learn how to add a range to the Circular Gauge dynamically on a button click by pushing new ranges to the axes collection.
 platform: chart-sdk
-control: Gauge range 
-publishingplatform: chart-sdk
+control: Circular Gauge
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Gauge range in JavaScript Circular gauge control
+# How to add a range to the Circular Gauge dynamically
 
 ## Add a range to the circular gauge dynamically
 

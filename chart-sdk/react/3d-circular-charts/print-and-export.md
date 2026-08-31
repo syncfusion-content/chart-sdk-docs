@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Print and Export in React 3D Circular Chart | Syncfusion
-description: Learn here all about print and export in Syncfusion React 3D Circular Chart component of Syncfusion Essential JS 2 and more.
+title: Print and Export in React 3D Circular Charts | Syncfusion
+description: Learn how to print or export the Syncfusion React 3D Circular Charts to PDF, image, or SVG using the public print and export methods.
 control: Print and Export
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Print and Export in React 3D Circular Chart component
+# Print and Export in React 3D Circular Charts
 
 ## Print
 

@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Series Customization in Flutter Cartesian Charts | Syncfusion
-description: Step-by-step guide to control series in Syncfusion Flutter Cartesian Charts—enable animation, handle empty points, and configure key features.
+title: Series Customization in Flutter Cartesian Chart | Syncfusion®
+description: The series customization support in Flutter Cartesian Chart offers control over colors, borders, spacing, animations, and series appearance.
 platform: chart-sdk
 control: Chart
 documentation: ug
 ---
 
-# Flutter Cartesian Charts Series Customization (SfCartesianChart)
+# Series Customization in Flutter Cartesian Chart
 
 ## Animation
 
-[`SfCartesianChart`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart-class.html) provides animation support for the series. Series will be animated during rendering. Animation is enabled by default, and you can control the duration of the animation using [`animationDuration`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ChartSeries/animationDuration.html) property. You can disable the animation by setting this property to 0.
+[`SfCartesianChart`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/SfCartesianChart-class.html) provides animation support for the series. The series are animated during rendering. Animation is enabled by default, and you can control the duration of the animation using the [`animationDuration`](https://pub.dev/documentation/syncfusion_flutter_charts/latest/charts/ChartSeries/animationDuration.html) property. You can disable the animation by setting this property to 0.
 
 {% tabs %}
 {% highlight dart hl_lines="13" %} 
@@ -692,8 +692,8 @@ The chart’s data source can be sorted using the [`sortingOrder`](https://pub.d
 
 ![Sorting](images/cartesian-customization/sortings.jpg)
 
-#### See Also
+### See Also
 
 * [Rendering a chart using JSON data retrieved from a fire base](https://support.syncfusion.com/kb/article/10589/how-to-render-the-flutter-chart-using-json-data-stored-in-firebase-database).
 
->**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/flutter/cartesian-charts/getting-started#bind-data-source) topic for more details.
+>**Note**: `chartData` in the above code snippets is a class type list and holds the data for binding to the chart series. Refer [Bind data source](https://help.syncfusion.com/chart-sdk/flutter/cartesian-chart/getting-started#bind-data-source) topic for more details.

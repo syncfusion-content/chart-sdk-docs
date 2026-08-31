@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Title in typeScript Linear gauge control | Syncfusion
-description: Learn here all about Title in Syncfusion TypeScript Linear gauge control of Syncfusion Essential JS 2 and more.
+description:  Add and customize a title for the TypeScript Linear Gauge using the title and titleStyle properties to control text and appearance.
 platform: chart-sdk
-control: Title
-publishingplatform: chart-sdk
+control: Linear Gauge
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Title in ##Platform_Name## Linear Gauge Control
+# Title in TypeScript Linear Gauge Control
 
 ## Adding the Linear Gauge Title
 

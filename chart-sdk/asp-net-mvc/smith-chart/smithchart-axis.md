@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Smithchart Axis in ASP.NET MVC Smithchart Control | Syncfusion
-description: Learn here all about Smithchart Axis in Syncfusion ASP.NET MVC Smithchart component of Syncfusion Essential JS 2 and more.
+title: Axis in ASP.NET MVC Smith Chart | Syncfusion
+description: Learn here all about Smith Chart Axis in Syncfusion ASP.NET MVC Smith Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Smithchart Axis
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Axis in Smithchart Control
+# Axis in ASP.NET MVC Smith Chart
 
 Like chart, Smithchart is having support for two types of axis.
 * Horizontal axis - axis drawn as straight line in the horizontal direction of the chart.

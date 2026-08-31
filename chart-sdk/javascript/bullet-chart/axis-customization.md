@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Axis customization in JavaScript Bullet chart control | Syncfusion
-description: Learn here all about Axis customization in Syncfusion JavaScript Bullet chart control of Syncfusion Essential JS 2 and more.
+title: Axis customization in JavaScript Bullet Chart | Syncfusion
+description: Learn how to customize the major and minor tick lines and grid lines of the Syncfusion JavaScript Bullet Chart axis.
 platform: chart-sdk
-control: Axis customization 
-publishingplatform: chart-sdk
+control: Bullet Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in JavaScript Bullet chart control
+# Axis customization in JavaScript Bullet Chart
 
 ## MajorTickLines and MinorTickLines Customization
 
-You can customize the `width`, `color`, and `size` of minor and major tick lines using the [`majorTickLines`](../api/bullet-chart/bulletChartModel/) and [`minorTickLines`](../api/bullet-chart/bulletChartModel/) properties of the bullet-chart.
+You can customize the `width`, `color`, and `size` of minor and major tick lines using the [`majorTickLines`](../api/bullet-chart/bulletChartModel) and [`minorTickLines`](../api/bullet-chart/bulletChartModel) properties of the bullet-chart.
 
 The following properties can be used to customize `majorTicklines` and `minorTicklines`.
 
@@ -35,7 +34,7 @@ The following properties can be used to customize `majorTicklines` and `minorTic
 
 ## Tick Placement
 
-You can place major and minor ticks `inside` or `outside` the ranges using the [`tickPosition`](../api/bullet-chart/bulletChartModel/) property of bullet-chart. The major and the minor ticks can be placed **inside** or **outside** the ranges using the `tickPosition` property.
+You can place major and minor ticks `inside` or `outside` the ranges using the [`tickPosition`](../api/bullet-chart/bulletChartModel) property of bullet-chart. The major and the minor ticks can be placed **inside** or **outside** the ranges using the `tickPosition` property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -52,7 +51,7 @@ You can place major and minor ticks `inside` or `outside` the ranges using the [
 
 ***Axis Label Format***
 
-Axis numeric labels can be formatted by using the [`labelFormat`](../api/bullet-chart/bulletChartModel/#labelformat)property. Axis labels support all globalize formats. The following table describes the result of applying some commonly used label formats on numeric axis values.
+Axis numeric labels can be formatted by using the [`labelFormat`](../api/bullet-chart/bulletChartModel#labelformat)property. Axis labels support all globalize formats. The following table describes the result of applying some commonly used label formats on numeric axis values.
 Axis numeric labels can be formatted by using the `labelFormat` property. Axis labels support all globalize formats.
 
 {% tabs %}
@@ -128,7 +127,7 @@ The following table describes the result of applying some commonly used formats 
 
 ## GroupingSeparator
 
-To separate groups of thousands, use the [`enableGroupSeparator`](../api/bullet-chart/bulletChartModel/#enablegroupseparator) property of bullet-chart.
+To separate groups of thousands, use the [`enableGroupSeparator`](../api/bullet-chart/bulletChartModel#enablegroupseparator) property of bullet-chart.
 To separate the groups of thousands, set the `enableGroupSeparator` property to **true**.
 
 {% tabs %}
@@ -159,7 +158,7 @@ Using the `labelFormat` property, axis labels can be specified with a custom def
 
 ## Label Placement
 
-You can customize the axis labels `inside` or `outside` the bullet-chart using the [`labelPosition`](../api/bullet-chart/bulletChartModel/#labelposition) property. Label can be placed **Inside** or **Outside** of the ranges using the `labelPosition` property.
+You can customize the axis labels `inside` or `outside` the bullet-chart using the [`labelPosition`](../api/bullet-chart/bulletChartModel#labelposition) property. Label can be placed **Inside** or **Outside** of the ranges using the `labelPosition` property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -174,7 +173,7 @@ You can customize the axis labels `inside` or `outside` the bullet-chart using t
 
 ## Opposed Position
 
-To place an axis opposite to its original position, set the [`opposedPosition`](../api/bullet-chart/bulletChartModel/#opposedposition) property to true. To place an axis opposite to its original position, set the `opposedPosition` property to **true**.
+To place an axis opposite to its original position, set the [`opposedPosition`](../api/bullet-chart/bulletChartModel#opposedposition) property to true. To place an axis opposite to its original position, set the `opposedPosition` property to **true**.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Marker Customization in Windows Forms Sparkline control | Syncfusion
-description: Learn about Marker Customization support in Syncfusion® Windows Forms Sparkline control and more details.
+title: Marker Customization in Windows Forms Sparkline | Syncfusion®
+description: Marker customization in the Windows Forms Sparkline enables customization of marker appearance, colors, size, and visibility for data points.
 platform: chart-sdk
 control: Sparkline
 documentation: ug
@@ -20,51 +20,51 @@ Marker Property</th><th>
 Description</th></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowMarker">ShowMarker</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowMarker" aria-label="Windows Forms Sparkline Chart Marker Property - ShowMarker">ShowMarker</a></td><td>
 Indicates whether the marker should be displayed at every data point location in a line sparkline. By default, it is set to False.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowHighPoint">ShowHighPoint</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowHighPoint" aria-label="Windows Forms Sparkline Chart Marker Property - ShowHighPoint">ShowHighPoint</a></td><td>
 Enables markers to show the highest values in all types of sparklines. By default, it is set to False.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowLowPoint">ShowLowPoint</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowLowPoint" aria-label="Windows Forms Sparkline Chart Marker Property - ShowLowPoint">ShowLowPoint</a></td><td>
 Enables markers to show the lowest values in all types of sparklines. By default, it is set to False.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowStartPoint">ShowStartPoint</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowStartPoint" aria-label="Windows Forms Sparkline Chart Marker Property - ShowStartPoint">ShowStartPoint</a></td><td>
 Enables markers to show start values in all types of sparklines. By default, it is set to False.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowEndPoint">ShowEndPoint</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowEndPoint" aria-label="Windows Forms Sparkline Chart Marker Property - ShowEndPoint">ShowEndPoint</a></td><td>
 Enables markers to show end values in all types of sparklines. By default, it is set to False.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowNegativePoint">ShowNegativePoint</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_ShowNegativePoint" aria-label="Windows Forms Sparkline Chart Marker Property - ShowNegativePoint">ShowNegativePoint</a></td><td>
 Enables markers to show negative values in all types of sparklines. By default, it is set to False.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_MarkerColor">MarkerColor</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_MarkerColor" aria-label="Windows Forms Sparkline Chart Marker Property - MarkerColor">MarkerColor</a></td><td>
 Gets or sets the marker color for the line type sparkline. This property color is set to the sparkline marker when enabling the ShowMarker property.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_HighPointColor">HighPointColor</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_HighPointColor" aria-label="Windows Forms Sparkline Chart Marker Property - HighPointColor">HighPointColor</a></td><td>
 Gets or sets the high point color for the line type sparkline. This property color is set to the sparkline marker when enabling the ShowHighPoint property.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_LowPointColor">LowPointColor</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_LowPointColor" aria-label="Windows Forms Sparkline Chart Marker Property - LowPointColor">LowPointColor</a></td><td>
 Gets or sets the low point color for the line type sparkline. This property color is set to the sparkline marker when enabling the ShowLowPoint property.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_StartPointColor">StartPointColor</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_StartPointColor" aria-label="Windows Forms Sparkline Chart Marker Property - StartPointColor">StartPointColor</a></td><td>
 Gets or sets the start point color for the line type sparkline. This property color is set to the sparkline marker when enabling the ShowStartPoint property.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_EndPointColor">EndPointColor</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_EndPointColor" aria-label="Windows Forms Sparkline Chart Marker Property - EndPointColor">EndPointColor</a></td><td>
 Gets or sets the end point color for the line type sparkline. This property color is set to the sparkline marker when enabling the ShowEndPoint property.</td></tr>
 <tr>
 <td>
-<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_NegativePointColor">NegativePointColor</a></td><td>
+<a href="https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.Markers.html#Syncfusion_Windows_Forms_Chart_Markers_NegativePointColor" aria-label="Windows Forms Sparkline Chart Marker Property - NegativePointColor">NegativePointColor</a></td><td>
 Gets or sets the negative point color for the line type sparkline. This property color is set to the sparkline marker when enabling the ShowNegativePoint property.</td></tr>
 </table>
 
