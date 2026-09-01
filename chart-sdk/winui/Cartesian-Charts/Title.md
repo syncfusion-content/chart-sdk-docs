@@ -8,7 +8,7 @@ documentation: ug
 keywords: winui chart title, winui sfcartesianchart title, winui chart title customization, syncfusion winui chart title, winui sfcartesianchart title configuration.
 ---
 
-# Title in WinUI Chart
+# Title in WinUI Cartesian Chart
 
 The [Header](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Header) property is used to define the title for the chart.
 
@@ -152,7 +152,7 @@ this.Content = chart;
 
 {% endtabs %} 
 
-![Title text alignment support in WinUI chart](Title_images/WinUI_chart_title_alignment.png)
+![Title text alignment support in WinUI Cartesian Chart](Title_images/WinUI_chart_title_alignment.png)
 ## See Also
 
-* [How to wrap the title of the WinUI (SfCartesianChart)](https://support.syncfusion.com/kb/article/12680)
+* [How to wrap the title of the WinUI Cartesian Chart](https://support.syncfusion.com/kb/article/12680)
