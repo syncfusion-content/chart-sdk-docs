@@ -9,7 +9,7 @@ documentation: ug
 
 # How to serialize the chart in WPF Chart
 
-SfChart provides the support for serializing and deserializing control. This section explains on how to serialize and deserialize SfChart.
+WPF Charts provides the support for serializing and deserializing control. This section explains on how to serialize and deserialize WPF Charts.
 
 ## Methods:
 <table>
