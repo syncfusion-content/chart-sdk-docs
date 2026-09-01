@@ -47,9 +47,9 @@ Assign the database data to the chart's [`dataSource`](https://ej2.syncfusion.co
 ]
 ```
 
-## Create the backend API
+## Create the back-end API
 
-The backend endpoint must return the SQL rows serialized as a JSON array. The following sample uses ASP.NET Core Web API:
+The back-end endpoint must return the SQL rows serialized as a JSON array. The following sample uses ASP.NET Core Web API:
 
 ```csharp
 // ChartSalesController.cs
@@ -130,7 +130,7 @@ The API base URL (for example, `https://localhost:5001/api/ChartSales`) is used 
 
 ## Create the Angular service
 
-Generate an Angular service that calls the backend API:
+Generate an Angular service that calls the back-end API:
 
 ```bash
 ng generate service chart
@@ -231,7 +231,7 @@ In `app.component.ts`, configure the [`primaryXAxis`](https://ej2.syncfusion.com
 * [`name`](https://ej2.syncfusion.com/angular/documentation/api/chart/seriesDirective#name) – legend text for the series.
 * [`marker`](https://ej2.syncfusion.com/angular/documentation/api/chart/seriesDirective#marker) – marker configuration shown on each data point.
 
-Call `loadChartData()` from [`ngOnInit()`](https://angular.io/api/core/OnInit#ngOnInit) so the data request begins as soon as the component initializes. The subscription uses the `next` and `error` callbacks and is automatically cleaned up by Angular's [`AsyncPipe`](https://angular.io/api/common/AsyncPipe) on component destroy (see [`takeUntil`](https://rxjs.dev/api/operators/takeUntil) for the imperative alternative) to prevent memory leaks.
+Call `loadChartData()` from [`ngOnInit()`](https://v17.angular.io/api/core/OnInit#ngOnInit) so the data request begins as soon as the component initializes. The subscription uses the `next` and `error` callbacks and is automatically cleaned up by Angular's [`AsyncPipe`](https://v17.angular.io/api/common/AsyncPipe) on component destroy (see [`takeUntil`](https://rxjs.dev/api/operators/takeUntil) for the imperative alternative) to prevent memory leaks.
 
 `app.component.ts`
 

@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Working with Data in Angular Charts
 
-The Angular Chart component supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, or fetched from remote services using various adaptor patterns. This guide covers all available data binding methods, helping you choose the right approach for your use case based on data size, performance requirements, and backend architecture.
+The Angular Chart component supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, or fetched from remote services using various adaptor patterns. This guide covers all available data binding methods, helping you choose the right approach for your use case based on data size, performance requirements, and back-end architecture.
 
 ## Choosing a data binding approach
 
@@ -134,7 +134,7 @@ const query = new Query().take(50).page(2).select(['OrderID', 'Freight']);
 ## Binding data using ODataV4Adaptor
 
 ODataV4 is an improved and more standardized version of the OData protocol, with enhanced query capabilities and better JSON support. Use the ODataV4Adaptor to consume ODataV4 services. For more information on ODataV4 specifications, refer to the [`odata documentation`](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752197).
-**When to use ODataV4Adaptor:** If your backend service implements OData v4.0, prefer this adaptor over the older ODataAdaptor for better compliance and features.
+**When to use ODataV4Adaptor:** If your back end service implements OData v4.0, prefer this adaptor over the older ODataAdaptor for better compliance and features.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -218,7 +218,7 @@ export class CustomAdaptor extends ODataAdaptor {
 - `beforeSend` – add custom headers or handle errors before the request.
 - `insert`, `update`, `remove` – customize CRUD operations.
 
-For the full list and signatures, see the [DataManager adaptor documentation](https://ej2.syncfusion.com/angular/documentation/api/data/adaptor).
+For the full list and signatures, see the [DataManager adaptor documentation](https://ej2.syncfusion.com/angular/documentation/data/adaptors/json-adaptor).
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}

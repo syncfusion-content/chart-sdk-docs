@@ -53,7 +53,7 @@ To switch back to SVG at runtime, set `[enableCanvas]="false"` or remove the bin
 
 ### When to prefer Canvas
 
-- Very large point counts (see Tradeoffs and guidance below).
+- Very large point counts (see Trade offs and guidance below).
 - High-frequency updates (many redraws per second).
 
 ### Canvas Limitations
@@ -66,7 +66,7 @@ To switch back to SVG at runtime, set `[enableCanvas]="false"` or remove the bin
 - Tooltip, crosshair, selection, and zoom interaction are still supported via the chart's API but rely on coordinates instead of DOM elements.
 - Server-side rendering (Angular Universal): canvas requires a DOM and is not supported during server rendering; defer initialization to the browser.
 
-### Tradeoffs and guidance
+### Trade offs and guidance
 
 - **Dataset size:** there is no single universal threshold. As a practical guideline based on internal benchmarks:
     - **Small to moderate data:** SVG is usually fine and provides better interactivity (tooltips, focus, native events).

@@ -76,4 +76,4 @@ For more details, see the [Stripline](./chart-elements/strip-line) section.
 * [Getting Started with Angular Chart](./getting-started)
 * [Chart Dimensions](./chart-dimensions)
 * [Chart Appearance](./appearance)
-* [Chart API reference](https://ej2.syncfusion.com/angular/documentation/api/chart/)
+* [Chart API reference](https://ej2.syncfusion.com/angular/documentation/api/chart)

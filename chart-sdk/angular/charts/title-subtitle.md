@@ -130,4 +130,4 @@ Style the subtitle with the [`subTitleStyle`](https://ej2.syncfusion.com/angular
 - [Chart overview](./chart-overview)
 - [Appearance](./appearance)
 - [Accessibility](./accessibility)
-- [Chart API reference](https://ej2.syncfusion.com/angular/documentation/api/chart/)
+- [Chart API reference](https://ej2.syncfusion.com/angular/documentation/api/chart)
