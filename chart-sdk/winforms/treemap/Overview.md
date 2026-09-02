@@ -7,11 +7,11 @@ control: TreeMap
 documentation: ug
 ---
 
-# About Syncfusion® Windows Forms TreeMap Control
+# About Syncfusion® WinForms TreeMap Control
 
 ## Introduction
 
-Tree maps are ideal for visualizing large amounts of data. The space in the visualization is split up into rectangles that are sized and colored based on the quantitative variables. The levels in the hierarchy of the TreeMap are visualized as rectangles containing other rectangles.
+Tree maps are ideal for visualizing large amounts of data. The space in the visualization is split up into rectangles that are sized and colored based on the quantitative variables. The levels in the hierarchy of the WinForms TreeMap are visualized as rectangles containing other rectangles.
 
 ## Key Features
 
@@ -22,7 +22,7 @@ Tree maps are ideal for visualizing large amounts of data. The space in the visu
 * **Headers and Labels** — Customizes header text and node labels.
 * **Levels** — Displays hierarchical data through multiple levels of nested rectangles.
 * **Leaf Item Settings** — Controls the appearance of leaf nodes.
-* **Legend** — Displays a legend describing the color palette used in the TreeMap.
+* **Legend** — Displays a legend describing the color palette used in the WinForms TreeMap.
 * **ToolTip Support** — Shows tooltips on hover for additional node information.
 
 ## Use Cases
