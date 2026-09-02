@@ -9,7 +9,7 @@ documentation: ug
 
 # How to print the chart in WPF Chart
 
-To print the WPF Charts, call the Print method.
+To print the SfChart, call the Print method.
 The following code sample can be used to print the SfChart:
 
 {% highlight c# %}
@@ -17,4 +17,3 @@ The following code sample can be used to print the SfChart:
   chart.Print();   
 
 {% endhighlight  %}
-
