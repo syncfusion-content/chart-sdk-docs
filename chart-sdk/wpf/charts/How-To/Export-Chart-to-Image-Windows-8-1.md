@@ -9,7 +9,7 @@ documentation: ug
 
 # How to export chart to image in WPF Chart
 
-The export chart to image feature in the SfChart control enables the user to export the image of the chart in different image file formats. 
+The export chart to image feature in the WPF Charts control enables the user to export the image of the chart in different image file formats.
 
 ## Supported Formats
 
@@ -63,4 +63,3 @@ var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.ReadWrite);
 }   
 
 {% endhighlight  %}
-
