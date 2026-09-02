@@ -8,7 +8,7 @@ documentation: ug
 keywords: stacked group chart in winui chart, winui stacked group chart customization, syncfusion winui stacked group chart, winui sfcartesianchart stacked group chart settings.
 ---
 
-# Stacked Group Chart in WinUI Chart
+# Stacked Group Chart in WinUI Cartesian Chart
 
 Chart provides support to group the stacked similar series by using the [GroupName](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.StackedSeriesBase.html#Syncfusion_UI_Xaml_Charts_StackedSeriesBase_GroupName) property of the stacked series. The stacked series which contains the same [GroupName](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.StackedSeriesBase.html#Syncfusion_UI_Xaml_Charts_StackedSeriesBase_GroupName) will be stacked in a single group.
 
@@ -112,4 +112,4 @@ chart.Series.Add(series4);
 ## See Also
 
 * [How to create a WinUI Column Chart (SfCartesianChart)](https://support.syncfusion.com/kb/article/12031)
-* [How to add multiple axes in WinUI Chart (SfCartesianChart)](https://support.syncfusion.com/kb/article/11857)
+* [How to add multiple axes in WinUI Cartesian Chart](https://support.syncfusion.com/kb/article/11857)
