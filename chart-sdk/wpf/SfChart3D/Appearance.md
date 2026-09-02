@@ -9,11 +9,11 @@ documentation: ug
 
 # Appearance in WPF 3D Chart
 
-SfChart3D supports various customizing and styling options that allow you to enrich the application.
+WPF 3D Chart supports various customizing and styling options that allow you to enrich the application.
 
 ## Palettes
 
-SfChart3D provides the option to apply different kinds of themes or palettes to your chart. You can define the [`Palette`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Palette) either for the entire chart or for an individual series.
+WPF 3D Chart provides the option to apply different kinds of themes or palettes to your chart. You can define the [`Palette`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Palette) either for the entire chart or for an individual series.
 
 We have some predefined palettes such as,
 
