@@ -82,7 +82,7 @@ export class AppComponent implements OnInit {
 | Field | Type | Description |
 | --- | --- | --- |
 | `i` | `number` | Counter used to build a unique id for each new chart. |
-| `chartData` | `Object[]` | Data array bound to each chart's <a href="https://ej2.syncfusion.com/angular/documentation/api/chart/seriesDirective#datasource" target="_blank" rel="noopener noreferrer" title="dataSource">dataSource</a>. |
+| `chartData` | `Object[]` | Data array bound to each chart's <a href="https://ej2.syncfusion.com/angular/documentation/api/chart/seriesDirective#datasource" target="_blank" aria-label="Navigate to the dataSource API documentation" rel="noopener noreferrer" title="dataSource">dataSource</a>. |
 | `marker` | `Object` | Marker configuration bound to [`marker`](https://ej2.syncfusion.com/angular/documentation/api/chart/seriesDirective#marker); `{ visible: true }` enables data-point markers. |
 | `title` | `string` | Chart title rendered via the [`title`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel#title) property. |
 | `items` | `Array<{ id: string }>` | List of chart containers. Each entry corresponds to one rendered `<ejs-chart>`. |
