@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Internationalization in JavaScript Chart control | Syncfusion
+title: Internationalization in JavaScript Charts | Syncfusion
 description: Learn here all about Internationalization in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Internationalization 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Internationalization in JavaScript Chart control
+# Internationalization in JavaScript Charts
 
 Chart provides support for internationalization for the following elements:
 
@@ -26,7 +25,7 @@ Globalization is the process of designing and developing a component that works 
 
 **Numeric Format**
 
-The example below globalizes axis, point, and tooltip labels to the EUR currency format.
+The example below globalize axis, point, and tooltip labels to the EUR currency format.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

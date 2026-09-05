@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Axis customization in JavaScript Chart control | Syncfusion
+title: Axis customization in JavaScript Charts | Syncfusion
 description: Learn here all about Axis customization in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis customization 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis customization in JavaScript Chart control
+# Axis customization in JavaScript Charts
 
 ## Axis Crossing
 

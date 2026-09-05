@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Technical indicators in JavaScript Chart control | Syncfusion
+title: Technical indicators in JavaScript Charts | Syncfusion
 description: Learn here all about Technical indicators in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Technical indicators 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Technical indicators in JavaScript Chart control
+# Technical indicators in JavaScript Charts
 
 A technical indicator is a mathematical calculation based on historical price, volume, or open‑interest information that aims to forecast financial market direction.
 
@@ -155,7 +154,7 @@ By default, `macdType` is `Both`.
 
 ## Relative strength index (RSI)
 
-RSI shows how strongly a stock is moving in its current direction. To render an RSI indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Rsi` and inject the `RsiIndicator` module using `Chart.Inject(Rsindicator)` method. The RSI indicator is represented by three lines (`upperBand`, `lowerBand`, `signalLine`). The `upperBand` and `lowerBand` values are customized by [`overBought`](../api/chart/technicalIndicatorModel) and [`overSold`](../api/chart/technicalIndicatorModel) properties of the indicator, and the `signalLine` is calculated using the RSI formula.
+RSI shows how strongly a stock is moving in its current direction. To render an RSI indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Rsi` and inject the `RsiIndicator` module using `Chart.Inject(RsiIndicator)` method. The RSI indicator is represented by three lines (`upperBand`, `lowerBand`, `signalLine`). The `upperBand` and `lowerBand` values are customized by [`overBought`](../api/chart/technicalIndicatorModel) and [`overSold`](../api/chart/technicalIndicatorModel) properties of the indicator, and the `signalLine` is calculated using the RSI formula.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
