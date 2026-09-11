@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Logarithmic Axis Examples | Syncfusion®
 description: Learn how to use a logarithmic axis in Syncfusion Blazor 3D Chart to visualize data spanning multiple orders of magnitude.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

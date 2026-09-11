@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Range Examples | Syncfusion®
 description: Learn how to select a range in Syncfusion Blazor Range Selector using thumbs, label taps, or the Value property for one-way and two-way binding.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

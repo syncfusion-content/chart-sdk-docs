@@ -2,7 +2,7 @@
 layout: post
 title: Blazor HeatMap Chart Axis | Syncfusion®
 description: Learn how to configure Blazor HeatMap Chart axes with category, numeric, and date-time value types, plus inverse and opposed positioning.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

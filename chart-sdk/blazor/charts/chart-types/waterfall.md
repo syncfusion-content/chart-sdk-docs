@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Waterfall Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Waterfall Charts using Syncfusion. Show the cumulative effect of sequential positive and negative values.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

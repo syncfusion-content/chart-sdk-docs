@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Type of Data Examples | Syncfusion®
 description: Learn about the supported data types in Syncfusion Blazor Range Selector, including Numeric, DateTime, and logarithmic value types.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

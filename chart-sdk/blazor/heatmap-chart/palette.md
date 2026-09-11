@@ -2,7 +2,7 @@
 layout: post
 title: Blazor HeatMap Chart Palette | Syncfusion®
 description: Learn how to apply gradient or fixed color palettes to Blazor HeatMap Chart cells to map data values to color ranges and stops.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

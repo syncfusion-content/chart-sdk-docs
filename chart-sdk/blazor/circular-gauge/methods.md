@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Methods | Syncfusion®
 description: Learn how to call Blazor Circular Gauge methods such as SetAnnotationValueAsync to update annotation content dynamically from your application code.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

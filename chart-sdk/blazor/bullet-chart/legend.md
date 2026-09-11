@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Legend Configuration Examples | Syncfusion®
 description: Learn how to enable and customize the legend in Syncfusion Blazor Bullet Chart, including position, alignment, and BulletChartLegendSettings.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

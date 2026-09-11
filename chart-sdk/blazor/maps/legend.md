@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Legend Support | Syncfusion®
 description: Learn how to add Default or Interactive legends to Blazor Maps to identify shape, bubble, or marker colors and surface exact range values on hover.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Markers and Data Labels Examples | Syncfusion®
 description: Learn how to add and customize markers and data labels in Syncfusion Blazor Smith Chart, including shape, size, position, and label format.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

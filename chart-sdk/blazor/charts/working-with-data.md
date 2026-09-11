@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Working with Data Examples | Syncfusion®
 description: Learn how to bind data to Syncfusion Blazor Charts. Use IEnumerable via DataSource or SfDataManager for RESTful and remote data binding.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

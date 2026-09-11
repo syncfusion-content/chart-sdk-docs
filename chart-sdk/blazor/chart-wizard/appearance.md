@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Chart Wizard Appearance Examples | Syncfusion®
 description: Learn how to customize the appearance of Syncfusion Blazor Chart Wizard, including theme, width, height, RTL, and property panel settings.
-platform: Blazor
+platform: chart-sdk
 control: Chart Wizard
 documentation: ug
 keywords: chart wizard, blazor, chart

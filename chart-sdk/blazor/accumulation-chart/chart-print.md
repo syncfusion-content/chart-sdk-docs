@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Print and Export Examples | Syncfusion®
 description: Learn how to print and export Syncfusion Blazor Accumulation Chart. Use PrintAsync for browser printing and export to image, SVG, or PDF.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

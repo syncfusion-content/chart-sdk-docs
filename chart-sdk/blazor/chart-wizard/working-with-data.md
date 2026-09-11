@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Chart Wizard Working with Data Examples | Syncfusion®
 description: Learn how to configure data sources, category fields, series fields, and chart types in Syncfusion Blazor Chart Wizard using ChartSettings.
-platform: Blazor
+platform: chart-sdk
 control: Chart Wizard
 documentation: ug
 keywords: chart wizard, blazor, chart

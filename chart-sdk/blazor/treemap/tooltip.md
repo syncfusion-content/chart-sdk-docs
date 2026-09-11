@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Tooltip | Syncfusion®
 description: Learn how to enable and customize the Blazor TreeMap tooltip using Visible, Format, and a custom TooltipTemplate.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

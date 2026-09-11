@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Pointers | Syncfusion®
 description: Learn how to add Blazor Linear Gauge Bar and Marker pointers using Circle, Triangle, Diamond, Image, or Text shapes to indicate values.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

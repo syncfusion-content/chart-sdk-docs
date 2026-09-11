@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Numeric Axis Examples | Syncfusion®
 description: Learn how to use the numeric axis in Syncfusion Blazor Charts. Set ValueType to Double and customize range, interval, and label format.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

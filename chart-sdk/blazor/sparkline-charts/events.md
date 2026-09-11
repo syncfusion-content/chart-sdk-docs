@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Events Examples and Reference | Syncfusion®
 description: Learn about events in Syncfusion Blazor Sparkline such as Loaded, OnMarkerRender, OnDataLabelRender, and AxisLabelRender with examples.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

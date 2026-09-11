@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Azure Maps Provider | Syncfusion®
 description: Learn how to render Microsoft Azure Maps tiles in Blazor Maps by setting UrlTemplate with a subscription key for satellite imagery.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

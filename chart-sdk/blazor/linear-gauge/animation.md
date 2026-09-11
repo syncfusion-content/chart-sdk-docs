@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Animation | Syncfusion®
 description: Learn how to animate axis, ticks, labels, ranges, pointers, and annotations in the Blazor Linear Gauge by setting the AnimationDuration property.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

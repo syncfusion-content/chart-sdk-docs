@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Events | Syncfusion®
 description: Learn how to handle Blazor Circular Gauge events such as OnDragMove to update pointer values while the user drags a pointer across the gauge.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

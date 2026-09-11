@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Accessibility Examples | Syncfusion®
 description: Learn how to enable accessibility in Syncfusion Blazor Smith Chart with keyboard navigation, screen reader support, and WCAG 2.2 compliance.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

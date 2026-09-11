@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Accessibility Examples | Syncfusion®
 description: Learn about accessibility in Syncfusion Blazor 3D Chart, including keyboard navigation, screen reader support, and WCAG 2.2 compliance.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

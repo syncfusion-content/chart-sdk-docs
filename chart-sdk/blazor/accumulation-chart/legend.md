@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Legend Configuration Examples | Syncfusion®
 description: Learn how to enable and customize the legend in Syncfusion Blazor Accumulation Chart, including position, alignment, and LegendSettings.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---
