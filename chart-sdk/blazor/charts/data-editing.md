@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Data Editing Examples | Syncfusion®
 description: Learn how to enable drag-and-drop data editing in Syncfusion Blazor Charts. Set ChartDataEditSettings Enable to true with MinY, MaxY, and Fill.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

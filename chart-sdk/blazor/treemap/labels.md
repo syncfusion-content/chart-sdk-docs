@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Labels | Syncfusion®
 description: Learn how to display and format data labels on Blazor TreeMap items using LabelPath, LabelFormat, and LabelPosition.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

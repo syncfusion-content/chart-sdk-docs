@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Multiple Panes Examples | Syncfusion®
 description: Learn how to divide Blazor Charts into multiple panes. Use ChartRows and ChartColumns to give each pane its own height, axis, and series.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

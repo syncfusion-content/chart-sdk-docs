@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Stock Chart Working with Data | Syncfusion®
 description: Learn how to bind data to the Blazor Stock Chart using a list of business objects, SfDataManager, or remote RESTful JSON services.
-platform: Blazor
+platform: chart-sdk
 control: Stock Chart
 documentation: ug
 ---

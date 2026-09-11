@@ -2,7 +2,7 @@
 layout: post
 title: How to Convert Milliseconds to DateTime in Blazor Chart | Syncfusion®
 description: Learn how to convert milliseconds to a DateTime value in Blazor Charts using Syncfusion. Use the OnZoomEnd event to convert axis range after zoom.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Candle Chart Examples and Documentation | Syncfusion®
 description: Learn how to render Blazor Candle Charts using Syncfusion. Visualize stock open, high, low, and close prices with a five-field data source per point.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Print and Export | Syncfusion®
 description: Learn how to print or export the rendered Blazor Circular Gauge from the browser by enabling AllowPrint and calling the Print or Export methods.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

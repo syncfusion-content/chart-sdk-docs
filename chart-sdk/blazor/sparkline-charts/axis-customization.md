@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Axis Customization Examples | Syncfusion®
 description: Learn how to customize the axis in Syncfusion Blazor Sparkline, including ValueType, Numeric, Category, and DateTime axis options.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

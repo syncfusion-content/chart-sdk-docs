@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Adaptive Layout for Mobile | Syncfusion®
 description: Learn how to enable adaptive layout in Syncfusion Blazor Accumulation Chart. Auto-resize chart elements for mobile and small-screen containers.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

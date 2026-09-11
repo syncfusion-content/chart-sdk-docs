@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Accessibility Examples | Syncfusion®
 description: Learn about accessibility in Syncfusion Blazor Sparkline, including keyboard navigation, screen reader support, and WCAG 2.2 compliance.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

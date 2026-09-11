@@ -2,7 +2,7 @@
 layout: post
 title: Place TreeMap inside other components | Syncfusion®
 description: Learn how to render the Blazor TreeMap inside Dashboard Layout, Tabs, Dialog, and Accordion by deferring rendering until the host is ready.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps OpenStreetMap Provider | Syncfusion®
 description: Learn how to render free OpenStreetMap tiles in Blazor Maps by setting UrlTemplate to the OSM tile server URL with markers and lines.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Linear Gauge in Web App | Syncfusion®
 description: Learn how to add the Blazor Linear Gauge to a Blazor Web App using Visual Studio, VS Code, or the .NET CLI to render your first gauge.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D 100% Stacked Column Chart Examples | Syncfusion®
 description: Learn how to render a 100% Stacked Column Chart in Syncfusion Blazor 3D Chart by setting the series Type to StackingColumn100.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

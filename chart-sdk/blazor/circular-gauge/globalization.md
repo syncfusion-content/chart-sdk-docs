@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Globalization | Syncfusion®
 description: Learn how to localize the Blazor Circular Gauge axis labels and tooltips by loading culture-specific CLDR data and applying the internationalization library.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

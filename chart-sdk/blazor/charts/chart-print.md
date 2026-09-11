@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Print and Export Examples | Syncfusion®
 description: Learn how to print and export Blazor Charts using Syncfusion. Use PrintAsync for browser printing and export to image, SVG, or PDF.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

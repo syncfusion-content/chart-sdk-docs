@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Leaf Item | Syncfusion®
 description: Learn how to customize Blazor TreeMap leaf items using TreeMapLeafItemSettings with label, fill, border, padding, gap, and label template.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

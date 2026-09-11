@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Chart Wizard in Server App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Chart Wizard in a Blazor Server app, including setup, packages, and first chart.
-platform: Blazor
+platform: chart-sdk
 control: Chart Wizard
 documentation: ug
 keywords: chart wizard, blazor, chart

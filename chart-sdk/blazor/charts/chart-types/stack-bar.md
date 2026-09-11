@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 100% Stacked Bar Chart Examples | Syncfusion®
 description: Learn how to render 100% Stacked Bar Charts in Blazor using Syncfusion. Each segment is shown as a percentage share of the total per category.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

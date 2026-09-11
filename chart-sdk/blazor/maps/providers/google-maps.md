@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Google Maps Provider | Syncfusion®
 description: Learn how to display Google Maps tiles in Blazor Maps by setting UrlTemplate with an API key and session token from Google Tile API.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

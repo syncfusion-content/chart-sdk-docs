@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Internationalization | Syncfusion®
 description: Learn how to localize the Blazor TreeMap by formatting numbers, dates, and times for different cultures using the Format property.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

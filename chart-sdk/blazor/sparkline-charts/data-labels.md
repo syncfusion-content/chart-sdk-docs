@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Data Labels Examples | Syncfusion®
 description: Learn how to enable and customize data labels in Syncfusion Blazor Sparkline, including special points, format, and label position.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Internationalization | Syncfusion®
 description: Learn how to localize the Blazor Linear Gauge for global audiences by configuring numeric formats, currency, and percentage on labels and tooltips.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

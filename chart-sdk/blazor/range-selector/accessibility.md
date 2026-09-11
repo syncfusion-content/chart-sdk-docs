@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Accessibility Guide | Syncfusion®
 description: Learn about accessibility in Syncfusion Blazor Range Selector with keyboard navigation, screen reader support, and WCAG 2.2 compliance.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

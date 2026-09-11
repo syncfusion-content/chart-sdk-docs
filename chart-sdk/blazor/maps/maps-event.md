@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Events Support | Syncfusion®
 description: Learn how to handle Blazor Maps events such as AnimationCompleted, AnnotationRendering, and shape selection for user interactions.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

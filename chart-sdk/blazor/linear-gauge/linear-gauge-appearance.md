@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Appearance | Syncfusion®
 description: Learn how to customize the Blazor Linear Gauge appearance with background, border, margin, title styling, and container shapes.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---
