@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Print and Export Examples | Syncfusion®
 description: Learn how to print and export Syncfusion Blazor Smith Chart using PrintAsync, or export to image, SVG, and PDF formats.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

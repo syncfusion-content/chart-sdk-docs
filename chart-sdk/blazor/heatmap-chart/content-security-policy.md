@@ -2,7 +2,7 @@
 layout: post
 title: Blazor HeatMap Chart Content Security Policy | Syncfusion®
 description: Learn which Blazor HeatMap Chart features work under strict Content Security Policy and which require unsafe-inline directives.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

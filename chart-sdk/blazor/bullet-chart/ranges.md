@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Ranges Examples | Syncfusion®
 description: Learn how to define qualitative ranges in Syncfusion Blazor Bullet Chart using BulletChartRangeCollection with Good, Satisfactory, and Bad values.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

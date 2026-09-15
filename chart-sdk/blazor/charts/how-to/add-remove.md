@@ -2,7 +2,7 @@
 layout: post
 title: How to Add or Remove Series in Blazor Charts | Syncfusion®
 description: Learn how to add or remove chart series dynamically in Blazor Charts using Syncfusion. Modify ChartSeriesCollection at runtime with simple code changes.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

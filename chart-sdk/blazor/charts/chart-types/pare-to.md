@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Pareto Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Pareto Charts using Syncfusion. Combine column and line series to show individual values and their cumulative totals.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Accessibility | Syncfusion®
 description: Learn how to make the Blazor Circular Gauge accessible with WCAG 2.2 AA, Section 508, screen reader, RTL, and color contrast support.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

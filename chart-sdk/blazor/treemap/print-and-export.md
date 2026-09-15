@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Print and Export | Syncfusion®
 description: Learn how to print the Blazor TreeMap or export it as PNG, JPEG, SVG, or PDF using AllowPrint, AllowImageExport, AllowPdfExport, and ExportAsync.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

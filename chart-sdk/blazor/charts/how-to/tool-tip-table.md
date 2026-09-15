@@ -2,7 +2,7 @@
 layout: post
 title: How to Show a Table in Tooltip in Blazor Charts | Syncfusion®
 description: Learn how to show a table in a Blazor Charts tooltip using Syncfusion. Use ChartTooltipSettings Template with a Razor template to render HTML.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

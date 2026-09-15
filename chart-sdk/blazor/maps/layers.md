@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Layers Support | Syncfusion®
 description: Learn how to stack multiple shape files and tile providers in Blazor Maps using main layers, sublayers, and BaseLayerIndex.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sankey Diagram Data Binding | Syncfusion®
 description: Learn how to bind Blazor Sankey Diagram data with SankeyDataNode and SankeyDataLink collections, including node IDs, source/target links, and REST API loading.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

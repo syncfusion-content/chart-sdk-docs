@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Smith Chart in WASM App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Smith Chart in a Blazor WebAssembly app, including setup, packages, and first chart.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

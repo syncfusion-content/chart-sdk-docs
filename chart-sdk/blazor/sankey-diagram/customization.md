@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sankey Diagram Appearance | Syncfusion®
 description: Learn how to customize the Blazor Sankey Diagram with background colors, images, dimensions, RTL layout, and orientation for any use case.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

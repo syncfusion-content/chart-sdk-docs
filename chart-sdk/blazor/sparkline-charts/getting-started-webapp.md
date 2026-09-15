@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Sparkline Charts in Web App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Sparkline in a Blazor Web App, including server and client setup, packages, and first chart.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

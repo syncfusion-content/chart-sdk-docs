@@ -2,7 +2,7 @@
 layout: post
 title: How to Add Different Types of Markers in Blazor Maps | Syncfusion®
 description: Learn how to add and customize different marker shapes in Blazor Maps using MapsMarkerSettings, DataSource, Shape, and MapsMarkerBorder.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

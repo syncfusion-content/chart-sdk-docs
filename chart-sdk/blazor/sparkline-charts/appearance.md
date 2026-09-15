@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Appearance Examples | Syncfusion®
 description: Learn how to customize the appearance of Syncfusion Blazor Sparkline, including RTL, padding, border, and background options.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

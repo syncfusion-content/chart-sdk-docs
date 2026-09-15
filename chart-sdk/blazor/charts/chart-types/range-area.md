@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Area Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Range Area Charts using Syncfusion. Visualize a range between high and low values per point with a filled area.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

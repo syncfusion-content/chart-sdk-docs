@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Selection Examples | Syncfusion®
 description: Learn about selection in Syncfusion Blazor 3D Chart, including Point, Series, and Cluster selection modes with code samples.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

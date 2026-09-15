@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Dimensions and Sizing | Syncfusion®
 description: Learn how to set Blazor Charts dimensions with Width and Height properties. Use percentages and a CDN script to avoid layout redraws.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

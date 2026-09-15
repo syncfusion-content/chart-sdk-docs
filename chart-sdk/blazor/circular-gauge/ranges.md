@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Ranges | Syncfusion®
 description: Learn how to highlight intervals on a Blazor Circular Gauge axis by adding ranges with custom start, end, start width, and end width values.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

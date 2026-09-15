@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Tooltip Examples | Syncfusion®
 description: Learn how to enable tooltips in Syncfusion Blazor Charts. Set ChartTooltipSettings Enable to true. Supports templates and custom formatting.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

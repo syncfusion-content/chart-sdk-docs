@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Circular Gauge | Syncfusion
 description: Learn how to add the Blazor Circular Gauge to a new Blazor WebAssembly (Standalone) app using Visual Studio, VS Code, or the .NET CLI.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

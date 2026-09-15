@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Localization Examples | Syncfusion®
 description: Learn how to localize Syncfusion Blazor Sparkline using LoadCldrData and setCulture, with tooltip format and RTL examples.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

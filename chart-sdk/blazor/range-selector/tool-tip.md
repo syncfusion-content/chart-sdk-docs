@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Tooltip Examples | Syncfusion®
 description: Learn how to enable and customize tooltips in Syncfusion Blazor Range Selector, including slider tooltips that show the selected start and end values.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

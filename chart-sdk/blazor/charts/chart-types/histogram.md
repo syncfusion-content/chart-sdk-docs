@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Histogram Chart Examples and Documentation | Syncfusion®
 description: Learn how to render Blazor Histogram Charts using Syncfusion. Display large data distributions visually with bin-based frequency aggregation.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

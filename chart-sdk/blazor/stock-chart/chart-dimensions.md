@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Stock Chart Dimensions | Syncfusion®
 description: Learn how to size the Blazor Stock Chart to its container or set explicit Width and Height in pixels or percentages.
-platform: Blazor
+platform: chart-sdk
 control: Stock Chart
 documentation: ug
 ---

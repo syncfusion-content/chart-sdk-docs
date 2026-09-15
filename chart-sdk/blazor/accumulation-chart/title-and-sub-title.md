@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Title and Subtitle Examples | Syncfusion®
 description: Learn how to add a title and subtitle in Syncfusion Blazor Accumulation Chart, including text, alignment, and font styling.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

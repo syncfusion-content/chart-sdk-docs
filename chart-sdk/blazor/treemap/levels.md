@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Levels | Syncfusion®
 description: Learn how to group Blazor TreeMap data into hierarchical levels using TreeMapLevel GroupPath, GroupGap, header height, and header style.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

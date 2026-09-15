@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Grouping Examples | Syncfusion®
 description: Learn how to group small slices in Syncfusion Blazor Accumulation Chart with GroupMode and GroupTo properties.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

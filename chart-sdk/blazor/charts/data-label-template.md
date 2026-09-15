@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Data Label Template Examples | Syncfusion®
 description: Learn how to customize data labels in Syncfusion Blazor Charts. Use a Template that casts context to ChartDataPointInfo for inline values.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

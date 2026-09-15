@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Data Labels Examples | Syncfusion®
 description: Learn how to add and customize data labels in Syncfusion Blazor 3D Chart series using the Visible property in Chart3DDataLabel.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---
