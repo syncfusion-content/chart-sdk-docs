@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Line Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Line Charts using Syncfusion. Visualize time-dependent data and trends at equal intervals with markers and tooltips.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

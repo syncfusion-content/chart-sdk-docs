@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Annotations | Syncfusion®
 description: Learn how to mark specific areas of interest in the Blazor Circular Gauge by adding text, shapes, or images as annotations using ContentTemplate.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

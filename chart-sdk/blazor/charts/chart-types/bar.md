@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bar Chart Examples and Documentation | Syncfusion®
 description: Learn how to create and customize Blazor Bar Charts using Syncfusion. Compare frequency, count, total, or average across categories with horizontal bars.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

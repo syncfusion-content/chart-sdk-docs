@@ -2,7 +2,7 @@
 layout: post
 title: How to Place Blazor Linear Gauge inside Other Components | Syncfusion®
 description: Learn how to place the Blazor Linear Gauge inside Dashboard Layout, Tabs, Dialog, or Accordion by deferring initialization until the host fires Created.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

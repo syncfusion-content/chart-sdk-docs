@@ -2,7 +2,7 @@
 layout: post
 title: Accessibility in Blazor Linear Gauge | Syncfusion®
 description: Discover the Blazor Linear Gauge accessibility compliance for WCAG 2.2, Section 508, WAI-ARIA roles, screen reader support, and axe-core validation.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

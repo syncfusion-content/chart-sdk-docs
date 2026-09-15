@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Lightweight Examples | Syncfusion®
 description: Learn how to enable lightweight mode in Syncfusion Blazor Range Selector to render the navigator without a chart when DataSource is empty.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

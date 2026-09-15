@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Range Band Examples | Syncfusion®
 description: Learn how to customize range bands in Syncfusion Blazor Sparkline to highlight y-axis ranges with StartRange, EndRange, color, and opacity.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

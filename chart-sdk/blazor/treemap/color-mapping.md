@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Color Mapping | Syncfusion®
 description: Learn how to apply Range, Equal, Desaturation, Palette, and data-bound color mapping to Blazor TreeMap items using TreeMapLeafColorMapping.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

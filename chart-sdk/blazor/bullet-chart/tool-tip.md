@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Tooltip Examples | Syncfusion®
 description: Learn how to enable and customize tooltips in Syncfusion Blazor Bullet Chart, including format, template, and styling options.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

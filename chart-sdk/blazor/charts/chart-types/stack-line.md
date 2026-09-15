@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 100% Stacked Line Chart Examples | Syncfusion®
 description: Learn how to render 100% Stacked Line Charts in Blazor using Syncfusion. Each series is shown as a percentage of the total, summing to 100.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

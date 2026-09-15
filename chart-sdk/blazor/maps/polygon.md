@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Polygon Support | Syncfusion®
 description: Learn how to render polygon shapes over geometry or online maps in Blazor Maps using MapsPolygon points, fill, border, and opacity.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Box and Whisker Chart Examples and Documentation | Syncfusion®
 description: Learn how to visualize statistical distributions in Blazor Box and Whisker Charts using Syncfusion. Plot min, Q1, median, Q3, and max with five Y values.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

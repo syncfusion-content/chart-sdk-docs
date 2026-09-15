@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Radar Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Radar Charts using Syncfusion. Plot data by value and angle on a circular graph to compare qualitative aspects.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: How to Hide an Axis in Blazor Charts | Syncfusion®
 description: Learn how to hide a chart axis in Blazor Charts using Syncfusion. Toggle the legend item of the series that uses the axis via YAxisName.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

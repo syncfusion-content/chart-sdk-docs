@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Mixed Series Examples | Syncfusion®
 description: Learn how to combine multiple chart types in Syncfusion Blazor Charts. Add several ChartSeries entries to render in declaration order.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

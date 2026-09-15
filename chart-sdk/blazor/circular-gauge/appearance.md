@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Appearance | Syncfusion®
 description: Learn how to customize the Blazor Circular Gauge title, position, and background using properties like Title, CenterX, CenterY, and Background.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

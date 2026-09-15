@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Gradient Fill Examples | Syncfusion®
 description: Learn how to apply linear or radial gradients in Syncfusion Blazor Charts. Use ChartLinearGradient and color stops on series, trendlines, and indicators.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

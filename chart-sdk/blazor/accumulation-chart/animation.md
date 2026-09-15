@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Animation Examples | Syncfusion®
 description: Learn how to enable and customize animation in Syncfusion Blazor Accumulation Chart. Configure duration, delay, and per-series animation settings.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

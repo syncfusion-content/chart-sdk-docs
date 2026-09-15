@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Annotations | Syncfusion®
 description: Learn how to add text, HTML, or image annotations to the Blazor Linear Gauge with custom positioning, z-index, and alignment.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

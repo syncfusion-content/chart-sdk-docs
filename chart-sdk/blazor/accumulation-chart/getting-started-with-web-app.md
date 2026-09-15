@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Accumulation Chart in Web App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Accumulation Chart in a Blazor Web App, including server and client setup, packages, and first chart example.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

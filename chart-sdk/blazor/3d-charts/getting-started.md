@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor 3D Charts in Server App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor 3D Charts in a Blazor Server app, including setup, packages, and first chart.
-platform: Blazor
+platform: chart-sdk
 control: 3D Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Methods | Syncfusion®
 description: Learn how to update the Blazor Linear Gauge dynamically using SetPointerValue, SetAnnotationValue, and RefreshAsync methods at runtime.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

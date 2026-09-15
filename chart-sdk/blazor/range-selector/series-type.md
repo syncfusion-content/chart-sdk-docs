@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Series Type Examples | Syncfusion®
 description: Learn about the supported series types in Syncfusion Blazor Range Selector, including Line, Area, and StepLine series.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

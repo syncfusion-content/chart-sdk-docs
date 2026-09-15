@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sankey Diagram Tooltip | Syncfusion®
 description: Learn how to enable Blazor Sankey Diagram tooltips with SankeyTooltipSettings to show node and link details using templates, fill, opacity, and fade.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

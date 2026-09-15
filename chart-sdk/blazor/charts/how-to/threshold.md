@@ -2,7 +2,7 @@
 layout: post
 title: How to Add a Threshold in Blazor Charts | Syncfusion®
 description: Learn how to add a threshold to a Blazor Chart using Syncfusion. Mark a threshold value with a horizontal stripline bound to a vertical axis.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

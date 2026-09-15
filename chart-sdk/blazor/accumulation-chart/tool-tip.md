@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Tooltip Examples | Syncfusion®
 description: Learn how to enable and customize tooltips in Syncfusion Blazor Accumulation Chart, including format, template, and styling.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

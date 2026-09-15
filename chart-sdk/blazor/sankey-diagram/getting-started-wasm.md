@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Sankey Diagram in WASM App | Syncfusion®
 description: Learn how to add the Blazor Sankey Diagram to a Blazor WebAssembly App by installing the Sankey NuGet package, importing namespaces, and registering the client.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

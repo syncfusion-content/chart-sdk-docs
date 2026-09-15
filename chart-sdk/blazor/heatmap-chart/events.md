@@ -2,7 +2,7 @@
 layout: post
 title: Blazor HeatMap Chart Events | Syncfusion®
 description: Learn how to handle Blazor HeatMap Chart interactions with CellClicked, CellRendering, CellSelected, and Created events.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Working with Data Examples | Syncfusion®
 description: Learn how to bind data to Syncfusion Blazor Range Selector using SfDataManager, RESTful JSON services, or IEnumerable with code samples.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

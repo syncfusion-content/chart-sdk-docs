@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Legend Configuration Examples | Syncfusion®
 description: Learn how to enable and customize the legend in Syncfusion Blazor 3D Chart, including position, alignment, and styling options.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

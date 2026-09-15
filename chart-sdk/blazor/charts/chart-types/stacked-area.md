@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Stacked Area Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Stacked Area Charts using Syncfusion. Show individual contributions to a total over time by stacking Y values.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

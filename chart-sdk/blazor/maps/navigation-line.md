@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Navigation Lines | Syncfusion®
 description: Learn how to draw flight or sea routes in Blazor Maps with MapsNavigationLine using start and end latitude and longitude coordinates.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

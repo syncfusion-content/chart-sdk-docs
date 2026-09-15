@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Hilo Chart Examples and Documentation | Syncfusion®
 description: Learn how to render Blazor Hilo Charts using Syncfusion. Plot stock high and low price movements over time for each data point.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

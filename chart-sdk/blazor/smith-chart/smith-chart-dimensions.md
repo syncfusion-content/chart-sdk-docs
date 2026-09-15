@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Dimensions and Sizing | Syncfusion®
 description: Learn how to set the size of Syncfusion Blazor Smith Chart using CSS or the Width and Height API with code samples.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

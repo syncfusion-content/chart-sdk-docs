@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Methods Examples | Syncfusion®
 description: Learn about available methods in Syncfusion Blazor Sparkline, including how to use RefreshAsync with @ref to update the chart.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Axis Customization Examples | Syncfusion®
 description: Learn how to customize axes in Syncfusion Blazor Charts. Configure position, crossing, CrossesAt, and CrossesInAxis for numeric, datetime, or log axes.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

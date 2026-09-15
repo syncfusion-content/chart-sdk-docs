@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Data Labels | Syncfusion®
 description: Learn how to display shape names or data source fields as labels in Blazor Maps by setting LabelPath and Visible in MapsDataLabelSettings.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

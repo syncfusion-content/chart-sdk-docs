@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Chart Wizard Accessibility Examples | Syncfusion®
 description: Learn about accessibility in Syncfusion Blazor Chart Wizard with keyboard navigation, screen reader support, and WCAG 2.2 compliance.
-platform: Blazor
+platform: chart-sdk
 control: Chart Wizard
 documentation: ug
 keywords: chart wizard, blazor, accessibility

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Drill-down | Syncfusion®
 description: Learn how to enable drill-down in the Blazor TreeMap with on-demand child loading, breadcrumb navigation, and an initial drill-in path.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

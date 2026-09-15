@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Tooltip Examples | Syncfusion®
 description: Learn how to enable and customize tooltips in Syncfusion Blazor Smith Chart, including format, template, and styling options.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---
