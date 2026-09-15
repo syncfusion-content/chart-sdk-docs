@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Actual Bar Examples | Syncfusion®
 description: Learn how to render the actual bar (feature measure) in Syncfusion Blazor Bullet Chart by mapping ValueField to your data source.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

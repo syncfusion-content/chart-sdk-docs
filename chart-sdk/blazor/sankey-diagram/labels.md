@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sankey Diagram Labels | Syncfusion®
 description: Learn how to configure Blazor Sankey Diagram labels with SankeyLabelSettings to set visibility, color, font, size, weight, padding, and italic style.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

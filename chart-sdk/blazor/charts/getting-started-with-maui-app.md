@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Charts in MAUI App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Charts in a Blazor MAUI hybrid app. Explore setup, packages, and first chart example.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

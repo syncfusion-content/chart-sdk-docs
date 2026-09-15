@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Selection and Highlight | Syncfusion®
 description: Learn how to select and highlight Blazor TreeMap items with TreeMapSelectionSettings and TreeMapHighlightSettings, and customize fill and border.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

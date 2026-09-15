@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Empty Points Examples | Syncfusion®
 description: Learn how to handle empty data points in Syncfusion Blazor Accumulation Chart, including null and NaN values, and customize their rendering.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Adaptive Layout for Mobile | Syncfusion®
 description: Learn how to enable adaptive layout in Syncfusion Blazor Charts. Auto-resize chart elements for mobile and small-screen containers.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

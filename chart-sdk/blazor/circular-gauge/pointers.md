@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Pointers | Syncfusion®
 description: Learn how to indicate values on a Blazor Circular Gauge axis with Needle, RangeBar, or Marker pointers, then customize value, type, and animation.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

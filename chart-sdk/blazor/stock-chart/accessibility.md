@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Stock Chart Accessibility | Syncfusion®
 description: Learn how the Blazor Stock Chart meets WCAG 2.2 AA, Section 508, ADA, screen reader, RTL, and keyboard navigation standards.
-platform: Blazor
+platform: chart-sdk
 control: Stock Chart
 documentation: ug
 ---

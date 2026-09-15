@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Last Data Label Examples | Syncfusion®
 description: Learn how to highlight the most recent data point in Syncfusion Blazor Charts. Use ChartLastDataLabel ShowLabel with an indicator line.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Chart Wizard Serialization Examples | Syncfusion®
 description: Learn how to save and restore Syncfusion Blazor Chart Wizard configuration using SaveChart and LoadChartAsync for JSON-based persistence.
-platform: Blazor
+platform: chart-sdk
 control: Chart Wizard
 documentation: ug
 keywords: chart wizard, blazor, serialization

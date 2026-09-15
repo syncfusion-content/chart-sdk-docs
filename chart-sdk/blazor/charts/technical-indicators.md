@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Technical Indicators Examples | Syncfusion®
 description: Learn how to add technical indicators in Syncfusion Blazor Charts. Use RSI, MACD, Bollinger, Accumulation Distribution, and seven more types.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

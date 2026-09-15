@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Content Security Policy | Syncfusion®
 description: Learn how the Blazor Circular Gauge features work under strict Content Security Policy and which animation settings require unsafe-inline relaxation.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

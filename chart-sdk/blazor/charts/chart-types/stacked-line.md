@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Stacked Line Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Stacked Line Charts using Syncfusion. Compare each series contribution to the total over time by stacking lines.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sankey Diagram Print and Export | Syncfusion®
 description: Learn how to print and export the Blazor Sankey Diagram to PNG, JPEG, SVG, or PDF with PrintAsync and ExportAsync, then use PrintCompleted and ExportCompleted.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

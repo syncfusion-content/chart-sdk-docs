@@ -2,7 +2,7 @@
 layout: post
 title: How to Get Selected Data in Blazor Charts | Syncfusion®
 description: Learn how to get selected data in Blazor Charts using Syncfusion. Use the OnSelectionChanged event to read SelectedDataValues into your model.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

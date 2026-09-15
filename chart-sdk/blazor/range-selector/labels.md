@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Labels Examples | Syncfusion®
 description: Learn how to configure labels in Syncfusion Blazor Range Selector, including multi-level labels, format, and LabelPosition options.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

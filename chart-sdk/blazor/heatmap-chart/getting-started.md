@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor HeatMap Chart in WASM App | Syncfusion®
 description: Learn how to add the Blazor HeatMap Chart to a Blazor WebAssembly app, configure data, and render your first heatmap.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

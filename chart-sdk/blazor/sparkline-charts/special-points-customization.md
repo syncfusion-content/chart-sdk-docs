@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Special Points Customization | Syncfusion®
 description: Learn how to customize special points in Syncfusion Blazor Sparkline, including Start, End, High, Low, and Negative point colors.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

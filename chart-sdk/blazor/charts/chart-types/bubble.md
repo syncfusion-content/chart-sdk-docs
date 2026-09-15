@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bubble Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Bubble Charts using Syncfusion. Visualize three parameters—X, Y, and Size—where point size encodes an extra dimension.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

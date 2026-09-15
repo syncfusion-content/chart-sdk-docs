@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Accessibility Customization | Syncfusion®
 description: Learn how to configure accessibility in Syncfusion Blazor Charts. Set AccessibilityDescription, AccessibilityRole, and Focusable for screen readers.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

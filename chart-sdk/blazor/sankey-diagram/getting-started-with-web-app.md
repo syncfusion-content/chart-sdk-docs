@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Sankey Diagram in Web App | Syncfusion®
 description: Learn how to add the Blazor Sankey Diagram to a Blazor Web App by installing the Sankey NuGet package and configuring the client project.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

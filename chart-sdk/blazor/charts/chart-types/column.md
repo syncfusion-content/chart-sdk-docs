@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Column Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Column Charts using Syncfusion. Compare frequency, count, total, or average across categories with vertical bars.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

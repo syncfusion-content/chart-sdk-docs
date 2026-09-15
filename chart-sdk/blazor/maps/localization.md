@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Localization | Syncfusion®
 description: Learn how to localize Blazor Maps UI text such as zoom tooltips and image-not-found messages using .resx files for any culture.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

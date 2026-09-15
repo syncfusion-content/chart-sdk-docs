@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge User Interaction | Syncfusion®
 description: Learn how to show pointer details on hover in the Blazor Circular Gauge by enabling the tooltip and customizing its fill, border, and text style.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

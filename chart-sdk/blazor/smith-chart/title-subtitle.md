@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Title and Subtitle Examples | Syncfusion®
 description: Learn how to add a title and subtitle to Syncfusion Blazor Smith Chart, including text, alignment, and font styling options.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

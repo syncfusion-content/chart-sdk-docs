@@ -2,7 +2,7 @@
 layout: post
 title: Blazor HeatMap Chart Bubble HeatMap | Syncfusion®
 description: Learn how to render Bubble HeatMap visualizations in the Blazor HeatMap Chart using bubble size, color, sectors, and combined size-color encoding.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

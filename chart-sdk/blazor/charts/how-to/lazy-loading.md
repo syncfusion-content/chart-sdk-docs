@@ -2,7 +2,7 @@
 layout: post
 title: How to Enable Lazy Loading in Blazor Charts | Syncfusion®
 description: Learn how to enable lazy loading in Blazor Charts using Syncfusion. Use the OnScrollChanged event to fetch data on demand for the visible range.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Stock Chart Panning | Syncfusion®
 description: Learn how to pan the Blazor Stock Chart horizontally with the EnablePan property to scroll across large historical datasets.
-platform: Blazor
+platform: chart-sdk
 control: Stock Chart
 documentation: ug
 ---

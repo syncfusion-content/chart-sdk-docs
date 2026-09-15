@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Axis Labels Examples | Syncfusion®
 description: Learn how to configure and customize axis labels in Syncfusion Blazor 3D Chart, including smart label placement via LabelIntersectAction.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

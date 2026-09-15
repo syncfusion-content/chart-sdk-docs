@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Sankey Diagram | Syncfusion®
 description: Learn how to add the Blazor Sankey Diagram to a Blazor Server App by installing the Sankey NuGet package, importing namespaces, and registering services.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

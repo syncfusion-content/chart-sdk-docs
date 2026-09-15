@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Working with Data Examples | Syncfusion®
 description: Learn how to bind data to Syncfusion Blazor 3D Chart using SfDataManager, RESTful JSON services, or IEnumerable with code samples.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

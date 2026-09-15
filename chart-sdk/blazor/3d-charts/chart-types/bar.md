@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Bar Chart Examples and Documentation | Syncfusion®
 description: Learn how to render a Bar Chart in Syncfusion Blazor 3D Chart by setting the series Type to Bar with code samples.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---
