@@ -1,4 +1,4 @@
-node('Content')
+node('content')
 { 
 timestamps
   {
