@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Grid Lines Examples | Syncfusion®
 description: Learn how to customize grid lines and tick lines in Syncfusion Blazor Range Selector, including Width, Color, and DashArray settings.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

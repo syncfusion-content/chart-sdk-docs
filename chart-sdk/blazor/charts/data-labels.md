@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Data Labels Examples | Syncfusion®
 description: Learn how to show data labels on Syncfusion Blazor Charts. Enable ChartDataLabel Visible to display point values with auto-arrange.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

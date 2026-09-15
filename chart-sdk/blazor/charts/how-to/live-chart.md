@@ -2,7 +2,7 @@
 layout: post
 title: How to Update Live Data in Blazor Charts | Syncfusion®
 description: Learn how to update a Blazor Chart with live data using Syncfusion. Use a timer to refresh the DataSource and re-render the chart at intervals.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart DateTime Axis Examples | Syncfusion®
 description: Learn how to use a DateTime axis in Syncfusion Blazor 3D Chart to display date time values as axis labels in the specified format.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

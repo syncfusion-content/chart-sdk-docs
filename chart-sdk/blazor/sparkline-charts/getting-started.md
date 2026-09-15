@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Sparkline Charts in WASM App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Sparkline in a Blazor WebAssembly app, including setup, packages, and first chart.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Axis Examples | Syncfusion®
 description: Learn how to configure and customize the axis in Syncfusion Blazor Smith Chart, including horizontal and radial axis labels and tick lines.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor HeatMap Chart in Web App | Syncfusion®
 description: Learn how to add the Blazor HeatMap Chart to a Blazor Web App (ASP.NET Core hosted), configure data, and render your first heatmap.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

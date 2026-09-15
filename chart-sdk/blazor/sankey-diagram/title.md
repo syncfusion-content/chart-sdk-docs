@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sankey Diagram Title and Subtitle | Syncfusion®
 description: Learn how to add a title and subtitle to the Blazor Sankey Diagram with Title and SubTitle, then style them via SankeyTitleStyle and SankeySubtitleStyle fonts.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Working with Data Examples | Syncfusion®
 description: Learn how to bind data to Syncfusion Blazor Bullet Chart using DataSource, ValueField, TargetField, and CategoryField with code samples.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

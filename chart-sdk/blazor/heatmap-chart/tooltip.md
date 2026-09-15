@@ -2,7 +2,7 @@
 layout: post
 title: Blazor HeatMap Chart Tooltip | Syncfusion®
 description: Learn how to show default or custom HTML tooltips on Blazor HeatMap Chart cells with the XLabel, YLabel, and value from the data source.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Accessibility Compliance and Examples | Syncfusion®
 description: Learn about Syncfusion Blazor Charts accessibility compliance. Review WCAG 2.2, Section 508, screen reader, and keyboard navigation support.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

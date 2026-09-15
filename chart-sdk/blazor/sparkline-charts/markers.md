@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Markers Examples | Syncfusion®
 description: Learn how to add and customize markers in Syncfusion Blazor Sparkline using SparklineMarkerSettings for special points and styles.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

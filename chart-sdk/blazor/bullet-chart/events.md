@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Events Examples and Reference | Syncfusion®
 description: Learn about events in Syncfusion Blazor Bullet Chart such as Loaded, OnLegendItemRender, and TooltipRender with usage examples.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

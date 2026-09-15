@@ -2,7 +2,7 @@
 layout: post
 title: Blazor HeatMap Chart Selection | Syncfusion®
 description: Learn how to select single or multiple Blazor HeatMap Chart cells with mouse, touch, or keyboard, and clear selections programmatically.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---

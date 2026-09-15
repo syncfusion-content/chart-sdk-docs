@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Markers Support | Syncfusion®
 description: Learn how to add and customize data-driven markers in Blazor Maps by binding latitude and longitude values to MapsMarker.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

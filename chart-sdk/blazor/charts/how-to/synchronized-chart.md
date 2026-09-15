@@ -2,7 +2,7 @@
 layout: post
 title: How to Synchronize Charts in Blazor Charts | Syncfusion®
 description: Learn how to synchronize Blazor Charts using Syncfusion. Share tooltip, cursor, and selection across charts by sharing X-Y coordinates.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

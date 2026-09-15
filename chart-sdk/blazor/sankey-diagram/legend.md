@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sankey Diagram Legend | Syncfusion®
 description: Learn how to show a Blazor Sankey Diagram legend with SankeyLegendSettings to set position, size, padding, background, highlight on hover, and a custom title.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

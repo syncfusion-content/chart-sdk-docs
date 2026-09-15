@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Selection Examples | Syncfusion®
 description: Learn how to enable selection in Syncfusion Blazor Charts. Choose Point, Series, Cluster, DragXY, or DragX modes for mouse or touch.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

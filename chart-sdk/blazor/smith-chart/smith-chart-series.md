@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Series Examples | Syncfusion®
 description: Learn how to add and customize series in Syncfusion Blazor Smith Chart, including Fill, Width, Opacity, and Visibility properties.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Stacked Bar Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Stacked Bar Charts using Syncfusion. Show individual Y values contributing to a total per category as horizontal bars.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

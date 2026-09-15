@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Bing Maps Provider | Syncfusion®
 description: Learn how to render Bing Maps tiles in Blazor Maps via GetBingUrlTemplate and UrlTemplate for satellite, aerial, and street maps.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

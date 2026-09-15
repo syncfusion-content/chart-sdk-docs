@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Annotation Examples | Syncfusion®
 description: Learn how to add annotations in Syncfusion Blazor Charts. Highlight regions of interest with custom HTML text, shapes, or images.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

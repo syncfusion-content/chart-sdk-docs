@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Events | Syncfusion®
 description: Learn how to handle Blazor Linear Gauge events such as AnnotationRendering, AxisLabelRendering, Loaded, and OnDragStart to customize behavior.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

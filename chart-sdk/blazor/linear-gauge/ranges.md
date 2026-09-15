@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Ranges | Syncfusion®
 description: Learn how to add ranges to the Blazor Linear Gauge with start, end, color, position, gradient, and multiple-range configurations for thresholds.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

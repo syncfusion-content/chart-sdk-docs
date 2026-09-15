@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Accessibility | Syncfusion®
 description: Learn how Blazor Maps meet WCAG 2.2, Section 508, WAI-ARIA, and screen reader accessibility standards with keyboard navigation support.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

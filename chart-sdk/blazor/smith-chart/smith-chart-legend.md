@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Legend Examples | Syncfusion®
 description: Learn how to enable and customize the legend in Syncfusion Blazor Smith Chart, including position, alignment, and SmithChartLegendSettings.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

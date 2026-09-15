@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Charts in WASM App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Charts in a Blazor WebAssembly standalone app. Explore setup, packages, and first chart example.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Bubble Visualization | Syncfusion®
 description: Learn how to render data-driven bubbles on Blazor Maps by binding a data source to MapsBubble and configuring ValuePath, color, and shape.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

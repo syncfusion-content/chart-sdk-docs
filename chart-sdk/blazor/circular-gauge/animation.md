@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Animation | Syncfusion®
 description: Learn how to animate the Blazor Circular Gauge elements sequentially using the AnimationDuration property to render axis, ticks, labels, and pointers.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

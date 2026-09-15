@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Trendlines Examples | Syncfusion®
 description: Learn how to add trendlines in Syncfusion Blazor Charts. Use Linear, Exponential, Logarithmic, Power, Polynomial, or MovingAverage.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---
