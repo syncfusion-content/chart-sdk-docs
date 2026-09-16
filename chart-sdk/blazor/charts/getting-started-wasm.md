@@ -139,7 +139,7 @@ builder.Services.AddSyncfusionBlazor();
 
 ## Add script resource
 
-Include the required [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) at the end of the `<body>` section in the **~wwwroot/index.html** file to enable Charts functionality.
+Include the required [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) at the end of the `<body>` section in the **~wwwroot/index.html** file to enable Blazor Charts functionality.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -220,7 +220,7 @@ Map the data fields `Month` and `SalesValue` to the series [XName](https://help.
 <SfChart>
     <!-- ChartPrimaryXAxis configures the X-axis properties such as value type and labels -->
     <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
-    <!-- ChartSeriesCollection contains one or more data series to be plotted on the chart -->
+    <!-- ChartSeriesCollection contains one or more data series to be plotted on the Blazor Chart -->
     <ChartSeriesCollection>
         <!-- ChartSeries defines a data series with its data source and axis mappings -->
         <ChartSeries DataSource="@Sales" XName="Month" YName="SalesValue" Type="ChartSeriesType.Column">

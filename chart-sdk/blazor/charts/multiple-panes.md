@@ -9,11 +9,11 @@ documentation: ug
 
 # Blazor Charts Multiple Panes
 
-The chart area can be divided into multiple panes using [Rows](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartRow.html) and [Columns](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartColumn.html) settings.
+The Blazor Chart area can be divided into multiple panes using [Rows](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartRow.html) and [Columns](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartColumn.html) settings.
 
 ## Rows
 
-Use the chart's [Rows](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartRow.html) property to divide the chart area vertically into any number of rows.
+Use the chart's [Rows](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartRow.html) property to divide the Blazor Chart area vertically into any number of rows.
 
 * The [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartRow.html#Syncfusion_Blazor_Charts_ChartRow_Height) property can be used to allocate space for each row. The value can be expressed either in percentage or pixel.
 
@@ -136,7 +136,7 @@ The [Span](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.StockC
 
 ## Columns
 
-Use the chart's [Columns](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartColumn.html) property to divide the chart area horizontally into any number of columns.
+Use the chart's [Columns](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartColumn.html) property to divide the Blazor Chart area horizontally into any number of columns.
 
 * The [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartColumn.html#Syncfusion_Blazor_Charts_ChartColumn_Width) property can be used to allocate space for each column. The value can be expressed either in percentage or pixel.
 
@@ -254,7 +254,7 @@ The [Span](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.StockC
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BtBntdWBJfEgZHGh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Column Spanning with Multiple Panes in Blazor Chart](images/multiple-panes/blazor-chart-multiple-panes-with-column-span.webp)" %}
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various Blazor Chart types and how to represent time-dependent data, showing trends at equal intervals.
 
 ## See also
 

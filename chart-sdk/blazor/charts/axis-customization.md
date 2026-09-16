@@ -11,13 +11,13 @@ documentation: ug
 
 This section provides a brief explanation on how to customize the Blazor Charts axis.
 
-A detailed walkthrough for customizing the chart axis is provided in the video below.
+A detailed walkthrough for customizing the Blazor Chart axis is provided in the video below.
 
 {% youtube "youtube:https://www.youtube.com/watch?v=SiMYNPE51wU" %}
 
 ## Axis crossing
 
-An axis can be positioned in the chart area using [CrossesAt](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_CrossesAt) and [CrossesInAxis](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_CrossesInAxis) properties. The [CrossesAt](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_CrossesAt) property specifies the values (numeric, datetime or logarithmic) at which the axis line has to be intersected with the vertical axis or vice-versa, and the [CrossesInAxis](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_CrossesInAxis) property specifies the axis name with which the axis line has to be crossed.
+An axis can be positioned in the Blazor Chart area using [CrossesAt](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_CrossesAt) and [CrossesInAxis](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_CrossesInAxis) properties. The [CrossesAt](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_CrossesAt) property specifies the values (numeric, datetime or logarithmic) at which the axis line has to be intersected with the vertical axis or vice-versa, and the [CrossesInAxis](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_CrossesInAxis) property specifies the axis name with which the axis line has to be crossed.
 
 ```cshtml
 
@@ -228,7 +228,7 @@ The width, color, and dash array of the minor and major grid lines can be c
 
 ## Multiple Axis
 
-The [ChartAxes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxes.html) is a secondary axis collection that can be used to add "**n**" number of axes to the chart in addition to the basic X and Y axis. By mapping with the axis unique name, series can be linked to it.
+The [ChartAxes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxes.html) is a secondary axis collection that can be used to add "**n**" number of axes to the Blazor Chart in addition to the basic X and Y axis. By mapping with the axis unique name, series can be linked to it.
 
 ```cshtml
 

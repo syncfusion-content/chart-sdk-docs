@@ -11,7 +11,7 @@ documentation: ug
 
 ## Print
 
-The `PrintAsync` method can be used to print a rendered chart directly from the browser.
+The `PrintAsync` method can be used to print a rendered Blazor Chart directly from the browser.
 
 ```cshtml
 
@@ -64,7 +64,7 @@ The `PrintAsync` method can be used to print a rendered chart directly from the 
 
 ### Print - Multiple Charts
 
-Again, the [PrintAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_PrintAsync_Microsoft_AspNetCore_Components_ElementReference_) method can be used to print all of the charts on a page by passing the element reference of the parent for all of the charts.
+Again, the [PrintAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_PrintAsync_Microsoft_AspNetCore_Components_ElementReference_) method can be used to print all of the Blazor Charts on a page by passing the element reference of the parent for all of the charts.
 
 ```cshtml
 
@@ -237,11 +237,11 @@ Again, the [PrintAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.
 
 ## Export
 
-Using the `ExportAsync` method, the rendered chart can be exported to [JPEG](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_JPEG), [PNG](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_PNG), [SVG](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_SVG), [PDF](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_PDF), [XLSX](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_XLSX) or [CSV](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_CSV) format. The [ExportType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html) specifies the file format and `FileName` specifies the name of the exported file. Both of these parameters are required input parameters for this method.
+Using the `ExportAsync` method, the rendered Blazor Chart can be exported to [JPEG](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_JPEG), [PNG](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_PNG), [SVG](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_SVG), [PDF](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_PDF), [XLSX](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_XLSX) or [CSV](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html#Syncfusion_Blazor_Charts_ExportType_CSV) format. The [ExportType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html) specifies the file format and `FileName` specifies the name of the exported file. Both of these parameters are required input parameters for this method.
 
 The optional parameters for this method are,
 * `Orientation`: Specifies the portrait or landscape orientation in the PDF document.
-* `AllowDownload`: Set this parameter to **true** to enable the browser's download prompt to download the chart in the specified format, and **false** to get the chart as a `DataUrl` string.
+* `AllowDownload`: Set this parameter to **true** to enable the browser's download prompt to download the Blazor Chart in the specified format, and **false** to get the Blazor Chart as a `DataUrl` string.
 * `IsBase64`: Set this parameter to **true** to indicate that you want the exporting content in the form of a `base64` string. 
 
 ```cshtml
@@ -291,9 +291,9 @@ The optional parameters for this method are,
 
 ```
 
-### Export chart as base64 string
+### Export Blazor Chart as base64 string
 
-If you set `IsBase64` parameter to **true** while calling the [ExportAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_ExportAsync_Syncfusion_Blazor_Charts_ExportType_System_String_System_Nullable_Syncfusion_PdfExport_PdfPageOrientation__System_Boolean_) method, the chart will be converted into a base64 string, and you will be able to get the `base64` string in the [OnExportComplete](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_OnExportComplete) event argument.
+If you set `IsBase64` parameter to **true** while calling the [ExportAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_ExportAsync_Syncfusion_Blazor_Charts_ExportType_System_String_System_Nullable_Syncfusion_PdfExport_PdfPageOrientation__System_Boolean_) method, the Blazor Chart will be converted into a base64 string, and you will be able to get the `base64` string in the [OnExportComplete](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_OnExportComplete) event argument.
 
 ```cshtml
  
@@ -373,9 +373,9 @@ If you set `IsBase64` parameter to **true** while calling the [ExportAsync](http
 
 ```
 
-## Customizing the exported chart using Exporting event
+## Customizing the exported Blazor Chart using Exporting event
 
-The [Exporting](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_Exporting) event allows users to customize the exported chart before it is generated. The [ChartExportEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartExportEventArgs.html) class provides the following options for customizing the exported chart:
+The [Exporting](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_Exporting) event allows users to customize the exported Blazor Chart before it is generated. The [ChartExportEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartExportEventArgs.html) class provides the following options for customizing the exported chart:
 
 * `Cancel`: This property cancels the export process when set to **true**.
 * `Height`: This property specifies the height of the exported chart. When the value is changed, the chart's height is updated. It is not applicable for **XLSX** and **CSV** formats.
@@ -386,7 +386,7 @@ The [Exporting](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.C
 
 The [Workbook](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartExportEventArgs.html#Syncfusion_Blazor_Charts_ChartExportEventArgs_Workbook) property in the event argument of [Exporting](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_Exporting) event allows the users to customize the exported Excel sheet by modifying the properties of rows, columns, and cells, such as changing the font color, font size, font name, making the text bold, setting a background color, and center-aligning the text within the cells, before the file is generated.
 
-In the code example below, the chart is exported to Excel format. The exported Excel document is customized using the `Exporting` event. If the [ExportType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html) parameter in the [ExportAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_ExportAsync_Syncfusion_Blazor_Charts_ExportType_System_String_System_Nullable_Syncfusion_PdfExport_PdfPageOrientation__System_Boolean_System_Boolean_) method is set to something other than **XLSX** or **CSV**, the `Workbook` property will be **null**, and the chart's width will be set to **500px**.
+In the code example below, the Blazor Chart is exported to Excel format. The exported Excel document is customized using the `Exporting` event. If the [ExportType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ExportType.html) parameter in the [ExportAsync](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_ExportAsync_Syncfusion_Blazor_Charts_ExportType_System_String_System_Nullable_Syncfusion_PdfExport_PdfPageOrientation__System_Boolean_System_Boolean_) method is set to something other than **XLSX** or **CSV**, the `Workbook` property will be **null**, and the chart's width will be set to **500px**.
 
 ```cshtml
 @using Syncfusion.Blazor.Charts;
@@ -484,7 +484,7 @@ In the code example below, the chart is exported to Excel format. The exported E
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VjrdtRCVoMLHBfGP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various Blazor Chart types and how to represent time-dependent data, showing trends at equal intervals.
 
 ## See Also
 

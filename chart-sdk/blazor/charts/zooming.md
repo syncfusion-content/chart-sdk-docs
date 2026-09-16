@@ -15,15 +15,15 @@ A detailed walkthrough demonstrating how to configure and use zooming and pannin
 
 ## Enable zooming
 
-The chart can be zoomed in three different ways.
+The Blazor Chart can be zoomed in three different ways.
 
-* Selection - By setting [EnableSelectionZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnableSelectionZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the chart can be zoomed using the rubber band selection.
-* Mouse Wheel - By setting [EnableMouseWheelZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnableMouseWheelZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the chart can be zoomed-in and zoomed-out by scrolling the mouse wheel.
-* Pinch - By setting [EnablePinchZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnablePinchZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the chart can be zoomed through pinch gesture in touch enabled devices.
+* Selection - By setting [EnableSelectionZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnableSelectionZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the Blazor Chart can be zoomed using the rubber band selection.
+* Mouse Wheel - By setting [EnableMouseWheelZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnableMouseWheelZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the Blazor Chart can be zoomed-in and zoomed-out by scrolling the mouse wheel.
+* Pinch - By setting [EnablePinchZooming](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnablePinchZooming) property to **true** in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html), the Blazor Chart can be zoomed through pinch gesture in touch enabled devices.
 
  N> 
  * Pinch zooming is only usable in browsers that support multi-touch gestures.
- * To zoom in on a rectangular area on a chart using a touch device, quickly double-tap and then drag your finger to define the zooming area.
+ * To zoom in on a rectangular area on a Blazor Chart using a touch device, quickly double-tap and then drag your finger to define the zooming area.
 
 ```cshtml
 
@@ -68,13 +68,13 @@ A zooming toolbar will show after zooming the chart, featuring options for **Zoo
 
 ## Modes
 
-The [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html) determines whether the chart can scale along the horizontal or vertical axes. The default value of the mode is XY (both axis).
+The [Mode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_Mode) property in [ChartZoomSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html) determines whether the Blazor Chart can scale along the horizontal or vertical axes. The default value of the mode is XY (both axis).
 
 There are three types of modes.
 
-* X - Allows us to zoom the chart horizontally.
-* Y - Allows us to zoom the chart vertically.
-* XY - Allows us to zoom the chart both vertically and horizontally.
+* X - Allows us to zoom the Blazor Chart horizontally.
+* Y - Allows us to zoom the Blazor Chart vertically.
+* XY - Allows us to zoom the Blazor Chart both vertically and horizontally.
 
 ```cshtml
 
@@ -162,7 +162,7 @@ By default, zoom in, zoom out, pan, and reset buttons are available in the toolb
 
 ### Toolbar display mode
 
-By default, the zooming toolbar appears only when the chart is zoomed. However, you can display a zooming toolbar in the chart during the initial load by setting the [ToolbarDisplayMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_ToolbarDisplayMode) to [ToolbarMode.Always](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ToolbarMode.html#Syncfusion_Blazor_Charts_ToolbarMode_Always).
+By default, the zooming toolbar appears only when the Blazor Chart is zoomed. However, you can display a zooming toolbar in the Blazor Chart during the initial load by setting the [ToolbarDisplayMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_ToolbarDisplayMode) to [ToolbarMode.Always](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ToolbarMode.html#Syncfusion_Blazor_Charts_ToolbarMode_Always).
 
 ```cshtml
 
@@ -203,7 +203,7 @@ By default, the zooming toolbar appears only when the chart is zoomed. However, 
 
 ### Toolbar positioning
 
-The zoom toolbar in the chart can be repositioned using the [ChartZoomToolbarPosition](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html), allowing for flexible alignment and placement. It supports horizontal alignments (Left, Center, and Right) using the [HorizontalAlign](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html#Syncfusion_Blazor_Charts_ChartZoomToolbarPosition_HorizontalAlign) property, and vertical alignments (Top, Middle, and Bottom) using the [VerticalAlign](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html#Syncfusion_Blazor_Charts_ChartZoomToolbarPosition_VerticalAlign) property. By default, `HorizontalAlign` and `VerticalAlign` are set to **Right** and **Top** respectively. Additionally, for more precise positioning, you can specify custom coordinates using the [X](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html#Syncfusion_Blazor_Charts_ChartZoomToolbarPosition_X) and [Y](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html#Syncfusion_Blazor_Charts_ChartZoomToolbarPosition_Y) properties.
+The zoom toolbar in the Blazor Chart can be repositioned using the [ChartZoomToolbarPosition](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html), allowing for flexible alignment and placement. It supports horizontal alignments (Left, Center, and Right) using the [HorizontalAlign](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html#Syncfusion_Blazor_Charts_ChartZoomToolbarPosition_HorizontalAlign) property, and vertical alignments (Top, Middle, and Bottom) using the [VerticalAlign](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html#Syncfusion_Blazor_Charts_ChartZoomToolbarPosition_VerticalAlign) property. By default, `HorizontalAlign` and `VerticalAlign` are set to **Right** and **Top** respectively. Additionally, for more precise positioning, you can specify custom coordinates using the [X](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html#Syncfusion_Blazor_Charts_ChartZoomToolbarPosition_X) and [Y](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomToolbarPosition.html#Syncfusion_Blazor_Charts_ChartZoomToolbarPosition_Y) properties.
 
 ```cshtml
 @using Syncfusion.Blazor.Charts
@@ -246,7 +246,7 @@ The zoom toolbar in the chart can be repositioned using the [ChartZoomToolbarPos
 
 ## Enable pan
 
-The [EnablePan](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnablePan) property allows panning of the zoomed chart without using toolbar controls.
+The [EnablePan](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnablePan) property allows panning of the zoomed Blazor Chart without using toolbar controls.
 
 ```cshtml
 
@@ -288,11 +288,11 @@ The [EnablePan](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.C
 
 ## Scrollbar
 
-Scrollbars are active when the chart is zoomed, providing flexible navigation options for the expanded chart view.
+Scrollbars are active when the Blazor Chart is zoomed, providing flexible navigation options for the expanded Blazor Chart view.
 
 ### Enabling scrollbar
 
-The [EnableScrollbar](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnableScrollbar) property can be used to add a scrollbar to a zoomed chart. The chart can be panned or zoomed using this scrollbar.
+The [EnableScrollbar](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartZoomSettings.html#Syncfusion_Blazor_Charts_ChartZoomSettings_EnableScrollbar) property can be used to add a scrollbar to a zoomed chart. The Blazor Chart can be panned or zoomed using this scrollbar.
 
 ```cshtml
 
@@ -543,7 +543,7 @@ The axis interval will be calculated automatically with respect to the zoomed ra
 
 ![Auto Interval on Zooming in Blazor Area Chart](images/zoom/blazor-area-chart-auto-interval-zooming.webp)
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various Blazor Chart types and how to represent time-dependent data, showing trends at equal intervals.
 
 ## See Also
 

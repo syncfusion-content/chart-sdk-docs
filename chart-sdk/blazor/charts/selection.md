@@ -11,11 +11,11 @@ documentation: ug
 
 # Blazor Charts Selection
 
-The chart provides selection support for the series and its data points on mouse or touch action.
+The Blazor Chart provides selection support for the series and its data points on mouse or touch action.
 
 N> When clicked on the data points, the corresponding series legend will also be selected.
 
-The chart offers a variety of selection mode for selecting the data. They are,
+The Blazor Chart offers a variety of selection mode for selecting the data. They are,
 
 * None
 * Point
@@ -181,7 +181,7 @@ Set [SelectionMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Char
 
 In the drag complete event, the selected data will be returned as an array collection.
 
-N> To select a rectangular area on a chart using a touch device, quickly double-tap and then drag your finger to define the selection area.
+N> To select a rectangular area on a Blazor Chart using a touch device, quickly double-tap and then drag your finger to define the selection area.
 
 ```cshtml
 
@@ -308,7 +308,7 @@ Multiple points or series can be selected by setting the [AllowMultiSelection](h
 
 ## Selection via code-behind
 
-A point or series can be selected programmatically on a chart using the [SelectedDataIndexes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSelectedDataIndexes.html) property.
+A point or series can be selected programmatically on a Blazor Chart using the [SelectedDataIndexes](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSelectedDataIndexes.html) property.
 
 ```cshtml
 
@@ -493,7 +493,7 @@ The custom style can be applied to selected points or series using the [Selectio
 
 ![Blazor Column Chart with Custom Style Selection](images/selection/blazor-chart-custom-style-selection.webp)
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various Blazor Chart types and how to represent time-dependent data, showing trends at equal intervals.
 
 ## See also
 

@@ -9,7 +9,7 @@ documentation: ug
 
 # Blazor Charts Sorting
 
-Sorting enables you to sort data in ascending or descending order. To sort the chart based on the y-axis value, set **Y** to the [PropertyName](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSorting.html#Syncfusion_Blazor_Charts_ChartSorting_PropertyName) property.
+Sorting enables you to sort data in ascending or descending order. To sort the Blazor Chart based on the y-axis value, set **Y** to the [PropertyName](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSorting.html#Syncfusion_Blazor_Charts_ChartSorting_PropertyName) property.
 
 ```cshtml
 

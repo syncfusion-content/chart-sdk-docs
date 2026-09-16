@@ -9,7 +9,7 @@ documentation: ug
 
 # Blazor Charts Adaptive Layout
 
-Adaptive layout in [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) ensures optimal display of chart elements on mobile devices and screens with limited space. By enabling the [EnableAdaptiveRendering](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_EnableAdaptiveRendering) property, the chart automatically adjusts to container size changes, maintaining clear alignment and visibility for elements such as legend, axis titles, axis labels, data labels, chart title, and more.
+Adaptive layout in [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) ensures optimal display of Blazor Chart elements on mobile devices and screens with limited space. By enabling the [EnableAdaptiveRendering](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_EnableAdaptiveRendering) property, the Blazor Chart automatically adjusts to container size changes, maintaining clear alignment and visibility for elements such as legend, axis titles, axis labels, data labels, chart title, and more.
 
 ```cshtml
 
@@ -78,14 +78,14 @@ Adaptive layout in [Blazor Charts](https://www.syncfusion.com/blazor-components/
 
 ![Adaptive Layout in Blazor Chart](images/adaptive-layout/blazor-chart-adaptive-layout.webp)
 
-The table below outlines the behavior of chart elements based on chart height and width:
+The table below outlines the behavior of Blazor Chart elements based on chart height and width:
 
 | Element      | Size             | Behavior         |
 |--------------|------------------|------------------|
-| Chart Title  | <kbd>Height &lt; 200</kbd> / <kbd>Width &lt; 200</kbd> | Chart title is disabled |
-| Chart Subtitle | <kbd>Height &lt; 300</kbd> / <kbd>Width &lt; 300</kbd> | Chart subtitle is disabled |
+| Chart Title  | <kbd>Height &lt; 200</kbd> / <kbd>Width &lt; 200</kbd> | Blazor Chart title is disabled |
+| Chart Subtitle | <kbd>Height &lt; 300</kbd> / <kbd>Width &lt; 300</kbd> | Blazor Chart subtitle is disabled |
 | Axes | <kbd>Height &lt;= 200</kbd> / <kbd>Width &lt;= 200</kbd> | Axis titles and scrollbars are disabled |
-| Axes Label  | <kbd>Height &lt; 100</kbd> / <kbd>Width &lt; 100</kbd> <br> <kbd>Height &lt; 200</kbd> / <kbd>Width &lt; 200</kbd> <br> <kbd>Height &lt;= 400</kbd> / <kbd>Width &lt;= 400</kbd>  | Axis labels are disabled <br> Axis labels move inside the chart <br> Axis numeric labels are formatted with M, K, and B |
+| Axes Label  | <kbd>Height &lt; 100</kbd> / <kbd>Width &lt; 100</kbd> <br> <kbd>Height &lt; 200</kbd> / <kbd>Width &lt; 200</kbd> <br> <kbd>Height &lt;= 400</kbd> / <kbd>Width &lt;= 400</kbd>  | Axis labels are disabled <br> Axis labels move inside the Blazor Chart <br> Axis numeric labels are formatted with M, K, and B |
 | Legend | <kbd>Height &lt; 300</kbd> / <kbd>Width &lt; 300</kbd> | Bottom/top legend moves to right if width > 200px; otherwise, disabled. Right/left legend moves to bottom if height > 200px; otherwise, disabled |
 | Marker | <kbd>Height &lt; 200</kbd> / <kbd>Width &lt; 200</kbd> | Marker is disabled |
 | Zoom Toolkit | <kbd>Height &lt; 200</kbd> / <kbd>Width &lt; 200</kbd> | Zoom toolkit is disabled |

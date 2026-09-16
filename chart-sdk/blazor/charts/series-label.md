@@ -10,11 +10,11 @@ keywords: Blazor Chart series label, series label, chart labels, inline series l
 
 # Blazor Charts Series Label
 
-The series label feature displays the name of each series directly within the chart area. This improves readability by helping users identify series inline and reduces reliance on the legend.
+The series label feature displays the name of each series directly within the Blazor Chart area. This improves readability by helping users identify series inline and reduces reliance on the legend.
 
 This feature is especially useful in multi-series visualizations and exported charts, where quick in-chart identification is important.Series labels can be enabled and customized using the `SeriesLabelSettings` property.
 
-N> **Supported Series Types:** Series labels are available for Line, Area, Scatter, Column, Bar, Polar Line, and Radar Line chart types.
+N> **Supported Series Types:** Series labels are available for Line, Area, Scatter, Column, Bar, Polar Line, and Radar Line Blazor Chart types.
 
 ## Enable series labels
 
@@ -97,12 +97,12 @@ Configure the main series label appearance:
 In the `SeriesLabelSettings`:
 * `Visible`: Enables or disables the display of series labels. Set to `true` to display the label for the corresponding series.
 * `Text`: Specifies the custom text to be displayed in the series label. If this property is not set, the label displays the corresponding series name by default.
-* `Background`: Specifies the background color of the series label. This helps the label stand out clearly within the chart area.
+* `Background`: Specifies the background color of the series label. This helps the label stand out clearly within the Blazor Chart area.
 * `Opacity`: Specifies the transparency level of the series label. The accepted range is from 0 to 1, where 0 represents full transparency and 1 represents full opacity. For example, set `Opacity="0.5"` for 50% transparency.
 * `ShowOverlapText`: Determines whether overlapping series labels should be displayed. This is useful when labels overlap because the corresponding series are positioned close to one another.
 
 In the `SeriesLabelBorder`:
-* `Color`: Specifies the border color of the series label. This can be used to visually separate the label from the chart background.
+* `Color`: Specifies the border color of the series label. This can be used to visually separate the label from the Blazor Chart background.
 * `Width`: Specifies the width of the border around the series label. A higher value makes the border more visible.
 
 In the `SeriesLabelFont`:
@@ -191,4 +191,4 @@ In the `SeriesLabelFont`:
 * [Data Label](./data-labels)
 * [Legend](./legend)
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page to explore the available chart features. You can also check the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to learn how chart types are used to visualize data trends over equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page to explore the available Blazor Chart features. You can also check the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to learn how Blazor Chart types are used to visualize data trends over equal intervals.

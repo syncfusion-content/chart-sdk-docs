@@ -13,7 +13,7 @@ documentation: ug
 
 When the mouse is moved over a point on the chart, the tooltip will provide information about that point.
 
-A detailed walkthrough demonstrating how to add and customize tooltip in the chart is presented in the video below.
+A detailed walkthrough demonstrating how to add and customize tooltip in the Blazor Chart is presented in the video below.
 
 {% youtube "youtube:https://www.youtube.com/watch?v=4g8JTwHuTz4" %}
 

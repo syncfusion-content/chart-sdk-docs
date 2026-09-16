@@ -9,7 +9,7 @@ documentation: ug
 
 # Blazor Charts Gradient
 
-Gradients add depth and modern styling to charts by smoothly blending multiple colors. The Charts component supports two gradient types:
+Gradients add depth and modern styling to Blazor Charts by smoothly blending multiple colors. The Blazor Charts component supports two gradient types:
 
 - Linear gradient
 - Radial gradient
