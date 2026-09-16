@@ -9,11 +9,11 @@ documentation: ug
 
 # Blazor Charts Events
 
-This section provides a list of chart component events that are triggered by corresponding chart actions.
+This section provides a list of Blazor Chart component events that are triggered by corresponding Blazor Chart actions.
 
-The events should be provided to the chart using [ChartEvents](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html) component.
+The events should be provided to the Blazor Chart using [ChartEvents](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html) component.
 
-N> From `v18.4.*`, we have added few additional events for the chart component.
+N> From `v18.4.*`, we have added few additional events for the Blazor Chart component.
 
 Event Name|
 -----|
@@ -44,7 +44,7 @@ MultiLevelLabelClick |[OnMultiLevelLabelClick](events#onmultilevellabelclick)
 OnSelectionComplete |[OnSelectionChanged](events#onselectionchanged)
 OnDragComplete |[OnSelectionChanged](events#onselectionchanged)
 
-N> From `v18.4.*`, We have removed the following previous release events from chart component.
+N> From `v18.4.*`, We have removed the following previous release events from Blazor Chart component.
 
 Event Name|
 -----|
@@ -114,7 +114,7 @@ The following properties are available in the [ChartMouseEventArgs](https://help
 ```
 ## ChartMouseClick
 
-[ChartMouseClick](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_ChartMouseClick) event triggers when the chart got clicked. 
+[ChartMouseClick](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_ChartMouseClick) event triggers when the Blazor Chart got clicked. 
 
 ### Arguments
 
@@ -168,7 +168,7 @@ The following properties are available in the [ChartMouseEventArgs](https://help
 
 ## ChartMouseUp
 
-[ChartMouseUp](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_ChartMouseUp) event triggers when the mouse left button is released over the chart element.  
+[ChartMouseUp](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_ChartMouseUp) event triggers when the mouse left button is released over the Blazor Chart element.  
 
 ### Arguments
 
@@ -220,7 +220,7 @@ The following properties are available in the [ChartMouseEventArgs](https://help
 ```
 ## ChartMouseDown
 
-[ChartMouseDown](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_ChartMouseDown) event triggers when the mouse left button is pressed over the chart element.  
+[ChartMouseDown](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_ChartMouseDown) event triggers when the mouse left button is pressed over the Blazor Chart element.  
 
 ### Arguments
 
@@ -666,7 +666,7 @@ The following properties are available in the [AxisLabelRenderEventArgs](https:/
 The following fields are available in the [AxisLabelClickEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AxisLabelClickEventArgs.html).
 
 * [Axis](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AxisLabelClickEventArgs.html#Syncfusion_Blazor_Charts_AxisLabelClickEventArgs_Axis) – Specifies the current axis.
-* [Chart](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AxisLabelClickEventArgs.html#Syncfusion_Blazor_Charts_AxisLabelClickEventArgs_Chart) – Specifies the chart instance.
+* [Chart](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AxisLabelClickEventArgs.html#Syncfusion_Blazor_Charts_AxisLabelClickEventArgs_Chart) – Specifies the Blazor Chart instance.
 * [Index](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AxisLabelClickEventArgs.html#Syncfusion_Blazor_Charts_AxisLabelClickEventArgs_Index) – Specifies the index of the axis label.
 * [LabelID](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AxisLabelClickEventArgs.html#Syncfusion_Blazor_Charts_AxisLabelClickEventArgs_LabelID) – Specifies the current axis label's element id.
 * [Location](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AxisLabelClickEventArgs.html#Syncfusion_Blazor_Charts_AxisLabelClickEventArgs_Location) – Specifies the location of the axis label.
@@ -1053,7 +1053,7 @@ The following fields are available in the [DataEditingEventArgs](https://help.sy
 * [OldValue](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_OldValue) – Specifies the previous value of the current point.
 * [Point](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_Point) – Specifies the current point which is being edited.
 * [PointIndex](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_PointIndex) – Specifies the index of the current point.
-* [Series](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_Series) – Specifies the current chart series whose point is being edited.
+* [Series](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_Series) – Specifies the current Blazor Chart series whose point is being edited.
 * [SeriesIndex](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_SeriesIndex) – Specifies the index of the current series.
 
 ```cshtml
@@ -1111,7 +1111,7 @@ The following fields are available in the [DataEditingEventArgs](https://help.sy
 * [OldValue](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_OldValue) – Specifies the previous value of the current point.
 * [Point](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_Point) – Specifies the current point which is being edited.
 * [PointIndex](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_PointIndex) – Specifies the index of the current point.
-* [Series](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_Series) – Specifies the current chart series whose point is being edited.
+* [Series](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_Series) – Specifies the current Blazor Chart series whose point is being edited.
 * [SeriesIndex](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.DataEditingEventArgs.html#Syncfusion_Blazor_Charts_DataEditingEventArgs_SeriesIndex) – Specifies the index of the current series.
 
 ```cshtml
@@ -1335,7 +1335,7 @@ The following property is available in the  [SelectionCompleteEventArgs](https:/
 
 ## Loaded
 
-[Loaded](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_Loaded) event triggers after chart load.
+[Loaded](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_Loaded) event triggers after Blazor Chart load.
 
 ```cshtml
 
@@ -1386,7 +1386,7 @@ The following property is available in the  [SelectionCompleteEventArgs](https:/
 
 The following fields are available in the [PointEventArgs](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.PointEventArgs.html).
 
-* [Chart](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.PointEventArgs.html#Syncfusion_Blazor_Charts_PointEventArgs_Chart) – Specifies the current chart instance.
+* [Chart](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.PointEventArgs.html#Syncfusion_Blazor_Charts_PointEventArgs_Chart) – Specifies the current Blazor Chart instance.
 * [PageX](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.PointEventArgs.html#Syncfusion_Blazor_Charts_PointEventArgs_PageX) – Specifies the current window page x location.
 * [PageY](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.PointEventArgs.html#Syncfusion_Blazor_Charts_PointEventArgs_PageY) – Specifies the current window page y location.
 * [Point](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.PointEventArgs.html#Syncfusion_Blazor_Charts_PointEventArgs_Point) – Specifies the current point which is clicked.
@@ -1547,4 +1547,4 @@ The following properties are available in the [SharedTooltipRenderEventArgs](htt
 
 ```
 
-N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various chart types and how to represent time-dependent data, showing trends at equal intervals.
+N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various Blazor Chart types and how to represent time-dependent data, showing trends at equal intervals.

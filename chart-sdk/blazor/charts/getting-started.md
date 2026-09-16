@@ -141,7 +141,7 @@ builder.Services.AddSyncfusionBlazor();
 
 ## Add script resource
 
-Include the required [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) at the end of the `<body>` section in the **App.razor** file to enable Charts functionality.
+Include the required [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) at the end of the `<body>` section in the **App.razor** file to enable Blazor Charts functionality.
 
 {% tabs %}
 {% highlight razor tabtitle="App.razor" %}
