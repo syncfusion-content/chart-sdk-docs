@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Target Bar Examples | Syncfusion®
 description: Learn how to render the target bar (comparative measure) in Syncfusion Blazor Bullet Chart by mapping TargetField to your data source.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

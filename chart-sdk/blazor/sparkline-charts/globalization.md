@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sparkline Charts Globalization Examples | Syncfusion®
 description: Learn how to use globalization in Syncfusion Blazor Sparkline to format numbers, dates, and times for different cultures.
-platform: Blazor
+platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Layout | Syncfusion®
 description: Learn how to choose Squarified, SliceAndDiceVertical, SliceAndDiceHorizontal, or SliceAndDiceAuto layout in the Blazor TreeMap with rendering direction.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

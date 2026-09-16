@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Range Selector in WASM App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Range Selector in a Blazor WebAssembly app, including setup, packages, and first chart.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

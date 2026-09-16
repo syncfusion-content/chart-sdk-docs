@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Linear Gauge Axis | Syncfusion®
 description: Learn how to configure the Blazor Linear Gauge axis with minimum, maximum, ticks, labels, and custom formats for numeric scales.
-platform: Blazor
+platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 ---

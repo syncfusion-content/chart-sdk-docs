@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Customization | Syncfusion®
 description: Learn how to customize Blazor Maps with Width, Height, title, subtitle, and MapsTitleSettings for a tailored, branded layout.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Accessibility Examples | Syncfusion®
 description: Learn how to enable accessibility in Syncfusion Blazor Bullet Chart with keyboard navigation, screen reader support, and WCAG 2.2 compliance.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Charts in Web App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Charts in a Blazor Web App. Explore setup, server and client configuration, and first chart example.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

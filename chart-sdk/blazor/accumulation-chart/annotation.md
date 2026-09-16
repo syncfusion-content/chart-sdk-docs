@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Annotation Examples | Syncfusion®
 description: Learn how to add annotations in Syncfusion Blazor Accumulation Chart to highlight regions of interest with text, shapes, or images.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

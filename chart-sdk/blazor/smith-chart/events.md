@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Smith Chart Events Examples and Reference | Syncfusion®
 description: Learn about events in Syncfusion Blazor Smith Chart such as Loaded, OnLegendItemRender, OnSeriesRender, and TooltipRender with usage examples.
-platform: Blazor
+platform: chart-sdk
 control: Smith Chart
 documentation: ug
 ---

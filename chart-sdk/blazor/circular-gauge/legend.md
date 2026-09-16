@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Legend | Syncfusion®
 description: Learn how to display a Blazor Circular Gauge legend to identify axis ranges, then customize its shape, position, alignment, and absolute location.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Maps in Blazor WASM App | Syncfusion®
 description: Learn how to get started with Blazor Maps in a Blazor WebAssembly app. Explore setup, features, examples, and customization options.
-platform: Blazor
+platform: chart-sdk
 component: Maps
 documentation: ug
 ---

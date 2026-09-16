@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps User Interactions | Syncfusion®
 description: Learn how to enable zooming, panning, and selection in Blazor Maps through MapsZoomSettings with linear ZoomFactor and EnablePanning.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

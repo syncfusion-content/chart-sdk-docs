@@ -2,7 +2,7 @@
 layout: post
 title: Blazor TreeMap Data Binding | Syncfusion®
 description: Learn how to bind flat, hierarchical, and remote data to the Blazor TreeMap using DataSource, WeightValuePath, and Entity Framework.
-platform: Blazor
+platform: chart-sdk
 control: TreeMap
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Area Chart Examples and Documentation | Syncfusion®
 description: Learn how to create and customize Blazor Area Charts using Syncfusion. Display trends with filled area series, data labels, markers, and legends.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

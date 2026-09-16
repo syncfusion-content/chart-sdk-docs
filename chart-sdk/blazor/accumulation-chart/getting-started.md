@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Accumulation Chart in WASM App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Accumulation Chart in a Blazor WebAssembly app, including setup, NuGet packages, and first chart example.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

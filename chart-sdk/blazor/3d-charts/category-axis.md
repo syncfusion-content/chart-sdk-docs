@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Category Axis Examples | Syncfusion®
 description: Learn how to render a Syncfusion Blazor 3D Chart with a category axis to show text values rather than numerical values on the x-axis.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

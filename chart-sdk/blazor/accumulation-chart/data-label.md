@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Data Label Examples | Syncfusion®
 description: Learn how to add and customize data labels in Syncfusion Blazor Accumulation Chart, including position, format, and styling options.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

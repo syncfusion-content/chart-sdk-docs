@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Other Tile Providers | Syncfusion®
 description: Learn how to render tile maps from any provider such as TomTom in Blazor Maps by assigning a z, x, y URL pattern to UrlTemplate.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

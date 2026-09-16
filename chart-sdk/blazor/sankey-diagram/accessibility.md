@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sankey Diagram Accessibility | Syncfusion®
 description: Learn how the Blazor Sankey Diagram supports WCAG 2.2, Section 508, screen readers, RTL, color contrast, and full keyboard navigation.
-platform: Blazor
+platform: chart-sdk
 control: Sankey
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Shapefile | Syncfusion®
 description: Learn how to import remotely hosted shapefiles into Blazor Maps via the ShapeData property to render vector shape maps.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Internationalization Examples | Syncfusion®
 description: Learn how to globalize Syncfusion Blazor Charts. Configure LabelFormat for axis labels, data labels, and tooltips for cultures such as EUR or ja-JP.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Range Selector Events Examples and Reference | Syncfusion®
 description: Learn about events in Syncfusion Blazor Range Selector such as Loaded, Changed, OnTooltipRender, and SelectorRender with usage examples.
-platform: Blazor
+platform: chart-sdk
 control: Range Selector
 documentation: ug
 ---

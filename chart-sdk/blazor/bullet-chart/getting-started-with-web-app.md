@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Bullet Chart in Web App | Syncfusion®
 description: Learn how to get started with Syncfusion Blazor Bullet Chart in a Blazor Web App, including server and client setup, packages, and first chart.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

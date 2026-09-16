@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Bullet Chart Data Labels Examples | Syncfusion®
 description: Learn how to add and customize data labels in Syncfusion Blazor Bullet Chart, including position, format, and label style.
-platform: Blazor
+platform: chart-sdk
 control: Bullet Chart
 documentation: ug
 ---

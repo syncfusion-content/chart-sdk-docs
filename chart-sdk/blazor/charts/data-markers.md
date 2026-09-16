@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Data Markers Examples | Syncfusion®
 description: Learn how to add data markers in Syncfusion Blazor Charts. Enable ChartMarker Visible to adorn each point with circle, square, or other shapes.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

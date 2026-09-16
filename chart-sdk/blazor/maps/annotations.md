@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Annotations | Syncfusion®
 description: Learn how to mark areas of interest on Blazor Maps with text, shapes, or images using ContentTemplate and MapsAnnotation in any layer.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

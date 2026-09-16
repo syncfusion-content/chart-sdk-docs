@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Circular Gauge Axes | Syncfusion®
 description: Learn how to configure the Blazor Circular Gauge axes, including line width and color, minimum and maximum values, background, and custom labels.
-platform: Blazor
+platform: chart-sdk
 control: Circular Gauge
 documentation: ug
 ---

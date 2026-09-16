@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Scatter Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Scatter Charts using Syncfusion. Visualize the relationship between two numeric parameters as individual data points.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

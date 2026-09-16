@@ -2,7 +2,7 @@
 layout: post
 title: How to Place Maps Inside Other Components in Blazor Maps | Syncfusion®
 description: Learn how to render Blazor Maps inside Dashboard Layout, Tab, Dialog, or Accordion with a boolean flag and Refresh on resize.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

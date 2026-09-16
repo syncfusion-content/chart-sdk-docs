@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps State Persistence | Syncfusion®
 description: Learn how to retain Blazor Maps model values across page refreshes by setting EnablePersistence to store state in browser storage.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 ---

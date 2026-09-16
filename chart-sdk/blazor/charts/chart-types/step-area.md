@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Step Area Chart Examples and Documentation | Syncfusion®
 description: Learn how to create Blazor Step Area Charts using Syncfusion. Connect data points with vertical and horizontal lines to form a step pattern.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

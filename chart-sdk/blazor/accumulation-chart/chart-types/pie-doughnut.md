@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Blazor Pie and Doughnut Chart Examples | Syncfusion®
-description: Learn how to create Pie and Doughnut Charts, multiple donuts, and nested views in Syncfusion Blazor Accumulation Chart with code examples.
-platform: Blazor
+description: Learn how to create Pie and Doughnut Charts in Syncfusion Blazor Accumulation Chart to display proportional data and percentage distribution.
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 keywords: Blazor Pie Chart, Blazor Doughnut Chart, Blazor Accumulation Chart, Syncfusion Blazor Charts, Pie Chart Blazor, Doughnut Chart Blazor, Multiple Donuts Blazor, Nested Pie Chart Blazor

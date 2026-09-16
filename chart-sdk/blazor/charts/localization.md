@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Localization Examples | Syncfusion®
 description: Learn how to localize Syncfusion Blazor Charts. Configure the localization framework and culture settings for labels, tooltips, and legends.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Accumulation Chart Center Label Examples | Syncfusion®
 description: Learn how to use center labels in Syncfusion Blazor Accumulation Chart. Display custom text, totals, or percentages at the center of pie and donut charts.
-platform: Blazor
+platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 ---

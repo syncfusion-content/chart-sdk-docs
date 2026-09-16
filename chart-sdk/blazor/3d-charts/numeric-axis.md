@@ -2,7 +2,7 @@
 layout: post
 title: Blazor 3D Chart Numeric Axis Examples | Syncfusion®
 description: Learn how to use a numeric axis in Syncfusion Blazor 3D Chart to represent numeric values, including ValueType and Double default settings.
-platform: Blazor
+platform: chart-sdk
 control: 3D Chart
 documentation: ug
 ---

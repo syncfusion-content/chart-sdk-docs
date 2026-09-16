@@ -2,7 +2,7 @@
 layout: post
 title: Blazor HeatMap Chart Legend | Syncfusion®
 description: Learn how to display Blazor HeatMap Chart legends as gradient or fixed-color lists, and place or align them at any side of the chart.
-platform: Blazor
+platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
 ---
