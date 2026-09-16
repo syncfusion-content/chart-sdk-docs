@@ -244,7 +244,7 @@ In the `SunburstSelectionSettings`:
 <!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a customized selection color and opacity](images/selection/sunburst-chart-selection-customization.webp)
 
-N> Clicking the currently selected segment again clears the selection. Drilling into a branch or back to the parent also clears any selected and highlighted segment, so the user can focus on the new hierarchy level.
+N> Clicking the currently selected segment again clears the selection. Drilling into a branch, or back to the parent, also clears the selected and highlighted segments so the user can focus on the new hierarchy level.
 
 ## See also
 

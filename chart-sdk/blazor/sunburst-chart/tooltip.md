@@ -103,7 +103,7 @@ In the `SunburstTooltipSettings`:
 In the `SunburstTooltipTextStyle`:
 * `FontSize`: Sets the tooltip text size in pixels (for example `"14px"`). Falls back to the active theme if unset.
 * `FontFamily`: Sets the tooltip text font family. Multiple families can be specified as a comma-separated list.
-* `FontWeight`: Sets the tooltip text thickness. Use values like `Normal`, `Bold`, `Bolder`, `Lighter`, or numeric values such as `400`, `500`, `700`. Falls back to the active theme if unset.
+* `FontWeight`: Specifies the font weight of the tooltip text. Valid values include `Normal`, `Bold`, `Bolder`, `Lighter`, and numeric values such as `400`, `500`, and `700`. Falls back to the active theme if unset.
 * `FontStyle`: Sets the tooltip text style. Use `Normal`, `Italic`, or `Oblique`. Falls back to the active theme if unset.
 * `Color`: Sets the tooltip text color using any valid CSS color value. Falls back to the active theme if unset.
 

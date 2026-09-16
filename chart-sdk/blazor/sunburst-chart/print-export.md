@@ -14,8 +14,6 @@ The print and export features capture the rendered `Blazor Sunburst Chart` so it
 
 The Blazor Sunburst Chart can be printed and exported using the `PrintAsync` and `ExportAsync` methods of `SfSunburstChart`.
 
-N> **Supported export formats:** `ExportAsync` renders the visual chart to `PNG`, `JPEG`, `SVG`, and `PDF`, and writes the generated hierarchy data to `XLSX` and `CSV`.
-
 ## Print
 
 The `PrintAsync` method opens the browser print dialog and lets users print the Sunburst Chart with the current drill state, title, data labels, legend, breadcrumbs, and theme applied. The appearance and availability of the print options are determined by the user's browser and operating system.
@@ -256,6 +254,8 @@ The `PDF` export supports page orientation through the `Orientation` parameter. 
 ```
 
 <!-- TODO: Add Blazor Playground sample after release -->
+
+N> **Supported export formats:** `ExportAsync` renders the visual chart to `PNG`, `JPEG`, `SVG`, and `PDF`, and writes the generated hierarchy data to `XLSX` and `CSV`.
 
 ## Export the hierarchy data as XLSX or CSV
 

@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion Blazor Sunburst Chart in a
 platform: Blazor
 control: Sunburst Chart
 documentation: ug
+keywords: Blazor Sunburst Chart, SfSunburstChart, hierarchical data, Sunburst Chart getting started, Blazor Web App, Blazor WASM
 ---
 
 <!-- markdownlint-disable MD040 -->

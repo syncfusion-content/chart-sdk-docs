@@ -200,9 +200,9 @@ In the `SunburstLegendBorder`:
 
 When `ToggleVisibility` is `true`, selecting a legend item hides or restores its corresponding hierarchy branch and descendants. The chart recalculates the visible layout based on the remaining visible branches.
 
-Specifies whether selecting a legend item hides or restores its corresponding hierarchy branch.
-
 ```cshtml
+
+@using Syncfusion.Blazor.Charts
 
 <SfSunburstChart TItem="RegionData"
                  Title="Population by Region"
@@ -217,7 +217,54 @@ Specifies whether selecting a legend item hides or restores its corresponding hi
                             ToggleVisibility="true" />
 </SfSunburstChart>
 
+@code {
+    public class RegionData
+    {
+        public string Id { get; set; } = string.Empty;
+        public string? ParentId { get; set; }
+        public string Label { get; set; } = string.Empty;
+        public double Population { get; set; }
+    }
+
+    public List<RegionData> Regions = new List<RegionData>
+    {
+        new RegionData { Id = "USA", ParentId = null, Label = "USA" },
+        new RegionData { Id = "India", ParentId = null, Label = "India" },
+        new RegionData { Id = "Germany", ParentId = null, Label = "Germany" },
+
+        new RegionData { Id = "USA-California", ParentId = "USA", Label = "California" },
+        new RegionData { Id = "USA-Texas", ParentId = "USA", Label = "Texas" },
+        new RegionData { Id = "USA-NewYork", ParentId = "USA", Label = "New York" },
+
+        new RegionData { Id = "India-Maharashtra", ParentId = "India", Label = "Maharashtra" },
+        new RegionData { Id = "India-TamilNadu", ParentId = "India", Label = "Tamil Nadu" },
+        new RegionData { Id = "India-Karnataka", ParentId = "India", Label = "Karnataka" },
+
+        new RegionData { Id = "Germany-Bavaria", ParentId = "Germany", Label = "Bavaria" },
+        new RegionData { Id = "Germany-Berlin", ParentId = "Germany", Label = "Berlin" },
+        new RegionData { Id = "Germany-Hamburg", ParentId = "Germany", Label = "Hamburg" },
+
+        new RegionData { Id = "USA-California-LosAngeles", ParentId = "USA-California", Label = "Los Angeles", Population = 3898000 },
+        new RegionData { Id = "USA-California-SanDiego", ParentId = "USA-California", Label = "San Diego", Population = 1381000 },
+        new RegionData { Id = "USA-Texas-Houston", ParentId = "USA-Texas", Label = "Houston", Population = 2304000 },
+        new RegionData { Id = "USA-Texas-Dallas", ParentId = "USA-Texas", Label = "Dallas", Population = 1304000 },
+        new RegionData { Id = "USA-NewYork-NewYorkCity", ParentId = "USA-NewYork", Label = "New York City", Population = 8336000 },
+
+        new RegionData { Id = "India-Maharashtra-Mumbai", ParentId = "India-Maharashtra", Label = "Mumbai", Population = 12440000 },
+        new RegionData { Id = "India-Maharashtra-Pune", ParentId = "India-Maharashtra", Label = "Pune", Population = 3120000 },
+        new RegionData { Id = "India-TamilNadu-Chennai", ParentId = "India-TamilNadu", Label = "Chennai", Population = 4646000 },
+        new RegionData { Id = "India-Karnataka-Bengaluru", ParentId = "India-Karnataka", Label = "Bengaluru", Population = 8443000 },
+
+        new RegionData { Id = "Germany-Bavaria-Munich", ParentId = "Germany-Bavaria", Label = "Munich", Population = 1488000 },
+        new RegionData { Id = "Germany-Bavaria-Nuremberg", ParentId = "Germany-Bavaria", Label = "Nuremberg", Population = 515000 },
+        new RegionData { Id = "Germany-Berlin-BerlinCity", ParentId = "Germany-Berlin", Label = "Berlin", Population = 3664000 },
+        new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
+    };
+}
+
 ```
+
+<!-- TODO: Add Blazor Playground sample after release -->
 
 ## See also
 

@@ -42,15 +42,15 @@ The accessibility compliance for the Blazor Sunburst Chart component is outlined
 
 WAI-ARIA (Accessibility Initiative - Accessible Rich Internet Applications) defines a way to increase the accessibility of web pages, dynamic content, and user interface components developed with AJAX, HTML, JavaScript, and related technologies. ARIA provides additional semantics to describe the role, state, and functionality of web components.
 
-Element | Default description
------| -----
-Segment | Reads the hierarchy path and value of the focused segment.
-Level | Reads the level index and the category represented by the segments.
-Breadcrumb | Reads the current drill path from root to the active node.
-Legend | Reads the category name and is activated to show or hide the corresponding branch.
-Title | Reads the Sunburst Chart title.
-Subtitle | Reads the Sunburst Chart subtitle.
-Tooltip | Reads the hierarchy path and the value of the hovered segment.
+| Element | Default description |
+|---|---|
+| Segment | Reads the hierarchy path and value of the focused segment. |
+| Level | Reads the level index and the category represented by the segments. |
+| Breadcrumb | Reads the current drill path from root to the active node. |
+| Legend | Reads the category name and is activated to show or hide the corresponding branch. |
+| Title | Reads the Sunburst Chart title. |
+| Subtitle | Reads the Sunburst Chart subtitle. |
+| Tooltip | Reads the hierarchy path and the value of the hovered segment. |
 
 The Blazor Sunburst Chart component follows the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility requirements. The following ARIA attributes are used in the Blazor Sunburst Chart component:
 
