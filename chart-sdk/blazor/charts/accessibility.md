@@ -46,7 +46,7 @@ Element |Default description
 Datalabel |Reads the Point y value.
 Legend |Click to show or hide the series.
 Axis Title |Reads the axis title.
-Chart Title |Reads the chart title.
+Chart Title |Reads the Blazor Chart title.
 Series Points |Reads the Point x: Point y value.
 
 The Blazor Chart component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Blazor Chart component:
@@ -64,23 +64,23 @@ The Blazor Chart component followed the [keyboard interaction](https://www.w3.or
 
 | Windows | Mac | Description |
 |-----|-----|---|
-|<kbd>Alt + J</kbd> | <kbd>⌥</kbd> + <kbd>J</kbd> | Moves the focus to the chart element.|
-|<kbd>Tab</kbd> | <kbd>Tab</kbd> | Moves the focus to the next element in the chart.|
-|<kbd>Shift</kbd> + <kbd>Tab</kbd> | <kbd>⇧</kbd> + <kbd>Tab</kbd> | Moves the focus to the previous element in the chart.|
+|<kbd>Alt + J</kbd> | <kbd>⌥</kbd> + <kbd>J</kbd> | Moves the focus to the Blazor Chart element.|
+|<kbd>Tab</kbd> | <kbd>Tab</kbd> | Moves the focus to the next element in the Blazor Chart.|
+|<kbd>Shift</kbd> + <kbd>Tab</kbd> | <kbd>⇧</kbd> + <kbd>Tab</kbd> | Moves the focus to the previous element in the Blazor Chart.|
 | <kbd>↓</kbd> | <kbd>↓</kbd> | Moves the focus to the data point right side from the selected point.|
 | <kbd>↑</kbd> | <kbd>↑</kbd> | Moves the focus to the data point right side from the selected point.|
-| <kbd>←</kbd> | <kbd>←</kbd> | Moves the focus to the next series in the Chart.|
-| <kbd>→</kbd> | <kbd>→</kbd> | Moves the focus to the previous series in the Chart.|
+| <kbd>←</kbd> | <kbd>←</kbd> | Moves the focus to the next series in the Blazor Chart.|
+| <kbd>→</kbd> | <kbd>→</kbd> | Moves the focus to the previous series in the Blazor Chart.|
 |<kbd>Enter</kbd> / <kbd>Space</kbd> | <kbd>Enter</kbd> / <kbd>Space</kbd> | Selects the data point in the series|
 | <kbd>↓</kbd> , <kbd>←</kbd> | <kbd>↓</kbd> / <kbd>←</kbd> | Moves the focus to the legend left side from the selected legend.|
 | <kbd>↑</kbd> , <kbd>→</kbd> | <kbd>↑</kbd> / <kbd>→</kbd> | Moves the focus to the legend right side from the selected legend.|
 | <kbd>Enter</kbd> / <kbd>Space</kbd> | <kbd>Enter</kbd> / <kbd>Space</kbd> |Toggles the visibility of the corresponding series.|
-| <kbd>Ctrl</kbd> + <kbd>+</kbd> | <kbd>⌘</kbd> + <kbd>+</kbd> | Zoom in the chart.|
-| <kbd>Ctrl</kbd> + <kbd>-</kbd> | <kbd>⌘</kbd> + <kbd>-</kbd> | Zoom out the chart.|
-| <kbd>↓</kbd> / <kbd>↑</kbd> | <kbd>↓</kbd> / <kbd>↑</kbd> | Pans the chart vertically.|
-| <kbd>←</kbd> / <kbd>→</kbd> | <kbd>←</kbd> / <kbd>→</kbd> | Pans the chart horizontally.|
-|<kbd>R</kbd> | <kbd>R</kbd> | Reset the zoomed chart.|
-|<kbd>Ctrl + P</kbd> | <kbd>⌘</kbd> + <kbd>P</kbd> | Prints the Chart.|
+| <kbd>Ctrl</kbd> + <kbd>+</kbd> | <kbd>⌘</kbd> + <kbd>+</kbd> | Zoom in the Blazor Chart.|
+| <kbd>Ctrl</kbd> + <kbd>-</kbd> | <kbd>⌘</kbd> + <kbd>-</kbd> | Zoom out the Blazor Chart.|
+| <kbd>↓</kbd> / <kbd>↑</kbd> | <kbd>↓</kbd> / <kbd>↑</kbd> | Pans the Blazor Chart vertically.|
+| <kbd>←</kbd> / <kbd>→</kbd> | <kbd>←</kbd> / <kbd>→</kbd> | Pans the Blazor Chart horizontally.|
+|<kbd>R</kbd> | <kbd>R</kbd> | Reset the zoomed Blazor Chart.|
+|<kbd>Ctrl + P</kbd> | <kbd>⌘</kbd> + <kbd>P</kbd> | Prints the Blazor Chart.|
 
 ## Ensuring accessibility
 
