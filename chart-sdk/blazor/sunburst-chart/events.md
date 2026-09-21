@@ -1,26 +1,26 @@
 ---
 layout: post
 title: Blazor Sunburst Chart Events | Syncfusion®
-description: Learn how to subscribe to and customize event callbacks on the Blazor Sunburst Chart using SunburstChartEvents, including drill and rendering hooks.
+description: Learn how to subscribe to and customize event callbacks on the Blazor Sunburst Chart, including drill and rendering hooks.
 platform: Blazor
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, drill down, drill up, DrillDownStarting, DrillUpStarting, PointClicking, LegendItemClicking, SunburstChartEvents
+keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, drill down, drill up, DrillDownStarting, DrillUpStarting, OnPointClick, OnLegendClick
 ---
 
 # Blazor Sunburst Chart Events
 
 Events let you observe and customize the `Blazor Sunburst Chart` at well-defined points during interaction and rendering — from clicks and legend toggling to data-label and segment painting. They are also useful for navigating between hierarchy levels with drill-down and drill-up. Use them when you want to intercept a default behavior, perform custom validation, or surface chart interactions in your own UI.
 
-The events of the Blazor Sunburst Chart are configured using the `SunburstChartEvents` child component, placed inside `SfSunburstChart`.
+The events of the Blazor Sunburst Chart are configured directly on the `SfSunburstChart` component by assigning the relevant callback parameters.
 
-N> **Default behavior:** No event callbacks are subscribed by default. The chart renders and behaves normally until at least one handler is attached to a `SunburstChartEvents` child component. Cancelable events (`Cancel = true`) prevent the default action; the rest are observational.
+N> **Default behavior:** No event callbacks are subscribed by default. The chart renders and behaves normally until at least one handler is attached to the relevant callback parameter. Cancelable events (`Cancel = true`) prevent the default action; the rest are observational.
 
 ## DrillDownStarting
 
 The `DrillDownStarting` event is triggered when a user double-clicks a Sunburst segment that has one or more children. Use it to inspect the target segment, perform custom validation, or cancel the drill-down before navigation occurs.
 
-The event fires **after** the chart has confirmed the clicked segment has children and **before** the visual drill-down is applied. The corresponding event arguments are `SunburstDrillEventArgs` (with `EventName = "DrillDownStarting"`).
+The event fires **after** the chart has confirmed the clicked segment has children and **before** the visual drill-down is applied. The corresponding event arguments are `SunburstDrillStartingEventArgs<TItem>` (with `EventName = "DrillDownStarting"`).
 
 ```cshtml
 
@@ -33,8 +33,8 @@ The event fires **after** the chart has confirmed the clicked segment has childr
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 DrillDownStarting="@OnDrillDown"
                  Width="100%" Height="600px">
-    <SunburstChartEvents DrillDownStarting="@OnDrillDown" />
     <SunburstDrillSettings Enable="true" />
 </SfSunburstChart>
 
@@ -71,7 +71,7 @@ The event fires **after** the chart has confirmed the clicked segment has childr
         new RegionData { Id = "USA-Texas-Dallas", ParentId = "USA-Texas", Label = "Dallas", Population = 1304000 }
     };
 
-    private void OnDrillDown(SunburstDrillEventArgs args)
+    private void OnDrillDown(SunburstDrillStartingEventArgs<RegionData> args)
     {
         // Here, you can customize your code.
 
@@ -81,13 +81,13 @@ The event fires **after** the chart has confirmed the clicked segment has childr
 
 ```
 
-N> Set `args.Cancel = true` to prevent the drill-down when, for example, the target value is below a threshold set by your application. The handler in the example receives `args.EventName`, `args.Point.Label`, `args.Point.ParentLabel`, `args.Point.RootLabel`, and `args.Point.Value`, which mirror the values in `SunburstDrillPointInfo`.
+N> Set `args.Cancel = true` to prevent the drill-down when, for example, the target value is below a threshold set by your application. The handler in the example receives `args.EventName`, `args.Point.Label`, `args.Point.ParentLabel`, `args.Point.RootLabel`, and `args.Point.Value`, which mirror the values in `SunburstDrillPointInfo<TItem>`.
 
 ## DrillUpStarting
 
 The `DrillUpStarting` event is triggered when a user double-clicks the currently focused root segment to navigate back to a higher level in the hierarchy. Use it to perform custom logic before navigation occurs or to cancel the drill-up entirely.
 
-The corresponding event arguments are `SunburstDrillEventArgs` (with `EventName = "DrillUpStarting"`). If neither drill handler is attached, the chart performs the navigation by default.
+The corresponding event arguments are `SunburstDrillStartingEventArgs<TItem>` (with `EventName = "DrillUpStarting"`). If neither drill handler is attached, the chart performs the navigation by default.
 
 ```cshtml
 
@@ -100,9 +100,9 @@ The corresponding event arguments are `SunburstDrillEventArgs` (with `EventName 
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 DrillDownStarting="@OnDrillDown"
+                 DrillUpStarting="@OnDrillUp"
                  Width="100%" Height="600px">
-    <SunburstChartEvents DrillDownStarting="@OnDrillDown"
-                         DrillUpStarting="@OnDrillUp" />
     <SunburstDrillSettings Enable="true" />
 </SfSunburstChart>
 
@@ -150,12 +150,12 @@ The corresponding event arguments are `SunburstDrillEventArgs` (with `EventName 
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private void OnDrillDown(SunburstDrillEventArgs args)
+    private void OnDrillDown(SunburstDrillStartingEventArgs<RegionData> args)
     {
         // Here, you can customize your code.
     }
 
-    private void OnDrillUp(SunburstDrillEventArgs args)
+    private void OnDrillUp(SunburstDrillStartingEventArgs<RegionData> args)
     {
         // Here, you can customize your code.
 
@@ -166,17 +166,17 @@ The corresponding event arguments are `SunburstDrillEventArgs` (with `EventName 
 
 ```
 
-## SunburstDrillEventArgs properties
+## SunburstDrillStartingEventArgs properties
 
-`SunburstDrillEventArgs` is the unified event argument type used by both drill-down and drill-up events. It exposes the following properties:
+`SunburstDrillStartingEventArgs<TItem>` is the event argument type used by the starting drill-down and drill-up events. It exposes the following properties:
 
 | Property | Type | Description |
 |---|---|---|
 | `EventName` | `string` | Returns the literal `"DrillDownStarting"` or `"DrillUpStarting"` so the same handler can distinguish the direction. |
 | `Cancel` | `bool` | Set to `true` to prevent the navigation triggered by the click. The default value is `false`. |
-| `Point` | `SunburstDrillPointInfo` | Information about the segment the user double-clicked. |
+| `Point` | `SunburstDrillPointInfo<TItem>` | Information about the segment the user double-clicked. |
 
-`SunburstDrillPointInfo` exposes the following fields:
+`SunburstDrillPointInfo<TItem>` exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
@@ -185,11 +185,11 @@ The corresponding event arguments are `SunburstDrillEventArgs` (with `EventName 
 | `ParentLabel` | `string` | The label of the immediate parent segment of the click target. |
 | `RootLabel` | `string` | The label of the top-level root segment that the click target belongs to. |
 
-## PointClicking
+## OnPointClick
 
-The `PointClicking` event is triggered when a user clicks a Sunburst segment. Use it to obtain information about the clicked segment or to inspect the resulting selection state.
+The `OnPointClick` event is triggered when a user clicks a Sunburst segment. Use it to obtain information about the clicked segment or to perform custom actions based on the interaction.
 
-The corresponding event arguments are `SunburstPointClickEventArgs`. The `Cancel` property lets you suppress the default click behavior (for example, when `Selection.Enable` is `true`, the default selection update).
+The corresponding event arguments are `SunburstPointClickEventArgs<TItem>`. This event is observational and does not support cancellation.
 
 ```cshtml
 
@@ -202,8 +202,8 @@ The corresponding event arguments are `SunburstPointClickEventArgs`. The `Cancel
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 OnPointClick="@OnPointClick"
                  Width="100%" Height="600px">
-    <SunburstChartEvents PointClicking="@OnPointClick" />
 </SfSunburstChart>
 
 @code {
@@ -250,7 +250,7 @@ The corresponding event arguments are `SunburstPointClickEventArgs`. The `Cancel
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private void OnPointClick(SunburstPointClickEventArgs args)
+    private void OnPointClick(SunburstPointClickEventArgs<RegionData> args)
     {
         // Here, you can customize your code.
     }
@@ -260,21 +260,20 @@ The corresponding event arguments are `SunburstPointClickEventArgs`. The `Cancel
 
 ## SunburstPointClickEventArgs properties
 
-`SunburstPointClickEventArgs` is supplied to the `PointClicking` callback and exposes the following fields:
+`SunburstPointClickEventArgs<TItem>` is supplied to the `OnPointClick` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"PointClicking"`. Set by the chart — do not mutate. |
-| `Cancel` | `bool` | Set to `true` to suppress the default click behavior (for example, the default selection update when `Selection.Enable` is `true`). The default value is `false`. |
+| `EventName` | `string` | Returns the literal `"OnPointClick"`. Set by the chart — do not mutate. |
 | `Fill` | `string` | The fill color of the clicked segment. Mutate to override the rendered color. |
 | `Point` | `SunburstPointInfo` | Information about the clicked segment. Exposes `Label` and `Value`. Set by the chart — do not reassign. |
 | `Font` | `SunburstFontModel` | The font style currently applied to the clicked segment. Mutate fields such as `Color`, `FontSize`, or `FontWeight` to override the rendering. |
 
-## LegendItemClicking
+## OnLegendClick
 
-The `LegendItemClicking` event is triggered when a user clicks a legend item. Use it to update external UI, log telemetry, or cancel the default visibility toggle that hides the related root-level hierarchy branch.
+The `OnLegendClick` event is triggered when a user clicks a legend item. Use it to update external UI, log telemetry, or cancel the default visibility toggle that hides the related root-level hierarchy branch.
 
-The corresponding event arguments are `SunburstLegendItemClickEventArgs`.
+The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
 
 ```cshtml
 
@@ -287,8 +286,8 @@ The corresponding event arguments are `SunburstLegendItemClickEventArgs`.
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 OnLegendClick="@OnLegendClick"
                  Width="100%" Height="600px">
-    <SunburstChartEvents LegendItemClicking="@OnLegendClick" />
     <SunburstLegendSettings Visible="true"
                             Position="SunburstLegendPosition.Bottom"
                             ToggleVisibility="true" />
@@ -338,7 +337,7 @@ The corresponding event arguments are `SunburstLegendItemClickEventArgs`.
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private Task OnLegendClick(SunburstLegendItemClickEventArgs args)
+    private Task OnLegendClick(SunburstLegendClickEventArgs<RegionData> args)
     {
         // Here, you can customize your code.
 
@@ -351,13 +350,13 @@ The corresponding event arguments are `SunburstLegendItemClickEventArgs`.
 
 ```
 
-## SunburstLegendItemClickEventArgs properties
+## SunburstLegendClickEventArgs properties
 
-`SunburstLegendItemClickEventArgs` is supplied to the `LegendItemClicking` callback and exposes the following fields:
+`SunburstLegendClickEventArgs<TItem>` is supplied to the `OnLegendClick` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"LegendItemClicking"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"OnLegendClick"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the default visibility toggle for the legend item's root-level hierarchy branch. The default value is `false`. |
 | `LegendIndex` | `int` | The zero-based index of the clicked legend item. Set by the chart. |
 | `Text` | `string` | The label text of the clicked legend item. |
@@ -378,8 +377,8 @@ The `LegendItemRendering` event fires before each legend item is rendered. Use i
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 LegendItemRendering="@OnLegendRendering"
                  Width="100%" Height="600px">
-    <SunburstChartEvents LegendItemRendering="@OnLegendRendering" />
     <SunburstLegendSettings Visible="true"
                             Position="SunburstLegendPosition.Bottom"
                             ToggleVisibility="false" />
@@ -429,7 +428,7 @@ The `LegendItemRendering` event fires before each legend item is rendered. Use i
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private void OnLegendRendering(SunburstLegendRenderEventArgs args)
+    private void OnLegendRendering(SunburstLegendItemRenderingEventArgs<RegionData> args)
     {
         if (args.Text == "USA")
         {
@@ -442,22 +441,22 @@ The `LegendItemRendering` event fires before each legend item is rendered. Use i
 
 ```
 
-## SunburstLegendRenderEventArgs properties
+## SunburstLegendItemRenderingEventArgs properties
 
-`SunburstLegendRenderEventArgs` is supplied to the `LegendItemRendering` callback and exposes the following fields:
+`SunburstLegendItemRenderingEventArgs<TItem>` is supplied to the `LegendItemRendering` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"LegendRendering"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"LegendItemRendering"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the legend item from being rendered. The default value is `false`. |
 | `LegendIndex` | `int` | The zero-based index of the legend item being rendered. Set by the chart. |
 | `Text` | `string` | The text of the legend item. Mutate to override the rendered label. |
 | `TextColor` | `string` | The color of the legend item's text. Mutate to override. |
 | `ShapeColor` | `string` | The color of the legend item's marker. Mutate to override. |
 
-## DatalabelRendering
+## DataLabelRendering
 
-The `DatalabelRendering` event fires before each data label is rendered. Use it to override the rendered text or font style, or cancel the label entirely.
+The `DataLabelRendering` event fires before each data label is rendered. Use it to override the rendered text or font style, or cancel the label entirely.
 
 ```cshtml
 
@@ -470,8 +469,8 @@ The `DatalabelRendering` event fires before each data label is rendered. Use it 
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 DataLabelRendering="@OnDataLabel"
                  Width="100%" Height="600px">
-    <SunburstChartEvents DatalabelRendering="@OnDataLabel" />
     <SunburstDataLabelSettings Visible="true" />
 </SfSunburstChart>
 
@@ -519,7 +518,7 @@ The `DatalabelRendering` event fires before each data label is rendered. Use it 
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private void OnDataLabel(SunburstLabelRenderEventArgs args)
+    private void OnDataLabel(SunburstDataLabelRenderingEventArgs<RegionData> args)
     {
         if (args.Text == "USA")
         {
@@ -532,13 +531,13 @@ The `DatalabelRendering` event fires before each data label is rendered. Use it 
 
 ```
 
-## SunburstLabelRenderEventArgs properties
+## SunburstDataLabelRenderingEventArgs properties
 
-`SunburstLabelRenderEventArgs` is supplied to the `DatalabelRendering` callback and exposes the following fields:
+`SunburstDataLabelRenderingEventArgs<TItem>` is supplied to the `DataLabelRendering` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"DatalabelRendering"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"DataLabelRendering"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the data label from being rendered. The default value is `false`. |
 | `Text` | `string` | The text of the data label. Mutate to override the rendered text. |
 | `Font` | `SunburstFontModel` | The font style applied to the data label. Mutate `Color`, `FontSize`, `FontFamily`, `FontWeight`, `FontStyle`, or `Opacity` to override the appearance. |
@@ -558,8 +557,8 @@ The `SegmentRendering` event fires before each Sunburst segment is rendered. Use
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 SegmentRendering="@OnSegmentRender"
                  Width="100%" Height="600px">
-    <SunburstChartEvents SegmentRendering="@OnSegmentRender" />
 </SfSunburstChart>
 
 @code {
@@ -606,7 +605,7 @@ The `SegmentRendering` event fires before each Sunburst segment is rendered. Use
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private void OnSegmentRender(SunburstSegmentRenderEventArgs args)
+    private void OnSegmentRender(SunburstSegmentRenderingEventArgs<RegionData> args)
     {
         if (args.LevelIndex == 0)
         {
@@ -617,9 +616,9 @@ The `SegmentRendering` event fires before each Sunburst segment is rendered. Use
 
 ```
 
-## SunburstSegmentRenderEventArgs properties
+## SunburstSegmentRenderingEventArgs properties
 
-`SunburstSegmentRenderEventArgs` is supplied to the `SegmentRendering` callback and exposes the following fields:
+`SunburstSegmentRenderingEventArgs<TItem>` is supplied to the `SegmentRendering` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
@@ -644,8 +643,8 @@ The `TooltipRendering` event fires before each tooltip is rendered. Use it to ov
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 TooltipRendering="@OnTooltipRender"
                  Width="100%" Height="600px">
-    <SunburstChartEvents TooltipRendering="@OnTooltipRender" />
     <SunburstTooltipSettings Enable="true" />
 </SfSunburstChart>
 
@@ -693,7 +692,7 @@ The `TooltipRendering` event fires before each tooltip is rendered. Use it to ov
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private void OnTooltipRender(SunburstTooltipRenderEventArgs args)
+    private void OnTooltipRender(SunburstTooltipRenderingEventArgs<RegionData> args)
     {
         args.HeaderText = "Region";
         args.Text = $"{args.Point.Label}: {args.Point.Value:N0}";
@@ -704,9 +703,9 @@ The `TooltipRendering` event fires before each tooltip is rendered. Use it to ov
 
 ```
 
-## SunburstTooltipRenderEventArgs properties
+## SunburstTooltipRenderingEventArgs properties
 
-`SunburstTooltipRenderEventArgs` is supplied to the `TooltipRendering` callback and exposes the following fields:
+`SunburstTooltipRenderingEventArgs<TItem>` is supplied to the `TooltipRendering` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
@@ -736,8 +735,8 @@ The `Loaded` event fires once after the Sunburst chart has been initialized and 
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 Loaded="@OnLoaded"
                  Width="100%" Height="600px">
-    <SunburstChartEvents Loaded="@OnLoaded" />
 </SfSunburstChart>
 
 @code {
@@ -804,7 +803,7 @@ The `Loaded` event fires once after the Sunburst chart has been initialized and 
 
 The Blazor Sunburst Chart exposes synchronous `Action` callbacks for the print and export workflows initiated by `PrintAsync` and `ExportAsync`. They are not `EventCallback` instances because they are invoked by internal orchestration rather than by a user gesture.
 
-* `PrintCompleted` (`Action`) – Fires after the chart's print workflow finishes.
+* `PrintCompleted` (`Action`) – Fires after the chart's print workflow has been submitted to the browser.
 * `Exporting` (`Action<ChartExportEventArgs>`) – Fires before an export is performed. Use `Cancel = true` to skip the export, or override `Width`, `Height`, or the in-progress `Workbook` for visual / data exports.
 * `ExportCompleted` (`Action<ExportEventArgs>`) – Fires after the export completes. Receives the resulting `DataUrl` when `ExportAsync` was called with `allowDownload = false`.
 
@@ -819,10 +818,10 @@ The Blazor Sunburst Chart exposes synchronous `Action` callbacks for the print a
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
+                 Exporting="@OnExporting"
+                 ExportCompleted="@OnExportCompleted"
                  @ref="Sunburst"
                  Width="100%" Height="600px">
-    <SunburstChartEvents Exporting="@OnExporting"
-                         ExportCompleted="@OnExportCompleted" />
 </SfSunburstChart>
 
 <button @onclick="ExportChart">Export PNG</button>
@@ -895,29 +894,32 @@ The Blazor Sunburst Chart exposes synchronous `Action` callbacks for the print a
 
 ```
 
-## SunburstChartEvents events
+## SfSunburstChart event callbacks
 
-The following tables list the events exposed by the `SunburstChartEvents` component, the event arguments they receive, and the default `EventName` value.
+The following tables list the callbacks exposed by the `SfSunburstChart` component, the event arguments they receive, and the default `EventName` value.
 
 ### Interaction events
 
 | Event | EventArgs | EventName | Cancelable |
 |---|---|---|---|
 | `Loaded` | `SunburstLoadedEventArgs` | `Loaded` | No |
-| `PointClicking` | `SunburstPointClickEventArgs` | `PointClicking` | Yes |
-| `LegendItemClicking` | `SunburstLegendItemClickEventArgs` | `LegendItemClicking` | Yes |
-| `DrillDownStarting` | `SunburstDrillEventArgs` | `DrillDownStarting` | Yes |
-| `DrillUpStarting` | `SunburstDrillEventArgs` | `DrillUpStarting` | Yes |
+| `OnPointClick` | `SunburstPointClickEventArgs<TItem>` | `OnPointClick` | No |
+| `OnLegendClick` | `SunburstLegendClickEventArgs<TItem>` | `OnLegendClick` | Yes |
+| `SelectionChanged` | `SunburstSelectionChangedEventArgs<TItem>` | `SelectionChanged` | No |
+| `DrillDownStarting` | `SunburstDrillStartingEventArgs<TItem>` | `DrillDownStarting` | Yes |
+| `DrillDownCompleted` | `SunburstDrillEventArgs<TItem>` | `DrillDownCompleted` | No |
+| `DrillUpStarting` | `SunburstDrillStartingEventArgs<TItem>` | `DrillUpStarting` | Yes |
+| `DrillUpCompleted` | `SunburstDrillEventArgs<TItem>` | `DrillUpCompleted` | No |
 | `PrintCompleted` | `Action` (no args) | n/a | No |
 
 ### Rendering events
 
 | Event | EventArgs | EventName | Cancelable |
 |---|---|---|---|
-| `LegendItemRendering` | `SunburstLegendRenderEventArgs` | `LegendRendering` | Yes |
-| `DatalabelRendering` | `SunburstLabelRenderEventArgs` | `DatalabelRendering` | Yes |
-| `SegmentRendering` | `SunburstSegmentRenderEventArgs` | `SegmentRendering` | Yes |
-| `TooltipRendering` | `SunburstTooltipRenderEventArgs` | `TooltipRendering` | Yes |
+| `LegendItemRendering` | `SunburstLegendItemRenderingEventArgs<TItem>` | `LegendItemRendering` | Yes |
+| `DataLabelRendering` | `SunburstDataLabelRenderingEventArgs<TItem>` | `DataLabelRendering` | Yes |
+| `SegmentRendering` | `SunburstSegmentRenderingEventArgs<TItem>` | `SegmentRendering` | Yes |
+| `TooltipRendering` | `SunburstTooltipRenderingEventArgs<TItem>` | `TooltipRendering` | Yes |
 
 ### Export hooks
 
@@ -926,7 +928,7 @@ The following tables list the events exposed by the `SunburstChartEvents` compon
 | `Exporting` | `ChartExportEventArgs` | Yes (`Cancel`) |
 | `ExportCompleted` | `ExportEventArgs` | No |
 
-N> `Action` callbacks (`LegendItemRendering`, `DatalabelRendering`, `SegmentRendering`, `TooltipRendering`, `Exporting`, `ExportCompleted`, `PrintCompleted`) are invoked synchronously by the chart. `EventCallback` callbacks (`Loaded`, `PointClicking`, `LegendItemClicking`, `DrillDownStarting`, `DrillUpStarting`) support Blazor's asynchronous dispatch and can be used with `async` / `await`.
+N> `Action` callbacks (`LegendItemRendering`, `DataLabelRendering`, `SegmentRendering`, `TooltipRendering`, `Exporting`, `ExportCompleted`, `PrintCompleted`) are invoked synchronously by the chart. `EventCallback` callbacks (`Loaded`, `OnPointClick`, `OnLegendClick`, `SelectionChanged`, `DrillDownStarting`, `DrillDownCompleted`, `DrillUpStarting`, `DrillUpCompleted`) support Blazor's asynchronous dispatch and can be used with `async` / `await`.
 
 ## See also
 

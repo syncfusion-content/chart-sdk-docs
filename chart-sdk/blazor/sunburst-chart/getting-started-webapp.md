@@ -265,9 +265,9 @@ The `Blazor Sunburst Chart` renders hierarchical data as concentric rings. As sh
 Key mappings to configure:
 
 * `DataSource` — the `IEnumerable<NodeDetails>` collection that supplies the nodes.
-* `IdMemberPath` — the unique identifier of each row (`NodeDetails.Id`).
-* `ParentIdMemberPath` — the parent reference for each row (`NodeDetails.ParentId`); set to `null` for top-level rows.
-* `LabelMemberPath` — the field that provides the segment text (`NodeDetails.Name`).
+* `IdMemberPath` — the unique identifier of each row (`NodeDetails.Id`). The default value is empty. If a row has a null or empty ID value, the chart assigns an auto-generated identifier.
+* `ParentIdMemberPath` — the parent reference for each row (`NodeDetails.ParentId`). Null, empty, or whitespace values create top-level rows. Unresolved parent IDs, self-references, and cycles are attached to the synthetic root.
+* `LabelMemberPath` — the field that provides the segment text (`NodeDetails.Name`). The default value is empty; when the mapped label is missing or null, the resolved ID is used as the label.
 * `ValueMemberPath` — the numeric field that determines the segment sweep (`NodeDetails.Value`).
 
 Leaf rows carry the numeric `Value` that drives rendering. Ancestor rows without a `Value` display the aggregated value of their descendants.

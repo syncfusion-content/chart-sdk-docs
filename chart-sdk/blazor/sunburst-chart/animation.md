@@ -14,7 +14,7 @@ The animation feature adds an entrance effect to the `Blazor Sunburst Chart`, so
 
 The animation of the Blazor Sunburst Chart can be enabled and customized using the `EnableAnimation` and `AnimationType` properties on `SfSunburstChart`.
 
-N> **Default behavior:** `EnableAnimation` is `false`, so the Sunburst Chart renders without an entrance animation. When enabled, the animation runs during the initial rendering and can run again when the chart data or interactive view changes.
+N> **Default behavior:** `EnableAnimation` is `true`, so the Sunburst Chart renders with the default entrance animation. When disabled, the chart renders without animation. When enabled, the animation runs during the initial rendering and can run again when the chart data or interactive view changes.
 
 ## Enable animation
 

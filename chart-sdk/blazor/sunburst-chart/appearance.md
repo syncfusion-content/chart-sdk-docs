@@ -14,7 +14,7 @@ The appearance of the `Blazor Sunburst Chart` determines how segments, rings, an
 
 The appearance of the Blazor Sunburst Chart is configured through properties on `SfSunburstChart` and through the `SunburstChartBorder` and `SunburstChartMargin` child components.
 
-N> **Default values:** `Theme` is `Material`, `Background` is `transparent`, `Width` is `0` for `SunburstChartBorder`, the default margins are `10` on each side of `SunburstChartMargin`, `Radius` is `1`, `InnerRadius` is `0.2`, `StartAngle` is `0`, and `EndAngle` is `360`.
+N> **Default values:** `Theme` is `Material`, `Background` is `transparent`, `SunburstChartBorder.Color` is `transparent`, `SunburstChartBorder.Width` is `0`, the default margins are `10` on each side of `SunburstChartMargin`, `Radius` is `1`, `InnerRadius` is `0.2`, `StartAngle` is `0`, and `EndAngle` is `360`.
 
 ## Built-in themes
 
@@ -70,9 +70,80 @@ The Sunburst Chart ships with built-in themes that control the overall look and 
 <!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart rendered with the Bootstrap5 theme](images/appearance/sunburst-chart-theme-bootstrap5.webp)
 
+## Right-to-left rendering
+
+Set the `EnableRTL` property to `true` to render the Sunburst Chart in right-to-left mode. The default value is `false`.
+
+```cshtml
+
+@page "/r11"
+@rendermode InteractiveServer
+@using Syncfusion.Blazor.Charts
+
+<SfSunburstChart TItem="SunburstData"
+                 DataSource="@DataSource"
+                 EnableRTL="true"
+                 IdMemberPath="@nameof(SunburstData.Id)"
+                 ParentIdMemberPath="@nameof(SunburstData.ParentId)"
+                 LabelMemberPath="@nameof(SunburstData.Label)"
+                 ValueMemberPath="@nameof(SunburstData.Value)"
+                 Title="Sales by Category">
+    <SunburstLegendSettings Visible="true"
+                             />
+</SfSunburstChart>
+
+@code {
+    public class SunburstData
+    {
+        public string Id { get; set; } = string.Empty;
+        public string? ParentId { get; set; }
+        public string Label { get; set; } = string.Empty;
+        public double Value { get; set; }
+    }
+
+    private List<SunburstData> DataSource { get; set; } =
+    [
+        new() { Id = "Electronics", Label = "Electronics" },
+        new() { Id = "Clothing", Label = "Clothing" },
+
+        new()
+        {
+            Id = "Mobile",
+            ParentId = "Electronics",
+            Label = "Mobile",
+            Value = 30
+        },
+        new()
+        {
+            Id = "Laptop",
+            ParentId = "Electronics",
+            Label = "Laptop",
+            Value = 20
+        },
+        new()
+        {
+            Id = "Men",
+            ParentId = "Clothing",
+            Label = "Men",
+            Value = 25
+        },
+        new()
+        {
+            Id = "Women",
+            ParentId = "Clothing",
+            Label = "Women",
+            Value = 25
+        }
+    ];
+}
+
+```
+
+<!-- TODO: Add Blazor Playground sample after release -->
+
 ## Custom color palette
 
-The Sunburst Chart applies colors from the active theme by default. Pass an array of color values to the `Palette` property of `SfSunburstChart` to define a custom palette. Colors are applied sequentially to the rendered segments, and the palette is reused from the beginning when the number of segments exceeds the number of provided colors.
+The Sunburst Chart applies colors from the active theme by default. Pass an array of color values to the `Palette` property of `SfSunburstChart` to define a custom palette. Colors are applied sequentially to the root-level segments. Child segments inherit the color of their root-level segment.
 
 ```cshtml
 
@@ -480,6 +551,10 @@ Setting `EndAngle` to less than `360` rotates the segments so the chart occupies
 <!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart rendered using StartAngle and EndAngle](images/appearance/sunburst-chart-start-end-angle.webp)
 
+## Animation
+
+Use `EnableAnimation` to enable or disable the initial rendering animation. The default value is `true`. Use `AnimationType` to select the animation effect. Supported values are `SunburstAnimationType.Rotation` and `SunburstAnimationType.FadeIn`; the default value is `SunburstAnimationType.Rotation`.
+
 ## Title and subtitle
 
 The Blazor Sunburst Chart exposes a chart heading through the `Title` property and an optional secondary line through the `Subtitle` property on `SfSunburstChart`. These strings default to empty, so the chart renders without a heading unless one is supplied. Use title text to identify the data being shown and subtitle text to add a reporting period, source, or other context.
@@ -522,25 +597,32 @@ The Blazor Sunburst Chart exposes a chart heading through the `Title` property a
 
 ## Customize the title and subtitle
 
-Use `SunburstTitleSettings` and `SunburstSubtitleSettings` to customize how the heading and subheading appear. `SunburstTitleSettings` exposes font-level styling along with a `Position` value that chooses which side of the chart the heading renders on. `SunburstSubtitleSettings` exposes the same font-level styling and does not have its own `Position`; the subtitle is repositioned along with the title.
+Use `SunburstTitleSettings` and `SunburstSubtitleSettings` to customize how the heading and subheading appear. `SunburstTitleSettings` exposes font-level styling along with a `Position` value that chooses which side of the chart the heading renders on. `SunburstSubtitleSettings` exposes the same font-level styling and also provides a nullable `Position` property using the `SunburstTitlePosition` enum.
 
 ### SunburstTitleSettings properties
 
 Configure the main title appearance:
 
 In the `SunburstTitleSettings`:
+* `AccessibilityDescription`: Adds a text description that screen readers announce along with the title.
+* `AccessibilityRole`: Sets the ARIA role for the title element (for example, `heading`).
+* `Focusable`: When `true`, the title can receive keyboard focus.
 * `Size`: Specifies the font size of the title text (for example `"22px"`). When unset, the value falls back to the active Syncfusion theme.
 * `Color`: Specifies the font color of the title text. Any valid CSS color value is accepted. When unset, the value falls back to the active theme.
 * `FontFamily`: Specifies the font family of the title text. Multiple families can be supplied as a comma-separated list. When unset, the value falls back to the active theme.
 * `FontWeight`: Specifies the font weight of the title text. Valid values include `Normal`, `Bold`, `Bolder`, `Lighter`, and numeric values such as `400`, `500`, and `700`. When unset, the value falls back to the active theme.
 * `FontStyle`: Specifies the font style of the title text. Valid values include `Normal`, `Italic`, and `Oblique`. When unset, the value falls back to the active theme.
-* `Position`: Specifies the position of the title in the Sunburst chart. Use the `SunburstTitlePosition` enum (`Top`, `Bottom`, `Left`, or `Right`). The default value is `Top`. When the position is changed, the subtitle is repositioned along with the title so they continue to render together.
+* `Position`: Specifies the position of the title in the Sunburst chart. Use the nullable `SunburstTitlePosition` enum (`Top`, `Bottom`, `Left`, or `Right`). The parameter default is `null`, which uses the chart's default top placement. When the position is changed, the subtitle is repositioned along with the title so they continue to render together.
 
 ### SunburstSubtitleSettings properties
 
 Configure the subtitle appearance:
 
 In the `SunburstSubtitleSettings`:
+* `AccessibilityDescription`: Adds a text description that screen readers announce along with the subtitle.
+* `AccessibilityRole`: Sets the ARIA role for the subtitle element (for example, `heading`).
+* `Focusable`: When `true`, the subtitle can receive keyboard focus. The default value is `true`.
+* `Position`: Specifies the position of the subtitle in the Sunburst chart using the nullable `SunburstTitlePosition` enum (`Top`, `Bottom`, `Left`, or `Right`). When unset, the subtitle uses the chart's default placement.
 * `Size`: Specifies the font size of the subtitle text (for example `"14px"`). When unset, the value falls back to the active Syncfusion theme.
 * `Color`: Specifies the font color of the subtitle text. Any valid CSS color value is accepted. When unset, the value falls back to the active theme.
 * `FontFamily`: Specifies the font family of the subtitle text. Multiple families can be supplied as a comma-separated list. When unset, the value falls back to the active theme.
@@ -608,6 +690,7 @@ In the `SunburstTitleSettings`:
 In the `SunburstSubtitleSettings`:
 * `AccessibilityDescription`: Adds a text description that screen readers announce along with the subtitle.
 * `AccessibilityRole`: Sets the ARIA role for the subtitle element (for example, `heading`).
+* `Focusable`: When `true`, the subtitle can receive keyboard focus. The default value is `true`.
 
 ```cshtml
 
