@@ -6,7 +6,7 @@ description: Data labels in the UWP Sunburst Chart display segment values and in
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

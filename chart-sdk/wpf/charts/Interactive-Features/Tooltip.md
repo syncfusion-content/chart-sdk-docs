@@ -5,7 +5,7 @@ description: Tooltip in the WPF Chart displays detailed information about data p
 platform: chart-sdk
 control: SfChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

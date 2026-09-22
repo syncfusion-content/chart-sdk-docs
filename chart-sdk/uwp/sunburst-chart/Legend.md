@@ -6,7 +6,7 @@ description: Legend in the UWP Sunburst Chart identifies segments and categories
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

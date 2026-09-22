@@ -6,7 +6,7 @@ description: Annotations in the UWP Radial Gauge allow you to add custom text, s
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 
