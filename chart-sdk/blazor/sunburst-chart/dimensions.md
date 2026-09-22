@@ -131,7 +131,7 @@ Set the `Width` and `Height` properties in pixels to define a fixed size for the
 
 ### In percentage values
 
-By setting the values of `Width` and `Height` in percentage, the chart gets its dimension with respect to its container. For example, when `Height` is set to **50%**, the chart is half the height of its container.
+By setting the `Width` and `Height` properties to percentage values, the chart dimensions are calculated relative to its parent container. For example, setting `Width` and `Height` to `100%` makes the chart fill the available width and height of its parent container.
 
 ```cshtml
 

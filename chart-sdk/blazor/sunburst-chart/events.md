@@ -165,6 +165,18 @@ The corresponding event arguments are `SunburstDrillStartingEventArgs<TItem>` (w
 }
 
 ```
+## DrillDownCompleted and DrillUpCompleted
+
+The `DrillDownCompleted` and `DrillUpCompleted` callbacks are triggered after the corresponding drill operation completes successfully. These callbacks are not triggered when the starting event is canceled or when the drill transition fails.
+
+Both callbacks use `SunburstDrillEventArgs<TItem>`. The completed events are informational and do not support cancellation.
+
+### SunburstDrillEventArgs properties
+
+| Property | Type | Description |
+|---|---|---|
+| `EventName` | `string` | Returns `"DrillDownCompleted"` or `"DrillUpCompleted"` based on the completed drill operation. |
+| `Point` | `SunburstDrillPointInfo<TItem>` | Gets information about the completed drill operation and the resulting drill state. |
 
 ## SunburstDrillStartingEventArgs properties
 
@@ -184,6 +196,8 @@ The corresponding event arguments are `SunburstDrillStartingEventArgs<TItem>` (w
 | `Value` | `double` | The numeric value of the segment that triggered the drill. |
 | `ParentLabel` | `string` | The label of the immediate parent segment of the click target. |
 | `RootLabel` | `string` | The label of the top-level root segment that the click target belongs to. |
+| `PreviousRootLabel` | `string` | Gets the label of the root segment that was active before the drill operation completed. It is empty when the previous root is the synthetic chart root. |
+| `Source` | `TItem` | Gets the original data item associated with the drill point, or the default value when the point represents the synthetic root. |
 
 ## OnPointClick
 
@@ -265,9 +279,98 @@ The corresponding event arguments are `SunburstPointClickEventArgs<TItem>`. This
 | Property | Type | Description |
 |---|---|---|
 | `EventName` | `string` | Returns the literal `"OnPointClick"`. Set by the chart — do not mutate. |
-| `Fill` | `string` | The fill color of the clicked segment. Mutate to override the rendered color. |
+| `Fill` | `string` | Gets the fill color of the clicked segment. |
 | `Point` | `SunburstPointInfo` | Information about the clicked segment. Exposes `Label` and `Value`. Set by the chart — do not reassign. |
-| `Font` | `SunburstFontModel` | The font style currently applied to the clicked segment. Mutate fields such as `Color`, `FontSize`, or `FontWeight` to override the rendering. |
+| `Font` | `SunburstFontModel` | Gets the font style associated with the clicked segment. |
+| `Source` | `TItem` | Gets the original data item associated with the clicked segment. |
+
+## SelectionChanged
+
+Use the `SelectionChanged` callback on `SfSunburstChart` to respond after the current selection state is committed. This event is raised after the chart updates the selected segment and is useful for reading the active selection state or updating other UI in your application.
+
+The corresponding event arguments are `SunburstSelectionChangedEventArgs<TItem>`. The callback is observational and does not support cancellation.
+
+```cshtml
+@using Syncfusion.Blazor.Charts
+
+<SfSunburstChart TItem="RegionData"
+                 Title="Population by Region"
+                 DataSource="@Regions"
+                 IdMemberPath="@nameof(RegionData.Id)"
+                 ParentIdMemberPath="@nameof(RegionData.ParentId)"
+                 LabelMemberPath="@nameof(RegionData.Label)"
+                 ValueMemberPath="@nameof(RegionData.Population)"
+                 SelectionChanged="@SelectionChangedHandler"
+                 Width="100%" Height="600px">
+    <SunburstSelectionSettings Enable="true" />
+</SfSunburstChart>
+
+@code {
+    public class RegionData
+    {
+        public string Id { get; set; } = string.Empty;
+        public string? ParentId { get; set; }
+        public string Label { get; set; } = string.Empty;
+        public double Population { get; set; }
+    }
+
+    public List<RegionData> Regions = new List<RegionData>
+    {
+        new RegionData { Id = "USA", ParentId = null, Label = "USA" },
+        new RegionData { Id = "India", ParentId = null, Label = "India" },
+        new RegionData { Id = "Germany", ParentId = null, Label = "Germany" },
+
+        new RegionData { Id = "USA-California", ParentId = "USA", Label = "California" },
+        new RegionData { Id = "USA-Texas", ParentId = "USA", Label = "Texas" },
+        new RegionData { Id = "USA-NewYork", ParentId = "USA", Label = "New York" },
+
+        new RegionData { Id = "India-Maharashtra", ParentId = "India", Label = "Maharashtra" },
+        new RegionData { Id = "India-TamilNadu", ParentId = "India", Label = "Tamil Nadu" },
+        new RegionData { Id = "India-Karnataka", ParentId = "India", Label = "Karnataka" },
+
+        new RegionData { Id = "Germany-Bavaria", ParentId = "Germany", Label = "Bavaria" },
+        new RegionData { Id = "Germany-Berlin", ParentId = "Germany", Label = "Berlin" },
+        new RegionData { Id = "Germany-Hamburg", ParentId = "Germany", Label = "Hamburg" },
+
+        new RegionData { Id = "USA-California-LosAngeles", ParentId = "USA-California", Label = "Los Angeles", Population = 3898000 },
+        new RegionData { Id = "USA-California-SanDiego", ParentId = "USA-California", Label = "San Diego", Population = 1381000 },
+        new RegionData { Id = "USA-Texas-Houston", ParentId = "USA-Texas", Label = "Houston", Population = 2304000 },
+        new RegionData { Id = "USA-Texas-Dallas", ParentId = "USA-Texas", Label = "Dallas", Population = 1304000 },
+        new RegionData { Id = "USA-NewYork-NewYorkCity", ParentId = "USA-NewYork", Label = "New York City", Population = 8336000 },
+
+        new RegionData { Id = "India-Maharashtra-Mumbai", ParentId = "India-Maharashtra", Label = "Mumbai", Population = 12440000 },
+        new RegionData { Id = "India-Maharashtra-Pune", ParentId = "India-Maharashtra", Label = "Pune", Population = 3120000 },
+        new RegionData { Id = "India-TamilNadu-Chennai", ParentId = "India-TamilNadu", Label = "Chennai", Population = 4646000 },
+        new RegionData { Id = "India-Karnataka-Bengaluru", ParentId = "India-Karnataka", Label = "Bengaluru", Population = 8443000 },
+
+        new RegionData { Id = "Germany-Bavaria-Munich", ParentId = "Germany-Bavaria", Label = "Munich", Population = 1488000 },
+        new RegionData { Id = "Germany-Bavaria-Nuremberg", ParentId = "Germany-Bavaria", Label = "Nuremberg", Population = 515000 },
+        new RegionData { Id = "Germany-Berlin-BerlinCity", ParentId = "Germany-Berlin", Label = "Berlin", Population = 3664000 },
+        new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
+    };
+
+    private void SelectionChangedHandler(SunburstSelectionChangedEventArgs<RegionData> args)
+    {
+        if (args.HasSelection && args.SelectedPoint != null)
+        {
+            // args.SelectedPoint.Label
+            // args.SelectedPoint.Value
+        }
+    }
+}
+
+```
+
+The `SunburstSelectionChangedEventArgs<TItem>` instance exposes the current selection state after the interaction completes:
+
+* `EventName` – Returns the literal `"SelectionChanged"`.
+* `SelectedPoint` – The selected segment information, or `null` when the current selection is cleared.
+* `PreviousPoint` – The previously selected segment information, or `null` when there was no prior selection.
+* `Source` – The data item for the currently selected segment, or the default value when selection is cleared.
+* `PreviousSource` – The data item for the previously selected segment, or the default value when there was no prior selection.
+* `HasSelection` – Indicates whether the chart currently has an active selection.
+
+N> Clicking the currently selected segment again clears the selection, and the `SelectionChanged` callback fires with the cleared state so external UI can synchronize with the chart.
 
 ## OnLegendClick
 
@@ -361,6 +464,7 @@ The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
 | `LegendIndex` | `int` | The zero-based index of the clicked legend item. Set by the chart. |
 | `Text` | `string` | The label text of the clicked legend item. |
 | `ShapeColor` | `string` | The marker color of the clicked legend item. |
+| `Source` | `TItem` | Gets the original data item associated with the clicked legend item. |
 
 ## LegendItemRendering
 
@@ -453,6 +557,7 @@ The `LegendItemRendering` event fires before each legend item is rendered. Use i
 | `Text` | `string` | The text of the legend item. Mutate to override the rendered label. |
 | `TextColor` | `string` | The color of the legend item's text. Mutate to override. |
 | `ShapeColor` | `string` | The color of the legend item's marker. Mutate to override. |
+| `Source` | `TItem` | Gets the original data item associated with the legend item. |
 
 ## DataLabelRendering
 
@@ -541,6 +646,7 @@ The `DataLabelRendering` event fires before each data label is rendered. Use it 
 | `Cancel` | `bool` | Set to `true` to prevent the data label from being rendered. The default value is `false`. |
 | `Text` | `string` | The text of the data label. Mutate to override the rendered text. |
 | `Font` | `SunburstFontModel` | The font style applied to the data label. Mutate `Color`, `FontSize`, `FontFamily`, `FontWeight`, `FontStyle`, or `Opacity` to override the appearance. |
+| `Source` | `TItem` | Gets the original data item associated with the data label. |
 
 ## SegmentRendering
 
@@ -625,8 +731,9 @@ The `SegmentRendering` event fires before each Sunburst segment is rendered. Use
 | `EventName` | `string` | Returns the literal `"SegmentRendering"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the segment from being rendered. The default value is `false`. |
 | `Color` | `string` | The fill color of the segment. Mutate to override based on level or root label. |
-| `LevelIndex` | `int` | The zero-based index of the level being rendered. The outermost ring is `0`. Set by the chart. |
+| `LevelIndex` | `int` | The zero-based index of the hierarchy level being rendered. The top-level, innermost ring is `0`. Set by the chart. |
 | `RootLabel` | `string` | The label of the segment's top-level ancestor. Set by the chart. |
+| `Source` | `TItem` | Gets the original data item associated with the segment. |
 
 ## TooltipRendering
 
@@ -713,12 +820,13 @@ The `TooltipRendering` event fires before each tooltip is rendered. Use it to ov
 | `Cancel` | `bool` | Set to `true` to prevent the tooltip from being displayed. The default value is `false`. |
 | `Text` | `string` | The body text of the tooltip. Mutate to override. |
 | `HeaderText` | `string` | The header text of the tooltip. Mutate to override. |
-| `Fill` | `string` | The background fill color of the tooltip. Mutate to override. The default value is `"#000000"`. |
+| `Fill` | `string` | The background fill color of the tooltip. Mutate to override. The default value is `string.Empty`, which uses the theme-defined tooltip background. |
 | `Opacity` | `double` | The opacity of the tooltip, between `0` and `1`. The default value is `0.75`. |
 | `Font` | `SunburstFontModel` | The font style applied to the tooltip body text. Mutate fields to override. |
 | `HeaderFont` | `SunburstFontModel` | The font style applied to the tooltip header line. Mutate fields to override. |
 | `HeaderLineColor` | `string` | The color of the separator line drawn between the header and body when `SunburstTooltipSettings.ShowHeaderLine` is true. The default value is `string.Empty`. |
 | `Point` | `SunburstPointInfo` | Information about the data point under the cursor. Exposes `Label` and `Value`. Set by the chart — do not reassign. |
+| `Source` | `TItem` | Gets the original data item associated with the tooltip. |
 
 ## Loaded
 

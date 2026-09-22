@@ -10,15 +10,15 @@ keywords: Blazor Sunburst Chart animation, Sunburst Chart animation, chart anima
 
 # Blazor Sunburst Chart Animation
 
-The animation feature adds an entrance effect to the `Blazor Sunburst Chart`, so the rings and segments are revealed smoothly when the chart first renders or when its data is updated. It is most useful when you want the chart to feel responsive and visually engaging on the page rather than appearing suddenly.
+The animation feature adds an entrance effect to the `Blazor Sunburst Chart`, so the rings and segments are revealed smoothly when the chart first renders. It is most useful when you want the chart to feel responsive and visually engaging on the page rather than appearing suddenly.
 
 The animation of the Blazor Sunburst Chart can be enabled and customized using the `EnableAnimation` and `AnimationType` properties on `SfSunburstChart`.
 
-N> **Default behavior:** `EnableAnimation` is `true`, so the Sunburst Chart renders with the default entrance animation. When disabled, the chart renders without animation. When enabled, the animation runs during the initial rendering and can run again when the chart data or interactive view changes.
+N> **Default behavior:** `EnableAnimation` is `true`, so the Sunburst Chart renders with the default entrance animation. When disabled, the chart renders without animation. When enabled, the animation runs during the initial rendering of the chart.
 
 ## Enable animation
 
-Animation is hidden by default. Set `EnableAnimation` of `SfSunburstChart` to `true` to apply the entrance animation during the initial rendering of the chart and on subsequent data updates.
+Animation is enabled by default. Set the `EnableAnimation` property of `SfSunburstChart` to `false` to render the chart without animation.
 
 ```cshtml
 

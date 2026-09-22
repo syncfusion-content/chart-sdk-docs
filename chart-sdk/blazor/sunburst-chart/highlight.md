@@ -90,9 +90,9 @@ Set `Enable` of `SunburstHighlightSettings` to `true` to highlight the segment u
 Use `Mode` to decide which related segments are highlighted together with the segment under the pointer. The mode is a `SunburstHighlightMode` enum value.
 
 * `Single` – Highlights only the segment under the pointer. Use this when you want a strict one-segment focus.
-* `Parent` – Highlights the segment under the pointer and its parent segment. Use this when you want the immediate parent to remain visible while inspecting a segment.
-* `Child` – Highlights the segment under the pointer together with its child segment. Use this when you want to focus on a node and its immediate descendant.
-* `All` – Highlights the segment under the pointer together with its parent and child segments. Use this when you want the full branch centered while inspecting a single segment.
+* `Parent` – Highlights the segment under the pointer and its parent segments. Use this when you want the segment's hierarchy path to remain visible.
+* `Child` – Highlights the segment under the pointer and its child segments. Use this when you want to focus on a segment and its descendants.
+* `All` – Highlights the segment under the pointer together with its parent and child segments. Use this when you want to focus on the complete hierarchy branch.
 
 The following example configures the `Parent` mode so that hovering over a deep segment also keeps its ancestors visible.
 
@@ -161,7 +161,21 @@ The following example configures the `Parent` mode so that hovering over a deep 
 <!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with Parent highlight mode](images/highlight/sunburst-chart-highlight-mode-parent.webp)
 
-## Customize highlight color and opacity
+## Customization
+
+You can customize the appearance of the highlight using the following properties.
+
+### SunburstHighlightSettings Properties
+
+Configure the main highlight appearance:
+
+In the `SunburstHighlightSettings`:
+* `Enable`: Enables or disables highlighting on pointer hover. The default value is `false`.
+* `Mode`: Specifies which segments are highlighted together with the segment under the pointer. Use the `SunburstHighlightMode` enum (`Single`, `Parent`, `Child`, or `All`). The default value is `All`.
+* `Color`: Sets the color applied to highlighted segments. Any valid CSS color value (named, hex, RGB, or RGBA) is accepted. The default value is empty; when empty, the highlighted segment uses its parent segment color (or its own color for the root segment).
+* `Opacity`: Sets the transparency of highlighted segments, from `0` (fully transparent) to `1` (fully opaque). The default value is `1`.
+
+N> When `Enable` is `true`, the non-highlighted segments are always dimmed. That dim is a fixed visual effect and is not controlled by `Color` or `Opacity`; it just gives the active segment extra emphasis while the user moves the pointer over the chart.
 
 Use `Color` to recolor the highlighted segments and `Opacity` to make them more transparent. The two properties are independent and can be used together: setting only `Color` recolors the highlighted segments, setting only `Opacity` adjusts their transparency, and setting both applies both effects at the same time.
 
@@ -235,27 +249,11 @@ When `Color` is left empty, the highlighted segment falls back to its parent seg
 <!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a customized highlight color and opacity](images/highlight/sunburst-chart-highlight-customization.webp)
 
-## Customization
-
-You can customize the appearance of the highlight using the following properties.
-
-### SunburstHighlightSettings Properties
-
-Configure the main highlight appearance:
-
-In the `SunburstHighlightSettings`:
-* `Enable`: Enables or disables highlighting on pointer hover. The default value is `false`.
-* `Mode`: Specifies which segments are highlighted together with the segment under the pointer. Use the `SunburstHighlightMode` enum (`Single`, `Parent`, `Child`, or `All`). The default value is `All`.
-* `Color`: Sets the color applied to highlighted segments. Any valid CSS color value (named, hex, RGB, or RGBA) is accepted. The default value is empty; when empty, the highlighted segment uses its parent segment color (or its own color for the root segment).
-* `Opacity`: Sets the transparency of highlighted segments, from `0` (fully transparent) to `1` (fully opaque). The default value is `1`.
-
-N> When `Enable` is `true`, the non-highlighted segments are always dimmed. That dim is a fixed visual effect and is not controlled by `Color` or `Opacity`; it just gives the active segment extra emphasis while the user moves the pointer over the chart.
-
 ## Tooltip highlighting
 
-The Sunburst Chart highlights the segment that is tied to the active tooltip when `EnableHighlight` of `SunburstTooltipSettings` is `true` (the default). When the tooltip is shown for a segment, that segment is visually emphasized using the same highlight behavior.
+The Sunburst Chart highlights the segment associated with the active tooltip when the `EnableHighlight` property of `SunburstTooltipSettings` is set to `true`. The default value is `false`. When the tooltip is shown for a segment, that segment is visually emphasized using the same highlight behavior.
 
-`EnableHighlight` is independent from `SunburstHighlightSettings.Enable` — both can be active at the same time. Setting `EnableHighlight="false"` disables tooltip-driven highlight while leaving pointer-hover highlight (if `SunburstHighlightSettings.Enable` is `true`) unaffected. If both are disabled, no highlight is rendered.
+`EnableHighlight` is independent of `SunburstHighlightSettings.Enable`, and both can be active at the same time. Setting `EnableHighlight="false"` disables tooltip-driven highlighting while leaving pointer-hover highlighting unaffected when `SunburstHighlightSettings.Enable` is `true`. If both properties are disabled, no highlighting is rendered.
 
 ```cshtml
 

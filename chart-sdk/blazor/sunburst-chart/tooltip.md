@@ -93,9 +93,9 @@ You can customize the tooltip appearance using the following properties.
 
 In the `SunburstTooltipSettings`:
 * `Enable`: Enables or disables the tooltip. Set to `true` to display a tooltip on hover or tap. The default value is `false`.
-* `Format`: Defines the tooltip text using placeholders such as `${point.label}` and `${point.value}`. The default value is empty. When empty, the tooltip uses `${point.label} : ${point.value}`.
-* `HeaderText`: Sets a custom header that appears above the tooltip content. When set, the header is shown for every tooltip. Default value is empty.
-* `EnableHighlight`: When `true`, the segment associated with the active tooltip is visually emphasized. The default value is `true`. Set to `false` if you only want the tooltip without highlighting the segment.
+* `Format`: Defines the tooltip text using placeholders such as `${point.label}` and `${point.value}`. The default value is `null`. When unset, the tooltip uses `${point.label} : ${point.value}`.
+* `HeaderText`: Sets a custom header that appears above the tooltip content. When set, the header is shown for every tooltip. The default value is `null`.
+* `EnableHighlight`: When `true`, the segment associated with the active tooltip is visually emphasized. The default value is `false`.
 * `ShowHeaderLine`: When `true`, a separator line is rendered between the tooltip header and content. The default value is `true`.
 * `Opacity`: Sets the tooltip transparency, from `0` (fully transparent) to `1` (fully opaque). The default value is `1`.
 * `Fill`: Sets the tooltip background color using any valid CSS color value. Falls back to the active theme if unset.

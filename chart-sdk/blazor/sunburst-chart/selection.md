@@ -85,98 +85,11 @@ Selection is hidden by default. Set the `Enable` property of `SunburstSelectionS
 <!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with selection enabled on a segment](images/selection/sunburst-chart-selection-enable.webp)
 
-## SelectionChanged
-
-Use the `SelectionChanged` callback on `SfSunburstChart` to respond after the current selection state is committed. This event is raised after the chart updates the selected segment and is useful for reading the active selection state or updating other UI in your application.
-
-The corresponding event arguments are `SunburstSelectionChangedEventArgs<TItem>`. The callback is observational and does not support cancellation.
-
-```cshtml
-@using Syncfusion.Blazor.Charts
-
-<SfSunburstChart TItem="RegionData"
-                 Title="Population by Region"
-                 DataSource="@Regions"
-                 IdMemberPath="@nameof(RegionData.Id)"
-                 ParentIdMemberPath="@nameof(RegionData.ParentId)"
-                 LabelMemberPath="@nameof(RegionData.Label)"
-                 ValueMemberPath="@nameof(RegionData.Population)"
-                 SelectionChanged="@SelectionChangedHandler"
-                 Width="100%" Height="600px">
-    <SunburstSelectionSettings Enable="true" />
-</SfSunburstChart>
-
-@code {
-    public class RegionData
-    {
-        public string Id { get; set; } = string.Empty;
-        public string? ParentId { get; set; }
-        public string Label { get; set; } = string.Empty;
-        public double Population { get; set; }
-    }
-
-    public List<RegionData> Regions = new List<RegionData>
-    {
-        new RegionData { Id = "USA", ParentId = null, Label = "USA" },
-        new RegionData { Id = "India", ParentId = null, Label = "India" },
-        new RegionData { Id = "Germany", ParentId = null, Label = "Germany" },
-
-        new RegionData { Id = "USA-California", ParentId = "USA", Label = "California" },
-        new RegionData { Id = "USA-Texas", ParentId = "USA", Label = "Texas" },
-        new RegionData { Id = "USA-NewYork", ParentId = "USA", Label = "New York" },
-
-        new RegionData { Id = "India-Maharashtra", ParentId = "India", Label = "Maharashtra" },
-        new RegionData { Id = "India-TamilNadu", ParentId = "India", Label = "Tamil Nadu" },
-        new RegionData { Id = "India-Karnataka", ParentId = "India", Label = "Karnataka" },
-
-        new RegionData { Id = "Germany-Bavaria", ParentId = "Germany", Label = "Bavaria" },
-        new RegionData { Id = "Germany-Berlin", ParentId = "Germany", Label = "Berlin" },
-        new RegionData { Id = "Germany-Hamburg", ParentId = "Germany", Label = "Hamburg" },
-
-        new RegionData { Id = "USA-California-LosAngeles", ParentId = "USA-California", Label = "Los Angeles", Population = 3898000 },
-        new RegionData { Id = "USA-California-SanDiego", ParentId = "USA-California", Label = "San Diego", Population = 1381000 },
-        new RegionData { Id = "USA-Texas-Houston", ParentId = "USA-Texas", Label = "Houston", Population = 2304000 },
-        new RegionData { Id = "USA-Texas-Dallas", ParentId = "USA-Texas", Label = "Dallas", Population = 1304000 },
-        new RegionData { Id = "USA-NewYork-NewYorkCity", ParentId = "USA-NewYork", Label = "New York City", Population = 8336000 },
-
-        new RegionData { Id = "India-Maharashtra-Mumbai", ParentId = "India-Maharashtra", Label = "Mumbai", Population = 12440000 },
-        new RegionData { Id = "India-Maharashtra-Pune", ParentId = "India-Maharashtra", Label = "Pune", Population = 3120000 },
-        new RegionData { Id = "India-TamilNadu-Chennai", ParentId = "India-TamilNadu", Label = "Chennai", Population = 4646000 },
-        new RegionData { Id = "India-Karnataka-Bengaluru", ParentId = "India-Karnataka", Label = "Bengaluru", Population = 8443000 },
-
-        new RegionData { Id = "Germany-Bavaria-Munich", ParentId = "Germany-Bavaria", Label = "Munich", Population = 1488000 },
-        new RegionData { Id = "Germany-Bavaria-Nuremberg", ParentId = "Germany-Bavaria", Label = "Nuremberg", Population = 515000 },
-        new RegionData { Id = "Germany-Berlin-BerlinCity", ParentId = "Germany-Berlin", Label = "Berlin", Population = 3664000 },
-        new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
-    };
-
-    private void SelectionChangedHandler(SunburstSelectionChangedEventArgs<RegionData> args)
-    {
-        if (args.HasSelection && args.SelectedPoint != null)
-        {
-            // args.SelectedPoint.Label
-            // args.SelectedPoint.Value
-        }
-    }
-}
-
-```
-
-The `SunburstSelectionChangedEventArgs<TItem>` instance exposes the current selection state after the interaction completes:
-
-* `SelectedPoint` – The selected segment information, or `null` when the current selection is cleared.
-* `PreviousPoint` – The previously selected segment information, or `null` when there was no prior selection.
-* `Source` – The data item for the currently selected segment, or the default value when selection is cleared.
-* `PreviousSource` – The data item for the previously selected segment, or the default value when there was no prior selection.
-* `HasSelection` – Indicates whether the chart currently has an active selection.
-
-N> Clicking the currently selected segment again clears the selection, and the `SelectionChanged` callback fires with the cleared state so external UI can sync with the chart.
-
 ## Selection mode
 
 Use the `Mode` property to decide which related segments are selected together with the segment clicked by the user. The mode is a `SunburstSelectionMode` enum value.
 
-* `All` – Selects the clicked segment along with its parent and child segments (the entire branch). This is the default value.
+* `All` – Selects the clicked segment along with its parent and child segments (the entire branch).
 * `Parent` – Selects the clicked segment along with its parent segment. Use this when you want the immediate parent to remain selected while inspecting a segment.
 * `Child` – Selects the clicked segment along with its child segment. Use this when you want to focus on a node and its immediate descendant.
 * `Single` – Selects only the clicked segment. Use this when you want a strict one-segment focus.
@@ -259,7 +172,7 @@ Configure the main selection appearance:
 
 In the `SunburstSelectionSettings`:
 * `Enable`: Enables or disables segment selection. The default value is `false`.
-* `Mode`: Decides which segments are affected by the selection. Use the `SunburstSelectionMode` enum (`All`, `Parent`, `Child`, or `Single`). The default value is `All`.
+* `Mode`: Decides which segments are affected by the selection. Use the `SunburstSelectionMode` enum (`All`, `Parent`, `Child`, or `Single`). The default value is `Single`.
 * `Color`: Sets the color applied to the selected segment. Any valid CSS color value (named, hex, RGB, or RGBA) is accepted. The default value is empty; when empty, the selected segment uses its parent segment color (or its own color for the root segment).
 * `Opacity`: Sets the transparency of the selected segment, from `0` (fully transparent) to `1` (fully opaque). The default value is `1`.
 

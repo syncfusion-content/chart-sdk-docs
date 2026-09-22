@@ -5,7 +5,7 @@ description: Learn how to enable and customize data labels on the Blazor Sunburs
 platform: Blazor
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart data label, Sunburst Chart data label, data label settings, data label customization, data label text style, SunburstDataLabelSettings, LabelOverflowMode, LabelRotationMode
+keywords: Blazor Sunburst Chart data label, Sunburst Chart data label, data label settings, data label customization, data label text style, SunburstDataLabelSettings, OverflowMode, LabelRotationMode
 ---
 
 # Blazor Sunburst Chart Data Label
@@ -87,7 +87,7 @@ Data labels are hidden by default. Set `Visible` of `SunburstDataLabelSettings` 
 
 ## Label overflow mode
 
-When a segment is too small, its label may not fit within the available arc space, which can make the chart look crowded or hard to read. Use `LabelOverflowMode` to decide how the chart handles that label:
+When a segment is too small, its label may not fit within the available arc space, which can make the chart look crowded or hard to read. Use `OverflowMode` to decide how the chart handles that label:
 
 * `Trim` – shorten the label with an ellipsis so it fits in the arc (**default**). For example, `Los Angeles ...` instead of the full name on a small segment.
 * `Hide` – hide the label entirely when it does not fit. Use this when a clean look matters more than showing every label.
@@ -107,7 +107,7 @@ N> `Trim` and `Hide` only keep labels visible when their text fits in the arc. `
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
                  Width="100%" Height="600px">
-    <SunburstDataLabelSettings Visible="true" LabelOverflowMode="LabelOverflowMode.Hide" />
+    <SunburstDataLabelSettings Visible="true" OverflowMode="SunburstLabelOverflowMode.Hide" />
 </SfSunburstChart>
 
 @code {
@@ -162,10 +162,10 @@ N> `Trim` and `Hide` only keep labels visible when their text fits in the arc. `
 
 ## Label rotation mode
 
-Use `LabelRotationMode` to choose how each label aligns with the chart:
+Use `RotationMode` to choose how each label aligns with the chart:
 
-* `Angle` – rotate the label to follow the angle of its arc (**default**). Use this when the chart is the focus and you want labels to feel symmetric with the radial layout.
-* `Normal` – keep the label upright and horizontal, ignoring the arc angle. Use this when users need to read labels quickly, such as on dashboards or reports.
+* `Angle` – rotate the label to follow the angle of its arc. Use this when the chart is the focus and you want labels to feel symmetric with the radial layout.
+* `Normal` – keep the label upright and horizontal, ignoring the arc angle. Use this when users need to read labels quickly, such as on dashboards or reports. This is the default value.
 
 For example, a wide chart with many segments may look more balanced with `Angle`, while a compact dashboard tile may read better with `Normal`.
 
@@ -181,7 +181,7 @@ For example, a wide chart with many segments may look more balanced with `Angle`
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
                  Width="100%" Height="600px">
-    <SunburstDataLabelSettings Visible="true" LabelRotationMode="LabelRotationMode.Normal" />
+    <SunburstDataLabelSettings Visible="true" RotationMode="SunburstLabelRotationMode.Normal" />
 </SfSunburstChart>
 
 @code {

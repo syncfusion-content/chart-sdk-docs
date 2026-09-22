@@ -102,7 +102,9 @@ In the `SunburstLegendSettings`:
 * `ShapeHeight`: Specifies the height of the marker drawn beside each legend item, in pixels.
 * `ItemPadding`: Specifies the spacing between adjacent legend items, in pixels.
 * `ToggleVisibility`: When `true`, clicking a legend item toggles the visibility of its corresponding root-level segment group in the chart. Set to `false` to render an entirely non-interactive legend. The default value is `true`.
-* `Focusable`: Specifies whether legend items can receive keyboard focus. The default value is `true`.
+* `Focusable`: Specifies whether the legend can receive keyboard focus. The default value is `true`.
+* `AccessibilityDescription`: Specifies additional descriptive text for the legend. The default value is `null`.
+* `AccessibilityRole`: Specifies the semantic accessibility role applied to the legend. The default value is `null`.
 
 In the `SunburstLegendTextStyle`:
 * `FontSize`: Specifies the font size of the legend text, in pixels (for example `"14px"`). When unset, the value falls back to the active Syncfusion theme.

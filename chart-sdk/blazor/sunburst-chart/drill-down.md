@@ -5,7 +5,7 @@ description: Learn how to enable drill-down navigation and customize breadcrumbs
 platform: Blazor
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart drill, Sunburst Chart drill-down, SunburstDrillSettings, breadcrumbs, breadcrumb alignment, SunburstBreadcrumbTextStyle
+keywords: Blazor Sunburst Chart drill, Sunburst Chart drill-down, SunburstDrillSettings, breadcrumbs, breadcrumb alignment, SunburstBreadcrumbSettings
 ---
 
 # Blazor Sunburst Chart Drill
@@ -123,20 +123,20 @@ Configure the drill behavior and breadcrumb position using `SunburstDrillSetting
 * `BreadcrumbHorizontalAlignment`: Specifies the horizontal position of the breadcrumbs. The supported values are `Left`, `Center`, and `Right`. The default value is `Left`.
 * `BreadcrumbVerticalAlignment`: Specifies the vertical position of the breadcrumbs. The supported values are `Top` and `Bottom`. The default value is `Top`.
 
-### SunburstBreadcrumbTextStyle properties
+### SunburstBreadcrumbSettings properties
 
-Customize the appearance and accessibility of breadcrumbs using `SunburstBreadcrumbTextStyle`:
+Customize the appearance and accessibility of breadcrumbs using `SunburstBreadcrumbSettings`:
 
-* `AccessibilityDescription`: Specifies the accessible description announced for breadcrumb items.
-* `AccessibilityRole`: Specifies the accessibility role applied to breadcrumb items.
+* `AccessibilityDescription`: Specifies the accessible description announced for each breadcrumb item. The default value is `string.Empty`.
+* `AccessibilityRole`: Specifies the accessibility role applied to each breadcrumb item. The default value is `button`.
 * `Focusable`: Specifies whether breadcrumb items can receive keyboard focus. The default value is `true`.
-* `FontSize`: Specifies the font size of the breadcrumb text. When unset, the active theme provides the fallback value.
+* `Size`: Specifies the font size of the breadcrumb text. When unset, the active theme provides the fallback value.
 * `FontFamily`: Specifies the font family of the breadcrumb text. When unset, the active theme provides the fallback value.
 * `FontWeight`: Specifies the font weight of the breadcrumb text. When unset, the active theme provides the fallback value.
 * `FontStyle`: Specifies the font style of the breadcrumb text. When unset, the active theme provides the fallback value.
 * `Format`: Specifies the format used to compose the breadcrumb text. Use `${value}` to insert the breadcrumb label.
 * `Separator`: Specifies the separator displayed between breadcrumb items. The default value is `/`.
-* `FontColor`: Specifies the color of the breadcrumb text. When unset, the active theme provides the fallback value.
+* `Color`: Specifies the color of the breadcrumb text. When unset, the active theme provides the fallback value.
 * `SeparatorColor`: Specifies the color of the breadcrumb separator. When unset, the active theme provides the fallback value.
 * `SeparatorPadding`: Specifies the spacing between a breadcrumb item and its adjacent separator. The default value is `5px`.
 
@@ -158,9 +158,9 @@ The following example positions the breadcrumbs at the bottom center of the char
                            ShowBreadcrumbs="true"
                            BreadcrumbHorizontalAlignment="BreadcrumbHorizontalAlignment.Center"
                            BreadcrumbVerticalAlignment="BreadcrumbVerticalAlignment.Bottom">
-        <SunburstBreadcrumbTextStyle FontSize="13px"
+        <SunburstBreadcrumbSettings Size="13px"
                                      FontWeight="600"
-                                     FontColor="#424242"
+                                     Color="#424242"
                                      Format="${value}"
                                      Separator=">"
                                      SeparatorColor="#9e9e9e"
@@ -204,6 +204,8 @@ The following example positions the breadcrumbs at the bottom center of the char
 ```
 
 <!-- TODO: Add Blazor Playground sample after release -->
+
+N> Use the `DrillDownStarting` and `DrillUpStarting` events to execute custom logic or cancel a drill operation before navigation. Use the `DrillDownCompleted` and `DrillUpCompleted` events to respond after the drill operation is completed. For more information, refer to the [Events](./events) page.
 
 ## See also
 

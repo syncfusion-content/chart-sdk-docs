@@ -14,7 +14,7 @@ The appearance of the `Blazor Sunburst Chart` determines how segments, rings, an
 
 The appearance of the Blazor Sunburst Chart is configured through properties on `SfSunburstChart` and through the `SunburstChartBorder` and `SunburstChartMargin` child components.
 
-N> **Default values:** `Theme` is `Material`, `Background` is `transparent`, `SunburstChartBorder.Color` is `transparent`, `SunburstChartBorder.Width` is `0`, the default margins are `10` on each side of `SunburstChartMargin`, `Radius` is `1`, `InnerRadius` is `0.2`, `StartAngle` is `0`, and `EndAngle` is `360`.
+N> **Default values:** `Theme` is `Material`, `Background` is `null` and uses the background resolved from the active theme, `SunburstChartBorder.Color` is `transparent`, `SunburstChartBorder.Width` is `0`, the default margins are `10` on each side of `SunburstChartMargin`, `Radius` is `1`, `InnerRadius` is `0.2`, `StartAngle` is `0`, and `EndAngle` is `360`.
 
 ## Built-in themes
 
@@ -206,7 +206,7 @@ The Sunburst Chart applies colors from the active theme by default. Pass an arra
 
 ## Background color
 
-Use the `Background` property of `SfSunburstChart` to set the background color of the chart area. Any valid CSS color value is accepted, including named colors, hex values, RGB, and RGBA values. The default value is `transparent`, which lets the chart inherit the appearance of its parent container.
+Use the `Background` property of `SfSunburstChart` to set the background color of the chart area. Any valid CSS color value is accepted, including named colors, hexadecimal values, RGB values, and RGBA values. The default value is `null`, which uses the background resolved from the active theme. Set `Background` to `transparent` to display the background of the parent container.
 
 ```cshtml
 
