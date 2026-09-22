@@ -13,17 +13,6 @@ documentation: ug
 
 DotCode is a high-density, two-dimensional matrix barcode symbology designed for industrial printing and encoding applications. It is particularly useful in pharmaceutical packaging, healthcare, and product serialization. DotCode uses a pattern of circular dots arranged in rows and columns, allowing it to encode large amounts of data in a compact space. The barcode can encode both numeric and alphanumeric characters, making it versatile for various labeling requirements.
 
-### How DotCode Works
-
-DotCode encodes data using a grid-based matrix system where each cell contains either a dot (dark) or no dot (light). The encoding process involves:
-
-1. **Input Data**: Text or GS1 element string
-2. **Encoding Mode Selection**: Determines optimal data compression
-3. **Structured Append**: For large data sets, splits across multiple symbols
-4. **Dot Placement**: Arranges dots in rows and columns
-5. **Error Correction**: Adds Reed-Solomon error correction data
-6. **Output**: Final DotCode matrix with border patterns
-
 ### DotCode Encoding Modes
 
 | Mode | Data Type | Efficiency |
@@ -47,10 +36,40 @@ DotCode encodes data using a grid-based matrix system where each cell contains e
 @using Syncfusion.Blazor.BarcodeGenerator
 
 <!-- Simple alphanumeric DotCode -->
-<SfDotCodeGenerator Width="200" Height="150" Value="SYNCFUSION"></SfDotCodeGenerator>
+<SfDotCodeGenerator Width="300" Height="250" Value="Product Serialization"></SfDotCodeGenerator>
 ```
 
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/DotCodeBarcode.png)" %}
+
 **Allowed Input Characters:** DotCode supports numeric values (0-9), uppercase and lowercase alphabetic characters (A-Z, a-z), and supported special characters. It is designed for compact, high-density data encoding in space-constrained applications.
+
+### Data Encoding Capabilities
+
+DotCode supports various character sets and encoding modes for efficient data representation:
+
+**Numeric Data**
+
+For numeric-only data, DotCode uses a specialized encoding that achieves high density:
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="300" Height="250" Value="1234567890"></SfDotCodeGenerator>
+```
+
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/DotCodeNumeric.png)" %}
+
+**Alphanumeric Data**
+
+DotCode can encode uppercase letters, numbers, and common special characters:
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="350" Height="250" Value="DOTCODE-2024-ABC"></SfDotCodeGenerator>
+```
+
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/DotCode-AlphaNumeric.png)" %}
 
 ## GS1 DotCode
 
@@ -61,8 +80,10 @@ To enable GS1 encoding, use the [EnableGS1](https://help.syncfusion.com/cr/blazo
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfDotCodeGenerator Width="200" Height="150" Value="(01)12345678901234" EnableGS1="true"></SfDotCodeGenerator>
+<SfDotCodeGenerator Width="350" Height="250" Value="(01)12345678901231" EnableGS1="true"></SfDotCodeGenerator>
 ```
+
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/GS1-DotCode.png)" %}
 
 **Allowed Input Characters:** GS1 DotCode supports numeric, alphanumeric, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), enabling structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers to be stored in a compact symbol.
 
@@ -76,30 +97,6 @@ To enable GS1 encoding, use the [EnableGS1](https://help.syncfusion.com/cr/blazo
 | 15 | Best Before Date | (15)251231 |
 | 17 | Expiration Date | (17)251231 |
 | 21 | Serial Number | (21)SN123456 |
-
-## Data Encoding Capabilities
-
-DotCode supports various character sets and encoding modes for efficient data representation:
-
-### Numeric Data
-
-For numeric-only data, DotCode uses a specialized encoding that achieves high density:
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfDotCodeGenerator Width="200" Height="150" Value="1234567890"></SfDotCodeGenerator>
-```
-
-### Alphanumeric Data
-
-DotCode can encode uppercase letters, numbers, and common special characters:
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfDotCodeGenerator Width="250" Height="200" Value="DOTCODE-2024-ABC"></SfDotCodeGenerator>
-```
 
 ## DotCode Validation Rules
 
@@ -125,7 +122,7 @@ When `EnableGS1="true"`:
 - **FNC1 Separator**: Automatically added between variable-length AIs
 - **AI Duplication**: Each AI can appear only once
 
-### GS1 DotCode AI Data
+**GS1 DotCode AI Data**
 
 | Use Case | Value | Description |
 |---|---|---|
@@ -136,20 +133,11 @@ When `EnableGS1="true"`:
 | **Manufacturer** | `(400)123456` | Customer PO number |
 | **Pharma Use** | `(01)12345678901234(10)LOT001(17)251231` | Multi-AI pharmaceutical data |
 
-### Character Set Support
-
-| Mode | Supported Characters |
-|---|---|
-| **Numeric** | 0 1 2 3 4 5 6 7 8 9 |
-| **Alphanumeric** | 0-9, A-Z, Space, - (hyphen), . (period), , (comma), + (plus), / (slash) |
-| **Byte** | All 8-bit characters (ASCII 0-255) |
-| **GS1** | As defined per Application Identifier |
-
 ## Validation and Error Handling
 
 The DotCode generator includes built-in validation to ensure data integrity. If invalid data is provided, the [OnValidationFailed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_OnValidationFailed) event will be triggered:
 
-### Common Validation Errors
+**Validation Errors**
 
 | Error | Cause | Solution |
 |---|---|---|
@@ -185,41 +173,237 @@ The DotCode generator includes built-in validation to ensure data integrity. If 
 
 ## Dot Code Customizations
 
-Use these shared settings across the DotCode barcode component.
+The DotCode component provides comprehensive customization options to modify the appearance and behavior of generated barcodes. This section covers all available properties that can be used to customize DotCode symbols.
 
-- **Content:** Update the [Value](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Value) property to change the encoded data.
-- **Size:** Use the [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Width) and [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Height) properties to control barcode dimensions.
-- **Colors:** Configure [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_ForeColor) and [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_BackgroundColor).
-- **Text Display:** Use the [DotCodeDisplayText](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html) component to show human-readable text and control its [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_Visibility).
-- **Spacing:** Configure the [DotCodeMargin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeMargin.html) component to manage barcode padding.
-- **GS1 Mode:** Enable GS1 encoding with the [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_EnableGS1) property.
-- **Validation:** Handle invalid data through the [OnValidationFailed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_OnValidationFailed) event.
-- **Export:** Use the [Download](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Download) method to export the barcode as an image.
+### DotCode Color Customization
 
-The following example demonstrates the DotCode barcode customizations:
+The barcode appearance can be customized by changing the colors. The component provides two main color properties:
+
+#### Foreground Color
+
+The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_ForeColor) property specifies the line and text color of the DotCode barcode. By default, it is set to black.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION" ForeColor="darkblue" BackgroundColor="white" EnableGS1="true"
-                    OnValidationFailed="@OnValidationFailed">
-    <DotCodeDisplayText Text="Product Code" Visibility="true" Alignment="Alignment.Center"></DotCodeDisplayText>
-    <DotCodeMargin Left="10" Right="10" Top="10" Bottom="10"></DotCodeMargin>
+<SfDotCodeGenerator Width="250" Height="200" ForeColor="red" Value="SYNCFUSION"></SfDotCodeGenerator>
+
+```
+
+#### Background Color
+
+The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_BackgroundColor) property specifies the background color of the DotCode barcode. By default, it is set to white. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" BackgroundColor="lightyellow" ForeColor="darkblue" Value="SYNCFUSION"></SfDotCodeGenerator>
+
+```
+
+### DotCode Dimension Customization
+
+The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to 100%.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="300px" Height="250px" Value="SYNCFUSION"></SfDotCodeGenerator>
+
+```
+
+### Margin Customization
+
+The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Margin) property specifies the space to be left around the DotCode barcode. It accepts a `DotCodeMargin` object with the following properties:
+
+| Property | Description | Default Value |
+|----------|-------------|---|
+| `Left` | Space from the left side | 10 |
+| `Right` | Space from the right side | 10 |
+| `Top` | Space from the top side | 10 |
+| `Bottom` | Space from the bottom side | 10 |
+
+All properties accept double values representing pixels.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION">
+    <DotCodeMargin Left="20" Top="20" Right="20" Bottom="20"></DotCodeMargin>
 </SfDotCodeGenerator>
 
-@code {
-    private SfDotCodeGenerator DotCode;
+```
 
-    public void OnValidationFailed(ValidationFailedEventArgs args)
-    {
-        // Handle validation errors such as invalid characters or unsupported GS1 AIs.
-        Console.WriteLine($"DotCode validation error: {args.Message}");
-    }
+### Display Text Customization
 
-    private async Task ExportBarcode()
-    {
-        // Export the generated barcode as an image using the Download method.
-        await DotCode.Download(DownloadType.PNG);
-    }
+The barcode display text can be fully customized using the [DisplayText](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_DisplayText) property. The `DotCodeDisplayText` component provides comprehensive text customization options.
+
+#### Text Content
+
+The [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_Text) property specifies the textual description to display with the DotCode barcode. By default, it is an empty string.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION">
+    <DotCodeDisplayText Text="Product Code"></DotCodeDisplayText>
+</SfDotCodeGenerator>
+
+```
+
+#### Font Configuration
+
+The [FontFamily](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_FontFamily) property specifies the font style of the display text. By default, it is set to `monospace`.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION">
+    <DotCodeDisplayText Text="Product Code" FontFamily="Arial"></DotCodeDisplayText>
+</SfDotCodeGenerator>
+
+```
+
+The [FontSize](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_FontSize) property specifies the size of the display text. By default, it is set to `20` pixels.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION">
+    <DotCodeDisplayText Text="Product Code" FontSize="18"></DotCodeDisplayText>
+</SfDotCodeGenerator>
+
+```
+
+#### Text Alignment
+
+The [Alignment](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_Alignment) property specifies the horizontal alignment of the text. It accepts the following values: `Left`, `Center`, or `Right`. By default, it is set to `Center`.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION">
+    <DotCodeDisplayText Text="Product Code" Alignment="Alignment.Left"></DotCodeDisplayText>
+</SfDotCodeGenerator>
+
+```
+
+#### Text Position
+
+The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_Position) property specifies the vertical position of the text relative to the DotCode barcode. It accepts `Top` or `Bottom`. By default, it is set to `Bottom`.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION">
+    <DotCodeDisplayText Text="Product Code" Position="TextPosition.Top"></DotCodeDisplayText>
+</SfDotCodeGenerator>
+
+```
+
+#### Text Visibility
+
+The [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_Visibility) property controls the visibility of the display text. By default, it is set to `true`. Set it to `false` to hide the text.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION">
+    <DotCodeDisplayText Visibility="false"></DotCodeDisplayText>
+</SfDotCodeGenerator>
+
+```
+
+#### Text Margin
+
+The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_Margin) property specifies the space between the text and the DotCode barcode. It accepts a `DotCodeTextMargin` object with the following properties:
+
+| Property | Description | Default Value |
+|----------|-------------|---|
+| `Left` | Space from the left side | 0 |
+| `Right` | Space from the right side | 0 |
+| `Top` | Space from the top side | 0 |
+| `Bottom` | Space from the bottom side | 0 |
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfDotCodeGenerator Width="250" Height="200" Value="SYNCFUSION">
+    <DotCodeDisplayText Text="Product Code">
+        <DotCodeTextMargin Left="0" Top="10" Right="0" Bottom="10"></DotCodeTextMargin>
+    </DotCodeDisplayText>
+</SfDotCodeGenerator>
+
+```
+
+### Dynamic Property Updates
+
+The DotCode component supports real-time property binding. When you change any property value, the DotCode barcode automatically updates to reflect the changes. This is useful for creating interactive applications where users can customize the barcode appearance dynamically.
+
+#### Real-time Property Binding Example
+
+Here is an example showing how to dynamically update DotCode properties using Blazor data binding:
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+@using Syncfusion.Blazor.Inputs
+
+<div style="margin: 20px;">
+    <div style="margin-bottom: 10px;">
+        <label>DotCode Value: </label>
+        <SfTextBox @bind-Value="@DotCodeValue" Placeholder="Enter data"></SfTextBox>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Foreground Color: </label>
+        <input type="color" @bind="@ForeColor" />
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Background Color: </label>
+        <input type="color" @bind="@BackgroundColor" />
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Width (px): </label>
+        <SfSlider @bind-Value="@DotCodeWidth" Min="100" Max="400" Step="10"></SfSlider>
+        <span>@DotCodeWidth px</span>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Height (px): </label>
+        <SfSlider @bind-Value="@DotCodeHeight" Min="100" Max="300" Step="10"></SfSlider>
+        <span>@DotCodeHeight px</span>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Display Text: </label>
+        <SfTextBox @bind-Value="@DisplayTextValue" Placeholder="Enter display text"></SfTextBox>
+    </div>
+</div>
+
+<!-- DotCode that updates in real-time as properties change -->
+<div style="margin-top: 30px; padding: 20px; border: 1px solid #ccc;">
+    <SfDotCodeGenerator Width="@($"{DotCodeWidth}px")" 
+                        Height="@($"{DotCodeHeight}px")" 
+                        Value="@DotCodeValue"
+                        ForeColor="@ForeColor"
+                        BackgroundColor="@BackgroundColor">
+        <DotCodeDisplayText Text="@DisplayTextValue" Visibility="@(!string.IsNullOrEmpty(DisplayTextValue))"></DotCodeDisplayText>
+    </SfDotCodeGenerator>
+</div>
+
+@code
+{
+    private string DotCodeValue = "SYNCFUSION";
+    private string ForeColor = "black";
+    private string BackgroundColor = "white";
+    private int DotCodeWidth = 250;
+    private int DotCodeHeight = 200;
+    private string DisplayTextValue = "High-Density Code";
 }
 ```
+
+**Key Points:**
+- The DotCode automatically re-renders with the new property values
+- This works for all customizable properties: Value, ForeColor, BackgroundColor, Width, Height, DisplayText, Margins, etc.
