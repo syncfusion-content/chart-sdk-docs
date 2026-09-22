@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: User interaction in WPF Surface Chart | SyncfusionÂ®
+title: User interaction in WPF Surface Chart | Syncfusion®
 description: User interaction in the WPF Surface Chart enables zooming, rotation, and navigation for detailed exploration of three-dimensional data.
 platform: chart-sdk
 control: SfSurfaceChart

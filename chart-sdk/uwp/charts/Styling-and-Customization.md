@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Styling and Customization in UWP Chart | SyncfusionÂ®
+title: Styling and Customization in UWP Chart | Syncfusion®
 description: Styling and customization in the UWP Chart enable personalized chart appearance through themes, colors, palettes, and visual settings.
 platform: chart-sdk
 control: SfChart
@@ -35,7 +35,7 @@ N> Elite, SandyBeach and LightCandy palettes are not supported in the bitmap ser
 
 ### Applying palette to series
 
-Each palette applies a set of predefined brushes to the series in a predefined order. The following code example shows you how to set theÂ MetroÂ [`Palette`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Palette)Â for the chart series.
+Each palette applies a set of predefined brushes to the series in a predefined order. The following code example shows you how to set the Metro [`Palette`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Palette) for the chart series.
 
 {% tabs %}
 
@@ -77,7 +77,7 @@ chart.Palette = ChartColorPalette.BlueChrome;
 
 ### Applying palette to segment
 
-Each palette applies a set of predefined brushes to the series in a predefined order. The following code example shows you how to set theÂ MetroÂ [`Palette`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_Palette)Â for the chart series.
+Each palette applies a set of predefined brushes to the series in a predefined order. The following code example shows you how to set the Metro [`Palette`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_Palette) for the chart series.
 
 {% tabs %}
 

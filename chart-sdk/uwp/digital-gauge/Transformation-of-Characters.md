@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Transformation of Characters in UWP Digital Gauge | SyncfusionÂ®
+title: Transformation of Characters in UWP Digital Gauge | Syncfusion®
 description: Transformation of characters in the UWP Digital Gauge enables character rotation, scaling, and visual customization for digital displays.
 platform: chart-sdk
 control: SfDigitalGauge
@@ -19,8 +19,8 @@ The digital characters in the digital gauge can be transformed by setting certai
 
 Digital characters are scaled by altering their height and width. It is achieved by setting the [CharacterHeight](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterHeight) and [CharacterWidth](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterWidth) properties in the digital gauge. The two properties can be set independently to scale each dimension. The default values and valid ranges are as follows:
 
-* [CharacterHeight](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterHeight) â€” default value is `40`; valid range is any positive numeric value.
-* [CharacterWidth](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterWidth) â€” default value is `25`; valid range is any positive numeric value.
+* [CharacterHeight](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterHeight) — default value is `40`; valid range is any positive numeric value.
+* [CharacterWidth](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterWidth) — default value is `25`; valid range is any positive numeric value.
 
 ### CharacterHeight
 
@@ -70,8 +70,8 @@ this.Grid.Children.Add(digital);
 
 The digital gauge also supports skew transformation of digital characters. It can be done on the x-axis and y-axis through the [SkewAngleX](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_SkewAngleX) and [SkewAngleY](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_SkewAngleY) properties, respectively. Both skew angles can be applied simultaneously. The default values, valid ranges, and units are as follows:
 
-* [SkewAngleX](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_SkewAngleX) â€” default value is `0`; valid range is any numeric value (in degrees).
-* [SkewAngleY](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_SkewAngleY) â€” default value is `0`; valid range is any numeric value (in degrees).
+* [SkewAngleX](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_SkewAngleX) — default value is `0`; valid range is any numeric value (in degrees).
+* [SkewAngleY](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_SkewAngleY) — default value is `0`; valid range is any numeric value (in degrees).
 
 ### SkewAngleX
 

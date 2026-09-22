@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Histogram Chart in WPF Charts | SyncfusionÂ®
+title: Histogram Chart in WPF Charts | Syncfusion®
 description: Histogram in the WPF Chart displays the frequency distribution of data, helping analyze data patterns and value ranges effectively
 platform: chart-sdk
 control: SfChart

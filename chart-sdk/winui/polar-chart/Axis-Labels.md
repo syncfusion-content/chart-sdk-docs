@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Axis Labels in WinUI Polar Chart | SyncfusionÂ®
+title: Axis Labels in WinUI Polar Chart | Syncfusion®
 description: Axis labels in the WinUI Polar Chart display values and categories, supporting customization of formatting, positioning, and appearance settings.
 platform: chart-sdk
 control: SfPolarChart

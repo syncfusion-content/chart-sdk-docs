@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Caption Settings in Windows Forms Bullet Graph | SyncfusionÂ®
+title: Caption Settings in Windows Forms Bullet Graph | Syncfusion®
 description: Caption settings in the Windows Forms Bullet Graph enable customization of caption content, positioning, formatting, and appearance.
 platform: chart-sdk
 control: Bullet Graph

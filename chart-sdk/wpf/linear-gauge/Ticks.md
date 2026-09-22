@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Ticks in WPF Linear Gauge | SyncfusionÂ®
+title: Ticks in WPF Linear Gauge | Syncfusion®
 description: Ticks in the WPF Linear Gauge indicate scale intervals and support customization of size, position, style, and appearance settings.
 platform: chart-sdk
 control: SfLinearGauge

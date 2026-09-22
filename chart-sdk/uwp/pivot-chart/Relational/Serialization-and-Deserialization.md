@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Serialization and Deserialization in UWP Pivot Chart | SyncfusionÂ®
+title: Serialization and Deserialization in UWP Pivot Chart | Syncfusion®
 description: Serialization and deserialization in the UWP Pivot Chart enable saving and restoring chart state, configuration, and pivot data settings.
 platform: chart-sdk
 control: SfPivotChart

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Ranges in UWP Bullet Graph | SyncfusionÂ®
+title: Ranges in UWP Bullet Graph | Syncfusion®
 description: Ranges in the UWP Bullet Graph highlight specific value intervals, helping visualize performance levels, thresholds, and target comparisons.
 platform: chart-sdk
 control: SfBulletGraph

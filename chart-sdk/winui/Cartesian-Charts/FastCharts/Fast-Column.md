@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Fast Column Series in WinUI Chart | SyncfusionÂ®
+title: Fast Column Series in WinUI Chart | Syncfusion®
 description: Fast Column Series in the WinUI Chart renders large volumes of column data efficiently, providing high performance and smooth visualization.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui fast column chart, winui sfcartesianchart, winui fast column chart customization, syncfusion winui fast column chart, winui fast column chart configuration.
 ---
 

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Rendering Position in WinUI Polar Chart | SyncfusionÂ®
+title: Rendering Position in WinUI Polar Chart | Syncfusion®
 description: Rendering Position in the WinUI Polar Chart controls the initial rendering position of chart data, enabling customization of angular orientation.
 platform: chart-sdk
 control: SfPolarChart

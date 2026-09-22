@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Legend in UWP Pivot Chart | SyncfusionÂ®
+title: Legend in UWP Pivot Chart | Syncfusion®
 description: Legend in the UWP Pivot Chart identifies data series and chart elements, supporting customization, positioning, and display options.
 platform: chart-sdk
 control: SfPivotChart
@@ -28,7 +28,7 @@ Legend icon represents the symbol associated with each legend item. By default, 
 
 {% highlight c# %}
 
-PivotChart1.Legend.IconVisibility=Â Visibility.Collapsed;
+PivotChart1.Legend.IconVisibility= Visibility.Collapsed;
 
 {% endhighlight %}
 
@@ -58,8 +58,8 @@ The size of the legend icon can be customized by using the [`IconWidth`](https:/
 
 {% highlight c# %}
 
-PivotChart1.Legend.IconWidth =Â 15;
-PivotChart1.Legend.IconHeight =Â 15;
+PivotChart1.Legend.IconWidth = 15;
+PivotChart1.Legend.IconHeight = 15;
 
 {% endhighlight %}
 
@@ -90,13 +90,13 @@ Check box is used to view or collapse the associated series. By default, the [`C
 
 {% highlight c# %}
 
-PivotChart1.Legend.CheckBoxVisibility =Â Visibility.Visible;
+PivotChart1.Legend.CheckBoxVisibility = Visibility.Visible;
 
 {% endhighlight %}
 
 {% highlight vb %}
 
-PivotChart1.Legend.CheckBoxVisibility =Â Visibility.Visible
+PivotChart1.Legend.CheckBoxVisibility = Visibility.Visible
 
 {% endhighlight %}
 
@@ -120,7 +120,7 @@ You can show or hide the legend in the SfPivotChart control by using the `Visibi
 
 {% highlight c# %}
 
-PivotChart1.Legend.VisibilityÂ =Â Visibility.Collapsed;
+PivotChart1.Legend.Visibility = Visibility.Collapsed;
 
 {% endhighlight %}
 
@@ -152,7 +152,7 @@ You can enable the [`ToggleSeriesVisibility`](https://help.syncfusion.com/cr/uwp
 
 {% highlight c# %}
 
-PivotChart1.Legend.ToggleSeriesVisibility =Â true;
+PivotChart1.Legend.ToggleSeriesVisibility = true;
 
 {% endhighlight %}
 
@@ -319,7 +319,7 @@ The orientation can be set as **Horizontal** by which the legend items are arran
 {% highlight xaml %}
 
 <syncfusion:SfPivotChart.Legend>
-     <syncfusion:PivotChartLegendÂ Orientation="Horizontal" />
+     <syncfusion:PivotChartLegend Orientation="Horizontal" />
 </syncfusion:SfPivotChart.Legend>
 
 {% endhighlight %}
@@ -349,7 +349,7 @@ The orientation can be set as **Vertical** by which the legend items are arrange
 {% highlight xaml %}
 
 <syncfusion:SfPivotChart.Legend>
-     <syncfusion:PivotChartLegendÂ Orientation="Vertical" />
+     <syncfusion:PivotChartLegend Orientation="Vertical" />
 </syncfusion:SfPivotChart.Legend>
 
 {% endhighlight %}
@@ -393,7 +393,7 @@ When **RowCount only** is specified, then the legend items are arranged accordin
 {% highlight c# %}
 
 PivotChart1.Legend.Orientation = ChartOrientation.Default;
-PivotChart1.Legend.RowCountÂ =Â 2;
+PivotChart1.Legend.RowCount = 2;
 
 {% endhighlight %}
 
@@ -425,7 +425,7 @@ When **ColumnCount only** is specified, then the legend items are arranged accor
 {% highlight c# %}
 
 PivotChart1.Legend.Orientation = ChartOrientation.Default;
-PivotChart1.Legend.ColumnCount =Â 2;
+PivotChart1.Legend.ColumnCount = 2;
 
 {% endhighlight %}
 
@@ -457,8 +457,8 @@ When **both the options have different values** is specified, then the preferenc
 {% highlight c# %}
 
 PivotChart1.Legend.Orientation = ChartOrientation.Default;
-PivotChart1.Legend.RowCountÂ = 1;
-PivotChart1.Legend.ColumnCountÂ = 4;
+PivotChart1.Legend.RowCount = 1;
+PivotChart1.Legend.ColumnCount = 4;
 
 {% endhighlight %}
 
@@ -491,8 +491,8 @@ When **both the options have same value** is specified, then the preference is g
 {% highlight c# %}
 
 PivotChart1.Legend.Orientation = ChartOrientation.Default;
-PivotChart1.Legend.RowCountÂ =Â 4;
-PivotChart1.Legend.ColumnCountÂ =Â 1;
+PivotChart1.Legend.RowCount = 4;
+PivotChart1.Legend.ColumnCount = 1;
 
 {% endhighlight %}
 

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: KML Format in WPF Maps | SyncfusionÂ®
+title: KML Format in WPF Maps | Syncfusion®
 description: KML format in the WPF Maps enables geographic data from KML files to be loaded and visualized for location-based mapping applications.
 platform: chart-sdk
 control: SfMap

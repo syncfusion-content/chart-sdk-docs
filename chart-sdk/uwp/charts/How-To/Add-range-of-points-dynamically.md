@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to add range of points dynamically in UWP Chart | SyncfusionÂ®
+title: How to add range of points dynamically in UWP Chart | Syncfusion®
 description: Add a range of points dynamically in the UWP Chart to update chart data efficiently and reflect changes in real time.
 platform: chart-sdk
 control: SfChart

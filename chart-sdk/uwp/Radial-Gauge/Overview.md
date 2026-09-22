@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® UWP Radial Gauge Control | SyncfusionÂ®
+title: About Syncfusion® UWP Radial Gauge Control | Syncfusion®
 description: Learn about the introduction of Syncfusion Essential Studio UWP Radial Gauge control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfCircularGauge
@@ -31,7 +31,7 @@ The circular gauge control is a highly customizable control with a variety of si
 
 ### Ranges
 
-[`Ranges`](https://help.syncfusion.com/uwp/sfcirculargauge/ranges) is a visual element that depicts the start and end values of inner divisions within the scaleâ€™s range. Each scale is capable of displaying one or more ranges, and each range can depict different zones or regions of same metrics, such as high, low, and average temperatures.   
+[`Ranges`](https://help.syncfusion.com/uwp/sfcirculargauge/ranges) is a visual element that depicts the start and end values of inner divisions within the scale’s range. Each scale is capable of displaying one or more ranges, and each range can depict different zones or regions of same metrics, such as high, low, and average temperatures.   
 
 ### Pointers
 

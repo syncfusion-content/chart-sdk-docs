@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Selection in WPF Charts | SyncfusionÂ®
+title: Selection in WPF Charts | Syncfusion®
 description: Selection in the WPF Chart enables users to highlight and interact with data points, segments, or series for focused analysis.
 platform: chart-sdk
 control: SfChart
@@ -230,7 +230,7 @@ N>By default the segment selection is true, so for selecting series you have to 
 
 ## Adornment Selection:
 
-WPF Charts provides selection for adornments by defining [`HighlightOnSelection`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartAdornmentInfoBase.html#Syncfusion_UI_Xaml_Charts_ChartAdornmentInfoBase_HighlightOnSelection) property whichÂ allows you to select the segment or series with the corresponding adornments.
+WPF Charts provides selection for adornments by defining [`HighlightOnSelection`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartAdornmentInfoBase.html#Syncfusion_UI_Xaml_Charts_ChartAdornmentInfoBase_HighlightOnSelection) property which allows you to select the segment or series with the corresponding adornments.
 
 **HighlightOnSelection**
 

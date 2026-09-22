@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WPF Sparkline control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WPF Sparkline control, its features, capabilities, and more details.
+title: About Syncfusion® WPF Sparkline control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® WPF Sparkline control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug

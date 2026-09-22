@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Ranges in WPF Bullet Graph | SyncfusionÂ®
+title: Ranges in WPF Bullet Graph | Syncfusion®
 description: Ranges in the WPF Bullet Graph highlight specific value intervals, helping visualize performance levels, thresholds, and target comparisons.
 platform: chart-sdk
 control: SfBulletGraph

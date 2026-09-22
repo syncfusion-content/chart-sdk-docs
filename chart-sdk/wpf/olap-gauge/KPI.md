@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: KPI in WPF OLAP Gauge | SyncfusionÂ®
+title: KPI in WPF OLAP Gauge | Syncfusion®
 description: Learn KPI in OLAP Gauge in WPF Chart using Syncfusion controls. It supports data operations, UI customization, and enterprise features.
 platform: chart-sdk
 control: OLAP Gauge

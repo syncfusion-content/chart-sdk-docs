@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Orientation and its Customization in UWP Linear Gauge | SyncfusionÂ®
+title: Orientation and its Customization in UWP Linear Gauge | Syncfusion®
 description: Orientation and its Customization in the UWP Linear Gauge allows you to display the gauge in horizontal or vertical layouts based on application needs.
 platform: chart-sdk
 control: SfLinearGauge

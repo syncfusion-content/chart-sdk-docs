@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WinUI Radial Gauge Control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WinUI Radial Gauge control, its features, capabilities, and more details.
+title: About Syncfusion® WinUI Radial Gauge Control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® WinUI Radial Gauge control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® WinUI Radial Gauge Control
+# About Syncfusion® WinUI Radial Gauge Control
 
 The Syncfusion [WinUI Radial Gauge](https://www.syncfusion.com/winui-controls/radial-gauge) is a multi-purpose data visualization control that displays numerical values on a circular scale. It has a rich set of features such as axes, ranges, pointers, and annotations that are fully customizable and extendable. Use it to create speedometers, temperature monitors, dashboards, meter gauges, multi-axis clocks, watches, activity gauges, compasses, and more.
 

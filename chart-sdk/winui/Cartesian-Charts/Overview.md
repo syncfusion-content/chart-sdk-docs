@@ -1,16 +1,16 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WinUI Chart Control | SyncfusionÂ®
+title: About Syncfusion® WinUI Chart Control | Syncfusion®
 canonical_url: "https://www.syncfusion.com/winui-controls/cartesian-charts"
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WinUI Chart control, its features, capabilities, and more details.
+description: Learn about the introduction of Syncfusion Essential Studio® WinUI Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui chart overview, introduction to winui charts, exploring winui chart capabilities.
 ---
 
-# About SyncfusionÂ® WinUI Cartesian Chart Control
+# About Syncfusion® WinUI Cartesian Chart Control
 
 The [WinUI Chart](https://www.syncfusion.com/winui-controls/cartesian-charts) provides a perfect way to visualize data with a high level of user interactivity that focuses on development, productivity, and simplicity of use. It also provides a wide variety of charting features that can be used to visualize large quantities of data, flexibility of binding data and user customization. 
 

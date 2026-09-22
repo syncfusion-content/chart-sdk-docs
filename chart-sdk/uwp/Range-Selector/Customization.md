@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Customization in UWP Range Selector | SyncfusionÂ®
+title: Customization in UWP Range Selector | Syncfusion®
 description: Customization in the UWP Range Selector enables modification of visual elements, selection appearance, labels, and navigation settings.
 platform: chart-sdk
 control: SfDateTimeRangeNavigator
@@ -85,9 +85,9 @@ SfDateTimeRangeNavigator rangeNavigator = new SfDateTimeRangeNavigator()
 * [`HigherLabelStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfDateTimeRangeNavigator.html#Syncfusion_UI_Xaml_Charts_SfDateTimeRangeNavigator_HigherLabelStyle)- Gets or sets the higher label style.
 * [`SelectedLabelStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelBarStyle.html#Syncfusion_UI_Xaml_Charts_LabelBarStyle_SelectedLabelStyle)- Gets or sets the style for labels in the selected region.
 * [`Position`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelBarStyle.html#Syncfusion_UI_Xaml_Charts_LabelBarStyle_Position)- Gets or sets position value which is used to position the upper and lower labels inside or outside. 
-* [`SelectedLabelBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelBarStyle.html#Syncfusion_UI_Xaml_Charts_LabelBarStyle_SelectedLabelBrush) â€“ Gets or sets the color of the labels inside the selected region.
+* [`SelectedLabelBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelBarStyle.html#Syncfusion_UI_Xaml_Charts_LabelBarStyle_SelectedLabelBrush) – Gets or sets the color of the labels inside the selected region.
 * [`LabelHorizontalAlignment`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelBarStyle.html#Syncfusion_UI_Xaml_Charts_LabelBarStyle_LabelHorizontalAlignment)- An attached property of LabelBarStyle, used to align the labels in level bar.
-* [`Background`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelBarStyle.html#Syncfusion_UI_Xaml_Charts_LabelBarStyle_Background) â€“ Gets or sets the Background the label bar. 
+* [`Background`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelBarStyle.html#Syncfusion_UI_Xaml_Charts_LabelBarStyle_Background) – Gets or sets the Background the label bar. 
 
 {% tabs %}
 
@@ -254,7 +254,7 @@ SfDateTimeRangeNavigator rangeNavigator = new SfDateTimeRangeNavigator()
 ![Customization of UWP Range Selector in UWP](Customization_images/Customization_img6.jpeg)
 
 * [`LowerLevelBarStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfDateTimeRangeNavigator.html#Syncfusion_UI_Xaml_Charts_SfDateTimeRangeNavigator_LowerLevelBarStyle)- Gets or sets the styles for the lower label bar of SfDateTimeRangeNavigator.
-* [`LowerLabelStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfDateTimeRangeNavigator.html#Syncfusion_UI_Xaml_Charts_SfDateTimeRangeNavigator_LowerLabelStyle) â€“ Gets or sets the lower label style.
+* [`LowerLabelStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfDateTimeRangeNavigator.html#Syncfusion_UI_Xaml_Charts_SfDateTimeRangeNavigator_LowerLabelStyle) – Gets or sets the lower label style.
 
 {% tabs %}
 

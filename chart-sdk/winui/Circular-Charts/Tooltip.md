@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip in WinUI Circular Chart | SyncfusionÂ®
+title: Tooltip in WinUI Circular Chart | Syncfusion®
 description: Tooltip in the WinUI Circular Chart displays detailed information about chart segments on hover and supports customization of content and appearance.
 platform: chart-sdk
 control: SfCircularChart

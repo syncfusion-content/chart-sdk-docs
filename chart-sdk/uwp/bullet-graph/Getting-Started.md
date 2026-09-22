@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with UWP Bullet Graph | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® UWP Bullet Graph control. Explore setup, features, examples, and customization options.
+title: Getting Started with UWP Bullet Graph | Syncfusion®
+description: Learn how to get started with the Syncfusion® UWP Bullet Graph control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Getting Started with UWP Bullet Graph
 
-This section explains you the steps required to configure the [`SfBulletGraph`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.BulletGraph.SfBulletGraph.html) and also explains the steps to add basic elements of **UWP Bullet Graph** through various APIâ€™s available within it.
+This section explains you the steps required to configure the [`SfBulletGraph`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.BulletGraph.SfBulletGraph.html) and also explains the steps to add basic elements of **UWP Bullet Graph** through various API’s available within it.
 
 ## Configuring UWP Bullet Graph
 
@@ -41,7 +41,7 @@ As you can see now in the above image, the UWP Bullet Graph displays its default
 
 ## Adding caption
 
-You can assign a caption to **UWP Bullet Graph** by making use of â€œCaptionâ€ property and also you can position it either near or far using [`CaptionPosition`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.BulletGraph.SfBulletGraph.html#Syncfusion_UI_Xaml_BulletGraph_SfBulletGraph_CaptionPosition) property.
+You can assign a caption to **UWP Bullet Graph** by making use of “Caption” property and also you can position it either near or far using [`CaptionPosition`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.BulletGraph.SfBulletGraph.html#Syncfusion_UI_Xaml_BulletGraph_SfBulletGraph_CaptionPosition) property.
 
 {% tabs %}
 {% highlight xaml %}
@@ -64,7 +64,7 @@ this.Grid.Children.Add(bullet);
 
 ## Configuring ticks and labels 
 
-You can configure Ticks and Labels of Quantitative Scale by making use of following APIâ€™s available in UWP Bullet Graph.
+You can configure Ticks and Labels of Quantitative Scale by making use of following API’s available in UWP Bullet Graph.
 
 They are:
 

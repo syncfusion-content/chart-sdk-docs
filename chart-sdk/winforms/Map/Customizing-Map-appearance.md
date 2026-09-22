@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Color Mapping in Windows Forms Maps | SyncfusionÂ®
+title: Color Mapping in Windows Forms Maps | Syncfusion®
 description: Color mapping in the Windows Forms Maps visualizes data using color variations and supports customized representation of geographic information.
 platform: chart-sdk
 control: Maps

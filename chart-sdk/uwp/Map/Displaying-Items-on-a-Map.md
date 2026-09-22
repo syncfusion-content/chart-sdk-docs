@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Displaying Items on a Map in UWP Maps | SyncfusionÂ®
+title: Displaying Items on a Map in UWP Maps | Syncfusion®
 description: Displaying items on a map in the UWP Maps enables visualization of geographic data using shapes, markers, bubbles, and other map elements.
 platform: chart-sdk
 control: SfMaps

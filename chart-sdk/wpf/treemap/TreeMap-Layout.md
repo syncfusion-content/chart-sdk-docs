@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Layout in WPF TreeMap | SyncfusionÂ®
+title: Layout in WPF TreeMap | Syncfusion®
 description: Layout in the WPF TreeMap determines how hierarchical data items are arranged, enabling effective space utilization and visualization.
 platform: chart-sdk
 control: TreeMap

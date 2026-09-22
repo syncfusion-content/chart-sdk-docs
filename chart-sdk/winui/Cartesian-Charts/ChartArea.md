@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Chart Area in WinUI Chart | SyncfusionÂ®
+title: Chart Area in WinUI Chart | Syncfusion®
 description: Chart area in the WinUI Chart defines the plotting region and supports customization of background, borders, and visual appearance.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: chart area in winui chart, winui sfcartesianchart chart area, winui chart area customization, syncfusion winui chart area, winui sfcartesianchart area settings.
 ---
 

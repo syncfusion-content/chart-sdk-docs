@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WPF Smith Chart control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WPF Smith Chart control, its features, capabilities, and more details.
+title: About Syncfusion® WPF Smith Chart control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® WPF Smith Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® WPF Smith Chart control
+# About Syncfusion® WPF Smith Chart control
 
 The Smith chart is one of the most useful data visualization tools for high-frequency circuit applications. It contains two sets of circles to plot the parameters of transmission lines.
 

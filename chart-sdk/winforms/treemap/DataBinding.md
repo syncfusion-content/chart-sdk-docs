@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Data Binding in Windows Forms TreeMap | SyncfusionÂ®
+title: Data Binding in Windows Forms TreeMap | Syncfusion®
 description: Data binding in the Windows Forms TreeMap enables visualization of hierarchical data through grouping, mapping, and interactive data representation.
 platform: chart-sdk
 control: TreeMap
@@ -10,9 +10,9 @@ appliesto: UI Component Suite, Chart SDK
 
 # Data Binding in WinForms TreeMap
 
-TreeMapÂ control supports Data Binding and it can be achieved usingÂ ItemsSourceÂ property.
+TreeMap control supports Data Binding and it can be achieved using ItemsSource property.
 
-TheÂ ItemsSourceÂ property accepts the collection values as input. For example, you can provide the list of objects as input. The following code illustrates you on how to bind a flat collection as items source forÂ WinForms TreeMap.
+The ItemsSource property accepts the collection values as input. For example, you can provide the list of objects as input. The following code illustrates you on how to bind a flat collection as items source for WinForms TreeMap.
 
 {% highlight c# %}
 

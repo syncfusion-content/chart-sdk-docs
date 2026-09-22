@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Types in WPF Sparkline | SyncfusionÂ®
+title: Types in WPF Sparkline | Syncfusion®
 description: Types in the WPF Sparkline provide multiple visualization options to represent trends, variations, and data patterns effectively.
 platform: chart-sdk
 control: SfSparkline

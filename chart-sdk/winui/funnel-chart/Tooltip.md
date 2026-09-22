@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip in WinUI Funnel Chart | SyncfusionÂ®
+title: Tooltip in WinUI Funnel Chart | Syncfusion®
 description: Tooltip in the WinUI Funnel Chart displays detailed information about chart segments on hover and supports customization of content and appearance.
 platform: chart-sdk
 control: SfFunnelChart

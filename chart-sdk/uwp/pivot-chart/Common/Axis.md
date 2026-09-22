@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Axis in UWP Pivot Chart | SyncfusionÂ®
+title: Axis in UWP Pivot Chart | Syncfusion®
 description: Axis in the UWP Pivot Chart defines data scales, categories, and value ranges, supporting customization and effective data visualization.
 platform: chart-sdk
 control: SfPivotChart
@@ -253,7 +253,7 @@ PivotChart1.SecondaryAxisStyle.LabelFontSize = 14.0
 
 **Label formatting**
 
-To modify the format of axis labels, you should use the [`LabelFormat`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAxis.html#Syncfusion_UI_Xaml_Charts_ChartAxis_LabelFormat) property. The following code sample describes how to display the â€˜%â€™ symbol in secondary axis labels.
+To modify the format of axis labels, you should use the [`LabelFormat`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAxis.html#Syncfusion_UI_Xaml_Charts_ChartAxis_LabelFormat) property. The following code sample describes how to display the ‘%’ symbol in secondary axis labels.
 
 {% highlight xaml %}
 

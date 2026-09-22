@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with UWP Linear Gauge | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® UWP Linear Gauge control. Explore setup, features, examples, and customization options.
+title: Getting Started with UWP Linear Gauge | Syncfusion®
+description: Learn how to get started with the Syncfusion® UWP Linear Gauge control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
@@ -83,14 +83,14 @@ this.Content = sfLinearGauge;
 
 You can configure the [`LinearScale`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.LinearScale.html) elements by making use of the following APIs available in [`SfLinearGauge`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfLinearGauge.html). They are:
 
-â€¢	ScaleDirection
-â€¢	ScaleBarStroke
-â€¢	ScaleBarSize
-â€¢	ScaleBarLength
-â€¢	ScaleBarBorderThickness
-â€¢	Interval
-â€¢	Minimum
-â€¢	Maximum
+•	ScaleDirection
+•	ScaleBarStroke
+•	ScaleBarSize
+•	ScaleBarLength
+•	ScaleBarBorderThickness
+•	Interval
+•	Minimum
+•	Maximum
 
 {% tabs %}
 

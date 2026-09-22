@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Selection in UWP Maps | SyncfusionÂ®
+title: Selection in UWP Maps | Syncfusion®
 description: Selection in the UWP Maps enables users to highlight and interact with map elements for focused analysis and data exploration.
 platform: chart-sdk
 control: SfMaps

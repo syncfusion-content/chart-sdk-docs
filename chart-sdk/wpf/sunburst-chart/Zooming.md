@@ -1,12 +1,12 @@
-﻿---
+---
 
 layout: post
-title: Zooming in WPF Sunburst Chart | SyncfusionÂ®
+title: Zooming in WPF Sunburst Chart | Syncfusion®
 description: Zooming in the WPF Sunburst Chart enables users to focus on specific hierarchical data segments for detailed analysis and navigation.
 platform: chart-sdk
 control: SfSunburstChart 
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 
@@ -61,9 +61,9 @@ You can align the zooming toolbar position by using the [`ToolBarHorizontalAlign
 
 You can customize the zooming toolbar using the following properties:
 
-* [`ToolBarItemHeight`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.SunburstChart.SunburstZoomingBehavior.html#Syncfusion_UI_Xaml_SunburstChart_SunburstZoomingBehavior_ToolBarItemHeight) â€“ Gets or sets the height for the toolbar item.
-* [`ToolBarItemWidth`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.SunburstChart.SunburstZoomingBehavior.html#Syncfusion_UI_Xaml_SunburstChart_SunburstZoomingBehavior_ToolBarItemWidth) â€“ Gets or sets the width for the toolbar item.
-* [`ToolBarItemMargin`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.SunburstChart.SunburstZoomingBehavior.html#Syncfusion_UI_Xaml_SunburstChart_SunburstZoomingBehavior_ToolBarItemMargin) â€“ Gets or sets the margin of the toolbar item.
+* [`ToolBarItemHeight`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.SunburstChart.SunburstZoomingBehavior.html#Syncfusion_UI_Xaml_SunburstChart_SunburstZoomingBehavior_ToolBarItemHeight) – Gets or sets the height for the toolbar item.
+* [`ToolBarItemWidth`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.SunburstChart.SunburstZoomingBehavior.html#Syncfusion_UI_Xaml_SunburstChart_SunburstZoomingBehavior_ToolBarItemWidth) – Gets or sets the width for the toolbar item.
+* [`ToolBarItemMargin`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.SunburstChart.SunburstZoomingBehavior.html#Syncfusion_UI_Xaml_SunburstChart_SunburstZoomingBehavior_ToolBarItemMargin) – Gets or sets the margin of the toolbar item.
 
 {% highlight xaml %}
 

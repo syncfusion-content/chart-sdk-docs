@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with WinUI Funnel Chart | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® WinUI Funnel Chart control. Explore setup, features, examples, and customization options.
+title: Getting Started with WinUI Funnel Chart | Syncfusion®
+description: Learn how to get started with the Syncfusion® WinUI Funnel Chart control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfFunnelChart
 documentation: ug

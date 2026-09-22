@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Custom Data Binding in WPF Maps | SyncfusionÂ®
+title: Custom Data Binding in WPF Maps | Syncfusion®
 description: Custom data binding in the WPF Maps enables map elements to be connected with custom data sources for dynamic visualization and interaction.
 platform: chart-sdk
 control: SfMap

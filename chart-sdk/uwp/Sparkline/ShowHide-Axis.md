@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Show and Hide Axis in UWP Sparkline | SyncfusionÂ®
+title: Show and Hide Axis in UWP Sparkline | Syncfusion®
 description: Show and hide the axis in the UWP Sparkline to control axis visibility and customize the chart appearance based on data requirements.
 platform: chart-sdk
 control: SfSparkline
@@ -12,9 +12,9 @@ appliesto: UI Component Suite, Chart SDK
 
 ShowAxis is used to enable the axis and this feature is applicable for all the sparklines except WinLoss sparkline. Also, you can style the axis by the AxisStyle property and position the axis by the AxisOrigin property.
 
-* [`ShowAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_ShowAxis) â€“ Gets or sets the bool value whether to show or hide the axis.
+* [`ShowAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_ShowAxis) – Gets or sets the bool value whether to show or hide the axis.
 * [`AxisOrigin`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_AxisOrigin) - Gets or sets the double for axis origin.
-* [`AxisStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_AxisStyle) â€“ Gets or sets the style for axis line.
+* [`AxisStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_AxisStyle) – Gets or sets the style for axis line.
 
 **Show axis**
 

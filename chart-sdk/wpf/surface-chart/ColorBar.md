@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: ColorBar in WPF Surface Chart | SyncfusionÂ®
+title: ColorBar in WPF Surface Chart | Syncfusion®
 description: ColorBar in the WPF Surface Chart displays the relationship between colors and data values, improving interpretation of surface data.
 platform: chart-sdk
 control: SfSurfaceChart

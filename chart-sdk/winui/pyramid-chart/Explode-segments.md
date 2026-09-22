@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Explode Segments in WinUI Pyramid Chart | SyncfusionÂ®
+title: Explode Segments in WinUI Pyramid Chart | Syncfusion®
 description: Explode segments in the WinUI Pyramid Chart emphasize individual or multiple chart segments for improved data visibility and analysis.
 platform: chart-sdk
 control: SfPyramidChart

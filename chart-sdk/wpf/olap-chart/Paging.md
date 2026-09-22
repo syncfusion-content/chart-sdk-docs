@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Paging in WPF Olap Chart | SyncfusionÂ®
+title: Paging in WPF Olap Chart | Syncfusion®
 description: Paging in the WPF OLAP Chart enables users to navigate large volumes of multidimensional data efficiently through manageable data sets.
 platform: chart-sdk
 control: OLAP Chart
@@ -16,7 +16,7 @@ An OLAP pager (user control) is included and bound with the OlapDataManager obje
 
 When you process the large CellSet, it is split into a number of segments, and each segment is assigned and rendered on a separate page. You can navigate back and forth in all possible ways by using the UI options in the OLAP pager. You can also change the page size and other pager settings at runtime by using the **PageSetting** window.
 
-Include the following SyncfusionÂ® assembly from the installed location to add the OLAP pager (User Control) with WPF OLAP Chart.
+Include the following Syncfusion® assembly from the installed location to add the OLAP pager (User Control) with WPF OLAP Chart.
 
 * Syncfusion.OlapShared.Wpf
 

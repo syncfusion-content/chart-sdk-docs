@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with WPF Range Selector | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® WPF Range Selector control. Explore setup, configuration, range selection, and customization options.
+title: Getting Started with WPF Range Selector | Syncfusion®
+description: Learn how to get started with the Syncfusion® WPF Range Selector control. Explore setup, configuration, range selection, and customization options.
 platform: chart-sdk
 control: SfDateTimeRangeNavigator
 documentation: ug
@@ -183,14 +183,14 @@ This section explains how to create an application using the date-time range nav
 
 ### Add assembly reference
 
-1. Open theÂ Add ReferenceÂ window in your project.
-2. ChooseÂ Windows > Extensions > Syncfusion.SfChart.WPF.
+1. Open the Add Reference window in your project.
+2. Choose Windows > Extensions > Syncfusion.SfChart.WPF.
 3. Add the following namespace in your C# file: MainWindow.xaml.cs.
 
 {% capture codesnippet2 %}
 {% highlight c# %}
 
-usingÂ Syncfusion.UI.Xaml.Charts;
+using Syncfusion.UI.Xaml.Charts;
 
 {% endhighlight %}
 {% endcapture %}

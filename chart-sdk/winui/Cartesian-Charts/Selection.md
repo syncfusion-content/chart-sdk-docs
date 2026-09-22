@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Selection in WinUI Chart | SyncfusionÂ®
+title: Selection in WinUI Chart | Syncfusion®
 description: Selection in the WinUI Chart enables users to highlight and interact with data points and series, supporting single and multi-selection.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: selection in winui chart, winui sfcartesianchart selection, winui chart selection customization, syncfusion winui chart selection, winui chart selection properties.
 ---
 

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Customize segment brush in UWP Sparkline | SyncfusionÂ®
+title: Customize segment brush in UWP Sparkline | Syncfusion®
 description: Customize segment brush in the UWP Sparkline to apply different colors to data segments and improve visual distinction of trends.
 platform: chart-sdk
 control: SfSparkline
@@ -12,11 +12,11 @@ appliesto: UI Component Suite, Chart SDK
 
 We can customize the first, last, negative, high, and low point brushes of column sparkline like markers in area and line sparkline.
 
-* [`FirstPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_FirstPointBrush) â€“ Gets or sets the brush to paint the first point of the sparkline.
-* [`LastPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_LastPointBrush) â€“ Gets or sets the brush to paint the last point of the sparkline.
-* [`LowPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_LowPointBrush) â€“ Gets or sets the brush to paint the low point of the sparkline.
-* [`HighPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_HighPointBrush) â€“ Gets or sets the brush to paint the high point of the sparkline.
-* [`NegativePointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_NegativePointBrush) â€“ Gets or sets the brush to paint the negative point of the sparkline.
+* [`FirstPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_FirstPointBrush) – Gets or sets the brush to paint the first point of the sparkline.
+* [`LastPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_LastPointBrush) – Gets or sets the brush to paint the last point of the sparkline.
+* [`LowPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_LowPointBrush) – Gets or sets the brush to paint the low point of the sparkline.
+* [`HighPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_HighPointBrush) – Gets or sets the brush to paint the high point of the sparkline.
+* [`NegativePointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_NegativePointBrush) – Gets or sets the brush to paint the negative point of the sparkline.
 
 {% tabs %}
 

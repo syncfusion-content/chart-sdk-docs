@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Performance in Windows Forms Smith Chart | SyncfusionÂ®
+title: Performance in Windows Forms Smith Chart | Syncfusion®
 description: Performance in the Windows Forms Smith Chart enables efficient rendering and interaction for visualizing large volumes of chart data.
 platform: chart-sdk
 control: SfSmithChart

@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Grid Lines in WinUI Chart | SyncfusionÂ®
+title: Grid Lines in WinUI Chart | Syncfusion®
 description: Grid lines in the WinUI Chart improve data readability by displaying reference lines and support customization of style, spacing, and appearance.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: grid lines in winui chart, winui sfcartesianchart grid lines, winui chart grid lines customization, syncfusion winui chart grid lines, winui sfcartesianchart grid lines settings.
 ---
 

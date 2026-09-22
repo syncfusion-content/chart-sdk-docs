@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Custom Chart in WPF Charts | SyncfusionÂ®
+title: Custom Chart in WPF Charts | Syncfusion®
 description: Custom charts in the WPF Chart allow you to create tailored chart visualizations by extending and customizing chart behavior and rendering.
 platform: chart-sdk
 control: SfChart

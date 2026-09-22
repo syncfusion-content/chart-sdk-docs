@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip in UWP Pivot Gauge | SyncfusionÂ®
+title: Tooltip in UWP Pivot Gauge | Syncfusion®
 description: Tooltip in the UWP Pivot Gauge displays detailed information about gauge values and supports interactive data analysis and visualization.
 platform: chart-sdk
 control: SfPivotGauge

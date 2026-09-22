@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Color Value Path in WPF TreeMap | SyncfusionÂ®
+title: Color Value Path in WPF TreeMap | Syncfusion®
 description: Color value path in the WPF TreeMap maps data values to color ranges, enabling meaningful visualization and analysis of hierarchical data.
 platform: chart-sdk
 control: TreeMap

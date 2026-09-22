@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Customization in WinUI Barcode | SyncfusionÂ®
+title: Customization in WinUI Barcode | Syncfusion®
 description: Customization in the WinUI Barcode allows you to modify barcode appearance, colors, sizing, module settings, and visual styles.
 platform: chart-sdk
 control: Barcode

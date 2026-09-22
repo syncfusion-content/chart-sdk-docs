@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: User Interactions in WPF Smith Chart | SyncfusionÂ®
+title: User Interactions in WPF Smith Chart | Syncfusion®
 description: User interactions in the WPF Smith Chart enable selection, tooltips, and data exploration for enhanced chart analysis and navigation.
 platform: chart-sdk
 control: SfSmithChart

@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WinUI Linear Gauge Control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WinUI Linear Gauge control, its features, capabilities, and more details.
+title: About Syncfusion® WinUI Linear Gauge Control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® WinUI Linear Gauge control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® WinUI Linear Gauge Control
+# About Syncfusion® WinUI Linear Gauge Control
 
 The [WinUI Linear Gauge](https://www.syncfusion.com/winui-controls/linear-gauge) control is a multipurpose data visualization control that displays numerical values on a linear scale horizontally or vertically.
 

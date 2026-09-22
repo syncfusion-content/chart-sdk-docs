@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Data Binding in WPF Surface Chart | SyncfusionÂ®
+title: Data Binding in WPF Surface Chart | Syncfusion®
 description: Data binding in the WPF Surface Chart connects data sources to surface visualizations, enabling dynamic updates and data-driven rendering.
 platform: chart-sdk
 control: SfSurfaceChart

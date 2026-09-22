@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Radar and Polar Chart in WPF Charts | SyncfusionÂ®
+title: Radar and Polar Chart in WPF Charts | Syncfusion®
 description: Radar and polar series in the WPF Chart display multivariable data in a circular layout, enabling comparison of patterns and trends.
 platform: chart-sdk
 control: SfChart

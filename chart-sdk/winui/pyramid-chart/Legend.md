@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Legend in WinUI Pyramid Chart | SyncfusionÂ®
+title: Legend in WinUI Pyramid Chart | Syncfusion®
 description: Legend in the WinUI Pyramid Chart identifies chart segments and categories, supporting customization of titles, labels, icons, and templates.
 platform: chart-sdk
 control: SfPyramidChart

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to set a color palette for Windows Forms Pivot Chart | SyncfusionÂ®
+title: How to set a color palette for Windows Forms Pivot Chart | Syncfusion®
 description: Learn how to set a color palette for a Windows Forms Pivot Chart using the CustomPalette collection.
 platform: chart-sdk
 control: PivotChart

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to customize a data point marker in UWP Sparkline | SyncfusionÂ®
+title: How to customize a data point marker in UWP Sparkline | Syncfusion®
 description: Customize a data point marker in the UWP Sparkline to apply distinct styles and improve the visibility of specific data points.
 platform: chart-sdk
 control: SfSparkline

@@ -1,12 +1,12 @@
-﻿---
+---
 
 layout: post
-title: Annotations in UWP Radial Gauge | SyncfusionÂ®
+title: Annotations in UWP Radial Gauge | Syncfusion®
 description: Annotations in the UWP Radial Gauge allow you to add custom text, shapes, and UI elements to provide additional gauge information.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

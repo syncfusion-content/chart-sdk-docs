@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Fast Chart in WPF Charts | SyncfusionÂ®
+title: Fast Chart in WPF Charts | Syncfusion®
 description: Fast Charts in the WPF Chart provide high-performance rendering for large datasets, enabling responsive visualization and analysis.
 platform: chart-sdk
 control: SfChart

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Series in UWP Charts | SyncfusionÂ®
+title: Series in UWP Charts | Syncfusion®
 description: Series in the UWP Chart define how data is visualized, enabling different chart types, styles, and data representations.
 platform: chart-sdk
 control: SfChart
@@ -16,7 +16,7 @@ The following APIs are common for the most of the series types:
 
 * [`XBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_XBindingPath)-A string property that represents the X values for the series.
 * [`YBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.XyDataSeries.html#Syncfusion_UI_Xaml_Charts_XyDataSeries_YBindingPath)-A string property that represents the Y values for the series.
-* [`Stroke`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeries.html#Syncfusion_UI_Xaml_Charts_ChartSeries_Stroke)-Represents theÂ brushÂ for the series outline.
+* [`Stroke`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeries.html#Syncfusion_UI_Xaml_Charts_ChartSeries_Stroke)-Represents the brush for the series outline.
 * [`StrokeThickness`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeries.html#Syncfusion_UI_Xaml_Charts_ChartSeries_StrokeThickness)-Represents the thickness of the for the series outline.
 * [`Interior`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_Interior)-Represents the brush to fill the series.
 * [`Palette`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_Palette)-Used to define the set of pre-defined or custom colors for the series.
@@ -2645,9 +2645,9 @@ N> By default, the value of the [`BoxPlotMode`](https://help.syncfusion.com/cr/u
 
 The series box plotting mode can be changed using the [`BoxPlotMode`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.BoxAndWhiskerSeries.html#Syncfusion_UI_Xaml_Charts_BoxAndWhiskerSeries_BoxPlotMode) property of BoxAndWhiskerSeries. The plotting mode of series can be calculated as follows:
 
-* [`Exclusive`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.BoxPlotMode.html#Syncfusion_UI_Xaml_Charts_BoxPlotMode_Exclusive) â€“ The quartile values are calculated using the formula (N+1) * P (N count, P percentile), and its index value starts from 1 in the list.
-* [`Inclusive`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.BoxPlotMode.html#Syncfusion_UI_Xaml_Charts_BoxPlotMode_Inclusive) â€“ The quartile values are calculated using the formula (Nâˆ’1) * P (N count, P percentile), and its index value starts from 0 in the list.
-* [`Normal`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.BoxPlotMode.html#Syncfusion_UI_Xaml_Charts_BoxPlotMode_Normal) â€“ The quartile values are calculated by splitting the list and getting the median values.
+* [`Exclusive`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.BoxPlotMode.html#Syncfusion_UI_Xaml_Charts_BoxPlotMode_Exclusive) – The quartile values are calculated using the formula (N+1) * P (N count, P percentile), and its index value starts from 1 in the list.
+* [`Inclusive`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.BoxPlotMode.html#Syncfusion_UI_Xaml_Charts_BoxPlotMode_Inclusive) – The quartile values are calculated using the formula (N−1) * P (N count, P percentile), and its index value starts from 0 in the list.
+* [`Normal`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.BoxPlotMode.html#Syncfusion_UI_Xaml_Charts_BoxPlotMode_Normal) – The quartile values are calculated by splitting the list and getting the median values.
 
 **Normal**
 

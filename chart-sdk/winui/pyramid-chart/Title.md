@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Title in WinUI Pyramid Chart | SyncfusionÂ®
+title: Title in WinUI Pyramid Chart | Syncfusion®
 description: Title in the WinUI Pyramid Chart displays descriptive text for the chart and supports customization of content, style, and appearance.
 platform: chart-sdk
 control: SfPyramidChart

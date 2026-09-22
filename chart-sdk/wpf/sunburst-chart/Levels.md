@@ -1,12 +1,12 @@
-﻿---
+---
 
 layout: post
-title: Levels in WPF Sunburst Chart control | SyncfusionÂ®
+title: Levels in WPF Sunburst Chart control | Syncfusion®
 description: Levels in the WPF Sunburst Chart define hierarchical data groups, enabling structured visualization and navigation across categories.
 platform: chart-sdk
 control: SfSunburstChart 
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

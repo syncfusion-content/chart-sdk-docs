@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Ticks in WPF Radial Gauge | SyncfusionÂ®
+title: Ticks in WPF Radial Gauge | Syncfusion®
 description: Ticks in the WPF Radial Gauge indicate scale intervals and support customization of size, position, style, and appearance settings.
 platform: chart-sdk
 control: SfCircularGauge

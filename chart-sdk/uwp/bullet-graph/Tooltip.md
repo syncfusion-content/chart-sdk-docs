@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip in UWP Bullet Graph | SyncfusionÂ®
+title: Tooltip in UWP Bullet Graph | Syncfusion®
 description: Tooltip in the UWP Bullet Graph displays detailed information about values and targets on hover, enabling better data analysis.
 platform: chart-sdk
 control: SfBulletGraph

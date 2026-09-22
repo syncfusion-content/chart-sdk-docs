@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Axis type in WinUI Chart | SyncfusionÂ®
+title: Axis type in WinUI Chart | Syncfusion®
 description: Axis type in the WinUI Chart defines data scales, ranges, labels, and intervals for accurate data visualization and interpretation.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: axis in winui chart, winui sfcartesianchart axis, winui chart axis customization, syncfusion winui chart axis, winui sfcartesianchart axis settings.
 ---
 

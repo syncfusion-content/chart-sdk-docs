@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Populating Data in Windows Forms Chart | SyncfusionÂ®
+title: Populating Data in Windows Forms Chart | Syncfusion®
 description: Populating Data in the Windows Forms Chart enables binding and displaying data from various sources for chart visualization.
 platform: chart-sdk
 control: Chart
@@ -12,7 +12,7 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Built-in Support for data-binding
 
-EssentialÂ® Chart has built-in support for binding to DataTables, DataSets, DataViews or any implementation of IListSource, IBindingList or ITypedList.
+Essential® Chart has built-in support for binding to DataTables, DataSets, DataViews or any implementation of IListSource, IBindingList or ITypedList.
 
 The [ChartSeries](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartSeries.html) data points and the axis labels are the ones that can be data bound.
 
@@ -287,7 +287,7 @@ Note that if you have indexed data, which implies that the X values are simply c
 
 ## Chart Data Binding with IEnumerable
 
-SyncfusionÂ® chart provides an option of binding the Chart with IEnumerable, like ArrayList for Indexed or Non Indexed model data through [ChartDataBindModel](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartDataBindModel.html) implementation.
+Syncfusion® chart provides an option of binding the Chart with IEnumerable, like ArrayList for Indexed or Non Indexed model data through [ChartDataBindModel](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartDataBindModel.html) implementation.
 
 {% tabs %}
 {% highlight c# %}
@@ -426,7 +426,7 @@ Dim series As New ChartSeries("Populations")
 
 Dim dataSeriesModel As New ChartDataBindModel(populations)
 
-â€˜If ChartDataBindModel.XName is empty or null, X value is index of point. 
+‘If ChartDataBindModel.XName is empty or null, X value is index of point. 
 
 'Here I have assigned the property name Population as Y axis name and ChartDataBindModel automatically detects the Population property and will bind the data from it. 
 
@@ -539,7 +539,7 @@ In Chart Wizard, click Series button and click Data Source tab to choose the dat
 
 The combo box displays all the available binding sources in the Form. Choose the binding source for Chart from the binding sources available in the combo box.
 
-N> When Form does not contain any binding source, then only [none] and [new Binding Sourceâ€¦] options are present in the combo box.
+N> When Form does not contain any binding source, then only [none] and [new Binding Source…] options are present in the combo box.
 
 ![Chart Data](Chart-Data_images/Chart-Data_img24.png)
 
@@ -711,11 +711,11 @@ The following screenshot displays a Chart bounded with binding source in code be
 
 ## Data Manipulation
 
-EssentialÂ® Chart provides a series model implementation that works directly on top of grouped data. Filters, summaries and computed expressions are all supported in EssentialÂ® Chart and users can easily add custom summaries and filters and have such data displayed in the chart.
+Essential® Chart provides a series model implementation that works directly on top of grouped data. Filters, summaries and computed expressions are all supported in Essential® Chart and users can easily add custom summaries and filters and have such data displayed in the chart.
 
 ### Grouping Support
 
-The enterprise version of EssentialÂ® Chart includes EssentialÂ® Grouping that allows EssentialÂ® Chart to implement a series model that works directly on top of grouped data. All the key advantages of EssentialÂ® Grouping carry over into the grouping support in EssentialÂ® Chart. With EssentialÂ® Chart, you are not restricted to predefined summaries or filters. You can easily add custom summaries and filters and have such data displayed in the chart.
+The enterprise version of Essential® Chart includes Essential® Grouping that allows Essential® Chart to implement a series model that works directly on top of grouped data. All the key advantages of Essential® Grouping carry over into the grouping support in Essential® Chart. With Essential® Chart, you are not restricted to predefined summaries or filters. You can easily add custom summaries and filters and have such data displayed in the chart.
 
 The following image displays stock data that is grouped by symbol to calculate the total volume. The data contains discrete transaction details with symbol information, volume, and price. 
 
@@ -723,21 +723,21 @@ The following image displays the same data with data from transactions that occu
 
 ![Chart Data](Data-Manipulation_images/Data-Manipulation_img1.png)
 
-### EssentialÂ® Grid Interaction
+### Essential® Grid Interaction
 
-EssentialÂ® Chart offers great interaction capabilities with EssentialÂ® Grid. You can use a common data model for the grid and chart. The grid can also serve as a data model for the chart, as shown in the following image. Selected columns are automatically mapped into the chart. All it takes few lines of code to implement a model that adapts the data in question (in this case grid cells) for display in the chart.
+Essential® Chart offers great interaction capabilities with Essential® Grid. You can use a common data model for the grid and chart. The grid can also serve as a data model for the chart, as shown in the following image. Selected columns are automatically mapped into the chart. All it takes few lines of code to implement a model that adapts the data in question (in this case grid cells) for display in the chart.
 
 ![Chart Data](Data-Manipulation_images/Data-Manipulation_img2.png)
 
 ## Real time
 
-EssentialÂ® Chart is optimized to deal with real time data. It can work with both huge and real time data and render a smooth and dynamic chart using any of the several available chart types.
+Essential® Chart is optimized to deal with real time data. It can work with both huge and real time data and render a smooth and dynamic chart using any of the several available chart types.
 
 Essentially, this involves updating the chart's data points list and optionally updating the chart axis ranges if the default ranges are not user-friendly.
 
 While you can use the [ChartSeries.Points](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartSeries.html#Syncfusion_Windows_Forms_Chart_ChartSeries_Points) to add new data points to the existing list, for best performance it's recommended to implement your own "model" to store the data points in real-time scenarios.
 
-A sample application that illustrates real time data usage which is distributed along with the EssentialÂ® Chart installation and can be found at:
+A sample application that illustrates real time data usage which is distributed along with the Essential® Chart installation and can be found at:
 
 **Sample Location:** "&lt;sample installation location&gt;\Syncfusion\EssentialStudio\Version Number\Windows\Chart.Windows\Samples\Real Time\Chart Recorder"
 

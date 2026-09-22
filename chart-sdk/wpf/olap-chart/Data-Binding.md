@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Data Binding in WPF Olap Chart | SyncfusionÂ®
+title: Data Binding in WPF Olap Chart | Syncfusion®
 description: Data binding in the WPF OLAP Chart connects multidimensional data sources to chart series, enabling dynamic visualization and analysis.
 platform: chart-sdk
 control: OLAP Chart

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Appearance in WPF Smith Chart | SyncfusionÂ®
+title: Appearance in WPF Smith Chart | Syncfusion®
 description:  Appearance in the WPF Smith Chart allows you to customize chart elements, colors, styles, and visual settings for enhanced presentation.
 platform: chart-sdk
 control: SfSmithChart

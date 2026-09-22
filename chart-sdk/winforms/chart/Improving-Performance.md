@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Improving Performance in Windows Forms Chart | SyncfusionÂ®
+title: Improving Performance in Windows Forms Chart | Syncfusion®
 description: Improving performance in the Windows Forms Chart enables efficient rendering, faster updates, and better handling of large data volumes.
 platform: chart-sdk
 control: Chart

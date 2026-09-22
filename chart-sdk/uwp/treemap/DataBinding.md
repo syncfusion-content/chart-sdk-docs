@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Data Binding in UWP TreeMap | SyncfusionÂ®
+title: Data Binding in UWP TreeMap | Syncfusion®
 description: Data binding in the UWP TreeMap enables visualization of hierarchical data through population, grouping, and interactive data representation.
 platform: chart-sdk
 control: SfTreeMap

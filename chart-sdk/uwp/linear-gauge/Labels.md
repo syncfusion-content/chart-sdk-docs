@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Labels in UWP Linear Gauge | SyncfusionÂ®
+title: Labels in UWP Linear Gauge | Syncfusion®
 description: Labels in the UWP Linear Gauge display scale values and support customization through styling, positioning, and appearance settings.
 platform: chart-sdk
 control: SfLinearGauge

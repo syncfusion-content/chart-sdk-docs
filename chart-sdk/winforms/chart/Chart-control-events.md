@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Events in Windows Forms Chart | SyncfusionÂ®
+title: Events in Windows Forms Chart | Syncfusion®
 description: Events in the Windows Forms Chart enable handling user interactions, chart actions, and custom event-driven behavior.
 platform: chart-sdk
 control: Chart
@@ -186,11 +186,11 @@ End Sub
 
 Private Sub chartControl1_ChartRegionMouseDown(ByVal sender As Object, ByVal e As ChartRegionMouseEventArgs)
 
-  Â  Â  If e.Button = MouseButtons.Right Then
+      If e.Button = MouseButtons.Right Then
 
-Â  Â  Â  Â  Console.WriteLine("Chart Region Mouse Down:="+e.Point.ToString())
+        Console.WriteLine("Chart Region Mouse Down:="+e.Point.ToString())
 
-Â  Â  End If
+    End If
 
 End Sub
 

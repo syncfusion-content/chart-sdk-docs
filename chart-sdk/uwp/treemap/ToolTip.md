@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip Support in UWP TreeMap | SyncfusionÂ®
+title: Tooltip Support in UWP TreeMap | Syncfusion®
 description: Tooltip support in the UWP TreeMap displays detailed information about hierarchical data items on hover, improving data analysis and interpretation.
 platform: chart-sdk
 control: SfTreeMap

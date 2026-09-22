@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title:  Trackball in WinUI Chart | SyncfusionÂ®
+title:  Trackball in WinUI Chart | Syncfusion®
 description: Trackball in the WinUI Chart displays grouped data point information at specific positions and supports customization for detailed analysis.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: trackball in winui chart, winui sfcartesianchart trackball, winui chart trackball customization, syncfusion winui chart trackball, winui sfcartesianchart trackball settings.
 ---
 

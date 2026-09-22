@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® UWP Smith Chart control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® UWP Smith Chart control, its features, capabilities, and more details.
+title: About Syncfusion® UWP Smith Chart control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® UWP Smith Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® UWP Smith Chart control
+# About Syncfusion® UWP Smith Chart control
 
 Smith chart is one of the most useful data visualization tools for high-frequency circuit applications. It contains two sets of circles to plot the parameters of transmission lines.
 

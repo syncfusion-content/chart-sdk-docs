@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Linear Gauge in Windows Forms Gauge | SyncfusionÂ®
+title: Linear Gauge in Windows Forms Gauge | Syncfusion®
 description: Linear gauge in the Windows Forms Gauge displays values on a linear scale and supports customization of appearance and measurement settings.
 platform: chart-sdk
 control: Gauge
@@ -296,7 +296,7 @@ RangePlacement</td><td>
 Enum</td><td>
 Using this attribute, the range can be positioned in two areas along the linear scale. It includes the following options:
 <ul><li> Inside</li>
-<li> Outside</li></ul><br>Â The default value is Inside.</td></tr>
+<li> Outside</li></ul><br> The default value is Inside.</td></tr>
 <tr>
 <td>
 Height</td><td>

@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Bubble Chart in WinUI Chart | SyncfusionÂ®
+title: Bubble Chart in WinUI Chart | Syncfusion®
 description: Bubble chart in the WinUI Chart visualizes data using bubbles of varying sizes to represent additional dimensions and value relationships.
 platform: chart-sdk
 control: SfChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui bubblechart, winui sfcartesianchart bubble chart, winui bubble chart customization, syncfusion winui bubble chart, winui sfcartesianchart, bubble chart settings.
 ---
 

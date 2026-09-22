@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Symbology Settings in UWP Barcode | SyncfusionÂ®
+title: Symbology Settings in UWP Barcode | Syncfusion®
 description: Symbology settings in the UWP Barcode allow you to configure barcode-specific encoding options and customize barcode generation.
 platform: chart-sdk
 control: SfBarcode
@@ -290,7 +290,7 @@ Numeric Mode</td><td>
 <tr>
 <td>
 Alphanumeric Mode</td><td>
-0â€“9, Aâ€“Z (upper-case only), space, $, %, *, +, -, ., /, :</td></tr>
+0–9, A–Z (upper-case only), space, $, %, *, +, -, ., /, :</td></tr>
 <tr>
 <td>
 Binary Mode</td><td>

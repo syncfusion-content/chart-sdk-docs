@@ -1,12 +1,12 @@
-﻿---
+---
 
 layout: post
-title: Animation in UWP Sunburst Chart | SyncfusionÂ®
+title: Animation in UWP Sunburst Chart | Syncfusion®
 description: Animation in the UWP Sunburst Chart provides smooth visual transitions for rendering hierarchical data and interactive updates.
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 
@@ -37,9 +37,9 @@ sunburstChart.AnimationDuration = 5000;
 
 Sunburst chart provides options to animate the chart segments in different ways using [`AnimationType`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.SunburstChart.SfSunburstChart.html#Syncfusion_UI_Xaml_SunburstChart_SfSunburstChart_AnimationType) property. 
 
-FadeIn â€“ It gradually changes opacity of the chart segment.
+FadeIn – It gradually changes opacity of the chart segment.
 
-Rotation â€“ During an animation, control rotate from 0 to 360 angle. 
+Rotation – During an animation, control rotate from 0 to 360 angle. 
 
 ### FadeIn
 

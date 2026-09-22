@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to print the chart in WPF Chart | SyncfusionÂ®
+title: How to print the chart in WPF Chart | Syncfusion®
 description: Print the WPF Chart to create physical copies of chart visuals for reporting, presentation, and documentation purposes.
 platform: chart-sdk
 control: SfChart

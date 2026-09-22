@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to transform axis value to pixel in WPF Chart | SyncfusionÂ®
+title: How to transform axis value to pixel in WPF Chart | Syncfusion®
 description: Transform axis values to pixel values and convert pixel values back to axis values in the WPF Chart for coordinate-based interactions.
 platform: chart-sdk
 control: SfChart

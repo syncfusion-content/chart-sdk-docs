@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Printing in Windows Forms Chart | SyncfusionÂ®
+title: Printing in Windows Forms Chart | Syncfusion®
 description: Printing in the Windows Forms Chart enables chart content to be printed with configurable settings for reporting and presentation purposes.
 platform: chart-sdk
 control: Chart

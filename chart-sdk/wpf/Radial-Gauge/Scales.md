@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Scales in WPF Radial Gauge | SyncfusionÂ®
+title: Scales in WPF Radial Gauge | Syncfusion®
 description: Scales in the WPF Radial Gauge define value ranges, intervals, and labels, enabling accurate measurement and data representation.
 platform: chart-sdk
 control: SfCircularGauge

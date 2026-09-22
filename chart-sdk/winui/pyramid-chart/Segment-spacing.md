@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Segment Spacing in WinUI Pyramid Chart | SyncfusionÂ®
+title: Segment Spacing in WinUI Pyramid Chart | Syncfusion®
 description: Segment Spacing in the WinUI Pyramid Chart controls the spacing between pyramid segments, improving visual clarity and chart presentation.
 platform: chart-sdk
 control: SfPyramidChart

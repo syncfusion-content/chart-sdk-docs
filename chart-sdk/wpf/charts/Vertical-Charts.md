@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Vertical Charts in WPF Charts | SyncfusionÂ®
+title: Vertical Charts in WPF Charts | Syncfusion®
 description: Vertical charts in the WPF Chart display series with transposed axes, enabling an alternative orientation for data visualization.
 platform: chart-sdk
 control: SfChart

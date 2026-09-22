@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Weight Value Path in WPF TreeMap | SyncfusionÂ®
+title: Weight Value Path in WPF TreeMap | Syncfusion®
 description: Weight value path in the WPF TreeMap maps data values to item sizes, enabling proportional visualization of hierarchical data.
 platform: chart-sdk
 control: TreeMap

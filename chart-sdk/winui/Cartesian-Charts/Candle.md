@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Candle Chart in WinUI Chart | SyncfusionÂ®
+title: Candle Chart in WinUI Chart | Syncfusion®
 description: Candle chart in the WinUI Chart visualizes price movements using open, high, low, and close values for financial data analysis.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui candle chart, candle chart customization winui, syncfusion winui candle chart, cartesian candle chart winui, winui stock chart.
 ---
 
@@ -153,11 +153,11 @@ this.Content = chart;
 
 In Candle Series, the [EnableSolidCandle](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CandleSeries.html#Syncfusion_UI_Xaml_Charts_CandleSeries_EnableSolidCandle) property is used to specify whether the candle segment should be filled or hollow. The default value of this property is `false`.
 - When `EnableSolidCandle = false` (hollow mode), the fill state and color are determined by comparing the previous day close to the current day close:
-  - previous day close > current day close â†’ bearish (uses `BearishBrush`)
-  - previous day close <= current day close â†’ bullish (uses `BullishBrush`)
+  - previous day close > current day close → bearish (uses `BearishBrush`)
+  - previous day close <= current day close → bullish (uses `BullishBrush`)
 - When `EnableSolidCandle = true` (solid mode), candles are filled and colored by comparing the current day open and close:
-  - current day close >= current day open â†’ bullish (uses `BullishBrush`)
-  - current day close < current day open â†’ bearish (uses `BearishBrush`)
+  - current day close >= current day open → bullish (uses `BullishBrush`)
+  - current day close < current day open → bearish (uses `BearishBrush`)
 
 {% tabs %}
 

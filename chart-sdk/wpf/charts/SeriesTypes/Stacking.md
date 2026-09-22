@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Stacked Chart in WPF Charts | SyncfusionÂ®
+title: Stacked Chart in WPF Charts | Syncfusion®
 description: Stacked series in the WPF Chart display cumulative values across categories, enabling comparison of individual and total contributions.
 platform: chart-sdk
 control: SfChart

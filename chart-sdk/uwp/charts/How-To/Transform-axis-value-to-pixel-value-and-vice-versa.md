@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to transform axis value to pixel in UWP Chart | SyncfusionÂ®
+title: How to transform axis value to pixel in UWP Chart | Syncfusion®
 description: Transform axis values to pixel values and convert pixel values back to axis values in the UWP Chart for coordinate-based interactions.
 platform: chart-sdk
 control: SfChart
@@ -24,13 +24,13 @@ private void LineChart_MouseMove(object sender, MouseEventArgs e)
         X = e.GetPosition(LineChart).X - LineChart.SeriesClipRect.Left,
         Y = e.GetPosition(LineChart).Y - LineChart.SeriesClipRect.Top
     };
-Â        //Â Converts mouse co-ordinate points into a value related to ChartAxis.
+        // Converts mouse co-ordinate points into a value related to ChartAxis.
         double xValue = this.LineChart.PointToValue(this.LineChart.PrimaryAxis, mousePoint);
         double yValue = this.LineChart.PointToValue(this.LineChart.SecondaryAxis, mousePoint);
 
-Â Â Â Â Â Â Â Â //Â Converts the data point value of the chart to Chart coordinate.
-        doubleÂ chartPointX =Â this.LineChart.ValueToPoint(this.LineChart.PrimaryAxis, xValue);
-        doubleÂ chartPointY =Â this.LineChart.ValueToPoint(this.LineChart.SecondaryAxis, yValue);
+        // Converts the data point value of the chart to Chart coordinate.
+        double chartPointX = this.LineChart.ValueToPoint(this.LineChart.PrimaryAxis, xValue);
+        double chartPointY = this.LineChart.ValueToPoint(this.LineChart.SecondaryAxis, yValue);
 
 }
 	

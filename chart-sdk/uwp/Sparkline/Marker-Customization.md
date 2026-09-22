@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Marker Customization in UWP Sparkline | SyncfusionÂ®
+title: Marker Customization in UWP Sparkline | Syncfusion®
 description: Marker customization in the UWP Sparkline allows you to modify marker appearance, styles, colors, and sizes for better data visualization.
 platform: chart-sdk
 control: SfSparkline
@@ -12,15 +12,15 @@ appliesto: UI Component Suite, Chart SDK
 
 We can customize the markers by initializing the marker template selector class, and we can differentiate the first, last, high, low, negative points.
 
-* [`FirstPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_FirstPointBrush) â€“ Gets or sets the brush to paint the first point of the sparkline.
-* [`LastPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_LastPointBrush) â€“ Gets or sets the brush to paint the last point of the sparkline.
-* [`LowPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_LowPointBrush) â€“ Gets or sets the brush to paint the low point of the sparkline.
-* [`HighPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_HighPointBrush) â€“ Gets or sets the brush to paint the high point of the sparkline.
-* [`NegativePointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_NegativePointBrush) â€“ Gets or sets the brush to paint the negative point of the sparkline.
-* [`MarkerHeight`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerTemplateSelector.html#Syncfusion_UI_Xaml_Charts_MarkerTemplateSelector_MarkerHeight) â€“ Gets or sets the height of the marker.
-* [`MarkerWidth`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerTemplateSelector.html#Syncfusion_UI_Xaml_Charts_MarkerTemplateSelector_MarkerWidth) â€“ Gets or sets the width of the marker.
-* [`MarkerBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerTemplateSelector.html#Syncfusion_UI_Xaml_Charts_MarkerTemplateSelector_MarkerBrush) â€“ Gets or sets the brush to paint the markers of the sparkline.
-* [`MarkerTemplate`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerTemplateSelector.html#Syncfusion_UI_Xaml_Charts_MarkerTemplateSelector_MarkerTemplate) â€“ Gets or sets the data template to sparkline marker.
+* [`FirstPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_FirstPointBrush) – Gets or sets the brush to paint the first point of the sparkline.
+* [`LastPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_LastPointBrush) – Gets or sets the brush to paint the last point of the sparkline.
+* [`LowPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_LowPointBrush) – Gets or sets the brush to paint the low point of the sparkline.
+* [`HighPointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_HighPointBrush) – Gets or sets the brush to paint the high point of the sparkline.
+* [`NegativePointBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SegmentTemplateSelector.html#Syncfusion_UI_Xaml_Charts_SegmentTemplateSelector_NegativePointBrush) – Gets or sets the brush to paint the negative point of the sparkline.
+* [`MarkerHeight`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerTemplateSelector.html#Syncfusion_UI_Xaml_Charts_MarkerTemplateSelector_MarkerHeight) – Gets or sets the height of the marker.
+* [`MarkerWidth`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerTemplateSelector.html#Syncfusion_UI_Xaml_Charts_MarkerTemplateSelector_MarkerWidth) – Gets or sets the width of the marker.
+* [`MarkerBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerTemplateSelector.html#Syncfusion_UI_Xaml_Charts_MarkerTemplateSelector_MarkerBrush) – Gets or sets the brush to paint the markers of the sparkline.
+* [`MarkerTemplate`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerTemplateSelector.html#Syncfusion_UI_Xaml_Charts_MarkerTemplateSelector_MarkerTemplate) – Gets or sets the data template to sparkline marker.
 
 {% tabs %}
 

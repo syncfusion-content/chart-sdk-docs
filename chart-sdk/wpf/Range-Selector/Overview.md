@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WPF Range Selector Control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WPF Range Selector control, its features, capabilities, and more details.
+title: About Syncfusion® WPF Range Selector Control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® WPF Range Selector control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfDateTimeRangeNavigator
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® WPF Range Selector Control
+# About Syncfusion® WPF Range Selector Control
 
 The date-time range navigator control is a time-bound data visualization control. Its purpose is to allow scrolling and navigation through large periods of time. This control can be easily combined with other controls such as chart and grid view to create rich and powerful dashboards.
 

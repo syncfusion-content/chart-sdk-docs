@@ -1,12 +1,12 @@
-﻿---
+---
 
 layout: post
-title: Legend in UWP Sunburst Chart | SyncfusionÂ®
+title: Legend in UWP Sunburst Chart | Syncfusion®
 description: Legend in the UWP Sunburst Chart identifies segments and categories, helping users understand and interpret hierarchical data clearly.
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 
@@ -74,8 +74,8 @@ chart.Legend = legend;
 
 The following properties are used to customize the legend icons size.
 
-* [`IconHeight`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.SunburstChart.SunburstLegend.html#Syncfusion_UI_Xaml_SunburstChart_SunburstLegend_IconHeight) â€“ Gets or sets the double value that represents the icon(s) height.
-* [`IconWidth`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.SunburstChart.SunburstLegend.html#Syncfusion_UI_Xaml_SunburstChart_SunburstLegend_IconWidth) â€“ Gets or sets the double value that represents the icon(s) width.
+* [`IconHeight`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.SunburstChart.SunburstLegend.html#Syncfusion_UI_Xaml_SunburstChart_SunburstLegend_IconHeight) – Gets or sets the double value that represents the icon(s) height.
+* [`IconWidth`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.SunburstChart.SunburstLegend.html#Syncfusion_UI_Xaml_SunburstChart_SunburstLegend_IconWidth) – Gets or sets the double value that represents the icon(s) width.
 
 You can customize your own legend shape by applying custom template using [`LegendIconTemplate`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.SunburstChart.SunburstLegend.html#Syncfusion_UI_Xaml_SunburstChart_SunburstLegend_LegendIconTemplate) property as shown in the below code. 
 

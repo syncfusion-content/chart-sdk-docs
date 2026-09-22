@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Sorting in UWP Charts | SyncfusionÂ®
+title: Sorting in UWP Charts | Syncfusion®
 description: Sorting in the UWP Chart arranges data points based on specified values, enabling clearer visualization and comparison of chart data.
 platform: chart-sdk
 control: SfChart

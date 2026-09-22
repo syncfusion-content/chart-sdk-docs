@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Interactive Features in UWP Charts | SyncfusionÂ®
+title: Interactive Features in UWP Charts | Syncfusion®
 description: Interactive features in the UWP Chart enable zooming, panning, selection, tooltips, and navigation for enhanced data exploration.
 platform: chart-sdk
 control: SfChart
@@ -908,7 +908,7 @@ N>By default the value of [`ShowTrackBallInfo`](https://help.syncfusion.com/cr/u
 
 The alignment of the axis label while moving trackball can be defined using [`AxisLabelAlignment`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartTrackBallBehavior.html#Syncfusion_UI_Xaml_Charts_ChartTrackBallBehavior_AxisLabelAlignment) property.
 
-[`Auto`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAlignment.html#Syncfusion_UI_Xaml_Charts_ChartAlignment_Auto) â€“Axis label is aligned in Near/Far positions based on the trackball movement.
+[`Auto`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAlignment.html#Syncfusion_UI_Xaml_Charts_ChartAlignment_Auto) –Axis label is aligned in Near/Far positions based on the trackball movement.
 
 [`Far`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAlignment.html#Syncfusion_UI_Xaml_Charts_ChartAlignment_Far)-Axis label is positioned far from the position of trackball.
 
@@ -1409,7 +1409,7 @@ chart.Series.Add(series)
 
 **ScatterSeries**
 
-This series supports dragging in both the x and y co-ordinates. The dragging co â€“ ordinates can be set by using the enum property [`DragDirection`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ScatterSeries.html#Syncfusion_UI_Xaml_Charts_ScatterSeries_DragDirection).
+This series supports dragging in both the x and y co-ordinates. The dragging co – ordinates can be set by using the enum property [`DragDirection`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ScatterSeries.html#Syncfusion_UI_Xaml_Charts_ScatterSeries_DragDirection).
 
 {% tabs %}
 
@@ -1600,17 +1600,17 @@ chart.Series.Add(series);
 
 The dragging tooltip can be customized by using the [`DragTooltipStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.XySegmentDraggingBase.html#Syncfusion_UI_Xaml_Charts_XySegmentDraggingBase_DragTooltipStyle) property of the series.
 
-The following are the APIâ€™s in ChartDragTooltipStyle.
+The following are the API’s in ChartDragTooltipStyle.
 
-[`FontFamily`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_FontFamily) â€“ Gets or sets the font family for dragging tooltip text.
+[`FontFamily`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_FontFamily) – Gets or sets the font family for dragging tooltip text.
 
-[`FontSize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_FontSize) â€“ Gets or sets the font size for dragging tooltip text.
+[`FontSize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_FontSize) – Gets or sets the font size for dragging tooltip text.
 
-[`FontStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_FontStyle) â€“ Gets or sets the font style for dragging tooltip text.
+[`FontStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_FontStyle) – Gets or sets the font style for dragging tooltip text.
 
-[`Foreground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_Foreground) â€“ Gets or sets the brush for dragging tooltip text.
+[`Foreground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_Foreground) – Gets or sets the brush for dragging tooltip text.
 
-[`Background`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_Background) â€“ Gets or sets the background brush for dragging tooltip.
+[`Background`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartDragTooltipStyle.html#Syncfusion_UI_Xaml_Charts_ChartDragTooltipStyle_Background) – Gets or sets the background brush for dragging tooltip.
 
 {% tabs %}
 
@@ -2157,7 +2157,7 @@ chart.Behaviors.Add(zooming);
 
 **Customization of zooming toolbar**
 
-Zooming Toolbar can be customized using the following APIâ€™s
+Zooming Toolbar can be customized using the following API’s
 
 * [`ToolBarBackground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartZoomPanBehavior.html#Syncfusion_UI_Xaml_Charts_ChartZoomPanBehavior_ToolBarBackground)- Represents the zooming toolkit background.
 * [`ToolBarItems`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartZoomPanBehavior.html#Syncfusion_UI_Xaml_Charts_ChartZoomPanBehavior_ToolBarItems)- Collection value that contains zooming toolkit items. 
@@ -2636,7 +2636,7 @@ chart.Behaviors.Add(selection);
 
 ### Adornment selection:
 
-[`SfChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html) provides selection for adornments by defining [`HighlightOnSelection`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAdornmentInfoBase.html#Syncfusion_UI_Xaml_Charts_ChartAdornmentInfoBase_HighlightOnSelection) property whichÂ allows you to select the segment or series with the corresponding adornments.
+[`SfChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html) provides selection for adornments by defining [`HighlightOnSelection`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAdornmentInfoBase.html#Syncfusion_UI_Xaml_Charts_ChartAdornmentInfoBase_HighlightOnSelection) property which allows you to select the segment or series with the corresponding adornments.
 
 **HighlightOnSelection**
 
@@ -3207,7 +3207,7 @@ The vertical line in contact with the x axes shows axis label. The horizontal ax
 
 Axis Label can be aligned by Near, Far, Center, Auto and None Options.
 
-[`Auto`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAlignment.html#Syncfusion_UI_Xaml_Charts_ChartAlignment_Auto) â€“Axis label is aligned in Near/Far positions based on the movement of vertical line.
+[`Auto`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAlignment.html#Syncfusion_UI_Xaml_Charts_ChartAlignment_Auto) –Axis label is aligned in Near/Far positions based on the movement of vertical line.
 
 [`Far`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartAlignment.html#Syncfusion_UI_Xaml_Charts_ChartAlignment_Far)-Axis label is positioned far from the position of vertical line in cross hair.
 

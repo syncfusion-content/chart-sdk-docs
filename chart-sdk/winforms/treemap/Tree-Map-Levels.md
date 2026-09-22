@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Levels in Windows Forms TreeMap | SyncfusionÂ®
+title: Levels in Windows Forms TreeMap | Syncfusion®
 description: Levels in the Windows Forms TreeMap organize hierarchical data into multiple levels, enabling structured visualization and data analysis.
 platform: chart-sdk
 control: TreeMap 
@@ -107,7 +107,7 @@ End Class
 
 ## Group path
 
-The [`GroupPath`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.TreeMap.TreeMapFlatLevel.html#Syncfusion_Windows_Forms_TreeMap_TreeMapFlatLevel_GroupPath) must be specified for every level of the tree map control. It is a path to a field on the source object that serves as the â€œGroupâ€ for the level specified. The data is grouped in the tree map control based on the GroupPath. If it is not specified, then the items are not grouped and the data will be shown in the order as it is specified in the ItemsSource.
+The [`GroupPath`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.TreeMap.TreeMapFlatLevel.html#Syncfusion_Windows_Forms_TreeMap_TreeMapFlatLevel_GroupPath) must be specified for every level of the tree map control. It is a path to a field on the source object that serves as the “Group” for the level specified. The data is grouped in the tree map control based on the GroupPath. If it is not specified, then the items are not grouped and the data will be shown in the order as it is specified in the ItemsSource.
 
 ### Code sample
 

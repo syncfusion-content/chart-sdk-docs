@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Data Labels in WinUI Pyramid Chart | SyncfusionÂ®
+title: Data Labels in WinUI Pyramid Chart | Syncfusion®
 description: Data labels in the WinUI Pyramid Chart display values directly on chart segments and support customization of content, position, and appearance.
 platform: chart-sdk
 control: SfPyramidChart

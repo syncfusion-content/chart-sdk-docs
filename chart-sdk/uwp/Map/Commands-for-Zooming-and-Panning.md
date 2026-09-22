@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Commands in UWP Maps | SyncfusionÂ®
+title: Commands in UWP Maps | Syncfusion®
 description: Commands in the UWP Maps enable interaction handling and action execution through command bindings, supporting flexible application workflows.
 platform: chart-sdk
 control: Maps

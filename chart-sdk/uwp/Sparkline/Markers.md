@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Markers in UWP Sparkline | SyncfusionÂ®
+title: Markers in UWP Sparkline | Syncfusion®
 description: Markers in the UWP Sparkline highlight specific data points, making trends, values, and key points easier to identify and analyze.
 platform: chart-sdk
 control: SfSparkline
@@ -12,7 +12,7 @@ appliesto: UI Component Suite, Chart SDK
 
 Markers are used to indicate the value point for line and area series, and we can customize with different templates. It is applicable for LineSparkline and AreaSparkline.
 
-* [`MarkerVisibility`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_MarkerVisibility) â€“ Gets or sets the visibility for marker.
+* [`MarkerVisibility`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_MarkerVisibility) – Gets or sets the visibility for marker.
 {% capture codesnippet1 %}
 
 {% tabs %}

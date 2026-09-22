@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Rendering Mode in WinUI Funnel Chart | SyncfusionÂ®
+title: Rendering Mode in WinUI Funnel Chart | Syncfusion®
 description: Rendering mode in the WinUI Funnel Chart controls how funnel segments are displayed, enabling different visual representations of data.
 platform: chart-sdk
 control: SfFunnelChart

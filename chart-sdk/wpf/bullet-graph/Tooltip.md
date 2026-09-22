@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip in WPF Bullet Graph | SyncfusionÂ®
+title: Tooltip in WPF Bullet Graph | Syncfusion®
 description: Tooltip in the WPF Bullet Graph displays detailed information about values and targets on hover, enabling better data analysis.
 platform: chart-sdk
 control: SfBulletGraph

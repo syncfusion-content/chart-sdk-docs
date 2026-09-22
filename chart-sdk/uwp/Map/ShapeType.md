@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Shape Types in UWP Maps | SyncfusionÂ®
+title: Shape Types in UWP Maps | Syncfusion®
 description: Shape types in the UWP Maps define how geographic regions are rendered, enabling visualization of location-based data using map shapes.
 platform: chart-sdk
 control: SfMaps

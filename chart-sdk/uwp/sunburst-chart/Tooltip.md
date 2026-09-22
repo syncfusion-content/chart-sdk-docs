@@ -1,12 +1,12 @@
-﻿---
+---
 
 layout: post
-title: Tooltip in UWP Sunburst Chart | SyncfusionÂ®
+title: Tooltip in UWP Sunburst Chart | Syncfusion®
 description: Tooltip in the UWP Sunburst Chart displays detailed information about data segments on hover, helping users analyze chart data effectively.
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Ranges in WPF Radial Gauge | SyncfusionÂ®
+title: Ranges in WPF Radial Gauge | Syncfusion®
 description: Ranges in the WPF Radial Gauge highlight specific value intervals on the gauge scale, helping visualize thresholds, targets, and data groups.
 platform: chart-sdk
 control: SfCircularGauge

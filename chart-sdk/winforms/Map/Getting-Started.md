@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with Windows Forms Maps | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® Windows Forms Maps control. Explore setup, configuration, map layers, and customization options.
+title: Getting Started with Windows Forms Maps | Syncfusion®
+description: Learn how to get started with the Syncfusion® Windows Forms Maps control. Explore setup, configuration, map layers, and customization options.
 platform: chart-sdk
 control: Maps
 documentation: ug
@@ -58,7 +58,7 @@ The main file (.shp) contains a fixed-length file header followed by the variabl
 
 The index file (.shx) contains a 100-byte header followed by 8-byte, fixed-length records.
 
-The dBase file (.dbf) contains any desired feature attributes or attributes keys to which other tables can be joined. Its format is a standard .dbf file used by many table-based applications in Windowsâ„¢ and DOS. Any set of fields can be presented in the table.
+The dBase file (.dbf) contains any desired feature attributes or attributes keys to which other tables can be joined. Its format is a standard .dbf file used by many table-based applications in Windows™ and DOS. Any set of fields can be presented in the table.
 
 For more information about the 8.3 naming convention, shape files, and their descriptions, refer to the following link:
 
@@ -68,7 +68,7 @@ Maps read the main file and create the map shapes. Then, the associated .dbf fil
 
 ## Adding shape file
 
-To read the shape file using maps, the shape fileâ€™s main file .shp and .dbf files need to be added as embedded resources in the application project. Then, the main fileâ€™s path has to be given in the Uri property of the shape file layer.
+To read the shape file using maps, the shape file’s main file .shp and .dbf files need to be added as embedded resources in the application project. Then, the main file’s path has to be given in the Uri property of the shape file layer.
 
 ### Uri property
 

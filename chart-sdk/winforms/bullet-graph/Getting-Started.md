@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with Windows Forms Bullet Graph | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® Windows Forms Bullet Graph control. Explore setup, features, elements, and customization options.
+title: Getting Started with Windows Forms Bullet Graph | Syncfusion®
+description: Learn how to get started with the Syncfusion® Windows Forms Bullet Graph control. Explore setup, features, elements, and customization options.
 platform: chart-sdk
 control: Bullet Graph
 documentation: ug
@@ -89,9 +89,9 @@ Namespace: Syncfusion.Windows.Forms.BulletGraph
 
    ![WinForms Bullet Graph control output](Getting-Started_images/Getting-Started_img2.png)
 
-## Create the WinForms Bullet Graph using Syncfusion<sup>Â®</sup> Reference Manager
+## Create the WinForms Bullet Graph using Syncfusion<sup>®</sup> Reference Manager
 
-The Syncfusion<sup>Â®</sup> Reference Manager is used to add Syncfusion<sup>Â®</sup> tools.
+The Syncfusion<sup>®</sup> Reference Manager is used to add Syncfusion<sup>®</sup> tools.
 
 To add a Bullet Graph control, refer to the following steps:
 
@@ -103,7 +103,7 @@ To add a Bullet Graph control, refer to the following steps:
 
    ![WinForms Bullet Graph Reference Manager option](Getting-Started_images/Getting-Started_img4.png)
 
-3. The Syncfusion<sup>Â®</sup> Reference Manager wizard opens as shown in the following screenshot.
+3. The Syncfusion<sup>®</sup> Reference Manager wizard opens as shown in the following screenshot.
 
    ![WinForms Bullet Graph Reference Manager wizard](Getting-Started_images/Getting-Started_img5.png)
 
@@ -163,6 +163,6 @@ To add a Bullet Graph control, refer to the following steps:
 
    ![WinForms Bullet Graph control output](Getting-Started_images/Getting-Started_img8.png)
 
-   N> 1. The Syncfusion<sup>Â®</sup> Reference Manager is available in versions 11.3.0.30 and later. It supports referencing assemblies from version 10.4.0.71 to the current version.
+   N> 1. The Syncfusion<sup>®</sup> Reference Manager is available in versions 11.3.0.30 and later. It supports referencing assemblies from version 10.4.0.71 to the current version.
    N>
-   N> 2. The Syncfusion<sup>Â®</sup> Reference Manager is used only in Visual Studio 2015 or higher.
+   N> 2. The Syncfusion<sup>®</sup> Reference Manager is used only in Visual Studio 2015 or higher.

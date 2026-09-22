@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Legend in UWP Maps | SyncfusionÂ®
+title: Legend in UWP Maps | Syncfusion®
 description: Legend in the UWP Maps identifies map elements, categories, and data ranges, helping users understand and interpret geographic data clearly.
 platform: chart-sdk
 control: SfMaps

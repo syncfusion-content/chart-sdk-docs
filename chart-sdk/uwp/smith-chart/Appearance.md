@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Appearance in UWP Smith Chart | SyncfusionÂ®
+title: Appearance in UWP Smith Chart | Syncfusion®
 description: Appearance in the UWP Smith Chart allows you to customize chart elements, colors, styles, and visual settings for enhanced presentation.
 platform: chart-sdk
 control: SfSmithChart

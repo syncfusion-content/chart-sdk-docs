@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with UWP Barcode control | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® UWP Barcode control. Explore setup, features, examples, and customization options.
+title: Getting Started with UWP Barcode control | Syncfusion®
+description: Learn how to get started with the Syncfusion® UWP Barcode control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfBarcode
 documentation: ug

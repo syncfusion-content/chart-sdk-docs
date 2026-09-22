@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Exporting in UWP Pivot Chart | SyncfusionÂ®
+title: Exporting in UWP Pivot Chart | Syncfusion®
 description: Exporting in the UWP Pivot Chart enables chart data and visuals to be saved in supported formats for sharing, reporting, and analysis.
 platform: chart-sdk
 control: SfPivotChart

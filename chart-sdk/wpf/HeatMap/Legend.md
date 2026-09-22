@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Legend in WPF HeatMap | SyncfusionÂ®
+title: Legend in WPF HeatMap | Syncfusion®
 description: Legend in the WPF HeatMap identifies data value ranges through color indicators, helping users interpret heat map data effectively.
 platform: chart-sdk
 control: SfHeatMap

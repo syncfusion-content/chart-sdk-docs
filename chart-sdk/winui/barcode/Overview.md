@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WinUI Barcode Control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WinUI Barcode control, its features, capabilities, and more details.
+title: About Syncfusion® WinUI Barcode Control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® WinUI Barcode control, its features, capabilities, and more details.
 platform: chart-sdk
 control: Barcode
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® WinUI Barcode Control
+# About Syncfusion® WinUI Barcode Control
 
 The Syncfusion [WinUI Barcode](https://www.syncfusion.com/winui-controls/barcode) control helps you to generate and display data in a machine-readable format. It provides a flexible approach for encoding text using supported barcode types.
 

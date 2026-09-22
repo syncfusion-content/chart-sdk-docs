@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Axis Title in WinUI Polar Chart | SyncfusionÂ®
+title: Axis Title in WinUI Polar Chart | Syncfusion®
 description: Axis title in the WinUI Polar Chart displays descriptive text for chart axes and supports customization of content, style, and appearance.
 platform: chart-sdk
 control: SfPolarChart

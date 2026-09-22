@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Axis types and customization in UWP Chart | SyncfusionÂ®
+title: Axis types and customization in UWP Chart | Syncfusion®
 description: Chart axis in the UWP Chart defines data scales, categories, and value ranges, supporting accurate data visualization and analysis.
 platform: chart-sdk
 control: SfChart
@@ -37,15 +37,15 @@ Definition</th></tr>
 <tr>
 <td>
 {{'[`Interval`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_Interval)'| markdownify }}</td><td>
-Gets or sets the doubleÂ that represents the interval between the labels.</td></tr>
+Gets or sets the double that represents the interval between the labels.</td></tr>
 <tr>
 <td>
 {{'[`Minimum`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_Minimum)'| markdownify }}</td><td>
-Gets or sets the doubleÂ that represents the Minimum value for the Axis.</td></tr>
+Gets or sets the double that represents the Minimum value for the Axis.</td></tr>
 <tr>
 <td>
 {{'[`Maximum`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_Maximum)'| markdownify }}</td><td>
-Gets or sets the doubleÂ that represents the Maximum value for the Axis.</td></tr>
+Gets or sets the double that represents the Maximum value for the Axis.</td></tr>
 <tr>
 <td>
 {{'[`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding)'| markdownify }}</td><td>
@@ -53,7 +53,7 @@ Gets or sets the NumericalPadding that specifies how to render the segments in c
 <tr>
 <td>
 {{'[`StartRangeFromZero`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_StartRangeFromZero)'| markdownify }}</td><td>
-Gets or sets the boolÂ that represents a value to enable start the range from zero. </td></tr>
+Gets or sets the bool that represents a value to enable start the range from zero. </td></tr>
 </table>
 
 {% tabs %}
@@ -696,7 +696,7 @@ Gets or sets the timespan value that represents the maximum value for the Axis. 
 
 {% highlight xml %}
 
-Â <syncfusion:SfChart
+ <syncfusion:SfChart
     x:Name="Chart"
     Margin="5,0,10,0">
 
@@ -1119,43 +1119,43 @@ The following screenshot demonstrates [`RangePadding`](https://help.syncfusion.c
 
 [`Normal`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Normal) [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) for a [`NumericalAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html) is used mostly for the y-axis to have padding based on the Range calculation.
 
-The following screenshot illustrates a chartâ€™s y-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`Normal`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Normal).
+The following screenshot illustrates a chart’s y-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`Normal`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Normal).
 
 ![NumericalAxis range padding support in UWP Chart](Axis_images/Axis_img12.png)
 
 Round [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Round) for a [`NumericalAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html) rounds the range of the chart axis to the nearest possible value.
 
-The following screenshot demonstrates a chartâ€™s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`Round`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Round).
+The following screenshot demonstrates a chart’s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`Round`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Round).
 
 ![NumericalAxis range padding support in UWP Chart](Axis_images/Axis_img13.png)
 
 If [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) for [`NumericalAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html) is set to [`Additional`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Additional), the interval of the axis is added as padding.
 
-The following screenshot demonstrates a chartâ€™s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`Additional`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Additional).
+The following screenshot demonstrates a chart’s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`Additional`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_Additional).
 
 ![NumericalAxis range padding support in UWP Chart](Axis_images/Axis_img14.png)
 
 If [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) for [`NumericalAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html) is set to [`RoundStart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_RoundStart) , rounds the range of the chart axis in the start to the nearest possible value.
 
-The following screenshot demonstrates a chartâ€™s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`RoundStart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_RoundStart) .
+The following screenshot demonstrates a chart’s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`RoundStart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_RoundStart) .
 
 ![NumericalAxis range padding support in UWP Chart](Axis_images/NumericalAxis_RoundStart.png)
 
 If [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) for [`NumericalAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html) is set to [`RoundEnd`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_RoundEnd) , rounds the range of the chart axis in the end to the nearest possible value.
 
-The following screenshot demonstrates a chartâ€™s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`RoundEnd`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_RoundEnd) .
+The following screenshot demonstrates a chart’s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`RoundEnd`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_RoundEnd) .
 
 ![NumericalAxis range padding support in UWP Chart](Axis_images/NumericalAxis_RoundEnd.png)
 
 If [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) for [`NumericalAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html) is set to [`PrependInterval`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_PrependInterval) , the interval of the axis is added in the start as padding.
 
-The following screenshot demonstrates a chartâ€™s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`PrependInterval`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_PrependInterval) .
+The following screenshot demonstrates a chart’s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`PrependInterval`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_PrependInterval) .
 
 ![NumericalAxis range padding support in UWP Chart](Axis_images/NumericalAxis_PrependInterval.png)
 
 If [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) for [`NumericalAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html) is set to [`AppendInterval`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_AppendInterval) , the interval of the axis is added in the end as padding.
 
-The following screenshot demonstrates a chartâ€™s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`AppendInterval`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_AppendInterval) .
+The following screenshot demonstrates a chart’s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalAxis.html#Syncfusion_UI_Xaml_Charts_NumericalAxis_RangePadding) set to [`AppendInterval`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.NumericalPadding.html#Syncfusion_UI_Xaml_Charts_NumericalPadding_AppendInterval) .
 
 ![NumericalAxis range padding support in UWP Chart](Axis_images/NumericalAxis_AppendInterval.png)
 
@@ -1173,7 +1173,7 @@ The [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Chart
 
 By default, the [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.DateTimeAxis.html#Syncfusion_UI_Xaml_Charts_DateTimeAxis_RangePadding) for a [`DateTimeAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.DateTimeAxis.html) is [`None`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.DateTimeRangePadding.html#Syncfusion_UI_Xaml_Charts_DateTimeRangePadding_None).
 
-The following screenshot demonstrates a chartâ€™s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.DateTimeAxis.html#Syncfusion_UI_Xaml_Charts_DateTimeAxis_RangePadding) set to [`None`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.DateTimeRangePadding.html#Syncfusion_UI_Xaml_Charts_DateTimeRangePadding_None). 
+The following screenshot demonstrates a chart’s x-axis with [`RangePadding`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.DateTimeAxis.html#Syncfusion_UI_Xaml_Charts_DateTimeAxis_RangePadding) set to [`None`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.DateTimeRangePadding.html#Syncfusion_UI_Xaml_Charts_DateTimeRangePadding_None). 
 
 ![DateTimeAxis range padding support in UWP Chart](Axis_images/Axis_img15.jpg)
 
@@ -1870,15 +1870,15 @@ The following code example and screenshot demonstrate the usage of [`PrefixLabel
 
 {% highlight xml %}
 
-<DataTemplateÂ x:Key="yPrefix">
+<DataTemplate x:Key="yPrefix">
 
-    <TextBlockÂ FontSize="15"Â VerticalAlignment="Center"Â Text="$"/>
+    <TextBlock FontSize="15" VerticalAlignment="Center" Text="$"/>
 
 </DataTemplate>
 
 <syncfusion:SfChart.SecondaryAxis>
 
-    <syncfusion:NumericalAxisÂ FontSize="16"Â Minimum="0"Â Maximum="1000"Â PrefixLabelTemplate="{StaticResourceÂ yPrefix}" />
+    <syncfusion:NumericalAxis FontSize="16" Minimum="0" Maximum="1000" PrefixLabelTemplate="{StaticResource yPrefix}" />
 
 </syncfusion:SfChart.SecondaryAxis>
 
@@ -1944,7 +1944,7 @@ chart.SecondaryAxis = new NumericalAxis()
 
 {% highlight xml %}
 
-Â <syncfusion:SfChart.PrimaryAxis>
+ <syncfusion:SfChart.PrimaryAxis>
 
       <syncfusion:DateTimeAxis LabelFormat="hh:mm tt" IntervalType="Hours" Interval="1" Header="Computer sales" />
 
@@ -2028,11 +2028,11 @@ Definition</th></tr>
 <tr>
 <td>
 HeaderStyle</td><td>
-Gets or sets the style for the axis header. The headerâ€™s {{'[`Foreground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_Foreground)'| markdownify }}, {{'[`FontSize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_FontSize)'| markdownify }} and {{'[`FontFamily`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_FontFamily)'| markdownify }} are customized using this property.</td></tr>
+Gets or sets the style for the axis header. The header’s {{'[`Foreground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_Foreground)'| markdownify }}, {{'[`FontSize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_FontSize)'| markdownify }} and {{'[`FontFamily`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_FontFamily)'| markdownify }} are customized using this property.</td></tr>
 <tr>
 <td>
 LabelStyle</td><td>
-Gets or sets the style for the axis labels. The labelâ€™s {{'[`Foreground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_Foreground)'| markdownify }}, {{'[`FontSize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_FontSize)'| markdownify }} and {{'[`FontFamily`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_FontFamily)'| markdownify }} are customized using this property.</td></tr>
+Gets or sets the style for the axis labels. The label’s {{'[`Foreground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_Foreground)'| markdownify }}, {{'[`FontSize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_FontSize)'| markdownify }} and {{'[`FontFamily`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.LabelStyle.html#Syncfusion_UI_Xaml_Charts_LabelStyle_FontFamily)'| markdownify }} are customized using this property.</td></tr>
 </table>
 
 {% tabs %}

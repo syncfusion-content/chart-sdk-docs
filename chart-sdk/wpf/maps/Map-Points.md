@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Point customization in WPF Maps | SyncfusionÂ®
+title: Point customization in WPF Maps | Syncfusion®
 description: Point customization in the WPF Maps display location-based data using markers, enabling visualization and interaction with geographic coordinates.
 platform: chart-sdk
 control: SfMap

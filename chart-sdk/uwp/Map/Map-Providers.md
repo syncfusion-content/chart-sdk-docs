@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Providers in UWP Maps | SyncfusionÂ®
+title: Providers in UWP Maps | Syncfusion®
 description: Providers in the UWP Maps supply map tile sources and geographic data, enabling visualization of locations and spatial information.
 platform: chart-sdk
 control: SfMap

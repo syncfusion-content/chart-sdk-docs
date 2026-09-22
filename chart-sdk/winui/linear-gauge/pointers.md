@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Pointers in WinUI Linear Gauge | SyncfusionÂ®
+title: Pointers in WinUI Linear Gauge | Syncfusion®
 description: Pointers in the WinUI Linear Gauge indicate values on the gauge scale and support multiple pointer types for effective data visualization.
 platform: chart-sdk
 control: SfLinearGauge

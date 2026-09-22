@@ -1,12 +1,12 @@
-﻿---
+---
 
 layout: post
-title: Data Label in WPF Sunburst Chart | SyncfusionÂ®
+title: Data Label in WPF Sunburst Chart | Syncfusion®
 description: Data labels in the WPF Sunburst Chart display segment values and information directly on the chart for improved readability.
 platform: chart-sdk
 control: SfSunburstChart 
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 
@@ -49,8 +49,8 @@ When you represent huge data with data labels, they may intersect each other. Yo
 
 The following modes are used to avoid the overlapping:
 
-* Trim â€“ To trim the large data labels.
-* Hide â€“ To hide the overlapped data labels.
+* Trim – To trim the large data labels.
+* Hide – To hide the overlapped data labels.
 
 The following code shows how to set Hide and Trim modes:
 

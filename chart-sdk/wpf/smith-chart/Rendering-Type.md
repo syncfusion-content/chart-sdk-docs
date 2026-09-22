@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Rendering Type in WPF Smith Chart | SyncfusionÂ®
+title: Rendering Type in WPF Smith Chart | Syncfusion®
 description: Rendering type in the WPF Smith Chart determines how series data is displayed, enabling different visualization styles and layouts.
 platform: chart-sdk
 control: SfSmithChart

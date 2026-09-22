@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Trendlines in UWP Charts | SyncfusionÂ®
+title: Trendlines in UWP Charts | Syncfusion®
 description: Trendlines in the UWP Chart display data trends and patterns using fitted lines, helping analyze and predict data behavior.
 platform: chart-sdk
 control: SfChart

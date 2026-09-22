@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Vertical Charts in UWP Charts | SyncfusionÂ®
+title: Vertical Charts in UWP Charts | Syncfusion®
 description: Vertical charts in the UWP Chart display series with transposed axes, enabling an alternative orientation for data visualization.
 platform: chart-sdk
 control: SfChart

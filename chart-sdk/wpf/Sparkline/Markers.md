@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Markers in WPF Sparkline | SyncfusionÂ®
+title: Markers in WPF Sparkline | Syncfusion®
 description: Markers in the WPF Sparkline highlight specific data points, making trends, values, and key points easier to identify and analyze.
 platform: chart-sdk
 control: SfSparkline

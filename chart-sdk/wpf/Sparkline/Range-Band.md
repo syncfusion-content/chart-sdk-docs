@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Range Band in WPF Sparkline | SyncfusionÂ®
+title: Range Band in WPF Sparkline | Syncfusion®
 description: Range band in the WPF Sparkline highlights a specified value range, helping emphasize thresholds, targets, and data variations.
 platform: chart-sdk
 control: SfSparkline

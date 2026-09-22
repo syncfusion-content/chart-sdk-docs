@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Layout in Windows Forms TreeMap | SyncfusionÂ®
+title: Layout in Windows Forms TreeMap | Syncfusion®
 description: Layout in the Windows Forms TreeMap controls how hierarchical data is arranged, supporting different layout algorithms for effective visualization.
 platform: chart-sdk
 control: TreeMap 

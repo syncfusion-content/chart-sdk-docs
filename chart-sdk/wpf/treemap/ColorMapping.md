@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Color Mapping in WPF TreeMap | SyncfusionÂ®
+title: Color Mapping in WPF TreeMap | Syncfusion®
 description: Color mapping in the WPF TreeMap applies colors to hierarchical data items based on values, improving visualization and data interpretation.
 platform: chart-sdk
 control: TreeMap

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Highlight Segment in WPF Sparkline | SyncfusionÂ®
+title: Highlight Segment in WPF Sparkline | Syncfusion®
 description: Highlight segment in the WPF Sparkline emphasizes specific data points or ranges with distinct styling for improved data visibility.
 platform: chart-sdk
 control: SfSparkline

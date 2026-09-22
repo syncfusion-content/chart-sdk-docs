@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Selection in WinUI Circular Chart | SyncfusionÂ®
+title: Selection in WinUI Circular Chart | Syncfusion®
 description: Selection in the WinUI Circular Chart enables users to highlight and interact with chart segments, supporting focused analysis and data exploration.
 platform: chart-sdk
 control: SfCircularChart

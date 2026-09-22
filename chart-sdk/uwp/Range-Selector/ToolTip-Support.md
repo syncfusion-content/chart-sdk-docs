@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip Support in UWP Range Selector | SyncfusionÂ®
+title: Tooltip Support in UWP Range Selector | Syncfusion®
 description: Tooltip support in the UWP Range Selector displays additional information for selected ranges and supports customization of tooltip content.
 platform: chart-sdk
 control: SfDateTimeRangeNavigator

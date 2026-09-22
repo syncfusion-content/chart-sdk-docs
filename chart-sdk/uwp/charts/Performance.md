@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Performance in UWP Charts | SyncfusionÂ®
+title: Performance in UWP Charts | Syncfusion®
 description: Performance in the UWP Chart provides optimized rendering, efficient memory usage, and smooth interaction for large datasets.
 platform: chart-sdk
 control: SfChart

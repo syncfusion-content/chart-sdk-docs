@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Appearance in WinUI Chart | SyncfusionÂ®
+title: Appearance in WinUI Chart | Syncfusion®
 description: Appearance in the WinUI Chart allows you to customize chart visuals using palettes, gradients, and styling options for enhanced presentation.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: appearance in winui chart, winui sfcartesianchart appearance, winui chart appearance customization, syncfusion winui chart appearance, winui sfcartesianchart appearance configuration.
 ---
 

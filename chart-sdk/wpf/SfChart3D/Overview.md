@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: About Syncfusion WPF 3D Chart control | SyncfusionÂ®
+title: About Syncfusion WPF 3D Chart control | Syncfusion®
 description: Learn about the introduction of Syncfusion Essential Studio WPF 3D Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfChart3D

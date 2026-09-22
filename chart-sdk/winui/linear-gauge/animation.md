@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Animation in WinUI Linear Gauge | SyncfusionÂ®
+title: Animation in WinUI Linear Gauge | Syncfusion®
 description: Animation in the WinUI Linear Gauge enables smooth transitions for gauge elements, enhancing data visualization and user experience.
 platform: chart-sdk
 control: SfLinearGauge

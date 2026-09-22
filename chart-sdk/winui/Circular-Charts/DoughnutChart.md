@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Doughnut Chart in WinUI Circular Chart | SyncfusionÂ®
+title: Doughnut Chart in WinUI Circular Chart | Syncfusion®
 description: Doughnut chart in the WinUI Circular Chart displays proportional data as segments in a ring, enabling clear comparison of category values.
 platform: chart-sdk
 control: SfCircularChart

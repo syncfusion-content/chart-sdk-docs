@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Interactive Popup in WPF Maps | SyncfusionÂ®
+title: Interactive Popup in WPF Maps | Syncfusion®
 description: Interactive popup in the WPF Maps displays additional information for map elements, enabling users to view detailed location-based data.
 platform: chart-sdk
 control: SfMap

@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: OHLC Chart in WinUI Chart | SyncfusionÂ®
+title: OHLC Chart in WinUI Chart | Syncfusion®
 description: OHLC chart in the WinUI Chart visualizes open, high, low, and close values, enabling analysis of financial and stock market data.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui ohlc chart, winui chart ohlc type, ohlc chart customization winui, syncfusion winui ohlc chart, winui cartesian ohlc visualization.
 ---
 

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Neck Width in WinUI Funnel Chart | SyncfusionÂ®
+title: Neck Width in WinUI Funnel Chart | Syncfusion®
 description: Neck width in the WinUI Funnel Chart controls the width of the funnel neck, enabling customization of chart appearance and data presentation.
 platform: chart-sdk
 control: SfFunnelChart

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to add labels for track ball in UWP Sparkline | SyncfusionÂ®
+title: How to add labels for track ball in UWP Sparkline | Syncfusion®
 description: Add labels for the track ball in the UWP Sparkline to display data values and customize label appearance during data interaction.
 platform: chart-sdk
 control: SfSparkline

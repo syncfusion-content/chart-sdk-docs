@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Title in WinUI Funnel Chart | SyncfusionÂ®
+title: Title in WinUI Funnel Chart | Syncfusion®
 description: Title in the WinUI Funnel Chart displays descriptive text for the chart and supports customization of content, style, and appearance.
 platform: chart-sdk
 control: SfFunnelChart

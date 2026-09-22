@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Trendlines in WPF Charts | SyncfusionÂ®
+title: Trendlines in WPF Charts | Syncfusion®
 description: Trendlines in the WPF Chart display data trends and patterns using fitted lines, helping analyze and predict data behavior.
 platform: chart-sdk
 control: SfChart

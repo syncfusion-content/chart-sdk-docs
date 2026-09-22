@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Accessibility in WPF TreeMap | SyncfusionÂ®
+title: Accessibility in WPF TreeMap | Syncfusion®
 description:  Accessibility in the WPF TreeMap enables keyboard navigation, screen reader support, and improved usability for all users.
 platform: chart-sdk
 control: TreeMap

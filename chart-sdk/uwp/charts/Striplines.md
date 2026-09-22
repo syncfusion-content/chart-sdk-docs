@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Striplines in UWP Charts | SyncfusionÂ®
+title: Striplines in UWP Charts | Syncfusion®
 description: Striplines in the UWP Chart highlight specific ranges or regions on an axis, helping emphasize important values and thresholds.
 platform: chart-sdk
 control: SfChart
@@ -213,7 +213,7 @@ chart.SecondaryAxis = axis;
 
 ![Stripline label rotation in UWP Chart](Striplines_images/stripline_4.png)
 
-N> Here, Start and Width of the label is adjusted based on the rotation angle. Stripline wonâ€™t adjust its range based on the stripline angle.
+N> Here, Start and Width of the label is adjusted based on the rotation angle. Stripline won’t adjust its range based on the stripline angle.
 
 ### Template support for the label
 

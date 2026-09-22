@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Measures in WPF Bullet Graph | SyncfusionÂ®
+title: Measures in WPF Bullet Graph | Syncfusion®
 description: Measures in the WPF Bullet Graph display actual values against targets, enabling performance comparison and progress evaluation.
 platform: chart-sdk
 control: SfBulletGraph

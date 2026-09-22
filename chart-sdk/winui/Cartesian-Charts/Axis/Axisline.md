@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Axis Line in WinUI Chart | SyncfusionÂ®
+title: Axis Line in WinUI Chart | Syncfusion®
 description: Axis line in the WinUI Chart defines the visual boundary of chart axes and supports customization of style, color, and appearance.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: axis line in winui chart, winui sfcartesianchart axis line, syncfusion winui chart axis line, customizing axis line in winui, winui sfcartesianchart axis line configuration.
 ---
 

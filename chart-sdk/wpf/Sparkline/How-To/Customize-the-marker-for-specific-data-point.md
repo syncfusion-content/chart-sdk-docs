@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to customize a data point marker in WPF Sparkline | SyncfusionÂ®
+title: How to customize a data point marker in WPF Sparkline | Syncfusion®
 description: Customize a data point marker in the WPF Sparkline to apply distinct styles and improve the visibility of specific data points.
 platform: chart-sdk
 control: SfSparkline

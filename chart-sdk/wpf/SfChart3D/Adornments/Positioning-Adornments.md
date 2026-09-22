@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Positioning Data Markers in WPF 3D Chart | SyncfusionÂ®
+title: Positioning Data Markers in WPF 3D Chart | Syncfusion®
 description: Positioning data markers in the WPF 3D Chart allows you to customize marker placement relative to data points for better visibility.
 platform: chart-sdk
 control: SfChart3D

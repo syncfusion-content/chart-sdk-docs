@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with WPF Bullet Graph | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® WPF Bullet Graph control. Explore setup, features, examples, and customization options.
+title: Getting Started with WPF Bullet Graph | Syncfusion®
+description: Learn how to get started with the Syncfusion® WPF Bullet Graph control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug

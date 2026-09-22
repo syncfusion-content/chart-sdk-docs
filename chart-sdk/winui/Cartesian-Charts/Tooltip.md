@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Tooltip in WinUI Chart | SyncfusionÂ®
+title: Tooltip in WinUI Chart | Syncfusion®
 description: Tooltip in the WinUI Chart displays detailed information about data points on hover and supports customization of content and appearance.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: tooltip in winui chart, winui sfcartesianchart tooltip, winui chart tooltip customization, syncfusion winui chart tooltip, winui sfcartesianchart tooltip settings.
 ---
 

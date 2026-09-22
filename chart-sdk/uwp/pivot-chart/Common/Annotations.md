@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Annotations in UWP Pivot Chart | SyncfusionÂ®
+title: Annotations in UWP Pivot Chart | Syncfusion®
 description: Annotations in the UWP Pivot Chart display custom content within the chart area and support flexible positioning for enhanced data visualization.
 platform: chart-sdk
 control: SfPivotChart

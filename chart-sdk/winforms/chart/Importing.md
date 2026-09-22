@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Importing in Windows Forms Chart | SyncfusionÂ®
+title: Importing in Windows Forms Chart | Syncfusion®
 description: Importing in the Windows Forms Chart enables chart data to be loaded from external sources for visualization and analysis.
 platform: chart-sdk
 control: Chart

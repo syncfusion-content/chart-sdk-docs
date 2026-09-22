@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Items Mapping in UWP HeatMap | SyncfusionÂ®
+title: Items Mapping in UWP HeatMap | Syncfusion®
 description: Items mapping in the UWP HeatMap enables data fields to be mapped to rows, columns, and values for effective heat map visualization.
 platform: chart-sdk
 control: SfHeatMap

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Drill Down Support in WPF TreeMap | SyncfusionÂ®
+title: Drill Down Support in WPF TreeMap | Syncfusion®
 description: Drill down support in the WPF TreeMap enables users to navigate hierarchical data levels for detailed analysis and data exploration.
 platform: chart-sdk
 control: TreeMap

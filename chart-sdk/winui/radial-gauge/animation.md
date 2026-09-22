@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Animation in WinUI Radial Gauge | SyncfusionÂ®
+title: Animation in WinUI Radial Gauge | Syncfusion®
 description: Animation in the WinUI Radial Gauge enables smooth transitions for gauge pointers and elements, enhancing data visualization and user experience.
 platform: chart-sdk
 control: SfRadialGauge

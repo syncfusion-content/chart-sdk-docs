@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Rendering Modes in WinUI Pyramid Chart | SyncfusionÂ®
+title: Rendering Modes in WinUI Pyramid Chart | Syncfusion®
 description: Rendering modes in the WinUI Pyramid Chart control how pyramid segments are displayed, enabling surface and linear visual representations of data.
 platform: chart-sdk
 control: SfPyramidChart

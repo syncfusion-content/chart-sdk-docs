@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Adornments in UWP Chart | SyncfusionÂ®
+title: Adornments in UWP Chart | Syncfusion®
 description: Adornments in the UWP Chart display additional information for data points and support customization of labels, symbols, and appearance.
 platform: chart-sdk
 control: SfChart

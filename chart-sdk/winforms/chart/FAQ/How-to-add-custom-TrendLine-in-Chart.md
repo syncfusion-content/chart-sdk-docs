@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to add a custom trendline in Windows Forms Chart | SyncfusionÂ®
+title: How to add a custom trendline in Windows Forms Chart | Syncfusion®
 description: Learn how to add a custom trendline in the Windows Forms Chart to analyze and visualize data trends.
 platform: windowsforms
 control: chart

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Annotation in WinUI Radial Gauge | SyncfusionÂ®
+title: Annotation in WinUI Radial Gauge | Syncfusion®
 description: Annotation in the WinUI Radial Gauge enables custom content to be positioned within the gauge, enhancing data presentation and visualization.
 platform: chart-sdk
 control: SfRadialGauge
@@ -14,15 +14,15 @@ The [`Radial axis`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gaug
 
 The following properties are available in [`Annotation`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html) to customize the position and alignment.
 
-* [`DirectionValue`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_DirectionValue) â€“  Specifies the value that indicates the direction of the annotation based on the [`DirectionUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_DirectionUnit) property. 
+* [`DirectionValue`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_DirectionValue) –  Specifies the value that indicates the direction of the annotation based on the [`DirectionUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_DirectionUnit) property. 
 
-* [`DirectionUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_DirectionUnit) â€“ Specifies the value that indicates the direction of the annotation to be calculated on the basis of [`Axis value`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.AnnotationDirection.html#Syncfusion_UI_Xaml_Gauges_AnnotationDirection_AxisValue) or [`Angle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.AnnotationDirection.html#Syncfusion_UI_Xaml_Gauges_AnnotationDirection_Angle).
+* [`DirectionUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_DirectionUnit) – Specifies the value that indicates the direction of the annotation to be calculated on the basis of [`Axis value`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.AnnotationDirection.html#Syncfusion_UI_Xaml_Gauges_AnnotationDirection_AxisValue) or [`Angle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.AnnotationDirection.html#Syncfusion_UI_Xaml_Gauges_AnnotationDirection_Angle).
 
-* [`PositionFactor`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_PositionFactor) â€“ Specifies the factor value (from 0 to 1) to adjust the annotation distance from the center point.
+* [`PositionFactor`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeAnnotation.html#Syncfusion_UI_Xaml_Gauges_GaugeAnnotation_PositionFactor) – Specifies the factor value (from 0 to 1) to adjust the annotation distance from the center point.
 
-* `HorizontalAlignment` â€“ Specifies the horizontal alignment for positioning the annotation.
+* `HorizontalAlignment` – Specifies the horizontal alignment for positioning the annotation.
 
-* `VerticalAlignment` â€“ Specifies the vertical alignment for positioning the annotation.
+* `VerticalAlignment` – Specifies the vertical alignment for positioning the annotation.
 
 {% tabs %}
 
@@ -216,7 +216,7 @@ Annotations provide options to add any image over the gauge control with respect
                             <Image Source="CloudDownload.png"
                                    Height="50"
                                    Width="60" />
-                            <TextBlock Text="73Â°F"
+                            <TextBlock Text="73°F"
                                        Grid.Row="1"
                                        FontSize="25"
                                        FontWeight="SemiBold"
@@ -268,7 +268,7 @@ Grid.SetRow(image, 0);
 grid.Children.Add(image);
 
 TextBlock textBlock = new TextBlock();
-textBlock.Text = "73Â°F";
+textBlock.Text = "73°F";
 textBlock.FontSize = 25;
 textBlock.FontWeight = FontWeights.SemiBold;
 textBlock.VerticalAlignment = VerticalAlignment.Top;

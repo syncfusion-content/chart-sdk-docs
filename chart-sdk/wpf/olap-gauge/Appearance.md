@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Appearance in WPF OLAP Gauge | SyncfusionÂ®
+title: Appearance in WPF OLAP Gauge | Syncfusion®
 description: Appearance in the WPF OLAP Gauge allows you to customize gauge elements, colors, styles, and visual settings for enhanced presentation. 
 platform: chart-sdk
 control: OLAP Gauge

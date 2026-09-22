@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Populate Data in WPF Maps | SyncfusionÂ®
+title: Populate Data in WPF Maps | Syncfusion®
 description: Populate data in the WPF Maps by binding geographic and business data sources to visualize location-based information effectively.
 platform: chart-sdk
 control: SfMap 

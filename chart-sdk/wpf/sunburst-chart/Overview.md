@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WPF Sunburst Chart control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WPF Sunburst Chart control, its features, capabilities, and more details.
+title: About Syncfusion® WPF Sunburst Chart control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® WPF Sunburst Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® WPF Sunburst Chart control
+# About Syncfusion® WPF Sunburst Chart control
 
 Sunburst Chart is useful for visualizing hierarchical data. The center circle represents the root level in the hierarchy, with outer circles representing higher levels of the hierarchy.
  

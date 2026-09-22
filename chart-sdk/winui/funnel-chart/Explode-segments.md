@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Explode Segments in WinUI Funnel Chart | SyncfusionÂ®
+title: Explode Segments in WinUI Funnel Chart | Syncfusion®
 description: Explode segments in the WinUI Funnel Chart emphasize individual or multiple chart segments for improved data visibility and analysis.
 platform: chart-sdk 
 control: SfFunnelChart

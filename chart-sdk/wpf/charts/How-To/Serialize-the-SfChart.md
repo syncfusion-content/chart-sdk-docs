@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to serialize the chart in WPF Chart | SyncfusionÂ®
+title: How to serialize the chart in WPF Chart | Syncfusion®
 description: Serialize and deserialize the WPF Chart to save and restore chart state, settings, and data across application sessions.
 platform: chart-sdk
 control: SfChart

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Ranges in WPF Linear Gauge | SyncfusionÂ®
+title: Ranges in WPF Linear Gauge | Syncfusion®
 description: Ranges in the WPF Linear Gauge highlight specific value intervals on the scale, helping visualize thresholds, targets, and data groups.
 platform: chart-sdk
 control: SfLinearGauge

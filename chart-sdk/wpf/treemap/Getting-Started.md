@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with WPF TreeMap | SyncfusionÂ®
-description:  Learn how to get started with the SyncfusionÂ® WPF TreeMap control. Explore setup, features, examples, and customization options.
+title: Getting Started with WPF TreeMap | Syncfusion®
+description:  Learn how to get started with the Syncfusion® WPF TreeMap control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: TreeMap
 documentation: ug

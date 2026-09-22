@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Items Mapping in WPF HeatMap | SyncfusionÂ®
+title: Items Mapping in WPF HeatMap | Syncfusion®
 description: Items mapping in the WPF HeatMap enables data fields to be mapped to rows, columns, and values for effective heat map visualization.
 platform: chart-sdk
 control: SfHeatMap

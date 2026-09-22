@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to filter data points in Windows Forms Chart | SyncfusionÂ®
+title: How to filter data points in Windows Forms Chart | Syncfusion®
 description: Learn how to filter specific data points in a Windows Forms Chart series and display only the required data for visualization.
 platform: windowsforms
 control: chart

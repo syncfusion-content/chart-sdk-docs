@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Scale Breaks in WPF Charts | SyncfusionÂ®
+title: Scale Breaks in WPF Charts | Syncfusion®
 description: Scale breaks in the WPF Chart skip specific value ranges on an axis, improving readability when displaying unevenly distributed data.
 platform: chart-sdk
 control: SfChart

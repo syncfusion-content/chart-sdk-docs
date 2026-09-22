@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Ticks in UWP Radial Gauge | SyncfusionÂ®
+title: Ticks in UWP Radial Gauge | Syncfusion®
 description: Ticks in the UWP Radial Gauge indicate scale intervals and support customization of size, position, style, and appearance settings.
 platform: chart-sdk
 control: SfCircularGauge

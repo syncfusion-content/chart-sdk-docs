@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Appearance in Windows Forms Smith Chart | SyncfusionÂ®
+title: Appearance in Windows Forms Smith Chart | Syncfusion®
 description: Appearance in the Windows Forms Smith Chart enables customization of chart visuals, colors, series styles, and display settings.
 platform: chart-sdk
 control: SfSmithChart
@@ -80,7 +80,7 @@ sfSmithChart1.Style.ChartAreaBorderWidth = 2
 
 ## Circle radius
 
-To change the diameter of the Smith chartâ€™s circle with respect to the plot area, use the [`Radius`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.SfSmithChart.html#Syncfusion_WinForms_SmithChart_SfSmithChart_Radius) property. It ranges from 0.1 to 1, and the default value is 0.95.
+To change the diameter of the Smith chart’s circle with respect to the plot area, use the [`Radius`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.SfSmithChart.html#Syncfusion_WinForms_SmithChart_SfSmithChart_Radius) property. It ranges from 0.1 to 1, and the default value is 0.95.
 
 {% tabs %}
 

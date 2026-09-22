@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Fast Line Series in WinUI Chart | SyncfusionÂ®
+title: Fast Line Series in WinUI Chart | Syncfusion®
 description: Fast Line Series in the WinUI Chart renders large volumes of line data efficiently, providing high performance and smooth visualization.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui fast line chart, winui sfcartesianchart, fast line chart, winui fast line chart customization, syncfusion winui fast line chart, fast line chart settings.
 ---
 

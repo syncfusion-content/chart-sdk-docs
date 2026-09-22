@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Bubble and Scatter Chart in WPF Charts | SyncfusionÂ®
+title: Bubble and Scatter Chart in WPF Charts | Syncfusion®
 description: Bubble and scatter series in the WPF Chart visualize relationships between data points using coordinates and variable-sized markers.
 platform: chart-sdk
 control: SfChart

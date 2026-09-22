@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Symbology Types in WinUI Barcode | SyncfusionÂ®
+title: Symbology Types in WinUI Barcode | Syncfusion®
 description: Symbology types in the WinUI Barcode support a wide range of one-dimensional and two-dimensional barcode formats for data encoding.
 platform: chart-sdk
 control: Barcode
@@ -90,7 +90,7 @@ All 128 ASCII characters
 {{'[Code 128B](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Barcode.Code128BBarcode.html)'| markdownify }}
 </td>
 <td>
-[0-9]; [A-Z]; [a-z]; [SPACE (0x20) ! " # $ % & ' ( ) * + , - . / :; &lt; = &gt; ? @ [ / ]^ _ `  { | } ~ DEL (â€¢) ]
+[0-9]; [A-Z]; [a-z]; [SPACE (0x20) ! " # $ % & ' ( ) * + , - . / :; &lt; = &gt; ? @ [ / ]^ _ `  { | } ~ DEL (•) ]
 </td>
 </tr>
 <tr>
@@ -338,7 +338,7 @@ The following table represents the supported two-dimensional barcode symbologies
 {{'[QR Barcode](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Barcode.QRBarcode.html)'| markdownify }}
 </td>
 <td>
-[0â€“9]; [Aâ€“Z (upper-case only)]; [space $ % * + - . / , :]; [Shift JIS characters]
+[0–9]; [A–Z (upper-case only)]; [space $ % * + - . / , :]; [Shift JIS characters]
 </td>
 </tr>
 <tr>

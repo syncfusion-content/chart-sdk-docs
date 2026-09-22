@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with UWP Charts control | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® UWP Charts control. Explore setup, features, examples, and customization options.
+title: Getting Started with UWP Charts control | Syncfusion®
+description: Learn how to get started with the Syncfusion® UWP Charts control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfChart
 documentation: ug
@@ -14,7 +14,7 @@ This section explains the steps required to populate the Chart with data, header
 
 ## Adding chart reference
 
-Refer this [article](https://help.syncfusion.com/uwp/add-syncfusion-controls) to know how to add SyncfusionÂ® controls in Visual Studio projects through various ways. You can also refer [this](https://help.syncfusion.com/uwp/control-dependencies) link to know about the assemblies required for adding Chart to your project. 
+Refer this [article](https://help.syncfusion.com/uwp/add-syncfusion-controls) to know how to add Syncfusion® controls in Visual Studio projects through various ways. You can also refer [this](https://help.syncfusion.com/uwp/control-dependencies) link to know about the assemblies required for adding Chart to your project. 
  
 ## Initialize chart
 
@@ -96,7 +96,7 @@ Run the project and check if you get the following output to make sure you have 
 
 ![Initializing UWP Chart](getting-started_images/uwp-chart-initializing.png)
 
-N> [`SfChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html) supports default axes, so that these axes ([`PrimaryAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_PrimaryAxis) and [`SecondaryAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_SecondaryAxis)) will get generated automatically based upon the data bound to the chart, if you didnâ€™t specify the axes explicitly. 
+N> [`SfChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html) supports default axes, so that these axes ([`PrimaryAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_PrimaryAxis) and [`SecondaryAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_SecondaryAxis)) will get generated automatically based upon the data bound to the chart, if you didn’t specify the axes explicitly. 
 
 ## Initialize view model
 
@@ -308,7 +308,7 @@ chart.Series.Add(series)
 
 {% endtabs %} 
 
-N> SyncfusionÂ® Chart also supports rendering combination of multiple series. Refer [`this`](https://help.syncfusion.com/chart-sdk/uwp/charts/area#multiple-area) for details.
+N> Syncfusion® Chart also supports rendering combination of multiple series. Refer [`this`](https://help.syncfusion.com/chart-sdk/uwp/charts/area#multiple-area) for details.
 
 ## Add title
 
@@ -326,7 +326,7 @@ The header of the chart acts as the title, to provide quick information to the u
 
 {% endhighlight %}
 
-{% highlight C# %}Â 
+{% highlight C# %} 
 
 chart.Header = "Chart";
 
@@ -361,13 +361,13 @@ You can add data labels to improve the readability of the chart and it can be en
 
 {% endhighlight %}
 
-{% highlight C# %}Â 
+{% highlight C# %} 
 
 series.AdornmentsInfo = new ChartAdornmentInfo (){ ShowLabel = true }; 
 
 {% endhighlight %}
 
-{% highlight VB %}Â 
+{% highlight VB %} 
 
 series.AdornmentsInfo = New ChartAdornmentInfo() With {.ShowLabel = True} 
 
@@ -398,15 +398,15 @@ You can enable legend using [`SfChart.Legend`](https://help.syncfusion.com/cr/uw
 
 {% endhighlight %}
 
-{% highlight C# %}Â 
+{% highlight C# %} 
 
-chart.LegendÂ =Â newÂ ChartLegendÂ (); 
+chart.Legend = new ChartLegend (); 
 
 {% endhighlight %}
 
-{% highlight VB %}Â 
+{% highlight VB %} 
 
-chart.LegendÂ =Â New ChartLegend () 
+chart.Legend = New ChartLegend () 
 
 {% endhighlight %}
 
@@ -431,7 +431,7 @@ Additionally, you need to set a label for each series using the [`Label`](https:
 
 {% endhighlight %}
 
-{% highlight C# %}Â 
+{% highlight C# %} 
 
 ColumnSeries series = new ColumnSeries (); 
 series.ItemsSource = (new ViewModel()).Data;
@@ -441,7 +441,7 @@ series.Label = "Heights";
 
 {% endhighlight %}
 
-{% highlight VB %}Â 
+{% highlight VB %} 
 
 Dim series As New ColumnSeries () 
 series.ItemsSource = New ViewModel().Data
@@ -476,7 +476,7 @@ Tooltips are used to show information about the segment, when you click on the s
 
 {% endhighlight %}
 
-{% highlight C# %}Â 
+{% highlight C# %} 
 
 ColumnSeries series = new ColumnSeries();
 series.ItemsSource = (new ViewModel()).Data;
@@ -486,7 +486,7 @@ series.ShowTooltip = true;
 
 {% endhighlight %}
 
-{% highlight VB %}Â 
+{% highlight VB %} 
 
 Dim series As New ColumnSeries () 
 series.ItemsSource = New ViewModel().Data
@@ -554,7 +554,7 @@ The following code example gives you the complete code of the above configuratio
  
 {% endhighlight %}
 
-{% highlight C# %}Â 
+{% highlight C# %} 
 
 using Syncfusion.UI.Xaml.Charts;
 

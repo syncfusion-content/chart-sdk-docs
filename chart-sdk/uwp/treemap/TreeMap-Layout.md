@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Layout in UWP TreeMap | SyncfusionÂ®
+title: Layout in UWP TreeMap | Syncfusion®
 description: Layout in the UWP TreeMap determines how hierarchical data items are arranged, enabling effective space utilization and visualization.
 platform: chart-sdk
 control: SfTreeMap

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Data Label in WPF Charts | SyncfusionÂ®
+title: Data Label in WPF Charts | Syncfusion®
 description: Data labels in the WPF Chart display data point values directly on the chart, improving readability and data interpretation.
 platform: chart-sdk
 control: SfChart

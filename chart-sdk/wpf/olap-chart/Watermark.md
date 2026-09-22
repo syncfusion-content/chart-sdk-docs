@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Watermark in WPF Olap Chart | SyncfusionÂ®
+title: Watermark in WPF Olap Chart | Syncfusion®
 description: Watermark in the WPF OLAP Chart adds background text or images to the chart area, helping customize and enhance chart visuals.
 platform: chart-sdk
 control: OLAP Chart

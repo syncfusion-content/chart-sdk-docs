@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip in UWP Pivot Chart | SyncfusionÂ®
+title: Tooltip in UWP Pivot Chart | Syncfusion®
 description: Tooltip in the UWP Pivot Chart displays detailed information about data points and supports customization of content and appearance.
 platform: chart-sdk
 control: SfPivotChart

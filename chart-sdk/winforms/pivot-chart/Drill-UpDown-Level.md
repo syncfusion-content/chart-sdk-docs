@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Drill Operations in Windows Forms Pivot Chart | SyncfusionÂ®
+title: Drill Operations in Windows Forms Pivot Chart | Syncfusion®
 description: Drill operations in the Windows Forms Pivot Chart enable users to expand and collapse hierarchical data levels for detailed analysis and exploration.
 platform: chart-sdk
 control: PivotChart

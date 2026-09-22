@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Theming in UWP Pivot Gauge | SyncfusionÂ®
+title: Theming in UWP Pivot Gauge | Syncfusion®
 description: Theming in the UWP Pivot Gauge applies built-in visual styles, enabling customization of gauge appearance and consistent user experiences.
 platform: chart-sdk
 control: SfPivotGauge

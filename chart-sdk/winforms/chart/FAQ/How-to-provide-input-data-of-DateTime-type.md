@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to Provide DateTime Input Data in Chart | SyncfusionÂ®
+title: How to Provide DateTime Input Data in Chart | Syncfusion®
 description: Learn how to provide DateTime input data in a Windows Forms Chart and display date-based values for chart visualization.
 platform: windowsforms
 control: chart
@@ -18,7 +18,7 @@ The Start Date and Time can be expressed using an instance of the DateTime class
 
 DateTime start = new DateTime(2006, 11, 1);
 
-ChartSeries series = new ChartSeries(â€œâ€);
+ChartSeries series = new ChartSeries(“”);
 
 series.Points.Add(start.AddDays(7), 363);
 
@@ -30,7 +30,7 @@ series.Points.Add(start.AddDays(14), 417);
 
 Dim start As DateTime = New DateTime(2006, 11, 1)
 
-ChartSeries series = Me.chartControl1.Model.NewSeries(â€œâ€)
+ChartSeries series = Me.chartControl1.Model.NewSeries(“”)
 
 series.Points.Add(start.AddDays(7), 363)
 

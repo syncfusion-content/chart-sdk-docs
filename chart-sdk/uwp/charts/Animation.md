@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Animation in UWP Chart | SyncfusionÂ®
+title: Animation in UWP Chart | Syncfusion®
 description: Animation in the UWP Chart enables smooth transitions for chart series and data points, enhancing data visualization and user experience.
 platform: chart-sdk
 control: SfChart

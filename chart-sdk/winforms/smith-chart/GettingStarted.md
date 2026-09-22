@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Getting Started with Windows Forms Smith Chart | SyncfusionÂ®
-description: Learn how to get started with the SyncfusionÂ® Windows Forms Smith Chart control. Explore setup, configuration, features, and customization options.
+title: Getting Started with Windows Forms Smith Chart | Syncfusion®
+description: Learn how to get started with the Syncfusion® Windows Forms Smith Chart control. Explore setup, configuration, features, and customization options.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug

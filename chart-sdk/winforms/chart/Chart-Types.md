@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Types in Windows Forms Chart | SyncfusionÂ®
+title: Types in Windows Forms Chart | Syncfusion®
 description: Types in the Windows Forms Chart provide multiple visualization options for presenting, comparing, and analyzing data effectively.
 platform: chart-sdk
 control: Chart
@@ -10,11 +10,11 @@ appliesto: UI Component Suite, Chart SDK
 
 # Types in Windows Forms Chart
 
-EssentialÂ® Chart includes a comprehensive set of more than 35 Chart types for all your business needs. Each one is highly and easily configurable with built-in support for creating stunning visual effects.
+Essential® Chart includes a comprehensive set of more than 35 Chart types for all your business needs. Each one is highly and easily configurable with built-in support for creating stunning visual effects.
 
 Chart types are specified on each [ChartSeries](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartSeries.html) through the [Type](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartSeries.html#Syncfusion_Windows_Forms_Chart_ChartSeries_Type) property. All the chart types are required to have at least one X and one Y value. Certain chart types need more than one Y value.
 
-The following table narrates the minimum and maximum number of series and number of Y values required by each type of chart supported by EssentialÂ® Chart.
+The following table narrates the minimum and maximum number of series and number of Y values required by each type of chart supported by Essential® Chart.
 
 <table>
 <tr>
@@ -235,7 +235,7 @@ The appearance of the lines and the points can be configured with options such a
 
 #### Chart Details
 
-Number of Y values per point â€“ 1.
+Number of Y values per point – 1.
 
 Number of Series - One or More.
 
@@ -298,7 +298,7 @@ The appearance of the lines and the points can be configured with options such a
 
 #### Chart Details
 
-Number of Y values per point â€“ 1.
+Number of Y values per point – 1.
 
 Number of Series - One or More.
 
@@ -373,7 +373,7 @@ The following image shows a sample Rotated Spline Chart.
 
 #### Chart Details
 
-Number of Y values per point â€“ 1.
+Number of Y values per point – 1.
 
 Number of Series - One or More.
 
@@ -501,7 +501,7 @@ Bar Charts are the simplest and most versatile of statistical diagrams. Displaye
 
 A very similar, more common, chart type is the Column Charts where the bars are rendered vertically.
 
-EssentialÂ® Chart supports these different types of Bar Charts:
+Essential® Chart supports these different types of Bar Charts:
 
 ### Bar Chart
 
@@ -983,7 +983,7 @@ Column Charts are among the most commonly used chart types. Displayed in vertica
 
 A very similar to the [Bar Charts](/windowsforms/chart/chart-types#bar-charts) type where the bars are rendered horizontal.
 
-EssentialÂ® Chart supports these different Column Charts.
+Essential® Chart supports these different Column Charts.
 
 ### Column Chart
 
@@ -1216,7 +1216,7 @@ Number of Y values per point - 1.
 
 Number of Series - Two or More.
 
-SupportMarker â€“ No.
+SupportMarker – No.
 
 Cannot be combined with - Doughnut, Pie, Bar, Stacked Bar charts, Polar, Radar, Pyramid, or Funnel.
 
@@ -1280,7 +1280,7 @@ Area Charts emphasize the degree of change of the values over a period of time. 
 
 There is support for alpha-blending multiple series areas. The look and feel is also easily customizable by the user.
 
-EssentialÂ® Chart supports these various types of Area Charts:
+Essential® Chart supports these various types of Area Charts:
 
 ### Area Chart
 
@@ -1365,7 +1365,7 @@ The following image shows a multi series Spline Area Chart.
 
 #### Chart Details
 
-Number of Y values per point â€“ 1.
+Number of Y values per point – 1.
 
 Number of Series - One or More.
 
@@ -1525,9 +1525,9 @@ This chart type displays multiple series of data as stacked areas ensuring that 
 
 Number of Y values per point - 1.
 
-Number of Series â€“ One.
+Number of Series – One.
 
-SupportMarker â€“ No.
+SupportMarker – No.
 
 Cannot be Combined with - Any other chart types.
 
@@ -1789,7 +1789,7 @@ Summary, Text, TextColor, TextFormat, TextOffset, TextOrientation, Visible.
 
 ## Accumulation Charts
 
-Accumulation charts are typically single series charts representing the data as portions of 100% and do not use any axes. EssentialÂ® Chart offers the two types of Accumulation charts.
+Accumulation charts are typically single series charts representing the data as portions of 100% and do not use any axes. Essential® Chart offers the two types of Accumulation charts.
 
 ### Funnel Chart
 
@@ -2163,7 +2163,7 @@ The following charts are a staple of analytical reports in the financial world. 
 
 The following charts cater to the above requirements and provide an easy-to-decipher picture of price action.
 
-Financial Chart types are supported in EssentialÂ® Chart.
+Financial Chart types are supported in Essential® Chart.
 
 ### Candle Chart
 
@@ -2244,7 +2244,7 @@ The Hi Lo Chart expects two y values to be specified in the series. One value sh
 
 #### Chart Details
 
-Number of Y values per point â€“ 2.
+Number of Y values per point – 2.
 
 Number of Series - One or More.
 
@@ -2908,7 +2908,7 @@ Summary, Text, TextColor, TextFormat, TextOffset, TextOrientation, Visible, Show
 
 ## Polar And Radar Chart
 
-EssentialÂ® chart supports the implementation of Polar and Radar charts in the chart control. These charts can be used to display different values and angles in the form of a graph.
+Essential® chart supports the implementation of Polar and Radar charts in the chart control. These charts can be used to display different values and angles in the form of a graph.
 
 ### Polar Chart
 
@@ -3057,7 +3057,7 @@ Summary, Text, TextColor, TextFormat, TextOffset, TextOrientation, Visible.
 
 ## Combination Chart
 
-Combination Charts refers to the ability to display multiple data series in the same chart with each series visualized using different chart types. In EssentialÂ® Chart, Chart types that are compatible with each other may be combined in the same Chart Area.
+Combination Charts refers to the ability to display multiple data series in the same chart with each series visualized using different chart types. In Essential® Chart, Chart types that are compatible with each other may be combined in the same Chart Area.
 
 Typically it is a combination of a Line chart and a Column chart, sharing a common x-axis but with separate y-axes, one on either side of the chart.
 

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Caption in WPF Bullet Graph | SyncfusionÂ®
+title: Caption in WPF Bullet Graph | Syncfusion®
 description: Caption in the WPF Bullet Graph displays descriptive text for the graph, helping users understand displayed metrics and data context.
 platform: chart-sdk
 control: SfBulletGraph

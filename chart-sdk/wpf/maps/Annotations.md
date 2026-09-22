@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Annotations in WPF Maps | SyncfusionÂ®
+title: Annotations in WPF Maps | Syncfusion®
 description: Annotations in the WPF Maps allow you to add custom text, shapes, and UI elements to provide additional map information.
 platform: chart-sdk
 control: SfMap

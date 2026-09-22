@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Tooltip in WPF Charts | SyncfusionÂ®
+title: Tooltip in WPF Charts | Syncfusion®
 description: Tooltip in the WPF Chart displays detailed information about data points on hover, helping users analyze chart data effectively.
 platform: chart-sdk
 control: SfChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Tooltip in WPF OLAP Gauge | SyncfusionÂ®
+title: Tooltip in WPF OLAP Gauge | Syncfusion®
 description: Tooltip in the WPF OLAP Gauge displays detailed information about gauge values on hover, helping users analyze data effectively.
 platform: chart-sdk
 control: OLAP Gauge

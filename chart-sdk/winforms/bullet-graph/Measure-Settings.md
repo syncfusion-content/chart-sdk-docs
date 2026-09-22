@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Measure Settings in Windows Forms Bullet Graph | SyncfusionÂ®
+title: Measure Settings in Windows Forms Bullet Graph | Syncfusion®
 description: Measure settings in the Windows Forms Bullet Graph enable configuration of featured and comparative measures for effective performance visualization.
 platform: chart-sdk
 control: Bullet Graph

@@ -1,16 +1,16 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® WinUI Circular Chart Control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® WinUI Circular Chart control, its features, capabilities, and more details.
+title: About Syncfusion® WinUI Circular Chart Control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® WinUI Circular Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® WinUI Circular Chart Control
+# About Syncfusion® WinUI Circular Chart Control
 
-SyncfusionÂ® [WinUI Circular Chart](https://www.syncfusion.com/winui-controls/charts) is used to create charts with beautiful UI visualization of data for high-quality WinUI applications.
+Syncfusion® [WinUI Circular Chart](https://www.syncfusion.com/winui-controls/charts) is used to create charts with beautiful UI visualization of data for high-quality WinUI applications.
 
 ![Circular Chart in WinUI Chart](Getting-Started_Images/winui_pie-chart-overview.png)
 

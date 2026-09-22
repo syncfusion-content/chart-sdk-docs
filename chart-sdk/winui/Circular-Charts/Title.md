@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Title in WinUI Circular Chart | SyncfusionÂ®
+title: Title in WinUI Circular Chart | Syncfusion®
 description: Title in the WinUI Circular Chart displays descriptive text for the chart and supports customization of content, style, and appearance.
 platform: chart-sdk
 control: SfCircularChart

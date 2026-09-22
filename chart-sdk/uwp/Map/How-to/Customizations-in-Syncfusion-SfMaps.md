@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to convert coordinates in UWP Maps | SyncfusionÂ®
+title: How to convert coordinates in UWP Maps | Syncfusion®
 description: Learn how to convert geographic coordinates to pixel positions and pixel points to latitude and longitude values in UWP Maps.
 platform: chart-sdk
 control: SfMaps

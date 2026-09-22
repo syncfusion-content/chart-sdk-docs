@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Orientation in WPF Bullet Graph | SyncfusionÂ®
+title: Orientation in WPF Bullet Graph | Syncfusion®
 description: Orientation in the WPF Bullet Graph allows you to display the graph in horizontal or vertical layouts based on application requirements.
 platform: chart-sdk
 control: SfBulletGraph

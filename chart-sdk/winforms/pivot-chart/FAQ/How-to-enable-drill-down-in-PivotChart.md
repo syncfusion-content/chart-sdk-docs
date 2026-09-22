@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to enable drill down in Windows Forms Pivot Chart | SyncfusionÂ®
+title: How to enable drill down in Windows Forms Pivot Chart | Syncfusion®
 description: Learn how to enable drill down functionality in the Windows Forms Pivot Chart using the AllowDrillDown property for interactive data exploration.
 platform: chart-sdk
 control: PivotChart

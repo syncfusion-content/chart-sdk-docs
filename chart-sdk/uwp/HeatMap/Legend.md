@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Legend in UWP HeatMap | SyncfusionÂ®
+title: Legend in UWP HeatMap | Syncfusion®
 description: Legend in the UWP HeatMap identifies data value ranges through color indicators, helping users interpret heat map data effectively.
 platform: chart-sdk
 control: SfHeatMap

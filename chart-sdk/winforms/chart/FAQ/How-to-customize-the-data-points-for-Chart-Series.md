@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to customize data points in Windows Forms Chart | SyncfusionÂ®
+title: How to customize data points in Windows Forms Chart | Syncfusion®
 description: Learn how to customize data points in a Windows Forms Chart series to control the appearance and rendering of chart data.
 platform: windowsforms
 control: chart

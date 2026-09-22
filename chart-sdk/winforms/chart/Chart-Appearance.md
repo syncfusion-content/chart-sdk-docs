@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Appearance in Windows Forms Chart | SyncfusionÂ®
+title: Appearance in Windows Forms Chart | Syncfusion®
 description: Appearance in the Windows Forms Chart enables customization of chart visuals, colors, styles, and display settings.
 platform: chart-sdk
 control: Chart
@@ -14,7 +14,7 @@ The following topics under this section discusses about various properties that 
 
 ## Background Colors
 
-EssentialÂ® Chart lets you customize the background colors of different portions of the chart.
+Essential® Chart lets you customize the background colors of different portions of the chart.
 
 ### Outside the Chart Area
 
@@ -727,7 +727,7 @@ Specifies how chart elements should be rendered. Possible values:<ul><li>AntiAli
 
 ## Custom Drawing
 
-EssentialÂ® Chart lets you render any data on the chart area. If the built-in features and functionality are not sufficient you can simply draw whatever you want on the chart surface.
+Essential® Chart lets you render any data on the chart area. If the built-in features and functionality are not sufficient you can simply draw whatever you want on the chart surface.
 
 You can do so by listening to the [ChartAreaPaint](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html#Syncfusion_Windows_Forms_Chart_ChartControl_ChartAreaPaint) event. This event is raised both when a chart is painted as well as when the chart is exported to other image formats, SVG, etc. Remember to do your custom drawing in this event instead of in the Paint event (which will not be called during chart export).
 
@@ -837,7 +837,7 @@ End Sub
 
 ## Watermark Support
 
-EssentialÂ® Chart supports watermark feature using which we can show text, image, or both as watermark inside the chart area. 
+Essential® Chart supports watermark feature using which we can show text, image, or both as watermark inside the chart area. 
 
 Below are the WaterMark properties with descriptions.
 
@@ -991,7 +991,7 @@ chartControl1.PrimaryXAxis.SmallTicksPerInterval = 1
 
 ## Chart Skins 
 
-Chart Control has some pre-defined skins, which can be controlled through a single property setting. EssentialÂ® Chart control allows the user to customize its appearance by applying pre-defined Interiors. 
+Chart Control has some pre-defined skins, which can be controlled through a single property setting. Essential® Chart control allows the user to customize its appearance by applying pre-defined Interiors. 
 
 Some of the available skins are:
 

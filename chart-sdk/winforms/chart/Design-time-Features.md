@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Design Time Features in Windows Forms Chart | SyncfusionÂ®
+title: Design Time Features in Windows Forms Chart | Syncfusion®
 description: Design time features in the Windows Forms Chart enable chart configuration, customization, and data setup through visual design tools.
 platform: chart-sdk
 control: Chart
@@ -136,7 +136,7 @@ Customize the appearance of the [ChartControl](https://help.syncfusion.com/cr/wi
 
 There are three tabs available in the wizard, for appearance settings.
 
-* **Color Palette** -EssentialÂ® Chart comes with a variety of built-in palettes. You can pick one of the palettes from the list and also get a preview of how the chart would look like. Note that you can also add a custom palette to the chart, but that has to be done in code.
+* **Color Palette** -Essential® Chart comes with a variety of built-in palettes. You can pick one of the palettes from the list and also get a preview of how the chart would look like. Note that you can also add a custom palette to the chart, but that has to be done in code.
 * **Border and Back Color** - Under this tab, the back color for the chart control as well as for the chart area can be set. The user can also set the Border color and Border style for the chart area. 
 * **Title** - This gives options to set the title for the chart control. Also the position, alignment and color of the title can be set.
 
@@ -243,7 +243,7 @@ Border Style - Here the user can set custom borders to the legend. The visibilit
 
 ## Chart Templates
 
-EssentialÂ® Chart provides support to save the series and point properties as XML file. This enables you to save the series and point properties into chart template and load the chart templates into the [Chart Control](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html) when needed. 
+Essential® Chart provides support to save the series and point properties as XML file. This enables you to save the series and point properties into chart template and load the chart templates into the [Chart Control](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html) when needed. 
 
 ### Use Case Scenarios
 
@@ -251,7 +251,7 @@ When you want to create charts with consistent look and feel, you can utilize th
 
 ### Working with Chart Template
 
-EssentialÂ® Chart is now associated with the creation and loading of chart templates into the [ChartControl](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html). It provides easy methods to save and load the templates. This section will walk you through the saving, loading and resetting of the chart templates and the various benefits of using it.
+Essential® Chart is now associated with the creation and loading of chart templates into the [ChartControl](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html). It provides easy methods to save and load the templates. This section will walk you through the saving, loading and resetting of the chart templates and the various benefits of using it.
 
 ### Benefits
 
@@ -297,7 +297,7 @@ ChartTemplate.Save(Me.chartControl1, "TemplateName.xml")
 
 ### Load Template
 
-EssentialÂ® Chart provides support to load the saved [Chart Template](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartTemplate.html) into a new chart control. This loads the series properties and the point properties, which was saved in a XML file and applies these properties into the new chart control.
+Essential® Chart provides support to load the saved [Chart Template](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartTemplate.html) into a new chart control. This loads the series properties and the point properties, which was saved in a XML file and applies these properties into the new chart control.
 
 * Selecting the **Load Template** from the context menu at the design time.
 * By clicking the **Load Template** designer verb in the Visual Studio property browser. 
@@ -378,7 +378,7 @@ ct.Reset(Me.chartControl1)
 
 **To view a sample:**
 
-1. Open the SyncfusionÂ® Dashboard.
+1. Open the Syncfusion® Dashboard.
 2. Select User Interface -> Windows Forms.
 3. Click Run Samples.
 4. Navigate to Chart samples -> User Interaction -> ChartSerialization. 

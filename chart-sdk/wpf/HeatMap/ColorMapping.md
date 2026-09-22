@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Color Mapping in WPF HeatMap | SyncfusionÂ®
+title: Color Mapping in WPF HeatMap | Syncfusion®
 description: Color mapping in the WPF HeatMap configures color ranges for data values, enabling effective visualization and interpretation of data patterns.
 platform: chart-sdk
 control: SfHeatMap

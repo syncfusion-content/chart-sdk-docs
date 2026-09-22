@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® Windows Forms TreeMap Control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® Windows Forms TreeMap control, its features, capabilities, and more details.
+title: About Syncfusion® Windows Forms TreeMap Control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® Windows Forms TreeMap control, its features, capabilities, and more details.
 platform: chart-sdk
 control: TreeMap 
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# About SyncfusionÂ® WinForms TreeMap Control
+# About Syncfusion® WinForms TreeMap Control
 
 ## Introduction
 
@@ -16,15 +16,15 @@ Tree maps are ideal for visualizing large amounts of data. The space in the visu
 
 ## Key Features
 
-* **Layouts** â€” Supports different layout types such as squarified and slice-and-dice for arranging leaf nodes.
-* **Data Binding** â€” Binds to collections of business objects with support for hierarchical data.
-* **Weight Value Path** â€” Binds the size of each rectangle to a specified property.
-* **Color Mapping** â€” Applies colors to nodes based on underlying values.
-* **Headers and Labels** â€” Customizes header text and node labels.
-* **Levels** â€” Displays hierarchical data through multiple levels of nested rectangles.
-* **Leaf Item Settings** â€” Controls the appearance of leaf nodes.
-* **Legend** â€” Displays a legend describing the color palette used in the WinForms TreeMap.
-* **ToolTip Support** â€” Shows tooltips on hover for additional node information.
+* **Layouts** — Supports different layout types such as squarified and slice-and-dice for arranging leaf nodes.
+* **Data Binding** — Binds to collections of business objects with support for hierarchical data.
+* **Weight Value Path** — Binds the size of each rectangle to a specified property.
+* **Color Mapping** — Applies colors to nodes based on underlying values.
+* **Headers and Labels** — Customizes header text and node labels.
+* **Levels** — Displays hierarchical data through multiple levels of nested rectangles.
+* **Leaf Item Settings** — Controls the appearance of leaf nodes.
+* **Legend** — Displays a legend describing the color palette used in the WinForms TreeMap.
+* **ToolTip Support** — Shows tooltips on hover for additional node information.
 
 ## Use Cases
 

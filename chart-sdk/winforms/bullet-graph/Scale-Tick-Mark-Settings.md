@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Scale Tick Mark Settings in Windows Forms Bullet Graph | SyncfusionÂ®
+title: Scale Tick Mark Settings in Windows Forms Bullet Graph | Syncfusion®
 description: Scale tick mark settings in the Windows Forms Bullet Graph enable customization of tick mark intervals, positioning, and appearance.
 platform: chart-sdk
 control: Bullet Graph

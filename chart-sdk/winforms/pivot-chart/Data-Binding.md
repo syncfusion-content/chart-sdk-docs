@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Data Binding in Windows Forms Pivot Chart | SyncfusionÂ®
+title: Data Binding in Windows Forms Pivot Chart | Syncfusion®
 description: Data binding in the Windows Forms Pivot Chart connects data sources to chart elements, enabling dynamic visualization and interactive analysis.
 platform: chart-sdk
 control: PivotChart

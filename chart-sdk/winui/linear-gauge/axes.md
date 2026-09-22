@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Axis in WinUI Linear Gauge | SyncfusionÂ®
+title: Axis in WinUI Linear Gauge | Syncfusion®
 description: Axis in the WinUI Linear Gauge defines the scale, ranges, intervals, and labels for accurate measurement and data visualization.
 platform: chart-sdk
 control: SfLinearGauge
@@ -176,9 +176,9 @@ this.Content = sfLinearGauge;
 
 The linear axis line can be customized using the following properties:
 
-* [`AxisLineStrokeThickness`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_AxisLineStrokeThickness) â€“ Customizes the thickness of the axis line.
-* [`AxisLineStroke`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_AxisLineStroke) â€“ Customizes the color of the axis line.
-* [`AxisLineStyle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_AxisLineStyle) â€“ Customizes the style of the axis line.
+* [`AxisLineStrokeThickness`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_AxisLineStrokeThickness) – Customizes the thickness of the axis line.
+* [`AxisLineStroke`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_AxisLineStroke) – Customizes the color of the axis line.
+* [`AxisLineStyle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_AxisLineStyle) – Customizes the style of the axis line.
 
 ### Axis line stroke thickness
 
@@ -268,11 +268,11 @@ this.Content = sfLinearGauge;
 
 The axis labels can be customized using the following properties:
 
-* [`Foreground`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_Foreground) â€“ Allows you to customize the color of the labels.
-* [`FontFamily`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_FontFamily) â€“ Allows you to specify the font family for labels.
-* [`FontStyle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_FontStyle) â€“ Allows you to specify the font style for labels.
-* [`FontWeight`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_FontWeight) â€“ Allows you to specify the font weight for labels.
-* [`FontSize`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_FontSize) â€“ Allows you to specify the font size for labels.
+* [`Foreground`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_Foreground) – Allows you to customize the color of the labels.
+* [`FontFamily`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_FontFamily) – Allows you to specify the font family for labels.
+* [`FontStyle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_FontStyle) – Allows you to specify the font style for labels.
+* [`FontWeight`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_FontWeight) – Allows you to specify the font weight for labels.
+* [`FontSize`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_FontSize) – Allows you to specify the font size for labels.
 
 {% tabs %}
 
@@ -465,13 +465,13 @@ this.Content = sfLinearGauge;
 
 The major and minor tick lines of an axis can be customized using the following properties:
 
-* [`MajorTickLength`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_MajorTickLength) â€“ Specifies the major length of ticks.
+* [`MajorTickLength`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_MajorTickLength) – Specifies the major length of ticks.
 
-* [`MinorTickLength`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_MinorTickLength) â€“ Specifies the minor length of ticks.
+* [`MinorTickLength`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_MinorTickLength) – Specifies the minor length of ticks.
 
-* [`MajorTickStyle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_MajorTickStyle) â€“ Allows you to specify the style for the major tick line.
+* [`MajorTickStyle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_MajorTickStyle) – Allows you to specify the style for the major tick line.
 
-* [`MinorTickStyle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_MinorTickStyle) â€“ Allows you to specify the style for the minor tick line.
+* [`MinorTickStyle`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearAxis.html#Syncfusion_UI_Xaml_Gauges_LinearAxis_MinorTickStyle) – Allows you to specify the style for the minor tick line.
 
 ### Tick length
 

@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Marker Customization in WPF Sparkline | SyncfusionÂ®
+title: Marker Customization in WPF Sparkline | Syncfusion®
 description: Marker customization in the WPF Sparkline allows you to modify marker appearance, styles, colors, and sizes for better data visualization.
 platform: chart-sdk
 control: SfSparkline

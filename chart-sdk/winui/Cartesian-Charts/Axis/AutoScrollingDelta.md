@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
-title: Auto Scrolling in WinUI Chart | SyncfusionÂ®
+title: Auto Scrolling in WinUI Chart | Syncfusion®
 description: Auto scrolling in the WinUI Chart automatically displays the latest data points within a specified range, enabling continuous data monitoring.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
+kappliesto: UI Component Suite, Chart SDK
 keywords: auto scrolling in winui chart, winui sfcartesianchart auto scrolling, winui chart auto scrolling customization, syncfusion winui chart auto scrolling, winui sfcartesianchart auto scrolling settings.
 ---
 

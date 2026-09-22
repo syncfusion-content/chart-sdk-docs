@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Bubble Markers in Windows Forms Maps | SyncfusionÂ®
+title: Bubble Markers in Windows Forms Maps | Syncfusion®
 description: Bubble markers in the Windows Forms Maps visualize bound data values and support customization of size, color, and appearance.
 platform: chart-sdk
 control: Maps
@@ -67,11 +67,11 @@ Gets or sets the fill brush of the bubble when auto fill color is set to true</t
 
 ## Adding bubbles
 
-To add bubbles to a map, the BubbleSetting has to be added to the ShapeFileLayer.Â Set the [`AutoFillColors`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_AutoFillColors) to false in the [`Fill`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_Fill) property. Also set the [`MaxSize`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_MaxSize), [`MinSize`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_MinSize), and [`ValuePath`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_ValuePath) properties as shown in the following code sample.
+To add bubbles to a map, the BubbleSetting has to be added to the ShapeFileLayer. Set the [`AutoFillColors`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_AutoFillColors) to false in the [`Fill`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_Fill) property. Also set the [`MaxSize`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_MaxSize), [`MinSize`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_MinSize), and [`ValuePath`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.BubbleSetting.html#Syncfusion_Windows_Forms_Maps_BubbleSetting_ValuePath) properties as shown in the following code sample.
 
 When the underlying bound value is below or above any of the given sorted range, then the fill is set as "Black".
 
-The `AutoFillColors` must be set to â€œFalseâ€ to enable range color mapping.
+The `AutoFillColors` must be set to “False” to enable range color mapping.
 
 {% tabs %}
 
@@ -213,7 +213,7 @@ Gets or sets the color values for a given From and To values</td></tr>
 </table>
 
 
-The fill color of a particular bubble can be determined by its under-bound value and color range. For example, consider the followingÂ colorÂ ranges in the below snippet.
+The fill color of a particular bubble can be determined by its under-bound value and color range. For example, consider the following color ranges in the below snippet.
 
 {% tabs %}
 

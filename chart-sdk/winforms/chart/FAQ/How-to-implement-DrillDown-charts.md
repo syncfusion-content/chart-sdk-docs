@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to implement drilldown in Windows Forms Chart | SyncfusionÂ®
+title: How to implement drilldown in Windows Forms Chart | Syncfusion®
 description: Learn how to implement drilldown charts in a Windows Forms Chart and navigate between chart levels to view detailed data.
 platform: windowsforms
 control: chart

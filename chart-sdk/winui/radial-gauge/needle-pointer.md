@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Needle Pointer in WinUI Radial Gauge | SyncfusionÂ®
+title: Needle Pointer in WinUI Radial Gauge | Syncfusion®
 description: Needle pointer in the WinUI Radial Gauge indicates values on the gauge scale and supports customization of style, size, and appearance.
 platform: chart-sdk
 control: SfRadialGauge
@@ -51,15 +51,15 @@ this.Content = sfRadialGauge;
 
 The needle can be customized using the following properties:
 
-* [`NeedleLength`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleLength) â€“ Customizes the length of the needle. The length of the pointer can be set either in pixels or factor.
+* [`NeedleLength`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleLength) – Customizes the length of the needle. The length of the pointer can be set either in pixels or factor.
 
-* [`NeedleLengthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleLengthUnit) â€“ Specifies whether to set the length in pixels or factor. 
+* [`NeedleLengthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleLengthUnit) – Specifies whether to set the length in pixels or factor. 
 
-* [`NeedleStartWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleStartWidth) â€“ Specifies the start width of the needle.
+* [`NeedleStartWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleStartWidth) – Specifies the start width of the needle.
 
-* [`NeedleEndWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleEndWidth) â€“ Specifies the end width of the needle.
+* [`NeedleEndWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleEndWidth) – Specifies the end width of the needle.
 
-* [`NeedleFill`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleFill) â€“ Specifies the needle color.
+* [`NeedleFill`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_NeedleFill) – Specifies the needle color.
 
 ### Needle length customization
 
@@ -233,15 +233,15 @@ this.Content = sfRadialGauge;
 
 The knob can be customized using the following properties:
 
-* [`KnobRadius`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobRadius) â€“ Specifies the knob radius either in pixels or factor.
+* [`KnobRadius`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobRadius) – Specifies the knob radius either in pixels or factor.
 
-* [`KnobFill`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobFill) â€“ Specifies the knob color.
+* [`KnobFill`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobFill) – Specifies the knob color.
 
-* [`KnobStrokeThickness`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobStrokeThickness) â€“ Specifies the width of the knob stroke outline of the knob either in pixels or factor.
+* [`KnobStrokeThickness`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobStrokeThickness) – Specifies the width of the knob stroke outline of the knob either in pixels or factor.
 
-* [`KnobStroke`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobStroke) â€“ Specifies the knob border color.
+* [`KnobStroke`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobStroke) – Specifies the knob border color.
 
-* [`KnobSizeUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobSizeUnit) â€“ Allows you to specify whether the value of the knob radius and border width is in pixels or in factor.
+* [`KnobSizeUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_KnobSizeUnit) – Allows you to specify whether the value of the knob radius and border width is in pixels or in factor.
 
 ### Knob radius customization
 
@@ -345,11 +345,11 @@ this.Content = sfRadialGauge;
 
 The tail of the needle can be customized using the following properties:
 
-* [`TailLength`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_TailLength) â€“ Specifies the length of the tail either in pixels or factor.
+* [`TailLength`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_TailLength) – Specifies the length of the tail either in pixels or factor.
 
-* [`TailLengthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_TailLengthUnit) â€“ Specifies whether the tail length value is defined in pixels or factor.
+* [`TailLengthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_TailLengthUnit) – Specifies whether the tail length value is defined in pixels or factor.
 
-* [`TailWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_TailWidth) â€“ Specifies the width for the tail.
+* [`TailWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_TailWidth) – Specifies the width for the tail.
 
 * [`TailFill`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.NeedlePointer.html#Syncfusion_UI_Xaml_Gauges_NeedlePointer_TailFill) -  Specifies the tail color.
 

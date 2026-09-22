@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® UWP Sparkline control | SyncfusionÂ®
-description: Learn about the introduction of Syncfusion Essential StudioÂ® UWP Sparkline control, its features, capabilities, and more details.
+title: About Syncfusion® UWP Sparkline control | Syncfusion®
+description: Learn about the introduction of Syncfusion Essential Studio® UWP Sparkline control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug

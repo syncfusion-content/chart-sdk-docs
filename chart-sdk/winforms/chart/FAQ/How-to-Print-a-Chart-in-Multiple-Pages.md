@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to print a charts in Windows Forms Chart | SyncfusionÂ®
+title: How to print a charts in Windows Forms Chart | Syncfusion®
 description: Learn how to print a Windows Forms Chart on multiple pages and configure chart printing across page boundaries.
 platform: windowsforms
 control: chart
@@ -72,7 +72,7 @@ if (!grayScale)
 
 {
 
-//Assigning the initial values of max and min to chart controlâ€™s maximum and minimum values
+//Assigning the initial values of max and min to chart control’s maximum and minimum values
 
 this.chartControl1.ChartArea.PrimaryXAxis.Range.Min = mi;
 
@@ -245,7 +245,7 @@ this.chartControl1.ChartArea.PrimaryXAxis.Range.Interval = Interval;
 
 Me.chartControl1.PrintDocument.PrintPage += New System.Drawing.Printing.PrintPageEventHandler(PrintDocument_PrintPage)
 
-â€˜â€™â€™/ PrintPage Event
+‘’’/ PrintPage Event
 
 Private Sub PrintDocument_PrintPage(ByVal sender As Object, ByVal e As System.Drawing.Printing.PrintPageEventArgs)
 
@@ -255,7 +255,7 @@ textBox1.Text = "20"
 
 End If
 
-â€˜â€™â€™/ Set the HasMorePages property to true for dividing the chart into Multiple pages
+‘’’/ Set the HasMorePages property to true for dividing the chart into Multiple pages
 
 e.HasMorePages = True  
 
@@ -263,7 +263,7 @@ Me.chartControl1.PrimaryXAxis.LabelIntersectAction = ChartLabelIntersectAction.W
 
 If max = 0.0 AndAlso mi = 0.0 Then
 
-â€˜â€™â€™/Initializing max and min range values
+‘’’/Initializing max and min range values
 
 max = Convert.ToDouble(textBox1.Text)
 
@@ -271,7 +271,7 @@ mi = 0
 
 End If
 
-â€˜â€™â€™/Get the Color mode
+‘’’/Get the Color mode
 
 Dim grayScale As Boolean = Me.chartControl1.PrintDocument.ColorMode = ChartPrintColorMode.GrayScale
 
@@ -290,11 +290,11 @@ grayScale = Me.chartControl1.PrintDocument.PrinterSettings.SupportsColor
 End If
 
 
-â€˜â€™â€™/Check the color mode of print
+‘’’/Check the color mode of print
 
 If Not grayScale Then
 
-â€˜â€™â€™/Assigning the initial values of max and min to chart control maximum and â€˜â€™â€™/minimum values
+‘’’/Assigning the initial values of max and min to chart control maximum and ‘’’/minimum values
 
 Me.chartControl1.ChartArea.PrimaryXAxis.Range.Min = mi
 
@@ -302,7 +302,7 @@ Me.chartControl1.ChartArea.PrimaryXAxis.Range.Max = max
 
 Me.chartControl1.ChartArea.PrimaryXAxis.Range.Interval = (Me.chartControl1.ChartArea.PrimaryXAxis.Range.Max - Me.chartControl1.ChartArea.PrimaryXAxis.Range.Min) / Me.chartControl1.ChartArea.PrimaryXAxis.Range.NumberOfIntervals
 
-â€˜â€™â€™/Modifying the maximum and minimum values
+‘’’/Modifying the maximum and minimum values
 
 mi = max
 
@@ -312,13 +312,13 @@ Dim container As GraphicsContainer = BeginTransform(e.Graphics)
 
 e.Graphics.ResetTransform()
 
-â€˜â€™â€™/Call the Draw method to draw the chart
+‘’’/Call the Draw method to draw the chart
 
 Me.chartControl1.Draw(e.Graphics, e.MarginBounds)
 
 EndTransform(e.Graphics, container)
 
-â€˜â€™/For Grayscale mode of print
+‘’/For Grayscale mode of print
 
 ElseIf grayScale Then
 
@@ -342,7 +342,7 @@ Me.chartControl1.Series(i).Style.Border.Color = Color.Black
 
 Me.chartControl1.Series(i).Style.Border.DashStyle = DirectCast(dash.GetValue(i Mod dash.Length), DashStyle)
 
-â€˜â€™â€™/Checking the chart type
+‘’’/Checking the chart type
 
 If Me.chartControl1.Series(i).Type = ChartSeriesType.Line OrElse Me.chartControl1.Series(i).Type = ChartSeriesType.Spline OrElse Me.chartControl1.Series(i).Type = ChartSeriesType.StepLine OrElse Me.chartControl1.Series(i).Type = ChartSeriesType.RotatedSpline Then
 
@@ -368,7 +368,7 @@ Using image As Image = New Bitmap(e.MarginBounds.Width, e.MarginBounds.Height)
 
 Using g As Graphics = Graphics.FromImage(image)
 
-â€˜â€™â€™/Assigning the initial values of max and min to chart control maximum and â€˜â€™â€™/minimum values
+‘’’/Assigning the initial values of max and min to chart control maximum and ‘’’/minimum values
 
 Me.chartControl1.ChartArea.PrimaryXAxis.Range.Min = mi
 
@@ -376,7 +376,7 @@ Me.chartControl1.ChartArea.PrimaryXAxis.Range.Max = max
 
 Me.chartControl1.ChartArea.PrimaryXAxis.Range.Interval = (Me.chartControl1.ChartArea.PrimaryXAxis.Range.Max - Me.chartControl1.ChartArea.PrimaryXAxis.Range.Min) / Me.chartControl1.ChartArea.PrimaryXAxis.Range.NumberOfIntervals
 
-â€˜â€™â€™/Modifying the maximum and minimum values
+‘’’/Modifying the maximum and minimum values
 
 mi = max
 
@@ -388,7 +388,7 @@ Dim stream As Stream = New MemoryStream()
 
 Dim file As New Metafile(stream, hdc)
 
-â€˜â€™â€™/Call the Draw method to draw the chart
+‘’’/Call the Draw method to draw the chart
 
 Me.chartControl1.Draw(file, image.Size)
 
@@ -418,7 +418,7 @@ Next
 
 End If
 
-â€˜â€™â€™/Checking Toolbar functionality of print
+‘’’/Checking Toolbar functionality of print
 
 If Not Me.chartControl1.PrintDocument.PrintToolBar Then
 
@@ -426,7 +426,7 @@ Me.chartControl1.ShowToolbar = toolBatVisibility
 
 End If
 
-â€˜â€™â€™/Redraws the chart 
+‘’’/Redraws the chart 
 
 Me.chartControl1.Redraw(True)
 
@@ -477,7 +477,7 @@ Sample Link
 
 ## To view a sample:
 
-1. Open the SyncfusionÂ® Dashboard.
+1. Open the Syncfusion® Dashboard.
 2. Click the Windows Forms drop-down list and select Run Locally Installed Samples.
 3. Navigate to Chart Samples -->Print -->Multiple Page Printing. 
 

@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: Orientation in Windows Forms Bullet Graph | SyncfusionÂ®
-description: Learn about Orientation support in SyncfusionÂ® Essential StudioÂ® Windows Forms Bullet Graph control and more details.
+title: Orientation in Windows Forms Bullet Graph | Syncfusion®
+description: Learn about Orientation support in Syncfusion® Essential Studio® Windows Forms Bullet Graph control and more details.
 platform: chart-sdk
 control: Bullet Graph
 documentation: ug

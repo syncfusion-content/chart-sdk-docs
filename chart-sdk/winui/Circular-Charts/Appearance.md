@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Appearance in WinUI Circular Chart | SyncfusionÂ®
+title: Appearance in WinUI Circular Chart | Syncfusion®
 description: Appearance in the WinUI Circular Chart allows you to customize chart visuals using palettes, gradients, and styling options for enhanced presentation.
 platform: chart-sdk
 control: SfCircularChart

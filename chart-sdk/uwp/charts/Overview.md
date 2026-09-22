@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
-title: About SyncfusionÂ® UWP Charts | SyncfusionÂ®
-description: Learn about introduction of Syncfusion Essential StudioÂ® UWP Chart control, its features, capabilities, and more details.
+title: About Syncfusion® UWP Charts | Syncfusion®
+description: Learn about introduction of Syncfusion Essential Studio® UWP Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfChart
 documentation: ug

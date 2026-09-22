@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Data Markers in UWP Smith Chart | SyncfusionÂ®
+title: Data Markers in UWP Smith Chart | Syncfusion®
 description: Data markers in the UWP Smith Chart highlight individual data points with customizable shapes and styles for improved visualization.
 platform: chart-sdk
 control: SfSmithChart

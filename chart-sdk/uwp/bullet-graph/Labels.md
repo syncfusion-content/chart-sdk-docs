@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Label Customization in UWP Bullet Graph | SyncfusionÂ®
+title: Label Customization in UWP Bullet Graph | Syncfusion®
 description: Learn Label Customization in UWP Bullet Graph using Syncfusion controls. It supports data operations, UI customization, and enterprise features.
 platform: chart-sdk
 control: SfBulletGraph

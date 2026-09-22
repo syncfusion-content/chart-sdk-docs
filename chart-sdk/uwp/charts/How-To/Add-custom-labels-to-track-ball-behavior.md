@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: How to add custom track ball labels in UWP Chart | SyncfusionÂ®
+title: How to add custom track ball labels in UWP Chart | Syncfusion®
 description: Add custom labels to track ball behavior in the UWP Chart to display customized information for data points during interaction.
 platform: chart-sdk
 control: SfChart
