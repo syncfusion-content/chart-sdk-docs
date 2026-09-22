@@ -5,6 +5,7 @@ description: Events in the WPF Maps enable you to respond to user interactions a
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Interaction Events in WPF Maps

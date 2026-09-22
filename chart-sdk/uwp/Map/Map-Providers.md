@@ -5,6 +5,7 @@ description: Providers in the UWP Maps supply map tile sources and geographic da
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Providers in UWP Maps

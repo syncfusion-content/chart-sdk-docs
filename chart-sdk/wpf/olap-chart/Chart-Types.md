@@ -5,6 +5,7 @@ description: Chart types in the WPF OLAP Chart provide multiple visualization op
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart Types in WPF Olap Chart

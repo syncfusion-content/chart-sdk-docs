@@ -5,6 +5,7 @@ description: Learn about the introduction of Syncfusion Essential Studio® WPF O
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion WPF Olap Chart control

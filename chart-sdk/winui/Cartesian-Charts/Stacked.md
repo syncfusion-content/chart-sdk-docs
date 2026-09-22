@@ -5,6 +5,7 @@ description: Stacked charts in the WinUI Chart display cumulative values across 
 platform: chart-sdk
 control: SfChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui stacked charts, winui sfcartesianchart, winui stacked charts customization, syncfusion winui stacked charts, winui sfcartesianchart stacked charts configuration, stackedcolum, stackedline, stackedarea.
 ---
 

@@ -5,6 +5,7 @@ description: Palettes in the WPF Surface Chart allow you to customize color sche
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Palettes in WPF Surface Chart 

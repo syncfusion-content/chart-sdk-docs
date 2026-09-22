@@ -5,6 +5,7 @@ description: Legend in the UWP Smith Chart identifies series and data categories
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in UWP Smith Chart

@@ -5,6 +5,7 @@ description: Adornments in the UWP Pivot Chart display additional information fo
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Adornments in UWP Pivot Chart
