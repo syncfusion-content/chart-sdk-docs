@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Pointers in WPF Radial Gauge | Syncfusion®
+title: Pointers in WPF Radial Gauge | SyncfusionÂ®
 description: Pointers in the WPF Radial Gauge indicate values on the gauge scale using different pointer types and customizable appearance settings.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in WPF Radial Gauge

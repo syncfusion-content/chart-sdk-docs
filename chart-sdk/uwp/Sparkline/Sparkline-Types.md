@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Sparkline Types in UWP Sparkline | Syncfusion®
+title: Sparkline Types in UWP Sparkline | SyncfusionÂ®
 description: Sparkline types in the UWP Sparkline provide multiple visualization options to represent trends, variations, and data patterns effectively.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Sparkline Types in UWP Sparkline

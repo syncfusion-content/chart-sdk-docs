@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Pointers in UWP Radial Gauge | Syncfusion®
+title: Pointers in UWP Radial Gauge | SyncfusionÂ®
 description: Pointers in the UWP Radial Gauge indicate values on the gauge scale using different pointer types and customizable appearance settings.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in UWP Radial Gauge

@@ -1,15 +1,16 @@
----
+﻿---
 layout: post
-title: Localization in UWP Pivot Chart | Syncfusion®
+title: Localization in UWP Pivot Chart | SyncfusionÂ®
 description: Localization in the UWP Pivot Chart enables chart content and user interface elements to be displayed in different languages and regional settings.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Localization in UWP Pivot Chart
 
-Localization is the key feature to provide software solutions targeted at global users. The UWP Pivot Chart allows users to localize the control to a specific locale and supports “resx” based localization.
+Localization is the key feature to provide software solutions targeted at global users. The UWP Pivot Chart allows users to localize the control to a specific locale and supports â€œresxâ€ based localization.
 
 You should perform the following steps to localize the control:
 
@@ -27,7 +28,7 @@ N> Localization key field should be same for all locales. Do not translate the k
 
 After translating the strings, perform the following steps in the application:
 
-1. Right-click the project file to create a new folder in the project by selecting Add > New Folder and rename the folder as “Resources”.
+1. Right-click the project file to create a new folder in the project by selecting Add > New Folder and rename the folder as â€œResourcesâ€.
 
 2. Then, right-click the **Resources** folder to create a new resource file by selecting Add > New Item.
 
@@ -35,7 +36,7 @@ After translating the strings, perform the following steps in the application:
 
 ![newResxFile_step2](Localization_images/newResxFile_step2.png)
 
-N> The resource file name should be in the format “&lt;Culture Code&gt;.resx”.
+N> The resource file name should be in the format â€œ&lt;Culture Code&gt;.resxâ€.
 
 3. Copy and paste the translated locale to the resource file which is created in the previous step.
 

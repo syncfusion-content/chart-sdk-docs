@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to add an image to Windows Forms Chart Area | Syncfusion®
+title: How to add an image to Windows Forms Chart Area | SyncfusionÂ®
 description: Learn how to add an image to the Windows Forms Chart area and display pictures such as logos within a chart.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add an image to Windows Forms Chart Area

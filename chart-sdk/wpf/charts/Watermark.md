@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Watermark in WPF Charts | Syncfusion®
+title: Watermark in WPF Charts | SyncfusionÂ®
 description: Watermark in the WPF Chart adds background text or images to the chart area, helping customize and brand chart visuals.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Watermark in WPF Charts

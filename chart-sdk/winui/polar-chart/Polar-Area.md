@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Area Chart in WinUI Polar Chart | Syncfusion®
+title: Area Chart in WinUI Polar Chart | SyncfusionÂ®
 description: Polar area chart in the WinUI Polar Chart visualizes data using filled radial areas, enabling comparison of values across categories and angles.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Area Chart in WinUI Polar Chart

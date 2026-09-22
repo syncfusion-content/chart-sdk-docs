@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Animation in WPF Charts | Syncfusion®
+title: Animation in WPF Charts | SyncfusionÂ®
 description: Animation in the WPF Chart provides smooth visual transitions for series rendering and data updates, improving user engagement.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in WPF Charts

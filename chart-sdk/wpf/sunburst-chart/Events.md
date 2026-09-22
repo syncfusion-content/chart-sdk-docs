@@ -1,11 +1,12 @@
----
+﻿---
 
 layout: post
-title: Events in WPF Sunburst Chart | Syncfusion®
+title: Events in WPF Sunburst Chart | SyncfusionÂ®
 description: Events in the WPF Sunburst Chart enable you to respond to user interactions and customize chart behavior during runtime.
 platform: chart-sdk
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

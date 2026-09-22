@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Data Binding in UWP Charts | Syncfusion®
+title: Data Binding in UWP Charts | SyncfusionÂ®
 description: Data binding in the UWP Chart connects chart series to data sources, enabling dynamic visualization and automatic data updates.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Binding in UWP Charts
@@ -82,14 +83,14 @@ public sealed partial class MainPage : Page
 
 ## Binding complex property to the chart
 
-The complex property binding feature enables you to access nested object reference property values to render the chart segment. 
+The complex property binding feature enables you to access nested object reference property values to render the chart segment.Â 
 {% tabs %}
 
 {% highlight xaml %}
 
-<syncfusion:LineSeries ItemsSource="{Binding DataWithMultipleData}" 
+<syncfusion:LineSeriesÂ ItemsSource="{BindingÂ DataWithMultipleData}"Â 
                        XBindingPath="StadiumObject.CupDetailsObj.CupName"
-                       YBindingPath="StadiumObject.NumberSeats" /> 
+                       YBindingPath="StadiumObject.NumberSeats" />Â 
 
 {% endhighlight %}
 

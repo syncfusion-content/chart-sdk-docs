@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to render KML in sub shape file layer for UWP Maps | Syncfusion®
+title: How to render KML in sub shape file layer for UWP Maps | SyncfusionÂ®
 description: Learn how to render KML shapes in a SubShapeFileLayer and configure KML files as embedded resources in UWP Maps.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to render KML shapes in sub shape file layer for UWP Maps

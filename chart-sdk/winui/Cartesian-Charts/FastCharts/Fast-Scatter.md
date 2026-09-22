@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Fast Scatter Series in WinUI Chart | Syncfusion®
+title: Fast Scatter Series in WinUI Chart | SyncfusionÂ®
 description: Fast Scatter Series in the WinUI Chart renders large volumes of scatter data efficiently, providing high performance and responsive visualization.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: winui fast scatter chart, winui sfcartesianchart, winui fast scatter chart customization, syncfusion winui fast scatter chart, fast scatter chart configuration.
 ---
 

@@ -1,24 +1,25 @@
----
+﻿---
 layout: post
-title: Area in UWP Chart | Syncfusion®
+title: Area in UWP Chart | SyncfusionÂ®
 description: Area in the UWP Chart displays data as filled regions between data points and the axis, emphasizing trends and value magnitude.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart area in UWP Chart
 
-Chart area represents the entire chart and all its elements. It’s a virtual rectangular area that includes all the chart elements like axis, legends, series etc. 
+Chart area represents the entire chart and all its elements. Itâ€™s a virtual rectangular area that includes all the chart elements like axis, legends, series etc. 
 
 The following are the major properties of UWP Charts:
 
-* [`PrimaryAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_PrimaryAxis) –  Gets or sets the horizontal x axis for the chart.
-* [`SecondaryAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_SecondaryAxis) –  Gets or sets the vertical y axis for the chart.
-* [`Legend`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Legend) –  Gets or sets the legend for the chart.
-* [`Series`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_Series) –  Gets or sets the list of series in the chart.
-* [`TechnicalIndicators`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_TechnicalIndicators) –  Gets or sets the various financial indicators for the chart.
-* [`Behaviors`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_Behaviors)–  Used to add one or more interactive features to the chart.
+* [`PrimaryAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_PrimaryAxis) â€“  Gets or sets the horizontal x axis for the chart.
+* [`SecondaryAxis`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_SecondaryAxis) â€“  Gets or sets the vertical y axis for the chart.
+* [`Legend`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartBase.html#Syncfusion_UI_Xaml_Charts_ChartBase_Legend) â€“  Gets or sets the legend for the chart.
+* [`Series`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_Series) â€“  Gets or sets the list of series in the chart.
+* [`TechnicalIndicators`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_TechnicalIndicators) â€“  Gets or sets the various financial indicators for the chart.
+* [`Behaviors`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html#Syncfusion_UI_Xaml_Charts_SfChart_Behaviors)â€“  Used to add one or more interactive features to the chart.
 * [`Area`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeries.html#Syncfusion_UI_Xaml_Charts_ChartSeries_Area) - Gets the instance of chart.
 
 ## Chart header
@@ -98,7 +99,7 @@ chart.Header = border;
 
 ![Header customization in UWP Charts](area_images/uwp-charts-area-header-customization.jpeg)
 
-N> Here, HorizontalHeaderAlignment is set as ‘Right’.
+N> Here, HorizontalHeaderAlignment is set as â€˜Rightâ€™.
 
 ## Area customization
 
@@ -141,7 +142,7 @@ chart.AreaBorderThickness = new Thickness(3);
 
 ## Multiple area 
 
-You can split plot area into multiple rows and columns using [`ChartRowDefinition`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartRowDefinition.html) and [`ChartColumnDefinition`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartColumnDefinition.html) like Grid panel’s row and column definition. 
+You can split plot area into multiple rows and columns using [`ChartRowDefinition`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartRowDefinition.html) and [`ChartColumnDefinition`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartColumnDefinition.html) like Grid panelâ€™s row and column definition. 
 
 The following code example demonstrates how you can create multiple panes in the chart area:
 
@@ -247,7 +248,7 @@ chart.Series.Add(columnSeries2);
 
 ## Column span and row span
 
-These can be used to specify the number of column or rows up to which the axis can extend. Same like Grid’s RowSpan or ColumnSpan property, it is also an attached property.
+These can be used to specify the number of column or rows up to which the axis can extend. Same like Gridâ€™s RowSpan or ColumnSpan property, it is also an attached property.
 
 You can set the row span in chart like the following code example.
 

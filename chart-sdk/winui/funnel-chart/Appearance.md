@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Appearance in WinUI Funnel Chart | Syncfusion®
+title: Appearance in WinUI Funnel Chart | SyncfusionÂ®
 description: Appearance in the WinUI Funnel Chart allows you to customize chart visuals using palettes, gradients, and styling options for enhanced presentation.
 platform: chart-sdk
 control: SfFunnelChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in WinUI Funnel Chart

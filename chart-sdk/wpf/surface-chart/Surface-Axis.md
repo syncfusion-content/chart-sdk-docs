@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Axis in WPF Surface Chart | Syncfusion®
+title: Axis in WPF Surface Chart | SyncfusionÂ®
 description: Axis in the WPF Surface Chart defines data scales, ranges, and coordinates for accurately displaying three-dimensional data.
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis in WPF Surface Chart

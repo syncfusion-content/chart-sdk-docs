@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Bar Chart in WinUI Chart | Syncfusion®
+title: Bar Chart in WinUI Chart | SyncfusionÂ®
 description: Bar chart in the WinUI Chart displays and compares values across categories using horizontal bars for clear data visualization.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: winui bar chart, winui sfcartesianchart, winui bar chart customization, syncfusion winui bar chart, winui bar chart settings.
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Fast Charts in WinUI Chart | Syncfusion®
+title: Fast Charts in WinUI Chart | SyncfusionÂ®
 description: Fast charts in the WinUI Chart provide high-performance rendering for large datasets, enabling responsive and efficient data visualization.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: fast charts in winui, fast charts, winui fast charts customization, syncfusion winui fast charts, winui sfcartesianchart.
 ---
 

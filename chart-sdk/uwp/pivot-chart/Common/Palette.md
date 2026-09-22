@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Palette in UWP Pivot Chart | Syncfusion®
+title: Palette in UWP Pivot Chart | SyncfusionÂ®
 description: Palette in the UWP Pivot Chart customizes series colors using predefined and custom color collections for enhanced data visualization.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Palette in UWP Pivot Chart

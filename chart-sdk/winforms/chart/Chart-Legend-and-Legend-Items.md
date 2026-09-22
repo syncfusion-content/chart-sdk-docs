@@ -1,15 +1,16 @@
----
+﻿---
 layout: post
-title: Legend in Windows Forms Chart | Syncfusion®
+title: Legend in Windows Forms Chart | SyncfusionÂ®
 description: Legend in the Windows Forms Chart identifies data series and chart elements, supporting customization, positioning, and display options.
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in Windows Forms Chart
 
-Essential® Chart by default displays a legend with information on each series that has been plotted on the chart.
+EssentialÂ® Chart by default displays a legend with information on each series that has been plotted on the chart.
 
 ![Chart Legend](Chart-Legend-and-Legend-Items_images/Chart-Legend-and-Legend-Items_img1.jpeg)
 
@@ -1048,9 +1049,9 @@ Me.chartControl1.Legend.Items(0).Type = ChartLegendItemType.None
 
 The ChartLegend items can be customized by using the ItemStyle property. The following properties are used to customize the legendItem.
 
-* ShowSymbol – Used to show the legend item symbol
-* Border – Used to modify the border color, width and etc
-* Symbol – Used to modify the shape, color and etc
+* ShowSymbol â€“ Used to show the legend item symbol
+* Border â€“ Used to modify the border color, width and etc
+* Symbol â€“ Used to modify the shape, color and etc
 
 {% highlight c# %}
 

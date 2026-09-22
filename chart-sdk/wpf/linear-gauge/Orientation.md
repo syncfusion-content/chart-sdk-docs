@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Orientation and its Customization in WPF Linear Gauge | Syncfusion®
+title: Orientation and its Customization in WPF Linear Gauge | SyncfusionÂ®
 description: Orientation and its Customization in the WPF Linear Gauge allows you to display the gauge in horizontal or vertical layouts based on application needs.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Orientation and its Customization in WPF Linear Gauge

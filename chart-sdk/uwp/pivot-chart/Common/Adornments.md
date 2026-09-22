@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Adornments in UWP Pivot Chart | Syncfusion®
+title: Adornments in UWP Pivot Chart | SyncfusionÂ®
 description: Adornments in the UWP Pivot Chart display additional information for data points and support customization of labels, symbols, and appearance.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Adornments in UWP Pivot Chart

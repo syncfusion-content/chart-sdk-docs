@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with WPF Barcode control | Syncfusion®
-description: Learn how to get started with the Syncfusion® WPF Barcode control. Explore setup, features, examples, and customization options.
+title: Getting Started with WPF Barcode control | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® WPF Barcode control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfBarcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WPF Barcode

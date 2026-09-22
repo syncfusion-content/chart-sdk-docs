@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Color Mapping in UWP HeatMap | Syncfusion®
+title: Color Mapping in UWP HeatMap | SyncfusionÂ®
 description: Color mapping in the UWP HeatMap configures color ranges for data values, enabling effective visualization and interpretation of data patterns.
 platform: chart-sdk
 control: SfHeatMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Color Mapping in UWP HeatMap

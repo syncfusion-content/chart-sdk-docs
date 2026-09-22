@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Interactivity in UWP Range Selector | Syncfusion®
+title: Interactivity in UWP Range Selector | SyncfusionÂ®
 description: Interactivity in the UWP Range Selector enables user interaction, range selection, navigation, and customization of selection behavior.
 platform: chart-sdk
 control: SfDateTimeRangeNavigator
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Interactivity in UWP Range Selector
 
@@ -73,7 +74,7 @@ The ZoomPosition and ZoomFactor of the chart axis can be bound with the UWP Rang
                    Foreground="Black"
                    FontFamily="Segoe UI"
                    Margin="0,0,0,20">
-            USD – INR Foreign Exchange Rate Analysis
+            USD â€“ INR Foreign Exchange Rate Analysis
         </TextBlock>
     </chart:SfChart.Header>
 
@@ -157,7 +158,7 @@ SfChart chart = new SfChart()
 {
     VerticalAlignment = VerticalAlignment.Bottom,
     AreaBorderThickness = new Thickness(1, 1, 1, 1),
-    Header = "USD – INR  Foreign Exchange Rate Analysis"
+    Header = "USD â€“ INR  Foreign Exchange Rate Analysis"
 };
 
 chart.PrimaryAxis = new CategoryAxis()
@@ -313,7 +314,7 @@ SfDateTimeRangeNavigator rangeNavigator = new SfDateTimeRangeNavigator()
 UWP Range Selector provides interactive features such as zooming and panning. The navigator has a resizable scrollbar which is used to zoom in a large amount of data and also helps to navigate to a particular timespan by moving the scrollbar.
 
 * [`EnableDeferredUpdate`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfDateTimeRangeNavigator.html#Syncfusion_UI_Xaml_Charts_SfDateTimeRangeNavigator_EnableDeferredUpdate)- Gets or sets a value that indicates whether to defer the ValueChanged notification.
-* [`ScrollbarVisibility`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfRangeNavigator.html#Syncfusion_UI_Xaml_Charts_SfRangeNavigator_ScrollbarVisibility) – Gets or sets a value indicating whether to enable or disable the scrollbar.
+* [`ScrollbarVisibility`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfRangeNavigator.html#Syncfusion_UI_Xaml_Charts_SfRangeNavigator_ScrollbarVisibility) â€“ Gets or sets a value indicating whether to enable or disable the scrollbar.
 * [`DeferredUpdateDelay`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfDateTimeRangeNavigator.html#Syncfusion_UI_Xaml_Charts_SfDateTimeRangeNavigator_DeferredUpdateDelay) - Gets or sets the delay value, when EnableDeferredUpdate is enabled.
 
 ![interactive](Interactivity_images/Interactivity_img4.jpeg)

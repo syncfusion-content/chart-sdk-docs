@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Key Features in UWP Digital Gauge | Syncfusion®
+title: Key Features in UWP Digital Gauge | SyncfusionÂ®
 description: Key features in the UWP Digital Gauge include customizable digital displays, segment styling, and flexible value presentation.
 platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Key Features in UWP Digital Gauge

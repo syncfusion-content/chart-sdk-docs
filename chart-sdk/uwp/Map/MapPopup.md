@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Interactive Popup in UWP Maps | Syncfusion®
+title: Interactive Popup in UWP Maps | SyncfusionÂ®
 description: Interactive popup in the UWP Maps displays additional information for map elements, enabling users to view detailed location-based data.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Interactive Popup in UWP Maps

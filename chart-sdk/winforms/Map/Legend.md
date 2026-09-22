@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Legend in Windows Forms Maps | Syncfusion®
+title: Legend in Windows Forms Maps | SyncfusionÂ®
 description: Legend in the Windows Forms Maps explains symbols, colors, and data categories, helping users interpret geographic information.
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in Windows Forms Maps
@@ -17,7 +18,7 @@ Legends are visible only by setting the [`ShowLegend`](https://help.syncfusion.c
 
 ## Legend position
 
-Map legends can be positioned by setting the `LegendPosition` property in ShapeFileLayer. Also, the legend can be positioned based on the margin values for the x and y axes with the help of the [`PositionX`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.LegendSettings.html#Syncfusion_Windows_Forms_Maps_LegendSettings_PositionX) and [`PositionY`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.LegendSettings.html#Syncfusion_Windows_Forms_Maps_LegendSettings_PositionY) properties available in ShapeFileLayer. For positioning the legend based on margins corresponding to a map, LegendPosition must be set to “Default”.
+Map legends can be positioned by setting theÂ `LegendPosition`Â property in ShapeFileLayer. Also, the legend can be positioned based on the margin values for the x and y axes with the help of theÂ [`PositionX`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.LegendSettings.html#Syncfusion_Windows_Forms_Maps_LegendSettings_PositionX)Â andÂ [`PositionY`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.LegendSettings.html#Syncfusion_Windows_Forms_Maps_LegendSettings_PositionY)Â properties availableÂ in ShapeFileLayer. For positioning the legend based on margins corresponding to a map, LegendPosition must be set to â€œDefaultâ€.
 
 <table>
 <tr>
@@ -45,7 +46,7 @@ Gets or sets the margin value for y axis.</td></tr>
 
 ## Legend header
 
-A header for the legend can be added by setting the `Title` property of string type.
+A header for the legend can be added by setting the `Title` property of stringÂ type.
 
 ## Categories of Legend 
 

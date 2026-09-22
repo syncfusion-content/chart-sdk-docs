@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Leaf Nodes Customization in Windows Forms TreeMap | Syncfusion®
+title: Leaf Nodes Customization in Windows Forms TreeMap | SyncfusionÂ®
 description: Customizing leaf nodes in the Windows Forms TreeMap enables personalization of node appearance, labels, colors, and visual elements.
 platform: chart-sdk
 control: TreeMap 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Leaf Nodes Customization in WinForms TreeMap

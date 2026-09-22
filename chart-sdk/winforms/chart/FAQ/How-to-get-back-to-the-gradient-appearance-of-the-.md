@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to restore gradient in Windows Forms Chart | Syncfusion®
+title: How to restore gradient in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to restore the gradient appearance of a chart series in a Windows Forms Chart and apply gradient styling to data points.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to restore gradient in Windows Forms Chart

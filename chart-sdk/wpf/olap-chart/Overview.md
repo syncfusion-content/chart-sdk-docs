@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: About Syncfusion® WPF Olap Chart control | Syncfusion®
-description: Learn about the introduction of Syncfusion Essential Studio® WPF OLAP Chart control, its features, capabilities, and more details.
+title: About SyncfusionÂ® WPF Olap Chart control | SyncfusionÂ®
+description: Learn about the introduction of Syncfusion Essential StudioÂ® WPF OLAP Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion WPF Olap Chart control

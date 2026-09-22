@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to display custom tooltips in Windows Forms Chart | Syncfusion®
+title: How to display custom tooltips in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to display custom tooltips for columns in a Windows Forms Histogram Chart and customize tooltip content for data points.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to display custom tooltips in Windows Forms Chart

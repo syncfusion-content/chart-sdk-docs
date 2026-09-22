@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Ranges in UWP Radial Gauge | Syncfusion®
+title: Ranges in UWP Radial Gauge | SyncfusionÂ®
 description: Ranges in the UWP Radial Gauge highlight specific value intervals on the gauge scale, helping visualize thresholds, targets, and data groups.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Ranges in UWP Radial Gauge
 

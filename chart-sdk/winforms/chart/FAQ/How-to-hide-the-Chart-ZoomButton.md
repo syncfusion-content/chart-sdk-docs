@@ -1,15 +1,16 @@
----
+﻿---
 layout: post
-title: How to hide the zoom button in Windows Forms Chart | Syncfusion®
+title: How to hide the zoom button in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to hide the chart zoom button in a Windows Forms Chart and customize the visibility of zooming controls.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to hide the zoom button in Windows Forms Chart
 
-Syncfusion® Chart provides a way to access the ZoomOutButton through the ScrollBar instance. In order to hide this Zoom button, if Visible property is set to false, ZoomButton will be disabled, but there will be an empty space. So instead of setting Visible property, we can set the ZoomButton size to be 0.
+SyncfusionÂ® Chart provides a way to access the ZoomOutButton through the ScrollBar instance. In order to hide this Zoom button, if Visible property is set to false, ZoomButton will be disabled, but there will be an empty space. So instead of setting Visible property, we can set the ZoomButton size to be 0.
 
 {% tabs %}
 

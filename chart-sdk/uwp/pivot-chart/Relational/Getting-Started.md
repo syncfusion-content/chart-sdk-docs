@@ -1,16 +1,17 @@
----
+﻿---
 layout: post
-title: Getting Started with UWP Pivot Chart | Syncfusion®
-description: Learn how to get started with the Syncfusion® UWP Pivot Chart control. Explore setup, configuration, features, and customization options.
+title: Getting Started with UWP Pivot Chart | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® UWP Pivot Chart control. Explore setup, configuration, features, and customization options.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with UWP Pivot Chart
 
 >**Important**
-Starting with v16.2.0.x, if you refer to Syncfusion® assemblies from trial setup or from the NuGet feed, include a license key in your projects. Refer to this [link](https://help.syncfusion.com/common/essential-studio/licensing/license-key) to learn about registering Syncfusion® license key in your UWP application to use the components.
+Starting with v16.2.0.x, if you refer to SyncfusionÂ® assemblies from trial setup or from the NuGet feed, include a license key in your projects. Refer to this [link](https://help.syncfusion.com/common/essential-studio/licensing/license-key) to learn about registering SyncfusionÂ® license key in your UWP application to use the components.
 
 This section explains the steps required to create a simple SfPivotChart control bound to relational data source such as IList, IEnumerable, etc.
 
@@ -32,7 +33,7 @@ The SfPivotChart control can be initialized and added to the application through
 
 Double-click the MainPage.xaml from the solution explorer to open it in the design view.
 
-Click the toolbox and drag the [`SfPivotChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.PivotChart.SfPivotChart.html) control from the “Syncfusion Controls for UWP XAML” group to drop it on the middle of the design canvas.
+Click the toolbox and drag the [`SfPivotChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.PivotChart.SfPivotChart.html) control from the â€œSyncfusion Controls for UWP XAMLâ€ group to drop it on the middle of the design canvas.
 
 Now, the SfPivotChart control is added to the designer as follows:
 

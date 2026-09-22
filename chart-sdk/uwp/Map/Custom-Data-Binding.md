@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Custom Data Binding in UWP Maps | Syncfusion®
+title: Custom Data Binding in UWP Maps | SyncfusionÂ®
 description: Custom data binding in the UWP Maps enables map elements to be connected with custom data sources for dynamic visualization and interaction.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Custom Data Binding in UWP Maps

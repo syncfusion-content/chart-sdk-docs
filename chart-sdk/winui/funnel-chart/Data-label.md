@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Data Label in WinUI Funnel Chart | Syncfusion®
+title: Data Label in WinUI Funnel Chart | SyncfusionÂ®
 description: Data labels in the WinUI Funnel Chart display values directly on chart segments and support customization of content, position, and appearance.
 platform: chart-sdk
 control: SfFunnelChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Label in WinUI Funnel Chart

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title:  Crosshair in WinUI Chart | Syncfusion®
+title:  Crosshair in WinUI Chart | SyncfusionÂ®
 description: Crosshair in the WinUI Chart displays precise axis values at pointer positions and supports customization for enhanced data analysis.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: crosshair in winui chart, winui sfcartesianchart crosshair, winui chart crosshair customization, syncfusion winui chart crosshair, winui sfcartesianchart crosshair settings.
 ---
 

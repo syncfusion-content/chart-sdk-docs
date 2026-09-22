@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: User Interactions in Windows Forms Maps | Syncfusion®
+title: User Interactions in Windows Forms Maps | SyncfusionÂ®
 description: User interactions in the Windows Forms Maps enable zooming, panning, selection, and interactive exploration of map data and elements.
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # User Interactions in Windows Forms Maps
@@ -146,7 +147,7 @@ All selected shapes are available in the [`SelectedMapShapes`](https://help.sync
 
 ### Single selection
 
-Single selection allows only one map shape to be selected at a time. The user can select the shape by tapping the shape. Single selection is enabled by setting the [`EnableSelection`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.ShapeFileLayer.html#Syncfusion_Windows_Forms_Maps_ShapeFileLayer_EnableSelection) property of ShapeFileLayer. If the EnableSelection property is set to true, the shapes can be selected. If it is set to false, the shapes cannot be selected. When any other shape or the map area is selected, the shape that has been already selected will be unselected.
+Single selection allows only one map shape to be selected at a time. The user can select the shape by tapping the shape. Single selection is enabled by setting the [`EnableSelection`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.ShapeFileLayer.html#Syncfusion_Windows_Forms_Maps_ShapeFileLayer_EnableSelection) property of ShapeFileLayer. If the EnableSelection property is set toÂ true,Â the shapes can be selected. If it is set toÂ false,Â the shapes cannot be selected. When any other shape or the map area is selected, the shape that has been already selected will be unselected.
 
 ### Multi selection
 

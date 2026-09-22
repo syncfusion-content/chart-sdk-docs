@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Types in WPF Surface Chart | Syncfusion®
+title: Types in WPF Surface Chart | SyncfusionÂ®
 description: Types in the WPF Surface Chart provide different rendering modes for visualizing three-dimensional data and surface variations.
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Types in WPF Surface Chart

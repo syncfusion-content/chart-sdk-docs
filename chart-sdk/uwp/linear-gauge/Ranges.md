@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Ranges in UWP Linear Gauge | Syncfusion®
+title: Ranges in UWP Linear Gauge | SyncfusionÂ®
 description: Ranges in the UWP Linear Gauge highlight specific value intervals on the scale, helping visualize thresholds, targets, and data groups.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ranges in UWP Linear Gauge

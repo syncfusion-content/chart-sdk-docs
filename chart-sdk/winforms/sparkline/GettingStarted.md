@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with Windows Forms Sparkline | Syncfusion®
-description: Learn how to get started with the Syncfusion® Windows Forms Sparkline control. Explore setup, data binding, features, and customization options.
+title: Getting Started with Windows Forms Sparkline | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® Windows Forms Sparkline control. Explore setup, data binding, features, and customization options.
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WinForms Sparkline
@@ -24,7 +25,7 @@ Find more details on how to install the NuGet packages in the Windows Forms appl
 
 To add the WinForms Sparkline to your form, follow these steps:
 
-1. Open your form in the designer. Add the Syncfusion® controls to your Visual Studio toolbox if you have not done it already (the installation would have automatically done this unless you selected not to complete the toolbox integration during installation).
+1. Open your form in the designer. Add the SyncfusionÂ® controls to your Visual Studio toolbox if you have not done it already (the installation would have automatically done this unless you selected not to complete the toolbox integration during installation).
 
 2. Drag the sparkline control from the toolbox and drop it into the form. The default appearance of the WinForms Sparkline will be rendered.
 

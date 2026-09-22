@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to draw custom series in Windows Forms Chart | Syncfusion®
+title: How to draw custom series in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to draw custom series in a Windows Forms Chart using ChartSeriesRenderer for custom chart rendering.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to draw custom series in Windows Forms Chart

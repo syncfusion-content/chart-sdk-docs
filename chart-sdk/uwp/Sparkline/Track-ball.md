@@ -1,19 +1,20 @@
----
+﻿---
 layout: post
-title: Trackball in UWP Sparkline | Syncfusion®
+title: Trackball in UWP Sparkline | SyncfusionÂ®
 description: Trackball in the UWP Sparkline displays data values at specific points, enabling precise inspection and analysis of chart data.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Trackball in UWP Sparkline
 
 This is used to indicate the value point on mouse move and this feature is applicable for line and area sparklines.
 
-* [`ShowTrackBall`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_ShowTrackBall) – Gets or sets the bool value whether to show the track ball.
-* [`TrackBallStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_TrackBallStyle) – Gets or sets the style for the track ball.
-* [`LineStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_LineStyle) – Gets or sets the style for the trackball line.
+* [`ShowTrackBall`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_ShowTrackBall) â€“ Gets or sets the bool value whether to show the track ball.
+* [`TrackBallStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_TrackBallStyle) â€“ Gets or sets the style for the track ball.
+* [`LineStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.MarkerBase.html#Syncfusion_UI_Xaml_Charts_MarkerBase_LineStyle) â€“ Gets or sets the style for the trackball line.
 
 **Show TrackBall**
 

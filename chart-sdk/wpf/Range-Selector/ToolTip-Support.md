@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Tooltip Support in WPF Range Selector | Syncfusion®
+title: Tooltip Support in WPF Range Selector | SyncfusionÂ®
 description: Tooltip support in the WPF Range Selector displays additional information for selected ranges and supports customization of tooltip content.
 platform: chart-sdk
 control: SfDateTimeRangeNavigator
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip Support in WPF Range Selector

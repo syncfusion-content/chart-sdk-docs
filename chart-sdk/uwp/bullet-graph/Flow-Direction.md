@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Flow Direction in UWP Bullet Graph | Syncfusion®
+title: Flow Direction in UWP Bullet Graph | SyncfusionÂ®
 description: Flow direction in the UWP Bullet Graph controls the layout orientation, enabling content to be displayed from left to right or right to left.
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Flow Direction in UWP Bullet Graph

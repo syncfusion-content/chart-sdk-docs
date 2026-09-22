@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Stacked Group Chart in WinUI Chart | Syncfusion®
+title: Stacked Group Chart in WinUI Chart | SyncfusionÂ®
 description: Stacked group chart in the WinUI Chart displays grouped and stacked data series, enabling comparison of totals and contributions across categories.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: stacked group chart in winui chart, winui stacked group chart customization, syncfusion winui stacked group chart, winui sfcartesianchart stacked group chart settings.
 ---
 

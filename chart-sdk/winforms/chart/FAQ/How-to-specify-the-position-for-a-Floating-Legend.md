@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to position a floating legend in Windows Forms Chart | Syncfusion®
+title: How to position a floating legend in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to specify the position of a floating legend in a Windows Forms Chart and place the legend at a custom location.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to position a floating legend in WinForms Chart

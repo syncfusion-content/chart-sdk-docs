@@ -1,19 +1,20 @@
----
+﻿---
 layout: post
-title: Range Band in UWP Sparkline | Syncfusion®
+title: Range Band in UWP Sparkline | SyncfusionÂ®
 description: Range band in the UWP Sparkline highlights a specified value range, helping emphasize thresholds, targets, and data variations.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Band in UWP Sparkline
 
 The range band feature is used to highlight the particular mentioned range along the Y axis.
 
-* [`BandRangeStart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SparklineBase.html#Syncfusion_UI_Xaml_Charts_SparklineBase_BandRangeStart) – Gets or sets the minimum range band value in Y axis.
-* [`BandRangeEnd`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SparklineBase.html#Syncfusion_UI_Xaml_Charts_SparklineBase_BandRangeEnd) – Gets or sets the maximum range band value in Y axis.
-* [`RangeBandBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SparklineBase.html#Syncfusion_UI_Xaml_Charts_SparklineBase_RangeBandBrush) – Gets or sets the brush for range band.
+* [`BandRangeStart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SparklineBase.html#Syncfusion_UI_Xaml_Charts_SparklineBase_BandRangeStart) â€“ Gets or sets the minimum range band value in Y axis.
+* [`BandRangeEnd`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SparklineBase.html#Syncfusion_UI_Xaml_Charts_SparklineBase_BandRangeEnd) â€“ Gets or sets the maximum range band value in Y axis.
+* [`RangeBandBrush`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SparklineBase.html#Syncfusion_UI_Xaml_Charts_SparklineBase_RangeBandBrush) â€“ Gets or sets the brush for range band.
 
 {% tabs %}
 

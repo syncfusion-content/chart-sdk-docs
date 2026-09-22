@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Label Customization in WPF Bullet Graph | Syncfusion®
+title: Label Customization in WPF Bullet Graph | SyncfusionÂ®
 description: Label customization in WPF Bullet Graph supports data operations, UI customization, and enterprise features.
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Label Customization in WPF Bullet Graph

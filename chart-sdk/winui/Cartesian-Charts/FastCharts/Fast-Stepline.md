@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Fast Step Line Series in WinUI Chart | Syncfusion®
+title: Fast Step Line Series in WinUI Chart | SyncfusionÂ®
 description: Fast Step Line Series in the WinUI Chart renders large volumes of stepped line data efficiently, providing high performance and smooth visualization.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: winui fast step line chart, winui sfcartesianchart, winui fast step line chart customization, syncfusion winui fast step line chart, fast step line chart settings.
 ---
 

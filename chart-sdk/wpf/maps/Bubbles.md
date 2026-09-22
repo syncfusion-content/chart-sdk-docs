@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Bubbles in WPF Maps | Syncfusion®
+title: Bubbles in WPF Maps | SyncfusionÂ®
 description: Bubbles in the WPF Maps visualize location-based data using proportional markers, enabling comparison of values across geographic regions.
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubble Markers in WPF Maps

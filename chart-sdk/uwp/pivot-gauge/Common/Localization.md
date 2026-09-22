@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Localization in UWP Pivot Gauge | Syncfusion®
+title: Localization in UWP Pivot Gauge | SyncfusionÂ®
 description: Localization in the UWP Pivot Gauge enables gauge content and user interface elements to be displayed in different languages and regional settings.
 platform: chart-sdk
 control: SfPivotGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Localization in UWP Pivot Gauge

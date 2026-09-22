@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Templates in UWP TreeMap | Syncfusion®
+title: Templates in UWP TreeMap | SyncfusionÂ®
 description: Templates in the UWP TreeMap customize item appearance using data templates and visual elements for enhanced data visualization.
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Templates in UWP TreeMap
@@ -181,7 +182,7 @@ Code Sample:
 
     <syncfusion:SfTreeMap ItemsSource="{Binding PopulationDetails}" 
                           WeightValuePath="Population"
-                          LeafLabelPath="Country” />
+                          LeafLabelPath="Countryâ€ />
 
 </Grid>
 	

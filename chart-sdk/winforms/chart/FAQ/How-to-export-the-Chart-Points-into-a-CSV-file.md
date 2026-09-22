@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to export chart points to CSV in Windows Forms Chart | Syncfusion®
+title: How to export chart points to CSV in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to export chart series data points to a CSV file in a Windows Forms Chart for data storage and further analysis.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to export chart points to CSV in Windows Forms Chart

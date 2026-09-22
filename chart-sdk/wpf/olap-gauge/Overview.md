@@ -1,13 +1,14 @@
----
+﻿---
 layout: post
-title: About Syncfusion® WPF OLAP Gauge Control | Syncfusion®
-description: Learn about the introduction of Syncfusion Essential Studio® WPF OLAP Gauge control, its features, capabilities, and more details.
+title: About SyncfusionÂ® WPF OLAP Gauge Control | SyncfusionÂ®
+description: Learn about the introduction of Syncfusion Essential StudioÂ® WPF OLAP Gauge control, its features, capabilities, and more details.
 platform: chart-sdk
 control: OLAP Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
-# About Syncfusion® WPF OLAP Gauge Control
+# About SyncfusionÂ® WPF OLAP Gauge Control
 
 The OLAP gauge control for WPF is ideal for highlighting business critical Key Performance Indicator (KPI) information in executive dashboards and report cards. It allows you to present values against goals in a very intuitive manner. Built-in data binding support allows you to easily bind a WPF OLAP Gauge to a KPI result from your OLAP database. The OLAP Gauge control with sophisticated customization support provides endless possibility for control customization.
 

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Header in WPF Radial Gauge | Syncfusion®
+title: Header in WPF Radial Gauge | SyncfusionÂ®
 description: Header in the WPF Radial Gauge displays a title for the gauge, providing context and helping users understand displayed values.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Header in WPF Radial Gauge
@@ -89,7 +90,7 @@ this.Content = sfCircularGauge;
 
 ## Setting alignment for the header
 
-The gauge header can be positioned by using the [`HeaderAlignment`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Gauges.SfCircularGauge.html#Syncfusion_UI_Xaml_Gauges_SfCircularGauge_HeaderAlignment) property. The default value of this property is `Left`.
+The gauge header can be positioned by using the [`HeaderAlignment`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Gauges.SfCircularGauge.html#Syncfusion_UI_Xaml_Gauges_SfCircularGauge_HeaderAlignment)Â property. The default value of this property is `Left`.
 
 It includes the following options:
 

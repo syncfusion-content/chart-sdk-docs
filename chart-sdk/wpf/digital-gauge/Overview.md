@@ -1,13 +1,14 @@
----
+﻿---
 layout: post
-title: About Syncfusion® WPF Digital Gauge Control | Syncfusion®
-description: Learn about the introduction of Syncfusion Essential Studio® WPF Digital Gauge control, its features, capabilities, and more details.
+title: About SyncfusionÂ® WPF Digital Gauge Control | SyncfusionÂ®
+description: Learn about the introduction of Syncfusion Essential StudioÂ® WPF Digital Gauge control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
-# About Syncfusion® WPF Digital Gauge Control
+# About SyncfusionÂ® WPF Digital Gauge Control
 
 The Digital Gauge control is used to display alphanumeric characters in digital (LED Display) mode. A digital gauge is used to display a range of values that use characters in combination with numbers. 
 

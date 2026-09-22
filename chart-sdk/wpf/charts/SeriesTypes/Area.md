@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Area Chart in WPF Charts | Syncfusion®
+title: Area Chart in WPF Charts | SyncfusionÂ®
 description: Area series in the WPF Chart displays data as filled regions between data points and the axis to emphasize trends and values.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Area Series in WPF Charts

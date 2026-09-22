@@ -1,15 +1,16 @@
----
+﻿---
 layout: post
-title: Getting Started with WPF Maps | Syncfusion®
-description: Learn how to get started with the Syncfusion® WPF Maps control. Explore setup, features, examples, and customization options.
+title: Getting Started with WPF Maps | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® WPF Maps control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WPF Maps
 
-This section explains the steps required to configure the [`SfMap`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) and add basic elements to it using various APIs.
+This section explains the steps required to configure theÂ [`SfMap`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) and add basic elements toÂ it using various APIs.
 
 ## Adding WPF Map reference
 
@@ -17,7 +18,7 @@ You can add WPF Map reference using one of the following methods:
 
 **Method 1: Adding WPF Map reference from nuget.org**
 
-Syncfusion WPF components are available in [`nuget.org`](https://www.nuget.org/). To add WPF Map to your project, open the NuGet package manager in Visual Studio, search for [Syncfusion.SfMaps.WPF](https://www.nuget.org/packages/Syncfusion.SfMaps.WPF), and then install it.
+Syncfusion WPF components are available in [`nuget.org`](https://www.nuget.org/). To add WPF Map to your project, open the NuGet package manager in Visual Studio, search forÂ [Syncfusion.SfMaps.WPF](https://www.nuget.org/packages/Syncfusion.SfMaps.WPF), and then install it.
 
 ![Adding WPF Map reference from NuGet](Getting-Started_images/Adding SfMaps reference.png)
 
@@ -31,7 +32,7 @@ If you prefer to manually reference the assemblies instead of referencing from N
 
 Location: {Installed location}/{version}/WPF/Assemblies
 
-You can refer to [this](https://help.syncfusion.com/wpf/control-dependencies#sfmaps) link to know about the assemblies required for adding map to your project.
+You can referÂ to [this](https://help.syncfusion.com/wpf/control-dependencies#sfmaps)Â link to know about the assemblies required for adding map to your project.
 
 ## Create SfMap control 
 
@@ -54,7 +55,7 @@ The SfMap control can also be created and configured by using Expression Blend. 
 1. Create a WPF project in Expression Blend and reference the following assemblies:
    1. Syncfusion.SfMaps.Wpf
    2. Syncfusion.Shared.Wpf
-2. Search for SfMap in the Toolbox.
+2. Search forÂ SfMapÂ in the Toolbox.
 3. Drag WPF Map to the designer. It generates the SfMap control with one child element.
 
 
@@ -148,7 +149,7 @@ All files must adhere to the 8.3 naming conventions. The Main file and dBase fil
 
 The main file (.shp) contains a fixed-length file header followed by the variable-length records. Each variable-length record is made up of a fixed-length record header followed by the variable-length record contents.  
 
-The dBase file (.dbf) contains any desired feature attributes or attribute keys, where other tables can be joined. Its format is a standard .dbf file used by many table-based applications in Windows™ and DOS.  Any set of fields can be present in the table.
+The dBase file (.dbf) contains any desired feature attributes or attribute keys, where other tables can be joined. Its format is a standard .dbf file used by many table-based applications in Windowsâ„¢ and DOS.  Any set of fields can be present in the table.
 
 For more information about the 8.3 naming convention, shape files and their descriptions, visit the following link:
 
@@ -158,7 +159,7 @@ Maps read the main file and create the map shapes. The associated .dbf file cont
 
 ## Attach the Shape file with Map
 
-To read the shape file using Map, the shape file’s main file and .dbf file need to be added as an embedded resource in the application project. Then, the main file’s path has to be given in the Uri file of the shape file layer.
+To read the shape file using Map, the shape fileâ€™s main file and .dbf file need to be added as an embedded resource in the application project. Then, the main fileâ€™s path has to be given in the Uri file of the shape file layer.
 
 ### About the Uri property
 

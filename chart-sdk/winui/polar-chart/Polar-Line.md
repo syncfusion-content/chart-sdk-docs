@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Line Chart in WinUI Polar Chart | Syncfusion®
+title: Line Chart in WinUI Polar Chart | SyncfusionÂ®
 description: Polar line chart in the WinUI Polar Chart visualizes data using radial lines, enabling comparison of values across categories and angular coordinates.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Line Chart in WinUI Polar Chart

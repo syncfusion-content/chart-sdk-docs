@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Legend in UWP TreeMap | Syncfusion®
+title: Legend in UWP TreeMap | SyncfusionÂ®
 description: Legend in the UWP TreeMap identifies color mappings and data categories, helping users understand hierarchical data relationships.
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in UWP TreeMap

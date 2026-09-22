@@ -1,11 +1,12 @@
----
+﻿---
 
 layout: post
-title: Data Label in UWP Sunburst Chart | Syncfusion®
+title: Data Label in UWP Sunburst Chart | SyncfusionÂ®
 description: Data labels in the UWP Sunburst Chart display segment values and information directly on the chart for improved readability.
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 
@@ -48,8 +49,8 @@ When you represent huge data with data labels, they may intersect each other. Yo
 
 The following properties are used to avoid the overlapping.
 
-* Trim – To trim the large data labels.
-* Hide – To hide the overlapped data labels.
+* Trim â€“ To trim the large data labels.
+* Hide â€“ To hide the overlapped data labels.
 
 The following code shows how to set Hide and Trim mode.
 

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: User Interactions in Windows Forms Smith Chart | Syncfusion®
+title: User Interactions in Windows Forms Smith Chart | SyncfusionÂ®
 description: User interactions in the Windows Forms Smith Chart enable selection, tooltips, and interactive exploration of chart data and elements.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # User Interactions in Windows Forms Smith Chart
 
@@ -33,7 +34,7 @@ sfSmithChart1.Series.Add(series)
 
 ## Tooltip format
 
-Tooltip’s format can be specified by using the [`TooltipFormat`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.ChartSeries.html#Syncfusion_WinForms_SmithChart_ChartSeries_TooltipFormat) property in the series.
+Tooltipâ€™s format can be specified by using the [`TooltipFormat`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.ChartSeries.html#Syncfusion_WinForms_SmithChart_ChartSeries_TooltipFormat) property in the series.
 
 ### Format details
 

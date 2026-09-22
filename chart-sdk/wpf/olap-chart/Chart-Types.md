@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Chart Types in WPF Olap Chart | Syncfusion®
+title: Chart Types in WPF Olap Chart | SyncfusionÂ®
 description: Chart types in the WPF OLAP Chart provide multiple visualization options to represent multidimensional data and analytical insights effectively.
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart Types in WPF Olap Chart

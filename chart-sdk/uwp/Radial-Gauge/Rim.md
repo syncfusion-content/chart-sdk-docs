@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Rim in UWP Radial Gauge | Syncfusion®
+title: Rim in UWP Radial Gauge | SyncfusionÂ®
 description: Rim in the UWP Radial Gauge customizes the outer boundary of the gauge, enhancing appearance and improving visual presentation.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Rim in UWP Radial Gauge
 

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Point customization in UWP Maps | Syncfusion®
+title: Point customization in UWP Maps | SyncfusionÂ®
 description: Point customization in the UWP Maps display location-based data using markers, enabling visualization and interaction with geographic coordinates.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Point customization in UWP Maps

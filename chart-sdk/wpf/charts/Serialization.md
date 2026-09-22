@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Serialization in WPF Charts | Syncfusion®
+title: Serialization in WPF Charts | SyncfusionÂ®
 description: Serialization in the WPF Chart enables chart state, settings, and data to be saved and restored across application sessions.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Serialization in WPF Charts

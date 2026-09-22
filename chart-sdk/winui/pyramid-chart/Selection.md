@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Selection in WinUI Pyramid Chart | Syncfusion®
+title: Selection in WinUI Pyramid Chart | SyncfusionÂ®
 description: Selection in the WinUI Pyramid Chart enables users to highlight and interact with chart segments, supporting single and multi-selection.
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection in WinUI Pyramid Chart

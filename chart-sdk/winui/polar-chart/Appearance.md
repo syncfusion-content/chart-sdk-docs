@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Appearance in WinUI Polar Chart | Syncfusion®
+title: Appearance in WinUI Polar Chart | SyncfusionÂ®
 description: Appearance in the WinUI Polar Chart allows you to customize chart visuals using palettes, gradients, and styling options for enhanced presentation.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in WinUI Polar Chart

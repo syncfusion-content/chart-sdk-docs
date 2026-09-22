@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Legend in WinUI Polar Chart | Syncfusion®
+title: Legend in WinUI Polar Chart | SyncfusionÂ®
 description: Legend in the WinUI Polar Chart identifies data series and chart elements, supporting customization of titles, labels, icons, and templates.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in WinUI Polar Chart

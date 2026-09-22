@@ -1,16 +1,17 @@
----
+﻿---
 layout: post
-title: Getting Started with Windows Forms Pivot Chart | Syncfusion®
-description: Learn how to get started with the Syncfusion® Windows Forms Pivot Chart control. Explore setup, configuration, features, and customization options.
+title: Getting Started with Windows Forms Pivot Chart | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® Windows Forms Pivot Chart control. Explore setup, configuration, features, and customization options.
 platform: chart-sdk
 control: PivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Windows Forms Pivot Chart
 
 >**Important**
-Starting with v16.2.0.x, if you refer to Syncfusion® assemblies from trial setup or from the NuGet feed, include a license key in your projects. Refer to this [link](https://help.syncfusion.com/common/essential-studio/licensing/overview) to learn about registering Syncfusion® license key in your Windows Forms application to use our components.
+Starting with v16.2.0.x, if you refer to SyncfusionÂ® assemblies from trial setup or from the NuGet feed, include a license key in your projects. Refer to this [link](https://help.syncfusion.com/common/essential-studio/licensing/overview) to learn about registering SyncfusionÂ® license key in your Windows Forms application to use our components.
 
 This section provides an overview for working with the pivot chart for WinForms. Go through the entire process of creating a simple pivot chart.
 
@@ -20,7 +21,7 @@ Refer to the [control dependencies](https://help.syncfusion.com/windowsforms/con
 
 ## Creating application with pivot chart
 
-This section explains how to add the pivot chart control through the designer, code, and Syncfusion® Reference Manager.
+This section explains how to add the pivot chart control through the designer, code, and SyncfusionÂ® Reference Manager.
 
 ### Adding control via designer
 
@@ -80,17 +81,17 @@ Me.Controls.Add(pivotChart1)
 {% endcapture %}
 {{ codesnippet1 | OrderList_Indent_Level_1 }}
 
-### Adding control via Syncfusion® reference manager
+### Adding control via SyncfusionÂ® reference manager
 
-[Syncfusion® reference manager](https://help.syncfusion.com/extension/syncfusion-reference-manager/overview) is a Visual Studio Add-In that helps to add Syncfusion® controls. The pivot chart control can be added through the Syncfusion® Reference Manager by following the given steps:
+[SyncfusionÂ® reference manager](https://help.syncfusion.com/extension/syncfusion-reference-manager/overview) is a Visual Studio Add-In that helps to add SyncfusionÂ® controls. The pivot chart control can be added through the SyncfusionÂ® Reference Manager by following the given steps:
 
 1. Create a new **Windows Forms Application** in Visual Studio.
 
-2. Then, right-click the project and select Syncfusion® Reference Manager.
+2. Then, right-click the project and select SyncfusionÂ® Reference Manager.
 
     ![WinForms PivotChart via Syncfusion reference manager](Getting-Started_images/GettingStarted_img3.png)
 
-3. The Syncfusion® Reference Manager wizard will be opened as follows.
+3. The SyncfusionÂ® Reference Manager wizard will be opened as follows.
 
     ![WinForms PivotChart reference manager wizard](Getting-Started_images/GettingStarted_img4.png)
 
@@ -129,7 +130,7 @@ Me.Controls.Add(pivotChart1)
 {% endtabs %}
 
 N>
-Syncfusion® reference manager supports for specific framework that is shipped (assemblies) in our Syncfusion Essential Studio® setup. So, if you try to add Syncfusion® assemblies in project and framework that is not supported with selected Syncfusion® version assemblies, then the dialog will be appeared by specifying that "Current build v{version} is not supported this framework v{Framework Version}".
+SyncfusionÂ® reference manager supports for specific framework that is shipped (assemblies) in our Syncfusion Essential StudioÂ® setup. So, if you try to add SyncfusionÂ® assemblies in project and framework that is not supported with selected SyncfusionÂ® version assemblies, then the dialog will be appeared by specifying that "Current build v{version} is not supported this framework v{Framework Version}".
 
 ## Binding data
 

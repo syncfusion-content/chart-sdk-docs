@@ -1,19 +1,20 @@
----
+﻿---
 layout: post
-title: Events in WPF Maps | Syncfusion®
+title: Events in WPF Maps | SyncfusionÂ®
 description: Events in the WPF Maps enable you to respond to user interactions and customize map behavior during runtime.
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Interaction Events in WPF Maps
 
-• [`ZoomedIn`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs whenever zooming in the map.  
-• [`ZoomedOut`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs when zooming out the map.
-• [`Panning`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs while panning the map.
-• [`Panned`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs after panning the map.
-• [`MapToolTipOpening`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs when any tooltip on the SfMap control is opened.
+â€¢ [`ZoomedIn`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs whenever zooming in the map.  
+â€¢ [`ZoomedOut`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs when zooming out the map.
+â€¢ [`Panning`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs while panning the map.
+â€¢ [`Panned`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs after panning the map.
+â€¢ [`MapToolTipOpening`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.SfMap.html) - Occurs when any tooltip on the SfMap control is opened.
 
 ### Tooltip opening event
 

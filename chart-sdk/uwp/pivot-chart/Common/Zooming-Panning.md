@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Zooming and Panning in UWP Pivot Chart | Syncfusion®
+title: Zooming and Panning in UWP Pivot Chart | SyncfusionÂ®
 description: Zooming and panning in the UWP Pivot Chart enable interactive navigation of data, allowing users to explore and analyze chart content in detail.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming and Panning in UWP Pivot Chart

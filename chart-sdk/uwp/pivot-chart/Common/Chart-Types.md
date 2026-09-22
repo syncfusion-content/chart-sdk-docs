@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Types in UWP Pivot Chart | Syncfusion®
+title: Types in UWP Pivot Chart | SyncfusionÂ®
 description: Types in the UWP Pivot Chart provide multiple visualization options for presenting and analyzing summarized data effectively.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Types in UWP Pivot Chart

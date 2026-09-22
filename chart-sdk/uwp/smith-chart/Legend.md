@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Legend in UWP Smith Chart | Syncfusion®
+title: Legend in UWP Smith Chart | SyncfusionÂ®
 description: Legend in the UWP Smith Chart identifies series and data categories, helping users understand and interpret chart information clearly.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in UWP Smith Chart

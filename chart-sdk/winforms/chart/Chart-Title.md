@@ -1,17 +1,18 @@
----
+﻿---
 layout: post
-title: Title in Windows Forms Chart | Syncfusion®
+title: Title in Windows Forms Chart | SyncfusionÂ®
 description: Title in the Windows Forms Chart displays descriptive text for charts and supports customization of content, alignment, and appearance.
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Title in Windows Forms Chart
 
 ## Default Title
 
-Essential® Chart's [Title](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html#Syncfusion_Windows_Forms_Chart_ChartControl_Title) property lets you edit the default title for a chart. We can set font style for the title using [Title.Font](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartTitle.html#Syncfusion_Windows_Forms_Chart_ChartTitle_Font) property. The default value is **Verdana, 14, Regular**.
+EssentialÂ® Chart's [Title](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartControl.html#Syncfusion_Windows_Forms_Chart_ChartControl_Title) property lets you edit the default title for a chart. We can set font style for the title using [Title.Font](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Chart.ChartTitle.html#Syncfusion_Windows_Forms_Chart_ChartTitle_Font) property. The default value is **Verdana, 14, Regular**.
 
 {% tabs %}
 

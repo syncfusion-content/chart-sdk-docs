@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Shape Labels in WPF Maps | Syncfusion®
+title: Shape Labels in WPF Maps | SyncfusionÂ®
 description: Shape labels in the WPF Maps display text for geographic regions, helping users identify and interpret location-based data clearly.
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Labels in WPF Maps

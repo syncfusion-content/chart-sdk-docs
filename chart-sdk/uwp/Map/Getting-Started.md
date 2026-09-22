@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with UWP Maps | Syncfusion®
-description: Learn how to get started with the Syncfusion® UWP Maps control. Explore setup, features, examples, and customization options.
+title: Getting Started with UWP Maps | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® UWP Maps control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with UWP Maps
@@ -126,7 +127,7 @@ The main file (.shp) contains a fixed-length file header followed by the variabl
 
 The index file (.shx) contains a 100-byte header followed by 8-byte, fixed-length records.
 
-The dBase file (.dbf) contains any desired feature attributes or attribute keys to which other tables can be joined. Its format is a standard `.dbf` file used by many table-based applications in Windows™ and DOS. Any set of fields can be present in the table.
+The dBase file (.dbf) contains any desired feature attributes or attribute keys to which other tables can be joined. Its format is a standard `.dbf` file used by many table-based applications in Windowsâ„¢ and DOS. Any set of fields can be present in the table.
 
 For more information about the 8.3 naming convention, shape files and their descriptions, visit the following link:
 

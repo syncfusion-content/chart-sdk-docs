@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: XAML Configuration in WPF Olap Chart | Syncfusion®
+title: XAML Configuration in WPF Olap Chart | SyncfusionÂ®
 description: XAML configuration in the WPF OLAP Chart enables chart elements, data settings, and behaviors to be defined declaratively in XAML.
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # XAML Configuration in WPF Olap Chart

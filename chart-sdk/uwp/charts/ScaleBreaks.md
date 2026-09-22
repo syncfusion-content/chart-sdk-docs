@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Scale Breaks in UWP Charts | Syncfusion®
+title: Scale Breaks in UWP Charts | SyncfusionÂ®
 description: Scale breaks in the UWP Chart skip specific value ranges on an axis, improving readability when displaying unevenly distributed data.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Scale Breaks in UWP Charts
 

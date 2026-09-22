@@ -1,15 +1,16 @@
----
+﻿---
 layout: post
-title: About Syncfusion® Windows Forms Gauge Control | Syncfusion®
-description: Learn about the introduction of Syncfusion Essential Studio® Windows Forms Gauge control, its features, capabilities, and more details.
+title: About SyncfusionÂ® Windows Forms Gauge Control | SyncfusionÂ®
+description: Learn about the introduction of Syncfusion Essential StudioÂ® Windows Forms Gauge control, its features, capabilities, and more details.
 platform: chart-sdk
 control: Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
-# About Syncfusion® Windows Forms Gauge Control
+# About SyncfusionÂ® Windows Forms Gauge Control
 
-The Gauge control for Windows Forms is a data visualization tool that can be used to display several data points or data ranges in a precise and compact area. The data displayed in the control can be quickly understood by the user. Syncfusion’s Windows Forms library enables users to configure the Gauge control through C# codes. The Gauge control comes with sophisticated customization support.
+The Gauge control for Windows Forms is a data visualization tool that can be used to display several data points or data ranges in a precise and compact area. The data displayed in the control can be quickly understood by the user. Syncfusionâ€™s Windows Forms library enables users to configure the Gauge control through C# codes. The Gauge control comes with sophisticated customization support.
 
 The Gauge control is intended for developers who want to use gauges in their Windows Forms applications. It is a very useful control to indicate the current value in a range of values.
 

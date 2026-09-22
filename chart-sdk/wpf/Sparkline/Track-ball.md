@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Trackball in WPF Sparkline | Syncfusion®
+title: Trackball in WPF Sparkline | SyncfusionÂ®
 description: Trackball in the WPF Sparkline displays data values at specific points, enabling precise inspection and analysis of chart data.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Trackball in WPF Sparkline

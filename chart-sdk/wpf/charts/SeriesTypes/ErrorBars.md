@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: ErrorBar Chart in WPF Charts | Syncfusion®
+title: ErrorBar Chart in WPF Charts | SyncfusionÂ®
 description: Error bars in the WPF Chart represent data variability and uncertainty, helping users analyze ranges, deviations, and accuracy.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # ErrorBar in WPF Charts
@@ -166,9 +167,9 @@ chart.Series.Add(errorBar);
 
 [`HorizontalDirection`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ErrorBarSeries.html#Syncfusion_UI_Xaml_Charts_ErrorBarSeries_HorizontalDirection) property of [`ErrorBarSeries`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ErrorBarSeries.html) allows you to view the horizontal error value in the following type of directions:
 
- * [`Both`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html) – It indicates the actual data point value along with specific amount of positive and negative error values.
- * [`Minus`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html) – It indicates the actual data point value along with specific amount of negative error value.
- * [`Plus`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html) – It indicates the actual data point value along with specific amount of positive error value.
+ * [`Both`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html) â€“ It indicates the actual data point value along with specific amount of positive and negative error values.
+ * [`Minus`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html) â€“ It indicates the actual data point value along with specific amount of negative error value.
+ * [`Plus`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html) â€“ It indicates the actual data point value along with specific amount of positive error value.
 
 **Both**
 

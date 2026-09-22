@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Legend in WinUI Circular Chart | Syncfusion®
+title: Legend in WinUI Circular Chart | SyncfusionÂ®
 description: Legend in the WinUI Circular Chart identifies chart segments and categories, supporting customization of titles, labels, icons, and templates.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in WinUI Circular Chart

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: About Syncfusion® WPF Charts | Syncfusion®
-description: Learn about introduction of Syncfusion Essential Studio® WPF Chart control, its features, capabilities, and more details.
+title: About SyncfusionÂ® WPF Charts | SyncfusionÂ®
+description: Learn about introduction of Syncfusion Essential StudioÂ® WPF Chart control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion WPF Charts Control

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to add labels for track ball in WPF Sparkline | Syncfusion®
+title: How to add labels for track ball in WPF Sparkline | SyncfusionÂ®
 description: Add labels for the track ball in the WPF Sparkline to display data values and customize label appearance during data interaction.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add labels for track ball in WPF Sparkline

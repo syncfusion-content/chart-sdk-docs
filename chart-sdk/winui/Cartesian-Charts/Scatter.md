@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Scatter Chart in WinUI Chart | Syncfusion®
+title: Scatter Chart in WinUI Chart | SyncfusionÂ®
 description: Scatter chart in the WinUI Chart visualizes relationships between data points, enabling trend analysis, comparison, and pattern identification.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: winui scatter chart, winui sfcartesianchart, winui scatter chart customization, syncfusion winui scatter chart, winui scatter chart properties.
 ---
 

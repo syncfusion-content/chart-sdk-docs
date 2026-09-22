@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Title in WinUI Chart | Syncfusion®
+title: Title in WinUI Chart | SyncfusionÂ®
 description: Title in the WinUI Chart displays descriptive text for the chart and supports customization of content, style, and appearance.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: winui chart title, winui sfcartesianchart title, winui chart title customization, syncfusion winui chart title, winui sfcartesianchart title configuration.
 ---
 

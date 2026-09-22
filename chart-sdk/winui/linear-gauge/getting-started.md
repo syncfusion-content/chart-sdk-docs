@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with WinUI Linear Gauge | Syncfusion®
-description: Learn how to get started with the Syncfusion® WinUI Linear Gauge control. Explore setup, features, examples, and customization options.
+title: Getting Started with WinUI Linear Gauge | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® WinUI Linear Gauge control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WinUI Linear Gauge

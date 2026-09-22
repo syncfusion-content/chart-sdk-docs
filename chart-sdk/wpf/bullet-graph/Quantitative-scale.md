@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Quantitative Scale in WPF Bullet Graph | Syncfusion®
+title: Quantitative Scale in WPF Bullet Graph | SyncfusionÂ®
 description: Quantitative scale in the WPF Bullet Graph defines value ranges, intervals, and targets, enabling accurate performance measurement and comparison.
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Quantitative Scale in WPF Bullet Graph

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Line Chart in WinUI Chart | Syncfusion®
+title: Line Chart in WinUI Chart | SyncfusionÂ®
 description: Line chart in the WinUI Chart visualizes trends and changes over time, supporting multiple line types for effective data analysis.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: winui line chart, winui sfcartesianchart, winui line chart customization, syncfusion winui line chart,  winui line chart configuration.
 ---
 

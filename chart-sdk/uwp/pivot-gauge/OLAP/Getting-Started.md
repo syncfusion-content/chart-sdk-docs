@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with UWP OLAP Pivot Gauge | Syncfusion®
-description: Learn how to get started with the Syncfusion® UWP OLAP Pivot Gauge control. Explore setup, OLAP data binding, report configuration, and customization.
+title: Getting Started with UWP OLAP Pivot Gauge | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® UWP OLAP Pivot Gauge control. Explore setup, OLAP data binding, report configuration, and customization.
 platform: chart-sdk
 control: SfPivotGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with UWP OLAP Pivot Gauge
@@ -32,7 +33,7 @@ The SfPivotGauge control can be initialized and added to the application through
 
 1. Double-click the MainPage.xaml from the solution explorer to open it in the design view.
 
-2. Click the toolbox and drag the **SfPivotGauge** control from the “Syncfusion Controls for UWP XAML” group to drop it on the middle of the design canvas.
+2. Click the toolbox and drag the **SfPivotGauge** control from the â€œSyncfusion Controls for UWP XAMLâ€ group to drop it on the middle of the design canvas.
 
 Now, the SfPivotGauge control will be added to the designer as follows.
 

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Positioning Data Markers in WPF Charts | Syncfusion®
+title: Positioning Data Markers in WPF Charts | SyncfusionÂ®
 description: Positioning data markers in the WPF Chart allows you to customize marker placement relative to data points for better visibility.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Positioning Data Markers in WPF Charts

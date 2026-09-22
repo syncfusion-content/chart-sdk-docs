@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Legend in UWP Charts | Syncfusion®
+title: Legend in UWP Charts | SyncfusionÂ®
 description: Legend in the UWP Chart identifies series and data categories, helping users understand and interpret chart information clearly.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in UWP Charts
@@ -622,7 +623,7 @@ chart.Series.Add(pieSeries);
 
 ![Legends for accumulation series in UWP Chart](Legend_images/legend_pie.png)
 
-N> Here Legend ‘Label’ will be the x value of the Pie chart.
+N> Here Legend â€˜Labelâ€™ will be the x value of the Pie chart.
 
 ## Series visibility on legend
 

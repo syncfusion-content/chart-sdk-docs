@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Range in WinUI Linear Gauge | Syncfusion®
+title: Range in WinUI Linear Gauge | SyncfusionÂ®
 description: Range in the WinUI Linear Gauge highlights specific value intervals on the gauge scale and supports customization of size, position, and appearance.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range in WinUI Linear Gauge
@@ -51,13 +52,13 @@ this.Content = sfLinearGauge;
 
 The following properties are used for the range customization:
 
-* [`Background`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_Background) – Specifies the color for the range.
+* [`Background`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_Background) â€“ Specifies the color for the range.
 
-* [`StartWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_StartWidth) – Specifies the start width of the range.
+* [`StartWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_StartWidth) â€“ Specifies the start width of the range.
 
-* [`MidWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_MidWidth) – Specifies the middle width of the range.
+* [`MidWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_MidWidth) â€“ Specifies the middle width of the range.
 
-* [`EndWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_EndWidth) – Specifies the end width of the range.
+* [`EndWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_EndWidth) â€“ Specifies the end width of the range.
 
 * [`GradientStops`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearGaugeRange.html#Syncfusion_UI_Xaml_Gauges_LinearGaugeRange_GradientStops) - Specifies the gradient for the range.
 

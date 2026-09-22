@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Highlight Segment in UWP Sparkline | Syncfusion®
+title: Highlight Segment in UWP Sparkline | SyncfusionÂ®
 description: Highlight segment in the UWP Sparkline emphasizes specific data points or ranges with distinct styling for improved data visibility.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Highlight Segment in UWP Sparkline
 

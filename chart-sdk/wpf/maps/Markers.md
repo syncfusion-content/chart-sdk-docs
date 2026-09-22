@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Markers in WPF Maps | Syncfusion®
+title: Markers in WPF Maps | SyncfusionÂ®
 description: Markers in the WPF Maps highlight geographic locations using customizable symbols, enabling visualization and interaction with map data.
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Marker Customization in WPF Maps

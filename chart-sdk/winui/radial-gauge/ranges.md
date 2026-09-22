@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Range in WinUI Radial Gauge | Syncfusion®
+title: Range in WinUI Radial Gauge | SyncfusionÂ®
 description:  Range in the WinUI Radial Gauge highlights specific value intervals on the gauge scale and supports customization of size, position, and appearance.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range in WinUI Radial Gauge
@@ -56,13 +57,13 @@ this.Content = sfRadialGauge;
 
 The following properties are used for the range customization:
 
-* `Background` – Specifies the color for the range.
+* `Background` â€“ Specifies the color for the range.
 
-* [`StartWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_StartWidth) – Specifies the start width of the range either in pixels or factor.
+* [`StartWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_StartWidth) â€“ Specifies the start width of the range either in pixels or factor.
 
-* [`EndWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_EndWidth) – Specifies the end width of the range either in pixels or factor.
+* [`EndWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_EndWidth) â€“ Specifies the end width of the range either in pixels or factor.
 
-* [`WidthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_WidthUnit) – Specifies whether the start width and end width of the range are set in pixels or factor.
+* [`WidthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_WidthUnit) â€“ Specifies whether the start width and end width of the range are set in pixels or factor.
 
 * [`GradientStops`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.GaugeRange.html#Syncfusion_UI_Xaml_Gauges_GaugeRange_GradientStops) - Specifies the gradient for the range.
 

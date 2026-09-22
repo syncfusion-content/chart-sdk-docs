@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Labels in UWP Radial Gauge | Syncfusion®
+title: Labels in UWP Radial Gauge | SyncfusionÂ®
 description: Labels in the UWP Radial Gauge display scale values and support customization through styling, positioning, and appearance settings.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Labels in UWP Radial Gauge
 

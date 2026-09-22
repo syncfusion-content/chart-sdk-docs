@@ -1,11 +1,12 @@
----
+﻿---
 
 layout: post
-title: Zooming in UWP Sunburst Chart | Syncfusion®
+title: Zooming in UWP Sunburst Chart | SyncfusionÂ®
 description: Zooming in the UWP Sunburst Chart enables users to focus on specific hierarchical data segments for detailed analysis and navigation.
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 
@@ -56,9 +57,9 @@ You can align the zooming toolbar position by using [`ToolBarHorizontalAlignment
 
 You can customize the zooming toolbar using the following properties.
 
-* `ToolBarItemHeight` – Gets or sets the height for the toolbar item.
-* `ToolBarItemWidth` – Gets or sets the width for the toolbar item.
-* `ToolBarItemMargin` – Gets or sets the margin of the toolbar item.
+* `ToolBarItemHeight` â€“ Gets or sets the height for the toolbar item.
+* `ToolBarItemWidth` â€“ Gets or sets the width for the toolbar item.
+* `ToolBarItemMargin` â€“ Gets or sets the margin of the toolbar item.
 
 {% highlight xaml %}
 

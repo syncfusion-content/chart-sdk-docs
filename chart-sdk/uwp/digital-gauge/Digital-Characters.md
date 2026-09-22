@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Digital Characters in UWP Digital Gauge | Syncfusion®
+title: Digital Characters in UWP Digital Gauge | SyncfusionÂ®
 description: Digital characters in the UWP Digital Gauge allow you to display numeric and alphanumeric values using customizable digital segments.
 platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Digital Characters in UWP Digital Gauge
@@ -36,7 +37,7 @@ The segment type can be changed using the [CharacterType](https://help.syncfusio
 
 ## 7-Segments
 
-When [CharacterType](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterType) is set to `SegmentSeven`, the value is displayed in 7-segment format. This type is mainly used to display numbers (0–9), though a limited set of letters is also supported.
+When [CharacterType](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterType) is set to `SegmentSeven`, the value is displayed in 7-segment format. This type is mainly used to display numbers (0â€“9), though a limited set of letters is also supported.
 
 {% tabs %}
 {% highlight xaml %}
@@ -105,7 +106,7 @@ this.Grid.Children.Add(digital);
 
 ## 8*8 Dot Matrix Segments
 
-When [CharacterType](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterType) is set to `EightCrossEightDotMatrix`, the value is displayed in an 8 × 8 dot matrix. This type is used to display special characters along with letters and numbers.
+When [CharacterType](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterType) is set to `EightCrossEightDotMatrix`, the value is displayed in an 8 Ã— 8 dot matrix. This type is used to display special characters along with letters and numbers.
 
 {% tabs %}
 {% highlight xaml %}

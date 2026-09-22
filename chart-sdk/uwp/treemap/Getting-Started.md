@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with UWP TreeMap | Syncfusion®
-description: Learn how to get started with the Syncfusion® UWP TreeMap control. Explore setup, features, examples, and customization options.
+title: Getting Started with UWP TreeMap | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® UWP TreeMap control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with UWP TreeMap

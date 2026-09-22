@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Leaf Nodes Customization in WPF TreeMap | Syncfusion®
+title: Leaf Nodes Customization in WPF TreeMap | SyncfusionÂ®
 description: Leaf nodes customization in the WPF TreeMap allows you to modify the appearance, styling, and layout of hierarchical data items.
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Leaf Nodes Customization in WPF TreeMap

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Appearance in UWP Pivot Chart | Syncfusion®
+title: Appearance in UWP Pivot Chart | SyncfusionÂ®
 description: Appearance in the UWP Pivot Chart allows you to customize chart visuals using palettes, colors, themes, and styling options.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in UWP Pivot Chart

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Tick Lines in WinUI Chart | Syncfusion®
+title: Tick Lines in WinUI Chart | SyncfusionÂ®
 description: Tick lines in the WinUI Chart indicate axis intervals and support customization of size, position, style, and appearance settings.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: tick lines in winui chart, winui sfcartesianchart tick lines, winui chart tick lines customization, syncfusion winui chart tick lines.
 ---
 

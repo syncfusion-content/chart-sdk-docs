@@ -1,10 +1,11 @@
- ---
+﻿ ---
 layout: post
-title: Getting Started with UWP Digital Gauge | Syncfusion®
-description: Learn how to get started with the Syncfusion® UWP Digital Gauge control. Explore setup, features, examples, and customization options.
+title: Getting Started with UWP Digital Gauge | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® UWP Digital Gauge control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with UWP Digital Gauge
@@ -70,7 +71,7 @@ The values are displayed as follows.
 
 You can view the digital characters in [SfDigitalGauge](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html) using different types of segments available in the [CharacterType](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Gauges.SfDigitalGauge.html#Syncfusion_UI_Xaml_Gauges_SfDigitalGauge_CharacterType) property. The `CharacterType` enum (defined in the `Syncfusion.UI.Xaml.Gauges` namespace) supports the following values: `SegmentSeven`, `SegmentFourteen`, `SegmentSixteen`, and `EightByEightDotMatrix`. For the full list of supported segment types and the characters each one renders, see [Digital Characters](./Digital-Characters.md).
 
-The `SegmentSeven` type primarily supports digits (0–9) and a limited set of characters, which is why the sample below renders numeric values.
+The `SegmentSeven` type primarily supports digits (0â€“9) and a limited set of characters, which is why the sample below renders numeric values.
 
 {% tabs %}
 {% highlight xaml %}

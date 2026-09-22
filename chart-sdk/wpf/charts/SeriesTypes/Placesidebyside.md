@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Side By Side Placement in WPF Charts | Syncfusion®
+title: Side By Side Placement in WPF Charts | SyncfusionÂ®
 description: Side by side placement in the WPF Chart arranges series adjacent to each other, enabling clear comparison of categorical data.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Side By Side Placement in WPF Charts

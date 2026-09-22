@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: KPI in UWP Pivot Chart | Syncfusion®
+title: KPI in UWP Pivot Chart | SyncfusionÂ®
 description: KPI in the UWP Pivot Chart displays key performance indicators, enabling effective monitoring, comparison, and analysis of business metrics.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # KPI in UWP Pivot Chart

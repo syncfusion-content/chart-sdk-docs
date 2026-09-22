@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Labels in WPF Linear Gauge | Syncfusion®
+title: Labels in WPF Linear Gauge | SyncfusionÂ®
 description: Labels in the WPF Linear Gauge display scale values and support customization through styling, positioning, and appearance settings.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Labels in WPF Linear Gauge

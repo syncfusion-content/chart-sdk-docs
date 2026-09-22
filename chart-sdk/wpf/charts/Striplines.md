@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Striplines in WPF Charts | Syncfusion®
+title: Striplines in WPF Charts | SyncfusionÂ®
 description: Striplines in the WPF Chart highlight specific ranges or regions on an axis, helping emphasize important values and thresholds.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Striplines in WPF Charts
@@ -191,7 +192,7 @@ chart.SecondaryAxis = axis;
 ![WPF Chart displays Label Rotated in Stripline](Striplines_images/wpf-chart-stripline-label-rotation.png)
 
 
-N> Here, Start and Width of the stripline as adjusted based on the rotation angle. Stripline won’t adjust its range based on the stripline angle.
+N> Here, Start and Width of the stripline as adjusted based on the rotation angle. Stripline wonâ€™t adjust its range based on the stripline angle.
 
 ### Template support for the label
 

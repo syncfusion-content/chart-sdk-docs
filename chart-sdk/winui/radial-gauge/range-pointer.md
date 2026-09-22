@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Range Pointer in WinUI Radial Gauge | Syncfusion®
+title: Range Pointer in WinUI Radial Gauge | SyncfusionÂ®
 description: Range pointer in the WinUI Radial Gauge highlights values across a specified range and supports customization of size, position, and appearance.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Pointer in WinUI Radial Gauge
@@ -48,11 +49,11 @@ this.Content = sfRadialGauge;
 
 The following properties are used to customize the range pointer:
 
-* `Background` – Customizes the color of range pointer.
+* `Background` â€“ Customizes the color of range pointer.
 
 * [`PointerWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerWidth) - Specifies the width of pointer either in pixels or factor.
 
-* [`WidthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_WidthUnit) – Specifies whether the [`PointerWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerWidth) is defined in pixels or factor.
+* [`WidthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_WidthUnit) â€“ Specifies whether the [`PointerWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerWidth) is defined in pixels or factor.
 
 The [`PointerWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerWidth) of the pointer can be specified either in pixels or factor. If the [`WidthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_WidthUnit) is specified as Pixel, then the range will be rendered based on the provided pixel value. If the [`WidthUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_WidthUnit) is set as factor, the provided factor value will be multiplied with the axis radius. For example, if the pointer width is set to 0.1, then 10% of the axis radius is considered as range pointer width.
 
@@ -202,7 +203,7 @@ The following properties are used to customize the position of the range pointer
 
 * [`PointerOffset`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerOffset) - Specifies the position value for the pointer either in pixels or factor.
 
-* [`OffsetUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_OffsetUnit) – Specifies whether the [`PointerOffset`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerOffset) is defined in pixels or factor.
+* [`OffsetUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_OffsetUnit) â€“ Specifies whether the [`PointerOffset`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerOffset) is defined in pixels or factor.
 
 The range pointer can be moved far or near to the axis line using the [`PointerOffset`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerOffset) property. The [`PointerOffset`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_PointerOffset) can be set either in pixel or factor value using its [`OffsetUnit`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.RangePointer.html#Syncfusion_UI_Xaml_Gauges_RangePointer_OffsetUnit).
 

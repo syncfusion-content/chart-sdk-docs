@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Technical Indicators in UWP Charts | Syncfusion®
+title: Technical Indicators in UWP Charts | SyncfusionÂ®
 description: Technical indicators in the UWP Chart provide analytical calculations and overlays to identify trends, patterns, and market conditions.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Technical Indicators in UWP Charts
@@ -297,7 +298,7 @@ chart.TechnicalIndicators.Add(indicator);
 
 ## Stochastic 
 
-[`Stochastic`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html) indicator is used to measure the range and momentum of price movements. It contains [`KPeriod`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html#Syncfusion_UI_Xaml_Charts_StochasticTechnicalIndicator_KPeriod) and [`DPeriod`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html#Syncfusion_UI_Xaml_Charts_StochasticTechnicalIndicator_DPeriod) property defining the ‘K’ percentage and ‘D’ percentage respectively. No signal line in this indicator.
+[`Stochastic`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html) indicator is used to measure the range and momentum of price movements. It contains [`KPeriod`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html#Syncfusion_UI_Xaml_Charts_StochasticTechnicalIndicator_KPeriod) and [`DPeriod`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html#Syncfusion_UI_Xaml_Charts_StochasticTechnicalIndicator_DPeriod) property defining the â€˜Kâ€™ percentage and â€˜Dâ€™ percentage respectively. No signal line in this indicator.
 
 The [`UpperLineColor`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html#Syncfusion_UI_Xaml_Charts_StochasticTechnicalIndicator_UpperLineColor), [`LowerLineColor`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html#Syncfusion_UI_Xaml_Charts_StochasticTechnicalIndicator_LowerLineColor) and [`PeriodLineColor`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.StochasticTechnicalIndicator.html#Syncfusion_UI_Xaml_Charts_StochasticTechnicalIndicator_PeriodLineColor) property are used to define the brushes for the Stochastic indicator lines.
 

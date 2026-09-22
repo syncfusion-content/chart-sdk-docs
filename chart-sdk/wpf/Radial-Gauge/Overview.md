@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: About Syncfusion® WPF Radial Gauge Control | Syncfusion®
+title: About SyncfusionÂ® WPF Radial Gauge Control | SyncfusionÂ®
 description: Learn about the introduction of Syncfusion Essential Studio WPF Radial Gauge control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # About Syncfusion WPF Radial Gauge Control
 

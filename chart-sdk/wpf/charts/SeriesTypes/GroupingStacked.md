@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Grouping Stacked Chart in WPF Charts | Syncfusion®
+title: Grouping Stacked Chart in WPF Charts | SyncfusionÂ®
 description: Grouping stacked series in the WPF Chart organize multiple stacked groups, enabling comparison of related data across categories.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Grouping Stacked in WPF Charts

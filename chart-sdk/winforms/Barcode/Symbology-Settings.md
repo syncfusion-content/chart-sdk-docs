@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Symbology Settings in Windows Forms Barcode | Syncfusion®
+title: Symbology Settings in Windows Forms Barcode | SyncfusionÂ®
 description: Symbology settings in the Windows Forms Barcode enable customization of barcode encoding options, validation rules, and barcode-specific properties.
 platform: chart-sdk
 control: SfBarcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Symbology Settings in Windows Forms Barcode
@@ -309,7 +310,7 @@ Numeric Mode</td><td>
 <tr>
 <td>
 Alphanumeric Mode</td><td>
-0–9, A–Z (upper-case only), space, $, %, *, +, -,., /, :</td></tr>
+0â€“9, Aâ€“Z (upper-case only), space, $, %, *, +, -,., /, :</td></tr>
 <tr>
 <td>
 Binary Mode</td><td>

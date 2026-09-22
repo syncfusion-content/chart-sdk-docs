@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Pointers in WinUI Radial Gauge | Syncfusion®
+title: Pointers in WinUI Radial Gauge | SyncfusionÂ®
 description: Pointers in the WinUI Radial Gauge indicate values on the gauge scale and support multiple pointer types for effective data visualization.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in WinUI Radial Gauge

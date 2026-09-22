@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Settings in WPF Digital Gauge | Syncfusion®
+title: Settings in WPF Digital Gauge | SyncfusionÂ®
 description: Settings in the WPF Digital Gauge allow you to configure display behavior, appearance, values, and customization options.
 platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Settings in WPF Digital Gauge

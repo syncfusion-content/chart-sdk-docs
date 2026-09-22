@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Scale in WPF Linear Gauge | Syncfusion®
+title: Scale in WPF Linear Gauge | SyncfusionÂ®
 description: Scale in the WPF Linear Gauge defines value ranges, intervals, and labels, enabling accurate measurement and data representation.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Scale in WPF Linear Gauge

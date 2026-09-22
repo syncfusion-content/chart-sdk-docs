@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Symbology Customization in WinUI Barcode | Syncfusion®
+title: Symbology Customization in WinUI Barcode | SyncfusionÂ®
 description: Symbology customization in the WinUI Barcode allows you to configure encoding options and customize barcode generation for different barcode types.
 platform: chart-sdk
 control: Barcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Symbology Customization in WinUI Barcode
@@ -309,7 +310,7 @@ Numeric Mode</td><td>
 <tr>
 <td>
 Alphanumeric Mode</td><td>
-0–9, A–Z (upper-case only), space, $, %, *, +, -,., /, :</td></tr>
+0â€“9, Aâ€“Z (upper-case only), space, $, %, *, +, -,., /, :</td></tr>
 <tr>
 <td>
 Binary Mode</td><td>

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Bubbles in UWP Maps | Syncfusion®
+title: Bubbles in UWP Maps | SyncfusionÂ®
 description: Bubbles in the UWP Maps visualize location-based data using proportional markers, enabling comparison of values across geographic regions.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubble Markers in UWP Maps

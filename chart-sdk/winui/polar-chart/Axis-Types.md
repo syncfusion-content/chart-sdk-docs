@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Axis Types in WinUI Polar Chart | Syncfusion®
+title: Axis Types in WinUI Polar Chart | SyncfusionÂ®
 description: Axis types in the WinUI Polar Chart provide different ways to represent data values, categories, dates, and logarithmic scales.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis Types in WinUI Polar Chart

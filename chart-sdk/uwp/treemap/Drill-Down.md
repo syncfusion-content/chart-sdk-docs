@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Drill Down Support in UWP TreeMap | Syncfusion®
+title: Drill Down Support in UWP TreeMap | SyncfusionÂ®
 description: Drill down support in the UWP TreeMap enables users to navigate hierarchical data levels for detailed analysis and data exploration.
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Drill Down Support in UWP TreeMap

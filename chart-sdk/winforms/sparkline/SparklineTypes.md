@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Types in Windows Forms Sparkline | Syncfusion®
+title: Types in Windows Forms Sparkline | SyncfusionÂ®
 description: Types in the Windows Forms Sparkline provide multiple chart styles for visualizing trends, variations, and comparisons in data.
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Types in WinForms Sparkline

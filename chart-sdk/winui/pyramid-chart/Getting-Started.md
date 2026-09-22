@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with WinUI Pyramid Chart | Syncfusion®
-description: Learn how to get started with the Syncfusion® WinUI Pyramid Chart control. Explore setup, features, examples, and customization options.
+title: Getting Started with WinUI Pyramid Chart | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® WinUI Pyramid Chart control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WinUI Pyramid Chart

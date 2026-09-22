@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Interactive Features in WPF Charts | Syncfusion®
+title: Interactive Features in WPF Charts | SyncfusionÂ®
 description: Interactive features in the WPF Chart enable zooming, panning, selection, tooltips, and navigation for enhanced data exploration.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Interactive Features in WPF Charts

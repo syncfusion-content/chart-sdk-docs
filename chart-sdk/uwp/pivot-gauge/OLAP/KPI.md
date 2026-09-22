@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: KPI in UWP Pivot Gauge | Syncfusion®
+title: KPI in UWP Pivot Gauge | SyncfusionÂ®
 description: KPI in the UWP Pivot Gauge displays key performance indicators using values, goals, status indicators, and trend icons for business analysis.
 platform: chart-sdk
 control: SfPivotGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # KPI in UWP Pivot Gauge

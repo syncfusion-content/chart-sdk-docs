@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Drill Operation in WPF Olap Chart | Syncfusion®
+title: Drill Operation in WPF Olap Chart | SyncfusionÂ®
 description: Drill operation in the WPF OLAP Chart enables users to expand and collapse hierarchical data levels for detailed analysis and navigation.
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Drill Operation in WPF Olap Chart

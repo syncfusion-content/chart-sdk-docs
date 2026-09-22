@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Watermark in UWP Charts | Syncfusion®
+title: Watermark in UWP Charts | SyncfusionÂ®
 description: Watermark in the UWP Chart adds background text or images to the chart area, helping customize and brand chart visuals.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Watermark in UWP Charts
 

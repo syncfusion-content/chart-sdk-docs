@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: ErrorBar Chart in UWP Charts | Syncfusion®
+title: ErrorBar Chart in UWP Charts | SyncfusionÂ®
 description: Error bars in the UWP Chart represent data variability and uncertainty, helping users analyze ranges, deviations, and accuracy.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # ErrorBar in UWP Charts
@@ -141,9 +142,9 @@ ErrorBar series allows you to view the horizontal and vertical error values in b
 
 [`HorizontalDirection`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ErrorBarSeries.html#Syncfusion_UI_Xaml_Charts_ErrorBarSeries_HorizontalDirection) property of ErrorBarSeries allows you to view the horizontal error value in the following type of directions:
 
-* [`Both`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html#Syncfusion_UI_Xaml_Charts_ErrorBarDirection_Both) – It indicates the actual data point value along with specific amount of positive and negative error values.
-* [`Minus`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html#Syncfusion_UI_Xaml_Charts_ErrorBarDirection_Minus) – It indicates the actual data point value along with specific amount of negative error value.
-* [`Plus`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html#Syncfusion_UI_Xaml_Charts_ErrorBarDirection_Plus) – It indicates the actual data point value along with specific amount of positive error value.
+* [`Both`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html#Syncfusion_UI_Xaml_Charts_ErrorBarDirection_Both) â€“ It indicates the actual data point value along with specific amount of positive and negative error values.
+* [`Minus`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html#Syncfusion_UI_Xaml_Charts_ErrorBarDirection_Minus) â€“ It indicates the actual data point value along with specific amount of negative error value.
+* [`Plus`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ErrorBarDirection.html#Syncfusion_UI_Xaml_Charts_ErrorBarDirection_Plus) â€“ It indicates the actual data point value along with specific amount of positive error value.
 
 **Both**
 

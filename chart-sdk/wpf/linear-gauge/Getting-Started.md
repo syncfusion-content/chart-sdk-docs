@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with WPF Linear Gauge | Syncfusion®
-description: Learn how to get started with the Syncfusion® WPF Linear Gauge control. Explore setup, features, examples, and customization options.
+title: Getting Started with WPF Linear Gauge | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® WPF Linear Gauge control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Getting Started with WPF Linear Gauge
 
@@ -356,7 +357,7 @@ The following screenshot illustrates the result of the previous codes.
 ![Getting started image](Getting-Started_images/Getting_started_img1.png)
 
 
-You can find the complete getting started sample from this [`link`](https://github.com/SyncfusionExamples/WPF-UG-getting-started-samples/tree/master/GettingStartedLinearGauge).
+You can find the complete getting started sample from thisÂ [`link`](https://github.com/SyncfusionExamples/WPF-UG-getting-started-samples/tree/master/GettingStartedLinearGauge).
 
 ## Theme
 

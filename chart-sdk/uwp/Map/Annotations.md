@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Annotations in UWP Maps | Syncfusion®
+title: Annotations in UWP Maps | SyncfusionÂ®
 description: Annotations in the UWP Maps allow you to add custom text, shapes, and UI elements to provide additional map information.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotations in UWP Maps

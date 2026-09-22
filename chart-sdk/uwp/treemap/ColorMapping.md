@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Color Mapping in UWP TreeMap | Syncfusion®
+title: Color Mapping in UWP TreeMap | SyncfusionÂ®
 description: Color mapping in the UWP TreeMap applies colors to hierarchical data items based on values, improving visualization and data interpretation.
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Color Mapping in UWP TreeMap

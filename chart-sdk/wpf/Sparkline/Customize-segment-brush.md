@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Segment Customization in WPF Sparkline | Syncfusion®
+title: Segment Customization in WPF Sparkline | SyncfusionÂ®
 description: Segment customization in the WPF Sparkline to apply different colors to data segments and improve visual distinction of trends.
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Segment Customization in WPF Sparkline

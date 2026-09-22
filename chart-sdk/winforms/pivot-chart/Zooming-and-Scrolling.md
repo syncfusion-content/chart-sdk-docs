@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Zooming and Scrolling in Windows Forms Pivot Chart | Syncfusion®
+title: Zooming and Scrolling in Windows Forms Pivot Chart | SyncfusionÂ®
 description: Zooming and scrolling in the Windows Forms Pivot Chart enable interactive navigation and exploration of chart data for detailed analysis.
 platform: chart-sdk
 control: PivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming and Scrolling in Windows Forms Pivot Chart

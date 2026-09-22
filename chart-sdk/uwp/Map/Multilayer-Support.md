@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Multilayer Support in UWP Maps | Syncfusion®
+title: Multilayer Support in UWP Maps | SyncfusionÂ®
 description: Multilayer support in the UWP Maps enables multiple map layers to be displayed together for enhanced geographic visualization and analysis.
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Multilayer Support in UWP Maps
@@ -36,7 +37,7 @@ Situations arise where any combination of available shape files needs to be load
                     <Border Visibility="{Binding Data.ItemsVisibility}" Background="Transparent">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="{Binding Data.Weather}"/>
-                            <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="°C"/>
+                            <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="Â°C"/>
                         </StackPanel>
                     </Border>
                 </DataTemplate>
@@ -51,7 +52,7 @@ Situations arise where any combination of available shape files needs to be load
                             <Border Background="Transparent">
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="{Binding Data.Weather}"/>
-                                    <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="°C"/>
+                                    <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="Â°C"/>
                                 </StackPanel>
                             </Border>
                         </DataTemplate>
@@ -69,7 +70,7 @@ Situations arise where any combination of available shape files needs to be load
                             <Border Background="Transparent">
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="{Binding Data.Weather}"/>
-                                    <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="°C"/>
+                                    <TextBlock FontFamily="Segoe UI" Foreground="#FF333333" FontSize="12" Text="Â°C"/>
                                 </StackPanel>
                             </Border>
                         </DataTemplate>

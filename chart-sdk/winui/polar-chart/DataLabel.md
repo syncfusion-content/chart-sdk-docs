@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Data Labels in WinUI Polar Chart | Syncfusion®
+title: Data Labels in WinUI Polar Chart | SyncfusionÂ®
 description: Data labels in the WinUI Polar Chart display data values directly on chart points and support customization of content, position, and appearance.
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Labels in WinUI Polar Chart

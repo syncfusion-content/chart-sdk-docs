@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Fast Series in WPF Charts | Syncfusion®
+title: Fast Series in WPF Charts | SyncfusionÂ®
 description: Fast Series in the WPF Chart renders large datasets with optimized performance, enabling smooth interaction and efficient data analysis.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Fast Series in WPF Charts

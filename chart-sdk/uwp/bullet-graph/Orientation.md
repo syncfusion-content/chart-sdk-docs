@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Orientation in UWP Bullet Graph | Syncfusion®
+title: Orientation in UWP Bullet Graph | SyncfusionÂ®
 description: Orientation in the UWP Bullet Graph allows you to display the graph in horizontal or vertical layouts based on application requirements.
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Orientation in UWP Bullet Graph

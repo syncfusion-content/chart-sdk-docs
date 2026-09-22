@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Content Pointer in WinUI Linear Gauge | Syncfusion®
+title: Content Pointer in WinUI Linear Gauge | SyncfusionÂ®
 description: Content pointer in the WinUI Linear Gauge displays custom content at specific values and supports customization of layout, style, and appearance.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Content Pointer in WinUI Linear Gauge

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Ticks in UWP Linear Gauge | Syncfusion®
+title: Ticks in UWP Linear Gauge | SyncfusionÂ®
 description: Ticks in the UWP Linear Gauge indicate scale intervals and support customization of size, position, style, and appearance settings.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ticks in UWP Linear Gauge

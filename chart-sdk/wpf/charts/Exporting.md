@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Exporting in WPF Charts | Syncfusion®
+title: Exporting in WPF Charts | SyncfusionÂ®
 description: Exporting in the WPF Chart enables chart data and visuals to be saved in supported formats for sharing, printing, and reporting.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Exporting in WPF Charts
@@ -28,7 +29,7 @@ Chart contains the following overloading methods for saving a chart as an image.
 
 ### Save(string filename)
 
-This method will export chart to the specified location with the given name. By default, i.e., if you didn’t mention any specific location. It will be exported to “../bin/debug” location.
+This method will export chart to the specified location with the given name. By default, i.e., if you didnâ€™t mention any specific location. It will be exported to â€œ../bin/debugâ€ location.
 
 The following code examples illustrates the usage of this method:
 
@@ -38,7 +39,7 @@ private void SaveImage_Click(object sender, RoutedEventArgs e)
 {
     this.SampleChart.Save("ExportedChart"); //Save in Debug location
 
-    this.SampleChart.Save("D:\\Pictures\\Test\\ExportedChart"); //Save in ‘D:\Picture\Test’ location.
+    this.SampleChart.Save("D:\\Pictures\\Test\\ExportedChart"); //Save in â€˜D:\Picture\Testâ€™ location.
 }
 
 {% endhighlight %}

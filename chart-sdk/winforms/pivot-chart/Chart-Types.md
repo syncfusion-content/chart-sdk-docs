@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Types in Windows Forms Pivot Chart | Syncfusion®
+title: Types in Windows Forms Pivot Chart | SyncfusionÂ®
 description: Types in the Windows Forms Pivot Chart provide multiple visualization options for presenting and analyzing summarized data effectively.
 platform: chart-sdk
 control: PivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Types in Windows Forms Pivot Chart
@@ -47,7 +48,7 @@ Me.pivotChart1.ChartTypes = Syncfusion.Windows.Forms.PivotChart.PivotChartTypes.
 
 ## Line chart
 
-The line chart joins the data points on a plot by using straight lines that show trends in data at equal intervals.
+TheÂ line chartÂ joins the data points on a plot by using straight lines that show trends in data at equal intervals.
 
 ![WinForms PivotChart with line chart](Chart-Types_images/Chart-Types_img1.png)
 

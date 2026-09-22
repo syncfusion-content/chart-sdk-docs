@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to print a Windows Forms Pivot Chart | Syncfusion®
+title: How to print a Windows Forms Pivot Chart | SyncfusionÂ®
 description: Learn how to print a Windows Forms Pivot Chart using the Print method in the PrintDocument extension.
 platform: chart-sdk
 control: PivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to print a Windows Forms Pivot Chart

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Axes in WPF Smith Chart | Syncfusion®
+title: Axes in WPF Smith Chart | SyncfusionÂ®
 description: Axes in the WPF Smith Chart define coordinate grids, scales, and labels to represent impedance and admittance data effectively.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axes in WPF Smith Chart
@@ -517,7 +518,7 @@ chart.RadialAxis.LabelIntersectAction = LabelIntersectActions.None;
 
 ## Events
 
-* `LabelCreated`– Occurs when the label is created.
+* `LabelCreated`â€“ Occurs when the label is created.
 
 {% highlight C# %} 
 

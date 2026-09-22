@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Range Padding in WinUI Chart | Syncfusion®
+title: Range Padding in WinUI Chart | SyncfusionÂ®
 description: Range padding in the WinUI Chart adjusts axis ranges by adding extra space around data points, improving chart readability and presentation.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: range padding in winui chart, winui sfcartesianchart range padding, winui chart range padding customization, syncfusion winui chart range padding, winui sfcartesianchart range padding configuration.
 ---
 

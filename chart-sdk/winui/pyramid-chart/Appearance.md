@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Appearance in WinUI Pyramid Chart | Syncfusion®
+title: Appearance in WinUI Pyramid Chart | SyncfusionÂ®
 description: Appearance in the WinUI Pyramid Chart allows you to customize chart visuals using palettes, gradients, and styling options for enhanced presentation.
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in WinUI Pyramid Chart

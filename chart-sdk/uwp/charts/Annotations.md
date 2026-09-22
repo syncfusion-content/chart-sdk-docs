@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Annotations in UWP Chart | Syncfusion®
+title: Annotations in UWP Chart | SyncfusionÂ®
 description: Annotations in the UWP Chart display custom content within the chart area and support flexible positioning for enhanced data visualization.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotations in UWP Chart
@@ -340,9 +341,9 @@ The following code example and screenshot demonstrate [`TextAnnotation`](https:/
 * [`EllipseAnnotation`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.EllipseAnnotation.html)- Used to draw a circle or an ellipse over the chart area.
 * [`RectangleAnnotation`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.RectangleAnnotation.html)- Used to draw a rectangle over the chart area.
 * [`VerticalLineAnnotation`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.VerticalLineAnnotation.html)- Used to draw a vertical line across the chart area.
-* [`HorizontalLineAnnotation`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.HorizontalLineAnnotation.html) - Used to add a horizontal line across the chart area.
+* [`HorizontalLineAnnotation`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.HorizontalLineAnnotation.html)Â - Used to add a horizontal line across the chart area.
 
-The following API’s are commonly used in all ShapeAnnotation:
+The following APIâ€™s are commonly used in all ShapeAnnotation:
 
 * [`Fill`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html#Syncfusion_UI_Xaml_Charts_ShapeAnnotation_Fill) - Represents the brush inside the Shape Annotation.
 
@@ -608,7 +609,7 @@ N> [`HorizontalTextAlignment`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.
 
 UWP Charts allows customization of shape annotation using the following properties.
 
-* [`Stroke`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html#Syncfusion_UI_Xaml_Charts_ShapeAnnotation_Stroke) - Represents the brush for the annotation outline.
+* [`Stroke`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html#Syncfusion_UI_Xaml_Charts_ShapeAnnotation_Stroke) - Represents theÂ brushÂ for the annotation outline.
 * [`StrokeThickness`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html#Syncfusion_UI_Xaml_Charts_ShapeAnnotation_StrokeThickness)- Represents the thickness of the annotation outline.
 * [`StrokeDashArray`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html#Syncfusion_UI_Xaml_Charts_ShapeAnnotation_StrokeDashArray)- Represents the DashArray of the annotation stroke.
 * [`StrokeDashCap`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html#Syncfusion_UI_Xaml_Charts_ShapeAnnotation_StrokeDashCap)- Represents the DashCap of the annotation stroke.
@@ -647,9 +648,9 @@ UWP Charts allows customization of shape annotation using the following properti
 
 [`SfChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html) provides support to add images as Annotation over the chart area, using the class [ImageAnnotation](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ImageAnnotation.html). 
 
-The following API’s are used in ImageAnnotation
+The following APIâ€™s are used in ImageAnnotation
 
-* [`Angle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ImageAnnotation.html#Syncfusion_UI_Xaml_Charts_ImageAnnotation_Angle)  – An integer value that represents the rotation angle for the text in Annotation.
+* [`Angle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ImageAnnotation.html#Syncfusion_UI_Xaml_Charts_ImageAnnotation_Angle)  â€“ An integer value that represents the rotation angle for the text in Annotation.
 * [`ImageSource`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ImageAnnotation.html#Syncfusion_UI_Xaml_Charts_ImageAnnotation_ImageSource)  - Represents the source from where the image must be added.
 * [`X2`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ImageAnnotation.html#Syncfusion_UI_Xaml_Charts_ImageAnnotation_X2)- Represents the X2 Coordinate of the Annotation.****
 * [`Y2`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ImageAnnotation.html#Syncfusion_UI_Xaml_Charts_ImageAnnotation_Y2)- Represents the Y2 Coordinate of the Annotation.****
@@ -858,7 +859,7 @@ The default appearance of the Tooltip can be changed using [`TooltipTemplate`](h
 
 [`SfChart`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart.html) provides dragging and resizing support for [`ShapeAnnotations`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html).
 
-The following API’s are used for dragging and resizing the annotation
+The following APIâ€™s are used for dragging and resizing the annotation
 
 * [`CanDrag`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html#Syncfusion_UI_Xaml_Charts_ShapeAnnotation_CanDrag)- A Boolean value that allows the annotation to drag. 
 * [`CanResize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ShapeAnnotation.html#Syncfusion_UI_Xaml_Charts_ShapeAnnotation_CanResize)- A Boolean value that allows the annotation to resize. 
@@ -987,13 +988,13 @@ The following screenshot explains that even when x value is provided out of boun
 
 ## Customizing text in annotation
 
-The text in annotation can be customized using the following API’s
+The text in annotation can be customized using the following APIâ€™s
 
-* [`FontSize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_FontSize)– An int value that represents the font size of the annotation text.
-* [`FontFamily`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_FontFamily)– Represents the font family of the annotation text.
-* [`FontStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_FontStyle)– Represents the font style of the annotation text.
+* [`FontSize`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_FontSize)â€“ An int value that represents the font size of the annotation text.
+* [`FontFamily`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_FontFamily)â€“ Represents the font family of the annotation text.
+* [`FontStyle`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_FontStyle)â€“ Represents the font style of the annotation text.
 * [`FontWeight`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_FontWeight)- Represents the font weight of the annotation text.
-* [`Foreground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_Foreground)– Represents the brush value of the annotation text color.
+* [`Foreground`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_Foreground)â€“ Represents the brush value of the annotation text color.
 * [`FontStretch`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.Annotation.html#Syncfusion_UI_Xaml_Charts_Annotation_FontStretch) - Represents the font stretch for the annotation description.
  
 The following code example demonstrates the customization of annotation text.

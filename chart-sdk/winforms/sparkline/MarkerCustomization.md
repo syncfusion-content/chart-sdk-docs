@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Marker Customization in Windows Forms Sparkline | Syncfusion®
+title: Marker Customization in Windows Forms Sparkline | SyncfusionÂ®
 description: Marker customization in the Windows Forms Sparkline enables customization of marker appearance, colors, size, and visibility for data points.
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Marker Customization in WinForms Sparkline

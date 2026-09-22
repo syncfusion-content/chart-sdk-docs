@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Leaf Item Settings in WPF TreeMap | Syncfusion®
+title: Leaf Item Settings in WPF TreeMap | SyncfusionÂ®
 description: Leaf item settings in the WPF TreeMap allow you to customize the appearance, layout, and behavior of leaf nodes in hierarchical data.
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Leaf Item Settings in WPF TreeMap

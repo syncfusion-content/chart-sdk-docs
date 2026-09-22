@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Layer Types in Windows Forms Maps | Syncfusion®
+title: Layer Types in Windows Forms Maps | SyncfusionÂ®
 description: Layer types in the Windows Forms Maps support imagery and shape layers for visualizing geographic data and map information.
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Layer Types in Windows Forms Maps
@@ -244,7 +245,7 @@ End Class
 
 ## ItemSource
 
-The [`ItemSource`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.ShapeFileLayer.html#Syncfusion_Windows_Forms_Maps_ShapeFileLayer_ItemSource) property accepts collection values as input. For example, the list of objects can be provided as input.
+TheÂ [`ItemSource`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Maps.ShapeFileLayer.html#Syncfusion_Windows_Forms_Maps_ShapeFileLayer_ItemSource)Â property accepts collection values as input. For example, the list of objects can be provided as input.
 
 {% tabs %}
 

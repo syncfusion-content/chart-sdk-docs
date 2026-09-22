@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Rim in WPF Radial Gauge | Syncfusion®
+title: Rim in WPF Radial Gauge | SyncfusionÂ®
 description: Rim in the WPF Radial Gauge customizes the outer boundary of the gauge, enhancing appearance and improving visual presentation.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Rim in WPF Radial Gauge

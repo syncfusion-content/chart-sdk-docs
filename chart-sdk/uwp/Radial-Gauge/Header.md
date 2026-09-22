@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Header in UWP Radial Gauge | Syncfusion®
+title: Header in UWP Radial Gauge | SyncfusionÂ®
 description: Header in the UWP Radial Gauge displays a title for the gauge, providing context and helping users understand displayed values.
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Header in UWP Radial Gauge
 

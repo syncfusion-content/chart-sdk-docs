@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Annotations in UWP Linear Gauge | Syncfusion®
+title: Annotations in UWP Linear Gauge | SyncfusionÂ®
 description: Annotations in the UWP Linear Gauge enable custom content to be displayed at specific positions, enhancing data presentation and visualization.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotations in UWP Linear Gauge

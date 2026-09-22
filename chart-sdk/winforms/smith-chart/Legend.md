@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Legend in Windows Forms Smith Chart | Syncfusion®
+title: Legend in Windows Forms Smith Chart | SyncfusionÂ®
 description: Legend in the Windows Forms Smith Chart identifies data series and chart elements, supporting customization, positioning, and display options.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Legend in Windows Forms Smith Chart
 
@@ -44,7 +45,7 @@ series.LegendText = "Transmission1"
 
 Legends can be docked at the left, right, and top or bottom around the chart area by using the [`DockPosition`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.ChartLegend.html#Syncfusion_WinForms_SmithChart_ChartLegend_DockPosition) property.
 
-By default, the Smith chart’s legend is docked at the top of the chart. To display the legend at the bottom, set the [`DockPosition`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.ChartLegend.html#Syncfusion_WinForms_SmithChart_ChartLegend_DockPosition) property to Bottom as shown in the following code snippet.
+By default, the Smith chartâ€™s legend is docked at the top of the chart. To display the legend at the bottom, set the [`DockPosition`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.ChartLegend.html#Syncfusion_WinForms_SmithChart_ChartLegend_DockPosition) property to Bottom as shown in the following code snippet.
 
 ![WinForms SmithChart legend positioning](Legend_images/Legend_img3.PNG)
 
@@ -53,7 +54,7 @@ By default, the Smith chart’s legend is docked at the top of the chart. To dis
 
 Represents the symbol associated with each legend item. By default, the legend icon is circle.
 
-Legend icon can be customized by using the [`IconType`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.ChartLegend.html#Syncfusion_WinForms_SmithChart_ChartLegend_IconType) property in Smith chart’s legend as shown in the following code snippet.
+Legend icon can be customized by using the [`IconType`](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.SmithChart.ChartLegend.html#Syncfusion_WinForms_SmithChart_ChartLegend_IconType) property in Smith chartâ€™s legend as shown in the following code snippet.
 
 {% tabs %}
 
@@ -153,7 +154,7 @@ sfSmithChart1.Legend.ToggleSeriesVisible = True
 
 Any number of series can be used in the Smith chart. For each series, legend item will be displayed to indicate that series. If the chart area does not have enough space to accommodate all the legend items, then the scrollbar will be enabled automatically for visualizing all the legend items.
 
-In the following screenshot, around 7 series are added, and some of the series are defined with the same data points. Here, the specified dimension of chart can’t hold all the legend items in the view. Hence, the scroll bar is enabled for better visualization of legend items.
+In the following screenshot, around 7 series are added, and some of the series are defined with the same data points. Here, the specified dimension of chart canâ€™t hold all the legend items in the view. Hence, the scroll bar is enabled for better visualization of legend items.
 
 ![WinForms SmithChart legend scrollbar](Legend_images/Legend_img1.PNG)
 

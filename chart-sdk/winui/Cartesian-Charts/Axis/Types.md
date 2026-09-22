@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Axis Types in WinUI Chart | Syncfusion®
+title: Axis Types in WinUI Chart | SyncfusionÂ®
 description: Axis types in the WinUI Chart provide different ways to represent data values, categories, dates, and logarithmic scales.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: types of axis in winui chart, winui sfcartesianchart axis types, winui chart axis types, syncfusion winui chart axis types, winui sfcartesianchart axis options.
 ---
 
@@ -649,7 +650,7 @@ chart.Series.Add(series2);
 
 ![Multiple axes support in WinUI Chart](Axis_Images/WinUI_Chart_Axis_types_multiple_Axis.png)
 
-In the above image, the [ColumnSeries](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.ColumnSeries.html) is plotted based on additional axes of YAxes collection, and [SplineSeries](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.SplineSeries.html) is plotted based on axis of the collection’s 0th index.
+In the above image, the [ColumnSeries](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.ColumnSeries.html) is plotted based on additional axes of YAxes collection, and [SplineSeries](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.SplineSeries.html) is plotted based on axis of the collectionâ€™s 0th index.
 
 ## Events
 ### ActualRangeChanged

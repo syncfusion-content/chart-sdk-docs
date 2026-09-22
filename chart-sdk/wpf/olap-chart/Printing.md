@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Printing in WPF Olap Chart | Syncfusion®
+title: Printing in WPF Olap Chart | SyncfusionÂ®
 description: Printing in the WPF OLAP Chart enables chart visuals to be printed directly for reporting, analysis, and presentation purposes.
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Printing in WPF Olap Chart

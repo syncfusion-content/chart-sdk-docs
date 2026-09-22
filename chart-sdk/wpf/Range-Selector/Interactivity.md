@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Interactivity in WPF Range Selector | Syncfusion®
+title: Interactivity in WPF Range Selector | SyncfusionÂ®
 description: Interactivity in the WPF Range Selector enables user interaction, range selection, navigation, and customization of selection behavior.
 platform: chart-sdk
 control: SfDateTimeRangeNavigator
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Interactivity in WPF Range Selector

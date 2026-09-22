@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Axes in UWP Smith Chart | Syncfusion®
+title: Axes in UWP Smith Chart | SyncfusionÂ®
 description: Axes in the UWP Smith Chart define coordinate grids, scales, and labels to represent impedance and admittance data effectively.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axes in UWP Smith Chart
@@ -516,7 +517,7 @@ chart.RadialAxis.LabelIntersectAction = LabelIntersectActions.None;
 
 ## Events
 
-* `LabelCreated`– Occurs when the label is created.
+* `LabelCreated`â€“ Occurs when the label is created.
 {% capture codesnippet1 %}
 
 {% highlight C# %} 

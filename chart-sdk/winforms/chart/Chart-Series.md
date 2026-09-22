@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Series in Windows Forms Chart | Syncfusion®
+title: Series in Windows Forms Chart | SyncfusionÂ®
 description: Series in the Windows Forms Chart represent data points and support customization of appearance, data binding, and visualization.
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series in Windows Forms Chart
@@ -311,7 +312,7 @@ Data points sorted by Y-values in descending order
 
 ## Series Customization
 
-Essential® Chart offers numerous appearance and behavior customization capabilities at the series level and on individual points.
+EssentialÂ® Chart offers numerous appearance and behavior customization capabilities at the series level and on individual points.
 
 Some of these options are applicable only for the whole series while the rest could be applied on the specific data points. Similarly some of these options are specific to certain chart types.
 
@@ -794,13 +795,13 @@ The offset angle that is to be used when rendering Pie charts.
 
 Possible Values - Accepts real values like 45f, 90f etc.
 
-Default Value – 0.
+Default Value â€“ 0.
 
-2D / 3D Limitations – No.
+2D / 3D Limitations â€“ No.
 
 Applies to Chart Element - All Series.
 
-Applies to Chart Types – PieChart.
+Applies to Chart Types â€“ PieChart.
 
 Here is some sample code.
 
@@ -1796,25 +1797,25 @@ Callout setting object</td></tr>
 <tr>
 <td>
 Default Value     </td><td colspan = "2">
-* Enable – False
+* Enable â€“ False
 
 * Text - string.Empty
 
-* TextOffset – 2.5f
+* TextOffset â€“ 2.5f
 
-* Font – ChartFontInfo()
+* Font â€“ ChartFontInfo()
 
 * DisplayTextAndFormat - "{1},{2}"
 
 * Position - LabelPosition.Top
 
-* OffsetX – 0
+* OffsetX â€“ 0
 
-* OffsetY – 0
+* OffsetY â€“ 0
 
-* Color – HighlightText
+* Color â€“ HighlightText
 
-* TextColor – WindowText
+* TextColor â€“ WindowText
 
 * Border - ChartLineInfo</td></tr>
 <tr>
@@ -2449,7 +2450,7 @@ Border setting object</td></tr>
 <tr>
 <td>
 Default Value     </td><td colspan = "2">
-<ul><li> Weight – Thin</li><li> Width value – 1</li><li> Style - Standard</li></ul></td></tr>
+<ul><li> Weight â€“ Thin</li><li> Width value â€“ 1</li><li> Style - Standard</li></ul></td></tr>
 <tr>
 <td>
 <br>2D / 3D Limitations</td><td colspan = "2">
@@ -4353,7 +4354,7 @@ Details</th></tr>
 <tr>
 <td>
 Possible Values</td><td colspan = "2">
-<ul><li> Center – DataPoint labels are aligned to the center of the Pyramid segment.</li><li> Top - DataPoint labels are aligned to the top of the Pyramid segment.</li><li> Bottom – DataPoint labels are aligned to the bottom of the Pyramid segment.</li><li>Left - DataPoint labels are aligned to the Left of the Pyramid segment.</li><li>Right - DataPoint labels are aligned to the Right of the Pyramid segment.</li></ul></td></tr>
+<ul><li> Center â€“ DataPoint labels are aligned to the center of the Pyramid segment.</li><li> Top - DataPoint labels are aligned to the top of the Pyramid segment.</li><li> Bottom â€“ DataPoint labels are aligned to the bottom of the Pyramid segment.</li><li>Left - DataPoint labels are aligned to the Left of the Pyramid segment.</li><li>Right - DataPoint labels are aligned to the Right of the Pyramid segment.</li></ul></td></tr>
 <tr>
 <td>
 <br>Default Value     </td><td colspan = "2">
@@ -6633,7 +6634,7 @@ Me.chartControl1.Spacing = 50
 
 ### SpacingBetweenSeries
 
-Essential® Chart provides support to control the spacing between series using SpacingBetweenSeries property.
+EssentialÂ® Chart provides support to control the spacing between series using SpacingBetweenSeries property.
 
 _Features_
 
@@ -6695,7 +6696,7 @@ Me.chartControl1.SpacingBetweenSeries = 20
 
 ### SpacingBetweenPoints
 
-Essential® Chart provides support to control the spacing between points using SpacingBetweenPoints property.
+EssentialÂ® Chart provides support to control the spacing between points using SpacingBetweenPoints property.
 
 _Features_
 
@@ -8360,7 +8361,7 @@ The following screenshot illustrates a chart with color and border customization
 
 ## Custom Points
 
-Essential® Chart supports plotting of points on the Chart Area even if they don't belong to a series. These are stored in the ChartControl.CustomPoints collection. They can be set at custom coordinates of the Chart Area or be made to follow a certain point or percentage coordinates. A custom point displays a text, background, border, symbol and marker, which is a line that connects the CustomPoint with the point on the chart area when it is offset from it.
+EssentialÂ® Chart supports plotting of points on the Chart Area even if they don't belong to a series. These are stored in the ChartControl.CustomPoints collection. They can be set at custom coordinates of the Chart Area or be made to follow a certain point or percentage coordinates. A custom point displays a text, background, border, symbol and marker, which is a line that connects the CustomPoint with the point on the chart area when it is offset from it.
 
 Through Designer the Custom Points can be set using the CustomPoints property. Clicking this property will popup ChartCustomPoint Collection Editor window where you can add your custom points.
 
@@ -8527,10 +8528,10 @@ The coordinates are specified to be in pixels of the chart area.</td></tr>
 
 The custom point symbols in the above image represents following Custom Types respectively.
 
-1. Yellow “Circle” – PointFollow
-2. Orange “Star” - Pixel
-3. Pink “Pentagon” - Percent
-4. OrangeRed “Diamond” – ChartCoordinates
+1. Yellow â€œCircleâ€ â€“ PointFollow
+2. Orange â€œStarâ€ - Pixel
+3. Pink â€œPentagonâ€ - Percent
+4. OrangeRed â€œDiamondâ€ â€“ ChartCoordinates
 
 A sample demonstrating all the custom point types is available in our installation at the following location:
 
@@ -8613,7 +8614,7 @@ Me.ChartWebControl1.CustomPoints.Add(cp)
 
 ## Empty Points
 
-Essential® Chart lets you prevent certain points from getting plotted in the resultant chart. Such points are termed Empty Points.
+EssentialÂ® Chart lets you prevent certain points from getting plotted in the resultant chart. Such points are termed Empty Points.
 
 Empty Points can be implemented by setting the IsEmpty property of the ChartPoint class to true.
 

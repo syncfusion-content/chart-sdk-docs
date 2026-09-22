@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Pointers in UWP Linear Gauge | Syncfusion®
+title: Pointers in UWP Linear Gauge | SyncfusionÂ®
 description: Pointers in the UWP Linear Gauge indicate values on the scale using different pointer types and customizable appearance settings.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in UWP Linear Gauge

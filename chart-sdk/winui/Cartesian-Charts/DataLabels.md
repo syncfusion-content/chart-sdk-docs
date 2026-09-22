@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Data Label in WinUI Chart | Syncfusion®
+title: Data Label in WinUI Chart | SyncfusionÂ®
 description: Data labels in the WinUI Chart display data values directly on chart points and support customization of content, position, and appearance.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: data label in winui chart, winui sfcartesianchart data label, winui data label customization, syncfusion winui data label, winui chart data label overview.
 ---
 

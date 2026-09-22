@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Content Pointer in WinUI Radial Gauge | Syncfusion®
+title: Content Pointer in WinUI Radial Gauge | SyncfusionÂ®
 description: Content pointer in the WinUI Radial Gauge displays custom text and images at specific values and supports layout and appearance customization.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Content Pointer in WinUI Radial Gauge

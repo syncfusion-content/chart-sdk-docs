@@ -1,10 +1,11 @@
----
+﻿---
 layout: post 
-title: 3D Charts in UWP Chart | Syncfusion®
+title: 3D Charts in UWP Chart | SyncfusionÂ®
 description: 3D charts in the UWP Chart visualize data with depth and perspective, supporting rotation and interactive exploration of chart data.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # 3D Charts in UWP Chart
@@ -454,7 +455,7 @@ The following code example can be used to set series selection in a [`SfChart3D`
 </chart:SfChart3D>
 
 {% endhighlight %}
-The following screenshot is an example of a [`SfChart3D`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart3D.html) with series selection.
+The following screenshot is an example of aÂ [`SfChart3D`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.SfChart3D.html)Â with series selection.
 
 ![Series selection support in UWP 3D Chart](3D-Charts_images/Charts-3D_img4.png)
 

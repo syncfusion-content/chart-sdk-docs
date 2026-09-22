@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Pointers in WPF Linear Gauge | Syncfusion®
+title: Pointers in WPF Linear Gauge | SyncfusionÂ®
 description: Pointers in the WPF Linear Gauge indicate values on the scale using different pointer types and customizable appearance settings.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in WPF Linear Gauge

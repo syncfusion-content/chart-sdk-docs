@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with WinUI Barcode | Syncfusion®
-description: Learn how to get started with the Syncfusion® WinUI Barcode control. Explore setup, features, examples, and customization options.
+title: Getting Started with WinUI Barcode | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® WinUI Barcode control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: Barcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WinUI Barcode

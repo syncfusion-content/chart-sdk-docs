@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Theming in WPF Olap Chart | Syncfusion®
+title: Theming in WPF Olap Chart | SyncfusionÂ®
 description: Theming in the WPF OLAP Chart applies predefined visual styles to chart elements, ensuring a consistent and appealing appearance.
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Theming in WPF Olap Chart

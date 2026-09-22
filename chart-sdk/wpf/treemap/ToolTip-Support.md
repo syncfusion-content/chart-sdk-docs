@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Tooltip Support in WPF TreeMap | Syncfusion®
+title: Tooltip Support in WPF TreeMap | SyncfusionÂ®
 description: Tooltip support in the WPF TreeMap displays detailed information about hierarchical data items on hover, improving data analysis and interpretation.
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip Support in WPF TreeMap

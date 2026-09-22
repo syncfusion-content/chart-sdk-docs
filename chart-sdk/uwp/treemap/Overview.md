@@ -1,13 +1,14 @@
----
+﻿---
 layout: post
-title: About Syncfusion® UWP TreeMap Control | Syncfusion®
-description: Learn about the introduction of Syncfusion Essential Studio® UWP TreeMap control, its features, capabilities, and more details.
+title: About SyncfusionÂ® UWP TreeMap Control | SyncfusionÂ®
+description: Learn about the introduction of Syncfusion Essential StudioÂ® UWP TreeMap control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
-# About Syncfusion® UWP TreeMap Control
+# About SyncfusionÂ® UWP TreeMap Control
 
 A TreeMap is ideal for visualizing large amounts of data. The visualization space is split into rectangles that are sized and colored based on the quantitative variables. The levels in the hierarchy of the tree map are visualized as rectangles containing other rectangles.
 

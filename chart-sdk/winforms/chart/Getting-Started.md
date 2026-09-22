@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with Windows Forms Chart | Syncfusion®
-description: Learn how to get started with the Syncfusion® Windows Forms Chart control. Explore setup, configuration, chart types, and customization options.
+title: Getting Started with Windows Forms Chart | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® Windows Forms Chart control. Explore setup, configuration, chart types, and customization options.
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Windows Forms Chart
@@ -24,7 +25,7 @@ Please find more details regarding how to install the nuget packages in windows 
 
 To add chart to your form, follow the given steps:
 
-1.Open your form in designer. Add the Syncfusion® controls to your VS.NET toolbox if you have not done it already (the install would have automatically done this unless you selected not to complete toolbox integration during installation). 
+1.Open your form in designer. Add the SyncfusionÂ® controls to your VS.NET toolbox if you have not done it already (the install would have automatically done this unless you selected not to complete toolbox integration during installation). 
 
 ![Chart Started](Getting-Started_images/Toolbox.jpg)
 

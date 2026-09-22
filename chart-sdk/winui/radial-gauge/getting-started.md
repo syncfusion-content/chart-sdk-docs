@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Getting Started with WinUI Radial Gauge | Syncfusion®
-description: Learn how to get started with the Syncfusion® WinUI Radial Gauge control. Explore setup, features, examples, and customization options.
+title: Getting Started with WinUI Radial Gauge | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® WinUI Radial Gauge control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WinUI Radial Gauge

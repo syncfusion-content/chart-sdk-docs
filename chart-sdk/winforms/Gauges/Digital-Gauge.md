@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Digital Gauge in Windows Forms Gauge | Syncfusion®
+title: Digital Gauge in Windows Forms Gauge | SyncfusionÂ®
 description: Digital gauge in the Windows Forms displays numeric values in a digital format and supports customization of appearance and display settings.
 platform: chart-sdk
 control: Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Digital Gauge in Windows Forms Gauge
@@ -152,7 +153,7 @@ this.digitalGauge1.VisualStyle = Syncfusion.Windows.Forms.Gauge.ThemeStyle.Black
 
 {% highlight VB %}
 
-Me.digitalGauge1.VisualStyle = Syncfusion.Windows.Forms.Gauge.ThemeStyle.Black
+Me.digitalGauge1.VisualStyleÂ =Â Syncfusion.Windows.Forms.Gauge.ThemeStyle.Black
 
 {% endhighlight %}
 
@@ -175,7 +176,7 @@ this.digitalGauge1.VisualStyle = Syncfusion.Windows.Forms.Gauge.ThemeStyle.Blue;
 
 {% highlight VB %}
 
-Me.digitalGauge1.VisualStyle = Syncfusion.Windows.Forms.Gauge.ThemeStyle.Blue
+Me.digitalGauge1.VisualStyleÂ =Â Syncfusion.Windows.Forms.Gauge.ThemeStyle.Blue
 
 {% endhighlight %}
 
@@ -198,7 +199,7 @@ this.digitalGauge1.VisualStyle = Syncfusion.Windows.Forms.Gauge.ThemeStyle.Silve
 
 {% highlight VB %}
 
-Me.digitalGauge1.VisualStyle = Syncfusion.Windows.Forms.Gauge.ThemeStyle.Silver
+Me.digitalGauge1.VisualStyleÂ =Â Syncfusion.Windows.Forms.Gauge.ThemeStyle.Silver
 
 {% endhighlight %}
 
@@ -221,7 +222,7 @@ this.digitalGauge1.VisualStyle = Syncfusion.Windows.Forms.Gauge.ThemeStyle.Metro
 
 {% highlight VB %}
 
-Me.digitalGauge1.VisualStyle = Syncfusion.Windows.Forms.Gauge.ThemeStyle.Metro
+Me.digitalGauge1.VisualStyleÂ =Â Syncfusion.Windows.Forms.Gauge.ThemeStyle.Metro
 
 {% endhighlight %}
 
@@ -443,7 +444,7 @@ this.digitalGauge1.CharacterType = Syncfusion.Windows.Forms.Gauge.CharacterType.
 
 {% highlight VB %}
 
-Me.digitalGauge1.CharacterType = Syncfusion.Windows.Forms.Gauge.CharacterType.DotMatrixSegment
+Me.digitalGauge1.CharacterTypeÂ =Â Syncfusion.Windows.Forms.Gauge.CharacterType.DotMatrixSegment
 
 {% endhighlight %}
 
@@ -465,7 +466,7 @@ this.digitalGauge1.CharacterType = Syncfusion.Windows.Forms.Gauge.CharacterType.
 
 {% highlight VB %}
 
-Me.digitalGauge1.CharacterType = Syncfusion.Windows.Forms.Gauge.CharacterType.SevenSegment
+Me.digitalGauge1.CharacterTypeÂ =Â Syncfusion.Windows.Forms.Gauge.CharacterType.SevenSegment
 
 {% endhighlight %}
 
@@ -487,7 +488,7 @@ this.digitalGauge1.CharacterType = Syncfusion.Windows.Forms.Gauge.CharacterType.
 
 {% highlight VB %}
 
-Me.digitalGauge1.CharacterType = Syncfusion.Windows.Forms.Gauge.CharacterType.FourteenSegment
+Me.digitalGauge1.CharacterTypeÂ =Â Syncfusion.Windows.Forms.Gauge.CharacterType.FourteenSegment
 
 {% endhighlight %}
 
@@ -510,7 +511,7 @@ this.digitalGauge1.CharacterType = Syncfusion.Windows.Forms.Gauge.CharacterType.
 
 {% highlight VB %}
 
-Me.digitalGauge1.CharacterType = Syncfusion.Windows.Forms.Gauge.CharacterType.SixteenSegment
+Me.digitalGauge1.CharacterTypeÂ =Â Syncfusion.Windows.Forms.Gauge.CharacterType.SixteenSegment
 
 {% endhighlight %}
 
@@ -534,7 +535,7 @@ this.digitalGauge1.Value = "123456";
 
 {% highlight VB %}
 
-Me.digitalGauge1.CharacterCount = 4
+Me.digitalGauge1.CharacterCountÂ =Â 4
 
 Me.digitalGauge1.Value = "123456"
 
@@ -610,7 +611,7 @@ this.digitalGauge1.RoundCornerRadius = 50;
 
 {% highlight VB %}
 
-Me.digitalGauge1.RoundCornerRadius = 50
+Me.digitalGauge1.RoundCornerRadiusÂ =Â 50
 
 {% endhighlight %}
 

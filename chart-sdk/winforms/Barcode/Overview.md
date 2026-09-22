@@ -1,13 +1,14 @@
----
+﻿---
 layout: post
-title: About Syncfusion® Windows Forms Barcode Control | Syncfusion®
-description: Learn about the introduction of Syncfusion Essential Studio® Windows Forms Barcode control, its features, capabilities, and more details.
+title: About SyncfusionÂ® Windows Forms Barcode Control | SyncfusionÂ®
+description: Learn about the introduction of Syncfusion Essential StudioÂ® Windows Forms Barcode control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfBarcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
-# About Syncfusion® Windows Forms Barcode Control
+# About SyncfusionÂ® Windows Forms Barcode Control
 
 The [Barcode](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.Barcode.SfBarcode.html) control helps render barcodes in desktop (Windows Forms) applications. The control can be merged into any desktop application and makes it easy to encode text using the supported symbol types. The basic structure of a barcode consists of a leading and trailing quiet zone, a start pattern, one or more data characters, optionally one or two check characters, and a stop pattern.
 

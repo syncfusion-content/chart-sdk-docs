@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Column Chart in WinUI Chart | Syncfusion®
+title: Column Chart in WinUI Chart | SyncfusionÂ®
 description: Column chart in the WinUI Chart displays and compares values across categories using vertical columns for clear data visualization.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: winui column chart, winui sfcartesianchart, winui column chart customization, syncfusion winui column chart, winui chart column chart properties.
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: User Interaction in WPF Maps | Syncfusion®
+title: User Interaction in WPF Maps | SyncfusionÂ®
 description: User interaction in the WPF Maps enables tooltips, zooming, panning, and navigation for enhanced map exploration and data analysis.
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # User Interaction in WPF Maps
@@ -14,9 +15,9 @@ documentation: ug
 Tooltip provides additional information about the shapes in the maps. To enable tooltip, set the [`ToolTipSettings`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.ShapeFileLayer.html#Syncfusion_UI_Xaml_Maps_ShapeFileLayer_ToolTipSettings) property in the [`ShapeFileLayer`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.ShapeFileLayer.html) and also set the [`ValuePath`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.ToolTipSetting.html#Syncfusion_UI_Xaml_Maps_ToolTipSetting_ValuePath) property of [`ToolTipSetting`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Maps.ToolTipSetting.html).
 
 Tooltip is displayed by tapping the following elements:
-• Shapes
-• Bubbles
-• Markers
+â€¢ Shapes
+â€¢ Bubbles
+â€¢ Markers
 
 ## Tooltip for shapes
 

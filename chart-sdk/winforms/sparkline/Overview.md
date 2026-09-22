@@ -1,13 +1,14 @@
----
+﻿---
 layout: post
-title: About Syncfusion® Windows Forms Sparkline Control | Syncfusion®
-description: Learn about the introduction of Syncfusion Essential Studio® Windows Forms Sparkline control, its features, capabilities, and more details.
+title: About SyncfusionÂ® Windows Forms Sparkline Control | SyncfusionÂ®
+description: Learn about the introduction of Syncfusion Essential StudioÂ® Windows Forms Sparkline control, its features, capabilities, and more details.
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
-# About Syncfusion® WinForms Sparkline Control
+# About SyncfusionÂ® WinForms Sparkline Control
 
 A WinForms Sparkline control is a type of information graphic characterized by its small size, high data density, and lightweight. It presents trends and variations in a very condensed fashion. The WinForms Sparkline does not contain an axis scale and is intended to give a high-level overview of what happened to the data over time.
 

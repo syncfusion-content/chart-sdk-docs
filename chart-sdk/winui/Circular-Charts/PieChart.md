@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Pie Chart in WinUI Circular Chart | Syncfusion®
+title: Pie Chart in WinUI Circular Chart | SyncfusionÂ®
 description: Pie chart in the WinUI Circular Chart displays proportional data as slices, enabling clear comparison of category values and contributions.
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pie Chart in WinUI Circular Chart
@@ -79,12 +80,12 @@ chart.Series.Add(series);
 
 ![Radius support in WinUI Chart](Series_images/winui_pie_Radius.png)
 
-## Group small data points into “others”
+## Group small data points into â€œothersâ€
 
-The small segments in the pie chart can be grouped into the “others” category using the [GroupTo](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupTo) and [GroupMode](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupMode) properties of [PieSeries](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.PieSeries.html).
+The small segments in the pie chart can be grouped into the â€œothersâ€ category using the [GroupTo](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupTo) and [GroupMode](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupMode) properties of [PieSeries](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.PieSeries.html).
 
 * [GroupMode](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupMode) - Used to specify the grouping type based on the slice [Angle](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.PieGroupMode.html#Syncfusion_UI_Xaml_Charts_PieGroupMode_Angle), actual data point [Value](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.PieGroupMode.html#Syncfusion_UI_Xaml_Charts_PieGroupMode_Value), or [Percentage](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.PieGroupMode.html#Syncfusion_UI_Xaml_Charts_PieGroupMode_Percentage). 
-* [GroupTo](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupTo) - Used to set the limit to group data points into a single slice. The grouped segment is labeled as “Others” in the legend and is toggled as the other segment. 
+* [GroupTo](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupTo) - Used to set the limit to group data points into a single slice. The grouped segment is labeled as â€œOthersâ€ in the legend and is toggled as the other segment. 
 
 The default value of the [GroupTo](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupTo) property is `double.NaN`, and the default value of the [GroupMode](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Charts.CircularSeries.html#Syncfusion_UI_Xaml_Charts_CircularSeries_GroupMode) property is `Value`.
 

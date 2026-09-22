@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Data Marker in WPF Charts | Syncfusion®
+title: Data Marker in WPF Charts | SyncfusionÂ®
 description: Data markers in the WPF Chart highlight individual data points with customizable shapes and styles for improved visualization.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Marker in WPF Charts

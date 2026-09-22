@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Rendering Type in UWP Smith Chart | Syncfusion®
+title: Rendering Type in UWP Smith Chart | SyncfusionÂ®
 description: Rendering type in the UWP Smith Chart determines how series data is displayed, enabling different visualization styles and layouts.
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Rendering Type in UWP Smith Chart

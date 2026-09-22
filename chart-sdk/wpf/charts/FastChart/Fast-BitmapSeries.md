@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Fast Bitmap Series in WPF Charts | Syncfusion®
+title: Fast Bitmap Series in WPF Charts | SyncfusionÂ®
 description: Fast Bitmap Series in the WPF Chart renders large volumes of data efficiently, delivering improved performance and faster visualization.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Fast Bitmap Series in WPF Charts 

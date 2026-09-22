@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Animation in UWP Pivot Chart | Syncfusion®
+title: Animation in UWP Pivot Chart | SyncfusionÂ®
 description: Animation in the UWP Pivot Chart enables smooth transitions for chart series and data points, enhancing data visualization and user experience.
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in UWP Pivot Chart

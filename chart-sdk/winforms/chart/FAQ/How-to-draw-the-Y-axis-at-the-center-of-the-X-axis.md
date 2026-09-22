@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to draw the Y-Axis at center in Windows Forms Chart | Syncfusion®
+title: How to draw the Y-Axis at center in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to draw the Y-axis at the center of the X-axis or position it at a custom location in a Windows Forms Chart.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to draw the Y-Axis at center in Windows Forms Chart

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Shape Labels in UWP Maps | Syncfusion®
+title: Shape Labels in UWP Maps | SyncfusionÂ®
 description: Shape labels in the UWP Maps display text for geographic regions, helping users identify and interpret location-based data clearly.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Labels in UWP Maps

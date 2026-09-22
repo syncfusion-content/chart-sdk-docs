@@ -1,11 +1,12 @@
----
+﻿---
 
 layout: post
-title: Selection in UWP Sunburst Chart | Syncfusion®
+title: Selection in UWP Sunburst Chart | SyncfusionÂ®
 description: Selection in the UWP Sunburst Chart enables users to highlight and interact with data segments for focused analysis and exploration.
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 
@@ -40,8 +41,8 @@ chart.Behaviors.Add(selection);
 
 You can customize the selected segment appearance by using brush or opacity. You can choose between color or opacity using the [`SelectionDisplayMode`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.SunburstChart.SunburstSelectionBehavior.html#Syncfusion_UI_Xaml_SunburstChart_SunburstSelectionBehavior_SelectionDisplayMode) property in the selection behavior 
 
-* HighlightByColor – To display the selected segment appearance using brush.
-* HighlightByOpacity – To display the selected segment appearance using opacity.
+* HighlightByColor â€“ To display the selected segment appearance using brush.
+* HighlightByOpacity â€“ To display the selected segment appearance using opacity.
 
 The following code shows how to set the display mode using brush.
 
@@ -76,9 +77,9 @@ N> The default value of SelectionDisplayMode is HighlightByOpacity.
 
 Sunburst chart provides support to select or highlight the segment by clicking or hovering the mouse over a segment. By default, this property value is MouseClick.
 
-* Both – Select the segment using mouse move and mouse click.
-* MouseClick – Select the segment using mouse click.
-* MouseMove – Select the segment using mouse move.
+* Both â€“ Select the segment using mouse move and mouse click.
+* MouseClick â€“ Select the segment using mouse click.
+* MouseMove â€“ Select the segment using mouse move.
 
 {% tabs %}
 
@@ -106,9 +107,9 @@ chart.Behaviors.Add(selection);
 
 Sunburst chart provides multiple options to represent the selected categories. You can select the segment categories by using the [`SelectionType`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.SunburstChart.SunburstSelectionBehavior.html#Syncfusion_UI_Xaml_SunburstChart_SunburstSelectionBehavior_SelectionType) property in selection behavior.
 
-* Child – To select the child of selected parent.
-* Group – To select the entire categories in group.
-* Parent – To select the parent of selected child.
+* Child â€“ To select the child of selected parent.
+* Group â€“ To select the entire categories in group.
+* Parent â€“ To select the parent of selected child.
 * Single - To select single item in the category.
 
 ### Child

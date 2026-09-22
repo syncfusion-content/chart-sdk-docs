@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Scale in UWP Linear Gauge | Syncfusion®
+title: Scale in UWP Linear Gauge | SyncfusionÂ®
 description: Scale in the UWP Linear Gauge defines value ranges, intervals, and labels, enabling accurate measurement and data representation.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Scale in UWP Linear Gauge

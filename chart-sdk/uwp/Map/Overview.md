@@ -1,13 +1,14 @@
----
+﻿---
 layout: post
-title: About Syncfusion® UWP Maps Control | Syncfusion®
-description: Learn about the introduction of Syncfusion Essential Studio® UWP Maps control, its features, capabilities, and more details.
+title: About SyncfusionÂ® UWP Maps Control | SyncfusionÂ®
+description: Learn about the introduction of Syncfusion Essential StudioÂ® UWP Maps control, its features, capabilities, and more details.
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
-# About Syncfusion® UWP Maps Control
+# About SyncfusionÂ® UWP Maps Control
 
 A map is a graphical representation of geographical data. It is used to represent the statistical data of a particular geographical area on Earth. Panning and zooming enable navigation around the map. Data visualization can be enhanced in the map control with bubbles and labels. Bubbles and labels visualize the data that is bound to the map.
 

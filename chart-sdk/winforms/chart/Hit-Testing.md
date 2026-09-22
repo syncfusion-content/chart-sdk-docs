@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Hit Testing in Windows Forms Chart | Syncfusion®
+title: Hit Testing in Windows Forms Chart | SyncfusionÂ®
 description: Hit testing in the Windows Forms Chart identifies chart elements at specific coordinates and supports interactive chart analysis.
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Hit Testing in Windows Forms Chart

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to set a color palette in Windows Forms Chart | Syncfusion®
+title: How to set a color palette in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to set a color palette for a Windows Forms Chart and customize the colors used to display chart series and data points.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to set a color palette in Windows Forms Chart

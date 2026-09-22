@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Shape Pointer in WinUI Linear Gauge | Syncfusion®
+title: Shape Pointer in WinUI Linear Gauge | SyncfusionÂ®
 description: Shape pointer in the WinUI Linear Gauge indicates values using customizable shapes and supports styling, positioning, and appearance settings.
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Pointer in WinUI Linear Gauge
@@ -111,11 +112,11 @@ this.Content = sfLinearGauge;
 
 The shape pointer can be customized using the following properties:
 
-* [`Fill`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_Fill) – Allows you to customize the shape color.
-* [`Stroke`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_Stroke) – Allows you to specify the border color for the shape.
-* [`StrokeThickness`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_StrokeThickness) – Allows you to specify the border width of the shape.
-* [`ShapeHeight`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_ShapeHeight) – Allows you to specify the shape height.
-* [`ShapeWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_ShapeWidth) – Allows you to specify the shape width.
+* [`Fill`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_Fill) â€“ Allows you to customize the shape color.
+* [`Stroke`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_Stroke) â€“ Allows you to specify the border color for the shape.
+* [`StrokeThickness`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_StrokeThickness) â€“ Allows you to specify the border width of the shape.
+* [`ShapeHeight`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_ShapeHeight) â€“ Allows you to specify the shape height.
+* [`ShapeWidth`](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Gauges.LinearShapePointer.html#Syncfusion_UI_Xaml_Gauges_LinearShapePointer_ShapeWidth) â€“ Allows you to specify the shape width.
 
 {% tabs %}
 

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: How to display chart area only in Windows Forms Chart | Syncfusion®
+title: How to display chart area only in Windows Forms Chart | SyncfusionÂ®
 description: Learn how to display only the chart area in a Windows Forms Chart by hiding other chart elements and customizing the chart layout.
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to display only the chart area in Windows Forms Chart

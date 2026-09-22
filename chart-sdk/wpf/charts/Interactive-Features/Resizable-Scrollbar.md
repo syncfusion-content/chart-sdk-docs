@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Resizable Scrollbar in WPF Charts | Syncfusion®
+title: Resizable Scrollbar in WPF Charts | SyncfusionÂ®
 description: Resizable scrollbar in the WPF Chart allows users to adjust the visible data range dynamically for improved navigation and analysis
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Resizable Scrollbar in WPF Charts

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Selection in WPF Maps | Syncfusion®
+title: Selection in WPF Maps | SyncfusionÂ®
 description: Map selection in the WPF Maps enables users to highlight and interact with map elements for focused analysis and data exploration.
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection in WPF Maps

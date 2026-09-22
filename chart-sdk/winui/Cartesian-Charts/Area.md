@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Area Chart in WinUI Chart | Syncfusion®
+title: Area Chart in WinUI Chart | SyncfusionÂ®
 description: Area chart in the WinUI Chart visualizes trends and magnitude over time using filled areas, supporting effective data comparison and analysis.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: winui area chart, winui sfcartesianchart area chart, winui area chart customization, syncfusion winui area chart, winui sfcartesianchart area chart settings.
 ---
 

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Radial Gauge in Windows Forms Gauge | Syncfusion®
+title: Radial Gauge in Windows Forms Gauge | SyncfusionÂ®
 description: Radial gauge in the Windows Forms Gauge displays values on a circular scale and supports customization of appearance, ranges, and indicators.
 platform: chart-sdk
 control: Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Radial Gauge in Windows Forms Gauge
@@ -429,7 +430,7 @@ RangePlacement</td><td>
 Enum</td><td>
 Using this attribute, the range can be positioned in two areas along the radial scale. It includes the following options:
 <ul><li> Inside</li>
-<li> Outside</li></ul><br> The default value is Inside.</td></tr>
+<li> Outside</li></ul><br>Â The default value is Inside.</td></tr>
 <tr>
 <td>
 Height</td><td>
@@ -626,7 +627,7 @@ private void RadialGauge1_DrawLabel(object sender, Syncfusion.Windows.Forms.Gaug
 {
     e.Handled = true;
     if (e.LabelType == Syncfusion.Windows.Forms.Gauge.LabelType.Scale)
-        e.Text += " °C";
+        e.Text += " Â°C";
     else
     {
         e.Text = "Temperature";
@@ -645,7 +646,7 @@ AddHandler Me.radialGauge1.DrawLabel, AddressOf RadialGauge1_DrawLabel
 Private Sub RadialGauge1_DrawLabel(sender As Object, e As Syncfusion.Windows.Forms.Gauge.DrawLabelEventArgs) Handles radialGauge1.DrawLabel
     e.Handled = True
     If e.LabelType = Syncfusion.Windows.Forms.Gauge.LabelType.Scale Then
-        e.Text &= " °C"
+        e.Text &= " Â°C"
     Else
         e.Text = "Temperature"
         e.LabelAlignment = Syncfusion.Windows.Forms.Gauge.LabelAlignment.Center
@@ -1083,7 +1084,7 @@ Performance of the RadialGauge control after suspending and resuming the layout 
 
 #### Adding multiple needles to RadialGauge
 
-The RadialGauge control can be used for representing a range of values in circular form. In RadialGauge, you can represent the range of values using multiple needles.
+TheÂ RadialGaugeÂ control can be used for representing a range of values in circular form. In RadialGauge, you can represent the range of values using multiple needles.
 
 
 

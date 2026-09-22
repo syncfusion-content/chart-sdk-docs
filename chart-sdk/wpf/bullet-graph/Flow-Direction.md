@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Flow Direction in WPF Bullet Graph | Syncfusion®
+title: Flow Direction in WPF Bullet Graph | SyncfusionÂ®
 description: Flow direction in the WPF Bullet Graph controls the layout orientation, enabling content to be displayed from left to right or right to left.
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Flow Direction in WPF Bullet Graph

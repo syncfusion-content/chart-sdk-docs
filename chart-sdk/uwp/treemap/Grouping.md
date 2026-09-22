@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Grouping in UWP TreeMap | Syncfusion®
+title: Grouping in UWP TreeMap | SyncfusionÂ®
 description: Grouping in the UWP TreeMap organizes data into hierarchical levels, enabling structured visualization and effective analysis of related data.
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Grouping in UWP TreeMap
@@ -20,7 +21,7 @@ TreeMapFlatLevel is used to define levels for flat data collection.
 
 ### GroupPath:
 
-You must specify the [`GroupPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeMap.TreeMapFlatLevel.html#Syncfusion_UI_Xaml_TreeMap_TreeMapFlatLevel_GroupPath) for each and every flat level of TreeMap. It is a path to a field on the source object, which serves as the “Group” for the levels specified. Based upon the GroupPath, the data is grouped in the TreeMap. If GroupPath is not specified, then the items are not grouped, and it is shown in the order, in which they are specified in the ItemsSource.
+You must specify the [`GroupPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeMap.TreeMapFlatLevel.html#Syncfusion_UI_Xaml_TreeMap_TreeMapFlatLevel_GroupPath) for each and every flat level of TreeMap. It is a path to a field on the source object, which serves as the â€œGroupâ€ for the levels specified. Based upon the GroupPath, the data is grouped in the TreeMap. If GroupPath is not specified, then the items are not grouped, and it is shown in the order, in which they are specified in the ItemsSource.
 
 Code Sample:
 
@@ -226,7 +227,7 @@ public class RegionSale : INotifyPropertyChanged
 
 ### ChildPath:
 
-You must specify [`ChildPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeMap.TreeMapHierarchicalLevel.html#Syncfusion_UI_Xaml_TreeMap_TreeMapHierarchicalLevel_ChildPath) for each and every hierarchical level of TreeMap. It is a path to a field on the source object, which serves as the “Child” for the level specified. Based upon the [`ChildPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeMap.TreeMapHierarchicalLevel.html#Syncfusion_UI_Xaml_TreeMap_TreeMapHierarchicalLevel_ChildPath), the treemap contains child items.
+You must specify [`ChildPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeMap.TreeMapHierarchicalLevel.html#Syncfusion_UI_Xaml_TreeMap_TreeMapHierarchicalLevel_ChildPath) for each and every hierarchical level of TreeMap. It is a path to a field on the source object, which serves as the â€œChildâ€ for the level specified. Based upon the [`ChildPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.TreeMap.TreeMapHierarchicalLevel.html#Syncfusion_UI_Xaml_TreeMap_TreeMapHierarchicalLevel_ChildPath), the treemap contains child items.
 
 Code Sample:
 

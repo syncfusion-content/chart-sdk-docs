@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Axis Labels in WinUI Chart | Syncfusion®
+title: Axis Labels in WinUI Chart | SyncfusionÂ®
 description: Axis labels in the WinUI Chart display values and categories, supporting customization of formatting, positioning, and appearance settings.
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 keywords: axis labels in winui chart, winui sfcartesianchart axis labels, winui chart axis labels customization, syncfusion winui chart axis labels, winui sfcartesianchart axis labels settings.
 ---
 

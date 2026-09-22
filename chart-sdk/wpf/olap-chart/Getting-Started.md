@@ -1,16 +1,17 @@
----
+﻿---
 layout: post
-title: Getting Started with WPF Olap Chart | Syncfusion®
-description: Learn how to get started with the Syncfusion® WPF Olap Chart control. Explore setup, features, examples, and customization options.
+title: Getting Started with WPF Olap Chart | SyncfusionÂ®
+description: Learn how to get started with the SyncfusionÂ® WPF Olap Chart control. Explore setup, features, examples, and customization options.
 platform: chart-sdk
 control: OLAP Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WPF Olap Chart
 
 >**Important**
-Starting with v16.2.0.x, if you refer to Syncfusion® assemblies from trial setup or from the NuGet feed, include a license key in your projects. Refer to this [link](https://help.syncfusion.com/common/essential-studio/licensing/license-key) to learn about registering Syncfusion® license key in your WPF application to use the components.
+Starting with v16.2.0.x, if you refer to SyncfusionÂ® assemblies from trial setup or from the NuGet feed, include a license key in your projects. Refer to this [link](https://help.syncfusion.com/common/essential-studio/licensing/license-key) to learn about registering SyncfusionÂ® license key in your WPF application to use the components.
 
 This section covers the information required to create a simple OLAP chart bound to the WPF OLAP Chart source.
 
@@ -18,7 +19,7 @@ This section covers the information required to create a simple OLAP chart bound
 
 Open the Visual Studio IDE and navigate to File > New > Project > WPF Application (inside Visual C# Templates) to create a new WPF application.
 
-After the WPF application is created, go to the View menu and select the Toolbox option. Now, the toolbox will appear inside the Visual Studio IDE. From the Visual Studio Toolbox, drag the WPF OLAP Chart under the **Syncfusion® BI WPF** tag. It will automatically add the required assemblies to the application.
+After the WPF application is created, go to the View menu and select the Toolbox option. Now, the toolbox will appear inside the Visual Studio IDE. From the Visual Studio Toolbox, drag the WPF OLAP Chart under the **SyncfusionÂ® BI WPF** tag. It will automatically add the required assemblies to the application.
 
 ![WPF OLAP Chart Getting-Started Image1](Getting-Started_images/Getting-Started_img1.png)
 
@@ -323,7 +324,7 @@ Run the application. The following output will be generated.
 
 Open the Visual Studio IDE and navigate to File > New > Project > WPF Application (inside Visual C# Templates) to create a new WPF application.
 
-To add the dependency assemblies within the application, right-click **References** in the solution explorer and select **Add Reference**. Then, add the following Syncfusion® assemblies manually to the project from the installed location.
+To add the dependency assemblies within the application, right-click **References** in the solution explorer and select **Add Reference**. Then, add the following SyncfusionÂ® assemblies manually to the project from the installed location.
 
 * Syncfusion.Chart.WPF
 * Syncfusion.Core
@@ -477,7 +478,7 @@ First drag the OLAP chart control from the toolbox to the Visual Studio designer
 
 ![WPF OLAP Chart Getting-Started Image1](Getting-Started_images/Getting-Started_img1.png)
 
-Right-click the WPF OLAP Chart available in the designer and go to **Configure data source > Create/Edit data source…** option in the context menu. Now, the **Data Source Properties** wizard opens.
+Right-click the WPF OLAP Chart available in the designer and go to **Configure data source > Create/Edit data sourceâ€¦** option in the context menu. Now, the **Data Source Properties** wizard opens.
 
 ![WPF OLAP Chart Getting-Started Image4](Getting-Started_images/Getting-Started_img4.png)
 

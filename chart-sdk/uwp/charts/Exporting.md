@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Exporting in UWP Charts | Syncfusion®
+title: Exporting in UWP Charts | SyncfusionÂ®
 description: Exporting in the UWP Chart enables chart data and visuals to be saved in supported formats for sharing, printing, and reporting.
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Exporting in UWP Charts
 
@@ -52,7 +53,7 @@ private void SaveImageLocation_Click(object sender, RoutedEventArgs e)
 
 {% endhighlight %}
 
-If you did not specify any location, the image will be saved to the corresponding application’s bin\x86\Debug\AppX
+If you did not specify any location, the image will be saved to the corresponding applicationâ€™s bin\x86\Debug\AppX
 
 {% highlight c# %}
 

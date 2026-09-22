@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Shape Types in WPF Maps | Syncfusion®
+title: Shape Types in WPF Maps | SyncfusionÂ®
 description: Shape types in the WPF Maps define how geographic regions are rendered, enabling visualization of location-based data using map shapes.
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Types in WPF Maps

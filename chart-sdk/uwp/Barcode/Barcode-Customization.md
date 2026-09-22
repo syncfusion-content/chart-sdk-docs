@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Customization in UWP Barcode | Syncfusion®
+title: Customization in UWP Barcode | SyncfusionÂ®
 description: Customization in the UWP Barcode allows you to modify appearance, colors, sizing, labels, and styling to meet application requirements.
 platform: chart-sdk
 control: SfBarcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Customization in UWP Barcode

@@ -1,10 +1,11 @@
----
+﻿---
 layout: post
-title: Annotations in Windows Forms Maps | Syncfusion®
+title: Annotations in Windows Forms Maps | SyncfusionÂ®
 description: Annotations in the Windows Forms Maps display custom content at specific locations and support flexible positioning and appearance customization.
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotations in Windows Forms Maps
