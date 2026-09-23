@@ -50,7 +50,7 @@ As mentioned earlier, a shape file can be a set of files or a single file. Gener
 
 * Main file (.shp)
 * Index file (.shx)
-* dBASE file (.dbf)
+* dBase file (.dbf)
 
 All files must adhere to the 8.3 naming conventions. The Main file, Index file, and dBase file must have the same prefix, so they must have the same file name. This naming convention allows users or developers to identify specific geographical information.
 
