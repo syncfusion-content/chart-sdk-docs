@@ -5,6 +5,7 @@ description: Pie Chart in .NET MAUI Circular Chart represents data as proportion
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pie Chart in .NET MAUI Circular Chart

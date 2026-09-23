@@ -5,6 +5,7 @@ description: Zooming and Panning in .NET MAUI Maps enable interactive navigation
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming and Panning in .NET MAUI Maps
