@@ -6,6 +6,52 @@ timestamps
 String platform='chart-sdk';
    try
 	{   
+		powershell '''
+                    try {
+                        Write-Host "Checking current C: drive usage..."
+                        $volume = Get-Volume -DriveLetter C
+                        Write-Host "Before Resize: $($volume.Size / 1GB) GB total"
+
+                        $supportedSize = Get-PartitionSupportedSize -DriveLetter C
+                        if ($volume.Size -lt $supportedSize.SizeMax) {
+                            Write-Host "Resizing C: partition to maximum available size..."
+                            Resize-Partition -DriveLetter C -Size $supportedSize.SizeMax
+
+                            # Verify after resize
+                            Start-Sleep -Seconds 5
+                            $volume = Get-Volume -DriveLetter C
+                            Write-Host "After Resize: $($volume.Size / 1GB) GB total"
+                        } else {
+                            Write-Host "C: partition is already using full available space."
+                        }
+                    } catch {
+                        Write-Error "Failed to resize partition: $_"
+                    }
+                '''
+				stage('Uninstall .NET 5 & 7 SDK') {
+					powershell '''
+						Write-Host "Removing .NET 5 & 7 SDKs if present..."
+
+					$paths = @(
+						"$env:ProgramFiles\\dotnet\\sdk",
+						"$env:LOCALAPPDATA\\Microsoft\\dotnet\\sdk"
+					)
+
+					foreach ($path in $paths) {
+						if (Test-Path $path) {
+							Get-ChildItem $path -Directory -ErrorAction SilentlyContinue |
+								Where-Object { $_.Name -match "^(5|7)\\." } |
+								ForEach-Object {
+									Write-Host "Deleting $($_.FullName)"
+									Remove-Item $_.FullName -Recurse -Force -ErrorAction SilentlyContinue
+								}
+						}
+					}
+
+					Write-Host ".NET cleanup completed."
+					'''
+				}
+	
 	
 	def Content="";
 		env.PATH = "${ProgramFiles}"+"\\Git\\mingw64\\bin;${env.PATH}"
@@ -15,7 +61,16 @@ String platform='chart-sdk';
 	    { 
 	    dir('Spell-Checker') 
            {
-		     checkout scm
+		     // checkout scm
+			   checkout([
+			    $class: 'GitSCM',
+			    branches: scm.branches,
+			    userRemoteConfigs: scm.userRemoteConfigs,
+			    extensions: [
+			        [$class: 'CloneOption', timeout: 120],
+			        [$class: 'CheckoutOption', timeout: 120]
+			    ]
+			])
 			 
 			 def page = 1
 			 while(true)
