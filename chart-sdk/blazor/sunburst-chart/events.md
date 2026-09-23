@@ -5,7 +5,7 @@ description: Learn how to subscribe to and customize event callbacks on the Blaz
 platform: Blazor
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, drill down, drill up, DrillDownStarting, DrillUpStarting, OnPointClick, OnLegendClick
+keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, drill down, drill up, DrillDownStarting, DrillUpStarting, PointClick, LegendClick
 ---
 
 # Blazor Sunburst Chart Events
@@ -199,9 +199,9 @@ Both callbacks use `SunburstDrillEventArgs<TItem>`. The completed events are inf
 | `PreviousRootLabel` | `string` | Gets the label of the root segment that was active before the drill operation completed. It is empty when the previous root is the synthetic chart root. |
 | `Source` | `TItem` | Gets the original data item associated with the drill point, or the default value when the point represents the synthetic root. |
 
-## OnPointClick
+## PointClick
 
-The `OnPointClick` event is triggered when a user clicks a Sunburst segment. Use it to obtain information about the clicked segment or to perform custom actions based on the interaction.
+The `PointClick` event is triggered when a user clicks a Sunburst segment. Use it to obtain information about the clicked segment or to perform custom actions based on the interaction.
 
 The corresponding event arguments are `SunburstPointClickEventArgs<TItem>`. This event is observational and does not support cancellation.
 
@@ -216,7 +216,7 @@ The corresponding event arguments are `SunburstPointClickEventArgs<TItem>`. This
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
-                 OnPointClick="@OnPointClick"
+                 PointClick="@PointClickHandler"
                  Width="100%" Height="600px">
 </SfSunburstChart>
 
@@ -264,7 +264,7 @@ The corresponding event arguments are `SunburstPointClickEventArgs<TItem>`. This
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private void OnPointClick(SunburstPointClickEventArgs<RegionData> args)
+    private void PointClickHandler(SunburstPointClickEventArgs<RegionData> args)
     {
         // Here, you can customize your code.
     }
@@ -274,11 +274,11 @@ The corresponding event arguments are `SunburstPointClickEventArgs<TItem>`. This
 
 ## SunburstPointClickEventArgs properties
 
-`SunburstPointClickEventArgs<TItem>` is supplied to the `OnPointClick` callback and exposes the following fields:
+`SunburstPointClickEventArgs<TItem>` is supplied to the `PointClick` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"OnPointClick"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"PointClick"`. Set by the chart — do not mutate. |
 | `Fill` | `string` | Gets the fill color of the clicked segment. |
 | `Point` | `SunburstPointInfo` | Information about the clicked segment. Exposes `Label` and `Value`. Set by the chart — do not reassign. |
 | `Font` | `SunburstFontModel` | Gets the font style associated with the clicked segment. |
@@ -372,9 +372,9 @@ The `SunburstSelectionChangedEventArgs<TItem>` instance exposes the current sele
 
 N> Clicking the currently selected segment again clears the selection, and the `SelectionChanged` callback fires with the cleared state so external UI can synchronize with the chart.
 
-## OnLegendClick
+## LegendClick
 
-The `OnLegendClick` event is triggered when a user clicks a legend item. Use it to update external UI, log telemetry, or cancel the default visibility toggle that hides the related root-level hierarchy branch.
+The `LegendClick` event is triggered when a user clicks a legend item. Use it to update external UI, log telemetry, or cancel the default visibility toggle that hides the related root-level hierarchy branch.
 
 The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
 
@@ -389,7 +389,7 @@ The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
                  ParentIdMemberPath="@nameof(RegionData.ParentId)"
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
-                 OnLegendClick="@OnLegendClick"
+                 LegendClick="@LegendClickHandler"
                  Width="100%" Height="600px">
     <SunburstLegendSettings Visible="true"
                             Position="SunburstLegendPosition.Bottom"
@@ -440,7 +440,7 @@ The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private Task OnLegendClick(SunburstLegendClickEventArgs<RegionData> args)
+    private Task LegendClickHandler(SunburstLegendClickEventArgs<RegionData> args)
     {
         // Here, you can customize your code.
 
@@ -455,11 +455,11 @@ The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
 
 ## SunburstLegendClickEventArgs properties
 
-`SunburstLegendClickEventArgs<TItem>` is supplied to the `OnLegendClick` callback and exposes the following fields:
+`SunburstLegendClickEventArgs<TItem>` is supplied to the `LegendClick` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"OnLegendClick"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"LegendClick"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the default visibility toggle for the legend item's root-level hierarchy branch. The default value is `false`. |
 | `LegendIndex` | `int` | The zero-based index of the clicked legend item. Set by the chart. |
 | `Text` | `string` | The label text of the clicked legend item. |
@@ -1011,8 +1011,8 @@ The following tables list the callbacks exposed by the `SfSunburstChart` compone
 | Event | EventArgs | EventName | Cancelable |
 |---|---|---|---|
 | `Loaded` | `SunburstLoadedEventArgs` | `Loaded` | No |
-| `OnPointClick` | `SunburstPointClickEventArgs<TItem>` | `OnPointClick` | No |
-| `OnLegendClick` | `SunburstLegendClickEventArgs<TItem>` | `OnLegendClick` | Yes |
+| `PointClick` | `SunburstPointClickEventArgs<TItem>` | `PointClick` | No |
+| `LegendClick` | `SunburstLegendClickEventArgs<TItem>` | `LegendClick` | Yes |
 | `SelectionChanged` | `SunburstSelectionChangedEventArgs<TItem>` | `SelectionChanged` | No |
 | `DrillDownStarting` | `SunburstDrillStartingEventArgs<TItem>` | `DrillDownStarting` | Yes |
 | `DrillDownCompleted` | `SunburstDrillEventArgs<TItem>` | `DrillDownCompleted` | No |
@@ -1036,7 +1036,7 @@ The following tables list the callbacks exposed by the `SfSunburstChart` compone
 | `Exporting` | `ChartExportEventArgs` | Yes (`Cancel`) |
 | `ExportCompleted` | `ExportEventArgs` | No |
 
-N> `Action` callbacks (`LegendItemRendering`, `DataLabelRendering`, `SegmentRendering`, `TooltipRendering`, `Exporting`, `ExportCompleted`, `PrintCompleted`) are invoked synchronously by the chart. `EventCallback` callbacks (`Loaded`, `OnPointClick`, `OnLegendClick`, `SelectionChanged`, `DrillDownStarting`, `DrillDownCompleted`, `DrillUpStarting`, `DrillUpCompleted`) support Blazor's asynchronous dispatch and can be used with `async` / `await`.
+N> `Action` callbacks (`LegendItemRendering`, `DataLabelRendering`, `SegmentRendering`, `TooltipRendering`, `Exporting`, `ExportCompleted`, `PrintCompleted`) are invoked synchronously by the chart. `EventCallback` callbacks (`Loaded`, `PointClick`, `LegendClick`, `SelectionChanged`, `DrillDownStarting`, `DrillDownCompleted`, `DrillUpStarting`, `DrillUpCompleted`) support Blazor's asynchronous dispatch and can be used with `async` / `await`.
 
 ## See also
 
