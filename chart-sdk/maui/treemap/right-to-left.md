@@ -5,6 +5,7 @@ description: Right To Left in .NET MAUI TreeMap supports RTL layouts for hierarc
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Right To Left in .NET MAUI TreeMap
