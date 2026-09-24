@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Print and Export | Syncfusion®
 description: Learn how to print and export the Blazor Sunburst Chart to PNG, JPEG, SVG, PDF, XLSX, or CSV using the PrintAsync and ExportAsync methods of SfSunburstChart.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart print, Blazor Sunburst Chart export, Sunburst Chart print, Sunburst Chart export, PrintAsync, ExportAsync, ExportType, PDF export, XLSX export, CSV export, hierarchy export

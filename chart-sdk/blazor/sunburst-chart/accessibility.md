@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Accessibility | Syncfusion®
 description: Learn about Syncfusion Blazor Sunburst Chart accessibility compliance. Review WCAG 2.2, Section 508, screen reader, and keyboard navigation support.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart accessibility, Sunburst Chart WCAG, Sunburst Chart keyboard navigation, Sunburst Chart ARIA, Sunburst Chart screen reader

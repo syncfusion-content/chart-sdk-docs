@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Highlight | Syncfusion®
 description: Learn how to enable and customize segment highlighting on the Blazor Sunburst Chart using SunburstHighlightSettings and SunburstHighlightMode.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart highlight, Sunburst Chart highlight, segment highlight, highlight settings, highlight mode, highlight color, highlight opacity, SunburstHighlightSettings, SunburstHighlightMode

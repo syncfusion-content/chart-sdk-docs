@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Legend | Syncfusion®
 description: Learn how to enable, position, and customize the legend of the Blazor Sunburst Chart using SunburstLegendSettings, SunburstLegendTextStyle, and border.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart legend, Sunburst Chart legend, legend settings, legend customization, legend text style, legend border, SunburstLegendSettings, SunburstLegendPosition

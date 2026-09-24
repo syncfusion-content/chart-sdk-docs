@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Tooltip | Syncfusion®
 description: Learn how to enable and customize tooltips on the Blazor Sunburst Chart using SunburstTooltipSettings, SunburstTooltipTextStyle, and SunburstTooltipBorder.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart tooltip, Sunburst Chart tooltip, tooltip settings, tooltip format, tooltip customization, tooltip text style, tooltip border, SunburstTooltipSettings, tooltip highlight

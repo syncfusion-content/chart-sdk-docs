@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Animation | Syncfusion®
 description: Learn how to enable and customize the entrance animation on the Blazor Sunburst Chart using EnableAnimation and SunburstAnimationType.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart animation, Sunburst Chart animation, chart animation, EnableAnimation, AnimationType, SunburstAnimationType, Rotation, FadeIn

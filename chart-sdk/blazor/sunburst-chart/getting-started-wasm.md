@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with Blazor Sunburst Chart in WASM App | Syncfusion®
 description: Learn how to configure and render the Syncfusion Blazor Sunburst Chart in a Blazor WebAssembly standalone application.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart, SfSunburstChart, hierarchical data, Sunburst Chart getting started, Blazor Web App, Blazor WASM

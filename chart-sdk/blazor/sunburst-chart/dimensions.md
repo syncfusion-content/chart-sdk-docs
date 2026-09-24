@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Dimensions and Sizing | Syncfusion®
 description: Learn how to size the Blazor Sunburst Chart using Width and Height with container-based, pixel, and percentage values.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart dimensions, Sunburst Chart sizing, Sunburst Chart Width, Sunburst Chart Height, Size for container, Size in pixel, Size in percentage

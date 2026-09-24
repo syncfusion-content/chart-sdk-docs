@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Events | Syncfusion®
 description: Learn how to subscribe to and customize event callbacks on the Blazor Sunburst Chart, including drill and rendering hooks.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, drill down, drill up, DrillDownStarting, DrillUpStarting, PointClick, LegendClick

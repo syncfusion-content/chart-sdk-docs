@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Data Label | Syncfusion®
 description: Learn how to enable and customize data labels on the Blazor Sunburst Chart using SunburstDataLabelSettings and SunburstDataLabelTextStyle.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart data label, Sunburst Chart data label, data label settings, data label customization, data label text style, SunburstDataLabelSettings, OverflowMode, LabelRotationMode

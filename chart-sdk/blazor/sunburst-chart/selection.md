@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Selection | Syncfusion®
 description: Learn how to enable and customize segment selection in the Blazor Sunburst Chart using SunburstSelectionSettings and SunburstSelectionMode.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart selection, Sunburst Chart selection, segment selection, selection settings, selection mode, selection color, selection opacity, SunburstSelectionSettings, SunburstSelectionMode

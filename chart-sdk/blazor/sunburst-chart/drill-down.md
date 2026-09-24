@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Sunburst Chart Drill | Syncfusion®
 description: Learn how to enable drill-down navigation and customize breadcrumbs in the Blazor Sunburst Chart using SunburstDrillSettings.
-platform: Blazor
+platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart drill, Sunburst Chart drill-down, SunburstDrillSettings, breadcrumbs, breadcrumb alignment, SunburstBreadcrumbSettings
