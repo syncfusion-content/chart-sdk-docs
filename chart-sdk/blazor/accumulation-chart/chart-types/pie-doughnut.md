@@ -5,7 +5,7 @@ description: Learn how to create Pie and Doughnut Charts in Syncfusion Blazor Ac
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
-keywords: Blazor Pie Chart, Blazor Doughnut Chart, Blazor Accumulation Chart, Syncfusion Blazor Charts, Pie Chart Blazor, Doughnut Chart Blazor, Multiple Donuts Blazor, Nested Pie Chart Blazor
+keywords: Blazor Pie Chart, Blazor Doughnut Chart, Blazor Accumulation Chart, Syncfusion Blazor Charts, Pie Chart Blazor, Doughnut Chart Blazor, Blazor Nested Donut Chart, Blazor Multi-ring Pie Chart, Blazor Comparison Pie Chart
 ---
 
 # Pie and Doughnut Chart in Blazor

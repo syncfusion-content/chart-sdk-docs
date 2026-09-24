@@ -102,7 +102,7 @@ In the [SeriesLabelSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Bl
 
 In the [SeriesLabelBorder](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelBorder.html):
 * `Color`: Specifies the border color of the series label. This can be used to visually separate the label from the chart background.
-* `Width` : Specifies the width of the border around the series label. A higher value makes the border more visible.
+* `Width`: Specifies the width of the border around the series label. A higher value makes the border more visible.
 
 In the [SeriesLabelFont](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelFont.html):
 * [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelFont.html#Syncfusion_Blazor_Charts_SeriesLabelFont_Size): Specifies the font size of the label text.
