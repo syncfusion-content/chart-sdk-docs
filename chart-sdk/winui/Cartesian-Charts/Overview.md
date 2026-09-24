@@ -6,6 +6,7 @@ description: Learn about the introduction of Syncfusion Essential Studio® WinUI
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui chart overview, introduction to winui charts, exploring winui chart capabilities.
 ---
 

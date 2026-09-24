@@ -5,6 +5,7 @@ description: Animation in the WinUI Radial Gauge enables smooth transitions for 
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in WinUI Radial Gauge

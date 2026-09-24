@@ -5,6 +5,7 @@ description: Rendering mode in the Windows Forms Smith Chart controls how chart 
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Rendering Mode in Windows Forms Smith Chart
 

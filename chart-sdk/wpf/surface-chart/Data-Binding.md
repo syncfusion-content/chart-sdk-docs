@@ -5,6 +5,7 @@ description: Data binding in the WPF Surface Chart connects data sources to surf
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Binding in WPF Surface Chart

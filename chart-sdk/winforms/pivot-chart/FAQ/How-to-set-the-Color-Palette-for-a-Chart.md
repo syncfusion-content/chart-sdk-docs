@@ -5,6 +5,7 @@ description: Learn how to set a color palette for a Windows Forms Pivot Chart us
 platform: chart-sdk
 control: PivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to set a color palette for Windows Forms Pivot Chart

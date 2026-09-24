@@ -5,6 +5,7 @@ description: Pointers in the UWP Linear Gauge indicate values on the scale using
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in UWP Linear Gauge

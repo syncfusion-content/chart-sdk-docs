@@ -5,6 +5,7 @@ description: Legend in the WinUI Circular Chart identifies chart segments and ca
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in WinUI Circular Chart
