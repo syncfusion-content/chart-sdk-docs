@@ -5,12 +5,12 @@ description: Learn how to customize the appearance of the Blazor Sunburst Chart 
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart appearance, Sunburst Chart appearance, chart appearance, Theme, Palette, Background, SunburstChartBorder, SunburstChartMargin, Radius, InnerRadius, StartAngle, EndAngle
+keywords: Blazor Sunburst Chart appearance, Sunburst Chart appearance, chart appearance, Theme, Palette, Background, SunburstChartBorder, SunburstChartMargin, Radius, InnerRadius, StartAngle, EndAngle, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
 ---
 
 # Blazor Sunburst Chart Appearance
 
-The appearance of the `Blazor Sunburst Chart` determines how segments, rings, and the surrounding chart area are rendered on the page. You can adjust the visual style using built-in themes, a custom color palette, a background color, an outer border, layout margins, and the angular geometry of the Sunburst rings. Together these properties let the chart blend in with any application theme and adapt to small or large data sets.
+The appearance of the `Blazor Sunburst Chart` determines how segments, rings, and the surrounding chart area are rendered on the page. You can adjust the visual style using built-in themes, a custom color palette, a background color, an outer border, layout margins, and the angular geometry of the Sunburst rings. Together these properties let the chart blend in with any application theme and adapt to small or large data sets. As an interactive Sunburst Chart, customizing appearance helps create an intuitive hierarchical data visualization that makes multi-level pie chart segments distinct and visually appealing.
 
 The appearance of the Blazor Sunburst Chart is configured through properties on `SfSunburstChart` and through the `SunburstChartBorder` and `SunburstChartMargin` child components.
 
@@ -67,7 +67,6 @@ The Sunburst Chart ships with built-in themes that control the overall look and 
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart rendered with the Bootstrap5 theme](images/appearance/sunburst-chart-theme-bootstrap5.webp)
 
 ## Right-to-left rendering
@@ -139,7 +138,6 @@ Set the `EnableRTL` property to `true` to render the Sunburst Chart in right-to-
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 
 ## Custom color palette
 
@@ -201,7 +199,6 @@ The Sunburst Chart applies colors from the active theme by default. Pass an arra
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a custom color palette](images/appearance/sunburst-chart-custom-palette.webp)
 
 ## Background color
@@ -254,7 +251,6 @@ Use the `Background` property of `SfSunburstChart` to set the background color o
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a custom background color](images/appearance/sunburst-chart-background.webp)
 
 ## Chart border
@@ -308,7 +304,6 @@ Add a visible border around the chart area using the `SunburstChartBorder` child
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a custom border around the chart area](images/appearance/sunburst-chart-border.webp)
 
 ## Chart margin
@@ -362,7 +357,6 @@ Use the `SunburstChartMargin` child component to control the spacing between the
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with custom margin settings](images/appearance/sunburst-chart-margin.webp)
 
 ## Radius and inner radius
@@ -455,7 +449,6 @@ Together, `Radius` and `InnerRadius` control the size of the rings and the size 
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with custom Radius and InnerRadius values](images/appearance/sunburst-chart-radius-inner-radius.webp)
 
 ## Start angle and end angle
@@ -548,7 +541,6 @@ Setting `EndAngle` to less than `360` rotates the segments so the chart occupies
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart rendered using StartAngle and EndAngle](images/appearance/sunburst-chart-start-end-angle.webp)
 
 ## Animation
@@ -592,7 +584,6 @@ The Blazor Sunburst Chart exposes a chart heading through the `Title` property a
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a title and subtitle](images/appearance/sunburst-chart-title-subtitle.webp)
 
 ## Customize the title and subtitle
@@ -673,7 +664,6 @@ In the `SunburstSubtitleSettings`:
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with custom title and subtitle styling](images/appearance/sunburst-chart-title-subtitle-custom.webp)
 
 ## Accessibility of the title and subtitle
@@ -730,7 +720,6 @@ In the `SunburstSubtitleSettings`:
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with title and subtitle accessibility settings](images/appearance/sunburst-chart-title-subtitle-accessibility.webp)
 
 ## See also

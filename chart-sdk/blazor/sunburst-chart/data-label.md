@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Blazor Sunburst Chart Data Label | Syncfusion®
-description: Learn how to enable and customize data labels on the Blazor Sunburst Chart using SunburstDataLabelSettings and SunburstDataLabelTextStyle.
+description: Learn how to enable and customize data labels on the Blazor Sunburst Chart using SunburstDataLabelSettings and SunburstDataLabelTextStyle for segments.
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart data label, Sunburst Chart data label, data label settings, data label customization, data label text style, SunburstDataLabelSettings, OverflowMode, LabelRotationMode
+keywords: Blazor Sunburst Chart data label, Sunburst Chart data label, data label settings, data label customization, data label text style, SunburstDataLabelSettings, OverflowMode, LabelRotationMode, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
 ---
 
 # Blazor Sunburst Chart Data Label
 
-Data labels on the `Blazor Sunburst Chart` display textual information about each segment directly on the chart, helping users identify categories and values at a glance without relying solely on tooltips or legends. They are most useful on charts with medium-to-large segments where the label can be clearly read, and can be configured to overflow gracefully on smaller arcs.
+Data labels on the `Blazor Sunburst Chart` display textual information about each segment directly on the chart, helping users identify categories and values at a glance without relying solely on tooltips or legends. They are most useful on charts with medium-to-large segments where the label can be clearly read, and can be configured to overflow gracefully on smaller arcs. As part of an interactive Sunburst Chart, well-configured data labels transform hierarchical data visualization into an accessible multi-level pie chart where users can instantly recognize each level of the hierarchy.
 
 The data labels of the Blazor Sunburst Chart can be enabled and customized using the `SunburstDataLabelSettings` child component.
 
@@ -82,16 +82,15 @@ Data labels are hidden by default. Set `Visible` of `SunburstDataLabelSettings` 
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart displaying data labels](images/data-label/sunburst-chart-data-label.webp)
 
 ## Label overflow mode
 
 When a segment is too small, its label may not fit within the available arc space, which can make the chart look crowded or hard to read. Use `OverflowMode` to decide how the chart handles that label:
 
-* `Trim` – shorten the label with an ellipsis so it fits in the arc (**default**). For example, `Los Angeles ...` instead of the full name on a small segment.
-* `Hide` – hide the label entirely when it does not fit. Use this when a clean look matters more than showing every label.
-* `None` – render the label as-is, even if it overlaps the segment edge. Use this when full text matters more than a tidy appearance.
+* `Trim` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ shorten the label with an ellipsis so it fits in the arc (**default**). For example, `Los Angeles ...` instead of the full name on a small segment.
+* `Hide` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ hide the label entirely when it does not fit. Use this when a clean look matters more than showing every label.
+* `None` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ render the label as-is, even if it overlaps the segment edge. Use this when full text matters more than a tidy appearance.
 
 N> `Trim` and `Hide` only keep labels visible when their text fits in the arc. `None` always shows the full label, which can overflow on small segments.
 
@@ -157,7 +156,6 @@ N> `Trim` and `Hide` only keep labels visible when their text fits in the arc. `
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with hidden overflowing data labels](images/data-label/sunburst-chart-data-label-overflow-hide.webp)
 
 ## Label rotation mode
@@ -231,7 +229,6 @@ For example, a wide chart with many segments may look more balanced with `Angle`
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with horizontal data labels](images/data-label/sunburst-chart-data-label-rotation-normal.webp)
 
 ## Customization
@@ -316,7 +313,6 @@ In the `SunburstDataLabelTextStyle`:
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with customized data label styling](images/data-label/sunburst-chart-data-label-customization.webp)
 
 ## See also

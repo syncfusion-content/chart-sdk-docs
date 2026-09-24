@@ -8,7 +8,7 @@ documentation: ug
 keywords: Blazor Sunburst Chart accessibility, Sunburst Chart WCAG, Sunburst Chart keyboard navigation, Sunburst Chart ARIA, Sunburst Chart screen reader
 ---
 
-# Blazor Sunburst Chart Accessibility Compliance
+# Blazor Sunburst Chart Accessibility
 
 The `Blazor Sunburst Chart` component follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov/), [Section 508](https://www.section508.gov/), [WCAG 2.2](https://www.w3.org/TR/WCAG22/) standards, and [WCAG roles](https://www.w3.org/TR/wai-aria/#roles) that are commonly used to evaluate accessibility.
 
@@ -88,11 +88,8 @@ The component uses a single roving `tabindex` on the chart root, so only one seg
 | <kbd>↓</kbd> | <kbd>↓</kbd> | Moves focus to the segment in the next inner ring from the selected segment. |
 | <kbd>Home</kbd> | <kbd>Home</kbd> | Moves focus to the first segment in the current ring. |
 | <kbd>End</kbd> | <kbd>End</kbd> | Moves focus to the last segment in the current ring. |
-| <kbd>Enter</kbd> / <kbd>Space</kbd> | <kbd>Enter</kbd> / <kbd>Space</kbd> | Drills into the focused non-leaf segment, or selects the focused leaf segment. |
-| <kbd>Escape</kbd> | <kbd>Escape</kbd> | Drills up to the parent of the active drill root, or clears the current selection. |
 | <kbd>Enter</kbd> / <kbd>Space</kbd> (legend) | <kbd>Enter</kbd> / <kbd>Space</kbd> (legend) | Toggles the visibility of the category represented by the focused legend item. |
 | <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>←</kbd> / <kbd>→</kbd> (legend) | <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>←</kbd> / <kbd>→</kbd> (legend) | Moves focus between legend items. |
-| <kbd>Ctrl + P</kbd> | <kbd>⌘</kbd> + <kbd>P</kbd> | Prints the Sunburst Chart. |
 
 ## Accessibility-aware behavior
 
@@ -103,6 +100,7 @@ Beyond ARIA attributes and keyboard navigation, the Blazor Sunburst Chart compon
 * **Focus restoration** - After a drill-down, drill-up, or data refresh, focus is restored to the equivalent logical segment so keyboard users do not lose their place in the hierarchy.
 * **Accessible segment names** - Every segment exposes a meaningful accessible name that combines its hierarchy path and value, so screen readers can announce what the focused wedge represents.
 * **Keyboard-accessible tooltip** - The tooltip information for the focused or hovered segment is also announced to assistive technologies, so users who cannot rely on pointer hover still see hierarchy path and value.
+* **Drill activation is pointer-based** - The drill-down and drill-up operations are triggered by a double-click on a Sunburst segment (and by clicking a breadcrumb). Keyboard keys such as <kbd>Enter</kbd>, <kbd>Space</kbd>, and <kbd>Escape</kbd> are not bound to drill navigation. To trigger a drill from the keyboard, focus the segment and then use the chart's own click-to-drill workflow through a custom focus action.
 * **Reduced motion support** - Animations honor the user's `prefers-reduced-motion` setting, so users sensitive to motion are not exposed to non-essential transitions.
 * **Non-color state indicators** - Selection, highlight, and focus are indicated by more than color alone (for example, opacity, border, or ring emphasis) so the chart remains usable for users with color-vision deficiencies.
 * **Forced-colors support** - Focus indicators, selection, and segment borders remain visible when the operating system is in a high-contrast or forced-colors mode.

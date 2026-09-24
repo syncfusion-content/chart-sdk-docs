@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Blazor Sunburst Chart Dimensions and Sizing | Syncfusion®
-description: Learn how to size the Blazor Sunburst Chart using Width and Height with container-based, pixel, and percentage values.
+description: Learn how to size the Blazor Sunburst Chart using Width and Height with container-based, pixel, and percentage values for any layout.
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart dimensions, Sunburst Chart sizing, Sunburst Chart Width, Sunburst Chart Height, Size for container, Size in pixel, Size in percentage
+keywords: Blazor Sunburst Chart dimensions, Sunburst Chart sizing, Sunburst Chart Width, Sunburst Chart Height, Size for container, Size in pixel, Size in percentage, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
 ---
 
 # Blazor Sunburst Chart Dimensions
 
-The size of the `Blazor Sunburst Chart` determines how much space the chart occupies on the page and how the rings of the Sunburst fit within the available area. You can size the chart to fit its container, specify a fixed size in pixels, or use percentage values relative to its parent. Ring geometry inside that area is controlled separately by the `Radius` and `InnerRadius` properties, which are documented in the [Appearance](./appearance#radius-and-inner-radius) page.
+The size of the `Blazor Sunburst Chart` determines how much space the chart occupies on the page and how the rings of the Sunburst fit within the available area. You can size the chart to fit its container, specify a fixed size in pixels, or use percentage values relative to its parent. Ring geometry inside that area is controlled separately by the `Radius` and `InnerRadius` properties, which are documented in the [Appearance](./appearance#radius-and-inner-radius) page. Proper dimensions are essential for displaying hierarchical data visualization effectively, especially when building an interactive Sunburst Chart that must accommodate multiple levels in your multi-level pie chart structure.
 
 The dimensions of the Blazor Sunburst Chart are configured using the `Width` and `Height` properties of `SfSunburstChart`.
 
@@ -69,7 +69,6 @@ The Sunburst Chart can be scaled to fit its container. As shown in the example b
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart sized to fit a CSS container](images/dimensions/sunburst-chart-size-for-container.webp)
 
 ## Size for chart
@@ -126,7 +125,6 @@ Set the `Width` and `Height` properties in pixels to define a fixed size for the
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart sized in pixel values](images/dimensions/sunburst-chart-size-in-pixel.webp)
 
 ### In percentage values
@@ -179,7 +177,6 @@ By setting the `Width` and `Height` properties to percentage values, the chart d
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart sized in percentage values](images/dimensions/sunburst-chart-size-in-percentage.webp)
 
 ## See also

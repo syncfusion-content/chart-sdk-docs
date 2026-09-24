@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blazor Sunburst Chart Selection | Syncfusion®
-description: Learn how to enable and customize segment selection in the Blazor Sunburst Chart using SunburstSelectionSettings and SunburstSelectionMode.
+description: Learn how to enable and customize segment selection in the Blazor Sunburst Chart using SunburstSelectionSettings and SunburstSelectionMode for emphasis.
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
@@ -82,7 +82,6 @@ Selection is hidden by default. Set the `Enable` property of `SunburstSelectionS
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with selection enabled on a segment](images/selection/sunburst-chart-selection-enable.webp)
 
 ## Selection mode
@@ -159,7 +158,6 @@ The following example configures the `Parent` mode so that selecting a deep segm
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with Parent selection mode](images/selection/sunburst-chart-selection-mode-parent.webp)
 
 ## Customization
@@ -241,7 +239,6 @@ In the `SunburstSelectionSettings`:
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a customized selection color and opacity](images/selection/sunburst-chart-selection-customization.webp)
 
 N> Clicking the currently selected segment again clears the selection. Drilling into a branch, or back to the parent, also clears the selected and highlighted segments so the user can focus on the new hierarchy level.

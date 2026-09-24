@@ -82,7 +82,6 @@ Set `Enable` of `SunburstHighlightSettings` to `true` to highlight the segment u
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with highlighting enabled on the segment under the pointer](images/highlight/sunburst-chart-highlight-enable.webp)
 
 ## Supported highlight modes
@@ -158,7 +157,6 @@ The following example configures the `Parent` mode so that hovering over a deep 
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with Parent highlight mode](images/highlight/sunburst-chart-highlight-mode-parent.webp)
 
 ## Customization
@@ -246,7 +244,6 @@ When `Color` is left empty, the highlighted segment falls back to its parent seg
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a customized highlight color and opacity](images/highlight/sunburst-chart-highlight-customization.webp)
 
 ## Tooltip highlighting
@@ -317,7 +314,6 @@ The Sunburst Chart highlights the segment associated with the active tooltip whe
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart highlighting the segment associated with the active tooltip](images/highlight/sunburst-chart-highlight-tooltip.webp)
 
 ## See also

@@ -82,7 +82,6 @@ Set the `Enable` property of `SunburstTooltipSettings` to `true` to display a to
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a tooltip showing label and value](images/tooltip/sunburst-chart-tooltip.webp)
 
 ## Customization
@@ -186,7 +185,6 @@ In the `SunburstTooltipBorder`:
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a customized tooltip](images/tooltip/sunburst-chart-tooltip-customization.webp)
 
 N> The default `${point.label} : ${point.value}` format matches the tooltip content shown in the image above (for example, `USA : 530`). Use the `Format` property to change the order, include prefixes or units, or add additional placeholders.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blazor Sunburst Chart Drill | Syncfusion®
-description: Learn how to enable drill-down navigation and customize breadcrumbs in the Blazor Sunburst Chart using SunburstDrillSettings.
+description: Learn how to enable drill-down navigation and customize breadcrumbs in the Blazor Sunburst Chart using SunburstDrillSettings and SunburstBreadcrumbSettings.
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
@@ -82,7 +82,7 @@ Users can drill down by double-clicking a segment that contains child segments. 
 }
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
+![Blazor Sunburst Chart with drill-down enabled](images/drill-down/sunburst-chart-drill-down-enable.gif)
 
 N> Drill-down is available only for segments that contain child segments. Double-clicking a leaf segment does not change the current drill level.
 
@@ -106,7 +106,43 @@ Set the `ShowBreadcrumbs` property to `true` to display breadcrumbs. The default
     <SunburstDrillSettings Enable="true"
                            ShowBreadcrumbs="true" />
 </SfSunburstChart>
+
+
+@code {
+    public class RegionData
+    {
+        public string Id { get; set; } = string.Empty;
+        public string? ParentId { get; set; }
+        public string Label { get; set; } = string.Empty;
+        public double Population { get; set; }
+    }
+
+    public List<RegionData> Regions = new()
+    {
+        new RegionData { Id = "USA", ParentId = null, Label = "USA" },
+        new RegionData { Id = "India", ParentId = null, Label = "India" },
+        new RegionData { Id = "Germany", ParentId = null, Label = "Germany" },
+
+        new RegionData { Id = "USA-California", ParentId = "USA", Label = "California" },
+        new RegionData { Id = "USA-Texas", ParentId = "USA", Label = "Texas" },
+        new RegionData { Id = "India-Maharashtra", ParentId = "India", Label = "Maharashtra" },
+        new RegionData { Id = "India-TamilNadu", ParentId = "India", Label = "Tamil Nadu" },
+        new RegionData { Id = "Germany-Bavaria", ParentId = "Germany", Label = "Bavaria" },
+        new RegionData { Id = "Germany-Berlin", ParentId = "Germany", Label = "Berlin" },
+
+        new RegionData { Id = "USA-California-LosAngeles", ParentId = "USA-California", Label = "Los Angeles", Population = 3898000 },
+        new RegionData { Id = "USA-Texas-Houston", ParentId = "USA-Texas", Label = "Houston", Population = 2304000 },
+        new RegionData { Id = "India-Maharashtra-Mumbai", ParentId = "India-Maharashtra", Label = "Mumbai", Population = 12440000 },
+        new RegionData { Id = "India-TamilNadu-Chennai", ParentId = "India-TamilNadu", Label = "Chennai", Population = 4646000 },
+        new RegionData { Id = "Germany-Bavaria-Munich", ParentId = "Germany-Bavaria", Label = "Munich", Population = 1488000 },
+        new RegionData { Id = "Germany-Berlin-BerlinCity", ParentId = "Germany-Berlin", Label = "Berlin", Population = 3664000 }
+    };
+
+}
+
 ```
+
+![Blazor Sunburst Chart with breadcrumb navigation](images/drill-down/sunburst-chart-drill-down-breadcrumbs.gif)
 
 N> Breadcrumbs are displayed only after the chart is drilled into a hierarchy level.
 
@@ -203,7 +239,7 @@ The following example positions the breadcrumbs at the bottom center of the char
 }
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
+![Blazor Sunburst Chart with customized breadcrumb styling and position](images/drill-down/sunburst-chart-drill-down-customize.gif)
 
 N> Use the `DrillDownStarting` and `DrillUpStarting` events to execute custom logic or cancel a drill operation before navigation. Use the `DrillDownCompleted` and `DrillUpCompleted` events to respond after the drill operation is completed. For more information, refer to the [Events](./events) page.
 

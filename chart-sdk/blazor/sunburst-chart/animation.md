@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blazor Sunburst Chart Animation | Syncfusion®
-description: Learn how to enable and customize the entrance animation on the Blazor Sunburst Chart using EnableAnimation and SunburstAnimationType.
+description: Learn how to enable and customize the entrance animation on the Blazor Sunburst Chart using EnableAnimation and SunburstAnimationType for smooth rings.
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
@@ -82,7 +82,6 @@ Animation is enabled by default. Set the `EnableAnimation` property of `SfSunbur
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart rendered with the default rotation entrance animation](images/animation/sunburst-chart-animation-enable.gif)
 
 N> Disabling animation can improve rendering performance when working with large data sets or when immediate chart updates are preferred.
@@ -159,7 +158,6 @@ The following example uses the `FadeIn` animation.
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart rendered with the FadeIn entrance animation](images/animation/sunburst-chart-animation-fadein.gif)
 
 ## See also

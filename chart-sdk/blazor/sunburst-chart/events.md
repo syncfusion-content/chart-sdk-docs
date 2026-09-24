@@ -5,16 +5,18 @@ description: Learn how to subscribe to and customize event callbacks on the Blaz
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, drill down, drill up, DrillDownStarting, DrillUpStarting, PointClick, LegendClick
+keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, drill down, drill up, DrillDownStarting, DrillUpStarting, PointClick, LegendClick, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
 ---
 
 # Blazor Sunburst Chart Events
 
-Events let you observe and customize the `Blazor Sunburst Chart` at well-defined points during interaction and rendering — from clicks and legend toggling to data-label and segment painting. They are also useful for navigating between hierarchy levels with drill-down and drill-up. Use them when you want to intercept a default behavior, perform custom validation, or surface chart interactions in your own UI.
+Events let you observe and customize the `Blazor Sunburst Chart` at well-defined points during interaction and rendering Ã¢â‚¬â€ from clicks and legend toggling to data-label and segment painting. They are also useful for navigating between hierarchy levels with drill-down and drill-up. Use them when you want to intercept a default behavior, perform custom validation, or surface chart interactions in your own UI. These events are particularly valuable for interactive Sunburst Chart implementations where users explore hierarchical data visualization by drilling through multi-level pie chart segments.
 
 The events of the Blazor Sunburst Chart are configured directly on the `SfSunburstChart` component by assigning the relevant callback parameters.
 
 N> **Default behavior:** No event callbacks are subscribed by default. The chart renders and behaves normally until at least one handler is attached to the relevant callback parameter. Cancelable events (`Cancel = true`) prevent the default action; the rest are observational.
+
+N> **Synchronous callbacks:** `LegendItemRendering`, `TooltipRendering`, `DataLabelRendering`, `SegmentRendering`, `Exporting`, `ExportCompleted`, and `PrintCompleted` are exposed as `Action<>` delegates on `SfSunburstChart` and run synchronously on the Blazor render thread. `Loaded`, `OnLegendClick`, `OnPointClick`, `SelectionChanged`, `DrillDownStarting`, `DrillUpStarting`, `DrillDownCompleted`, and `DrillUpCompleted` are exposed as `EventCallback<>` and follow the standard Blazor asynchronous semantics. Keep `Action<>` handlers short and avoid `async`/`await` inside them, because long-running work delays the next render frame.
 
 ## DrillDownStarting
 
@@ -47,7 +49,7 @@ The event fires **after** the chart has confirmed the clicked segment has childr
         public double Population { get; set; }
     }
 
-    public List<RegionData> Regions = new List<RegionData>
+    public List<RegionData> Regions = new()
     {
         new RegionData { Id = "USA", ParentId = null, Label = "USA" },
         new RegionData { Id = "India", ParentId = null, Label = "India" },
@@ -68,7 +70,17 @@ The event fires **after** the chart has confirmed the clicked segment has childr
         new RegionData { Id = "USA-California-LosAngeles", ParentId = "USA-California", Label = "Los Angeles", Population = 3898000 },
         new RegionData { Id = "USA-California-SanDiego", ParentId = "USA-California", Label = "San Diego", Population = 1381000 },
         new RegionData { Id = "USA-Texas-Houston", ParentId = "USA-Texas", Label = "Houston", Population = 2304000 },
-        new RegionData { Id = "USA-Texas-Dallas", ParentId = "USA-Texas", Label = "Dallas", Population = 1304000 }
+        new RegionData { Id = "USA-Texas-Dallas", ParentId = "USA-Texas", Label = "Dallas", Population = 1304000 },
+
+        new RegionData { Id = "India-Maharashtra-Mumbai", ParentId = "India-Maharashtra", Label = "Mumbai", Population = 12440000 },
+        new RegionData { Id = "India-Maharashtra-Pune", ParentId = "India-Maharashtra", Label = "Pune", Population = 3120000 },
+        new RegionData { Id = "India-TamilNadu-Chennai", ParentId = "India-TamilNadu", Label = "Chennai", Population = 4646000 },
+        new RegionData { Id = "India-Karnataka-Bengaluru", ParentId = "India-Karnataka", Label = "Bengaluru", Population = 8443000 },
+
+        new RegionData { Id = "Germany-Bavaria-Munich", ParentId = "Germany-Bavaria", Label = "Munich", Population = 1488000 },
+        new RegionData { Id = "Germany-Bavaria-Nuremberg", ParentId = "Germany-Bavaria", Label = "Nuremberg", Population = 515000 },
+        new RegionData { Id = "Germany-Berlin-BerlinCity", ParentId = "Germany-Berlin", Label = "Berlin", Population = 3664000 },
+        new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
     private void OnDrillDown(SunburstDrillStartingEventArgs<RegionData> args)
@@ -81,7 +93,11 @@ The event fires **after** the chart has confirmed the clicked segment has childr
 
 ```
 
+
+
 N> Set `args.Cancel = true` to prevent the drill-down when, for example, the target value is below a threshold set by your application. The handler in the example receives `args.EventName`, `args.Point.Label`, `args.Point.ParentLabel`, `args.Point.RootLabel`, and `args.Point.Value`, which mirror the values in `SunburstDrillPointInfo<TItem>`.
+
+![Blazor Sunburst Chart DrillDownStarting event](images/events/sunburst-chart-drill-down-starting.gif)
 
 ## DrillUpStarting
 
@@ -115,7 +131,7 @@ The corresponding event arguments are `SunburstDrillStartingEventArgs<TItem>` (w
         public double Population { get; set; }
     }
 
-    public List<RegionData> Regions = new List<RegionData>
+        public List<RegionData> Regions = new()
     {
         new RegionData { Id = "USA", ParentId = null, Label = "USA" },
         new RegionData { Id = "India", ParentId = null, Label = "India" },
@@ -137,7 +153,6 @@ The corresponding event arguments are `SunburstDrillStartingEventArgs<TItem>` (w
         new RegionData { Id = "USA-California-SanDiego", ParentId = "USA-California", Label = "San Diego", Population = 1381000 },
         new RegionData { Id = "USA-Texas-Houston", ParentId = "USA-Texas", Label = "Houston", Population = 2304000 },
         new RegionData { Id = "USA-Texas-Dallas", ParentId = "USA-Texas", Label = "Dallas", Population = 1304000 },
-        new RegionData { Id = "USA-NewYork-NewYorkCity", ParentId = "USA-NewYork", Label = "New York City", Population = 8336000 },
 
         new RegionData { Id = "India-Maharashtra-Mumbai", ParentId = "India-Maharashtra", Label = "Mumbai", Population = 12440000 },
         new RegionData { Id = "India-Maharashtra-Pune", ParentId = "India-Maharashtra", Label = "Pune", Population = 3120000 },
@@ -168,6 +183,8 @@ The corresponding event arguments are `SunburstDrillStartingEventArgs<TItem>` (w
 ## DrillDownCompleted and DrillUpCompleted
 
 The `DrillDownCompleted` and `DrillUpCompleted` callbacks are triggered after the corresponding drill operation completes successfully. These callbacks are not triggered when the starting event is canceled or when the drill transition fails.
+
+![Blazor Sunburst Chart DrillDownCompleted event](images/events/sunburst-chart-drill-down-completed.gif)
 
 Both callbacks use `SunburstDrillEventArgs<TItem>`. The completed events are informational and do not support cancellation.
 
@@ -361,6 +378,8 @@ The corresponding event arguments are `SunburstSelectionChangedEventArgs<TItem>`
 
 ```
 
+![Blazor Sunburst Chart SelectionChanged event](images/events/sunburst-chart-selection-changed.webp)
+
 The `SunburstSelectionChangedEventArgs<TItem>` instance exposes the current selection state after the interaction completes:
 
 * `EventName` – Returns the literal `"SelectionChanged"`.
@@ -453,13 +472,15 @@ The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
 
 ```
 
+![Blazor Sunburst Chart displaying a legend at the bottom](images/legends/sunburst-chart-legend-default.webp)
+
 ## SunburstLegendClickEventArgs properties
 
 `SunburstLegendClickEventArgs<TItem>` is supplied to the `LegendClick` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"LegendClick"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"LegendClick"`. Set by the chart Ã¢â‚¬â€ do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the default visibility toggle for the legend item's root-level hierarchy branch. The default value is `false`. |
 | `LegendIndex` | `int` | The zero-based index of the clicked legend item. Set by the chart. |
 | `Text` | `string` | The label text of the clicked legend item. |
@@ -551,7 +572,7 @@ The `LegendItemRendering` event fires before each legend item is rendered. Use i
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"LegendItemRendering"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"LegendItemRendering"`. Set by the chart Ã¢â‚¬â€ do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the legend item from being rendered. The default value is `false`. |
 | `LegendIndex` | `int` | The zero-based index of the legend item being rendered. Set by the chart. |
 | `Text` | `string` | The text of the legend item. Mutate to override the rendered label. |
@@ -642,7 +663,7 @@ The `DataLabelRendering` event fires before each data label is rendered. Use it 
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"DataLabelRendering"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"DataLabelRendering"`. Set by the chart Ã¢â‚¬â€ do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the data label from being rendered. The default value is `false`. |
 | `Text` | `string` | The text of the data label. Mutate to override the rendered text. |
 | `Font` | `SunburstFontModel` | The font style applied to the data label. Mutate `Color`, `FontSize`, `FontFamily`, `FontWeight`, `FontStyle`, or `Opacity` to override the appearance. |
@@ -728,7 +749,7 @@ The `SegmentRendering` event fires before each Sunburst segment is rendered. Use
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"SegmentRendering"`. Set by the chart — do not mutate. |
+| `EventName` | `string` | Returns the literal `"SegmentRendering"`. Set by the chart Ã¢â‚¬â€ do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the segment from being rendered. The default value is `false`. |
 | `Color` | `string` | The fill color of the segment. Mutate to override based on level or root label. |
 | `LevelIndex` | `int` | The zero-based index of the hierarchy level being rendered. The top-level, innermost ring is `0`. Set by the chart. |
@@ -932,7 +953,7 @@ The Blazor Sunburst Chart exposes synchronous `Action` callbacks for the print a
                  Width="100%" Height="600px">
 </SfSunburstChart>
 
-<button @onclick="ExportChart">Export PNG</button>
+<button @onclick="ExportSunburst">Export PNG</button>
 
 @code {
     private SfSunburstChart<RegionData>? Sunburst;
@@ -980,11 +1001,9 @@ The Blazor Sunburst Chart exposes synchronous `Action` callbacks for the print a
         new RegionData { Id = "Germany-Hamburg-HamburgCity", ParentId = "Germany-Hamburg", Label = "Hamburg", Population = 1899000 }
     };
 
-    private async Task ExportChart()
+    private async Task ExportSunburst()
     {
-        // Export as PNG without triggering a browser download; the result is
-        // delivered to OnExportCompleted through the Data URL on the event args.
-        await Sunburst!.ExportAsync(ExportType.PNG, "sunburst", null, false);
+        await Sunburst!.ExportAsync(ExportType.PNG, "SunburstChart");
     }
 
     private void OnExporting(ChartExportEventArgs args)
@@ -1001,6 +1020,8 @@ The Blazor Sunburst Chart exposes synchronous `Action` callbacks for the print a
 }
 
 ```
+
+![Blazor Sunburst Chart ExportCompleted event](images/events/sunburst-chart-export-completed.webp)
 
 ## SfSunburstChart event callbacks
 

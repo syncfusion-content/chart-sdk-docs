@@ -5,12 +5,12 @@ description: Learn how to enable, position, and customize the legend of the Blaz
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart legend, Sunburst Chart legend, legend settings, legend customization, legend text style, legend border, SunburstLegendSettings, SunburstLegendPosition
+keywords: Blazor Sunburst Chart legend, Sunburst Chart legend, legend settings, legend customization, legend text style, legend border, SunburstLegendSettings, SunburstLegendPosition, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
 ---
 
 # Blazor Sunburst Chart Legend
 
-The legend provides a visual key for the top-level (root) categories of a `Blazor Sunburst Chart`. It helps users identify what each color in the chart represents, and clicking a legend item can interactively show or hide the related segment group. Legends are recommended whenever the chart contains more than one root category and is being read in a context where quick lookup is important.
+The legend provides a visual key for the top-level (root) categories of a `Blazor Sunburst Chart`. It helps users identify what each color in the chart represents, and clicking a legend item can interactively show or hide the related segment group. Legends are recommended whenever the chart contains more than one root category and is being read in a context where quick lookup is important. By making the chart an interactive Sunburst Chart, the legend becomes a powerful tool for understanding hierarchical data visualization across your multi-level pie chart.
 
 The legend of the Blazor Sunburst Chart can be enabled and customized using the `SunburstLegendSettings` child component.
 
@@ -82,7 +82,6 @@ The legend is hidden by default. Set the `Visible` property of `SunburstLegendSe
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart displaying a legend at the bottom](images/legends/sunburst-chart-legend-default.webp)
 
 ## Customization
@@ -195,7 +194,6 @@ In the `SunburstLegendBorder`:
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart with a customized legend](images/legends/sunburst-chart-legend-customization.webp)
 
 ## Toggle segment visibility from the legend
@@ -266,7 +264,6 @@ When `ToggleVisibility` is `true`, selecting a legend item hides or restores its
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 
 ## See also
 

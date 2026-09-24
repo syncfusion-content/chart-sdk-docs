@@ -89,7 +89,6 @@ The `PrintAsync` method opens the browser print dialog and lets users print the 
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart print](images/print-export/sunburst-chart-print.webp)
 
 ## Export
@@ -175,7 +174,7 @@ The following example exports the chart as a `PNG` image.
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
+![Blazor Sunburst Chart exported as PNG](images/print-export/sunburst-chart-export-png.webp)
 
 ### Export to PDF with page orientation
 
@@ -253,7 +252,7 @@ The `PDF` export supports page orientation through the `Orientation` parameter. 
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
+![Blazor Sunburst Chart exported as PDF](images/print-export/sunburst-chart-export-pdf.webp)
 
 N> **Supported export formats:** `ExportAsync` renders the visual chart to `PNG`, `JPEG`, `SVG`, and `PDF`, and writes the generated hierarchy data to `XLSX` and `CSV`.
 
@@ -332,7 +331,7 @@ The Blazor Sunburst Chart supports exporting not only the rendered chart, but al
 
 ```
 
-<!-- TODO: Add Blazor Playground sample after release -->
+![Blazor Sunburst Chart exported as XLSX](images/print-export/sunburst-chart-export-xlsx.webp)
 
 N> You can customize or cancel an export through the `Exporting` event and get notified when the print or export workflow finishes through the `PrintCompleted` and `ExportCompleted` events. For details and code examples, see the [PrintCompleted and exporting hooks](./events#printcompleted-and-exporting-hooks) section of the Events page.
 
