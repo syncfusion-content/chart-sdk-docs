@@ -5,6 +5,7 @@ description: Polar area chart in the WinUI Polar Chart visualizes data using fil
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Area Chart in WinUI Polar Chart

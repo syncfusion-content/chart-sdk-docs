@@ -5,6 +5,7 @@ description: Commands in the WPF Maps enable interaction handling and action exe
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Commands in WPF Maps

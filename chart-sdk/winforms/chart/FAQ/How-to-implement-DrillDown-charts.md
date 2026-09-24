@@ -5,6 +5,7 @@ description: Learn how to implement drilldown charts in a Windows Forms Chart an
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to implement drilldown in Windows Forms Chart

@@ -5,6 +5,7 @@ description: Learn how to draw custom series in a Windows Forms Chart using Char
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to draw custom series in Windows Forms Chart

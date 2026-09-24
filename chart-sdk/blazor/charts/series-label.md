@@ -12,7 +12,7 @@ keywords: Blazor Chart series label, series label, chart labels, inline series l
 
 The series label feature displays the name of each series directly within the Blazor Chart area. This improves readability by helping users identify series inline and reduces reliance on the legend.
 
-This feature is especially useful in multi-series visualizations and exported charts, where quick in-chart identification is important.Series labels can be enabled and customized using the [SeriesLabelSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelSettings.html) property.
+This feature is especially useful in multi-series visualizations and exported charts, where quick in-chart identification is important. Series labels can be enabled and customized using the [SeriesLabelSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelSettings.html) property.
 
 N> **Supported Series Types:** Series labels are available for Line, Area, Scatter, Column, Bar, Polar Line, and Radar Line Blazor Chart types.
 
@@ -102,7 +102,7 @@ In the [SeriesLabelSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Bl
 
 In the [SeriesLabelBorder](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelBorder.html):
 * `Color`: Specifies the border color of the series label. This can be used to visually separate the label from the chart background.
-* [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelBorder.html#Syncfusion_Blazor_Charts_SeriesLabelBorder_Width): Specifies the width of the border around the series label. A higher value makes the border more visible.
+* `Width` : Specifies the width of the border around the series label. A higher value makes the border more visible.
 
 In the [SeriesLabelFont](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelFont.html):
 * [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SeriesLabelFont.html#Syncfusion_Blazor_Charts_SeriesLabelFont_Size): Specifies the font size of the label text.

@@ -5,6 +5,7 @@ description: Layout in the UWP TreeMap determines how hierarchical data items ar
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Layout in UWP TreeMap

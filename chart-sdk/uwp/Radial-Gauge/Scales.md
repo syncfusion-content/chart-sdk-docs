@@ -5,6 +5,7 @@ description: Scales in the UWP Radial Gauge define value ranges, intervals, and 
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Scales in UWP Radial Gauge
 
