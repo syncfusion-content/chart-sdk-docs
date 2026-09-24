@@ -5,6 +5,7 @@ description: Learn how to show or hide tabs in the series style dialog of a Wind
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to show or hide tabs in Windows Forms Chart

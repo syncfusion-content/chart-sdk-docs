@@ -5,6 +5,7 @@ description: Axis in the WPF Chart defines data scales, ranges, labels, and inte
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

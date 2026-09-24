@@ -5,6 +5,7 @@ description: Candle chart in the WinUI Chart visualizes price movements using op
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui candle chart, candle chart customization winui, syncfusion winui candle chart, cartesian candle chart winui, winui stock chart.
 ---
 

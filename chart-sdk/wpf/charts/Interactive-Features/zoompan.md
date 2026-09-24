@@ -5,6 +5,7 @@ description: Zooming and panning in the WPF Chart enable users to navigate, insp
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming and Panning in WPF Charts

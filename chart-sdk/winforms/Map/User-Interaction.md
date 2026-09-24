@@ -5,6 +5,7 @@ description: User interactions in the Windows Forms Maps enable zooming, panning
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # User Interactions in Windows Forms Maps

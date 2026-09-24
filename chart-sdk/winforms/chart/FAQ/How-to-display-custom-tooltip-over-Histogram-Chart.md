@@ -5,6 +5,7 @@ description: Learn how to display custom tooltips for columns in a Windows Forms
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to display custom tooltips in Windows Forms Chart

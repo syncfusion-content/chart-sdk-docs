@@ -5,6 +5,7 @@ description: Learn about the introduction of Syncfusion Essential Studio® UWP T
 platform: chart-sdk
 control: SfTreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® UWP TreeMap Control

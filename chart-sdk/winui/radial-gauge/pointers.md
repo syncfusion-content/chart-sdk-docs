@@ -5,6 +5,7 @@ description: Pointers in the WinUI Radial Gauge indicate values on the gauge sca
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in WinUI Radial Gauge

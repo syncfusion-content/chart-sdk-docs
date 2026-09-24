@@ -6,6 +6,7 @@ description: Animation in the UWP Sunburst Chart provides smooth visual transiti
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

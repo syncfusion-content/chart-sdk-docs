@@ -5,6 +5,7 @@ description: Rendering type in the UWP Smith Chart determines how series data is
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Rendering Type in UWP Smith Chart
