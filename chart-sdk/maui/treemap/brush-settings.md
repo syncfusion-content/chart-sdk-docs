@@ -5,6 +5,7 @@ description: Brush Settings in .NET MAUI TreeMap customize item colors using sol
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
  
 # Brush Settings in .NET MAUI TreeMap

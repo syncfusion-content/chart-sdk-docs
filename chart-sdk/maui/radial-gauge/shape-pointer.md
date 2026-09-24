@@ -5,6 +5,7 @@ description: Shape Pointer in .NET MAUI Radial Gauge displays values using custo
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Pointer in .NET MAUI Radial Gauge

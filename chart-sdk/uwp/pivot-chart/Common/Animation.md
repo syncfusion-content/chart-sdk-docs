@@ -5,6 +5,7 @@ description: Animation in the UWP Pivot Chart enables smooth transitions for cha
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in UWP Pivot Chart

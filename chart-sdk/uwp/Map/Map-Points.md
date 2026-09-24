@@ -5,6 +5,7 @@ description: Point customization in the UWP Maps display location-based data usi
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Point customization in UWP Maps

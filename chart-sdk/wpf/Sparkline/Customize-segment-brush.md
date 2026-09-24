@@ -5,6 +5,7 @@ description: Segment customization in the WPF Sparkline to apply different color
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Segment Customization in WPF Sparkline

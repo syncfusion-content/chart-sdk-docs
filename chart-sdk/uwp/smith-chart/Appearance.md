@@ -5,6 +5,7 @@ description: Appearance in the UWP Smith Chart allows you to customize chart ele
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in UWP Smith Chart

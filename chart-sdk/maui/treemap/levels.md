@@ -5,6 +5,7 @@ description: Levels in .NET MAUI TreeMap organize hierarchical data into grouped
 platform: chart-sdk
 control: TreeMap (SfTreeMap)
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
  
 # Levels in .NET MAUI TreeMap

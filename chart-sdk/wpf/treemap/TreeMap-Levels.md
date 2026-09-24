@@ -5,6 +5,7 @@ description: Levels in the WPF TreeMap define hierarchical data groups, enabling
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Levels in WPF TreeMap

@@ -5,6 +5,7 @@ description: Appearance in the UWP Pivot Chart allows you to customize chart vis
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in UWP Pivot Chart

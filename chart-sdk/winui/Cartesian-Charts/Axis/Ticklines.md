@@ -5,6 +5,7 @@ description: Tick lines in the WinUI Chart indicate axis intervals and support c
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: tick lines in winui chart, winui sfcartesianchart tick lines, winui chart tick lines customization, syncfusion winui chart tick lines.
 ---
 

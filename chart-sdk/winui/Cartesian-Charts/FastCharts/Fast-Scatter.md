@@ -5,6 +5,7 @@ description: Fast Scatter Series in the WinUI Chart renders large volumes of sca
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui fast scatter chart, winui sfcartesianchart, winui fast scatter chart customization, syncfusion winui fast scatter chart, fast scatter chart configuration.
 ---
 

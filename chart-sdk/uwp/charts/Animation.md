@@ -5,6 +5,7 @@ description: Animation in the UWP Chart enables smooth transitions for chart ser
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in UWP Chart
