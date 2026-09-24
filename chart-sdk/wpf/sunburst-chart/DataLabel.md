@@ -6,6 +6,7 @@ description: Data labels in the WPF Sunburst Chart display segment values and in
 platform: chart-sdk
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

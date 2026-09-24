@@ -5,6 +5,7 @@ description: Learn about the introduction of Syncfusion Essential Studio® WPF S
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion WPF Sparkline control

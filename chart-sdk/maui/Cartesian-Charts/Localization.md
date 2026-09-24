@@ -6,6 +6,7 @@ platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui chart localization, sfCartesianchart localization in .net maui, .net maui chart localization support, .net maui chart language settings, maui chart language support.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Localization in .NET MAUI Cartesian Chart

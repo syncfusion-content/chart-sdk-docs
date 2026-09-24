@@ -5,6 +5,7 @@ description: Customizing leaf nodes in the Windows Forms TreeMap enables persona
 platform: chart-sdk
 control: TreeMap 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Leaf Nodes Customization in WinForms TreeMap

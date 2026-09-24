@@ -5,6 +5,7 @@ description: Axes in the Windows Forms Smith Chart define chart coordinates, sca
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Axes in Windows Forms Smith Chart
 

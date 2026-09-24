@@ -5,6 +5,7 @@ description: Zooming and panning in the UWP Pivot Chart enable interactive navig
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming and Panning in UWP Pivot Chart

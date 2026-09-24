@@ -5,6 +5,7 @@ description: Shape pointer in the WinUI Radial Gauge indicates values using cust
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Pointer in WinUI Radial Gauge

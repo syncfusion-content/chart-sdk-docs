@@ -5,6 +5,7 @@ description: Learn how to customize data points in a Windows Forms Chart series 
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to customize data points in Windows Forms Chart

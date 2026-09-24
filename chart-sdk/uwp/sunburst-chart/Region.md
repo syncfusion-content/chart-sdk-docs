@@ -6,6 +6,7 @@ description: Region in the UWP Sunburst Chart represents hierarchical data segme
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

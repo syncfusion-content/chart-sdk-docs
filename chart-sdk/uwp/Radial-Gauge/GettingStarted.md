@@ -5,6 +5,7 @@ description: Learn how to get started with the Syncfusion® UWP Radial Gauge con
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 # Getting Started with UWP Radial Gauge
 

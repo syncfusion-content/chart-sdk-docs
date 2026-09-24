@@ -6,6 +6,7 @@ description: Events in the UWP Sunburst Chart enable you to respond to user inte
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

@@ -5,6 +5,7 @@ description: Learn how to print a Windows Forms Pivot Chart using the Print meth
 platform: chart-sdk
 control: PivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to print a Windows Forms Pivot Chart

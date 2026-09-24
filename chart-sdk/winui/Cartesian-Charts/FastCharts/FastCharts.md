@@ -5,6 +5,7 @@ description: Fast charts in the WinUI Chart provide high-performance rendering f
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: fast charts in winui, fast charts, winui fast charts customization, syncfusion winui fast charts, winui sfcartesianchart.
 ---
 

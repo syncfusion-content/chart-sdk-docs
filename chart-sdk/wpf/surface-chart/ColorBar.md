@@ -5,6 +5,7 @@ description: ColorBar in the WPF Surface Chart displays the relationship between
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # ColorBar in WPF Surface Chart

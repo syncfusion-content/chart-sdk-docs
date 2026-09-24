@@ -5,6 +5,7 @@ description: Fast Column Series in the WinUI Chart renders large volumes of colu
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui fast column chart, winui sfcartesianchart, winui fast column chart customization, syncfusion winui fast column chart, winui fast column chart configuration.
 ---
 

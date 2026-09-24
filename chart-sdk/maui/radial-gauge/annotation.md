@@ -5,6 +5,7 @@ description: Annotation in .NET MAUI Radial Gauge displays custom content within
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotation in .NET MAUI Radial Gauge
