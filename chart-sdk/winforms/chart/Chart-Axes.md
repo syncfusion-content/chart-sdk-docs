@@ -5,6 +5,7 @@ description: Axes in the Windows Forms Chart define scales, labels, categories, 
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axes in Windows Forms Chart

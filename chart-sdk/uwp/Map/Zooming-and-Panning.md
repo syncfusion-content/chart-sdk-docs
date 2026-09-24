@@ -5,6 +5,7 @@ description: Zooming and panning in the UWP Maps enable interactive navigation u
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming and Panning in UWP Map

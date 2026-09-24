@@ -5,6 +5,7 @@ description: Learn how to filter specific data points in a Windows Forms Chart s
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to filter data points in Windows Forms Chart

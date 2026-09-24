@@ -5,6 +5,7 @@ description: Learn how to draw the Y-axis at the center of the X-axis or positio
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to draw the Y-Axis at center in Windows Forms Chart

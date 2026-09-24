@@ -5,6 +5,7 @@ description: Axis in the WinUI Linear Gauge defines the scale, ranges, intervals
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis in WinUI Linear Gauge

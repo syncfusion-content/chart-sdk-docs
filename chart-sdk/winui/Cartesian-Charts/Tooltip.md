@@ -5,6 +5,7 @@ description: Tooltip in the WinUI Chart displays detailed information about data
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: tooltip in winui chart, winui sfcartesianchart tooltip, winui chart tooltip customization, syncfusion winui chart tooltip, winui sfcartesianchart tooltip settings.
 ---
 

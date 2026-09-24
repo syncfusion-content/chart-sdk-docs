@@ -5,6 +5,7 @@ description: Learn how to add an image to the Windows Forms Chart area and displ
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add an image to Windows Forms Chart Area
