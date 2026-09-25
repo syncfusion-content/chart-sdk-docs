@@ -224,7 +224,7 @@ You can customize the legend items by using the [`template`](https://ej2.syncfus
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/accumulation-chart/preview-sample/series/pie-cs47" %}
 
-## Expose series and point in `legendRender` event
+## Expose series and point in legendRender event
 
 The [`legendRender`](https://ej2.syncfusion.com/react/documentation/api/accumulation-chart#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://ej2.syncfusion.com/react/documentation/api/accumulation-chart/accumulationSeries) model and `args.point` provides the underlying data point. Use these arguments to customize the legend item text dynamically based on series and point data.
 

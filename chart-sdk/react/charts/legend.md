@@ -436,7 +436,7 @@ Inside the template, the legend item data is available through the template cont
 > </ChartComponent>
 > ```
 
-## Expose series and point in `legendRender` event
+## Expose series and point in legendRender event
 
 The [`legendRender`](https://ej2.syncfusion.com/react/documentation/api/chart#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://ej2.syncfusion.com/react/documentation/api/chart/series) model and `args.point` provides the underlying data point when [`legendSettings.mode`](https://ej2.syncfusion.com/react/documentation/api/chart/legendSettingsModel#mode) is set to `'Point'`. Use these arguments to customize the legend item text dynamically based on series and point data.
 

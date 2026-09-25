@@ -193,7 +193,7 @@ By default, the series name is displayed as a legend item. To omit a legend item
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/legend-cs13" %}
 
-## Expose series and point in `legendRender` event
+## Expose series and point in legendRender event
 
 The [`legendRender`](../api/chart#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](../api/chart/series) model and `args.point` provides the underlying data point when [`legendSettings.mode`](../api/chart/legendSettingsModel#mode) is set to `'Point'`. Use these arguments to customize the legend item text dynamically based on series and point data.
 
