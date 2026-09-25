@@ -12,7 +12,7 @@ documentation: ug
 
 ## Smart Axis Labels
 
-When the axis labels overlap with each other, you can use [`labelIntersectAction`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelIntersectAction) property in the axis, to place them smartly.
+When the axis labels overlap with each other, you can use [`labelIntersectAction`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelIntersectAction) property in the axis, to place them smartly. This helps improve readability by automatically adjusting label visibility or orientation. The supported values are `None`, `Hide`, `Rotate45`, `Rotate90`, `Rotate45WithTrim`, `Rotate90WithTrim`, `Wrap`, `MultipleRows`, and `Trim`. The default value is `None`.
 
 When setting `labelIntersectAction` as `Hide`
 
@@ -50,6 +50,31 @@ When setting `labelIntersectAction` as `Rotate90`
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate90/rotate90.cs %}
 {% endhighlight %}
 {% endtabs %}
+
+
+
+When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed when the available space is insufficient and rotated by 45 degrees.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate45withtrim/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Rotate45withtrim.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate45withtrim/rotate45withtrim.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed when the available space is insufficient and rotated vertically.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate90withtrim/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Rotate90withtrim.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate90withtrim/rotate90withtrim.cs %}
+{% endhighlight %}
+{% endtabs %}
+
 
 
 ## Axis Labels Positioning

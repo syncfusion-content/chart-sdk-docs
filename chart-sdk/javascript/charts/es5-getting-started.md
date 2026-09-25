@@ -4,16 +4,15 @@ title: ES5 getting started with JavaScript Chart control | Syncfusion
 description: Check out and learn about ES5 getting started with JavaScript Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Chart
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
 # Getting Started with Syncfusion® JavaScript (ES5) Chart Control
 
-Build your first Syncfusion JavaScript (ES5) application with a simple Chart control in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) Chart from the CDN, initializes it with sample data, and renders an interactive chart.
+Build your first Syncfusion JavaScript (ES5) application with a simple Chart control in just a few minutes. This quick start guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) Chart from the CDN, initializes it with sample data, and renders an interactive chart.
 
-> The `34.1.29` version segment in the CDN URLs is shown for reference. Replace it with the latest published version from the [Syncfusion EJ2 CDN](https://cdn.syncfusion.com/ej2/) when you start a new project.
+> The `34.1.29` version segment in the CDN URLs is shown for reference. Replace it with the latest published version from the [Syncfusion EJ2 CDN](https://cdn.syncfusion.com/ej2) when you start a new project.
 
 ## Prerequisites
 
@@ -25,8 +24,8 @@ Build your first Syncfusion JavaScript (ES5) application with a simple Chart con
 
 ### Step 1: Create a folder and an HTML file
 
-* Create a folder named `quickstart` in your desired directory.
-* Inside the `quickstart` folder, create a new file named `index.html`.
+* Create a folder named `quick start` in your desired directory.
+* Inside the `quick start` folder, create a new file named `index.html`.
 
 ### Step 2: Add Syncfusion<sup style="font-size:70%">&reg;</sup> CDN resources
 
@@ -112,7 +111,7 @@ The series properties [`dataSource`](../api/chart/series#datasource), [`xName`](
 
 ### Step 4: Open in browser
 
-Open the `quickstart/index.html` file in your web browser. You can either double-click the file or right-click in VS Code and choose **Open with Live Server** (requires the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension). The chart renders the sample data on the page.
+Open the `quick start/index.html` file in your web browser. You can either double-click the file or right-click in VS Code and choose **Open with Live Server** (requires the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension). The chart renders the sample data on the page.
 
 If the chart does not appear, open the browser's developer console to check for runtime errors.
 

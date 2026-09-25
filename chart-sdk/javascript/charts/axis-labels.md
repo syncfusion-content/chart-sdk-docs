@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Axis labels in JavaScript Chart control | Syncfusion
+title: Axis labels in JavaScript Charts | Syncfusion
 description: Learn here all about Axis labels in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Axis labels 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Axis labels in JavaScript Chart control
+# Axis labels in JavaScript Charts
 
 ## Smart axis labels
 
-When axis labels overlap due to limited space or dense data points, the [`labelIntersectAction`](../api/chart/axis) property can be used to control how the labels are rendered. This helps improve readability by automatically adjusting label visibility or orientation.
+When axis labels overlap due to limited space or dense data points, the [`labelIntersectAction`](../api/chart/axis) property can be used to control how the labels are rendered. This helps improve readability by automatically adjusting label visibility or orientation. The supported values are `None`, `Hide`, `Rotate45`, `Rotate90`, `Rotate45WithTrim`, `Rotate90WithTrim`, `Wrap`, `MultipleRows`, and `Trim`. The default value is `None`.
 
 When setting `labelIntersectAction` as `Hide`, overlapping labels are hidden to avoid visual clutter.
 
@@ -53,6 +52,32 @@ When setting `labelIntersectAction` as `Rotate90`, the labels are rotated vertic
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs3" %}
+
+When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed when the available space is insufficient and rotated by 45 degrees.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/charts/axis-cs100/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/charts/axis-cs100/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs100" %}
+
+When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed when the available space is insufficient and rotated vertically.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/charts/axis-cs101/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/charts/axis-cs101/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs101" %}
 
 ## Axis labels positioning
 

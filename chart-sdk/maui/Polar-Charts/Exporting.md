@@ -5,6 +5,7 @@ description: Exporting in .NET MAUI Polar Chart enables charts to be saved as im
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Exporting in .NET MAUI Polar Chart

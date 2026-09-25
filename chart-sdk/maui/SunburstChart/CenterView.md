@@ -5,6 +5,7 @@ description: Center view in .NET MAUI Sunburst Chart displays custom content at 
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Center View in .NET MAUI Sunburst Chart

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data markers in JavaScript Chart control | Syncfusion
+title: Markers in JavaScript Charts | Syncfusion
 description: Learn here all about Data markers in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data markers 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data markers in JavaScript Chart control
+# Markers in JavaScript Charts
 
 Data markers are visual indicators placed at each data point on a series, helping to clearly identify and highlight individual values in your chart. Markers improve readability and accessibility, especially in line and area charts where data points may otherwise be unclear. Customize marker shape, color, size, and appearance to match your design requirements.
 

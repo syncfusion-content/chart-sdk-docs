@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Data labels in JavaScript Chart control | Syncfusion
+title: Data labels in JavaScript Charts | Syncfusion
 description: Learn here all about Data labels in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Data labels 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Data labels in JavaScript Chart control
+# Data labels in JavaScript Charts
 
 Data labels display the values of data points directly on the chart, reducing the need to reference axes for exact values. Enable data labels by setting the [`visible`](../api/chart/dataLabelSettingsModel#visible-boolean) option to `true` in the `dataLabel` configuration. Labels automatically adjust to avoid overlapping and maintain readability.
 
@@ -180,6 +179,38 @@ Enhance label appearance using properties such as `fill` (background), `border`,
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs7" %}
 
 > Note: The `rx` and `ry` properties require non‑null `border` values.
+
+### Handling Overlapping Data Labels
+
+Use the `labelIntersectAction` property to specify how overlapping data labels are handled.
+
+The available options are:
+
+- `None` - Displays all data labels even when they overlap.
+- `Hide` - Hides overlapping data labels.
+- `Rotate90` - Rotates overlapping data labels by 90 degrees.
+- `RelocateVertically` - Relocates overlapping data labels vertically.
+- `RelocateHorizontally` - Relocates overlapping data labels horizontally.
+
+The `RelocateVertically` and `RelocateHorizontally` options are supported only for the following series types:
+
+- `StackingColumn`
+- `StackingColumn100`
+- `StackingBar`
+- `StackingBar100`
+
+These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/charts/smart-data-label/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/charts/smart-data-label/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/smart-data-label" %}
 
 ## Customizing Specific Point
 

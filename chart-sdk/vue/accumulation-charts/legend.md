@@ -220,3 +220,18 @@ You can customize the legend items by using the [`template`](https://ej2.syncfus
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/accumulation-chart/series/pie-cs44" %}
+
+## Expose series and point in legendRender event
+
+The [`legendRender`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/accumulationSeries) model and `args.point` provides the underlying data point. Use these arguments to customize the legend item text dynamically based on series and point data.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/accumulation-chart/axis/legend-cs3/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/accumulation-chart/axis/legend-cs3/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/accumulation-chart/axis/legend-cs3" %}
