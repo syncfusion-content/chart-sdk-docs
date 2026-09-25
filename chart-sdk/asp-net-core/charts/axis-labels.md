@@ -60,7 +60,7 @@ When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed wh
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate45withtrim/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rotate45withtrim.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate45withtrim/rotate90.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate45withtrim/rotate45withtrim.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,7 +71,7 @@ When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed wh
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate90withtrim/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rotate90withtrim.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate90withtrim/rotate90.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/rotate90withtrim/rotate90withtrim.cs %}
 {% endhighlight %}
 {% endtabs %}
 

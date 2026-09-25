@@ -63,7 +63,7 @@ In the following example, simulated one-minute OHLC data is generated locally an
 {% include code-snippet/chart-sdk/asp-net-core/stock-chart/stockchart-feature/stock-live-update/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Stock-live-update.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/stock-chart/stockchart-feature/stock-live-update/no-data-template.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/stock-chart/stockchart-feature/stock-live-update/stock-live-update.cs %}
 {% endhighlight %}
 {% endtabs %}
 
