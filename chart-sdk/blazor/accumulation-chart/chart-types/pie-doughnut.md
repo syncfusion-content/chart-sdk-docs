@@ -250,8 +250,8 @@ You can create multiple donuts within a single chart by adding multiple series w
 </SfAccumulationChart>
 
 @code {
-    private List<ProductData> TotalSalesData { get; set; } =
-    {
+    private List<ProductData> TotalSalesData { get; set; } = new()
+        {
         new() { X = "Electronics",  Y = 45000, Text = "45K" },
         new() { X = "Fashion",      Y = 32000, Text = "32K" },
         new() { X = "Home & Garden", Y = 18000, Text = "18K" },
@@ -259,13 +259,13 @@ You can create multiple donuts within a single chart by adding multiple series w
         new() { X = "Books",        Y = 8000,  Text = "8K" }
     };
 
-    private List<ProductData> TotalProfitData { get; set; } =
+    private List<ProductData> TotalProfitData { get; set; } = new()
     {
-        new() { X = "Electronics",  Y = 18000, Text = "18K",   Profit = "40%" },
-        new() { X = "Fashion",      Y = 12800, Text = "12.8K", Profit = "40%" },
-        new() { X = "Home & Garden", Y = 6300, Text = "6.3K",  Profit = "35%" },
-        new() { X = "Sports",       Y = 4500,  Text = "4.5K",  Profit = "30%" },
-        new() { X = "Books",        Y = 2400,  Text = "2.4K",  Profit = "30%" }
+        new() { X = "Electronics",  Y = 18000, Text = "18K" },
+        new() { X = "Fashion",      Y = 12800, Text = "12.8K" },
+        new() { X = "Home & Garden", Y = 6300, Text = "6.3K"},
+        new() { X = "Sports",       Y = 4500,  Text = "4.5K" },
+        new() { X = "Books",        Y = 2400,  Text = "2.4K"}
     };
 
     public class ProductData
@@ -273,13 +273,11 @@ You can create multiple donuts within a single chart by adding multiple series w
         public string X { get; set; } = string.Empty;
         public double Y { get; set; }
         public string Text { get; set; } = string.Empty;
-        public string Profit { get; set; } = string.Empty;
     }
 }
 
 ```
 
-<!-- TODO:Add preview sample after the release -->
 ![Blazor Chart with Multiple Donuts](../images/pie-dough-nut/blazor-nested-doughnut-chart.webp)
 
 ## Start and end angles
