@@ -186,3 +186,26 @@ A specific label can be customized by using the [`textRender`](https://ej2.syncf
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/3d-charts/user-interaction/label" %}
+
+### Handling Overlapping Data Labels
+
+Use the `labelIntersectAction` property to specify how overlapping data labels are handled.
+
+The available options are:
+
+- `None` - Displays all data labels even when they overlap.
+- `RelocateVertically` - Relocates overlapping data labels vertically.
+- `RelocateHorizontally` - Relocates overlapping data labels horizontally.
+
+The `RelocateVertically` and `RelocateHorizontally` options enable the Smart Data Label feature and are supported only for `StackingColumn`, and `StackingBar` series. These modes improve readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/3d-charts/user-interaction/smart-data-label/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/3d-charts/user-interaction/smart-data-label/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/3d-charts/user-interaction/smart-data-label" %}

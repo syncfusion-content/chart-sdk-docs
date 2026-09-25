@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Chart appearance in JavaScript Chart control | Syncfusion
+title: Appearance in JavaScript Charts | Syncfusion
 description: Learn here all about Chart appearance in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart appearance 
-publishingplatform: chart-sdk
+control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Chart appearance in JavaScript Chart control
+# Appearance in JavaScript Charts
 
 ## Custom color palette
 
@@ -22,8 +21,8 @@ You can specify colors in various CSS-supported formats:
 - **Hex**: `"#E94649"`, `"#F6B53F"`  
 - **RGB**: `"rgb(233, 70, 73)"`, `"rgb(246, 181, 63)"`  
 - **RGBA**: `"rgba(233, 70, 73, 0.5)"`  
-- **HSL**: `"hsl(0, 79%, 60%)"`  
-- **HWB**: `"hwb(0 9% 8%)"`  
+- **HSL**: `"HSL(0, 79%, 60%)"`  
+- **HWB**: `"HWB(0 9% 8%)"`  
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

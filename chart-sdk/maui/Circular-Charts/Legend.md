@@ -6,6 +6,7 @@ platform: chart-sdk
 control: SfCircularChart
 documentation: ug
 keywords: .net maui circular chart, chart legend, legend-wrap, legend view, legend layout, chart legend items, legend alignment.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in .NET MAUI Circular Chart
@@ -252,6 +253,98 @@ this.Content = chart;
 {% endhighlight %}
 
 {% endtabs %}
+
+## Legend Title
+
+The legend title can be displayed above the legend items using the [Title]() property in the `ChartLegend` class. The `Title` property accepts either a `string` or a custom `View`.
+
+### Legend title as String
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<chart:SfCircularChart>
+    <chart:SfCircularChart.Legend>
+        <chart:ChartLegend Title="Browsers" Placement="Bottom" />
+    </chart:SfCircularChart.Legend>
+</chart:SfCircularChart>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfCircularChart chart = new SfCircularChart();
+//code omitted for brevity
+chart.Legend = new ChartLegend()
+{
+    Title="Browsers",
+    Placement = LegendPlacement.Bottom
+};
+
+this.Content = chart;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![Legend Title Support as View in .NET MAUI Circular Chart](Legend-images/legend_title_as_string.png)
+
+### Legend title as Custom view
+
+A custom `View` can be assigned to the `Title` property to display customized content, such as a layout containing a CheckBox and label, as the legend header.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<chart:SfCircularChart.Legend>
+    <chart:ChartLegend Placement="Bottom">
+        <chart:ChartLegend.Title>
+            <HorizontalStackLayout Spacing="2">
+                <CheckBox VerticalOptions="Center"/>
+                <Label Text="Browsers"
+                       FontSize="14"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </chart:ChartLegend.Title>
+    </chart:ChartLegend>
+</chart:SfCircularChart.Legend>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+chart.Legend = new ChartLegend()
+{
+    Placement = LegendPlacement.Bottom,
+    Title = new HorizontalStackLayout()
+    {
+        Spacing = 2,
+        Children =
+        {
+            new CheckBox()
+            {
+                VerticalOptions = LayoutOptions.Center
+            },
+            new Label()
+            {
+                Text = "Browsers",
+                FontSize = 14,
+                FontAttributes = FontAttributes.Bold,
+                VerticalOptions = LayoutOptions.Center
+            }
+        }
+    }
+};
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![Legend Title Support as View in .NET MAUI Circular Chart](Legend-images/legend_title_as_view.png)
+
 
 ## Floating legend
 

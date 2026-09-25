@@ -1,18 +1,17 @@
 ---
 layout: post
-title: Working with data in JavaScript Chart control | Syncfusion
+title: Working with data in JavaScript Charts | Syncfusion
 description: Learn here all about Working with data in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Working with data 
-publishingplatform: chart-sdk
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Working with data in JavaScript Chart control
+# Working with data in JavaScript Charts
 
-The JavaScript Chart control supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, or fetched from remote services using various adaptor patterns. This guide covers all available data binding methods, helping you choose the right approach for your use case based on data size, performance requirements, and backend architecture.
+The JavaScript Chart control supports multiple data binding approaches to suit different application scenarios. Data can be bound from local JSON arrays, dynamically loaded on demand with lazy loading, or fetched from remote services using various adaptor patterns. This guide covers all available data binding methods, helping you choose the right approach for your use case based on data size, performance requirements, and back end architecture.
 
 ## Choosing a data binding approach
 
@@ -75,7 +74,7 @@ Bind remote data from a web service by using the `DataManager` class. The DataMa
 
 ODataV4 is an improved and more standardized version of the OData protocol, with enhanced query capabilities and better JSON support. Use the ODataV4Adaptor to consume ODataV4 services. For more information on ODataV4 specifications, refer to the [OData v4 documentation](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752197).
 
-**When to use ODataV4Adaptor:** If your backend service implements OData v4.0, prefer this adaptor over the older ODataAdaptor for better compliance and features.
+**When to use ODataV4Adaptor:** If your back end service implements OData v4.0, prefer this adaptor over the older ODataAdaptor for better compliance and features.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -90,7 +89,7 @@ ODataV4 is an improved and more standardized version of the OData protocol, with
 
 ## Web API adaptor
 
-Use the WebApiAdaptor to consume custom REST APIs that follow a standard response format. This adaptor is ideal for backends that do not implement OData but provide REST endpoints returning JSON data.
+Use the WebApiAdaptor to consume custom REST APIs that follow a standard response format. This adaptor is ideal for back ends that do not implement OData but provide REST endpoints returning JSON data.
 
 **Expected response format:**
 

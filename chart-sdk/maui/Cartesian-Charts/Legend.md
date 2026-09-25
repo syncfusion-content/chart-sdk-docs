@@ -6,6 +6,7 @@ platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui cartesian chart, chart legend, legend-wrap, legend view, legend layout, chart legend items, legend alignment.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in .NET MAUI Cartesian Chart
@@ -265,6 +266,97 @@ this.Content = chart;
 {% endhighlight %}
 
 {% endtabs %}
+
+## Legend Title
+
+The legend title can be displayed above the legend items using the [Title]() property in the `ChartLegend` class. The `Title` property accepts either a `string` or a custom `View`.
+
+### Legend title as String
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<chart:SfCartesianChart>
+    <chart:SfCartesianChart.Legend>
+        <chart:ChartLegend Title="Products" Placement="Right"/>
+    </chart:SfCartesianChart.Legend>
+</chart:SfCartesianChart>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+SfCartesianChart chart = new SfCartesianChart();
+//code omitted for brevity
+chart.Legend = new ChartLegend()
+{
+    Title = "Products",
+    Placement = LegendPlacement.Right
+};
+
+this.Content = chart;
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![Legend Title Support as string in .NET MAUI Cartesian Chart](Legend-images/legend_title_as_string.png)
+
+### Legend title as Custom view
+
+A custom `View` can be assigned to the `Title` property to display customized content, such as a layout containing a Checkbox and label, as the legend header.
+
+{% tabs %}
+
+{% highlight xaml %}
+
+<chart:SfCartesianChart.Legend>
+    <chart:ChartLegend Placement="Right">
+        <chart:ChartLegend.Title>
+            <HorizontalStackLayout Spacing="2">
+                <CheckBox VerticalOptions="Center"/>
+                <Label Text="Products"
+                       FontSize="14"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </chart:ChartLegend.Title>
+    </chart:ChartLegend>
+</chart:SfCartesianChart.Legend>
+
+{% endhighlight %}
+
+{% highlight c# %}
+
+chart.Legend = new ChartLegend()
+{
+    Placement = LegendPlacement.Right,
+    Title = new HorizontalStackLayout()
+    {
+        Spacing = 2,
+        Children =
+        {
+            new CheckBox()
+            {
+                VerticalOptions = LayoutOptions.Center
+            },
+            new Label()
+            {
+                Text = "Products",
+                FontSize = 14,
+                FontAttributes = FontAttributes.Bold,
+                VerticalOptions = LayoutOptions.Center
+            }
+        }
+    }
+};
+
+{% endhighlight %}
+
+{% endtabs %}
+
+![Legend Title Support as string in .NET MAUI Cartesian Chart](Legend-images/legend_title_as_view.png)
 
 ## Floating legend
 
