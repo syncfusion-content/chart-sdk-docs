@@ -117,9 +117,17 @@ The last seven characters of Code Sets A and B (character values 96-102) and the
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjhxDxCiftSEKWfu?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Code 128 Special Characters in Blazor Barcode](images/blazor-code128-barcode.webp)" %}
 
-## Customizing the Barcode color
+## Barcode Customizations
 
-A page or printed media with barcode often appears colorful in the background and surrounding region with other contents. In such cases, the barcode can also be customized to suit the needs. You can achieve this by using for [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_ForeColor) property.
+The Barcode Generator component provides various customization options to modify the appearance and behavior of barcodes. This section covers all the available properties that can be used to customize barcodes.
+
+### Barcode Color Customization
+
+The barcode appearance can be customized by changing the colors. The component provides two main color properties:
+
+#### Foreground Color
+
+The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_ForeColor) property specifies the line and text color of the barcode. By default, it is set to black.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -129,9 +137,20 @@ A page or printed media with barcode often appears colorful in the background an
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BDVHZxsWfNdKfmdh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Customizing Blazor Barcode Color](images/blazor-barcode-color-customization.webp)" %}
 
-## Customizing the Barcode dimension
+#### Background Color
 
-The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Width) properties of the barcode generator.
+The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_BackgroundColor) property specifies the background color of the barcode. By default, it is set to white. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="200px" Height="150px" Type="@BarcodeType.Code128" BackgroundColor="lightyellow" ForeColor="darkblue" Value="SYNCFUSION"></SfBarcodeGenerator>
+
+```
+
+### Barcode Dimension Customization
+
+The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to 100%.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -141,9 +160,35 @@ The dimensions of the barcode can be adjusted using the [Height](https://help.sy
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/htBHDRsCpZxREHGZ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Customizing Blazor Barcode Dimension](images/blazor-barcode-dimension-customization.webp)" %}
 
-## Customizing the text
+### Margin Customization
 
-In barcode generators, Customize the barcode text by using display [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Text) property.
+The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Margin) property specifies the space to be left around the barcode. It accepts a `BarcodeMargin` object with the following properties:
+
+| Property | Description | Default Value |
+|----------|-------------|---|
+| `Left` | Space from the left side | 10 |
+| `Right` | Space from the right side | 10 |
+| `Top` | Space from the top side | 10 |
+| `Bottom` | Space from the bottom side | 10 |
+
+All properties accept double values representing pixels.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="300px" Height="200px" Type="@BarcodeType.Code128" Value="SYNCFUSION">
+     <BarcodeMargin Left="20" Top="20" Right="20" Bottom="20"></BarcodeMargin>
+</SfBarcodeGenerator>
+
+```
+
+### Display Text Customization
+
+The barcode display text can be fully customized using the [DisplayText](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_DisplayText) property. The `BarcodeGeneratorDisplayText` component provides the following properties:
+
+#### Text Content
+
+The [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Text) property specifies the textual description to display with the barcode. By default, it is an empty string.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -155,14 +200,211 @@ In barcode generators, Customize the barcode text by using display [Text](https:
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LtBdNnMCfsVnhoWO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Customizing the Text in Blazor Barcode](images/blazor-barcode-text-customization.webp)" %}
 
-## Enable Check Sum
+#### Font Configuration
 
-The [EnableCheckSum](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_EnableCheckSum) property specifies an error detection in which some additional characters are added to a barcode to protect the integrity of the barcode data. The default value of this property is set as true for BarcodeType.Code39.
-
-The below code explains how to set the EnableCheckSum property to hide the extra characters displayed at the end of the barcode.
+The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to `monospace`.
 
 ```cshtml
-<SfBarcodeGenerator EnableCheckSum=false
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="300px" Height="200px" Type="@BarcodeType.Code128" Value="SYNCFUSION">
+     <BarcodeGeneratorDisplayText Text="Product Code" Font="Arial"></BarcodeGeneratorDisplayText>
+</SfBarcodeGenerator>
+
+```
+
+#### Text Size
+
+The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Size) property specifies the size of the display text. By default, it is set to `20` pixels.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="300px" Height="200px" Type="@BarcodeType.Code128" Value="SYNCFUSION">
+     <BarcodeGeneratorDisplayText Text="Product Code" Size="25"></BarcodeGeneratorDisplayText>
+</SfBarcodeGenerator>
+
+```
+
+#### Text Alignment
+
+The [Alignment](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Alignment) property specifies the horizontal alignment of the text. It accepts the following values: `Left`, `Center`, or `Right`. By default, it is set to `Center`.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="300px" Height="200px" Type="@BarcodeType.Code128" Value="SYNCFUSION">
+     <BarcodeGeneratorDisplayText Text="Product Code" Alignment="Alignment.Left"></BarcodeGeneratorDisplayText>
+</SfBarcodeGenerator>
+
+```
+
+#### Text Position
+
+The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Position) property specifies the vertical position of the text relative to the barcode. It accepts `Top` or `Bottom`. By default, it is set to `Bottom`.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="300px" Height="200px" Type="@BarcodeType.Code128" Value="SYNCFUSION">
+     <BarcodeGeneratorDisplayText Text="Product Code" Position="TextPosition.Top"></BarcodeGeneratorDisplayText>
+</SfBarcodeGenerator>
+
+```
+
+#### Text Visibility
+
+The [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Visibility) property controls the visibility of the display text. By default, it is set to `true`. Set it to `false` to hide the text.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="200px" Height="150px" Type="@BarcodeType.Code128" Value="SYNCFUSION">
+     <BarcodeGeneratorDisplayText Visibility="false"></BarcodeGeneratorDisplayText>
+</SfBarcodeGenerator>
+
+```
+
+#### Text Margin
+
+The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Margin) property specifies the space between the text and the barcode. It accepts a `BarcodeTextMargin` object with the following properties:
+
+| Property | Description | Default Value |
+|----------|-------------|---|
+| `Left` | Space from the left side | 0 |
+| `Right` | Space from the right side | 0 |
+| `Top` | Space from the top side | 0 |
+| `Bottom` | Space from the bottom side | 0 |
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="300px" Height="200px" Type="@BarcodeType.Code128" Value="SYNCFUSION">
+     <BarcodeGeneratorDisplayText Text="Product Code">
+          <BarcodeTextMargin Left="0" Top="10" Right="0" Bottom="10"></BarcodeTextMargin>
+     </BarcodeGeneratorDisplayText>
+</SfBarcodeGenerator>
+
+```
+
+### Dynamic Property Updates
+
+The Barcode Generator supports real-time property binding. When you change any property value, the barcode automatically updates to reflect the changes. This is useful for creating interactive applications where users can customize the barcode appearance dynamically.
+
+#### Real-time Property Binding
+
+Here is an example showing how to dynamically update barcode properties using Blazor data binding:
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+@using Syncfusion.Blazor.Inputs
+
+<div style="margin: 20px;">
+    <div style="margin-bottom: 10px;">
+        <label>Barcode Value: </label>
+        <SfTextBox @bind-Value="@BarcodeValue" Placeholder="Enter barcode value"></SfTextBox>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Foreground Color: </label>
+        <input type="color" @bind="@ForeColor" />
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Background Color: </label>
+        <input type="color" @bind="@BackgroundColor" />
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Width (px): </label>
+        <SfNumericTextBox @bind-Value="@BarWidth" Min="100" Max="500" Step="10"></SfNumericTextBox>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Height (px): </label>
+        <SfNumericTextBox @bind-Value="@BarHeight" Min="100" Max="300" Step="10"></SfNumericTextBox>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Display Text: </label>
+        <SfTextBox @bind-Value="@DisplayTextValue" Placeholder="Enter display text"></SfTextBox>
+    </div>
+</div>
+
+<!-- Barcode that updates in real-time as properties change -->
+<div style="margin-top: 30px; padding: 20px; border: 1px solid #ccc;">
+    <SfBarcodeGenerator Width="@($"{BarWidth}px")" 
+                        Height="@($"{BarHeight}px")" 
+                        Type="@BarcodeType.Code128" 
+                        Value="@BarcodeValue"
+                        ForeColor="@ForeColor"
+                        BackgroundColor="@BackgroundColor">
+        <BarcodeGeneratorDisplayText Text="@DisplayTextValue" Visibility="@(!string.IsNullOrEmpty(DisplayTextValue))"></BarcodeGeneratorDisplayText>
+    </SfBarcodeGenerator>
+</div>
+
+@code
+{
+    private string BarcodeValue = "SYNCFUSION";
+    private string ForeColor = "black";
+    private string BackgroundColor = "white";
+    private double BarWidth = 300;
+    private double BarHeight = 150;
+    private string DisplayTextValue = "Product Code";
+}
+```
+
+**Key Points:**
+- The barcode automatically re-renders with the new property values
+- This works for all customizable properties: Value, ForeColor, BackgroundColor, Width, Height, DisplayText, Margins, etc.
+
+#### Real-time Barcode Type Change
+
+You can also change the barcode type dynamically:
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+@using Syncfusion.Blazor.DropDowns
+
+<div style="margin: 20px;">
+    <label>Select Barcode Type: </label>
+    <SfDropDownList TValue="BarcodeType" TItem="BarcodeType" DataSource="@BarcodeTypes" @bind-Value="@SelectedBarcodeType">
+        <DropDownListFieldSettings Text="ToString" Value="ToString"></DropDownListFieldSettings>
+    </SfDropDownList>
+</div>
+
+<SfBarcodeGenerator Width="300px" 
+                    Height="150px" 
+                    Type="@SelectedBarcodeType" 
+                    Value="@BarcodeValue">
+    <BarcodeGeneratorDisplayText Text="Dynamic Type Change"></BarcodeGeneratorDisplayText>
+</SfBarcodeGenerator>
+
+@code
+{
+    private BarcodeType SelectedBarcodeType = BarcodeType.Code128;
+    private string BarcodeValue = "31117013206375";
+    
+    private void OnBarcodeTypeChanged(ChangeEventArgs args)
+    {
+        if (Enum.TryParse<BarcodeType>(args.Value?.ToString(), out var barcodeType))
+        {
+            SelectedBarcodeType = barcodeType;
+        }
+    }
+}
+```
+
+### Data Validation and Error Detection
+
+#### Enable Check Sum
+
+The [EnableCheckSum](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_EnableCheckSum) property specifies an error detection mechanism in which additional characters are added to a barcode to protect the integrity of barcode data. The default value is `true` for barcode types that support it, such as `BarcodeType.Code39`.
+
+When enabled, the barcode will include a check digit that helps verify the barcode data during scanning. Set this property to `false` if you want to hide the extra characters displayed at the end of the barcode.
+
+```cshtml
+<SfBarcodeGenerator EnableCheckSum="false"
                     Width="200px"
                     Height="150px"
                     Type="@BarcodeType.Code39"
