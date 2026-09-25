@@ -110,3 +110,8 @@ Numeric values are read as `double`. The chart formats values with `CultureInfo.
 
 Update `DataSource` to add, remove, or change rows. The chart rebuilds the hierarchy on the next render and preserves node identity by `IdMemberPath`. Existing selections and drill focus are reset when the focused id is no longer present in the rebuilt hierarchy.
 
+## See also
+
+* [Data Label](./data-label)
+* [Legend](./legend)
+* [Selection](./selection)

@@ -75,8 +75,6 @@ Set the `EnableRTL` property to `true` to render the Sunburst Chart in right-to-
 
 ```cshtml
 
-@page "/r11"
-@rendermode InteractiveServer
 @using Syncfusion.Blazor.Charts
 
 <SfSunburstChart TItem="SunburstData"
