@@ -53,6 +53,30 @@ When setting `LabelIntersectAction` as `Rotate90`
 
 
 
+When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed when the available space is insufficient and rotated by 45 degrees.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/multiple/rotate45withtrim/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="Rotate45withtrim.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/multiple/rotate45withtrim/rotate90.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed when the available space is insufficient and rotated vertically.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/multiple/rotate90withtrim/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="Rotate90withtrim.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/multiple/rotate90withtrim/rotate90.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+
+
 ## Axis Labels Positioning
 
 By default, the axis labels can be placed at `Outside` the axis line and this also can be placed at `Inside` the axis line using the `LabelPosition` property.
