@@ -356,7 +356,7 @@ The [ShowRisers](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZrRtmMIKgGAEhCg?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blazor Step Area Chart NoRiser Series](../images/chart-types-images/blazor-step-area-chart-noriser-series.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBdXEhIJBaRSETK?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Step Area Chart NoRiser Series](../images/chart-types-images/blazor-step-area-chart-noriser-series.webp)" %}
 
 ## Empty points
 

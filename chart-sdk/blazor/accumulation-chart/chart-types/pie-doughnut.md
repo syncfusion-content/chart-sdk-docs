@@ -213,15 +213,15 @@ The doughnut chart can be created by setting the [InnerRadius](https://help.sync
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BXBHXwsohMbHLoWg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Doughnut Chart](../images/pie-dough-nut/blazor-doughnut-chart.webp)" %}
 
-## Multiple donuts
+## Multiple doughnuts
 
-You can create multiple donuts within a single chart by adding multiple series with different [InnerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartSeries.html#Syncfusion_Blazor_Charts_AccumulationChartSeries_InnerRadius) and [Radius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartSeries.html#Syncfusion_Blazor_Charts_AccumulationChartSeries_Radius) values. This lets you compare multiple data sets within the same categories. Each series can carry its own data, colors, and customizations. The `MappingKey` property in [AccumulationChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartLegendSettings.html) groups legend items by a specified field from the data source, so points with matching `MappingKey` values appear as a single legend entry instead of one entry per series.
+You can create multiple donuts within a single chart by adding multiple series with different [InnerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartSeries.html#Syncfusion_Blazor_Charts_AccumulationChartSeries_InnerRadius) and [Radius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartSeries.html#Syncfusion_Blazor_Charts_AccumulationChartSeries_Radius) values. This lets you compare multiple data sets within the same categories. Each series can carry its own data, colors, and customizations. The `MappingKey` property in [AccumulationChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartLegendSettings.html) groups legend items by a specified field from the data source, so points with matching `MappingKey` values appear as a single legend entry instead of one entry per series. To create the nested effect, the outer series uses a larger `Radius` with a non-zero `InnerRadius` (a ring), while the inner series uses a smaller `Radius` with `InnerRadius` equal to `Radius` (a solid disc).
 
 ```cshtml
 
 @using Syncfusion.Blazor.Charts
 
-<SfAccumulationChart Title="Product Sales vs Profit Analysis" EnableBorderOnMouseMove="false" >
+<SfAccumulationChart Title="Product Sales vs Profit Analysis" >
 
     <AccumulationChartSeriesCollection>
         <AccumulationChartSeries DataSource="@TotalSalesData" XName="@nameof(ProductData.X)" YName="@nameof(ProductData.Y)" Name="Total Sales" Type="@AccumulationType.Pie" Radius="90%" InnerRadius="60%" TooltipMappingName="@nameof(ProductData.X)">
