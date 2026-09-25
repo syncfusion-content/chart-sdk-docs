@@ -193,6 +193,21 @@ By default, the series name is displayed as a legend item. To omit a legend item
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/legend-cs13" %}
 
+## Expose series and point in `legendRender` event
+
+The [`legendRender`](../api/chart#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](../api/chart/series) model and `args.point` provides the underlying data point when [`legendSettings.mode`](../api/chart/legendSettingsModel#mode) is set to `'Point'`. Use these arguments to customize the legend item text dynamically based on series and point data.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/charts/legend-cs20/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/charts/legend-cs20/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/legend-cs20" %}
+
 ## Legend title
 
 Set a title for the legend using the `title` property in `legendSettings`. The title can be customized using `fontStyle`, `size`, `fontWeight`, `color`, `textAlignment`, `fontFamily`, `opacity`, and `textOverflow`. Use `titlePosition` to place the title at `Top`, `Left`, or `Right`. The `maximumTitleWidth` property sets the width of the legend title and defaults to `100px`.
