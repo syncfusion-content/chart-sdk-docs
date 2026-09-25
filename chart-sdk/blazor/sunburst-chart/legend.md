@@ -248,7 +248,7 @@ When `ToggleVisibility` is `true`, selecting a legend item hides or restores its
         new RegionData { Id = "USA-California-SanDiego", ParentId = "USA-California", Label = "San Diego", Population = 1381000 },
         new RegionData { Id = "USA-Texas-Houston", ParentId = "USA-Texas", Label = "Houston", Population = 2304000 },
         new RegionData { Id = "USA-Texas-Dallas", ParentId = "USA-Texas", Label = "Dallas", Population = 1304000 },
-        new RegionData { Id = "USA-NewYork-NewYorkCity", ParentId = "USA-NewYork", Label = "New York City", Population = 8336000 },
+        new RegionData { Id = "USA-NewYork-NewYorkCity", ParentId = "USA-NewYork", Label = "New York City", Population = 8336000},
 
         new RegionData { Id = "India-Maharashtra-Mumbai", ParentId = "India-Maharashtra", Label = "Mumbai", Population = 12440000 },
         new RegionData { Id = "India-Maharashtra-Pune", ParentId = "India-Maharashtra", Label = "Pune", Population = 3120000 },
@@ -264,6 +264,7 @@ When `ToggleVisibility` is `true`, selecting a legend item hides or restores its
 
 ```
 
+![Blazor Sunburst Chart displaying a legend at the bottom](images/legends/sunburst-chart-legend-toggle.webp)
 
 ## See also
 
