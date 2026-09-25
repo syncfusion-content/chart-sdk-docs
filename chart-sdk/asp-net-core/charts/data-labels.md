@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Labels in ASP.NET Core Charts | Syncfusion
-description: Learn here all about Data Labels in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
+description: Learn here how to use Data Labels in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Data Labels
 documentation: ug

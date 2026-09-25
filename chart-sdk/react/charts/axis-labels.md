@@ -79,7 +79,7 @@ When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed wh
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/chart-sdk/react/charts/code-path/axis/multiple-c31/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/charts/code-path/axis/multiple-cs31/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
 {% include code-snippet/chart-sdk/react/charts/code-path/axis/multiple-cs31/app/index.tsx %}

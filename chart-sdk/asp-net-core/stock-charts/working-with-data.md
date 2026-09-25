@@ -12,7 +12,7 @@ documentation: ug
 
 # Working with Data in ASP.NET Core Stock Chart
 
-Chart can visualise data bound from local or remote data.
+Chart can visualize data bound from local or remote data.
 
 ## Local Data
 
