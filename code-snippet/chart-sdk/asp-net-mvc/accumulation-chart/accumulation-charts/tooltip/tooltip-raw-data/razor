@@ -1,0 +1,26 @@
+@(Html.EJS().AccumulationChart("container")
+    .Series(series =>
+    {
+        series.DataSource(ViewBag.dataSource)
+            .XName("xValue")
+            .YName("yValue")
+            .Name("Sales")
+            .Type(Syncfusion.EJ2.Charts.AccumulationType.Pie)
+            .Add();
+    })
+    .Title("Sales by Country")
+    .Tooltip(tooltip => tooltip.Enable(true))
+    .TooltipRender("tooltipRender")
+    .LegendSettings(legend => legend.Visible(false))
+    .Render())
+
+<script>
+    function tooltipRender(args) {
+        var rawData = args.data.rawData;
+        if (rawData) {
+            args.text = 'Sales: <b>' + rawData.yValue + '</b><br/>' +
+                'Region: <b>' + rawData.region + '</b><br/>' +
+                'Growth: <b>' + rawData.growth + '%</b>';
+        }
+    }
+</script>

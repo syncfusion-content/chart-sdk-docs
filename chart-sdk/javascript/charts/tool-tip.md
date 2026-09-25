@@ -173,6 +173,23 @@ The [`highlightColor`](../api/chart#highlightcolor) property is used to change t
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs21" %}
 
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/itooltiprendereventargs) event argument. This is useful when the data source contains additional fields that are not directly available in the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object inside the event does not update the chart data source.
+
+In the following example, the `country` and `growth` fields are retrieved from `args.data.rawData` and added to the tooltip content.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs57/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs57/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs57" %}
+
 ## Closest tooltip
 
 The [`showNearestTooltip`](../api/chart/tooltipSettings#shownearesttooltip) property displays the tooltip for the data point nearest to the pointer, even when the pointer is not directly positioned over the point.

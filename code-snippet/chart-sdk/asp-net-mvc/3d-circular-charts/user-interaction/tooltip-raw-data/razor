@@ -1,0 +1,17 @@
+@Html.EJS().CircularChart3D("container").Title("Sales by Country").Tilt(-45).TooltipRender("tooltipRender").Series(series =>
+{
+    series.XName("X").YName("Y").Name("Sales").DataSource(ViewBag.dataSource).Add();
+}
+).Tooltip(tooltip => tooltip.Enable(true)
+).LegendSettings(legend => legend.Visible(false)).Render()
+
+<script>
+    function tooltipRender(args) {
+        var rawData = args.data.rawData;
+        if (rawData) {
+            args.text = 'Sales: <b>' + rawData.Y + '</b><br/>' +
+                'Region: <b>' + rawData.Region + '</b><br/>' +
+                'Growth: <b>' + rawData.Growth + '%</b>';
+        }
+    }
+</script>

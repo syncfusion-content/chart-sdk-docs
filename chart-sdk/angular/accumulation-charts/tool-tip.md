@@ -198,6 +198,24 @@ Using [`tooltipRender`](https://ej2.syncfusion.com/angular/documentation/api/acc
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/accumulation-chart/series/pie-cs37" %}
 
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered accumulation chart point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/index-default#tooltiprender) event argument. This is useful when the data source contains additional fields that are not directly mapped to the accumulation chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the accumulation chart data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/accumulation-chart/user-interaction/tooltip-cs15/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/accumulation-chart/user-interaction/tooltip-cs15/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/accumulation-chart/user-interaction/tooltip-cs15" %}
+
 ## Enable highlight
 
 By setting the [`enableHighlight`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/tooltipSettingsModel#enablehighlight) property to **true**, the hovered pie slice is highlighted, while the remaining slices are dimmed, enhancing focus and clarity.

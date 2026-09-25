@@ -196,6 +196,23 @@ The [`highlightColor`](https://ej2.syncfusion.com/vue/documentation/api/chart#hi
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/charts/user-interaction/tooltip-cs5" %}
 
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/vue/documentation/api/chart/itooltiprendereventargs) event argument. This is useful when the data source contains additional fields that are not directly available in the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object inside the event does not update the chart data source.
+
+In the following example, the `country` and `growth` fields are retrieved from `args.data.rawData` and added to the tooltip content.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/charts/user-interaction/tooltip-cs11/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/charts/user-interaction/tooltip-cs11/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/charts/user-interaction/tooltip-cs11" %}
+
 ## Tooltip mapping name
 
 By default, the tooltip displays only the x- and y-values of a data point. Additional information from the data source can be shown by using the [`tooltipMappingName`](https://ej2.syncfusion.com/vue/documentation/api/chart/seriesModel#tooltipmappingname) property of the series. Use the `${point.tooltip}` placeholder in the tooltip format to display the mapped value.

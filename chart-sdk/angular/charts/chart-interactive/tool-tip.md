@@ -267,6 +267,24 @@ The [`highlightColor`](https://ej2.syncfusion.com/angular/documentation/api/char
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/user-interaction/tooltip-cs6" %}
 
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/angular/documentation/api/chart/itooltiprendereventargs) event argument. This is useful when the data source contains additional fields that are not directly available in the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object inside the event does not update the chart data source.
+
+In the following example, the `country` and `growth` fields are retrieved from `args.data.rawData` and added to the tooltip content.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/user-interaction/tooltip-cs15/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/user-interaction/tooltip-cs15/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/user-interaction/tooltip-cs15" %}
+
 ## Hide tooltip
 
 Use the [`tooltipRender`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel#tooltiprender) event to hide tooltips for deselected series. Cancel the tooltip in the event by setting `args.cancel = true` when a series is deselected.
