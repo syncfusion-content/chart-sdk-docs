@@ -5,7 +5,7 @@ description: Learn how to enable and customize data labels on the Blazor Sunburs
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart data label, Sunburst Chart data label, data label settings, data label customization, data label text style, SunburstDataLabelSettings, OverflowMode, LabelRotationMode, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
+keywords: Blazor Sunburst Chart data label, Sunburst Chart data label, data label settings, data label customization, data label text style, SunburstDataLabelSettings, OverflowMode, RotationMode, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
 ---
 
 # Blazor Sunburst Chart Data Label
@@ -179,7 +179,7 @@ For example, a wide chart with many segments may look more balanced with `Angle`
                  LabelMemberPath="@nameof(RegionData.Label)"
                  ValueMemberPath="@nameof(RegionData.Population)"
                  Width="100%" Height="600px">
-    <SunburstDataLabelSettings Visible="true" RotationMode="SunburstLabelRotationMode.Normal" />
+    <SunburstDataLabelSettings Visible="true" RotationMode="SunburstLabelRotationMode.Angle" />
 </SfSunburstChart>
 
 @code {
@@ -229,7 +229,7 @@ For example, a wide chart with many segments may look more balanced with `Angle`
 
 ```
 
-![Blazor Sunburst Chart with horizontal data labels](images/data-label/sunburst-chart-data-label-rotation-normal.webp)
+![Blazor Sunburst Chart with horizontal data labels](images/data-label/sunburst-chart-data-label-rotation-angle.webp)
 
 ## Customization
 
