@@ -88,9 +88,9 @@ Data labels are hidden by default. Set `Visible` of `SunburstDataLabelSettings` 
 
 When a segment is too small, its label may not fit within the available arc space, which can make the chart look crowded or hard to read. Use `OverflowMode` to decide how the chart handles that label:
 
-* `Trim` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ shorten the label with an ellipsis so it fits in the arc (**default**). For example, `Los Angeles ...` instead of the full name on a small segment.
-* `Hide` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ hide the label entirely when it does not fit. Use this when a clean look matters more than showing every label.
-* `None` ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ render the label as-is, even if it overlaps the segment edge. Use this when full text matters more than a tidy appearance.
+* `Trim` – shorten the label with an ellipsis so it fits in the arc (**default**). For example, `Los Angeles ...` instead of the full name on a small segment.
+* `Hide` – hide the label entirely when it does not fit. Use this when a clean look matters more than showing every label.
+* `None` – render the label as-is, even if it overlaps the segment edge. Use this when full text matters more than a tidy appearance.
 
 N> `Trim` and `Hide` only keep labels visible when their text fits in the arc. `None` always shows the full label, which can overflow on small segments.
 

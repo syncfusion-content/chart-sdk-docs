@@ -255,7 +255,6 @@ dotnet run
 
 {% endtabcontents %}
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart](images/getting-started/blazor-sunburst-chart.webp)
 
 ## Populate Sunburst Chart with data

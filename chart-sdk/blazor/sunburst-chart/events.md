@@ -92,12 +92,9 @@ The event fires **after** the chart has confirmed the clicked segment has childr
 }
 
 ```
-
-
+![Blazor Sunburst Chart DrillDownStarting event](images/events/sunburst-chart-drill-down-starting.gif)
 
 N> Set `args.Cancel = true` to prevent the drill-down when, for example, the target value is below a threshold set by your application. The handler in the example receives `args.EventName`, `args.Point.Label`, `args.Point.ParentLabel`, `args.Point.RootLabel`, and `args.Point.Value`, which mirror the values in `SunburstDrillPointInfo<TItem>`.
-
-![Blazor Sunburst Chart DrillDownStarting event](images/events/sunburst-chart-drill-down-starting.gif)
 
 ## DrillUpStarting
 
@@ -180,11 +177,12 @@ The corresponding event arguments are `SunburstDrillStartingEventArgs<TItem>` (w
 }
 
 ```
+
+![Blazor Sunburst Chart DrillDownStarting event](images/events/sunburst-chart-drill-up-starting.gif)
+
 ## DrillDownCompleted and DrillUpCompleted
 
 The `DrillDownCompleted` and `DrillUpCompleted` callbacks are triggered after the corresponding drill operation completes successfully. These callbacks are not triggered when the starting event is canceled or when the drill transition fails.
-
-![Blazor Sunburst Chart DrillDownCompleted event](images/events/sunburst-chart-drill-down-completed.gif)
 
 Both callbacks use `SunburstDrillEventArgs<TItem>`. The completed events are informational and do not support cancellation.
 
@@ -288,6 +286,8 @@ The corresponding event arguments are `SunburstPointClickEventArgs<TItem>`. This
 }
 
 ```
+
+![Blazor Sunburst Chart PointClick event](images/events/sunburst-chart-point-click.webp)
 
 ## SunburstPointClickEventArgs properties
 
@@ -480,7 +480,7 @@ The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"LegendClick"`. Set by the chart Ã¢â‚¬â€ do not mutate. |
+| `EventName` | `string` | Returns the literal `"LegendClick"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the default visibility toggle for the legend item's root-level hierarchy branch. The default value is `false`. |
 | `LegendIndex` | `int` | The zero-based index of the clicked legend item. Set by the chart. |
 | `Text` | `string` | The label text of the clicked legend item. |
@@ -566,13 +566,15 @@ The `LegendItemRendering` event fires before each legend item is rendered. Use i
 
 ```
 
+![Blazor Sunburst Chart LegendItemRendering event with legend customization](images/events/sunburst-chart-legend-item-rendering.webp)
+
 ## SunburstLegendItemRenderingEventArgs properties
 
 `SunburstLegendItemRenderingEventArgs<TItem>` is supplied to the `LegendItemRendering` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"LegendItemRendering"`. Set by the chart Ã¢â‚¬â€ do not mutate. |
+| `EventName` | `string` | Returns the literal `"LegendItemRendering"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the legend item from being rendered. The default value is `false`. |
 | `LegendIndex` | `int` | The zero-based index of the legend item being rendered. Set by the chart. |
 | `Text` | `string` | The text of the legend item. Mutate to override the rendered label. |
@@ -657,13 +659,15 @@ The `DataLabelRendering` event fires before each data label is rendered. Use it 
 
 ```
 
+![Blazor Sunburst Chart DataLabelRendering event with custom data label](images/events/sunburst-chart-datalabel-rendering.webp)
+
 ## SunburstDataLabelRenderingEventArgs properties
 
 `SunburstDataLabelRenderingEventArgs<TItem>` is supplied to the `DataLabelRendering` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"DataLabelRendering"`. Set by the chart Ã¢â‚¬â€ do not mutate. |
+| `EventName` | `string` | Returns the literal `"DataLabelRendering"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the data label from being rendered. The default value is `false`. |
 | `Text` | `string` | The text of the data label. Mutate to override the rendered text. |
 | `Font` | `SunburstFontModel` | The font style applied to the data label. Mutate `Color`, `FontSize`, `FontFamily`, `FontWeight`, `FontStyle`, or `Opacity` to override the appearance. |
@@ -743,13 +747,15 @@ The `SegmentRendering` event fires before each Sunburst segment is rendered. Use
 
 ```
 
+![Blazor Sunburst Chart SegmentRendering event](images/events/sunburst-chart-segment-rendering.webp)
+
 ## SunburstSegmentRenderingEventArgs properties
 
 `SunburstSegmentRenderingEventArgs<TItem>` is supplied to the `SegmentRendering` callback and exposes the following fields:
 
 | Property | Type | Description |
 |---|---|---|
-| `EventName` | `string` | Returns the literal `"SegmentRendering"`. Set by the chart Ã¢â‚¬â€ do not mutate. |
+| `EventName` | `string` | Returns the literal `"SegmentRendering"`. Set by the chart — do not mutate. |
 | `Cancel` | `bool` | Set to `true` to prevent the segment from being rendered. The default value is `false`. |
 | `Color` | `string` | The fill color of the segment. Mutate to override based on level or root label. |
 | `LevelIndex` | `int` | The zero-based index of the hierarchy level being rendered. The top-level, innermost ring is `0`. Set by the chart. |
@@ -830,6 +836,8 @@ The `TooltipRendering` event fires before each tooltip is rendered. Use it to ov
 }
 
 ```
+
+![Blazor Sunburst Chart TooltipRendering event](images/events/sunburst-chart-tooltip-rendering.webp)
 
 ## SunburstTooltipRenderingEventArgs properties
 
@@ -919,6 +927,8 @@ The `Loaded` event fires once after the Sunburst chart has been initialized and 
 }
 
 ```
+
+![Blazor Sunburst Chart Loaded event](images/events/sunburst-chart-loaded.webp)
 
 ## SunburstLoadedEventArgs properties
 
@@ -1061,6 +1071,7 @@ N> `Action` callbacks (`LegendItemRendering`, `DataLabelRendering`, `SegmentRend
 
 ## See also
 
+* [Drill](./drill-down)
 * [Tooltip](./tooltip)
 * [Selection](./selection)
 * [Highlight](./highlight)

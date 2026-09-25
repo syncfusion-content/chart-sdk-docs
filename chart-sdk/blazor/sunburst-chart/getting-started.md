@@ -5,57 +5,24 @@ description: Learn how to get started with Syncfusion Blazor Sunburst Chart in a
 platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
-keywords: Blazor Sunburst Chart, SfSunburstChart, hierarchical data, Sunburst Chart getting started
+keywords: Blazor Sunburst Chart, SfSunburstChart, hierarchical data, Sunburst Chart getting started, Blazor Server App
 ---
 
 <!-- markdownlint-disable MD040 -->
 
 # Getting Started with Blazor Sunburst Chart in Server App
 
-This section briefly explains how to include the `Blazor Sunburst Chart` component in your Blazor Server App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section briefly explains how to include the `Blazor Sunburst Chart` component in a Blazor Server App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 
 > **Ready to streamline your Blazor development?** <br/>Discover the full potential of Blazor components with AI Coding Assistants. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Code Studio and more. [Explore AI Coding Assistants](https://blazor.syncfusion.com/documentation/ai-coding-assistant/overview)
 
-## Using .NET CLI Templates
-
-Quickly set up a Blazor application using the preconfigured [Syncfusion Web App Template](https://help.syncfusion.com/extension/syncfusion-blazor-webapp-template-via-nuget/installation).
-
-First, install the template using the .NET CLI.
-
-{% tabs %}
-{% highlight razor tabtitle=".NET CLI" %}
-
-dotnet new install Syncfusion.Blazor.WebApp.Templates
-
-{% endhighlight %}
-{% endtabs %}
-
-Next, create a new project with following command.
-
-{% tabs %}
-{% highlight razor tabtitle="Server" %}
-
-dotnet new syncfusionblazorwebapp --name MyApp --interactivity Server
-
-{% endhighlight %}
-{% endtabs %}
-
-After creating the project, navigate to the main project folder (for example, `MyApp`) and run the following command.
-
-{% highlight razor tabtitle=".NET CLI" %}
-
-cd MyApp
-dotnet run
-
-{% endhighlight %}
-
-## Manually creating a new Blazor Server App
+## Create a new Blazor Server App
 
 {% tabcontents %}
 
 {% tabcontent Visual Studio %}
 
-Create a **Blazor Server App** by using the **Blazor Web App** template in Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
+Create a **Blazor Server App** by using the **Blazor Web App** template in Visual Studio via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vs) or the [SyncfusionÃƒâ€šÃ‚Â® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-integration/template-studio).
 
 {% endtabcontent %}
 
@@ -72,7 +39,22 @@ cd BlazorApp
 {% endhighlight %}
 {% endtabs %}
 
-Alternatively, create a **Blazor Server App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vsc) or the [Syncfusion® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project), or the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
+Alternatively, create a **Blazor Server App** using Visual Studio Code via [Microsoft Templates](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-10.0&pivots=vsc) or the [SyncfusionÃƒâ€šÃ‚Â® Blazor Extension](https://blazor.syncfusion.com/documentation/visual-studio-code-integration/create-project), or the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension.
+
+{% endtabcontent %}
+
+{% tabcontent .NET CLI %}
+
+Run the following command to create a new Blazor Server App.
+
+{% tabs %}
+{% highlight razor tabtitle="Command Prompt" %}
+
+dotnet new blazor -o BlazorApp --interactivity Server
+cd BlazorApp
+
+{% endhighlight %}
+{% endtabs %}
 
 {% endtabcontent %}
 
@@ -117,11 +99,25 @@ dotnet add package Syncfusion.Blazor.Charts -v {{ site.releaseversion }}
 
 {% endtabcontent %}
 
+{% tabcontent .NET CLI %}
+
+Open the command prompt and run the following command.
+
+{% tabs %}
+{% highlight razor tabtitle="Command Prompt" %}
+
+dotnet add package Syncfusion.Blazor.Charts -v {{ site.releaseversion }}
+
+{% endhighlight %}
+{% endtabs %}
+
+{% endtabcontent %}
+
 {% endtabcontents %}
 
 ### Add import namespaces
 
-After the package is installed, open the **~/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Charts` namespaces.
+After the package is installed, open the **~/Components/_Imports.razor** file and import the `Syncfusion.Blazor` and `Syncfusion.Blazor.Charts` namespaces.
 
 {% tabs %}
 {% highlight razor tabtitle="~/_Imports.razor" %}
@@ -134,7 +130,7 @@ After the package is installed, open the **~/_Imports.razor** file and import th
 
 ### Register the Blazor service
 
-Open the **Program.cs** file in Blazor Server App and register the Blazor service and include the required namespace reference `using Syncfusion.Blazor;` at the top.
+Open the **Program.cs** file in Blazor Server App and register the Blazor service. Add `using Syncfusion.Blazor;` at the top of the file.
 
 {% tabs %}
 {% highlight C# tabtitle="Program.cs" %}
@@ -146,13 +142,12 @@ builder.Services.AddSyncfusionBlazor();
 
 ## Add script resources
 
-The script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the required [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) at the end of the `<body>` section in the **App.razor** file to enable Sunburst Chart functionality.
+The script can be accessed from NuGet through [Static Web Assets](https://blazor.syncfusion.com/documentation/appearance/themes#static-web-assets). Include the required [script references](https://blazor.syncfusion.com/documentation/common/adding-script-references) at the end of the `<body>` section in the **~/Components/App.razor** file to enable Sunburst Chart functionality.
 
 {% tabs %}
 {% highlight razor tabtitle="App.razor" %}
 
 <script src="_content/Syncfusion.Blazor.Charts/scripts/sf-sunburst-chart.js" type="text/javascript"></script>
-
 
 {% endhighlight %}
 {% endtabs %}
@@ -161,7 +156,7 @@ The script can be accessed from NuGet through [Static Web Assets](https://blazor
 
 Open a Razor file located in the **~/Components/Pages/*.razor** (for example, **Home.razor**) and add the `Blazor Sunburst Chart` component inside the razor file.
 
-N> If the interactivity location is set to `Per page/component`, define a render mode at the top of the razor file. For example, use `@rendermode InteractiveServer`.If the Interactivity is set to `Global`, the render mode is automatically configured in the `App.razor` file by default.
+N> If the interactivity location is set to `Per page/component`, define a render mode at the top of the razor file. For example, use `@rendermode InteractiveServer`. If the Interactivity is set to `Global`, the render mode is automatically configured in the `App.razor` file by default.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -225,9 +220,22 @@ dotnet run
 
 {% endtabcontent %}
 
+{% tabcontent .NET CLI %}
+
+Open the command prompt and run the following command.
+
+{% tabs %}
+{% highlight razor tabtitle="Command Prompt" %}
+
+dotnet run
+
+{% endhighlight %}
+{% endtabs %}
+
+{% endtabcontent %}
+
 {% endtabcontents %}
 
-<!-- TODO: Add Blazor Playground sample after release -->
 ![Blazor Sunburst Chart](images/getting-started/blazor-sunburst-chart.webp)
 
 ## Populate the Sunburst Chart with data
