@@ -7,11 +7,11 @@ control: Stock Chart
 documentation: ug
 ---
 
-# Overview in Blazor Stock Chart
+# Blazor Stock Chart Documentation Overview
 
 ## Introduction to Syncfusion Blazor Stock Chart
 
-The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) is a powerful and feature-rich UI component designed for visualizing stock market and financial time-series data with high performance and flexibility. It offers a comprehensive set of enterprise-grade capabilities, including candle, hilo, and OHLC financial series types, a built-in period selector and range selector for quick time-span navigation, technical indicators, and annotation of market moving events. Built for scalability, it enables developers to create responsive, data-intensive financial dashboards for stock trading, portfolio tracking, and market analysis applications.
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) is a powerful and feature-rich UI component designed for visualizing stock market and financial time series data with high performance and flexibility. It offers a comprehensive set of enterprise-grade capabilities, including candle, hilo, and OHLC financial series types, a built-in period selector and range selector for quick time span navigation, technical indicators, and annotation of market moving events. Built for scalability, it enables developers to create responsive, data-intensive financial dashboards for stock trading, portfolio tracking, and market analysis applications.
 
 ## Common use cases
 
@@ -58,10 +58,10 @@ The Blazor Stock Chart offers specialized axes and built-in navigation elements 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
 | **[DateTime Axis](./axis-types#datetime-axis)** | Plot date-time values with interval types | Time-series visualization |
-| **[DateTimeCategory Axis](./axis-types#datetimecategory-axis)** | Plot date-time values without interval breaks such as non-trading days | Gap-free trading calendars |
-| **[Logarithmic Axis](./axis-types#logarithmic-axis)** | Plot values across exponential ranges | Wide-range price movements |
+| **[DateTimeCategory Axis](./axis-types#datetimecategory-axis)** | Plot date time values without interval breaks such as non-trading days | Gap-free trading calendars |
+| **[Logarithmic Axis](./axis-types#logarithmic-axis)** | Plot values across exponential ranges | Wide range price movements |
 | **[Axis Customization](./axis-customization)** | Style axis labels, grid lines, and crossing behavior | Precise axis control |
-| **[Period Selector](./period-selector#periods)** | Predefined time-span buttons such as 1M, 3M, and 1Y | One-click time navigation |
+| **[Period Selector](./period-selector#periods)** | Predefined time span buttons such as 1M, 3M, and 1Y | One-click time navigation |
 | **[Range Selector](./range-selector#selecting-range)** | Drag handles on a mini overview chart to select the visible range | Precise interactive range control |
 | **[Zooming](./zooming#enable-zooming)** | Zoom by pinch, mouse wheel, selection, or toolbar | Precise data inspection |
 | **[Panning](./panning)** | Drag the visible range across the timeline after zooming | Smooth timeline navigation |

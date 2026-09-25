@@ -7,11 +7,11 @@ control: Charts
 documentation: ug
 ---
 
-# Overview in Blazor Charts
+# Blazor Charts Documentation Overview
 
 ## Introduction to Syncfusion Blazor Charts
 
-The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) is a powerful and feature-rich UI component designed for visualizing business and analytical data with high performance and flexibility. It offers a comprehensive set of enterprise-grade capabilities, including support for financial and statistical charting, multiple axes, data-driven visual elements, and seamless integration with local and remote data sources. Built for scalability, it enables developers to create responsive, data-intensive dashboards and reports with ease.
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) is a powerful and feature-rich UI component designed for visualizing business and analytical data with high performance and flexibility. It offers a comprehensive set of enterprise-grade capabilities, including support for financial and statistical charting, multiple axes, data driven visual elements, and seamless integration with local and remote data sources. Built for scalability, it enables developers to create responsive, data-intensive dashboards and reports with ease.
 
 ## Common use cases
 
@@ -38,7 +38,7 @@ The Blazor Charts enables multiple data binding approaches, offering flexibility
 
 ## Chart types
 
-The Blazor Charts supports 50+ chart types for virtually every visualization requirement. Each type supports markers, data labels, tooltips, legends, and empty-point handling:
+The Blazor Charts supports 50+ chart types for virtually every visualization requirement. Each type supports markers, data labels, tooltips, legends, and empty point handling:
 
 | Category | Available Types | Best For |
 |----------|----------------|----------|
@@ -58,13 +58,13 @@ The Blazor Charts offers extensive axis options for precisely mapping data to th
 |---------|---------|-------------|
 | **[Category Axis](./category-axis)** | Plot data against provided labels | Simple category comparison |
 | **[Numeric Axis](./numeric-axis)** | Plot numeric data with range control | Continuous numeric scales |
-| **[DateTime Axis](./date-time-axis)** | Plot date-time values with interval types | Time-series visualization |
-| **[Logarithmic Axis](./logarithmic-axis)** | Plot values across exponential ranges | Wide-range scientific data |
+| **[DateTime Axis](./date-time-axis)** | Plot date-time values with interval types | Time series visualization |
+| **[Logarithmic Axis](./logarithmic-axis)** | Plot values across exponential ranges | Wide range scientific data |
 | **[Axis Labels](./axis-labels)** | Style and rotate axis labels, handle label intersect | Readable tick labels |
 | **[Axis Customization](./axis-customization)** | Axis crossing, titles, tick and grid lines, inversed axis | Precise axis control |
-| **[Multiple Axis](./axis-customization#multiple-axis)** | Add multiple axes to one chart | Multi-unit comparison |
+| **[Multiple Axis](./axis-customization#multiple-axis)** | Add multiple axes to one chart | Multi unit comparison |
 | **[Strip Lines](./strip-line)** | Highlight ranges or bands of interest on the axis | Threshold visualization |
-| **[Multiple Panes](./multiple-panes)** | Divide the chart into stacked panes | Compact multi-series layouts |
+| **[Multiple Panes](./multiple-panes)** | Divide the chart into stacked panes | Compact multi series layouts |
 
 ## Data visualization elements
 
@@ -117,7 +117,7 @@ The Blazor Charts provides comprehensive output capabilities for reporting and s
 
 The Blazor Charts is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
 
-- **[Globalization](./internationalization#globalization)** — Culture-aware number and date formatting
+- **[Globalization](./internationalization#globalization)** — Culture aware number and date formatting
 - **[Localization](./localization)** — Translate the chart UI into different languages
 - **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** — Accessible roles and attributes for the chart UI
 - **[Keyboard navigation](./accessibility#keyboard-navigation)** — Complete chart operation via keyboard

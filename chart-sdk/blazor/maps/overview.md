@@ -7,7 +7,7 @@ control: Maps
 documentation: ug
 ---
 
-# Overview in Blazor Maps
+# Blazor Maps Documentation Overview
 
 ## Introduction to Syncfusion Blazor Maps
 
@@ -41,8 +41,8 @@ The Blazor Maps enables multiple ways to load and bind geographical and business
 
 | Layer Type | Purpose | Key Benefit |
 |------------|---------|-------------|
-| **[Shape Layer](./layers)** | Render geographic boundaries from GeoJSON data | Data-driven thematic maps |
-| **[Tile / Provider Layer](./providers/openstreetmap)** | Display online tile maps from map providers | Real-world street and satellite imagery |
+| **[Shape Layer](./layers)** | Render geographic boundaries from GeoJSON data | Data driven thematic maps |
+| **[Tile / Provider Layer](./providers/openstreetmap)** | Display online tile maps from map providers | Real world street and satellite imagery |
 | **[Bing Maps](./providers/bing-maps) / [Google Maps](./providers/google-maps) tiles** | Integrate commercial provider tiles | Familiar, detailed map imagery |
 | **[Other Maps](./providers/other-maps)** | Load tile maps from other online providers such as TomTom and MapBox | Provider flexibility |
 
@@ -50,7 +50,7 @@ The Blazor Maps enables multiple ways to load and bind geographical and business
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
-| **[Multilayer](./layers#multilayer)** | Render multiple geographic layers on top of each other | Subcontinent plus country-level views |
+| **[Multilayer](./layers#multilayer)** | Render multiple geographic layers on top of each other | Subcontinent plus country level views |
 | **[Sublayer](./layers#sublayer)** | Layer a detailed shape inside a base shape layer | Drill-down visualization |
 | **[Displaying different layer in the view](./layers#displaying-different-layer-in-the-view)** | Switch between layers on zoom level | Progressive disclosure of detail |
 | **[Rendering custom shapes](./layers#rendering-custom-shapes)** | Render building, stadium, or indoor layouts as geometries | Floor plans and custom boundaries |
@@ -59,10 +59,10 @@ The Blazor Maps enables multiple ways to load and bind geographical and business
 
 | Provider | Key Benefit | Best For |
 |----------|--------------|----------|
-| **[OpenStreetMap](./providers/openstreetmap)** | Free, community-maintained world map | General-purpose mapping |
-| **[Google Maps](./providers/google-maps)** | High-quality street and satellite tiles | Consumer-facing applications |
-| **[Azure Maps](./providers/azure-maps)** | Enterprise-grade geospatial services | Azure-based enterprise apps |
-| **[Bing Maps](./providers/bing-maps)** | Reliable tile imagery with key-based access | Legacy and enterprise integrations |
+| **[OpenStreetMap](./providers/openstreetmap)** | Free, community maintained world map | General-purpose mapping |
+| **[Google Maps](./providers/google-maps)** | High quality street and satellite tiles | Consumer facing applications |
+| **[Azure Maps](./providers/azure-maps)** | Enterprise-grade geospatial services | Azure based enterprise apps |
+| **[Bing Maps](./providers/bing-maps)** | Reliable tile imagery with key based access | Legacy and enterprise integrations |
 | **[Other Maps](./providers/other-maps)** | Support for other tile providers | Specialized imagery requirements |
 
 ## Shape & data visualization
@@ -76,7 +76,7 @@ The Blazor Maps provides comprehensive data visualization capabilities that enab
 | **[Range Color Mapping](./color-mapping#range-color-mapping)** | Color shapes by value ranges such as population density | Intuitive thematic gradients |
 | **[Equal Color Mapping](./color-mapping#equal-color-mapping)** | Assign a unique color per equal value such as winner party | Categorical comparisons |
 | **[Desaturation Color Mapping](./color-mapping#desaturation-color-mapping)** | Vary color intensity by value | Subtle value emphasis |
-| **[Multiple colors for a single shape](./color-mapping#multiple-colors-for-a-single-shape)** | Split a shape among multiple colors | Coalition or split-level data |
+| **[Multiple colors for a single shape](./color-mapping#multiple-colors-for-a-single-shape)** | Split a shape among multiple colors | Coalition or split level data |
 
 **Data Elements**
 
@@ -85,7 +85,7 @@ The Blazor Maps provides comprehensive data visualization capabilities that enab
 | **[Data Labels](./data-labels)** | Display shape names and values on the map | In-context information |
 | **[Bubble](./bubble)** | Render proportional circles sized by underlying values | Comparative magnitude analysis |
 | **[Legend](./legend)** | Explain shape, bubble, and marker color categories | Quick value decoding |
-| **[Interactive Legend](./legend#interactive-mode)** | Toggle data ranges visibility by legend interaction | User-controlled filtering |
+| **[Interactive Legend](./legend#interactive-mode)** | Toggle data ranges visibility by legend interaction | User controlled filtering |
 
 **Markers & Overlays**
 
@@ -111,7 +111,7 @@ The Blazor Maps offers extensive layout and styling options for creating profess
 | **[Maps title](./customization#maps-title)** | Add and style a descriptive map title | Contextual storytelling |
 | **[Setting theme](./customization#setting-theme)** | Apply built-in themes such as Material or Fluent | Consistent app theming |
 | **[Customizing the shapes](./customization#customizing-the-shapes)** | Style shape fill, border, and dash arrays | Editorial control over geometry |
-| **[Setting color to the shapes from the data source](./customization#setting-color-to-the-shapes-from-the-data-source)** | Drive shape colors from bound data values | Data-driven styling |
+| **[Setting color to the shapes from the data source](./customization#setting-color-to-the-shapes-from-the-data-source)** | Drive shape colors from bound data values | Data driven styling |
 | **[Projection type](./customization#projection-type)** | Switch between Mercator, Equirectangular, and other projections | Accurate geospatial representation |
 
 ## User experience & interaction
@@ -144,8 +144,8 @@ The Blazor Maps includes sophisticated capabilities designed for complex enterpr
 | **[Globalization](./internationalization#globalization)** | Format data values using different cultures | Multi-region applications | Localized number and date display |
 | **[Localization](./localization)** | Translate the UI into different languages | Global user bases | Native-language experience |
 | **[Events](./maps-event)** | Handle rendering, interaction, and completion events | Custom workflows and integrations | Deep integration points |
-| **[Methods](./maps-method)** | Programmatically zoom, pan, select, and export | Dynamic, code-driven control | Automation-friendly API |
-| **[Content Security Policy](./content-security-policy)** | Configure CSP rules for tile and GeoJSON requests | Security-restricted environments | Compliant enterprise deployment |
+| **[Methods](./maps-method)** | Programmatically zoom, pan, select, and export | Dynamic, code-driven control | Automation friendly API |
+| **[Content Security Policy](./content-security-policy)** | Configure CSP rules for tile and GeoJSON requests | Security restricted environments | Compliant enterprise deployment |
 
 **Accessibility**
 
@@ -153,9 +153,9 @@ The Blazor Maps is fully accessible and compliant with Web Content Accessibility
 - **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** — Accessible roles and attributes for the Maps UI
 - **[Screen reading in Maps](./accessibility#screen-reading-in-maps)** — Full compatibility with assistive technologies
 - **[Keyboard Navigation](./accessibility#keyboard-navigation)** — Complete map operation via keyboard
-  - Tab / Shift+Tab — Navigate between map areas
-  - Arrow Keys — Drag/pan the map in four directions
-  - Plus (+) and Minus (-) — Zoom in and zoom out
+  - **Tab / Shift+Tab** — Navigate between map areas
+  - **Arrow Keys** — Drag/pan the map in four directions
+  - **Plus (+) and Minus (-)** — Zoom in and zoom out
 - **[Ensuring accessibility](./accessibility#ensuring-accessibility)** — Validation guidance for accessible maps
 
 ## System requirements
