@@ -234,6 +234,44 @@ Enhance label appearance using properties such as [`fill`](https://ej2.syncfusio
 
 >Note: The [`rx`](https://ej2.syncfusion.com/angular/documentation/api/chart/dataLabelSettings#rx) and [`ry`](https://ej2.syncfusion.com/angular/documentation/api/chart/dataLabelSettings#ry) properties require non‑null [`border`](https://ej2.syncfusion.com/angular/documentation/api/chart/dataLabelSettings#border) values.
 
+### Handling Overlapping Data Labels
+
+Use the `labelIntersectAction` property to specify how overlapping data labels are handled.
+
+The available options are:
+
+- `None` - Displays all data labels even when they overlap.
+- `Hide` - Hides overlapping data labels.
+- `Rotate90` - Rotates overlapping data labels by 90 degrees.
+- `RelocateVertically` - Relocates overlapping data labels vertically.
+- `RelocateHorizontally` - Relocates overlapping data labels horizontally.
+
+The `RelocateVertically` and `RelocateHorizontally` options are supported only for the following series types:
+
+- `StackingColumn`
+- `StackingColumn100`
+- `StackingBar`
+- `StackingBar100`
+
+These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/data-marker/datalabel-cs11/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/data-marker/datalabel-cs11/src/main.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="datasource.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/data-marker/datalabel-cs11/src/datasource.ts %}
+{% endhighlight %}
+
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/data-marker/datalabel-cs11" %}
+
 ## Customizing Specific Point
 
 Customize individual markers or labels using the [`pointRender`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel#pointrender) and [`textRender`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel#textrender) events of the chart.

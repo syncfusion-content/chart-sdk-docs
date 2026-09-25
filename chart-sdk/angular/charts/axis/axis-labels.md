@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 When axis labels overlap due to limited space or dense data points, the [`labelIntersectAction`](https://ej2.syncfusion.com/angular/documentation/api/chart/axisModel#labelintersectaction) property can be used to control how the labels are rendered. This helps improve readability by automatically adjusting label visibility or orientation.
 
-The supported values are `Hide`, `Rotate45`, `Rotate90`, `MultipleRows`, `Wrap`, `Trim`, and `None`. The most common scenarios are demonstrated below.
+The supported values are `Hide`, `Rotate45`, `Rotate90`, `Rotate45WithTrim`, `Rotate90WithTrim`, `MultipleRows`, `Wrap`, `Trim`, and `None`. The most common scenarios are demonstrated below.
 
 When `labelIntersectAction` is set to `Hide`, overlapping labels are hidden to avoid visual clutter.
 
@@ -57,6 +57,34 @@ When `labelIntersectAction` is set to `Rotate90`, the labels are rotated vertica
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/axis/multiple-cs3" %}
+
+When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed when the available space is insufficient and rotated by 45 degrees.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/axis/multiple-cs7/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/axis/multiple-cs7/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/axis/multiple-cs7" %}
+
+When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed when the available space is insufficient and rotated vertically.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/axis/multiple-cs8/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/axis/multiple-cs8/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/axis/multiple-cs8" %}
 
 ## Axis labels positioning
 
