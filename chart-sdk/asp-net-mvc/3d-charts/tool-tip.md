@@ -135,3 +135,18 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.
 {% endtabs %}
 
 
+
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered 3D chart point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/syncfusion.ej2.charts.chart3d.html#Syncfusion_EJ2_Charts_Chart3D_TooltipRender) event argument. This is useful when the data source contains additional fields that are not directly mapped to the 3D chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the 3D chart data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/tooltip-raw-data/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="Tooltip-raw-data.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/tooltip-raw-data/Tooltip-raw-data.cs %}
+{% endhighlight %}
+{% endtabs %}

@@ -1,0 +1,18 @@
+<ejs-accumulationchart id="container" title="Sales by Country" tooltipRender="tooltipRender">
+    <e-accumulationchart-tooltipsettings enable="true"></e-accumulationchart-tooltipsettings>
+    <e-accumulationchart-legendsettings visible="false"></e-accumulationchart-legendsettings>
+    <e-accumulation-series-collection>
+        <e-accumulation-series dataSource="@ViewBag.dataSource" xName="xValue" yName="yValue" name="Sales" type="@Syncfusion.EJ2.Charts.AccumulationType.Pie"></e-accumulation-series>
+    </e-accumulation-series-collection>
+</ejs-accumulationchart>
+
+<script>
+    function tooltipRender(args) {
+        var rawData = args.data.rawData;
+        if (rawData) {
+            args.text = 'Sales: <b>' + rawData.yValue + '</b><br/>' +
+                'Region: <b>' + rawData.region + '</b><br/>' +
+                'Growth: <b>' + rawData.growth + '%</b>';
+        }
+    }
+</script>

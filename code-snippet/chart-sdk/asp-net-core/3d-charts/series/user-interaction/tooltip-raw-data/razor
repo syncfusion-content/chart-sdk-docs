@@ -1,0 +1,38 @@
+@(Html.EJS().Chart3D("container")
+    .Title("Sales by Country")
+    .WallColor("transparent")
+    .EnableRotation(true)
+    .Rotation(7)
+    .Tilt(10)
+    .Depth(100)
+    .PrimaryXAxis(px => px
+        .ValueType(Syncfusion.EJ2.Charts.ValueType.Category)
+        .Title("Country")
+    )
+    .PrimaryYAxis(py => py
+        .Title("Sales")
+    )
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.Chart3DSeriesType.Column)
+            .DataSource(ViewBag.dataSource)
+            .XName("x")
+            .YName("y")
+            .Name("Sales")
+            .Add();
+    })
+    .Tooltip(tp => tp.Enable(true))
+    .TooltipRender("tooltipRender")
+    .Render()
+)
+
+<script>
+    function tooltipRender(args) {
+        var rawData = args.data.rawData;
+        if (rawData) {
+            args.text = 'Sales: <b>' + rawData.y + '</b><br/>' +
+                'Region: <b>' + rawData.region + '</b><br/>' +
+                'Growth: <b>' + rawData.growth + '%</b>';
+        }
+    }
+</script>

@@ -318,6 +318,29 @@ The [`highlightColor`](https://ej2.syncfusion.com/react/documentation/api/chart#
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/charts/preview-sample/user-interaction/tooltip-cs6" %}
 
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/react/documentation/api/chart/itooltiprendereventargs) event argument. This is useful when the data source contains additional fields that are not directly available in the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object inside the event does not update the chart data source.
+
+In the following example, the `country` and `growth` fields are retrieved from `args.data.rawData` and added to the tooltip content.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/user-interaction/tooltip-cs15/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/user-interaction/tooltip-cs15/app/index.tsx %}
+{% endhighlight %}
+{% highlight js tabtitle="datasource.jsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/user-interaction/tooltip-cs15/app/datasource.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="datasource.tsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/user-interaction/tooltip-cs15/app/datasource.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/charts/preview-sample/user-interaction/tooltip-cs15" %}
+
 ## Closest Tooltip
 
 The [`showNearestTooltip`](https://ej2.syncfusion.com/react/documentation/api/chart/tooltipSettingsModel#shownearesttooltip) property displays the tooltip for the data point nearest to the pointer, even when the pointer is not directly positioned over the point.

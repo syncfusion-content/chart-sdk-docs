@@ -169,3 +169,20 @@ Using the `tooltipRender` event, you can customize tooltip values for a particu
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-circular-charts/user-interaction/tooltip-event" %}
+
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered 3D circular chart point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/javascript/documentation/api/circularchart3d/circularchart3dtooltiprendereventargs) event argument. This is useful when the data source contains additional fields that are not directly mapped to the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the 3D circular chart data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/3d-circular-charts/user-interaction/tooltip-raw-data/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/3d-circular-charts/user-interaction/tooltip-raw-data/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-circular-charts/user-interaction/tooltip-raw-data" %}
