@@ -32,9 +32,9 @@ The Blazor Charts enables multiple data binding approaches, offering flexibility
 
 **Data Binding Approaches**
 
-- **[List binding](./working-with-data#list-binding)** — Bind charts to local collections, lists, and arrays for fast data access without external dependencies. Ideal for small to medium datasets and rapid prototyping.
-- **[Remote data](./working-with-data#remote-data)** — Connect to **web services, REST APIs**, and remote endpoints using DataManager adaptors for scalable applications.
-- **[Entity Framework](./working-with-data#entity-framework)** — Bind directly to EF Core DbContext query results for simplified database model binding.
+- **[List binding](./working-with-data#list-binding)** - Bind charts to local collections, lists, and arrays for fast data access without external dependencies. Ideal for small to medium datasets and rapid prototyping.
+- **[Remote data](./working-with-data#remote-data)** - Connect to **web services, REST APIs**, and remote endpoints using DataManager adaptors for scalable applications.
+- **[Entity Framework](./working-with-data#entity-framework)** - Bind directly to EF Core DbContext query results for simplified database model binding.
 
 ## Chart types
 
@@ -117,12 +117,12 @@ The Blazor Charts provides comprehensive output capabilities for reporting and s
 
 The Blazor Charts is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
 
-- **[Globalization](./internationalization#globalization)** — Culture aware number and date formatting
-- **[Localization](./localization)** — Translate the chart UI into different languages
-- **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** — Accessible roles and attributes for the chart UI
-- **[Keyboard navigation](./accessibility#keyboard-navigation)** — Complete chart operation via keyboard
-- **[Ensuring accessibility](./accessibility#ensuring-accessibility)** — Validation guidance for accessible charts
-- **[Advanced Accessibility Configuration](./advanced-accessibility-configuration)** — Deeper accessibility customization options
+- **[Globalization](./internationalization#globalization)** - Culture aware number and date formatting
+- **[Localization](./localization)** - Translate the chart UI into different languages
+- **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** - Accessible roles and attributes for the chart UI
+- **[Keyboard navigation](./accessibility#keyboard-navigation)** - Complete chart operation via keyboard
+- **[Ensuring accessibility](./accessibility#ensuring-accessibility)** - Validation guidance for accessible charts
+- **[Advanced Accessibility Configuration](./advanced-accessibility-configuration)** - Deeper accessibility customization options
 
 ## System requirements
 
@@ -142,12 +142,12 @@ The Blazor Charts works with:
 - [Blazor Hybrid MAUI App Guide](./getting-started-with-maui-app)
 
 **Popular Features:**
-- [Chart Types](./chart-types/line) — 50+ chart types for any scenario
-- [Data Labels](./data-labels) — Value display with templates
-- [Legend](./legend) — Series explanation and interactivity
-- [Tooltip](./tool-tip) — Rich point information on hover
-- [Zooming](./zooming) — Interactive data inspection
-- [Print and Export](./chart-print) — PDF, image, and print output
+- [Chart Types](./chart-types/line) - 50+ chart types for any scenario
+- [Data Labels](./data-labels) - Value display with templates
+- [Legend](./legend) - Series explanation and interactivity
+- [Tooltip](./tool-tip) - Rich point information on hover
+- [Zooming](./zooming) - Interactive data inspection
+- [Print and Export](./chart-print) - PDF, image, and print output
 
 **Resources:**
 - [Live Chart Demos](https://blazor.syncfusion.com/demos/chart/overview?theme=fluent2)

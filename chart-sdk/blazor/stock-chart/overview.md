@@ -32,11 +32,11 @@ The Blazor Stock Chart enables multiple data binding approaches, offering flexib
 
 **Data Binding Approaches**
 
-- **[List binding](./working-with-data#list-binding)** — Bind charts to local collections of OHLC (open, high, low, close) records for fast data access without external dependencies. Ideal for small to medium datasets and rapid prototyping.
-- **[Remote Data](./working-with-data#remote-data)** — Connect to **web services, REST APIs**, and remote endpoints using DataManager adaptors for scalable applications.
-- **[Observable collection](./working-with-data#observable-collection)** — Automatically reflect added and removed data points without manual refresh.
-- **[Entity Framework](./working-with-data#entity-framework)** — Bind directly to EF Core DbContext query results for simplified database model binding.
-- **[Handling No Data](./working-with-data#handling-no-data)** — Display a meaningful message when the data source is empty.
+- **[List binding](./working-with-data#list-binding)** - Bind charts to local collections of OHLC (open, high, low, close) records for fast data access without external dependencies. Ideal for small to medium datasets and rapid prototyping.
+- **[Remote Data](./working-with-data#remote-data)** - Connect to **web services, REST APIs**, and remote endpoints using DataManager adaptors for scalable applications.
+- **[Observable collection](./working-with-data#observable-collection)** - Automatically reflect added and removed data points without manual refresh.
+- **[Entity Framework](./working-with-data#entity-framework)** - Bind directly to EF Core DbContext query results for simplified database model binding.
+- **[Handling No Data](./working-with-data#handling-no-data)** - Display a meaningful message when the data source is empty.
 
 ## Series types
 
@@ -53,12 +53,12 @@ The Stock Chart supports six financial series types, switchable at runtime throu
 
 ## Axes & navigation
 
-The Blazor Stock Chart offers specialized axes and built-in navigation elements tailored for financial time-series exploration:
+The Blazor Stock Chart offers specialized axes and built-in navigation elements tailored for financial time series exploration:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
-| **[DateTime Axis](./axis-types#datetime-axis)** | Plot date-time values with interval types | Time-series visualization |
-| **[DateTimeCategory Axis](./axis-types#datetimecategory-axis)** | Plot date time values without interval breaks such as non-trading days | Gap-free trading calendars |
+| **[DateTime Axis](./axis-types#datetime-axis)** | Plot date-time values with interval types | Time series visualization |
+| **[DateTimeCategory Axis](./axis-types#datetimecategory-axis)** | Plot date time values without interval breaks such as non-trading days | Gap free trading calendars |
 | **[Logarithmic Axis](./axis-types#logarithmic-axis)** | Plot values across exponential ranges | Wide range price movements |
 | **[Axis Customization](./axis-customization)** | Style axis labels, grid lines, and crossing behavior | Precise axis control |
 | **[Period Selector](./period-selector#periods)** | Predefined time span buttons such as 1M, 3M, and 1Y | One-click time navigation |
@@ -103,9 +103,9 @@ The Blazor Stock Chart provides comprehensive output capabilities for reporting 
 
 The Blazor Stock Chart is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
 
-- **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** — Accessible roles and attributes for the stock chart UI
-- **[Keyboard interaction](./accessibility#keyboard-interaction)** — Complete chart operation via keyboard
-- **[Ensuring accessibility](./accessibility#ensuring-accessibility)** — Validation guidance for accessible charts
+- **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** - Accessible roles and attributes for the stock chart UI
+- **[Keyboard interaction](./accessibility#keyboard-interaction)** - Complete chart operation via keyboard
+- **[Ensuring accessibility](./accessibility#ensuring-accessibility)** - Validation guidance for accessible charts
 
 ## System requirements
 
@@ -123,12 +123,12 @@ The Blazor Stock Chart works with:
 - [Blazor WebAssembly Guide](./getting-started)
 
 **Popular Features:**
-- [Series Types](./series-types) — Candle, Hilo, OHLC, and line series
-- [Period Selector](./period-selector) — Predefined time-span navigation
-- [Range Selector](./range-selector) — Interactive range selection on an overview chart
-- [Technical Indicators](./technical-indicators) — Trading signal overlays
-- [Stock Events](./stock-events) — Market event annotation
-- [Print and Export](./export-print) — PDF, image, and Excel output
+- [Series Types](./series-types) - Candle, Hilo, OHLC, and line series
+- [Period Selector](./period-selector) - Predefined time-span navigation
+- [Range Selector](./range-selector) - Interactive range selection on an overview chart
+- [Technical Indicators](./technical-indicators) - Trading signal overlays
+- [Stock Events](./stock-events) - Market event annotation
+- [Print and Export](./export-print) - PDF, image, and Excel output
 
 ## Support & Resources
 

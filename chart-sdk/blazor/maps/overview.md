@@ -32,10 +32,10 @@ The Blazor Maps enables multiple ways to load and bind geographical and business
 
 **Shape Data**
 
-- **[Populate Data](./populate-data)** — Load GeoJSON shape data and bind business data to shapes using `ShapeDataPath` and `ShapePropertyPath` for automatic matching.
-- **[Geometry types](./populate-data#geometry-types)** — Render `Geometry` (polygon) and `LineString` (line) shapes in the same or separate layers.
-- **[Fetching data from JSON file](./populate-data#fetching-data-from-json-file)** — Load map data from local or remote JSON files in Blazor Server and WebAssembly apps.
-- **[Shapefile](./shapefile)** — Convert ESRI shapefiles to GeoJSON for rendering static geographic boundaries.
+- **[Populate Data](./populate-data)** - Load GeoJSON shape data and bind business data to shapes using `ShapeDataPath` and `ShapePropertyPath` for automatic matching.
+- **[Geometry types](./populate-data#geometry-types)** - Render `Geometry` (polygon) and `LineString` (line) shapes in the same or separate layers.
+- **[Fetching data from JSON file](./populate-data#fetching-data-from-json-file)** - Load map data from local or remote JSON files in Blazor Server and WebAssembly apps.
+- **[Shapefile](./shapefile)** - Convert ESRI shapefiles to GeoJSON for rendering static geographic boundaries.
 
 **Layer Types**
 
@@ -150,13 +150,13 @@ The Blazor Maps includes sophisticated capabilities designed for complex enterpr
 **Accessibility**
 
 The Blazor Maps is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
-- **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** — Accessible roles and attributes for the Maps UI
-- **[Screen reading in Maps](./accessibility#screen-reading-in-maps)** — Full compatibility with assistive technologies
-- **[Keyboard Navigation](./accessibility#keyboard-navigation)** — Complete map operation via keyboard
-  - **Tab / Shift+Tab** — Navigate between map areas
-  - **Arrow Keys** — Drag/pan the map in four directions
-  - **Plus (+) and Minus (-)** — Zoom in and zoom out
-- **[Ensuring accessibility](./accessibility#ensuring-accessibility)** — Validation guidance for accessible maps
+- **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** - Accessible roles and attributes for the Maps UI
+- **[Screen reading in Maps](./accessibility#screen-reading-in-maps)** - Full compatibility with assistive technologies
+- **[Keyboard Navigation](./accessibility#keyboard-navigation)** - Complete map operation via keyboard
+  - **Tab / Shift+Tab** - Navigate between map areas
+  - **Arrow Keys** - Drag/pan the map in four directions
+  - **Plus (+) and Minus (-)** - Zoom in and zoom out
+- **[Ensuring accessibility](./accessibility#ensuring-accessibility)** - Validation guidance for accessible maps
 
 ## System requirements
 
@@ -175,12 +175,12 @@ The Blazor Maps works with:
 - [Blazor Hybrid MAUI App Guide](./getting-started-with-maui-app)
 
 **Popular Features:**
-- [Color Mapping](./color-mapping) — Thematic shape coloring by value
-- [Bubble](./bubble) — Proportional symbol visualization
-- [Markers](./markers) — Location visualization and clustering
-- [Layers](./layers) — Multilayer and sublayer rendering
-- [User Interactions](./user-interactions) — Zooming, selection, highlight, and tooltip
-- [Print and Export](./print-and-export) — Print, image, and PDF output
+- [Color Mapping](./color-mapping) - Thematic shape coloring by value
+- [Bubble](./bubble) - Proportional symbol visualization
+- [Markers](./markers) - Location visualization and clustering
+- [Layers](./layers) - Multilayer and sublayer rendering
+- [User Interactions](./user-interactions) - Zooming, selection, highlight, and tooltip
+- [Print and Export](./print-and-export) - Print, image, and PDF output
 
 ## Support & Resources
 
