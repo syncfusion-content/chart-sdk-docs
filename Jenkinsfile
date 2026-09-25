@@ -15,6 +15,7 @@ String platform='chart-sdk';
 	    { 
 	    dir('Spell-Checker') 
            {
+            
 		     //checkout scm
          checkout([
 			    $class: 'GitSCM',
