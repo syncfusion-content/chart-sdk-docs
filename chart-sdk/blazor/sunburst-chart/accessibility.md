@@ -52,7 +52,7 @@ WAI-ARIA (Accessibility Initiative - Accessible Rich Internet Applications) defi
 | Subtitle | Reads the Sunburst Chart subtitle. |
 | Tooltip | Reads the hierarchy path and the value of the hovered segment. |
 
-The Blazor Sunburst Chart component follows the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility requirements. The following ARIA attributes are used in the Blazor Sunburst Chart component:
+The Blazor Sunburst Chart component follows the [WAI-ARIA tree view pattern](https://www.w3.org/WAI/ARIA/apg/patterns/treeview/) to meet the accessibility requirements. The following ARIA attributes are used in the Blazor Sunburst Chart component:
 
 * img (role)
 * button (role)
@@ -74,7 +74,7 @@ In addition to the standard ARIA attributes, the Blazor Sunburst Chart component
 
 ## Keyboard navigation
 
-The Blazor Sunburst Chart component follows the [keyboard interaction](https://www.w3.org/WAI/ARIA/apg/patterns/alert/#keyboardinteraction) guideline, making it easy for people who use assistive technologies (AT) and those who completely rely on keyboard navigation.
+The Blazor Sunburst Chart component follows the [tree view keyboard interaction](https://www.w3.org/WAI/ARIA/apg/patterns/treeview/) guideline, making it easy for people who use assistive technologies (AT) and those who completely rely on keyboard navigation.
 
 The component uses a single roving `tabindex` on the chart root, so only one segment is reachable through `Tab` at a time. Once focus is inside the Sunburst Chart, the following keyboard shortcuts let users explore the hierarchy, drill into a branch, return to the parent, and operate the legend without using a pointer.
 
@@ -100,7 +100,7 @@ Beyond ARIA attributes and keyboard navigation, the Blazor Sunburst Chart compon
 * **Focus restoration** - After a drill-down, drill-up, or data refresh, focus is restored to the equivalent logical segment so keyboard users do not lose their place in the hierarchy.
 * **Accessible segment names** - Every segment exposes a meaningful accessible name that combines its hierarchy path and value, so screen readers can announce what the focused wedge represents.
 * **Keyboard-accessible tooltip** - The tooltip information for the focused or hovered segment is also announced to assistive technologies, so users who cannot rely on pointer hover still see hierarchy path and value.
-* **Drill activation is pointer-based** - The drill-down and drill-up operations are triggered by a double-click on a Sunburst segment (and by clicking a breadcrumb). Keyboard keys such as <kbd>Enter</kbd>, <kbd>Space</kbd>, and <kbd>Escape</kbd> are not bound to drill navigation. To trigger a drill from the keyboard, focus the segment and then use the chart's own click-to-drill workflow through a custom focus action.
+* **Drill activation** - The drill-down and drill-up operations are triggered by a double-click on a Sunburst segment, by a double-tap (two taps within 400 ms) on a touchscreen, by a click on a breadcrumb in the breadcrumb bar, and by <kbd>Enter</kbd> on a keyboard-focused segment. <kbd>Space</kbd> and <kbd>Escape</kbd> are not bound to drill navigation. When the chart routes `Enter` to drill, it still fires the standard drill events and `PointClick` is not raised for the activation.
 * **Reduced motion support** - Animations honor the user's `prefers-reduced-motion` setting, so users sensitive to motion are not exposed to non-essential transitions.
 * **Non-color state indicators** - Selection, highlight, and focus are indicated by more than color alone (for example, opacity, border, or ring emphasis) so the chart remains usable for users with color-vision deficiencies.
 * **Forced-colors support** - Focus indicators, selection, and segment borders remain visible when the operating system is in a high-contrast or forced-colors mode.

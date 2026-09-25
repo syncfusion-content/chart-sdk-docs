@@ -88,10 +88,12 @@ Selection is hidden by default. Set the `Enable` property of `SunburstSelectionS
 
 Use the `Mode` property to decide which related segments are selected together with the segment clicked by the user. The mode is a `SunburstSelectionMode` enum value.
 
-* `All` – Selects the clicked segment along with its parent and child segments (the entire branch).
+* `Single` – Selects only the clicked segment. Use this when you want a strict one-segment focus.
 * `Parent` – Selects the clicked segment along with its parent segment. Use this when you want the immediate parent to remain selected while inspecting a segment.
 * `Child` – Selects the clicked segment along with its child segment. Use this when you want to focus on a node and its immediate descendant.
-* `Single` – Selects only the clicked segment. Use this when you want a strict one-segment focus.
+* `All` – Selects the clicked segment along with its parent and child segments (the entire branch).
+
+N> The default selection mode (`Single`) only selects the clicked segment, which differs from the default highlight mode (`All`). If you want selection to affect the same hierarchy branch as a hover-highlight, set `Mode="SunburstSelectionMode.All"` explicitly.
 
 The following example configures the `Parent` mode so that selecting a deep segment also keeps its ancestors selected.
 

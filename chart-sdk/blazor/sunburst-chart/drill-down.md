@@ -20,7 +20,7 @@ N> **Default behavior:** Drill-down is disabled by default because the default v
 
 Set the `Enable` property of `SunburstDrillSettings` to `true` to enable drill-down navigation.
 
-Users can drill down by double-clicking a segment that contains child segments. Double-clicking the currently focused root segment drills up to its parent level.
+Users drill down by double-clicking a segment that contains child segments. Double-clicking the currently focused root segment drills up to its parent level. A single click never triggers drill — it only fires `OnMouseClick` (see the [PointClick](./events#pointclick) event for observation). From a touchscreen, a double tap within 400 ms on the same segment drills; from the keyboard, `Enter` on a focused segment drills, since the chart routes `Enter` to the same drill path that a pointer double-click does.
 
 ```cshtml
 @using Syncfusion.Blazor.Charts
