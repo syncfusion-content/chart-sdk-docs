@@ -185,4 +185,4 @@ In the following example, the `region` and `growth` fields are retrieved from `a
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-circular-charts/user-interaction/tooltip-raw-data %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-circular-charts/user-interaction/tooltip-raw-data" %}
