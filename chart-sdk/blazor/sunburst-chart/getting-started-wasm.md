@@ -202,7 +202,7 @@ Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor*
 
 {% tabcontent Visual Studio %}
 
-Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>ÃƒÂ¢Ã…â€™Ã‹Å“</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The `Blazor Sunburst Chart` component will render in your default web browser.
+Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The `Blazor Sunburst Chart` component will render in your default web browser.
 
 {% endtabcontent %}
 

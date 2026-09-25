@@ -10,7 +10,7 @@ keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, dri
 
 # Blazor Sunburst Chart Events
 
-Events let you observe and customize the `Blazor Sunburst Chart` at well-defined points during interaction and rendering Ã¢â‚¬â€ from clicks and legend toggling to data-label and segment painting. They are also useful for navigating between hierarchy levels with drill-down and drill-up. Use them when you want to intercept a default behavior, perform custom validation, or surface chart interactions in your own UI. These events are particularly valuable for interactive Sunburst Chart implementations where users explore hierarchical data visualization by drilling through multi-level pie chart segments.
+Events let you observe and customize the `Blazor Sunburst Chart` at well-defined points during interaction and rendering from clicks and legend toggling to data-label and segment painting. They are also useful for navigating between hierarchy levels with drill-down and drill-up. Use them when you want to intercept a default behavior, perform custom validation, or surface chart interactions in your own UI. These events are particularly valuable for interactive Sunburst Chart implementations where users explore hierarchical data visualization by drilling through multi-level pie chart segments.
 
 The events of the Blazor Sunburst Chart are configured directly on the `SfSunburstChart` component by assigning the relevant callback parameters.
 
