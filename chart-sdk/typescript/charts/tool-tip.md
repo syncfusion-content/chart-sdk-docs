@@ -260,6 +260,23 @@ tooltip: {
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/tooltip-distance" %}
 
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered point can be accessed through the `data.rawData` property of the `tooltiprender` event argument. This is useful when the data source contains additional fields that are not directly available in the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object inside the event does not update the chart data source.
+
+In the following example, the `country` and `growth` fields are retrieved from `args.data.rawData` and added to the tooltip content.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/user-interaction-cs57/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/charts/user-interaction-cs57/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs57" %}
+
 ## See also
 
 * [Format the tooltip value](./how-to/tool-tip-format.md)

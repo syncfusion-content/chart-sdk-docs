@@ -208,3 +208,20 @@ tooltip: {
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-followPointer-Acc" %}
+
+## Access the data source record in the tooltip render event
+
+The complete data source record associated with the hovered accumulation chart point can be accessed through the `data.rawData` property of the `tooltiprender` event argument. This is useful when the data source contains additional fields that are not directly mapped to the accumulation chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the accumulation chart data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-raw-data/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-raw-data/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/tooltip-raw-data" %}
