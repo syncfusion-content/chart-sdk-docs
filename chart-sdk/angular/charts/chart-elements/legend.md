@@ -329,3 +329,19 @@ Use the [`legendRender`](https://ej2.syncfusion.com/angular/documentation/api/ch
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/how-to-cs11" %}
 
+## Expose series and point in legendRender event
+
+The [`legendRender`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartModel#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://ej2.syncfusion.com/angular/documentation/api/chart/series) model and `args.point` provides the underlying data point when [`legendSettings.mode`](https://ej2.syncfusion.com/angular/documentation/api/chart/legendSettingsModel#mode) is set to `'Point'`. Use these arguments to customize the legend item text dynamically based on series and point data.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/axis/legend-cs2/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/charts/axis/legend-cs2/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/angular/charts/axis/legend-cs2" %}
+
