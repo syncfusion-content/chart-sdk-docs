@@ -83,7 +83,7 @@ To display series labels, set the [Visible](https://help.syncfusion.com/cr/blazo
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXhRXwCeUtiqTzwA?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blazor line chart displaying inline series labels](images/series-label/blazor-line-chart-series-label.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZhnDOBezrLibzJU?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor line chart displaying inline series labels](images/series-label/blazor-line-chart-series-label.webp)" %}
 
 ## Customization
 
@@ -182,7 +182,7 @@ In the [SeriesLabelFont](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LXhHXQWeAXmXdxjU?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" backgroundimage "[Blazor line chart with customized series label background, font, and border](images/series-label/blazor-line-chart-series-label-customization.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXhnXOhyJVgSiKlp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor line chart with customized series label background, font, and border](images/series-label/blazor-line-chart-series-label-customization.webp)" %}
 
 ## See also
 

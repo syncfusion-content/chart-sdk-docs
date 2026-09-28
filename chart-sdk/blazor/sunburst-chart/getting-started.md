@@ -240,15 +240,15 @@ dotnet run
 
 ## Populate the Sunburst Chart with data
 
-The `Blazor Sunburst Chart` renders hierarchical data as concentric rings. As shown in the previous example, the hierarchy is defined using a flat `IEnumerable<TItem>` collection, where each record's `ParentId` maps to another record's `Id`. Records whose `ParentId` is `null` form the top-level branches, and their descendants are rendered in the next outer ring.
+The `Blazor Sunburst Chart` renders hierarchical data as concentric rings. As shown in the previous example, the hierarchy is described through a single flat `IEnumerable<TItem>` collection, and the chart derives the levels from how each row's `ParentId` maps to another row's `Id`. Each root row (`ParentId` is `null`) becomes the innermost ring, and each level of children becomes the next outer ring.
 
 Key mappings to configure:
 
 * `DataSource` is the `IEnumerable<NodeDetails>` collection that supplies the nodes.
-* `IdMemberPath` specifies the field that contains the unique identifier for each node (`NodeDetails.Id`). The default value is `string.Empty`. Every node must have a unique, non-null, and non-empty identifier. Missing or duplicate identifiers invalidate the hierarchy, and the chart does not generate identifiers automatically.
-* `ParentIdMemberPath` specifies the field that contains the parent identifier for each node (`NodeDetails.ParentId`). The default value is `string.Empty`. A null, empty, or whitespace parent identifier creates a top-level node. Unresolved parent identifiers, self-references, and cyclic references invalidate the hierarchy.
-* `LabelMemberPath` specifies the field that contains the display label for each node (`NodeDetails.Name`). The default value is `string.Empty`. A null, empty, or whitespace label uses the localized unknown text as the display label.
-* `ValueMemberPath` specifies the numeric field that determines the segment sweep (`NodeDetails.Value`). The default value is `string.Empty`.
+* `IdMemberPath` specifies the field that contains the unique identifier for each node (`NodeDetails.Id`). The default value is `string.Empty`. The property is marked `[EditorRequired]`. Every node must have a unique, non-null, and non-empty identifier. Missing or duplicate identifiers invalidate the hierarchy, and the chart does not generate identifiers automatically.
+* `ParentIdMemberPath` specifies the field that contains the parent identifier for each node (`NodeDetails.ParentId`). The default value is `string.Empty`. The property is marked `[EditorRequired]`. A null, empty, or whitespace parent identifier creates a top-level node. Unresolved parent identifiers, self-references, and cyclic references invalidate the hierarchy.
+* `LabelMemberPath` specifies the field that contains the display label for each node (`NodeDetails.Name`). The default value is `string.Empty`. The property is marked `[EditorRequired]`. A null, empty, or whitespace label uses the localized unknown text as the display label.
+* `ValueMemberPath` specifies the numeric field that determines the segment sweep (`NodeDetails.Value`). The default value is `string.Empty`. The property is marked `[EditorRequired]`.
 
 Leaf nodes contain the numeric `Value` that drives rendering. Ancestor nodes with a value less than or equal to `0` use the aggregated value of their descendants.
 
