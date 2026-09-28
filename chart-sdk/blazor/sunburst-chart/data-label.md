@@ -229,7 +229,7 @@ For example, a wide chart with many segments may look more balanced with `Angle`
 
 ```
 
-![Blazor Sunburst Chart with horizontal data labels](images/data-label/sunburst-chart-data-label-rotation-angle.webp)
+![Blazor Sunburst Chart with angle-rotated data labels](images/data-label/sunburst-chart-data-label-rotation-angle.webp)
 
 ## Customization
 
