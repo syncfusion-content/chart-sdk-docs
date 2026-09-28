@@ -16,7 +16,7 @@ The events of the Blazor Sunburst Chart are configured directly on the `SfSunbur
 
 N> **Default behavior:** No event callbacks are subscribed by default. The chart renders and behaves normally until at least one handler is attached to the relevant callback parameter. Cancelable events (`Cancel = true`) prevent the default action; the rest are observational.
 
-N> **Synchronous callbacks:** `LegendItemRendering`, `TooltipRendering`, `DataLabelRendering`, `SegmentRendering`, `Exporting`, `ExportCompleted`, and `PrintCompleted` are exposed as `Action<>` delegates on `SfSunburstChart` and run synchronously on the Blazor render thread. `Loaded`, `OnLegendClick`, `OnPointClick`, `SelectionChanged`, `DrillDownStarting`, `DrillUpStarting`, `DrillDownCompleted`, and `DrillUpCompleted` are exposed as `EventCallback<>` and follow the standard Blazor asynchronous semantics. Keep `Action<>` handlers short and avoid `async`/`await` inside them, because long-running work delays the next render frame.
+N> **Synchronous callbacks:** `LegendItemRendering`, `TooltipRendering`, `DataLabelRendering`, `SegmentRendering`, `Exporting`, `ExportCompleted`, and `PrintCompleted` are exposed as `Action<>` delegates on `SfSunburstChart` and run synchronously on the Blazor render thread. `Loaded`, `LegendClick`, `PointClick`, `SelectionChanged`, `DrillDownStarting`, `DrillUpStarting`, `DrillDownCompleted`, and `DrillUpCompleted` are exposed as `EventCallback<>` and follow the standard Blazor asynchronous semantics. Keep `Action<>` handlers short and avoid `async`/`await` inside them, because long-running work delays the next render frame.
 
 ## DrillDownStarting
 
@@ -472,7 +472,7 @@ The corresponding event arguments are `SunburstLegendClickEventArgs<TItem>`.
 
 ```
 
-![Blazor Sunburst Chart displaying a legend at the bottom](images/legends/sunburst-chart-legend-default.webp)
+![Blazor Sunburst Chart with legend at the bottom](images/events/sunburst-chart-legend-default.webp)
 
 ## SunburstLegendClickEventArgs properties
 

@@ -5,7 +5,7 @@ description: Learn how to create Pie and Doughnut Charts in Syncfusion Blazor Ac
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
-keywords: Blazor Pie Chart, Blazor Doughnut Chart, Blazor Accumulation Chart, Syncfusion Blazor Charts, Pie Chart Blazor, Doughnut Chart Blazor, Blazor Nested Donut Chart, Blazor Multi-ring Pie Chart, Blazor Comparison Pie Chart
+keywords: Blazor Pie Chart, Blazor Doughnut Chart, Blazor Accumulation Chart, Syncfusion Blazor Charts, Pie Chart Blazor, Doughnut Chart Blazor, Blazor Nested Doughnut Chart, Blazor Multi-ring Pie Chart, Blazor Comparison Pie Chart
 ---
 
 # Pie and Doughnut Chart in Blazor
@@ -213,15 +213,15 @@ The doughnut chart can be created by setting the [InnerRadius](https://help.sync
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BXBHXwsohMbHLoWg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Doughnut Chart](../images/pie-dough-nut/blazor-doughnut-chart.webp)" %}
 
-## Multiple donuts
+## Multiple Doughnut Charts
 
-You can create multiple donuts within a single chart by adding multiple series with different [InnerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartSeries.html#Syncfusion_Blazor_Charts_AccumulationChartSeries_InnerRadius) and [Radius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartSeries.html#Syncfusion_Blazor_Charts_AccumulationChartSeries_Radius) values. This lets you compare multiple data sets within the same categories. Each series can carry its own data, colors, and customizations. The `MappingKey` property in [AccumulationChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartLegendSettings.html) groups legend items by a specified field from the data source, so points with matching `MappingKey` values appear as a single legend entry instead of one entry per series.
+You can create multiple doughnut charts within a single chart by adding multiple series with different [InnerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartSeries.html#Syncfusion_Blazor_Charts_AccumulationChartSeries_InnerRadius) and [Radius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartSeries.html#Syncfusion_Blazor_Charts_AccumulationChartSeries_Radius) values. This lets you compare multiple data sets within the same categories. Each series can carry its own data, colors, and customizations. The `MappingKey` property in [AccumulationChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartLegendSettings.html) groups legend items by a specified field from the data source, so points with matching `MappingKey` values appear as a single legend entry instead of one entry per series. To create the nested effect, the outer series uses a larger `Radius` with a non-zero `InnerRadius` (a ring), while the inner series uses a smaller `Radius` with `InnerRadius` equal to `Radius` (a solid disc).
 
 ```cshtml
 
 @using Syncfusion.Blazor.Charts
 
-<SfAccumulationChart Title="Product Sales vs Profit Analysis" EnableBorderOnMouseMove="false" >
+<SfAccumulationChart Title="Product Sales vs Profit Analysis" >
 
     <AccumulationChartSeriesCollection>
         <AccumulationChartSeries DataSource="@TotalSalesData" XName="@nameof(ProductData.X)" YName="@nameof(ProductData.Y)" Name="Total Sales" Type="@AccumulationType.Pie" Radius="90%" InnerRadius="60%" TooltipMappingName="@nameof(ProductData.X)">
@@ -278,7 +278,7 @@ You can create multiple donuts within a single chart by adding multiple series w
 
 ```
 
-![Blazor Chart with Multiple Donuts](../images/pie-dough-nut/blazor-nested-doughnut-chart.webp)
+![Blazor Chart with Multiple Doughnut Chart](../images/pie-dough-nut/blazor-nested-doughnut-chart.webp)
 
 ## Start and end angles
 
