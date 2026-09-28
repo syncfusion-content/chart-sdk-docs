@@ -82,7 +82,7 @@ When binding flat data, the chart applies the following deterministic validation
 - **Self-references and cycles** — A row whose `ParentIdMemberPath` resolves to its own id, or whose parent chain contains itself, invalidates the hierarchy. The chart does not attempt to recover or break cycles.
 - **Unresolvable parents** — A row whose `ParentIdMemberPath` resolves to a value that does not match any other row's normalized id invalidates the hierarchy. Whitespace or case mismatches are not normalized away.
 - **Multiple roots** — Multiple rows whose `ParentIdMemberPath` resolves to null, empty, or whitespace are valid. Each root is attached to the synthetic hidden root at the center of the chart.
-- **Depth** — The chart supports a hard maximum hierarchy depth of **100** levels and recommends no more than **20** levels for usability and performance. The hard limit and the recommended limit are stated in the API contract on `IdMemberPath` (see `SfSunburstChart<TItem>.IdMemberPath` in the [`Syncfusion.Blazor.Charts`](../api) API reference).
+- **Depth** — The chart supports a hard maximum hierarchy depth of **100** levels and recommends no more than **20** levels for usability and performance. The limit applies to the hierarchy inferred from `IdMemberPath` and `ParentIdMemberPath`, as documented in the `SfSunburstChart<TItem>` hierarchy construction contract.
 
 ## Bind via reflection on the model
 
