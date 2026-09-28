@@ -171,9 +171,9 @@ Using [`tooltipRender`](https://ej2.syncfusion.com/vue/documentation/api/accumul
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/accumulation-chart/series/pie-cs32" %}
 
-## Expose the data source record in the tooltipRender event
+## Access point record values in the tooltipRender event
 
-The complete data source record associated with the hovered accumulation chart point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/iAccTooltipRenderEventArgs) event argument. This is useful when the data source contains additional fields that are not directly mapped to the accumulation chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the accumulation chart data source.
+The record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/iAccTooltipRenderEventArgs) event argument. This allows additional values that are not directly mapped in the chart point to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
 
 In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
 

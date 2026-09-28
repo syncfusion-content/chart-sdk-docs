@@ -173,9 +173,9 @@ The [`highlightColor`](../api/chart#highlightcolor) property is used to change t
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs21" %}
 
-## Expose the data source record in the tooltipRender event
+## Access point record values in the tooltipRender event
 
-The complete data source record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/itooltiprendereventargs) event argument. This is useful when the data source contains additional fields that are not directly available in the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object inside the event does not update the chart data source.
+The record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/itooltiprendereventargs) event argument. This allows additional values that are not directly mapped in the chart point to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
 
 In the following example, the `country` and `growth` fields are retrieved from `args.data.rawData` and added to the tooltip content.
 

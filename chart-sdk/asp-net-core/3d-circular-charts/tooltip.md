@@ -167,9 +167,9 @@ Using the `TooltipRender` event, you can customize tooltip values for a particu
 
 
 
-## Expose the data source record in the tooltipRender event
+## Access point record values in the tooltipRender event
 
-The complete data source record associated with the hovered 3D circular chart point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.CircularChart3D.html#Syncfusion_EJ2_Charts_CircularChart3D_TooltipRender) event argument. This is useful when the data source contains additional fields that are not directly mapped to the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the 3D circular chart data source.
+he record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.CircularChart3D.html#Syncfusion_EJ2_Charts_CircularChart3D_TooltipRender) event argument. This allows additional values that are not directly mapped in the chart point to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
 
 In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
 
