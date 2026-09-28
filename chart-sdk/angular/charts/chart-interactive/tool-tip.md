@@ -267,7 +267,7 @@ The [`highlightColor`](https://ej2.syncfusion.com/angular/documentation/api/char
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/user-interaction/tooltip-cs6" %}
 
-## Access the data source record in the tooltip render event
+## Expose the data source record in the tooltipRender event
 
 The complete data source record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/angular/documentation/api/chart/itooltiprendereventargs) event argument. This is useful when the data source contains additional fields that are not directly available in the chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object inside the event does not update the chart data source.
 

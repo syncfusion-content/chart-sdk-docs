@@ -134,7 +134,7 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts
 
 
 
-## Access the data source record in the tooltip render event
+## Expose the data source record in the tooltipRender event
 
 The complete data source record associated with the hovered 3D chart point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_TooltipRender) event argument. This is useful when the data source contains additional fields that are not directly mapped to the 3D chart point. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the 3D chart data source.
 
