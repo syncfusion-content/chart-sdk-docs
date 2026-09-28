@@ -23,7 +23,7 @@ Azure OpenAI can process your raw data and return a cleaned version, handling mi
 
 ### 1. Configure Azure OpenAI Service
 
-To get started, ensure you have access to [Azure OpenAI](https://azure.microsoft.com/en-in/products/ai-services/openai-service) and have deployed a model in the Azure portal. You will need your endpoint and API key to connect your application to the service. You can find the [Azure.AI.OpenAI](https://www.nuget.org/packages/Azure.AI.OpenAI/1.0.0-beta.12) NuGet package from the [NuGet Gallery](https://www.nuget.org/).
+To get started, ensure you have access to [Azure OpenAI](https://azure.microsoft.com/en-in/products/ai-foundry/models/openai/) and have deployed a model in the Azure portal. You will need your endpoint and API key to connect your application to the service. You can find the [Azure.AI.OpenAI](https://www.nuget.org/packages/Azure.AI.OpenAI/1.0.0-beta.12) NuGet package from the [NuGet Gallery](https://www.nuget.org/).
 
 {% tabs %}
 
