@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart appearance, Sunburst Chart appearance, chart appearance, Theme, Palette, Background, SunburstChartBorder, SunburstChartMargin, Radius, InnerRadius, StartAngle, EndAngle, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Appearance

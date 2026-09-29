@@ -5,6 +5,7 @@ description: Learn how to create Blazor Step Area Charts using Syncfusion. Conne
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Step Area Chart in Blazor

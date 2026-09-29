@@ -5,6 +5,7 @@ description: Learn how to enable Blazor Sankey Diagram tooltips with SankeyToolt
 platform: chart-sdk
 control: Sankey
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sankey Diagram Tooltip

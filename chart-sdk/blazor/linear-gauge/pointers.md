@@ -5,6 +5,7 @@ description: Learn how to add Blazor Linear Gauge Bar and Marker pointers using 
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Pointers

@@ -5,6 +5,7 @@ description: Learn about events in Syncfusion Blazor Sparkline such as Loaded, O
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Events

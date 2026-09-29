@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart data label, Sunburst Chart data label, data label settings, data label customization, data label text style, SunburstDataLabelSettings, OverflowMode, RotationMode, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Data Label

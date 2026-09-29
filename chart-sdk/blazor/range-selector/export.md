@@ -5,6 +5,7 @@ description: Learn how to print and export Syncfusion Blazor Range Selector usin
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Print and Export

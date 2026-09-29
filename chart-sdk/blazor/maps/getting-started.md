@@ -5,6 +5,7 @@ description: Learn how to get started with Blazor Maps in a Blazor WebAssembly a
 platform: chart-sdk
 component: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Getting Started in WASM App

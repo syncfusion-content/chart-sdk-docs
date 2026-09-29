@@ -5,6 +5,7 @@ description: Learn how to change the Blazor Maps center on zoom by setting MapsC
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Change Center Position on Zooming in Blazor Maps

@@ -5,6 +5,7 @@ description: Learn how to show a Blazor Sankey Diagram legend with SankeyLegendS
 platform: chart-sdk
 control: Sankey
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sankey Diagram Legend

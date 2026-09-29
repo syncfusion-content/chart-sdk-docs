@@ -5,6 +5,7 @@ description: Learn how to size the Blazor Stock Chart to its container or set ex
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Dimensions

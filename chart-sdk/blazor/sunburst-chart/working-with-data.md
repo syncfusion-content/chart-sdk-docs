@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart data, Sunburst Chart DataSource, IdMemberPath, ParentIdMemberPath, LabelMemberPath, ValueMemberPath, hierarchical data, flat data
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

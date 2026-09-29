@@ -5,6 +5,7 @@ description: Learn how to call Blazor TreeMap methods like PrintAsync, ExportAsy
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Methods

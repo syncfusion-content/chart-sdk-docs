@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Chart Wizard
 documentation: ug
 keywords: chart wizard, blazor, serialization
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Chart Wizard Serialization

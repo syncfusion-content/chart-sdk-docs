@@ -5,6 +5,7 @@ description: Learn how to set the Blazor HeatMap Chart size in pixels or as a pe
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Dimensions

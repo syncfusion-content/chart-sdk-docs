@@ -5,6 +5,7 @@ description: Learn how to apply linear or radial gradients to the Blazor Stock C
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Gradient

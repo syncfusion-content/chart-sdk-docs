@@ -5,6 +5,7 @@ description: Learn how to highlight the most recent data point on the Blazor Sto
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Last Data Label

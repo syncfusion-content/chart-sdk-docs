@@ -5,6 +5,7 @@ description: Learn how to add a title and subtitle in Syncfusion Blazor Accumula
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

@@ -5,6 +5,7 @@ description: Learn how to enable and customize the Blazor TreeMap tooltip using 
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Tooltip

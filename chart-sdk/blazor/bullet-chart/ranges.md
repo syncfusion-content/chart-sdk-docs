@@ -5,6 +5,7 @@ description: Learn how to define qualitative ranges in Syncfusion Blazor Bullet 
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Ranges

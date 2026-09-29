@@ -5,6 +5,7 @@ description: Learn how to enable lightweight mode in Syncfusion Blazor Range Sel
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Lightweight

@@ -5,6 +5,7 @@ description: Learn how to enable drill-down in the Blazor TreeMap with on-demand
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Drill-down

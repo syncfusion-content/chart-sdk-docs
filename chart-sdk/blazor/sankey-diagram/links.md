@@ -5,6 +5,7 @@ description: Learn how to define Blazor Sankey Diagram links with SankeyDataLink
 platform: chart-sdk
 control: Sankey
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sankey Diagram Links

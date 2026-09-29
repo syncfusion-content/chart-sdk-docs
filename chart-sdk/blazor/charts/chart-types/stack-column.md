@@ -5,6 +5,7 @@ description: Learn how to render 100% Stacked Column Charts in Blazor using Sync
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # 100% Stacked Column Chart in Blazor

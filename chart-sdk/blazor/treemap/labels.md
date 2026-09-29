@@ -5,6 +5,7 @@ description: Learn how to display and format data labels on Blazor TreeMap items
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Labels

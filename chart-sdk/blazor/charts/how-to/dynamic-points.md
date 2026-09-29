@@ -5,6 +5,7 @@ description: Learn how to add dynamic data points in Blazor Charts using Syncfus
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Add Dynamic Points in Blazor Charts

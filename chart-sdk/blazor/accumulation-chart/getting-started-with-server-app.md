@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion Blazor Accumulation Chart 
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor Accumulation Chart in Server App

@@ -5,6 +5,7 @@ description: Learn about accessibility in Syncfusion Blazor Sparkline, including
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Accessibility

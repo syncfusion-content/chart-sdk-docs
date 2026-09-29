@@ -5,6 +5,7 @@ description: Learn how to use globalization in Syncfusion Blazor Sparkline to fo
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Globalization

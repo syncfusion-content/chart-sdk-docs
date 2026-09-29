@@ -5,6 +5,7 @@ description: Learn how to create Blazor Scatter Charts using Syncfusion. Visuali
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Scatter Chart in Blazor

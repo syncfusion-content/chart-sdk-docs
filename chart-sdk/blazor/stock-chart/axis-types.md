@@ -5,6 +5,7 @@ description: Learn how to plot the Blazor Stock Chart with DateTime, DateTimeCat
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->
