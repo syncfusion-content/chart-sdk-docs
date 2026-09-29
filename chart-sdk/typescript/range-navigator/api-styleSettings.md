@@ -7,7 +7,6 @@ control: Api styleSettings
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api styleSettings in TypeScript Range navigator control

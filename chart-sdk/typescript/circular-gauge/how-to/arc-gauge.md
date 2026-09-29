@@ -6,7 +6,6 @@ platform: chart-sdk
 control: Arc Gauge 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to create an arc gauge in TypeScript Circular Gauge

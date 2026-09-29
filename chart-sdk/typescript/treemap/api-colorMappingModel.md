@@ -7,7 +7,6 @@ control: Api colorMappingModel
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api colorMappingModel in TypeScript Treemap control

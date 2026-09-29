@@ -6,7 +6,6 @@ platform: chart-sdk
 control: Smith Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with TypeScript Smith Chart

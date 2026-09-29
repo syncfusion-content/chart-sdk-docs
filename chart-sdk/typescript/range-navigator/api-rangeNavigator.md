@@ -7,7 +7,6 @@ control: Api rangeNavigator
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api rangeNavigator in TypeScript Range navigator control

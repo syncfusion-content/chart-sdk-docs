@@ -7,7 +7,6 @@ control: Api iRangeEventArgs
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api iRangeEventArgs in TypeScript Range navigator control

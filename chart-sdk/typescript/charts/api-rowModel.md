@@ -7,7 +7,6 @@ control: Api rowModel
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api rowModel in TypeScript Chart control

@@ -7,7 +7,6 @@ control: Api treeMapTooltip
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api treeMapTooltip in TypeScript Treemap control

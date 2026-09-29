@@ -7,7 +7,6 @@ control: Api multiLevelLabels
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api multiLevelLabels in TypeScript Chart control

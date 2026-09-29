@@ -7,7 +7,6 @@ control: Api iLabelRenderEventsArgs
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api iLabelRenderEventsArgs in TypeScript Range navigator control

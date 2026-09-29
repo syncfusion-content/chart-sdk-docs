@@ -7,7 +7,6 @@ control: Api thumbSettingsModel
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api thumbSettingsModel in TypeScript Range navigator control
