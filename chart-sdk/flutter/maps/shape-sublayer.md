@@ -5,6 +5,7 @@ description: Learn about shape sublayers in Syncfusion® Flutter Maps (SfMaps), 
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Sublayer in Flutter Maps (SfMaps)

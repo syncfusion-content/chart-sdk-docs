@@ -5,6 +5,7 @@ description: The range area chart support in Flutter Cartesian Chart offers visu
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Area Chart in Flutter Cartesian Chart

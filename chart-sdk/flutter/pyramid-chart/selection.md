@@ -5,6 +5,7 @@ description: The selection support in Flutter Pyramid Chart offers interactive s
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection in Flutter Pyramid Chart

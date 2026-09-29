@@ -5,6 +5,7 @@ description: The on-demand loading support in Flutter Cartesian Chart offers dyn
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # On-demand loading in Flutter Cartesian Chart

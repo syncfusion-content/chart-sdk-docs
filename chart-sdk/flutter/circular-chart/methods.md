@@ -5,6 +5,7 @@ description: The methods in Flutter Circular Chart documentation provide publicl
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Methods in Flutter Circular Chart

@@ -5,6 +5,7 @@ description: Add Syncfusion® Flutter Pyramid Chart in FlutterFlow to create com
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add Syncfusion® Pyramid Chart in FlutterFlow

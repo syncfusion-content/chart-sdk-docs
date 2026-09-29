@@ -5,6 +5,7 @@ description: The tooltip support in Flutter Funnel Chart offers interactive data
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Flutter Funnel Chart

@@ -5,6 +5,7 @@ description: Learn about label support in Syncfusion® Flutter Treemap (SfTreema
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Labels in Flutter Treemap (SfTreemap)

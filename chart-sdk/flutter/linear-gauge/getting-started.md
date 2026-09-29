@@ -5,6 +5,7 @@ description: Learn how to get started with the Syncfusion® Flutter Linear Gauge
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Flutter Linear Gauge (SfLinearGauge)

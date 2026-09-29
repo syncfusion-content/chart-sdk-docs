@@ -5,6 +5,7 @@ description: The chart types support in Flutter Spark Chart offers line, area, b
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart types in Flutter Spark Chart

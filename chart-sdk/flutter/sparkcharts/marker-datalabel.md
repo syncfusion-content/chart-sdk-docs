@@ -5,6 +5,7 @@ description: The marker and data label support in Flutter Spark Chart offers cle
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Marker and Data label in Flutter Spark Chart
