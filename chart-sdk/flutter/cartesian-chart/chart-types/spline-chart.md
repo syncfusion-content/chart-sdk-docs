@@ -5,6 +5,7 @@ description: The spline chart support in Flutter Cartesian Chart offers smooth c
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Spline Chart in Flutter Cartesian Chart

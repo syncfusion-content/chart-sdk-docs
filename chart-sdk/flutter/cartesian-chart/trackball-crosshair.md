@@ -5,6 +5,7 @@ description: The trackball and crosshair support in Flutter Cartesian Chart offe
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Trackball and Crosshair in Flutter Cartesian Chart

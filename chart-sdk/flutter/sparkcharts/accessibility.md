@@ -5,6 +5,7 @@ description: The accessibility support in Flutter Spark Chart offers sufficient 
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Spark Chart

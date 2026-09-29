@@ -5,6 +5,7 @@ description: Learn how to get started with the Syncfusion® Flutter Maps (SfMaps
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Flutter Maps (SfMaps)

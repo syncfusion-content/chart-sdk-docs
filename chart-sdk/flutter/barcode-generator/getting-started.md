@@ -5,6 +5,7 @@ description: Learn how to get started with the Syncfusion® Flutter Barcodes (Sf
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Flutter Barcodes (SfBarcodeGenerator)

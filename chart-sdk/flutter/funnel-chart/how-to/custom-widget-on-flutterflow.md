@@ -5,6 +5,7 @@ description: Add Syncfusion® Flutter Funnel Chart in FlutterFlow to create comp
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add Syncfusion® Funnel Chart in FlutterFlow

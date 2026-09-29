@@ -5,6 +5,7 @@ description: The error bar chart support in Flutter Cartesian Chart offers data 
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Error bar chart in Flutter Cartesian Chart

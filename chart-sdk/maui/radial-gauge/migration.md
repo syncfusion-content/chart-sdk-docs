@@ -5,6 +5,7 @@ description: Migrate from Xamarin.Forms SfCircularGauge to .NET MAUI SfRadialGau
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---  
 
 # Migrate from Xamarin.Forms SfCircularGauge to .NET MAUI SfRadialGauge

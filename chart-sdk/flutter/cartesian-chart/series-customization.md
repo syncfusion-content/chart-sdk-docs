@@ -5,6 +5,7 @@ description: The series customization support in Flutter Cartesian Chart offers 
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series Customization in Flutter Cartesian Chart

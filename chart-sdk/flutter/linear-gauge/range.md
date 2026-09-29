@@ -5,6 +5,7 @@ description: Learn about ranges in Syncfusion® Flutter Linear Gauge (SfLinearGa
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ranges in Flutter Linear Gauge (SfLinearGauge)

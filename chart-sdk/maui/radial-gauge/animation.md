@@ -5,6 +5,7 @@ description: Animation in .NET MAUI Radial Gauge provides smooth transitions for
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in .NET MAUI Radial Gauge

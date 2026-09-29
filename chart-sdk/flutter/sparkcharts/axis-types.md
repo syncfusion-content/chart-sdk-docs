@@ -5,6 +5,7 @@ description: The axis types support in Flutter Spark Chart offers numeric, datet
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis types in Flutter Spark Chart

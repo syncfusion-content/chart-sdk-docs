@@ -5,6 +5,7 @@ description: The radial bar chart support in Flutter Circular Chart offers custo
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Radial Bar Chart in Flutter Circular Chart

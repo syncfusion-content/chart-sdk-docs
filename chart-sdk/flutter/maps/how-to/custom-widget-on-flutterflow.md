@@ -5,6 +5,7 @@ description: Learn how to add and use Syncfusion® Flutter Maps (SfMaps) in Flut
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Add Maps in FlutterFlow (SfMaps)
