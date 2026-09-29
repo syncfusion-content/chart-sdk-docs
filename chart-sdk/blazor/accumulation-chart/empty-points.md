@@ -5,6 +5,7 @@ description: Learn how to handle empty data points in Syncfusion Blazor Accumula
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Accumulation Chart Empty Points

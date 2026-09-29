@@ -5,6 +5,7 @@ description: Learn here all about Smith Chart Legend in Syncfusion ASP.NET MVC S
 platform: chart-sdk
 control: Smithchart Legend
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

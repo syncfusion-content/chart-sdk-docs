@@ -7,6 +7,7 @@ control: How to
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to in JavaScript Chart control

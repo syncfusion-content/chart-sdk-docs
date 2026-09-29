@@ -5,6 +5,7 @@ description: Learn how to export the Blazor Stock Chart to JPEG, PNG, SVG, PDF, 
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Print and Export

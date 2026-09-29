@@ -5,6 +5,7 @@ description: Learn here all about accessibility in Syncfusion ASP.NET MVC 3D Cha
 platform: chart-sdk
 control: Accessibility
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

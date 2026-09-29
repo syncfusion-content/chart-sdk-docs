@@ -5,6 +5,7 @@ description: Learn how to render the Blazor TreeMap inside Dashboard Layout, Tab
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Place TreeMap inside other components

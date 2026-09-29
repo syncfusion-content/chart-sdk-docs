@@ -5,6 +5,7 @@ description: Learn how to create Blazor Line Charts using Syncfusion. Visualize 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Line Chart in Blazor

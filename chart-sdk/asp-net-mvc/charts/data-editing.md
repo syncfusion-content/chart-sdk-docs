@@ -5,6 +5,7 @@ description: Learn here all about Data Editing in Syncfusion ASP.NET MVC Charts 
 platform: chart-sdk
 control: Data Editing
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

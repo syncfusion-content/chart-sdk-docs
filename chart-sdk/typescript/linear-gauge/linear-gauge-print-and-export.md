@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Linear Gauge
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in TypeScript Linear Gauge

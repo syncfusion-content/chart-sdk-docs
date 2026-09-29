@@ -5,6 +5,7 @@ description: Learn how to add and customize data labels in Syncfusion Blazor Acc
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Accumulation Chart Data Label

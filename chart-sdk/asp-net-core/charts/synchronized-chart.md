@@ -5,6 +5,7 @@ description: Learn here all about Synchronized Charts in Syncfusion ASP.NET Core
 platform: chart-sdk
 control: Synchronized charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

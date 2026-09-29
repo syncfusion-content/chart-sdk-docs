@@ -5,6 +5,7 @@ description: Learn how to render Blazor High Low Open Close Charts using Syncfus
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # High Low Open Close Chart in Blazor

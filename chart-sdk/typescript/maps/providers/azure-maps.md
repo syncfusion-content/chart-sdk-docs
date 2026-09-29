@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Azure maps 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Azure Maps integration in TypeScript Maps

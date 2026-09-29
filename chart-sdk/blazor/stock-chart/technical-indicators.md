@@ -5,6 +5,7 @@ description: Learn how to add 10 technical indicators to the Blazor Stock Chart.
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

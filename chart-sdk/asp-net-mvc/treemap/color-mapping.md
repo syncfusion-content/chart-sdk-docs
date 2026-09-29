@@ -5,6 +5,7 @@ description: Learn here all about Color Mapping in Syncfusion ASP.NET MVC TreeMa
 platform: chart-sdk
 control: Color Mapping
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Color Mapping in ASP.NET MVC TreeMap

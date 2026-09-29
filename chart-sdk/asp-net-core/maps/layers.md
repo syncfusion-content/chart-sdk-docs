@@ -5,6 +5,7 @@ description: Learn here all about Layers in Syncfusion ASP.NET Core Maps compone
 platform: chart-sdk
 control: Layers
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Layers in ASP.NET Core Maps

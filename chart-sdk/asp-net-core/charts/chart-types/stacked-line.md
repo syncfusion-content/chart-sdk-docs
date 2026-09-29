@@ -5,6 +5,7 @@ description: Learn here all about Stacked Line Chart in Syncfusion ASP.NET Core 
 platform: chart-sdk
 control: Stacked Line Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

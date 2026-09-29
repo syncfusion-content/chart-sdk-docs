@@ -5,6 +5,7 @@ description: Learn how to configure and customize the axis in Syncfusion Blazor 
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Axis

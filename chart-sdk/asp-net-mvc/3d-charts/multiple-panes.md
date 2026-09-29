@@ -5,6 +5,7 @@ description: Learn here all about multiple panes in Syncfusion ASP.NET MVC 3D Ch
 platform: chart-sdk
 control: Multiple Panes
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -7,6 +7,7 @@ control: Api seriesBase
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api seriesBase in JavaScript Chart control

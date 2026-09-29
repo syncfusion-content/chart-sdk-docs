@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart highlight, Sunburst Chart highlight, segment highlight, highlight settings, highlight mode, highlight color, highlight opacity, SunburstHighlightSettings, SunburstHighlightMode
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Highlight

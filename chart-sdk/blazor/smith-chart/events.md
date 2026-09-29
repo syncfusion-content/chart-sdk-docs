@@ -5,6 +5,7 @@ description: Learn about events in Syncfusion Blazor Smith Chart such as Loaded,
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Events

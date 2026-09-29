@@ -5,6 +5,7 @@ description: Learn how to customize axes in Syncfusion Blazor Charts. Configure 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Axis Customization

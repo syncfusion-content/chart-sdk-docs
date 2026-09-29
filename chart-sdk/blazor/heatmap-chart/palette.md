@@ -5,6 +5,7 @@ description: Learn how to apply gradient or fixed color palettes to Blazor HeatM
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Palette

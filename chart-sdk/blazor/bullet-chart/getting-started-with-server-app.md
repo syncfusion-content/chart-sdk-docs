@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion Blazor Bullet Chart in a B
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Getting Started in Server App

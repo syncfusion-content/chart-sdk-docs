@@ -5,6 +5,7 @@ description: Learn how to print and export Blazor Charts using Syncfusion. Use P
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Print and Export

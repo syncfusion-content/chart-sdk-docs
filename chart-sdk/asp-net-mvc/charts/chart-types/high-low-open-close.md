@@ -5,6 +5,7 @@ description: Learn here all about High Low Open Close Chart in Syncfusion ASP.NE
 platform: chart-sdk
 control: High Low Open Close Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

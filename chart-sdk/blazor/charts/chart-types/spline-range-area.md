@@ -5,6 +5,7 @@ description: Learn how to create Blazor Spline Range Area Charts using Syncfusio
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Spline Range Area Chart in Blazor

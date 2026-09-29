@@ -5,6 +5,7 @@ description: Learn how to globalize data labels, tooltips, and number formats in
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Internationalization

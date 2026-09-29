@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart, SfSunburstChart, hierarchical data, Sunburst Chart getting started, Blazor Server App
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD040 -->

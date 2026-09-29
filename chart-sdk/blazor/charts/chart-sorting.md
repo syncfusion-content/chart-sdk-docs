@@ -5,6 +5,7 @@ description: Learn how to sort Blazor Charts data in ascending or descending ord
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Sorting

@@ -5,6 +5,7 @@ description: Learn here all about Orientation and RTL in Syncfusion ASP.NET Core
 platform: chart-sdk
 control: Orientation and RTL
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Orientation and RTL in ASP.NET Core Sankey Diagram

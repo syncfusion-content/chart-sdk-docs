@@ -7,6 +7,7 @@ control: Api periods
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api periods in TypeScript Range navigator control

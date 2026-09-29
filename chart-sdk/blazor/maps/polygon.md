@@ -5,6 +5,7 @@ description: Learn how to render polygon shapes over geometry or online maps in 
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Polygon Support

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Ajax Chart Call
 publishingplatform: chart-sdk
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

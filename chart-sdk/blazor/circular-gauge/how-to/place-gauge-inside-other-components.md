@@ -5,6 +5,7 @@ description: Learn how to render the Blazor Circular Gauge inside Dashboard Layo
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to place gauge in other components in Blazor Circular Gauge

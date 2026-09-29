@@ -5,6 +5,7 @@ description: Learn how to add the Blazor Linear Gauge to a Blazor WebAssembly Ap
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor Linear Gauge in WASM App

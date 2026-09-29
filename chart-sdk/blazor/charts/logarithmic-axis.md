@@ -5,6 +5,7 @@ description: Learn how to use the logarithmic axis in Syncfusion Blazor Charts. 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Logarithmic Axis

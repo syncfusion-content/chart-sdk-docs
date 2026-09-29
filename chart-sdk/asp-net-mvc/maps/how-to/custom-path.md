@@ -5,6 +5,7 @@ description: Learn here all about Custom Path in Syncfusion ASP.NET MVC Maps com
 platform: chart-sdk
 control: Custom Path
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add custom path map in ASP.NET MVC Maps

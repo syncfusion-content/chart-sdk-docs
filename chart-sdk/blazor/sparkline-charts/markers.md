@@ -5,6 +5,7 @@ description: Learn how to add and customize markers in Syncfusion Blazor Sparkli
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Markers

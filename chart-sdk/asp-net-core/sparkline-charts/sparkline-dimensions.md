@@ -5,6 +5,7 @@ description: Learn here all about Dimensions in Syncfusion ASP.NET Core Sparklin
 platform: chart-sdk
 control: Sparkline Charts Dimensions
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

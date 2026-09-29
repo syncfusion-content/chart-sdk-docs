@@ -5,6 +5,7 @@ description: Learn how to get started with Blazor Maps in a Blazor Server app. E
 platform: chart-sdk
 component: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor Maps in Server App

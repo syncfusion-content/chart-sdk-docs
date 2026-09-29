@@ -5,6 +5,7 @@ description: Learn here all about Tooltip Template in Syncfusion ASP.NET MVC Hea
 platform: chart-sdk
 control: Tooltip Template
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

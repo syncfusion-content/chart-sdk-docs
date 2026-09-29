@@ -5,6 +5,7 @@ description: Learn how to draw flight or sea routes in Blazor Maps with MapsNavi
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Navigation Lines

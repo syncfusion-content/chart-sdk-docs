@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Gauge range 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add a range to the TypeScript Circular Gauge dynamically
