@@ -6,6 +6,7 @@ control: Box and Whisker
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 # Box and Whisker Chart in React Charts
 

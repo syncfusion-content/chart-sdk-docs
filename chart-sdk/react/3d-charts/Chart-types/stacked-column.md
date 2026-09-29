@@ -6,6 +6,7 @@ control: Stack Column Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # 100% Stacked Column Chart in React 3D Charts

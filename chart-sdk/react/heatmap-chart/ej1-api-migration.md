@@ -6,6 +6,7 @@ control: Ej1 api migration
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # EJ1 API Migration in React HeatMap Chart

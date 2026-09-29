@@ -6,6 +6,7 @@ control: Prevent data label
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to prevent data labels in React Charts
