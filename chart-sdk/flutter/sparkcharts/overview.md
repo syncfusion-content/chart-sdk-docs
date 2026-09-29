@@ -5,6 +5,7 @@ description: Learn about introduction of Syncfusion® Flutter Spark Charts widge
 platform: chart-sdk
 control: Sparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® Flutter Spark Chart widget
