@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to create a dynamic chart in TypeScript Charts

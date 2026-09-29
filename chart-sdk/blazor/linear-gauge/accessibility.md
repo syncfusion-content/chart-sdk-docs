@@ -5,6 +5,7 @@ description: Discover the Blazor Linear Gauge accessibility compliance for WCAG 
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Blazor Linear Gauge

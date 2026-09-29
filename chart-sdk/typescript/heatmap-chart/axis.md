@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Axis 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis in TypeScript HeatMap Chart

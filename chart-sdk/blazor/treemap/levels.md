@@ -5,6 +5,7 @@ description: Learn how to group Blazor TreeMap data into hierarchical levels usi
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Levels

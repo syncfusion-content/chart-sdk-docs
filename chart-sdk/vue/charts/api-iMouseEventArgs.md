@@ -6,6 +6,7 @@ control: Api iMouseEventArgs
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api iMouseEventArgs in Vue Chart component

@@ -5,6 +5,7 @@ description: Learn how to render tile maps from any provider such as TomTom in B
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Other Tile Providers

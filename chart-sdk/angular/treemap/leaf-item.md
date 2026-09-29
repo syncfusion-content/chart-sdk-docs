@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Leaf item 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Leaf Item in Angular TreeMap

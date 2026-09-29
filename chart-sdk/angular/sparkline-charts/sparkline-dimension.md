@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sparkline dimension 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Sparkline Dimension in Angular Sparkline

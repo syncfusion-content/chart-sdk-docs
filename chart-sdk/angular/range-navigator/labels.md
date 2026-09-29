@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Labels 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Labels in Angular Range Navigator

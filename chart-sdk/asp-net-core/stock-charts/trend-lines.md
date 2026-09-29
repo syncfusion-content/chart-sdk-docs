@@ -5,6 +5,7 @@ description: Learn here all about Trendlines in Syncfusion ASP.NET Core Stock Ch
 platform: chart-sdk
 control: Trend Lines
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

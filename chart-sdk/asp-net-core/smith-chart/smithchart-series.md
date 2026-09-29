@@ -5,6 +5,7 @@ description: Learn here all about Smith Chart Series in Syncfusion ASP.NET Core 
 platform: chart-sdk
 control: Smithchart Series
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

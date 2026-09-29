@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Range Column Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Column Chart in Angular Charts

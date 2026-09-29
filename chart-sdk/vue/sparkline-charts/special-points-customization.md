@@ -6,6 +6,7 @@ control: Special points customization
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Special Points Customization in Vue Sparkline Charts

@@ -5,6 +5,7 @@ description: Learn here all about Internationalization in Syncfusion ASP.NET Cor
 platform: chart-sdk
 control: Internationalization
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Internationalization in ASP.NET Core Circular Gauge

@@ -5,6 +5,7 @@ description: Learn how to show default or custom HTML tooltips on Blazor HeatMap
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Tooltip

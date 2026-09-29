@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Dialog chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Show a Chart in a Dialog in Angular Charts

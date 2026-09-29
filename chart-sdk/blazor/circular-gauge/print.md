@@ -5,6 +5,7 @@ description: Learn how to print or export the rendered Blazor Circular Gauge fro
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge Print and Export

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Grid tick 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Grid Tick in Angular Range Navigator

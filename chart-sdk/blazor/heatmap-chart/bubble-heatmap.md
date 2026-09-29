@@ -5,6 +5,7 @@ description: Learn how to render Bubble HeatMap visualizations in the Blazor Hea
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Bubble HeatMap

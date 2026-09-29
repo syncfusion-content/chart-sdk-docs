@@ -5,6 +5,7 @@ description: Learn here all about Gauge Dimensions in Syncfusion ASP.NET Core Ci
 platform: chart-sdk
 control: Gauge Dimensions
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Dimensions in ASP.NET Core Circular Gauge

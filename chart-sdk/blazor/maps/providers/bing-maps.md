@@ -5,6 +5,7 @@ description: Learn how to render Bing Maps tiles in Blazor Maps via GetBingUrlTe
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Bing Maps Provider

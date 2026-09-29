@@ -5,6 +5,7 @@ description: Learn how to add ranges to the Blazor Linear Gauge with start, end,
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Ranges

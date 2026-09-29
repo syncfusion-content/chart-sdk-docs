@@ -5,6 +5,7 @@ description: Learn here all about data label in Syncfusion ASP.NET MVC 3D Circul
 platform: chart-sdk
 control: Data Label
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

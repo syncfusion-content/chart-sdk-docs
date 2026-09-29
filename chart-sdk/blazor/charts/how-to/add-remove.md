@@ -5,6 +5,7 @@ description: Learn how to add or remove chart series dynamically in Blazor Chart
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

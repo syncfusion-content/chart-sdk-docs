@@ -5,6 +5,7 @@ description: Learn here all about Multiple Panes in Syncfusion ASP.NET Core Char
 platform: chart-sdk
 control: Multiple Panes
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

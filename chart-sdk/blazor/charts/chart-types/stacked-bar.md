@@ -5,6 +5,7 @@ description: Learn how to create Blazor Stacked Bar Charts using Syncfusion. Sho
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Stacked Bar Chart in Blazor

@@ -5,6 +5,7 @@ description: Learn how to handle Blazor Maps events such as AnimationCompleted, 
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Events Support

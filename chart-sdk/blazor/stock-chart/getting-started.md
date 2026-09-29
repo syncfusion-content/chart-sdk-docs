@@ -5,6 +5,7 @@ description: Learn how to add the Blazor Stock Chart to a Blazor WebAssembly App
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor Stock Chart in WebAssembly

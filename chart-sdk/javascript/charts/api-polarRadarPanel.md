@@ -7,6 +7,7 @@ control: Api polarRadarPanel
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api polarRadarPanel in JavaScript Chart control

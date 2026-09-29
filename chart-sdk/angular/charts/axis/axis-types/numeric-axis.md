@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Numeric axis 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

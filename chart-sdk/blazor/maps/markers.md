@@ -5,6 +5,7 @@ description: Learn how to add and customize data-driven markers in Blazor Maps b
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Markers Support

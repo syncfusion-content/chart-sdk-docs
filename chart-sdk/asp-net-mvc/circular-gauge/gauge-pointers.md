@@ -5,6 +5,7 @@ description: Learn here all about Gauge Pointers in Syncfusion ASP.NET MVC Circu
 platform: chart-sdk
 control: Gauge Pointers
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in ASP.NET MVC Circular Gauge

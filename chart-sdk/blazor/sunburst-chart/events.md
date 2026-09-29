@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart events, Sunburst Chart events, chart events, drill down, drill up, DrillDownStarting, DrillUpStarting, PointClick, LegendClick, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Events

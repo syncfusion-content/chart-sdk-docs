@@ -6,6 +6,7 @@ control: Api iLoadedEventArgs
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api iLoadedEventArgs in Vue Chart component

@@ -5,6 +5,7 @@ description: Learn how to select a range in Syncfusion Blazor Range Selector usi
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Range

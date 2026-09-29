@@ -5,6 +5,7 @@ description: Learn how to render a 100% Stacked Bar Chart in Syncfusion Blazor 3
 platform: chart-sdk
 control: 3D Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor 3D 100% Stacked Bar Chart

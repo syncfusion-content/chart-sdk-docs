@@ -5,6 +5,7 @@ description: Learn how to synchronize Blazor Charts using Syncfusion. Share tool
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

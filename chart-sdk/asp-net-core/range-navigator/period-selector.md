@@ -5,6 +5,7 @@ description: Learn here all about Period Selector in Syncfusion ASP.NET Core Ran
 platform: chart-sdk
 control: Period Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

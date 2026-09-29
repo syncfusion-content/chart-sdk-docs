@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Legend customization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Customize the legend label in Angular HeatMap Chart

@@ -6,6 +6,7 @@ platform: chart-sdk
 control:  Accumulation Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Empty Points in TypeScript Accumulation Charts

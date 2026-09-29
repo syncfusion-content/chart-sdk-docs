@@ -5,6 +5,7 @@ description: Learn how to configure Blazor HeatMap Chart axes with category, num
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Axis

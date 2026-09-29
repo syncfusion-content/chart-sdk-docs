@@ -5,6 +5,7 @@ description: Learn how to highlight intervals on a Blazor Circular Gauge axis by
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge Ranges

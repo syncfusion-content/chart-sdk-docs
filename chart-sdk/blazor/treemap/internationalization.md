@@ -5,6 +5,7 @@ description: Learn how to localize the Blazor TreeMap by formatting numbers, dat
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Internationalization

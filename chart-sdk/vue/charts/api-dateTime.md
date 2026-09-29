@@ -6,6 +6,7 @@ control: Api dateTime
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api dateTime in Vue Chart component

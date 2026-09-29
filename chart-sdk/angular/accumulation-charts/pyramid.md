@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Pyramid 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pyramid in Angular Accumulation Chart

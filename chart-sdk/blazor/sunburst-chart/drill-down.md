@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart drill, Sunburst Chart drill-down, SunburstDrillSettings, breadcrumbs, breadcrumb alignment, SunburstBreadcrumbSettings
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Drill

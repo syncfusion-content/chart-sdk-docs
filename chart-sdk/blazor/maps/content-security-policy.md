@@ -5,6 +5,7 @@ description: Learn how Blazor Maps features interact with strict Content Securit
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Content Security Policy

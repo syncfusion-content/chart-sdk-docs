@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Special points customization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Special points customization in TypeScript Sparkline Charts

@@ -5,6 +5,7 @@ description: Learn here all about Labels in Syncfusion ASP.NET Core Sankey Diagr
 platform: chart-sdk
 control: Labels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Labels in ASP.NET Core Sankey Diagram

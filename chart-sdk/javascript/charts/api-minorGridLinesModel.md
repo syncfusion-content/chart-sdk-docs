@@ -7,6 +7,7 @@ control: Api minorGridLinesModel
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api minorGridLinesModel in JavaScript Chart control

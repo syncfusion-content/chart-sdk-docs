@@ -5,6 +5,7 @@ description: Learn how to handle Blazor HeatMap Chart interactions with CellClic
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Events

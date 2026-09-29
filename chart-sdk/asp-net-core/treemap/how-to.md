@@ -5,6 +5,7 @@ description: Learn here all about how to customize the header for treemap drilld
 platform: chart-sdk
 control: How To
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Customize the Drilldown Header in ASP.NET Core TreeMap

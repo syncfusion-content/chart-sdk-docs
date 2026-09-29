@@ -5,6 +5,7 @@ description: Learn how to apply Range, Equal, Desaturation, Palette, and data-bo
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Color Mapping

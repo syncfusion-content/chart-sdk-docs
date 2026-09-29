@@ -6,6 +6,7 @@ control: Rendering mode
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Rendering mode in Vue HeatMap Chart

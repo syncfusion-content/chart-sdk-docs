@@ -6,6 +6,7 @@ control: Chart title
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Title and Subtitle in Vue Charts

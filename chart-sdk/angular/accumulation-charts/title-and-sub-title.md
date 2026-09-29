@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Title and sub title 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Title and Subtitle in Angular Accumulation Chart

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Drilldown 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to drilldown in Angular TreeMap

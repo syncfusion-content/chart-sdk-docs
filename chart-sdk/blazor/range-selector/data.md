@@ -5,6 +5,7 @@ description: Learn about the supported data types in Syncfusion Blazor Range Sel
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

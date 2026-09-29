@@ -5,6 +5,7 @@ description: Check out and learn about Getting started with ASP.NET Core Sankey 
 platform: chart-sdk
 control: Sankey Diagram
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->
