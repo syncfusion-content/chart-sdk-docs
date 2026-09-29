@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Dynamic Data Update
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Dynamic Data Update in Angular Accumulation Chart

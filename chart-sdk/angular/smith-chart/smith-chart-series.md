@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Smith chart series 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Smith Chart Series in Angular Smith Chart

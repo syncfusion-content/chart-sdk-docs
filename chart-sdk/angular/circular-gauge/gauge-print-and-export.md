@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Print and Export
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

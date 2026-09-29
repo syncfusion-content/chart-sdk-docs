@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Threshold 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Use Threshold in Angular Chart

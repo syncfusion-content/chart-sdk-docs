@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Export print 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Export Print in Angular Range Navigator

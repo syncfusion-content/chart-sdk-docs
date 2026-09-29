@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Click data 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Show Pie Clicked Data in Angular Chart

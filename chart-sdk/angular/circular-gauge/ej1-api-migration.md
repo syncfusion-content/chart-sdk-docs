@@ -6,6 +6,7 @@ platform: chart-sdk
 control: EJ1 API Migration
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Migration from Essential JS 1 in Angular Circular Gauge

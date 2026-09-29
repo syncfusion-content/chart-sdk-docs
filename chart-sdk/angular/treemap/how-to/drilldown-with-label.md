@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Drilldown with label 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to drilldown with label in Angular TreeMap

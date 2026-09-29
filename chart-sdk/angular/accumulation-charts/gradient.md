@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Gradient 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Gradient in Angular Accumulation Chart
