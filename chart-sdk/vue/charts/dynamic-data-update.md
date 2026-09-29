@@ -6,6 +6,7 @@ control: Dynamic Data Update
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Dynamic data update in Vue Charts

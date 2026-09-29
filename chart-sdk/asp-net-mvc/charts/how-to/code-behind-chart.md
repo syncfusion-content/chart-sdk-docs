@@ -5,6 +5,7 @@ description: Learn here all about Code Behind Chart in Syncfusion ASP.NET MVC Ch
 platform: chart-sdk
 control: Code Behind Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

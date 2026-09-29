@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Series visible 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Show or Hide Series in Angular Chart

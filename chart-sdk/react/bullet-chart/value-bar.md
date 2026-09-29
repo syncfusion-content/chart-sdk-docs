@@ -6,6 +6,7 @@ control: Actual bar
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Actual Bar in React Bullet Chart

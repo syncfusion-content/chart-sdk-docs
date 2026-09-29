@@ -5,6 +5,7 @@ description: Learn here all about User Interaction in Syncfusion ASP.NET Core Li
 platform: chart-sdk
 control: User Interaction
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -7,6 +7,7 @@ control: Chart tab
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart tab in JavaScript Chart control

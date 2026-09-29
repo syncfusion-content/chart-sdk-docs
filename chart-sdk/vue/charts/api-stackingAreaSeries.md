@@ -6,6 +6,7 @@ control: Api stackingAreaSeries
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api stackingAreaSeries in Vue Chart component

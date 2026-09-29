@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Database data 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Bind Chart Data from SQL Server in Angular Charts

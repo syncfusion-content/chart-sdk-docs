@@ -5,6 +5,7 @@ description: Learn here all about legend in Syncfusion ASP.NET MVC 3D Circular C
 platform: chart-sdk
 control: Legend
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

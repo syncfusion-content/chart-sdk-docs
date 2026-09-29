@@ -5,6 +5,7 @@ description: Learn how to set Blazor Charts dimensions with Width and Height pro
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Dimensions

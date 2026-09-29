@@ -5,6 +5,7 @@ description: Learn here all about R T L in Syncfusion ASP.NET MVC Range Navigato
 platform: chart-sdk
 control: R T L
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -7,6 +7,7 @@ control: SfCartesianChart
 documentation: ug
 kappliesto: UI Component Suite, Chart SDK
 keywords: winui column chart, winui sfcartesianchart, winui column chart customization, syncfusion winui column chart, winui chart column chart properties.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Column Chart in WinUI Chart

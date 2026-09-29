@@ -5,6 +5,7 @@ description: Learn here all about Selection in Syncfusion ASP.NET Core Charts co
 platform: chart-sdk
 control: Selection
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Ranges in Syncfusion ASP.NET MVC Linear Gauge 
 platform: chart-sdk
 control: Ranges
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Legend in Syncfusion ASP.NET MVC Maps componen
 platform: chart-sdk
 control: Legend
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in ASP.NET MVC Maps

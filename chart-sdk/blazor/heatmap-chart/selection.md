@@ -5,6 +5,7 @@ description: Learn how to select single or multiple Blazor HeatMap Chart cells w
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Selection

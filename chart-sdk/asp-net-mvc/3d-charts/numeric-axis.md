@@ -5,6 +5,7 @@ description: Learn here all about numeric axis in Syncfusion ASP.NET MVC 3D Char
 platform: chart-sdk
 control: Numeric Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Numeric Axis in ASP.NET MVC 3D Charts

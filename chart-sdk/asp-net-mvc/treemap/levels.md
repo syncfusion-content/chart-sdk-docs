@@ -5,6 +5,7 @@ description: Learn here all about Levels in Syncfusion ASP.NET MVC TreeMap compo
 platform: chart-sdk
 control: Levels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Levels in ASP.NET MVC TreeMap

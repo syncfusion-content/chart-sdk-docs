@@ -5,6 +5,7 @@ description: Learn here all about Bing Maps in Syncfusion ASP.NET MVC Maps compo
 platform: chart-sdk
 control: Bing Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bing Maps in ASP.NET MVC Maps

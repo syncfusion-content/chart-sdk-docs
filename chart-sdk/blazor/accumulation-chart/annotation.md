@@ -5,6 +5,7 @@ description: Learn how to add annotations in Syncfusion Blazor Accumulation Char
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Accumulation Chart Annotation

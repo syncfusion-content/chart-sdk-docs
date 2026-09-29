@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Live data 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to update live data in Angular Stock Chart

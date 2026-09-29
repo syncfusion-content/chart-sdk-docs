@@ -5,6 +5,7 @@ description: Learn here all about 100% Stacked Column Chart in Syncfusion ASP.NE
 platform: chart-sdk
 control: 100% Stacked Column Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Gradient in Syncfusion ASP.NET Core Accumulati
 platform: chart-sdk
 control: Gradient
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

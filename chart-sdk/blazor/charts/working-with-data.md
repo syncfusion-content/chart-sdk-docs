@@ -5,6 +5,7 @@ description: Learn how to bind data to Syncfusion Blazor Charts. Use IEnumerable
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

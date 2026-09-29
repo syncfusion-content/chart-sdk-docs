@@ -5,6 +5,7 @@ description: Learn how to enable and customize tooltips in Syncfusion Blazor Smi
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Tooltip

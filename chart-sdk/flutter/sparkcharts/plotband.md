@@ -5,7 +5,6 @@ description: The plot band support in Flutter Spark Chart offers visual highligh
 platform: chart-sdk
 control: Sparkline
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 # Plot band in Flutter Spark Chart
 

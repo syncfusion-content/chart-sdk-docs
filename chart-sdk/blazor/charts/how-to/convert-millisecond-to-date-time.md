@@ -5,6 +5,7 @@ description: Learn how to convert milliseconds to a DateTime value in Blazor Cha
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

@@ -5,6 +5,7 @@ description: Learn how to customize appearance in Syncfusion Blazor Charts. Appl
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Appearance

@@ -5,6 +5,7 @@ description: Learn how to create Blazor Step Line Charts using Syncfusion. Conne
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Step Line Chart in Blazor

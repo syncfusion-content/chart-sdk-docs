@@ -5,6 +5,7 @@ description: Learn here all about Gauge Legend in Syncfusion ASP.NET MVC Circula
 platform: chart-sdk
 control: Gauge Legend
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Zooming 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming in Angular Charts

@@ -5,6 +5,7 @@ description: Learn how to subscribe to Syncfusion Blazor Charts events. Use Char
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Events

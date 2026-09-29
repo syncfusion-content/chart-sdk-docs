@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Markers 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Markers in TypeScript Maps

@@ -5,6 +5,7 @@ description: Learn how to render 100% Stacked Area Charts in Blazor using Syncfu
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # 100% Stacked Area Chart in Blazor

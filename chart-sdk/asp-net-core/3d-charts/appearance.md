@@ -5,6 +5,7 @@ description: Learn here all about appearance in Syncfusion ASP.NET Core 3D Chart
 platform: chart-sdk
 control: Appearance
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

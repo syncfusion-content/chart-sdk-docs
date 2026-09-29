@@ -5,6 +5,7 @@ description: Learn how to add and customize data labels in Syncfusion Blazor Bul
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Data Labels

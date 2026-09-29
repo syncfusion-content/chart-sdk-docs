@@ -5,6 +5,7 @@ description: Learn here all about Radar Chart in Syncfusion ASP.NET MVC Charts c
 platform: chart-sdk
 control: Radar Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

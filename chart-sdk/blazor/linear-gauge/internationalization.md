@@ -5,6 +5,7 @@ description: Learn how to localize the Blazor Linear Gauge for global audiences 
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Internationalization

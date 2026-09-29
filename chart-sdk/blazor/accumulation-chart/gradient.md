@@ -5,6 +5,7 @@ description: Learn how to apply linear or radial gradients in Syncfusion Blazor 
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Accumulation Chart Gradient

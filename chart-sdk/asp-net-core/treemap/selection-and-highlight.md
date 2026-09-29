@@ -5,6 +5,7 @@ description: Learn here all about Selection and Highlight in Syncfusion ASP.NET 
 platform: chart-sdk
 control: Selection And Highlight
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection and Highlight in ASP.NET Core TreeMap

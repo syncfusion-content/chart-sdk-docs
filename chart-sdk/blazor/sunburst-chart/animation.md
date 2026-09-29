@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart animation, Sunburst Chart animation, chart animation, EnableAnimation, AnimationType, SunburstAnimationType, Rotation, FadeIn
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Animation

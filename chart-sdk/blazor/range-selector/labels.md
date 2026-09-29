@@ -5,6 +5,7 @@ description: Learn how to configure labels in Syncfusion Blazor Range Selector, 
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Labels

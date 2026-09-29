@@ -5,6 +5,7 @@ description: Learn here all about Pyramid in Syncfusion ASP.NET MVC Accumulation
 platform: chart-sdk
 control: Pyramid
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

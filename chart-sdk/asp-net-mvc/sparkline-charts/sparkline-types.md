@@ -5,6 +5,7 @@ description: Learn here all about Types in Syncfusion ASP.NET MVC Sparkline Char
 platform: chart-sdk
 control: Sparkline Charts Types
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

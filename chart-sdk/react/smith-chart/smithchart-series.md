@@ -6,6 +6,7 @@ control: Smithchart series
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series in React Smith Chart

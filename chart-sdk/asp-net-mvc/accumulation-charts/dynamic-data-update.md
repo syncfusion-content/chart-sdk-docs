@@ -5,6 +5,7 @@ description: Learn here all about dynamic data update in Syncfusion ASP.NET MVC 
 platform: chart-sdk
 control: Dynamic Data Update
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

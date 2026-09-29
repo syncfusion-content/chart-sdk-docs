@@ -7,6 +7,7 @@ control: Lightweight
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Lightweight in Angular Range Navigator

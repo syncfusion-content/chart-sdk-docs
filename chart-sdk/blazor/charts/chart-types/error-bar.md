@@ -5,6 +5,7 @@ description: Learn how to add error bars to Blazor Charts using Syncfusion. Show
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Error Bar Chart in Blazor

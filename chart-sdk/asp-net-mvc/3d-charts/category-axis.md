@@ -5,6 +5,7 @@ description: Learn here all about category axis in Syncfusion ASP.NET MVC 3D Cha
 platform: chart-sdk
 control: Category Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

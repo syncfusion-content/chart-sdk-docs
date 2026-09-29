@@ -5,6 +5,7 @@ description: Learn how to show a hover tooltip on the Blazor Stock Chart with fo
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Tooltip

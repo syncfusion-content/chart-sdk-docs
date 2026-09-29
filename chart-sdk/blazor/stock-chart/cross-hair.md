@@ -5,6 +5,7 @@ description: Learn how to show axis-aligned crosshair lines on the Blazor Stock 
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Crosshair

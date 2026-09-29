@@ -5,6 +5,7 @@ description: Learn how to enable Blazor Linear Gauge tooltips with custom format
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge User Interaction

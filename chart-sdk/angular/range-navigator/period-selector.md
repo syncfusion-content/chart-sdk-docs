@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Period selector 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Period Selector in Angular Range Navigator

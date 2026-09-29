@@ -5,6 +5,7 @@ description: Learn here all about Data Markers in Syncfusion ASP.NET MVC Charts 
 platform: chart-sdk
 control: Data Markers
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

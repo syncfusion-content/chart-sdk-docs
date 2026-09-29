@@ -5,6 +5,7 @@ description: Learn here all about Events in Syncfusion ASP.NET MVC Sankey Diagra
 platform: chart-sdk
 control: Events
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Events in ASP.NET MVC Sankey Diagram

@@ -6,6 +6,7 @@ control: Bar Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bar Chart in Vue Charts

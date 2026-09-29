@@ -5,6 +5,7 @@ description: Learn here all about print and export in Syncfusion ASP.NET Core 3D
 platform: chart-sdk
 control: Print and Export
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in ASP.NET Core 3D Charts

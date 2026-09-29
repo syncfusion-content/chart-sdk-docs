@@ -5,6 +5,7 @@ description: Learn how to plot routes between source and destination markers in 
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Create Routes Between Markers in Blazor Maps

@@ -5,6 +5,7 @@ description: Learn how to apply Range, Equal, or Desaturation color mapping to B
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Color Mapping

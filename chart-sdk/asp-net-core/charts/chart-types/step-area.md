@@ -5,6 +5,7 @@ description: Learn here all about Step Area Chart in Syncfusion ASP.NET Core Cha
 platform: chart-sdk
 control: Step Area Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

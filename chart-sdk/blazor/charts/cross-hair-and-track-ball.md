@@ -5,6 +5,7 @@ description: Learn how to enable crosshair and trackball in Syncfusion Blazor Ch
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Crosshair and Trackball
