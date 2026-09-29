@@ -5,8 +5,8 @@ description: Axis labels in the WinUI Chart display values and categories, suppo
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-kappliesto: UI Component Suite, Chart SDK
 keywords: axis labels in winui chart, winui sfcartesianchart axis labels, winui chart axis labels customization, syncfusion winui chart axis labels, winui sfcartesianchart axis labels settings.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis Labels in WinUI Chart
