@@ -5,6 +5,7 @@ description: Learn how to get started with Flutter Circular Chart provides step-
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Flutter Circular Chart

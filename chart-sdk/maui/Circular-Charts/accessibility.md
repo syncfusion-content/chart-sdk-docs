@@ -5,6 +5,7 @@ description: Accessibility in Syncfusion® .NET MAUI Circular Chart provides inc
 platform: chart-sdk
 control: SfCircularChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in .NET MAUI Circular Charts

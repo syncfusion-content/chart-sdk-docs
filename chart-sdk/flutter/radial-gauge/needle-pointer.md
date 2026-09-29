@@ -5,6 +5,7 @@ description: Learn about needle pointers in Syncfusion® Flutter Radial Gauge (S
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Needle Pointer in Flutter Radial Gauge (SfRadialGauge)

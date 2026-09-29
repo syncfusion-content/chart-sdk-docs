@@ -5,6 +5,7 @@ description: Learn about marker support in Syncfusion® Flutter Maps (SfMaps), i
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Markers in Flutter Maps (SfMaps)

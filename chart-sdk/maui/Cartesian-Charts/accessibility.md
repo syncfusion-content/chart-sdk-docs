@@ -5,6 +5,7 @@ description: Accessibility in Syncfusion® .NET MAUI Cartesian Chart provides in
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in .NET MAUI Cartesian Charts
