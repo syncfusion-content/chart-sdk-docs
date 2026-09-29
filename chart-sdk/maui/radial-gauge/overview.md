@@ -5,6 +5,7 @@ description: Learn about the overview of Syncfusion® .NET MAUI Radial Gauge con
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® .NET MAUI Radial Gauge Control

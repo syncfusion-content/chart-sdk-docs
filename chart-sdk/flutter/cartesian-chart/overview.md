@@ -5,6 +5,7 @@ description: Learn here all about introduction of Syncfusion® Flutter Cartesian
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® Flutter Cartesian Chart

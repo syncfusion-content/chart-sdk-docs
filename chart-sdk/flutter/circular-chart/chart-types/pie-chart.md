@@ -5,6 +5,7 @@ description: The pie chart support in Flutter Circular Chart offers customizable
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pie Chart in Flutter Circular Chart

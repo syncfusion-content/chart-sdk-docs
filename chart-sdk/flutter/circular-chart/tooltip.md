@@ -5,6 +5,7 @@ description: The tooltip support in Flutter Circular Chart offers interactive da
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Flutter Circular Chart

@@ -5,6 +5,7 @@ description: Learn about the overview of Syncfusion® .NET MAUI Barcode Generato
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® .NET MAUI Barcode Generator Control

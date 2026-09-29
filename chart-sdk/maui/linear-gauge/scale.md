@@ -6,6 +6,7 @@ platform: chart-sdk
 control: SfLinearGauge
 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Scale in .NET MAUI Linear Gauge

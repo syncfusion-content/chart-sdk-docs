@@ -5,6 +5,7 @@ description: Learn about one-dimensional symbology support in Syncfusion® Flutt
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # One-Dimensional Symbology in Flutter Barcodes (SfBarcodeGenerator)

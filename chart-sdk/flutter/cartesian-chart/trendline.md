@@ -5,6 +5,7 @@ description: The trendlines support in Flutter Cartesian Chart offers built-in t
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Trendlines in Flutter Cartesian Chart
