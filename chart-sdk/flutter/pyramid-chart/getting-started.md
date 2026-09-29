@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion® Flutter Pyramid Chart wi
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Flutter Pyramid Chart

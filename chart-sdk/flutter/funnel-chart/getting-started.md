@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion® Flutter Funnel Chart wid
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting started with Flutter Funnel Chart

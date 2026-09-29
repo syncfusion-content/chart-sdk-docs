@@ -5,6 +5,7 @@ description: The series customization support in Flutter Pyramid Chart offers co
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series customization in Flutter Pyramid Chart
