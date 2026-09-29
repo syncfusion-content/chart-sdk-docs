@@ -143,9 +143,9 @@ The [`fill`](../../api/chart3d/tooltipSettings#fill) and [`border`](../../api/ch
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/tooltip-cs5" %}
 
-## Access point record values in the tooltipRender event
+## Access data record values in the tooltipRender event
 
-The record associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/chart3d/chart3dtooltiprendereventargs) event argument. This allows additional values that are not directly mapped in the chart point to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
+The record associated with the hovered data can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/chart3d/chart3dtooltiprendereventargs) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
 
 In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
 
