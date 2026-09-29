@@ -5,6 +5,7 @@ description: Learn here all about Series Types in Syncfusion ASP.NET Core Stock 
 platform: chart-sdk
 control: Series Types
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

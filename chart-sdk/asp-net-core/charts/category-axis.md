@@ -5,6 +5,7 @@ description: Learn here all about Category Axis in Syncfusion ASP.NET Core Chart
 platform: chart-sdk
 control: Category Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

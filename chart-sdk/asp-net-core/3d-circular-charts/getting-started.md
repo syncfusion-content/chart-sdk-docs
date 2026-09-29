@@ -5,6 +5,7 @@ description: Check out and learn about getting started with Syncfusion ASP.NET C
 platform: chart-sdk
 control: Getting Started
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with ASP.NET Core 3D Circular Charts

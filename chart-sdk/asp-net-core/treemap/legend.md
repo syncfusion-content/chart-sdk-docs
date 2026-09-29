@@ -5,6 +5,7 @@ description: Learn here all about Legend in Syncfusion ASP.NET Core TreeMap cont
 platform: chart-sdk
 control: Legend
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in ASP.NET Core TreeMap

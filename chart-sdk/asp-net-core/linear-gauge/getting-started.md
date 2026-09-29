@@ -5,6 +5,7 @@ description: Check out and learn about getting started with ASP.NET Core Linear 
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with ASP.NET Core Linear Gauge

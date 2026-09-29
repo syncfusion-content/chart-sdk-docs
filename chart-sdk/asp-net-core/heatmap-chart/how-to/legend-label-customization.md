@@ -5,6 +5,7 @@ description: Learn here all about Legend Label Customization in Syncfusion ASP.N
 platform: chart-sdk
 control: Legend Label Customization
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

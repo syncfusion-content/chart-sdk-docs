@@ -5,6 +5,7 @@ description: Learn here all about Bullet Chart Dimensions in Syncfusion ASP.NET 
 platform: chart-sdk
 control: Bullet Chart Dimensions
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

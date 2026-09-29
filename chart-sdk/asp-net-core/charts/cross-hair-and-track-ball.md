@@ -5,6 +5,7 @@ description: Learn here all about Cross Hair and Track Ball in Syncfusion ASP.NE
 platform: chart-sdk
 control: Cross Hair And Track Ball
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
