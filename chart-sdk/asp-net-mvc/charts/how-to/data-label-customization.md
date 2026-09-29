@@ -5,6 +5,7 @@ description: Learn here all about Data Label Customization in Syncfusion ASP.NET
 platform: chart-sdk
 control: Data Label Customization
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

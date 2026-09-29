@@ -5,6 +5,7 @@ description: Learn here all about the methods in the Syncfusion ASP.NET MVC Maps
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Methods in ASP.NET MVC Maps

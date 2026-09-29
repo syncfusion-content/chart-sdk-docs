@@ -5,6 +5,7 @@ description: Learn here all about Series Type in Syncfusion ASP.NET MVC Range Na
 platform: chart-sdk
 control: Series Type
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Step Line Chart in Syncfusion ASP.NET MVC Char
 platform: chart-sdk
 control: Step Line Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

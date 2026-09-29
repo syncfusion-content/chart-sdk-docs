@@ -5,6 +5,7 @@ description: Learn here all about Grid Tick in Syncfusion ASP.NET MVC Range Navi
 platform: chart-sdk
 control: Grid Tick
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

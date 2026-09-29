@@ -5,6 +5,7 @@ description: Learn here all about Map Provider in Syncfusion ASP.NET MVC Maps co
 platform: chart-sdk
 control: Map Provider
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # OpenStreetMap in ASP.NET MVC Maps

@@ -5,6 +5,7 @@ description: Learn here all about Trend Lines in Syncfusion ASP.NET MVC Charts c
 platform: chart-sdk
 control: Trend Lines
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

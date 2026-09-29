@@ -5,6 +5,7 @@ description: Learn here all about Nodes in Syncfusion ASP.NET MVC Sankey Diagram
 platform: chart-sdk
 control: Nodes
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Nodes in ASP.NET MVC Sankey Diagram

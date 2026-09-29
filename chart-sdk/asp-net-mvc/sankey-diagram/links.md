@@ -5,6 +5,7 @@ description: Learn here all about Links in Syncfusion ASP.NET MVC Sankey Diagram
 platform: chart-sdk
 control: Links
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Links in ASP.NET MVC Sankey Diagram

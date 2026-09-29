@@ -5,6 +5,7 @@ description: Learn here all about Bar Chart in Syncfusion ASP.NET MVC Charts com
 platform: chart-sdk
 control: Bar chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

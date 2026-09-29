@@ -5,6 +5,7 @@ description: Learn here all about Code Behind in Syncfusion ASP.NET MVC Circular
 platform: chart-sdk
 control: Code Behind
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to render data from code behind in ASP.NET MVC Circular Gauge

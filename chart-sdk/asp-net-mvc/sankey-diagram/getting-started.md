@@ -5,6 +5,7 @@ description: Checkout and learn about Getting started with ASP.NET MVC Sankey Di
 platform: chart-sdk
 control: Getting Started
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

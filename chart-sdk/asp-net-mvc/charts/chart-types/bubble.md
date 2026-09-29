@@ -5,6 +5,7 @@ description: Learn here all about Bubble Chart in Syncfusion ASP.NET MVC Charts 
 platform: chart-sdk
 control: Bubble Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Checkout and learn about getting started with ASP.NET MVC Circular 
 platform: chart-sdk
 control: Getting Started
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

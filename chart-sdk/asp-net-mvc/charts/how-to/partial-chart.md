@@ -5,6 +5,7 @@ description: Learn here all about Partial Chart in Syncfusion ASP.NET MVC Charts
 platform: chart-sdk
 control: Partial Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

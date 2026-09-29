@@ -5,6 +5,7 @@ description: Learn here all about User Interactions in Syncfusion ASP.NET MVC Ma
 platform: chart-sdk
 control: User Interactions
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # User Interactions in ASP.NET MVC Maps

@@ -5,6 +5,7 @@ description: Learn here all about Grouping in Syncfusion ASP.NET MVC Accumulatio
 platform: chart-sdk
 control: Grouping
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->
