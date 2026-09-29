@@ -5,6 +5,7 @@ description: Learn here all about Events in Syncfusion ASP.NET Core HeatMap Char
 platform: chart-sdk
 control: Events
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

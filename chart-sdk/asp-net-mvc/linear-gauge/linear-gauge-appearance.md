@@ -5,6 +5,7 @@ description: Learn here all about Linear Gauge Appearance in Syncfusion ASP.NET 
 platform: chart-sdk
 control: Linear Gauge Appearance
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

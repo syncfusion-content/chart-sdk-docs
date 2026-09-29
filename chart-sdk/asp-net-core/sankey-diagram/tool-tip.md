@@ -5,6 +5,7 @@ description: Learn here all about ToolTip in Syncfusion ASP.NET Core Sankey Diag
 platform: chart-sdk
 control: Tooltip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in ASP.NET Core Sankey Diagram

@@ -5,6 +5,7 @@ description: Learn here all about 100% Stacked Line Chart in Syncfusion ASP.NET 
 platform: chart-sdk
 control: 100% Stacked Line Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

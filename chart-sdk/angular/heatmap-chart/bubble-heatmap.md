@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Bubble heatmap 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubble HeatMap in Angular HeatMap Chart

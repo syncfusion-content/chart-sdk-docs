@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Empty points 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Empty Points in Angular 3D Circular Chart

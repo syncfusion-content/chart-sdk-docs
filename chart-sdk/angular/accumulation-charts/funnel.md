@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Funnel 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Funnel in Angular Accumulation Chart

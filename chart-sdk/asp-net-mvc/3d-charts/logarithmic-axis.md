@@ -5,6 +5,7 @@ description: Learn here all about logarithmic axis in Syncfusion ASP.NET MVC 3D 
 platform: chart-sdk
 control: Logarithmic Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

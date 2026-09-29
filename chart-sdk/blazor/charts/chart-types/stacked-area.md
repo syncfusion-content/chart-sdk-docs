@@ -5,6 +5,7 @@ description: Learn how to create Blazor Stacked Area Charts using Syncfusion. Sh
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Stacked Area Chart in Blazor

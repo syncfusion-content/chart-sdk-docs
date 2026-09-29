@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Methods 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Methods in Angular Linear Gauge

@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion Blazor 3D Charts in a Blaz
 platform: chart-sdk
 control: 3D Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD040 -->

@@ -5,6 +5,7 @@ description: Learn here all about Data Binding in Syncfusion ASP.NET Core TreeMa
 platform: chart-sdk
 control: Data Binding
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Binding in ASP.NET Core TreeMap

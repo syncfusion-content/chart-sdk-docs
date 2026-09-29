@@ -6,6 +6,7 @@ control: High Low Open Close Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # High Low Open Close Chart in Vue Charts

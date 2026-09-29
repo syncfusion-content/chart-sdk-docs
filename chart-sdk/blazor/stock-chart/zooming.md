@@ -5,6 +5,7 @@ description: Learn how to zoom the Blazor Stock Chart with selection, mouse whee
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Zooming

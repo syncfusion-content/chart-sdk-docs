@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Chart series
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Multiple Series in Angular Chart

@@ -5,6 +5,7 @@ description: Checkout and learn about getting started with ASP.NET MVC 3D Charts
 platform: chart-sdk
 control: Getting Started
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with ASP.NET MVC 3D Charts

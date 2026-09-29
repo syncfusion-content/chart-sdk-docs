@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart accessibility, Sunburst Chart WCAG, Sunburst Chart keyboard navigation, Sunburst Chart ARIA, Sunburst Chart screen reader
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Accessibility

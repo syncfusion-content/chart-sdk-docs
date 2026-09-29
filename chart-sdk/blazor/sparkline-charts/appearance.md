@@ -5,6 +5,7 @@ description: Learn how to customize the appearance of Syncfusion Blazor Sparklin
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Appearance

@@ -5,6 +5,7 @@ description: Learn here all about Vertical Chart in Syncfusion ASP.NET MVC Chart
 platform: chart-sdk
 control: Vertical Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

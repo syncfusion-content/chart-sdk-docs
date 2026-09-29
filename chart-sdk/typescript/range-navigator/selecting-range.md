@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Range Navigator
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selecting range in TypeScript Range Navigator

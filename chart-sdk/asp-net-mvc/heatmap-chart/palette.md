@@ -5,6 +5,7 @@ description: Learn here all about Palette in Syncfusion ASP.NET MVC Heatmap Char
 platform: chart-sdk
 control: Palette
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

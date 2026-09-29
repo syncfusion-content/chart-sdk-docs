@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Other maps 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Custom map provider integration in JavaScript Maps

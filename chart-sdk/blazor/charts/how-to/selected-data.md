@@ -5,6 +5,7 @@ description: Learn how to get selected data in Blazor Charts using Syncfusion. U
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Get Selected Data in Blazor Charts

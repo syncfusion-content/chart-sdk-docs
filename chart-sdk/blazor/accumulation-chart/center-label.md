@@ -5,6 +5,7 @@ description: Learn how to use center labels in Syncfusion Blazor Accumulation Ch
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Pie and Donut Chart Center Label

@@ -6,6 +6,7 @@ control: Gauge appearance
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in React Circular Gauge

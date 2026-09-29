@@ -5,6 +5,7 @@ description: Learn how to choose Squarified, SliceAndDiceVertical, SliceAndDiceH
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Layout

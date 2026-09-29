@@ -5,6 +5,7 @@ description: Learn how to render Blazor Histogram Charts using Syncfusion. Displ
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Histogram Chart in Blazor

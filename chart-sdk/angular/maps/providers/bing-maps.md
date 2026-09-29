@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Bing maps 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bing Maps in Angular Maps

@@ -5,6 +5,7 @@ description: Learn how the Blazor Stock Chart meets WCAG 2.2 AA, Section 508, AD
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Accessibility

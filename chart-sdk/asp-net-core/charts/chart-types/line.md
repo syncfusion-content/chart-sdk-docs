@@ -5,6 +5,7 @@ description: Learn here all about Line Chart in Syncfusion ASP.NET Core Charts c
 platform: chart-sdk
 control: Line Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

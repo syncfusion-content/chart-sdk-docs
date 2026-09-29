@@ -6,6 +6,7 @@ control: Api iDragCompleteEventArgs
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api iDragCompleteEventArgs in Vue Chart component

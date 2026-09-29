@@ -5,6 +5,7 @@ description: Learn here all about Labels in Syncfusion ASP.NET Core Range Naviga
 platform: chart-sdk
 control: Labels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Export Print in Syncfusion ASP.NET Core Stock 
 platform: chart-sdk
 control: Export Print
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

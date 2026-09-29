@@ -5,6 +5,7 @@ description: Learn here all about Annotation in Syncfusion ASP.NET Core Maps com
 platform: chart-sdk
 control: Annotation
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add annotation in ASP.NET Core Maps

@@ -5,6 +5,7 @@ description: Learn here all about other Maps in Syncfusion ASP.NET MVC Maps comp
 platform: chart-sdk
 control: Other Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Other Maps providers in ASP.NET MVC Maps

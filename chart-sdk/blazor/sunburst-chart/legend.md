@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart legend, Sunburst Chart legend, legend settings, legend customization, legend text style, legend border, SunburstLegendSettings, SunburstLegendPosition, Hierarchical Data Visualization, Interactive Sunburst Chart, Multi-level Pie Chart
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Legend

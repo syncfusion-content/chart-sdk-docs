@@ -5,6 +5,7 @@ description: Learn here all about Empty Points in Syncfusion ASP.NET Core Accumu
 platform: chart-sdk
 control: Empty Points
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

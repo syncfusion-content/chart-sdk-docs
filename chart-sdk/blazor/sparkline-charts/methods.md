@@ -5,6 +5,7 @@ description: Learn about available methods in Syncfusion Blazor Sparkline, inclu
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Methods

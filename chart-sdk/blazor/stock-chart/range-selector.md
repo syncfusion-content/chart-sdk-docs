@@ -5,6 +5,7 @@ description: Learn how to select a date range in the Blazor Stock Chart by dragg
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

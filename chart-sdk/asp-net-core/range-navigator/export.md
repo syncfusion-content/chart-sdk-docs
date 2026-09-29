@@ -5,6 +5,7 @@ description: Learn here all about Export in Syncfusion ASP.NET Core Range Naviga
 platform: chart-sdk
 control: Export
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

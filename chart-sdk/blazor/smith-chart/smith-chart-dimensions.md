@@ -5,6 +5,7 @@ description: Learn how to set the size of Syncfusion Blazor Smith Chart using CS
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Dimensions

@@ -5,6 +5,7 @@ description: Learn here all about Scaffolding in Syncfusion ASP.NET MVC Charts c
 platform: chart-sdk
 control: Scaffolding
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

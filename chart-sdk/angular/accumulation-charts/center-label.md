@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Center label
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Center Label in Angular Accumulation Chart

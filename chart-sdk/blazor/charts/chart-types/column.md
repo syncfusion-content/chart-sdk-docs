@@ -5,6 +5,7 @@ description: Learn how to create Blazor Column Charts using Syncfusion. Compare 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Column Chart in Blazor

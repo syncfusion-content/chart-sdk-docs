@@ -5,6 +5,7 @@ description: Learn here all about Print in Syncfusion ASP.NET MVC Maps component
 platform: chart-sdk
 control: Print
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in ASP.NET MVC Maps

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Customize scatter chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Customize Scatter Chart in Angular Charts

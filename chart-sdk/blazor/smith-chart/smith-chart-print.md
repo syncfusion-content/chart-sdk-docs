@@ -5,6 +5,7 @@ description: Learn how to print and export Syncfusion Blazor Smith Chart using P
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Print and Export

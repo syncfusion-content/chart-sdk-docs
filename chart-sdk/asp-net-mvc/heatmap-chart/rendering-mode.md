@@ -5,6 +5,7 @@ description: Learn here all about Rendering Mode in Syncfusion ASP.NET MVC Heatm
 platform: chart-sdk
 control: Rendering Mode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Levels in Syncfusion ASP.NET Core TreeMap comp
 platform: chart-sdk
 control: Levels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Levels in ASP.NET Core TreeMap

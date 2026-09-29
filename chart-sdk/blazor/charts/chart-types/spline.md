@@ -5,6 +5,7 @@ description: Learn how to create Blazor Spline Charts using Syncfusion. Connect 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Spline Chart in Blazor

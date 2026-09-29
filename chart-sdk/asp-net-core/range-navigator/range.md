@@ -5,6 +5,7 @@ description: Learn here all about Range in Syncfusion ASP.NET Core Range Navigat
 platform: chart-sdk
 control: Range
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

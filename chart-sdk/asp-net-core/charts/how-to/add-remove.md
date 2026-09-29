@@ -5,6 +5,7 @@ description: Learn here all about Add or Remove series in Syncfusion ASP.NET Cor
 platform: chart-sdk
 control: Add Remove
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Gauge Appearance in Syncfusion ASP.NET Core Ci
 platform: chart-sdk
 control: Gauge Appearance
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in ASP.NET Core Circular Gauge

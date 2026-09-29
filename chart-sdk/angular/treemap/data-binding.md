@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Data binding 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Binding in Angular TreeMap

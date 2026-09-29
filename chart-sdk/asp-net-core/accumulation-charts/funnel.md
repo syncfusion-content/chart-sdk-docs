@@ -5,6 +5,7 @@ description: Learn here all about Funnel in Syncfusion ASP.NET Core Accumulation
 platform: chart-sdk
 control: Funnel
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

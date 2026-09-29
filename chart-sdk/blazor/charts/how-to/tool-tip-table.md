@@ -5,6 +5,7 @@ description: Learn how to show a table in a Blazor Charts tooltip using Syncfusi
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Show a Table in Tooltip in Blazor Charts

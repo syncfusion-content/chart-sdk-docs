@@ -5,6 +5,7 @@ description: Learn here all about Polygon in Syncfusion ASP.NET Core Maps compon
 platform: chart-sdk
 control: Polygon
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Polygon shape in ASP.NET Core Maps

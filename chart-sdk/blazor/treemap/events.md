@@ -5,6 +5,7 @@ description: Learn how to handle Blazor TreeMap events such as Load, Loaded, Ite
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Events

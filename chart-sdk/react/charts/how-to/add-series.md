@@ -6,6 +6,7 @@ control: Add or Remove Series
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add or remove series in React Charts

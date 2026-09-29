@@ -5,6 +5,7 @@ description: Learn how to enable tooltips in Syncfusion Blazor Charts. Set Chart
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Tooltip

@@ -5,6 +5,7 @@ description: Learn how to show pointer details on hover in the Blazor Circular G
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge User Interaction

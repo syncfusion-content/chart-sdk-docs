@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Inversed 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Inversed in Angular Range navigator component

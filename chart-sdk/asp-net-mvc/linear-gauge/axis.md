@@ -5,6 +5,7 @@ description: Learn here all about Axis in Syncfusion ASP.NET MVC Linear Gauge co
 platform: chart-sdk
 control: Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

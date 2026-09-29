@@ -5,6 +5,7 @@ description: Learn how to customize range bands in Syncfusion Blazor Sparkline t
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Range Band

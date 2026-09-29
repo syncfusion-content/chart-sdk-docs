@@ -6,6 +6,7 @@ control: Initial scrollbar
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Initial scrollbar in React Chart component

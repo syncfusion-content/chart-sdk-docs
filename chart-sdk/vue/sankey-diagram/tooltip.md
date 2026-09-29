@@ -6,6 +6,7 @@ control: ToolTip
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # ToolTip in Vue Sankey Diagram

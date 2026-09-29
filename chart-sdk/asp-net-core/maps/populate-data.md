@@ -5,6 +5,7 @@ description: Learn here all about Populate Data in Syncfusion ASP.NET Core Maps 
 platform: chart-sdk
 control: Populate Data
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Populate Data in ASP.NET Core Maps

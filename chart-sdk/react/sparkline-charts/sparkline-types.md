@@ -6,6 +6,7 @@ control: Sparkline types
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Sparkline Types in React Sparkline Charts

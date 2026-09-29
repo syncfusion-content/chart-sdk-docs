@@ -5,6 +5,7 @@ description: Learn here all about Smith Chart Axis in Syncfusion ASP.NET Core Sm
 platform: chart-sdk
 control: Smithchart Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

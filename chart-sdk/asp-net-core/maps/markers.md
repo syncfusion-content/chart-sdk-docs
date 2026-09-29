@@ -5,6 +5,7 @@ description: Learn here all about Markers in Syncfusion ASP.NET Core Maps compon
 platform: chart-sdk
 control: Markers
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Markers in ASP.NET Core Maps

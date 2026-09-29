@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Ej1 api migration 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # EJ1 API migration in TypeScript Maps
