@@ -5,7 +5,7 @@ description: Learn here all about accessibility in Syncfusion Angular 3D Chart c
 platform: chart-sdk
 control: 3D Chart
 documentation: ug
-domainurl: https://help.syncfusion.com/chart-sdk
+domainurl: https://help.syncfusion.com/chart-sdkappliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Angular 3D Chart
