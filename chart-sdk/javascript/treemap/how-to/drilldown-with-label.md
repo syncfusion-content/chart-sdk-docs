@@ -7,6 +7,7 @@ control: TreeMap
 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Drilldown with label in JavaScript TreeMap

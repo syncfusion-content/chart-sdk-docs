@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Es5 getting started 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Syncfusion® JavaScript (ES5) Maps Control

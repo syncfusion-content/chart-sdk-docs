@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Working with data 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Working with Data in JavaScript Smith Chart

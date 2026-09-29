@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Tooltip template 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to create a table in JavaScript HeatMap Chart

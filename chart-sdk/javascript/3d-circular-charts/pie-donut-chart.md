@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Pie and Donut 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pie and Donut in JavaScript 3D Circular Chart
