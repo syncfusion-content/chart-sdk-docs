@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Selected data grid 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Display Selected Data in Angular Chart

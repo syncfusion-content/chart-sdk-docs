@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Events 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Events in Angular HeatMap Chart

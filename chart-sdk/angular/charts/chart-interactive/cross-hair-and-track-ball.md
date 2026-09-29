@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Crosshair and trackball 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Crosshair and Trackball in Angular Charts

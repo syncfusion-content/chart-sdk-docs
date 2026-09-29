@@ -6,6 +6,7 @@ platform: chart-sdk
 control: 3D Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in Angular 3D Chart

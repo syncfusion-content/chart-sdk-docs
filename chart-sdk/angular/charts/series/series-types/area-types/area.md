@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Area Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Area Chart in Angular Charts

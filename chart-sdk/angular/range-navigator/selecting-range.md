@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Selecting range 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selecting Range in Angular Range Navigator
