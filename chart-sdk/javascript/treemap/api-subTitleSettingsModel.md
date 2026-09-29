@@ -7,7 +7,6 @@ control: Api subTitleSettingsModel
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api subTitleSettingsModel in JavaScript Treemap control

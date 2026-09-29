@@ -7,7 +7,6 @@ control: Api alignment
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api alignment in JavaScript Treemap control

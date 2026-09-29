@@ -7,7 +7,6 @@ control: Api multiLevelCategories
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api multiLevelCategories in JavaScript Chart control

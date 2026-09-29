@@ -7,7 +7,6 @@ control: Api iRangeSelectorRenderEventArgs
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api iRangeSelectorRenderEventArgs in JavaScript Range navigator control

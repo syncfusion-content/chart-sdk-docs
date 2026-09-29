@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Api accumulationAnnotation in JavaScript Accumulation chart control | Syncfusion
 description: Learn here all about Api accumulationAnnotation in Syncfusion JavaScript Accumulation chart control of Syncfusion Essential JS 2 and more.

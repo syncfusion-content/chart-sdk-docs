@@ -7,7 +7,6 @@ control: Api multiColoredSeries
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api multiColoredSeries in JavaScript Chart control
