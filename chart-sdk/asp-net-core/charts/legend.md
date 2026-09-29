@@ -288,3 +288,19 @@ You can customize the legend items by using the [`template`](https://help.syncfu
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
+
+## Expose series and point in legendRender event
+
+The [`legendRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartBuilder.html#Syncfusion_EJ2_Charts_ChartBuilder_LegendRender_System_String_) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html) model and `args.point` provides the underlying data point when `legendSettings.mode` is set to `Point`. Use these arguments to customize the legend item text dynamically based on series and point data.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/legend-render/tagHelper %}
+{% endhighlight %}
+{% highlight razor tabtitle="Razor" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/legend-render/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="LegendRender.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/legend-render/LegendRender.cs %}
+{% endhighlight %}
+{% endtabs %}

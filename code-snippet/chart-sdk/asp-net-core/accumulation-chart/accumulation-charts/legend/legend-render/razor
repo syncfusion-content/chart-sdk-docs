@@ -1,0 +1,26 @@
+@Html.EJS().AccumulationChart("container")
+    .Title("Browser Market Share")
+    .LegendRender("legendRender")
+    .Load("load")
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.AccumulationType.Pie)
+              .XName("x").YName("y")
+              .Name("Browser Share")
+              .DataSource(ViewBag.dataSource)
+              .DataLabel(dl => dl.Visible(true).Name("text").Position(Syncfusion.EJ2.Charts.AccumulationLabelPosition.Outside))
+              .Explode(true)
+              .ExplodeOffset("10%")
+              .Add();
+    })
+    .LegendSettings(legend => legend.Visible(true).Position(Syncfusion.EJ2.Charts.LegendPosition.Right))
+    .Center(c => c.X("50%").Y("55%"))
+    .Render()
+
+<script>
+    function legendRender(args) {
+        if (args.point) {
+            args.text = args.point.x + ' (' + args.point.y + '%)';
+        }
+    }
+</script>
