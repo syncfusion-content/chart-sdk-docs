@@ -6,6 +6,7 @@ control: Api axis
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api axis in Vue Chart component

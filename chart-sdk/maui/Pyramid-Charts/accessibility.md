@@ -5,6 +5,7 @@ description: Accessibility in Syncfusion® .NET MAUI Pyramid Charts provides inc
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in .NET MAUI Pyramid Charts

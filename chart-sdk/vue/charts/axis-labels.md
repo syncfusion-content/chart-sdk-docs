@@ -6,6 +6,7 @@ control: Axis labels
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis labels in Vue Charts

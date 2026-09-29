@@ -5,6 +5,7 @@ description: Learn about tile layers in Syncfusion® Flutter Maps (SfMaps), incl
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tile Layer in Flutter Maps (SfMaps)

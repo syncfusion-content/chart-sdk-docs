@@ -6,6 +6,7 @@ control: 3D Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart Dimensions in Vue 3D Charts

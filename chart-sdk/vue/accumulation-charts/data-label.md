@@ -6,6 +6,7 @@ control: Data label
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Label in Vue Accumulation Charts

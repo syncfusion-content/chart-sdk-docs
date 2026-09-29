@@ -6,6 +6,7 @@ control: Api accumulationDataLabelSettings
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api accumulationDataLabelSettings in Vue Accumulation chart component

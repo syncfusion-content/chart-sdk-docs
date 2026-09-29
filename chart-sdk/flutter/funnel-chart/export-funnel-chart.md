@@ -5,6 +5,7 @@ description: The exporting support in Flutter Funnel Chart offers image and docu
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Exporting in Flutter Funnel Chart

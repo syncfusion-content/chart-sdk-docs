@@ -6,6 +6,7 @@ control: Print and Export
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in Vue 3D Circular Charts

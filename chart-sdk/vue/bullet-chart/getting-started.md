@@ -6,6 +6,7 @@ control: Getting started
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with the Vue Bullet Chart Component in Vue 2

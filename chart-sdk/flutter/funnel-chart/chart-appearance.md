@@ -5,6 +5,7 @@ description: The appearance customization support in Flutter Funnel Chart offers
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance customization in Flutter Funnel Chart

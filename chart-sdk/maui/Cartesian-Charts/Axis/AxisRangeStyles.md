@@ -6,6 +6,7 @@ platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui chart axis range style, axis range styles maui chart, customize axis elements maui chart, chart axis label style maui, syncfusion maui axis range style.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis Range Styles in .NET MAUI Cartesian Chart

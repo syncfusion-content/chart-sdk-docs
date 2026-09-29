@@ -5,6 +5,7 @@ description: The doughnut chart support in Flutter Circular Chart offers customi
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Doughnut Chart in Flutter Circular Chart

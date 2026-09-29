@@ -6,6 +6,7 @@ control: Api polarSeries
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api polarSeries in Vue Chart component

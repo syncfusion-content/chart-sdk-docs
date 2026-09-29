@@ -7,6 +7,7 @@ control: SfCartesianChart
 documentation: ug
 kappliesto: UI Component Suite, Chart SDK
 keywords: range padding in winui chart, winui sfcartesianchart range padding, winui chart range padding customization, syncfusion winui chart range padding, winui sfcartesianchart range padding configuration.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Padding in WinUI Chart

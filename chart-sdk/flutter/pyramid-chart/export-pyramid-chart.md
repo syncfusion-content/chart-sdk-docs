@@ -5,6 +5,7 @@ description: The exporting support in Flutter Pyramid Chart offers image and doc
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Exporting in Flutter Pyramid Chart

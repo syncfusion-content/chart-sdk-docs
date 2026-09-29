@@ -6,6 +6,7 @@ control: Index
 platform: ej2-vue
 documentation: ug
 domainurl: ##DomainURL##
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Index in Vue Smithchart component

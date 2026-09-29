@@ -5,6 +5,7 @@ description: The customization support in Flutter Pyramid Chart offers control o
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Customization in Flutter Pyramid Chart

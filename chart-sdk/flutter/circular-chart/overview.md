@@ -5,6 +5,7 @@ description: Learn here all about introduction of Syncfusion® Flutter Circular 
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® Flutter Circular Chart
