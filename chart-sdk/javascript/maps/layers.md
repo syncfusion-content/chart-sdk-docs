@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Layers 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Layers in JavaScript Maps
