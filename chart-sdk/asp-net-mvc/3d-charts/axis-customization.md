@@ -5,6 +5,7 @@ description: Learn here all about axis customization in Syncfusion ASP.NET MVC 3
 platform: chart-sdk
 control: Axis Customization
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

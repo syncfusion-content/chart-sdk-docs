@@ -5,6 +5,7 @@ description: Learn here all about Chart Appearance in Syncfusion ASP.NET MVC Cha
 platform: chart-sdk
 control: Chart Appearance
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Accessibility customization in Syncfusion ASP.
 platform: chart-sdk
 control: Accessibility customization
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Range Step Area Chart in Syncfusion ASP.NET MV
 platform: chart-sdk
 control: Range Step Area Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

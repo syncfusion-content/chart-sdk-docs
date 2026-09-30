@@ -5,6 +5,7 @@ description: Learn here all about Hide Tool Tip in Syncfusion ASP.NET MVC Charts
 platform: chart-sdk
 control: Hide Tooltip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Pie Dough Nut in Syncfusion ASP.NET MVC Accumu
 platform: chart-sdk
 control: Pie Dough Nut
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about empty points in Syncfusion ASP.NET MVC 3D Circ
 platform: chart-sdk
 control: Empty points
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

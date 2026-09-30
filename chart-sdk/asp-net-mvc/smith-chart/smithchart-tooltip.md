@@ -5,6 +5,7 @@ description: Learn here all about Smith Chart Tooltip in Syncfusion ASP.NET MVC 
 platform: chart-sdk
 control: Smithchart Tooltip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

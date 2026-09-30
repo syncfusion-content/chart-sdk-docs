@@ -5,6 +5,7 @@ description: Learn here all about animation in the Syncfusion ASP.NET MVC Linear
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

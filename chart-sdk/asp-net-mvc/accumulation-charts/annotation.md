@@ -5,6 +5,7 @@ description: Learn here all about Annotation in Syncfusion ASP.NET MVC Accumulat
 platform: chart-sdk
 control: Annotation
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

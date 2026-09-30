@@ -5,6 +5,7 @@ description: Learn here all about EJ1 API Migration in Syncfusion ASP.NET MVC Tr
 platform: chart-sdk
 control: Ej1 Api Migration
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
