@@ -5,8 +5,8 @@ description: Selection in the WinUI Chart enables users to highlight and interac
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-kappliesto: UI Component Suite, Chart SDK
 keywords: selection in winui chart, winui sfcartesianchart selection, winui chart selection customization, syncfusion winui chart selection, winui chart selection properties.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection in WinUI Chart
