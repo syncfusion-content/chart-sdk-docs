@@ -5,6 +5,7 @@ description: Learn here all about Hide Tool Tip in Syncfusion ASP.NET Core Chart
 platform: chart-sdk
 control: Hide Tool Tip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

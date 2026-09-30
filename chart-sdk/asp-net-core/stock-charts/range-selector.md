@@ -5,6 +5,7 @@ description: Learn here all about Range Selector in Syncfusion ASP.NET Core Stoc
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

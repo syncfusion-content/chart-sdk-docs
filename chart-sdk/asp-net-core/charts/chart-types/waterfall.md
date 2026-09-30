@@ -5,6 +5,7 @@ description: Learn here all about Waterfall Chart in Syncfusion ASP.NET Core Cha
 platform: chart-sdk
 control: Waterfall Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about data labels in Syncfusion ASP.NET Core 3D Char
 platform: chart-sdk
 control: Data Labels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
