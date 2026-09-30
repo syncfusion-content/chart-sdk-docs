@@ -5,6 +5,7 @@ description: Learn how to bind data to Syncfusion Blazor Bullet Chart using Data
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Working with Data

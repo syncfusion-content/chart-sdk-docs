@@ -5,6 +5,7 @@ description: Learn how to add Default or Interactive legends to Blazor Maps to i
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Legend Support

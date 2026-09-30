@@ -5,6 +5,7 @@ description: Learn how to group small slices in Syncfusion Blazor Accumulation C
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

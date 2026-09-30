@@ -5,6 +5,7 @@ description: Learn how to customize the Blazor HeatMap Chart appearance with cel
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Appearance

@@ -5,6 +5,7 @@ description: Learn how to divide Blazor Charts into multiple panes. Use ChartRow
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Multiple Panes

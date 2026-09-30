@@ -5,6 +5,7 @@ description: Learn how to set the Blazor Linear Gauge dimensions in pixels or pe
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Dimensions

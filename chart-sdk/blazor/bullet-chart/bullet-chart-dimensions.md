@@ -5,6 +5,7 @@ description: Learn how to set the size of Syncfusion Blazor Bullet Chart using c
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

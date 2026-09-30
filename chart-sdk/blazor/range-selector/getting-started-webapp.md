@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion Blazor Range Selector in a
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Getting Started in Web App

@@ -5,6 +5,7 @@ description: Learn about events in Syncfusion Blazor Range Selector such as Load
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Events

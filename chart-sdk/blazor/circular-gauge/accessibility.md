@@ -5,6 +5,7 @@ description: Learn how to make the Blazor Circular Gauge accessible with WCAG 2.
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

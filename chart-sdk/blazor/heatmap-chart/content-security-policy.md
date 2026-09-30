@@ -5,6 +5,7 @@ description: Learn which Blazor HeatMap Chart features work under strict Content
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Content Security Policy

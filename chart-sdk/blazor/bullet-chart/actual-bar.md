@@ -5,6 +5,7 @@ description: Learn how to render the actual bar (feature measure) in Syncfusion 
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Actual Bar

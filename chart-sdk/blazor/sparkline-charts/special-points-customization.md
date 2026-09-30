@@ -5,6 +5,7 @@ description: Learn how to customize special points in Syncfusion Blazor Sparklin
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Special Points Customization

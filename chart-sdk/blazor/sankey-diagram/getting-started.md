@@ -5,6 +5,7 @@ description: Learn how to add the Blazor Sankey Diagram to a Blazor Server App b
 platform: chart-sdk
 control: Sankey
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD040 -->

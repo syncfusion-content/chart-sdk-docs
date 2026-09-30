@@ -5,6 +5,7 @@ description: Learn how the Blazor Sankey Diagram exposes events for rendering, h
 platform: chart-sdk
 control: Sankey
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sankey Diagram Events

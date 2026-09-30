@@ -5,6 +5,7 @@ description: Learn how to add trendlines in Syncfusion Blazor Charts. Use Linear
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

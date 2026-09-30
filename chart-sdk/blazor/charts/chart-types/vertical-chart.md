@@ -5,6 +5,7 @@ description: Learn how to render a Blazor Vertical Chart using Syncfusion. Swap 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Vertical Chart in Blazor

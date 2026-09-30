@@ -5,6 +5,7 @@ description: Learn about accessibility in Syncfusion Blazor 3D Chart, including 
 platform: chart-sdk
 control: 3D Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor 3D Chart Accessibility

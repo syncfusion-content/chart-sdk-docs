@@ -5,6 +5,7 @@ description: Learn how to display Google Maps tiles in Blazor Maps by setting Ur
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Google Maps Provider

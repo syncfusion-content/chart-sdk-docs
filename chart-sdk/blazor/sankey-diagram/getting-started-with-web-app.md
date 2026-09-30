@@ -5,6 +5,7 @@ description: Learn how to add the Blazor Sankey Diagram to a Blazor Web App by i
 platform: chart-sdk
 control: Sankey
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD040 -->

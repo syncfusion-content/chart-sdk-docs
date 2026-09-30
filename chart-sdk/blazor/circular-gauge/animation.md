@@ -5,6 +5,7 @@ description: Learn how to animate the Blazor Circular Gauge elements sequentiall
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge Animation

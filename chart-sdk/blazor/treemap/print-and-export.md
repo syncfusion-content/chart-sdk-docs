@@ -5,6 +5,7 @@ description: Learn how to print the Blazor TreeMap or export it as PNG, JPEG, SV
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Print and Export

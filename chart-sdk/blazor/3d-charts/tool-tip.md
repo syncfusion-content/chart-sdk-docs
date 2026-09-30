@@ -5,6 +5,7 @@ description: Learn how to enable and customize tooltips in Syncfusion Blazor 3D 
 platform: chart-sdk
 control: 3D Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor 3D Chart Tooltip

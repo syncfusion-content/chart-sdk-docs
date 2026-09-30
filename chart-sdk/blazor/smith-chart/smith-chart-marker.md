@@ -5,6 +5,7 @@ description: Learn how to add and customize markers and data labels in Syncfusio
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Markers and Data Labels
