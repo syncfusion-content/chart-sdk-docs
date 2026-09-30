@@ -170,3 +170,20 @@ Using the `tooltipRender` event, you can customize tooltip values for a particul
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-circular-charts/preview-sample/tooltip/tooltip-cs7" %}
+
+## Access data values in the tooltipRender event
+
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/react/documentation/api/circularchart3d/circularchart3dtooltiprendereventargs) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/3d-circular-charts/code-path/tooltip/tooltip-cs9/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/3d-circular-charts/code-path/tooltip/tooltip-cs9/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-circular-charts/preview-sample/tooltip/tooltip-cs9" %}

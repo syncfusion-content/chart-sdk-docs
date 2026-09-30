@@ -1,0 +1,27 @@
+@(Html.EJS().Chart("container")
+    .PrimaryXAxis(px => px
+        .ValueType(Syncfusion.EJ2.Charts.ValueType.Category)
+    )
+    .Series(series =>
+    {
+        series.Type(ChartSeriesType.Column)
+            .DataSource((object)ViewBag.dataSource)
+            .XName("month")
+            .YName("sales")
+            .Name("Sales")
+            .Add();
+    })
+    .Tooltip(tooltip => tooltip.Enable(true))
+    .TooltipRender("tooltipRender")
+    .Render())
+
+<script>
+    function tooltipRender(args) {
+        var rawData = args.data.rawData;
+        if (rawData) {
+            args.text = 'Sales: <b>' + rawData.sales + '</b><br/>' +
+                'Country: <b>' + rawData.country + '</b><br/>' +
+                'Growth: <b>' + rawData.growth + '%</b>';
+        }
+    }
+</script>

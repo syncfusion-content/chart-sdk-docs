@@ -1,0 +1,19 @@
+<ejs-chart3d id="container" title="Sales by Country" wallColor="transparent" enableRotation="true" rotation="7" tilt="10" depth="100" tooltipRender="tooltipRender">
+    <e-chart3d-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Country"></e-chart3d-primaryxaxis>
+    <e-chart3d-primaryyaxis title="Sales"></e-chart3d-primaryyaxis>
+    <e-chart3d-series-collection>
+        <e-chart3d-series dataSource="@ViewBag.dataSource" xName="x" yName="y" type="@Syncfusion.EJ2.Charts.Chart3DSeriesType.Column" name="Sales"></e-chart3d-series>
+    </e-chart3d-series-collection>
+    <e-chart3d-tooltipsettings enable="true"></e-chart3d-tooltipsettings>
+</ejs-chart3d>
+
+<script>
+    function tooltipRender(args) {
+        var rawData = args.data.rawData;
+        if (rawData) {
+            args.text = 'Sales: <b>' + rawData.y + '</b><br/>' +
+                'Region: <b>' + rawData.region + '</b><br/>' +
+                'Growth: <b>' + rawData.growth + '%</b>';
+        }
+    }
+</script>
