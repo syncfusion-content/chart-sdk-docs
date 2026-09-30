@@ -167,9 +167,9 @@ Using [`TooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.
 
 
 
-## Access data record values in the tooltipRender event
+## Access data values in the tooltipRender event
 
-The record associated with the hovered data can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_TooltipRender) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_TooltipRender) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
 
 In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
 
