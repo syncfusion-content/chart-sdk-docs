@@ -5,6 +5,7 @@ description: Learn here all about Customization in Syncfusion ASP.NET MVC Maps c
 platform: chart-sdk
 control: Customization
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Customization in ASP.NET MVC Maps

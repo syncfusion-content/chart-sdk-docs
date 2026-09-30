@@ -5,6 +5,7 @@ description: Learn here all about Bubble Heatmap in Syncfusion ASP.NET MVC Heatm
 platform: chart-sdk
 control: Bubble Heatmap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

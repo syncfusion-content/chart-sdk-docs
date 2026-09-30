@@ -5,6 +5,7 @@ description: Learn here all about Print And Export in Syncfusion ASP.NET MVC Cir
 platform: chart-sdk
 control: Print And Export
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in ASP.NET MVC Circular Gauge

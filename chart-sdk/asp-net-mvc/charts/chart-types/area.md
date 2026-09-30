@@ -5,6 +5,7 @@ description: Learn here all about Area Chart in Syncfusion ASP.NET MVC Charts co
 platform: chart-sdk
 control: Area Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

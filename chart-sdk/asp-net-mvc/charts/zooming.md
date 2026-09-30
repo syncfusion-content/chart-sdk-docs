@@ -5,6 +5,7 @@ description: Learn here all about Zooming in Syncfusion ASP.NET MVC Charts compo
 platform: chart-sdk
 control: Zooming
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

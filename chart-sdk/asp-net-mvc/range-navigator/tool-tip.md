@@ -5,6 +5,7 @@ description: Learn here all about Tool Tip in Syncfusion ASP.NET MVC Range Navig
 platform: chart-sdk
 control: Tool Tip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

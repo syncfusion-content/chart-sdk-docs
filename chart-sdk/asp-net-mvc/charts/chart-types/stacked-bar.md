@@ -5,6 +5,7 @@ description: Learn here all about Stacked Bar Chart in Syncfusion ASP.NET MVC Ch
 platform: chart-sdk
 control: Stacked Bar Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

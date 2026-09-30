@@ -5,6 +5,7 @@ description: Learn here all about Light Weight in Syncfusion ASP.NET MVC Range N
 platform: chart-sdk
 control: Light Weight
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
