@@ -5,6 +5,7 @@ description: Learn here all about Linear Gauge Dimensions in Syncfusion ASP.NET 
 platform: chart-sdk
 control: Linear Gauge Dimensions
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

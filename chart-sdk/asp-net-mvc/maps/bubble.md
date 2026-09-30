@@ -5,6 +5,7 @@ description: Learn here all about Bubble in Syncfusion ASP.NET MVC Maps componen
 platform: chart-sdk
 control: Bubble
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubbles in ASP.NET MVC Maps

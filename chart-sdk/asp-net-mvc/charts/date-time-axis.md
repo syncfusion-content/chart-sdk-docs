@@ -5,6 +5,7 @@ description: Learn here all about Date Time Axis in Syncfusion ASP.NET MVC Chart
 platform: chart-sdk
 control: Date Time Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

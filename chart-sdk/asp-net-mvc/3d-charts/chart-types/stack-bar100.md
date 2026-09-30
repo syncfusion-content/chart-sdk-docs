@@ -5,6 +5,7 @@ description: Learn here all about 100% stacked bar chart in Syncfusion ASP.NET M
 platform: chart-sdk
 control: 100% Stacked bar chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Selection in Syncfusion ASP.NET MVC HeatMap Ch
 platform: chart-sdk
 control: Selection
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

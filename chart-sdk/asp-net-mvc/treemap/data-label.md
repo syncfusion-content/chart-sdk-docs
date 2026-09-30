@@ -5,6 +5,7 @@ description: Learn here all about Data Label in Syncfusion ASP.NET MVC TreeMap c
 platform: chart-sdk
 control: Data Label
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Label in ASP.NET MVC TreeMap
