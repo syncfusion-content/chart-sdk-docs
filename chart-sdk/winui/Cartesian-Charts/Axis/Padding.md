@@ -5,8 +5,8 @@ description: Axis padding in the WinUI Chart adds spacing around plotted data, i
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-kappliesto: UI Component Suite, Chart SDK
 keywords: axis padding in winui chart, winui sfcartesianchart axis padding, winui chart axis padding customization, syncfusion winui chart axis padding.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis Padding in WinUI Chart
