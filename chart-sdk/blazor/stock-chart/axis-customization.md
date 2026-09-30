@@ -5,6 +5,7 @@ description: Learn how to customize Blazor Stock Chart axes with titles, tick li
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Axis Customization

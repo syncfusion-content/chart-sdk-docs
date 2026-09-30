@@ -5,6 +5,7 @@ description: Learn how to bind data to Syncfusion Blazor 3D Chart using SfDataMa
 platform: chart-sdk
 control: 3D Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

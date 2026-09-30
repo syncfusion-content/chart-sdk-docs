@@ -5,6 +5,7 @@ description: Learn how to enable adaptive layout in Syncfusion Blazor Charts. Au
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Adaptive Layout

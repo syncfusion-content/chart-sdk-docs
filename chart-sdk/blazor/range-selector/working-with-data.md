@@ -5,6 +5,7 @@ description: Learn how to bind data to Syncfusion Blazor Range Selector using Sf
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

@@ -5,6 +5,7 @@ description: Learn how to mark areas of interest on Blazor Maps with text, shape
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Annotations

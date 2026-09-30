@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
 keywords: Blazor Pie Chart, Blazor Doughnut Chart, Blazor Accumulation Chart, Syncfusion Blazor Charts, Pie Chart Blazor, Doughnut Chart Blazor, Blazor Nested Doughnut Chart, Blazor Multi-ring Pie Chart, Blazor Comparison Pie Chart
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pie and Doughnut Chart in Blazor

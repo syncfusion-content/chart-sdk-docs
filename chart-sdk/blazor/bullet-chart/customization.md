@@ -5,6 +5,7 @@ description: Learn how to customize Syncfusion Blazor Bullet Chart, including or
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Customization

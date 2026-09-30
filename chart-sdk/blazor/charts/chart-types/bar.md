@@ -5,6 +5,7 @@ description: Learn how to create and customize Blazor Bar Charts using Syncfusio
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bar Chart Series in Blazor

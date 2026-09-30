@@ -5,6 +5,7 @@ description: Learn how to create and customize Blazor Area Charts using Syncfusi
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Area Chart in Blazor

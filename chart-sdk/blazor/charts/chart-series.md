@@ -5,6 +5,7 @@ description: Learn how to combine multiple chart types in Syncfusion Blazor Char
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Mixed Series

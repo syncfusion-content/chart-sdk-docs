@@ -5,6 +5,7 @@ description: Learn how to customize the Blazor Sankey Diagram with background co
 platform: chart-sdk
 control: Sankey
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sankey Diagram Appearance

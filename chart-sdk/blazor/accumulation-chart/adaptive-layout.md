@@ -5,6 +5,7 @@ description: Learn how to enable adaptive layout in Syncfusion Blazor Accumulati
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Accumulation Chart Adaptive Layout

@@ -5,6 +5,7 @@ description: Learn how to add the Blazor TreeMap to a Blazor WebAssembly App, in
 platform: chart-sdk
 component: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor TreeMap in WebAssembly App

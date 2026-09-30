@@ -5,6 +5,7 @@ description: Learn how to print and export the Blazor Sankey Diagram to PNG, JPE
 platform: chart-sdk
 control: Sankey
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sankey Diagram Print and Export

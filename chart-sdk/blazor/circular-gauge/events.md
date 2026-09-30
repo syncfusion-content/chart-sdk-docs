@@ -5,6 +5,7 @@ description: Learn how to handle Blazor Circular Gauge events such as OnDragMove
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge Events

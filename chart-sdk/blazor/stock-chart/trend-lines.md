@@ -5,6 +5,7 @@ description: Learn how to add trendlines to the Blazor Stock Chart — Linear, E
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Trendlines

@@ -5,6 +5,7 @@ description: Learn how to add and customize the Blazor TreeMap legend with defau
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Legend

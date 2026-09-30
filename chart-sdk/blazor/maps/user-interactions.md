@@ -5,6 +5,7 @@ description: Learn how to enable zooming, panning, and selection in Blazor Maps 
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps User Interactions

@@ -5,6 +5,7 @@ description: Learn how to create Blazor Range Area Charts using Syncfusion. Visu
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Area Chart in Blazor

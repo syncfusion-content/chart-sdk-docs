@@ -5,6 +5,7 @@ description: Learn how to use Blazor Stock Chart for financial data visualizatio
 platform: Blazor
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Documentation Overview

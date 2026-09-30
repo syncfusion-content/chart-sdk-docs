@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart selection, Sunburst Chart selection, segment selection, selection settings, selection mode, selection color, selection opacity, SunburstSelectionSettings, SunburstSelectionMode
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Selection

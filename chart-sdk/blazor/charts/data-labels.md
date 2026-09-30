@@ -5,6 +5,7 @@ description: Learn how to show data labels on Syncfusion Blazor Charts. Enable C
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Data Labels

@@ -5,6 +5,7 @@ description: Learn how to update a Blazor Chart with live data using Syncfusion.
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

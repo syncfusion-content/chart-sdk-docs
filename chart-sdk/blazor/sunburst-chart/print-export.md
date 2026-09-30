@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart print, Blazor Sunburst Chart export, Sunburst Chart print, Sunburst Chart export, PrintAsync, ExportAsync, ExportType, PDF export, XLSX export, CSV export, hierarchy export
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Print and Export

@@ -5,6 +5,7 @@ description: Learn how to use the DateTime axis in Syncfusion Blazor Charts. Plo
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->
