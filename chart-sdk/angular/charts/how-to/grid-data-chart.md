@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Grid data chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Use Grid Data in Angular Charts

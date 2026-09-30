@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Overlap area 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Color the Overlapped Area in Angular Charts

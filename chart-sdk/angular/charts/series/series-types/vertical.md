@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Vertical Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Vertical Chart in Angular Charts

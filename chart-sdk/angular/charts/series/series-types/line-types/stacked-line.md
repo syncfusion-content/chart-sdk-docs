@@ -6,6 +6,7 @@ platform: chart-sdk
 control: 100% Stacked Line Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # 100% Stacked Line Chart in Angular Charts
