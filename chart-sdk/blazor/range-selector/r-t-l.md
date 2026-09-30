@@ -5,6 +5,7 @@ description: Learn how to enable right-to-left (RTL) rendering in Syncfusion Bla
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector RTL

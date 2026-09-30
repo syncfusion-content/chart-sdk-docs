@@ -5,6 +5,7 @@ description: Learn how to use a numeric axis in Syncfusion Blazor 3D Chart to re
 platform: chart-sdk
 control: 3D Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

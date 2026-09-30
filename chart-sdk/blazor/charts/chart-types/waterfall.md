@@ -5,6 +5,7 @@ description: Learn how to create Blazor Waterfall Charts using Syncfusion. Show 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Waterfall Chart in Blazor

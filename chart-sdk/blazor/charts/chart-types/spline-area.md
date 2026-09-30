@@ -5,6 +5,7 @@ description: Learn how to create Blazor Spline Area Charts using Syncfusion. Vis
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Spline Area Chart in Blazor

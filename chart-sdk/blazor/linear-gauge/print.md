@@ -5,6 +5,7 @@ description: Learn how to print the Blazor Linear Gauge from the browser or expo
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Print and Export

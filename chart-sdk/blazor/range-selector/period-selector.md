@@ -5,6 +5,7 @@ description: Learn how to configure the period selector in Syncfusion Blazor Ran
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Period Selector

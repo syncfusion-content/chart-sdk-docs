@@ -5,6 +5,7 @@ description: Learn how to enable lazy loading in Blazor Charts using Syncfusion.
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Enable Lazy Loading in Blazor Charts

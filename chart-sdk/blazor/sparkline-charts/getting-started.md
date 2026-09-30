@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion Blazor Sparkline in a Blaz
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Getting Started in WASM App

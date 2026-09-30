@@ -5,6 +5,7 @@ description: Learn how to add the Blazor HeatMap Chart to a Blazor Web App (ASP.
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor HeatMap Chart in Web App

@@ -5,6 +5,7 @@ description: Learn how to enable selection in Syncfusion Blazor Charts. Choose P
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

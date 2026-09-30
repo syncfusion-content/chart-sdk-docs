@@ -5,6 +5,7 @@ description: Learn how to get started with Syncfusion Blazor Charts in a Blazor 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD040 -->

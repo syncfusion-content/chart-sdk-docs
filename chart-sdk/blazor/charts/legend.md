@@ -5,6 +5,7 @@ description: Learn how to display and customize legends in Syncfusion Blazor Cha
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Legend

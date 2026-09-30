@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Chart Wizard
 documentation: ug
 keywords: chart wizard, blazor, chart
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor Chart Wizard Component in Blazor Web App

@@ -5,6 +5,7 @@ description: Learn how to place the Blazor Linear Gauge inside Dashboard Layout,
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Place Blazor Linear Gauge inside Other Components

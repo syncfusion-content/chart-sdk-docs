@@ -5,6 +5,7 @@ description: Learn how to customize Blazor TreeMap leaf items using TreeMapLeafI
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Leaf Item

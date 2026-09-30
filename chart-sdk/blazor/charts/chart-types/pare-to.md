@@ -5,6 +5,7 @@ description: Learn how to create Blazor Pareto Charts using Syncfusion. Combine 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pareto Chart in Blazor

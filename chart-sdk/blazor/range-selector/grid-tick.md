@@ -5,6 +5,7 @@ description: Learn how to customize grid lines and tick lines in Syncfusion Blaz
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Grid Lines and Tick Lines
