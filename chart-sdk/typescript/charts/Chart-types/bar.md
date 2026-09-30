@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Bar 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 # Bar Chart in TypeScript Charts
 

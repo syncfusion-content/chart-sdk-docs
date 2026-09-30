@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Ranges 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ranges in TypeScript Linear Gauge

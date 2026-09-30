@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Rendering mode 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Rendering Mode in TypeScript HeatMap Chart
