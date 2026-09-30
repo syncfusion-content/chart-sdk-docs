@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Custom path 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Custom path in JavaScript Maps
