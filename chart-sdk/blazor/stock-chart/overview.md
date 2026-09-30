@@ -15,7 +15,7 @@ The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-sto
 
 ## Common use cases
 
-The Blazor Stock Chart is ideal for a wide range of business scenarios:
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) is ideal for a wide range of business scenarios:
 
 | Use Case | Description | Key Features |
 |----------|-------------|--------------|
@@ -28,7 +28,7 @@ The Blazor Stock Chart is ideal for a wide range of business scenarios:
 
 ## Data connectivity
 
-The Blazor Stock Chart enables multiple data binding approaches, offering flexibility in choosing the right strategy for different application architectures. The stock chart can work with in-memory collections, connect to remote services, or leverage ORM frameworks for seamless database integration.
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) enables multiple data binding approaches, offering flexibility in choosing the right strategy for different application architectures. The stock chart can work with in-memory collections, connect to remote services, or leverage ORM frameworks for seamless database integration.
 
 **Data Binding Approaches**
 
@@ -40,11 +40,11 @@ The Blazor Stock Chart enables multiple data binding approaches, offering flexib
 
 ## Series types
 
-The Stock Chart supports six financial series types, switchable at runtime through the built-in series selector:
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) supports six financial series types, switchable at runtime through the built-in series selector:
 
 | Series Type | Description | Best For |
 |------------|-------------|----------|
-| **Candle** | Open and close prices as a filled body with high-low wicks | Traditional price action reading |
+| **Candle(./series-types)** | Open and close prices as a filled body with high-low wicks | Traditional price action reading |
 | **[Hollow Candle](./series-types)** | Candle variant where bullish candles render hollow | Highlighting upward momentum |
 | **[Hilo](./series-types)** | High-low bars without open and close detail | Minimal, compact price view |
 | **[HiloOpenClose](./series-types)** | High-low bars with open and close tick marks | OHLC detail with compact body |
@@ -53,7 +53,7 @@ The Stock Chart supports six financial series types, switchable at runtime throu
 
 ## Axes & navigation
 
-The Blazor Stock Chart offers specialized axes and built-in navigation elements tailored for financial time series exploration:
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) offers specialized axes and built-in navigation elements tailored for financial time series exploration:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -68,7 +68,7 @@ The Blazor Stock Chart offers specialized axes and built-in navigation elements 
 
 ## Data visualization elements
 
-The Blazor Stock Chart provides comprehensive elements for annotating and enhancing financial charts:
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) provides comprehensive elements for annotating and enhancing financial charts:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -83,7 +83,7 @@ The Blazor Stock Chart provides comprehensive elements for annotating and enhanc
 
 ## Advanced analytics
 
-The Blazor Stock Chart includes sophisticated capabilities designed for complex financial analysis scenarios:
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) includes sophisticated capabilities designed for complex financial analysis scenarios:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -92,7 +92,7 @@ The Blazor Stock Chart includes sophisticated capabilities designed for complex 
 
 ## Print & export
 
-The Blazor Stock Chart provides comprehensive output capabilities for reporting and sharing chart visuals:
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) provides comprehensive output capabilities for reporting and sharing chart visuals:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -101,7 +101,7 @@ The Blazor Stock Chart provides comprehensive output capabilities for reporting 
 
 ## Accessibility
 
-The Blazor Stock Chart is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
 
 - **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** - Accessible roles and attributes for the stock chart UI
 - **[Keyboard interaction](./accessibility#keyboard-interaction)** - Complete chart operation via keyboard
@@ -109,7 +109,7 @@ The Blazor Stock Chart is fully accessible and compliant with Web Content Access
 
 ## System requirements
 
-The Blazor Stock Chart works with:
+The [Blazor Stock Chart](https://www.syncfusion.com/blazor-components/blazor-stock-chart) works with:
 
 - **Blazor Version**: .NET 8.0 or higher
 - **Hosting Models**: Blazor Server, Blazor WebAssembly, Blazor Web App
@@ -136,4 +136,4 @@ The Blazor Stock Chart works with:
 - **Code Examples?** Browse [Stock Chart Demos](https://www.syncfusion.com/blazor-components/blazor-stock-chart) and samples
 - **API Details?** See [Stock Chart API Reference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfStockChart.html)
 - **Community?** Join the [Syncfusion Community Forum](https://www.syncfusion.com/forums/blazor-components)
-- **What's New?** Check [Release Notes](../Release-Notes)
+- **What's New?** Check [Release Notes](https://help.syncfusion.com/chart-sdk/release-notes)

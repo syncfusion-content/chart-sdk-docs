@@ -207,3 +207,16 @@ You can customize the legend items by using the [`template`](https://help.syncfu
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/legend/template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
+
+## Expose series and point in legendRender event
+
+The [`legendRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartBuilder.html#Syncfusion_EJ2_Charts_AccumulationChartBuilder_LegendRender_System_String_) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html) model and `args.point` provides the underlying data point. Use these arguments to customize the legend item text dynamically based on series and point data.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/legend/legend-render/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="LegendRender.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/legend/legend-render/LegendRender.cs %}
+{% endhighlight %}
+{% endtabs %}
