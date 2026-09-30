@@ -171,6 +171,23 @@ Using [`tooltipRender`](https://ej2.syncfusion.com/vue/documentation/api/accumul
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/accumulation-chart/series/pie-cs32" %}
 
+## Access data record values in the tooltipRender event
+
+The record associated with the hovered data can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/iAccTooltipRenderEventArgs) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/accumulation-chart/user-interaction/tooltip-cs11/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/accumulation-chart/user-interaction/tooltip-cs11/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/accumulation-chart/user-interaction/tooltip-cs11" %}
+
 ## Tooltip mapping name
 
 By default, tooltip shows information of x and y value in points. You can show more information from datasource in tooltip by using the [`tooltipMappingName`](https://ej2.syncfusion.com/vue/documentation/api/accumulation-chart/accumulationSeriesModel#tooltipmappingname) property of the tooltip. You can use the `${point.tooltip}` as place holders to display the specified tooltip content.

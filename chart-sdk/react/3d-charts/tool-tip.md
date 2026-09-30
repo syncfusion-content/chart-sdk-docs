@@ -142,3 +142,20 @@ The [`fill`](https://ej2.syncfusion.com/react/documentation/api/chart3d/threeDim
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-charts/tooltip/tooltip-cs5" %}
+
+## Access data record values in the tooltipRender event
+
+The record associated with the hovered data can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/react/documentation/api/chart3d/chart3dtooltiprendereventargs) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/3d-charts/tooltip/tooltip-cs7/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/3d-charts/tooltip/tooltip-cs7/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-charts/tooltip/tooltip-cs7" %}
