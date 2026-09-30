@@ -4,9 +4,9 @@ title: Ej1 api migration in JavaScript Chart control | Syncfusion
 description: Learn here all about Ej1 api migration in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Ej1 api migration 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ej1 api migration in JavaScript Chart control

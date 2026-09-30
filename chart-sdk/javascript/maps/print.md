@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Print 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print in JavaScript Maps
