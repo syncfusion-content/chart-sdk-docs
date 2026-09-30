@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Strip line 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Stripline in Angular Charts

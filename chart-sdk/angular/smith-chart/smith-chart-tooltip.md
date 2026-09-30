@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Smith chart tooltip 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Smith Chart Tooltip in Angular Smith Chart

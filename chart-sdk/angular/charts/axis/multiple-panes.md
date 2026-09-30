@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Multiple panes 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Multiple Panes in Angular Charts

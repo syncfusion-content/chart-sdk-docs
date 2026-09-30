@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Bubble 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 This section shows how to add and customize bubbles in the Maps component using the video below.

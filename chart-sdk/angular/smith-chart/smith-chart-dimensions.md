@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Smith chart dimensions 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Smith Chart Dimensions in Angular Smith Chart

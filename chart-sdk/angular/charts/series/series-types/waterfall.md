@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Waterfall
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Waterfall Chart in Angular Charts
