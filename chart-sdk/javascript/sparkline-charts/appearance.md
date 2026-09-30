@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Appearance 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in JavaScript Sparkline Charts
