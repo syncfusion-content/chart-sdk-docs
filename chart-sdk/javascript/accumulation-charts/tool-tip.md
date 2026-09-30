@@ -171,9 +171,9 @@ Using [`tooltipRender`](../api/accumulation-chart/iAccTooltipRenderEventArgs) e
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/chart-types-cs71" %}
 
-## Access data record values in the tooltipRender event
+## Access data values in the tooltipRender event
 
-The record associated with the hovered data can be accessed through the `data.rawData` property of the [`tooltipRender`](../api/accumulation-chart/iAccTooltipRenderEventArgs) event argument. This allows additional values that are not directly mapped to the chart point to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source record. Therefore, modifying this object within the event does not update the chart data source.
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](../api/accumulation-chart/iAccTooltipRenderEventArgs) event argument. This allows additional values that are not directly mapped to the chart point to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
 
 In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
 
