@@ -5,6 +5,7 @@ description: Learn here all about Print and Export in Syncfusion ASP.NET Core Tr
 platform: chart-sdk
 control: Print And Export
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in ASP.NET Core TreeMap

@@ -5,6 +5,7 @@ description: Learn here all about Smith Chart Dimensions in Syncfusion ASP.NET C
 platform: chart-sdk
 control: Smithchart Dimensions
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Working With Data in Syncfusion ASP.NET Core S
 platform: chart-sdk
 control: Working With Data
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

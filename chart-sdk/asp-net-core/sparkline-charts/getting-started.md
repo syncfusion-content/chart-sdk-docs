@@ -5,6 +5,7 @@ description: Check out and learn about getting started with ASP.NET Core Sparkli
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with ASP.NET Core Sparkline Charts

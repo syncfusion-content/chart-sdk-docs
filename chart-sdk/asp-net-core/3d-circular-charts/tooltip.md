@@ -5,6 +5,7 @@ description: Learn here all about tooltip in Syncfusion ASP.NET Core 3D Circular
 platform: chart-sdk
 control: Tooltip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

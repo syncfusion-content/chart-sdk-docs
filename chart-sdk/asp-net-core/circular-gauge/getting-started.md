@@ -5,6 +5,7 @@ description: Check out and learn about getting started with ASP.NET Core Circula
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with ASP.NET Core Circular Gauge

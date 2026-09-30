@@ -5,6 +5,7 @@ description: Learn here all about Box and Whisker Chart in Syncfusion ASP.NET Co
 platform: chart-sdk
 control: Box and Whisker Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

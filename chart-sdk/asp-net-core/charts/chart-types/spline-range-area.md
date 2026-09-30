@@ -5,6 +5,7 @@ description: Learn here all about Spline Range Area Chart in Syncfusion ASP.NET 
 platform: chart-sdk
 control: Spline Range Area Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

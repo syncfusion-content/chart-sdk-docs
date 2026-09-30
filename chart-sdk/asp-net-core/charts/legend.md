@@ -5,6 +5,7 @@ description: Learn here all about Legend in Syncfusion ASP.NET Core Charts compo
 platform: chart-sdk
 control: Legend
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

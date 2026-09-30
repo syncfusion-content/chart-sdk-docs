@@ -5,6 +5,7 @@ description: Learn here all about axis in Syncfusion ASP.NET Core HeatMap Chart 
 platform: chart-sdk
 control: Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Chart Annotations in Syncfusion ASP.NET Core C
 platform: chart-sdk
 control: Chart Annotations
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

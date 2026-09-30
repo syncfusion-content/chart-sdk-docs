@@ -5,6 +5,7 @@ description: Learn here all about Axis Labels in Syncfusion ASP.NET Core 3D Char
 platform: chart-sdk
 control: Axis Labels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

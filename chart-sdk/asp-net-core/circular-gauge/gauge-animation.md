@@ -5,6 +5,7 @@ description: Learn here all about animation in the Syncfusion ASP.NET Core Circu
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in ASP.NET Core Circular Gauge
