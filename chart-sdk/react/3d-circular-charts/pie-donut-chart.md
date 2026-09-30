@@ -6,6 +6,7 @@ control: Pie and Donut
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pie and Donut in React 3D Circular Charts
