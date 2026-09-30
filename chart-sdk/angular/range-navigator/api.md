@@ -6,7 +6,6 @@ platform: chart-sdk
 control: Api 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api in Angular Range navigator component

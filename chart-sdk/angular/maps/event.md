@@ -6,7 +6,6 @@ platform: chart-sdk
 control: Event 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Event in Angular Maps component
