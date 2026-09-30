@@ -6,6 +6,7 @@ control: Drilldown with label
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add a label template with drilldown in Vue TreeMap

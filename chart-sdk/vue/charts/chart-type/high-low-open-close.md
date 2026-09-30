@@ -6,6 +6,7 @@ control: High Low Open Close Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # High Low Open Close Chart in Vue Charts
@@ -14,9 +15,9 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 To render an [`hiloOpenClose`](https://www.syncfusion.com/vue-components/vue-charts/chart-types/ohlc-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
  
-* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#type) as `HiloOpenClose` in your chart configuration. This indicates that the data should be represented as a hiloOpenClose chart, which displays the high, low, open, and close values for each data point, providing a comprehensive visualization of stock price movements.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#type) as `HiloOpenClose` in your chart configuration. This indicates that the data should be represented as a HiloOpenClose chart, which displays the high, low, open, and close values for each data point, providing a comprehensive visualization of stock price movements.
 
-* **Inject the HiloOpenCloseSeries module**: Use the `provide: { chart: [HiloOpenCloseSeries]}` method to inject the `HiloOpenCloseSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering hiloOpenClose series are available in your chart.
+* **Inject the HiloOpenCloseSeries module**: Use the `provide: { chart: [HiloOpenCloseSeries]}` method to inject the `HiloOpenCloseSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering HiloOpenClose series are available in your chart.
 
 * **Provide high, low, open, and close values**: The `HiloOpenClose` series requires five fields (x, high, low, open, and close) to accurately display the stock's high, low, open, and close prices. Ensure that your data source includes these fields to create a detailed representation of stock price movements over time.
 
