@@ -5,6 +5,7 @@ description: Learn here all about Render Methods in Syncfusion ASP.NET MVC Chart
 platform: chart-sdk
 control: Render Methods
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

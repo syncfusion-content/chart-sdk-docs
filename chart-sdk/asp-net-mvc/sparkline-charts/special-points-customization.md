@@ -5,6 +5,7 @@ description: Learn here all about Special Points Customization in Syncfusion ASP
 platform: chart-sdk
 control: Special Points Customization
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

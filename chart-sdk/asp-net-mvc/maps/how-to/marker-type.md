@@ -5,6 +5,7 @@ description: Learn here all about Marker Type in Syncfusion ASP.NET MVC Maps com
 platform: chart-sdk
 control: Marker Type
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add marker types in ASP.NET MVC Maps

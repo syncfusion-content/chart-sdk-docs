@@ -5,6 +5,7 @@ description: Learn here all about Technical Indicators in Syncfusion ASP.NET MVC
 platform: chart-sdk
 control: Technical Indicators
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

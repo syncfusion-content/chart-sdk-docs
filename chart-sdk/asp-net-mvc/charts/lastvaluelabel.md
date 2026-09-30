@@ -5,6 +5,7 @@ description: Learn here all about Data Labels in Syncfusion ASP.NET MVC Charts c
 platform: chart-sdk
 control: Last value label
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Last Value Label in ASP.NET MVC Charts

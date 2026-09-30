@@ -5,6 +5,7 @@ description: Learn here all about Comparative Bar in Syncfusion ASP.NET MVC Bull
 platform: chart-sdk
 control: Comparative Bar
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

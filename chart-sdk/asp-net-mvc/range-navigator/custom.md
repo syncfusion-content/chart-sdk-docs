@@ -5,6 +5,7 @@ description: Learn here all about Custom in Syncfusion ASP.NET MVC Range Navigat
 platform: chart-sdk
 control: Custom
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

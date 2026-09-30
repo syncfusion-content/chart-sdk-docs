@@ -5,6 +5,7 @@ description: Learn here all about Tooltip in Syncfusion ASP.NET MVC Heatmap Char
 platform: chart-sdk
 control: Tooltip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

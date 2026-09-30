@@ -5,6 +5,7 @@ description: Learn here all about Gauge Ranges in Syncfusion ASP.NET MVC Circula
 platform: chart-sdk
 control: Gauge Ranges
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ranges in ASP.NET MVC Circular Gauge

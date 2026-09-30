@@ -5,6 +5,7 @@ description: Learn here all about Ajax Chart Call in Syncfusion ASP.NET MVC Char
 platform: chart-sdk
 control: Ajax Chart Call
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

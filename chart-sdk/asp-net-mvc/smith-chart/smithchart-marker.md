@@ -5,6 +5,7 @@ description: Learn here all about Smith Chart Marker in Syncfusion ASP.NET MVC S
 platform: chart-sdk
 control: Smithchart Marker
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

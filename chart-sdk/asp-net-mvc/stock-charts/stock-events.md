@@ -5,6 +5,7 @@ description: Learn here all about Stock Events in Syncfusion ASP.NET MVC Stock C
 platform: chart-sdk
 control: Stock Events
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

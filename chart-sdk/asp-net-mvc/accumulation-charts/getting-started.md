@@ -5,6 +5,7 @@ description: Checkout and learn about getting started with ASP.NET MVC Accumulat
 platform: chart-sdk
 control: Getting Started
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

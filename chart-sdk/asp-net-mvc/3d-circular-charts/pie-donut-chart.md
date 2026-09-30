@@ -5,6 +5,7 @@ description: Learn here all about Pie and Donut in Syncfusion ASP.NET MVC 3D Cir
 platform: chart-sdk
 control: Pie and Donut
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
