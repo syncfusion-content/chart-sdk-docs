@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Bubble 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubble in TypeScript Maps Component
