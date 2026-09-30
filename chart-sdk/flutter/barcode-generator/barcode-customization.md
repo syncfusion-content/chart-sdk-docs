@@ -5,7 +5,6 @@ description: Learn about customization options in Syncfusion® Flutter Barcodes 
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Customization in Flutter Barcodes (SfBarcodeGenerator)

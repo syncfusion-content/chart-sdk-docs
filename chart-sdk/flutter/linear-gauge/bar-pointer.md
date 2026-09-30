@@ -5,7 +5,6 @@ description: Learn about bar pointers in Syncfusion® Flutter Linear Gauge (SfLi
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bar Pointer in Flutter Linear Gauge (SfLinearGauge)

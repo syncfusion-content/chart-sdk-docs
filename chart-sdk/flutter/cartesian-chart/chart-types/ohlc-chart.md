@@ -5,7 +5,6 @@ description: The open high low close chart support in Flutter Cartesian Chart of
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Open High Low Close in Flutter Cartesian Chart

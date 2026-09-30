@@ -5,7 +5,6 @@ description: Learn about legend support in Syncfusion® Flutter Maps (SfMaps), i
 platform: chart-sdk
 control: SfMaps
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in Flutter Maps (SfMaps)

@@ -5,7 +5,6 @@ description: The selection support in Flutter Cartesian Chart offers interactive
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection in Flutter Cartesian Chart

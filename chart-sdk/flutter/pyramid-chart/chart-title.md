@@ -5,7 +5,6 @@ description: The chart title support in Flutter Pyramid Chart offers customizabl
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart title in Flutter Pyramid Chart

@@ -5,7 +5,6 @@ description: Learn about accessibility support in Syncfusion® Flutter Barcodes 
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Barcodes (SfBarcodeGenerator)

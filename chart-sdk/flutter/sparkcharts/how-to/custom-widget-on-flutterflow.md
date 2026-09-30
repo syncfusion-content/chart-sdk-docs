@@ -5,7 +5,6 @@ description: Add Syncfusion® Flutter Spark Chart in FlutterFlow to create compa
 platform: chart-sdk
 control: Sparkline
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add Syncfusion® Spark Chart in FlutterFlow

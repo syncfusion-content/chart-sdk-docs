@@ -5,7 +5,6 @@ description: The data label support in Flutter Circular Chart offers customizabl
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Labels in Flutter Circular Chart

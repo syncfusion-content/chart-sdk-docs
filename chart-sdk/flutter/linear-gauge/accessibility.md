@@ -5,7 +5,6 @@ description: Learn about accessibility support in Syncfusion® Flutter Linear Ga
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Linear Gauge (SfLinearGauge)

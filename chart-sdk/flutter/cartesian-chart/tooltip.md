@@ -5,7 +5,6 @@ description: The tooltip support in Flutter Cartesian Chart offers interactive d
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Flutter Cartesian Chart

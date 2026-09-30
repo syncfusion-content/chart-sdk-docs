@@ -5,7 +5,6 @@ description: The spline area chart support in Flutter Cartesian Chart offers smo
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Spline Area Chart in Flutter Cartesian Chart
