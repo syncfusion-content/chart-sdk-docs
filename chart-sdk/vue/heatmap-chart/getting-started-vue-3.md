@@ -6,6 +6,7 @@ control: HeatMap Chart
 documentation: ug
 platform: chart-sdk
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Vue 3 HeatMap Chart

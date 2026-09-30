@@ -6,6 +6,7 @@ control: Maps
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with the Vue Maps Component in Vue 3

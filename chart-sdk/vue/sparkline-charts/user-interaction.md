@@ -6,6 +6,7 @@ control: User interaction
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # User Interaction in Vue Sparkline Charts
