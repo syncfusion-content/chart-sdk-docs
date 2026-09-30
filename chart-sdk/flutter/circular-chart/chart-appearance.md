@@ -5,7 +5,6 @@ description: The customization support in Flutter Circular Chart offers extensiv
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Customization in Flutter Circular Chart

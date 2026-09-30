@@ -5,7 +5,6 @@ description: Learn how to add and use Syncfusion® Flutter Barcodes (SfBarcodeGe
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Add Barcodes in FlutterFlow (SfBarcodeGenerator)

@@ -5,7 +5,6 @@ description: Add Syncfusion® Cartesian Chart in FlutterFlow to visualize data w
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add Syncfusion® Cartesian Chart in FlutterFlow

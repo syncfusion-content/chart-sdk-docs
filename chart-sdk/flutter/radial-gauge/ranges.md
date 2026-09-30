@@ -5,7 +5,6 @@ description: Learn about ranges in Syncfusion® Flutter Radial Gauge (SfRadialGa
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ranges in Flutter Radial Gauge (SfRadialGauge)

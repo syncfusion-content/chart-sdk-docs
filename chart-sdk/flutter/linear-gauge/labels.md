@@ -5,7 +5,6 @@ description: Learn about label customization in Syncfusion® Flutter Linear Gaug
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Labels in Flutter Linear Gauge (SfLinearGauge)

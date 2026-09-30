@@ -5,7 +5,6 @@ description: The annotation support in Flutter Cartesian Chart offers custom con
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotation in Flutter Cartesian Chart

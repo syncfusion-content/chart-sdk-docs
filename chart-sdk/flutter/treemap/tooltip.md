@@ -5,7 +5,6 @@ description: Learn about tooltip support in Syncfusion® Flutter Treemap (SfTree
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Flutter Treemap (SfTreemap)

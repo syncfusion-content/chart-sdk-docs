@@ -5,7 +5,6 @@ description: The line chart support in Flutter Cartesian Chart offers trend visu
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Line Chart in Flutter Cartesian Chart

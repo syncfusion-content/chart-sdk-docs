@@ -5,7 +5,6 @@ description: The selection support in Flutter Funnel Chart offers interactive se
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection in Flutter Funnel Chart

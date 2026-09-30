@@ -5,7 +5,6 @@ description: Learn about accessibility support in Syncfusion® Flutter Treemap (
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Treemap (SfTreemap)
