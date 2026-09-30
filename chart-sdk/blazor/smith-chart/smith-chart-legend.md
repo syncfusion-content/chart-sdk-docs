@@ -5,6 +5,7 @@ description: Learn how to enable and customize the legend in Syncfusion Blazor S
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Legend

@@ -5,6 +5,7 @@ description: Learn how to add annotations in Syncfusion Blazor Charts. Highlight
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Annotation

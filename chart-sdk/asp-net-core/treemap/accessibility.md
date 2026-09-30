@@ -5,6 +5,7 @@ description: Learn here all about Accessibility in Syncfusion ASP.NET Core TreeM
 platform: chart-sdk
 control: Accessibility
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

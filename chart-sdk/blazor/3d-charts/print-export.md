@@ -5,6 +5,7 @@ description: Learn how to print and export Syncfusion Blazor 3D Chart using Prin
 platform: chart-sdk
 control: 3D Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor 3D Chart Print and Export

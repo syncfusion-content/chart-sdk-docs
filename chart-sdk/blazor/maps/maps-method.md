@@ -5,6 +5,7 @@ description: Learn how to use Blazor Maps methods like ShapeSelectionAsync, Prin
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Methods Support

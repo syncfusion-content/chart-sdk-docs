@@ -5,6 +5,7 @@ description: Learn here all about Gauge Axes in Syncfusion ASP.NET MVC Circular 
 platform: chart-sdk
 control: Gauge Axes
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axes in ASP.NET MVC Circular Gauge

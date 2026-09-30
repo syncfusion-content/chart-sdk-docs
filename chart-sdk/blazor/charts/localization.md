@@ -5,6 +5,7 @@ description: Learn how to localize Syncfusion Blazor Charts. Configure the local
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Localization

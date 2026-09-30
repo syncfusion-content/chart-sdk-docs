@@ -5,6 +5,7 @@ description: Learn how to animate axis, ticks, labels, ranges, pointers, and ann
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Animation

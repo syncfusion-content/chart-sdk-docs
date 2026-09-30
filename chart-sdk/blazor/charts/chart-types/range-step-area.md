@@ -5,6 +5,7 @@ description: Learn how to create Blazor Range Step Area Charts using Syncfusion.
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Step Area Chart in Blazor

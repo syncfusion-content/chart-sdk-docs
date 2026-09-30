@@ -5,6 +5,7 @@ description: Learn how to bind flat, hierarchical, and remote data to the Blazor
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Data Binding

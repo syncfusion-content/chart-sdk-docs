@@ -5,6 +5,7 @@ description: Learn how to provide GeoJSON shape data and statistical data source
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Populate Data

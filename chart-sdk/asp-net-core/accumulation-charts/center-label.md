@@ -5,6 +5,7 @@ description: Learn here all about Center Label in Syncfusion ASP.NET Core Accumu
 platform: chart-sdk
 control: Center Label
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Center Label in ASP.NET Core Accumulation Charts

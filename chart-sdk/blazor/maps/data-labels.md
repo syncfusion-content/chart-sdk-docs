@@ -5,6 +5,7 @@ description: Learn how to display shape names or data source fields as labels in
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Data Labels

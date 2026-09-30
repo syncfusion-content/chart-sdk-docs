@@ -5,6 +5,7 @@ description: Learn how to stack multiple shape files and tile providers in Blazo
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Layers Support

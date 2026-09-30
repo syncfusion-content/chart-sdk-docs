@@ -5,6 +5,7 @@ description: Learn here all about Localization in Syncfusion ASP.NET Core Charts
 platform: chart-sdk
 control: Localization
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

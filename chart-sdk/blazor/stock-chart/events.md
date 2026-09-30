@@ -5,6 +5,7 @@ description: Learn how to handle Blazor Stock Chart events, including Loaded, On
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Events

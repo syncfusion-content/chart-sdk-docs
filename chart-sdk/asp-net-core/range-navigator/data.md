@@ -5,6 +5,7 @@ description: Learn here all about Data in Syncfusion ASP.NET Core Range Navigato
 platform: chart-sdk
 control: Data
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

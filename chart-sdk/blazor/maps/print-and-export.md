@@ -5,6 +5,7 @@ description: Learn how to print Blazor Maps or export as JPEG, PNG, or SVG using
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Print and Export

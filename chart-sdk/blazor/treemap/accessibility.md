@@ -5,6 +5,7 @@ description: Learn how to make the Blazor TreeMap accessible with WAI-ARIA roles
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Accessibility

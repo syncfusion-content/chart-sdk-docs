@@ -5,6 +5,7 @@ description: Learn here all about Annotations in Syncfusion ASP.NET MVC Linear G
 platform: chart-sdk
 control: Annotations
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

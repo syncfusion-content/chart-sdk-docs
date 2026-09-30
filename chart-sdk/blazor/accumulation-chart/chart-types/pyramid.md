@@ -5,6 +5,7 @@ description: Learn how to render a Pyramid Chart in Syncfusion Blazor Accumulati
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pyramid Chart in Blazor

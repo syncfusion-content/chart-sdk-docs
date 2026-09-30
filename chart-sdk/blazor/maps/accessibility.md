@@ -5,6 +5,7 @@ description: Learn how Blazor Maps meet WCAG 2.2, Section 508, WAI-ARIA, and scr
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Accessibility

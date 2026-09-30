@@ -6,6 +6,7 @@ control: Multiple Panes
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Multiple Panes in React 3D Charts

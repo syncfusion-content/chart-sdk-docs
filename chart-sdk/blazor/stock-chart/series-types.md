@@ -5,6 +5,7 @@ description: Learn how to render the Blazor Stock Chart with six series types â€
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Series Types

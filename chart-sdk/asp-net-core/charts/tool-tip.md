@@ -5,6 +5,7 @@ description: Learn here all about Tooltip in Syncfusion ASP.NET Core Charts comp
 platform: chart-sdk
 control: Tool Tip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
@@ -145,6 +146,23 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-tooltip.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/custom-tooltip/custom-tooltip.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+
+
+## Access data values in the tooltipRender event
+
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TooltipRender) event argument. This is useful when the data source contains additional fields that are not directly available in the chart point. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
+
+In the following example, the `country` and `growth` fields are retrieved from `args.data.rawData` and added to the tooltip content.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/tooltip-raw-data/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Tooltip-raw-data.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/tooltip-raw-data/tooltip-raw-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 

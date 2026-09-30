@@ -5,6 +5,7 @@ description: Customize the visual style of Syncfusion Blazor Range Selector with
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Style and Appearance

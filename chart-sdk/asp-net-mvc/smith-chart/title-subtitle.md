@@ -5,6 +5,7 @@ description: Learn here all about Title and Subtitle in Syncfusion ASP.NET MVC S
 platform: chart-sdk
 control: Title and Subtitle
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

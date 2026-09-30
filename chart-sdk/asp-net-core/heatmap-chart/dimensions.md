@@ -5,6 +5,7 @@ description: Learn here all about Dimensions in Syncfusion ASP.NET Core Heatmap 
 platform: chart-sdk
 control: Dimensions
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

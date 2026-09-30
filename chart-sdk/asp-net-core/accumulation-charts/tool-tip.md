@@ -5,6 +5,7 @@ description: Learn here all about Tooltip in Syncfusion ASP.NET Core Accumulatio
 platform: chart-sdk
 control: Tooltip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
@@ -193,6 +194,23 @@ public class PieChartData
     public string xValue;
     public double yValue;
 }
+{% endhighlight %}
+{% endtabs %}
+
+
+
+## Access data values in the tooltipRender event
+
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_TooltipRender) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/tooltip/tooltip-raw-data/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Tooltip-raw-data.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/tooltip/tooltip-raw-data/tooltip-raw-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 

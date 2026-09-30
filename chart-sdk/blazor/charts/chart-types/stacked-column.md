@@ -5,6 +5,7 @@ description: Learn how to create Blazor Stacked Column Charts using Syncfusion. 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Stacked Column Chart in Blazor

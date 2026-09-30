@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Localization 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Localization in TypeScript Sparkline Charts

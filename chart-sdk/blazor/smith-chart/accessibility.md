@@ -5,6 +5,7 @@ description: Learn how to enable accessibility in Syncfusion Blazor Smith Chart 
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Accessibility

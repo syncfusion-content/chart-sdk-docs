@@ -5,6 +5,7 @@ description: Learn how to enable drag-and-drop data editing in Syncfusion Blazor
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Data Editing

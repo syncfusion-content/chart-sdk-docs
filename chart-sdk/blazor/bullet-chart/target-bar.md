@@ -5,6 +5,7 @@ description: Learn how to render the target bar (comparative measure) in Syncfus
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Target Bar

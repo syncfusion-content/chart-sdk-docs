@@ -5,6 +5,7 @@ description: Learn here all about Numeric Axis in Syncfusion ASP.NET Core Charts
 platform: chart-sdk
 control: Numeric Axis
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

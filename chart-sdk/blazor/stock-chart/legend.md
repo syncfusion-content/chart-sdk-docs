@@ -5,6 +5,7 @@ description: Learn how to show a legend on the Blazor Stock Chart at Left, Right
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Legend

@@ -5,6 +5,7 @@ description: Learn here all about Axis Types in Syncfusion ASP.NET Core Stock Ch
 platform: chart-sdk
 control: Axis Types
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn about user interaction features in Syncfusion Blazor Sparklin
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts User Interaction

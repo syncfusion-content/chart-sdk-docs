@@ -5,6 +5,7 @@ description: Learn how to localize Blazor Maps UI text such as zoom tooltips and
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Localization

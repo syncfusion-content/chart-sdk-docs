@@ -5,6 +5,7 @@ description: Learn how to enable and customize data labels in Syncfusion Blazor 
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Data Labels

@@ -5,6 +5,7 @@ description: Learn here all about Gauge User Interaction in Syncfusion ASP.NET C
 platform: chart-sdk
 control: Gauge User Interaction
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # User Interaction in ASP.NET Core Circular Gauge

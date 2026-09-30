@@ -5,6 +5,7 @@ description: Learn here all about Print and Export in Syncfusion ASP.NET Core Sa
 platform: chart-sdk
 control: Print and Export
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in ASP.NET Core Sankey Diagram

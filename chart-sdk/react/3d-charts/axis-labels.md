@@ -6,6 +6,7 @@ control: Axis Labels
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis Labels in React 3D Charts

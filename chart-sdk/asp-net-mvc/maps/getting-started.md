@@ -5,6 +5,7 @@ description: Check out and learn about getting started with ASP.NET MVC Maps Con
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with ASP.NET MVC Maps

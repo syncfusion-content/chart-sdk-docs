@@ -5,6 +5,7 @@ description: Learn how to add striplines in Syncfusion Blazor Charts. Use ChartS
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

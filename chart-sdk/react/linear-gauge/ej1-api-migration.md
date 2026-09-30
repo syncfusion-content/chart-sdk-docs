@@ -6,6 +6,7 @@ control: Ej1 api migration
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Migration from Essential JS 1 in React Linear Gauge

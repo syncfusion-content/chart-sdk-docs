@@ -5,6 +5,7 @@ description: Learn here all about Tooltip Template in Syncfusion ##Platform_Name
 platform: chart-sdk
 control: Tooltip Template
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

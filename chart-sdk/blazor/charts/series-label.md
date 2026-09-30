@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Charts
 documentation: ug
 keywords: Blazor Chart series label, series label, chart labels, inline series labels, chart series customization, SeriesLabelSettings
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Series Label

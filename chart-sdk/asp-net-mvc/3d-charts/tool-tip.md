@@ -5,6 +5,7 @@ description: Learn here all about tooltip in Syncfusion ASP.NET MVC 3D Charts co
 platform: chart-sdk
 control: Tooltip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in ASP.NET MVC 3D Charts
@@ -135,3 +136,18 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.
 {% endtabs %}
 
 
+
+## Access data values in the tooltipRender event
+
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/syncfusion.ej2.charts.chart3d.html#Syncfusion_EJ2_Charts_Chart3D_TooltipRender) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/tooltip-raw-data/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="Tooltip-raw-data.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/user-interaction/tooltip-raw-data/Tooltip-raw-data.cs %}
+{% endhighlight %}
+{% endtabs %}

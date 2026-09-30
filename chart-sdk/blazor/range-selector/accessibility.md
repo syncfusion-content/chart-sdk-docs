@@ -5,6 +5,7 @@ description: Learn about accessibility in Syncfusion Blazor Range Selector with 
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Accessibility

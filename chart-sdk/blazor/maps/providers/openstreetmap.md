@@ -5,6 +5,7 @@ description: Learn how to render free OpenStreetMap tiles in Blazor Maps by sett
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps OpenStreetMap Provider

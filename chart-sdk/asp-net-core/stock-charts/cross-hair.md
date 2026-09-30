@@ -5,6 +5,7 @@ description: Learn here all about Cross Hair in Syncfusion ASP.NET Core Stock Ch
 platform: chart-sdk
 control: Cross Hair
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
