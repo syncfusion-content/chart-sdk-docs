@@ -94,7 +94,7 @@ The [`opacity`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#op
 
 **Border**
 
-Use the [`border`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#border) property to configure the border width, color, and dasharray of the stacked bar series.
+Use the [`border`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the stacked bar series.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
