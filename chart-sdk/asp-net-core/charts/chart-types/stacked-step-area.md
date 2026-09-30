@@ -5,6 +5,7 @@ description: Learn here all about Stacked Step Area Chart in Syncfusion ASP.NET 
 platform: chart-sdk
 control: Stacked Step Area Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

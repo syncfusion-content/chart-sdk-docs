@@ -5,6 +5,7 @@ description: Learn here all about Tooltip in Syncfusion ASP.NET Core Charts comp
 platform: chart-sdk
 control: Tool Tip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

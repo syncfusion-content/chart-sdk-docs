@@ -5,6 +5,7 @@ description: Learn here all about Multiple Layer in Syncfusion ASP.NET Core Maps
 platform: chart-sdk
 control: Multiple Layer
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add multiple layers in ASP.NET Core Maps

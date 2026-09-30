@@ -5,6 +5,7 @@ description: Learn here how to use Data Labels in Syncfusion ASP.NET Core Charts
 platform: chart-sdk
 control: Data Labels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn here all about Chart Print in Syncfusion ASP.NET Core Charts 
 platform: chart-sdk
 control: Chart print
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in ASP.NET Core Charts

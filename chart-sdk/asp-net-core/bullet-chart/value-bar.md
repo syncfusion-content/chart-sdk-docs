@@ -5,6 +5,7 @@ description: Learn here all about Value Bar in Syncfusion ASP.NET Core Bullet Ch
 platform: chart-sdk
 control: Value Bar
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
