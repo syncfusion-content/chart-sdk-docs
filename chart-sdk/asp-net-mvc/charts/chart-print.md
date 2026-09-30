@@ -5,6 +5,7 @@ description: Learn here all about Chart Print and Export in Syncfusion ASP.NET M
 platform: chart-sdk
 control: Chart print
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Print and Export in ASP.NET MVC Charts component

@@ -5,6 +5,7 @@ description: Learn here all about selection in Syncfusion ASP.NET MVC 3D Charts 
 platform: chart-sdk
 control: Selection
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection in ASP.NET MVC 3D Charts

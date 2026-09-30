@@ -5,6 +5,7 @@ description: Learn here all about Working With Data in Syncfusion ASP.NET MVC Sm
 platform: chart-sdk
 control: Working with Data
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

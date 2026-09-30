@@ -5,6 +5,7 @@ description: Learn here all about tooltip in Syncfusion ASP.NET MVC 3D Charts co
 platform: chart-sdk
 control: Tooltip
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in ASP.NET MVC 3D Charts

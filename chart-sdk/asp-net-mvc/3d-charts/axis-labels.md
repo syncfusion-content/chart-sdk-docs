@@ -5,6 +5,7 @@ description: Learn here all about axis labels in Syncfusion ASP.NET MVC 3D Chart
 platform: chart-sdk
 control: Axis Labels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

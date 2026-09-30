@@ -5,6 +5,7 @@ description: Learn here all about How To in Syncfusion ASP.NET MVC Linear Gauge 
 platform: chart-sdk
 control: How To
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to render gauges in ASP.NET MVC Linear Gauge

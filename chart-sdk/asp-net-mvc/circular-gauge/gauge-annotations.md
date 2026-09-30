@@ -5,6 +5,7 @@ description: Learn here all about Gauge Annotations in Syncfusion ASP.NET MVC Ci
 platform: chart-sdk
 control: Gauge Annotations
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotations in ASP.NET MVC Circular Gauge

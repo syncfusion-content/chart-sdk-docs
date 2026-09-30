@@ -5,6 +5,7 @@ description: Learn here all about Data Label in Syncfusion ASP.NET MVC Maps comp
 platform: chart-sdk
 control: Data Label
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Labels in ASP.NET MVC Maps

@@ -5,6 +5,7 @@ description: Learn here all about Chart Print in Syncfusion ASP.NET MVC Accumula
 platform: chart-sdk
 control: Chart Print
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
