@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Annotation
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotation in TypeScript Accumulation Charts
