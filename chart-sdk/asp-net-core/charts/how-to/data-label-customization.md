@@ -6,7 +6,6 @@ platform: chart-sdk
 control: Data Label Customization
 publishingplatform: chart-sdk
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 
