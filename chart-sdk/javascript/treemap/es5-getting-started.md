@@ -4,7 +4,6 @@ title: ES5 getting started with JavaScript TreeMap component | Syncfusion
 description: Learn how to create and configure a Syncfusion JavaScript ES5 TreeMap component using CDN resources, data binding, and rendering.
 platform: chart-sdk
 control: TreeMap
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
