@@ -5,6 +5,7 @@ description: Learn how to print and export Syncfusion Blazor Accumulation Chart.
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Accumulation Chart Print and Export

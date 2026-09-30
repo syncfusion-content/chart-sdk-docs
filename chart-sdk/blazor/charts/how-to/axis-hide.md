@@ -5,6 +5,7 @@ description: Learn how to hide a chart axis in Blazor Charts using Syncfusion. T
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

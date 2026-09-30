@@ -5,6 +5,7 @@ description: Learn how to customize Blazor Maps with Width, Height, title, subti
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Customization

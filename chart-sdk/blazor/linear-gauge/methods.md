@@ -5,6 +5,7 @@ description: Learn how to update the Blazor Linear Gauge dynamically using SetPo
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Methods

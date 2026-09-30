@@ -5,6 +5,7 @@ description: Learn how to add a title and subtitle to Syncfusion Blazor Bullet C
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Title and Subtitle

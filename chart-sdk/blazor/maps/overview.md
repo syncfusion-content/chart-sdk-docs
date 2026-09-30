@@ -5,6 +5,7 @@ description: Learn how to use Blazor Maps to visualize geographical data with sh
 platform: Blazor
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Documentation Overview

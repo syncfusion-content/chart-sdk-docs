@@ -5,6 +5,7 @@ description: Learn how to render data-driven bubbles on Blazor Maps by binding a
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Bubble Visualization

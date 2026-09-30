@@ -5,6 +5,7 @@ description: Learn about events in Syncfusion Blazor Bullet Chart such as Loaded
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Events

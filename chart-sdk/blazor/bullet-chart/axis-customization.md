@@ -5,6 +5,7 @@ description: Learn how to customize the axis in Syncfusion Blazor Bullet Chart, 
 platform: chart-sdk
 control: Bullet Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Bullet Chart Axis Customization

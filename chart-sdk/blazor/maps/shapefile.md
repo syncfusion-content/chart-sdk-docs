@@ -5,6 +5,7 @@ description: Learn how to import remotely hosted shapefiles into Blazor Maps via
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Shapefile

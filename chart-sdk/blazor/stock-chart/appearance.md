@@ -5,6 +5,7 @@ description: Learn how to customize the Blazor Stock Chart's title font, color, 
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Appearance

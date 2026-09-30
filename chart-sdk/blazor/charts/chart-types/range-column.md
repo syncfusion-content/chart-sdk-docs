@@ -5,6 +5,7 @@ description: Learn how to create Blazor Range Column Charts using Syncfusion. Vi
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Column Chart in Blazor

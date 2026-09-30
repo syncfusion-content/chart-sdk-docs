@@ -5,6 +5,7 @@ description: Learn how to call Blazor Circular Gauge methods such as SetAnnotati
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge Methods

@@ -5,6 +5,7 @@ description: Learn how to customize the Blazor Circular Gauge title, position, a
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge Appearance

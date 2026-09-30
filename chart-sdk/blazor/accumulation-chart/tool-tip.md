@@ -5,6 +5,7 @@ description: Learn how to enable and customize tooltips in Syncfusion Blazor Acc
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Accumulation Chart Tooltip

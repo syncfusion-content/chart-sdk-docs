@@ -5,6 +5,7 @@ description: Learn how to create Blazor Bubble Charts using Syncfusion. Visualiz
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubble Chart in Blazor

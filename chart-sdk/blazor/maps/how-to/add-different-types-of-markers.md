@@ -5,6 +5,7 @@ description: Learn how to add and customize different marker shapes in Blazor Ma
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Add Different Types of Markers in Blazor Maps

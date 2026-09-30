@@ -5,6 +5,7 @@ description: Learn how to add a threshold to a Blazor Chart using Syncfusion. Ma
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

@@ -5,6 +5,7 @@ description: Learn how to use Blazor Charts for data visualization with 50+ char
 platform: Blazor
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Documentation Overview

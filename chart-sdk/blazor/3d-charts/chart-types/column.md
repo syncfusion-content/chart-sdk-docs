@@ -5,6 +5,7 @@ description: Learn how to render a Column Chart in Syncfusion Blazor 3D Chart by
 platform: chart-sdk
 control: 3D Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor 3D Column Chart

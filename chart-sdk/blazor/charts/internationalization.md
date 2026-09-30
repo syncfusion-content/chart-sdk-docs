@@ -5,6 +5,7 @@ description: Learn how to globalize Syncfusion Blazor Charts. Configure LabelFor
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Internationalization

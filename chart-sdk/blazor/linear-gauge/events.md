@@ -5,6 +5,7 @@ description: Learn how to handle Blazor Linear Gauge events such as AnnotationRe
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Events

@@ -5,6 +5,7 @@ description: Learn how to set the Blazor Circular Gauge size in pixels or as a p
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge Dimensions

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Sunburst Chart
 documentation: ug
 keywords: Blazor Sunburst Chart tooltip, Sunburst Chart tooltip, tooltip settings, tooltip format, tooltip customization, tooltip text style, tooltip border, SunburstTooltipSettings, tooltip highlight
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sunburst Chart Tooltip

@@ -5,6 +5,7 @@ description: Learn how to add text, HTML, or image annotations to the Blazor Lin
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Linear Gauge Annotations

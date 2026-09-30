@@ -5,6 +5,7 @@ description: Learn how to enable zooming and panning in Syncfusion Blazor Charts
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Zooming and Panning

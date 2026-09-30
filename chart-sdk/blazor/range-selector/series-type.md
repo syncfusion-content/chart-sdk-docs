@@ -5,6 +5,7 @@ description: Learn about the supported series types in Syncfusion Blazor Range S
 platform: chart-sdk
 control: Range Selector
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Range Selector Series Type

@@ -5,6 +5,7 @@ description: Learn how to use the Blazor HeatMap Chart with WCAG 2.2, Section 50
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Accessibility

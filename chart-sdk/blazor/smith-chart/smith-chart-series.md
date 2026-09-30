@@ -5,6 +5,7 @@ description: Learn how to add and customize series in Syncfusion Blazor Smith Ch
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Series

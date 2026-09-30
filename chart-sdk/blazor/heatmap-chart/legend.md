@@ -5,6 +5,7 @@ description: Learn how to display Blazor HeatMap Chart legends as gradient or fi
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Legend

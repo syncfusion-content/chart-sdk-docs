@@ -5,6 +5,7 @@ description: Learn how to render Blazor Maps inside Dashboard Layout, Tab, Dialo
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Place Maps Inside Other Components in Blazor Maps

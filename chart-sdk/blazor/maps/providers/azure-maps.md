@@ -5,6 +5,7 @@ description: Learn how to render Microsoft Azure Maps tiles in Blazor Maps by se
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps Azure Maps Provider
