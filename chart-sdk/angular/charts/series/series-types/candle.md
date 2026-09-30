@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Candle
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Candle Chart in Angular Charts

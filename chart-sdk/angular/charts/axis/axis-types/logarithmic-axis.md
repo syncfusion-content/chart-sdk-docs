@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Logarithmic axis 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Logarithmic Axis in Angular Charts

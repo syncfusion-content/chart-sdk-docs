@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Chart annotations
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotations in Angular Charts

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: R t l 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # R T L in Angular Range Navigator

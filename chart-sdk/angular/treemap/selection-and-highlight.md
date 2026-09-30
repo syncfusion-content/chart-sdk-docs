@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Selection and highlight 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection and Highlight in Angular TreeMap

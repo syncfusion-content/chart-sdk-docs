@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Column width 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Customize Column Width in Angular Charts

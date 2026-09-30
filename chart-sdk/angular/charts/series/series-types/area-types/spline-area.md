@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Spline Area Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 # Spline Area Chart in Angular Charts
 
