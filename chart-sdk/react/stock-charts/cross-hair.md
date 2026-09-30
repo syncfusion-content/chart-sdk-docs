@@ -6,6 +6,7 @@ control: Cross hair
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Crosshair in React Stock Chart

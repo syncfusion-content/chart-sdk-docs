@@ -6,6 +6,7 @@ control: Accessibility customization
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility Customization in React Accumulation Charts

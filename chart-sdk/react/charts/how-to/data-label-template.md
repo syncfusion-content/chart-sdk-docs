@@ -6,6 +6,7 @@ control: Data label template
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to use a data label template in React Charts

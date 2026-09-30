@@ -6,6 +6,7 @@ control: Azure maps
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Azure Maps in React Maps
