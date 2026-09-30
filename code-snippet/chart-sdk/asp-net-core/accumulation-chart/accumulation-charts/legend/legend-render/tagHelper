@@ -1,0 +1,29 @@
+<!-- Accumulation Chart -->
+<ejs-accumulationchart id="container" legendRender="legendRender" load="load"
+    title="Browser Market Share" center="ViewBag.center">
+
+    <!-- SERIES COLLECTION -->
+    <e-accumulation-series-collection>
+        <e-accumulation-series name="Browser Share"
+            type="@Syncfusion.EJ2.Charts.AccumulationType.Pie"
+            dataSource="ViewBag.dataSource"
+            xName="x" yName="y" explode="true" explodeOffset="10%">
+            <e-accumulationseries-datalabel visible="true" name="text"
+                position="@Syncfusion.EJ2.Charts.AccumulationLabelPosition.Outside">
+            </e-accumulationseries-datalabel>
+        </e-accumulation-series>
+    </e-accumulation-series-collection>
+
+    <!-- LEGEND -->
+    <e-accumulationchart-legendsettings visible="true" position="Right">
+    </e-accumulationchart-legendsettings>
+
+</ejs-accumulationchart>
+
+<script>
+    function legendRender(args) {
+        if (args.point) {
+            args.text = args.point.x + ' (' + args.point.y + '%)';
+        }
+    }
+</script>

@@ -1,0 +1,27 @@
+@Html.EJS().Chart("container")
+    .Title("Sales Performance by Year")
+    .LegendRender("legendRender")
+    .Load("load")
+    .PrimaryXAxis(px => px.Title("Year").ValueType(Syncfusion.EJ2.Charts.ValueType.Double))
+    .PrimaryYAxis(py => py.Title("Sales (in USD)"))
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Column)
+              .XName("x").YName("y")
+              .DataSource(ViewBag.dataSource)
+              .Name("Annual Sales")
+              .Animation(a => a.Enable(false))
+              .Marker(m => m.Visible(true))
+              .Add();
+    })
+    .LegendSettings(legend => legend.Visible(true).Position(Syncfusion.EJ2.Charts.LegendPosition.Bottom).Mode(Syncfusion.EJ2.Charts.LegendMode.Point))
+    .Render()
+
+<script>
+    function legendRender(args) {
+        // `args.point` is available only when `legendSettings.mode` is `'Point'`.
+        if (args.point) {
+            args.text = args.series.name + ' (' + args.point.x + ', ' + args.point.y + ')';
+        }
+    }
+</script>

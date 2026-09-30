@@ -1,0 +1,34 @@
+<!-- Chart -->
+<ejs-chart id="container" legendRender="legendRender" load="load"
+    title="Sales Performance by Year">
+
+    <e-chart-primaryxaxis title="Year" valueType="Double">
+    </e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Sales (in USD)">
+    </e-chart-primaryyaxis>
+
+    <!-- SERIES COLLECTION -->
+    <e-series-collection>
+        <e-series name="Annual Sales"
+            type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column"
+            dataSource="ViewBag.dataSource"
+            xName="x" yName="y">
+            <e-series-animation enable="false"></e-series-animation>
+            <e-series-marker visible="true"></e-series-marker>
+        </e-series>
+    </e-series-collection>
+
+    <!-- LEGEND -->
+    <e-chart-legendsettings visible="true" position="Bottom" mode="Point">
+    </e-chart-legendsettings>
+
+</ejs-chart>
+
+<script>
+    function legendRender(args) {
+        // `args.point` is available only when `legendSettings.mode` is `'Point'`.
+        if (args.point) {
+            args.text = args.series.name + ' (' + args.point.x + ', ' + args.point.y + ')';
+        }
+    }
+</script>
