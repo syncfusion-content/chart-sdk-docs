@@ -5,6 +5,7 @@ description: Learn here all about dimensions in Syncfusion ASP.NET Core 3D Chart
 platform: chart-sdk
 control: Dimensions
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Dimensions in ASP.NET Core 3D Charts

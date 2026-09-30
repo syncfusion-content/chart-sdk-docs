@@ -5,6 +5,7 @@ description: Learn here all about Azure Maps in the Syncfusion ASP.NET Core Maps
 platform: chart-sdk
 control: Azure Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Azure Maps in ASP.NET Core Maps

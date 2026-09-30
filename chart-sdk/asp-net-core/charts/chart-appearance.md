@@ -5,6 +5,7 @@ description: Learn here all about Appearance in ASP.NET Core Charts component of
 platform: chart-sdk
 control: Chart Appearance
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

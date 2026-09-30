@@ -5,6 +5,7 @@ description: Learn here all about Dotted Line in Syncfusion ASP.NET Core Charts 
 platform: chart-sdk
 control: Dotted Line
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

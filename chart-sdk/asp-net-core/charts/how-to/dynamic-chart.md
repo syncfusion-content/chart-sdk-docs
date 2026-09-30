@@ -5,6 +5,7 @@ description: Learn here all about Dynamic Chart in Syncfusion ASP.NET Core Chart
 platform: chart-sdk
 control: Dynamic Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

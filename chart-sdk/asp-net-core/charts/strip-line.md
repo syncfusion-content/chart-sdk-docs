@@ -5,6 +5,7 @@ description: Learn here all about Strip Lines in Syncfusion ASP.NET Core Charts 
 platform: chart-sdk
 control: Strip Line
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

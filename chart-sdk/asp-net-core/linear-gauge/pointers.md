@@ -5,6 +5,7 @@ description: Learn here all about Pointers in Syncfusion ASP.NET Core Linear Gau
 platform: chart-sdk
 control: Pointers
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

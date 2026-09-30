@@ -5,6 +5,7 @@ description: Learn here all about Gradient in Syncfusion ASP.NET Core Stock Char
 platform: chart-sdk
 control: Gradient
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Gradient in ASP.NET Core Stock Chart

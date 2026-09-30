@@ -5,6 +5,7 @@ description: Learn here all about Histogram Chart in Syncfusion ASP.NET Core Cha
 platform: chart-sdk
 control: Histogram Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

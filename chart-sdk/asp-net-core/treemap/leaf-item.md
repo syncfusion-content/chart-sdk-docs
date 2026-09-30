@@ -5,6 +5,7 @@ description: Learn here all about Leaf Item in Syncfusion ASP.NET Core TreeMap c
 platform: chart-sdk
 control: Leaf Item
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Leaf Item in ASP.NET Core TreeMap

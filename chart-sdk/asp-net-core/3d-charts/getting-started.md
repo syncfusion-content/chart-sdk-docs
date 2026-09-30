@@ -5,6 +5,7 @@ description: Check out and learn about getting started with ASP.NET Core 3D Char
 platform: chart-sdk
 control: 3D Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with ASP.NET Core 3D Charts

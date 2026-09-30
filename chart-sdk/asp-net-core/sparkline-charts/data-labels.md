@@ -5,6 +5,7 @@ description: Learn here all about Data Labels in Syncfusion ASP.NET Core Sparkli
 platform: chart-sdk
 control: Data Labels
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

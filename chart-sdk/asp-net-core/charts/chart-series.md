@@ -5,6 +5,7 @@ description: Learn here all about Series in Syncfusion ASP.NET Core Charts compo
 platform: chart-sdk
 control: Chart Series
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series in ASP.NET Core Charts

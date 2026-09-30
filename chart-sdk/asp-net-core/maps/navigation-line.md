@@ -5,6 +5,7 @@ description: Learn here all about Navigation Line in Syncfusion ASP.NET Core Map
 platform: chart-sdk
 control: Navigation Line
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Navigation Lines in ASP.NET Core Maps

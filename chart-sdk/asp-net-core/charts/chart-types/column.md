@@ -5,6 +5,7 @@ description: Learn here all about Column Chart in Syncfusion ASP.NET Core Charts
 platform: chart-sdk
 control: Column Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

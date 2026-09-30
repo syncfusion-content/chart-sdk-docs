@@ -5,6 +5,7 @@ description: Learn here all about Range Column Chart in Syncfusion ASP.NET Core 
 platform: chart-sdk
 control: Range Column Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

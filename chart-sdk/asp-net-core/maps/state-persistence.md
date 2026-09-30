@@ -5,6 +5,7 @@ description: Learn here all about State Persistence in Syncfusion ASP.NET Core M
 platform: chart-sdk
 control: State Persistence
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # State Persistence in ASP.NET Core Maps

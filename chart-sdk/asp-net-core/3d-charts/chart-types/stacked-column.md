@@ -5,6 +5,7 @@ description: Learn here all about stacked column chart in Syncfusion ASP.NET Cor
 platform: chart-sdk
 control: Stacked column chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

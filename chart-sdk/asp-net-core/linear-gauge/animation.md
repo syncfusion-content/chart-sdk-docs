@@ -5,6 +5,7 @@ description: Learn here all about animation in the Syncfusion ASP.NET Core Linea
 platform: chart-sdk
 control: Animation
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

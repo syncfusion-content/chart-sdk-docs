@@ -5,6 +5,7 @@ description: Learn here all about Stacked Area Chart in Syncfusion ASP.NET Core 
 platform: chart-sdk
 control: Stacked Area Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
