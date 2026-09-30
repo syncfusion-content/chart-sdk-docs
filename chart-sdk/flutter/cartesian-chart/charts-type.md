@@ -5,6 +5,7 @@ description: The chart types support in Flutter Cartesian Chart offers a wide ra
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart Types in Flutter Cartesian Chart

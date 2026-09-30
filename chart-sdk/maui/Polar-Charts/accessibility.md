@@ -5,6 +5,7 @@ description: Accessibility in Syncfusion® .NET MAUI Polar Chart provides inclus
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in .NET MAUI Polar Charts

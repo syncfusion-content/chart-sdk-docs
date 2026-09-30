@@ -5,6 +5,7 @@ description: The waterfall chart support in Flutter Cartesian Chart offers visua
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Waterfall Chart in Flutter Cartesian Chart

@@ -5,6 +5,7 @@ description: Learn about color customization in Syncfusion® Flutter Treemap (Sf
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Color Customization in Flutter Treemap (SfTreemap)

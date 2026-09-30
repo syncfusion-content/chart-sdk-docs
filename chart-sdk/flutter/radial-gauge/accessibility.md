@@ -5,6 +5,7 @@ description: Learn about accessibility support in Syncfusion® Flutter Radial Ga
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Radial Gauge (SfRadialGauge)

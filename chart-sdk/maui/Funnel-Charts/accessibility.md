@@ -5,6 +5,7 @@ description: Accessibility in Syncfusion® .NET MAUI Funnel Charts provides incl
 platform: chart-sdk
 control: SfFunnelChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in .NET MAUI Funnel Charts

@@ -273,3 +273,18 @@ You can customize the legend items by using the [`template`](https://ej2.syncfus
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/charts/axis/category-cs47" %}
+
+## Expose series and point in legendRender event
+
+The [`legendRender`](https://ej2.syncfusion.com/vue/documentation/api/chart#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://ej2.syncfusion.com/vue/documentation/api/chart/series) model and `args.point` provides the underlying data point when [`legendSettings.mode`](https://ej2.syncfusion.com/vue/documentation/api/chart/legendSettingsModel#mode) is set to `'Point'`. Use these arguments to customize the legend item text dynamically based on series and point data.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/charts/axis/legend-cs3/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/charts/axis/legend-cs3/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/charts/axis/legend-cs3" %}

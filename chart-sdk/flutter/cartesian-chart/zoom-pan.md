@@ -5,6 +5,7 @@ description: The zooming and panning support in Flutter Cartesian Chart offers i
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming and Panning in Flutter Cartesian Chart

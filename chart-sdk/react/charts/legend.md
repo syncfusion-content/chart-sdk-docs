@@ -436,6 +436,27 @@ Inside the template, the legend item data is available through the template cont
 > </ChartComponent>
 > ```
 
+## Expose series and point in legendRender event
+
+The [`legendRender`](https://ej2.syncfusion.com/react/documentation/api/chart#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://ej2.syncfusion.com/react/documentation/api/chart/series) model and `args.point` provides the underlying data point when [`legendSettings.mode`](https://ej2.syncfusion.com/react/documentation/api/chart/legendSettingsModel#mode) is set to `'Point'`. Use these arguments to customize the legend item text dynamically based on series and point data.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/axis/legend-cs8/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/axis/legend-cs8/app/index.tsx %}
+{% endhighlight %}
+{% highlight js tabtitle="datasource.jsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/axis/legend-cs8/app/datasource.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="datasource.tsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/axis/legend-cs8/app/datasource.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/charts/preview-sample/axis/legend-cs8" %}
+
 ## See Also
 
 * [Add Custom Legend Using SVG](https://support.syncfusion.com/kb/article/21530/how-to-add-custom-legend-using-svg-in-react-chart)

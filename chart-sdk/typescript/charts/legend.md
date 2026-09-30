@@ -178,6 +178,21 @@ By default, clicking a legend item toggles the visibility of its series. To sele
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/legend-cs12" %}
 
+## Expose series and point in legendRender event
+
+The [`legendRender`](../api/chart#legendrender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](../api/chart/series) model and `args.point` provides the underlying data point when [`legendSettings.mode`](../api/chart/legendSettingsModel#mode) is set to `'Point'`. Use these arguments to customize the legend item text dynamically based on series and point data.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/legend-cs20/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/charts/legend-cs20/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/legend-cs20" %}
+
 ## Collapsing legend item
 
 By default, the series name is displayed as a legend item. To omit a legend item for a particular series, set the series name to an empty string.

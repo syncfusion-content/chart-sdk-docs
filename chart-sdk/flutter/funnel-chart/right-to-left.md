@@ -5,6 +5,7 @@ description: The RTL support in Flutter Funnel Chart offers right-to-left render
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Right to Left (RTL) support in Flutter Funnel Chart

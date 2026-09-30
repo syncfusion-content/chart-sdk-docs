@@ -5,6 +5,7 @@ description: The RTL support in Flutter Pyramid Chart offers right-to-left rende
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Right To Left (RTL) in Flutter Pyramid Chart
