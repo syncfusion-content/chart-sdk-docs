@@ -6,6 +6,7 @@ control: Maps
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Creating Routes Between Markers in the Vue Maps component

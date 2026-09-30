@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Dimensions 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Dimensions in Angular Linear Gauge

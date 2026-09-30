@@ -6,6 +6,7 @@ control: vue3-linear-gauge-getting-started
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Vue 3 Linear Gauge

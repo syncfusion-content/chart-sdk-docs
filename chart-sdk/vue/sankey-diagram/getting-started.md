@@ -6,6 +6,7 @@ control: Getting started
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
@@ -56,7 +57,7 @@ When creating a new project, choose the option `Default ([Vue 2] babel, eslint)`
 
 ![Terminal showing Vue CLI creating a Vue 2 project](../appearance/images/vue2-terminal.png)
 
-Once the `quickstart` project is set up with default settings, navigate to the project directory:
+Once the project is set up with default settings, navigate to the project directory:
 
 ```bash
 cd quickstart

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: User interactions 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # User Interactions in Angular Maps

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Tool tip 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Angular Bullet Chart

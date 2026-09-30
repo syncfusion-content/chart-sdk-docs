@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Percentage tooltip
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Show Pie Percentage in Tooltip in Angular Chart

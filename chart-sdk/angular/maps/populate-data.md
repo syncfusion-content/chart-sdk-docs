@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Populate data 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Populate Data in Angular Maps

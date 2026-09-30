@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Error Bar
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Error Bar Chart in Angular Charts

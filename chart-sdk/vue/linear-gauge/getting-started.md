@@ -7,6 +7,7 @@ platform: chart-sdk
 documentation: ug
 framework-version: 2
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Vue 2 Linear Gauge

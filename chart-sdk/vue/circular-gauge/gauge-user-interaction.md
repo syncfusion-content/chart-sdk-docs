@@ -6,6 +6,7 @@ control: Gauge User Interaction
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Gauge User Interaction in Vue Circular Gauge

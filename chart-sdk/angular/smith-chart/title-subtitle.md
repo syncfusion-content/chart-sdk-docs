@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Title subtitle 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Title Subtitle in Angular Smith Chart
