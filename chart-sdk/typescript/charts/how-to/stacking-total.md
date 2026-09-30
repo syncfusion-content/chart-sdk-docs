@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Charts
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to display stacking series total in TypeScript Charts
