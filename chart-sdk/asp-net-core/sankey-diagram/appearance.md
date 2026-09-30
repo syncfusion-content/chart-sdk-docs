@@ -5,6 +5,7 @@ description: Learn here all about Appearance in Syncfusion ASP.NET Core Sankey D
 platform: chart-sdk
 control: Appearance
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in ASP.NET Core Sankey Diagram

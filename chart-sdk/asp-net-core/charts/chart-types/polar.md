@@ -5,6 +5,7 @@ description: Learn here all about Polar Chart in Syncfusion ASP.NET Core Charts 
 platform: chart-sdk
 control: Polar Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

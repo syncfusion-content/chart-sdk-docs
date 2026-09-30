@@ -5,6 +5,7 @@ description: Learn here all about Spline Area Chart in Syncfusion ASP.NET Core C
 platform: chart-sdk
 control: Spline Area Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Spline Area Chart in ASP.NET Core Charts
