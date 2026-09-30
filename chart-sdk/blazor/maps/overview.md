@@ -15,7 +15,7 @@ The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) is a
 
 ## Common use cases
 
-The Blazor Maps is ideal for a wide range of business scenarios:
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) is ideal for a wide range of business scenarios:
 
 | Use Case | Description | Key Features |
 |----------|-------------|--------------|
@@ -28,7 +28,7 @@ The Blazor Maps is ideal for a wide range of business scenarios:
 
 ## Data sources & connectivity
 
-The Blazor Maps enables multiple ways to load and bind geographical and business data, offering flexibility in choosing the right strategy for different application architectures. The Maps can render shapes from GeoJSON or shapefile data, bind business data to those shapes, or display online tile maps from popular providers.
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) enables multiple ways to load and bind geographical and business data, offering flexibility in choosing the right strategy for different application architectures. The Maps can render shapes from GeoJSON or shapefile data, bind business data to those shapes, or display online tile maps from popular providers.
 
 **Shape Data**
 
@@ -67,7 +67,7 @@ The Blazor Maps enables multiple ways to load and bind geographical and business
 
 ## Shape & data visualization
 
-The Blazor Maps provides comprehensive data visualization capabilities that enable users to analyze, organize, and understand their geographical data efficiently:
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) provides comprehensive data visualization capabilities that enable users to analyze, organize, and understand their geographical data efficiently:
 
 **Color Mapping**
 
@@ -103,7 +103,7 @@ The Blazor Maps provides comprehensive data visualization capabilities that enab
 
 ## Appearance & customization
 
-The Blazor Maps offers extensive layout and styling options for creating professional, on-brand map views:
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) offers extensive layout and styling options for creating professional, on-brand map views:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -116,7 +116,7 @@ The Blazor Maps offers extensive layout and styling options for creating profess
 
 ## User experience & interaction
 
-The Blazor Maps provides a comprehensive, interactive user experience with zooming, selection, highlighting, and tooltip capabilities that make geographical exploration intuitive:
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) provides a comprehensive, interactive user experience with zooming, selection, highlighting, and tooltip capabilities that make geographical exploration intuitive:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -127,7 +127,8 @@ The Blazor Maps provides a comprehensive, interactive user experience with zoomi
 
 ## Print & export
 
-The Blazor Maps provides output capabilities for reporting and sharing analytical map views:
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) provides output capabilities for reporting and sharing analytical map views:
+
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
 | **[Print](./print-and-export#print)** | Print the map with page orientation options | On-demand physical output |
@@ -136,7 +137,7 @@ The Blazor Maps provides output capabilities for reporting and sharing analytica
 
 ## Advanced features
 
-The Blazor Maps includes sophisticated capabilities designed for complex enterprise scenarios. These advanced features help you persist state, respond to interactions, and serve maps under strict security policies.
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) includes sophisticated capabilities designed for complex enterprise scenarios. These advanced features help you persist state, respond to interactions, and serve maps under strict security policies.
 
 | Feature | Purpose | Use Case | Key Benefit |
 |---------|---------|----------|-------------|
@@ -149,7 +150,7 @@ The Blazor Maps includes sophisticated capabilities designed for complex enterpr
 
 **Accessibility**
 
-The Blazor Maps is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
 - **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** - Accessible roles and attributes for the Maps UI
 - **[Screen reading in Maps](./accessibility#screen-reading-in-maps)** - Full compatibility with assistive technologies
 - **[Keyboard Navigation](./accessibility#keyboard-navigation)** - Complete map operation via keyboard
@@ -160,7 +161,7 @@ The Blazor Maps is fully accessible and compliant with Web Content Accessibility
 
 ## System requirements
 
-The Blazor Maps works with:
+The [Blazor Maps](https://www.syncfusion.com/blazor-components/blazor-maps) works with:
 - **Blazor Version**: .NET 8.0 or higher
 - **Hosting Models**: Blazor Server, Blazor WebAssembly, Blazor Web App
 - **Browsers**: Chrome, Firefox, Safari, Edge (latest versions)
@@ -188,4 +189,4 @@ The Blazor Maps works with:
 - **Code Examples?** Browse [Maps Demos](https://www.syncfusion.com/blazor-components/blazor-maps) and samples
 - **API Details?** See [Maps API Reference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Maps.SfMaps.html)
 - **Community?** Join the [Syncfusion Community Forum](https://www.syncfusion.com/forums/blazor-components)
-- **What's New?** Check [Release Notes](../Release-Notes)
+- **What's New?** Check [Release Notes](https://help.syncfusion.com/chart-sdk/release-notes)
