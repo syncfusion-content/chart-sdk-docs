@@ -9,6 +9,8 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
+# Summary
+
 * [Getting Started](treemap/getting-started.md)
 * [Data Binding](treemap/data-binding.md)
 * [Layout](treemap/layout.md)
