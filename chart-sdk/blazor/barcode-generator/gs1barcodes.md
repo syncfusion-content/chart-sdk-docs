@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GS1 Barcodes in Blazor Barcode Component | Syncfusion®
-description: Checkout and learn here all features about GS1 Barcodes in Blazor Barcode component and much more.
+description: Checkout and learn about GS1 Barcode types, features, customization options, and implementation examples in the Blazor Barcode component.
 platform: chart-sdk
 control: Barcode
 documentation: ug

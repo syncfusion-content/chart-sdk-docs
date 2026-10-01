@@ -529,7 +529,7 @@ The following code example demonstrates how to generate a QR barcode with a logo
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rZVnNRWifsPXvMjh?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-![QR barcode with logo in Blazor Barcode](images/blazor-barcode-qrcode-with-logo.png)
+![QR barcode with logo in Blazor Barcode](images/blazor-barcode-qrcode-with-logo.webp)
 
 >**Note:** The [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is not taken into account when rendering the logo image inside the QR code.
 

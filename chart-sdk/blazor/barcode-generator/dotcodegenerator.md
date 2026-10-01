@@ -11,7 +11,7 @@ documentation: ug
 
 ## DotCode
 
-DotCode is a high-density, two-dimensional matrix barcode symbology designed for industrial printing and encoding applications. It is particularly useful in pharmaceutical packaging, healthcare, and product serialization. DotCode uses a pattern of circular dots arranged in rows and columns, allowing it to encode large amounts of data in a compact space. The barcode can encode both numeric and alphanumeric characters, making it versatile for various labeling requirements.
+DotCode is a high-density, two-dimensional matrix barcode symbology designed for industrial printing and encoding applications. It is particularly useful in pharmaceutical packaging, health care, and product serialization. DotCode uses a pattern of circular dots arranged in rows and columns, allowing it to encode large amounts of data in a compact space. The barcode can encode both numeric and alphanumeric characters, making it versatile for various labeling requirements.
 
 ### DotCode Encoding Modes
 
