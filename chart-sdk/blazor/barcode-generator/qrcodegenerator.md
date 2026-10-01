@@ -155,7 +155,7 @@ The [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 
 #### Font Configuration
 
-The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to `monospace`.
+The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to **monospace**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -469,7 +469,7 @@ Customize the GS1 QR Code with the following options:
 </SfQRCodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VNhdjnCCzWnQnUJx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Customizing the Text for QR Code in Blazor Barcode](images/QrCode-Custopmisation.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNhdjnCCzWnQnUJx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Customizing the Text for QR Code in Blazor Barcode](images/QrCode-Customization.png)" %}
 
 ## Error Correction Level
 

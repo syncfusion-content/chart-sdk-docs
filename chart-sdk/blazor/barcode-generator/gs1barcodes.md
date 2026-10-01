@@ -495,7 +495,7 @@ The [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 
 #### Font Configuration
 
-The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to `monospace`.
+The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to **monospace**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
