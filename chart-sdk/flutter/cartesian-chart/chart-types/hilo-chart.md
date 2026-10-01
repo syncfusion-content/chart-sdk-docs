@@ -5,7 +5,6 @@ description: The HiLo chart support in Flutter Cartesian Chart offers visualizat
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # HiLo Chart in Flutter Cartesian Chart

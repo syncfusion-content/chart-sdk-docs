@@ -5,7 +5,6 @@ description: Learn about tick customization in Syncfusion® Flutter Linear Gauge
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ticks in Flutter Linear Gauge (SfLinearGauge)

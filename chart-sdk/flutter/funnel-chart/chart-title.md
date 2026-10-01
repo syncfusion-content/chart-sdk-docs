@@ -5,7 +5,6 @@ description: The chart title support in Flutter Funnel Chart widget offers custo
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart title in Flutter Funnel Chart

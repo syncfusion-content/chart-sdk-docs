@@ -5,7 +5,6 @@ description: Learn about shape color customization in Syncfusion® Flutter Maps 
 platform: chart-sdk
 control: SfMaps
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Colors in Flutter Maps (SfMaps)

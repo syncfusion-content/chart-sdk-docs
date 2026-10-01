@@ -5,7 +5,6 @@ description: The stacked bar chart support in Flutter Cartesian Chart offers cum
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Stacked Bar Chart in Flutter Cartesian Chart

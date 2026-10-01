@@ -5,7 +5,6 @@ description: Learn about polygon support in Syncfusion® Flutter Maps (SfMaps), 
 platform: chart-sdk
 control: SfMaps
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Polygons in Flutter Maps (SfMaps)

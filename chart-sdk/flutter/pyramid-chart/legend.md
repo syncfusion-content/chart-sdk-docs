@@ -5,7 +5,6 @@ description: The legend support in Flutter Pyramid Chart offers customizable leg
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in Flutter Pyramid Chart

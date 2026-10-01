@@ -5,7 +5,6 @@ description: The multiple charts support in Flutter Cartesian Chart offers displ
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Multiple Charts in Flutter Cartesian Chart

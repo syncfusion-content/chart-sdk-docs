@@ -5,7 +5,6 @@ description: The series customization support in Flutter Funnel Chart offers con
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series customization in Flutter Funnel Chart

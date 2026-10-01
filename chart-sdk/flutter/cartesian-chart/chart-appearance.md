@@ -5,7 +5,6 @@ description: The customization support in Flutter Cartesian Chart offers extensi
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Customization in Flutter Cartesian Chart

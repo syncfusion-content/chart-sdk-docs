@@ -5,7 +5,6 @@ description: Learn about zooming and panning in Syncfusion® Flutter Maps (SfMap
 platform: chart-sdk
 control: SfMaps
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Zooming and Panning in Flutter Maps (SfMaps)

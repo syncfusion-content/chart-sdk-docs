@@ -5,7 +5,6 @@ description: 	Learn how to get started with Flutter Cartesian Chart provides ste
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Flutter Cartesian Chart

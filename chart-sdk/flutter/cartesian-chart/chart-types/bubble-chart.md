@@ -5,7 +5,6 @@ description: The bubble chart support in Flutter Cartesian Chart offers multi-di
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubble Chart in Flutter Cartesian Chart

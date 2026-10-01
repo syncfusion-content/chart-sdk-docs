@@ -5,7 +5,6 @@ description: Learn about right-to-left (RTL) support in Syncfusion® Flutter Tre
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Right-to-Left (RTL) in Flutter Treemap (SfTreemap)

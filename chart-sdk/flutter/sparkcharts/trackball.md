@@ -5,7 +5,6 @@ description: The trackball support in Flutter Spark Chart offers precise data po
 platform: chart-sdk
 control: Sparkline
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Trackball in Flutter Spark Chart
