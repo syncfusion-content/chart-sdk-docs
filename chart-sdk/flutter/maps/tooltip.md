@@ -5,7 +5,6 @@ description: Learn here all about adding the Tooltip feature of Syncfusion Flutt
 platform: chart-sdk
 control: SfMaps
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Flutter Maps (SfMaps)

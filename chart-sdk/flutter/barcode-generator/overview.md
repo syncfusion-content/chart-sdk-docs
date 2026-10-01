@@ -5,7 +5,6 @@ description: Learn about the Syncfusion® Flutter Barcodes (SfBarcodeGenerator),
 platform: chart-sdk
 control: SfBarcodeGenerator
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Flutter Barcode Generator (SfBarcodeGenerator)

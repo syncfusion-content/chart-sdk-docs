@@ -5,7 +5,6 @@ description: The chart types support in Flutter Circular Chart offers pie, dough
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart Types in Flutter Circular Chart

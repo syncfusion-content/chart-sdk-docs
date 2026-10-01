@@ -5,7 +5,6 @@ description: The box and whisker chart support in Flutter Cartesian Chart offers
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Box and Whisker Chart in Flutter Cartesian Chart

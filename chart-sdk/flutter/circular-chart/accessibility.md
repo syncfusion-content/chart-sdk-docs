@@ -5,7 +5,6 @@ description: The accessibility support in Flutter Circular Chart offers sufficie
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Circular Chart

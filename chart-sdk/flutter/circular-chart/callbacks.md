@@ -5,7 +5,6 @@ description: The callback support in Flutter Circular Chart offers events for se
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Callbacks in Flutter Circular Chart

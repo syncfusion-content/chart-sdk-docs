@@ -5,7 +5,6 @@ description: The axis types support in Flutter Cartesian Chart offers numeric, c
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Types of Axis in Flutter Cartesian Chart

@@ -5,7 +5,6 @@ description: Learn about axis customization in Syncfusion® Flutter Radial Gauge
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis in Flutter Radial Gauge (SfRadialGauge)

@@ -5,7 +5,6 @@ description: The legend support in Flutter Cartesian Chart offers customizable l
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in Flutter Cartesian Chart

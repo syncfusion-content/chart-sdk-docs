@@ -5,7 +5,6 @@ description: The methods in Flutter Cartesian Chart documentation provide public
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Methods in Flutter Cartesian Chart

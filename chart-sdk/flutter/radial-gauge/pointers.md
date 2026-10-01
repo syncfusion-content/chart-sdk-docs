@@ -5,7 +5,6 @@ description: Learn about pointers in Syncfusion® Flutter Radial Gauge (SfRadial
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Pointers in Flutter Radial Gauge (SfRadialGauge)

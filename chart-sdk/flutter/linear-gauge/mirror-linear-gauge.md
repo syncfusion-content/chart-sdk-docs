@@ -5,7 +5,6 @@ description: Learn about mirroring support in Syncfusion® Flutter Linear Gauge 
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Mirroring in Flutter Linear Gauge (SfLinearGauge)

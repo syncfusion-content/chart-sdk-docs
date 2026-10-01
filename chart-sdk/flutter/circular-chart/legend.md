@@ -5,7 +5,6 @@ description: The legend support in Flutter Circular Chart offers customizable le
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in Flutter Circular Chart
