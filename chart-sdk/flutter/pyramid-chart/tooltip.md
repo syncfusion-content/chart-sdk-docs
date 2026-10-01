@@ -5,7 +5,6 @@ description: The tooltip support in Flutter Pyramid Chart offers interactive dat
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Flutter Pyramid Chart

@@ -5,7 +5,6 @@ description: The step line chart support in Flutter Cartesian Chart offers stepp
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Step Line Chart in Flutter Cartesian Chart

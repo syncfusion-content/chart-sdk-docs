@@ -5,7 +5,6 @@ description: The 100% stacked line chart support in Flutter Cartesian Chart offe
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # 100% Stacked Line Chart in Flutter Cartesian Chart

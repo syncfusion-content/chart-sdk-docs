@@ -5,7 +5,6 @@ description: The legend support in Flutter Funnel Chart offers customizable lege
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in Flutter Funnel Chart

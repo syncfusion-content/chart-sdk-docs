@@ -5,7 +5,6 @@ description: Learn about item builder support in Syncfusion® Flutter Treemap (S
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Item Builder in Flutter Treemap (SfTreemap)

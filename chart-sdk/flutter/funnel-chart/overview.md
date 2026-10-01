@@ -5,7 +5,6 @@ description: Learn here all about introduction of Syncfusion® Flutter Funnel Ch
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Flutter Funnel Chart Overview

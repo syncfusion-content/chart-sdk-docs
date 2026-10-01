@@ -5,7 +5,6 @@ description: The methods in Flutter Funnel Chart documentation provide publicly 
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Methods in Flutter Funnel Chart

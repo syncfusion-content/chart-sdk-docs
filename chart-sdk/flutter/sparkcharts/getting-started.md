@@ -5,7 +5,6 @@ description: Learn how to get started with the Syncfusion® Flutter Spark Charts
 platform: chart-sdk
 control: Sparkline
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Flutter Spark Chart

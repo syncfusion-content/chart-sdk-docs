@@ -5,7 +5,6 @@ description: The stacked area chart support in Flutter Cartesian Chart offers vi
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Stacked Area Chart in Flutter Cartesian Chart

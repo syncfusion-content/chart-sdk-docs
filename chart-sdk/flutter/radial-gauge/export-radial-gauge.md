@@ -5,7 +5,6 @@ description: Learn about export support in Syncfusion® Flutter Radial Gauge (Sf
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Export in Flutter Radial Gauge (SfRadialGauge)

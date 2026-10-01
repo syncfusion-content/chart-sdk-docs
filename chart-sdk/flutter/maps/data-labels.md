@@ -5,7 +5,6 @@ description: Learn about data labels in Syncfusion® Flutter Maps (SfMaps), incl
 platform: chart-sdk
 control: SfMaps
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Labels in Flutter Maps (SfMaps)

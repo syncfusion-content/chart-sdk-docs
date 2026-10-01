@@ -5,7 +5,6 @@ description: The callback support in Flutter Cartesian Chart offers events for s
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Callbacks in Flutter Cartesian Chart
