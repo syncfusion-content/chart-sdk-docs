@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Maps Overview and Features | Syncfusion
 description: Learn how to use Blazor Maps to visualize geographical data with shape and bubble layers, color mapping, markers, legends, zooming, and online map providers.
-platform: Blazor
+platform: chart-sdk
 control: Maps
 documentation: ug
 appliesto: UI Component Suite, Chart SDK

@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Charts Overview and Features | Syncfusion
 description: Learn how to use Blazor Charts for data visualization with 50+ chart types, axes, data binding, legends, tooltips, zooming, and technical indicators.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
 appliesto: UI Component Suite, Chart SDK

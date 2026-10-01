@@ -202,10 +202,10 @@ The `RelocateVertically` and `RelocateHorizontally` options enable the Smart Dat
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/chart-sdk/react/3d-charts/data-label/data-label-cs9/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/3d-charts/code-path/data-label/data-label-cs9/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/chart-sdk/react/3d-charts/data-label/data-label-cs9/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/3d-charts/code-path/data-label/data-label-cs9/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
