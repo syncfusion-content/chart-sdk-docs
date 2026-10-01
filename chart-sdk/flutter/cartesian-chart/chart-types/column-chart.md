@@ -5,7 +5,6 @@ description: The column chart support in Flutter Cartesian Chart offers vertical
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Column Chart in Flutter Cartesian Chart

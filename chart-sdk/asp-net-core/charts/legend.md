@@ -305,5 +305,3 @@ The [`legendRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/legend-render/LegendRender.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-

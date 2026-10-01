@@ -5,7 +5,6 @@ description: Add Syncfusion® Flutter Circular Chart in FlutterFlow to create co
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add Syncfusion® Circular Chart in FlutterFlow

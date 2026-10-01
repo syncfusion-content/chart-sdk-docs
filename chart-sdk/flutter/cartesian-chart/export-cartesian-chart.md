@@ -5,7 +5,6 @@ description: The exporting support in Flutter Cartesian Chart offers image and d
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Exporting in Flutter Cartesian Chart

@@ -5,7 +5,6 @@ description: The fast line chart support in Flutter Cartesian Chart offers high-
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Fast Line Chart in Flutter Cartesian Chart

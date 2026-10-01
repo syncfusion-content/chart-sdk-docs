@@ -5,7 +5,6 @@ description: The area chart support in Flutter Cartesian Chart offers filled lin
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Area Chart in Flutter Cartesian Chart

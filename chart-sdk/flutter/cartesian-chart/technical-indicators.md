@@ -5,7 +5,6 @@ description: The technical indicators support in Flutter Cartesian Chart offers 
 platform: chart-sdk
 control: Chart
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Technical Indicators in Flutter Cartesian Chart

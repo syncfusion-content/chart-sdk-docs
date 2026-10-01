@@ -5,7 +5,6 @@ description: Learn about widget marker pointers in Syncfusion® Flutter Linear G
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
 # Widget Marker Pointer in Flutter Linear Gauge (SfLinearGauge)
