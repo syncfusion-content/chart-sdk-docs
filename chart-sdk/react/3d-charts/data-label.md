@@ -6,6 +6,7 @@ control: Data Label
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Labels in React 3D Charts
@@ -201,10 +202,10 @@ The `RelocateVertically` and `RelocateHorizontally` options enable the Smart Dat
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/chart-sdk/react/3d-charts/data-label/data-label-cs9/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/3d-charts/code-path/data-label/data-label-cs9/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/chart-sdk/react/3d-charts/data-label/data-label-cs9/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/3d-charts/code-path/data-label/data-label-cs9/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
