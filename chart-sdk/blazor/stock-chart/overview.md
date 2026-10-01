@@ -2,7 +2,7 @@
 layout: post
 title: Blazor Stock Chart Overview and Features | Syncfusion
 description: Learn how to use Blazor Stock Chart for financial data visualization with candle and hilo series, period and range selector, technical indicators, and events.
-platform: Blazor
+platform: chart-sdk
 control: Stock Chart
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
