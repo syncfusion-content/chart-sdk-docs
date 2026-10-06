@@ -366,6 +366,7 @@ The Vite dev server runs at `http://localhost:5178`, which is the same origin al
 
 **File: `Client/src/App.jsx`**
 
+{% raw %}
 ```jsx
 import React, { useEffect, useMemo, useRef } from 'react';
 
@@ -529,6 +530,7 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
 **How the GraphQL binding works**
 
