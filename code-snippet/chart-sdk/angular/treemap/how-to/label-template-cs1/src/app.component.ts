@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 import { TreeMapModule, TreeMapAllModule } from '@syncfusion/ej2-angular-treemap'
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { TreeMap, IDrillStartEventArgs } from '@syncfusion/ej2-angular-treemap';
 import { CarSales } from './datasource';
 
@@ -12,10 +12,7 @@ import { CarSales } from './datasource';
   template:'<ejs-treemap id="container" #treemap style="display:block;" [dataSource]="dataSource" [weightValuePath]="weightValuePath"[leafItemSettings]="leafItemSettings" enableDrillDown="true" (drillStart)="drillStart($event)"[palette]="palette"><e-levels><e-level groupPath="Continent" [border]="border"> </e-level>	<e-level groupPath="Company" [border]="border"></e-level></e-levels></ejs-treemap>',
   encapsulation: ViewEncapsulation.None
 })
-export class AppComponent implements OnInit {
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+export class AppComponent {
   public drillStart = (args: IDrillStartEventArgs) => {
     let labelElementGroup: HTMLElement = document.getElementById('container_Label_Template_Group') as HTMLElement;
     labelElementGroup.remove();
