@@ -426,6 +426,7 @@ npm install @syncfusion/ej2-react-charts @syncfusion/ej2-charts @syncfusion/ej2-
 
 Inside the `src` folder, create a file named `SalesChart.jsx`.
 
+{% raw %}
 ```jsx
 import React, { useEffect, useState } from "react";
 import axios from "axios";
@@ -563,6 +564,7 @@ function SalesChart() {
 
 export default SalesChart;
 ```
+{% endraw %}
 
 **Important Note**
 

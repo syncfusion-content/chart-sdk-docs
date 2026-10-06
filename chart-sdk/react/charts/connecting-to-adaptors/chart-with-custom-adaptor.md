@@ -128,6 +128,8 @@ After creating the custom adaptor class, integrate it with the React Chart in th
 * Assign `CustomAdaptor` to the `adaptor` property so the Chart uses the customized pipeline.
 * Bind the `DataManager` to the series `dataSource` property, enabling the Chart to automatically apply the custom logic during data communication.
 
+{% raw %}
+
 `client/src/data.js`
 
 ```js
@@ -202,6 +204,7 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
 > Replace `http://localhost:5050/api/chart-data` with the actual API endpoint that returns data in JSON format.
 

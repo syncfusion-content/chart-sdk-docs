@@ -550,6 +550,7 @@ Open `frontend/src/App.tsx` and replace the content with the following chart com
 
 **`frontend/src/App.tsx`**
 
+{% raw %}
 ```tsx
 import React from "react";
 
@@ -657,6 +658,7 @@ const App: React.FC = () => {
 
 export default App;
 ```
+{% endraw %}
 
 **`frontend/src/main.tsx`**
 
