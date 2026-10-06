@@ -513,6 +513,7 @@ Create a stylesheet at `client/src/App.css` so the layout classes referenced in 
 
 **File: `client/src/App.tsx`**
 
+{% raw %}
 ```tsx
 import { useEffect, useState } from 'react';
 
@@ -698,6 +699,7 @@ export default function App() {
   );
 }
 ```
+{% endraw %}
 
 ---
 
