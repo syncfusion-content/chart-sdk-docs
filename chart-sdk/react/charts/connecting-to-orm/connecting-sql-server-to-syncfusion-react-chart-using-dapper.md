@@ -276,6 +276,7 @@ npm install @syncfusion/ej2-react-charts
 
 Replace the contents of **src/App.jsx** with the following code:
 
+{% raw %}
 ```jsx
 import React, { useEffect, useState } from "react";
 import {
@@ -336,6 +337,7 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
 ## Configure the React Entry File
 

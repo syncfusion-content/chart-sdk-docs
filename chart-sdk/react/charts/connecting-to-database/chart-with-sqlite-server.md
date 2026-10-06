@@ -408,6 +408,7 @@ Open `src/App.tsx` and replace the existing content with the following code.
 
 **File:** `src/App.tsx`
 
+{% raw %}
 ```tsx
 import { useEffect, useState } from 'react';
 
@@ -482,6 +483,7 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
 **Explanation**
 

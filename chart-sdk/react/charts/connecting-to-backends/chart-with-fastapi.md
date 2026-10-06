@@ -394,6 +394,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 **`frontend/src/App.jsx`**
 
+{% raw %}
 ```jsx
 import React, { useMemo } from 'react';
 import {
@@ -458,6 +459,7 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
 > The `legendSettings` prop and the `name="Sales"` attribute on `SeriesDirective` together enable the legend. Chart props such as `tooltip`, `marker`, and `legendSettings` are documented in the [Chart API reference](https://ej2.syncfusion.com/react/documentation/chart).
 
@@ -632,6 +634,7 @@ For a simpler beginner version, replace `DataManager` with the browser `fetch` A
 
 Replace `frontend/src/App.jsx` with the following code:
 
+{% raw %}
 ```jsx
 import React, { useEffect, useState } from 'react';
 import {
@@ -718,6 +721,7 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
 Notes:
 - `AbortController` cancels the in-flight request if the component unmounts, preventing "set state on unmounted component" warnings.
