@@ -11,25 +11,27 @@ documentation: ug
 
 ## Data Matrix
 
-The [DataMatrix](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html) barcode is a two-dimensional barcode that consists of a grid of dark and light dots or blocks forming square or rectangular symbol. The data encoded in the barcode can either be numbers or alphanumeric. They are widely used in printed media such as labels and letters. You can read it easily with the help of a barcode reader and mobile phones.
+[DataMatrix](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html) is a two-dimensional (2D) barcode that encodes data using a grid of black and white modules. It supports high-density data storage and includes built-in error correction, enabling accurate data recovery even when the symbol is partially damaged.
 
-Data Matrix encodes data using a matrix grid pattern where each cell represents either a module (dark) or an empty space (light). The encoding process involves:
-
-1. **Data Input**: Text, numbers, or bytes
-2. **Encoding Mode**: Automatic selection of optimal encoding (ASCII, C40, Base256, etc.)
-3. **Data Placement**: Arranges modules in the grid following specific algorithms
-4. **Error Correction**: Applies Reed-Solomon error correction
-5. **Symbol Generation**: Creates appropriate symbol size based on data capacity
-6. **Output**: Final Data Matrix symbol with finder patterns and timing information
+The Barcode Generator supports generating Data Matrix symbols with different encoding modes and symbol sizes based on the input data.
 
 ## Data Matrix Encoding Modes
 
-| Encoding | Data Type | Characters Per Code Unit | Example |
-|---|---|---|---|
-| **ASCII** | ASCII characters 0-127 | 1 char per code unit | "Hello123" |
-| **ASCIINumeric** | Digits 0-9 only | 2 digits per code unit | "1234567890" |
-| **Base256** | All byte values (0-255) | 1 byte per code unit | Binary data |
-| **Auto** | Auto-detects best encoding | Variable | Input dependent |
+| Encoding | Description |
+|---|---|
+| ASCII | Encodes standard ASCII characters. |
+| ASCIINumeric | Encodes numeric data efficiently by storing two digits per codeword. |
+| Base256 | Encodes binary data and extended character sets. |
+| Auto | Automatically selects the most efficient encoding mode based on the input data. |
+
+**Supported Symbol Sizes**
+
+Data Matrix barcodes support both **square** and **rectangular** symbol formats. The Barcode Generator automatically determines the appropriate symbol size based on the amount of data being encoded.
+
+Square symbols: 10×10 to 120×120 modules
+Rectangular symbols: 8×18 to 16×48 modules
+
+This allows efficient encoding of both small and large amounts of data while maintaining reliable scanning performance.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -39,26 +41,35 @@ Data Matrix encodes data using a matrix grid pattern where each cell represents 
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Data Matrix Generator in Blazor Barcode](images/blazor-barcode-with-datamatrix.webp)" %}
 
-**Allowed Input Characters:** Data Matrix supports numeric, alphanumeric, and supported special characters depending on the encoding mode selected. The barcode can encode both numeric and alphanumeric characters, making it versatile for various labeling requirements in industrial and commercial applications.
+>**Note:**: Data Matrix supports encoding numeric, alphanumeric, and binary data.
 
-### Encoding Mode Selection
+### Encoding Modes
 
-Data Matrix automatically selects the best encoding mode for your data, or you can specify it explicitly:
+The Barcode Generator supports the following Data Matrix encoding modes:
+
+| Encoding | Description |
+|---|---|
+| `Auto` | Automatically selects the most efficient encoding mode based on the input data. | 
+| `ASCII` | Encodes standard ASCII characters and mixed content. |
+| `ASCIINumeric` | Optimized for numeric data and provides compact encoding. |
+| `Base256` | Encodes binary data and extended character sets. |
+
+The following example demonstrates how to generate a Data Matrix barcode using different encoding modes:
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<!-- Automatic encoding selection (recommended) -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="Hello123" Encoding="DataMatrixEncoding.Auto"></SfDataMatrixGenerator>
+<!-- Automatic encoding selection -->
+<SfDataMatrixGenerator Width="200" Height="150" Value="Hello123" Encoding="DataMatrixEncoding.Auto">
+</SfDataMatrixGenerator>
 
-<!-- ASCII text encoding -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="PRODUCT" Encoding="DataMatrixEncoding.ASCII"></SfDataMatrixGenerator>
+<!-- ASCII encoding -->
+<SfDataMatrixGenerator Width="200" Height="150" Value="PRODUCT" Encoding="DataMatrixEncoding.ASCII">
+</SfDataMatrixGenerator>
 
-<!-- Numeric-optimized encoding (most compact for numbers) -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="1234567890" Encoding="DataMatrixEncoding.ASCIINumeric"></SfDataMatrixGenerator>
-
-<!-- Base256 for binary or special data -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="Binary Data" Encoding="DataMatrixEncoding.Base256"></SfDataMatrixGenerator>
+<!-- Numeric encoding -->
+<SfDataMatrixGenerator Width="200" Height="150" Value="1234567890" Encoding="DataMatrixEncoding.ASCIINumeric">
+</SfDataMatrixGenerator>
 ```
 
 **Encoding Mode Guide**
@@ -72,11 +83,13 @@ Data Matrix automatically selects the best encoding mode for your data, or you c
 
 ## GS1 Data Matrix
 
-GS1 Data Matrix combines the high-density encoding capabilities of Data Matrix symbols with GS1 Application Identifiers (AIs) for supply chain and traceability applications. This enables efficient encoding of product information, batch numbers, expiration dates, and serial numbers in a single, compact barcode.
-
-The [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_EnableGS1) property enables GS1 compliance for Data Matrix codes. 
+GS1 Data Matrix is a standardized Data Matrix barcode format that uses GS1 Application Identifiers (AIs) to encode structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers.
+ 
+The [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_EnableGS1) property enables GS1-compliant Data Matrix barcode generation.
 
 **Allowed Input Characters:** GS1 Data Matrix supports numeric, alphanumeric, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), enabling structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers to be stored within a compact barcode.
+
+The following example demonstrates how to generate a GS1 Data Matrix barcode:
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -88,23 +101,7 @@ The [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Data Matrix Generator](images/Gs1-DataMatrix.png)" %}
 
-## Data Matrix Validation Rules
-
-### Input Validation
-
-- **Length**: Minimum 1 character, maximum 3,116 bytes
-- **Character Set**: Depends on encoding mode selected
-- **Empty Data**: Not allowed
-- **Encoding**: Auto-selected or explicitly specified
-- **Symbol Size**: Automatically determined based on data and encoding
-
-### Encoding-Specific Validation
-
-| Encoding | Allowed Characters | Max Data |
-|---|---|---|
-| **ASCII** | ASCII 0-127 | ~3,116 bytes |
-| **ASCIINumeric** | Digits 0-9 | ~2,335 digits |
-| **Base256** | All 8-bit values (0-255) | ~3,116 bytes |
+>**Note:** The Barcode Generator validates the input data before generating the barcode. If the input data is invalid or cannot be encoded using the selected settings, the `OnValidationFailed` event is triggered.
 
 ### Common Validation Errors
 
@@ -142,7 +139,7 @@ The barcode appearance can be customized by changing the colors. The component p
 
 #### Foreground Color
 
-The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_ForeColor) property specifies the line and text color of the Data Matrix barcode. By default, it is set to black.
+The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_ForeColor) property specifies the line and text color of the Data Matrix barcode. By default, it is set to **black**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -154,7 +151,7 @@ The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 
 #### Background Color
 
-The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_BackgroundColor) property specifies the background color of the Data Matrix barcode. By default, it is set to white. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
+The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_BackgroundColor) property specifies the background color of the Data Matrix barcode. By default, it is set to **white**. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -165,7 +162,7 @@ The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Ba
 
 ### Data Matrix Dimension Customization
 
-The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to 100%.
+The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_Width) properties. Both properties accept string values with % and px units. By default, both are set to **100%**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -174,41 +171,6 @@ The dimensions of the barcode can be adjusted using the [Height](https://help.sy
 ```
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjBnjniWpLMlSGri?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
-### Encoding Mode Configuration
-
-The [Encoding](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_Encoding) property specifies the encoding type for the Data Matrix barcode. You can choose from several encoding modes to optimize for your data type:
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- Automatic encoding selection (recommended) -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="Hello123" Encoding="DataMatrixEncoding.Auto"></SfDataMatrixGenerator>
-
-<!-- ASCII text encoding -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="PRODUCT" Encoding="DataMatrixEncoding.ASCII"></SfDataMatrixGenerator>
-
-<!-- Numeric-optimized encoding (most compact for numbers) -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="1234567890" Encoding="DataMatrixEncoding.ASCIINumeric"></SfDataMatrixGenerator>
-
-<!-- Base256 for binary or special data -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="Binary Data" Encoding="DataMatrixEncoding.Base256"></SfDataMatrixGenerator>
-```
-
-### Data Matrix Size Configuration
-
-The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDataMatrixGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDataMatrixGenerator_Size) property specifies the amount of data to be encoded in the Data Matrix symbol. This allows you to control the symbol dimensions (10×10 up to 120×120 modules) and data capacity.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- Default auto-sizing based on data -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="SYNCFUSION"></SfDataMatrixGenerator>
-
-<!-- Explicit sizing for specific symbol size -->
-<SfDataMatrixGenerator Width="200" Height="150" Value="SYNCFUSION" Size="DataMatrixSize.Size32x32"></SfDataMatrixGenerator>
-
-```
 
 ### Margin Customization
 
@@ -263,7 +225,7 @@ The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 
 #### Text Size
 
-The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DataMatrixGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DataMatrixGeneratorDisplayText_Size) property specifies the size of the display text. By default, it is set to `20` pixels.
+The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DataMatrixGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DataMatrixGeneratorDisplayText_Size) property specifies the size of the display text. By default, it is set to **20** pixels.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -337,11 +299,11 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 
 ### Dynamic Property Updates
 
-The Data Matrix component supports real-time property binding. When you change any property value, the Data Matrix barcode automatically updates to reflect the changes. This is useful for creating interactive applications where users can customize the barcode appearance dynamically.
+The Data Matrix Generator supports dynamic updates to barcode properties at runtime. When a property value is modified, the Data Matrix barcode is automatically refreshed to display the latest changes. This enables interactive customization of the barcode appearance and content.
 
-#### Real-time Property Binding Example
+#### Update Data Matrix Properties Dynamically
 
-Here is an example showing how to dynamically update Data Matrix properties using Blazor data binding:
+The following example demonstrates how to dynamically update Data Matrix properties such as the value, colors, size, encoding mode, and display text.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -406,7 +368,3 @@ Here is an example showing how to dynamically update Data Matrix properties usin
     private List<DataMatrixEncoding> EncodingModes = new() { DataMatrixEncoding.Auto, DataMatrixEncoding.ASCII, DataMatrixEncoding.ASCIINumeric, DataMatrixEncoding.Base256 };
 }
 ```
-
-**Key Points:**
-- The Data Matrix automatically re-renders with the new property values
-- This works for all customizable properties: Value, ForeColor, BackgroundColor, Width, Height, Encoding, Size, DisplayText, Margins, etc.

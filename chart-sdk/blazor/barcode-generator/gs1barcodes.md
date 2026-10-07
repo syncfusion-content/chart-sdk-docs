@@ -7,13 +7,13 @@ control: Barcode
 documentation: ug
 ---
 
-# GS1 Barcodes in Blazor Barcode Component
+# GS1 Barcodes
 
 GS1 standards define a series of barcodes used for supply chain management, retail, and logistics operations. These barcodes encode product identification and tracking data using standardized GS1 Application Identifiers (AIs). The Blazor Barcode component supports multiple GS1 barcode types to meet various industry requirements.
 
-## GS1-128 Barcode
+## GS1-Code128 Barcode
 
-GS1-128 is a linear barcode based on Code 128 that uses GS1 Application Identifiers (AIs) and FNC1 characters to encode structured supply-chain data. It works by encoding structured data using Application Identifiers (AIs) and Function Code 1 (FNC1) separators, where each data element is tagged with a two to four-digit Application Identifier enclosed in parentheses. The FNC1 character separates variable-length fields, allowing flexible data encoding while maintaining strict compliance with GS1 standards. It is widely used in retail and logistics for encoding product information, batch numbers, expiration dates, and other supply-chain data.
+GS1-Code128 is a linear barcode based on Code 128 that uses GS1 Application Identifiers (AIs) to encode structured business data. It is commonly used in retail, logistics, healthcare, and supply-chain applications to store information such as product identifiers, batch numbers, expiration dates, and serial numbers.
 
 **Allowed Input Characters:** GS1-128 supports numeric values (0-9), uppercase and lowercase alphabetic characters (A-Z, a-z), and supported ASCII special characters. Data should be encoded using valid GS1 Application Identifiers (AIs) to represent structured business information.
 
@@ -31,61 +31,17 @@ GS1-128 accepts GS1 Application Identifier (AI) data. The AI is enclosed in pare
 
 **Common GS1 Application Identifiers**
 
-| AI | Description | Data Format | Min Length | Max Length |
-|---|---|---|---|---|
-| 00 | SSCC (Serial Shipping Container Code) | Numeric | 18 | 18 |
-| 01 | GTIN (Global Trade Item Number) | Numeric | 14 | 14 |
-| 02 | GTIN of contained trade items | Numeric | 14 | 14 |
-| 10 | Batch or Lot Number | Alphanumeric | 1 | 20 |
-| 11 | Production Date | YYMMDD | 6 | 6 |
-| 12 | Due Date | YYMMDD | 6 | 6 |
-| 13 | Packaging Date | YYMMDD | 6 | 6 |
-| 15 | Best Before Date | YYMMDD | 6 | 6 |
-| 16 | Sell By Date | YYMMDD | 6 | 6 |
-| 17 | Expiration Date | YYMMDD | 6 | 6 |
-| 20 | Variant Number | Numeric | 2 | 2 |
-| 21 | Serial Number | Alphanumeric | 1 | 20 |
-| 22 | Consumer Product Variant | Alphanumeric | 1 | 20 |
-| 30 | Variable Count | Numeric | 1 | 8 |
-| 37 | Count of Trade Items | Numeric | 1 | 8 |
-| 240 | Additional Product Identification | Alphanumeric | 1 | 30 |
-| 241 | Customer Part Number | Alphanumeric | 1 | 30 |
-| 251 | Reference to Source Entity | Alphanumeric | 1 | 30 |
-| 400 | Customer Purchase Order Number | Alphanumeric | 1 | 30 |
-| 410 | Ship To GLN | Numeric | 13 | 13 |
-| 414 | GLN of Physical Location | Numeric | 13 | 13 |
-| 422 | Country of Origin | Numeric | 3 | 3 |
-| 310n-316n | Net Weight (Kg) | Numeric | 6 | 6 |
-| 320n-336n | Net Weight (Lbs) | Numeric | 6 | 6 |
-| 340n-357n | Dimensions | Numeric | 6 | 6 |
-| 360n-365n | Volume | Numeric | 6 | 6 |
-
-**GS1-128 Validation Rules**
-
-- **Format**: All data must follow the format `(AI)data` with parentheses
-- **AI Format**: Two to four numeric digits only
-- **Data Validation**: Each AI has specific length and character requirements
-- **No Duplicates**: An AI cannot appear more than once in the same barcode
-- **Character Set**: Supports all printable ASCII characters and extended ASCII
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Width="300px" Height="150px" Type="@BarcodeType.GS1Code128" Value="(01)12345678901234(10)ABC123" OnValidationFailed="@OnValidationFailed"></SfBarcodeGenerator>
-
-@code
-{
-    private void OnValidationFailed(ValidationFailedEventArgs args)
-    {
-        // Validation errors include:
-        // - Invalid GS1 syntax (missing parentheses)
-        // - Unsupported Application Identifier
-        // - Invalid data length for specific AI
-        // - Duplicate Application Identifiers
-        Console.WriteLine($"Validation error: {args.Message}");
-    }
-}
-```
+| AI | Description |
+|---|---|
+| 00 | Serial Shipping Container Code (SSCC) |
+| 01 | Global Trade Item Number (GTIN) |
+| 10 | Batch or Lot Number |
+| 11 | Production Date |
+| 15 | Best Before Date |
+| 17 | Expiration Date |
+| 21 | Serial Number |
+| 240 | Additional Product Identification |
+| 400 | Customer Purchase Order Number |
 
 ## ITF-14 Barcode
 
@@ -103,69 +59,9 @@ ITF-14 (Interleaved 2 of 5) is the GS1 standard for encoding 14-digit Global Tra
 
 **Allowed Input Characters:** ITF-14 supports numeric values (0-9) only and is used to encode a 14-digit GTIN (Global Trade Item Number). The final digit is automatically calculated as a check digit.
 
-**ITF-14 with 13 Digits**
-
-With 13 digits, the check digit is automatically calculated:
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- 13-digit GTIN, check digit auto-calculated -->
-<SfBarcodeGenerator Width="300px" Height="150px" Type="@BarcodeType.ITF14" Value="1234567890123">
-</SfBarcodeGenerator>
-```
-
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 ITF 14 Barcode Generator](images/Gs1-ITF14-13digits.png)" %}
-
-**ITF-14 Validation Rules**
-
-- **Length**: Accepts 13 or 14 numeric digits only
-- **Format**: Digits only, no special characters or letters
-- **Check Digit**: 
-  - If 13 digits provided: 14th digit auto-calculated using GS1 Mod-10
-- **GTIN Support**: Supports GTIN-8, GTIN-12, GTIN-13, or GTIN-14 (padded to 14 digits)
-- **Validation**: All digits must be numeric (0-9)
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Width="300px" Height="150px" Type="@BarcodeType.ITF14" Value="590123412345" OnValidationFailed="@OnValidationFailed"></SfBarcodeGenerator>
-
-@code
-{
-    public void OnValidationFailed(ValidationFailedEventArgs args)
-    {
-        // Validation errors include:
-        // - Invalid length (not 13 or 14 digits)
-        // - Non-numeric characters
-        // - Invalid check digit (for 14-digit input)
-        Console.WriteLine($"ITF-14 validation error: {args.Message}");
-    }
-}
-```
-
 ## GS1 DataBar Barcodes
 
-GS1 DataBar is a family of linear barcode symbols designed for encoding GTINs in retail and healthcare environments. These barcodes offer a more compact alternative to traditional linear barcodes while maintaining omnidirectional scanning capability.
-
-GS1 DataBar symbols encode a 14-digit GTIN using a modular-based encoding system. The barcode consists of repeating module patterns that represent digit pairs, separated by guard patterns.
-
-### GS1 DataBar Stacked
-
-The GS1 DataBar Stacked is a compact linear barcode that encodes a 14-digit Global Trade Item Number (GTIN) in a two-row stacked format. It is designed for retail and consumer products where label space is limited, providing efficient product identification while maintaining compatibility with point-of-sale systems. The stacked layout reduces the barcode width, making it suitable for small packages and labels.
-
-**Allowed Input Characters:** GS1 DataBar Stacked supports numeric values (0-9) only and is used to encode a 14-digit GTIN (Global Trade Item Number). Its stacked format is designed for applications where horizontal space is limited while maintaining reliable scanning performance.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- Two-row stacked DataBar for unidirectional scanning -->
-<SfBarcodeGenerator Width="350px" Height="200px" Type="@BarcodeType.GS1DataBarStacked" Value="12345678901231">
-    <BarcodeGeneratorDisplayText Text="Compact Product Labeling"/>
-</SfBarcodeGenerator>
-```
-
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar OmniDirectional Stacked Barcode Generator](images/Gs1-DatabarStacked.png)" %}
+GS1 DataBar is a family of linear barcode symbols designed for encoding GTIN data in retail and healthcare applications. These symbols provide a compact alternative to traditional linear barcodes while supporting reliable scanning and product identification.
 
 ### GS1 DataBar Omnidirectional
 
@@ -183,6 +79,23 @@ The GS1 DataBar Omnidirectional is a single-row barcode used to encode a 14-digi
 ```
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar OmniDirectional Barcode Generator](images/Gs1-DatabarOmniDirectional.png)" %}
+
+### GS1 DataBar Stacked
+
+The GS1 DataBar Stacked is a compact linear barcode that encodes a 14-digit Global Trade Item Number (GTIN) in a two-row stacked format. It is designed for retail and consumer products where label space is limited, providing efficient product identification while maintaining compatibility with point-of-sale systems. The stacked layout reduces the barcode width, making it suitable for small packages and labels.
+
+**Allowed Input Characters:** GS1 DataBar Stacked supports numeric values (0-9) only and is used to encode a 14-digit GTIN (Global Trade Item Number). Its stacked format is designed for applications where horizontal space is limited while maintaining reliable scanning performance.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<!-- Two-row stacked DataBar for unidirectional scanning -->
+<SfBarcodeGenerator Width="350px" Height="200px" Type="@BarcodeType.GS1DataBarStacked" Value="12345678901231">
+    <BarcodeGeneratorDisplayText Text="Compact Product Labeling"/>
+</SfBarcodeGenerator>
+```
+
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar OmniDirectional Stacked Barcode Generator](images/Gs1-DatabarStacked.png)" %}
 
 ### GS1 DataBar Stacked Omnidirectional
 
@@ -218,7 +131,7 @@ The GS1 DataBar Limited barcode is a reduced-width symbol designed for small tra
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Limited Barcode Generator](images/Gs1-DatabarLimited.png)" %}
 
-**Note**: GS1 DataBar Limited has restrictions on valid GTIN values. The check digit must be in the range of 0-4 for restricted items.
+>**Note**: GS1 DataBar Limited has restrictions on valid GTIN values. The check digit must be in the range of 0-4 for restricted items.
 
 ### GS1 DataBar Expanded
 
@@ -253,49 +166,9 @@ The GS1 DataBar Expanded Stacked is a multi-row variant of the GS1 DataBar Expan
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Expanded Stacked Barcode Generator](images/Gs1-ExpandedStacked.png)" %}
 
-## GS1 DataBar Validation Rules
-
-### GTIN-Only DataBar Barcodes (Omnidirectional, Stacked, Limited)
-
-These barcodes accept only GTIN data:
-- **Supported GTIN Lengths**: GTIN-8, GTIN-12, GTIN-13, GTIN-14
-- **Input Formats**: 
-  - Bare GTIN: `3456789012345`
-  - Bracketed format: `(01)3456789012345`
-- **Check Digit**: 
-  - If input is 13 digits: 14th digit auto-calculated
-  - If input is 14 digits: Check digit verified and auto-corrected
-  - If input is 8 or 12 digits: Padded to 14 digits with leading zeros
-- **Validation**: 
-  - Must contain digits only
-  - Check digit must be valid per GS1 Mod-10 algorithm
-  - No multiple AIs allowed
-
-### Expanded DataBar Barcodes (Expanded, Expanded Stacked)
-
-These barcodes support multiple Application Identifiers:
-- **AI Format**: `(AI)data` with parentheses
-- **AI Length**: 2-4 numeric digits only
-- **AI Duplication**: Not allowed (each AI appears once)
-- **Data Validation**: Each AI has specific length and character rules
-- **Max Capacity**: 74 numeric or 41 alphanumeric characters total
-- **FNC1 Separator**: Automatically added between variable-length AIs
-
-## Validation and Error Handling
+## GS1 DataBar Validation
 
 The GS1 barcode components include built-in validation to ensure data integrity. Invalid input will trigger the [OnValidationFailed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_OnValidationFailed) event:
-
-### Common Validation Errors
-
-| Error | Cause | Solution |
-|---|---|---|
-| Invalid GS1 syntax | Missing parentheses | Use format: `(01)12345678901234` |
-| Unsupported Application Identifier | AI not defined in GS1 specs | Check AI number (01-422, 310n-365n) |
-| Invalid data length for AI | Data doesn't match AI requirements | Verify data length per AI specification |
-| Duplicate Application Identifier | Same AI appears twice | Remove duplicate AI |
-| Invalid check digit | GTIN check digit incorrect | Verify GTIN or let system auto-calculate |
-| Non-numeric GTIN | GTIN contains non-digits | DataBar (GTIN-only) accepts digits only |
-| Invalid character | AI data contains invalid character | Use allowed character set for AI |
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -308,12 +181,6 @@ The GS1 barcode components include built-in validation to ensure data integrity.
     {
         // Handle validation errors
         Console.WriteLine($"Barcode validation error: {args.Message}");
-        
-        // Common scenarios:
-        // - "(01)123" - Error: Invalid GTIN length
-        // - "(99)data" - Error: Unsupported Application Identifier
-        // - "01data" - Error: Invalid GS1 syntax (no parentheses)
-        // - "(01)data(01)other" - Error: Duplicate AI (01)
     }
 }
 ```
@@ -322,7 +189,7 @@ The GS1 barcode components include built-in validation to ensure data integrity.
 
 The GS1 Barcode components support real-time property binding. When you change any property value, the barcode automatically updates to reflect the changes. This is useful for creating interactive applications where users can customize the barcode appearance dynamically.
 
-#### Real-time Property Binding Example
+#### Update GS1 Databar Properties Dynamically
 
 Here is an example showing how to dynamically update GS1 Barcode properties using Blazor data binding:
 

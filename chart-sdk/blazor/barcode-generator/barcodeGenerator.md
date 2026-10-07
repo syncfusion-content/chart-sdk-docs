@@ -127,7 +127,7 @@ The barcode appearance can be customized by changing the colors. The component p
 
 #### Foreground Color
 
-The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_ForeColor) property specifies the line and text color of the barcode. By default, it is set to black.
+The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_ForeColor) property specifies the line and text color of the barcode. By default, it is set to **black**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -139,7 +139,7 @@ The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 
 #### Background Color
 
-The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_BackgroundColor) property specifies the background color of the barcode. By default, it is set to white. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
+The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_BackgroundColor) property specifies the background color of the barcode. By default, it is set to **white**. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -150,7 +150,7 @@ The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Ba
 
 ### Barcode Dimension Customization
 
-The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to 100%.
+The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to **100%**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -202,7 +202,7 @@ The [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 
 #### Font Configuration
 
-The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to **monospace**.Expand commentComment on line R205Resolved
+The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to **monospace**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -289,11 +289,13 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 
 ### Dynamic Property Updates
 
-The Barcode Generator supports real-time property binding. When you change any property value, the barcode automatically updates to reflect the changes. This is useful for creating interactive applications where users can customize the barcode appearance dynamically.
+The Barcode Generator supports dynamic updates to barcode properties at runtime. When a property value is modified, the barcode is automatically refreshed to display the latest changes. This enables interactive customization of the barcode appearance and content.
 
-#### Real-time Property Binding
+#### Update Barcode Properties Dynamically
 
-Here is an example showing how to dynamically update barcode properties using Blazor data binding:
+The Barcode Generator supports updating barcode properties at runtime. Changes to properties such as the barcode value, dimensions, colors, and display text are automatically reflected in the generated barcode. This enables interactive barcode customization without requiring the component to be recreated or the page to be reloaded.
+ 
+The following example demonstrates how to dynamically update barcode properties.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -354,13 +356,11 @@ Here is an example showing how to dynamically update barcode properties using Bl
 }
 ```
 
-**Key Points:**
-- The barcode automatically re-renders with the new property values
-- This works for all customizable properties: Value, ForeColor, BackgroundColor, Width, Height, DisplayText, Margins, etc.
+#### Change Barcode Type Dynamically
 
-#### Real-time Barcode Type Change
+The Barcode Generator allows users to switch between supported barcode types at runtime. When a different barcode type is selected, the component automatically regenerates the barcode using the selected symbology.
 
-You can also change the barcode type dynamically:
+The following example demonstrates how to dynamically switch between supported barcode types.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator

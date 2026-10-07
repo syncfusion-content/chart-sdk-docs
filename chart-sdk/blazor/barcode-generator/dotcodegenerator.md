@@ -11,26 +11,15 @@ documentation: ug
 
 ## DotCode
 
-DotCode is a high-density, two-dimensional matrix barcode symbology designed for industrial printing and encoding applications. It is particularly useful in pharmaceutical packaging, health care, and product serialization. DotCode uses a pattern of circular dots arranged in rows and columns, allowing it to encode large amounts of data in a compact space. The barcode can encode both numeric and alphanumeric characters, making it versatile for various labeling requirements.
+DotCode is a two-dimensional (2D) barcode designed for high-density data encoding in industrial and healthcare applications. It supports compact data representation and reliable scanning, making it suitable for product identification, serialization, and traceability scenarios.
 
-### DotCode Encoding Modes
+**Key Features**
 
-| Mode | Data Type | Efficiency |
-|---|---|---|
-| **Numeric** | Digits 0-9 | 3.33 bits per digit |
-| **Alphanumeric** | 0-9, A-Z, space, special chars | 5.5 bits per character |
-| **Byte** | Any 8-bit character | 8 bits per character |
-| **GS1** | GS1 element strings | Variable (optimized) |
-
-**Key Features of DotCode**
-
-- **High Data Density**: Encodes data efficiently, making it ideal for small label areas.
-- **Alphanumeric Support**: Can encode uppercase letters, digits, and special characters.
-- **Multiple Data Modes**: Supports various encoding modes for optimal compression.
-- **Industrial Grade**: Designed for harsh printing and scanning environments.
-- **GS1 Support**: Optional GS1 encoding for supply chain applications.
-- **Structured Append**: Can span data across multiple DotCode symbols.
-- **Error Correction**: Built-in error detection and correction capability.
+- High-density data encoding.
+- Support for numeric and alphanumeric data.
+- GS1-compliant encoding.
+- Reliable scanning in industrial environments.
+- Error detection and correction capabilities.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -41,35 +30,7 @@ DotCode is a high-density, two-dimensional matrix barcode symbology designed for
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/DotCodeBarcode.png)" %}
 
-**Allowed Input Characters:** DotCode supports numeric values (0-9), uppercase and lowercase alphabetic characters (A-Z, a-z), and supported special characters. It is designed for compact, high-density data encoding in space-constrained applications.
-
-### Data Encoding Capabilities
-
-DotCode supports various character sets and encoding modes for efficient data representation:
-
-**Numeric Data**
-
-For numeric-only data, DotCode uses a specialized encoding that achieves high density:
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfDotCodeGenerator Width="300" Height="250" Value="1234567890"></SfDotCodeGenerator>
-```
-
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/DotCodeNumeric.png)" %}
-
-**Alphanumeric Data**
-
-DotCode can encode uppercase letters, numbers, and common special characters:
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfDotCodeGenerator Width="350" Height="250" Value="DOTCODE-2024-ABC"></SfDotCodeGenerator>
-```
-
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/DotCode-AlphaNumeric.png)" %}
+>**Note:** DotCode supports encoding numeric, alphanumeric, and supported special characters. The component automatically determines the appropriate encoding based on the provided input.
 
 ## GS1 DotCode
 
@@ -85,8 +46,6 @@ To enable GS1 encoding, use the [EnableGS1](https://help.syncfusion.com/cr/blazo
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/GS1-DotCode.png)" %}
 
-**Allowed Input Characters:** GS1 DotCode supports numeric, alphanumeric, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), enabling structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers to be stored in a compact symbol.
-
 **Common GS1 Application Identifiers:**
 
 | AI | Description | Example |
@@ -98,56 +57,9 @@ To enable GS1 encoding, use the [EnableGS1](https://help.syncfusion.com/cr/blazo
 | 17 | Expiration Date | (17)251231 |
 | 21 | Serial Number | (21)SN123456 |
 
-## DotCode Validation Rules
-
-### DotCode Validation
-
-- **Length**: Minimum 1 character, maximum depends on symbol size (typically up to 208 characters)
-- **Character Set**: 
-  - Numeric: 0-9
-  - Alphanumeric: 0-9, A-Z, space, and special characters
-  - Byte: All 8-bit values (0-255)
-- **Encoding Mode**: Auto-selected based on input data
-- **Symbol Size**: Automatically calculated based on data length
-- **Empty Data**: Not allowed (at least 1 character required)
-
-### GS1 DotCode Validation
-
-When `EnableGS1="true"`:
-
-- **Format**: Must use `(AI)data(AI)data...` syntax
-- **AI Format**: 2-4 numeric digits in parentheses
-- **AI Support**: All standard GS1 AIs (01-422, 310n-365n)
-- **Data Validation**: Each AI has specific length and character requirements
-- **FNC1 Separator**: Automatically added between variable-length AIs
-- **AI Duplication**: Each AI can appear only once
-
-**GS1 DotCode AI Data**
-
-| Use Case | Value | Description |
-|---|---|---|
-| **GTIN Tracking** | `(01)12345678901234` | Global Trade Item Number |
-| **Batch Number** | `(10)BATCH2024` | Production batch identification |
-| **Expiration** | `(17)251231` | Expiration date (YYMMDD) |
-| **Serial Number** | `(21)SN123456789` | Unique product serial number |
-| **Manufacturer** | `(400)123456` | Customer PO number |
-| **Pharma Use** | `(01)12345678901234(10)LOT001(17)251231` | Multi-AI pharmaceutical data |
-
 ## Validation and Error Handling
 
-The DotCode generator includes built-in validation to ensure data integrity. If invalid data is provided, the [OnValidationFailed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_OnValidationFailed) event will be triggered:
-
-**Validation Errors**
-
-| Error | Cause | Solution |
-|---|---|---|
-| Empty value | No data provided | Supply at least one character |
-| Unsupported AI | Invalid Application Identifier | Check AI format (2-4 digits) |
-| Invalid AI data | Data doesn't match AI requirements | Verify data length and character set |
-| Duplicate AI | Same AI appears multiple times | Remove duplicate AIs |
-| Invalid syntax | Missing parentheses in GS1 mode | Use format: `(AI)data` |
-| Data too long | Exceeds maximum capacity | Reduce data or use structured append |
-| Invalid character | Character not supported in mode | Use allowed character set |
+The DotCode Generator validates input data before generating the barcode. If the provided value does not meet the required format or exceeds the supported capacity, the [OnValidationFailed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_OnValidationFailed) event is triggered.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -171,9 +83,9 @@ The DotCode generator includes built-in validation to ensure data integrity. If 
 }
 ```
 
-## Dot Code Customizations
+## DotCode Customizations
 
-The DotCode component provides comprehensive customization options to modify the appearance and behavior of generated barcodes. This section covers all available properties that can be used to customize DotCode symbols.
+The DotCode barcode appearance can be customized using properties such as colors, dimensions, margins, and display text settings.
 
 ### DotCode Color Customization
 
@@ -181,7 +93,7 @@ The barcode appearance can be customized by changing the colors. The component p
 
 #### Foreground Color
 
-The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_ForeColor) property specifies the line and text color of the DotCode barcode. By default, it is set to black.
+The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_ForeColor) property specifies the line and text color of the DotCode barcode. By default, it is set to **black**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -192,7 +104,7 @@ The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 
 #### Background Color
 
-The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_BackgroundColor) property specifies the background color of the DotCode barcode. By default, it is set to white. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
+The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_BackgroundColor) property specifies the background color of the DotCode barcode. By default, it is set to **white**. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -203,7 +115,7 @@ The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Ba
 
 ### DotCode Dimension Customization
 
-The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to 100%.
+The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_Width) properties. Both properties accept string values with px and % units. By default, both are set to **100%**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -338,9 +250,9 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 
 ### Dynamic Property Updates
 
-The DotCode component supports real-time property binding. When you change any property value, the DotCode barcode automatically updates to reflect the changes. This is useful for creating interactive applications where users can customize the barcode appearance dynamically.
+The DotCode Generator supports dynamic updates to barcode properties at runtime. When a property value is modified, the barcode is automatically refreshed to display the latest changes. This enables interactive customization of the barcode appearance and content.
 
-#### Real-time Property Binding Example
+#### Update DotCode Properties Dynamically
 
 Here is an example showing how to dynamically update DotCode properties using Blazor data binding:
 
@@ -403,7 +315,3 @@ Here is an example showing how to dynamically update DotCode properties using Bl
     private string DisplayTextValue = "High-Density Code";
 }
 ```
-
-**Key Points:**
-- The DotCode automatically re-renders with the new property values
-- This works for all customizable properties: Value, ForeColor, BackgroundColor, Width, Height, DisplayText, Margins, etc.

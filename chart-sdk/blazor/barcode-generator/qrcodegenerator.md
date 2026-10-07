@@ -13,16 +13,6 @@ documentation: ug
 
 The [Blazor QR Code](https://www.syncfusion.com/blazor-components/blazor-barcode) is a two-dimensional barcode composed of a grid of dark and light dots or blocks that form a square. The data encoded in the barcode can be numeric, alphanumeric, or Shift Japanese Industrial Standards (JIS8) characters. The QR Code uses version from 1 to 40. Version 1 measures 21 modules x 21 modules, Version 2 measures 25 modules x 25 modules, and so on. The number of modules increases in steps of 4 modules per side up to Version 40, which measures 177 modules x 177 modules. Each version has its own capacity. By default, the barcode control automatically sets the version according to the length of the input text. The QR Barcodes are designed for industrial uses and are also commonly used in consumer advertising.
 
-### QR Code Versions
-
-| Version | Size | Capacity (Numeric) | Capacity (Alphanumeric) | Capacity (Byte) |
-|---|---|---|---|---|
-| 1 | 21×21 | 41 | 25 | 17 |
-| 5 | 37×37 | 154 | 93 | 65 |
-| 10 | 57×57 | 346 | 209 | 154 |
-| 20 | 97×97 | 1,108 | 671 | 512 |
-| 40 | 177×177 | 7,089 | 4,296 | 2,953 |
-
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
@@ -41,7 +31,7 @@ The QR code appearance can be customized by changing the colors. The component p
 
 #### Foreground Color
 
-The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_ForeColor) property specifies the color of the dark modules (dots) in the QR code. By default, it is set to black.
+The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_ForeColor) property specifies the color of the dark modules (dots) in the QR code. By default, it is set to **black**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -53,7 +43,7 @@ The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 
 #### Background Color
 
-The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_BackgroundColor) property specifies the background color of the QR code (light modules). By default, it is set to white. This is useful when you need to match the QR code with the surrounding environment or create custom designs.
+The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_BackgroundColor) property specifies the background color of the QR code (light modules). By default, it is set to **white**. This is useful when you need to match the QR code with the surrounding environment or create custom designs.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -64,7 +54,7 @@ The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Ba
 
 ### QR Code Dimension Customization
 
-The dimensions of the QR code can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to 100%.
+The dimensions of the QR code can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to **100%**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -147,7 +137,7 @@ The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 
 #### Text Size
 
-The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeGeneratorDisplayText_Size) property specifies the size of the display text. By default, it is set to `20` pixels.
+The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeGeneratorDisplayText_Size) property specifies the size of the display text. By default, it is set to **20** pixels.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -286,7 +276,7 @@ Here is a comprehensive example showing multiple customization properties used t
 
 The QR Code component supports real-time property binding. When any property value changes, the QR code automatically updates to reflect the changes.
 
-#### Real-time Property Binding
+#### Update QR code Properties Dynamically
 
 Here is an example showing how to dynamically update QR code properties using Blazor data binding:
 
@@ -354,10 +344,6 @@ Here is an example showing how to dynamically update QR code properties using Bl
 }
 ```
 
-**Key Points:**
-- The QR code automatically re-renders with the new property values
-- This works for all customizable properties: Value, ForeColor, BackgroundColor, Width, Height, ErrorCorrectionLevel, DisplayText, Margins.
-
 ## GS1 QR Code
 
 GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
@@ -376,15 +362,6 @@ Use the [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Barc
 ```
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/VNhdjnCCzWnQnUJx?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Customizing the Text for QR Code in Blazor Barcode](images/Gs1-QrCode.png)" %}
-
-### GS1 QR Code Validation Rules
-
-- **Syntax**: Must use format `(AI)data(AI)data...`
-- **AI Format**: 2-4 numeric digits enclosed in parentheses
-- **Data Length**: Must match AI specification (fixed or variable)
-- **Character Set**: Each AI defines allowed characters
-- **Duplicates**: Each AI appears only once per code
-- **AI Support**: Supports all standard GS1 Application Identifiers
 
 ### GS1 QR Code with Error Correction
 
