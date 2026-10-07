@@ -21,7 +21,7 @@ N> **Prerequisite:** Ensure that the required NuGet package is installed, the ne
 
 To learn how to add and customize annotations in .NET MAUI Cartesian Charts quickly, you can check the below video.
 
-{% youtube "https://youtu.be/v1u774lp9pQ" %}
+{% youtube "https://www.youtube.com/watch?v=v1u774lp9pQ&feature=youtu.be" %}
 
 ## Adding Annotations
 
@@ -622,7 +622,7 @@ this.Content = chart;
 
 ## Annotation Z-Index
 
-The [ZIndex](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html#Syncfusion_Maui_Charts_ChartAnnotation_ZIndex) property of [ChartAnnotation](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html) property of [ChartAnnotation](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html) is used to control the rendering order of annotations. Annotations with a higher [ZIndex](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html#Syncfusion_Maui_Charts_ChartAnnotation_ZIndex) property of [ChartAnnotation](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html) value are displayed above annotations with lower [ZIndex](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html#Syncfusion_Maui_Charts_ChartAnnotation_ZIndex) property of [ChartAnnotation](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html) values. Setting [ZIndex](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html#Syncfusion_Maui_Charts_ChartAnnotation_ZIndex) property of [ChartAnnotation](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartAnnotation.html) to `-1` renders the annotation behind the chart series.
+The [ZIndex]() property of [ChartAnnotation]() is used to control the rendering order of annotations. Annotations with a higher [ZIndex]() value are displayed above annotations with lower [ZIndex]() values. Setting [ZIndex]() to `-1` renders the annotation behind the chart series.
 
 {% tabs %}
 
@@ -689,11 +689,11 @@ this.Content = chart;
 
 **AnnotationTapped**
 
-The [AnnotationTapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_AnnotationTapped) event occurs when an annotation is tapped. The [AnnotationTappedEventArgs](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.Chart.Events.AnnotationTappedEventArgs.html) provides the following details:
+The [AnnotationTapped](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCartesianChart.html#Syncfusion_Maui_Charts_SfCartesianChart_AnnotationTapped) event occurs when an annotation is tapped. The [AnnotationTappedEventArgs](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.AnnotationTappedEventArgs.html) provides the following details:
 
-* [Annotation](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.Chart.Events.AnnotationTappedEventArgs.html#Syncfusion_Maui_Charts_Chart_Events_AnnotationTappedEventArgs_Annotation) – the annotation instance that was tapped.
-* [X](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.Chart.Events.AnnotationTappedEventArgs.html#Syncfusion_Maui_Charts_Chart_Events_AnnotationTappedEventArgs_X) – the X coordinate of the touch or mouse click position.
-* [Y](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.Chart.Events.AnnotationTappedEventArgs.html#Syncfusion_Maui_Charts_Chart_Events_AnnotationTappedEventArgs_Y) – the Y coordinate of the touch or mouse click position.
+* [Annotation](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.AnnotationTappedEventArgs.html#Syncfusion_Maui_Charts_AnnotationTappedEventArgs_Annotation) – the annotation instance that was tapped.
+* [X](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.AnnotationTappedEventArgs.html#Syncfusion_Maui_Charts_AnnotationTappedEventArgs_X) – the X coordinate of the touch or mouse click position.
+* [Y](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.AnnotationTappedEventArgs.html#Syncfusion_Maui_Charts_AnnotationTappedEventArgs_Y) – the Y coordinate of the touch or mouse click position.
 
 ## Public methods
 
