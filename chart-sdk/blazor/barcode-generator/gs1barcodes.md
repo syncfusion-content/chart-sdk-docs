@@ -7,13 +7,13 @@ control: Barcode
 documentation: ug
 ---
 
-# GS1 Barcodes
+# GS1 Barcodes in Blazor Barcode Component
 
 GS1 standards define a series of barcodes used for supply chain management, retail, and logistics operations. These barcodes encode product identification and tracking data using standardized GS1 Application Identifiers (AIs). The Blazor Barcode component supports multiple GS1 barcode types to meet various industry requirements.
 
 ## GS1-Code128 Barcode
 
-GS1-Code128 is a linear barcode based on Code 128 that uses GS1 Application Identifiers (AIs) to encode structured business data. It is commonly used in retail, logistics, healthcare, and supply-chain applications to store information such as product identifiers, batch numbers, expiration dates, and serial numbers.
+GS1-Code128 is a linear barcode based on Code 128 that uses GS1 Application Identifiers (AIs) to encode structured business data. It is commonly used in retail, logistics, health care, and supply-chain applications to store information such as product identifiers, batch numbers, expiration dates, and serial numbers.
 
 **Allowed Input Characters:** GS1-128 supports numeric values (0-9), uppercase and lowercase alphabetic characters (A-Z, a-z), and supported ASCII special characters. Data should be encoded using valid GS1 Application Identifiers (AIs) to represent structured business information.
 
@@ -25,7 +25,7 @@ GS1-Code128 is a linear barcode based on Code 128 that uses GS1 Application Iden
 </SfBarcodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Barcode Generator](images/Gs1-BarcodeGenerator.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjrHWtZQhGFWFSmQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Barcode Generator](images/Gs1-BarcodeGenerator.png)" %}
 
 GS1-128 accepts GS1 Application Identifier (AI) data. The AI is enclosed in parentheses, followed by the data. Multiple AIs can be concatenated together.
 
@@ -55,13 +55,13 @@ ITF-14 (Interleaved 2 of 5) is the GS1 standard for encoding 14-digit Global Tra
 </SfBarcodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 ITF 14 Barcode Generator](images/Gs1-ITF14.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDBxWjDwrmbpSsRn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 ITF 14 Barcode Generator](images/Gs1-ITF14.png)" %}
 
 **Allowed Input Characters:** ITF-14 supports numeric values (0-9) only and is used to encode a 14-digit GTIN (Global Trade Item Number). The final digit is automatically calculated as a check digit.
 
 ## GS1 DataBar Barcodes
 
-GS1 DataBar is a family of linear barcode symbols designed for encoding GTIN data in retail and healthcare applications. These symbols provide a compact alternative to traditional linear barcodes while supporting reliable scanning and product identification.
+GS1 DataBar is a family of linear barcode symbols designed for encoding GTIN data in retail and health care applications. These symbols provide a compact alternative to traditional linear barcodes while supporting reliable scanning and product identification.
 
 ### GS1 DataBar Omnidirectional
 
@@ -78,7 +78,7 @@ The GS1 DataBar Omnidirectional is a single-row barcode used to encode a 14-digi
 </SfBarcodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar OmniDirectional Barcode Generator](images/Gs1-DatabarOmniDirectional.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtVRiNXmLGlmSuaH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar OmniDirectional Barcode Generator](images/Gs1-DatabarOmniDirectional.png)" %}
 
 ### GS1 DataBar Stacked
 
@@ -95,7 +95,7 @@ The GS1 DataBar Stacked is a compact linear barcode that encodes a 14-digit Glob
 </SfBarcodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar OmniDirectional Stacked Barcode Generator](images/Gs1-DatabarStacked.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXVxijNwLGYXigMP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar OmniDirectional Stacked Barcode Generator](images/Gs1-DatabarStacked.png)" %}
 
 ### GS1 DataBar Stacked Omnidirectional
 
@@ -112,7 +112,7 @@ The GS1 DataBar Stacked Omnidirectional is a two-row variant of the DataBar Omni
 </SfBarcodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Stacked OmniDirectional Barcode Generator](images/Gs1-StackedOmniDirectional.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNLdittQLQYVnqPG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Stacked OmniDirectional Barcode Generator](images/Gs1-StackedOmniDirectional.png)" %}
 
 ### GS1 DataBar Limited
 
@@ -129,7 +129,7 @@ The GS1 DataBar Limited barcode is a reduced-width symbol designed for small tra
 </SfBarcodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Limited Barcode Generator](images/Gs1-DatabarLimited.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjhHiXZQrwkIixui?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Limited Barcode Generator](images/Gs1-DatabarLimited.png)" %}
 
 >**Note**: GS1 DataBar Limited has restrictions on valid GTIN values. The check digit must be in the range of 0-4 for restricted items.
 
@@ -148,7 +148,7 @@ The GS1 DataBar Expanded barcode supports multiple GS1 Application Identifiers (
 </SfBarcodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Expanded Barcode Generator](images/Gs1-DatabarExpanded.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXVHijNmBGOGznnB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Expanded Barcode Generator](images/Gs1-DatabarExpanded.png)" %}
 
 ### GS1 DataBar Expanded Stacked
 
@@ -164,7 +164,7 @@ The GS1 DataBar Expanded Stacked is a multi-row variant of the GS1 DataBar Expan
     <BarcodeGeneratorDisplayText Text="Supply Chain Tracking" />
 </SfBarcodeGenerator>
 ```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Expanded Stacked Barcode Generator](images/Gs1-ExpandedStacked.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LNBxsttQhlZNVGtV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Databar Expanded Stacked Barcode Generator](images/Gs1-ExpandedStacked.png)" %}
 
 ## GS1 DataBar Validation
 
@@ -184,6 +184,7 @@ The GS1 barcode components include built-in validation to ensure data integrity.
     }
 }
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rthHCZjQLPjfQgJs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Dynamic Property Updates
 
@@ -260,11 +261,7 @@ Here is an example showing how to dynamically update GS1 Barcode properties usin
     private int BarcodeHeight = 150;
     private string DisplayTextValue = "GS1 Barcode";
     private BarcodeType SelectedBarcodeType = BarcodeType.GS1Code128;
-    private List<BarcodeType> GS1BarcodeTypes = new() { BarcodeType.GS1Code128, BarcodeType.ITF14, BarcodeType.GS1DataBarOmniDirectional, BarcodeType.GS1DataBarStacked };
+    private List<BarcodeType> GS1BarcodeTypes = new() { BarcodeType.GS1Code128, BarcodeType.ITF14, BarcodeType.GS1DataBarOmnidirectional, BarcodeType.GS1DataBarStacked };
 }
 ```
-
-**Key Points:**
-- The barcode automatically re-renders with the new property values
-- The barcode type can be changed dynamically to switch between different GS1 symbologies
-- This works for all customizable properties: Value, ForeColor, BackgroundColor, Width, Height, Type, DisplayText, Margins, etc.
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rXhxCjDGrbVNONYE?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

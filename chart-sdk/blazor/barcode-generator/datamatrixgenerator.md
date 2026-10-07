@@ -71,6 +71,7 @@ The following example demonstrates how to generate a Data Matrix barcode using d
 <SfDataMatrixGenerator Width="200" Height="150" Value="1234567890" Encoding="DataMatrixEncoding.ASCIINumeric">
 </SfDataMatrixGenerator>
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hNrnCjZQrRQTKfed?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 **Encoding Mode Guide**
 
@@ -99,7 +100,7 @@ The following example demonstrates how to generate a GS1 Data Matrix barcode:
 </SfDataMatrixGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Data Matrix Generator](images/Gs1-DataMatrix.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rXVniNDwrnwwTAjw?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 Data Matrix Generator](images/Gs1-DataMatrix.png)" %}
 
 >**Note:** The Barcode Generator validates the input data before generating the barcode. If the input data is invalid or cannot be encoded using the selected settings, the `OnValidationFailed` event is triggered.
 
@@ -128,6 +129,7 @@ The following example demonstrates how to generate a GS1 Data Matrix barcode:
     }
 }
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDBHWDNmVxPfJcuC?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Data Matrix Customizations
 
@@ -159,6 +161,7 @@ The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Ba
 <SfDataMatrixGenerator Width="200" Height="150" BackgroundColor="lightyellow" ForeColor="darkblue" Value="SYNCFUSION"></SfDataMatrixGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZhRstjQBdkMgiRR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Data Matrix Dimension Customization
 
@@ -170,7 +173,7 @@ The dimensions of the barcode can be adjusted using the [Height](https://help.sy
 <SfDataMatrixGenerator Width="300px" Height="250px" Value="SYNCFUSION"></SfDataMatrixGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LjBnjniWpLMlSGri?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BZLHMjNmhdYxsxHd?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Margin Customization
 
@@ -191,6 +194,7 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 </SfDataMatrixGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rXLHijNwLGNNGJFP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Display Text Customization
 
@@ -222,6 +226,7 @@ The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 </SfDataMatrixGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LDhxCZZwrQXejUSV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Size
 
@@ -235,6 +240,7 @@ The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 </SfDataMatrixGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNVRCNjcVmDmeLWH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Alignment
 
@@ -243,11 +249,12 @@ The [Alignment](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfDataMatrixGenerator Width="200" Height="150" Value="SYNCFUSION">
+<SfDataMatrixGenerator Width="300" Height="150" Value="SYNCFUSION">
     <DataMatrixGeneratorDisplayText Text="Product Code" Alignment="Alignment.Left"></DataMatrixGeneratorDisplayText>
 </SfDataMatrixGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rtrniDXcBQizFiYP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Position
 
@@ -261,6 +268,7 @@ The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGe
 </SfDataMatrixGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htLdiXNcrciwtpoQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Visibility
 
@@ -274,6 +282,7 @@ The [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Barcode
 </SfDataMatrixGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BDhHMjXQBwCEVjpH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Margin
 
@@ -296,6 +305,7 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 </SfDataMatrixGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXLdMtNQVchMhGfy?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Dynamic Property Updates
 
@@ -368,3 +378,4 @@ The following example demonstrates how to dynamically update Data Matrix propert
     private List<DataMatrixEncoding> EncodingModes = new() { DataMatrixEncoding.Auto, DataMatrixEncoding.ASCII, DataMatrixEncoding.ASCIINumeric, DataMatrixEncoding.Base256 };
 }
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXBHWZNmVcrzySTN?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

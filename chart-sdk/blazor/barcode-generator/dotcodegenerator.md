@@ -11,7 +11,7 @@ documentation: ug
 
 ## DotCode
 
-DotCode is a two-dimensional (2D) barcode designed for high-density data encoding in industrial and healthcare applications. It supports compact data representation and reliable scanning, making it suitable for product identification, serialization, and traceability scenarios.
+DotCode is a two-dimensional (2D) barcode designed for high-density data encoding in industrial and health care applications. It supports compact data representation and reliable scanning, making it suitable for product identification, serialization, and traceability scenarios.
 
 **Key Features**
 
@@ -28,13 +28,13 @@ DotCode is a two-dimensional (2D) barcode designed for high-density data encodin
 <SfDotCodeGenerator Width="300" Height="250" Value="Product Serialization"></SfDotCodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/DotCodeBarcode.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDVRCjtcLwKCujkf?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/DotCodeBarcode.png)" %}
 
 >**Note:** DotCode supports encoding numeric, alphanumeric, and supported special characters. The component automatically determines the appropriate encoding based on the provided input.
 
 ## GS1 DotCode
 
-DotCode supports GS1 encoding mode, which allows you to encode structured data using GS1 Application Identifiers (AIs). This is particularly useful in pharmaceutical and healthcare applications where compliance with GS1 standards is required.
+DotCode supports GS1 encoding mode, which allows you to encode structured data using GS1 Application Identifiers (AIs). This is particularly useful in pharmaceutical and health care applications where compliance with GS1 standards is required.
 
 To enable GS1 encoding, use the [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfDotCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfDotCodeGenerator_EnableGS1) property.
 
@@ -44,7 +44,7 @@ To enable GS1 encoding, use the [EnableGS1](https://help.syncfusion.com/cr/blazo
 <SfDotCodeGenerator Width="350" Height="250" Value="(01)12345678901231" EnableGS1="true"></SfDotCodeGenerator>
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BtBnDRWCfBWXhspH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/GS1-DotCode.png)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hjLnCNXQBGqHrNxT?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Dot Code Generator in Blazor Barcode](images/GS1-DotCode.png)" %}
 
 **Common GS1 Application Identifiers:**
 
@@ -82,6 +82,7 @@ The DotCode Generator validates input data before generating the barcode. If the
     }
 }
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BDBHstNwVGUuwuYM?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## DotCode Customizations
 
@@ -101,6 +102,7 @@ The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 <SfDotCodeGenerator Width="250" Height="200" ForeColor="red" Value="SYNCFUSION"></SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VZVnMNjcVmfvAAwH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Background Color
 
@@ -112,6 +114,7 @@ The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Ba
 <SfDotCodeGenerator Width="250" Height="200" BackgroundColor="lightyellow" ForeColor="darkblue" Value="SYNCFUSION"></SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rjrdCtNQhQSDrqHL?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### DotCode Dimension Customization
 
@@ -123,6 +126,7 @@ The dimensions of the barcode can be adjusted using the [Height](https://help.sy
 <SfDotCodeGenerator Width="300px" Height="250px" Value="SYNCFUSION"></SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BtVRMXjQVwehASji?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Margin Customization
 
@@ -145,6 +149,7 @@ All properties accept double values representing pixels.
 </SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZVxMjjchmeJttVd?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Display Text Customization
 
@@ -162,6 +167,7 @@ The [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 </SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LjhRWXDmLmoSRvYv?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Font Configuration
 
@@ -175,6 +181,7 @@ The [FontFamily](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Barcode
 </SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZhxstNGLwIPJsQC?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 The [FontSize](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.DotCodeDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_DotCodeDisplayText_FontSize) property specifies the size of the display text. By default, it is set to `20` pixels.
 
@@ -186,6 +193,7 @@ The [FontSize](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGe
 </SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htBRsZNwLQxNCDra?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Alignment
 
@@ -199,6 +207,7 @@ The [Alignment](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 </SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LNBniXDQBwRMdsdA?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Position
 
@@ -212,6 +221,7 @@ The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGe
 </SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtVdMZjmrQxqKyIU?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Visibility
 
@@ -225,6 +235,7 @@ The [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Barcode
 </SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBxCtZmLQnIiUrJ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Margin
 
@@ -247,6 +258,7 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 </SfDotCodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LXLdMDjwVwndQpFO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Dynamic Property Updates
 
@@ -315,3 +327,4 @@ Here is an example showing how to dynamically update DotCode properties using Bl
     private string DisplayTextValue = "High-Density Code";
 }
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LNrHCDjwBcxvyBPc?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

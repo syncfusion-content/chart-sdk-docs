@@ -147,6 +147,7 @@ The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Ba
 <SfBarcodeGenerator Width="200px" Height="150px" Type="@BarcodeType.Code128" BackgroundColor="lightyellow" ForeColor="darkblue" Value="SYNCFUSION"></SfBarcodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrRWtjQLpaGfNAq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Barcode Dimension Customization
 
@@ -181,6 +182,7 @@ All properties accept double values representing pixels.
 </SfBarcodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rthHMZtGhSXxxSKp?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Display Text Customization
 
@@ -212,6 +214,7 @@ The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 </SfBarcodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtLdiNtcVSCNGCBm?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Size
 
@@ -225,6 +228,7 @@ The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 </SfBarcodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtLdiNtcVSCNGCBm?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Alignment
 
@@ -238,6 +242,7 @@ The [Alignment](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 </SfBarcodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BDhdCZtmBSYNXHpn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Position
 
@@ -251,6 +256,7 @@ The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGe
 </SfBarcodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BjVnMZjGrIOALSVn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Visibility
 
@@ -264,6 +270,7 @@ The [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Barcode
 </SfBarcodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VtLRijZGVouyprpd?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Text Margin
 
@@ -286,6 +293,7 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 </SfBarcodeGenerator>
 
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rthRWtDcrIuwbLGS?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Dynamic Property Updates
 
@@ -355,6 +363,7 @@ The following example demonstrates how to dynamically update barcode properties.
     private string DisplayTextValue = "Product Code";
 }
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rDrnsZjcLxKlMPFq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 #### Change Barcode Type Dynamically
 
@@ -368,32 +377,45 @@ The following example demonstrates how to dynamically switch between supported b
 
 <div style="margin: 20px;">
     <label>Select Barcode Type: </label>
-    <SfDropDownList TValue="BarcodeType" TItem="BarcodeType" DataSource="@BarcodeTypes" @bind-Value="@SelectedBarcodeType">
-        <DropDownListFieldSettings Text="ToString" Value="ToString"></DropDownListFieldSettings>
+    <SfDropDownList TValue="string" TItem="BarcodeTypeItem" DataSource="@BarcodeTypeItems" @bind-Value="@SelectedBarcodeType">
+        <DropDownListFieldSettings Text="Text" Value="Value"></DropDownListFieldSettings>
     </SfDropDownList>
 </div>
 
-<SfBarcodeGenerator Width="300px" 
-                    Height="150px" 
-                    Type="@SelectedBarcodeType" 
+<SfBarcodeGenerator Width="300px"
+                    Height="150px"
+                    Type="@SelectedBarcodeTypeEnum"
                     Value="@BarcodeValue">
     <BarcodeGeneratorDisplayText Text="Dynamic Type Change"></BarcodeGeneratorDisplayText>
 </SfBarcodeGenerator>
 
 @code
 {
-    private BarcodeType SelectedBarcodeType = BarcodeType.Code128;
-    private string BarcodeValue = "31117013206375";
-    
-    private void OnBarcodeTypeChanged(ChangeEventArgs args)
+    private string SelectedBarcodeType = "Code128";
+    private BarcodeType SelectedBarcodeTypeEnum
     {
-        if (Enum.TryParse<BarcodeType>(args.Value?.ToString(), out var barcodeType))
-        {
-            SelectedBarcodeType = barcodeType;
-        }
+        get => Enum.Parse<BarcodeType>(SelectedBarcodeType);
+    }
+    private string BarcodeValue = "31117013206375";
+    private List<BarcodeTypeItem> BarcodeTypeItems = new()
+    {
+        new BarcodeTypeItem { Text = "Code128", Value = "Code128" },
+        new BarcodeTypeItem { Text = "Code39", Value = "Code39" },
+        new BarcodeTypeItem { Text = "Code39 Extended", Value = "Code39Extension" },
+        new BarcodeTypeItem { Text = "Code11", Value = "Code11" },
+        new BarcodeTypeItem { Text = "Codabar", Value = "Codabar" },
+        new BarcodeTypeItem { Text = "Code32", Value = "Code32" },
+        new BarcodeTypeItem { Text = "Code93", Value = "Code93" }
+    };
+
+    public class BarcodeTypeItem
+    {
+        public string Text { get; set; }
+        public string Value { get; set; }
     }
 }
 ```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htLRCtjcBnxRShbV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ### Data Validation and Error Detection
 
