@@ -13,27 +13,6 @@ documentation: ug
 
 The [Blazor QR Code](https://www.syncfusion.com/blazor-components/blazor-barcode) is a two-dimensional barcode composed of a grid of dark and light dots or blocks that form a square. The data encoded in the barcode can be numeric, alphanumeric, or Shift Japanese Industrial Standards (JIS8) characters. The QR Code uses version from 1 to 40. Version 1 measures 21 modules x 21 modules, Version 2 measures 25 modules x 25 modules, and so on. The number of modules increases in steps of 4 modules per side up to Version 40, which measures 177 modules x 177 modules. Each version has its own capacity. By default, the barcode control automatically sets the version according to the length of the input text. The QR Barcodes are designed for industrial uses and are also commonly used in consumer advertising.
 
-QR Code uses a matrix (two-dimensional) barcode system that encodes data in a square grid pattern. The encoding process involves:
-
-1. **Data Input**: Text, URL, or GS1 data
-2. **Data Analysis**: Determine required version and character set
-3. **Encoding**: Convert data to binary using specified mode
-4. **Error Correction**: Add Reed-Solomon error correction codewords
-5. **Module Placement**: Arrange modules in the grid
-6. **Masking**: Apply masking pattern to optimize scannability
-7. **Output**: Final QR code image with position markers, timing patterns, and data modules
-
-### QR Code Structure
-
-| Component | Description |
-|---|---|
-| **Position Markers** | Three 7×7 squares in corners for orientation |
-| **Timing Patterns** | Alternating black/white lines for alignment |
-| **Format Information** | Error correction level and mask pattern |
-| **Data & EC** | Encoded data and error correction codewords |
-| **Quiet Zone** | 4-module border around QR code |
-| **Modules** | Individual black (1) or white (0) squares |
-
 ### QR Code Versions
 
 | Version | Size | Capacity (Numeric) | Capacity (Alphanumeric) | Capacity (Byte) |
@@ -386,22 +365,6 @@ GS1 QR Code is a special variant of the standard QR Code that encodes data using
 Use the [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_EnableGS1) property on the [SfQRCodeGenerator](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html) to switch the control into GS1 mode.
 
 **Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
-
-GS1 QR Code enhances the standard QR Code with GS1 compliance:
-
-1. **GS1 Header**: Includes FNC1 as first character to indicate GS1 mode
-2. **AI Parsing**: Recognizes and validates GS1 Application Identifiers
-3. **Data Encoding**: Encodes AI elements as `(AI)data` pairs
-4. **Validation**: Performs AI-specific validation on data fields
-5. **Encoding**: Uses standard QR Code encoding after AI validation
-
-### GS1 QR Code Format
-
-- **Prefix**: FNC1 character (indicates GS1 mode)
-- **AI Format**: `(AI)data` with parentheses
-- **Multiple AIs**: Concatenated directly: `(01)data1(10)data2`
-- **Max Capacity**: Depends on QR version and error correction level
-- **AI Support**: All standard GS1 AIs (01-422, 310n-365n)
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator

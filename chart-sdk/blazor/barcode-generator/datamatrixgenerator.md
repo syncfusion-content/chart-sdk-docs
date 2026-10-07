@@ -22,39 +22,6 @@ Data Matrix encodes data using a matrix grid pattern where each cell represents 
 5. **Symbol Generation**: Creates appropriate symbol size based on data capacity
 6. **Output**: Final Data Matrix symbol with finder patterns and timing information
 
-| Component | Description |
-|---|---|
-| **L-Shaped Finder Pattern** | Two perpendicular borders for orientation (left and bottom) |
-| **Timing Pattern** | Alternating black/white modules for alignment |
-| **Data Region** | Grid containing encoded data and error correction codes |
-| **Quiet Zone** | One module border around entire symbol |
-| **Module Grid** | Black (1) or white (0) cells in square or rectangular arrangement |
-
-**Data Matrix Symbol Sizes**
-
-Data Matrix supports both **square** and **rectangular** symbols:
-
-| Size | Dimensions | Capacity (Numeric) | Capacity (Alphanumeric) | Capacity (Byte) |
-|---|---|---|---|---|
-| 10×10 | 10×10 modules | 6 | 3 | 1 |
-| 12×12 | 12×12 modules | 10 | 6 | 3 |
-| 14×14 | 14×14 modules | 16 | 10 | 6 |
-| 16×16 | 16×16 modules | 24 | 16 | 10 |
-| 32×32 | 32×32 modules | 174 | 106 | 70 |
-| 48×48 | 48×48 modules | 392 | 237 | 156 |
-| 64×64 | 64×64 modules | 697 | 421 | 278 |
-| 120×120 | 120×120 modules | 2,335 | 1,414 | 930 |
-
-**Data Matrix Rectangular Sizes**
-
-| Size | Dimensions | Max Capacity |
-|---|---|---|
-| 8×18 | 8×18 modules | 10 bytes |
-| 8×32 | 8×32 modules | 20 bytes |
-| 12×26 | 12×26 modules | 30 bytes |
-| 12×64 | 12×64 modules | 80 bytes |
-| 16×48 | 16×48 modules | 62 bytes |
-
 ## Data Matrix Encoding Modes
 
 | Encoding | Data Type | Characters Per Code Unit | Example |

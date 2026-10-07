@@ -17,13 +17,6 @@ GS1-128 is a linear barcode based on Code 128 that uses GS1 Application Identifi
 
 **Allowed Input Characters:** GS1-128 supports numeric values (0-9), uppercase and lowercase alphabetic characters (A-Z, a-z), and supported ASCII special characters. Data should be encoded using valid GS1 Application Identifiers (AIs) to represent structured business information.
 
-**GS1-128 Value Format**
-
-- **Syntax**: `(AI1)data1(AI2)data2...`
-- **Example**: `(01)12345678901234(10)ABC123(17)251231`
-- **AI Format**: Two to four numeric digits
-- **Data Format**: Variable length (depends on AI definition)
-
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
@@ -98,12 +91,6 @@ GS1-128 accepts GS1 Application Identifier (AI) data. The AI is enclosed in pare
 
 ITF-14 (Interleaved 2 of 5) is the GS1 standard for encoding 14-digit Global Trade Item Numbers (GTINs) on outer cases and shipping cartons. The barcode automatically calculates and adds the GS1 mod-10 check digit. It is commonly used in logistics and warehouse management for tracking product cases.
 
-The barcode represents digit pairs using interleaved bar and space patterns. Each digit pair consists of five bars (narrow or wide) interleaved with five spaces (narrow or wide). The symbology includes:
-- **Start Pattern**: NNNN (four narrow elements)
-- **Stop Pattern**: WNN (wide bar followed by two narrow bars)
-- **Data**: Seven digit pairs (14 digits total)
-- **Bearer Bars**: Top, bottom, left, and right horizontal and vertical bars per GS1 specifications
-
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
@@ -113,28 +100,6 @@ The barcode represents digit pairs using interleaved bar and space patterns. Eac
 ```
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/hjLxZnsWJrhASleB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 ITF 14 Barcode Generator](images/Gs1-ITF14.png)" %}
-
-**ITF-14 Code Format**
-
-| Component | Description | Details |
-|---|---|---|
-| **Code Structure** | Digit Pairs | 7 pairs from 14-digit GTIN |
-| **Check Digit** | GS1 Mod-10 | Last digit of GTIN, auto-calculated if needed |
-| **Digit Pattern** | NNWNW Format | Each digit encoded as Narrow/Wide combination |
-| **Bearer Bars** | Frame Bars | Top/Bottom: 2 X-wide; Left/Right: 1 X-wide |
-| **Quiet Zone** | Left/Right Margin | Typically 10 X-dimensions on each side |
-
-**ITF-14 Digit Encoding Patterns**
-
-Each digit (0-9) is encoded as a 5-element pattern of Narrow (N=1 module) and Wide (W=3 modules):
-
-| Digit | Pattern | Digit | Pattern |
-|---|---|---|---|
-| 0 | NNWWN | 5 | WNWNN |
-| 1 | WNNNW | 6 | NWWNN |
-| 2 | NWNNW | 7 | NNNWW |
-| 3 | WWNNN | 8 | WNNWN |
-| 4 | NNWNW | 9 | NWNWN |
 
 **Allowed Input Characters:** ITF-14 supports numeric values (0-9) only and is used to encode a 14-digit GTIN (Global Trade Item Number). The final digit is automatically calculated as a check digit.
 
@@ -183,12 +148,7 @@ With 13 digits, the check digit is automatically calculated:
 
 GS1 DataBar is a family of linear barcode symbols designed for encoding GTINs in retail and healthcare environments. These barcodes offer a more compact alternative to traditional linear barcodes while maintaining omnidirectional scanning capability.
 
-GS1 DataBar symbols encode a 14-digit GTIN using a modular-based encoding system. The barcode consists of repeating module patterns that represent digit pairs, separated by guard patterns. The encoding process:
-
-1. **Input**: 13-digit or 14-digit GTIN
-2. **Encoding**: Convert GTIN to binary representation using Fibonacci-weighted encoding
-3. **Checksum**: Calculate weighted checksum for error detection
-4. **Output**: Bar/space pattern representing the encoded data
+GS1 DataBar symbols encode a 14-digit GTIN using a modular-based encoding system. The barcode consists of repeating module patterns that represent digit pairs, separated by guard patterns.
 
 ### GS1 DataBar Stacked
 
@@ -321,43 +281,6 @@ These barcodes support multiple Application Identifiers:
 - **Max Capacity**: 74 numeric or 41 alphanumeric characters total
 - **FNC1 Separator**: Automatically added between variable-length AIs
 
-## GS1 Application Identifier Format
-
-GS1 barcodes use Application Identifiers (AIs) to tag data with specific meanings. AIs are encoded in parentheses when using certain barcode types like GS1-128 and GS1 DataBar Expanded.
-
-### AI Syntax Rules
-
-| Rule | Description | Example |
-|---|---|---|
-| **Brackets** | AIs must be enclosed in parentheses | `(01)` not `01` |
-| **Position** | AI must come before its data | `(01)12345678901234` |
-| **Format** | 2-4 numeric digits only | `(01)`, `(100)`, `(3103)` |
-| **Sequence** | AIs concatenated without separator | `(01)data1(10)data2` |
-| **Uniqueness** | Each AI appears only once per barcode | No `(01)data1(01)data2` |
-| **Lengths** | Fixed-length AIs end data implicitly | `(01)` always 14 digits |
-
-### AI Data
-
-- `(01)12345678901234` - GTIN (14 digits, required)
-- `(10)ABC123` - Batch Number (1-20 chars, variable)
-- `(11)201231` - Production Date (6 digits: YYMMDD)
-- `(15)251231` - Best Before Date (6 digits: YYMMDD)
-- `(17)251231` - Expiration Date (6 digits: YYMMDD)
-- `(21)SN123456` - Serial Number (1-20 chars, variable)
-- `(3103)001234` - Net Weight in Kg (6 digits with implied decimal)
-
-### Date Format for AI
-
-Dates in GS1 use the format **YYMMDD**:
-- **YY**: Last two digits of year (00-99)
-- **MM**: Month (01-12)
-- **DD**: Day (01-31)
-
-**Examples:**
-- `251225` = December 25, 2025
-- `200115` = January 15, 2020
-- `201231` = December 31, 2020
-
 ## Validation and Error Handling
 
 The GS1 barcode components include built-in validation to ensure data integrity. Invalid input will trigger the [OnValidationFailed](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_OnValidationFailed) event:
@@ -393,191 +316,6 @@ The GS1 barcode components include built-in validation to ensure data integrity.
         // - "(01)data(01)other" - Error: Duplicate AI (01)
     }
 }
-```
-
-## GS1 Barcode Customizations
-
-The GS1 barcode components provide comprehensive customization options to modify the appearance and behavior of generated barcodes. This section covers all available properties that can be used to customize GS1 barcodes.
-
-### GS1 Barcode Type Selection
-
-The [Type](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Type) property specifies which GS1 barcode variant to render. Each type is optimized for different applications:
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- GS1-128 for flexible multi-AI encoding -->
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)12345678901234(10)ABC123"></SfBarcodeGenerator>
-
-<!-- ITF-14 for product cases -->
-<SfBarcodeGenerator Type="@BarcodeType.ITF14" Width="300px" Height="150px" Value="12345678901231"></SfBarcodeGenerator>
-
-<!-- GS1 DataBar variants for retail -->
-<SfBarcodeGenerator Type="@BarcodeType.GS1DataBarStacked" Width="300px" Height="150px" Value="12345678901231"></SfBarcodeGenerator>
-
-```
-
-### GS1 Barcode Color Customization
-
-The barcode appearance can be customized by changing the colors. The component provides two main color properties:
-
-#### Foreground Color
-
-The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_ForeColor) property specifies the line and text color of the GS1 barcode. By default, it is set to black.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" ForeColor="red" Value="(01)09506000134352"></SfBarcodeGenerator>
-
-```
-
-#### Background Color
-
-The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_BackgroundColor) property specifies the background color of the GS1 barcode. By default, it is set to white. This is useful when you need to match the barcode with the surrounding environment or create custom designs.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" BackgroundColor="lightyellow" ForeColor="darkblue" Value="(01)09506000134352"></SfBarcodeGenerator>
-
-```
-
-### GS1 Barcode Dimension Customization
-
-The dimensions of the barcode can be adjusted using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Width) properties. Both properties accept string values with units (px, %, em, etc.). By default, both are set to 100%.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="400px" Height="200px" Value="(01)09506000134352(17)261231(10)ABC123"></SfBarcodeGenerator>
-
-```
-
-### Margin Customization
-
-The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_Margin) property specifies the space to be left around the GS1 barcode. It accepts a `BarcodeMargin` object with the following properties:
-
-| Property | Description | Default Value |
-|----------|-------------|---|
-| `Left` | Space from the left side | 10 |
-| `Right` | Space from the right side | 10 |
-| `Top` | Space from the top side | 10 |
-| `Bottom` | Space from the bottom side | 10 |
-
-All properties accept double values representing pixels.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)09506000134352">
-    <BarcodeMargin Left="20" Top="20" Right="20" Bottom="20"></BarcodeMargin>
-</SfBarcodeGenerator>
-
-```
-
-### Display Text Customization
-
-The barcode display text can be fully customized using the [DisplayText](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_DisplayText) property. The `BarcodeGeneratorDisplayText` component provides comprehensive text customization options.
-
-#### Text Content
-
-The [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Text) property specifies the textual description to display with the GS1 barcode. By default, it is an empty string.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)09506000134352">
-    <BarcodeGeneratorDisplayText Text="Product Serialization"></BarcodeGeneratorDisplayText>
-</SfBarcodeGenerator>
-
-```
-
-#### Font Configuration
-
-The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to **monospace**.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)09506000134352">
-    <BarcodeGeneratorDisplayText Text="Product Serialization" Font="Arial"></BarcodeGeneratorDisplayText>
-</SfBarcodeGenerator>
-
-```
-
-#### Text Size
-
-The [Size](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Size) property specifies the size of the display text. By default, it is set to `20` pixels.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)09506000134352">
-    <BarcodeGeneratorDisplayText Text="Product Serialization" Size="18"></BarcodeGeneratorDisplayText>
-</SfBarcodeGenerator>
-
-```
-
-#### Text Alignment
-
-The [Alignment](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Alignment) property specifies the horizontal alignment of the text. It accepts the following values: `Left`, `Center`, or `Right`. By default, it is set to `Center`.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)09506000134352">
-    <BarcodeGeneratorDisplayText Text="Product Serialization" Alignment="Alignment.Center"></BarcodeGeneratorDisplayText>
-</SfBarcodeGenerator>
-
-```
-
-#### Text Position
-
-The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Position) property specifies the vertical position of the text relative to the GS1 barcode. It accepts `Top` or `Bottom`. By default, it is set to `Bottom`.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)09506000134352">
-    <BarcodeGeneratorDisplayText Text="Product Serialization" Position="TextPosition.Top"></BarcodeGeneratorDisplayText>
-</SfBarcodeGenerator>
-
-```
-
-#### Text Visibility
-
-The [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Visibility) property controls the visibility of the display text. By default, it is set to `true`. Set it to `false` to hide the text.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)09506000134352">
-    <BarcodeGeneratorDisplayText Visibility="false"></BarcodeGeneratorDisplayText>
-</SfBarcodeGenerator>
-
-```
-
-#### Text Margin
-
-The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.BarcodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_BarcodeGeneratorDisplayText_Margin) property specifies the space between the text and the GS1 barcode. It accepts a `BarcodeTextMargin` object with the following properties:
-
-| Property | Description | Default Value |
-|----------|-------------|---|
-| `Left` | Space from the left side | 0 |
-| `Right` | Space from the right side | 0 |
-| `Top` | Space from the top side | 0 |
-| `Bottom` | Space from the bottom side | 0 |
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfBarcodeGenerator Type="@BarcodeType.GS1Code128" Width="300px" Height="150px" Value="(01)09506000134352">
-    <BarcodeGeneratorDisplayText Text="Product Serialization">
-        <BarcodeTextMargin Left="5" Top="10" Right="5" Bottom="10"></BarcodeTextMargin>
-    </BarcodeGeneratorDisplayText>
-</SfBarcodeGenerator>
-
 ```
 
 ### Dynamic Property Updates
