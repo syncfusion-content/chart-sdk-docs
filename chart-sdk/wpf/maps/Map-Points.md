@@ -5,6 +5,7 @@ description: Point customization in the WPF Maps display location-based data usi
 platform: chart-sdk
 control: SfMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Point customization in WPF Maps

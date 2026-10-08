@@ -5,6 +5,7 @@ description: Learn here all about Range Band in Syncfusion ASP.NET Core Sparklin
 platform: chart-sdk
 control: Range Band
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

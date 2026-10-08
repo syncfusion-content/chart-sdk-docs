@@ -5,6 +5,7 @@ description: Learn about the introduction of Syncfusion Essential Studio® UWP H
 platform: chart-sdk
 control: SfHeatMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® UWP HeatMap Control

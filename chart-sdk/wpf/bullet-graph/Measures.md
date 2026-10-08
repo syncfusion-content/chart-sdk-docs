@@ -5,6 +5,7 @@ description: Measures in the WPF Bullet Graph display actual values against targ
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Measures in WPF Bullet Graph

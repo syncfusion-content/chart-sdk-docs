@@ -5,6 +5,7 @@ description: Learn here all about Control Chart in Syncfusion ASP.NET Core Chart
 platform: chart-sdk
 control: Control Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

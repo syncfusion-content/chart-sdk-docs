@@ -5,6 +5,7 @@ description: Learn how to print a Windows Forms Chart on multiple pages and conf
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to print multiple charts in Windows Forms Chart

@@ -5,6 +5,7 @@ description: Learn how to get started with the Syncfusion® WPF Sparkline contro
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WPF Sparkline

@@ -5,6 +5,7 @@ description: Learn how to add a period selector to the Blazor Stock Chart toolba
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

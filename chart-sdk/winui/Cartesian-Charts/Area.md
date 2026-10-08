@@ -5,6 +5,7 @@ description: Area chart in the WinUI Chart visualizes trends and magnitude over 
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui area chart, winui sfcartesianchart area chart, winui area chart customization, syncfusion winui area chart, winui sfcartesianchart area chart settings.
 ---
 

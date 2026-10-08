@@ -5,6 +5,7 @@ description: Learn how to export chart series data points to a CSV file in a Win
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to export chart points to CSV in Windows Forms Chart

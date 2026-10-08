@@ -5,6 +5,7 @@ description: Learn how to display only the chart area in a Windows Forms Chart b
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to display only the chart area in Windows Forms Chart

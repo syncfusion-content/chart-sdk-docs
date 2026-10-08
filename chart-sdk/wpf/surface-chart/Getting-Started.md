@@ -5,6 +5,7 @@ description: Learn how to get started with the Syncfusion® WPF Surface Chart co
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WPF Surface Chart

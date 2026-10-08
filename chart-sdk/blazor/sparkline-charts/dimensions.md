@@ -5,6 +5,7 @@ description: Learn how to set the size of Syncfusion Blazor Sparkline using cont
 platform: chart-sdk
 control: Sparkline Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Sparkline Charts Dimensions

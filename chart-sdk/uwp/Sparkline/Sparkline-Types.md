@@ -5,6 +5,7 @@ description: Sparkline types in the UWP Sparkline provide multiple visualization
 platform: chart-sdk
 control: SfSparkline
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Sparkline Types in UWP Sparkline

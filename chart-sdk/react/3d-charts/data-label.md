@@ -6,6 +6,7 @@ control: Data Label
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Labels in React 3D Charts
@@ -186,3 +187,26 @@ A specific label can be customized by using the [`textRender`](https://helpej2
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-charts/data-label/data-label-cs8" %}
+
+### Handling Overlapping Data Labels
+
+Use the `labelIntersectAction` property to specify how overlapping data labels are handled.
+
+The available options are:
+
+- `None` - Displays all data labels even when they overlap.
+- `RelocateVertically` - Relocates overlapping data labels vertically.
+- `RelocateHorizontally` - Relocates overlapping data labels horizontally.
+
+The `RelocateVertically` and `RelocateHorizontally` options enable the Smart Data Label feature and are supported only for `StackingColumn`, and `StackingBar` series. These modes improve readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/3d-charts/code-path/data-label/data-label-cs9/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/3d-charts/code-path/data-label/data-label-cs9/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-charts/data-label/data-label-cs9" %}

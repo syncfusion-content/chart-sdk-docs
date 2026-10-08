@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Legend 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in JavaScript HeatMap Chart

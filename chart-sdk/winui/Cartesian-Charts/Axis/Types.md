@@ -5,6 +5,7 @@ description: Axis types in the WinUI Chart provide different ways to represent d
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: types of axis in winui chart, winui sfcartesianchart axis types, winui chart axis types, syncfusion winui chart axis types, winui sfcartesianchart axis options.
 ---
 

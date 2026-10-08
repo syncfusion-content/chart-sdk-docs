@@ -5,6 +5,7 @@ description: Scale label settings in the Windows Forms Bullet Graph enable custo
 platform: chart-sdk
 control: Bullet Graph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

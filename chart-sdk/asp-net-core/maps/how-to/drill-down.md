@@ -5,6 +5,7 @@ description: Learn here all about Drill Down in Syncfusion ASP.NET Core Maps com
 platform: chart-sdk
 control: Drill Down
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to enable drill-down in ASP.NET Core Maps

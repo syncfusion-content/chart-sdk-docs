@@ -5,6 +5,7 @@ description: Label customization in WPF Bullet Graph supports data operations, U
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Label Customization in WPF Bullet Graph

@@ -5,6 +5,7 @@ description: Learn how to add a title and subtitle to Syncfusion Blazor Smith Ch
 platform: chart-sdk
 control: Smith Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Smith Chart Title and Subtitle

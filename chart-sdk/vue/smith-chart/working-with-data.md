@@ -6,6 +6,7 @@ control: Smith Chart
 platform: ej2-vue
 documentation: ug
 domainurl: ##DomainURL##
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Working with Data in Vue Smith Chart

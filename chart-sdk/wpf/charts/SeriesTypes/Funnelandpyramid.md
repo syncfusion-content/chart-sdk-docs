@@ -5,6 +5,7 @@ description: Learn here all about Funnel and Pyramid Chart support in Syncfusion
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Funnel and Pyramid in WPF Charts

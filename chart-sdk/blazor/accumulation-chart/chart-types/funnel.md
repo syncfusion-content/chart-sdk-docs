@@ -5,6 +5,7 @@ description: Learn how to create a Funnel Chart in Syncfusion Blazor Accumulatio
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Funnel Chart in Blazor

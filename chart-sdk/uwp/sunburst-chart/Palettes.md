@@ -6,6 +6,7 @@ description: Palette in the UWP Sunburst Chart allows you to customize segment c
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

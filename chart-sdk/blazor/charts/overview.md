@@ -2,20 +2,21 @@
 layout: post
 title: Blazor Charts Overview and Features | Syncfusion
 description: Learn how to use Blazor Charts for data visualization with 50+ chart types, axes, data binding, legends, tooltips, zooming, and technical indicators.
-platform: Blazor
+platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
-# Overview in Blazor Charts
+# Blazor Charts Documentation Overview
 
 ## Introduction to Syncfusion Blazor Charts
 
-The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) is a powerful and feature-rich UI component designed for visualizing business and analytical data with high performance and flexibility. It offers a comprehensive set of enterprise-grade capabilities, including support for financial and statistical charting, multiple axes, data-driven visual elements, and seamless integration with local and remote data sources. Built for scalability, it enables developers to create responsive, data-intensive dashboards and reports with ease.
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) is a powerful and feature-rich UI component designed for visualizing business and analytical data with high performance and flexibility. It offers a comprehensive set of enterprise-grade capabilities, including support for financial and statistical charting, multiple axes, data driven visual elements, and seamless integration with local and remote data sources. Built for scalability, it enables developers to create responsive, data-intensive dashboards and reports with ease.
 
 ## Common use cases
 
-The Blazor Charts is ideal for a wide range of business scenarios:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) is ideal for a wide range of business scenarios:
 
 | Use Case | Description | Key Features |
 |----------|-------------|--------------|
@@ -28,17 +29,17 @@ The Blazor Charts is ideal for a wide range of business scenarios:
 
 ## Data connectivity
 
-The Blazor Charts enables multiple data binding approaches, offering flexibility in choosing the right strategy for different application architectures. The chart can work with in-memory collections, connect to remote services, or leverage ORM frameworks for seamless database integration.
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) enables multiple data binding approaches, offering flexibility in choosing the right strategy for different application architectures. The chart can work with in-memory collections, connect to remote services, or leverage ORM frameworks for seamless database integration.
 
 **Data Binding Approaches**
 
-- **[List binding](./working-with-data#list-binding)** — Bind charts to local collections, lists, and arrays for fast data access without external dependencies. Ideal for small to medium datasets and rapid prototyping.
-- **[Remote data](./working-with-data#remote-data)** — Connect to **web services, REST APIs**, and remote endpoints using DataManager adaptors for scalable applications.
-- **[Entity Framework](./working-with-data#entity-framework)** — Bind directly to EF Core DbContext query results for simplified database model binding.
+- **[List binding](./working-with-data#list-binding)** - Bind charts to local collections, lists, and arrays for fast data access without external dependencies. Ideal for small to medium datasets and rapid prototyping.
+- **[Remote data](./working-with-data#remote-data)** - Connect to **web services, REST APIs**, and remote endpoints using DataManager adaptors for scalable applications.
+- **[Entity Framework](./working-with-data#entity-framework)** - Bind directly to EF Core DbContext query results for simplified database model binding.
 
 ## Chart types
 
-The Blazor Charts supports 50+ chart types for virtually every visualization requirement. Each type supports markers, data labels, tooltips, legends, and empty-point handling:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) supports 50+ chart types for virtually every visualization requirement. Each type supports markers, data labels, tooltips, legends, and empty point handling:
 
 | Category | Available Types | Best For |
 |----------|----------------|----------|
@@ -52,23 +53,23 @@ The Blazor Charts supports 50+ chart types for virtually every visualization req
 
 ## Axes
 
-The Blazor Charts offers extensive axis options for precisely mapping data to the plot area:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) offers extensive axis options for precisely mapping data to the plot area:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
 | **[Category Axis](./category-axis)** | Plot data against provided labels | Simple category comparison |
 | **[Numeric Axis](./numeric-axis)** | Plot numeric data with range control | Continuous numeric scales |
-| **[DateTime Axis](./date-time-axis)** | Plot date-time values with interval types | Time-series visualization |
-| **[Logarithmic Axis](./logarithmic-axis)** | Plot values across exponential ranges | Wide-range scientific data |
+| **[DateTime Axis](./date-time-axis)** | Plot date-time values with interval types | Time series visualization |
+| **[Logarithmic Axis](./logarithmic-axis)** | Plot values across exponential ranges | Wide range scientific data |
 | **[Axis Labels](./axis-labels)** | Style and rotate axis labels, handle label intersect | Readable tick labels |
 | **[Axis Customization](./axis-customization)** | Axis crossing, titles, tick and grid lines, inversed axis | Precise axis control |
-| **[Multiple Axis](./axis-customization#multiple-axis)** | Add multiple axes to one chart | Multi-unit comparison |
+| **[Multiple Axis](./axis-customization#multiple-axis)** | Add multiple axes to one chart | Multi unit comparison |
 | **[Strip Lines](./strip-line)** | Highlight ranges or bands of interest on the axis | Threshold visualization |
-| **[Multiple Panes](./multiple-panes)** | Divide the chart into stacked panes | Compact multi-series layouts |
+| **[Multiple Panes](./multiple-panes)** | Divide the chart into stacked panes | Compact multi series layouts |
 
 ## Data visualization elements
 
-The Blazor Charts provides comprehensive elements for annotating and enhancing data points:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) provides comprehensive elements for annotating and enhancing data points:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -83,7 +84,7 @@ The Blazor Charts provides comprehensive elements for annotating and enhancing d
 
 ## User experience & interaction
 
-The Blazor Charts provides a comprehensive, interactive user experience with extensive customization options, flexible interaction modes, and accessibility standards compliance:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) provides a comprehensive, interactive user experience with extensive customization options, flexible interaction modes, and accessibility standards compliance:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -96,7 +97,7 @@ The Blazor Charts provides a comprehensive, interactive user experience with ext
 
 ## Advanced analytics
 
-The Blazor Charts includes sophisticated capabilities designed for complex financial and analytical scenarios:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) includes sophisticated capabilities designed for complex financial and analytical scenarios:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -105,7 +106,7 @@ The Blazor Charts includes sophisticated capabilities designed for complex finan
 
 ## Print & export
 
-The Blazor Charts provides comprehensive output capabilities for reporting and sharing chart visuals:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) provides comprehensive output capabilities for reporting and sharing chart visuals:
 
 | Feature | Purpose | Key Benefit |
 |---------|---------|-------------|
@@ -115,18 +116,18 @@ The Blazor Charts provides comprehensive output capabilities for reporting and s
 
 ## Globalization & accessibility
 
-The Blazor Charts is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) is fully accessible and compliant with Web Content Accessibility Guidelines (WCAG) standards:
 
-- **[Globalization](./internationalization#globalization)** — Culture-aware number and date formatting
-- **[Localization](./localization)** — Translate the chart UI into different languages
-- **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** — Accessible roles and attributes for the chart UI
-- **[Keyboard navigation](./accessibility#keyboard-navigation)** — Complete chart operation via keyboard
-- **[Ensuring accessibility](./accessibility#ensuring-accessibility)** — Validation guidance for accessible charts
-- **[Advanced Accessibility Configuration](./advanced-accessibility-configuration)** — Deeper accessibility customization options
+- **[Globalization](./internationalization#globalization)** - Culture aware number and date formatting
+- **[Localization](./localization)** - Translate the chart UI into different languages
+- **[WAI-ARIA attributes](./accessibility#wai-aria-attributes)** - Accessible roles and attributes for the chart UI
+- **[Keyboard navigation](./accessibility#keyboard-navigation)** - Complete chart operation via keyboard
+- **[Ensuring accessibility](./accessibility#ensuring-accessibility)** - Validation guidance for accessible charts
+- **[Advanced Accessibility Configuration](./advanced-accessibility-configuration)** - Deeper accessibility customization options
 
 ## System requirements
 
-The Blazor Charts works with:
+The [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) works with:
 
 - **Blazor Version**: .NET 8.0 or higher
 - **Hosting Models**: Blazor Server, Blazor WebAssembly, Blazor Web App
@@ -142,12 +143,12 @@ The Blazor Charts works with:
 - [Blazor Hybrid MAUI App Guide](./getting-started-with-maui-app)
 
 **Popular Features:**
-- [Chart Types](./chart-types/line) — 50+ chart types for any scenario
-- [Data Labels](./data-labels) — Value display with templates
-- [Legend](./legend) — Series explanation and interactivity
-- [Tooltip](./tool-tip) — Rich point information on hover
-- [Zooming](./zooming) — Interactive data inspection
-- [Print and Export](./chart-print) — PDF, image, and print output
+- [Chart Types](./chart-types/line) - 50+ chart types for any scenario
+- [Data Labels](./data-labels) - Value display with templates
+- [Legend](./legend) - Series explanation and interactivity
+- [Tooltip](./tool-tip) - Rich point information on hover
+- [Zooming](./zooming) - Interactive data inspection
+- [Print and Export](./chart-print) - PDF, image, and print output
 
 **Resources:**
 - [Live Chart Demos](https://blazor.syncfusion.com/demos/chart/overview?theme=fluent2)
@@ -159,4 +160,4 @@ The Blazor Charts works with:
 - **Code Examples?** Browse [Charts Demos](https://www.syncfusion.com/blazor-components/blazor-charts) and samples
 - **API Details?** See [Charts API Reference](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html)
 - **Community?** Join the [Syncfusion Community Forum](https://www.syncfusion.com/forums/blazor-components)
-- **What's New?** Check [Release Notes](../Release-Notes)
+- **What's New?** Check [Release Notes](https://help.syncfusion.com/chart-sdk/release-notes)

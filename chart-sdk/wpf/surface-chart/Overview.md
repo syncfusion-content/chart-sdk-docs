@@ -5,6 +5,7 @@ description: Learn about introduction of Syncfusion Essential Studio® WPF Surfa
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® WPF Surface Chart Control

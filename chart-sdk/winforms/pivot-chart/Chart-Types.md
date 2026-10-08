@@ -5,6 +5,7 @@ description: Types in the Windows Forms Pivot Chart provide multiple visualizati
 platform: chart-sdk
 control: PivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Types in Windows Forms Pivot Chart

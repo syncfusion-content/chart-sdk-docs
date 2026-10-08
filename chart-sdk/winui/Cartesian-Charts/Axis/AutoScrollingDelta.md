@@ -5,6 +5,7 @@ description: Auto scrolling in the WinUI Chart automatically displays the latest
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: auto scrolling in winui chart, winui sfcartesianchart auto scrolling, winui chart auto scrolling customization, syncfusion winui chart auto scrolling, winui sfcartesianchart auto scrolling settings.
 ---
 

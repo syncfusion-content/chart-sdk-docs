@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Tooltip 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Angular Accumulation Chart
@@ -197,6 +198,24 @@ Using [`tooltipRender`](https://ej2.syncfusion.com/angular/documentation/api/acc
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/accumulation-chart/series/pie-cs37" %}
+
+## Access data values in the tooltipRender event
+
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/angular/documentation/api/accumulation-chart/index-default#tooltiprender) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/accumulation-chart/user-interaction/tooltip-cs15/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/accumulation-chart/user-interaction/tooltip-cs15/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/accumulation-chart/user-interaction/tooltip-cs15" %}
 
 ## Enable highlight
 

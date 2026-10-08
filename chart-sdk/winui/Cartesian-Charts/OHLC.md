@@ -5,6 +5,7 @@ description: OHLC chart in the WinUI Chart visualizes open, high, low, and close
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui ohlc chart, winui chart ohlc type, ohlc chart customization winui, syncfusion winui ohlc chart, winui cartesian ohlc visualization.
 ---
 

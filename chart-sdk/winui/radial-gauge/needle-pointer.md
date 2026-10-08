@@ -5,6 +5,7 @@ description: Needle pointer in the WinUI Radial Gauge indicates values on the ga
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Needle Pointer in WinUI Radial Gauge

@@ -5,6 +5,7 @@ description: Learn here all about Methods in Syncfusion ASP.NET MVC Linear Gauge
 platform: chart-sdk
 control: Methods
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Methods in ASP.NET MVC Linear Gauge

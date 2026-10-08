@@ -5,6 +5,7 @@ description: Shape pointer in the WinUI Linear Gauge indicates values using cust
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Pointer in WinUI Linear Gauge

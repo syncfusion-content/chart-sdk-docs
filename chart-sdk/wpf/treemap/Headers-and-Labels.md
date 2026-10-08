@@ -5,6 +5,7 @@ description: Headers and labels in the WPF TreeMap display hierarchical group na
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Headers and Labels in WPF TreeMap

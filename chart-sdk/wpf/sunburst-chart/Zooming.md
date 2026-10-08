@@ -6,6 +6,7 @@ description: Zooming in the WPF Sunburst Chart enables users to focus on specifi
 platform: chart-sdk
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

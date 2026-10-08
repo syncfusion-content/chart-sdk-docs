@@ -5,6 +5,7 @@ description: Learn how to specify the position of a floating legend in a Windows
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to position a floating legend in WinForms Chart

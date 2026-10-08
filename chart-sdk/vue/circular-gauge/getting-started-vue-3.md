@@ -6,6 +6,7 @@ control: Circular Gauge
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Vue 3 Circular Gauge

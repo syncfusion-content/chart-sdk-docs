@@ -5,6 +5,7 @@ description: Learn how to add the Blazor Linear Gauge to a Blazor Server App usi
 platform: chart-sdk
 control: Linear Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor Linear Gauge in Server App

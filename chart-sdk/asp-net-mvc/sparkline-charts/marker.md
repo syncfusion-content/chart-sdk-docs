@@ -5,6 +5,7 @@ description: Learn here all about Marker in Syncfusion ASP.NET MVC Sparkline Cha
 platform: chart-sdk
 control: Marker
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

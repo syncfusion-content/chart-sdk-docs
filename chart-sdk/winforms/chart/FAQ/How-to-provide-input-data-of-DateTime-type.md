@@ -5,6 +5,7 @@ description: Learn how to provide DateTime input data in a Windows Forms Chart a
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to provide datetime input data in Windows Forms Chart

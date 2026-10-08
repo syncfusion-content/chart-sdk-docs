@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Step Line Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Step Line Chart in Angular Charts

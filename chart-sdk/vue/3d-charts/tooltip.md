@@ -6,6 +6,7 @@ control: 3D Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Vue 3D Charts
@@ -142,3 +143,20 @@ The [`fill`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/tooltipSet
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/3d-charts/user-interaction/custom-tooltip" %}
+
+## Access data values in the tooltipRender event
+
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3dtooltiprendereventargs) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/3d-charts/user-interaction/tooltip-raw-data/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/3d-charts/user-interaction/tooltip-raw-data/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/3d-charts/user-interaction/tooltip-raw-data" %}

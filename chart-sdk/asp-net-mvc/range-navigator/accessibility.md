@@ -5,6 +5,7 @@ description: Learn here all about Accessibility in Syncfusion ASP MVC Range Navi
 platform: chart-sdk
 control: Accessibility
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

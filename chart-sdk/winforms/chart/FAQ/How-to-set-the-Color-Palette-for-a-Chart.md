@@ -5,6 +5,7 @@ description: Learn how to set a color palette for a Windows Forms Chart and cust
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to set a color palette in Windows Forms Chart

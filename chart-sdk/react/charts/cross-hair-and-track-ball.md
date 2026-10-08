@@ -6,6 +6,7 @@ control: Cross hair and track ball
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Crosshair and Trackball in React Charts

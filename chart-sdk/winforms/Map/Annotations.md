@@ -5,6 +5,7 @@ description: Annotations in the Windows Forms Maps display custom content at spe
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotations in Windows Forms Maps

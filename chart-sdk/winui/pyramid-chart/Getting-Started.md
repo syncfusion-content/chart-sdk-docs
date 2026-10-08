@@ -5,6 +5,7 @@ description: Learn how to get started with the Syncfusion® WinUI Pyramid Chart 
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with WinUI Pyramid Chart

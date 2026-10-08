@@ -5,6 +5,7 @@ description: Learn how to bind Blazor HeatMap Chart data using one- or two-dimen
 platform: chart-sdk
 control: HeatMap Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor HeatMap Chart Working with Data

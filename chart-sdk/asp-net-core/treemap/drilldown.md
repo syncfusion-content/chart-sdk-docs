@@ -5,6 +5,7 @@ description: Learn here all about Drilldown in Syncfusion ASP.NET Core TreeMap c
 platform: chart-sdk
 control: Drilldown
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Drilldown in ASP.NET Core TreeMap

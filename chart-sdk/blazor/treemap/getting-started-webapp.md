@@ -5,6 +5,7 @@ description: Learn how to set up the Blazor TreeMap in a Blazor Web App, install
 platform: chart-sdk
 component: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor TreeMap in Web App

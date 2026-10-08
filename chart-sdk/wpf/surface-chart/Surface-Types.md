@@ -5,6 +5,7 @@ description: Types in the WPF Surface Chart provide different rendering modes fo
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Types in WPF Surface Chart

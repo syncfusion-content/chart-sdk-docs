@@ -5,6 +5,7 @@ description: Learn how to mark notable dates on the Blazor Stock Chart with stoc
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Stock Chart Stock Events

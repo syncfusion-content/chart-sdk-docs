@@ -5,6 +5,7 @@ description: Learn how to add a custom trendline in the Windows Forms Chart to a
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add a custom trendline in Windows Forms Chart

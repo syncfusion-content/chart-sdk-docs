@@ -6,6 +6,7 @@ description: Tooltip in the UWP Sunburst Chart displays detailed information abo
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

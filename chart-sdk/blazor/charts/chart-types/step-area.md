@@ -5,6 +5,7 @@ description: Learn how to create Blazor Step Area Charts using Syncfusion. Conne
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Step Area Chart in Blazor
@@ -304,7 +305,7 @@ The [ChartSeriesBorder](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.
 
 **Show Risers**
 
-The `ShowRisers` property determines whether vertical riser lines are displayed between consecutive data points in the series. Set this property to `true` to show the riser lines or `false` to hide them. Hiding risers can simplify the chart appearance and make the overall trend easier to follow. 
+The [ShowRisers](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeries.html#Syncfusion_Blazor_Charts_ChartSeries_ShowRisers) property determines whether vertical riser lines are displayed between consecutive data points in the series. Set this property to `true` to show the riser lines or `false` to hide them. Hiding risers can simplify the chart appearance and make the overall trend easier to follow. 
 
 ```cshtml
 
@@ -356,8 +357,7 @@ The `ShowRisers` property determines whether vertical riser lines are displayed 
 
 ```
 
-<!-- TODO: Add preview sample after release -->
-![Blazor Step Area Chart NoRiser Series](../images/chart-types-images/blazor-step-area-chart-noriser-series.webp)
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtBdXEhIJBaRSETK?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Step Area Chart NoRiser Series](../images/chart-types-images/blazor-step-area-chart-noriser-series.webp)" %}
 
 ## Empty points
 

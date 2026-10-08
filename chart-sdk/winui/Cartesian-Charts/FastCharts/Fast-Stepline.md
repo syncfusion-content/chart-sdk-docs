@@ -5,6 +5,7 @@ description: Fast Step Line Series in the WinUI Chart renders large volumes of s
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui fast step line chart, winui sfcartesianchart, winui fast step line chart customization, syncfusion winui fast step line chart, fast step line chart settings.
 ---
 

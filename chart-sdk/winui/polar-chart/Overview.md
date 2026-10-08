@@ -5,6 +5,7 @@ description: Learn about the introduction of Syncfusion Essential Studio® WinUI
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® WinUI Polar Chart Control

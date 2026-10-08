@@ -5,6 +5,7 @@ description: Ticks in the WPF Radial Gauge indicate scale intervals and support 
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ticks in WPF Radial Gauge

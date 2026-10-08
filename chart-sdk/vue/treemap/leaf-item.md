@@ -6,6 +6,7 @@ control: Leaf item
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Leaf Item in Vue TreeMap

@@ -5,6 +5,7 @@ description: Ticks in the UWP Radial Gauge indicate scale intervals and support 
 platform: chart-sdk
 control: SfCircularGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ticks in UWP Radial Gauge

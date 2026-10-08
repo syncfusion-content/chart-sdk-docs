@@ -15,7 +15,17 @@ String platform='chart-sdk';
 	    { 
 	    dir('Spell-Checker') 
            {
-		     checkout scm
+            
+		     //checkout scm
+         checkout([
+			    $class: 'GitSCM',
+			    branches: scm.branches,
+			    userRemoteConfigs: scm.userRemoteConfigs,
+			    extensions: [
+			        [$class: 'CloneOption', timeout: 120],
+			        [$class: 'CheckoutOption', timeout: 120]
+			    ]
+			])
 			 
 			 def page = 1
 			 while(true)

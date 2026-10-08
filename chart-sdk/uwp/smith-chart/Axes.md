@@ -5,6 +5,7 @@ description: Axes in the UWP Smith Chart define coordinate grids, scales, and la
 platform: chart-sdk
 control: SfSmithChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axes in UWP Smith Chart

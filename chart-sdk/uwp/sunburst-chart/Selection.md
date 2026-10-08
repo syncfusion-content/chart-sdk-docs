@@ -6,6 +6,7 @@ description: Selection in the UWP Sunburst Chart enables users to highlight and 
 platform: chart-sdk 
 control: SfSunburstChart 
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 
 ---
 

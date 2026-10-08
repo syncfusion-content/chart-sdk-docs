@@ -5,6 +5,7 @@ description: Learn about the introduction of Syncfusion Essential Studio® UWP P
 platform: chart-sdk
 control: SfPivotGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® UWP Pivot Gauge Control

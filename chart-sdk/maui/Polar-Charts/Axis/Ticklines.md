@@ -5,6 +5,7 @@ description: Tick lines in .NET MAUI Polar Chart indicate axis intervals, helpin
 platform: chart-sdk
 control: SfPolarChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tick Lines in .NET MAUI Polar Chart

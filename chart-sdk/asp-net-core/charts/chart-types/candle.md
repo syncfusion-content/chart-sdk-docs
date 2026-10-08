@@ -5,6 +5,7 @@ description: Learn here all about Candle Chart in Syncfusion ASP.NET Core Charts
 platform: chart-sdk
 control: Candle Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn how to add the Blazor Circular Gauge to a new Blazor WebAssem
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Blazor Circular Gauge in WebAssembly App

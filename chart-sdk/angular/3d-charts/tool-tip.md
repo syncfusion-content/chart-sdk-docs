@@ -6,6 +6,7 @@ platform: chart-sdk
 control: 3D Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in Angular 3D Chart
@@ -150,3 +151,21 @@ The [`fill`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/threeD
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/tooltip/tooltip-cs5" %}
+
+## Access data values in the tooltipRender event
+
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/chart3dtooltiprendereventargs) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
+
+In the following example, the `region` and `growth` fields are retrieved from `args.data.rawData` and displayed in the tooltip.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/3d-charts/tooltip/tooltip-cs7/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/3d-charts/tooltip/tooltip-cs7/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/tooltip/tooltip-cs7" %}

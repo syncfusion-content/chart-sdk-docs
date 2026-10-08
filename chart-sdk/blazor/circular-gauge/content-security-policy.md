@@ -5,6 +5,7 @@ description: Learn how the Blazor Circular Gauge features work under strict Cont
 platform: chart-sdk
 control: Circular Gauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Circular Gauge Content Security Policy

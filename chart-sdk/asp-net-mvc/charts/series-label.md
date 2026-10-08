@@ -5,6 +5,7 @@ description: Learn here all about Series label in Syncfusion ASP.NET MVC Charts 
 platform: chart-sdk
 control: Series label
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series label in ASP.NET MVC Charts

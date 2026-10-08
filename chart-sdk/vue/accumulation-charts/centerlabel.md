@@ -6,6 +6,7 @@ control: Center Label
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Center Label in Vue Accumulation Charts

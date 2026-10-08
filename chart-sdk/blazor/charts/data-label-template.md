@@ -5,6 +5,7 @@ description: Learn how to customize data labels in Syncfusion Blazor Charts. Use
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 <!-- markdownlint-disable MD036 -->

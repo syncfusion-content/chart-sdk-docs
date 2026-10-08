@@ -5,6 +5,7 @@ description: Symbology settings in the WPF Barcode allow you to configure barcod
 platform: chart-sdk
 control: SfBarcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Symbology Settings in WPF Barcode

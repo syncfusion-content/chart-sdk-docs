@@ -5,6 +5,7 @@ description: Learn about the introduction of Syncfusion Essential Studio® WPF D
 platform: chart-sdk
 control: SfDigitalGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® WPF Digital Gauge Control

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Histogram
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Histogram Chart in Angular Charts

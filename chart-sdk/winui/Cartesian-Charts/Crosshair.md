@@ -5,6 +5,7 @@ description: Crosshair in the WinUI Chart displays precise axis values at pointe
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: crosshair in winui chart, winui sfcartesianchart crosshair, winui chart crosshair customization, syncfusion winui chart crosshair, winui sfcartesianchart crosshair settings.
 ---
 

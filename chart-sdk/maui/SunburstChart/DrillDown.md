@@ -5,6 +5,7 @@ description: Drill Down in .NET MAUI Sunburst Chart enables interactive navigati
 platform: chart-sdk
 control: SfSunburstChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Drill Down in .NET MAUI Sunburst Chart

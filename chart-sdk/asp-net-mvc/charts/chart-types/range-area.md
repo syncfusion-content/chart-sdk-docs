@@ -5,6 +5,7 @@ description: Learn here all about Range Area Chart in Syncfusion ASP.NET MVC Cha
 platform: chart-sdk
 control: Range Area Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

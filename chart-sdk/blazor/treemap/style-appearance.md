@@ -5,6 +5,7 @@ description: Learn how to style the Blazor TreeMap with CSS by targeting SVG IDs
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Style and Appearance

@@ -5,6 +5,7 @@ description: Learn here all about Layout in Syncfusion ASP.NET MVC TreeMap compo
 platform: chart-sdk
 control: Layout
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Layout in ASP.NET MVC TreeMap

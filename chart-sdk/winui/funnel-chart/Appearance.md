@@ -5,6 +5,7 @@ description: Appearance in the WinUI Funnel Chart allows you to customize chart 
 platform: chart-sdk
 control: SfFunnelChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in WinUI Funnel Chart

@@ -5,6 +5,7 @@ description: Learn how to select and highlight Blazor TreeMap items with TreeMap
 platform: chart-sdk
 control: TreeMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor TreeMap Selection and Highlight

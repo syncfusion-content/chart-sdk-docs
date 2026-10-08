@@ -5,6 +5,7 @@ description: Learn here all about Error Bar Chart in Syncfusion ASP.NET MVC Char
 platform: chart-sdk
 control: Error Bar Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

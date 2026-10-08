@@ -5,6 +5,7 @@ description: Appearance in the WinUI Chart allows you to customize chart visuals
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: appearance in winui chart, winui sfcartesianchart appearance, winui chart appearance customization, syncfusion winui chart appearance, winui sfcartesianchart appearance configuration.
 ---
 

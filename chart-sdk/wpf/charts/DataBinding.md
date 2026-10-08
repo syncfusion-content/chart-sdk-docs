@@ -5,6 +5,7 @@ description: Data binding in the WPF Chart connects chart series to data sources
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Binding in WPF Charts

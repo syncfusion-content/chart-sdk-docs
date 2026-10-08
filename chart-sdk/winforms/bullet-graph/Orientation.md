@@ -5,6 +5,7 @@ description: Learn about Orientation support in Syncfusion® Essential Studio® 
 platform: chart-sdk
 control: Bullet Graph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Orientation in WinForms Bullet Graph

@@ -5,6 +5,7 @@ description: Color mapping in the WPF HeatMap configures color ranges for data v
 platform: chart-sdk
 control: SfHeatMap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Color Mapping in WPF HeatMap

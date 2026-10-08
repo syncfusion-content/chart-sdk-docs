@@ -5,6 +5,7 @@ description: Surface area in the WPF Surface Chart displays three-dimensional da
 platform: chart-sdk
 control: SfSurfaceChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Surface Area in WPF Surface Chart

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
 keywords: maui pyramid chart, appearance, palette, gradient, title, customization, point color path, pyramid modes
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Appearance in .NET MAUI Pyramid Chart

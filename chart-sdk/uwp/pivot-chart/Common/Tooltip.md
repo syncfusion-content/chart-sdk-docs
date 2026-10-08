@@ -5,6 +5,7 @@ description: Tooltip in the UWP Pivot Chart displays detailed information about 
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in UWP Pivot Chart

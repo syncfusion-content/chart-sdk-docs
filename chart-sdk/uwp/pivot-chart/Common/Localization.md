@@ -5,6 +5,7 @@ description: Localization in the UWP Pivot Chart enables chart content and user 
 platform: chart-sdk
 control: SfPivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Localization in UWP Pivot Chart

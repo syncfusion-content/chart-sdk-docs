@@ -5,6 +5,7 @@ description: Learn here all about Title in Syncfusion ASP.NET MVC Bullet Chart c
 platform: chart-sdk
 control: Title
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -5,6 +5,7 @@ description: Learn how to restore the gradient appearance of a chart series in a
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to restore gradient in Windows Forms Chart

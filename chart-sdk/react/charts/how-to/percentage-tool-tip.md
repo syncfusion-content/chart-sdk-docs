@@ -6,6 +6,7 @@ control: Percentage tooltip
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to show percentage in pie tooltip in React Charts

@@ -5,6 +5,7 @@ description: Ticks in the UWP Bullet Graph indicate scale intervals and support 
 platform: chart-sdk
 control: SfBulletGraph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Ticks in UWP Bullet Graph

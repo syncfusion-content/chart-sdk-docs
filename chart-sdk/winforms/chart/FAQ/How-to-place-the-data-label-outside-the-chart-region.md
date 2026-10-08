@@ -5,6 +5,7 @@ description: Learn how to place callout data labels outside the chart region in 
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to place data labels outside in Windows Forms Chart

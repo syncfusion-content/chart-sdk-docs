@@ -6,6 +6,7 @@ control: 100% Stacked Area Chart
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # 100% Stacked Area Chart in Vue Charts
@@ -93,7 +94,7 @@ The [`opacity`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#op
 
 **Border**
 
-Use the [`border`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#border) property to configure the border width, color, and dasharray of the 100% stacked area series.
+Use the [`border`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the 100% stacked area series.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

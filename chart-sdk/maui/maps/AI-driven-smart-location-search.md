@@ -5,6 +5,7 @@ description: AI-Driven Smart Location Search in .NET MAUI Maps enables intellige
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # AI-Driven Smart Location Search in .NET MAUI Maps
@@ -17,7 +18,7 @@ N> **Prerequisite:** Ensure that the required NuGet packages are installed, the 
 
 First, open [Visual Studio](https://visualstudio.microsoft.com/) and [create a new .NET MAUI app](https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?view=net-maui-7.0&tabs=vswin&pivots=devices-android).
 
-To locate specific places effortlessly with AI, ensure that you have access to [Azure OpenAI](https://azure.microsoft.com/en-in/products/ai-services/openai-service) and have set up a deployment in the Azure portal. Install the following NuGet packages in the project from the [NuGet Gallery](https://www.nuget.org/):
+To locate specific places effortlessly with AI, ensure that you have access to [Azure OpenAI](https://azure.microsoft.com/en-in/products/ai-foundry/models/openai/) and have set up a deployment in the Azure portal. Install the following NuGet packages in the project from the [NuGet Gallery](https://www.nuget.org/):
 
 * [Azure.AI.OpenAI](https://www.nuget.org/packages/Azure.AI.OpenAI/1.0.0-beta.12) (v1.0.0-beta.12 or later)
 * [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json) (for JSON parsing)

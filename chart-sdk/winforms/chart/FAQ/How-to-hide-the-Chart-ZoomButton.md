@@ -5,6 +5,7 @@ description: Learn how to hide the chart zoom button in a Windows Forms Chart an
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to hide the zoom button in Windows Forms Chart

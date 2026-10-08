@@ -6,6 +6,7 @@ platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui chart AI forecasting, maui chart stock, .net maui chart data options, syncfusion maui chart AI prediction, .net maui chart stock visualization, .net maui cartesian chart AI stock forecasting support.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # AI Powered Stock Forecasting in .NET MAUI Cartesian Chart
@@ -20,7 +21,7 @@ Azure OpenAI can analyze historical stock data and predict future trends. The mo
 
 ### 1. Configure Azure OpenAI Service
 
-Ensure you have access to [Azure OpenAI](https://azure.microsoft.com/en-in/products/ai-services/openai-service) and a deployed model in the Azure portal. Set up the service endpoint and API key. You can find the [Azure.AI.OpenAI](https://www.nuget.org/packages/Azure.AI.OpenAI/1.0.0-beta.12) NuGet package from the [NuGet Gallery](https://www.nuget.org/).
+Ensure you have access to [Azure OpenAI](https://azure.microsoft.com/en-in/products/ai-foundry/models/openai/) and a deployed model in the Azure portal. Set up the service endpoint and API key. You can find the [Azure.AI.OpenAI](https://www.nuget.org/packages/Azure.AI.OpenAI/1.0.0-beta.12) NuGet package from the [NuGet Gallery](https://www.nuget.org/).
 
 {% tabs %}
 

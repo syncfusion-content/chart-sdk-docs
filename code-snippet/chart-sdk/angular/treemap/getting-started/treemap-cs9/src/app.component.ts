@@ -30,7 +30,7 @@ export class AppComponent {
     ];
     public leafItemSettings: object = {
         labelPath: 'Car',
-        format:'${Car}-${Brand}'
+        labelFormat:'${Car}-${Brand}'
     };
 }
 

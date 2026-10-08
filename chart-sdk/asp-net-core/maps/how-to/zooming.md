@@ -5,6 +5,7 @@ description: Learn here all about Zooming in Syncfusion ASP.NET Core Maps compon
 platform: chart-sdk
 control: Zooming
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to enable zooming in ASP.NET Core Maps

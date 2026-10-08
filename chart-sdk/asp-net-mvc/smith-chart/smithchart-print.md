@@ -5,6 +5,7 @@ description: Learn here all about Smith Chart Print in Syncfusion ASP.NET MVC Sm
 platform: chart-sdk
 control: Smithchart Print
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

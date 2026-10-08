@@ -5,6 +5,7 @@ description: Learn how to place text in the center of a Blazor Doughnut Chart us
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Place Text in the Center of Doughnut Chart

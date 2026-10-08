@@ -5,6 +5,7 @@ description: Learn how to visualize statistical distributions in Blazor Box and 
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Box and Whisker Chart in Blazor

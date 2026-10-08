@@ -5,6 +5,7 @@ description: Learn how to create Blazor Radar Charts using Syncfusion. Plot data
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Radar Chart in Blazor

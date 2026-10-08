@@ -5,6 +5,7 @@ description: Learn how to enable accessibility in Syncfusion Blazor Accumulation
 platform: chart-sdk
 control: Accumulation Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Accumulation Chart Accessibility

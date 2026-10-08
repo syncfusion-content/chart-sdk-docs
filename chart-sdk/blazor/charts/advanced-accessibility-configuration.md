@@ -5,6 +5,7 @@ description: Learn how to configure accessibility in Syncfusion Blazor Charts. S
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Accessibility Customization

@@ -5,6 +5,7 @@ description: Rendering modes in the WinUI Pyramid Chart control how pyramid segm
 platform: chart-sdk
 control: SfPyramidChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Rendering Modes in WinUI Pyramid Chart

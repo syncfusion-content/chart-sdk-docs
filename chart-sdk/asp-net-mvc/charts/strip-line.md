@@ -5,6 +5,7 @@ description: Learn here all about Strip Line in Syncfusion ASP.NET MVC Charts co
 platform: chart-sdk
 control: Strip Line
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

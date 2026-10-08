@@ -5,6 +5,7 @@ description: Customization in the UWP Barcode allows you to modify appearance, c
 platform: chart-sdk
 control: SfBarcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Customization in UWP Barcode

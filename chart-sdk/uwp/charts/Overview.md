@@ -5,6 +5,7 @@ description: Learn about introduction of Syncfusion Essential Studio® UWP Chart
 platform: chart-sdk
 control: SfChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion UWP Charts Control

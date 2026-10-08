@@ -5,6 +5,7 @@ description: Symbology Types in the Windows Forms Barcode enable generation of o
 platform: chart-sdk
 control: SfBarcode
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Symbology Types in Windows Forms Barcode

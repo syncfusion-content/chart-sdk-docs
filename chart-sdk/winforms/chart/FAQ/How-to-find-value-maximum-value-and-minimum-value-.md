@@ -5,6 +5,7 @@ description: Learn how to find values, maximum values, and minimum values of dat
 platform: windowsforms
 control: chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to find data points value in Windows Forms Chart

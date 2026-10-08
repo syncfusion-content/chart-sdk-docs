@@ -5,6 +5,7 @@ description: Learn about Syncfusion Blazor Charts accessibility compliance. Revi
 platform: chart-sdk
 control: Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Charts Accessibility Compliance

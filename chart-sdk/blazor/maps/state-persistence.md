@@ -5,6 +5,7 @@ description: Learn how to retain Blazor Maps model values across page refreshes 
 platform: chart-sdk
 control: Maps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Blazor Maps State Persistence

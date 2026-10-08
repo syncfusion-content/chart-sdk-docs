@@ -5,6 +5,7 @@ description: Bar chart in the WinUI Chart displays and compares values across ca
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui bar chart, winui sfcartesianchart, winui bar chart customization, syncfusion winui bar chart, winui bar chart settings.
 ---
 

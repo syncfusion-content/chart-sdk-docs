@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to add footer and watermark in JavaScript Charts

@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Data labels 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data Labels in Angular Maps

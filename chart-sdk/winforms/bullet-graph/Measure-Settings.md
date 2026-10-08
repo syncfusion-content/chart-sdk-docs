@@ -5,6 +5,7 @@ description: Measure settings in the Windows Forms Bullet Graph enable configura
 platform: chart-sdk
 control: Bullet Graph
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

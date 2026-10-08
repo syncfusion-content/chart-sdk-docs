@@ -5,6 +5,7 @@ description: Title in the WinUI Chart displays descriptive text for the chart an
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
+kappliesto: UI Component Suite, Chart SDK
 keywords: winui chart title, winui sfcartesianchart title, winui chart title customization, syncfusion winui chart title, winui sfcartesianchart title configuration.
 ---
 

@@ -5,6 +5,7 @@ description: Check out and learn about getting started with ASP.NET Core Stock C
 platform: chart-sdk
 control: Stock Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with ASP.NET Core Stock Chart

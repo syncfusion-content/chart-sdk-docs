@@ -5,6 +5,7 @@ description: Drill operations in the Windows Forms Pivot Chart enable users to e
 platform: chart-sdk
 control: PivotChart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Drill Operations in Windows Forms Pivot Chart

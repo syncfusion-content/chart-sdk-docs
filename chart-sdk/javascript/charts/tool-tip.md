@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Chart 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Tooltip in JavaScript Charts
@@ -172,6 +173,23 @@ The [`highlightColor`](../api/chart#highlightcolor) property is used to change t
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs21" %}
+
+## Access data values in the tooltipRender event
+
+The original data associated with the hovered point can be accessed through the `data.rawData` property of the [`tooltipRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/itooltiprendereventargs) event argument. This allows additional values that are not directly mapped to the chart to be used when customizing the tooltip content. The `rawData` property contains a copy of the original data source object. Therefore, modifying this object within the event does not update the chart's underlying data source.
+
+In the following example, the `country` and `growth` fields are retrieved from `args.data.rawData` and added to the tooltip content.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs57/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/charts/user-interaction-cs57/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs57" %}
 
 ## Closest tooltip
 
