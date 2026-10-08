@@ -287,7 +287,7 @@ Advantages of Image QR Codes
 
 * Increased User Interaction: An image QR code can convey messages, showcase products, or provide information more effectively than plain text or URLs. This visual approach can significantly boost user engagement and make the content more compelling and memorable.
 
-* Comprehensive Visual Content: An image QR code generator enables the sharing of high-resolution images, infographics, diagrams, or product photos. This is particularly beneficial in art-related contexts where visual content is crucial for effective communication.
+* Comprehensive Visual Content: An image QR code generator enables the sharing of high-resolution images, info graphics, diagrams, or product photos. This is particularly beneficial in art-related contexts where visual content is crucial for effective communication.
 
 These benefits illustrate how an image QR code converter can enhance the effectiveness and impact of QR codes in various domains, from marketing to education and beyond.
 
