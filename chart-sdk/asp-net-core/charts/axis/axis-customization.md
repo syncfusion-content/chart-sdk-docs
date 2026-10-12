@@ -88,7 +88,7 @@ In addition to the primary X and Y axis, you can add any number of axes to the c
 {% endhighlight %}
 {% endtabs %}
 
-## Inversed Axis
+## Inverted Axis
 
 When an axis is inverted, the highest value of the axis comes closer to the origin and vice versa. To place an axis in inverted manner, set the [`isInversed`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_IsInversed) property to true.
 
