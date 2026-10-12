@@ -307,11 +307,11 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BXLdMtNQVchMhGfy?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-### Dynamic Property Updates
+## Dynamic Property Updates
 
 The Data Matrix Generator supports dynamic updates to barcode properties at runtime. When a property value is modified, the Data Matrix barcode is automatically refreshed to display the latest changes. This enables interactive customization of the barcode appearance and content.
 
-#### Update Data Matrix Properties Dynamically
+### Update Data Matrix Properties Dynamically
 
 The following example demonstrates how to dynamically update Data Matrix properties such as the value, colors, size, encoding mode, and display text.
 
