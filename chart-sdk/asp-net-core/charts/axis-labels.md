@@ -14,7 +14,7 @@ appliesto: UI Component Suite, Chart SDK
 
 When the axis labels overlap with each other, you can use [`labelIntersectAction`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelIntersectAction) property in the axis, to place them smartly. This helps improve readability by automatically adjusting label visibility or orientation. The supported values are `None`, `Hide`, `Rotate45`, `Rotate90`, `Rotate45WithTrim`, `Rotate90WithTrim`, `Wrap`, `MultipleRows`, and `Trim`. The default value is `None`.
 
-When setting `labelIntersectAction` as `Hide`
+When `labelIntersectAction` is set to `Hide`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -25,7 +25,7 @@ When setting `labelIntersectAction` as `Hide`
 {% endhighlight %}
 {% endtabs %}
 
-When setting `labelIntersectAction` as `Rotate45`
+When `labelIntersectAction` is set to `Rotate45`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -36,7 +36,7 @@ When setting `labelIntersectAction` as `Rotate45`
 {% endhighlight %}
 {% endtabs %}
 
-When setting `labelIntersectAction` as `Rotate90`
+When `labelIntersectAction` is set to `Rotate90`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -47,7 +47,7 @@ When setting `labelIntersectAction` as `Rotate90`
 {% endhighlight %}
 {% endtabs %}
 
-When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed when the available space is insufficient and rotated by 45 degrees.
+When `labelIntersectAction` is set to `Rotate45WithTrim`, labels are trimmed when the available space is insufficient and rotated by 45 degrees.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -58,7 +58,7 @@ When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed wh
 {% endhighlight %}
 {% endtabs %}
 
-When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed when the available space is insufficient and rotated vertically.
+When `labelIntersectAction` is set to `Rotate90WithTrim`, labels are trimmed when the available space is insufficient and rotated vertically.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -71,7 +71,7 @@ When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed wh
 
 ## Axis Labels Positioning
 
-By default, the axis labels can be placed `outside` the axis line and this also can be placed `inside` the axis line using the `labelPosition` property.
+By default, the axis labels are placed `outside` the axis line. You can place the labels `inside` the axis line by using the `labelPosition` property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -146,7 +146,7 @@ The `textStyle` property of multilevel labels provides options to customize the 
 
 ### Border customization
 
-Using the `border` property, you can customize the `width`, `color`, and `type`. The `type` of border are `Rectangle`, `Brace`, `WithoutBorder`, `WithoutTopBorder`, `WithoutTopandBottomBorder` and `CurlyBrace`.
+Using the `border` property, you can customize the `width`, `color`, and `type`. The available `type` values are `Rectangle`, `Brace`, `WithoutBorder`, `WithoutTopBorder`, `WithoutTopandBottomBorder`, and `CurlyBrace`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -185,7 +185,7 @@ The [`labelStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 
 ## Customizing a specific point
 
-You can customize specific text in the axis labels using the `axisLabelRender` event.
+You can customize specific text in the axis labels using the [`axisLabelRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_AxisLabelRender) event.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -198,7 +198,7 @@ You can customize specific text in the axis labels using the `axisLabelRender` e
 
 ## Trim using maximum label width
 
-You can trim the label using [`enableTrim`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_EnableTrim) property and width of the labels can also be customized using [`maximumLabelWidth`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MaximumLabelWidth) property in the axis, the default value of the maximum label width is `34`.
+You can trim the labels using the [`enableTrim`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_EnableTrim) property. The width of the labels can be customized using the [`maximumLabelWidth`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MaximumLabelWidth) property in the axis. The default value of the maximum label width is `34`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -211,7 +211,7 @@ You can trim the label using [`enableTrim`](https://help.syncfusion.com/cr/aspne
 
 ## Line break support
 
-The line break feature lets you split long axis label text into multiple lines by using `<br>` tag. Refer the following example in that dataSource x value contains long text, it breaks into two lines by using `<br>` tag.
+The line break feature lets you split long axis label text into multiple lines by using the `<br>` tag. In the following example, the `x` value in the data source contains long text, which is broken into two lines using the `<br>` tag.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -224,9 +224,12 @@ The line break feature lets you split long axis label text into multiple lines b
 
 ## Maximum labels
 
-`MaximumLabels` property is set, then the labels will be rendered based on the count in the property per 100 pixel. If you have set range (minimum, maximum, interval) and maximumLabels, then the priority goes to range only. If you haven’t set the range, then priority is considered to be maximumLabels property.
+When the `maximumLabels` property is set, the labels are rendered based on the count per 100 pixels in the property. If you have set a range (`minimum`, `maximum`, `interval`) and `maximumLabels`, the range takes priority. If you have not set the range, the `maximumLabels` property is used.
 
 {% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/max-label/tagHelper %}
+{% endhighlight %}
 {% highlight c# tabtitle="Max-label.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/max-label/max-label.cs %}
 {% endhighlight %}
@@ -234,9 +237,12 @@ The line break feature lets you split long axis label text into multiple lines b
 
 ## Axis label template
 
-The axis label template allows you to customize axis labels by formatting them with HTML content, applying conditional styling, and including dynamic elements such as icons, images or additional data. This customization is enabled by setting the template content in the `labelTemplate` property of the [ChartAxis](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html).
+The axis label template allows you to customize axis labels by formatting them with HTML content, applying conditional styling, and including dynamic elements such as icons, images, or additional data. This customization is enabled by setting the template content in the `labelTemplate` property of the [ChartAxis](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html).
 
 {% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/label-template/tagHelper %}
+{% endhighlight %}
 {% highlight c# tabtitle="Label-template.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/label-template/label-template.cs %}
 {% endhighlight %}
