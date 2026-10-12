@@ -119,7 +119,7 @@ The last seven characters of Code Sets A and B (character values 96-102) and the
 
 ## EAN-8
 
-EAN-8 is a linear barcode symbology that encodes 8-digit Global Trade Identification Numbers (GTINs) for product identification. It is primarily used for small retail packages, where the full 13-digit EAN-13 would be too large to fit. The EAN-8 character set includes the numeric digits 0–9 only.
+EAN-8 is a linear barcode symbology used to encode 8-digit Global Trade Item Numbers (GTINs) for product identification. It is primarily designed for small retail packages where space is limited. The EAN-8 barcode supports only numeric characters, using the digits 0-9.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -130,7 +130,7 @@ EAN-8 is a linear barcode symbology that encodes 8-digit Global Trade Identifica
 
 ## EAN-13
 
-EAN-13 is the internationally recognized standard barcode symbology for retail product identification at the point of sale. It encodes 13-digit Global Trade Item Numbers (GTINs) in a standardized format. The 13 digits are structured as follows: a 2 or 3-digit prefix assigned by GS1, a manufacturer code, a product reference code, and a single modulo-10 check digit. The character set consists exclusively of numeric digits (0–9).
+EAN-13 is a widely used barcode symbology for retail product identification. It encodes 13-digit Global Trade Item Numbers (GTINs) in a standardized format. The 13 digits typically consist of a GS1 prefix, company prefix, product reference number, and a Modulo-10 check digit used for data validation. The EAN-13 barcode supports only numeric characters, encoding digits(0-9).
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -143,7 +143,7 @@ EAN-13 is the internationally recognized standard barcode symbology for retail p
 
 UPC-A (Universal Product Code - Version A) is a barcode symbology used for retail product identification at the point of sale. It encodes 12 digits in a standardized structure: a 1-digit number system designator, a 5-digit manufacturer identifier, a 5-digit product code, and a 1-digit check digit. The UPC-A character set consists exclusively of numeric digits (0–9).
 
-The [EnableCheckSum](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_EnableCheckSum) property specifies whether an error detection mechanism is applied by adding additional characters to the barcode to protect the integrity of barcode data. By default, this property is set to `true`.
+The [EnableCheckSum](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_EnableCheckSum) property specifies whether an error detection mechanism is applied by adding additional characters to the barcode to protect the integrity of barcode data. By default, this property is set to **true**.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator

@@ -104,39 +104,6 @@ Combining GS1 encoding with error correction levels:
 
 This configuration provides robust scanning even with partial damage to the QR code.
 
-## Error Correction Level
-
-The QR Barcode employs error correction to generate a series of error correction codewords which are added to the data code word sequence in order to enable the symbol to withstand damage without data loss. There are four user–selectable levels of error correction, as shown in the table, that offer the capability of recovery from the following amounts of damage. By default, the [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is Low.
-
-### Error Correction Levels
-
-|Error Correction Level|	Recovery Capacity % (approx.)|
-|----------|--------------|
-|L (Low)|	7%|
-|M (Medium)|	15%|
-|Q (Quartile)|	25%|
-|H (High)|	30%|
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- Low error correction (default) - compact but less robust -->
-<SfQRCodeGenerator Width="150px" Height="150px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
-
-<!-- High error correction - larger but very robust -->
-<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.High" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrRMttmUzujqKWH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
-Choose higher error correction levels for environments where the QR code may be damaged, printed on uneven surfaces, or scanned from difficult angles.
-
-```cshtml
-<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value=https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html>
-    <QRCodeGeneratorDisplayText Visibility="false"></QRCodeGeneratorDisplayText>
-</SfQRCodeGenerator>
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LZrRWNjGqJkTXPiB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
 ## QR Code Customizations
 
 The QR Code component provides comprehensive customization options to modify the appearance and behavior of generated QR codes. This section covers all available properties that can be used to customize QR Code symbols.
@@ -319,6 +286,39 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LZVnCNXcqJfpGdbF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+## Error Correction Level
+
+The QR Barcode employs error correction to generate a series of error correction codewords which are added to the data code word sequence in order to enable the symbol to withstand damage without data loss. There are four user–selectable levels of error correction, as shown in the table, that offer the capability of recovery from the following amounts of damage. By default, the [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is Low.
+
+### Error Correction Levels
+
+|Error Correction Level|	Recovery Capacity % (approx.)|
+|----------|--------------|
+|L (Low)|	7%|
+|M (Medium)|	15%|
+|Q (Quartile)|	25%|
+|H (High)|	30%|
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<!-- Low error correction (default) - compact but less robust -->
+<SfQRCodeGenerator Width="150px" Height="150px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
+
+<!-- High error correction - larger but very robust -->
+<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.High" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrRMttmUzujqKWH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+Choose higher error correction levels for environments where the QR code may be damaged, printed on uneven surfaces, or scanned from difficult angles.
+
+```cshtml
+<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value=https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html>
+    <QRCodeGeneratorDisplayText Visibility="false"></QRCodeGeneratorDisplayText>
+</SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZrRWNjGqJkTXPiB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Dynamic Property Updates
 
