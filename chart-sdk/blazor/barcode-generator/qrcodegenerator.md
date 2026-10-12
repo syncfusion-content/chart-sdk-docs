@@ -21,6 +21,122 @@ The [Blazor QR Code](https://www.syncfusion.com/blazor-components/blazor-barcode
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BXLdtnWszsIxjDVB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[QR Code in Blazor Barcode Component](images/blazor-barcode-with-qrcode.webp)" %}
 
+## QR code with logo
+
+The QR Code component supports embedding a logo image using the [ImageSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeLogo.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeLogo_ImageSource) property within the [QRCodeLogo](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeLogo.html) element. This property sets the logo image in the center of the QR code. By default, the logo image is positioned at one-third of the QR code's size. Therefore, adjusting the size of the QR code will proportionally scale the logo image.
+
+Advantages of Image QR Codes
+
+* Enhanced Brand Identity: A QR code with an image allows businesses to integrate their logos or brand elements directly into the QR code. This enhances brand consistency and recognition, making it more memorable for users when they interact with the QR code.
+
+* Increased User Interaction: An image QR code can convey messages, showcase products, or provide information more effectively than plain text or URLs. This visual approach can significantly boost user engagement and make the content more compelling and memorable.
+
+* Comprehensive Visual Content: An image QR code generator enables the sharing of high-resolution images, info graphics, diagrams, or product photos. This is particularly beneficial in art-related contexts where visual content is crucial for effective communication.
+
+These benefits illustrate how an image QR code converter can enhance the effectiveness and impact of QR codes in various domains, from marketing to education and beyond.
+
+The following code example demonstrates how to generate a QR barcode with a logo positioned at the center of it.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfQRCodeGenerator Width="200px" Height="150px" Value="https://www.syncfusion.com/blazor-components/blazor-barcode">
+    <QRCodeGeneratorDisplayText Visibility="false"></QRCodeGeneratorDisplayText>
+    <QRCodeLogo ImageSource="https://cdn.syncfusion.com/content/images/Contact-us/primary_logo.svg"></QRCodeLogo>
+</SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LDrRsZDmgSIPRolY?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+![QR barcode with logo in Blazor Barcode](images/blazor-barcode-qrcode-with-logo.webp)
+
+>**Note:** The [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is not taken into account when rendering the logo image inside the QR code.
+
+### Customizing the logo size
+
+The size of the logo can be changed using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeLogo.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeLogo_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeLogo.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeLogo_Width) properties of the QR code generator. The image size should be equal to or less than 30% of the QR code's size. If the specified size exceeds 30% of the QR code's size, the QR code may not be scanned properly. Therefore, the lesser value between 30% of the QR code's size and the specified size will be used for rendering.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfQRCodeGenerator Width="200px" Height="200px" Value="https://www.syncfusion.com/blazor-components/blazor-barcode">
+    <QRCodeLogo Width="30" Height="30" ImageSource="images/barcode/syncfusion.png"></QRCodeLogo>
+</SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNrdZRWCJiuTkJsk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+>**Note:** The default value is one-third of the QR code size.
+
+## GS1 QR Code
+
+GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
+
+Use the [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_EnableGS1) property on the [SfQRCodeGenerator](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html) to switch the control into GS1 mode.
+
+**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<!-- GS1 QR Code with GTIN, batch, and expiration date -->
+<SfQRCodeGenerator Width="250px" Height="250px" Value="(01)09506000134352(17)271231(10)ABC123" EnableGS1="true">
+    <QRCodeGeneratorDisplayText Text="Product Code" Visibility="true" Alignment="Alignment.Center" />
+</SfQRCodeGenerator>
+```
+
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htVxiXtmgTmUrrlQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 QR Code](images/Gs1-QrCode.png)" %}
+
+### GS1 QR Code with Error Correction
+
+Combining GS1 encoding with error correction levels:
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<!-- GS1 QR Code with high error correction -->
+<SfQRCodeGenerator Width="250px" Height="250px" 
+                   Value="(01)09506000134352(17)271231(10)ABC123" 
+                   EnableGS1="true"
+                   ErrorCorrectionLevel="ErrorCorrectionLevel.High">
+    <QRCodeGeneratorDisplayText Text="Product Code" Visibility="true" Alignment="Alignment.Center" />
+</SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZrnsjDQKpFReBfX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+This configuration provides robust scanning even with partial damage to the QR code.
+
+## Error Correction Level
+
+The QR Barcode employs error correction to generate a series of error correction codewords which are added to the data code word sequence in order to enable the symbol to withstand damage without data loss. There are four user–selectable levels of error correction, as shown in the table, that offer the capability of recovery from the following amounts of damage. By default, the [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is Low.
+
+### Error Correction Levels
+
+|Error Correction Level|	Recovery Capacity % (approx.)|
+|----------|--------------|
+|L (Low)|	7%|
+|M (Medium)|	15%|
+|Q (Quartile)|	25%|
+|H (High)|	30%|
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<!-- Low error correction (default) - compact but less robust -->
+<SfQRCodeGenerator Width="150px" Height="150px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
+
+<!-- High error correction - larger but very robust -->
+<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.High" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrRMttmUzujqKWH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+Choose higher error correction levels for environments where the QR code may be damaged, printed on uneven surfaces, or scanned from difficult angles.
+
+```cshtml
+<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value=https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html>
+    <QRCodeGeneratorDisplayText Visibility="false"></QRCodeGeneratorDisplayText>
+</SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZrRWNjGqJkTXPiB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
 ## QR Code Customizations
 
 The QR Code component provides comprehensive customization options to modify the appearance and behavior of generated QR codes. This section covers all available properties that can be used to customize QR Code symbols.
@@ -204,11 +320,11 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LZVnCNXcqJfpGdbF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-### Dynamic Property Updates
+## Dynamic Property Updates
 
 The QR Code component supports real-time property binding. When any property value changes, the QR code automatically updates to reflect the changes.
 
-#### Update QR code Properties Dynamically
+### Update QR code Properties Dynamically
 
 Here is an example showing how to dynamically update QR code properties using Blazor data binding:
 
@@ -276,122 +392,6 @@ Here is an example showing how to dynamically update QR code properties using Bl
 }
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LDBniXNmgJoxPHxQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
-## QR code with logo
-
-The QR Code component supports embedding a logo image using the [ImageSource](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeLogo.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeLogo_ImageSource) property within the [QRCodeLogo](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeLogo.html) element. This property sets the logo image in the center of the QR code. By default, the logo image is positioned at one-third of the QR code's size. Therefore, adjusting the size of the QR code will proportionally scale the logo image.
-
-Advantages of Image QR Codes
-
-* Enhanced Brand Identity: A QR code with an image allows businesses to integrate their logos or brand elements directly into the QR code. This enhances brand consistency and recognition, making it more memorable for users when they interact with the QR code.
-
-* Increased User Interaction: An image QR code can convey messages, showcase products, or provide information more effectively than plain text or URLs. This visual approach can significantly boost user engagement and make the content more compelling and memorable.
-
-* Comprehensive Visual Content: An image QR code generator enables the sharing of high-resolution images, info graphics, diagrams, or product photos. This is particularly beneficial in art-related contexts where visual content is crucial for effective communication.
-
-These benefits illustrate how an image QR code converter can enhance the effectiveness and impact of QR codes in various domains, from marketing to education and beyond.
-
-The following code example demonstrates how to generate a QR barcode with a logo positioned at the center of it.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfQRCodeGenerator Width="200px" Height="150px" Value="https://www.syncfusion.com/blazor-components/blazor-barcode">
-    <QRCodeGeneratorDisplayText Visibility="false"></QRCodeGeneratorDisplayText>
-    <QRCodeLogo ImageSource="https://cdn.syncfusion.com/content/images/Contact-us/primary_logo.svg"></QRCodeLogo>
-</SfQRCodeGenerator>
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LDrRsZDmgSIPRolY?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
-![QR barcode with logo in Blazor Barcode](images/blazor-barcode-qrcode-with-logo.webp)
-
->**Note:** The [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is not taken into account when rendering the logo image inside the QR code.
-
-### Customizing the logo size
-
-The size of the logo can be changed using the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeLogo.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeLogo_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeLogo.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeLogo_Width) properties of the QR code generator. The image size should be equal to or less than 30% of the QR code's size. If the specified size exceeds 30% of the QR code's size, the QR code may not be scanned properly. Therefore, the lesser value between 30% of the QR code's size and the specified size will be used for rendering.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<SfQRCodeGenerator Width="200px" Height="200px" Value="https://www.syncfusion.com/blazor-components/blazor-barcode">
-    <QRCodeLogo Width="30" Height="30" ImageSource="images/barcode/syncfusion.png"></QRCodeLogo>
-</SfQRCodeGenerator>
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VNrdZRWCJiuTkJsk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
->**Note:** The default value is one-third of the QR code size.
-
-## GS1 QR Code
-
-GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
-
-Use the [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_EnableGS1) property on the [SfQRCodeGenerator](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html) to switch the control into GS1 mode.
-
-**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- GS1 QR Code with GTIN, batch, and expiration date -->
-<SfQRCodeGenerator Width="250px" Height="250px" Value="(01)09506000134352(17)271231(10)ABC123" EnableGS1="true">
-    <QRCodeGeneratorDisplayText Text="Product Code" Visibility="true" Alignment="Alignment.Center" />
-</SfQRCodeGenerator>
-```
-
-{% previewsample "https://blazorplayground.syncfusion.com/embed/htVxiXtmgTmUrrlQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 QR Code](images/Gs1-QrCode.png)" %}
-
-### GS1 QR Code with Error Correction
-
-Combining GS1 encoding with error correction levels:
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- GS1 QR Code with high error correction -->
-<SfQRCodeGenerator Width="250px" Height="250px" 
-                   Value="(01)09506000134352(17)271231(10)ABC123" 
-                   EnableGS1="true"
-                   ErrorCorrectionLevel="ErrorCorrectionLevel.High">
-    <QRCodeGeneratorDisplayText Text="Product Code" Visibility="true" Alignment="Alignment.Center" />
-</SfQRCodeGenerator>
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hZrnsjDQKpFReBfX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
-This configuration provides robust scanning even with partial damage to the QR code.
-
-## Error Correction Level
-
-The QR Barcode employs error correction to generate a series of error correction codewords which are added to the data code word sequence in order to enable the symbol to withstand damage without data loss. There are four user–selectable levels of error correction, as shown in the table, that offer the capability of recovery from the following amounts of damage. By default, the [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is Low.
-
-### Error Correction Levels
-
-|Error Correction Level|	Recovery Capacity % (approx.)|
-|----------|--------------|
-|L (Low)|	7%|
-|M (Medium)|	15%|
-|Q (Quartile)|	25%|
-|H (High)|	30%|
-
-```cshtml
-@using Syncfusion.Blazor.BarcodeGenerator
-
-<!-- Low error correction (default) - compact but less robust -->
-<SfQRCodeGenerator Width="150px" Height="150px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
-
-<!-- High error correction - larger but very robust -->
-<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.High" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrRMttmUzujqKWH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
-
-Choose higher error correction levels for environments where the QR code may be damaged, printed on uneven surfaces, or scanned from difficult angles.
-
-```cshtml
-<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value=https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html>
-    <QRCodeGeneratorDisplayText Visibility="false"></QRCodeGeneratorDisplayText>
-</SfQRCodeGenerator>
-```
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LZrRWNjGqJkTXPiB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Event
 
