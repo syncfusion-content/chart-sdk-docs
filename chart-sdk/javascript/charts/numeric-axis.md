@@ -127,9 +127,11 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
 
 ## Label Format
 
-**Numeric Label Format**
+## Label Format
 
-Numeric axis labels can be formatted by using the [`labelFormat`](../api/chart/axisModel#labelformat-string) property. This property supports all Globalize numeric formats.
+### Numeric label format
+
+Numeric axis labels can be formatted by using the [`labelFormat`](../api/chart/axisModel#labelformat-string) property. This property supports all Globalize numeric formats. Output depends on the active culture set with [`setCulture`](../api/chart/internationalization) and the currency code set with [`setCurrencyCode`](../api/chart/internationalization); the example output in the table below assumes the default `en-US` culture.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -204,7 +206,7 @@ The following table shows examples of commonly used numeric label formats and th
 
 ## GroupingSeparator
 
-To separate groups of thousands in numeric labels, enable the [`useGroupingSeparator`](../api/chart/chartModel#useGroupingSeparator-boolean) property in the chart.
+To separate groups of thousands in numeric labels, enable the [`useGroupingSeparator`](../api/chart/chartModel#usegroupingseparator-boolean) property in the chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

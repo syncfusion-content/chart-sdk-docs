@@ -83,6 +83,9 @@ Selection can be synchronized across multiple charts by using the [`selectionCom
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs48" %}
 
-## See Also
+## See also
 
 * [Synchronized Hover Between EJ2 JavaScript Charts](https://support.syncfusion.com/kb/article/21479/how-to-synchronized-hover-between-ej2-javascript-charts)
+* [Zooming in JavaScript Charts](./zooming)
+* [Selection in JavaScript Charts](./selection)
+* [Crosshair and trackball in JavaScript Charts](./cross-hair-and-track-ball)

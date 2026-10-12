@@ -13,7 +13,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Render methods in JavaScript Charts
 
-Chart uses following two rendering methods.
+Chart uses the following two rendering methods.
 
 * SVG
 * Canvas
@@ -29,8 +29,21 @@ Switch between SVG and Canvas rendering by using the `enableCanvas` option. The 
 * Plotting large number of data points.
 * Performing high frequency live updates.
 
+```javascript
+var chart = new ej.charts.Chart({
+    enableCanvas: true,
+    series: [/* ... */]
+}, '#element');
+```
+
 **Limitations**
 
 - Animation is not supported in canvas mode.
+- Some accessibility and print/export features may differ from SVG mode.
 
 > Note: Canvas rendering improves performance for very large datasets or high-frequency updates but may limit certain SVG-specific features.
+
+## See also
+
+* [Feature modules in JavaScript Charts](./feature-modules)
+* [Tooltip in JavaScript Charts](./tool-tip)

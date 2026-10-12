@@ -31,7 +31,7 @@ Horizontal strip lines are created by adding the `stripline` configuration to th
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs92" %}
 
-## Vertical Striplines
+## Vertical strip lines
 
 Vertical strip lines are created by adding the `stripline` configuration to the horizontal axis and enabling the `visible` property. They highlight vertical regions in the chart and support multiple entries for an axis.
 

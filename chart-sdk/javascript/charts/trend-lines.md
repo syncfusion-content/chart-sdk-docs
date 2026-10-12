@@ -179,3 +179,8 @@ Control visibility using the [`visible`](../api/chart/trendlinemodel#visible) pr
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/trendlines-cs10" %}
+
+## See also
+
+* [Series in JavaScript Charts](./chart-series)
+* [Technical indicators in JavaScript Charts](./technical-indicators)

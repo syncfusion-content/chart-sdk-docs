@@ -18,7 +18,7 @@ The chart area can be divided into multiple panes by defining rows and columns u
 To split the chart area vertically into multiple rows, use the [`rows`](../api/chart/row) property of the chart.
 
 - Space for each row can be allocated by using the [`height`](../api/chart/row#height-string) property. The value can be specified either in pixels or as a percentage.
-- To associate a vertical axis with a specific row, assign the corresponding index using the [`rowIndex`](../api/chart/axis#rowindex-number) property of the axis.
+- To associate a horizontal axis with a specific row, assign the corresponding index using the [`rowIndex`](../api/chart/axis#rowindex-number) property of the axis.
 - To customize the bottom line of each row, use the [`border`](../api/chart/row#border-bordermodel) property.
 
 {% tabs %}
@@ -49,9 +49,9 @@ To span a vertical axis across multiple rows, use the [`span`](../api/chart/axis
 
 To split the chart area horizontally into multiple columns, use the [`columns`](../api/chart/column) property of the chart.
 
-- Space for each column can be allocated using the [`width`](../api/chart/row#width-string) property. The width can be specified either in pixels or as a percentage.
-- To associate a horizontal axis with a specific column, assign the corresponding index using the [`columnIndex`](../api/chart/axis#columnindex-number) property of the axis.
-- To customize the bottom line of each column, use the [`border`](../api/chart/row#border-bordermodel) property.
+- Space for each column can be allocated using the [`width`](../api/chart/column#width-string) property. The width can be specified either in pixels or as a percentage.
+- To associate a vertical axis with a specific column, assign the corresponding index using the [`columnIndex`](../api/chart/axis#columnindex-number) property of the axis.
+- To customize the bottom line of each column, use the [`border`](../api/chart/column#border-bordermodel) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
