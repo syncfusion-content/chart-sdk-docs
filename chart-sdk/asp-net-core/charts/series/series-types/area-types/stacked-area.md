@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Stacked Area Chart in ASP.NET Core Charts
 
-## Stacked Area
+## Overview
 
 To render a [stacked area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/stacked-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -93,7 +92,7 @@ Use the `border` property to customize the width, color and dasharray of the ser
 {% endhighlight %}
 {% endtabs %}
 
-## Empty points
+### Empty points
 
 Data points with **null** or **undefined** values are considered empty. Empty data points are ignored and not plotted on the chart.
 
@@ -136,8 +135,6 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Stack labels
 
 The stack labels in stacked charts display cumulative total values for stack segments directly using data labels. If a stacked point has negative values, the stack labels are displayed below the point.
@@ -150,8 +147,6 @@ The stack labels in stacked charts display cumulative total values for stack seg
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area/stack-labels/stack-labels.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ### Stack labels customization
 
@@ -175,8 +170,6 @@ Stack labels have various properties for customization to enhance the visual bas
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area/stack-labels-cus/stack-labels-cus.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Events
 
@@ -205,8 +198,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## See also
 

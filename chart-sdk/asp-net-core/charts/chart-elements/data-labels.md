@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Data Labels in ASP.NET Core Charts
 
-Data label can be added to a chart series by enabling the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Marker) option in the dataLabel. By default, the labels will arrange smartly without overlapping.
+A data label can be added to a chart series by enabling the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartDataLabelSettings.html#Syncfusion_EJ2_Charts_ChartDataLabelSettings_Visible) option in [`dataLabel`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_DataLabel). By default, the labels are arranged smartly without overlapping.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -22,11 +21,9 @@ Data label can be added to a chart series by enabling the [`visible`](https://h
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Position
 
-Using [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Marker) property, you can place the label either on `Top`, `Middle`, `Bottom` or `Outer` (outer is applicable for column and bar type series).
+Using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartDataLabelSettings.html#Syncfusion_EJ2_Charts_ChartDataLabelSettings_Position) property, you can place the label at `Top`, `Middle`, `Bottom`, or `Outer` (`Outer` is applicable for column and bar type series).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -37,11 +34,9 @@ Using [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.
 {% endhighlight %}
 {% endtabs %}
 
+N> The position `Outer` is applicable for column and bar type series.
 
-
-N> The position `Outer` is applicable for column and bar type series.
-
-## Data Label Template
+## Data label template
 
 Label content can be formatted by using the template option. Inside the template, you can add the placeholder text `${point.x}` and `${point.y}` to display corresponding data points x & y value. Using [`template`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartDataLabelSettings.html#Syncfusion_EJ2_Charts_ChartDataLabelSettings_Template) property, you can set data label template in chart.
 
@@ -54,9 +49,7 @@ Label content can be formatted by using the template option. Inside the template
 {% endhighlight %}
 {% endtabs %}
 
-
-
-## Text Mapping
+## Text mapping
 
 Text from the data source can be mapped using `name` property.
 
@@ -141,7 +134,7 @@ Data label for the chart can be formatted using [`format`](https://help.syncfusi
 
 ## Margin
 
-The `margin` for data label can be applied to use `left`, `right`, `bottom` and `top` properties.
+The margin for the data label can be set using the `left`, `right`, `bottom`, and `top` properties.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -152,11 +145,9 @@ The `margin` for data label can be applied to use `left`, `right`, `bottom` and 
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Customization
 
-The `stroke` and `border` of data label can be customized using `fill` and `border` properties. Rounded corners can be customized using `rx` and `ry` properties.
+The fill and border of the data label can be customized using the `fill` and `border` properties. Rounded corners can be customized using the `rx` and `ry` properties.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -167,11 +158,9 @@ The `stroke` and `border` of data label can be customized using `fill` and `bord
 {% endhighlight %}
 {% endtabs %}
 
+> The `rx` and `ry` properties require the `border` value to be set.
 
-
-N> `rx` and `ry` properties requires `border` values not to be null.
-
-### Handling Overlapping Data Labels
+### Handling overlapping data labels
 
 Use the `labelIntersectAction` property to specify how overlapping data labels are handled.
 
@@ -201,9 +190,9 @@ These relocation modes enable the Smart Data Label feature, which improves reada
 {% endhighlight %}
 {% endtabs %}
 
-## Customizing Specific Point
+## Customizing a specific point
 
-You can also customize the specific marker and label using [`pointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) and [`textRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TextRender) event. The `pointRender` event allows to change the shape, color and border for a point, whereas the `textRender` event allows to change the text for the point.
+You can also customize the specific marker and label using the [`pointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) and [`textRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TextRender) event. The `pointRender` event allows you to change the shape, color, and border for a point, whereas the `textRender` event allows you to change the text for the point.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -214,9 +203,9 @@ You can also customize the specific marker and label using [`pointRender`](http
 {% endhighlight %}
 {% endtabs %}
 
-## Show percentage based on each series points
+## Show percentage based on each series point
 
-You can calculate the percentage value based on the sum for each series using the `seriesRender` and `textRender` events in the chart. In `seriesRender` calculate the sum of each series y values and In `textRender` calculate percentage value based on the sum value and modify the text.
+You can calculate the percentage value based on the sum for each series using the `seriesRender` and `textRender` events in the chart. In `seriesRender`, calculate the sum of each series' y-values, and in `textRender`, calculate the percentage value based on the sum and modify the text.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

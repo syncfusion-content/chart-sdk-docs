@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Pareto Chart in ASP.NET Core Charts
 
-## Pareto
+## Overview
 
 Pareto charts are used to find the cumulative values of data in different categories. It is a combination of **Column** and **Line** series, where the initial values are represented by the column chart and the cumulative values are represented by the line chart.
 
@@ -41,9 +40,9 @@ You can bind data to the chart using the `dataSource` property within the series
 {% endhighlight %}
 {% endtabs %}
 
-## Pareto customization
+## Customization
 
-## Fill
+### Fill
 
 Use the `fill` property to apply a color to the pareto line. By default, a color based on the theme is used.
 
@@ -150,7 +149,6 @@ Use the `border` property to customize the width and color of the border for emp
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/empty-border/empty-border.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
 ## Events
 

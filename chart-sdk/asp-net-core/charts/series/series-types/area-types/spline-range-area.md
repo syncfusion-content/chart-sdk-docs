@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Spline Range Area Chart in ASP.NET Core Charts
 
-## Spline Range Area
+## Overview
 
 To render a [spline range area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/spline-range-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 

@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Error Bar Chart in ASP.NET Core Charts
 
-## Error Bar
+## Overview
 
 Error bars are graphical representations of the variability of data and are used on graphs to indicate the error or uncertainty in a reported measurement.
 
@@ -30,7 +29,7 @@ To render error bars for the series in your chart, you need to follow a few step
 
 ## Customizing error bar
 
-To customize the error bar type, set the error bar `type` to **Custom**, and then change the horizontal or vertical positive and negative error values for the error bar.
+To customize the error bar type, set the error bar `type` to **Custom**, and then change the horizontal or vertical positive and negative error values for the error bar. The available built-in types are **Fixed**, **Percentage**, **StandardDeviation**, and **Custom**.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -43,7 +42,7 @@ To customize the error bar type, set the error bar `type` to **Custom**, and the
 
 ## Error bar mode
 
-The error bar mode is used to define whether the error bar line is drawn horizontally, vertically or on both sides. To change the error bar mode, use the `mode` option.
+The error bar mode is used to define whether the error bar line is drawn horizontally, vertically, or on both sides. To change the error bar mode, use the `mode` property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -93,9 +92,9 @@ To customize the error bar color for individual errors, use the `errorBarColorMa
 {% endhighlight %}
 {% endtabs %}
 
-## Events
+### Events
 
-### Series render
+#### Series render
 
 The `seriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
 
@@ -120,7 +119,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
 ## See Also
 

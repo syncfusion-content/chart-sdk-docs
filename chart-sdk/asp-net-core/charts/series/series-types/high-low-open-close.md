@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # High Low Open Close Chart in ASP.NET Core Charts
 
-## High Low Open Close
+## Overview
 
 To render an `hiloOpenClose` series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
