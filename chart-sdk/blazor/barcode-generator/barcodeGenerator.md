@@ -117,6 +117,52 @@ The last seven characters of Code Sets A and B (character values 96-102) and the
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LjhxDxCiftSEKWfu?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Code 128 Special Characters in Blazor Barcode](images/blazor-code128-barcode.webp)" %}
 
+## EAN-8
+
+EAN-8 is a linear barcode symbology that encodes 8-digit Global Trade Identification Numbers (GTINs) for product identification. It is primarily used for small retail packages, where the full 13-digit EAN-13 would be too large to fit. The EAN-8 character set includes the numeric digits 0–9 only.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="200px" Height="150px" Type="@BarcodeType.Ean8" Value="11223344"></SfBarcodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LDhHXYhUzUQOsdqG?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[EAN-8 in Blazor Barcode](images/EAN8.png)" %}
+
+## EAN-13
+
+EAN-13 is the internationally recognized standard barcode symbology for retail product identification at the point of sale. It encodes 13-digit Global Trade Item Numbers (GTINs) in a standardized format. The 13 digits are structured as follows: a 2 or 3-digit prefix assigned by GS1, a manufacturer code, a product reference code, and a single modulo-10 check digit. The character set consists exclusively of numeric digits (0–9).
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="200px" Height="150px" Type="@BarcodeType.Ean13" Value="012345678901"></SfBarcodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/rZrnNuLqfActqkjn?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[EAN-13 in Blazor Barcode](images/EAN13.png)" %}
+
+## UPC-A
+
+UPC-A (Universal Product Code - Version A) is a barcode symbology used for retail product identification at the point of sale. It encodes 12 digits in a standardized structure: a 1-digit number system designator, a 5-digit manufacturer identifier, a 5-digit product code, and a 1-digit check digit. The UPC-A character set consists exclusively of numeric digits (0–9).
+
+The [EnableCheckSum](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_EnableCheckSum) property specifies whether an error detection mechanism is applied by adding additional characters to the barcode to protect the integrity of barcode data. By default, this property is set to `true`.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="200px" Height="150px" Type="@BarcodeType.UpcA" Value="01234567890" EnableCheckSum="true"></SfBarcodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNBdDahgpAHhmIHc?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[UPC-A in Blazor Barcode](images/UPCA.png)" %}
+
+## UPC-E
+
+UPC-E (Universal Product Code - Version E) is a compressed representation of the UPC-A barcode designed for applications where label space is constrained. It encodes 6 digits that are automatically expanded to their full UPC-A equivalent during scanning. The UPC-E character set consists exclusively of numeric digits (0–9). UPC-E is used in applications requiring compact barcode labels where full UPC-A dimensions are impractical.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfBarcodeGenerator Width="200px" Height="150px" Type="@BarcodeType.UpcE" Value="123456"></SfBarcodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZrnZEhAfgePrVuU?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[UPC-E in Blazor Barcode](images/UPCE.png)" %}
+
 ## Barcode Customizations
 
 The Barcode Generator component provides various customization options to modify the appearance and behavior of barcodes. This section covers all the available properties that can be used to customize barcodes.
@@ -295,11 +341,11 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rthRWtDcrIuwbLGS?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-### Dynamic Property Updates
+## Dynamic Property Updates
 
 The Barcode Generator supports dynamic updates to barcode properties at runtime. When a property value is modified, the barcode is automatically refreshed to display the latest changes. This enables interactive customization of the barcode appearance and content.
 
-#### Update Barcode Properties Dynamically
+### Update Barcode Properties Dynamically
 
 The Barcode Generator supports updating barcode properties at runtime. Changes to properties such as the barcode value, dimensions, colors, and display text are automatically reflected in the generated barcode. This enables interactive barcode customization without requiring the component to be recreated or the page to be reloaded.
  
@@ -365,7 +411,7 @@ The following example demonstrates how to dynamically update barcode properties.
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rDrnsZjcLxKlMPFq?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-#### Change Barcode Type Dynamically
+### Change Barcode Type Dynamically
 
 The Barcode Generator allows users to switch between supported barcode types at runtime. When a different barcode type is selected, the component automatically regenerates the barcode using the selected symbology.
 
@@ -417,9 +463,9 @@ The following example demonstrates how to dynamically switch between supported b
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/htLRCtjcBnxRShbV?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-### Data Validation and Error Detection
+## Data Validation and Error Detection
 
-#### Enable Check Sum
+### Enable Check Sum
 
 The [EnableCheckSum](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfBarcodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfBarcodeGenerator_EnableCheckSum) property specifies an error detection mechanism in which additional characters are added to a barcode to protect the integrity of barcode data. The default value is `true` for barcode types that support it, such as `BarcodeType.Code39`.
 
