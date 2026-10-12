@@ -119,7 +119,7 @@ The last seven characters of Code Sets A and B (character values 96-102) and the
 
 ## EAN-8
 
-EAN-8 is a linear barcode symbology used to encode 8-digit Global Trade Item Numbers (GTINs) for product identification. It is primarily designed for small retail packages where space is limited. The EAN-8 barcode supports only numeric characters, using the digits 0-9.
+EAN-8 is a linear barcode symbology used to encode 8-digit Global Trade Item Numbers (GTIN) for product identification. It is primarily designed for small retail packages where space is limited. The EAN-8 barcode supports only numeric characters, using the digits 0-9.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
@@ -130,7 +130,7 @@ EAN-8 is a linear barcode symbology used to encode 8-digit Global Trade Item Num
 
 ## EAN-13
 
-EAN-13 is a widely used barcode symbology for retail product identification. It encodes 13-digit Global Trade Item Numbers (GTINs) in a standardized format. The 13 digits typically consist of a GS1 prefix, company prefix, product reference number, and a Modulo-10 check digit used for data validation. The EAN-13 barcode supports only numeric characters, encoding digits(0-9).
+EAN-13 is a widely used barcode symbology for retail product identification. It encodes 13-digit Global Trade Item Numbers (GTIN) in a standardized format. The 13 digits typically consist of a GS1 prefix, company prefix, product reference number, and a Modulo-10 check digit used for data validation. The EAN-13 barcode supports only numeric characters, encoding digits(0-9).
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
