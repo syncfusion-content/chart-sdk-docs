@@ -14,8 +14,7 @@ This section provides a quick overview of how to get started with the [.NET MAUI
 
 To get started quickly with our .NET MAUI TreeMap, you can check the below video.
 
-{% youtube
-"youtube:https://www.youtube.com/watch?si=ojSLI-inAq9_1-aI&v=ZqorS_FjHxg&feature=youtu.be"%}
+<style>#MAUITreeMapVideoTutorial{width : 90% !important; height: 400px !important }</style> <iframe id='MAUITreeMapVideoTutorial' src='https://www.youtube.com/embed/ZqorS_FjHxg'></iframe>
 
 {% tabcontents %}
 {% tabcontent Visual Studio %}
