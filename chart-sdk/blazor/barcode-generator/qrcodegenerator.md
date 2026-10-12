@@ -104,9 +104,9 @@ Combining GS1 encoding with error correction levels:
 
 This configuration provides robust scanning even with partial damage to the QR code.
 
-## Error Correction Level
+#### Font Configuration
 
-The QR Barcode employs error correction to generate a series of error correction codewords which are added to the data code word sequence in order to enable the symbol to withstand damage without data loss. There are four user–selectable levels of error correction, as shown in the table, that offer the capability of recovery from the following amounts of damage. By default, the [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is Low.
+The [Font](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeGeneratorDisplayText_Font) property specifies the font style of the display text. By default, it is set to **monospace**.
 
 ### Error Correction Levels
 
@@ -131,9 +131,136 @@ The QR Barcode employs error correction to generate a series of error correction
 Choose higher error correction levels for environments where the QR code may be damaged, printed on uneven surfaces, or scanned from difficult angles.
 
 ```cshtml
-<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value=https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html>
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfQRCodeGenerator Width="200px" Height="150px" Value="Syncfusion">
+    <QRCodeGeneratorDisplayText Text="Product Information" Size="16"></QRCodeGeneratorDisplayText>
+</SfQRCodeGenerator>
+
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BjhnWDXwUJrntlGQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+#### Text Position
+
+The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeGeneratorDisplayText_Position) property specifies the vertical position of the text relative to the QR code. It accepts `Top` or `Bottom`. By default, it is set to `Bottom`.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfQRCodeGenerator Width="200px" Height="150px" Value="Syncfusion">
+    <QRCodeGeneratorDisplayText Text="Product Information" Position="TextPosition.Top"></QRCodeGeneratorDisplayText>
+</SfQRCodeGenerator>
+
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VjhxMjNcAzJtCdjm?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+#### Text Visibility
+
+The [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeGeneratorDisplayText_Visibility) property controls the visibility of the display text. By default, it is set to `true`. Set it to `false` to hide the text.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfQRCodeGenerator Width="200px" Height="150px" Value="Syncfusion">
     <QRCodeGeneratorDisplayText Visibility="false"></QRCodeGeneratorDisplayText>
 </SfQRCodeGenerator>
+
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VNrRCjXmKzJhRCWE?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+#### Text Margin
+
+The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.QRCodeGeneratorDisplayText.html#Syncfusion_Blazor_BarcodeGenerator_QRCodeGeneratorDisplayText_Margin) property specifies the space between the text and the QR code. It accepts a `QRCodeTextMargin` object with the following properties:
+
+| Property | Description | Default Value |
+|----------|-------------|---|
+| `Left` | Space from the left side | 0 |
+| `Right` | Space from the right side | 0 |
+| `Top` | Space from the top side | 0 |
+| `Bottom` | Space from the bottom side | 0 |
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<SfQRCodeGenerator Width="250px" Height="250px" Value="Syncfusion">
+    <QRCodeGeneratorDisplayText Text="Product Information">
+        <QRCodeTextMargin Left="5" Top="10" Right="5" Bottom="10"></QRCodeTextMargin>
+    </QRCodeGeneratorDisplayText>
+</SfQRCodeGenerator>
+
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZVnCNXcqJfpGdbF?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+### Dynamic Property Updates
+
+The QR Code component supports real-time property binding. When any property value changes, the QR code automatically updates to reflect the changes.
+
+#### Update QR code Properties Dynamically
+
+Here is an example showing how to dynamically update QR code properties using Blazor data binding:
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.DropDowns
+
+<div style="margin: 20px;">
+    <div style="margin-bottom: 10px;">
+        <label>QR Code Value (URL): </label>
+        <SfTextBox @bind-Value="@QRValue" Placeholder="Enter URL or text"></SfTextBox>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Foreground Color: </label>
+        <input type="color" @bind="@ForeColor" />
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Background Color: </label>
+        <input type="color" @bind="@BackgroundColor" />
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>QR Code Size: </label>
+        <SfSlider @bind-Value="@QRSize" Min="150" Max="400" Step="10"></SfSlider>
+        <span>@QRSize px</span>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Error Correction Level: </label>
+        <SfDropDownList TValue="ErrorCorrectionLevel" TItem="ErrorCorrectionLevel" DataSource="@ErrorCorrectionLevels" @bind-Value="@ErrorLevel">
+            <DropDownListFieldSettings Text="ToString" Value="ToString"></DropDownListFieldSettings>
+        </SfDropDownList>
+    </div>
+    
+    <div style="margin-bottom: 10px;">
+        <label>Display Text: </label>
+        <SfTextBox @bind-Value="@DisplayTextValue" Placeholder="Enter display text"></SfTextBox>
+    </div>
+</div>
+
+<!-- QR Code that updates in real-time as properties change -->
+<div style="margin-top: 30px; padding: 20px; border: 1px solid #ccc; text-align: center;">
+    <SfQRCodeGenerator Width="@($"{QRSize}px")" 
+                       Height="@($"{QRSize}px")" 
+                       Value="@QRValue"
+                       ForeColor="@ForeColor"
+                       BackgroundColor="@BackgroundColor"
+                       ErrorCorrectionLevel="@ErrorLevel">
+        <QRCodeGeneratorDisplayText Text="@DisplayTextValue" Visibility="@(!string.IsNullOrEmpty(DisplayTextValue))"></QRCodeGeneratorDisplayText>
+    </SfQRCodeGenerator>
+</div>
+
+@code
+{
+    private string QRValue = "https://www.syncfusion.com";
+    private string ForeColor = "black";
+    private string BackgroundColor = "white";
+    private int QRSize = 250;
+    private string DisplayTextValue = "Syncfusion QR Code";
+    private ErrorCorrectionLevel ErrorLevel = ErrorCorrectionLevel.Medium;
+    private List<ErrorCorrectionLevel> ErrorCorrectionLevels = new() { ErrorCorrectionLevel.Low, ErrorCorrectionLevel.Medium, ErrorCorrectionLevel.Quartile, ErrorCorrectionLevel.High };
+}
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LZrRWNjGqJkTXPiB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
@@ -392,6 +519,77 @@ Here is an example showing how to dynamically update QR code properties using Bl
 }
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LDBniXNmgJoxPHxQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+## GS1 QR Code
+
+GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
+
+Use the [EnableGS1](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfQRCodeGenerator_EnableGS1) property on the [SfQRCodeGenerator](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfQRCodeGenerator.html) to switch the control into GS1 mode.
+
+**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<!-- GS1 QR Code with GTIN, batch, and expiration date -->
+<SfQRCodeGenerator Width="250px" Height="250px" Value="(01)09506000134352(17)271231(10)ABC123" EnableGS1="true">
+    <QRCodeGeneratorDisplayText Text="Product Code" Visibility="true" Alignment="Alignment.Center" />
+</SfQRCodeGenerator>
+```
+
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htVxiXtmgTmUrrlQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[GS1 QR Code](images/Gs1-QrCode.png)" %}
+
+### GS1 QR Code with Error Correction
+
+Combining GS1 encoding with error correction levels:
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<!-- GS1 QR Code with high error correction -->
+<SfQRCodeGenerator Width="250px" Height="250px" 
+                   Value="(01)09506000134352(17)271231(10)ABC123" 
+                   EnableGS1="true"
+                   ErrorCorrectionLevel="ErrorCorrectionLevel.High">
+    <QRCodeGeneratorDisplayText Text="Product Code" Visibility="true" Alignment="Alignment.Center" />
+</SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hZrnsjDQKpFReBfX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+This configuration provides robust scanning even with partial damage to the QR code.
+
+## Error Correction Level
+
+The QR Barcode employs error correction to generate a series of error correction codewords which are added to the data code word sequence in order to enable the symbol to withstand damage without data loss. There are four user–selectable levels of error correction, as shown in the table, that offer the capability of recovery from the following amounts of damage. By default, the [Error correction level](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html) is Low.
+
+### Error Correction Levels
+
+|Error Correction Level|	Recovery Capacity % (approx.)|
+|----------|--------------|
+|L (Low)|	7%|
+|M (Medium)|	15%|
+|Q (Quartile)|	25%|
+|H (High)|	30%|
+
+```cshtml
+@using Syncfusion.Blazor.BarcodeGenerator
+
+<!-- Low error correction (default) - compact but less robust -->
+<SfQRCodeGenerator Width="150px" Height="150px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
+
+<!-- High error correction - larger but very robust -->
+<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.High" Value="https://www.syncfusion.com"></SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrRMttmUzujqKWH?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
+
+Choose higher error correction levels for environments where the QR code may be damaged, printed on uneven surfaces, or scanned from difficult angles.
+
+```cshtml
+<SfQRCodeGenerator Width="200px" Height="200px" ErrorCorrectionLevel="ErrorCorrectionLevel.Low" Value=https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.ErrorCorrectionLevel.html>
+    <QRCodeGeneratorDisplayText Visibility="false"></QRCodeGeneratorDisplayText>
+</SfQRCodeGenerator>
+```
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LZrRWNjGqJkTXPiB?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Event
 
