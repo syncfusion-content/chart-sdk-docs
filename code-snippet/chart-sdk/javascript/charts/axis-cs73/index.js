@@ -1,38 +1,36 @@
 var chartData = [
-      { country: "USA", gold: 50, silver: 70, bronze: 45 },
-      { country: "China", gold: 40, silver: 60, bronze: 55 },
-      { country: "Japan", gold: 70, silver: 60, bronze: 50 },
-      { country: "Australia", gold: 60, silver: 56, bronze: 40 },
-      { country: "France", gold: 50, silver: 45, bronze: 35 },
-      { country: "Germany", gold: 40, silver: 30, bronze: 22 },
-      { country: "Italy", gold: 40, silver: 35, bronze: 37 },
-      { country: "Sweden", gold: 30, silver: 25, bronze: 27 }
+    { x: new Date(2025, 0, 1), y: 45 },
+    { x: new Date(2025, 1, 1), y: 52 },
+    { x: new Date(2025, 2, 1), y: 48 },
+    { x: new Date(2025, 3, 1), y: 63 },
+    { x: new Date(2025, 4, 1), y: 58 },
+    { x: new Date(2025, 5, 1), y: 70 }
 ];
-var chart= new ej.charts.Chart({
+var chart = new ej.charts.Chart({
     primaryXAxis: {
-        valueType: 'Category',
-        title: 'Countries'
+        valueType: 'DateTime',
+        intervalType: 'Months',
+        interval: 1,
+        labelFormat: 'MMM',
+        title: 'Months'
     },
     primaryYAxis: {
-        minimum: 0, maximum: 80,
-        interval: 20, title: 'Medals',
-        // Custom label format
-        labelFormat: '${value}K'
+        minimum: 0,
+        maximum: 80,
+        interval: 20,
+        title: 'Sales'
     },
-    series:[{
+    series: [{
         dataSource: chartData,
-        xName: 'country', yName: 'gold',
-        name: 'Gold', type: 'Column'
-    }, {
-        dataSource: chartData,
-        xName: 'country', yName: 'silver',
-        name: 'Silver', type: 'Column'
-    }, {
-        dataSource: chartData,
-        xName: 'country', yName: 'bronze',
-        name: 'Bronze', type: 'Column'
+        xName: 'x',
+        yName: 'y',
+        name: 'Sales',
+        type: 'Line'
     }],
-    title: 'Olympic Medals'
+    axisLabelRender: function(args) {
+        if (args.axis.name === 'primaryXAxis') {
+            args.text = 'Month: ' + args.text;
+        }
+    },
+    title: 'Monthly Sales'
 }, '#element');
-
-
