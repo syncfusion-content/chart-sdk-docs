@@ -10,11 +10,9 @@ appliesto: UI Component Suite, Chart SDK
 
 # Category Axis in ASP.NET Core Charts
 
-<!-- markdownlint-disable MD036 -->
-
 Category axes are used to represent string values instead of numbers.
 
-To quickly get started with ASP.NET Core Category Axis, you can check out this video:
+To quickly get started with the ASP.NET Core Category Axis, see the following video:
 
 {% youtube "https://www.youtube.com/watch?v=l3M5ZvM1Ozs" %}
 
@@ -27,13 +25,9 @@ To quickly get started with ASP.NET Core Category Axis, you can check out this v
 {% endhighlight %}
 {% endtabs %}
 
-<!-- markdownlint-disable MD036 -->
-
 ## Label placement
 
-<!-- markdownlint-disable MD036 -->
-
-By default, category labels are placed between the ticks in an axis, this can also be placed on ticks using [`labelPlacement`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelPlacement) property.
+By default, category labels are placed between the ticks on an axis. To place the labels on the ticks, use [`labelPlacement`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelPlacement) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -46,7 +40,7 @@ By default, category labels are placed between the ticks in an axis, this can al
 
 ## Range
 
-Range of the category axis can be customized using [`minimum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Minimum), [`maximum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Maximum) and [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) property of the axis.
+The range of the category axis can be customized using the [`minimum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Minimum), [`maximum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Maximum), and [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) properties of the axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -59,7 +53,7 @@ Range of the category axis can be customized using [`minimum`](https://help.sync
 
 ## Indexed category axis
 
-A category axis can also be rendered based on the index values of the data source. This can be achieved by defining the `isIndexed` property to `true` in the axis.
+A category axis can also be rendered based on the index values of the data source. To do this, set the `isIndexed` property to `true` in the axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
