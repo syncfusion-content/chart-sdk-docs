@@ -8,7 +8,6 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Data Markers in ASP.NET Core Charts
 
 Data markers are used to provide information about the data points in the series. You can add a shape to adorn each data point.
@@ -19,7 +18,7 @@ Data markers are used to provide information about the data points in the series
 
 <!-- markdownlint-disable MD036 -->
 
-Markers can be added to points by enabling the [`Visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Marker) option of the marker property. By default, distinct markers will be enabled for each series in the chart.
+Markers can be added to points by enabling the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Visible) property of the [`marker`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Marker) object. By default, markers are not displayed; set the property to `true` to display them.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -30,11 +29,9 @@ Markers can be added to points by enabling the [`Visible`](https://help.syncfus
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Shape
 
-Markers can be assigned with different shapes such as Rectangle, Circle, Diamond etc. using the [`Shape`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Marker) property.
+Markers can be assigned different shapes such as `Rectangle`, `Circle`, `Diamond`, etc. by using the [`shape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Shape) property of the [`marker`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Marker) object.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -45,9 +42,7 @@ Markers can be assigned with different shapes such as Rectangle, Circle, Diamond
 {% endhighlight %}
 {% endtabs %}
 
-
-
-N> To know more about the marker shape type refer the [`shape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Shape).
+> To learn more about the available marker shapes, refer to the [`shape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Shape) property.
 
 ## Images
 
@@ -62,11 +57,9 @@ Apart from the shapes, you can also add custom images to mark the data point usi
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Customization
 
-Marker's color and border can be customized using `fill` and `border` properties.
+The marker's color and border can be customized using the [`fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Fill) and [`border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Border) properties.(https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Fill) and [`border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Border) properties.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -77,11 +70,9 @@ Marker's color and border can be customized using `fill` and `border` properties
 {% endhighlight %}
 {% endtabs %}
 
+## Customizing a specific point
 
-
-## Customizing specific point
-
-You can also customize the specific marker and label using [`pointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) event. The `pointRender` event allows you to change the shape, color and border for a point.
+You can also customize the specific marker and label using the [`pointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) event. The `pointRender` event allows you to change the shape, color, and border for a point.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -92,9 +83,9 @@ You can also customize the specific marker and label using [`pointRender`](https
 {% endhighlight %}
 {% endtabs %}
 
-## Fill marker with series color
+## Fill marker with the series color
 
-Marker can be filled with the series color by setting the [`isFilled`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_IsFilled) property to <b>true</b>.
+The marker can be filled with the series color by setting the [`isFilled`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_IsFilled) property to <b>true</b>.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Category Axis in ASP.NET Core Charts
 
 <!-- markdownlint-disable MD036 -->
 
-Category axis are used to represent, the string values instead of numbers.
+Category axes are used to represent string values instead of numbers.
 
 To quickly get started with ASP.NET Core Category Axis, you can check out this video:
 
@@ -28,11 +27,9 @@ To quickly get started with ASP.NET Core Category Axis, you can check out this v
 {% endhighlight %}
 {% endtabs %}
 
-
-
 <!-- markdownlint-disable MD036 -->
 
-## Labels Placement
+## Label placement
 
 <!-- markdownlint-disable MD036 -->
 
@@ -47,8 +44,6 @@ By default, category labels are placed between the ticks in an axis, this can al
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Range
 
 Range of the category axis can be customized using [`minimum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Minimum), [`maximum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Maximum) and [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) property of the axis.
@@ -62,11 +57,9 @@ Range of the category axis can be customized using [`minimum`](https://help.sync
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Indexed category axis
 
-Category axis also can be rendered based on the index values of data source. This can be achieved by defining the `isIndexed` property to `true` in the axis.
+A category axis can also be rendered based on the index values of the data source. This can be achieved by defining the `isIndexed` property to `true` in the axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -76,5 +69,4 @@ Category axis also can be rendered based on the index values of data source. Thi
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/index/index.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 

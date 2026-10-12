@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Cross Hair and Track Ball in ASP.NET Core Charts
 
-Crosshair has a vertical and horizontal line to view the value of the axis at mouse or touch position.
+The crosshair has a vertical and horizontal line to view the value of the axis at the mouse or touch position.
 
 Crosshair lines can be enabled by using [`enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_Enable) property in the `crosshair`.
 
@@ -23,8 +22,6 @@ Crosshair lines can be enabled by using [`enable`](https://help.syncfusion.com/
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/crosshair-trackball/crosshair/crosshair.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Tooltip for axis
 
@@ -38,8 +35,6 @@ Tooltip label for an axis can be enabled by using [`enable`](https://help.syncf
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/crosshair-trackball/axis-tooltip/axis-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Customization
 
@@ -78,9 +73,9 @@ Event arguments:
 {% endhighlight %}
 {% endtabs %}
 
-**Snap to data**
+### Snap to data
 
-Enabling the [`SnapToData`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_SnapToData) property in the crosshair aligns it with the nearest data point instead of following the exact mouse position.
+Enabling the [`snapToData`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_SnapToData) property in the crosshair aligns it with the nearest data point instead of following the exact mouse position.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -93,7 +88,7 @@ Enabling the [`SnapToData`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfu
 
 ## Trackball
 
-Trackball is used to track a data point closest to the mouse or touch position. Trackball marker indicates the closest point and trackball tooltip displays the information about the point.
+Trackball is used to track the data point closest to the mouse or touch position. Trackball marker indicates the closest point and trackball tooltip displays the information about the point.
 
 Trackball can be enabled by setting the [`enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html) property of the crosshair to true and [`shared`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html) property in `tooltip` to true in chart.
 
@@ -106,11 +101,9 @@ Trackball can be enabled by setting the [`enable`](https://help.syncfusion.com/c
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Crosshair highlight
 
-The [`HighlightCategory`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_HighlightCategory) property in the crosshair highlights the background of the entire category when hovered over. The crosshair color can be customized using the [`Color`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartBorder.html#Syncfusion_EJ2_Charts_ChartBorder_Color) property within the [`Line`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_Line) configuration.
+The [`highlightCategory`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_HighlightCategory) property in the crosshair highlights the background of the entire category when hovered over. The crosshair color can be customized using the [`Color`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartBorder.html#Syncfusion_EJ2_Charts_ChartBorder_Color) property within the [`Line`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartCrosshairSettings.html#Syncfusion_EJ2_Charts_ChartCrosshairSettings_Line) configuration.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -120,6 +113,4 @@ The [`HighlightCategory`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/crosshair-trackball/highlight-category/highlight-category.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 

@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Logarithmic Axis in ASP.NET Core Charts
 
 <!-- markdownlint-disable MD033 -->
 
-Logarithmic axis uses logarithmic scale and it is very useful in visualizing data, when it has numeric values in both lower order of magnitude (eg: 10<sup>-6</sup>) and higher order of magnitude (eg: 10<sup>6</sup>).
+The logarithmic axis uses a logarithmic scale and is very useful for visualizing data when it has numeric values in both lower orders of magnitude (eg: 10<sup>-6</sup>) and higher order of magnitude (eg: 10<sup>6</sup>).
 
 To quickly get started with Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Logarithmic Axis, you can check out this video:
 
@@ -28,8 +27,6 @@ To quickly get started with Syncfusion<sup style="font-size:70%">&reg;</sup> ASP
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Range
 
 Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Minimum), [`maximum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Maximum) and [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) property of the axis.
@@ -42,8 +39,6 @@ Range of an axis, will be calculated automatically based on the provided data, y
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/log/range/range.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Logarithmic Base
 
@@ -58,8 +53,6 @@ Logarithmic base can be customized by using the [`logBase`](https://help.syncfu
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Logarithmic Interval
 
 Logarithmic axis interval can be customized by using the [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) property of the axis. When the logarithmic base is 10 and logarithmic interval is 2, then the axis labels are placed at an interval of 10<sup>2</sup>. The default value of the interval is 1.
@@ -72,5 +65,4 @@ Logarithmic axis interval can be customized by using the [`interval`](https://he
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/log/interval/interval.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 

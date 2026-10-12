@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Histogram Chart in ASP.NET Core Charts
 
-## Histogram
+## Overview
 
 To render a [histogram](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/histogram-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -26,9 +25,9 @@ To render a [histogram](https://www.syncfusion.com/aspnet-core-ui-controls/chart
 {% endhighlight %}
 {% endtabs %}
 
-## Events
+### Events
 
-### Series render
+#### Series render
 
 The `seriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
 
@@ -53,7 +52,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/histogram/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
 ## See Also
 

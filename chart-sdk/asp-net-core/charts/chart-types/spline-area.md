@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Spline Area Chart in ASP.NET Core Charts
 
-## Spline Area
+## Overview
 
 To render a [spline area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/spline-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 

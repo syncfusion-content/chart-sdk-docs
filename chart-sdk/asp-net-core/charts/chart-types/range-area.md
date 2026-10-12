@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Range Area Chart in ASP.NET Core Charts
 
-## Range Area
+## Overview
 
 To render a [range area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/range-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 

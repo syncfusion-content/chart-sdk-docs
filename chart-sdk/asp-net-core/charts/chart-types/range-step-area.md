@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Range Step Area Chart in ASP.NET Core Charts
 
-## Range Step Area
+## Overview
 
 To render a range step area series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -191,7 +190,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/range-step-area/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
 ## See also
 

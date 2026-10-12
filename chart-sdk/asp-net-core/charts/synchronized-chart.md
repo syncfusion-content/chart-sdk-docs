@@ -8,14 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Synchronized Charts in ASP.NET Core Charts
 
 ## Tooltip synchronization
 
-The tooltip can be synchronized across multiple charts using the `ShowTooltip` and `HideTooltip` methods. When we hover over a data point in one chart, we call the `ShowTooltip` method for the other charts to display related information in other connected charts simultaneously.
+The tooltip can be synchronized across multiple charts using the `showTooltip` and `hideTooltip` client-side methods. When the user hovers over a data point in one chart, the `showTooltip` method is called for the other charts to display related information in the connected charts simultaneously.
 
-In the `ShowTooltip` method, specify the following parameters programmatically to enable tooltip for a particular chart:
+In the `showTooltip` method, specify the following parameters programmatically to enable the tooltip for a particular chart:
 
 * `X` - Data point x-value or x-coordinate value.
 * `Y` - Data point y-value or y-coordinate value.
@@ -29,13 +28,11 @@ In the `ShowTooltip` method, specify the following parameters programmatically t
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Crosshair synchronization
 
-The crosshair can be synchronized across multiple charts using the `ShowCrosshair` and `HideCrosshair` methods. When we hover over one chart, we call the `ShowCrosshair` method for the other charts to align with data points in other connected charts, simplifying data comparison and analysis.
+The crosshair can be synchronized across multiple charts using the `showCrosshair` and `hideCrosshair` client-side methods. When the user hovers over one chart, the `showCrosshair` method is called for the other charts to align with data points in the connected charts, simplifying data comparison and analysis.
 
-In the `ShowCrosshair` method, specify the following parameters programmatically to enable crosshair for a particular chart:
+In the `showCrosshair` method, specify the following parameters programmatically to enable the crosshair for a particular chart:
 
 * `X` - Specifies the x-value of the point or x-coordinate.
 * `Y` - Specifies the y-value of the point or y-coordinate.
@@ -48,8 +45,6 @@ In the `ShowCrosshair` method, specify the following parameters programmatically
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/crosshair/crosshair.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Zooming synchronization
 
@@ -64,8 +59,6 @@ You can maintain constant zoom levels across multiple charts using the [`ZoomCom
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Selection synchronization
 
 You can select the data across multiple charts using the [`SelectionComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SelectionComplete) event. In the `SelectionComplete` event, obtain the selected values of the particular chart, and then apply those values to the other charts.
@@ -78,6 +71,4 @@ You can select the data across multiple charts using the [`SelectionComplete`](h
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/selection/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 

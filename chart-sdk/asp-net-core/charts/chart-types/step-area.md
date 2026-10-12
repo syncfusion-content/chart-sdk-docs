@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Step Area Chart in ASP.NET Core Charts
 
-## Step Area
+## Overview
 
 To render a [step area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/step-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 

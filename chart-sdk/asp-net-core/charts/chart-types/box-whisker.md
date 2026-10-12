@@ -8,16 +8,15 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Box and Whisker Chart in ASP.NET Core Charts
 
-## Box and Whisker
+## Overview
 
 To render a `box and whisker` series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
 * **Set the series type:** Define the series `type` as **BoxAndWhisker** in your chart configuration. This indicates that the data should be represented as a box and whisker chart, which will plot segments to illustrate the statistical distribution of the data.
 
-* **Data requirements:** The y field of the Box and Whisker series requires a specific number of data points, with a minimum of five values needed to plot a segment.
+* **Data requirements:** The `y` field of the Box and Whisker series requires a specific number of data points, with a minimum of five values needed to plot a segment.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -95,7 +94,7 @@ Use the `border` property to customize the width, color and dasharray of the ser
 {% endhighlight %}
 {% endtabs %}
 
-## Box Plot
+### Box plot
 
 To change the rendering mode of the box and whisker series, use the `boxPlotMode` property. The default value for `boxPlotMode` is **Exclusive**. The other available options for `boxPlotMode` are **Inclusive** and **Normal**.
 
@@ -108,9 +107,9 @@ To change the rendering mode of the box and whisker series, use the `boxPlotMode
 {% endhighlight %}
 {% endtabs %}
 
-## Show mean
+### Show mean
 
-In the box and whisker series, the `showMean` property is used to display the average value of the box and whisker. The default value of `showMean` is **false**.
+In the box and whisker series, the `showMean` property is used to display the average (mean) value of the box and whisker distribution. The default value of `showMean` is **false**.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -121,9 +120,9 @@ In the box and whisker series, the `showMean` property is used to display the av
 {% endhighlight %}
 {% endtabs %}
 
-## Events
+### Events
 
-### Series render
+#### Series render
 
 The `seriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
 

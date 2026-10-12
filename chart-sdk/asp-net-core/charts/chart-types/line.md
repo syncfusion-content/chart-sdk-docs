@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Line Chart in ASP.NET Core Charts
 
-## Line
+## Overview
 
 To render a [line](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/line-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 

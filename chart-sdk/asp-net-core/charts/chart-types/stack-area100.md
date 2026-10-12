@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # 100% Stacked Area Chart in ASP.NET Core Charts
 
-## 100% Stacked Area Chart
+## Overview
 
 To render a [100% stacked area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/100-stacked-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 

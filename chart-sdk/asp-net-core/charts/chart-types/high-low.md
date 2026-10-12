@@ -8,20 +8,19 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # High Low Chart in ASP.NET Core Charts
 
-To get started with the ASP.NET Core Hilo charts, you can check on this video:
+## Overview
+
+To get started with the ASP.NET Core Hilo charts, you can check out this video:
 
 {% youtube "https://www.youtube.com/watch?v=O3akshh4BvM" %}
-
-## Hilo
 
 To render a `hilo` series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
 * **Set the series type:** Define the series `type` as **Hilo** in your chart configuration. This indicates that the data should be represented as a hilo chart, which shows the high and low values for each data point, illustrating price movements in stocks and providing a clear visualization of price ranges.
 
-* **Provide high and low values:** The Hilo series requires two y-values for each data point, you need to specify both the high and low values. The high value represents the maximum price, while the low value represents the minimum price of the stock.
+* **Provide high and low values:** The Hilo series requires two y-values for each data point. You need to specify both the high and low values. The high value represents the maximum price, while the low value represents the minimum price of the stock.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
