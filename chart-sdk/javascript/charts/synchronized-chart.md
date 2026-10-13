@@ -9,18 +9,20 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# Synchronized Charts in JavaScript Charts
+# Synchronized charts in JavaScript Charts
 
-Synchronized charts allow multiple chart instances to share common interactions so that actions performed on one chart are reflected across the others. This approach is useful for comparing related datasets and analyzing trends consistently across multiple visualizations.
+Synchronized charts share interactions across multiple Chart instances. An interaction in one Chart, such as displaying a tooltip, moving a crosshair, zooming an axis, or selecting a point, is applied to the other synchronized Charts.
 
 ## Tooltip synchronization
 
-The tooltip can be synchronized across multiple charts by using the [`showTooltip`](../api/chart#showtooltip) and [`hideTooltip`](../api/chart#hidetooltip) methods. When the user hovers over a data point in one chart, the `showTooltip` method can be invoked for the other charts to display the corresponding tooltip information simultaneously.
+Enable the tooltip in every synchronized Chart. Use the [`showTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#showtooltip) method to display a tooltip in the target Charts and the [`hideTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#hidetooltip) method to hide it when the pointer leaves the active Chart.
 
-In the `showTooltip` method, specify the following parameters programmatically to enable the tooltip for a specific chart:
+The `showTooltip` method accepts the following values:
 
-* `x` – The x-value of the data point or the x-coordinate.
-* `y` – The y-value of the data point or the y-coordinate.
+- `x`: The data-point X value or the X-coordinate used to locate the tooltip.
+- `y`: The data-point Y value or the Y-coordinate used to locate the tooltip.
+
+When synchronized Charts use different axis ranges or dimensions, convert the source value or pointer position to the corresponding target-axis value before calling `showTooltip`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -35,12 +37,9 @@ In the `showTooltip` method, specify the following parameters programmatically t
 
 ## Crosshair synchronization
 
-The crosshair can be synchronized across multiple charts by using the [`showCrosshair`](../api/chart#showcrosshair) and [`hideCrosshair`](../api/chart#hidecrosshair) methods. When the user moves the pointer over one chart, calling the `showCrosshair` method on the other charts aligns the crosshair position across all synchronized charts, making data comparison easier.
+Enable crosshair support in every synchronized Chart. Use the [`showCrosshair`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#showcrosshair) method to display the crosshair in the target Charts and the [`hideCrosshair`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#hidecrosshair) method when the pointer leaves the active Chart.
 
-In the `showCrosshair` method, specify the following parameters to render the crosshair for a particular chart:
-
-* `x` – Specifies the x-value of the data point or the x-coordinate.
-* `y` – Specifies the y-value of the data point or the y-coordinate.
+Convert pointer coordinates when the synchronized Charts have different plot-area dimensions. To display values beside the axes, enable the axis [`crosshairTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axismodel#crosshairtooltip) setting separately.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -55,7 +54,9 @@ In the `showCrosshair` method, specify the following parameters to render the cr
 
 ## Zooming synchronization
 
-Zoom levels can be synchronized across multiple charts by using the [`zoomComplete`](../api/chart/iZoomCompleteEventArgs) event. In the `zoomComplete` event, retrieve the [`zoomFactor`](../api/chart/iZoomCompleteEventArgs#currentzoomfactor) and [`zoomPosition`](../api/chart/iZoomCompleteEventArgs#currentzoomposition) values from the zoomed chart.
+Configure `zoomSettings` for every synchronized Chart. Handle the [`zoomComplete`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#zoomcomplete) event and read the current zoom values from [`IZoomCompleteEventArgs`](https://ej2.syncfusion.com/javascript/documentation/api/chart/izoomcompleteeventargs).
+
+Apply the source axis `currentZoomFactor` and `currentZoomPosition` values to the corresponding target axis as `zoomFactor` and `zoomPosition`, and then refresh the target Chart. Use a synchronization guard while updating target Charts to prevent their zoom events from starting a recursive update loop.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -70,7 +71,11 @@ Zoom levels can be synchronized across multiple charts by using the [`zoomComple
 
 ## Selection synchronization
 
-Selection can be synchronized across multiple charts by using the [`selectionComplete`](../api/chart/iSelectionCompleteEventArgs) event. In the `selectionComplete` event, retrieve the selected data values or region from the active chart and apply the same selection state to the other charts.
+Configure a compatible `selectionMode` for every synchronized Chart. Handle the [`selectionComplete`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#selectioncomplete) event and retrieve the selected values from [`ISelectionCompleteEventArgs`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iselectioncompleteeventargs).
+
+Map the source series and point indexes to the corresponding target indexes, assign them through [`selectedDataIndexes`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#selecteddataindexes), and refresh the target Chart. The synchronized Charts must use compatible series and point ordering for direct index mapping.
+
+Use the [`dragComplete`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#dragcomplete) event instead of `selectionComplete` when synchronizing rectangular or lasso region selection.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -83,9 +88,18 @@ Selection can be synchronized across multiple charts by using the [`selectionCom
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs48" %}
 
+## Troubleshooting
+
+- If a tooltip or crosshair is not displayed, verify that the corresponding feature is enabled in every target Chart.
+- If synchronized positions do not align, map the source value or coordinate to the target Chart axis and plot area.
+- If zooming causes repeated updates, add a guard that ignores events raised during programmatic synchronization.
+- If selection targets the wrong point, verify that series and point indexes use the same ordering across all Charts.
+- If an interaction remains visible after the pointer leaves, call `hideTooltip` or `hideCrosshair` from the corresponding leave event.
+
 ## See also
 
-* [Synchronized Hover Between EJ2 JavaScript Charts](https://support.syncfusion.com/kb/article/21479/how-to-synchronized-hover-between-ej2-javascript-charts)
-* [Zooming in JavaScript Charts](./zooming)
-* [Selection in JavaScript Charts](./selection)
-* [Crosshair and trackball in JavaScript Charts](./cross-hair-and-track-ball)
+- [Synchronize hover between EJ2 JavaScript Charts](https://support.syncfusion.com/kb/article/21479/how-to-synchronized-hover-between-ej2-javascript-charts)
+- [Tooltip in JavaScript Charts](./tool-tip)
+- [Crosshair and trackball in JavaScript Charts](./cross-hair-and-track-ball)
+- [Zooming in JavaScript Charts](./zooming)
+- [Selection in JavaScript Charts](./selection)

@@ -8,17 +8,31 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
-<!-- markdownlint-disable MD036 -->
 
 # Technical indicators in JavaScript Charts
 
-A technical indicator is a mathematical calculation based on historical price, volume, or open‑interest information that aims to forecast financial market direction.
+A technical indicator is a mathematical calculation based on historical price, volume, or open interest information that aims to forecast financial market direction.
 
-Chart supports 10 types of technical indicators.
+The Chart supports 10 built-in technical-indicator types: Accumulation Distribution, ATR, Bollinger Bands, EMA, Momentum, MACD, RSI, SMA, Stochastic, and TMA.
+
+## Common configuration
+
+Technical indicators can analyze a named financial series through `seriesName` or use a separate `dataSource`. When an indicator uses its own data source, configure `xName` and the required financial field mappings.
+
+| Mapping | Purpose |
+|---|---|
+| `xName` | Maps the X value, such as a date or category. |
+| `open` | Maps the opening price. |
+| `high` | Maps the highest price. |
+| `low` | Maps the lowest price. |
+| `close` | Maps the closing price. |
+| `volume` | Maps the traded volume; required by Accumulation Distribution. |
+
+The fields required by an indicator depend on its calculation. Indicators based on OHLC values require valid `high`, `low`, and `close` mappings; volume-based indicators also require `volume`.
 
 ## Accumulation distribution
 
-Accumulation Distribution combines price and volume to show how money may be flowing into or out of a stock. To render an Accumulation Distribution indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `AccumulationDistribution` and inject `AccumulationDistributionIndicator` into services. To calculate the signal line, the [`volume`](../api/chart/technicalIndicatorModel) field must be included in the `dataSource`.
+The Accumulation Distribution indicator combines price and volume to show how money may be flowing into or out of a stock. To render an Accumulation Distribution indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `AccumulationDistribution`. The [`volume`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#volume) field is required in the `dataSource` together with valid high, low, and close field mappings.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -33,7 +47,7 @@ Accumulation Distribution combines price and volume to show how money may be flo
 
 ## Average true range (ATR)
 
-ATR measures stock volatility by comparing the current value with the previous value. To render an Average True Range (ATR) indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Atr` and inject `AtrIndicator` into services.
+ATR measures volatility using true-range values derived from the current high and low values and the previous close value. To render an Average True Range (ATR) indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `Atr`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -48,7 +62,7 @@ ATR measures stock volatility by comparing the current value with the previous v
 
 ## Bollinger band
 
-A chart overlay that shows the upper and lower limits of normal price movements based on the standard deviation of prices. To render a Bollinger Band, use indicator [`type`](../api/chart/technicalIndicatorModel) as `BollingerBand` and inject the `BollingerBands` module and `RangeAreaSeries` into services. Bollinger Band is represented by three lines (`upperLine`, `lowerLine`, `signalLine`). The default values of the Bollinger Band [`period`](../api/chart/technicalIndicatorModel) is 14 and [`standardDeviations`](../api/chart/technicalIndicatorModel) is 2.
+Bollinger Bands are a chart overlay that shows the upper and lower limits of normal price movements based on the standard deviation of prices. To render a Bollinger Band, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `BollingerBand`. Bollinger Band is represented by three lines (`upperLine`, `lowerLine`, `signalLine`). The default Bollinger Bands [`period`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#period) is `14`, and [`standardDeviation`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#standarddeviation) is `2`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -61,9 +75,9 @@ A chart overlay that shows the upper and lower limits of normal price movements 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs3" %}
 
-**Customization of BollingerBand**
+### Customize Bollinger Bands
 
-`stroke`, `stroke-width`, and `color` of `upperLine` can be customized by using [`upperLine`](../api/chart/technicalIndicatorModel), and the `lowerLine` can be customized by using [`lowerLine`](../api/chart/technicalIndicatorModel) properties of the indicator.
+The color, width, and dash pattern of `upperLine` can be customized using [`upperLine`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#upperline), and the `lowerLine` can be customized using [`lowerLine`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#lowerline) properties of the indicator.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -78,7 +92,7 @@ A chart overlay that shows the upper and lower limits of normal price movements 
 
 ## Exponential moving average (EMA)
 
-Moving average indicators are used to define the direction of the trend. To render an EMA indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Ema` and inject `EmaIndicator` module using `Chart.Inject(EmaIndicator)` method.
+Moving average indicators are used to define the direction of the trend. To render an EMA indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `Ema`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -93,7 +107,7 @@ Moving average indicators are used to define the direction of the trend. To rend
 
 ## Momentum
 
-Momentum shows the speed at which the stock price is changing. To render a Momentum indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Momentum` and inject the `MomentumIndicator` module into services. The Momentum indicator is represented by two lines (`upperLine`, `signalLine`). In the Momentum indicator, the `upperBand` value is always rendered at 100.
+Momentum shows the speed at which the stock price is changing. To render a Momentum indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `Momentum`. The Momentum indicator is represented by two lines (`upperLine`, `signalLine`). In the Momentum indicator, the `upperLine` threshold is rendered at `100`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -106,9 +120,9 @@ Momentum shows the speed at which the stock price is changing. To render a Momen
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs6" %}
 
-**Customization of MomentumIndicator**
+### Customize the Momentum indicator
 
-`stroke`, `stroke-width`, and `color` of `upperLine` can be customized by using the [`upperLine`](../api/chart/technicalIndicatorModel) property of the indicator.
+The color, width, and dash pattern of `upperLine` can be customized using the [`upperLine`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#upperline) property of the indicator.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -123,7 +137,7 @@ Momentum shows the speed at which the stock price is changing. To render a Momen
 
 ## Moving average convergence divergence (MACD)
 
-MACD is based on the difference between two EMAs. To render a MACD indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Macd` and inject the `MacdIndicator` module into services. The MACD indicator is represented by the MACD line, signal line, and MACD histogram. The MACD histogram highlights the difference between the MACD line and the signal line.
+MACD is based on the difference between two EMAs. To render a MACD indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `Macd`. The MACD indicator is represented by the MACD line, signal line, and MACD histogram. The MACD histogram highlights the difference between the MACD line and the signal line.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -138,7 +152,7 @@ MACD is based on the difference between two EMAs. To render a MACD indicator, us
 
 **Customization of MACD**
 
-`stroke`, `stroke-width`, and `color` of `macdLine` can be customized by using the [`macdLine`](../api/chart/technicalIndicatorModel) property of the indicator. The positive and negative changes of the histogram can be customized by [`macdPositiveColor`](../api/chart/technicalIndicatorModel) and [`macdNegativeColor`](../api/chart/technicalIndicatorModel) properties. The [`macdType`](../api/chart/technicalIndicatorModel) is used to define the type of MACD indicator. Customize the MACD period using [`slowPeriod`](../api/chart/technicalIndicatorModel) and [`fastPeriod`](../api/chart/technicalIndicatorModel) properties.
+The color, width, and dash pattern of `macdLine` can be customized using the [`macdLine`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#macdline) property of the indicator. The positive and negative changes of the histogram can be customized by [`macdPositiveColor`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#macdpositivecolor) and [`macdNegativeColor`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#macdnegativecolor) properties. The [`macdType`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#macdtype) is used to define the type of MACD indicator. Customize the MACD period using [`slowPeriod`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#slowperiod) and [`fastPeriod`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#fastperiod) properties.
 
 By default, `macdType` is `Both`.
 
@@ -155,7 +169,7 @@ By default, `macdType` is `Both`.
 
 ## Relative strength index (RSI)
 
-RSI shows how strongly a stock is moving in its current direction. To render an RSI indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Rsi` and inject the `RsiIndicator` module using `Chart.Inject(RsiIndicator)` method. The RSI indicator is represented by three lines (`upperBand`, `lowerBand`, `signalLine`). The `upperBand` and `lowerBand` values are customized by [`overBought`](../api/chart/technicalIndicatorModel) and [`overSold`](../api/chart/technicalIndicatorModel) properties of the indicator, and the `signalLine` is calculated using the RSI formula.
+RSI shows how strongly a stock is moving in its current direction. To render an RSI indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `Rsi`. The RSI indicator is represented by three lines (`upperBand`, `lowerBand`, `signalLine`). The `upperBand` and `lowerBand` values are customized by [`overBought`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#overbought) and [`overSold`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#oversold) properties of the indicator, and the `signalLine` is calculated using the RSI formula.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -170,7 +184,7 @@ RSI shows how strongly a stock is moving in its current direction. To render an 
 
 ## Simple moving average (SMA)
 
-Moving average indicators are used to define the direction of the trend. To render an SMA indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Sma` and inject the `SmaIndicator` module using `Chart.Inject(SmaIndicator)` method.
+Moving average indicators are used to define the direction of the trend. To render an SMA indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `Sma`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -185,7 +199,7 @@ Moving average indicators are used to define the direction of the trend. To rend
 
 ## Stochastic
 
-Stochastic shows how a stock compares to its previous price levels. To render a Stochastic indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Stochastic` and inject the `StochasticIndicator` module using `Chart.Inject(StochasticIndicator)` method. The Stochastic indicator is represented by four lines (`upperLine`, `lowerLine`, `periodLine`, `signalLine`). The `upperBand` and `lowerBand` values are customized by the [`overBought`](../api/chart/technicalIndicatorModel#overbought) and [`overSold`](../api/chart/technicalIndicatorModel#oversold) properties of the indicator, and the `periodLine` and `signalLine` are rendered based on the stochastic formula. By default, `kPeriod` is `14`, `dPeriod` is `3`, `slowPeriod` is `3`, `overBought` is `80`, and `overSold` is `20`.
+Stochastic shows how a stock compares to its previous price levels. To render a Stochastic indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `Stochastic`. The Stochastic indicator is represented by four lines (`upperLine`, `lowerLine`, `periodLine`, `signalLine`). The `upperBand` and `lowerBand` values are customized by the [`overBought`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#overbought) and [`overSold`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#oversold) properties of the indicator, and the `periodLine` and `signalLine` are rendered based on the stochastic formula. By default, `kPeriod` is `14`, `dPeriod` is `3`, `slowPeriod` is `3`, `overBought` is `80`, and `overSold` is `20`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -198,9 +212,9 @@ Stochastic shows how a stock compares to its previous price levels. To render a 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs12" %}
 
-**Customization of StochasticIndicator**
+### Customize the Stochastic indicator
 
-`stroke`, `stroke-width`, and `color` of `upperLine` can be customized by using [`upperLine`](../api/chart/technicalIndicatorModel), the `lowerLine` can be customized by using [`lowerLine`](../api/chart/technicalIndicatorModel), and the `periodLine` can be customized by using [`periodLine`](../api/chart/technicalIndicatorModel) properties of the indicator. Customize the period used to find the average price using [`kPeriod`](../api/chart/technicalIndicatorModel) and [`dPeriod`](../api/chart/technicalIndicatorModel) properties.
+The color, width, and dash pattern of `upperLine` can be customized using [`upperLine`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#upperline), the `lowerLine` can be customized using [`lowerLine`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#lowerline), and the `periodLine` can be customized using [`periodLine`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#periodline) properties of the indicator. Customize the period used to find the average price using [`kPeriod`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#kperiod) and [`dPeriod`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#dperiod) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -215,7 +229,7 @@ Stochastic shows how a stock compares to its previous price levels. To render a 
 
 ## Triangular moving average (TMA)
 
-Moving average indicators are used to define the direction of the trend. To render a TMA indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Tma` and inject the `TmaIndicator` module using `Chart.Inject(TmaIndicator)` method.
+Moving average indicators are used to define the direction of the trend. To render a TMA indicator, set the indicator [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#type) to `Tma`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -228,9 +242,9 @@ Moving average indicators are used to define the direction of the trend. To rend
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs14" %}
 
-**Customization of Technical Indicators**
+## Technical-indicator customization
 
-`stroke`, `stroke-width`, and `color` of `signalLine` can be customized by using [`fill`](../api/chart/technicalIndicatorModel), [`width`](../api/chart/technicalIndicatorModel), and [`dashArray`](../api/chart/technicalIndicatorModel) properties. The [`period`](../api/chart/technicalIndicatorModel) property defines the number of data points used for calculations. The [`field`](../api/chart/technicalIndicatorModel) value determines which price value to compare with the previous price. It is applicable to Bollinger Bands and moving averages. The [`showZones`](../api/chart/technicalIndicatorModel#showzones) property shows or hides the overbought and oversold regions. It is applicable for RSI and Stochastic indicators.
+The color, width, and dash pattern of the signal line can be customized using [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#fill), [`width`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#width), and [`dashArray`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#dasharray) properties. The [`period`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#period) property defines the number of data points used for calculations. The [`field`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#field) property selects the financial data field used by applicable indicators. It is applicable to Bollinger Bands and moving averages. The [`showZones`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#showzones) property shows or hides the overbought and oversold regions. It is applicable for RSI and Stochastic indicators.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -243,11 +257,11 @@ Moving average indicators are used to define the direction of the trend. To rend
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs15" %}
 
-**Data source**
+## Data source
 
-Usually, technical indicators are added along with a financial series. The [`seriesName`](../api/chart/technicalIndicatorModel) represents the series whose data has to be analyzed through indicators.
+Usually, technical indicators are added along with a financial series. The [`seriesName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#seriesname) property identifies the named series whose data is analyzed by the indicator.
 
-Technical indicators can also be added without a series by using the [`dataSource`](../api/chart/technicalIndicatorModel) property of the indicator.
+Technical indicators can also be added without a series by using the [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator#datasource) property of the indicator.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -259,3 +273,17 @@ Technical indicators can also be added without a series by using the [`dataSourc
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/technical-indicators-cs16" %}
+
+## Troubleshooting
+
+- If an indicator is not displayed, verify that its `type`, field mappings, and source data are valid.
+- If an indicator references a series, confirm that `seriesName` exactly matches the source series name.
+- If an indicator uses a separate `dataSource`, configure `xName` and every required OHLC or volume mapping.
+- If the indicator starts later than the source series, confirm that enough data points are available for the configured `period`.
+- If Accumulation Distribution is not rendered, verify that the `volume`, `high`, `low`, and `close` mappings contain numeric values.
+- If nested fields are used, set `enableComplexProperty` to `true` and use dot notation in the field mappings.
+
+## See also
+
+- [TechnicalIndicator API](https://ej2.syncfusion.com/javascript/documentation/api/chart/technicalindicator)
+- [Tooltip](./tool-tip)

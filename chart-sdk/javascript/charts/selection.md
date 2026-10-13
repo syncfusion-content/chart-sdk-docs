@@ -1,34 +1,36 @@
 ---
 layout: post
 title: Selection in JavaScript Charts | Syncfusion
-description: Learn here all about Selection in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
+description: Learn how to select points, series, clusters, and regions and customize selection behavior in the Syncfusion JavaScript Chart control.
 platform: chart-sdk
 control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
-<!-- markdownlint-disable MD036 -->
 
 # Selection in JavaScript Charts
 
-The chart provides selection support for both series and individual data points when users interact with the chart using mouse clicks.
+The Chart supports point, series, cluster, rectangular, and lasso selection through click, tap, or drag interactions. When `Series` or `Cluster` selection is enabled, selecting a data point also selects the corresponding legend item.
 
-> When a data point is clicked, the corresponding series legend item is also selected.
+## Selection modes
 
-Multiple selection modes are available to help select and analyze chart data effectively. The supported selection modes are:
+Set the [`selectionMode`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#selectionmode) property to one of the following values:
 
-* None
-* Point
-* Series
-* Cluster
-* DragXY
-* DragX
-* DragY
+| Mode | Description |
+|---|---|
+| `None` | Disables selection. This is the default value. |
+| `Point` | Selects an individual data point. |
+| `Series` | Selects an entire series. |
+| `Cluster` | Selects data points that share the same index across all series. |
+| `DragXY` | Selects data points within a rectangular region along both axes. |
+| `DragX` | Selects data points within a rectangular region along the horizontal axis. |
+| `DragY` | Selects data points within a rectangular region along the vertical axis. |
+| `Lasso` | Selects data points within a freehand-drawn region. |
 
 ## Point
 
-A single data point can be selected by setting the `selectionMode` property to `Point`.
+Set `selectionMode` to `Point` to select an individual data point.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -43,7 +45,7 @@ A single data point can be selected by setting the `selectionMode` property to `
 
 ## Series
 
-An entire series can be selected by setting the `selectionMode` property to `Series`.
+Set `selectionMode` to `Series` to select an entire series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -58,7 +60,7 @@ An entire series can be selected by setting the `selectionMode` property to `Ser
 
 ## Cluster
 
-Cluster selection allows selection of data points that share the same index across all series. This can be enabled by setting the `selectionMode` property to `Cluster`.
+Set `selectionMode` to `Cluster` to select data points that share the same index across all series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -73,15 +75,13 @@ Cluster selection allows selection of data points that share the same index acro
 
 ## Rectangular selection
 
-**DragXY, DragX and DragY**
+Use `DragXY`, `DragX`, or `DragY` to select data points within a rectangular region. On touch devices, double-tap and drag to perform rectangular selection.
 
-Rectangular selection enables users to select a group of data points within a defined region by setting the `selectionMode` property accordingly.
+- `DragXY`: Selects data points along both axes.
+- `DragX`: Selects data points along the horizontal axis.
+- `DragY`: Selects data points along the vertical axis.
 
-* **DragXY** – Selects data points along both the horizontal and vertical axes.
-* **DragX** – Selects data points along the horizontal axis.
-* **DragY** – Selects data points along the vertical axis.
-
-The selected data points are returned as an array collection through the [`dragComplete`](../api/chart#dragcomplete-emittypeidragcompleteeventargs) event.
+Handle the [`dragComplete`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#dragcomplete) event to process the values selected by a drag operation. Refer to the [`IDragCompleteEventArgs`](https://ej2.syncfusion.com/javascript/documentation/api/chart/idragcompleteeventargs) API for the event-argument properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -94,9 +94,13 @@ The selected data points are returned as an array collection through the [`dragC
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs13" %}
 
-## Selection type
+## Lasso selection
 
-Multiple data points or series can be selected simultaneously by enabling the [`isMultiSelect`](../api/chart#ismultiselect-boolean) property.
+Set `selectionMode` to `Lasso` to select data points inside a freehand-drawn region. Lasso selection is useful when the required points cannot be enclosed efficiently by a rectangular region.
+
+## Multiple selection
+
+Set the [`isMultiSelect`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#ismultiselect) property to `true` to retain more than one point, series, or cluster selection. The default value is `false`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -111,7 +115,15 @@ Multiple data points or series can be selected simultaneously by enabling the [`
 
 ## Selection on load
 
-Data points or series can be selected programmatically when the chart is loaded by using the [`selectedDataIndexes`](../api/chart#selecteddataindexes-indexesmodel) property. This property requires `selectionMode` to be set to `Point`, `Series`, or `Cluster`.
+Use the [`selectedDataIndexes`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#selecteddataindexes) property to select points or series when the Chart loads. Each item contains a zero-based `series` index and `point` index.
+
+```javascript
+selectedDataIndexes: [
+    { series: 0, point: 2 }
+]
+```
+
+Use this property with `Point`, `Series`, or `Cluster` selection modes.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -124,11 +136,11 @@ Data points or series can be selected programmatically when the chart is loaded 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs15" %}
 
-## Selection through the legend
+## Legend selection
 
-Points or series can also be selected through the legend by enabling the [`toggleVisibility`](../api/chart/legendSettingsModel#togglevisibility) property. To visually emphasize the hovered series, use the [`enableHighlight`](../api/chart/legendSettings#enablehighlight) property.
+By default, clicking a legend item toggles the visibility of its series. To select a series through the legend without hiding it, set `selectionMode` to `Series` and set [`legendSettings.toggleVisibility`](https://ej2.syncfusion.com/javascript/documentation/api/chart/legendsettingsmodel#togglevisibility) to `false`.
 
-> When [`highlightMode`](https://ej2.syncfusion.com/documentation/api/chart/highlightmode) is set to `Series`, `Cluster`, or `Point`, legend highlighting occurs even if [`enableHighlight`](https://ej2.syncfusion.com/documentation/api/chart/legendsettings#enablehighlight) is set to **false**. In this case, `highlightMode` takes precedence, and hovering over legend items highlights the corresponding series.
+Use [`legendSettings.enableHighlight`](https://ej2.syncfusion.com/javascript/documentation/api/chart/legendsettingsmodel#enablehighlight) only when hover highlighting is also required.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -141,9 +153,9 @@ Points or series can also be selected through the legend by enabling the [`toggl
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs16" %}
 
-## Customization for selection
+## Selection customization
 
-Custom styles can be applied to selected points or series by using the [`selectionStyle`](../api/chart/series#selectionstyle-string) property.
+Custom styles can be applied to selected points or series by using the [`selectionStyle`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#selectionstyle) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -156,6 +168,13 @@ Custom styles can be applied to selected points or series by using the [`selecti
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs17" %}
 
-## See Also
+## Selection events
 
-* [Display selected data for range selection](./how-to#display-selected-data-for-range-selection)
+Use the [`selectionComplete`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#selectioncomplete) event to retrieve the selected values after point, series, or cluster selection. Use the `dragComplete` event to retrieve values selected through rectangular or lasso selection.
+
+## See also
+
+- [Legend](./legend)
+- [Highlight](./highlight)
+- [Selection mode API](https://ej2.syncfusion.com/javascript/documentation/api/chart/selectionmode)
+- [Selection pattern API](https://ej2.syncfusion.com/javascript/documentation/api/chart/selectionpattern)

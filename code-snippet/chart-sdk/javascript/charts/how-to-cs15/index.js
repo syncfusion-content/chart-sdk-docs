@@ -27,7 +27,6 @@ var chart = new ej.charts.Chart({
         textRender: function(args) {
           args.cancel = args.point.y === 0;
         },
-    width:'650px',
     height: '350px'
 },'#element');
 
