@@ -74,10 +74,10 @@ The `dashArray` property determines the pattern of dashes and gaps in the pareto
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/dasharray/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/dash array/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dasharray.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/dasharray/dasharray.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/series/pareto/dash array/dash array.cs %}
 {% endhighlight %}
 {% endtabs %}
 
