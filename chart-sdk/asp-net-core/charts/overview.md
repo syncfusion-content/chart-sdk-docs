@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Overview in ASP.NET Core Charts | Syncfusion
+title: Overview in ASP.NET Core Chart Component
 description: Learn here all about Overview in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Index
+publishingplatform: chart-sdk
 documentation: ug
-appliesto: UI Component Suite, Chart SDK
 ---
 
-# Overview in ASP.NET Core Charts
+# Overview
 
 The Chart component visualizes data with user interactivity and provides extensive options to configure the appearance of the data. It can bind data from sources such as an array of JSON objects, OData web services, or the [`DataManager`](http://ej2.syncfusion.com/documentation/data/api-dataManager.html). All chart elements are rendered using Scalable Vector Graphics (SVG).
 
@@ -23,7 +23,7 @@ The Chart component visualizes data with user interactivity and provides extensi
 * [**Smart Labels**](https://ej2.syncfusion.com/aspnetmvc/Chart/SmartAxisLabels#/material) - Avoids overlapping of axis labels by trimming, wrapping, rotating, hiding, or placing them on multiple rows.
 * [**Stripline**](https://ej2.syncfusion.com/aspnetmvc/Chart/StripLine#/material) - Provides options to highlight and annotate any region in chart.
 * [**DataLabel**](https://ej2.syncfusion.com/aspnetmvc/Chart/DataLabelTemplate#/material) - Datalabel annotates data points with label to improve the readability of data.
-* [**Technical Indicators**](https://ej2.syncfusion.com/aspnetmvc/Chart/AccumulationDistribution#/material) - Indicators allows to analyze the past and predict the future market trends based on historic price, volume, or open interest.
+* [**Technical Indicators**](https://ej2.syncfusion.com/aspnetmvc/Chart/AccumulationDistribution#/material) - Indicators allows to analyse the past and predict the future market trends based on historic price, volume, or open interest.
 * [**Trendlines**](https://ej2.syncfusion.com/aspnetmvc/Chart/Trendlines#/material) - Predicts the future trends with predetermined data for any measurements.
 * [**Error Bars**](https://ej2.syncfusion.com/aspnetmvc/Chart/ErrorBar#/material) - Provides options to handle any error or uncertainty in the measurements.
 * [**Empty Points**](https://ej2.syncfusion.com/aspnetmvc/Chart/AreaEmptyPoints#/material) - Provides options to handle missed data for the series elegantly with empty points.
