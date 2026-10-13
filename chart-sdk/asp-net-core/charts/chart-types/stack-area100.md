@@ -62,7 +62,7 @@ The `fill` property can be used to apply a gradient color to the 100% stacked ar
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area-100/stacked-area100-grad/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Stacked-area100-grad.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area-100/Stacked-area100-grad/stacked-area100-grad.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area-100/stacked-area100-grad/stacked-area100-grad.cs %}
 {% endhighlight %}
 {% endtabs %}
 

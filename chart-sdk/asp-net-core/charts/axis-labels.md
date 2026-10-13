@@ -228,7 +228,7 @@ When the `maximumLabels` property is set, the labels are rendered based on the c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/max-label/tagHelper %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/max-label/tagHellper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Max-label.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/multiple/max-label/max-label.cs %}

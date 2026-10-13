@@ -235,7 +235,7 @@ The [`itemPadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/itempadding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ItemPadding.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/itemPadding/itemPadding.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/itempadding/itempadding.cs %}
 {% endhighlight %}
 {% endtabs %}
 
