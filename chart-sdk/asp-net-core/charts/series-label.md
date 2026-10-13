@@ -8,13 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# Series label in ASP.NET Core Charts
+# Series labels in ASP.NET Core Charts
 
-The series label displays the name of each series inline, positioned near the end of the series path or the last visible data point. This helps identify each series without referring to the legend.
+A series label displays the name of each series inline, positioned near the end of the series path or the last visible data point. This helps identify each series without referring to the legend.
 
-## Overview
+## Enable series labels
 
-Enable series labels using the [`LabelSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_LabelSettings) property within the series configuration. Set the [`Visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.SeriesLabelSettings.html#Syncfusion_EJ2_Charts_SeriesLabelSettings_Visible) property to **true** to display the label.
+Enable series labels by using the [`LabelSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_LabelSettings) property within the series configuration. Set the [`Visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.SeriesLabelSettings.html#Syncfusion_EJ2_Charts_SeriesLabelSettings_Visible) property to **true** to display the label.
 
 {% tabs %}
 

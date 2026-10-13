@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Tooltip in ASP.NET Core Charts
 
 <!-- markdownlint-disable MD036 -->
 
-Chart will display details about the points through tooltip, when the mouse is moved over the point.
+The chart displays details about the points through a tooltip when the mouse is moved over a point.
 
 ## Enable tooltip
 
@@ -28,8 +27,6 @@ The tooltip is useful when you cannot display information by using the data labe
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Fixed tooltip
 
 By default, tooltip track the mouse movement, but you can set a fixed position for the tooltip by using the [`Location`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Location) property.
@@ -42,8 +39,6 @@ By default, tooltip track the mouse movement, but you can set a fixed position f
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/fixed/fixed.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Format the tooltip
 
@@ -59,8 +54,6 @@ By default, tooltip shows information of x and y value in points. In addition to
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 <!-- markdownlint-disable MD013 -->
 
@@ -119,8 +112,6 @@ If the specified format does not match the resolved value type, the original val
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Tooltip template
 
 Any HTML elements can be displayed in the tooltip by using the [`Template`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Template) property of the tooltip. You can use the ${x} and ${y} as place holders in the HTML element to display the x and y values of the corresponding data point.
@@ -134,8 +125,6 @@ Any HTML elements can be displayed in the tooltip by using the [`Template`](http
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Customize the appearance of tooltip
 
 The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Fill) and [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_Border) properties are used to customize the background color and border of the tooltip respectively. The [`TextStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_TextStyle) property in the tooltip is used to customize the font of the tooltip text. The [`HighlightColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_HighlightColor) property is used to customize the point color while hovering for tooltip.
@@ -148,8 +137,6 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/custom-tooltip/custom-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Access data values in the tooltipRender event
 
@@ -165,8 +152,6 @@ In the following example, the `country` and `growth` fields are retrieved from `
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/tooltip-raw-data/tooltip-raw-data.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Tooltip mapping name
 
@@ -238,8 +223,6 @@ By setting the [`EnableHighlight`](https://help.syncfusion.com/cr/aspnetcore-js2
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Closest tooltip
 
 The [`ShowNearestTooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTooltipSettings.html#Syncfusion_EJ2_Charts_ChartTooltipSettings_ShowNearestTooltip) property in the chart tooltip displays tooltips based on the data points closest to the cursor.
@@ -252,6 +235,4 @@ The [`ShowNearestTooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/tooltip/nearest-tooltip/nearest-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 

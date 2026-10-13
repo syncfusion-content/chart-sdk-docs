@@ -8,14 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Legend in ASP.NET Core Charts
 
 Legend provides information about the series rendered in the chart.
 
 ## Enable Legend
 
-You can use legend for the chart by setting the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_Visible) property to true in [`legendSettings`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html) object.
+You can use legend for the chart by setting the [`visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_Visible) property to true in [`legendSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html) object.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -26,11 +25,9 @@ You can use legend for the chart by setting the [`visible`](https://help.syncfus
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Position and Alignment
 
-By using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_Position) property, you can position the legend at left, right, top or bottom of the chart. The legend is positioned at the bottom of the chart, by default.
+By using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_Position) property, you can position the legend at left, right, top or bottom of the chart. The legend is positioned at the bottom of the chart, by default.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -41,7 +38,7 @@ By using the [`position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% endhighlight %}
 {% endtabs %}
 
-
+### Custom position
 
 Custom position helps you to position the legend anywhere in the chart using x, y coordinates.
 
@@ -53,8 +50,6 @@ Custom position helps you to position the legend anywhere in the chart using x, 
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Legend Reverse
 
@@ -69,11 +64,9 @@ You can reverse the order of the legend items by using the [`reverse`](https://h
 {% endhighlight %}
 {% endtabs %}
 
-
-
 <!-- markdownlint-disable MD036 -->
 
-**Legend Alignment**
+### Legend alignment
 
 <!-- markdownlint-disable MD036 -->
 
@@ -88,11 +81,9 @@ You can align the legend as `center`, `far` or `near` to the chart using [`align
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Customization
 
-To change the legend icon shape, you can use [`legendShape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_LegendShape) property in the [`series`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartSeries.html). By default, legend icon shape is `seriesType`.
+To change the legend icon shape, you can use [`legendShape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_LegendShape) property in the [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html). By default, legend icon shape is `seriesType`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -103,11 +94,9 @@ To change the legend icon shape, you can use [`legendShape`](https://help.syncf
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ### Legend Size
 
-By default, legend takes 20% - 25% of the chart's height horizontally, when it is placed on top or bottom position and 20% - 25% of the chart's width vertically, when placed on left or right position of the chart. You can change this default legend size by using the [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_Height) property of the `legendSettings`.
+By default, the legend takes up 20% – 25% of the chart's height horizontally when placed at the top or bottom, and 20% – 25% of the chart's width vertically when placed on the left or right of the chart. You can change this default legend size by using the [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_Height) property of the `legendSettings`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -117,8 +106,6 @@ By default, legend takes 20% - 25% of the chart's height horizontally, when it i
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ### Legend Item Size
 
@@ -133,11 +120,9 @@ You can customize the size of the legend items by using the [`shapeHeight`](http
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ### Paging for Legend
 
-Paging will be enabled by default, when the legend items exceeds the legend bounds. You can view each legend items by navigating between the pages using navigation buttons.
+Paging is enabled by default when the legend items exceed the legend bounds. You can view each legend items by navigating between the pages using navigation buttons.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -189,11 +174,9 @@ By default, legend click enables to collapse the series visibility. On other han
 {% endhighlight %}
 {% endtabs %}
 
+## Animation
 
-
-## Enable Animation
-
-You can customize the animation while clicking legend by setting enableAnimation as true or false using `enableAnimation` property in chart.
+You can customize the animation when clicking on a legend item by setting the `enableAnimation` property on the chart.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -204,11 +187,9 @@ You can customize the animation while clicking legend by setting enableAnimation
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Collapsing Legend Item
 
-By default, series name will be displayed as legend. To skip the legend for a particular series, you can give empty string to the series name.
+By default, series name will be displayed as legend. To skip the legend for a particular series, set the series name to an empty string.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -218,8 +199,6 @@ By default, series name will be displayed as legend. To skip the legend for a pa
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/collapse/collapse.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Legend Title
 
@@ -234,11 +213,9 @@ You can set title for legend using `Title` property in `LegendSettings`. You can
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Arrow Page Navigation
 
-By default, the page number will be enabled while legend paging. Now, you can disable that page number and also you can get left and right arrows for page navigation. You have to set `false` value to `EnablePages` to get this support.
+By default, the page number is shown while legend paging. Now, you can disable that page number and also you can get left and right arrows for page navigation. You have to set `false` value to `EnablePages` to get this support.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -258,7 +235,7 @@ The [`itemPadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/itempadding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ItemPadding.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/itemPadding/itemPadding.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/legend/itempadding/itempadding.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -290,7 +267,7 @@ You can customize the legend items by using the [`template`](https://help.syncfu
 {% endhighlight %}
 {% endtabs %}
 
-## Expose series and point in legendRender event
+## legendRender event
 
 The [`legendRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartBuilder.html#Syncfusion_EJ2_Charts_ChartBuilder_LegendRender_System_String_) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html) model and `args.point` provides the underlying data point when `legendSettings.mode` is set to `Point`. Use these arguments to customize the legend item text dynamically based on series and point data.
 

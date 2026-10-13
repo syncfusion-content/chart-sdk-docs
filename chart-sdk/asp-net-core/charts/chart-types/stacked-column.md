@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Stacked Column Chart in ASP.NET Core Charts
 
-## Stacked Column
+## Overview
 
 To render a [stacked column](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/stacked-column-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -82,7 +81,7 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 
 **Border**
 
-Use the `border` property to customize the width, color and dasharray of the series border.
+Use the `border` property to customize the width, color and dash array of the series border.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -162,8 +161,6 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Stack labels
 
 The stack labels in stacked charts display cumulative total values for stack segments directly using data labels. If a stacked point has negative values, the stack labels are displayed below the point.
@@ -176,8 +173,6 @@ The stack labels in stacked charts display cumulative total values for stack seg
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-column/stack-labels/stack-labels.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ### Stack labels customization
 
@@ -202,8 +197,6 @@ Stack labels have various properties for customization to enhance the visual bas
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Corner radius
 
 The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in the chart series is used to customize the corner radius for stacked column series. This allows you to create stacked columns with rounded corners, giving your chart a more polished appearance. You can customize each corner of the stacked columns using the topLeft, topRight, bottomLeft, and bottomRight properties.
@@ -217,8 +210,6 @@ The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ### Point corner radius
 
 We can customize the corner radius for individual points in the chart series using the [`PointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) event by setting the [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in its event argument.
@@ -231,8 +222,6 @@ We can customize the corner radius for individual points in the chart series usi
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-column/point-corner-radius/point-corner-radius.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Events
 
@@ -261,8 +250,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-column/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## See also
 

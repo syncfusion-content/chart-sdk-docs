@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 <!-- markdownlint-disable MD036 -->
 
 # Working with Data in ASP.NET Core Charts
 
-Chart can visualize data bound from local or remote data.
+The chart can visualize data bound from local or remote sources.
 
 ## Local data
 
@@ -28,8 +27,6 @@ You can bind a simple JSON data to the chart using [`dataSource`](https://help.s
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ### Common datasource
 
 You can also bind a JSON data common to all series using [`dataSource`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_DataSource) property in chart.
@@ -43,11 +40,9 @@ You can also bind a JSON data common to all series using [`dataSource`](https://
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Remote data
 
-You can also bind remote data to the chart using `DataManager`. The DataManager requires minimal information like webservice URL, adaptor and crossDomain to interact with service endpoint properly. Assign the instance of DataManager to the [`dataSource`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_DataSource) property in series and map the fields of data to [`xName`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_XName) and [`yName`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_YName) properties. You can also use the [`query`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Query) property of the series to filter the data.
+You can also bind remote data to the chart using `DataManager`. The `DataManager` requires minimal information such as the web service URL, adaptor, and `crossDomain` to interact with the service endpoint properly. Assign the instance of `DataManager` to the [`dataSource`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_DataSource) property in series and map the fields of data to [`xName`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_XName) and [`yName`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_YName) properties. You can also use the [`query`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_Query) property of the series to filter the data.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -57,8 +52,6 @@ You can also bind remote data to the chart using `DataManager`. The DataManager 
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/working-data/remote-data/remote-data.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Binding data using ODataAdaptor
 
@@ -73,8 +66,6 @@ You can also bind remote data to the chart using `DataManager`. The DataManager 
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Binding data using ODataV4Adaptor
 
 ODataV4 is an improved version of the OData protocols, and the `DataManager` can also retrieve and consume ODataV4 services. For more details on ODataV4 services, refer to the [`odata documentation`](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752197). To bind an ODataV4 service, use the **ODataV4Adaptor**.
@@ -87,8 +78,6 @@ ODataV4 is an improved version of the OData protocols, and the `DataManager` can
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/working-data/odatav4-adaptor/odatav4-adaptor.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Web API adaptor
 
@@ -107,14 +96,12 @@ The response object should contain the properties **Items** and **Count**, where
 
 The sample response object should appear as follows:
 
-```
+```json
 {
-    Items: [{..}, {..}, {..}, ...],
-    Count: 830
+    "Items": [{}, {}, {}, ...],
+    "Count": 830
 }
 ```
-
-
 
 ## Custom adaptor
 
@@ -129,11 +116,9 @@ You can create your own adaptor by extending the built-in adaptors. The followin
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Offline mode
 
-When using remote data binding, all chart actions will be processed on the server-side. To avoid postback for every action, configure the chart to load all data upon initialization and handle actions on the client-side. To enable this behavior, utilize the **offline** property of the `DataManager`.
+When using remote data binding, all chart actions are processed on the server-side. To avoid postback for every action, configure the chart to load all data upon initialization and handle actions on the client-side. To enable this behavior, utilize the **offline** property of the `DataManager`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -144,11 +129,9 @@ When using remote data binding, all chart actions will be processed on the serve
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Empty points
 
-The Data points that uses the `null` or `undefined` as value are considered as empty points. Empty data points are ignored and not plotted in the Chart. When the data is provided by using the points property, by using `emptyPointSettings` property in series, you can customize the empty point. Default `mode` of the empty point is `Gap`.
+Data points that use `null` or `undefined` as their value are considered empty points. Empty data points are ignored and not plotted in the chart. When the data is provided using the `points` property, you can customize the empty point using the `emptyPointSettings` property in the series. The default `mode` of the empty point is `Gap`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -159,11 +142,9 @@ The Data points that uses the `null` or `undefined` as value are considered as e
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Lazy loading
 
-Lazy loading allows to load data for chart on demand. Chart will fire the scrollEnd event, in that the minimum and maximum range of the axis is achieved. Based on this, the data can be uploaded to chart.
+Lazy loading allows to load data for chart on demand. The chart fires the scrollEnd event when the minimum or maximum range of the axis is reached. Based on this, the data can be uploaded to chart.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -174,10 +155,9 @@ Lazy loading allows to load data for chart on demand. Chart will fire the scroll
 {% endhighlight %}
 {% endtabs %}
 
-
 **Customizing empty point**
 
-Specific color for empty point can be set by `fill` property in `emptyPointSettings`. Border for a empty point can be set by `border` property.
+A specific color for an empty point can be set by the `fill` property in `emptyPointSettings`. The border for an empty point can be set by the `border` property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

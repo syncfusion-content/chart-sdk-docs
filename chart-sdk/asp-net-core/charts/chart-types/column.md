@@ -8,14 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Column Chart in ASP.NET Core Charts
 
-## Column
+## Overview
 
 To render a [column series](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/column-chart) in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
-* **Set the series type:** Define the series `type` as **Column** in your chart configuration. This indicates that the data should be represented as a column chart, which is ideal for visualizing for comparing different categories of data or tracking changes over time.
+* **Set the series type:** Define the series `type` as **Column** in your chart configuration. This indicates that the data should be represented as a column chart, which is ideal for comparing different categories of data or tracking changes over time.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -82,7 +81,7 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 
 **Border**
 
-Use the `border` property to customize the width, color and dasharray of the series border.
+Use the `border` property to customize the width, color and dash array of the series border.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -133,7 +132,6 @@ Use the `columnWidthInPixel` property in the series to define the exact width of
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column-charts/column-pixel/column-pixel.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
 ## Grouped column
 
@@ -204,8 +202,6 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Corner radius
 
 The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in the chart series is used to customize the corner radius for column series. This allows you to create columns with rounded corners, giving your chart a more polished appearance. You can customize each corner of the columns using the topLeft, topRight, bottomLeft, and bottomRight properties.
@@ -219,8 +215,6 @@ The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ### Point corner radius
 
 We can customize the corner radius for individual points in the chart series using the [`PointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) event by setting the [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in its event argument.
@@ -233,8 +227,6 @@ We can customize the corner radius for individual points in the chart series usi
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column-charts/point-corner-radius/point-corner-radius.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Events
 
@@ -263,8 +255,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column-charts/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## See also
 

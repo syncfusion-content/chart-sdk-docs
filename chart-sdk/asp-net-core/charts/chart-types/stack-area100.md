@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # 100% Stacked Area Chart in ASP.NET Core Charts
 
-## 100% Stacked Area Chart
+## Overview
 
 To render a [100% stacked area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/100-stacked-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -63,7 +62,7 @@ The `fill` property can be used to apply a gradient color to the 100% stacked ar
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area-100/stacked-area100-grad/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Stacked-area100-grad.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area-100/Stacked-area100-grad/stacked-area100-grad.cs %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-area-100/stacked-area100-grad/stacked-area100-grad.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -82,7 +81,7 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 
 **Border**
 
-Use the `border` property to customize the width, color and dasharray of the series border.
+Use the `border` property to customize the width, color and dash array of the series border.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
