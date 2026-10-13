@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Syncfusion Overview of ASP.NET Core Charts Control | Syncfusion
+title: Overview in ASP.NET Core Charts | Syncfusion
 description: Learn here all about Overview in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Index
@@ -8,7 +8,7 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# Syncfusion Overview of ASP.NET Core Charts Control
+# Overview in ASP.NET Core Charts
 
 The Chart component visualizes data with user interactivity and provides extensive options to configure the appearance of the data. It can bind data from sources such as an array of JSON objects, OData web services, or the [`DataManager`](http://ej2.syncfusion.com/documentation/data/api-dataManager.html). All chart elements are rendered using Scalable Vector Graphics (SVG).
 
