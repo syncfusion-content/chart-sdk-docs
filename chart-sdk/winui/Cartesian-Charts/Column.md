@@ -5,8 +5,8 @@ description: Column chart in the WinUI Chart displays and compares values across
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-kappliesto: UI Component Suite, Chart SDK
 keywords: winui column chart, winui sfcartesianchart, winui column chart customization, syncfusion winui column chart, winui chart column chart properties.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Column Chart in WinUI Chart

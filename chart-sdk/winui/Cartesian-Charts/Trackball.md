@@ -5,8 +5,8 @@ description: Trackball in the WinUI Chart displays grouped data point informatio
 platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
-kappliesto: UI Component Suite, Chart SDK
 keywords: trackball in winui chart, winui sfcartesianchart trackball, winui chart trackball customization, syncfusion winui chart trackball, winui sfcartesianchart trackball settings.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Trackball in WinUI Chart

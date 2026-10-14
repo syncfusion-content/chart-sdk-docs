@@ -5,8 +5,8 @@ description: Bubble chart in the WinUI Chart visualizes data using bubbles of va
 platform: chart-sdk
 control: SfChart
 documentation: ug
-kappliesto: UI Component Suite, Chart SDK
 keywords: winui bubblechart, winui sfcartesianchart bubble chart, winui bubble chart customization, syncfusion winui bubble chart, winui sfcartesianchart, bubble chart settings.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubble Chart in WinUI Chart
