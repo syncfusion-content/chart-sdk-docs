@@ -24,7 +24,7 @@ After finishing the backend setup, the next step is to integrate the React Chart
 
 Open a terminal in the `client` folder, confirm that `package.json` is present, and run the following commands to install the required Syncfusion packages:
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts --save
 npm install @syncfusion/ej2-data --save
 ```
@@ -33,13 +33,13 @@ npm install @syncfusion/ej2-data --save
 
 Open `src/index.css` and add the required Syncfusion Chart styles:
 
-```css
+```
 @import '../node_modules/@syncfusion/ej2-base/styles/material.css';
 ```
 
 Import the stylesheet in the `main.jsx` application entry point:
 
-```jsx
+```
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
@@ -78,7 +78,7 @@ The Syncfusion DataManager provides built-in extensibility points that allow cus
 
 `client/src/adaptors/CustomAdaptor.js`
 
-```js
+```
 import { UrlAdaptor } from '@syncfusion/ej2-data';
 
 export class CustomAdaptor extends UrlAdaptor {
@@ -132,7 +132,7 @@ After creating the custom adaptor class, integrate it with the React Chart in th
 
 `client/src/data.js`
 
-```js
+```
 import { DataManager } from '@syncfusion/ej2-data';
 import { CustomAdaptor } from './adaptors/CustomAdaptor';
 
@@ -144,7 +144,7 @@ export const chartDataManager = new DataManager({
 
 `client/src/App.jsx`
 
-```jsx
+```
 import React from 'react';
 
 import {
@@ -229,14 +229,14 @@ The backend server supplies the raw chart data that the Custom Adaptor transform
 1. Open a terminal and navigate to the `server` folder.
 2. Start the server using the script defined in `package.json`:
 
-   ```bash
+   ```
    cd server
    npm start
    ```
 
 3. Wait until the terminal displays a message that the server is listening. The sample Express server prints the following on a successful start:
 
-   ```text
+   ```
    Server running at http://localhost:5050
    Chart API available at http://localhost:5050/api/chart-data
    ```
@@ -252,14 +252,14 @@ The React client renders the Chart and uses the Custom Adaptor to fetch and tran
 1. Open a second terminal and navigate to the `client` folder.
 2. Start the Vite development server:
 
-   ```bash
+   ```
    cd client
    npm run dev
    ```
 
 3. Wait until Vite prints a local URL. The default output is similar to:
 
-   ```text
+   ```
    Local: http://localhost:5173/
    ```
 
@@ -298,7 +298,7 @@ After the Chart renders, confirm that the data is actually flowing through the C
 3. Locate the request to `http://localhost:5050/api/chart-data`. The request should include the headers and query parameters added by `beforeSend` and `processQuery` in the Custom Adaptor.
 4. Open the response and verify that the JSON contains items shaped as `{ x, y }`, for example:
 
-   ```json
+   ```on
    {
      "result": [
        { "x": "Jan", "y": 120 },

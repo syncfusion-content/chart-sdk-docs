@@ -54,13 +54,13 @@ The Flask backend acts as the REST API service. It handles HTTP requests from th
 
 In this sample, the backend exposes the following endpoint:
 
-```text
+```
 GET http://127.0.0.1:5000/api/sales
 ```
 
 The API response format is:
 
-```json
+```
 {
   "result": [
     {
@@ -81,7 +81,7 @@ The `result` property contains the chart data collection, and the `count` proper
 
 Open Visual Studio Code and open a terminal.
 
-```bash
+```
 mkdir react-chart-flask-api
 cd react-chart-flask-api
 code .
@@ -93,14 +93,14 @@ code .
 
 Create a `server` folder for the Flask API.
 
-```bash
+```
 mkdir server
 cd server
 ```
 
 Create a Python virtual environment.
 
-```bash
+```
 python -m venv venv
 ```
 
@@ -108,25 +108,25 @@ Activate the virtual environment.
 
 **Windows**
 
-```bash
+```
 venv\Scripts\activate
 ```
 
 **macOS / Linux**
 
-```bash
+```
 source venv/bin/activate
 ```
 
 Install Flask packages.
 
-```bash
+```
 pip install flask flask-cors
 ```
 
 You can create a `requirements.txt` file now (after `app.py` is added in the next step) by running the following from the `server` folder:
 
-```bash
+```
 pip freeze > requirements.txt
 ```
 
@@ -138,7 +138,7 @@ Create a file named `app.py` inside the `server` folder.
 
 **File: `server/app.py`**
 
-```python
+```
 from flask import Flask, jsonify
 from flask_cors import CORS
 
@@ -193,13 +193,13 @@ if __name__ == "__main__":
 
 Run the Flask application from the `server` folder.
 
-```bash
+```
 python app.py
 ```
 
 Expected terminal output:
 
-```text
+```
 * Serving Flask app 'app'
 * Debug mode: on
 * Running on http://127.0.0.1:5000
@@ -208,13 +208,13 @@ Press CTRL+C to quit
 
 Open the following URL in the browser:
 
-```text
+```
 http://127.0.0.1:5000/
 ```
 
 Expected response:
 
-```json
+```
 {
   "message": "Flask API is running successfully",
   "salesApi": "http://127.0.0.1:5000/api/sales"
@@ -223,13 +223,13 @@ Expected response:
 
 Open the chart data API:
 
-```text
+```
 http://127.0.0.1:5000/api/sales
 ```
 
 Expected response:
 
-```json
+```
 {
   "count": 12,
   "result": [
@@ -248,7 +248,7 @@ Expected response:
 
 Open a new terminal from the project root folder.
 
-```bash
+```
 npm create vite@latest client -- --template react-ts
 cd client
 npm install
@@ -260,7 +260,7 @@ npm install
 
 Install the Syncfusion React Chart package.
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts --save
 ```
 
@@ -270,7 +270,7 @@ npm install @syncfusion/ej2-react-charts --save
 
 The final project structure should look like this:
 
-```text
+```
 react-chart-flask-api/
 │
 ├── server/
@@ -299,7 +299,7 @@ react-chart-flask-api/
 
 **File: `client/package.json`**
 
-```json
+```
 {
   "name": "syncfusion-react-chart-flask-api",
   "private": true,
@@ -331,7 +331,7 @@ react-chart-flask-api/
 
 **File: `client/index.html`**
 
-```html
+```
 <!doctype html>
 <html lang="en">
   <head>
@@ -352,7 +352,7 @@ react-chart-flask-api/
 
 **File: `client/vite.config.ts`**
 
-```ts
+```
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -373,7 +373,7 @@ The Syncfusion React Chart requires a theme stylesheet. Import the Material them
 
 **File: `client/src/main.tsx`**
 
-```tsx
+```
 // Syncfusion theme stylesheet (required for chart styling).
 import '@syncfusion/ej2-react-charts/styles/material.css';
 import '@syncfusion/ej2-base/styles/material.css';
@@ -404,7 +404,7 @@ Create a `services` folder inside `client/src`, and then create a file named `ch
 
 **File: `client/src/services/chartService.ts`**
 
-```ts
+```
 export interface SalesData {
   month: string;
   sales: number;
@@ -446,7 +446,7 @@ Create a stylesheet at `client/src/App.css` so the layout classes referenced in 
 
 **File: `client/src/App.css`**
 
-```css
+```
 .app-container {
   display: flex;
   justify-content: center;
@@ -514,7 +514,7 @@ Create a stylesheet at `client/src/App.css` so the layout classes referenced in 
 **File: `client/src/App.tsx`**
 
 {% raw %}
-```tsx
+```
 import { useEffect, useState } from 'react';
 
 import {
@@ -707,7 +707,7 @@ export default function App() {
 
 Open terminal 1.
 
-```bash
+```
 cd server
 venv\Scripts\activate
 python app.py
@@ -715,7 +715,7 @@ python app.py
 
 For macOS / Linux:
 
-```bash
+```
 cd server
 source venv/bin/activate
 python app.py
@@ -723,13 +723,13 @@ python app.py
 
 Flask backend URL:
 
-```text
+```
 http://127.0.0.1:5000
 ```
 
 Chart API endpoint:
 
-```text
+```
 http://127.0.0.1:5000/api/sales
 ```
 
@@ -739,14 +739,14 @@ http://127.0.0.1:5000/api/sales
 
 Open terminal 2.
 
-```bash
+```
 cd client
 npm run dev
 ```
 
 React frontend URL:
 
-```text
+```
 http://127.0.0.1:5173
 ```
 
@@ -758,25 +758,25 @@ Open the URL in the browser. The chart displays monthly sales and expenses data.
 
 To create a production build, run the following command inside the `client` folder.
 
-```bash
+```
 npm run build
 ```
 
 The build output is created in the following folder:
 
-```text
+```
 client/dist
 ```
 
 To preview the production build locally:
 
-```bash
+```
 npm run preview
 ```
 
 Preview URL:
 
-```text
+```
 http://127.0.0.1:4173
 ```
 
@@ -788,25 +788,25 @@ http://127.0.0.1:4173
 
 Use this exact API URL:
 
-```text
+```
 http://127.0.0.1:5000/api/sales
 ```
 
 Make sure the Flask backend is running in the `server` folder.
 
-```bash
+```
 python app.py
 ```
 
 If another application is using port `5000`, change the Flask port from `5000` to `5001` in `server/app.py`.
 
-```python
+```
 app.run(host="127.0.0.1", port=5001, debug=True)
 ```
 
 Then update the API base URL in `client/src/services/chartService.ts`.
 
-```ts
+```
 const API_BASE_URL = 'http://127.0.0.1:5001';
 ```
 
@@ -814,13 +814,13 @@ const API_BASE_URL = 'http://127.0.0.1:5001';
 
 Make sure `flask-cors` is installed.
 
-```bash
+```
 pip install flask-cors
 ```
 
 Make sure the following code is available in `server/app.py`.
 
-```python
+```
 from flask_cors import CORS
 CORS(app)
 ```
@@ -829,7 +829,7 @@ CORS(app)
 
 Run the following command inside the `client` folder.
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts --save
 ```
 

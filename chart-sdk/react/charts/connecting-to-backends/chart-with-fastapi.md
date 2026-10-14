@@ -29,7 +29,7 @@ This guide shows how to load a Syncfusion React Chart from a FastAPI backend. Th
 
 Check installed versions:
 
-```bash
+```
 python --version
 node --version
 npm --version
@@ -41,7 +41,7 @@ npm --version
 
 Create the following project structure:
 
-```text
+```
 fastapi-react-chart-sample/
 │
 ├── backend/
@@ -69,7 +69,7 @@ The FastAPI backend provides chart data to the React Chart. The backend returns 
 
 Open Visual Studio Code and start a terminal.
 
-```bash
+```
 mkdir fastapi-react-chart-sample
 cd fastapi-react-chart-sample
 mkdir backend
@@ -80,14 +80,14 @@ Create and activate a Python virtual environment. From this point on, run all co
 
 On Windows:
 
-```bash
+```
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
 On macOS or Linux:
 
-```bash
+```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
@@ -107,7 +107,7 @@ uvicorn[standard]==0.30.1
 
 Install the packages:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -121,7 +121,7 @@ Create a file named `main.py` inside the `backend` folder.
 
 **`backend/main.py`**
 
-```python
+```
 from typing import Any, Dict, List, Optional
 
 from fastapi import FastAPI, Request
@@ -249,7 +249,7 @@ def health_check():
 
 From the `backend` folder, run:
 
-```bash
+```
 uvicorn main:app --reload
 ```
 
@@ -269,13 +269,13 @@ Open a new terminal in the `fastapi-react-chart-sample` folder (the one you crea
 
 On Windows (PowerShell):
 
-```bash
+```
 npm create vite@latest frontend --template react; cd frontend; npm install
 ```
 
 On macOS or Linux (bash):
 
-```bash
+```
 npm create vite@latest frontend --template react && cd frontend && npm install
 ```
 
@@ -285,7 +285,7 @@ npm create vite@latest frontend --template react && cd frontend && npm install
 
 ### Frontend Step 2: Install Syncfusion packages
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 ```
 
@@ -299,7 +299,7 @@ Vite creates an `index.css` with default styles that conflict with the chart car
 
 **`frontend/package.json`**
 
-```json
+```
 {
   "name": "syncfusion-fastapi-chart-sample",
   "private": true,
@@ -325,7 +325,7 @@ Vite creates an `index.css` with default styles that conflict with the chart car
 
 After updating `package.json`, run:
 
-```bash
+```
 npm install
 ```
 
@@ -374,7 +374,7 @@ export default defineConfig({
 
 **`frontend/src/main.jsx`**
 
-```jsx
+```
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
@@ -395,7 +395,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 **`frontend/src/App.jsx`**
 
 {% raw %}
-```jsx
+```
 import React, { useMemo } from 'react';
 import {
   ChartComponent,
@@ -492,31 +492,31 @@ You need two terminals running side by side:
 
 **Terminal 1: run the FastAPI backend**
 
-```bash
+```
 cd fastapi-react-chart-sample/backend
 ```
 
 Activate the Python environment. On Windows:
 
-```bash
+```
 .venv\Scripts\activate
 ```
 
 On macOS or Linux:
 
-```bash
+```
 source .venv/bin/activate
 ```
 
 Start Uvicorn:
 
-```bash
+```
 uvicorn main:app --reload
 ```
 
 You should see:
 
-```text
+```
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process [...]
 INFO:     Started server process [...]
@@ -536,7 +536,7 @@ To stop the backend, switch to this terminal and press `Ctrl+C`. To leave the vi
 
 In the second terminal:
 
-```bash
+```
 cd fastapi-react-chart-sample/frontend
 npm run dev
 ```
@@ -562,13 +562,13 @@ If the chart tab is blank, open the DevTools Network tab and confirm the request
 
 To create a production build, run this command from the `frontend` folder:
 
-```bash
+```
 npm run build
 ```
 
 To preview the production build:
 
-```bash
+```
 npm run preview
 ```
 
@@ -578,7 +578,7 @@ npm run preview
 
 **Root endpoint**
 
-```http
+```
 GET /
 ```
 
@@ -586,7 +586,7 @@ Returns backend status and available endpoint details.
 
 **Monthly sales chart data**
 
-```http
+```
 GET /chart-data
 ```
 
@@ -594,7 +594,7 @@ Returns a simple JSON array. Useful for browser testing and `fetch` binding.
 
 Example response:
 
-```json
+```
 [
   { "month": "Jan", "sales": 35 },
   { "month": "Feb", "sales": 28 }
@@ -609,7 +609,7 @@ Returns a Syncfusion `DataManager` friendly response.
 
 Example response:
 
-```json
+```
 {
   "result": [
     { "month": "Jan", "sales": 35 },
@@ -621,7 +621,7 @@ Example response:
 
 **Category sales chart data**
 
-```http
+```
 GET /category-sales
 POST /category-sales
 ```
@@ -635,7 +635,7 @@ For a simpler beginner version, replace `DataManager` with the browser `fetch` A
 Replace `frontend/src/App.jsx` with the following code:
 
 {% raw %}
-```jsx
+```
 import React, { useEffect, useState } from 'react';
 import {
   ChartComponent,
@@ -741,7 +741,7 @@ Make sure `CORSMiddleware` is configured in `backend/main.py` and that the React
 
 If React cannot find Syncfusion packages, run this command from the `frontend` folder:
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 ```
 
@@ -749,13 +749,13 @@ npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 
 Run FastAPI on another port:
 
-```bash
+```
 uvicorn main:app --reload --port 8001
 ```
 
 Then update the React URL in `frontend/src/App.jsx`:
 
-```jsx
+```
 url: 'http://localhost:8001/chart-data'
 ```
 
@@ -763,7 +763,7 @@ url: 'http://localhost:8001/chart-data'
 
 The `POST /chart-data` endpoint expects a JSON body. The default React DataManager payload is valid JSON, but if you test it manually, send:
 
-```bash
+```
 curl -X POST http://localhost:8000/chart-data -H "Content-Type: application/json" -d '{}'
 ```
 
@@ -773,7 +773,7 @@ A 422 response means the JSON body is malformed or missing the required `Content
 
 On Windows, if running `.venv\Scripts\activate` fails with a script execution error, run PowerShell as Administrator once and execute:
 
-```bash
+```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 

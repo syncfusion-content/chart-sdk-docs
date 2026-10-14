@@ -20,7 +20,7 @@ The React Chart retrieves data from the backend API using the browser `fetch` AP
 
 ## Architecture
 
-```text
+```
 SQLite Database
       ↓
 Entity Framework Core
@@ -73,7 +73,7 @@ Before starting, ensure the following tools and packages are installed.
 
 The final solution contains two projects:
 
-```text
+```
 ReactChartSQLiteSample/
  ├── ReactChartSQLiteAPI/
  │   ├── Controllers/
@@ -107,7 +107,7 @@ This section explains how to create an ASP.NET Core Web API service, configure S
 
 Create a parent folder for the backend and frontend projects.
 
-```bash
+```
 mkdir ReactChartSQLiteSample
 cd ReactChartSQLiteSample
 ```
@@ -117,7 +117,7 @@ cd ReactChartSQLiteSample
 
 Run the following commands:
 
-```bash
+```
 dotnet new webapi -n ReactChartSQLiteAPI
 cd ReactChartSQLiteAPI
 ```
@@ -130,7 +130,7 @@ This creates a backend API project named `ReactChartSQLiteAPI`.
 
 Install the required EF Core and SQLite packages.
 
-```bash
+```
 dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.0
@@ -138,13 +138,13 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.0
 
 Verify the installed packages:
 
-```bash
+```
 dotnet list package
 ```
 
 Expected packages:
 
-```text
+```
 Microsoft.EntityFrameworkCore
 Microsoft.EntityFrameworkCore.Sqlite
 Microsoft.EntityFrameworkCore.Tools
@@ -157,7 +157,7 @@ Create a folder named `Models` and add a file named `Sales.cs`.
 
 **File:** `Models/Sales.cs`
 
-```csharp
+```
 namespace ReactChartSQLiteAPI.Models
 {
     public class Sales
@@ -183,7 +183,7 @@ Create a folder named `Data` and add a file named `AppDbContext.cs`.
 
 **File:** `Data/AppDbContext.cs`
 
-```csharp
+```
 using Microsoft.EntityFrameworkCore;
 using ReactChartSQLiteAPI.Models;
 
@@ -215,7 +215,7 @@ Open `appsettings.json` and add the SQLite connection string.
 
 **File:** `appsettings.json`
 
-```json
+```
 {
   "Logging": {
     "LogLevel": {
@@ -243,7 +243,7 @@ Open `Program.cs` and configure controllers, CORS, EF Core, SQLite, and sample d
 
 **File:** `Program.cs`
 
-```csharp
+```
 using Microsoft.EntityFrameworkCore;
 using ReactChartSQLiteAPI.Data;
 using ReactChartSQLiteAPI.Models;
@@ -306,7 +306,7 @@ Create a folder named `Controllers` and add a file named `SalesController.cs`.
 
 **File:** `Controllers/SalesController.cs`
 
-```csharp
+```
 using Microsoft.AspNetCore.Mvc;
 using ReactChartSQLiteAPI.Data;
 
@@ -339,7 +339,7 @@ The `GET api/sales` endpoint returns sales data as JSON.
 
 Example response:
 
-```json
+```
 [
   { "id": 1, "category": "Jan", "amount": 100 },
   { "id": 2, "category": "Feb", "amount": 200 },
@@ -355,19 +355,19 @@ Example response:
 
 Run the backend API:
 
-```bash
+```
 dotnet run
 ```
 
 The application displays a local API URL similar to:
 
-```text
+```
 Now listening on: http://localhost:5165
 ```
 
 Open the API endpoint in the browser:
 
-```text
+```
 http://localhost:5165/api/sales
 ```
 
@@ -383,7 +383,7 @@ This section explains how to create the React application, install the Syncfusio
 
 Open a new terminal from the parent folder and run:
 
-```bash
+```
 npm create vite@latest react-chart-app -- --template react-ts
 cd react-chart-app
 npm install
@@ -397,7 +397,7 @@ This creates a React + TypeScript application using Vite.
 
 Install the Syncfusion React Chart package and required base package.
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-base
 ```
 ---
@@ -409,7 +409,7 @@ Open `src/App.tsx` and replace the existing content with the following code.
 **File:** `src/App.tsx`
 
 {% raw %}
-```tsx
+```
 import { useEffect, useState } from 'react';
 
 import {
@@ -505,13 +505,13 @@ Make sure the backend API is already running.
 
 Run the React application:
 
-```bash
+```
 npm run dev
 ```
 
 Open the application in the browser:
 
-```text
+```
 http://localhost:5173
 ```
 
@@ -537,7 +537,7 @@ Use two separate terminals.
 
 **Terminal 1: Backend API**
 
-```bash
+```
 cd ReactChartSQLiteSample/ReactChartSQLiteAPI
 dotnet run
 ```
@@ -550,14 +550,14 @@ http://localhost:5165/api/sales
 
 **Terminal 2: React Client**
 
-```bash
+```
 cd ReactChartSQLiteSample/react-chart-app
 npm run dev
 ```
 
 Open:
 
-```text
+```
 http://localhost:5173
 ```
 
@@ -571,14 +571,14 @@ This error occurs when `dotnet run` is executed outside the backend project fold
 
 Run the command from the backend folder:
 
-```bash
+```
 cd ReactChartSQLiteSample/ReactChartSQLiteAPI
 dotnet run
 ```
 
 Or specify the project file:
 
-```bash
+```
 dotnet run --project ReactChartSQLiteAPI/ReactChartSQLiteAPI.csproj
 ```
 
@@ -588,7 +588,7 @@ dotnet run --project ReactChartSQLiteAPI/ReactChartSQLiteAPI.csproj
 
 If the root URL returns 404, open the API endpoint instead:
 
-```text
+```
 http://localhost:5165/api/sales
 ```
 
@@ -600,7 +600,7 @@ The backend project is an API service, so the root URL may not render a page.
 
 Ensure CORS is configured in `Program.cs`:
 
-```csharp
+```
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -616,19 +616,19 @@ app.UseCors("AllowAll");
 
 Verify that the API returns data:
 
-```text
+```
 http://localhost:5165/api/sales
 ```
 
 Verify that the required chart services are injected:
 
-```tsx
+```
 <Inject services={[ColumnSeries, Category, Tooltip, DataLabel]} />
 ```
 
 Also confirm that `xName` and `yName` match the JSON field names:
 
-```tsx
+```
 xName="category"
 yName="amount"
 ```
@@ -639,14 +639,14 @@ yName="amount"
 
 Use a Node.js LTS version. Then reinstall packages if required:
 
-```bash
+```
 node -v
 npm install
 ```
 
 If package installation is corrupted, delete `node_modules` and `package-lock.json`, then run:
 
-```bash
+```
 npm install
 ```
 

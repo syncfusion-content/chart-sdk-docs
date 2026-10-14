@@ -18,7 +18,7 @@ This documentation explains how to create a SQL Server database, expose the data
 
 ## Architecture
 
-```text
+```
 React Application
     ↓
 Syncfusion React Chart
@@ -69,7 +69,7 @@ Open Visual Studio Code and connect to SQL Server using the **SQL Server (mssql)
 
 Use the following connection details for a local SQL Server instance:
 
-```text
+```
 Server name: localhost
 Authentication type: Windows Authentication
 Database: Leave empty
@@ -84,7 +84,7 @@ Trust server certificate: Enabled
 
 Open a new SQL query window and run the following script.
 
-```sql
+```
 CREATE DATABASE SalesDB;
 GO
 
@@ -130,7 +130,7 @@ The ASP.NET Core Web API acts as the backend service between the React Chart and
 
 Open a terminal in Visual Studio Code and run:
 
-```bash
+```
 dotnet new webapi -n ChartAPI
 cd ChartAPI
 ```
@@ -139,7 +139,7 @@ cd ChartAPI
 
 Install the `Microsoft.Data.SqlClient` NuGet package.
 
-```bash
+```
 dotnet add package Microsoft.Data.SqlClient
 ```
 ---
@@ -148,7 +148,7 @@ dotnet add package Microsoft.Data.SqlClient
 
 Open `appsettings.json` and add the SQL Server connection string.
 
-```json
+```
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=SalesDB;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -166,7 +166,7 @@ Open `appsettings.json` and add the SQL Server connection string.
 
 > For SQL Server Express, update the server value as shown below:
 
-```json
+```
 "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=SalesDB;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
@@ -178,7 +178,7 @@ Create a folder named `Models` in the API project.
 
 Inside the `Models` folder, create a file named `SalesRecord.cs`.
 
-```csharp
+```
 using System.ComponentModel.DataAnnotations;
 
 namespace ChartAPI.Models
@@ -216,7 +216,7 @@ Create a folder named `Data` in the API project.
 
 Inside the `Data` folder, create a file named `SalesRepository.cs`.
 
-```csharp
+```
 using Microsoft.Data.SqlClient;
 using ChartAPI.Models;
 
@@ -285,7 +285,7 @@ The repository class handles all SQL Server operations.
 
 Inside the `Controllers` folder, create a file named `SalesController.cs`.
 
-```csharp
+```
 using Microsoft.AspNetCore.Mvc;
 using ChartAPI.Data;
 
@@ -314,7 +314,7 @@ namespace ChartAPI.Controllers
 
 The API endpoint will be:
 
-```text
+```
 /api/sales
 ```
 
@@ -324,7 +324,7 @@ The API endpoint will be:
 
 Open `Program.cs` and update the file as shown below.
 
-```csharp
+```
 using ChartAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -367,26 +367,26 @@ app.Run();
 
 Run the ASP.NET Core Web API.
 
-```bash
+```
 dotnet run
 ```
 
 The terminal will display an API URL similar to one of the following:
 
-```text
+```
 http://localhost:5000
 https://localhost:7000
 ```
 
 Open the API endpoint in a browser:
 
-```text
+```
 http://localhost:5000/api/sales
 ```
 
 Expected JSON response:
 
-```json
+```
 [
   {
     "id": 1,
@@ -408,7 +408,7 @@ Expected JSON response:
 
 Open a new terminal and create a React project using Vite.
 
-```bash
+```
 npm create vite@latest chart-react-app -- --template react
 cd chart-react-app
 npm install
@@ -416,7 +416,7 @@ npm install
 
 Install the required packages.
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-charts @syncfusion/ej2-base @syncfusion/ej2-buttons @syncfusion/ej2-popups axios
 ```
 
@@ -426,8 +426,8 @@ npm install @syncfusion/ej2-react-charts @syncfusion/ej2-charts @syncfusion/ej2-
 
 Inside the `src` folder, create a file named `SalesChart.jsx`.
 
+```
 {% raw %}
-```jsx
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -570,13 +570,13 @@ export default SalesChart;
 
 Update the API URL if the backend runs on a different port.
 
-```jsx
+```
 axios.get("http://localhost:5000/api/sales")
 ```
 
 For example:
 
-```jsx
+```
 axios.get("http://localhost:5208/api/sales")
 ```
 
@@ -586,7 +586,7 @@ axios.get("http://localhost:5208/api/sales")
 
 Open `src/App.jsx` and replace the content with the following code.
 
-```jsx
+```
 import SalesChart from "./SalesChart";
 
 function App() {
@@ -606,7 +606,7 @@ export default App;
 
 Open `src/index.css` and replace the content with the following CSS.
 
-```css
+```
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -625,13 +625,13 @@ body {
 
 Run the React app.
 
-```bash
+```
 npm run dev
 ```
 
 Open the local React URL in a browser.
 
-```text
+```
 http://localhost:5173/
 ```
 
@@ -657,13 +657,13 @@ Expected visualization:
 
 Verify the API returns data in the browser.
 
-```text
+```
 http://localhost:5000/api/sales
 ```
 
 Also verify the field names used in the chart component.
 
-```jsx
+```
 xName="year"
 yName="revenue"
 ```
@@ -676,7 +676,7 @@ The ASP.NET Core API returns JSON using camelCase property names, so `year` and 
 
 If the browser console shows a CORS error, verify that CORS is configured in `Program.cs`.
 
-```csharp
+```
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
@@ -698,13 +698,13 @@ Verify the connection string in `appsettings.json`.
 
 For default SQL Server instance:
 
-```json
+```
 "DefaultConnection": "Server=localhost;Database=SalesDB;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
 For SQL Server Express:
 
-```json
+```
 "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=SalesDB;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
@@ -714,13 +714,13 @@ For SQL Server Express:
 
 If Vite shows an error for the following import:
 
-```jsx
+```
 import "@syncfusion/ej2-react-charts/styles/material.css";
 ```
 
 Remove that line and use these imports instead:
 
-```jsx
+```
 import "@syncfusion/ej2-base/styles/material.css";
 import "@syncfusion/ej2-buttons/styles/material.css";
 import "@syncfusion/ej2-popups/styles/material.css";
@@ -759,7 +759,7 @@ This documentation demonstrated how to connect Microsoft SQL Server data to a Sy
 
 The completed integration follows this flow:
 
-```text
+```
 SQL Server → ASP.NET Core Web API → React Application → Syncfusion React Chart
 ```
 
