@@ -53,9 +53,6 @@ document.getElementById('openDialog').onclick = function () {
 ## Complete example
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/charts/dialog-cs1/index.js %}
-{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/javascript/charts/dialog-cs1/index.html %}
 {% endhighlight %}

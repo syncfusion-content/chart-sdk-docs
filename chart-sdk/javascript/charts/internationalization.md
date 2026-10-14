@@ -42,7 +42,7 @@ setCurrencyCode('EUR');
 
 ## Numeric format
 
-The example below globalizes axis labels, data labels, and tooltip labels to the EUR currency format.
+The example below globalize axis labels, data labels, and tooltip labels to the EUR currency format.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -60,7 +60,7 @@ The example below globalizes axis labels, data labels, and tooltip labels to the
 - **The expected culture is not applied:** Confirm that the required CLDR data is loaded before calling `setCulture` and before creating the Chart.
 - **The wrong currency symbol is displayed:** Call `setCurrencyCode` with the required ISO currency code and use the `c` currency format in the axis or data-label configuration.
 - **Dates or numbers use the default US format:** Verify that `setCulture` is called before the Chart is initialized.
-- **A culture-loading error occurs:** Confirm that the required `numbers`, `currencies`, `ca-gregorian`, `timeZoneNames`, and `numberingSystems` data files are available and loaded correctly.
+- **A culture-loading error occurs:** Confirm that the required `numbers`, `currencies`, `ca-Gregorian`, `timeZoneNames`, and `numberingSystems` data files are available and loaded correctly.
 
 ## See also
 

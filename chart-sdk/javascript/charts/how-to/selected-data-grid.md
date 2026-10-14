@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to display selected data in a Grid in JavaScript Charts | Syncfusion
+title: How to display selected data in JavaScript Charts | Syncfusion
 description: Learn how to display data points selected by dragging over a Syncfusion JavaScript Chart in a Grid control.
 platform: chart-sdk
 control: Chart

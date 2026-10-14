@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # How to downsample data in TypeScript Charts
 
-Downsampling reduces the number of points rendered from a larger source dataset while preserving the overall visual shape. In this example, the source contains 2,000 points and the Largest-Triangle-Three-Buckets (LTTB) algorithm reduces the rendered dataset to approximately 400 representative points.
+Down sampling reduces the number of points rendered from a larger source dataset while preserving the overall visual shape. In this example, the source contains 2,000 points and the Largest-Triangle-Three-Buckets (LTTB) algorithm reduces the rendered dataset to approximately 400 representative points.
 
 ## Largest-Triangle-Three-Buckets algorithm
 
@@ -24,7 +24,7 @@ The algorithm requires:
 - The field mapped through `xName`.
 - The field mapped through `yName`.
 
-The target count must be at least `3` and less than the source-data length. If the target count is greater than or equal to the source length, return the original data instead of downsampling it.
+The target count must be at least `3` and less than the source-data length. If the target count is greater than or equal to the source length, return the original data instead of down sampling it.
 
 > **Note:** LTTB is an application-level data-reduction technique. The Chart renders the array assigned to the series `dataSource`; the Chart does not automatically run the LTTB algorithm.
 
@@ -76,29 +76,29 @@ Avoid switching to all original points based only on a hard-coded `zoomFactor`. 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-appearance-cs18" %}
 
-## Before and after downsampling
+## Before and after down sampling
 
-### Before downsampling
+### Before down sampling
 
 The Chart renders all source points. This preserves the complete dataset but can increase rendering time and visual density.
 
-![Chart rendering the complete dataset before downsampling](images/Before_downsampling.png)
+![Chart rendering the complete dataset before down sampling](images/Before_downsampling.png)
 
-### After downsampling
+### After down sampling
 
 The Chart renders the reduced dataset produced by LTTB. The overall visual pattern is retained with fewer rendered points.
 
-![Chart rendering the reduced dataset after LTTB downsampling](images/After_downsampling.png)
+![Chart rendering the reduced dataset after LTTB down sampling](images/After_downsampling.png)
 
 ## Data integrity and performance considerations
 
 - Keep the original dataset unchanged and store the sampled dataset separately.
 - Preserve the first and last source points when applying LTTB.
-- Ensure that X values are ordered consistently before downsampling.
+- Ensure that X values are ordered consistently before down sampling.
 - Do not apply LTTB independently to unsorted or unrelated series and assume their indexes remain aligned.
 - Recalculate sampled data after the Chart width, source data, or target threshold changes.
 - Debounce repeated zoom or resize updates when recalculation is expensive.
-- Test whether downsampling hides short-duration spikes or outliers that are important to the use case.
+- Test whether down sampling hides short-duration spikes or outliers that are important to the use case.
 - Perform large calculations outside frequent pointer-move handlers; consider a Web Worker when processing very large datasets.
 
 ## Troubleshooting

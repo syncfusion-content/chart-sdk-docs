@@ -65,7 +65,7 @@ document.getElementById('openDialog').onclick = function () {
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/dialog-cs1" %}
 
-## Lifecycle and responsive behavior
+## Life cycle and responsive behavior
 
 - Create the Chart after the Dialog opens when the hidden container cannot provide reliable dimensions.
 - Call `chart.refresh()` after reopening or resizing the Dialog.

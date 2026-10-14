@@ -110,7 +110,7 @@ The [opacity](https://ej2.syncfusion.com/documentation/api/chart/series#opacity)
 
 ## Area border
 
-Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width and color, and dasharray of the area series. Border sub-properties include [`border.color`](https://ej2.syncfusion.com/documentation/api/chart/border#color), [`border.width`](https://ej2.syncfusion.com/documentation/api/chart/border#width) and [`border.dashArray`](https://ej2.syncfusion.com/documentation/api/chart/border#dasharray).
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width and color, and dash array of the area series. Border sub-properties include [`border.color`](https://ej2.syncfusion.com/documentation/api/chart/border#color), [`border.width`](https://ej2.syncfusion.com/documentation/api/chart/border#width) and [`border.dashArray`](https://ej2.syncfusion.com/documentation/api/chart/border#dasharray).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

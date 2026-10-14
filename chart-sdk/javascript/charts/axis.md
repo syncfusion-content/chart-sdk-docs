@@ -12,16 +12,16 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Axis in JavaScript Chart control
 
-Chart typically has two axes, which are used to measure and categorize data: a horizontal or primary x-axis and a vertical or primary y-axis.
+Chart typically has two axis, which are used to measure and categorize data: a horizontal or primary x axis and a vertical or primary y axis.
 
-Vertical axes support numerical and logarithmic scales. Horizontal axes support the following types of scales:
+Vertical axis supports numerical and logarithmic scale. Horizontal axis supports the following types of scale.
 
 * Category
 * Numeric
 * DateTime
 * Logarithmic
 
-In addition to this, both vertical and horizontal axes support inversed axis.
+In addition to this, both vertical and horizontal axis support inversed axis.
 
 <!-- markdownlint-disable MD036 -->
 
@@ -29,7 +29,7 @@ In addition to this, both vertical and horizontal axes support inversed axis.
 
 <!-- markdownlint-disable MD036 -->
 
-Category axes are used to represent string values instead of numbers.
+Category axis are used to represent, the string values instead of numbers.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -44,7 +44,7 @@ Category axes are used to represent string values instead of numbers.
 
 **Positioning Axis Labels**
 
-By default, category labels are placed between the ticks in an axis, this can also be placed on ticks using [`labelPlacement`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#labelplacement) property.
+By default, category labels are placed between the ticks in an axis, this can also be placed on ticks using [`labelPlacement`](../api/chart/axis/#labelplacement) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -57,7 +57,7 @@ By default, category labels are placed between the ticks in an axis, this can al
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs25" %}
 
->Note: To use category axis, we need to inject `Category` module using `Chart.Inject(Category)` method and set the [`valueType`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#valuetype) of axis to Category.
+>Note: To use category axis, we need to inject `Category` module using `Chart.Inject(Category)` method and set the [`valueType`](../api/chart/axis/#valuetype) of axis to Category.
 
 ## Numeric Axis
 
@@ -76,7 +76,8 @@ You can use numeric axis to represent numeric values of data in chart. By defaul
 
 **Customize Numeric Range**
 
-Range of an axis will be calculated automatically based on the provided data. You can also customize the range of the axis using [`minimum`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#minimum), [`maximum`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#maximum) and [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#interval) properties.
+Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) property of
+the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -91,7 +92,7 @@ Range of an axis will be calculated automatically based on the provided data. Yo
 
 **Apply Padding to the Range**
 
-Padding can be applied to the minimum and maximum extremes of an axis range by using the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) property. Numeric axis supports the following types of padding.
+Padding can be applied to the minimum and maximum extremes of an axis range by using the [`rangePadding`](../api/chart/axis/#rangepadding) property. Numeric axis supports the following types of padding.
 
 * None
 * Round
@@ -101,7 +102,7 @@ Padding can be applied to the minimum and maximum extremes of an axis range by u
 
 **Numeric - None**
 
-When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) is set to `None`, minimum and maximum of the axis is based on the data.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `None`, minimum and maximum of the axis is based on the data.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -116,7 +117,7 @@ When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/ap
 
 **Numeric - Round**
 
-When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 3.5 and the interval is 1, then the minimum will be rounded to 3.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 3.5 and the interval is 1, then the minimum will be rounded to 3.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -131,7 +132,7 @@ When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/ap
 
 **Numeric - Additional**
 
-When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -146,7 +147,7 @@ When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/ap
 
 **Numeric - Normal**
 
-When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) is set to `Normal`, padding is applied to the axis based on default range calculation.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Normal`, padding is applied to the axis based on default range calculation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -161,7 +162,7 @@ When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/ap
 
 **Numeric - Auto**
 
-When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) is set to `Auto`, horizontal numeric axis takes None as padding calculation, while the vertical numeric axis takes Normal as padding calculation.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Auto`, horizontal numeric axis takes None as padding calculation, while the vertical numeric axis takes Normal as padding calculation.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -176,7 +177,7 @@ When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/ap
 
 ## DateTime Axis
 
-DateTime axis uses datetime scale and displays datetime values as axis labels in the specified format.
+Date time axis uses date time scale and displays the date time values as axis labels in the specified format.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -189,9 +190,9 @@ DateTime axis uses datetime scale and displays datetime values as axis labels in
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs33" %}
 
-**Customizing DateTime Range**
+**Customizing Date Time Range**
 
-Range of an axis will be calculated automatically based on the provided data. You can also customize the range of the axis using [`minimum`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#minimum), [`maximum`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#maximum) and [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#interval) properties.
+Range of an axis will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) property of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -204,10 +205,10 @@ Range of an axis will be calculated automatically based on the provided data. Yo
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs34" %}
 
-**DateTime Intervals**
+**Date Time Intervals**
 
-DateTime intervals can be customized by using the [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#interval) and [`intervalType`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#intervaltype) properties of the axis. For example, when you set interval as 2 and intervalType as years, it considers 2 years as interval.
-DateTime axis supports the following interval types:
+Date time intervals can be customized by using the [`interval`](./../api/chart/axis/#interval) and [`intervalType`](../api/chart/axis/#intervaltype) properties of the axis. For example, when you set interval as 2 and intervalType as years, it considers 2 years as interval.
+Datetime axis supports following interval types,
 
 * Auto
 * Years
@@ -230,15 +231,15 @@ DateTime axis supports the following interval types:
 
 **Applying Padding to the Range**
 
-Padding can be applied to the minimum and maximum extremes of the range by using the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) property. DateTime axis supports the following types of padding:
+Padding can be applied to the minimum and maximum extremes of the range by using the [`rangePadding`](../api/chart/axis/#rangepadding) property. Date time axis supports the following types of padding,
 
 * None
 * Round
 * Additional
 
-**DateTime - None**
+**Datetime - None**
 
-When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) is set to `None`, minimum and maximum of an axis is based on the data.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `None`, minimum and maximum of an axis is based on the data.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -251,9 +252,9 @@ When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/ap
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs36" %}
 
-**DateTime - Round**
+**Datetime - Round**
 
-When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 15th January, interval is 1 and the interval type is 'month', then the axis minimum will be January 1st.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 15th Jan, interval is 1 and the interval type is ‘month’, then the axis minimum will be Jan 1st.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -266,9 +267,9 @@ When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/ap
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs37" %}
 
-**DateTime - Additional**
+**Datetime - Additional**
 
-When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -281,7 +282,7 @@ When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/ap
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs38" %}
 
->Note: To use datetime axis, we need to inject DateTime using `Chart.Inject(DateTime)` method and set the [`valueType`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#valuetype) of axis to DateTime.
+>Note: To use datetime axis, we need to inject DateTime using `Chart.Inject(DateTime)` method and set the [`valueType`](../api/chart/axis/#valuetype) of axis to DateTime.
 
 <!-- markdownlint-disable MD033 -->
 
@@ -304,7 +305,7 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing dat
 
 **Customize Logarithmic Range**
 
-Range of an axis will be calculated automatically based on the provided data. You can also customize the range of an axis using [`minimum`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#minimum), [`maximum`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#maximum) and [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#interval) properties.
+Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of an axis using [`minimum`](../api/chart/axis/#minimum),[`maximum`](../api/chart/axis/#maximum) and [`interval`](./../api/chart/axis/#interval) property of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -319,7 +320,7 @@ Range of an axis will be calculated automatically based on the provided data. Yo
 
 **Logarithmic Base**
 
-Logarithmic base can be customized by using the [`logBase`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#logbase) property of the axis. For example when the logBase is 5, the axis values follows 5<sup>-2</sup>, 5<sup>-1</sup>, 5<sup>0</sup>, 5<sup>1</sup>, 5<sup>2</sup> etc.
+Logarithmic base can be customized by using the [`logBase`](../api/chart/axis/#logbase) property of the axis. For example when the logBase is 5, the axis values follows 5<sup>-2</sup>, 5<sup>-1</sup>, 5<sup>0</sup>, 5<sup>1</sup>, 5<sup>2</sup> etc.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -334,7 +335,7 @@ Logarithmic base can be customized by using the [`logBase`](https://ej2.syncfus
 
 **Logarithmic Interval**
 
-Logarithmic axis interval can be customized by using the [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#interval) property of the axis. When the logarithmic base is 10 and logarithmic interval is 2, then the axis labels are placed at an interval of 10<sup>2</sup>. The default value of the interval is 1.
+Logarithmic axis interval can be customized by using the [`interval`](./../api/chart/axis/#interval) property of the axis. When the logarithmic base is 10 and logarithmic interval is 2, then the axis labels are placed at an interval of 10<sup>2</sup>. The default value of the interval is 1.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -347,13 +348,13 @@ Logarithmic axis interval can be customized by using the [`interval`](https://ej
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs42" %}
 
->Note: To use log axis, we need to inject `Logarithmic` using method `Chart.Inject(Logarithmic)` and set the [`valueType`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#valuetype) of axis to `Logarithmic`.
+>Note: To use log axis, we need to inject `Logarithmic` using method `Chart.Inject(Logarithmic)` and set the [`valueType`](../api/chart/axis/#valuetype) of axis to `Logarithmic`.
 
 ## Inversed Axis
 
 <!-- markdownlint-disable MD033 -->
 
-When an axis is inversed, highest value of the axis comes closer to origin and vice versa. To place an axis in inversed manner set this property [`isInversed`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#isinversed) to true.
+When an axis is inversed, highest value of the axis comes closer to origin and vice versa. To place an axis in inversed manner set this property [`isInversed`](../api/chart/axis/#isinversed) to true.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -370,7 +371,7 @@ When an axis is inversed, highest value of the axis comes closer to origin and v
 
 **Numeric Label Format**
 
-Numeric labels can be formatted by using the [`labelFormat`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#labelformat) property. Numeric labels supports all globalize format.
+Numeric labels can be formatted by using the [`labelFormat`](../api/chart/axis/#labelformat) property. Numeric labels supports all globalize format.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -445,7 +446,7 @@ The following table describes the result of applying some commonly used label fo
 
 **DateTime Label Format**
 
-You can format and parse the date to all globalize format using [`labelFormat`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#labelformat) property in an axis.
+You can format and parse the date to all globalize format using [`labelFormat`](../api/chart/axis/#labelformat) property in an axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -502,7 +503,7 @@ The following table describes the result of applying some common date time forma
 
 **Custom Label Format**
 
-Axis also supports custom label format using placeholders like {value}°C, in which the value represents the axis label (e.g., 20°C).
+Axis also supports custom label format using placeholder like {value}°C, in which the value represent the axis label e.g 20°C.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -519,7 +520,7 @@ Axis also supports custom label format using placeholders like {value}°C, in wh
 
 **Axis Title**
 
-You can add a title to the axis using [`title`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#title) property to provide quick information to the user about the data plotted in the axis.
+You can add a title to the axis using [`title`](../api/chart/axis/#title) property to provide quick information to the user about the data plotted in the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -534,7 +535,7 @@ You can add a title to the axis using [`title`](https://ej2.syncfusion.com/javas
 
 **Label Customization**
 
-The [`labelStyle`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#labelstyle) property of an axis provides options to customize the `color`, `font-family`, `font-size` and `font-weight` of the axis labels.
+The [`labelStyle`](../api/chart/axis/#labelstyle) property of an axis provides options to customize the `color`, `font-family`, `font-size` and `font-weight` of the axis labels.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -549,7 +550,7 @@ The [`labelStyle`](https://ej2.syncfusion.com/javascript/documentation/api/char
 
 **Edge Label Placement**
 
-Labels with long text at the edges of an axis may appear partially in the chart. To avoid this, use [`edgeLabelPlacement`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#edgelabelplacement) property in axis, which moves the label inside the chart area for better appearance or hides it.
+Labels with long text at the edges of an axis may appear partially in the chart. To avoid this, use [`edgeLabelPlacement`](../api/chart/axis/#edgelabelplacement) property in axis, which moves the label inside the chart area for better appearance or hides it.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -564,7 +565,7 @@ Labels with long text at the edges of an axis may appear partially in the chart.
 
 **Grid Lines Customization**
 
-You can customize the `width`, `color` and `dashArray` of the minor and major grid lines, using [`majorGridLines`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#majorgridlines) and [`minorGridLines`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#minorgridlines) properties in the axis.
+You can customize the `width`, `color` and `dashArray` of the minor and major grid lines, using [`majorGridLines`](../api/chart/axis/#majorgridlines) and [`minorGridLines`](../api/chart/axis/#minorgridlines) properties in the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -579,7 +580,7 @@ You can customize the `width`, `color` and `dashArray` of the minor and maj
 
 **Tick Lines Customization**
 
-You can customize the  `width`, `color` and `size` of the minor and major tick lines, using [`majorTickLines`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#majorticklines) and [`minorTickLines`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#minorticklines) properties in the axis.
+You can customize the  `width`, `color` and `size` of the minor and major tick lines, using [`majorTickLines`](../api/chart/axis/#majorticklines) and [`minorTickLines`](../api/chart/axis/#minorticklines) properties in the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -594,7 +595,7 @@ You can customize the  `width`, `color` and `size` of the minor and major 
 
 **Place Axes at the Opposite Side**
 
-To place an axis opposite from its original position, set [`opposedPosition`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#opposedposition) property of the axis to true.
+To place an axis opposite from its original position, set [`opposedPosition`](../api/chart/axis/#opposedposition) property of the axis to true.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -624,7 +625,7 @@ In addition to primary X and Y axis, we can add n number of axis to the chart. S
 
 ## Smart Axis Labels
 
-When the axis labels overlap with each other, you can use [`labelIntersectAction`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#labelintersectaction) property in the axis, to place them smartly.
+When the axis labels overlap with each other, you can use [`labelIntersectAction`](../api/chart/axis/#labelintersectaction) property in the axis, to place them smartly.
 
 When setting `labelIntersectAction` as `Hide`
 

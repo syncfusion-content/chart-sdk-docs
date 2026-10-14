@@ -104,7 +104,7 @@ The [`annotations`](https://ej2.syncfusion.com/documentation/api/chart#annotatio
 
 ## Trendlines
 
-The [`trendlines`](https://ej2.syncfusion.com/documentation/api/chart/trendlines/) collection displays trends in the data. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/trendlineModel#accessibility) properties in each trendline can be customized:
+The [`trendlines`](https://ej2.syncfusion.com/documentation/api/chart/trendlines) collection displays trends in the data. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/trendlineModel#accessibility) properties in each trendline can be customized:
 
 * [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the trendline, enhancing support for screen readers.
 * [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the trendline, helping screen readers to identify the element appropriately.
@@ -183,16 +183,6 @@ The [`legendSettings`](https://ej2.syncfusion.com/documentation/api/chart#legend
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs487" %}
-
-## Accessibility role values
-
-The `accessibilityRole` property accepts the standard WAI-ARIA string values for `role`. The most common values for the chart are:
-
-* `img` - Exposes the element as a non-interactive image (the default for the chart and most data points).
-* `region` - Exposes the element as a navigable region of related content (useful for the chart root, trendlines, indicators, and the legend).
-* `button` - Exposes the element as an interactive control (useful for the zoom toolkit and the chart when it is focusable).
-
-Refer to the [WAI-ARIA roles](https://www.w3.org/TR/wai-aria-1.2#role_definitions) specification for the complete list of valid values.
 
 ## Right-to-left support
 

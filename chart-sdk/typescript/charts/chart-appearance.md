@@ -24,8 +24,8 @@ The chart supports various CSS color formats for customization:
 - **Hex**: `"#E94649"`, `"#F6B53F"`  
 - **RGB**: `"rgb(233, 70, 73)"`, `"rgb(246, 181, 63)"`  
 - **RGBA**: `"rgba(233, 70, 73, 0.5)"`  
-- **HSL**: `"hsl(0, 79%, 60%)"`  
-- **HWB**: `"hwb(0 9% 8%)"`  
+- **HSL**: `"HSL(0, 79%, 60%)"`  
+- **HWB**: `"HWB(0 9% 8%)"`  
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

@@ -63,7 +63,6 @@ Use tooltip inline `format` when plain text with supported placeholders is suffi
 - The `template` value must be a selector that matches an existing template element.
 - A template can include additional static labels, styles, and supported point values.
 - Keep template IDs unique when a page contains multiple Charts.
-- Do not insert unsanitized user-controlled HTML into the tooltip template.
 - When the data requires custom conversion or conditional text, combine the template with preformatted data fields or use `tooltipRender` where appropriate.
 
 ## Troubleshooting
@@ -71,7 +70,7 @@ Use tooltip inline `format` when plain text with supported placeholders is suffi
 - If the tooltip does not appear, verify that `tooltip.enable` is `true`.
 - If the default tooltip appears, verify that `tooltip.template` exactly matches the template element ID.
 - If `${x}` or `${y}` appears as literal text, verify that the template is assigned through the Chart tooltip configuration and is not rendered directly as normal page content.
-- If the tooltip is unstyled, verify that the template CSS is loaded and that its selectors match the template classes.
+- If the tooltip is incorrectly styled, verify that the template CSS is loaded and that its selectors match the template classes.
 - If values are undefined, verify that `xName` and `yName` match fields in the series data source.
 
 ## See also

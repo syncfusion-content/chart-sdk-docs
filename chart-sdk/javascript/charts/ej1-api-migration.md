@@ -1004,7 +1004,7 @@ let chart: Chart = new Chart({
 </tr>
 
 <tr>
-<td><b>Color of the positive bars in Macd indicators</b></td>
+<td><b>Color of the positive bars in MACD indicators</b></td>
 <td>
 Not applicable
 </td>
@@ -1021,7 +1021,7 @@ let chart: Chart = new Chart({
 </tr>
 
 <tr>
-<td><b>Color of the negative bars in Macd indicators</b></td>
+<td><b>Color of the negative bars in MACD indicators</b></td>
 <td>
 Not applicable
 </td>
@@ -9072,7 +9072,7 @@ chart.appendTo('#chart');
 <tr>
 <td><b>Backward forecast for  trendLines</b></td>
 <td>
-<b>Property</b>:<i>trendLines.backwardforecast</i>
+<b>Property</b>:<i>trendLines.backwardForecast</i>
 </br>
 </br>
 <code>
@@ -9082,7 +9082,7 @@ $("#chart").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>trendLines.backwardforecast</i>
+<b>Property</b>:<i>trendLines.backwardForecast</i>
 </br>
 </br>
 <code>
@@ -9430,7 +9430,7 @@ chart.appendTo('#chart');
 </tr>
 
 <tr>
-<td><b>StartfromAxis for stripline</b></td>
+<td><b>startFromAxis for stripline</b></td>
 <td>
 <b>Property</b>:<i>stripLines.startFromAxis</i>
 </br>
@@ -10342,12 +10342,12 @@ Not applicable
 Not Applicable
 </td>
 <td>
-<b>Property</b>:<i>chartmouseUp</i>
+<b>Property</b>:<i>chartMouseUp</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    chartmouseUp: () => {
+    chartMouseUp: () => {
     }
 });
 chart.appendTo('#chart');
@@ -10361,12 +10361,12 @@ chart.appendTo('#chart');
 Not Applicable
 </td>
 <td>
-<b>Property</b>:<i>chartmouseDown</i>
+<b>Property</b>:<i>chartMouseDown</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    chartmouseDown: () => {
+    chartMouseDown: () => {
     }
 });
 chart.appendTo('#chart');
@@ -11160,10 +11160,10 @@ chart.appendTo('#chart');
 $("#chart").ejChart({
     zooming: {
         enable: true,
-        enabledeferredZoom: true,
+        enableDeferredZoom: true,
         enablePinch: true,
         enableMouseWheel: true,
-        enableSrollBar: true,
+        enableScrollBar: true,
         toolBarItems: [],
         type: 'X'
 

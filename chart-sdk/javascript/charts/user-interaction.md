@@ -3,7 +3,8 @@ layout: post
 title: User interaction in JavaScript Chart control | Syncfusion
 description: Learn here all about User interaction in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart
+control: User interaction 
+publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -13,17 +14,15 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 <!-- markdownlint-disable MD036 -->
 
-> This page is retained for backward compatibility. The current documentation is split across [Tooltip in JavaScript Charts](./tool-tip), [Selection in JavaScript Charts](./selection), [Zooming in JavaScript Charts](./zooming), and [Crosshair and trackball in JavaScript Charts](./cross-hair-and-track-ball).
-
 ## Tooltip
 
 <!-- markdownlint-disable MD036 -->
 
-The chart displays details about a data point through a tooltip when the mouse is moved over the point.
+Chart will display details about the points through tooltip, when the mouse is moved over the point.
 
 **Enable Tooltip for Data Point**
 
-By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/chart/tooltipSettings#enable) property to true and by injecting `Tooltip` module using `Chart.Inject(Tooltip)`.
+By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/chart/tooltipSettings/#enable) property to true and by injecting `Tooltip` module using `Chart.Inject(Tooltip)`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -72,7 +71,7 @@ Any HTML elements can be displayed in the tooltip by using the ‘template’ pr
 
 **Customize the Appearance of Tooltip**
 
-The [`fill`](../api/chart/tooltipSettings#fill) and [`border`](../api/chart/tooltipSettings#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/chart/tooltipSettings#textstyle) property in the tooltip is used to customize the font of the tooltip text.
+The [`fill`](../api/chart/tooltipSettings/#fill) and [`border`](../api/chart/tooltipSettings/#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/chart/tooltipSettings/#textstyle) property in the tooltip is used to customize the font of the tooltip text.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -91,9 +90,9 @@ The [`fill`](../api/chart/tooltipSettings#fill) and [`border`](../api/chart/tool
 
 Chart can be zoomed in three ways.
 
-* Selection - By setting [`enableSelectionZooming`](../api/chart/zoomSettingsModel#enableselectionzooming) property to true in `zoomSettings`, you can zoom the chart by using the rubber band selection.
-* Mouse wheel - By setting [`enableMouseWheelZooming`](../api/chart/zoomSettingsModel#enablemousewheelzooming) property to true in `zoomSettings`, you can zoom in and zoom out the chart by scrolling the mouse wheel.
-* Pinch - By setting [`enablePinchZooming`](../api/chart/zoomSettingsModel#enablepinchzooming) property to true in `zoomSettings`, you can zoom the chart through a pinch gesture on touch-enabled devices.
+* Selection - By setting [`enableSelectionZooming`](../api/chart/zoomSettingsModel/#enableselectionzooming) property to true in `zoomSettings`, you can zoom the chart by using the rubber band selection.
+* Mousewheel - By setting [`enableMouseWheelZooming`](../api/chart/zoomSettingsModel/#enablemousewheelzooming) property to true in `zoomSettings`, you can zoomin and zoomout the chart by scrolling the mouse wheel.
+* Pinch - By setting  [`enablePinchZooming`](../api/chart/zoomSettingsModel/#enablepinchzooming) property to true in `zoomSettings`, you can   zoom the chart through pinch gesture in touch enabled devices.
 
 >Pinch zooming is supported only in browsers that support multi-touch gestures. Currently IE11, Chrome and Opera browsers support multi-touch in desktop devices.
 
@@ -112,7 +111,7 @@ After zooming the chart, a zooming toolbar will appear with `zoom`,`zoomin`, `zo
 
 **Modes of Zooming**
 
-The [`mode`](../api/chart/zoomSettingsModel#mode) property in zoomSettings specifies whether the chart is allowed to scale along the horizontal axis or vertical axis. The default value of the mode is XY (both axis).
+The [`mode`](../api/chart/zoomSettingsModel/#mode) property in zoomSettings specifies whether the chart is allowed to scale along the horizontal axis or vertical axis. The default value of the mode is XY (both axis).
 
 There are three types of mode.
 
@@ -133,7 +132,7 @@ There are three types of mode.
 
 **Customizing Zooming Toolbar**
 
-By default, `ZoomIn`, `ZoomOut`, `Pan`, and `Reset` buttons are displayed for a zoomed chart. You can customize the tools shown in the toolbar using the [`toolbarItems`](../api/chart/zoomSettingsModel#toolbaritems) property. The default value is `["ZoomIn", "ZoomOut", "Pan", "Reset"]`.
+By default, zoomin, zoomout, pan and reset buttons will be displayed for zoomed chart. You can customize to show your desire tools in the toolbar using [`toolbarItems`](../api/chart/zoomSettingsModel/#toolbaritems) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -154,7 +153,7 @@ Crosshair has a vertical and horizontal line to view the value of the axis at mo
 
 **Enable Crosshair**
 
-Crosshair lines can be enabled by setting the [`enable`](../api/chart/crosshairSettingsModel#enable) property in the `crosshairSettings`. The tooltip label for an axis can be enabled by setting the [`enable`](../api/chart/crosshairTooltipModel#enable) property of `crosshairTooltip` in the corresponding axis.
+Crosshair lines can be enabled by using [`enable`](../api/chart/crosshairSettingsModel/#enable) property in the `crosshair`. Likewise tooltip label for an axis can be enabled by using [`enable`](../api/chart/crosshairTooltipModel/#enable) property of `crosshairTooltip` in the corresponding axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -169,7 +168,7 @@ Crosshair lines can be enabled by setting the [`enable`](../api/chart/crosshairS
 
 **Customization**
 
-The [`fill`](../api/chart/crosshairTooltipModel#fill) and [`textStyle`](../api/chart/crosshairTooltipModel#textstyle) properties of the `crosshairTooltip` are used to customize the background color and font style of the crosshair label, respectively. The color and width of the crosshair line can be customized by using the [`line`](../api/chart/crosshairSettingsModel#line) property in the `crosshairSettings`.
+The [`fill`](../api/chart/crosshairTooltipModel/#fill) and [`textStyle`](../api/chart/crosshairTooltipModel/#textstyle) prop property of the `crosshairTooltip` is used to customize the background color and font style of the crosshair label respectively. Color and width of the crosshair line can be customized by using the [`line`](../api/chart/crosshairSettingsModel/#line) property in the crosshair.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -189,8 +188,8 @@ The [`fill`](../api/chart/crosshairTooltipModel#fill) and [`textStyle`](../api/c
 Trackball is used to track a data point closest to the mouse or touch position. Trackball marker indicates the closest point and trackball tooltip displays the information about the point. To use trackball feature, we need to inject `Crosshair` module and `Tooltip` module using
 `Chart.Inject(Crosshair, Tooltip)`.
 
-Trackball can be enabled by setting the [`enable`](../api/chart/crosshairSettingsModel#enable) property of the crosshair to true and
-[`shared`](../api/chart/tooltipSettingsModel#shared) property in `tooltip` to true in chart.
+Trackball can be enabled by setting the [`enable`](../api/chart/crosshairSettingsModel/#enable) property of the crosshair to true and
+[`shared`](../api/chart/tooltipSettingsModel/#shared) property in `tooltip` to true in chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -272,7 +271,7 @@ To fetch a collection of data under a particular region, you have to set `select
 * DragX - Allow us to select data with respect to horizontal axis.
 * DragY - Allow us to select data with respect to vertical axis.
 
-The selected data’s are returned as an array collection in the [`dragComplete`](../api/chart/chartModel#dragcomplete) event.
+The selected data’s are returned as an array collection in the [`dragComplete`](../api/chart/chartModel/#dragcomplete) event.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -287,7 +286,8 @@ The selected data’s are returned as an array collection in the [`dragComplete`
 
 **Selection Type**
 
-You can select multiple points or series by enabling the [`isMultiSelect`](../api/chart/chartModel#ismultiselect) property. To use this property, set [`selectionMode`](../api/chart/chartModel#selectionmode) to `Point`, `Series`, or `Cluster`.
+You can select multiple points or series, by enabling the [`isMultiSelect`](../api/chart/chartModel/#ismultiselect)
+property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -302,7 +302,7 @@ You can select multiple points or series by enabling the [`isMultiSelect`](../ap
 
 **Customizing Selection Style**
 
-You can apply custom style to selected points or series with [`selectionStyle`](../api/chart/series#selectionstyle) property.
+You can apply custom style to selected points or series with [`selectionStyle`](../api/chart/series/#selectionstyle) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -317,7 +317,7 @@ You can apply custom style to selected points or series with [`selectionStyle`](
 
 **Selection on Load**
 
-You can select a point or series programmatically on a chart using the [`selectedDataIndexes`](../api/chart/chartModel#selecteddataindexes) property.
+You can able to select a point or series programmatically on a chart using [`selectedDataIndexes`](../api/chart/chartModel/#selecteddataindexes) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -329,10 +329,3 @@ You can select a point or series programmatically on a chart using the [`selecte
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs38" %}
-
-## See also
-
-* [Tooltip in JavaScript Charts](./tool-tip)
-* [Selection in JavaScript Charts](./selection)
-* [Zooming in JavaScript Charts](./zooming)
-* [Crosshair and trackball in JavaScript Charts](./cross-hair-and-track-ball)

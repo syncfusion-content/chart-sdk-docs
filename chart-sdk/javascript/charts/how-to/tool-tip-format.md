@@ -64,7 +64,7 @@ This formatting is also available through the tooltip's inline `format` property
 ## Troubleshooting
 
 - If no tooltip appears, verify that `tooltip.enable` is `true` and Tooltip support is available in the loaded EJ2 ES5 bundle.
-- If the date is invalid, verify that `args.point.x` contains a valid Date, timestamp, or parseable date value.
+- If the date is invalid, verify that `args.point.x` contains a valid Date, timestamp, or valid date value.
 - If the tooltip shows only the date, append the point value or series name when both are required.
 - If formatting does not follow the expected locale, configure and load the required localization data before creating the Chart.
 - If the axis uses DateTime values but labels are incorrect, verify that `primaryXAxis.valueType` is `DateTime`.

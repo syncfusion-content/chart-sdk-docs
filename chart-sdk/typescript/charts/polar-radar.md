@@ -71,7 +71,7 @@ To render a area draw type, use series [`drawType`](https://ej2.syncfusion.com/d
 
 #### Stacked area
 
-To render a stacked area draw type, use series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `StackingArea` and inject `StackingAreaSeries` moduleusing `Chart.Inject(StackingAreaSeries)` method.
+To render a stacked area draw type, use series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `StackingArea` and inject `StackingAreaSeries` module using `Chart.Inject(StackingAreaSeries)` method.
  
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
