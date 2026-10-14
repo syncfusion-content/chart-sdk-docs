@@ -19,7 +19,7 @@
     "@angular/common": "21.2.22",
     "@angular/compiler": "21.2.22",
     "@angular/forms": "21.2.22",
-    "@angular/router": "21.2.22",
+    "@angular/router": "21.2.24",
     "moment": "2.29.4",
     "rxjs": "7.8.0",
     "tslib": "2.3.0",
