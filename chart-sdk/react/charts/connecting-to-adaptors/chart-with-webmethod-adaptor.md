@@ -29,7 +29,7 @@ For standard REST APIs that do not need the `value` wrapper, `UrlAdaptor` may be
 
 Example request format:
 
-```json
+```
 {
   "value": {
     "requiresCounts": true,
@@ -44,7 +44,7 @@ The server should return a response that includes `result` and `count`.
 
 Example response format:
 
-```json
+```
 {
   "result": [
     {
@@ -73,7 +73,7 @@ Before starting, install the following:
 
 The completed sample uses the following structure:
 
-```text
+```
 ChartWebMethodAdaptor/
 ├── server/
 │   ├── Controllers/
@@ -98,7 +98,7 @@ ChartWebMethodAdaptor/
 
 Open Visual Studio Code, open a terminal, and create the project folder.
 
-```bash
+```
 mkdir ChartWebMethodAdaptor
 cd ChartWebMethodAdaptor
 dotnet new webapi -n server
@@ -110,7 +110,7 @@ Delete the default `WeatherForecastController.cs` and `WeatherForecast.cs` files
 
 Install the Syncfusion ASP.NET Core package.
 
-```bash
+```
 dotnet add package Syncfusion.EJ2.AspNet.Core
 ```
 
@@ -118,13 +118,13 @@ dotnet add package Syncfusion.EJ2.AspNet.Core
 
 Open the following file:
 
-```text
+```
 server/Program.cs
 ```
 
 Replace the file content with the following configuration.
 
-```csharp
+```
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -160,11 +160,11 @@ app.Run();
 
 Create a `Models` folder and add the following file:
 
-```text
+```
 server/Models/SalesData.cs
 ```
 
-```csharp
+```
 namespace server.Models
 {
     public class SalesData
@@ -183,11 +183,11 @@ This model provides the data fields used by the Chart series.
 
 Create a `Controllers` folder and add the following file:
 
-```text
+```
 server/Controllers/ChartDataController.cs
 ```
 
-```csharp
+```
 using Microsoft.AspNetCore.Mvc;
 using Syncfusion.EJ2.Base;
 using server.Models;
@@ -274,13 +274,13 @@ namespace server.Controllers
 
 Run the backend project.
 
-```bash
+```
 dotnet run
 ```
 
 Open the API URL in the browser.
 
-```text
+```
 http://localhost:5143/api/ChartData
 ```
 
@@ -292,7 +292,7 @@ The browser should display JSON data.
 
 Go back to the root folder and create the React project using Vite.
 
-```bash
+```
 cd ..
 npm create vite@latest client -- --template react
 cd client
@@ -303,7 +303,7 @@ npm install
 
 Install the required Syncfusion packages.
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 ```
 
@@ -313,13 +313,13 @@ The Chart component uses `@syncfusion/ej2-react-charts`, and DataManager with `W
 
 Open the following file:
 
-```text
+```
 client/src/App.jsx
 ```
 
 Replace the file content with the Chart component that uses DataManager and `WebMethodAdaptor`:
 
-```jsx
+```
 import React from "react";
 import {
   ChartComponent,
@@ -438,13 +438,13 @@ export default App;
 
 Run the dev server:
 
-```bash
+```
 npm run dev
 ```
 
 Open the Vite URL in your browser. Vite defaults to `http://localhost:5173`, but if that port is in use it will pick the next available one (for example `http://localhost:5175`).
 
-```text
+```
 http://localhost:5173
 ```
 

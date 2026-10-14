@@ -53,7 +53,7 @@ Recommended Visual Studio Code extensions:
 
 The React Chart does not directly use a static local array. Instead, the chart uses a Syncfusion `DataManager` instance as the data source. The `UrlAdaptor` posts request details to the Django REST endpoint. The backend reads the request body, applies optional sorting and paging, and returns JSON data.
 
-```text
+```
 React Syncfusion Chart
         |
         | DataManager + UrlAdaptor
@@ -73,7 +73,7 @@ The backend returns monthly sales and expenses data. The React Chart displays th
 
 ### Step 0: Project structure
 
-```text
+```
 Django REST with HTTP Post/
 │
 ├── backend/
@@ -95,34 +95,34 @@ Django REST with HTTP Post/
 
 ### Step 1: Create the backend folder
 
-```cmd
+```
 mkdir backend
 cd backend
 ```
 
 ### Step 2: Create and activate a virtual environment
 
-```cmd
+```
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
 For macOS or Linux:
 
-```bash
+```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
 ### Step 3: Install required backend packages
 
-```cmd
+```
 pip install django djangorestframework django-cors-headers
 ```
 
 ### Step 4: Create the Django project and application
 
-```cmd
+```
 django-admin startproject chart_backend .
 python manage.py startapp sales
 ```
@@ -411,7 +411,7 @@ urlpatterns = [
 
 The final backend API endpoint is:
 
-```text
+```
 http://localhost:8000/api/sales/
 ```
 
@@ -450,14 +450,14 @@ class MonthlySalesAdmin(admin.ModelAdmin):
 
 ### Step 1: Create and apply migrations
 
-```cmd
+```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
 ### Step 2: Add sample data using Django shell
 
-```cmd
+```
 python manage.py shell
 ```
 
@@ -493,7 +493,7 @@ exit()
 
 Expected output:
 
-```text
+```
 12
 ```
 
@@ -503,7 +503,7 @@ Expected output:
 
 Open a new terminal from the project root folder and create a Vite React TypeScript application.
 
-```cmd
+```
 npm create vite@latest frontend -- --template react-ts
 cd frontend
 npm install
@@ -513,7 +513,7 @@ npm install
 
 ## Install Syncfusion React Chart packages
 
-```cmd
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 ```
 
@@ -525,7 +525,7 @@ Ensure that you include the required Syncfusion styles in your `index.css` file 
 
 Create a `DataManager` instance and point it to the Django REST API endpoint. The `crossDomain: true` flag is required only when the frontend is served from a different origin than the API (which is the normal case during local development).
 
-```tsx
+```
 const chartDataManager = new DataManager({
   url: "http://localhost:8000/api/sales/",
   adaptor: new UrlAdaptor(),
@@ -535,7 +535,7 @@ const chartDataManager = new DataManager({
 
 The `query` option can be used to request a specific number of records and sort the result. UrlAdaptor reads `query.take`, `query.skip`, and `query.sorted` from the request body, so prefer `take` / `skip` / `sortBy` on `Query` rather than mutating the result locally.
 
-```tsx
+```
 const chartQuery = new Query()
   .take(12)
   .skip(0)
@@ -550,8 +550,7 @@ Open `frontend/src/App.tsx` and replace the content with the following chart com
 
 **`frontend/src/App.tsx`**
 
-{% raw %}
-```tsx
+```
 import React from "react";
 
 import {
@@ -658,11 +657,10 @@ const App: React.FC = () => {
 
 export default App;
 ```
-{% endraw %}
 
 **`frontend/src/main.tsx`**
 
-```tsx
+```
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -705,13 +703,13 @@ Start the backend **first** so the API is reachable when the frontend boots.
 
 From the `backend` folder (with the virtual environment activated):
 
-```cmd
+```
 python manage.py runserver
 ```
 
 You should see Django log lines such as:
 
-```text
+```
 Watching for file changes with StatReloader
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
@@ -719,13 +717,13 @@ Quit the server with CTRL-BREAK.
 
 Sanity-check the endpoint in a browser:
 
-```text
+```
 http://localhost:8000/api/sales/
 ```
 
 A valid response contains a `result` array and `count`, for example:
 
-```json
+```
 {
   "result": [{ "id": 1, "month": "Jan", "sales": 35, "expenses": 20 }],
   "count": 12
@@ -738,13 +736,13 @@ If the page returns `404`, confirm that you registered the `api/` URL include in
 
 Open a **second terminal** from the `frontend` folder and start the Vite dev server:
 
-```cmd
+```
 npm run dev
 ```
 
 Vite prints the local URL, for example:
 
-```text
+```
 Local: http://localhost:5173/
 ```
 
@@ -773,13 +771,13 @@ Use the following command to verify that the Django API accepts POST request dat
 
 **Windows Command Prompt**
 
-```cmd
+```
 curl -X POST http://localhost:8000/api/sales/ -H "Content-Type: application/json" -d "{\"skip\":0,\"take\":5,\"requiresCounts\":true}"
 ```
 
 **macOS or Linux**
 
-```bash
+```
 curl -X POST http://localhost:8000/api/sales/ \
   -H "Content-Type: application/json" \
   -d '{"skip":0,"take":5,"requiresCounts":true}'
@@ -787,7 +785,7 @@ curl -X POST http://localhost:8000/api/sales/ \
 
 Expected response:
 
-```json
+```
 {
   "result": [
     {

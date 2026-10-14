@@ -16,7 +16,7 @@ In this example, the React Chart gets monthly sales data from an ASP.NET Core We
 
 ## Project structure
 
-```text
+```
 ReactChartUrlAdaptor/
 |-- client/                         # React frontend application
 |   |-- src/
@@ -57,7 +57,7 @@ The backend project uses the following NuGet package versions:
 
 Open Visual Studio Code and create a root project folder.
 
-```bash
+```
 mkdir ReactChartUrlAdaptor
 cd ReactChartUrlAdaptor
 mkdir server
@@ -72,7 +72,7 @@ The backend API reads chart data from the database and returns it to the React C
 
 Navigate to the `server` folder and create a Web API project.
 
-```bash
+```
 cd server
 dotnet new webapi
 ```
@@ -81,7 +81,7 @@ dotnet new webapi
 
 Install the required packages in the `server` project. The `Syncfusion.EJ2.AspNet.Core` package is required because it provides the `DataManagerRequest` type used by the controller.
 
-```bash
+```
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.0
 dotnet add package Syncfusion.EJ2.AspNet.Core
@@ -93,11 +93,11 @@ dotnet add package Syncfusion.EJ2.AspNet.Core
 
 Create the following file:
 
-```text
+```
 server/Models/SalesRecord.cs
 ```
 
-```csharp
+```
 using System.ComponentModel.DataAnnotations;
 
 namespace server.Models
@@ -122,11 +122,11 @@ This model represents the data displayed in the chart.
 
 Create the following file:
 
-```text
+```
 server/Data/AppDbContext.cs
 ```
 
-```csharp
+```
 using Microsoft.EntityFrameworkCore;
 using server.Models;
 
@@ -150,13 +150,13 @@ The database context is used by Entity Framework Core to access the `SalesRecord
 
 Open the following file:
 
-```text
+```
 server/Program.cs
 ```
 
 Replace the existing content with the following code.
 
-```csharp
+```
 using Microsoft.EntityFrameworkCore;
 using server.Data;
 using server.Models;
@@ -225,11 +225,11 @@ CORS is enabled because the React frontend and the ASP.NET Core backend usually 
 
 Create the following file:
 
-```text
+```
 server/Controllers/SalesController.cs
 ```
 
-```csharp
+```
 using Microsoft.AspNetCore.Mvc;
 using server.Data;
 using Syncfusion.EJ2.Base;
@@ -278,7 +278,7 @@ namespace server.Controllers
 
 The `Post` action receives the `DataManagerRequest` from the Syncfusion `DataManager`. The API returns the data in the following structure:
 
-```json
+```
 {
   "result": [
     {
@@ -298,7 +298,7 @@ The `result` property contains the chart data, and the `count` property contains
 
 Run the following commands from the `server` folder.
 
-```bash
+```
 dotnet clean
 dotnet restore
 dotnet build
@@ -307,13 +307,13 @@ dotnet run
 
 The backend application runs on a URL similar to:
 
-```text
+```
 http://localhost:5150
 ```
 
 The chart data endpoint is:
 
-```text
+```
 http://localhost:5150/api/sales
 ```
 
@@ -327,7 +327,7 @@ The frontend application uses the Syncfusion React Chart component and binds the
 
 Open a new terminal from the project root folder and create the React application in the `client` folder.
 
-```bash
+```
 cd client
 npm create vite@latest . -- --template react
 npm install
@@ -337,7 +337,7 @@ npm install
 
 Install the required Syncfusion packages in the `client` project.
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 ```
 
@@ -345,13 +345,13 @@ npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 
 Open the following file:
 
-```text
+```
 client/src/App.jsx
 ```
 
 Replace the existing content with the following code.
 
-```jsx
+```
 import React from 'react';
 import {
   ChartComponent,
@@ -436,7 +436,7 @@ In the above example, `DataManager` uses `UrlAdaptor` to access the `/api/sales`
 
 Start the Vite dev server. The first run installs dependencies from `package.json`.
 
-```bash
+```
 npm run dev
 ```
 
@@ -448,13 +448,13 @@ You can use the Syncfusion `Query` class with `DataManager` to request a limited
 
 Update the import in `client/src/App.jsx`.
 
-```jsx
+```
 import { DataManager, UrlAdaptor, Query } from '@syncfusion/ej2-data';
 ```
 
 Then attach a query to the chart series.
 
-```jsx
+```
 <SeriesDirective
   dataSource={chartData}
   query={new Query().take(5)}
@@ -477,7 +477,7 @@ Check whether the backend API is running and whether the URL in `client/src/App.
 
 Verify that the API returns data in the following format:
 
-```json
+```
 {
   "result": [ ... ],
   "count": 6

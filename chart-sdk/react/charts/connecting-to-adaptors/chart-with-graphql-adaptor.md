@@ -15,7 +15,7 @@ The React Chart can load data from a [GraphQL](https://graphql.org/learn/) endpo
 
 [GraphQL](https://graphql.org/learn/introduction/) is a query language that lets applications request exactly the data they need. A GraphQL endpoint accepts a single `POST` request that contains a query and returns only the requested fields in a `data` envelope:
 
-```json
+```
 { "data": { "getSalesData": { "result": [ ... ] } } }
 ```
 
@@ -57,7 +57,7 @@ Workflow:
 
 The `DataManager` is created once at module scope and passed directly to the `SeriesDirective`:
 
-```javascript
+```
 import { DataManager, GraphQLAdaptor } from '@syncfusion/ej2-data';
 
 const dataManager = new DataManager({
@@ -91,7 +91,7 @@ Key options:
 
 The `DataManager` is then passed to the series `dataSource`. The Chart issues the query and re-renders when the response arrives — no `useState` or `useEffect` is required:
 
-```jsx
+```
 <ChartComponent
   id="sales-chart"
   title="Monthly Sales Revenue"
@@ -168,7 +168,7 @@ The sample is split into a small Node.js GraphQL server and a Create React App c
 
 ### Server (`chart-graphql-server/server.js`)
 
-```javascript
+```
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const { buildSchema } = require('graphql');
@@ -220,7 +220,7 @@ app.listen(4000, () => {
 
 ### Client (`chart-client/src/App.js`)
 
-```javascript
+```
 import React, { useEffect, useState } from 'react';
 
 import {
@@ -307,7 +307,7 @@ export default App;
 
 From the project root, open two terminals:
 
-```bash
+```
 # Terminal 1
 cd chart-graphql-server
 node server.js
