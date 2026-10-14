@@ -43,12 +43,12 @@ Below is the list of dependencies required to use the Chart.
 
 ## Quick Setup
 
-### Step 1: Open Command Prompt
+### Step 1: Open the Command Prompt
 
-Open the command prompt and navigate to the directory where you want to create the project.
+Open a command-line application and navigate to the directory where you want to create the project.
 
-* **For Windows**: Open Command Prompt (cmd) or PowerShell and use the `cd` command to navigate to your desired directory.
-* **For macOS/Linux**: Open Terminal and use the `cd` command to navigate to your desired directory.
+* **For Windows**: Open Command Prompt or PowerShell and navigate to the desired directory.
+* **For macOS/Linux**: Open Terminal and navigate to the desired directory.
 
 ### Step 2: Clone the Quickstart Repository
 

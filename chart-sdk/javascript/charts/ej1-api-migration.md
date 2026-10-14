@@ -11180,7 +11180,7 @@ let chart: Chart = new Chart({
  zoomSettings: {
      enable: true,
      enablePinchZooming: true,
-     enableDefferedZooming: true
+     enableDeferredZooming: true
      enableMouseWheelZooming: true,
      enableSelectionZooming: true,
      enableScrollBar: true

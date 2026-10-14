@@ -104,7 +104,7 @@ The [`annotations`](https://ej2.syncfusion.com/documentation/api/chart#annotatio
 
 ## Trendlines
 
-The [`trendlines`](https://ej2.syncfusion.com/documentation/api/chart/trendlines) collection displays trends in the data. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/trendlineModel#accessibility) properties in each trendline can be customized:
+The [`trendlines`](https://ej2.syncfusion.com/documentation/api/chart/trendline) collection displays trends in the data. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/trendlineModel#accessibility) properties in each trendline can be customized:
 
 * [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the trendline, enhancing support for screen readers.
 * [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the trendline, helping screen readers to identify the element appropriately.

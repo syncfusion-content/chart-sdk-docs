@@ -82,7 +82,7 @@ Avoid switching to all original points based only on a hard-coded `zoomFactor`. 
 
 The Chart renders all source points. This preserves the complete dataset but can increase rendering time and visual density.
 
-![Chart rendering the complete dataset before down sampling](images/Before_down sampling.png)
+![Chart rendering the complete dataset before down sampling](images/Before_downsampling.png)
 
 ### After down sampling
 

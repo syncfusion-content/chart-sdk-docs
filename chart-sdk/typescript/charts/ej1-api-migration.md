@@ -9082,7 +9082,7 @@ $("#chart").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>trendLines.backwardforecast</i>
+<b>Property</b>:<i>trendLines.backwardForecast</i>
 </br>
 </br>
 <code>
@@ -11180,7 +11180,7 @@ let chart: Chart = new Chart({
  zoomSettings: {
      enable: true,
      enablePinchZooming: true,
-     enableDefferedZooming: true
+     enableDeferredZooming: true
      enableMouseWheelZooming: true,
      enableSelectionZooming: true,
      enableScrollBar: true

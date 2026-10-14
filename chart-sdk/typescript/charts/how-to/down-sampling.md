@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# How to downsample data in TypeScript Charts
+# How to down sample data in TypeScript Charts
 
 Down sampling reduces the number of points rendered from a larger source dataset while preserving the overall visual shape. In this example, the source contains 2,000 points and the Largest-Triangle-Three-Buckets (LTTB) algorithm reduces the rendered dataset to approximately 400 representative points.
 
