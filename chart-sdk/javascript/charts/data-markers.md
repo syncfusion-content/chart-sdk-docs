@@ -111,5 +111,5 @@ Enable the [`isFilled`](https://ej2.syncfusion.com/javascript/documentation/api/
 
 ## See also
 
-* [Customize the marker with different shape](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/marker-customization/#customize-the-marker-with-different-shape)
+* [Customize the marker with different shape](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/marker-customization#customize-the-marker-with-different-shape)
 * [Change the Cursor to a Pointer on Series Markers](https://support.syncfusion.com/kb/article/21473/how-to-change-the-cursor-to-a-pointer-on-series-markers-in-javascript-charts)

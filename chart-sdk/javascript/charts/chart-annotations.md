@@ -98,5 +98,5 @@ You can add a subtitle to the chart y-axis by setting an HTML div element in the
 
 ## See also
 
-* [Show total stacking values in data label](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/stacking-total/#show-the-total-value-for-stacking-series-in-data-label)
-* [Create footer and watermark for chart](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/footer/#create-footer-and-watermark-for-chart)
+* [Show total stacking values in data label](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/stacking-total#show-the-total-value-for-stacking-series-in-data-label)
+* [Create footer and watermark for chart](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/footer#create-footer-and-watermark-for-chart)

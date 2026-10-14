@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Series labels in TypeScript Charts | Syncfusion
-description: Learn how to display and customize inline series labels in the Syncfusion JavaScript Chart control.
+description: Learn here all about Series label in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Charts 
 documentation: ug

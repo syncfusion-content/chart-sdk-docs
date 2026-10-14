@@ -169,7 +169,7 @@ The following list describes common issues you may encounter when working with t
 
 **Field mappings produce empty high/low lines:** Confirm the data item fields match the series [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#high), and [`low`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#low) values. Mismatched field names silently produce empty points.
 
-**Gradient fill does not apply:** Confirm the SVG `<defs>` block defines a gradient with a unique `id`, and that the series `fill` property uses the exact same id in `url(#gradientId)`. Mismatched ids, missing `<defs>`, or unsanitized id values cause the chart to fall back to the default fill.
+**Gradient fill does not apply:** Confirm the SVG `<defs>` block defines a gradient with a unique `id`, and that the series `fill` property uses the exact same id in `url(#gradientId)`. Mismatched ids, missing `<defs>`, or invalid id values cause the chart to fall back to the default fill.
 
 **Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between segments. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
 

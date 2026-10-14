@@ -111,7 +111,7 @@ The [`opacity`](https://ej2.syncfusion.com/documentation/api/chart/series#opacit
 
 ### Border
 
-Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width, color, and dasharray of the spline area series.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the spline area series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

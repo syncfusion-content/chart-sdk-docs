@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # How to visualize Grid records in JavaScript Charts
 
-Use the Grid [`getCurrentViewRecords`](https://ej2.syncfusion.com/javascript/documentation/api/grid/grid#getcurrentviewrecords) method to retrieve the records in the current Grid view and assign them to the Chart series `dataSource`. Update the Chart after Grid paging so both controls display the same records
+Use the Grid [`getCurrentViewRecords`](https://ej2.syncfusion.com/javascript/documentation/api/grid#getcurrentviewrecords) method to retrieve the records in the current Grid view and assign them to the Chart series `dataSource`. Update the Chart after Grid paging so both controls display the same records
 
 ## Initialize the Grid and Chart
 
@@ -71,7 +71,7 @@ For remote Grid data, update the Chart only after the Grid request succeeds and 
 ## See also
 
 - [Visualize filtered Grid records in a Pie Chart](./grid-data-pie)
-- [Grid API](https://ej2.syncfusion.com/javascript/documentation/api/grid/grid)
+- [Grid API](https://ej2.syncfusion.com/javascript/documentation/api/grid)
 - [Working with Chart data](../working-with-data)
 - [Dynamic data update](../dynamic-data-update)
 - [Getting started](../es5-getting-started)

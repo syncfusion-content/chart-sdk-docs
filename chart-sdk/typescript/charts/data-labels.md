@@ -287,5 +287,5 @@ Customize the appearance using properties such as `font`, `background`, `border`
 
 ## See also
 
-* [Show total stacking values in data label](https://ej2.syncfusion.com/documentation/chart/how-to/stacking-total/)
-* [Prevent the data label when the data value is 0](https://ej2.syncfusion.com/documentation/chart/how-to/prevent-data-label/#prevent-the-data-label-when-the-data-value-is-0)
+* [Show total stacking values in data label](https://ej2.syncfusion.com/documentation/chart/how-to/stacking-total)
+* [Prevent the data label when the data value is 0](https://ej2.syncfusion.com/documentation/chart/how-to/prevent-data-label#prevent-the-data-label-when-the-data-value-is-0)

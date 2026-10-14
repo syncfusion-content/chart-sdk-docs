@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to show or hide a series on legend click in TypeScript Charts | Syncfusion
+title: How to show series on legend click in TypeScript Charts | Syncfusion
 description: Learn here all about Series visible in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Charts

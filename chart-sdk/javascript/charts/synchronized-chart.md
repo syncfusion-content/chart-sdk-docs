@@ -15,7 +15,7 @@ Synchronized charts share interactions across multiple Chart instances. An inter
 
 ## Tooltip synchronization
 
-Enable the tooltip in every synchronized Chart. Use the [`showTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#showtooltip) method to display a tooltip in the target Charts and the [`hideTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#hidetooltip) method to hide it when the pointer leaves the active Chart.
+Enable the tooltip in every synchronized Chart. Use the [`showTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/chart#showtooltip) method to display a tooltip in the target Charts and the [`hideTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/chart#hidetooltip) method to hide it when the pointer leaves the active Chart.
 
 The `showTooltip` method accepts the following values:
 
@@ -37,7 +37,7 @@ When synchronized Charts use different axis ranges or dimensions, convert the so
 
 ## Crosshair synchronization
 
-Enable crosshair support in every synchronized Chart. Use the [`showCrosshair`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#showcrosshair) method to display the crosshair in the target Charts and the [`hideCrosshair`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#hidecrosshair) method when the pointer leaves the active Chart.
+Enable crosshair support in every synchronized Chart. Use the [`showCrosshair`](https://ej2.syncfusion.com/javascript/documentation/api/chart#showcrosshair) method to display the crosshair in the target Charts and the [`hideCrosshair`](https://ej2.syncfusion.com/javascript/documentation/api/chart#hidecrosshair) method when the pointer leaves the active Chart.
 
 Convert pointer coordinates when the synchronized Charts have different plot-area dimensions. To display values beside the axes, enable the axis [`crosshairTooltip`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axismodel#crosshairtooltip) setting separately.
 

@@ -137,4 +137,4 @@ Event arguments:
 
 ## See also
 
-* [Tooltip in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/tool-tip/)
+* [Tooltip in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/tool-tip)

@@ -15,7 +15,7 @@ appliesto: UI Component Suite, Chart SDK
 
 The Candle series, similar to the HiLo Open Close series, is used to represent the low, high, open, and closing prices over time. It is commonly used in financial charts to visualize stock price movements.
 
-To render a [`candle`](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/candle-chart) series in your chart, configure the chart as follows:
+To render a [`candle`](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/stock-chart) series in your chart, configure the chart as follows:
  
 * **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) as `Candle` in your chart configuration. Renders the data as a candle chart, showing the high, low, open, and close prices for each period.
 

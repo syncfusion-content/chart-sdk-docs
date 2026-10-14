@@ -95,5 +95,5 @@ Enable click-based data point management. Listen to the [`chartMouseClick`](http
 
 ## See also
 
-* [Working with data in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/working-with-data/)
-* [User interaction in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/user-interaction/)
+* [Working with data in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/working-with-data)
+* [User interaction in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/user-interaction)

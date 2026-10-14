@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to display selected data in a Grid in TypeScript Charts | Syncfusion
+title: How to display selected data in TypeScript Charts | Syncfusion
 description: Learn how to display data points selected by dragging over a Syncfusion TypeScript Chart in a Grid control.
 platform: chart-sdk
 control: Charts

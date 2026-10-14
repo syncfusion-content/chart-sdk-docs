@@ -62,7 +62,7 @@ For example, when the logarithmic base is set to `5`, the axis values follow the
 
 ## Logarithmic Interval
 
-The spacing between logarithmic axis labels can be controlled using the [`interval`](https://ej2.syncfusion.com/documentation/api/api/chart/axis#interval) property. This property defines the step size between consecutive logarithmic values.
+The spacing between logarithmic axis labels can be controlled using the [`interval`](https://ej2.syncfusion.com/documentation/api/chart/axis#interval) property. This property defines the step size between consecutive logarithmic values.
 
 For example, when the logarithmic base is `10` and the interval is `2`, the axis labels are placed every two exponents (for example, 10<sup>0</sup>, 10<sup>2</sup>, 10<sup>4</sup>, 10<sup>6</sup>). The default value of the interval is `1`.
 

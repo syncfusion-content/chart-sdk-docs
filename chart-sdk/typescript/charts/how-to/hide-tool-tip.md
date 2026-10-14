@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to hide tooltips for unselected series in TypeScript Charts | Syncfusion
+title: How to hide tooltip in TypeScript Charts | Syncfusion
 description: Learn how to cancel tooltip rendering for unselected series in the Syncfusion TypeScript Chart control.
 platform: chart-sdk
 control: Charts

@@ -98,12 +98,12 @@ chart.appendTo('#element');
 | Module | Description |
 |------|-------------|
 | [`StripLine`](https://ej2.syncfusion.com/documentation/api/chart/stripLine) | Inject this module to use the strip line feature. |
-| [`Trendlines`](https://ej2.syncfusion.com/documentation/api/chart/trendlines) | Inject this module to use the trendline feature. |
+| [`Trendlines`](https://ej2.syncfusion.com/documentation/api/chart#trendlinemodule) | Inject this module to use the trendline feature. |
 | [`DataLabel`](https://ej2.syncfusion.com/documentation/api/chart/dataLabel) | Inject this module to use the data label feature on series points. |
 | [`ChartAnnotation`](https://ej2.syncfusion.com/documentation/api/chart/chartAnnotation) | Inject this module to use the annotation feature. |
-| [`Legend`](https://ej2.syncfusion.com/documentation/api/chart/legend) | Inject this module to use the legend feature. |
-| [`Tooltip`](https://ej2.syncfusion.com/documentation/api/chart/tooltip) | Inject this module to use the chart-level tooltip feature. This is separate from the data-label tooltip rendered on a series point. |
-| [`Zoom`](https://ej2.syncfusion.com/documentation/api/chart/zoom) | Inject this module to use the zooming and panning feature. |
+| [`Legend`](https://ej2.syncfusion.com/documentation/api/chart/legendsettings) | Inject this module to use the legend feature. |
+| [`Tooltip`](https://ej2.syncfusion.com/documentation/api/chart/tooltipsettings) | Inject this module to use the chart-level tooltip feature. This is separate from the data-label tooltip rendered on a series point. |
+| [`Zoom`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings) | Inject this module to use the zooming and panning feature. |
 | [`DataEditing`](https://ej2.syncfusion.com/documentation/api/chart/dataEditing) | Inject this module to use the data editing feature. |
 | [`Crosshair`](https://ej2.syncfusion.com/documentation/api/chart/crosshair) | Inject this module to use the crosshair and trackball feature. |
 | [`Selection`](https://ej2.syncfusion.com/documentation/api/chart/selection) | Inject this module to use the selection feature on series points. |

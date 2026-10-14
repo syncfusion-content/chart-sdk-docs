@@ -54,7 +54,7 @@ The sample aggregates records by `CustomerName` so repeated customers appear as 
 - `dataBound` synchronizes the initial Grid view with the Pie Chart.
 - `actionComplete` synchronizes completed paging, filtering, sorting, searching, and refresh operations.
 - `getCurrentViewRecords()` returns the records in the current Grid view, not necessarily the complete filtered dataset across every page.
-- If the Pie Chart must represent all filtered records rather than only the current page, obtain the complete filtered result from the Grid data source or backend instead of relying only on `getCurrentViewRecords()`.
+- If the Pie Chart must represent all filtered records rather than only the current page, obtain the complete filtered result from the Grid data source or back end instead of relying only on `getCurrentViewRecords()`.
 
 ## Data and lifecycle considerations
 
@@ -76,7 +76,7 @@ The sample aggregates records by `CustomerName` so repeated customers appear as 
 ## See also
 
 - [Visualize Grid records in a Cartesian Chart](./grid-data-chart)
-- [Grid API](https://ej2.syncfusion.com/javascript/documentation/api/grid/grid)
+- [Grid API](https://ej2.syncfusion.com/javascript/documentation/api/grid)
 - [Pie Chart](../chart-types/pie)
 - [Working with data](../working-with-data)
 - [Getting started](../es5-getting-started)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to display stacking series totals in JavaScript Charts | Syncfusion
+title: How to display stacking series total in JavaScript Charts | Syncfusion
 description: Learn here all about Stacking total in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart

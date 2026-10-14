@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to hide tooltips for unselected series in JavaScript Charts | Syncfusion
+title: How to hide tooltip in JavaScript Charts | Syncfusion
 description: Learn how to cancel tooltip rendering for unselected series in the Syncfusion JavaScript Chart control.
 platform: chart-sdk
 control: Chart

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to show a Chart in a Dialog in TypeScript Charts | Syncfusion
-description: Learn how to initialize and display a Syncfusion TypeScript Chart inside a Dialog control.
+description: Learn here all about Dialog chart in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Charts
 documentation: ug
@@ -81,7 +81,6 @@ document.getElementById('openDialog').onclick = function () {
 
 ## See also
 
-- [JavaScript Dialog control](https://ej2.syncfusion.com/javascript/documentation/dialog/getting-started)
 - [Chart dimensions](../chart-dimensions)
 - [Responsive Chart](../responsive)
 - [Chart Getting Started](../getting-started)

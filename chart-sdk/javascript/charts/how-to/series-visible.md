@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to show or hide a series on legend click in JavaScript Charts | Syncfusion
+title: How to show series on legend click in JavaScript Charts | Syncfusion
 description: Learn here all about Series visible in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart

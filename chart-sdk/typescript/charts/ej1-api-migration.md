@@ -31,7 +31,7 @@ This article describes the API migration process of the Chart component from Ess
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -334,7 +334,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -434,13 +434,13 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
 
 <tr>
-<td><b>commonSeriesOptios</b></td>
+<td><b>commonSeriesOptions</b></td>
 <td>
 <b>Property</b>:<i>commonSeriesOptions </i>
 </br>
@@ -463,7 +463,7 @@ $("#container").ejChart({
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -569,7 +569,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -631,7 +631,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -659,7 +659,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -1369,7 +1369,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -1876,7 +1876,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -3587,7 +3587,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -5298,7 +5298,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -7010,7 +7010,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -7110,7 +7110,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -8927,7 +8927,7 @@ Not Applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -9304,13 +9304,13 @@ Not Applicable.
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
 
 <tr>
-<td><b>Default behaviour for striplines</b></td>
+<td><b>Default behavior for striplines</b></td>
 <td>
 <b>Property</b>:<i>primaryXAxis.stripLines</i>
 </br>
@@ -9597,13 +9597,13 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
 
 <tr>
-<td><b>Default behaviour for multilevelLabels</b></td>
+<td><b>Default behavior for multilevelLabels</b></td>
 <td>
 <b>Property</b>:<i>primaryXAxis.multilevelLabels</i>
 </br>
@@ -9627,7 +9627,7 @@ chart.appendTo('#chart');
 </tr>
 
 <tr>
-<td><b>Default behaviour for multilevelLabels</b></td>
+<td><b>Default behavior for multilevelLabels</b></td>
 <td>
 <b>Property</b>:<i>primaryXAxis.multilevelLabels</i>
 </br>
@@ -9849,7 +9849,7 @@ Not applicable. Categories are used
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -10002,7 +10002,7 @@ chart.removeSeries();
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -11097,7 +11097,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>

@@ -23,7 +23,7 @@ The chart displays details about a data point through a tooltip when the mouse i
 
 **Enable Tooltip for Data Point**
 
-By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/chart/tooltipSettings/#enable) property to true and by injecting `Tooltip` module using `Chart.Inject(Tooltip)`.
+By default, tooltip is not visible. Enable the tooltip by setting [`enable`](../api/chart/tooltipSettings#enable) property to true and by injecting `Tooltip` module using `Chart.Inject(Tooltip)`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -72,7 +72,7 @@ Any HTML elements can be displayed in the tooltip by using the ‘template’ pr
 
 **Customize the Appearance of Tooltip**
 
-The [`fill`](../api/chart/tooltipSettings/#fill) and [`border`](../api/chart/tooltipSettings/#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/chart/tooltipSettings/#textstyle) property in the tooltip is used to customize the font of the tooltip text.
+The [`fill`](../api/chart/tooltipSettings#fill) and [`border`](../api/chart/tooltipSettings#border) properties are used to customize the background color and border of the tooltip respectively. The [`textStyle`](../api/chart/tooltipSettings#textstyle) property in the tooltip is used to customize the font of the tooltip text.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -112,7 +112,7 @@ After zooming the chart, a zooming toolbar will appear with `zoom`,`zoomin`, `zo
 
 **Modes of Zooming**
 
-The [`mode`](../api/chart/zoomSettingsModel/#mode) property in zoomSettings specifies whether the chart is allowed to scale along the horizontal axis or vertical axis. The default value of the mode is XY (both axis).
+The [`mode`](../api/chart/zoomSettingsModel#mode) property in zoomSettings specifies whether the chart is allowed to scale along the horizontal axis or vertical axis. The default value of the mode is XY (both axis).
 
 There are three types of mode.
 
@@ -189,8 +189,8 @@ The [`fill`](../api/chart/crosshairTooltipModel#fill) and [`textStyle`](../api/c
 Trackball is used to track a data point closest to the mouse or touch position. Trackball marker indicates the closest point and trackball tooltip displays the information about the point. To use trackball feature, we need to inject `Crosshair` module and `Tooltip` module using
 `Chart.Inject(Crosshair, Tooltip)`.
 
-Trackball can be enabled by setting the [`enable`](../api/chart/crosshairSettingsModel/#enable) property of the crosshair to true and
-[`shared`](../api/chart/tooltipSettingsModel/#shared) property in `tooltip` to true in chart.
+Trackball can be enabled by setting the [`enable`](../api/chart/crosshairSettingsModel#enable) property of the crosshair to true and
+[`shared`](../api/chart/tooltipSettingsModel#shared) property in `tooltip` to true in chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -272,7 +272,7 @@ To fetch a collection of data under a particular region, you have to set `select
 * DragX - Allow us to select data with respect to horizontal axis.
 * DragY - Allow us to select data with respect to vertical axis.
 
-The selected data’s are returned as an array collection in the [`dragComplete`](../api/chart/chartModel/#dragcomplete) event.
+The selected data’s are returned as an array collection in the [`dragComplete`](../api/chart/chartModel#dragcomplete) event.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -302,7 +302,7 @@ You can select multiple points or series by enabling the [`isMultiSelect`](../ap
 
 **Customizing Selection Style**
 
-You can apply custom style to selected points or series with [`selectionStyle`](../api/chart/series/#selectionstyle) property.
+You can apply custom style to selected points or series with [`selectionStyle`](../api/chart/series#selectionstyle) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

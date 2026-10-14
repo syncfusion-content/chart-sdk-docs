@@ -95,7 +95,7 @@ The [`shape`](https://ej2.syncfusion.com/documentation/api/chart/markerSettings#
 
 ### Border
 
-Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width, color, and dasharray of the scatter series.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the scatter series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

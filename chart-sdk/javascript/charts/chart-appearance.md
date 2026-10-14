@@ -183,4 +183,4 @@ Fluid animation provides a smooth transition when the series data is updated. In
 
 ## See also
 
-* [Customize the series points using patterns](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/points-customization/#customize-the-series-points-by-using-patterns)
+* [Customize the series points using patterns](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/points-customization#customize-the-series-points-by-using-patterns)

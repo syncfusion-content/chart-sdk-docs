@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to show a Chart in a Dialog in JavaScript Charts | Syncfusion
-description: Learn how to initialize and display a Syncfusion JavaScript Chart inside a Dialog control.
+description: Learn here all about Dialog chart in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
 documentation: ug
@@ -63,7 +63,7 @@ document.getElementById('openDialog').onclick = function () {
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/dialog-cs1" %}
 
-## Lifecycle and responsive behavior
+## Life cycle and responsive behavior
 
 - Create the Chart after the Dialog opens when the hidden container cannot provide reliable dimensions.
 - Call `chart.refresh()` after reopening or resizing the Dialog.
@@ -79,7 +79,6 @@ document.getElementById('openDialog').onclick = function () {
 
 ## See also
 
-- [JavaScript Dialog control](https://ej2.syncfusion.com/javascript/documentation/dialog/getting-started)
 - [Chart dimensions](../chart-dimensions)
 - [Responsive Chart](../responsive)
 - [Chart Getting Started](../es5-getting-started)

@@ -15,12 +15,12 @@ The TypeScript Chart control visualizes data graphically and provides accessibil
 
 ## Chart
 
-The chart exposes a top-level [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/#accessibility) object and additional focus and tab-order properties that are used to enhance support for screen readers. The following properties can be customized:
+The chart exposes a top-level [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart#accessibility) object and additional focus and tab-order properties that are used to enhance support for screen readers. The following properties can be customized:
 
-* [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/#accessibility) - Groups the chart-level accessibility options described below.
-* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilitydescription) - Provides a text description for the chart, improving support for screen readers. Defaults to `null`.
-* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilityrole) - Specifies the role of the chart, helping screen readers to identify the element appropriately.
-* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#focusable) - Specifies whether the chart can receive focus for keyboard navigation. Defaults to `false`.
+* [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart#accessibility) - Groups the chart-level accessibility options described below.
+* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the chart, improving support for screen readers. Defaults to `null`.
+* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the chart, helping screen readers to identify the element appropriately.
+* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#focusable) - Specifies whether the chart can receive focus for keyboard navigation. Defaults to `false`.
 * [`focusBorderColor`](https://ej2.syncfusion.com/documentation/api/chart#focusbordercolor) - Sets the color of the focus border, enhancing visibility when the chart is focused. Defaults to `null`. Applies only when the chart is focusable.
 * [`focusBorderMargin`](https://ej2.syncfusion.com/documentation/api/chart#focusbordermargin) - Defines the margin around the focus border. Defaults to `0`. Applies only when the chart is focusable.
 * [`focusBorderWidth`](https://ej2.syncfusion.com/documentation/api/chart#focusborderwidth) - Specifies the width of the focus border. Defaults to `1.5`. Applies only when the chart is focusable.
@@ -45,11 +45,11 @@ The following example sets a chart-level `accessibilityDescription`, enables `fo
 
 The [`series`](https://ej2.syncfusion.com/documentation/api/chart#series) property supports the customization of accessibility for data points. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#accessibility) properties in each series can be customized:
 
-* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel/#accessibilitydescription) - Provides a text description for the series root element, enhancing support for screen readers.
-* [`accessibilityDescriptionFormat`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel/#accessibilitydescriptionformat) - Specifies a format for the accessibility description of each point in the series, allowing dynamic content. The format string can include placeholders such as `${series.name}`, `${point.x}`, `${point.y}`, `${point.high}`, `${point.low}`, `${point.open}`, and `${point.close}`. For example, the format `` `${series.name} : ${point.x}` `` displays the series name and x-value of the point in the accessibility description. Values such as high, low, open, and close apply only to the corresponding series types.
-* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel/#accessibilityrole) - Specifies the role of the series, helping screen readers to identify the element appropriately.
-* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel/#focusable) - Specifies whether the series can receive focus for keyboard navigation.
-* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel/#tabindex) - Specifies the tab order of the series element, enabling efficient keyboard navigation.
+* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel#accessibilitydescription) - Provides a text description for the series root element, enhancing support for screen readers.
+* [`accessibilityDescriptionFormat`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel#accessibilitydescriptionformat) - Specifies a format for the accessibility description of each point in the series, allowing dynamic content. The format string can include placeholders such as `${series.name}`, `${point.x}`, `${point.y}`, `${point.high}`, `${point.low}`, `${point.open}`, and `${point.close}`. For example, the format `` `${series.name} : ${point.x}` `` displays the series name and x-value of the point in the accessibility description. Values such as high, low, open, and close apply only to the corresponding series types.
+* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel#accessibilityrole) - Specifies the role of the series, helping screen readers to identify the element appropriately.
+* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel#focusable) - Specifies whether the series can receive focus for keyboard navigation.
+* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/seriesAccessibilityModel#tabindex) - Specifies the tab order of the series element, enabling efficient keyboard navigation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -64,12 +64,12 @@ The [`series`](https://ej2.syncfusion.com/documentation/api/chart#series) proper
 
 ## Title and subtitle
 
-The [`titleStyle`](https://ej2.syncfusion.com/documentation/api/chart/#titlestyle) and [`subTitleStyle`](https://ej2.syncfusion.com/documentation/api/chart/#subtitlestyle) properties allow you to customize the accessibility of the chart's title and subtitle. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/titleSettingsModel/#accessibility) properties in [`titleStyle`](https://ej2.syncfusion.com/documentation/api/chart/#titlestyle) and [`subTitleStyle`](https://ej2.syncfusion.com/documentation/api/chart/#subtitlestyle) can be customized:
+The [`titleStyle`](https://ej2.syncfusion.com/documentation/api/chart#titlestyle) and [`subTitleStyle`](https://ej2.syncfusion.com/documentation/api/chart#subtitlestyle) properties allow you to customize the accessibility of the chart's title and subtitle. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/titleSettingsModel#accessibility) properties in [`titleStyle`](https://ej2.syncfusion.com/documentation/api/chart#titlestyle) and [`subTitleStyle`](https://ej2.syncfusion.com/documentation/api/chart#subtitlestyle) can be customized:
 
-* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilitydescription) - Provides a text description for the chart title and subtitle, enhancing support for screen readers.
-* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilityrole) - Specifies the role of the chart title and subtitle, helping screen readers to identify the element appropriately.
-* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#focusable) - Specifies whether the title and subtitle can receive focus for keyboard navigation.
-* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#tabindex) - Specifies the tab order of the title and subtitle element, enabling efficient keyboard navigation.
+* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the chart title and subtitle, enhancing support for screen readers.
+* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the chart title and subtitle, helping screen readers to identify the element appropriately.
+* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#focusable) - Specifies whether the title and subtitle can receive focus for keyboard navigation.
+* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#tabindex) - Specifies the tab order of the title and subtitle element, enabling efficient keyboard navigation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -84,12 +84,12 @@ The [`titleStyle`](https://ej2.syncfusion.com/documentation/api/chart/#titlestyl
 
 ## Annotations
 
-The [`annotations`](https://ej2.syncfusion.com/documentation/api/chart/#annotations) property adds text or content to specific regions of the chart. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/chartAnnotationSettingsModel/#accessibility) properties in each annotation can be customized:
+The [`annotations`](https://ej2.syncfusion.com/documentation/api/chart#annotations) property adds text or content to specific regions of the chart. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/chartAnnotationSettingsModel#accessibility) properties in each annotation can be customized:
 
-* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilitydescription) - Provides a text description for the annotation, enhancing support for screen readers.
-* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilityrole) - Specifies the role of the annotation, helping screen readers to identify the element appropriately.
-* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#focusable) - Specifies whether the annotation can receive focus for keyboard navigation.
-* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#tabindex) - Specifies the tab order of the annotation element, enabling efficient keyboard navigation.
+* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the annotation, enhancing support for screen readers.
+* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the annotation, helping screen readers to identify the element appropriately.
+* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#focusable) - Specifies whether the annotation can receive focus for keyboard navigation.
+* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#tabindex) - Specifies the tab order of the annotation element, enabling efficient keyboard navigation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -104,12 +104,12 @@ The [`annotations`](https://ej2.syncfusion.com/documentation/api/chart/#annotati
 
 ## Trendlines
 
-The [`trendlines`](https://ej2.syncfusion.com/documentation/api/chart/trendlines/) collection displays trends in the data. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/trendlineModel/#accessibility) properties in each trendline can be customized:
+The [`trendlines`](https://ej2.syncfusion.com/documentation/api/chart/trendlines/) collection displays trends in the data. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/trendlineModel#accessibility) properties in each trendline can be customized:
 
-* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilitydescription) - Provides a text description for the trendline, enhancing support for screen readers.
-* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilityrole) - Specifies the role of the trendline, helping screen readers to identify the element appropriately.
-* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#focusable) - Specifies whether the trendline can receive focus for keyboard navigation.
-* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#tabindex) - Specifies the tab order of the trendline element, enabling efficient keyboard navigation.
+* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the trendline, enhancing support for screen readers.
+* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the trendline, helping screen readers to identify the element appropriately.
+* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#focusable) - Specifies whether the trendline can receive focus for keyboard navigation.
+* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#tabindex) - Specifies the tab order of the trendline element, enabling efficient keyboard navigation.
 
 > Inject the `Trendlines` module with `Chart.Inject(Trendlines)` to use the trendline accessibility properties.
 
@@ -126,12 +126,12 @@ The [`trendlines`](https://ej2.syncfusion.com/documentation/api/chart/trendlines
 
 ## Zooming toolkit
 
-The [`zoomSettings`](https://ej2.syncfusion.com/documentation/api/chart/#zoomsettings) property configures the chart's zooming behavior. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/zoomSettingsModel/#accessibility) properties in [`zoomSettings`](https://ej2.syncfusion.com/documentation/api/chart/#zoomsettings) customize the zoom toolkit:
+The [`zoomSettings`](https://ej2.syncfusion.com/documentation/api/chart#zoomsettings) property configures the chart's zooming behavior. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/zoomSettingsModel#accessibility) properties in [`zoomSettings`](https://ej2.syncfusion.com/documentation/api/chart#zoomsettings) customize the zoom toolkit:
 
-* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilitydescription) - Provides a text description for the zoom toolkit items, enhancing support for screen readers.
-* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilityrole) - Specifies the role of the zoom toolkit items, helping screen readers to identify the element appropriately.
-* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#focusable) - Specifies whether the zoom toolkit items can receive focus for keyboard navigation.
-* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#tabindex) - Specifies the tab order of the zoom toolkit element, enabling efficient keyboard navigation.
+* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the zoom toolkit items, enhancing support for screen readers.
+* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the zoom toolkit items, helping screen readers to identify the element appropriately.
+* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#focusable) - Specifies whether the zoom toolkit items can receive focus for keyboard navigation.
+* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#tabindex) - Specifies the tab order of the zoom toolkit element, enabling efficient keyboard navigation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -146,12 +146,12 @@ The [`zoomSettings`](https://ej2.syncfusion.com/documentation/api/chart/#zoomset
 
 ## Technical indicators
 
-The [`indicators`](https://ej2.syncfusion.com/documentation/api/chart/#indicators) property analyzes trends and patterns in the data. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/technicalIndicatorModel/#accessibility) properties in each indicator can be customized:
+The [`indicators`](https://ej2.syncfusion.com/documentation/api/chart#indicators) property analyzes trends and patterns in the data. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/technicalIndicatorModel#accessibility) properties in each indicator can be customized:
 
-* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilitydescription) - Provides a text description for the indicators, enhancing support for screen readers.
-* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilityrole) - Specifies the role of the indicators, helping screen readers to identify the element appropriately.
-* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#focusable) - Specifies whether the indicators can receive focus for keyboard navigation.
-* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#tabindex) - Specifies the tab order of the indicators element, enabling efficient keyboard navigation.
+* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the indicators, enhancing support for screen readers.
+* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the indicators, helping screen readers to identify the element appropriately.
+* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#focusable) - Specifies whether the indicators can receive focus for keyboard navigation.
+* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#tabindex) - Specifies the tab order of the indicators element, enabling efficient keyboard navigation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -166,12 +166,12 @@ The [`indicators`](https://ej2.syncfusion.com/documentation/api/chart/#indicator
 
 ## Legend
 
-The [`legendSettings`](https://ej2.syncfusion.com/documentation/api/chart/#legendsettings) property provides information about the series shown in the chart. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/legendSettingsModel/#accessibility) properties in [`legendSettings`](https://ej2.syncfusion.com/documentation/api/chart/#legendsettings) customize the legend's accessibility:
+The [`legendSettings`](https://ej2.syncfusion.com/documentation/api/chart#legendsettings) property provides information about the series shown in the chart. The following [`accessibility`](https://ej2.syncfusion.com/documentation/api/chart/legendSettingsModel#accessibility) properties in [`legendSettings`](https://ej2.syncfusion.com/documentation/api/chart#legendsettings) customize the legend's accessibility:
 
-* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilitydescription) - Provides a text description for the legend root element, enhancing support for screen readers.
-* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#accessibilityrole) - Specifies the role of the legend items, helping screen readers to identify the element appropriately.
-* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#focusable) - Specifies whether the legend items can receive focus for keyboard navigation.
-* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel/#tabindex) - Specifies the tab order of the legend element, enabling efficient keyboard navigation.
+* [`accessibilityDescription`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilitydescription) - Provides a text description for the legend root element, enhancing support for screen readers.
+* [`accessibilityRole`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#accessibilityrole) - Specifies the role of the legend items, helping screen readers to identify the element appropriately.
+* [`focusable`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#focusable) - Specifies whether the legend items can receive focus for keyboard navigation.
+* [`tabIndex`](https://ej2.syncfusion.com/documentation/api/chart/accessibilityModel#tabindex) - Specifies the tab order of the legend element, enabling efficient keyboard navigation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -190,9 +190,9 @@ The `accessibilityRole` property accepts the standard WAI-ARIA string values for
 
 * `img` - Exposes the element as a non-interactive image (the default for the chart and most data points).
 * `region` - Exposes the element as a navigable region of related content (useful for the chart root, trendlines, indicators, and the legend).
-* `button` - Exposes the element as an activatable control (useful for the zoom toolkit and the chart when it is focusable).
+* `button` - Exposes the element as an interactive control (useful for the zoom toolkit and the chart when it is focusable).
 
-Refer to the [WAI-ARIA roles](https://www.w3.org/TR/wai-aria-1.2/#role_definitions) specification for the complete list of valid values.
+Refer to the [WAI-ARIA roles](https://www.w3.org/TR/wai-aria-1.2#role_definitions) specification for the complete list of valid values.
 
 ## Right-to-left support
 

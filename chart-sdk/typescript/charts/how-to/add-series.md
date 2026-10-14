@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to add or remove series in TypeScript Charts | Syncfusion
-description: Learn how to add and remove series dynamically in the Syncfusion TypeScript Chart control.
+description: Learn here all about Add series in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Add series 
 documentation: ug
@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # How to add or remove series in TypeScript Charts
 
-Use the Chart [`addSeries`](https://ej2.syncfusion.com/documentation/api/chart/chart#addseries) and [`removeSeries`](https://ej2.syncfusion.com/documentation/api/chart/chart#removeseries) methods to update the series collection dynamically.
+Use the Chart [`addSeries`](https://ej2.syncfusion.com/documentation/api/chart#addseries) and [`removeSeries`](https://ej2.syncfusion.com/documentation/api/chart#removeseries) methods to update the series collection dynamically.
 
 ## Add a series
 

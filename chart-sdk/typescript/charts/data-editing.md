@@ -39,4 +39,4 @@ These options control the visual feedback and the valid value range while editin
 
 ## See also
 
-* [User interaction in JavaScript Charts](https://ej2.syncfusion.com/documentation/chart/user-interaction/)
+* [User interaction in JavaScript Charts](https://ej2.syncfusion.com/documentation/chart/user-interaction)

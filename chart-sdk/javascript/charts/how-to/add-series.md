@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to add or remove series in JavaScript Charts | Syncfusion
-description: Learn how to add and remove series dynamically in the Syncfusion JavaScript Chart control.
+description: Learn how to dynamically add and remove series in the Syncfusion JavaScript Chart control at runtime using the addSeries and removeSeries methods.
 platform: chart-sdk
 control: Chart
 documentation: ug
@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # How to add or remove series in JavaScript Charts
 
-Use the Chart [`addSeries`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#addseries) and [`removeSeries`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chart#removeseries) methods to update the series collection dynamically.
+Use the Chart [`addSeries`](https://ej2.syncfusion.com/javascript/documentation/api/chart#addseries) and [`removeSeries`](https://ej2.syncfusion.com/javascript/documentation/api/chart#removeseries) methods to update the series collection dynamically.
 
 ## Add a series
 
