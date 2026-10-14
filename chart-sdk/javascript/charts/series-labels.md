@@ -65,4 +65,4 @@ Set `showOverlapText` to `true` only when displaying every label is more importa
 - [Data labels](./data-labels)
 - [Legend](./legend)
 - [Appearance](./appearance)
-- [Getting started](./getting-started)
+- [Getting started](./es5-getting-started)

@@ -12,11 +12,11 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Column
 
-To render a [column](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/column-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+A column series renders each data point as a vertical bar, making it easy to compare values across categories. Configure the chart as follows:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `Column` in your chart configuration. This indicates that the data should be represented as a column chart, which is ideal for visualizing for comparing different categories of data or tracking changes over time.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `Column` in your chart configuration. Renders the data as a column chart, ideal for comparing values across categories.
 
-* **Inject the ColumnSeries module**: Use the `Chart.Inject(ColumnSeries)` method to inject the `ColumnSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering column series are available in your chart.
+* **Inject the ColumnSeries and Category modules**: Use `Chart.Inject(ColumnSeries, Category)` to register both the `ColumnSeries` and the `Category` axis modules. The `Category` module is required because the x-axis uses `valueType: 'Category'`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -34,7 +34,7 @@ To render a [column](https://www.syncfusion.com/javascript-ui-controls/js-charts
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname) and [`yName`](../../api/chart/series#yname) properties.
+You can bind data to the chart by assigning a JSON array (or a remote data source resolved through a data adapter) to the series [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property. To display the data correctly, map the fields from each data item to the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) properties in the series configuration.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -52,11 +52,11 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Series customization
 
-The following properties can be used to customize the `column` series.
+The following properties can be used to customize the `Column` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [fill](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -72,7 +72,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs92" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the column series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property also applies an SVG gradient to a Column series. Define the gradient within an SVG `<defs>` element using a unique ID, and assign it to the series in the `url(#gradientId)` format.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -88,9 +90,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs290" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [opacity](https://ej2.syncfusion.com/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -106,9 +108,9 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs291" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the column series.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the Column series. Border sub-properties include [`border.color`](https://ej2.syncfusion.com/documentation/api/chart/border#color), [`border.width`](https://ej2.syncfusion.com/documentation/api/chart/border#width), and [`border.dashArray`](https://ej2.syncfusion.com/documentation/api/chart/border#dasharray).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -128,7 +130,7 @@ Use the [`border`](../../api/chart/series#border) property to configure the bord
 
 ### Column space
 
-Use the [`columnSpacing`](../../api/chart/series#columnspacing) property in the series to adjust the space between columns.
+Use the [`columnSpacing`](https://ej2.syncfusion.com/documentation/api/chart/series#columnspacing) property in the series to adjust the space between columns.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -146,7 +148,7 @@ Use the [`columnSpacing`](../../api/chart/series#columnspacing) property in the 
 
 ### Column width
 
-Use the [`columnWidth`](../../api/chart/series#columnwidth) property in the series to adjust the width of the columns.
+Use the [`columnWidth`](https://ej2.syncfusion.com/documentation/api/chart/series#columnwidth) property in the series to adjust the width of the columns.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -164,7 +166,7 @@ Use the [`columnWidth`](../../api/chart/series#columnwidth) property in the seri
 
 ### Column width in pixel
 
-Use the [`columnWidthInPixel`](../../api/chart/series#columnwidthinpixel) property in the series to define the exact width of the columns in pixels. This property ensures that each column maintains the specified width, providing a uniform appearance throughout the chart.
+Use the [`columnWidthInPixel`](https://ej2.syncfusion.com/documentation/api/chart/series#columnwidthinpixel) property in the series to define the exact width of the columns in pixels. This property ensures that each column maintains the specified width, providing a uniform appearance throughout the chart.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -182,7 +184,7 @@ Use the [`columnWidthInPixel`](../../api/chart/series#columnwidthinpixel) proper
 
 ## Grouped column
 
-Use the [`groupName`](../../api/chart/series#groupname) property to group the data points in column type charts. Data points with the same group name will be grouped together in the chart, making it easy to compare different sets of data.
+Use the [`groupName`](https://ej2.syncfusion.com/documentation/api/chart/series#groupname) property on each series to group Column series. Series that share the same `groupName` value are rendered side-by-side within the same category, making it easy to compare different sets of data.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -200,7 +202,7 @@ Use the [`groupName`](../../api/chart/series#groupname) property to group the da
 
 ## Cylindrical column chart
 
-To render a cylindrical column chart, set the [`columnFacet`](../../api/chart/series#columnfacet) property to `Cylinder` in the chart series. This property transforms the regular columns into cylindrical shapes, enhancing the visual representation of the data.
+To render a cylindrical column chart, set the [`columnFacet`](https://ej2.syncfusion.com/documentation/api/chart/series#columnfacet) property to `Cylinder` in the chart series. Renders columns as cylinders instead of rectangles.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -218,11 +220,11 @@ To render a cylindrical column chart, set the [`columnFacet`](../../api/chart/se
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Configure the [`emptyPointSettings`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings) on the series to control how empty data points are rendered.
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) property to control how empty points are handled. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -238,9 +240,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs294" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -256,9 +258,9 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs295" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -276,7 +278,7 @@ Use the [`border`](../../api/chart/emptyPointSettings#border) property to custom
 
 ## Corner radius
 
-The [`cornerRadius`](../../api/chart/series#cornerradius) property in the chart series is used to customize the corner radius for column series. This allows you to create columns with rounded corners, giving your chart a more polished appearance. You can customize each corner of the columns using the topLeft, topRight, bottomLeft, and bottomRight properties.
+The [`cornerRadius`](https://ej2.syncfusion.com/documentation/api/chart/series#cornerradius) property on the chart series customizes the corner radius for Column series. Use it to create columns with rounded corners. You can customize each corner of the columns using the [`topLeft`](https://ej2.syncfusion.com/documentation/api/chart/cornerRadius#topleft), [`topRight`](https://ej2.syncfusion.com/documentation/api/chart/cornerRadius#topright), [`bottomLeft`](https://ej2.syncfusion.com/documentation/api/chart/cornerRadius#bottomleft), and [`bottomRight`](https://ej2.syncfusion.com/documentation/api/chart/cornerRadius#bottomright) sub-properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -294,7 +296,7 @@ The [`cornerRadius`](../../api/chart/series#cornerradius) property in the chart 
 
 ### Point corner radius
 
-You can customize the corner radius for individual points in the chart series using the [`pointRender`](../../api/chart/iPointRenderEventArgs) event by setting the [`cornerRadius`](../../api/chart/iPointRenderEventArgs#cornerradius) property in its event argument.
+You can customize the corner radius for individual points in the chart series using the [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointRenderEventArgs) event. Set the `cornerRadius` property of the event argument to apply a per-point `cornerRadius` value that overrides the series-level setting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -314,7 +316,7 @@ You can customize the corner radius for individual points in the chart series us
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -332,7 +334,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -348,7 +350,26 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs428" %}
 
+## Troubleshooting
+
+The following list describes common issues you may encounter when working with the Column series and how to resolve them.
+
+**Chart does not render columns:** Confirm the [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) property of the series is set to `Column`. Also ensure `ColumnSeries` and `Category` are registered with `Chart.Inject(ColumnSeries, Category)` before the chart is initialized, or import the modules directly from `@syncfusion/ej2-charts` using ES module syntax. The `Category` module is required because the x-axis uses `valueType: 'Category'`.
+
+**Grouping does not combine columns side-by-side:** Confirm each series that should be grouped together has the same [`groupName`](https://ej2.syncfusion.com/documentation/api/chart/series#groupname) value. `groupName` is configured on the series, not on individual data points.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between connected series. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
+**Corner radius has no effect:** Confirm the [`cornerRadius`](https://ej2.syncfusion.com/documentation/api/chart/series#cornerradius) property is set on the series. The `topLeft`, `topRight`, `bottomLeft`, and `bottomRight` sub-properties only accept numeric pixel values; supplying a percentage string is ignored.
+
+**Events fire but changes are not visible:** The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart/iSeriesRenderEventArgs) and [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointRenderEventArgs) events let you modify the rendered series or point. Mutate the `args` object (for example, `args.fill`) inside the handler; setting properties on the series object directly is overwritten during rendering.
+
+**Data does not appear at the expected x position:** Confirm the data item fields match the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) values. Mismatched field names silently produce empty points.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Bar chart](./bar)
+* [Stacked bar chart](./stacked-bar)
+* [Stacked column chart](./stacked-column)

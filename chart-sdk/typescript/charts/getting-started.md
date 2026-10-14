@@ -19,14 +19,14 @@ This document explains how to create a simple Chart and configure its features i
 
 Before you begin, ensure you have the following installed on your machine:
 
-* [Node.js](https://nodejs.org/en) (v14.15.0 or higher)
+* [Node.js](https://nodejs.org/)
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
 * [Git](https://git-scm.com/) (for cloning the quickstart repository)
 * A web browser to view the result
 
 ## Dependencies
 
-Below is the list of minimum dependencies required to use the Chart.
+Below is the list of dependencies required to use the Chart.
 
 ```
 |-- @syncfusion/ej2-charts
@@ -39,7 +39,7 @@ Below is the list of minimum dependencies required to use the Chart.
 ```
 > Note: `@syncfusion/ej2-pdf-export`, `@syncfusion/ej2-file-utils`, and `@syncfusion/ej2-compression` are optional and required only for PDF export features. Omit them if you are not using exports.
 
-> Use the latest `@syncfusion/ej2-*` packages that are compatible with Node.js v14.15.0 or higher.
+>Use the latest `@syncfusion/ej2-*` packages that are compatible with your installed Node.js version.
 
 ## Quick Setup
 
@@ -134,11 +134,11 @@ The webpack dev server injects the compiled `app.js` bundle automatically, so no
 
 Locate the `src/app/app.ts` file in your project. Import the `Chart` component along with the modules you need, prepare the sample data, and instantiate the chart.
 
-**Module Injection**: The Chart component requires specific feature modules to be registered before use. To render a line series with a category axis, inject the [`LineSeries`](../api/chart/lineseries) and [`Category`](../api/chart/category) modules.
+**Module Injection**: The Chart component requires specific feature modules to be registered before use. To render a line series with a category axis, inject the [`LineSeries`](https://ej2.syncfusion.com/documentation/api/chart/lineseries) and [`Category`](https://ej2.syncfusion.com/documentation/api/chart/category) modules.
 
-**Populate Chart with Data**: Add a series object to the chart by using the [`series`](../api/chart/series) property. Map the JSON fields `month` and `sales` to the series [`xName`](../api/chart/series#xname) and [`yName`](../api/chart/series#yname) properties, and assign the JSON array as the [`dataSource`](../api/chart/series#datasource) property.
+**Populate Chart with Data**: Add a series object to the chart by using the [`series`](https://ej2.syncfusion.com/documentation/api/chart/series) property. Map the JSON fields `month` and `sales` to the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) properties, and assign the JSON array as the [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property.
 
-Since the JSON contains category data, set the [`valueType`](../api/chart/axisModel#valuetype) of the horizontal axis ([`primaryXAxis`](../api/chart/chartModel#primaryxaxis)) to `Category`. By default, the value type is `Numeric`.
+Since the JSON contains category data, set the [`valueType`](https://ej2.syncfusion.com/documentation/api/chart/axisModel#valuetype) of the horizontal axis ([`primaryXAxis`](https://ej2.syncfusion.com/documentation/api/chart/chartModel#primaryxaxis)) to `Category`. By default, the value type is `Numeric`.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}

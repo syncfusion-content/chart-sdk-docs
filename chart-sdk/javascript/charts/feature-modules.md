@@ -117,7 +117,7 @@ In an ES5 (script-tag) setup, the modules are part of the global `ej.charts` nam
 
 ## See also
 
-* [Getting started with JavaScript Charts](./getting-started)
+* [Getting started with JavaScript Charts](./es5-getting-started)
 * [Chart series configuration](./chart-series)
 * [Chart axes configuration](./axis)
 * [Tooltip](./tool-tip)

@@ -12,13 +12,15 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Hilo
 
-To render a `hilo` series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+The Hilo series visualizes stock price movements by displaying the high and low values for each data point using vertical lines. Use it to show the price range of a stock over time without the open or close markers of a HiloOpenClose chart.
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `Hilo` in your chart configuration. This indicates that the data should be represented as a hilo chart, which shows the high and low values for each data point, illustrating price movements in stocks and providing a clear visualization of price ranges.
+To render a `Hilo` series, configure the chart as follows:
 
-* **Inject the HiloSeries module**: Use the `Chart.Inject(HiloSeries)` method to inject the `HiloSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering hilo series are available in your chart.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `Hilo`. Renders the data as a Hilo chart, showing the high and low prices for each period to visualize stock price ranges.
 
-* **Provide high and low values**: The `Hilo` series requires two y-values for each data point, you need to specify both the high and low values. The high value represents the maximum price, while the low value represents the minimum price of the stock.
+* **Inject the required modules**: Use `Chart.Inject(HiloSeries)` to register the series type. If the x-axis uses [`valueType`](https://ej2.syncfusion.com/documentation/api/chart/axis#valuetype): `Category`, also inject `Category`. Without these modules, the chart cannot render Hilo data.
+
+* **Provide high and low values**: The `Hilo` series requires two y-values for each data point. Specify both the high and low values; the high value represents the maximum price, and the low value represents the minimum price of the stock.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -36,7 +38,7 @@ To render a `hilo` series in your chart, you need to follow a few steps to confi
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname), [`high`](../../api/chart/series#high), and [`low`](../../api/chart/series#low) properties.
+You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/documentation/api/chart/series#high), and [`low`](https://ej2.syncfusion.com/documentation/api/chart/series#low) properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -54,11 +56,11 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Series customization
 
-The following properties can be used to customize the `hilo` series.
+The following properties can be used to customize the `Hilo` series.
 
-**Fill**
+### Fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [fill](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -74,7 +76,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs102" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the hilo series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [fill](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property accepts an SVG gradient reference, allowing you to apply a gradient color to the Hilo series. Define a `<linearGradient>` (or `<radialGradient>`) inside an SVG `<defs>` block in the page, and assign `fill: 'url(#gradientId)'` to the series. The chart then renders the segment with a color that transitions smoothly between the gradient stops.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -90,9 +94,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs372" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [opacity](https://ej2.syncfusion.com/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -110,11 +114,11 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Empty data points are handled according to the configured [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode).
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) property to control how empty points are rendered. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -130,9 +134,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs375" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -152,7 +156,7 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -170,7 +174,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -186,7 +190,24 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs450" %}
 
+## Troubleshooting
+
+The following list describes common issues you may encounter when working with the Hilo series and how to resolve them.
+
+**Chart does not render tick marks:** Confirm the [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) property of the series is set to `Hilo`. Also ensure `HiloSeries` and `Category` are registered with `Chart.Inject(HiloSeries, Category)` before the chart is initialized, or import the modules directly from `@syncfusion/ej2-charts` using ES module syntax. The `Category` module is required because the x-axis uses `valueType: 'Category'`.
+
+**Field mappings produce empty high/low lines:** Confirm the data item fields match the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/documentation/api/chart/series#high), and [`low`](https://ej2.syncfusion.com/documentation/api/chart/series#low) values. Mismatched field names silently produce empty points.
+
+**Gradient fill does not apply:** Confirm the SVG `<defs>` block defines a gradient with a unique `id`, and that the series `fill` property uses the exact same id in `url(#gradientId)`. Mismatched ids, missing `<defs>`, or unsanitized id values cause the chart to fall back to the default fill.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between segments. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
+**Events fire but changes are not visible:** The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart/iSeriesRenderEventArgs) and [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointRenderEventArgs) events let you modify the rendered series or point. Mutate the `args` object (for example, `args.fill`) inside the handler; setting properties on the series object directly is overwritten during rendering.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Hilo open close chart](high-low-open-close)
+* [Candle chart](candle)
+* [Box and whisker chart](box-and-whisker)

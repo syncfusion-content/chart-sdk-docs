@@ -11,7 +11,7 @@ var chart = new ej.charts.Chart({
         labelStyle: {
             color: '#1f77b4',
             fontFamily: 'Arial',
-            fontSize: '14px',
+            size: '14px',
             fontWeight: 'bold'
         },
         title: 'Quarters'

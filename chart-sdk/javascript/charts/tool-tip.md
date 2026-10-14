@@ -61,7 +61,7 @@ By default, the tooltip displays the x- and y-values of a data point. Additional
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs19" %}
 
-### Inline tooltip formatting
+## Inline tooltip formatting
 
 The tooltip content can be formatted directly within the [`format`](https://ej2.syncfusion.com/javascript/documentation/api/chart/tooltipsettings#format) property by adding DateTime or number format specifiers to supported tooltip tokens. This allows you to control how point and series values are displayed without using additional events.
 
@@ -121,7 +121,7 @@ If the specified format does not match the resolved value type, the original val
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs56" %}
 
-### Tooltip template
+## Tooltip template
 
 Use the [`template`](https://ej2.syncfusion.com/javascript/documentation/api/chart/tooltipsettings#template) property. The `${x}` and `${y}` placeholders can be used within the template to display the x- and y-values of the corresponding data point.
 
@@ -136,7 +136,7 @@ Use the [`template`](https://ej2.syncfusion.com/javascript/documentation/api/cha
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs20" %}
 
-### Enable highlight
+## Enable highlight
 
 Set the [`enableHighlight`](https://ej2.syncfusion.com/javascript/documentation/api/chart/tooltipsettingsmodel#enablehighlight) property to **true**, all points in the hovered series are highlighted while the remaining points are dimmed. This behavior improves focus and readability during data analysis.
 

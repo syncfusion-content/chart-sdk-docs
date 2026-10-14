@@ -81,7 +81,7 @@ var chart = new ej.charts.Chart({
 
 ## See also
 
-- [Getting started with JavaScript Charts](./getting-started)
+- [Getting started with JavaScript Charts](./es5-getting-started)
 - [Appearance in JavaScript Charts](./appearance)
 - [Print and export in JavaScript Charts](./chart-print)
 - [Feature modules in JavaScript Charts](./feature-modules)

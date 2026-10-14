@@ -279,4 +279,4 @@ chart.refresh();
 - [Data adaptors](https://ej2.syncfusion.com/javascript/documentation/data/adaptors)
 - [Query API](https://ej2.syncfusion.com/javascript/documentation/api/data/query)
 - [Empty-point settings API](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptypointsettingsmodel)
-- [Getting started](./getting-started)
+- [Getting started](./es5-getting-started)

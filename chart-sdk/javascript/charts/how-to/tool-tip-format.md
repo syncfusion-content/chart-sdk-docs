@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to format tooltips in JavaScript Charts | Syncfusion
+title: How to format tooltip in JavaScript Charts | Syncfusion
 description: Learn here all about Tool tip format in Syncfusion JavaScript Charts of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Chart
@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# How to format tooltips in JavaScript Charts
+# How to format tooltip in JavaScript Charts
 
 Use the Chart `tooltipRender` event to replace the default tooltip text with a formatted DateTime value. Retrieve the current point's X value from `args.point.x`, format it with `ej.base.Internationalization`, and assign the result to `args.text`.
 

@@ -13,13 +13,13 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Box and Whisker
 
-To render a `box and whisker` series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a Box and Whisker series, configure the chart as follows:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `BoxAndWhisker` in your chart configuration. This indicates that the data should be represented as a box and whisker chart, which will plot segments to illustrate the statistical distribution of the data.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `BoxAndWhisker` in your chart configuration. Renders the data as a box and whisker chart, which plots segments to illustrate the statistical distribution of the data.
 
-* **Inject the BoxAndWhiskerSeries module**: Use the `Chart.Inject(BoxAndWhiskerSeries)` method to inject the `BoxAndWhiskerSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering box and whisker series are available in your chart.
+* **Inject the BoxAndWhiskerSeries and Category modules**: Use `Chart.Inject(Category, BoxAndWhiskerSeries)` to register both the `BoxAndWhiskerSeries` and the `Category` axis modules. The `Category` module is required because the x-axis uses `valueType: 'Category'`.
 
-* **Data requirements**: The y field of the Box and Whisker series requires a specific number of data points, with a minimum of five values needed to plot a segment.
+* **Data requirements**: Bind a numeric array to the `y` field of each data point. The array must contain at least five values so the chart can compute the box (Q1, median, Q3) and whisker (min, max) segments. For example, `{ x: 'Development', y: [22, 22, 23, 25, 25, 25, 26, 27, 27, 28, 28, 29, 30] }`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -37,7 +37,7 @@ To render a `box and whisker` series in your chart, you need to follow a few ste
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname) and [`yName`](../../api/chart/series#yname) properties.
+You can bind data to the chart by assigning a JSON array (or a remote data source resolved through a data adapter) to the series [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property. To display the data correctly, map the data fields to the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) properties. For the Box and Whisker series, the `y` field must resolve to a numeric array per data point.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -55,11 +55,11 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Series customization
 
-The following properties can be used to customize the `box and whisker` series.
+The following properties can be used to customize the `BoxAndWhisker` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [fill](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -75,7 +75,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs467" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the box and whisker series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property also applies an SVG gradient to a Box and Whisker series. Define the gradient within an SVG `<defs>` element using a unique ID, and assign it to the series in the `url(#gradientId)` format.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -91,9 +93,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs468" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [opacity](https://ej2.syncfusion.com/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -109,9 +111,9 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs469" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the box and whisker series.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the Box and Whisker series. Border sub-properties include [`border.color`](https://ej2.syncfusion.com/documentation/api/chart/border#color), [`border.width`](https://ej2.syncfusion.com/documentation/api/chart/border#width), and [`border.dashArray`](https://ej2.syncfusion.com/documentation/api/chart/border#dasharray).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -129,7 +131,7 @@ Use the [`border`](../../api/chart/series#border) property to configure the bord
 
 ## Box plot
 
-To change the rendering mode of the box and whisker series, use the [`boxPlotMode`](../../api/chart/series#boxplotmode) property. The default value for [`boxPlotMode`](../../api/chart/series#boxplotmode) is `Exclusive`. The other available options for `boxPlotMode` are `Inclusive` and `Normal`.
+To change the rendering mode of the Box and Whisker series, use the [`boxPlotMode`](https://ej2.syncfusion.com/documentation/api/chart/series#boxplotmode) property. The default value of `boxPlotMode` is `Normal`. The other available options are `Exclusive` and `Inclusive`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -147,7 +149,7 @@ To change the rendering mode of the box and whisker series, use the [`boxPlotMod
 
 ## Show mean
 
-In the box and whisker series, the [`showMean`](../../api/chart/series#showmean) property is used to display the average value of the box and whisker. The default value of `showMean` is **false**.
+In the Box and Whisker series, the [`showMean`](https://ej2.syncfusion.com/documentation/api/chart/series#showmean) property is used to display the average value of the box. The default value of `showMean` is `true`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -167,7 +169,7 @@ In the box and whisker series, the [`showMean`](../../api/chart/series#showmean)
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -185,7 +187,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -201,7 +203,22 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs456" %}
 
+## Troubleshooting
+
+The following list describes common issues you may encounter when working with the Box and Whisker series and how to resolve them.
+
+**Chart does not render box-and-whisker shapes:** Confirm the [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) property of the series is set to `BoxAndWhisker`. Also ensure both `BoxAndWhiskerSeries` and `Category` are registered with `Chart.Inject(Category, BoxAndWhiskerSeries)` before the chart is initialized, or import the modules directly from `@syncfusion/ej2-charts` using ES module syntax.
+
+**No segment appears for a category:** The `y` field for each data point must resolve to a numeric array with at least five values; otherwise the chart cannot compute the box and whisker segments. Confirm that each `y` entry in the data source is an array of numbers (for example, `y: [22, 22, 23, 25, 25, 25]`) and not a single number or a string.
+
+**Box plot mode change has no visible effect:** Confirm the [`boxPlotMode`](https://ej2.syncfusion.com/documentation/api/chart/series#boxplotmode) property is set on the series. The mode controls the statistical definition of the box (for example, `Exclusive`, `Inclusive`, or `Normal`) and only differs visibly when outlier points are present.
+
+**Events fire but changes are not visible:** The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart/iSeriesRenderEventArgs) and [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointRenderEventArgs) events let you modify the rendered series or point. Mutate the `args` object (for example, `args.fill`) inside the handler; setting properties on the series object directly is overwritten during rendering.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Error bar chart](./error-bar)
+* [Candle chart](./candle)
+* [HiLo Open Close chart](./hiloOpenClose)

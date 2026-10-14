@@ -12,11 +12,11 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Step Area
 
-To render a [step area](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/step-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a [step area](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/step-area-chart) series in your chart, follow the steps below:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `StepArea` in your chart configuration. This indicates that the data should be represented as a step area chart, which connects data points with vertical and horizontal lines, creating a step like appearance.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `StepArea` in your chart configuration. This indicates that the data should be represented as a step area chart, which connects data points with vertical and horizontal lines, creating a step like appearance.
 
-* **Inject the StepAreaSeries module**: Use the `Chart.Inject(StepAreaSeries)` method to inject the `StepAreaSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering step area series are available in your chart.
+* **Inject the StepAreaSeries module**: Use `Chart.Inject(StepAreaSeries)` to register the `StepAreaSeries` module.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -34,7 +34,7 @@ To render a [step area](https://www.syncfusion.com/javascript-ui-controls/js-cha
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname) and [`yName`](../../api/chart/series#yname) properties.
+You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -54,9 +54,9 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 The following properties can be used to customize the `step area` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -72,7 +72,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs156" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the step area series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property also applies an SVG gradient to a step area series. Define the gradient within an SVG `<defs>` element using a unique ID, and assign it to the series in the `url(#gradientId)` format.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -88,9 +90,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs275" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [`opacity`](https://ej2.syncfusion.com/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -106,9 +108,9 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs276" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the step area series.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width, color, and dasharray of the step area series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -124,9 +126,9 @@ Use the [`border`](../../api/chart/series#border) property to configure the bord
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs277" %}
 
-**Step**
+### Step
 
-Use the [`step`](../../api/chart/series#step) property to change the position of the steps in a step area series.
+Use the [`step`](https://ej2.syncfusion.com/documentation/api/chart/series#step) property to change the position of the steps in a step area series. Available positions are `Left`, `Center`, and `Right`. The default is `Left`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -142,9 +144,9 @@ Use the [`step`](../../api/chart/series#step) property to change the position of
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs278" %}
 
-**No risers**
+### No risers
 
-You can eliminate the vertical lines between points by using the [`noRisers`](../api/chart/seriesModel#norisers) property in a series. This approach is useful for highlighting trends without the distraction of risers.
+You can eliminate the vertical lines between points by setting [`noRisers`](https://ej2.syncfusion.com/documentation/api/chart/series#norisers) to `true` on the series. This approach is useful for highlighting trends without the distraction of risers.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -162,11 +164,11 @@ You can eliminate the vertical lines between points by using the [`noRisers`](..
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Configure the [`emptyPointSettings`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings) on the series to control how empty data points are rendered.
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -182,9 +184,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs279" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -200,9 +202,9 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs280" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -222,7 +224,7 @@ Use the [`border`](../../api/chart/emptyPointSettings#border) property to custom
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -240,7 +242,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -256,7 +258,22 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs424" %}
 
+## Troubleshooting
+
+The following list describes common issues you may encounter when working with the Step Area series and how to resolve them.
+
+**Chart does not render as a step area:** Confirm the [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) property of each series is set to `StepArea`. Also ensure `StepAreaSeries` (plus `Tooltip` if tooltips are used) is registered with `Chart.Inject(...)` before the chart is initialized, or import the modules directly from `@syncfusion/ej2-charts` using ES module syntax.
+
+**Steps do not appear or appear in the wrong position:** [`step`](https://ej2.syncfusion.com/documentation/api/chart/series#step) accepts only `Left`, `Center`, and `Right`. Other values are ignored. Confirm the property is set on each series configuration object and that the chart is rendered with the `StepArea` series type.
+
+**Vertical risers are still drawn:** The [`noRisers`](https://ej2.syncfusion.com/documentation/api/chart/series#norisers) property is applicable only to step series (such as `StepArea`). Confirm the property is set on each series configuration object and that the chart is rendered with the `StepArea` series type.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between connected series. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Stacked Step Area chart](./stacked-step-area)
+* [Area chart](./area)
+* [Step Line chart](./step-line)

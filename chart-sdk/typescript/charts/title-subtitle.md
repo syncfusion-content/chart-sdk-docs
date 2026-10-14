@@ -11,11 +11,11 @@ appliesto: UI Component Suite, Chart SDK
 
 # Title and subtitle in TypeScript Charts component
 
-Chart titles and subtitles help provide context for the visualized data. The title typically indicates the main subject or metric represented in the chart, while the subtitle adds supporting details such as data sources, time ranges, or explanatory notes. Both elements can be customized in terms of position, alignment, and style to align with application design requirements.
+Chart titles and subtitles provide context for the visualized data. The title identifies the main subject or metric, while the subtitle can provide supporting details such as a data source, time range, or explanatory note. Both elements can be customized to match the application design.
 
 ## Chart title
 
-Add a chart title using the [`title`](../api/chart#title-string) property. The title appears at the top of the chart by default and is used to describe the purpose or subject of the visualization.
+Set the [`title`](https://ej2.syncfusion.com/documentation/api/chart/chartmodel#title) property to display a Chart title. The title is displayed at the top of the Chart by default.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -30,7 +30,7 @@ Add a chart title using the [`title`](../api/chart#title-string) property. The t
 
 ### Title position
 
-Use the [`position`](../api/chart/titleSettings#position) property within [`titleStyle`](../api/chart#titlestyle) to place the title at the left, right, top, or bottom of the chart. The default position is at the top.
+Use [`titleStyle.position`](https://ej2.syncfusion.com/documentation/api/chart/titlestylesettings#position) to place the title at `Top`, `Bottom`, `Left`, or `Right`. The default value is `Top`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -43,7 +43,9 @@ Use the [`position`](../api/chart/titleSettings#position) property within [`titl
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-appearance-cs21" %}
 
-To manually position the title anywhere within the chart, use the [`x`](../api/chart/titleSettings#x) and [`y`](../api/chart/titleSettings#y) properties.
+### Custom title position
+
+Set `titleStyle.position` to `Custom`, and then use [`x`](https://ej2.syncfusion.com/documentation/api/chart/titlestylesettings#x) and [`y`](https://ej2.syncfusion.com/documentation/api/chart/titlestylesettings#y) to position the title using Chart coordinates.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -58,7 +60,7 @@ To manually position the title anywhere within the chart, use the [`x`](../api/c
 
 ### Title alignment
 
-Align the chart title to the near, center, or far side of the chart using the [`textAlignment`](../api/chart/titleSettings#textalignment) property.
+Use [`titleStyle.textAlignment`](https://ej2.syncfusion.com/documentation/api/chart/titlestylesettings#textalignment) to align the title using `Near`, `Center`, or `Far`. The default value is `Center`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -71,9 +73,13 @@ Align the chart title to the near, center, or far side of the chart using the [`
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-appearance-cs23" %}
 
-### Title wrap
+### Title overflow
 
-Customize the title’s appearance using the `textStyle` property. Options include `size`, `color`, `fontFamily`, `fontWeight`, `fontStyle`, `opacity`, `textAlignment`, and `textOverflow` to control how the title is rendered within the chart area.
+Use [`titleStyle.textOverflow`](https://ej2.syncfusion.com/documentation/api/chart/titlestylesettings#textoverflow) to control how a long title is displayed.
+
+- `None`: Displays the title without wrapping or trimming.
+- `Wrap`: Wraps the title when it exceeds the available width. This is the default value.
+- `Trim`: Trims the title when it exceeds the available width.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -85,3 +91,65 @@ Customize the title’s appearance using the `textStyle` property. Options inclu
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/getting-started-cs1" %}
+
+## Chart subtitle
+
+Set the [`subTitle`](https://ej2.syncfusion.com/documentation/api/chart/chartmodel#subtitle) property to display supporting text below the Chart title. Use [`subTitleStyle`](https://ej2.syncfusion.com/documentation/api/chart/chartmodel#subtitlestyle) to customize its position, alignment, overflow, font, opacity, and color.
+
+```typescript
+import { Chart, ColumnSeries } from '@syncfusion/ej2-charts';
+
+Chart.Inject(ColumnSeries);
+
+const chart: Chart = new Chart({
+    title: 'Annual Revenue',
+    subTitle: 'Source: Internal sales records, 2025',
+    titleStyle: {
+        textAlignment: 'Center'
+    },
+    subTitleStyle: {
+        color: '#666666',
+        size: '13px',
+        fontFamily: 'Segoe UI',
+        fontStyle: 'Italic',
+        textAlignment: 'Center',
+        textOverflow: 'Wrap'
+    },
+    primaryXAxis: {
+        valueType: 'Category',
+        title: 'Region'
+    },
+    primaryYAxis: {
+        title: 'Revenue'
+    },
+    series: [{
+        dataSource: [
+            { x: 'North', y: 45 },
+            { x: 'South', y: 38 },
+            { x: 'East', y: 52 },
+            { x: 'West', y: 41 }
+        ],
+        xName: 'x',
+        yName: 'y',
+        type: 'Column'
+    }]
+});
+
+chart.appendTo('#element');
+```
+
+The subtitle uses the same position values, alignment values, overflow behavior, and custom coordinate options as the title through `subTitleStyle`.
+
+## Troubleshooting
+
+- If `x` and `y` do not affect the title or subtitle, set the corresponding `position` property to `Custom`.
+- If a long title or subtitle does not wrap, set `textOverflow` to `Wrap` and ensure the Chart has a constrained width.
+- If the subtitle is not displayed, verify that `subTitle` contains a non-empty string.
+- If title text is clipped, use `Wrap`, reduce the font size, or increase the Chart width.
+
+## See also
+
+- [TitleStyleSettings API](https://ej2.syncfusion.com/documentation/api/chart/titlestylesettings)
+- [Appearance](./appearance)
+- [Chart dimensions](./chart-dimensions)
+- [Accessibility](./accessibility)

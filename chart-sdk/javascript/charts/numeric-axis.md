@@ -186,4 +186,4 @@ Set the Chart [`useGroupingSeparator`](https://ej2.syncfusion.com/javascript/doc
 - [Axis customization](./axis-customization)
 - [Logarithmic axis](./logarithmic-axis)
 - [Internationalization](./internationalization)
-- [Getting started](./getting-started)
+- [Getting started](./es5-getting-started)

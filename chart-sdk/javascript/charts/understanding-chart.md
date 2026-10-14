@@ -92,7 +92,7 @@ For configuration details, see [Selection](./selection).
 
 ## See also
 
-- [Getting started](./getting-started)
+- [Getting started](./es5-getting-started)
 - [Chart series](./chart-series)
 - [Axis customization](./axis-customization)
 - [Title and subtitle](./title-subtitle)

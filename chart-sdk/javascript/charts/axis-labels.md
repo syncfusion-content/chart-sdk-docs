@@ -217,8 +217,6 @@ Labels with long text at the edges of an axis may appear partially outside the c
 
 ## Sorting
 
-## Sorting
-
 The chart data source can be sorted using the `sort` utility before it is assigned to the series. In this example, use the drop-down list to select the sorting mode:
 
 - Select `X` to sort the data by the `x` category field.

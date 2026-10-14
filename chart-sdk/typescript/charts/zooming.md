@@ -11,15 +11,17 @@ appliesto: UI Component Suite, Chart SDK
 
 # Zooming in TypeScript Charts
 
-## Enable zooming
+## Zoom methods
 
 The chart supports zooming through the following three interaction methods:
 
-* **Selection** – By setting [`enableSelectionZooming`](../api/chart/zoomSettingsModel) to **true** in `zoomSettings`, zooming can be performed using a rubber-band selection.
-* **Mouse wheel** – By setting [`enableMouseWheelZooming`](../api/chart/zoomSettingsModel) to **true** in `zoomSettings`, the chart can be zoomed in and out by scrolling the mouse wheel.
-* **Pinch** – By setting [`enablePinchZooming`](../api/chart/zoomSettingsModel) to **true** in `zoomSettings`, zooming can be performed using pinch gestures on touch-enabled devices.
+- **Selection zooming:*- Set [`enableSelectionZooming`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#enableselectionzooming) to `true`, and drag a rectangular region in the plot area.
+- **Mouse-wheel zooming:*- Set [`enableMouseWheelZooming`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#enablemousewheelzooming) to `true` to zoom with the mouse wheel.
+- **Pinch zooming:*- Set [`enablePinchZooming`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#enablepinchzooming) to `true` to zoom with a multi-touch pinch gesture.
 
-> Pinch zooming is supported only in browsers that support multi-touch gestures.
+> **Note:*- Pinch zooming requires multi-touch support.
+
+Set [`enableDeferredZooming`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#enabledeferredzooming) to `true` to apply selection zooming after pointer release. This option requires `enableSelectionZooming: true` and defaults to `true`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -32,18 +34,17 @@ The chart supports zooming through the following three interaction methods:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs39" %}
 
-After zooming, a toolbar is displayed that includes **zoom**, **zoomin**, **zoomout**, **pan**, and **reset** buttons.  
-Selecting **Pan** allows the chart to be panned, and selecting **Reset** restores the chart to its original zoom state.
+After zooming, the toolbar can display `Zoom`, `ZoomIn`, `ZoomOut`, `Pan`, and `Reset`. Select `Pan` to move through a zoomed range, or select `Reset` to restore the original view.
 
-## Modes
+## Zoom mode
 
-The [`mode`](../api/chart/zoomSettingsModel) property in `zoomSettings` specifies whether zooming can be applied along the horizontal axis, vertical axis, or both. The default value is **XY**.
+Use [`mode`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#mode) to control the zoom direction. The default value is `XY`.
 
-The supported zooming modes are:
+- `X`: Horizontal axis.
+- `Y`: Vertical axis.
+- `XY`: Both axes.
 
-* **X** – Allows zooming along the horizontal axis.
-* **Y** – Allows zooming along the vertical axis.
-* **XY** – Allows zooming along both horizontal and vertical axes.
+Selection zooming requires `enableSelectionZooming: true`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -56,11 +57,9 @@ The supported zooming modes are:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs40" %}
 
-## Toolbar
+## Zoom toolbar
 
-By default, the **zoomin**, **zoomout**, **pan**, and **reset** buttons are displayed when the chart is zoomed. The toolbar contents can be customized by using the [`toolbarItems`](../api/chart/zoomSettingsModel#toolbaritems) property.  
-
-Additionally, the zooming toolbar can be displayed during initial rendering by setting the [`showToolbar`](../api/chart/zoomSettingsModel#showtoolbar) property to **true**.
+The default [`toolbarItems`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#toolbaritems) are `Zoom`, `ZoomIn`, `ZoomOut`, `Pan`, and `Reset`. Set [`showToolbar`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#showtoolbar) to `true` to display the toolbar initially; the default is `false`. Customize the list through `zoomSettings.toolbarItems`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -73,12 +72,9 @@ Additionally, the zooming toolbar can be displayed during initial rendering by s
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs41" %}
 
-### Toolbar customization
+### Toolbar position
 
-The zoom toolbar position can be customized by using the [`toolbarPosition`](../api/chart/zoomSettingsModel#toolbarposition) property. This property supports horizontal alignments (**Near**, **Center**, and **Far**) and vertical alignments (**Top**, **Middle**, and **Bottom**). The default values are **Far** for horizontal alignment and **Top** for vertical alignment.
-
-For precise placement, the [`x`](../api/chart/toolbarPositionModel#x) and [`y`](../api/chart/toolbarPositionModel#y) properties can be used.  
-Enabling the [`draggable`](../api/chart/toolbarPositionModel#draggable) property allows the toolbar to be repositioned freely within the chart area.
+Use [`toolbarPosition`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#toolbarposition) to configure nested horizontal and vertical alignment values and `x` and `y` offsets. If supported by the installed version, set `draggable` to `true` to drag the toolbar within the Chart area.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -92,9 +88,9 @@ Enabling the [`draggable`](../api/chart/toolbarPositionModel#draggable) property
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs51" %}
 
 
-## Enable pan
+## Panning
 
-By using the [`enablePan`](../api/chart/zoomSettingsModel) property, the zoomed chart can be panned without using toolbar items.
+Set [`enablePan`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#enablepan) to `true` to pan without selecting the toolbar Pan item. The default is `false`; pan after the Chart is zoomed.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -107,15 +103,11 @@ By using the [`enablePan`](../api/chart/zoomSettingsModel) property, the zoomed 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs42" %}
 
-## Enable scrollbar
+## Zoom scrollbar
 
-By using the [`enableScrollbar`](../api/chart/zoomSettingsModel#enablescrollbar) property, a scrollbar can be displayed for the zoomed chart. This scrollbar supports both zooming and panning interactions.
+Set [`enableScrollbar`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#enablescrollbar) to `true` to display scrollbars for zoomed axes. The default is `false`.
 
-Scrollbar appearance can be customized using properties within [`scrollbarSettings`](../api/chart/scrollbarSettings). For example:
-- [`trackColor`](../api/chart/scrollbarSettings#trackcolor) and [`trackRadius`](../api/chart/scrollbarSettings#trackradius) control the track appearance.
-- [`scrollbarColor`](../api/chart/scrollbarSettings#scrollbarcolor) and [`scrollbarRadius`](../api/chart/scrollbarSettings#scrollbarradius) customize the scroller.
-- Zooming through the scrollbar can be enabled or disabled using [`enableZoom`](../api/chart/scrollbarSettings#enablezoom).
-- The grip color and scrollbar height can be customized using [`gripColor`](../api/chart/scrollbarSettings#gripcolor) and [`height`](../api/chart/scrollbarSettings#height).
+Configure appearance on the relevant axis through [`scrollbarSettings`](https://ej2.syncfusion.com/documentation/api/chart/scrollbarsettings). The default `height` is `16`, `enableZoom` is `true`, and radius values are `0`. To show an initial scrollbar, set an axis `zoomFactor` below `1`, enable the scrollbar, and initialize a zoomed state.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -128,15 +120,15 @@ Scrollbar appearance can be customized using properties within [`scrollbarSettin
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs43" %}
 
-### Position
+### Scrollbar position
 
 The [`position`](../api/chart/scrollbarPosition) property specifies where the scrollbar is rendered. By default, both vertical and horizontal scrollbars are placed near their respective axes.
 
-The available positions are:
+Set axis [`scrollbarSettings.position`](https://ej2.syncfusion.com/documentation/api/chart/scrollbarsettings#position):
 
-* **Default** – `placeNextToAxisLine`
-* **Horizontal scrollbar** – `Top`, `Bottom`
-* **Vertical scrollbar** – `Left`, `Right`
+- `PlaceNextToAxisLine`: Beside the axis line; default.
+- `Top` or `Bottom`: Horizontal scrollbar.
+- `Left` or `Right`: Vertical scrollbar.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -151,7 +143,7 @@ The available positions are:
 
 ## Enable animation
 
-Use the [`enableAnimation`](../api/chart/zoomSettingsModel#enableanimation) property to apply smooth animation effects during zoom operations.
+Set [`enableAnimation`](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings#enableanimation) to `true` to animate zoom operations. The default is `false`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -166,7 +158,7 @@ Use the [`enableAnimation`](../api/chart/zoomSettingsModel#enableanimation) prop
 
 ## Auto interval on zooming
 
-By using the [`enableAutoIntervalOnZooming`](../api/chart/axis#enableautointervalonzooming) property, the axis interval is calculated automatically based on the current zoomed range.
+Set axis [`enableAutoIntervalOnZooming`](https://ej2.syncfusion.com/documentation/api/chart/axismodel#enableautointervalonzooming) to `true` to recalculate the interval for the current zoomed range.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -180,3 +172,22 @@ By using the [`enableAutoIntervalOnZooming`](../api/chart/axis#enableautointerva
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs44" %}
 
 >Note: To use the zooming feature, inject `Zoom` module `Chart.Inject(Zoom)` method.
+
+## Troubleshooting
+
+- If selection zooming does not work, enable `enableSelectionZooming` and drag inside the plot area.
+- If the toolbar is missing, enable a zoom method or set `showToolbar` to `true`.
+- If panning does not work, zoom first and enable `enablePan` or select `Pan`.
+- If the initial scrollbar is missing, set an axis `zoomFactor` below `1`, enable the scrollbar, and initialize a zoomed state.
+- If pinch zooming does not work, verify browser and device multi-touch support.
+
+## See also
+
+- [ZoomSettings API](https://ej2.syncfusion.com/documentation/api/chart/zoomsettings)
+- [ScrollbarSettings API](https://ej2.syncfusion.com/documentation/api/chart/scrollbarsettings)
+- [Initial scrollbar](./how-to/initial-scrollbar)
+- [Synchronized charts](./synchronized-chart)
+- [Accessibility](./accessibility)
+- [User interaction](./user-interaction)
+- [Selection](./selection)
+- [Crosshair and trackball](./cross-hair-and-track-ball)

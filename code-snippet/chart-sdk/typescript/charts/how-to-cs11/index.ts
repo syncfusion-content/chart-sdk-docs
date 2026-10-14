@@ -42,7 +42,6 @@ Chart.Inject(StepAreaSeries, Legend);
     args.shape = 'Triangle';
     }
     },
-    width:'650px',
     height: '350px'
     });
     chart.appendTo('#element');

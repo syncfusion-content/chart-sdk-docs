@@ -66,4 +66,4 @@ The Add button appends one additional series. The Remove button removes that ser
 - [Series API](https://ej2.syncfusion.com/javascript/documentation/api/chart/series)
 - [Multiple series](./chart-series)
 - [Working with data](./working-with-data)
-- [Getting started](./getting-started)
+- [Getting started](./es5-getting-started)

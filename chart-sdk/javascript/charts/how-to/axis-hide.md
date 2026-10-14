@@ -62,4 +62,4 @@ The legend's default visibility toggle remains enabled through `legendSettings.t
 - [Multiple axes](../axis-customization#multiple-axis)
 - [Axis API](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis)
 - [Series visibility](./series-visible)
-- [Getting started](../getting-started)
+- [Getting started](../es5-getting-started)
