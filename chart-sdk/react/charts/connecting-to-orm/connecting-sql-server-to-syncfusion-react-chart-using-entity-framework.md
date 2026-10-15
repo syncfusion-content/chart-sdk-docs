@@ -564,7 +564,7 @@ chart-client/src/App.tsx
 ```
 
 Replace the content with this code:
-
+{% raw %}
 ```tsx
 import { useEffect, useState } from 'react';
 import {
@@ -667,6 +667,7 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
 **Explanation**
 
