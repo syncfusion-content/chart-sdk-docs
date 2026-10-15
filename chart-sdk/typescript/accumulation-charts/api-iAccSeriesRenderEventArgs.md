@@ -7,6 +7,7 @@ control: Api iAccSeriesRenderEventArgs
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api iAccSeriesRenderEventArgs in TypeScript Accumulation chart control

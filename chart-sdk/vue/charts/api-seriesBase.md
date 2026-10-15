@@ -6,6 +6,7 @@ control: Api seriesBase
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api seriesBase in Vue Chart component

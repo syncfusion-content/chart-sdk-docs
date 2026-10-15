@@ -2,7 +2,7 @@ node('GithubContent')
 { 
 timestamps
   {
-     timeout(time: 7200000, unit: 'MILLISECONDS') {
+     timeout(time: 9000000, unit: 'MILLISECONDS') {
 String platform='chart-sdk';
    try
 	{   

@@ -6,6 +6,7 @@ control: Api chartAreaModel
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api chartAreaModel in Vue Range navigator component
