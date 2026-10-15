@@ -53,7 +53,11 @@ var chart1 = new ej.charts.Chart({
     title: 'Sales Comparision',
 }, '#element1');
 document.getElementById('print').onclick = function () {
-    chart.export('PNG', Chart, null, [chart, chart1]);
-    ;
+    chart.exportModule.export(
+        'PNG',
+        'MultipleCharts',
+        null,
+        [chart, chart1]
+    );
 };
 
