@@ -26,7 +26,7 @@ var chart = new ej.charts.Chart({
         }
     ],
     series:[{
-        dataSource: chartData,
+        dataSource: smartAxisData,
         xName: 'x', yName: 'y',
         name: 'Internet', type: 'Column'
     }],
