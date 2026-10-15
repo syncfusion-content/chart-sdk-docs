@@ -867,7 +867,7 @@ Replace the content with the following code:
 }
 ```
 
-> Replace `material.css` with another available theme (`bootstrap5.css`, `tailwind.css`, `fabric.css`, `highcontrast.css`, etc.) if your design requires it. Themes are listed at `node_modules/@syncfusion/ej2-react-charts/styles/`.
+> Replace `material.css` with another available theme (`bootstrap5.css`, `tailwind.css`, `fabric.css`, etc.) if your design requires it. Themes are listed at `node_modules/@syncfusion/ej2-react-charts/styles/`.
 
 ---
 
@@ -908,7 +908,7 @@ http://localhost:5173/
 
 ## Running the sample
 
-You need two terminals: one for the Express backend (port `5000`) and one for the Vite dev server (port `5173`). The backend must be running **before** the frontend opens, otherwise the chart receives no data.
+You need two terminals: one for the Express backend (port `5000`) and one for the Vite development server (port `5173`). The backend must be running **before** the frontend opens, otherwise the chart receives no data.
 
 ### Step 1: Start the backend
 

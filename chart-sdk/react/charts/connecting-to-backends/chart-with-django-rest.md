@@ -126,7 +126,7 @@ MIDDLEWARE = [
 ]
 ```
 
-Allow all hosts and the Vite dev server ports:
+Allow all hosts and the Vite development server ports:
 
 ```
 ALLOWED_HOSTS = ["*"]
@@ -385,7 +385,7 @@ Open that URL in the browser.
 
 ## How Server and Client Work Together
 
-The two servers run side by side. The Django backend listens on port `8000` and serves JSON; the Vite dev server listens on port `5173` (or the next available port) and serves the React UI. The browser fetches data from the backend on every state change and re-renders the chart.
+The two servers run side by side. The Django backend listens on port `8000` and serves JSON; the Vite development server listens on port `5173` (or the next available port) and serves the React UI. The browser fetches data from the backend on every state change and re-renders the chart.
 
 ### Server Execution
 
@@ -397,7 +397,7 @@ The two servers run side by side. The Django backend listens on port `8000` and 
 
 ### Client Execution
 
-1. `npm run dev` starts the Vite dev server on port `5173` with hot-reload enabled.
+1. `npm run dev` starts the Vite development server on port `5173` with hot-reload enabled.
 2. The `App` component mounts with `chartData = []` and `selectedYear = '2026'`.
 3. `useEffect` runs `loadChartData('2026')` once. Axios sends `GET http://127.0.0.1:8000/api/sales/?year=2026`.
 4. When the response arrives, `setChartData(response.data)` triggers a re-render. The Syncfusion chart redraws the column series with the new data.

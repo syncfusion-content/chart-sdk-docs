@@ -44,7 +44,6 @@ Install the following software before creating the sample:
 Recommended Visual Studio Code extensions:
 
 - Python
-- Pylance
 - ES7 React snippets
 
 ---
@@ -695,7 +694,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 
 ## Run the Django and React applications
 
-This sample uses **two processes that must run at the same time**: the Django REST API serves data on `http://localhost:8000`, and the Vite dev server renders the React Chart that consumes it on `http://localhost:5173`. Open **two separate terminals** so each process keeps running independently.
+This sample uses **two processes that must run at the same time**: the Django REST API serves data on `http://localhost:8000`, and the Vite development server renders the React Chart that consumes it on `http://localhost:5173`. Open **two separate terminals** so each process keeps running independently.
 
 ### Step 1: Start the backend (Terminal A)
 
@@ -734,7 +733,7 @@ If the page returns `404`, confirm that you registered the `api/` URL include in
 
 ### Step 2: Start the frontend (Terminal B)
 
-Open a **second terminal** from the `frontend` folder and start the Vite dev server:
+Open a **second terminal** from the `frontend` folder and start the Vite development server:
 
 ```
 npm run dev

@@ -322,7 +322,7 @@ To stop the application, switch to each terminal and press `Ctrl + C`. Stop the 
 | Custom headers are not sent | Headers not set on the request | Verify `beforeSend` calls `request.setRequestHeader(...)` before the request is dispatched |
 | Query parameters are missing | Parameters not added to the query | Ensure `processQuery` calls `query.addParams(...)` and returns the result of `super.processQuery.apply(this, arguments)` |
 | CORS error in the console | Server does not allow the client origin | Enable CORS on the server (for example, `app.use(cors())`) and restrict it to the client origin in production |
-| Chart is unstyled | Syncfusion theme not imported | Add `@import '../node_modules/@syncfusion/ej2-base/styles/material.css';` to `client/src/index.css` |
+| Chart is un-styled | Syncfusion theme not imported | Add `@import '../node_modules/@syncfusion/ej2-base/styles/material.css';` to `client/src/index.css` |
 
 ## Method override summary
 

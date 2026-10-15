@@ -106,7 +106,7 @@ cd server
 mkdir Controllers Models
 ```
 
-Delete the default `WeatherForecastController.cs` and `WeatherForecast.cs` files added by the `webapi` template, since this sample does not use them.
+Delete the default `WeatherForecastController.cs` and `WeatherForecast.cs` files added by the Web API template, since this sample does not use them.
 
 Install the Syncfusion ASP.NET Core package.
 
@@ -154,7 +154,7 @@ app.MapControllers();
 app.Run();
 ```
 
-> **Note:** Swagger is not required for this sample. If the `webapi` template shipped Swagger/OpenAPI references (default in .NET 8+), remove them and clean the `bin`/`obj` folders to avoid package version conflicts.
+> **Note:** Swagger is not required for this sample. If the Web API template shipped Swagger/OpenAPI references (default in .NET 8+), remove them and clean the `bin`/`obj` folders to avoid package version conflicts.
 
 ### Step 3: Create the chart data model
 

@@ -265,7 +265,7 @@ The React application uses Vite and the Syncfusion React Chart component. The Ch
 
 ### Frontend Step 1: Create a React app using Vite
 
-Open a new terminal in the `fastapi-react-chart-sample` folder (the one you created in Backend Step 1) and run a single command chain that scaffolds the React app, installs its dependencies, and enters the new folder.
+Open a new terminal in the `react-chart-sample` folder (the one you created in Backend Step 1) and run a single command chain that scaffolds the React app, installs its dependencies, and enters the new folder.
 
 On Windows (PowerShell):
 
