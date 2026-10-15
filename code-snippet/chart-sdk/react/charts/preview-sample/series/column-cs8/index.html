@@ -9,6 +9,19 @@
     <meta name="author" content="Syncfusion" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.38/system.js"></script>
     <script src="systemjs.config.js"></script>
+    <script>
+        // Workaround: ensure the @syncfusion/ej2-notifications map entry is present.
+        // The deployment pipeline may strip this entry, which causes a 404 when
+        // ej2-navigations (a transitive dependency of ej2-charts) requests it.
+        if (typeof System !== 'undefined') {
+            System.config({
+                map: {
+                    "@syncfusion/ej2-notifications": "syncfusion:ej2-notifications/dist/ej2-notifications.umd.min.js"
+                }
+            });
+            System.import('app');
+        }
+    </script>
      <style>
         #loader {
             color: #008cff;
