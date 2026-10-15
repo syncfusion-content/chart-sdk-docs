@@ -125,7 +125,7 @@ The sample runs as two independent processes: a Node.js GraphQL server that retu
 The server is created from four pieces:
 
 - **Express** — HTTP server framework that listens on port 4000.
-- **`express-graphql`** — middleware that exposes the `/graphql` endpoint and runs the GraphQL executor for incoming requests.
+- **`express-graphql`** — a package that exposes the `/graphql` endpoint and runs the GraphQL executor for incoming requests.
 - **Schema** — a `buildSchema` graph that declares `SalesData`, `SalesResult`, and the `getSalesData` query.
 - **Resolver** — the `getSalesData` arrow function that returns the hard-coded list of six months.
 
@@ -133,7 +133,7 @@ When you run `node server.js`, Express starts, `cors()` is applied to every requ
 
 ### 2. Start the React client
 
-In a second terminal, `npm start` (run inside `chart-client`) launches the Create React App dev server on port 3000. Webpack compiles `src/App.js` and serves the bundle to the browser. When the browser opens `http://localhost:3000`, React mounts `App`.
+In a second terminal, `npm start` (run inside `chart-client`) launches the Create React App development  server on port 3000. Web pack compiles `src/App.js` and serves the bundle to the browser. When the browser opens `http://localhost:3000`, React mounts `App`.
 
 ### 3. What happens when the Chart mounts
 
@@ -155,7 +155,7 @@ In order:
 To confirm everything is wired up correctly:
 
 - In the browser, open DevTools → Network and filter on `graphql`. You should see a `POST /graphql` request with status `200 OK`.
-- The request body's `query` field matches the configuration in `App.js`. The `variables.datamanager` field is empty for this chart because there is no paging/sort/filter to send.
+- The request body's `query` field matches the configuration in `App.js`. The `variables.data-manager` field is empty for this chart because there is no paging/sort/filter to send.
 - The response body's `data.getSalesData.result` contains the six monthly records in the order the resolver returned them.
 
 ### 5. Stopping the sample
@@ -216,7 +216,7 @@ app.listen(4000, () => {
 });
 ```
 
-`cors()` is required because the React dev server (port 3000) and the GraphQL server (port 4000) are on different origins.
+`cors()` is required because the React development  server (port 3000) and the GraphQL server (port 4000) are on different origins.
 
 ### Client (`chart-client/src/App.js`)
 

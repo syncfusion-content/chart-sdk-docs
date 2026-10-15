@@ -110,7 +110,7 @@ Install the default project dependencies.
 npm install
 ```
 
-Vite starts the dev server on `http://localhost:5173` by default. If a different port is used, update the CORS origin in Step 9 to match.
+Vite starts the development server on `http://localhost:5173` by default. If a different port is used, update the CORS origin in Step 9 to match.
 
 ---
 
