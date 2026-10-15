@@ -10,10 +10,8 @@ System.config({
         }
     },
     paths: {
-        "syncfusion:": "https://cdn.syncfusion.com/ej2/34.1.29/"
+        "syncfusion:": "https://cdn.syncfusion.com/ej2/35.1.37/"
     },
-    map: {
-        main: "index.ts",
         typescript: "https://unpkg.com/typescript@2.2.2/lib/typescript.js",
         "@syncfusion/ej2-base": "syncfusion:ej2-base/dist/ej2-base.umd.min.js",
         "@syncfusion/ej2-data": "syncfusion:ej2-data/dist/ej2-data.umd.min.js",
