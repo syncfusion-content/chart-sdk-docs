@@ -36,7 +36,6 @@ var chart = new ej.charts.Chart({
     args.shape = 'Triangle';
     }
     },
-    width:'650px',
     height: '350px'
     }, '#element');
 
