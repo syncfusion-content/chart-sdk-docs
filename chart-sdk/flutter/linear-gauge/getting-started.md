@@ -90,7 +90,7 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![Initialize linear gauge](images/getting-started/default_linear_gauge.png)
+![Initialize Flutter Linear Gauge](images/getting-started/default_linear_gauge.png)
 
 ## Add axis
 
@@ -122,7 +122,7 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![Add axis to linear gauge](images/getting-started/add_axis.png)
+![Add axis to Flutter Linear Gauge](images/getting-started/add_axis.png)
 
 ## Update orientation
 
@@ -156,7 +156,7 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![Update Orientation of linear gauge](images/getting-started/vertical_orientation.png)
+![Update Orientation of Flutter Linear Gauge](images/getting-started/vertical_orientation.png)
 
 ## Add range
 
@@ -195,7 +195,7 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![Add ranges to a linear gauge](images/getting-started/add_ranges.png)
+![Add ranges to a Flutter Linear Gauge](images/getting-started/add_ranges.png)
 
 ## Add marker pointer
 
@@ -272,7 +272,7 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![Add widget pointer in linear gauge](images/getting-started/add_widget_pointer.png)
+![Add widget pointer in Flutter Linear Gauge](images/getting-started/add_widget_pointer.png)
 
 ## Add bar pointer
 
@@ -363,4 +363,4 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![A Linear gauge](images/getting-started/all_basic_elements.png)
+![A Flutter Linear Gauge](images/getting-started/all_basic_elements.png)

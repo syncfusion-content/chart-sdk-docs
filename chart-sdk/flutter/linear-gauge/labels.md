@@ -12,7 +12,7 @@ appliesto: UI Component Suite, Chart SDK
 
 The default style of axis labels is as follows.
 
-![Initialize linear gauge for axis](images/getting-started/default_linear_gauge.png)
+![Initialize Flutter Linear Gauge for axis](images/getting-started/default_linear_gauge.png)
 
 ## Customize label styles
 
@@ -58,7 +58,7 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![Customize linear gauge axis label style](images/axis-labels/customize_label_style.png)
+![Customize Flutter Linear Gauge axis label style](images/axis-labels/customize_label_style.png)
 
 ## Change visibility
 
@@ -159,7 +159,7 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![Set linear gauge label position](images/axis-labels/label-placement.png)
+![Set Flutter Linear Gauge label position](images/axis-labels/label-placement.png)
 
 
 ## Change label offset
@@ -194,7 +194,7 @@ class LinearGaugeDemo extends StatelessWidget {
 {% endhighlight %}
 {% endtabs %}
 
-![Set linear gauge label offset](images/axis-labels/label_offset.png)
+![Set Flutter Linear Gauge label offset](images/axis-labels/label_offset.png)
 
 ##  Customize maximum number of visible labels
 

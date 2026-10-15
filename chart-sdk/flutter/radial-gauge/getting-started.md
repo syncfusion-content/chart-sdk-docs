@@ -10,9 +10,9 @@ appliesto: UI Component Suite, Chart SDK
 
 # Getting Started with Flutter Radial Gauge (SfRadialGauge)
 
-This section explains the steps required to add the Flutter [Radial Gauge](https://www.syncfusion.com/flutter-widgets/flutter-radial-gauge) and its elements such as title, axis, range, pointer and annotation. This section covers only the basic features needed to get started with Syncfusion<sup>&reg;</sup> radial gauge. 
+This section explains the steps required to add the Flutter [Radial Gauge](https://www.syncfusion.com/flutter-widgets/flutter-radial-gauge) and its elements such as title, axis, range, pointer and annotation. This section covers only the basic features needed to get started with Syncfusion® Flutter Radial Gauge.
 
-To get started quickly with our Flutter radial gauge widget, you can check out this video:
+To get started quickly with our Flutter Radial Gauge widget, you can check out this video:
 
 <style>#flutterRadialGaugeVideoTutorial{width : 90% !important; height: 300px !important }</style>
 <iframe id='flutterRadialGaugeVideoTutorial' src='https://www.youtube.com/embed/2NuipO7j2tA'></iframe>
@@ -113,11 +113,11 @@ After the package has been imported, initialize the [SfRadialGauge](https://www.
 {% endhighlight %}
 {% endtabs %}
 
-![Initialize radial gauge](images/getting-started/default_gauge.png)
+![Initialize Flutter Radial Gauge](images/getting-started/default_gauge.png)
 
 ## Add title
 
-You can add a title to the radial gauge to provide information to users about the designed gauge. The title can be set to the gauge as demonstrated in the following code snippet:
+You can add a title to the Flutter Radial Gauge to provide information to users about the designed gauge. The title can be set to the gauge as demonstrated in the following code snippet:
 
 {% tabs %}
 {% highlight dart %}
@@ -150,7 +150,7 @@ You can add a title to the radial gauge to provide information to users about th
 {% endhighlight %}
 {% endtabs %}
 
-![title to radial gauge](images/getting-started/gauge_title.png)
+![title to Flutter Radial Gauge](images/getting-started/gauge_title.png)
 
 ## Add axis
 
@@ -188,7 +188,7 @@ Axes contain a list of axis elements, where you can add any number of radial axe
 {% endhighlight %}
 {% endtabs %}
 
-![Axis to radial gauge](images/getting-started/gauge_axis.png)
+![Axis to Flutter Radial Gauge](images/getting-started/gauge_axis.png)
 
 ## Add range
 
@@ -231,7 +231,7 @@ Ranges contain a list of range elements, where you can add any number of ranges 
 {% endhighlight %}
 {% endtabs %}
 
-![range support to radial gauge](images/getting-started/gauge_range.png)
+![range support to Flutter Radial Gauge](images/getting-started/gauge_range.png)
 
 ## Add pointer
 
@@ -271,7 +271,7 @@ Pointers contains a list of pointer elements, where you can add any number of ga
 {% endhighlight %}
 {% endtabs %}
 
-![gauge pointers to radial gauge](images/getting-started/gauge_pointer.png)
+![gauge pointers to Flutter Radial Gauge](images/getting-started/gauge_pointer.png)
 
 ## Add annotation
 
@@ -314,7 +314,7 @@ You can add any number of widgets such as text or image as an annotation inside 
 {% endhighlight %}
 {% endtabs %}
 
-![annotation support to the radial gauge](images/getting-started/gauge_annotation.png)
+![annotation support to the Flutter Radial Gauge](images/getting-started/gauge_annotation.png)
 
 The following code example gives you the complete code of above configurations.
 

@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Zooming and Panning in Flutter Maps (SfMaps)
 
-It is possible to zoom in and out for any layer to take a closer look at a specific region by pinching the map, scrolling the mouse wheel or track-pad, or using the toolbar on the web. You can also pan the map to navigate across regions and customize the zoom level and center point of the initial rendering.
+It is possible to zoom in and out for any layer to take a closer look at a specific region by pinching the map, scrolling the mouse wheel or track-pad, or using the toolbar on the web. You can also pan the Flutter Maps to navigate across regions and customize the zoom level and center point of the initial rendering.
 
 The procedure for zooming and panning is very similar for both layers.
 
@@ -792,7 +792,7 @@ N>
 
 ### Reset
 
-You can [`reset`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapZoomPanBehavior/reset.html) the map to the [`MapZoomPanBehavior.minZoomLevel`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapZoomPanBehavior/minZoomLevel.html) by calling this method.
+You can [`reset`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapZoomPanBehavior/reset.html) the Flutter Maps to the [`MapZoomPanBehavior.minZoomLevel`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapZoomPanBehavior/minZoomLevel.html) by calling this method.
 
 {% tabs %}
 {% highlight Dart %}

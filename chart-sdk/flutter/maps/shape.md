@@ -10,11 +10,11 @@ appliesto: UI Component Suite, Chart SDK
 
 # Shape Colors in Flutter Maps (SfMaps)
 
-This section explains about shapes and how to apply colors to the shapes based on specific values in the Flutter maps.
+This section explains about shapes and how to apply colors to the shapes based on specific values in the Flutter Maps.
 
 ## Loading progress indicator
 
-You can notify the user that the map is being loaded using the [`MapShapeLayer.loadingBuilder`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayer/loadingBuilder.html). It returns the widget which will be visible until the map is loaded.
+You can notify the user that the Flutter Maps is being loaded using the [`MapShapeLayer.loadingBuilder`](https://pub.dev/documentation/syncfusion_flutter_maps/latest/maps/MapShapeLayer/loadingBuilder.html). It returns the widget which will be visible until the map is loaded.
 
 {% tabs %}
 {% highlight Dart %}
