@@ -3,7 +3,7 @@ layout: post
 title: Title and subtitle in JavaScript Charts | Syncfusion
 description: Learn here all about Title in Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK

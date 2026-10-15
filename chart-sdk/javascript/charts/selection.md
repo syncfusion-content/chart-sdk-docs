@@ -111,7 +111,7 @@ Multiple data points or series can be selected simultaneously by enabling the [`
 
 ## Selection on load
 
-Data points or series can be selected programmatically when the chart is loaded by using the [`selectedDataIndexes`](../api/chart#selecteddataindexes-indexesmodel) property.
+Data points or series can be selected programmatically when the chart is loaded by using the [`selectedDataIndexes`](../api/chart#selecteddataindexes-indexesmodel) property. This property requires `selectionMode` to be set to `Point`, `Series`, or `Cluster`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -124,10 +124,9 @@ Data points or series can be selected programmatically when the chart is loaded 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs15" %}
 
-## Selection through on legend
+## Selection through the legend
 
-Points or series can also be selected through the legend by enabling the [`toggleVisibility`](../api/chart/legendSettingsModel#toggleVisibility) property.  
-To visually emphasize the selected series, use the [`enableHighlight`](../api/chart/legendSettings#enableHighlight) property.
+Points or series can also be selected through the legend by enabling the [`toggleVisibility`](../api/chart/legendSettingsModel#togglevisibility) property. To visually emphasize the hovered series, use the [`enableHighlight`](../api/chart/legendSettings#enablehighlight) property.
 
 > When [`highlightMode`](https://ej2.syncfusion.com/documentation/api/chart/highlightmode) is set to `Series`, `Cluster`, or `Point`, legend highlighting occurs even if [`enableHighlight`](https://ej2.syncfusion.com/documentation/api/chart/legendsettings#enablehighlight) is set to **false**. In this case, `highlightMode` takes precedence, and hovering over legend items highlights the corresponding series.
 

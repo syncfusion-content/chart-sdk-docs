@@ -39,6 +39,8 @@ Bind simple JSON data to the chart using the [`dataSource`](../api/chart/series)
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs1" %}
 
+> Available from Essential JS 2 v17.1 and later. Some adaptors (such as `ODataV4Adaptor`) require a later version.
+
 ## Remote data
 
 Bind remote data from a web service by using the `DataManager` class. The DataManager simplifies communication with REST APIs, OData services, and custom web endpoints. It requires minimal configuration—typically just the service URL and an appropriate adaptor—then handles all request/response processing. Assign the DataManager instance to the [`dataSource`](../api/chart/series#datasource-object---datamanager) property in the series, and map the response fields to [`xName`](../api/chart/series#xname-string) and [`yName`](../api/chart/series#yname-string). Use the optional [`query`](../api/chart/series#query-string) property to filter, sort, or paginate data on the server.
@@ -122,7 +124,7 @@ The Web API should structure its response as shown below. The `Items` array cont
 
 ## Custom adaptor
 
-Create a custom adaptor by extending one of the built-in adaptors (typically ODataAdaptor) to add custom logic for request/response handling. Override the `processResponse` method to transform or enrich the response data. Common use cases include adding serial numbers, reformatting dates, or adding computed fields before the chart renders the data.
+Create a custom adaptor by extending one of the built-in adaptors (typically `ODataAdaptor`) to add custom logic for request/response handling. Override the `processResponse` method to transform or enrich the response data. The signature is `processResponse(data: Object, dsRequest?: DataRequest, helper?: Function): Object`. Common use cases include adding serial numbers, reformatting dates, or adding computed fields before the chart renders the data.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

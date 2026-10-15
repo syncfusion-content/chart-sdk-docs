@@ -28,7 +28,7 @@ Enable series labels using the [`labelSettings`](../api/chart/seriesModel#labels
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/series-label" %}
 
-> Note: To use the series label feature, inject the `SeriesLabel` module into the `services`.
+> Note: To use the series label feature, inject the `SeriesLabel` module using `Chart.Inject(SeriesLabel)`.
 
 ## Customization
 
@@ -39,7 +39,7 @@ Customize the appearance of series labels using the following properties:
 * [`background`](../api/chart/seriesLabelSettingsModel#background) – Background color of the label.
 * [`border`](../api/chart/seriesLabelSettingsModel#border) – Border width and color.
 * [`opacity`](../api/chart/seriesLabelSettingsModel#opacity) – Label transparency (default: 1).
-* [`showOverlapText`](../api/chart/seriesLabelSettingsModel#showOverlapText) – When **false**, overlapping labels are hidden.
+* [`showOverlapText`](../api/chart/seriesLabelSettingsModel#showOverlapText) – When `false` (default), overlapping labels are hidden.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

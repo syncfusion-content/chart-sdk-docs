@@ -18,7 +18,7 @@ To render a polar series, use series [`type`](../api/chart/seriesModel#type-stri
 
 ### Draw Types
 
-Polar drawType property is used to change the series plotting type to line, column, area, range column, spline, scatter, stacking area and stacking column. The default value of drawType is `Line`.
+The Polar `drawType` property is used to change the series plotting type to `Line`, `Column`, `Area`, `RangeColumn`, `Spline`, `Scatter`, `StackingArea`, or `StackingColumn`. The default value is `Line`.
 
 **Line**
 

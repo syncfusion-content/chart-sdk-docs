@@ -13,7 +13,7 @@ appliesto: UI Component Suite, Chart SDK
 
 Chart annotations allow highlighting specific areas of the chart using text, shapes, images, or custom HTML elements. Annotations can be used to emphasize trends, mark thresholds, show custom notes, or display additional information directly inside the chart area.
 
-Annotations are added using the `annotations` option. Set the [`content`](../api/chart/chartAnnotationSettingsModel#content-string) property to reference the element that should be rendered within the chart.
+Annotations are added using the `annotations` option. Set the [`content`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAnnotationSettings#content) property to reference the element that should be rendered within the chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -26,7 +26,12 @@ Annotations are added using the `annotations` option. Set the [`content`](../api
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-appearance-cs1" %}
 
-> Note: To use the annotation feature, inject `ChartAnnotation` using `Chart.Inject(ChartAnnotation)` method.
+## Positioning annotations
+
+Annotations are positioned using the [`x`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAnnotationSettings#x) and [`y`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAnnotationSettings#y) properties. The interpretation of these values depends on the `coordinateUnits` setting:
+
+- When `coordinateUnits` is `Pixel`: x and y represent pixel offsets from the chart area origin.
+- When `coordinateUnits` is `Point`: x and y represent actual data values on the respective axes (use axis names with `xAxisName` and `yAxisName` if multiple axes exist).
 
 ## Region
 
@@ -43,12 +48,12 @@ Annotations can be positioned relative to either the overall `Chart` area or a s
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-appearance-cs2" %}
 
-## Co-ordinate units
+## Coordinate units
 
-Use the `coordinateUnits` property to define how annotation coordinates are interpreted. Choose between:
+Use the [`coordinateUnits`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAnnotationSettings#coordinateunits) property to define how annotation coordinates are interpreted. Choose between:
 
-- **Pixel** – The annotation is positioned using fixed pixel values within the chart area.  
-- **Point** – The annotation is positioned based on chart data points (x and y values).
+- **Pixel** – The annotation is positioned using fixed pixel values within the chart area (use x and y pixel offsets).  
+- **Point** – The annotation is positioned based on chart data points (use axis values for x and y positioning).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -63,7 +68,7 @@ Use the `coordinateUnits` property to define how annotation coordinates are inte
 
 ## Alignment
 
-Annotation provides `verticalAlignment` and `horizontalAlignment`. The `verticalAlignment` can be customized via `Top`, `Bottom` or `Middle` and the `horizontalAlignment` can be customized via `Near`, `Far` or `Center`.
+Annotations support [`verticalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAnnotationSettings#verticalalignment) and [`horizontalAlignment`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAnnotationSettings#horizontalalignment) properties. The `verticalAlignment` can be set to `Top`, `Bottom`, or `Middle`, and the `horizontalAlignment` can be set to `Near`, `Far`, or `Center`. Alignment works with both Pixel and Point coordinate units.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -76,9 +81,9 @@ Annotation provides `verticalAlignment` and `horizontalAlignment`. The `vertical
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-appearance-cs4" %}
 
-## Adding y-axis sub title through on annotation
+## Adding Y-Axis subtitle using annotations
 
-By setting text div in the `content` option of annotation object you can add sub title to chart y-axis. Specified the `coordinate` value as `pixel` and customize x and y location of the text.
+You can add a subtitle to the chart y-axis by setting an HTML div element in the `content` property of the annotation. Set the [`coordinateUnits`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAnnotationSettings#coordinateunits) to `Pixel` and customize the x and y position values to place the text at your desired location.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -93,5 +98,5 @@ By setting text div in the `content` option of annotation object you can add sub
 
 ## See also
 
-* [Show total stacking values in data label](../chart/how-to/stacking-total#show-the-total-value-for-stacking-series-in-data-label)
-* [Create footer and watermark for chart](../chart/how-to/footer#create-footer-and-watermark-for-chart)
+* [Show total stacking values in data label](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/stacking-total/#show-the-total-value-for-stacking-series-in-data-label)
+* [Create footer and watermark for chart](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/footer/#create-footer-and-watermark-for-chart)

@@ -185,7 +185,7 @@ Moving average indicators are used to define the direction of the trend. To rend
 
 ## Stochastic
 
-Stochastic shows how a stock compares to its previous price levels. To render a Stochastic indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Stochastic` and inject the `StochasticIndicator` module using `Chart.Inject(StochasticIndicator)` method. The Stochastic indicator is represented by four lines (`upperLine`, `lowerLine`, `periodLine`, `signalLine`). The `upperBand` and `lowerBand` values are customized by [`overBought`](../api/chart/technicalIndicatorModel) and [`overSold`](../api/chart/technicalIndicatorModel) properties of the indicator, and the `periodLine` and `signalLine` are rendered based on the stochastic formula.
+Stochastic shows how a stock compares to its previous price levels. To render a Stochastic indicator, use indicator [`type`](../api/chart/technicalIndicatorModel) as `Stochastic` and inject the `StochasticIndicator` module using `Chart.Inject(StochasticIndicator)` method. The Stochastic indicator is represented by four lines (`upperLine`, `lowerLine`, `periodLine`, `signalLine`). The `upperBand` and `lowerBand` values are customized by the [`overBought`](../api/chart/technicalIndicatorModel#overbought) and [`overSold`](../api/chart/technicalIndicatorModel#oversold) properties of the indicator, and the `periodLine` and `signalLine` are rendered based on the stochastic formula. By default, `kPeriod` is `14`, `dPeriod` is `3`, `slowPeriod` is `3`, `overBought` is `80`, and `overSold` is `20`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

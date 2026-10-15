@@ -12,16 +12,16 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Axis in JavaScript Chart control
 
-Chart typically has two axis, which are used to measure and categorize data: a horizontal or primary x axis and a vertical or primary y axis.
+Chart typically has two axes, which are used to measure and categorize data: a horizontal or primary x-axis and a vertical or primary y-axis.
 
-Vertical axis supports numerical and logarithmic scale. Horizontal axis supports the following types of scale.
+Vertical axes support numerical and logarithmic scales. Horizontal axes support the following types of scales:
 
 * Category
 * Numeric
 * DateTime
 * Logarithmic
 
-In addition to this, both vertical and horizontal axis support inversed axis.
+In addition to this, both vertical and horizontal axes support inversed axis.
 
 <!-- markdownlint-disable MD036 -->
 
@@ -29,7 +29,7 @@ In addition to this, both vertical and horizontal axis support inversed axis.
 
 <!-- markdownlint-disable MD036 -->
 
-Category axis are used to represent, the string values instead of numbers.
+Category axes are used to represent string values instead of numbers.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -76,8 +76,7 @@ You can use numeric axis to represent numeric values of data in chart. By defaul
 
 **Customize Numeric Range**
 
-Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) property of
-the axis.
+Range of an axis will be calculated automatically based on the provided data. You can also customize the range of the axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -177,7 +176,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Auto`, hor
 
 ## DateTime Axis
 
-Date time axis uses date time scale and displays the date time values as axis labels in the specified format.
+DateTime axis uses datetime scale and displays datetime values as axis labels in the specified format.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -190,9 +189,9 @@ Date time axis uses date time scale and displays the date time values as axis la
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs33" %}
 
-**Customizing Date Time Range**
+**Customizing DateTime Range**
 
-Range of an axis will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) property of the axis.
+Range of an axis will be calculated automatically based on the provided data. You can also customize the range of the axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -205,10 +204,10 @@ Range of an axis will be calculated automatically based on the provided data, yo
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs34" %}
 
-**Date Time Intervals**
+**DateTime Intervals**
 
-Date time intervals can be customized by using the [`interval`](./../api/chart/axis/#interval) and [`intervalType`](../api/chart/axis/#intervaltype) properties of the axis. For example, when you set interval as 2 and intervalType as years, it considers 2 years as interval.
-Datetime axis supports following interval types,
+DateTime intervals can be customized by using the [`interval`](../api/chart/axis/#interval) and [`intervalType`](../api/chart/axis/#intervaltype) properties of the axis. For example, when you set interval as 2 and intervalType as years, it considers 2 years as interval.
+DateTime axis supports the following interval types:
 
 * Auto
 * Years
@@ -231,13 +230,13 @@ Datetime axis supports following interval types,
 
 **Applying Padding to the Range**
 
-Padding can be applied to the minimum and maximum extremes of the range by using the [`rangePadding`](../api/chart/axis/#rangepadding) property. Date time axis supports the following types of padding,
+Padding can be applied to the minimum and maximum extremes of the range by using the [`rangePadding`](../api/chart/axis/#rangepadding) property. DateTime axis supports the following types of padding:
 
 * None
 * Round
 * Additional
 
-**Datetime - None**
+**DateTime - None**
 
 When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `None`, minimum and maximum of an axis is based on the data.
 
@@ -252,9 +251,9 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `None`, min
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs36" %}
 
-**Datetime - Round**
+**DateTime - Round**
 
-When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 15th Jan, interval is 1 and the interval type is ‘month’, then the axis minimum will be Jan 1st.
+When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the minimum is 15th January, interval is 1 and the interval type is 'month', then the axis minimum will be January 1st.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -267,7 +266,7 @@ When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Round`, mi
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs37" %}
 
-**Datetime - Additional**
+**DateTime - Additional**
 
 When the [`rangePadding`](../api/chart/axis/#rangepadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
 
@@ -305,7 +304,7 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing dat
 
 **Customize Logarithmic Range**
 
-Range of an axis, will be calculated automatically based on the provided data, you can also customize the range of an axis using [`minimum`](../api/chart/axis/#minimum),[`maximum`](../api/chart/axis/#maximum) and [`interval`](./../api/chart/axis/#interval) property of the axis.
+Range of an axis will be calculated automatically based on the provided data. You can also customize the range of an axis using [`minimum`](../api/chart/axis/#minimum), [`maximum`](../api/chart/axis/#maximum) and [`interval`](../api/chart/axis/#interval) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -335,7 +334,7 @@ Logarithmic base can be customized by using the [`logBase`](../api/chart/axis/#
 
 **Logarithmic Interval**
 
-Logarithmic axis interval can be customized by using the [`interval`](./../api/chart/axis/#interval) property of the axis. When the logarithmic base is 10 and logarithmic interval is 2, then the axis labels are placed at an interval of 10<sup>2</sup>. The default value of the interval is 1.
+Logarithmic axis interval can be customized by using the [`interval`](../api/chart/axis/#interval) property of the axis. When the logarithmic base is 10 and logarithmic interval is 2, then the axis labels are placed at an interval of 10<sup>2</sup>. The default value of the interval is 1.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -503,7 +502,7 @@ The following table describes the result of applying some common date time forma
 
 **Custom Label Format**
 
-Axis also supports custom label format using placeholder like {value}°C, in which the value represent the axis label e.g 20°C.
+Axis also supports custom label format using placeholders like {value}°C, in which the value represents the axis label (e.g., 20°C).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

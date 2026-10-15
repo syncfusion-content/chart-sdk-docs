@@ -15,6 +15,8 @@ appliesto: UI Component Suite, Chart SDK
 
 The chart displays detailed information about a data point through a tooltip when the mouse pointer moves over the point.
 
+> Available from Essential JS 2 v17.1 and later. Earlier versions use a different default for tooltip format.
+
 ## Default tooltip
 
 By default, the tooltip is not visible. You can enable the tooltip by setting the [`enable`](../api/chart/tooltipSettings#enable) property to **true** and by injecting `Tooltip` module using `Chart.Inject(Tooltip)`.

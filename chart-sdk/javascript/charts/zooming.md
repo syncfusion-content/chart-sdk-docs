@@ -94,7 +94,7 @@ Enabling the [`draggable`](../api/chart/toolbarPositionModel#draggable) property
 
 ## Enable pan
 
-By using the [`enablePan`](../api/chart/zoomSettingsModel) property, the zoomed chart can be panned without using toolbar items.
+By using the [`enablePan`](../api/chart/zoomSettingsModel#enablepan) property, the zoomed chart can be panned without using toolbar items.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -111,11 +111,7 @@ By using the [`enablePan`](../api/chart/zoomSettingsModel) property, the zoomed 
 
 By using the [`enableScrollbar`](../api/chart/zoomSettingsModel#enablescrollbar) property, a scrollbar can be displayed for the zoomed chart. This scrollbar supports both zooming and panning interactions.
 
-Scrollbar appearance can be customized using properties within [`scrollbarSettings`](../api/chart/scrollbarSettings). For example:
-- [`trackColor`](../api/chart/scrollbarSettings#trackcolor) and [`trackRadius`](../api/chart/scrollbarSettings#trackradius) control the track appearance.
-- [`scrollbarColor`](../api/chart/scrollbarSettings#scrollbarcolor) and [`scrollbarRadius`](../api/chart/scrollbarSettings#scrollbarradius) customize the scroller.
-- Zooming through the scrollbar can be enabled or disabled using [`enableZoom`](../api/chart/scrollbarSettings#enablezoom).
-- The grip color and scrollbar height can be customized using [`gripColor`](../api/chart/scrollbarSettings#gripcolor) and [`height`](../api/chart/scrollbarSettings#height).
+Scrollbar appearance can be customized using properties within `scrollbarSettings` (for example, `trackColor`, `trackRadius`, `scrollbarColor`, `scrollbarRadius`, `enableZoom`, `gripColor`, and `height`). For the full list of options, see the [Zoom settings API](../api/chart/zoomSettingsModel).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -179,4 +175,8 @@ By using the [`enableAutoIntervalOnZooming`](../api/chart/axis#enableautointerva
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/user-interaction-cs44" %}
 
->Note: To use the zooming feature, inject `Zoom` module `Chart.Inject(Zoom)` method.
+## See also
+
+* [User interaction in JavaScript Chart control](./user-interaction)
+* [Selection in JavaScript Charts](./selection)
+* [Crosshair and trackball in JavaScript Charts](./cross-hair-and-track-ball)
