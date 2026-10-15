@@ -5,6 +5,7 @@ description: The selection support in Flutter Circular Chart offers interactive 
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Selection in Flutter Circular Chart

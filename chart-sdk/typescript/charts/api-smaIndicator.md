@@ -7,6 +7,7 @@ control: Api smaIndicator
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api smaIndicator in TypeScript Chart control

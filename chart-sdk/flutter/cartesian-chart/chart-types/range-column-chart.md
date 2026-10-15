@@ -5,6 +5,7 @@ description: The range column chart support in Flutter Cartesian Chart offers vi
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Range Column Chart in Flutter Cartesian Chart

@@ -5,6 +5,7 @@ description: Learn about animation support in Syncfusion® Flutter Radial Gauge 
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in Flutter Radial Gauge (SfRadialGauge)

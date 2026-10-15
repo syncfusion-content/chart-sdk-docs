@@ -5,6 +5,7 @@ description: The annotation support in Flutter Circular Chart offers custom cont
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotation in Flutter Circular Chart

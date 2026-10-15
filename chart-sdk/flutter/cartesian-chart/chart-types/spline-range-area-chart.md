@@ -5,6 +5,7 @@ description: The spline range area chart support in Flutter Cartesian Chart offe
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Spline Range Area Chart in Flutter Cartesian Chart

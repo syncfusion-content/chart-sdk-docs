@@ -5,6 +5,7 @@ description: The callback support in Flutter Pyramid Chart offers events for sel
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Callbacks in Flutter Pyramid Chart

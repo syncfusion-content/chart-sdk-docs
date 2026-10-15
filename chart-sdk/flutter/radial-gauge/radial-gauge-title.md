@@ -5,6 +5,7 @@ description: Learn about title customization in Syncfusion® Flutter Radial Gaug
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Title in Flutter Radial Gauge (SfRadialGauge)

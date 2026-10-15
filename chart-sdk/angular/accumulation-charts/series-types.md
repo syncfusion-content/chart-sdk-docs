@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Series types 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series types in Angular Accumulation chart component

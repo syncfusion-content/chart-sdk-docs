@@ -7,6 +7,7 @@ control: SfCartesianChart
 documentation: ug
 kappliesto: UI Component Suite, Chart SDK
 keywords: axis title in winui chart, winui sfcartesianchart axis title, winui chart axis title customization, syncfusion winui chart axis title, winui sfcartesianchart axis title configuration.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis Header in WinUI Chart

@@ -5,6 +5,7 @@ description: Learn about drilldown support in Syncfusion® Flutter Treemap (SfTr
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Drilldown in Flutter Treemap (SfTreemap)

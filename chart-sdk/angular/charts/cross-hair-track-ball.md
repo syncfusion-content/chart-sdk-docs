@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Cross hair track ball 
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Cross hair track ball in Angular Chart component

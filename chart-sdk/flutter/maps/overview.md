@@ -5,6 +5,7 @@ description: Learn about the Syncfusion® Flutter Maps (SfMaps), its features, m
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Flutter Maps Control (SfMaps)

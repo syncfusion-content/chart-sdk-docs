@@ -5,6 +5,7 @@ description: Learn how to get started with the Syncfusion® Flutter Treemap (SfT
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Getting Started with Flutter Treemap (SfTreemap)

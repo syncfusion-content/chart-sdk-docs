@@ -5,6 +5,7 @@ description: The step area chart support in Flutter Cartesian Chart offers stepp
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Step Area Chart in Flutter Cartesian Chart

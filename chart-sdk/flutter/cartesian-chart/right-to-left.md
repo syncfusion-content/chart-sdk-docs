@@ -5,6 +5,7 @@ description: The RTL support in Flutter Cartesian Chart offers right-to-left ren
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Right To Left (RTL) in Flutter Cartesian Chart

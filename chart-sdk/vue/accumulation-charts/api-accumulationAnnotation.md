@@ -6,6 +6,7 @@ control: Api accumulationAnnotation
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api accumulationAnnotation in Vue Accumulation chart component

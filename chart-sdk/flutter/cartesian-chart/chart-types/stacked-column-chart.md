@@ -5,6 +5,7 @@ description: The stacked column chart support in Flutter Cartesian Chart offers 
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Stacked Column Chart in Flutter Cartesian Chart

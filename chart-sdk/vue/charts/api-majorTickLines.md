@@ -6,6 +6,7 @@ control: Api majorTickLines
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api majorTickLines in Vue Chart component

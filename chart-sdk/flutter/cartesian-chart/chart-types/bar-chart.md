@@ -5,6 +5,7 @@ description: The bar chart support in Flutter Cartesian Chart offers horizontal 
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bar Chart in Flutter Cartesian Chart

@@ -5,6 +5,7 @@ description: The axis customization support in Flutter Cartesian Chart offers co
 platform: chart-sdk
 control: Cartesian Charts
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis Customization in Flutter Cartesian Chart

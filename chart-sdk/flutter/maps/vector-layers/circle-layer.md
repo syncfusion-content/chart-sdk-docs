@@ -5,6 +5,7 @@ description: Learn about circle layers in Syncfusion® Flutter Maps (SfMaps), in
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Circle Layer in Flutter Maps (SfMaps)

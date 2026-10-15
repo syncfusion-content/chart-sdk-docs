@@ -5,6 +5,7 @@ description: Learn about legend support in Syncfusion® Flutter Treemap (SfTreem
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Legend in Flutter Treemap (SfTreemap)

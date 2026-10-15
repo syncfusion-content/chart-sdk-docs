@@ -5,6 +5,7 @@ description: The chart title support in Flutter Circular Chart offers customizab
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Chart title in Flutter Circular Chart

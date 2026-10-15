@@ -5,6 +5,7 @@ description: Learn about accessibility support in Syncfusion® Flutter Maps (SfM
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Maps (SfMaps)

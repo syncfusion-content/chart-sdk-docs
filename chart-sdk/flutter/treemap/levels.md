@@ -5,6 +5,7 @@ description: Learn about flat and hierarchical levels in Syncfusion® Flutter Tr
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Flat and Hierarchical Levels in Flutter Treemap (SfTreemap)

@@ -5,6 +5,7 @@ description: Learn how to add and use Syncfusion® Flutter Linear Gauge (SfLinea
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # How to Add Linear Gauge in FlutterFlow (SfLinearGauge)

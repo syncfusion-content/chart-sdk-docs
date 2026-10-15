@@ -5,6 +5,7 @@ description: The callback support in Flutter Funnel Chart offers events for sele
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Callbacks in Flutter Funnel Chart

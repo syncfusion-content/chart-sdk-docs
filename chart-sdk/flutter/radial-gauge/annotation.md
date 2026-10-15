@@ -5,6 +5,7 @@ description: Learn about annotations in Syncfusion® Flutter Radial Gauge (SfRad
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Annotation in Flutter Radial Gauge (SfRadialGauge)

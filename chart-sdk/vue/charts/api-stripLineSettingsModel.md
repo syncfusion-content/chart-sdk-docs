@@ -6,6 +6,7 @@ control: Api stripLineSettingsModel
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api stripLineSettingsModel in Vue Chart component

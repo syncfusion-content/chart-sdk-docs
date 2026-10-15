@@ -7,6 +7,7 @@ control: SfCartesianChart
 documentation: ug
 kappliesto: UI Component Suite, Chart SDK
 keywords: axis in winui chart, winui sfcartesianchart axis, winui chart axis customization, syncfusion winui chart axis, winui sfcartesianchart axis settings.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis type in WinUI Chart

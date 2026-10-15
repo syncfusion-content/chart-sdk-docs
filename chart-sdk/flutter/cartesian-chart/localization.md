@@ -5,6 +5,7 @@ description: The localization support in Flutter Cartesian Chart offers region-s
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Localization in Flutter Cartesian Chart

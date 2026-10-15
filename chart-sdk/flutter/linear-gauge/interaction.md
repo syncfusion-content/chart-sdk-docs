@@ -5,6 +5,7 @@ description: Learn about interaction support in Syncfusion® Flutter Linear Gaug
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Interaction in Flutter Linear Gauge (SfLinearGauge)

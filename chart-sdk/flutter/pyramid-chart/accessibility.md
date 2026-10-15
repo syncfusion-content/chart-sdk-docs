@@ -5,6 +5,7 @@ description: The accessibility support in Flutter Pyramid Chart offers sufficien
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Pyramid Chart

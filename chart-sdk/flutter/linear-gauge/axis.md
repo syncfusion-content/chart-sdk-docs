@@ -5,6 +5,7 @@ description: Learn about axis customization in Syncfusion® Flutter Linear Gauge
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis in Flutter Linear Gauge (SfLinearGauge)

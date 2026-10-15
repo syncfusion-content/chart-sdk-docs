@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Index
 publishingplatform: chart-sdk
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

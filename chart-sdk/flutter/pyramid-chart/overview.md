@@ -5,6 +5,7 @@ description: Learn here all about introduction of Syncfusion® Flutter Pyramid C
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Syncfusion® SfPyramidChart widget

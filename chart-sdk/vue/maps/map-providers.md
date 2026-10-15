@@ -6,6 +6,7 @@ control: Map providers
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Map providers in Vue Maps component

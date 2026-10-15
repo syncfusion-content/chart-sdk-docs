@@ -5,6 +5,7 @@ description: Learn about bubble support in Syncfusion® Flutter Maps (SfMaps), i
 platform: chart-sdk
 control: SfMaps
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Bubbles in Flutter Maps (SfMaps)

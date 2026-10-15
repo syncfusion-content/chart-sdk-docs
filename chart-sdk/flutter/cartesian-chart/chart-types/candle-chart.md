@@ -5,6 +5,7 @@ description: The candle chart support in Flutter Cartesian Chart offers financia
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Candle Chart in Flutter Cartesian Chart

@@ -5,6 +5,7 @@ description: The marker and data label support in Flutter Cartesian Chart offers
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Marker and Data Label in Flutter Cartesian Chart

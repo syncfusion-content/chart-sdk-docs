@@ -7,6 +7,7 @@ control: SfCartesianChart
 documentation: ug
 kappliesto: UI Component Suite, Chart SDK
 keywords: winui line chart, winui sfcartesianchart, winui line chart customization, syncfusion winui line chart,  winui line chart configuration.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Line Chart in WinUI Chart

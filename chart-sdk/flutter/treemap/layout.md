@@ -5,6 +5,7 @@ description: Learn about layout options in Syncfusion® Flutter Treemap (SfTreem
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Layouts in Flutter Treemap (SfTreemap)

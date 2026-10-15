@@ -5,6 +5,7 @@ description: The series customization support in Flutter Circular Chart offers c
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Series Customization in Flutter Circular Chart

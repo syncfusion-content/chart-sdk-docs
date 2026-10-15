@@ -5,6 +5,7 @@ description: Learn about shape marker pointers in Syncfusion® Flutter Linear Ga
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Shape Marker Pointer in Flutter Linear Gauge (SfLinearGauge)

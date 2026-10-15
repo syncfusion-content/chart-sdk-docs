@@ -5,6 +5,7 @@ description: Learn about the Syncfusion® Flutter Radial Gauge (SfRadialGauge), 
 platform: chart-sdk
 control: SfRadialGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Flutter Radial Gauge Control (SfRadialGauge)

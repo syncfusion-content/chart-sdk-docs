@@ -7,6 +7,7 @@ control: SfCartesianChart
 documentation: ug
 kappliesto: UI Component Suite, Chart SDK
 keywords: winui ohlc chart, winui chart ohlc type, ohlc chart customization winui, syncfusion winui ohlc chart, winui cartesian ohlc visualization.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # OHLC Chart in WinUI Chart

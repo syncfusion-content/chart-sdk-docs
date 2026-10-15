@@ -5,6 +5,7 @@ description: The RTL support in Flutter Circular Chart offers right-to-left rend
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # RTL support in Flutter Circular Chart

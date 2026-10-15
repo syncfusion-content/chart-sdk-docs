@@ -5,6 +5,7 @@ description: The accessibility support in Flutter Cartesian Chart offers suffici
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Accessibility in Flutter Cartesian Chart

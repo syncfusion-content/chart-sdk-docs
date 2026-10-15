@@ -5,6 +5,7 @@ description: Learn about the Syncfusion® Flutter Treemap (SfTreemap), its featu
 platform: chart-sdk
 control: SfTreemap
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # About Flutter Treemap Control (SfTreemap)

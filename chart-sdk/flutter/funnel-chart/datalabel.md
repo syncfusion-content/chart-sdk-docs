@@ -5,6 +5,7 @@ description: The data label support in Flutter Funnel Chart offers customizable 
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Data label in Flutter Funnel Chart

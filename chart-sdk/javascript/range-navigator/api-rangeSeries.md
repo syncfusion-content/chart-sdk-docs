@@ -7,6 +7,7 @@ control: Api rangeSeries
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Api rangeSeries in JavaScript Range navigator control

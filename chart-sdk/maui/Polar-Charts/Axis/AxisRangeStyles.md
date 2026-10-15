@@ -6,6 +6,7 @@ platform: chart-sdk
 control: SfPolarChart
 documentation: ug
 keywords: .net maui polar chart axis range style, polar chart range styles maui, customize polar axis elements maui, polar chart axis label style maui, syncfusion maui polar axis range style.
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Axis Range Styles in .NET MAUI Polar Chart

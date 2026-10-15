@@ -5,6 +5,7 @@ description: The scatter chart support in Flutter Cartesian Chart offers visuali
 platform: chart-sdk
 control: Chart
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Scatter Chart in Flutter Cartesian Chart

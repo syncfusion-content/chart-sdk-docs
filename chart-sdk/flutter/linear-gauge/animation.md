@@ -5,6 +5,7 @@ description: Learn about animation support in Syncfusion® Flutter Linear Gauge 
 platform: chart-sdk
 control: SfLinearGauge
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 # Animation in Flutter Linear Gauge (SfLinearGauge)
