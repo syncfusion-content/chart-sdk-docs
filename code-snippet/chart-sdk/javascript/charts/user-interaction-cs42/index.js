@@ -41,6 +41,7 @@ var chart = new ej.charts.Chart({
         ],
         zoomSettings:
         {
+            enablePan: true,
             enableSelectionZooming: true,
             //toolbar items for zooming toolkit
             toolbarItems: ['Zoom', 'Pan', 'Reset'],

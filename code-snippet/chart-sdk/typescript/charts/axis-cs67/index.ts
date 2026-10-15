@@ -1,22 +1,42 @@
+import {
+    Chart,
+    LineSeries,
+    DateTime
+} from '@syncfusion/ej2-charts';
 
-
-
-import { Chart, DateTime, LineSeries, DateTimeCategory } from '@syncfusion/ej2-charts';
-import { data } from './datasource.ts';
-Chart.Inject(LineSeries, DateTime, DateTimeCategory);
+Chart.Inject(LineSeries, DateTime);
 
 let chart: Chart = new Chart({
     primaryXAxis: {
-        // Date time range in primary X Axis
-        valueType: 'DateTimeCategory',
+        valueType: 'DateTime',
+        minimum: new Date(2000, 0, 1),
+        maximum: new Date(2011, 0, 1),
+        interval: 2,
+        intervalType: 'Years',
+        labelFormat: 'yyyy',
+        title: 'Years'
     },
-    series:[{
-        dataSource: data,
-        xName: 'x', yName: 'y',
+    primaryYAxis: {
+        minimum: 0,
+        maximum: 100,
+        interval: 20,
+        title: 'Sales Amount in Millions (USD)'
+    },
+    series: [{
+        dataSource: [
+            { x: new Date(2000, 6, 11), y: 10 },
+            { x: new Date(2002, 3, 7), y: 30 },
+            { x: new Date(2004, 3, 6), y: 15 },
+            { x: new Date(2006, 3, 30), y: 65 },
+            { x: new Date(2008, 3, 8), y: 90 },
+            { x: new Date(2010, 3, 8), y: 85 }
+        ],
+        xName: 'x',
+        yName: 'y',
+        name: 'Sales',
         type: 'Line'
     }],
-
+    title: 'Average Sales Comparison'
 }, '#element');
 
-
-
+chart.appendTo('#element');

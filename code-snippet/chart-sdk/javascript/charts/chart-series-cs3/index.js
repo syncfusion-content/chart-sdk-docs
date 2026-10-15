@@ -1,53 +1,78 @@
 var chartData = [
-    { x: '2005', y: 1.2, y1: 0.5, y2: 0.7, y3: -0.8, y4: 1.5 },
-    { x: '2006', y: 1, y1: 0.5, y2: 1.4, y3: 0, y4: 2.3 },
-    { x: '2007', y: 1, y1: 0.5, y2: 1.5, y3: -1, y4: 2 },
-    { x: '2008', y: 0.25, y1: 0.35, y2: 0.35, y3: -.35, y4: 0.1 },
-    { x: '2009', y: 0.1, y1: 0.9, y2: -2.7, y3: -0.3, y4: -2.7 },
-    { x: '2010', y: 1, y1: 0.5, y2: 0.5, y3: -0.5, y4: 1.8 },
-    { x: '2011', y: 0.1, y1: 0.25, y2: 0.25, y3: 0, y4: 2 },
-    { x: '2012', y: -0.25, y1: -0.5, y2: -0.1, y3: -0.4, y4: 0.4 },
-    { x: '2013', y: 0.25, y1: 0.5, y2: -0.3, y3: 0, y4: 0.9 },
-    { x: '2014', y: 0.6, y1: 0.6, y2: -0.6, y3: -0.6, y4: 0.4 },
-    { x: '2015', y: 0.9, y1: 0.5, y2: 0, y3: -0.3, y4: 1.3 }
+    { year: '2005', consumption: { private: 1.2, government: 0.5 }, investment: { value: 0.7 }, trade: { net: -0.8 }, gdp: { growth: 1.5 } },
+    { year: '2006', consumption: { private: 1, government: 0.5 }, investment: { value: 1.4 }, trade: { net: 0 }, gdp: { growth: 2.3 } },
+    { year: '2007', consumption: { private: 1, government: 0.5 }, investment: { value: 1.5 }, trade: { net: -1 }, gdp: { growth: 2 } },
+    { year: '2008', consumption: { private: 0.25, government: 0.35 }, investment: { value: 0.35 }, trade: { net: -0.35 }, gdp: { growth: 0.1 } },
+    { year: '2009', consumption: { private: 0.1, government: 0.9 }, investment: { value: -2.7 }, trade: { net: -0.3 }, gdp: { growth: -2.7 } },
+    { year: '2010', consumption: { private: 1, government: 0.5 }, investment: { value: 0.5 }, trade: { net: -0.5 }, gdp: { growth: 1.8 } },
+    { year: '2011', consumption: { private: 0.1, government: 0.25 }, investment: { value: 0.25 }, trade: { net: 0 }, gdp: { growth: 2 } },
+    { year: '2012', consumption: { private: -0.25, government: -0.5 }, investment: { value: -0.1 }, trade: { net: -0.4 }, gdp: { growth: 0.4 } },
+    { year: '2013', consumption: { private: 0.25, government: 0.5 }, investment: { value: -0.3 }, trade: { net: 0 }, gdp: { growth: 0.9 } },
+    { year: '2014', consumption: { private: 0.6, government: 0.6 }, investment: { value: -0.6 }, trade: { net: -0.6 }, gdp: { growth: 0.4 } },
+    { year: '2015', consumption: { private: 0.9, government: 0.5 }, investment: { value: 0 }, trade: { net: -0.3 }, gdp: { growth: 1.3 } }
 ];
 var chart = new ej.charts.Chart({
-        primaryXAxis: {
-            title: 'Years',
-            interval: 1,
-            labelIntersectAction : 'Rotate45',
-            valueType: 'Category'
-        },
-        primaryYAxis:
+    primaryXAxis: {
+        title: 'Years',
+        interval: 1,
+        labelIntersectAction: 'Rotate45',
+        valueType: 'Category'
+    },
+    primaryYAxis: {
+        title: 'Growth',
+        minimum: -3,
+        maximum: 3,
+        interval: 1
+    },
+    series: [
         {
-            title: 'Growth',
-            minimum: -3, maximum: 3, interval: 1
+            type: 'StackingColumn',
+            dataSource: chartData,
+            enableComplexProperty: true,
+            xName: 'year',
+            yName: 'consumption.private',
+            name: 'Private Consumption'
         },
-        series: [
-            {
-                type: 'StackingColumn', dataSource: chartData,
-                xName: 'x', yName: 'y', name: 'Private Consumption'
-            }, {
-                type: 'StackingColumn', dataSource: chartData,
-                xName: 'x', yName: 'y1', name: 'Government Consumption'
-            }, {
-                type: 'StackingColumn', dataSource: chartData,
-                xName: 'x', yName: 'y2', name: 'Investment'
-            }, {
-                type: 'StackingColumn', dataSource: chartData,
-                xName: 'x', yName: 'y3', name: 'Net Foreign Trade'
-
-            }, {
-                type: 'Line',  name: 'GDP',
-                dataSource: chartData, xName: 'x', yName: 'y4',
-                width: 2, opacity: 0.6,
-                marker: {
-                    visible: true,
-                    width: 10, opacity: 0.6,
-                    height: 10
-                },
+        {
+            type: 'StackingColumn',
+            dataSource: chartData,
+            enableComplexProperty: true,
+            xName: 'year',
+            yName: 'consumption.government',
+            name: 'Government Consumption'
+        },
+        {
+            type: 'StackingColumn',
+            dataSource: chartData,
+            enableComplexProperty: true,
+            xName: 'year',
+            yName: 'investment.value',
+            name: 'Investment'
+        },
+        {
+            type: 'StackingColumn',
+            dataSource: chartData,
+            enableComplexProperty: true,
+            xName: 'year',
+            yName: 'trade.net',
+            name: 'Net Foreign Trade'
+        },
+        {
+            type: 'Line',
+            dataSource: chartData,
+            enableComplexProperty: true,
+            xName: 'year',
+            yName: 'gdp.growth',
+            name: 'GDP',
+            width: 2,
+            opacity: 0.6,
+            marker: {
+                visible: true,
+                width: 10,
+                height: 10,
+                opacity: 0.6
             }
-        ],
-        title: 'Annual Growth GDP in France'
+        }
+    ],
+    title: 'Annual GDP Growth in France'
 }, '#element');
-
