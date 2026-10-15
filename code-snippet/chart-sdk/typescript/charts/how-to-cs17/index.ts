@@ -48,7 +48,7 @@ import { EmitType } from '@syncfusion/ej2-base';
           let value = chart.series[length].stackedValues.endValues[i];
           i += (i == length) ? -length : 1;
           args.content.children[0].children[0].innerHTML = value;
-        }
+        },
     width:'650px',
     height: '350px'
     });

@@ -3,40 +3,98 @@ layout: post
 title: Understanding JavaScript Charts control | Syncfusion
 description: Learn here all about Understanding the Syncfusion JavaScript Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
-control: Chart 
+control: Chart
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# Understanding of JavaScript Charts
+# Understanding JavaScript Charts
 
-The JavaScript Chart control is a versatile visualization tool that presents data using a wide range of graphical formats. Each chart is composed of essential elements—such as the title, series, tooltip, legend, and axes—that work together to provide clear, interactive, and meaningful insights. Understanding these elements helps in configuring and customizing charts for various analytical needs.
+The JavaScript Chart control presents data through configurable structural and interactive elements. Structural elements such as the title, series, axes, chart area, and legend organize the visualization, while interactive elements such as tooltips, crosshairs, zooming, and selection help users inspect the data.
 
-The following image highlights the primary elements of a chart:
+The following image identifies the primary elements of a Chart:
 
-<img src="../images/chart_elements.png" alt="Yes">
+<img src="../images/chart_elements.png" alt="JavaScript Chart showing the title, legend, axes, plotted series, data labels, and tooltip">
 
-## Title
+## Structural elements
 
-The chart title conveys the overall purpose or subject of the visualization. It typically appears at the top of the chart and can be customized in terms of alignment, style, and formatting.  
-For more details, see the [Title and Subtitle](./title-subtitle) section.
+### Title and subtitle
 
-## Series
+The Chart title identifies the subject or purpose of the visualization. A subtitle can provide supporting information such as a time range, data source, or explanatory note. Both elements support alignment, styling, positioning, and text formatting.
 
-A series represents a group of data points plotted on the chart. Charts can include one or more series depending on the scenario, and each series can use different chart types such as line, column, area, or other supported visualizations.  
-For more details, see the [Series](./chart-types/line) section.
+For configuration details, see [Title and subtitle](./title-subtitle).
 
-## Tooltip
+### Series
 
-Tooltips display helpful information when users hover over a data point or series. They offer interactive and contextual insights, such as exact values or additional metadata, and can be customized to match the design or analytical needs of the application.  
-For more details, see the [Tooltip](./tool-tip) section.
+A series represents a group of related data points. The series `dataSource` provides the data, while properties such as `xName` and `yName` map fields from each data object to the Chart axes. A Chart can contain one or more series and can combine supported series types such as Line, Column, and Area.
 
-## Legend
+For configuration details, see [Chart series](./chart-series) and [Data binding](./data-binding/local-data).
 
-The legend identifies each series in the chart, making it easier for users to understand dataset distinctions. It also supports toggling the visibility of individual series to facilitate interactive data exploration.  
-For more details, see the [Legend](./legend) section.
+### Axes
 
-## Axes
+Axes define the scales and positions used to plot data. Cartesian Charts typically use an X-axis for independent values and a Y-axis for dependent values. Additional axes can be added when series require different scales or units.
 
-Axes structure and organize chart data. Standard Cartesian charts include an x-axis for independent variables and a y-axis for dependent variables. Three-dimensional charts add a z-axis to represent depth. Polar and radar charts instead use radial axes to measure distance from the center and angular axes to define direction. These axes help translate complex datasets into a readable graphical format.
+The Chart supports numeric, category, DateTime, and logarithmic axes. Polar and radar Charts instead use angular and radial coordinate behavior.
+
+For configuration details, see:
+
+- [Numeric axis](./numeric-axis)
+- [Category axis](./category-axis)
+- [DateTime axis](./date-time-axis)
+- [Logarithmic axis](./logarithmic-axis)
+- [Multiple axes](./axis-customization#multiple-axis)
+- [Polar and radar Charts](./polar-radar)
+
+### Chart area
+
+The chart area contains the plotted series and axes. Its background, border, and margins can be customized to match the application layout.
+
+For configuration details, see [Chart appearance](./appearance).
+
+### Legend
+
+The legend identifies each series by its name, color, and shape. By default, selecting a legend item toggles the visibility of its corresponding series. This behavior can be disabled or customized through the legend settings.
+
+For configuration details, see [Legend](./legend).
+
+### Data labels and markers
+
+Markers identify individual points in supported series, while data labels display point values or related text near the plotted points. Both elements can be styled and positioned independently.
+
+For configuration details, see [Data labels](./data-labels) and [Markers](./data-markers).
+
+## Interactive elements
+
+### Tooltip
+
+A tooltip displays contextual information when a user hovers over or interacts with a data point on a touch device. Tooltips are disabled by default and can be enabled and customized through the Chart tooltip settings.
+
+For configuration details, see [Tooltip](./tool-tip).
+
+### Crosshair and trackball
+
+Crosshair and trackball features help locate and compare values near the pointer position. These features can display axis-level or point-level information without permanently adding labels to the Chart.
+
+For configuration details, see [Crosshair and trackball](./cross-hair-and-track-ball).
+
+### Zooming and panning
+
+Zooming allows users to inspect a selected data range, while panning moves through a zoomed Chart. The interaction can be configured along the horizontal axis, vertical axis, or both axes.
+
+For configuration details, see [Zooming](./zooming).
+
+### Selection and highlighting
+
+Selection identifies points, series, clusters, or regions for focused analysis. Highlighting visually emphasizes points or series during pointer interaction.
+
+For configuration details, see [Selection](./selection).
+
+## See also
+
+- [Getting started](./es5-getting-started)
+- [Chart series](./chart-series)
+- [Axis customization](./axis-customization)
+- [Title and subtitle](./title-subtitle)
+- [Tooltip](./tool-tip)
+- [Legend](./legend)

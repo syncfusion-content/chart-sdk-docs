@@ -13,11 +13,11 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Range Area
 
-To render a [range area](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/range-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a [range area](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/range-area-chart) series in your chart, follow the steps below:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `RangeArea` in your chart configuration. This indicates that the data should be represented as a range area chart, which is ideal for visualizing a range of values for each data point. This type of chart is particularly useful for displaying data that has a range between a minimum and maximum value, such as temperature ranges, stock price ranges, or any other type of data that varies within a specific interval.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `RangeArea` in your chart configuration. This indicates that the data should be represented as a range area chart, which is ideal for visualizing a range of values for each data point. This type of chart is particularly useful for displaying data that has a range between a minimum and maximum value, such as temperature ranges, stock price ranges, or any other type of data that varies within a specific interval.
 
-* **Inject the RangeAreaSeries module**: Use the `Chart.Inject(RangeAreaSeries)` method to inject the `RangeAreaSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering range area series are available in your chart.
+* **Inject the RangeAreaSeries and Category modules**: Use `Chart.Inject(RangeAreaSeries, Category)` to register both the `RangeAreaSeries` and the `Category` axis modules. The `Category` module is required because the x-axis uses `valueType: 'Category'`.
 
 * **Provide high and low values**: The `RangeArea` series requires two y-values for each data point, you need to specify both the high and low values. The high value represents the maximum range, while the low value represents the minimum range for each data point. These values define the upper and lower boundaries of the area for each point on the chart.
 
@@ -37,7 +37,7 @@ To render a [range area](https://www.syncfusion.com/javascript-ui-controls/js-ch
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname), [`high`](../../api/chart/series#high), and [`low`](../../api/chart/series#low) properties.
+You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/documentation/api/chart/series#high), and [`low`](https://ej2.syncfusion.com/documentation/api/chart/series#low) properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -55,11 +55,11 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Series customization
 
-The following properties can be used to customize the `range area` series.
+The following properties can be used to customize the `Range Area` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -75,7 +75,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs122" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the range area series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property also applies an SVG gradient to a range area series. Define the gradient within an SVG `<defs>` element using a unique ID, and assign it to the series in the `url(#gradientId)` format.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -91,9 +93,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs231" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [`opacity`](https://ej2.syncfusion.com/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -109,9 +111,9 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs232" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the range area series.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the range area series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -129,11 +131,11 @@ Use the [`border`](../../api/chart/series#border) property to configure the bord
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Configure the [`emptyPointSettings`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings) on the series to control how empty data points are rendered.
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) property to control how empty points are handled. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -149,9 +151,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs234" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points. Note that the series `marker` must be visible for the empty-point fill to be rendered.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -167,9 +169,9 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs235" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -189,7 +191,7 @@ Use the [`border`](../../api/chart/emptyPointSettings#border) property to custom
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -207,7 +209,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -223,7 +225,18 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs412" %}
 
+## Troubleshooting
+The following list describes common issues you may encounter when working with the Range Area series and how to resolve them.
+
+**Chart does not render a range area:** Confirm the [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) property of the series is set to `RangeArea`. If `type` is omitted or set to a different value (for example, `Area` or `Line`), the data is drawn as a regular area or line series. Also ensure `RangeAreaSeries` is registered with `Chart.Inject(RangeAreaSeries)` before the chart is initialized, or import the module directly from `@syncfusion/ej2-charts` using ES module syntax.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between connected series. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
+**Data does not appear at the expected x position:** Confirm the data item fields match the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/documentation/api/chart/series#high), and [`low`](https://ej2.syncfusion.com/documentation/api/chart/series#low) values. Mismatched or missing field names silently produce empty or collapsed ranges.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Area chart](./area)
+* [Spline Area chart](./spline-area)

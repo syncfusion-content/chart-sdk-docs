@@ -12,9 +12,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Gradient in TypeScript Charts
 
-<!-- markdownlint-disable MD036 -->
-
-Gradients add depth and modern styling to charts by smoothly blending multiple colors. The Charts component supports two gradient types:
+Gradients let you blend two or more colors across a chart element. The Chart component supports two gradient types:
 
 - Linear gradient
 - Radial gradient
@@ -27,26 +25,26 @@ Gradients can be applied to:
 
 ## Linear gradient
 
-A linear gradient blends color along side a straight path from a defined start point to an end point. Configure it by adding `linearGradient` inside the target element (Series, Trendlines or Indicators) and define one or more color stops that control how colors transition across the gradient. Set the start and end positions of the gradient using `x1`, `y1`, `x2` and `y2` properties. The gradient color stop values such as `offset`, `color`, `opacity`, `lighten` and `brighten` are set using the `gradientColorStop` property.
+A linear gradient blends colors alongside a straight path from a defined start point to an end point. Configure it by adding [`linearGradient`](https://ej2.syncfusion.com/documentation/api/chart/lineargradient) inside the target element (series, trendlines, or indicators) and define one or more color stops that control how colors transition across the gradient. Set the start and end coordinates of the gradient using `x1`, `y1`, `x2`, and `y2` properties (each normalized to the range 0 to 1; defaults are `x1=0, y1=0, x2=1, y2=0` which produces a left-to-right gradient). The gradient color stop values are set using the `gradientColorStop` property.
 
 In the `linearGradient`:
 
-- `x1` - Sets the horizontal start position of the gradient (0 to 1).
-- `y1` - Sets the vertical start position of the gradient (0 to 1).
-- `x2` - Sets the horizontal end position of the gradient (0 to 1).
-- `y2` - Sets the vertical end position of the gradient (0 to 1).
+- `x1` - Sets the horizontal start position of the gradient, normalized to 0 to 1. Default: `0`.
+- `y1` - Sets the vertical start position of the gradient, normalized to 0 to 1. Default: `0`.
+- `x2` - Sets the horizontal end position of the gradient, normalized to 0 to 1. Default: `1`.
+- `y2` - Sets the vertical end position of the gradient, normalized to 0 to 1. Default: `0`.
 
-In the `gradientColorStop`:
+In the `gradientColorStop` (an array of stop objects):
 
-- `offset` - Specifies the position of the color stop along the gradient (0 to 100).
-- `color` - Sets the color at the stop.
-- `opacity` - Defines the transparency of the stop (0 to 1).
-- `lighten` - Adjusts lightness at the stop. Positive values lighten the color. Range: 0 to 1.
-- `brighten` - Adjusts brightness at the stop. Positive values increase brightness; negative values decrease it. Ranges: -1 to 1.
+- `offset` - Specifies the position of the color stop along the gradient, from 0 to 100.
+- `color` - Sets the color at the stop (any valid CSS color string).
+- `opacity` - Defines the transparency of the stop, from 0 (transparent) to 1 (opaque).
+- `lighten` - Adjusts lightness at the stop as a number from 0 to 1. For example, `lighten: 0.5` lightens the stop color by 50%.
+- `brighten` - Adjusts brightness at the stop as a number from -1 to 1. Negative values darken the stop color; positive values lighten it.
 
 ### Series
 
-Apply a linear gradient to a series by adding `linearGradient` inside the target Series. The same gradient is applied to the series markers, legend symbol and tooltip marker for visual consistency.
+Apply a linear gradient to a series by adding [`linearGradient`](https://ej2.syncfusion.com/documentation/api/chart/lineargradient) inside the series object. The same gradient is applied to the series markers, the legend symbol, and the tooltip marker for visual consistency.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -61,7 +59,7 @@ Apply a linear gradient to a series by adding `linearGradient` inside the target
 
 ### Trendlines
 
-Apply a linear gradient to a trendline by adding `linearGradient` inside the target Trendline.
+Apply a linear gradient to a trendline by adding [`linearGradient`](https://ej2.syncfusion.com/documentation/api/chart/lineargradient) inside the trendline object. The trendline uses the same color stop configuration as the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -74,9 +72,9 @@ Apply a linear gradient to a trendline by adding `linearGradient` inside the tar
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-gradient-cs2" %}
 
-### Technical Indicators
+### Technical indicators
 
-Apply a linear gradient to a technical indicator by adding `linearGradient` inside the target Indicator.
+Apply a linear gradient to a technical indicator by adding [`linearGradient`](https://ej2.syncfusion.com/documentation/api/chart/lineargradient) inside the indicator object. The indicator uses the same color stop configuration as the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -91,27 +89,27 @@ Apply a linear gradient to a technical indicator by adding `linearGradient` insi
 
 ## Radial gradient
 
-A radial gradient blends colors outward from a central point, creating a circular or elliptical color progression. Configure it by adding `radialGradient` inside the target element (Series, Trendline, or Indicator) and define one or more color stops to control how colors transition from the center to the outer edge. Set the gradient’s center, optional focal point, and radius using `radialGradient` properties. The color stop values such as `offset`, `color`, `opacity`, `lighten`, and `brighten` are set using the `gradientColorStop` property.
+A radial gradient blends colors outward from a central point, creating a circular or elliptical color progression. Configure it by adding [`radialGradient`](https://ej2.syncfusion.com/documentation/api/chart/radialGradient) inside the target element (series, trendlines, or indicators) and define one or more color stops to control how colors transition from the center to the outer edge. Set the gradient's center, optional focal point, and radius using the `radialGradient` properties. The color stop values are set using the `gradientColorStop` property.
 
 In the `radialGradient`:
 
-- `cx` - Sets the normalized horizontal center of the gradient (0 to 1).
-- `cy` - Sets the normalized vertical center of the gradient (0 to 1).
-- `fx` - Sets the normalized horizontal focal point from which the gradient appears to originate (0 to 1).
-- `fy` - Sets the normalized vertical focal point (0 to 1).
-- `r` - Sets the normalized radius of the gradient circle (0 to 1).
+- `cx` - Sets the normalized horizontal center of the gradient, from 0 to 1. Default: `0.5`.
+- `cy` - Sets the normalized vertical center of the gradient, from 0 to 1. Default: `0.5`.
+- `fx` - Sets the normalized horizontal focal point from which the gradient appears to originate, from 0 to 1. Optional; defaults to `cx` if omitted.
+- `fy` - Sets the normalized vertical focal point, from 0 to 1. Optional; defaults to `cy` if omitted.
+- `r` - Sets the normalized radius of the gradient circle, from 0 to 1. Default: `0.5`.
 
 In the `gradientColorStop`:
 
-- `offset` - Specifies the position of the color stop along the gradient (0 to 100).
-- `color` - Sets the color at the stop.
-- `opacity` - Defines the transparency of the stop (0 to 1).
-- `lighten` - Adjusts lightness at the stop. Positive values lighten the color. Range: 0 to 1.
-- `brighten` - Adjusts brightness at the stop. Positive values increase brightness; negative values decrease it. Ranges: -1 to 1.
+- `offset` - Specifies the position of the color stop along the gradient, from 0 to 100.
+- `color` - Sets the color at the stop (any valid CSS color string).
+- `opacity` - Defines the transparency of the stop, from 0 (transparent) to 1 (opaque).
+- `lighten` - Adjusts lightness at the stop as a number from 0 to 1. For example, `lighten: 0.5` lightens the stop color by 50%.
+- `brighten` - Adjusts brightness at the stop as a number from -1 to 1. Negative values darken the stop color; positive values lighten it.
 
 ### Series
 
-Apply a radial gradient to a series by adding `radialGradient` inside the target Series. The same gradient is applied to the series markers, legend symbol and tooltip marker for visual consistency.
+Apply a radial gradient to a series by adding [`radialGradient`](https://ej2.syncfusion.com/documentation/api/chart/radialGradient) inside the series object. The same gradient is applied to the series markers, the legend symbol, and the tooltip marker for visual consistency.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -126,7 +124,7 @@ Apply a radial gradient to a series by adding `radialGradient` inside the target
 
 ### Trendlines
 
-Apply a radial gradient to a trendline by adding `radialGradient` inside the target Trendline.
+Apply a radial gradient to a trendline by adding [`radialGradient`](https://ej2.syncfusion.com/documentation/api/chart/radialGradient) inside the trendline object. The trendline uses the same color stop configuration as the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -139,9 +137,9 @@ Apply a radial gradient to a trendline by adding `radialGradient` inside the tar
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-gradient-cs9" %}
 
-### Technical Indicators
+### Technical indicators
 
-Apply a radial gradient to a technical indicator by adding `radialGradient` inside the target Indicator.
+Apply a radial gradient to a technical indicator by adding [`radialGradient`](https://ej2.syncfusion.com/documentation/api/chart/radialGradient) inside the indicator object. The indicator uses the same color stop configuration as the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -153,3 +151,18 @@ Apply a radial gradient to a technical indicator by adding `radialGradient` insi
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-gradient-cs10" %}
+
+## Troubleshooting
+
+* **Gradient does not render** — Verify that the `gradientColorStop` array is non-empty. An empty `gradientColorStop: []` falls back to the default `fill`. Confirm the snippet is running with Essential JS 2 v18.4 or later.
+* **Gradient appears as a solid color** — Check that the `gradientColorStop` array contains at least two entries. A single stop produces a flat color from the `offset` position to the end of the gradient.
+* **`lighten` or `brighten` has no visible effect** — The values are normalized to the range documented above. Values outside the allowed range are clamped silently. Increase the magnitude in small steps (for example, `0.1`) to see the change.
+* **Trendline or indicator gradient does not match the series gradient** — Each target accepts its own `linearGradient` or `radialGradient`. The chart does not inherit the gradient from the parent series.
+
+## See also
+
+* [Chart appearance](./chart-appearance)
+* [Series configuration](./chart-series)
+* [Technical indicators](./technical-indicators)
+* [Trendlines](./trend-lines)
+* [Chart animation](./chart-animation)

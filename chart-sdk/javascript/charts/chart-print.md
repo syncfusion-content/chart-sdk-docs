@@ -11,9 +11,11 @@ appliesto: UI Component Suite, Chart SDK
 
 # Print and export in JavaScript Charts
 
+The chart supports printing directly from the browser and exporting to various file formats including images (JPEG, PNG, SVG), PDF, and Excel (XLSX/CSV). This guide covers all print and export options available.
+
 ## Print
 
-The rendered chart can be printed directly from the browser by calling the public `print` method. This method accepts an array of element IDs or element references to print; by default it prints the chart element itself.
+The rendered chart can be printed directly from the browser by calling the public [`print`](https://ej2.syncfusion.com/javascript/documentation/api/chart#print) method. This method accepts an array of element IDs or element references to print; by default it prints the chart element itself. When invoked, the browser's print dialog opens with the specified elements ready to print.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -28,14 +30,14 @@ The rendered chart can be printed directly from the browser by calling the publi
 
 ## Export
 
-Export the rendered chart to `JPEG`, `PNG`, `SVG`, or `PDF` using the chart `export` method. To export chart data into `XLSX` or `CSV`, use the Excel/CSV export options. The primary parameters for `export` are `type` (format) and `fileName` (output file name).
+Export the rendered chart to `JPEG`, `PNG`, `SVG`, or `PDF` using the chart [`export`](https://ej2.syncfusion.com/javascript/documentation/api/chart#export) method. To export chart data into `XLSX` or `CSV`, use the Excel/CSV export options (see the [Excel export](#excel-export) section below). The primary parameters for `export` are `type` (format) and `fileName` (output file name).
 
 Optional parameters include:
 
-- `orientation` — `portrait` or `landscape` for PDF export
+- [`orientation`](https://ej2.syncfusion.com/javascript/documentation/api/chart/exportType#orientation) — `portrait` or `landscape` for PDF export
 - `controls` — a collection of controls for multi-control export
-- `width` — exported width
-- `height` — exported height
+- `width` — exported width in pixels
+- `height` — exported height in pixels
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -48,7 +50,7 @@ Optional parameters include:
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/export-cs2" %}
 
-### Adding header and footer in PDF export
+### Adding header and footer to PDF export
 
 In the export method, specify the following parameters to add a header and footer text to the exported PDF document:
 
@@ -66,7 +68,7 @@ In the export method, specify the following parameters to add a header and foote
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/export-cs4" %}
 
-### Exporting charts into separate page during the PDF export
+### Exporting charts to separate pages during PDF export
 
 During PDF export, set the `exportToMultiplePage` parameter to **true** to export each chart as a separate page.
 
@@ -83,9 +85,11 @@ During PDF export, set the `exportToMultiplePage` parameter to **true** to expor
 
 ## Multiple chart export
 
-You can export the multiple charts in single page by passing the multiple chart objects in the export method of chart. To export multiple charts in a single page, follow the given steps:
+You can export multiple charts in a single page by passing multiple chart objects to the export method. To export multiple charts in a single page, follow these steps:
 
-Initially, render more than one chart to export, and then add button to export the multiple charts. In button click, call the export method in charts, and then pass the multiple chart objects in the export method.
+1. Initially, render more than one chart to export.
+2. Add a button to export the multiple charts.
+3. On button click, call the export method in charts, and then pass the multiple chart objects in the export method.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -115,7 +119,7 @@ The chart can be exported as an image in the form of a base64 string by utilizin
 
 ## Excel export
 
-You can export the rendered chart data to Excel in either `XLSX` or `CSV` format. The [`excelProperties`](../api/chart/iExportEventArgs#excelproperties) property in the [`beforeExport`](../api/chart/iExportEventArgs) event allows users to customize the exported Excel sheet by modifying row, column, and cell properties before the file is generated. You can customize row titles, column titles, cell values, as well as row and column widths.
+You can export the rendered chart data to Excel in either `XLSX` or `CSV` format. The [`excelProperties`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iExportEventArgs#excelproperties) property in the [`beforeExport`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iExportEventArgs#beforeexport) event allows users to customize the exported Excel sheet by modifying row, column, and cell properties before the file is generated. You can customize row titles, column titles, cell values, as well as row and column widths.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

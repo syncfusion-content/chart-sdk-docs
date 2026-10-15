@@ -13,18 +13,18 @@ appliesto: UI Component Suite, Chart SDK
 
 # Data editing in TypeScript Charts
 
-## Enable Data Editing
+## Enable data editing
 
-Data editing allows users to modify chart data points interactively by dragging and dropping the rendered points. This functionality is enabled by injecting the `DataEditing` module into the chart provider, which adds drag-and-drop support for data points.
+Data editing allows users to modify chart data points interactively by dragging and dropping the rendered points. This functionality is enabled by injecting the [`DataEditing`](https://ej2.syncfusion.com/documentation/api/chart#dat-editing) module into the chart, which adds the drag-and-drop functionality for data points.
 
-Once enabled, the position or value of a data point can be changed dynamically based on its `y` value. To activate data editing, set the `enable` property to **true** in the drag settings of the corresponding series.
+Set the [`enable`](https://ej2.syncfusion.com/documentation/api/chart/dragSettings#enable) property to **true** in the [`dragSettings`](https://ej2.syncfusion.com/documentation/api/chart/series#dragsettings) of the corresponding series to activate data editing. Once enabled, the y value of a data point can be changed dynamically by dragging it vertically.
 
-In addition, the following properties can be used to customize the data editing behavior and appearance:
+You can also use the following properties to customize the data editing behavior and appearance:
 
-- Use the `fill` property to set the color of the editable data points.
-- Use the `minY` and `maxY` properties to define the minimum and maximum allowable range for editing the data points.
+- [`fill`](https://ej2.syncfusion.com/documentation/api/chart/dragSettings#fill) — Sets the color of the editable data points.
+- [`minY`](https://ej2.syncfusion.com/documentation/api/chart/dragSettings#miny) and [`maxY`](https://ej2.syncfusion.com/documentation/api/chart/dragSettings#maxy) — Define the minimum and maximum allowable range for editing the data points.
 
-These options help control both the visual feedback and the valid value range while editing data directly on the chart.
+These options control the visual feedback and the valid value range while editing data directly on the chart.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -36,3 +36,7 @@ These options help control both the visual feedback and the valid value range wh
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/user-interaction-cs9" %}
+
+## See also
+
+* [User interaction in JavaScript Charts](https://ej2.syncfusion.com/documentation/chart/user-interaction)

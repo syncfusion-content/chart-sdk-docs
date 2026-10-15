@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Data labels in JavaScript Charts
 
-Data labels display the values of data points directly on the chart, reducing the need to reference axes for exact values. Enable data labels by setting the [`visible`](../api/chart/dataLabelSettingsModel#visible-boolean) option to `true` in the `dataLabel` configuration. Labels automatically adjust to avoid overlapping and maintain readability.
+Data labels display the values of data points directly on the chart, reducing the need to reference axes for exact values. Enable data labels by setting the [`visible`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#visible) option to `true` in the `dataLabel` configuration. Labels automatically adjust to avoid overlapping and maintain readability.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -24,11 +24,11 @@ Data labels display the values of data points directly on the chart, reducing th
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs1" %}
 
-> Note: To use the data label feature, inject `DataLabel` using `Chart.Inject(DataLabel)` method.
-
 ## Position
 
-Use the [`position`](../api/chart/dataLabelSettingsModel#position-string) property to place data labels at `Top`, `Middle`, `Bottom`, or `Outer` (applicable to column and bar series). Appropriate label positioning enhances clarity and preserves chart readability.
+Use the [`position`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#position) property to place data labels at `Top`, `Middle`, `Bottom`, or `Outer` (applicable to column and bar series). Appropriate label positioning enhances clarity and preserves chart readability.
+
+> **Note:** The `Outer` position applies only to `Column`, `Bar`, `StackingColumn`, and `StackingBar` series types.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -41,11 +41,9 @@ Use the [`position`](../api/chart/dataLabelSettingsModel#position-string) proper
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs2" %}
 
-> Note: The `Outer` position applies only to column and bar series types.
+## Data label template
 
-## Data Label Template
-
-Customize label content using templates. Use placeholders such as `${point.x}` and `${point.y}` to display data point values. The [`template`](../api/chart/dataLabelSettingsModel#template-string) property enables fully customizable and visually rich labels.
+Customize label content using templates. Use placeholders such as `${point.x}` and `${point.y}` to display data point values. The [`template`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#template) property enables fully customizable and visually rich labels.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -58,9 +56,9 @@ Customize label content using templates. Use placeholders such as `${point.x}` a
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs3" %}
 
-## Text Mapping
+## Text mapping
 
-Display custom text using the `name` property, which maps label text from a specific field in the data source. This feature is useful for descriptive or category‑based labels.
+Display custom text using the [`name`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#name) property, which maps label text from a specific field in the data source. This feature is useful for descriptive or category‑based labels.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -75,7 +73,7 @@ Display custom text using the `name` property, which maps label text from a spec
 
 ## Format
 
-Apply number or date formatting using the [`format`](../api/chart/dataLabelSettings#format) property. Global formatting symbols include:
+Apply number or date formatting using the [`format`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#format) property. Global formatting symbols include:
 
 - `n` – number format  
 - `p` – percentage format  
@@ -151,7 +149,7 @@ Apply number or date formatting using the [`format`](../api/chart/dataLabelSetti
 
 ## Margin
 
-Adjust spacing around labels using the `margin` property, which includes `left`, `right`, `bottom`, and `top` values. Margins help prevent labels from overlapping chart elements.
+Adjust spacing around labels using the [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#margin) property, which includes `left`, `right`, `bottom`, and `top` values. Margins prevent labels from overlapping chart elements.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -166,7 +164,9 @@ Adjust spacing around labels using the `margin` property, which includes `left`,
 
 ## Customization
 
-Enhance label appearance using properties such as `fill` (background), `border`, and corner radius (`rx`, `ry`). Refine text appearance using the `font` settings, which support `color`, `fontFamily`, `fontWeight`, and `size`.
+Enhance label appearance using properties such as [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#fill) (background), [`border`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#border), and corner radius ([`rx`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#rx), [`ry`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#ry)). Refine text appearance using the [`font`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#font) settings, which support `color`, `fontFamily`, `fontWeight`, and `size`.
+
+> **Note:** The `rx` and `ry` properties require non-null `border` values to render rounded corners. If `border` is null, the corner radius properties are ignored.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -179,11 +179,9 @@ Enhance label appearance using properties such as `fill` (background), `border`,
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs7" %}
 
-> Note: The `rx` and `ry` properties require non‑null `border` values.
+### Handling overlapping data labels
 
-### Handling Overlapping Data Labels
-
-Use the `labelIntersectAction` property to specify how overlapping data labels are handled.
+Use the [`labelIntersectAction`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#labelintersectaction) property to specify how overlapping data labels are handled.
 
 The available options are:
 
@@ -200,7 +198,7 @@ The `RelocateVertically` and `RelocateHorizontally` options are supported only f
 - `StackingBar`
 - `StackingBar100`
 
-These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the [`smartLabelSettings`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabelSettings#smartlabelsettings) property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -213,9 +211,9 @@ These relocation modes enable the Smart Data Label feature, which improves reada
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/smart-data-label" %}
 
-## Customizing Specific Point
+## Customizing specific point
 
-Customize individual markers or labels using the [`pointRender`](../api/chart#pointrender-emittypeipointrendereventargs) and [`textRender`](../api/chart#textrender-emittypeitextrendereventargs) events.  
+Customize individual markers or labels using the [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#pointrender) and [`textRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#textrender) events.  
 - `pointRender` modifies shape, color, or border of a point.  
 - `textRender` customizes the label text for specific points.
 
@@ -232,7 +230,7 @@ Customize individual markers or labels using the [`pointRender`](../api/chart#po
 
 ## Show percentage based on each series points
 
-Calculate and display percentage values based on each series’ total using the `seriesRender` and `textRender` events.  
+Calculate and display percentage values based on each series total using the [`seriesRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#seriesrender) and [`textRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#textrender) events.  
 - In `seriesRender`, compute the total of `y` values.  
 - In `textRender`, calculate the percentage for each point and update the label text.
 
@@ -249,7 +247,7 @@ Calculate and display percentage values based on each series’ total using the 
 
 ## Last value label
 
-The `lastValueLabel` feature highlights the final data point in a series, making the latest trend or value easy to identify.
+The [`lastValueLabel`](https://ej2.syncfusion.com/javascript/documentation/api/chart#lastvaluelabel) feature highlights the final data point in a series, making the latest trend or value easy to identify.
 
 ### Enable last value label
 
@@ -266,8 +264,6 @@ Enable the label by setting the `enable` property inside the `lastValueLabel` co
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/last-value-label" %}
 
-> Note: To use the last value label feature, inject the `LastValueLabel` module using `Chart.Inject(LastValueLabel)` method.
-
 ### Customization
 
 Customize the appearance using properties such as `font`, `background`, `border`, `dashArray`, `lineWidth`, `lineColor`, `rx`, and `ry`.
@@ -283,7 +279,7 @@ Customize the appearance using properties such as `font`, `background`, `border`
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/last-value-label-customization" %}
 
-## See Also
+## See also
 
-* [Show total stacking values in data label](../chart/how-to/stacking-total)
-* [Prevent the data label when the data value is 0](../chart/how-to/prevent-data-label#prevent-the-data-label-when-the-data-value-is-0)
+* [Show total stacking values in data label](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/stacking-total)
+* [Prevent the data label when the data value is 0](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/prevent-data-label#prevent-the-data-label-when-the-data-value-is-0)

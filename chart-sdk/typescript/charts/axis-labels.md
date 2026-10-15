@@ -11,9 +11,22 @@ appliesto: UI Component Suite, Chart SDK
 
 # Axis labels in TypeScript Charts
 
+This guide demonstrates how to configure and customize axis labels in Syncfusion JavaScript Charts, including label positioning, overlap handling, multi-level labels, and advanced formatting options.
+
 ## Smart axis labels
 
-When axis labels overlap due to limited space or dense data points, the [`labelIntersectAction`](../api/chart/axis) property can be used to control how the labels are rendered. This helps improve readability by automatically adjusting label visibility or orientation. The supported values are `None`, `Hide`, `Rotate45`, `Rotate90`, `Rotate45WithTrim`, `Rotate90WithTrim`, `Wrap`, `MultipleRows`, and `Trim`. The default value is `None`.
+When axis labels overlap due to limited space or dense data points, the [`labelIntersectAction`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#labelintersectaction) property can be used to control how the labels are rendered. This helps improve readability by automatically adjusting label visibility or orientation. The supported values are `None`, `Hide`, `Rotate45`, `Rotate90`, `Rotate45WithTrim`, `Rotate90WithTrim`, `Wrap`, `MultipleRows`, and `Trim`. The default value is `None`.
+
+**Label Handling Options:**
+- `None`: No action (displays all labels as-is)
+- `Hide`: Hides overlapping labels for clarity
+- `Rotate45`: Rotates labels 45 degrees
+- `Rotate90`: Rotates labels vertically (90 degrees)
+- `Rotate45WithTrim`: Rotates 45 degrees and trims long text
+- `Rotate90WithTrim`: Rotates vertically and trims long text
+- `Wrap`: Wraps text to multiple lines
+- `MultipleRows`: Distributes labels across multiple rows
+- `Trim`: Truncates text without rotation
 
 When setting `labelIntersectAction` as `Hide`, overlapping labels are hidden to avoid visual clutter.
 
@@ -54,7 +67,7 @@ When setting `labelIntersectAction` as `Rotate90`, the labels are rotated vertic
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs3" %}
 
-When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed when the available space is insufficient and rotated by 45 degrees.
+When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels are trimmed when the available space is insufficient and rotated by 45 degrees.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -67,7 +80,7 @@ When setting `labelIntersectAction` as `Rotate45WithTrim`, the labels trimmed wh
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs100" %}
 
-When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed when the available space is insufficient and rotated vertically.
+When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels are trimmed when the available space is insufficient and rotated vertically.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -80,9 +93,9 @@ When setting `labelIntersectAction` as `Rotate90WithTrim`, the labels trimmed wh
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs101" %}
 
-## Axis labels positioning
+## Axis label positioning
 
-By default, axis labels are positioned `outside` the axis line. Labels can also be placed `inside` the axis line using the `labelPosition` property, which is useful when optimizing space within the chart area.
+By default, axis labels are positioned `Outside` the axis line using the `labelPosition` property. Labels can also be placed `Inside` the axis line, which is useful when optimizing space within the chart area. Supported values are `Inside` and `Outside` (default: `Outside`).
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -97,15 +110,15 @@ By default, axis labels are positioned `outside` the axis line. Labels can also 
 
 ## Multilevel labels
 
-Multiple levels of labels can be displayed on an axis using the `multiLevelLabels` property. This feature is useful for grouping related categories and improving data interpretation. The following configuration options are available:
+Multiple levels of labels can be displayed on an axis using the `multiLevelLabels` property. This feature is useful for grouping related categories and improving data interpretation. Each multilevel label level can be independently configured with the following options:
 
-• Categories  
-• Overflow  
-• Alignment  
-• Text style  
-• Border
+• **Categories**: Define the range and content of multilevel labels
+• **Overflow**: Control text overflow behavior (trim or wrap)
+• **Alignment**: Position labels relative to the axis
+• **Text style**: Customize font, color, and text properties
+• **Border**: Customize border appearance around label groups
 
-> Note: To use the multilevel label feature, inject `MultiLevelLabel` using `Chart.Inject(MultiLevelLabel)` method.
+> **Note**: To use the multilevel label feature, inject `MultiLevelLabel` using `Chart.Inject(MultiLevelLabel)` method before creating the chart instance.
 
 ### Categories
 
@@ -124,7 +137,7 @@ Using the categories property, the `start`, `end`, `text`, and `maximumTextWidth
 
 ### Overflow
 
-Using the `overflow` property, multilevel labels can be configured to either `trim` or `wrap` when the text exceeds the available space.
+Using the `overflow` property, multilevel labels can be configured to either `Trim` or `Wrap` when the text exceeds the available space. Default value is `Wrap`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -139,7 +152,7 @@ Using the `overflow` property, multilevel labels can be configured to either `tr
 
 ### Alignment
 
-The `alignment` property provides options to position multilevel labels at `far`, `center`, or `near` relative to the axis.
+The `alignment` property provides options to position multilevel labels at `Far`, `Center`, or `Near` relative to the axis. Default value is `Center`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -184,7 +197,12 @@ Using the `border` property, the `width`, `color`, and `type` of the multilevel 
 
 ## Edge label placement
 
-Labels with long text at the edges of an axis may appear partially outside the chart area. To avoid this, use the [`edgeLabelPlacement`](../api/chart/axisModel#edgelabelplacement) property in the axis. This property moves the label inside the chart area or hides it for better appearance. By default, the [`edgeLabelPlacement`](../api/chart/axisModel#edgelabelplacement) property is set to **Shift**, ensuring that labels are repositioned inside the chart area to prevent overlap.
+Labels with long text at the edges of an axis may appear partially outside the chart area. To avoid this, use the [`edgeLabelPlacement`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#edgelabelplacement) property in the axis. By default, the property is set to **Shift**, ensuring that labels are repositioned inside the chart area to prevent overlap.
+
+**Supported values:**
+- `Shift`: Moves edge labels inside the chart area (default)
+- `Hide`: Hides edge labels that extend outside the chart area
+- `None`: No action will be performed on edge labels.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -199,7 +217,13 @@ Labels with long text at the edges of an axis may appear partially outside the c
 
 ## Sorting
 
-The chart’s data source can be sorted using the `sort` method of chart. The arguments that are required to pass to sort method are data of chart. The fields depend on which sorting is performed either `x` or `y`, and the `isDescending` with which data source values are sorted in either `ascending` or `descending`.
+The chart data source can be sorted using the `sort` utility before it is assigned to the series. In this example, use the drop-down list to select the sorting mode:
+
+- Select `X` to sort the data by the `x` category field.
+- Select `Y` to sort the data by the `car`, `trucks`, `bike`, and `cycle` value fields.
+- Use the **Descending** option to control the sort order. When selected, the data is sorted in descending order; otherwise, it is sorted in ascending order.
+
+After sorting, the updated data source is assigned to all the stacked column series, and the `refresh` method is called to render the chart with the updated order
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -212,9 +236,9 @@ The chart’s data source can be sorted using the `sort` method of chart. The ar
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs11" %}
 
-## Labels customization
+## Label customization
 
-The [`labelStyle`](../api/chart/axisModel#labelstyle) property of an axis provides options to customize the `color`, `font-family`, `font-size`, and `font-weight` of axis labels.
+The [`labelStyle`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#labelstyle) property of an axis provides options to customize the `color`, `font-family`, `font-size`, and `font-weight` of axis labels.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -227,7 +251,7 @@ The [`labelStyle`](../api/chart/axisModel#labelstyle) property of an axis provid
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs12" %}
 
-## Customizing specific point
+## Customizing specific axis labels
 
 Specific axis label text can be customized using the `axisLabelRender` event, which allows conditional formatting or dynamic text updates during label rendering.
 
@@ -259,7 +283,13 @@ The line break feature is used to display long axis label text across multiple l
 
 ## Maximum labels
 
-`MaximumLabels` property is set, then the labels will be rendered based on the count in the property per 100 pixel. If you have set range (minimum, maximum, interval) and maximumLabels, then the priority goes to range only. If you haven’t set the range, then we have considered priority to maximumLabels property.
+The `maximumLabels` property specifies the maximum number of axis labels to render per 100 pixels of the axis. It helps control label density based on the available axis size.
+
+**Priority:**
+
+- When `minimum`, `maximum`, and `interval` are specified along with `maximumLabels`, the explicitly configured axis range and interval take priority.
+- When the axis range and interval are not explicitly specified, the label count is calculated based on the `maximumLabels` value and the axis length.
+- **Recommended:** Use `maximumLabels` to automatically control label density based on the available space. Use `minimum`, `maximum`, and `interval` when precise control over the axis range and label interval is required.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}

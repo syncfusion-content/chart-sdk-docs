@@ -11,13 +11,15 @@ appliesto: UI Component Suite, Chart SDK
 
 # Appearance in JavaScript Charts
 
+The chart appearance can be customized in multiple ways, including custom color palettes for series, data point-level customization, chart area formatting, and animation settings.
+
 ## Custom color palette
 
-Customize the default color of series or points by providing a custom color palette using the [`palettes`](../api/chart#palettes) property.
+Customize the default color of series or points by providing a custom color palette using the [`palettes`](https://ej2.syncfusion.com/javascript/documentation/api/chart#palettes) property.
 
-## Supported Color Formats
+## Supported color formats
 
-You can specify colors in various CSS-supported formats:  
+The chart supports various CSS color formats for customization:  
 
 - **Hex**: `"#E94649"`, `"#F6B53F"`  
 - **RGB**: `"rgb(233, 70, 73)"`, `"rgb(246, 181, 63)"`  
@@ -42,7 +44,7 @@ The color of individual data point or data points within a range can be customiz
 
 ### Point color mapping
 
-You can bind the color for the points from [`dataSource`](../api/chart/series#datasource) for the series using [`pointColorMapping`](../api/chart/series#pointcolormapping) property.
+You can bind colors for data points from the [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#datasource) using the [`pointColorMapping`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#pointcolormapping) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -57,7 +59,7 @@ You can bind the color for the points from [`dataSource`](../api/chart/series#da
 
 ### Range color mapping
 
-You can differentiate data points based on their y values using [`rangeColorSettings`](../api/chart/rangeColorSetting) in the chart.
+You can differentiate data points based on their y values using [`rangeColorSettings`](https://ej2.syncfusion.com/javascript/documentation/api/chart/rangeColorSetting) in the chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -72,7 +74,7 @@ You can differentiate data points based on their y values using [`rangeColorSett
 
 ## Point level customization
 
-Marker, data label, and fill color of individual data points can be customized using the [`pointRender`](../api/chart#pointrender-emittypeipointrendereventargs) and [`textRender`](../api/chart#textrender-emittypeitextrendereventargs) events.
+Marker, data label, and fill color of individual data points can be customized using the [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#pointrender) and [`textRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#textrender) events.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -89,11 +91,9 @@ Marker, data label, and fill color of individual data points can be customized u
 
 ## Chart area customization
 
-<!-- markdownlint-disable MD036 -->
-
 **Customize the chart background**
 
-Use the [`background`](../api/chart#background-string) and [`border`](../api/chart#border-bordermodel) properties on the chart to change its background color and border.
+Use the [`background`](https://ej2.syncfusion.com/javascript/documentation/api/chart#background) and [`border`](https://ej2.syncfusion.com/javascript/documentation/api/chart#border) properties on the chart to change its background color and border.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -108,7 +108,7 @@ Use the [`background`](../api/chart#background-string) and [`border`](../api/cha
 
 **Chart margin**
 
-Set the chart margin relative to its container using the [`margin`](../api/chart#margin-marginmodel) property.
+Set the chart margin relative to its container using the [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/chart#margin) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -123,7 +123,7 @@ Set the chart margin relative to its container using the [`margin`](../api/chart
 
 **Chart area customization**
 
-To customize the plotting region (chart area), use the `chartArea` properties: [`background`](https://ej2.syncfusion.com/documentation/api/chart/chartAreaModel#background) and [`border`](https://ej2.syncfusion.com/documentation/api/chart/chartAreaModel#border) change the chart area's appearance, and [`width`](https://ej2.syncfusion.com/documentation/api/chart/chartAreaModel#width) adjusts its size.
+To customize the plotting region (chart area), use the `chartArea` properties: [`background`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAreaModel#background) and [`border`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAreaModel#border) to customize appearance, and [`width`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAreaModel#width) to adjust the chart area size.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -138,7 +138,7 @@ To customize the plotting region (chart area), use the `chartArea` properties: [
 
 **Chart area margin**
 
-You can customize the space between the chart area from its chart container through [`margin`](../api/chart/chartAreaModel#margin) property.
+You can customize the space between the chart area and its container using the [`margin`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartAreaModel#margin) property.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -153,7 +153,7 @@ You can customize the space between the chart area from its chart container thro
 
 ## Animation
 
-Customize animation for a series using the [`animation`](../api/chart//animationModel) property. Use `enable` to turn animation on or off; `duration` controls the animation length and `delay` sets when the animation starts.
+Customize animation for a series using the [`animation`](https://ej2.syncfusion.com/javascript/documentation/api/chart/animationModel) property. Use `enable` to turn animation on or off; `duration` controls the animation length and `delay` sets when the animation starts.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -168,7 +168,7 @@ Customize animation for a series using the [`animation`](../api/chart//animation
 
 ### Fluid animation
 
-Fluid animation used to animate series with updated dataSource continues animation rather than animation whole series. You can customize animation for a particular series using [`animate`] method.
+Fluid animation provides a smooth transition when the series data is updated. Instead of replaying the entire series animation from its initial state, the existing data points animate from their current values or positions to the updated values or positions. After updating the series data source, call the `animate` method to apply the transition.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -183,4 +183,4 @@ Fluid animation used to animate series with updated dataSource continues animati
 
 ## See also
 
-* [Customize the series points using patterns](../chart/how-to/points-customization#customize-the-series-points-by-using-patterns)
+* [Customize the series points using patterns](https://ej2.syncfusion.com/javascript/documentation/chart/how-to/points-customization#customize-the-series-points-by-using-patterns)

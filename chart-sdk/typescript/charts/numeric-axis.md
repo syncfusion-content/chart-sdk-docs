@@ -8,11 +8,10 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
-<!-- markdownlint-disable MD036 -->
 
 # Numeric axis in TypeScript Charts
 
-The [numeric axis](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-axis) is used to represent numeric values in a chart. By default, the `valueType` of an axis is set to `Double`, which is suitable for displaying continuous numerical data.
+The [numeric axis](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-axis) represents continuous numeric values in a Chart. By default, the axis `valueType` is set to `Double`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -27,7 +26,7 @@ The [numeric axis](https://www.syncfusion.com/javascript-ui-controls/js-charts/c
 
 ## Range
 
-The range of the axis is calculated automatically based on the provided data. You can also customize the visible range by using the [`minimum`](../api/chart/axisModel#minimum-object), [`maximum`](../api/chart/axisModel#maximum-object), and [`interval`](../api/chart/axisModel#interval-number) properties of the axis.
+The axis range is calculated automatically from the data. Use the [`minimum`](https://ej2.syncfusion.com/documentation/api/chart/axisModel#minimum), [`maximum`](https://ej2.syncfusion.com/documentation/api/chart/axisModel#maximum), and [`interval`](https://ej2.syncfusion.com/documentation/api/chart/axisModel#interval) properties to customize the visible range and the spacing between axis labels.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -40,19 +39,15 @@ The range of the axis is calculated automatically based on the provided data. Yo
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs83" %}
 
-## Range Padding
+## Range padding
 
-Padding can be applied to the minimum and maximum values of the axis range by using the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property. The numeric axis supports the following padding options:
+Use the [`rangePadding`](https://ej2.syncfusion.com/documentation/api/chart/axisModel#rangepadding) property to add space around the calculated minimum and maximum axis values. The supported values are `None`, `Round`, `Additional`, `Normal`, and `Auto`.
 
-* None
-* Round
-* Additional
-* Normal
-* Auto
+When `minimum` and `maximum` are explicitly configured, those values define the visible range and automatic range padding is not applied beyond them.
 
-**Numeric - None**
+### None
 
-When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `None`, the minimum and maximum values of the axis are derived directly from the data.
+`None` applies no padding. The calculated range starts and ends at the minimum and maximum data values.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -65,9 +60,9 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs84" %}
 
-**Numeric - Round**
+### Round
 
-When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `Round`, the minimum and maximum values are rounded to the nearest values divisible by the interval. For example, if the minimum value is 3.5 and the interval is 1, the minimum value is rounded to 3.
+`Round` rounds the calculated minimum down and the calculated maximum up to values aligned with the axis interval. For example, with an interval of `1`, a minimum value of `3.5` is rounded down to `3`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -80,9 +75,9 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs85" %}
 
-**Numeric - Additional**
+### Additional
 
-When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `Additional`, one interval is added to both the minimum and maximum values of the axis range.
+`Additional` adds one interval before the calculated minimum and one interval after the calculated maximum.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -95,9 +90,9 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs86" %}
 
-**Numeric - Normal**
+### Normal
 
-When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `Normal`, padding is applied to the axis based on the default range calculation.
+`Normal` applies the standard numeric-axis padding calculated by the Chart to provide visual space around the minimum and maximum data values.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -110,9 +105,9 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs87" %}
 
-**Numeric - Auto**
+### Auto
 
-When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `Auto`, the horizontal numeric axis uses `None` as padding, while the vertical numeric axis uses `Normal` padding.
+`Auto` selects the padding automatically. A horizontal numeric axis uses `None`, while a vertical numeric axis uses `Normal`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -125,11 +120,11 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs88" %}
 
-## Label Format
+## Label format
 
-**Numeric Label Format**
+### Numeric label format
 
-Numeric axis labels can be formatted by using the [`labelFormat`](../api/chart/axisModel#labelformat-string) property. This property supports all Globalize numeric formats.
+Use the [`labelFormat`](https://ej2.syncfusion.com/documentation/api/chart/axisModel#labelformat) property to format numeric axis labels. The property supports Globalize numeric formats, including numeric, percentage, and currency formats. Numeric and percentage output depends on the active culture configured through `setCulture`; currency output also uses the currency code configured through `setCurrencyCode`. The following examples assume the default `en-US` culture and `USD` currency.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -144,67 +139,37 @@ Numeric axis labels can be formatted by using the [`labelFormat`](../api/chart/a
 
 The following table shows examples of commonly used numeric label formats and their corresponding outputs.
 
-<!-- markdownlint-disable MD033 -->
-<table>
-<tr>
-<td><b>Label Value</b></td>
-<td><b>Label Format</b></td>
-<td><b>Result</b></td>
-<td><b>Description</b></td>
-</tr>
-<tr>
-<td>1000</td>
-<td>n1</td>
-<td>1000.0</td>
-<td>Rounded to 1 decimal place</td>
-</tr>
-<tr>
-<td>1000</td>
-<td>n2</td>
-<td>1000.00</td>
-<td>Rounded to 2 decimal places</td>
-</tr>
-<tr>
-<td>1000</td>
-<td>n3</td>
-<td>1000.000</td>
-<td>Rounded to 3 decimal places</td>
-</tr>
-<tr>
-<td>0.01</td>
-<td>p1</td>
-<td>1.0%</td>
-<td>Converted to percentage with 1 decimal place</td>
-</tr>
-<tr>
-<td>0.01</td>
-<td>p2</td>
-<td>1.00%</td>
-<td>Converted to percentage with 2 decimal places</td>
-</tr>
-<tr>
-<td>0.01</td>
-<td>p3</td>
-<td>1.000%</td>
-<td>Converted to percentage with 3 decimal places</td>
-</tr>
-<tr>
-<td>1000</td>
-<td>c1</td>
-<td>$1000.0</td>
-<td>Currency format with 1 decimal place</td>
-</tr>
-<tr>
-<td>1000</td>
-<td>c2</td>
-<td>$1000.00</td>
-<td>Currency format with 2 decimal places</td>
-</tr>
-</table>
+| Label value | Format | Result | Description |
+|---:|:---:|---:|---|
+| `1000` | `n1` | `1,000.0` | Numeric format with one decimal place |
+| `1000` | `n2` | `1,000.00` | Numeric format with two decimal places |
+| `1000` | `n3` | `1,000.000` | Numeric format with three decimal places |
+| `0.01` | `p1` | `1.0%` | Percentage format with one decimal place |
+| `0.01` | `p2` | `1.00%` | Percentage format with two decimal places |
+| `0.01` | `p3` | `1.000%` | Percentage format with three decimal places |
+| `1000` | `c1` | `$1,000.0` | Currency format with one decimal place |
+| `1000` | `c2` | `$1,000.00` | Currency format with two decimal places |
 
-## GroupingSeparator
+> **Note:** Percentage formats expect fractional input values. For example, `0.2` is formatted as `20%`.
 
-To separate groups of thousands in numeric labels, enable the [`useGroupingSeparator`](../api/chart/chartModel#useGroupingSeparator-boolean) property in the chart.
+### Custom label format
+
+Use the `{value}` placeholder to append units or symbols to numeric labels. For example, the format `{value}°C` displays the value `20` as `20°C`.
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/axis-cs91/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/charts/axis-cs91/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs91" %}
+
+### Grouping separator
+
+Set the Chart [`useGroupingSeparator`](https://ej2.syncfusion.com/documentation/api/chart/chartModel#usegroupingseparator) property to `true` to separate groups of thousands in numeric axis labels. For example, `10000` is displayed as `10,000` in the `en-US` culture. The separator varies according to the active culture.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -217,17 +182,10 @@ To separate groups of thousands in numeric labels, enable the [`useGroupingSepar
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs90" %}
 
-## Custom Label Format
+## See also
 
-The numeric axis also supports custom label formats by using placeholders such as `{value}°C`, where `{value}` represents the numeric axis label. For example, the value `20` is displayed as `20°C`.
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/charts/axis-cs91/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/charts/axis-cs91/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs91" %}
+- [Axis labels](./axis-labels)
+- [Axis customization](./axis-customization)
+- [Logarithmic axis](./logarithmic-axis)
+- [Internationalization](./internationalization)
+- [Getting started](./getting-started)

@@ -13,15 +13,15 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Candle
 
-The Candle series, similar to the Hilo Open Close series, is used to represent the low, high, open, and closing prices over time. It is commonly used in financial charts to visualize stock price movements.
+The Candle series, similar to the HiLo Open Close series, is used to represent the low, high, open, and closing prices over time. It is commonly used in financial charts to visualize stock price movements.
 
-To render a [`candle`](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/stock-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a [`candle`](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/stock-chart) series in your chart, configure the chart as follows:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `Candle` in your chart configuration. This indicates that the data should be represented as a candle chart, providing a detailed view of stock price fluctuations by displaying the high, low, open, and close values for each time period.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `Candle` in your chart configuration. Renders the data as a candle chart, showing the high, low, open, and close prices for each period.
 
-* **Inject the CandleSeries module**: Use the `Chart.Inject(CandleSeries)` method to inject the `CandleSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering candle series are available in your chart.
+* **Inject the CandleSeries and Category modules**: Use `Chart.Inject(CandleSeries, Category)` to register both the `CandleSeries` and the `Category` axis modules. The `Category` module is required because the x-axis uses `valueType: 'Category'`.
 
-* **Provide high, low, open, and close values**: The `Candle` series requires five fields (x, high, low, open, and close) to accurately display the stock's high, low, open, and close prices. Ensure that your data source includes these fields to create a detailed representation of stock price movements over time.
+* **Provide high, low, open, and close values**: The `Candle` series requires five fields (x, high, low, open, and close) to display OHLC prices for each period. Ensure that your data source includes these fields.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -39,7 +39,7 @@ To render a [`candle`](https://www.syncfusion.com/javascript-ui-controls/js-char
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname), [`high`](../../api/chart/series#high), [`low`](../../api/chart/series#low), [`open`](../../api/chart/series#open) and [`close`](../../api/chart/series#close) properties.
+You can bind data to the chart by assigning a JSON array (or a remote data source resolved through a data adapter) to the series [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property. To display the data correctly, map the data fields to the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/documentation/api/chart/series#high), [`low`](https://ej2.syncfusion.com/documentation/api/chart/series#low), [`open`](https://ej2.syncfusion.com/documentation/api/chart/series#open), and [`close`](https://ej2.syncfusion.com/documentation/api/chart/series#close) properties. Each data item must include `x`, `high`, `low`, `open`, and `close` numeric fields.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -57,7 +57,7 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Hollow candles
 
-Hollow candles in candle charts allow you to visually compare the current price with the previous price by coloring them differently. The candles are filled or left hollow based on the following criteria:
+Hollow candles are the default candle rendering mode. Hollow candles color the candle body based on whether the closing price is above or below the opening price. The candles are filled or left hollow based on the following criteria:
 
 <!-- markdownlint-disable MD033 -->
 <table>
@@ -75,16 +75,16 @@ Hollow candles in candle charts allow you to visually compare the current price 
 </tr>
 </table>
 
-The color of the candle will be defined by comparing it with previous values. The bear color will be applied when the current closing value is greater than the previous closing value. The bull color will be applied when the current closing value is less than the previous closing value.
-
-By default, the `bullFillColor` is set to **red** and the `bearFillColor` is set to **green**.
+By default, `bullFillColor` is set to `red` and `bearFillColor` is set to `green`. Note the naming convention: `bullFillColor` is applied when the opening price is **higher** than the closing price (a price decrease), and `bearFillColor` is applied when the opening price is **lower** than the closing price (a price increase).
 
 ## Solid candles
 
-The [`enableSolidCandles`](../../api/chart/series#enablesolidcandles) property is used to enable or disable solid candles. By default, it is set to **false**. The fill color of the candle will be determined by its opening and closing values.
+The [`enableSolidCandles`](https://ej2.syncfusion.com/documentation/api/chart/series#enablesolidcandles) property is used to enable or disable solid candles. By default, it is set to `false`. The fill color of the candle will be determined by its opening and closing values:
 
-* The [`bearFillColor`](../../api/chart/series#bearfillcolor) will be applied when the opening value is less than the closing value.
-* The [`bullFillColor`](../../api/chart/series#bullfillcolor) will be applied when the opening value is greater than the closing value.
+* The [`bearFillColor`](https://ej2.syncfusion.com/documentation/api/chart/series#bearfillcolor) is applied when the opening value is less than the closing value (a bullish move).
+* The [`bullFillColor`](https://ej2.syncfusion.com/documentation/api/chart/series#bullfillcolor) is applied when the opening value is greater than the closing value (a bearish move).
+
+These color rules apply to **all** candle rendering modes (hollow and solid); `enableSolidCandles` only toggles whether the candle body is filled or hollow.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -102,11 +102,11 @@ The [`enableSolidCandles`](../../api/chart/series#enablesolidcandles) property i
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Configure the [`emptyPointSettings`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings) on the series to control how empty data points are rendered.
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) property to control how empty points are handled. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -122,9 +122,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs379" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -144,7 +144,7 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -162,7 +162,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -178,7 +178,23 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs454" %}
 
+## Troubleshooting
+
+The following list describes common issues you may encounter when working with the Candle series and how to resolve them.
+
+**Chart does not render candles:** Confirm the [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) property of the series is set to `Candle`. Also ensure `CandleSeries` and `Category` are registered with `Chart.Inject(CandleSeries, Category)` before the chart is initialized, or import the modules directly from `@syncfusion/ej2-charts` using ES module syntax. The `Category` module is required because the x-axis uses `valueType: 'Category'`.
+
+**Candles are missing for some x values:** Confirm each data item includes the five numeric fields (`x`, `high`, `low`, `open`, and `close`) and that the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/documentation/api/chart/series#high), [`low`](https://ej2.syncfusion.com/documentation/api/chart/series#low), [`open`](https://ej2.syncfusion.com/documentation/api/chart/series#open), and [`close`](https://ej2.syncfusion.com/documentation/api/chart/series#close) properties reference those field names. Mismatched field names silently produce empty points.
+
+**Bear and bull colors are reversed:** Syncfusion's naming convention maps `bullFillColor` to the case where the opening price is **higher** than the closing price (typically bearish), and `bearFillColor` to the case where the opening price is **lower** than the closing price (typically bullish). Swap the property names if you see inverted colors.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between connected series. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
+**Events fire but changes are not visible:** The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart/iSeriesRenderEventArgs) and [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointRenderEventArgs) events let you modify the rendered series or point. Mutate the `args.series` or `args.point` object inside the handler; setting properties on the series object directly is overwritten during rendering.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [HiLo Open Close chart](./high-low-open-close)
+* [High-Low chart](./high-low)
