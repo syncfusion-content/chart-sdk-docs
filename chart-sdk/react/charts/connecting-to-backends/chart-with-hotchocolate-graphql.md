@@ -627,7 +627,7 @@ To stop the application, press `Ctrl + C` in each terminal (frontend and backend
 
 ---
 
-**Build commands:** Build the backend with `cd HotChocolateGraphQL/Server && dotnet build` and the frontend with `cd HotChocolateGraphQL/Client && npm run build`.
+**Build commands:** Build the backend by running `dotnet build` in the `HotChocolateGraphQL/Server` folder and build the frontend by running `npm run build` in the `HotChocolateGraphQL/Client` folder.
 
 ---
 
