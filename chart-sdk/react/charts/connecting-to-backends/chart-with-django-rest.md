@@ -18,7 +18,7 @@ This guide explains how to integrate the **Syncfusion React Chart** component wi
 
 A Django REST API returns sales records, and a Syncfusion React Chart displays the response as a column chart.
 
-```text
+```
 React Application
     ↓ Axios GET request
 Django REST API
@@ -52,7 +52,7 @@ Frontend packages:
 
 ## Project Structure
 
-```text
+```
 chart-project/
 ├── backend/
 │   ├── manage.py
@@ -78,7 +78,7 @@ chart-project/
 
 ### 1. Create the Project
 
-```bash
+```
 mkdir chart-project && cd chart-project
 python -m venv venv
 venv\Scripts\activate
@@ -97,7 +97,7 @@ python manage.py createsuperuser
 
 Add `rest_framework`, `corsheaders`, and `api` to `INSTALLED_APPS`:
 
-```python
+```
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -113,7 +113,7 @@ INSTALLED_APPS = [
 
 Add `CorsMiddleware` at the top of `MIDDLEWARE`:
 
-```python
+```
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -126,9 +126,9 @@ MIDDLEWARE = [
 ]
 ```
 
-Allow all hosts and the Vite dev server ports:
+Allow all hosts and the Vite development server ports:
 
-```python
+```
 ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
@@ -147,7 +147,7 @@ CORS_ALLOWED_ORIGINS = [
 
 `backend/api/models.py`:
 
-```python
+```
 from django.db import models
 
 class Sales(models.Model):
@@ -167,7 +167,7 @@ class Sales(models.Model):
 
 Create `backend/api/serializers.py` (Django does not create it automatically):
 
-```python
+```
 from rest_framework import serializers
 from .models import Sales
 
@@ -183,7 +183,7 @@ The serializer converts model instances to JSON for the React client.
 
 `backend/api/views.py`:
 
-```python
+```
 from rest_framework.viewsets import ModelViewSet
 from .models import Sales
 from .serializers import SalesSerializer
@@ -212,7 +212,7 @@ Supported endpoints:
 
 `backend/backend/urls.py`:
 
-```python
+```
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
@@ -229,7 +229,7 @@ urlpatterns = [
 
 The API endpoint is:
 
-```text
+```
 http://127.0.0.1:8000/api/sales/
 ```
 
@@ -237,11 +237,11 @@ http://127.0.0.1:8000/api/sales/
 
 Use the Django shell:
 
-```bash
+```
 python manage.py shell
 ```
 
-```python
+```
 from api.models import Sales
 Sales.objects.bulk_create([
     Sales(month="Jan", revenue=1000, year=2026),
@@ -256,7 +256,7 @@ exit()
 
 From the `chart-project/backend/` folder:
 
-```bash
+```
 python manage.py runserver
 ```
 
@@ -279,7 +279,7 @@ The API now listens on `http://127.0.0.1:8000/api/sales/`. The root URL `http://
 
 ### 1. Create the Project
 
-```bash
+```
 cd chart-project
 npm create vite@latest frontend -- --template react
 cd frontend
@@ -291,7 +291,7 @@ npm install @syncfusion/ej2-react-charts axios
 
 Replace the contents of `frontend/src/App.jsx` (or `App.tsx` for TypeScript):
 
-```jsx
+```
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -369,13 +369,13 @@ Key points:
 
 From the `chart-project/frontend/` folder:
 
-```bash
+```
 npm run dev
 ```
 
 Vite prints the URL on startup, for example:
 
-```text
+```
   ➜  Local: http://127.0.0.1:5173/
 ```
 
@@ -385,7 +385,7 @@ Open that URL in the browser.
 
 ## How Server and Client Work Together
 
-The two servers run side by side. The Django backend listens on port `8000` and serves JSON; the Vite dev server listens on port `5173` (or the next available port) and serves the React UI. The browser fetches data from the backend on every state change and re-renders the chart.
+The two servers run side by side. The Django backend listens on port `8000` and serves JSON; the Vite development server listens on port `5173` (or the next available port) and serves the React UI. The browser fetches data from the backend on every state change and re-renders the chart.
 
 ### Server Execution
 
@@ -397,7 +397,7 @@ The two servers run side by side. The Django backend listens on port `8000` and 
 
 ### Client Execution
 
-1. `npm run dev` starts the Vite dev server on port `5173` with hot-reload enabled.
+1. `npm run dev` starts the Vite development server on port `5173` with hot-reload enabled.
 2. The `App` component mounts with `chartData = []` and `selectedYear = '2026'`.
 3. `useEffect` runs `loadChartData('2026')` once. Axios sends `GET http://127.0.0.1:8000/api/sales/?year=2026`.
 4. When the response arrives, `setChartData(response.data)` triggers a re-render. The Syncfusion chart redraws the column series with the new data.
@@ -405,7 +405,7 @@ The two servers run side by side. The Django backend listens on port `8000` and 
 
 ### End-to-End Data Flow
 
-```text
+```
 User changes dropdown
     ↓
 React setState(selectedYear)

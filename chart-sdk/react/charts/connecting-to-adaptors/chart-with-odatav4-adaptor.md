@@ -20,7 +20,7 @@ The `ODataV4Adaptor` is useful when the Chart data is available from an OData V4
 
 The following project structure is used in this documentation.
 
-```text
+```
 ReactODataBackend/
 ├── server/                                # ASP.NET Core OData API
 │   ├── Controllers/
@@ -58,7 +58,7 @@ Before running the sample, ensure the following are installed:
 
 Check the installed versions:
 
-```bash
+```
 dotnet --version
 node --version
 npm --version
@@ -70,7 +70,7 @@ npm --version
 
 Open a terminal in Visual Studio Code and run the following commands.
 
-```bash
+```
 mkdir ReactODataBackend
 cd ReactODataBackend
 mkdir server
@@ -82,7 +82,7 @@ Delete the default `WeatherForecast.cs` and `Controllers/WeatherForecastControll
 
 Install the ASP.NET Core OData package. Use the version that matches your project's `TargetFramework` (this sample uses `net9.0`).
 
-```bash
+```
 dotnet add package Microsoft.AspNetCore.OData --version 9.4.1
 dotnet restore
 ```
@@ -95,7 +95,7 @@ Create a `Models` folder and add the following file.
 
 **Models/Order.cs**
 
-```csharp
+```
 using System.ComponentModel.DataAnnotations;
 
 namespace Server.Models
@@ -119,7 +119,7 @@ Create a `Controllers` folder and add the following file.
 
 **Controllers/OrdersController.cs**
 
-```csharp
+```
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
 using Server.Models;
@@ -162,7 +162,7 @@ Replace the contents of `Program.cs` with the following code.
 
 **Program.cs**
 
-```csharp
+```
 using Microsoft.AspNetCore.OData;
 using Microsoft.OData.ModelBuilder;
 using Server.Models;
@@ -209,13 +209,13 @@ The `Properties/launchSettings.json` file included with the template configures 
 
 Run the server from the `server` folder.
 
-```bash
+```
 dotnet run
 ```
 
 The OData endpoint will be available at:
 
-```text
+```
 http://localhost:5232/odata/Orders
 ```
 
@@ -227,13 +227,13 @@ http://localhost:5232/odata/Orders
 
 Open the following URL in a browser to verify the OData endpoint returns the expected response.
 
-```text
+```
 http://localhost:5232/odata/Orders
 ```
 
 You can also test OData query options such as `$top`, `$orderby`, and `$filter`. For example:
 
-```text
+```
 http://localhost:5232/odata/Orders?$top=5
 http://localhost:5232/odata/Orders?$orderby=Amount desc
 http://localhost:5232/odata/Orders?$filter=Amount gt 200
@@ -241,7 +241,7 @@ http://localhost:5232/odata/Orders?$filter=Amount gt 200
 
 Expected response format:
 
-```json
+```
 {
   "@odata.context": "http://localhost:5232/odata/$metadata#Orders",
   "value": [
@@ -261,7 +261,7 @@ Expected response format:
 
 Open a new terminal at the `ReactODataBackend` root folder and run:
 
-```bash
+```
 npx create-react-app client
 cd client
 ```
@@ -272,7 +272,7 @@ cd client
 
 Install the Chart and DataManager packages.
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts --save
 npm install @syncfusion/ej2-data --save
 ```
@@ -285,7 +285,7 @@ Open `src/App.js` and replace its content with the following code.
 
 **src/App.js**
 
-```jsx
+```
 import React from 'react';
 import { DataManager, ODataV4Adaptor, Query } from '@syncfusion/ej2-data';
 import {
@@ -355,13 +355,13 @@ The `DataManager` instance is passed **directly** to the `SeriesDirective.dataSo
 
 Run the client application from the `client` folder.
 
-```bash
+```
 npm start
 ```
 
 The React application will be available at:
 
-```text
+```
 http://localhost:3000
 ```
 
@@ -371,7 +371,7 @@ http://localhost:3000
 
 You can also fetch data manually and pass the result array to the Chart. The `DataManager` configuration is the same as in the main example; only the binding changes.
 
-```jsx
+```
 import React, { useEffect, useState } from 'react';
 import { DataManager, ODataV4Adaptor, Query } from '@syncfusion/ej2-data';
 
@@ -427,7 +427,7 @@ Check the following:
 
 If the browser blocks the request, ensure CORS is configured in `Program.cs`.
 
-```csharp
+```
 app.UseCors("AllowAll");
 ```
 
