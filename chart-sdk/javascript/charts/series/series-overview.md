@@ -37,12 +37,13 @@ You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.c
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
 {% include code-snippet/chart-sdk/javascript/charts/series-overview/datasource.ts %}
+{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/javascript/charts/series-overview/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/javascript/charts/series/line-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/javascript/charts/series-overview" %}
 
 
 ## Common series properties
@@ -75,9 +76,9 @@ You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.c
 
 The following symptoms map to the most common configuration issues.
 
-- **Series does not render**: Confirm that the series service (for example, `LineSeriesService`) is registered in the component `providers` array and that the series [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) is valid.
+- **Series does not render**: Confirm that the series [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) is valid.
 - **Data points are missing**: Verify that the fields referenced by `xName` and `yName` exist on every record and that the bound array is not empty.
-- **Legend does not show a label**: Confirm that the `name` property is set on each `<e-series>` element.
+- **Legend does not show a label**: Confirm that the `name` property is set on each `series`.
 - **Series renders on top of another axis unexpectedly**: Verify that the data values fall within the configured `minimum` and `maximum` of the bound `primaryXAxis` or `primaryYAxis`.
 
 ## See also
