@@ -16,9 +16,9 @@ A pie chart is a circular graphics, which can be divided into multiple segments 
 ## Key Features
 
 * **Chart Types** - Supports Pie, Doughnut, Pyramid and Funnel.
-* [**Smart Labels**](https://ej2.syncfusion.com/aspnetmvc/Chart/SmartLabels#/material) - Supports arrangement of data labels smartly to avoid overlapping when the data point value falls in close range.
-* [**Grouping**](https://ej2.syncfusion.com/aspnetmvc/Chart/Grouping#/material) - Supports grouping based on value and point count.
-* [**Semi-Pie**](https://ej2.syncfusion.com/aspnetmvc/Chart/SemiPie#/material) - Provides options to customize the start and end angle of the pie chart.
-* [**Legend**](https://ej2.syncfusion.com/aspnetmvc/Chart/PieWithLegend#/material) - Provides options to display additional information about the points with the help of legend.
-* [**Tooltip**](https://ej2.syncfusion.com/aspnetmvc/Chart/Doughnut#/material) - Supports interactive features like tooltip, selection and explode.
-* [**Empty Points**](https://ej2.syncfusion.com/aspnetmvc/Chart/EmptyPoints#/material) - Provides options to handle missed data for the series elegantly with empty points.
+* [**Smart Labels**](https://ej2.syncfusion.com/aspnetcore/chart/smartlabel#/fluent2) - Supports arrangement of data labels smartly to avoid overlapping when the data point value falls in close range.
+* [**Grouping**](https://ej2.syncfusion.com/aspnetcore/chart/grouping#/fluent2) - Supports grouping based on value and point count.
+* [**Semi-Pie**](https://ej2.syncfusion.com/aspnetcore/chart/semipie#/fluent2) - Provides options to customize the start and end angle of the pie chart.
+* [**Legend**](https://ej2.syncfusion.com/aspnetcore/chart/pielegend#/fluent2) - Provides options to display additional information about the points with the help of legend.
+* [**Tooltip**](https://ej2.syncfusion.com/aspnetcore/chart/donut#/fluent2) - Supports interactive features like tooltip, selection and explode.
+* [**Empty Points**](https://ej2.syncfusion.com/aspnetcore/chart/emptypoint#/fluent2) - Provides options to handle missed data for the series elegantly with empty points.
