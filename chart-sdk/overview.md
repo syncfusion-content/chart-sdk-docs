@@ -32,9 +32,9 @@ Available Platforms:
 
 {% doccard text="ASP.NET Core" link="https://help.syncfusion.com/chart-sdk/asp-net-core/charts/getting-started" icon="/chart-sdk/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started" icon="/chart-sdk/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="https://help.syncfusion.com/chart-sdk/asp-net-mvc/charts/getting-started" icon="/chart-sdk/images/ASP.NET MVC.png" %}
 
-{% doccard text=".NET MAUI" link="https://help.syncfusion.com/chart-sdk/maui/funnel-chart/overview" icon="/chart-sdk/images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started" icon="/chart-sdk/images/dotnet_maui.svg" %}
 
 {% doccard text="WPF" link="https://help.syncfusion.com/chart-sdk/wpf/charts/getting-started" icon="/chart-sdk/images/WPF.svg" %}
 
