@@ -15,7 +15,7 @@ The React Chart can load data from a [GraphQL](https://graphql.org/learn/) endpo
 
 [GraphQL](https://graphql.org/learn/introduction/) is a query language that lets applications request exactly the data they need. A GraphQL endpoint accepts a single `POST` request that contains a query and returns only the requested fields in a `data` envelope:
 
-```json
+```
 { "data": { "getSalesData": { "result": [ ... ] } } }
 ```
 
@@ -57,7 +57,7 @@ Workflow:
 
 The `DataManager` is created once at module scope and passed directly to the `SeriesDirective`:
 
-```javascript
+```
 import { DataManager, GraphQLAdaptor } from '@syncfusion/ej2-data';
 
 const dataManager = new DataManager({
@@ -91,7 +91,7 @@ Key options:
 
 The `DataManager` is then passed to the series `dataSource`. The Chart issues the query and re-renders when the response arrives — no `useState` or `useEffect` is required:
 
-```jsx
+```
 <ChartComponent
   id="sales-chart"
   title="Monthly Sales Revenue"
@@ -125,7 +125,7 @@ The sample runs as two independent processes: a Node.js GraphQL server that retu
 The server is created from four pieces:
 
 - **Express** — HTTP server framework that listens on port 4000.
-- **`express-graphql`** — middleware that exposes the `/graphql` endpoint and runs the GraphQL executor for incoming requests.
+- **`express-graphql`** — a package that exposes the `/graphql` endpoint and runs the GraphQL executor for incoming requests.
 - **Schema** — a `buildSchema` graph that declares `SalesData`, `SalesResult`, and the `getSalesData` query.
 - **Resolver** — the `getSalesData` arrow function that returns the hard-coded list of six months.
 
@@ -133,7 +133,7 @@ When you run `node server.js`, Express starts, `cors()` is applied to every requ
 
 ### 2. Start the React client
 
-In a second terminal, `npm start` (run inside `chart-client`) launches the Create React App dev server on port 3000. Webpack compiles `src/App.js` and serves the bundle to the browser. When the browser opens `http://localhost:3000`, React mounts `App`.
+In a second terminal, `npm start` (run inside `chart-client`) launches the Create React App development  server on port 3000. Web pack compiles `src/App.js` and serves the bundle to the browser. When the browser opens `http://localhost:3000`, React mounts `App`.
 
 ### 3. What happens when the Chart mounts
 
@@ -155,7 +155,7 @@ In order:
 To confirm everything is wired up correctly:
 
 - In the browser, open DevTools → Network and filter on `graphql`. You should see a `POST /graphql` request with status `200 OK`.
-- The request body's `query` field matches the configuration in `App.js`. The `variables.datamanager` field is empty for this chart because there is no paging/sort/filter to send.
+- The request body's `query` field matches the configuration in `App.js`. The `variables.data-manager` field is empty for this chart because there is no paging/sort/filter to send.
 - The response body's `data.getSalesData.result` contains the six monthly records in the order the resolver returned them.
 
 ### 5. Stopping the sample
@@ -168,7 +168,7 @@ The sample is split into a small Node.js GraphQL server and a Create React App c
 
 ### Server (`chart-graphql-server/server.js`)
 
-```javascript
+```
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const { buildSchema } = require('graphql');
@@ -216,11 +216,11 @@ app.listen(4000, () => {
 });
 ```
 
-`cors()` is required because the React dev server (port 3000) and the GraphQL server (port 4000) are on different origins.
+`cors()` is required because the React development  server (port 3000) and the GraphQL server (port 4000) are on different origins.
 
 ### Client (`chart-client/src/App.js`)
 
-```javascript
+```
 import React, { useEffect, useState } from 'react';
 
 import {
@@ -307,7 +307,7 @@ export default App;
 
 From the project root, open two terminals:
 
-```bash
+```
 # Terminal 1
 cd chart-graphql-server
 node server.js

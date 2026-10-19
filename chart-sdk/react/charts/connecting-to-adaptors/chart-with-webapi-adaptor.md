@@ -23,7 +23,7 @@ Use `WebApiAdaptor` when:
 
 By default, `WebApiAdaptor` reads `result` for the data collection and `count` for the total record count:
 
-```json
+```
 {
   "result": [],
   "count": 0
@@ -43,7 +43,7 @@ Before getting started, install the following:
 
 Then install the Syncfusion packages:
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 ```
 
@@ -53,7 +53,7 @@ npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 
 The completed project uses the following structure:
 
-```text
+```
 ReactChartWebApiSample/
 │
 ├── server/
@@ -79,7 +79,7 @@ ReactChartWebApiSample/
 
 Create a new folder for the sample and add the ASP.NET Core backend project.
 
-```bash
+```
 mkdir ReactChartWebApiSample
 cd ReactChartWebApiSample
 mkdir server
@@ -94,11 +94,11 @@ dotnet new web
 
 Update the server project file:
 
-```text
+```
 server/server.csproj
 ```
 
-```xml
+```
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
@@ -114,11 +114,11 @@ server/server.csproj
 
 Create the sales data model at the following location:
 
-```text
+```
 server/Models/SalesData.cs
 ```
 
-```csharp
+```
 namespace server.Models
 {
     public class SalesData
@@ -137,11 +137,11 @@ namespace server.Models
 
 Create the controller at the following location:
 
-```text
+```
 server/Controllers/SalesController.cs
 ```
 
-```csharp
+```
 using Microsoft.AspNetCore.Mvc;
 using server.Models;
 
@@ -319,11 +319,11 @@ namespace server.Controllers
 
 Configure controllers, JSON property casing, and CORS in the `Program.cs` file.
 
-```text
+```
 server/Program.cs
 ```
 
-```csharp
+```
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
@@ -357,11 +357,11 @@ app.Run();
 
 Set the server URL in the launch settings file.
 
-```text
+```
 server/Properties/launchSettings.json
 ```
 
-```json
+```
 {
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "profiles": {
@@ -382,7 +382,7 @@ server/Properties/launchSettings.json
 
 Run the server project.
 
-```bash
+```
 cd server
 dotnet restore
 dotnet run --launch-profile http
@@ -390,7 +390,7 @@ dotnet run --launch-profile http
 
 Open the following URL in a browser:
 
-```text
+```
 http://localhost:5000/api/Sales
 ```
 
@@ -400,7 +400,7 @@ The response should contain `result` and `count` properties.
 
 Create a React application using Vite.
 
-```bash
+```
 cd ..
 npm create vite@latest client -- --template react
 cd client
@@ -411,11 +411,11 @@ npm install
 
 Configure the Syncfusion React Chart component with `DataManager` and `WebApiAdaptor` in the following file:
 
-```text
+```
 client/src/App.jsx
 ```
 
-```jsx
+```
 import React from "react";
 import {
   ChartComponent,
@@ -512,13 +512,13 @@ export default App;
 
 Run the client application.
 
-```bash
+```
 npm run dev
 ```
 
 Open the following URL in the browser:
 
-```text
+```
 http://localhost:5173
 ```
 
@@ -528,7 +528,7 @@ The chart displays sales and expenses data from the Web API.
 
 Use the `Query` class with `DataManager` to generate remote query operations. For example, to fetch the top six sales records in descending order, update the chart query in `App.jsx`:
 
-```jsx
+```
 const chartQuery = new Query()
   .sortBy("Sales", "descending")
   .take(6);
@@ -536,7 +536,7 @@ const chartQuery = new Query()
 
 The Web API then receives an OData-style query similar to:
 
-```text
+```
 http://localhost:5000/api/Sales?$orderby=Sales desc&$top=6
 ```
 

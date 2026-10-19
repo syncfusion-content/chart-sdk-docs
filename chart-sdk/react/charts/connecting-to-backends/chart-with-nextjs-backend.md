@@ -30,7 +30,7 @@ The Syncfusion React Chart package (`@syncfusion/ej2-react-charts`) is installed
 
 Verify the tools:
 
-```bash
+```
 node --version
 npm --version
 ```
@@ -41,7 +41,7 @@ npm --version
 
 After completing this sample, the application structure will look like this:
 
-```text
+```
 syncfusion-nextjs-chart-app/
 ├── package.json
 ├── next.config.ts
@@ -71,13 +71,13 @@ syncfusion-nextjs-chart-app/
 
 Open a terminal in Visual Studio Code and run:
 
-```bash
+```
 npx create-next-app@latest syncfusion-nextjs-chart-app
 ```
 
 Recommended setup options:
 
-```text
+```
 TypeScript: Yes
 ESLint: Yes
 Tailwind CSS: No
@@ -88,31 +88,31 @@ Customize import alias: No
 
 Navigate into the project folder:
 
-```bash
+```
 cd syncfusion-nextjs-chart-app
 ```
 
 Open the project in Visual Studio Code:
 
-```bash
+```
 code .
 ```
 
 Install the project dependencies (Next.js, React, etc.) declared in the generated `package.json`:
 
-```bash
+```
 npm install
 ```
 
 Start the development server:
 
-```bash
+```
 npm run dev
 ```
 
 The application is available at:
 
-```text
+```
 http://localhost:3000
 ```
 
@@ -120,7 +120,7 @@ http://localhost:3000
 
 ## Step 2: Install the Syncfusion React Chart package
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts --save
 ```
 
@@ -130,7 +130,7 @@ The resulting `package.json` is:
 
 **File: `package.json`**
 
-```json
+```
 {
   "name": "syncfusion-nextjs-chart-app",
   "version": "0.1.0",
@@ -165,7 +165,7 @@ The resulting `package.json` is:
 
 Create a new folder named `data` inside `src/app`:
 
-```bash
+```
 mkdir src/app/data
 ```
 
@@ -173,7 +173,7 @@ Add a file named `salesData.ts` with the following content:
 
 **File: `src/app/data/salesData.ts`**
 
-```ts
+```
 export type SalesRecord = {
   month: string;
   sales: number;
@@ -205,7 +205,7 @@ Next.js route handlers let you create backend API endpoints inside the App Route
 
 Create the following folder structure:
 
-```bash
+```
 mkdir src/app/api/sales
 ```
 
@@ -213,7 +213,7 @@ Add a file named `route.ts`:
 
 **File: `src/app/api/sales/route.ts`**
 
-```ts
+```
 import { NextResponse } from 'next/server';
 import { salesData } from '../../data/salesData';
 
@@ -232,7 +232,7 @@ The API response contains:
 
 The response format is:
 
-```json
+```
 {
   "result": [],
   "count": 12
@@ -241,7 +241,7 @@ The response format is:
 
 You can test the endpoint after running the dev server at:
 
-```text
+```
 http://localhost:3000/api/sales
 ```
 
@@ -251,7 +251,7 @@ http://localhost:3000/api/sales
 
 Create a new folder named `components` inside `src`:
 
-```bash
+```
 mkdir src/components
 ```
 
@@ -259,7 +259,7 @@ Add a file named `SalesChart.tsx`:
 
 **File: `src/components/SalesChart.tsx`**
 
-```tsx
+```
 'use client';
 
 import { useEffect } from 'react';
@@ -354,7 +354,7 @@ export default function ChartPage() {
 
 Create a new folder named `chart` inside `src/app`:
 
-```bash
+```
 mkdir src/app/chart
 ```
 
@@ -362,7 +362,7 @@ Add a file named `page.tsx`:
 
 **File: `src/app/chart/page.tsx`**
 
-```tsx
+```
 'use client';
 
 import dynamic from 'next/dynamic';
@@ -406,7 +406,7 @@ The `layout.tsx` file provides a top navigation bar that links the Home page (`/
 
 **File: `src/app/layout.tsx`**
 
-```tsx
+```
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import './globals.css';
@@ -454,7 +454,7 @@ The Home page introduces the sample and links to the Chart page:
 
 **File: `src/app/page.tsx`**
 
-```tsx
+```
 import Link from 'next/link';
 
 export default function HomePage() {
@@ -511,7 +511,7 @@ The default `src/app/globals.css` file works for this sample. The Syncfusion the
 
 **File: `src/app/globals.css`**
 
-```css
+```
 /* @import '../../node_modules/@syncfusion/ej2-base/styles/material.css';
 @import '../../node_modules/@syncfusion/ej2-buttons/styles/material.css';
 @import '../../node_modules/@syncfusion/ej2-popups/styles/material.css';
@@ -672,7 +672,7 @@ li {
 
 If you want to apply a Syncfusion theme, uncomment the `@import` lines at the top of the file. The recommended approach in Next.js 13+ App Router is to import the theme CSS once in `src/app/layout.tsx`, for example:
 
-```tsx
+```
 import '@syncfusion/ej2-base/styles/material.css';
 import '@syncfusion/ej2-react-charts/styles/material.css';
 ```
@@ -685,7 +685,7 @@ The application uses the standard Next.js dev server, so the **server (API route
 
 ### Run the application (single terminal)
 
-```bash
+```
 npm run dev
 ```
 
@@ -709,13 +709,13 @@ Click **View Sales Chart** on the Home page (or use the navbar) to navigate to t
 
 To create a production build:
 
-```bash
+```
 npm run build
 ```
 
 To run the production build:
 
-```bash
+```
 npm run start
 ```
 
@@ -735,7 +735,7 @@ Press `Ctrl + C` in the terminal where the dev server is running.
 
 1. Verify the Syncfusion Chart package is installed:
 
-   ```bash
+   ```
    npm install @syncfusion/ej2-react-charts --save
    ```
 
@@ -747,7 +747,7 @@ Press `Ctrl + C` in the terminal where the dev server is running.
 
 4. Restart the development server:
 
-   ```bash
+   ```
    npm run dev
    ```
 
@@ -755,7 +755,7 @@ Press `Ctrl + C` in the terminal where the dev server is running.
 
 1. Test the API endpoint directly in your browser:
 
-   ```text
+   ```
    http://localhost:3000/api/sales
    ```
 

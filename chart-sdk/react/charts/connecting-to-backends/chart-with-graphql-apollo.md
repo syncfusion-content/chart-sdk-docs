@@ -29,7 +29,7 @@ Using `DataManager` + `GraphQLAdaptor` is the recommended approach because the a
 
 Verify Node.js and npm:
 
-```bash
+```
 node -v
 npm -v
 ```
@@ -38,7 +38,7 @@ npm -v
 
 The sample is split into a `Server` (Apollo GraphQL) and a `Client` (React + Vite + Syncfusion Chart) folder:
 
-```text
+```
 GraphQLSampleApollo
 ├── Server
 │   ├── package.json
@@ -61,7 +61,7 @@ GraphQLSampleApollo
 
 **Create the backend folder and install dependencies.** From a new terminal:
 
-```bash
+```
 mkdir GraphQLSampleApollo
 cd GraphQLSampleApollo
 mkdir Server
@@ -73,7 +73,7 @@ mkdir src
 
 **Configure `Server/package.json`.** Replace its contents with the following so the project uses ES modules and exposes the `start`/`dev` scripts:
 
-```json
+```
 {
   "name": "chart-graphql-server",
   "version": "1.0.0",
@@ -95,7 +95,7 @@ mkdir src
 
 **Create `Server/src/data.js` — the sample chart dataset.**
 
-```js
+```
 export const salesChartData = [
   { month: "Jan", sales: 35, expenses: 20, profit: 15 },
   { month: "Feb", sales: 45, expenses: 25, profit: 20 },
@@ -108,7 +108,7 @@ export const salesChartData = [
 
 **Create `Server/src/schema.js` — the GraphQL schema.** The schema defines the `SalesChartPoint`, the `ChartDataResponse` wrapper (so the `GraphQLAdaptor` can map `result` and `count`), and the `getSalesChartData` query.
 
-```js
+```
 export const typeDefs = `#graphql
 
 type SalesChartPoint {
@@ -132,7 +132,7 @@ type Query {
 
 **Create `Server/src/resolvers.js` — the resolver that returns the data.**
 
-```js
+```
 import { salesChartData } from './data.js';
 
 export const resolvers = {
@@ -147,7 +147,7 @@ export const resolvers = {
 
 **Create `Server/src/server.js` — the Apollo Server bootstrap.** It listens on port `4000` and logs the resolved URL.
 
-```js
+```
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
 
@@ -170,7 +170,7 @@ console.log(`GraphQL server is running at ${url}`);
 
 **Test the backend.** Start it, then open Apollo Sandbox at `http://localhost:4000/` and run the query below. The expected response is shown underneath.
 
-```bash
+```
 cd Server
 npm start
 ```
@@ -189,7 +189,7 @@ query {
 }
 ```
 
-```json
+```
 {
   "data": {
     "getSalesChartData": {
@@ -213,7 +213,7 @@ If you see the six `result` items and `"count": 6`, the backend is working corre
 
 **Create the React app with Vite.** Open a second terminal from the `GraphQLSampleApollo` root folder (keep the backend terminal running in parallel) and run:
 
-```bash
+```
 npm create vite@latest Client -- --template react
 cd Client
 npm install
@@ -222,7 +222,7 @@ npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 
 **Configure `Client/vite.config.js`.** Set the dev server port to `5176` (or any free port of your choice) so it doesn't collide with other Vite apps on your machine:
 
-```js
+```
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -236,7 +236,7 @@ export default defineConfig({
 
 **Configure `Client/src/main.jsx` — the Vite + React entry file.**
 
-```jsx
+```
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -251,7 +251,7 @@ createRoot(document.getElementById('root')).render(
 
 **Replace `Client/src/App.jsx` — the chart with `DataManager` + `GraphQLAdaptor`.** The component creates a `DataManager` pointing at the Apollo endpoint, runs a `Query` through the `GraphQLAdaptor`, then assigns the returned array to each series' `dataSource` and calls `refresh()` on the chart.
 
-```jsx
+```
 import React, { useEffect, useRef } from "react";
 
 import {
@@ -412,14 +412,14 @@ You need **two terminals** open side by side: one for the backend, one for the f
 
 **Terminal 1 — backend.** From the `GraphQLSampleApollo` root:
 
-```bash
+```
 cd Server
 npm start
 ```
 
 You should see:
 
-```text
+```
 GraphQL server is running at http://localhost:4000/
 ```
 
@@ -427,14 +427,14 @@ Leave this terminal running.
 
 **Terminal 2 — frontend.** From the `GraphQLSampleApollo` root:
 
-```bash
+```
 cd Client
 npm run dev
 ```
 
 Vite prints a local URL. With the `vite.config.js` shown above it is:
 
-```text
+```
 http://localhost:5176/
 ```
 
@@ -444,7 +444,7 @@ Open that URL in the browser. The chart renders with an empty data set first, th
 
 **Production build (optional).** From the `Client` folder:
 
-```bash
+```
 npm run build
 npm run preview
 ```
@@ -455,7 +455,7 @@ The backend does not require a build step because it runs plain JavaScript via `
 
 **Backend error: `Cannot use import statement outside a module`.** Add the following to `Server/package.json` (it should already be there from the snippet above) and restart the backend:
 
-```json
+```
 "type": "module"
 ```
 
@@ -463,7 +463,7 @@ The backend does not require a build step because it runs plain JavaScript via `
 
 **Port 4000 is already in use.** Change the port in `Server/src/server.js`:
 
-```js
+```
 const { url } = await startStandaloneServer(server, {
   listen: {
     port: 4001
@@ -473,7 +473,7 @@ const { url } = await startStandaloneServer(server, {
 
 Then update the `DataManager` URL in `Client/src/App.jsx` to match:
 
-```js
+```
 const dataManager = new DataManager({
   url: "http://localhost:4001/",
   adaptor: new GraphQLAdaptor({ /* ... */ })
@@ -484,7 +484,7 @@ const dataManager = new DataManager({
 
 **CORS errors in the browser console.** The React app and the Apollo Server run on different ports. Apollo Server's standalone starter does not send CORS headers by default, so the browser blocks the `DataManager` request. Wrap the request in your own CORS-enabled handler, or add CORS handling to `Server/src/server.js` using a middleware such as `cors` and pass it through `startStandaloneServer`'s `context` option. For local development you can also use the Vite dev proxy in `Client/vite.config.js`:
 
-```js
+```
 export default defineConfig({
   plugins: [react()],
   server: {
