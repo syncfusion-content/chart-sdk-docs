@@ -29,7 +29,7 @@ In this Chart integration, EF Core is used to:
 
 Using EF Core with Syncfusion React Chart provides a clean full-stack architecture for database-driven chart visualization.
 
-```text
+```
 SQL Server Database
         ↓
 Entity Framework Core DbContext
@@ -76,7 +76,7 @@ Install the following software before creating the sample:
 
 Verify the installed versions:
 
-```bash
+```
 dotnet --version
 node --version
 npm --version
@@ -84,19 +84,19 @@ npm --version
 
 Install the EF Core CLI tool if it is not already installed:
 
-```bash
+```
 dotnet tool install --global dotnet-ef
 ```
 
 Verify EF Core CLI:
 
-```bash
+```
 dotnet ef --version
 ```
 
 ## Final project structure
 
-```text
+```
 SyncfusionChartEfDemo
 │
 ├── ChartApi
@@ -125,7 +125,7 @@ SyncfusionChartEfDemo
 
 Open Visual Studio Code and launch a terminal.
 
-```bash
+```
 mkdir SyncfusionChartEfDemo
 cd SyncfusionChartEfDemo
 ```
@@ -134,7 +134,7 @@ cd SyncfusionChartEfDemo
 
 Run the following command to create the backend project:
 
-```bash
+```
 dotnet new webapi -n ChartApi --use-controllers
 cd ChartApi
 ```
@@ -145,7 +145,7 @@ The `--use-controllers` option creates a controller-based Web API structure.
 
 Run the following commands from the `ChartApi` folder:
 
-```bash
+```
 dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.0
@@ -159,13 +159,13 @@ Create a folder named `Models` inside the `ChartApi` project.
 
 Create the following file:
 
-```text
+```
 ChartApi/Models/SalesRecord.cs
 ```
 
 Add the following code:
 
-```csharp
+```
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -200,13 +200,13 @@ Create a folder named `Data` inside the `ChartApi` project.
 
 Create the following file:
 
-```text
+```
 ChartApi/Data/AppDbContext.cs
 ```
 
 Add the following code:
 
-```csharp
+```
 using ChartApi.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -269,7 +269,7 @@ Open the `appsettings.json` file and replace its content with one of the followi
 
 ### Option 1: SQL Server default instance
 
-```json
+```
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=SyncfusionChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -286,7 +286,7 @@ Open the `appsettings.json` file and replace its content with one of the followi
 
 ### Option 2: SQL Server Express
 
-```json
+```
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=.\\SQLEXPRESS;Database=SyncfusionChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -303,7 +303,7 @@ Open the `appsettings.json` file and replace its content with one of the followi
 
 ### Option 3: LocalDB
 
-```json
+```
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=SyncfusionChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -322,7 +322,7 @@ Open the `appsettings.json` file and replace its content with one of the followi
 
 Open the `Program.cs` file and replace its content with the following code:
 
-```csharp
+```
 using ChartApi.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -367,13 +367,13 @@ app.Run();
 
 Create the following file:
 
-```text
+```
 ChartApi/Controllers/SalesController.cs
 ```
 
 Add the following code:
 
-```csharp
+```
 using ChartApi.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -420,7 +420,7 @@ namespace ChartApi.Controllers
 
 Run the following commands from the `ChartApi` folder:
 
-```bash
+```
 dotnet clean
 dotnet restore
 dotnet build
@@ -428,7 +428,7 @@ dotnet build
 
 Expected result:
 
-```text
+```
 Build succeeded.
 ```
 
@@ -436,7 +436,7 @@ Build succeeded.
 
 Run the following commands from the `ChartApi` folder:
 
-```bash
+```
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
@@ -447,19 +447,19 @@ These commands create the `SyncfusionChartDb` database and the `SalesRecords` ta
 
 Run the API:
 
-```bash
+```
 dotnet run --urls "http://localhost:5000"
 ```
 
 Open the following URL in a browser:
 
-```text
+```
 http://localhost:5000/api/sales
 ```
 
 Expected JSON response:
 
-```json
+```
 [
   {
     "month": "Jan",
@@ -494,7 +494,7 @@ Open a new terminal from the root folder `SyncfusionChartEfDemo`.
 
 Run the following commands:
 
-```bash
+```
 npm create vite@latest chart-client -- --template react-ts
 cd chart-client
 npm install
@@ -504,7 +504,7 @@ npm install
 
 Run the following command from the `chart-client` folder:
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts --save
 ```
 
@@ -512,13 +512,13 @@ npm install @syncfusion/ej2-react-charts --save
 
 Open the following file:
 
-```text
+```
 chart-client/src/index.css
 ```
 
 Add the following CSS imports for Syncfusion chart styles:
 
-```css
+```
 @import '../node_modules/@syncfusion/ej2-base/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
@@ -536,13 +536,13 @@ These CSS imports enable the Syncfusion material design theme for the chart comp
 
 Open the following file:
 
-```text
+```
 chart-client/src/main.tsx
 ```
 
 Replace the content with this code:
 
-```tsx
+```
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -559,13 +559,13 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
 Open the following file:
 
-```text
+```
 chart-client/src/App.tsx
 ```
 
 Replace the content with this code:
 {% raw %}
-```tsx
+```
 import { useEffect, useState } from 'react';
 import {
   ChartComponent,
@@ -682,13 +682,13 @@ export default App;
 
 Open the following file:
 
-```text
+```
 chart-client/src/App.css
 ```
 
 Replace the content with this code:
 
-```css
+```
 .app-container {
   max-width: 1100px;
   margin: 40px auto;
@@ -726,13 +726,13 @@ h1 {
 
 Run the following command from the `chart-client` folder:
 
-```bash
+```
 npm run dev
 ```
 
 Open the React application in a browser:
 
-```text
+```
 http://localhost:5173
 ```
 
@@ -742,21 +742,21 @@ Use two terminals.
 
 **Terminal 1: Backend**
 
-```bash
+```
 cd SyncfusionChartEfDemo/ChartApi
 dotnet run --urls "http://localhost:5000"
 ```
 
 **Terminal 2: Frontend**
 
-```bash
+```
 cd SyncfusionChartEfDemo/chart-client
 npm run dev
 ```
 
 Open:
 
-```text
+```
 http://localhost:5173
 ```
 
@@ -766,13 +766,13 @@ The previous example uses the native `fetch` API, which is simple and recommende
 
 Install the Data package:
 
-```bash
+```
 npm install @syncfusion/ej2-data --save
 ```
 
 Example concept:
 
-```tsx
+```
 import { DataManager, UrlAdaptor } from '@syncfusion/ej2-data';
 
 const dataManager = new DataManager({
@@ -789,13 +789,13 @@ For this simple API, fetch-based binding is easier because the API returns a pla
 
 Make sure this file exists:
 
-```text
+```
 ChartApi/Data/AppDbContext.cs
 ```
 
 Also verify that the file contains this namespace:
 
-```csharp
+```
 namespace ChartApi.Data
 ```
 
@@ -803,13 +803,13 @@ namespace ChartApi.Data
 
 Make sure this file exists:
 
-```text
+```
 ChartApi/Models/SalesRecord.cs
 ```
 
 Also verify that the file contains this namespace:
 
-```csharp
+```
 namespace ChartApi.Models
 ```
 
@@ -817,13 +817,13 @@ namespace ChartApi.Models
 
 Try the LocalDB connection string:
 
-```json
+```
 "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=SyncfusionChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
 Or try the SQL Server Express connection string:
 
-```json
+```
 "DefaultConnection": "Server=.\\SQLEXPRESS;Database=SyncfusionChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
@@ -831,13 +831,13 @@ Or try the SQL Server Express connection string:
 
 Install the EF Core CLI tool:
 
-```bash
+```
 dotnet tool install --global dotnet-ef
 ```
 
 Close and reopen the terminal, then run:
 
-```bash
+```
 dotnet ef --version
 ```
 
@@ -845,13 +845,13 @@ dotnet ef --version
 
 Check the backend API directly:
 
-```text
+```
 http://localhost:5000/api/sales
 ```
 
 If the API works but React still fails, verify that CORS allows the React development URL:
 
-```csharp
+```
 .WithOrigins("http://localhost:5173")
 ```
 
@@ -859,7 +859,7 @@ If the API works but React still fails, verify that CORS allows the React develo
 
 After completing all steps, the browser displays a Syncfusion React column chart with SQL Server data:
 
-```text
+```
 Jan - 12000
 Feb - 18000
 Mar - 15000
