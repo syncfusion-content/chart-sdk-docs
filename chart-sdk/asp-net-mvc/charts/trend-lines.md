@@ -15,7 +15,7 @@ appliesto: UI Component Suite, Chart SDK
 
 Trendlines are used to show the direction and speed of price.
 
-Trendlines can be generated for Cartesian type series (Line, Column, Scatter, Area, Candle, Hilo etc.) except bar type series. You can add more than one trendline to a series.
+Trendlines can be generated for Cartesian type series (Line, Column, Scatter, Area, Candle, HiLo etc.) except bar type series. You can add more than one trendline to a series.
 
 Chart supports 6 types of trendlines.
 
