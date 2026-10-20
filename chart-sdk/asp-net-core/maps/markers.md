@@ -170,7 +170,7 @@ The size of the markers in a marker group can be customized using the `widthValu
 {% endhighlight %}
 {% endtabs %}
 
-![Maps with Different Marker Size for Individual Markers](./images/Marker/different-size-for-individual-marker.PNG)
+![Maps with Different Marker Size for Individual Markers](./images/Marker/different-size-for-individual-marker.png)
 
 ## Repositioning the marker using drag and drop
 
