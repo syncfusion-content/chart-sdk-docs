@@ -32,7 +32,7 @@ The below table represents all the available panel properties and the correspond
 
 ## Positioning of panels
 
-The panels within the layout can be easily positioned or ordered using the [`row`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~Row.html) and [`col`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~Col.html) properties of the panels. Positioning of panels will be beneficial to represent the data in any desired order.
+The panels within the layout can be easily positioned or ordered using the [`row`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~Row.html) and [`col`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~Col.html) properties of the panels. Positioning of panels will be beneficial to represent the data in any desired order.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -47,7 +47,7 @@ The panels within the layout can be easily positioned or ordered using the [`row
 
 ## Sizing of panels
 
-A panel's size can be varied easily by defining the [`sizeX`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeX.html) and [`sizeY`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeY.html) properties. The [`sizeX`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeX.html) property defines the width and the [`sizeY`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeY.html) property defines height of a panel in cells count. These properties are helpful in designing a dashboard, where the content of each panel may vary in size.
+A panel's size can be varied easily by defining the [`sizeX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeX.html) and [`sizeY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeY.html) properties. The [`sizeX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeX.html) property defines the width and the [`sizeY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeY.html) property defines height of a panel in cells count. These properties are helpful in designing a dashboard, where the content of each panel may vary in size.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

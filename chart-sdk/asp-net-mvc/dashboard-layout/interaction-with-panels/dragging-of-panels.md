@@ -16,9 +16,9 @@ The Dashboard Layout control is provided with dragging functionality to drag and
 If one or more panels collide while dragging, then the colliding panels will be pushed towards the left or right or top or bottom direction where an adaptive space for the collided panel is available. The position changes of these collided panels will be updated dynamically during dragging of a panel, so the user can conclude whether to place the panel in the current position or not.
 
 While dragging a panel in Dashboard Layout the following dragging events will be triggered,
-* [`dragStart`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~DragStart.html) - Triggers when panel drag starts
-* [`drag`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Drag.html) - Triggers when panel is being dragged
-* [dragStop](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~DragStop.html) - Triggers when panel drag stops
+* [`dragStart`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~DragStart.html) - Triggers when panel drag starts
+* [`drag`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Drag.html) - Triggers when panel is being dragged
+* [dragStop](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~DragStop.html) - Triggers when panel drag stops
 
 The following sample demonstrates dragging and pushing of panels. For example, while dragging the panel 0 over panel 1, these panels get collided and push the panel 1 towards the feasible direction, so that the panel 0 gets placed in the panel 1 position.
 
@@ -36,7 +36,7 @@ The following sample demonstrates dragging and pushing of panels. For example, w
 
 ## Customizing the dragging handler
 
-Initially, the complete panel will act as a handler for dragging the panel such that the dragging action occurs on clicking anywhere over a panel. However, this dragging handler for the panels can be customized using the [`draggableHandle`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~DraggableHandle.html) property to restrict the dragging action within a particular element in the panel.
+Initially, the complete panel will act as a handler for dragging the panel such that the dragging action occurs on clicking anywhere over a panel. However, this dragging handler for the panels can be customized using the [`draggableHandle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~DraggableHandle.html) property to restrict the dragging action within a particular element in the panel.
 
 The following sample demonstrates customizing the dragging handler of the panels where the dragging action of panel occurs only with the header of the panel.
 
@@ -53,7 +53,7 @@ The following sample demonstrates customizing the dragging handler of the panels
 
 ## Disable dragging of panels
 
-By default, the dragging of panels is enabled in Dashboard Layout. It can also be disabled with the help of [`allowDragging`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowDragging.html) API. Setting [`allowDragging`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowDragging.html) to false disables the dragging functionality in Dashboard Layout.
+By default, the dragging of panels is enabled in Dashboard Layout. It can also be disabled with the help of [`allowDragging`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowDragging.html) API. Setting [`allowDragging`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowDragging.html) to false disables the dragging functionality in Dashboard Layout.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

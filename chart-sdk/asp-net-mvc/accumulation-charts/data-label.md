@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Data Label in ASP.NET MVC Accumulation Charts
 
-Data label can be added to a chart series by enabling the [`Visible`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationDataLabelSettings.html#Syncfusion_EJ2_Charts_AccumulationDataLabelSettings_Visible) option in the dataLabel property.
+Data label can be added to a chart series by enabling the [`Visible`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationDataLabelSettings.html#Syncfusion_EJ2_Charts_AccumulationDataLabelSettings_Visible) option in the dataLabel property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -50,7 +50,7 @@ Data labels will be arranged smartly without overlapping with each other. You ca
 
 ## Data Label Template
 
-Label content can be formatted by using the template option. Inside the template, you can add the placeholder text `${point.x}` and `${point.y}` to display corresponding data points x & y value. Using [`Template`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationDataLabelSettings.html#Syncfusion_EJ2_Charts_AccumulationDataLabelSettings_Template) property, you can set data label template in chart.
+Label content can be formatted by using the template option. Inside the template, you can add the placeholder text `${point.x}` and `${point.y}` to display corresponding data points x & y value. Using [`Template`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationDataLabelSettings.html#Syncfusion_EJ2_Charts_AccumulationDataLabelSettings_Template) property, you can set data label template in chart.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

@@ -28,7 +28,7 @@ You can customize the default theme of the chart `Theme` property. There are 9 t
 
 ## Custom color palette
 
-You can customize the default color of series or points by providing a custom color palette of your choice by using the [`Palettes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Palettes) property.
+You can customize the default color of series or points by providing a custom color palette of your choice by using the [`Palettes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Palettes) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -71,7 +71,7 @@ You can differentiate data points based on their y values using [`RangeColorSett
 
 ## Point level customization
 
-Marker, datalabel and fill color of each data point can be customized with [`PointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) and [`TextRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TextRender) event.
+Marker, datalabel and fill color of each data point can be customized with [`PointRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) and [`TextRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TextRender) event.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -93,7 +93,7 @@ Marker, datalabel and fill color of each data point can be customized with [`Poi
 **Customize the chart background**
 
 <!-- markdownlint-disable MD013 -->
-Using [`Background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Background) and [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Border) properties, you can change the background color and border of the chart.
+Using [`Background`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Background) and [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Border) properties, you can change the background color and border of the chart.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -108,7 +108,7 @@ Using [`Background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 **Chart margin**
 
-You can set margin for chart from its container through [`Margin`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Margin) property.
+You can set margin for chart from its container through [`Margin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Margin) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -123,7 +123,7 @@ You can set margin for chart from its container through [`Margin`](https://help.
 
 **Chart area customization**
 
-Using [`Background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Background) and [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Border) properties, you can change the background color and border of the chart area. Width for the chart area can be customized using [`Width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Width) property.
+Using [`Background`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Background) and [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Border) properties, you can change the background color and border of the chart area. Width for the chart area can be customized using [`Width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Width) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -237,7 +237,7 @@ You can align the title to the near, far, or center of the chart using the [`Tex
 
 ## Chart subTitle
 
-Chart can be given a subtitle using [`SubTitle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SubTitle) property, to show the information about the data plotted.
+Chart can be given a subtitle using [`SubTitle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SubTitle) property, to show the information about the data plotted.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

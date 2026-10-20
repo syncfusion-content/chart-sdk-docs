@@ -57,7 +57,7 @@ The dimension of the QR Code can be changed using the height and width propertie
 
 ## Enhancing QR Codes with Icons
 
-The EJ2 Barcode Generator allows you to add a [`logo`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.BarcodeGenerator.QRCodeGenerator.html#Syncfusion_EJ2_BarcodeGenerator_QRCodeGenerator_Logo) or icon to your QR codes, enhancing their visual appeal, clarity, and even security. Adding a recognizable icon can make it easier for users to identify the source and help prevent tampering.
+The EJ2 Barcode Generator allows you to add a [`logo`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.BarcodeGenerator.QRCodeGenerator.html#Syncfusion_EJ2_BarcodeGenerator_QRCodeGenerator_Logo) or icon to your QR codes, enhancing their visual appeal, clarity, and even security. Adding a recognizable icon can make it easier for users to identify the source and help prevent tampering.
 
 ### Supported Image Sources
  
@@ -71,7 +71,7 @@ The `imageSource` property of the `QRCodeLogo` class supports the following imag
  
 The `width` and `height` properties of the `QRCodeLogo` class define the dimensions of the logo in pixels. If not specified, both default to 30% of the QR code’s size. The maximum allowed size is 30% of the QR code’s dimensions to ensure optimal readability.
 
-**Note:** Always test the readability of your QR code after adding a logo. Depending on the logo size and QR code content, you might need to adjust the [`errorCorrectionLevel`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.BarcodeGenerator.ErrorCorrectionLevel.html) property of the `QRCodeGenerator` to `"Medium"` or `"High"` for better reliability.
+**Note:** Always test the readability of your QR code after adding a logo. Depending on the logo size and QR code content, you might need to adjust the [`errorCorrectionLevel`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.BarcodeGenerator.ErrorCorrectionLevel.html) property of the `QRCodeGenerator` to `"Medium"` or `"High"` for better reliability.
 
 The following image illustrates QR code with logo:
 
