@@ -61,4 +61,4 @@ N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG
 
 ## See also
 
-* [Tooltip for Annotations](gauge-user-interaction/#tooltip-for-annotations)
+* [Tooltip for Annotations](gauge-user-interaction#tooltip-for-annotations)

@@ -166,4 +166,4 @@ N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG
 
 ## See also
 
-* [Tooltip for Ranges](gauge-user-interaction/#tooltip-for-ranges)
+* [Tooltip for Ranges](gauge-user-interaction#tooltip-for-ranges)

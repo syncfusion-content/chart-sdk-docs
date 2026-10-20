@@ -107,7 +107,7 @@ In the following sample, the Dashboard Layout is rendered with [Panels](https://
 
 Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app. Then, the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Dashboard Layout control will be rendered in the default web browser.
 
-![ASP.NET MVC Dashboard Layout using Content Template](images/content_template.png)
+![ASP.NET MVC Dashboard Layout using Content Template](images/content_template.PNG)
 
 ### Setting the panels property using helper
 
@@ -124,6 +124,6 @@ In the following sample, the Dashboard Layout is rendered with [Panels](https://
 {% endhighlight %}
 {% endtabs %}
 
-![ASP.NET MVC Dashboard Layout using Tag Helper](images/tag_helper.png)
+![ASP.NET MVC Dashboard Layout using Tag Helper](images/tag_helper.PNG)
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-MVC-Getting-Started-Examples/tree/main/DashboardLayout/ASP.NET%20MVC%20Razor%20Examples).
