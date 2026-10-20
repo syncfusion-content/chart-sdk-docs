@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Floating Panel in ASP.NET Core Dashboard Layout control
+title: Floating Panel in ASP.NET Core Dashboard Layout control | Syncfusion
 description: Learn here all about Floating Panel in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Floating Panel
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Floating panels
+# Floating panels in ASP.NET Core Dashboard Layout Control
 
 The floating functionality of the control allows to effectively use the entire layout for the panel's placement. If the floating functionality is enabled, the panels within the layout get floated upwards automatically to occupy the empty cells available in previous rows. This functionality can be enabled or disabled using the [`allowFloating`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayout.html#Syncfusion_EJ2_Layouts_DashboardLayout_AllowFloating) property of the control.
 

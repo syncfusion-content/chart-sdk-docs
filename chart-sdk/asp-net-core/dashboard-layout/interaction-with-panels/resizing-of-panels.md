@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Resizing Of Panels in ASP.NET Core Dashboard Layout control
+title: Resizing Of Panels in ASP.NET Core Dashboard Layout | Syncfusion
 description: Learn here all about Resizing of Panels in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Resizing Of Panels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Resizing of panels
+# Resizing of panels in ASP.NET Core Dashboard Layout Control
 
 The DashboardLayout control is also provided with the panel resizing functionality which can be enabled or disabled using the [`allowResizing`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayout.html#Syncfusion_EJ2_Layouts_DashboardLayout_AllowResizing) property. This functionality allows you to resize the panels dynamically through UI interactions using the resizing handlers, which controls the panel resizing in various directions.
 
@@ -31,9 +30,9 @@ On resizing a panel in Dashboard Layout the following events will be triggered,
 
 ![Resizing panels](./../images/resizing_panels.PNG)
 
-## Resizing panels programatically
+## Resizing panels programmatically
 
-The Dashboard Layout panels can also be resized programatically by using `resizePanel` method. The method is invoked as follows,
+The Dashboard Layout panels can also be resized programmatically by using `resizePanel` method. The method is invoked as follows,
 
 ```js
 resizePanel(id, sizeX, sizeY)
@@ -45,7 +44,7 @@ Where,
 * [`sizeX`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayoutPanel.html#Syncfusion_EJ2_Layouts_DashboardLayoutPanel_SizeX) - New panel width in cells count for resizing the panel.
 * [`sizeY`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayoutPanel.html#Syncfusion_EJ2_Layouts_DashboardLayoutPanel_SizeY) - New panel height in cells count for resizing the panel.
 
-The following sample demonstrates resizing panels programatically in the Dashboard Layout's [created](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayout.html#Syncfusion_EJ2_Layouts_DashboardLayout_Created) event.
+The following sample demonstrates resizing panels programmatically in the Dashboard Layout's [created](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayout.html#Syncfusion_EJ2_Layouts_DashboardLayout_Created) event.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

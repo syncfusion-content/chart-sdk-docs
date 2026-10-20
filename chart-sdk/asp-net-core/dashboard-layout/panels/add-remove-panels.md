@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Add Remove Panels in ASP.NET Core Dashboard Layout control
+title: Add Remove Panels in ASP.NET Core Dashboard Layout | Syncfusion
 description: Learn here all about how to add or remove panels in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Add Remove Panels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Adding and removing panels dynamically
+# Adding and removing panels in ASP.NET Core Dashboard Layout
 
 In real-time cases, the data being presented within the dashboard should be updated frequently which includes adding or removing the data dynamically within the dashboard. This can be easily achieved by using the `addPanel` and `removePanel` public methods of the control.
 

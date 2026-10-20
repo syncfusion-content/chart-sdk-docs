@@ -4,12 +4,11 @@ title: Accessibility in ASP.NET Core Dashboard Layout control | Syncfusion
 description: Learn here all about Accessibility in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Accessibility
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Accessibility in Dashboard Layout Control
+# Accessibility in ASP.NET Core Dashboard Layout Control
 
 The Dashboard Layout control has been designed with keeping the `WAI-ARIA` specifications in mind and applying the `WAI-ARIA` roles, states, and properties. This control is characterized by ARIA accessibility support, which makes navigation easy for people who use assistive technologies (AT).
 

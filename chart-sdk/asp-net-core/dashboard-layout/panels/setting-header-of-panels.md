@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Setting Header Of Panels in ASP.NET Core Dashboard Layout control
+title: Setting Header Of Panels in ASP.NET Core Dashboard Layout | Syncfusion
 description: Learn here all about Setting Header of Panels in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Setting Header Of Panels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Header and content of panels
+# Header and content of panels in ASP.NET Core Dashboard Layout
 
 The Dashboard Layout control is mostly used to represent the data used for monitoring or managing a process. These data or any HTML template can be placed as the [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayoutPanel.html#Syncfusion_EJ2_Layouts_DashboardLayoutPanel_Content) of a panel using the content property. Also, word or phrase that summarize the panel’s content can be added as the header on the top of each panel using the [`header`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayoutPanel.html#Syncfusion_EJ2_Layouts_DashboardLayoutPanel_Header) property of the panel.
 

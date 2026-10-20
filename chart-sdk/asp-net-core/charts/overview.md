@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Overview in ASP.NET Core Chart Component
-description: Learn here all about Overview in Syncfusion ASP.NET Core Chart component of Syncfusion Essential JS 2 and more.
+title: Overview in ASP.NET Core Chart Control | Syncfusion
+description: Learn here all about Overview in Syncfusion ASP.NET Core Chart control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Index
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Overview
+# Overview in ASP.NET Core Chart Control
 
 The Chart control is used to visualize the data with user interactivity and provides customizing options to configure the data visually. It can bind data from  datasource such as array of JSON objects, OData web services or [`DataManager`](https://ej2.syncfusion.com/documentation/api/data/datamanager). All chart elements are rendered using Scalable Vector Graphics (SVG).
 
@@ -24,7 +23,7 @@ The Chart control is used to visualize the data with user interactivity and prov
 * [**Smart Labels**](https://ej2.syncfusion.com/aspnetcore/chart/smartaxislabel#/fluent2) - Avoids overlapping of axis labels by trimming, wrapping, rotating, hiding, or placing them on multiple rows.
 * [**Stripline**](https://ej2.syncfusion.com/aspnetcore/chart/stripline#/fluent2) - Provides options to highlight and annotate any region in chart.
 * [**DataLabel**](https://ej2.syncfusion.com/aspnetcore/chart/datalabeltemplate#/fluent2) - Datalabel annotates data points with label to improve the readability of data.
-* [**Technical Indicators**](https://ej2.syncfusion.com/aspnetcore/chart/adichart#/fluent2) - Indicators allows to analyse the past and predict the future market trends based on historic price, volume, or open interest.
+* [**Technical Indicators**](https://ej2.syncfusion.com/aspnetcore/chart/adichart#/fluent2) - Indicators allows to analyze the past and predict the future market trends based on historic price, volume, or open interest.
 * [**Trendlines**](https://ej2.syncfusion.com/aspnetcore/chart/trendlines#/fluent2) - Predicts the future trends with predetermined data for any measurements.
 * [**Error Bars**](https://ej2.syncfusion.com/aspnetcore/chart/errorbar#/fluent2) - Provides options to handle any error or uncertainty in the measurements.
 * [**Empty Points**](https://ej2.syncfusion.com/aspnetcore/chart/areaempty#/fluent2) - Provides options to handle missed data for the series elegantly with empty points.

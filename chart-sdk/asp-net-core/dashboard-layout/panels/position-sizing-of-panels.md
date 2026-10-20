@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Position Sizing Of Panels in ASP.NET Core Dashboard Layout control
+title: Panels in ASP.NET Core Dashboard Layout control | Syncfusion
 description: Learn here all about Position Sizing of Panels in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Position Sizing Of Panels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Panels
+# Panels in ASP.NET Core Dashboard Layout Control
 
 Panels are the basic building blocks of the Dashboard Layout control. They act as a container for the data to be visualized or presented. These panels can be positioned or resized for effective presentation of the data.
 

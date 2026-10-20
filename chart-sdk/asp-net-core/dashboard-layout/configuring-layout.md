@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Configuring Layout in ASP.NET Core Dashboard Layout control
+title: Configuring Layout in ASP.NET Core Dashboard Layout | Syncfusion
 description: Learn here all about Configuring Layout in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Configuring Layout
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Configuring the layout
+# Configuring the layout in ASP.NET Core Dashboard Layout
 
 The entire layout dimensions are assigned based on the height and width of the parent element. Hence, a responsive or static layout can be created by assigning a percentage or static dimension values to the parent element. The layout adapts to mobile resolutions by transforming the entire layout into a stacked orientation, so that, the panels will be displayed in a vertical column.
 
@@ -53,7 +52,7 @@ The following sample demonstrates the usage of the [`cellSpacing`](https://help.
 
 ## Graphical representation of the layout
 
-These cells combinedly forms a grid-structured layout which will be hidden initially. This grid structured layout can be made visible by enabling the [`showGridLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayout.html#Syncfusion_EJ2_Layouts_DashboardLayout_ShowGridLines) property, which clearly pictures the cells split-up within the layout. These gridlines will be helpful in panels sizing and placement within the layout during initial designing of a dashboard.
+These cells combined forms a grid-structured layout which will be hidden initially. This grid structured layout can be made visible by enabling the [`showGridLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayout.html#Syncfusion_EJ2_Layouts_DashboardLayout_ShowGridLines) property, which clearly pictures the cells split-up within the layout. These gridlines will be helpful in panels sizing and placement within the layout during initial designing of a dashboard.
 
 In the following sample, the gridlines indicate the cells split-up of the layout and the data containers placed over these cells are known as panels.
 

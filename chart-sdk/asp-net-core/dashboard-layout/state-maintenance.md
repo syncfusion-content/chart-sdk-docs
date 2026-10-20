@@ -1,15 +1,14 @@
 ---
 layout: post
-title: State Maintenance in ASP.NET Core Dashboard Layout control
+title: State Maintenance in ASP.NET Core Dashboard Layout | Syncfusion
 description: Learn here all about State Maintenance in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: State Maintenance
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Panel state maintenance
+# Panel state maintenance in ASP.NET Core Dashboard Layout Control
 
 The current layout structure of the Dashboard Layout control can be obtained and saved to construct another dashboard with same panel structure using the `serialize` public method of the control. This method returns the control's current panel setting which can be used to construct a dashboard with the same layout settings.
 

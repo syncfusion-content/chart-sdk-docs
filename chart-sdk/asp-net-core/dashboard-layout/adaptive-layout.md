@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Adaptive Layout in ASP.NET Core Dashboard Layout control
+title: Adaptive Layout in ASP.NET Core Dashboard Layout control | Syncfusion
 description: Learn here all about Adaptive Layout in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Adaptive Layout
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Responsive and adaptive layout
+# Responsive and adaptive layout in ASP.NET Core Dashboard Layout
 
 The control is provided with built-in responsive support, where panels within the layout get adjusted based on their parent element's dimensions to accommodate any resolution which relieves the burden of building responsive dashboards.
 

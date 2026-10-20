@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Dragging Of Panels in ASP.NET Core Dashboard Layout control | Syncfusion
+title: Dragging Of Panels in ASP.NET Core Dashboard Layout | Syncfusion
 description: Learn here all about Dragging Of Panels in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dragging Of Panels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
