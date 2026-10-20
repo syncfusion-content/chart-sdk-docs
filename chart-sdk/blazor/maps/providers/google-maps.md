@@ -264,7 +264,7 @@ To enable zooming, set the [Enable](https://help.syncfusion.com/cr/blazor/Syncfu
 
 ![Blazor Google Maps with Zooming and Panning](../images/MapProviders/Google-maps/blazor-google-maps-zooming.webp)
 
-N> Refer to the session token retrieval method described in the [Displaying Google Maps](https://blazor.syncfusion.com/documentation/maps/providers/google-maps#displaying-google-maps) section.
+N> Refer to the session token retrieval method described in the [Displaying Google Maps](https://help.syncfusion.com/chart-sdk/blazor/maps/providers/google-maps#displaying-google-maps) section.
 
 ## Adding markers and navigation line
 
@@ -312,7 +312,7 @@ Markers can be added to the Google Maps layer by setting the latitude and longit
 
 ![Blazor Google Maps with Markers and Navigation Line](../images/MapProviders/Google-maps/blazor-google-maps-marker-and-line.webp)
 
-N> Refer to the session token retrieval method described in the [Displaying Google Maps](https://blazor.syncfusion.com/documentation/maps/providers/google-maps#displaying-google-maps) section.
+N> Refer to the session token retrieval method described in the [Displaying Google Maps](https://help.syncfusion.com/chart-sdk/blazor/maps/providers/google-maps#displaying-google-maps) section.
 
 ## Adding sublayer
 
@@ -338,7 +338,7 @@ A GeoJSON shape can be rendered as a sublayer on top of the Google Maps layer to
 
 ![Blazor Google Maps with Sublayer](../images/MapProviders/Google-maps/blazor-google-maps-sublayer.webp)
 
-N> Refer to the session token retrieval method described in the [Displaying Google Maps](https://blazor.syncfusion.com/documentation/maps/providers/google-maps#displaying-google-maps) section.
+N> Refer to the session token retrieval method described in the [Displaying Google Maps](https://help.syncfusion.com/chart-sdk/blazor/maps/providers/google-maps#displaying-google-maps) section.
 
 ## Enable legend
 
@@ -403,4 +403,4 @@ In the following example, the legend is associated with markers on the Google Ma
 
 ![Blazor Google Maps with Legend](../images/MapProviders/Google-maps/blazor-google-maps-legend.webp)
 
-N> Refer to the session token retrieval method described in the [Displaying Google Maps](https://blazor.syncfusion.com/documentation/maps/providers/google-maps#displaying-google-maps) section.
+N> Refer to the session token retrieval method described in the [Displaying Google Maps](https://help.syncfusion.com/chart-sdk/blazor/maps/providers/google-maps#displaying-google-maps) section.
