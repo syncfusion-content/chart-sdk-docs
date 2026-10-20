@@ -64,9 +64,9 @@ The background color of the sparkline area can be customized using the [`contain
 
 ## Sparkline theme
 
-Datalabel and track line colors of the sparkline will be changed based on theme. For example, for dark theme, the color of datalabel and track line should be white; for light theme, their value should be black. The possible values for sparkline theme are [`Material`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), [`Fabric`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), [`Bootstrap`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), and [`Highcontrast`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html).
+Data label and track line colors of the sparkline will be changed based on theme. For example, for dark theme, the color of the data label and track line should be white; for light theme, their value should be black. The possible values for sparkline theme are [`Material`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), [`Fabric`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), [`Bootstrap`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html), and [`HighContrast`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Theme.html).
 
-The following code example shows the color for datalabel and track line is set to white for dark theme.
+The following code example shows the color for the data label and track line is set to white for dark theme.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

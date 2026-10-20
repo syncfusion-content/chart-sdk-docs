@@ -10,9 +10,9 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Moving of panels programatically
+# Moving of panels programmatically
 
-Other than drag and drop, it is possible to move the panels in Dashboard Layout programatically. This can be achieved using `movePanel` method. The method is invoked as follows,
+Other than drag and drop, it is possible to move the panels in Dashboard Layout programmatically. This can be achieved using `movePanel` method. The method is invoked as follows,
 
 ```js
 movePanel(id, row, col)
@@ -24,9 +24,9 @@ Where,
 * row - New row position for moving the panel.
 * col - New column position for moving the panel.
 
-Each time a panel's position is changed (Programatically or through UI interaction), the Dashboard Layout's [`change`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Change.html) event will be triggered.
+Each time a panel's position is changed (Programmatically or through UI interaction), the Dashboard Layout's [`change`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Change.html) event will be triggered.
 
-The following sample demonstrates moving a panel programatically to a new position in the Dashboard Layout's [created](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Created.html) event.
+The following sample demonstrates moving a panel programmatically to a new position in the Dashboard Layout's [created](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Created.html) event.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
