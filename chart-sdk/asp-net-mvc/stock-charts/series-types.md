@@ -23,9 +23,9 @@ To render a line series, use series [`Type`](https://help.syncfusion.com/cr/aspn
 
 To render a candle series, use series [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries_Type) as `Candle` .
 
-**HollowCandle**
+**Hollow Candle**
 
-To render a hollowcandle series, use series [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries_Type) as `Candle` and set `EnableSolidCandle` as false.
+To render a hollow candle series, use series [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries_Type) as `Candle` and set `EnableSolidCandle` as false.
 
 **Spline**
 
