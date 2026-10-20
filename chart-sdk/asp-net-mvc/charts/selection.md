@@ -82,7 +82,7 @@ To fetch the collection of data under a particular region, you have to set `Sele
 * DragX - Allows us to select data with respect to horizontal axis.
 * DragY - Allows us to select data with respect to vertical axis.
 
-The selected data’s are returned as an array collection in the [`DragComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_DragComplete) event.
+The selected data’s are returned as an array collection in the [`DragComplete`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_DragComplete) event.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -97,7 +97,7 @@ The selected data’s are returned as an array collection in the [`DragComplete`
 
 ## Selection type
 
-You can select multiple points or series, by enabling the [`IsMultiSelect`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_IsMultiSelect) property.
+You can select multiple points or series, by enabling the [`IsMultiSelect`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_IsMultiSelect) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -112,7 +112,7 @@ You can select multiple points or series, by enabling the [`IsMultiSelect`](http
 
 ## Selection on load
 
-You can able to select a point or series programmatically on a chart using [`SelectedDataIndexes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SelectedDataIndexes) property.
+You can able to select a point or series programmatically on a chart using [`SelectedDataIndexes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SelectedDataIndexes) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -142,7 +142,7 @@ You can able to select a point or series through on legend using [`ToggleVisibil
 
 ## Customization for selection
 
-You can apply custom style to selected points or series with [`SelectionStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_SelectionStyle) property.
+You can apply custom style to selected points or series with [`SelectionStyle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_SelectionStyle) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
