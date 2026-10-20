@@ -76,7 +76,7 @@ To render a Bollinger Band, use indicator [`Type`](https://help.syncfusion.com/c
 
 ## Indicator Events
 
-The StockChart component supports **indicator lifecycle events**, allowing you to monitor and control indicator add and remove operations triggered through the built-in toolbar indicator dropdown. These events are useful for validating user actions, restricting specific indicators, tracking indicator changes, and integrating indicator interactions with application logic.
+The StockChart component supports **indicator life cycle events**, allowing you to monitor and control indicator add and remove operations triggered through the built-in toolbar indicator dropdown. These events are useful for validating user actions, restricting specific indicators, tracking indicator changes, and integrating indicator interactions with application logic.
 
 The following indicator events are supported by the StockChart component:
 
