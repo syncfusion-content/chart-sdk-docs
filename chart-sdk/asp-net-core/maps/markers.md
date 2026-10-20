@@ -309,7 +309,7 @@ N> When the `ClusterSettings` property is enabled for an individual marker group
 {% endhighlight %}
 {% endtabs %}
 
-![Maps with Marker Clustering for Specfic Marker Group](./images/Marker/marker-clustering-for-specfic-marker-group.PNG)
+![Maps with Marker Clustering for Specfic Marker Group](./images/Marker/marker-clustering-for-specfic-marker-group.png)
 
 ## Tooltip for marker
 
