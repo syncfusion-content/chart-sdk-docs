@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Configuring the layout
+# Configuring Layout in ASP.NET MVC Dashboard Layout control
 
 The entire layout dimensions are assigned based on the height and width of the parent element. Hence, a responsive or static layout can be created by assigning a percentage or static dimension values to the parent element. The layout adapts to mobile resolutions by transforming the entire layout into a stacked orientation, so that, the panels will be displayed in a vertical column.
 

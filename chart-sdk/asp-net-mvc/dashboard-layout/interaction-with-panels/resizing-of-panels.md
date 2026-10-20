@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Resizing of panels
+# Resizing Of Panels in ASP.NET MVC Dashboard Layout control
 
 The DashboardLayout control is also provided with the panel resizing functionality which can be enabled or disabled using the [`allowResizing`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowResizing.html) property. This functionality allows you to resize the panels dynamically through UI interactions using the resizing handlers, which controls the panel resizing in various directions.
 

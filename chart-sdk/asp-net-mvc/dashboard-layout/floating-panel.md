@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Floating panels
+# Floating Panel in ASP.NET MVC Dashboard Layout control
 
 The floating functionality of the control allows to effectively use the entire layout for the panel's placement. If the floating functionality is enabled, the panels within the layout get floated upwards automatically to occupy the empty cells available in previous rows. This functionality can be enabled or disabled using the [`allowFloating`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) property of the control.
 

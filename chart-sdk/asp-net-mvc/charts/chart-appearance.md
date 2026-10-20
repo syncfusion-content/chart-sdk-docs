@@ -9,7 +9,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Appearance in ASP.NET MVC Charts component
+# Chart Appearance in ASP.NET MVC Charts
 
 ## Chart theme customization
 

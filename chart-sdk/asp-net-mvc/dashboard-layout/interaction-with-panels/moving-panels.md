@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Moving of panels programmatically
+# Moving Panels in ASP.NET MVC Dashboard Layout control
 
 Other than drag and drop, it is possible to move the panels in Dashboard Layout programmatically. This can be achieved using `movePanel` method. The method is invoked as follows,
 

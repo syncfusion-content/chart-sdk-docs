@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 <!-- markdownlint-disable MD036 -->
 
-# How to hide the tooltip for unselected series in ASP.NET MVC Charts
+# Hide Tooltip in ASP.NET MVC Charts
 
 By using the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TooltipRender) event, you can cancel the tooltip for unselected series in the chart.
 

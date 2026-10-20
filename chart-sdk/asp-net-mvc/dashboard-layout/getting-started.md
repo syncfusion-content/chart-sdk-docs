@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with ASP.NET MVC DashboardLayout | Syncfusion
-description: Checkout and learn about getting started with ASP.NET MVC DashboardLayout control of Syncfusion Essential JS 2 and more details.
+description: Checkout and learn about getting started with ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Getting Started
 publishingplatform: chart-sdk
@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Getting Started with ASP.NET MVC Dashboard Layout Control
+# Getting Started with ASP.NET MVC DashboardLayout
 
 This section briefly explains about how to include [ASP.NET MVC Dashboard Layout](https://www.syncfusion.com/aspnet-mvc-ui-controls/dashboard-layout) control in your ASP.NET MVC application using Visual Studio.
 

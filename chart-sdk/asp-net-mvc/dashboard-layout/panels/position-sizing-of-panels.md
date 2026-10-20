@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Panels
+# Position Sizing Of Panels in ASP.NET MVC Dashboard Layout control
 
 Panels are the basic building blocks of the Dashboard Layout control. They act as a container for the data to be visualized or presented. These panels can be positioned or resized for effective presentation of the data.
 
