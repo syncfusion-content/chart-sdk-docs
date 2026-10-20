@@ -245,7 +245,7 @@ Moving average indicators are used to define the direction of the trend. To rend
 
 **Data Source**
 
-Usually technical indicators are added along with a financial series. The [`SeriesName`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_SeriesName) represents the series, the data of which has to be analysed through indicators.
+Usually technical indicators are added along with a financial series. The [`SeriesName`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_SeriesName) represents the series, the data of which has to be analyzed through indicators.
 
 Technical indicators can also be added without series using [`DataSource`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_DataSource) property of indicator.
 

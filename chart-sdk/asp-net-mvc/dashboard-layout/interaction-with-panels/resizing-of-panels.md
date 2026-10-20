@@ -31,9 +31,9 @@ On resizing a panel in Dashboard Layout the following events will be triggered,
 
 ![Resizing panels](./../images/resizing_panels.PNG)
 
-## Resizing panels programatically
+## Resizing panels programmatically
 
-The Dashboard Layout panels can also be resized programatically by using `resizePanel` method. The method is invoked as follows,
+The Dashboard Layout panels can also be resized programmatically by using `resizePanel` method. The method is invoked as follows,
 
 ```js
 resizePanel(id, sizeX, sizeY)
@@ -45,7 +45,7 @@ Where,
 * [`sizeX`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeX.html) - New panel width in cells count for resizing the panel.
 * [`sizeY`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayoutPanel~SizeY.html) - New panel height in cells count for resizing the panel.
 
-The following sample demonstrates resizing panels programatically in the Dashboard Layout's [created](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Created.html) event.
+The following sample demonstrates resizing panels programmatically in the Dashboard Layout's [created](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Created.html) event.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
