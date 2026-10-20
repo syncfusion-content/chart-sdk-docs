@@ -34,7 +34,7 @@ Install the Syncfusion CLI globally using the following command:
 
 {% tabs %}
 {% highlight bash tabtitle="npm" %}
-npm install -g @syncfusion/syncfusion-cli
+npm install -g @syncfusion/cli
 {% endhighlight %}
 {% endtabs %}
 
@@ -71,7 +71,7 @@ When you run the `sf` command, the CLI prompts you to select the required projec
 
 √ Project name? ... my-chart-app
 √ Choose Framework: » React
-√ Choose Build Tool: » Vite
+√ Choose Project Type: » Vite
 √ Choose Language: » Typescript
 √ Choose Template: » Chart
 √ Choose Theme: » Material3
