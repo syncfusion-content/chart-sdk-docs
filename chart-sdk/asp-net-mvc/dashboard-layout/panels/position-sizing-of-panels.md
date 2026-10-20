@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Position Sizing Of Panels in ASP.NET MVC Dashboard Layout control | Syncfusion
+title: Position Sizing of Panels in ASP.NET MVC Dashboard Layout | Syncfusion
 description: Learn here all about Position Sizing of Panels in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Position Sizing Of Panels
@@ -9,7 +9,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Position Sizing Of Panels in ASP.NET MVC Dashboard Layout control
+# Position Sizing of Panels in ASP.NET MVC Dashboard Layout
 
 Panels are the basic building blocks of the Dashboard Layout control. They act as a container for the data to be visualized or presented. These panels can be positioned or resized for effective presentation of the data.
 

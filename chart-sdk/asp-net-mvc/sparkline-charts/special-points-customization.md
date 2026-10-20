@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Special Points Customization in ASP.NET MVC Sparkline Charts | Syncfusion
+title: Special Points in ASP.NET MVC Sparkline Charts | Syncfusion
 description: Learn here all about Special Points Customization in Syncfusion ASP.NET MVC Sparkline Charts component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Special Points Customization
@@ -9,7 +9,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Special Points Customization in ASP.NET MVC Sparkline Charts
+# Special Points in ASP.NET MVC Sparkline Charts
 
 You can customize the points by initializing the point colors. The customization options allows to differentiate the [`start`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~StartPointColor.html), [`end`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~EndPointColor.html), [`positive`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~HighPointColor.html), [`negative`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~NegativePointColor.html), and [`low`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~LowPointColor.html) points. This customization is only applicable for line, column, and area type sparklines.
 

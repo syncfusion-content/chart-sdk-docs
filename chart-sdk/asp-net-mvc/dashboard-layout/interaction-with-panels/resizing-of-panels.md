@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resizing Of Panels in ASP.NET MVC Dashboard Layout control | Syncfusion
+title: Resizing of Panels in ASP.NET MVC Dashboard Layout | Syncfusion
 description: Learn here all about Resizing of Panels in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Resizing Of Panels
@@ -9,7 +9,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Resizing Of Panels in ASP.NET MVC Dashboard Layout control
+# Resizing of Panels in ASP.NET MVC Dashboard Layout
 
 The DashboardLayout control is also provided with the panel resizing functionality which can be enabled or disabled using the [`allowResizing`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowResizing.html) property. This functionality allows you to resize the panels dynamically through UI interactions using the resizing handlers, which controls the panel resizing in various directions.
 
