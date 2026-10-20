@@ -6,6 +6,7 @@ platform: chart-sdk
 control: Dragging Of Panels
 publishingplatform: chart-sdk
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

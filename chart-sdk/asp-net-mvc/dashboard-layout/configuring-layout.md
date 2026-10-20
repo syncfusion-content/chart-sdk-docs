@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Configuring Layout in ASP.NET MVC Dashboard Layout control
+title: Configuring Layout in ASP.NET MVC Dashboard Layout control | Syncfusion
 description: Learn here all about Configuring Layout in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Configuring Layout
 publishingplatform: chart-sdk
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

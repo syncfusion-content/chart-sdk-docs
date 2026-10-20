@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Adaptive Layout in ASP.NET MVC Dashboard Layout control
+title: Adaptive Layout in ASP.NET MVC Dashboard Layout control | Syncfusion
 description: Learn here all about Adaptive Layout in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Adaptive Layout
 publishingplatform: chart-sdk
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

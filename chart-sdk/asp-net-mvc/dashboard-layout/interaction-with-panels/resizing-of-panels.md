@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Resizing Of Panels in ASP.NET MVC Dashboard Layout control
+title: Resizing Of Panels in ASP.NET MVC Dashboard Layout control | Syncfusion
 description: Learn here all about Resizing of Panels in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Resizing Of Panels
 publishingplatform: chart-sdk
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Floating Panel in ASP.NET MVC Dashboard Layout control
+title: Floating Panel in ASP.NET MVC Dashboard Layout control | Syncfusion
 description: Learn here all about Floating Panel in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Floating Panel
 publishingplatform: chart-sdk
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
