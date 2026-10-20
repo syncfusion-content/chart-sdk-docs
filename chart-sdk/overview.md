@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Syncfusion Chart Overview
-description: Learn about the Syncfusion Chart SDK, a powerful data visualization component that enables developers to build high-performance, interactive charts across multiple platforms.
+description: Learn about the Syncfusion Chart SDK, a powerful data visualization library for creating high-performance, interactive charts across platforms.
 platform: chart-sdk
 control: Charts
 documentation: ug
 domainurl: https://helpstaging.syncfusion.com/chart-sdk
 ---
 
-## Welcome to Syncfusion® Chart SDK
+# Welcome to Syncfusion® Chart SDK
 
 Syncfusion® Chart SDK provides a powerful collection of high-performance, feature-rich chart and data visualization controls. It enables developers to create stunning, interactive visualizations with exceptional performance and cross-platform capabilities.
 
@@ -34,7 +34,7 @@ Available Platforms:
 
 {% doccard text="ASP.NET MVC" link="https://help.syncfusion.com/chart-sdk/asp-net-mvc/charts/getting-started" icon="/chart-sdk/images/ASP.NET MVC.png" %}
 
-{% doccard text=".NET MAUI" link="https://help.syncfusion.com/chart-sdk/maui/funnel-chart/overview" icon="/chart-sdk/images/dotnet_maui.svg" %}
+{% doccard text=".NET MAUI" link="https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started" icon="/chart-sdk/images/dotnet_maui.svg" %}
 
 {% doccard text="WPF" link="https://help.syncfusion.com/chart-sdk/wpf/charts/getting-started" icon="/chart-sdk/images/WPF.svg" %}
 
@@ -136,11 +136,11 @@ Explore interactive demos showcasing the capabilities of the Chart control:
 
 | Platform | UG Link | Sample Link |
 |----------|----------|-------------|
-| JavaScript | [View UG](https://ej2.syncfusion.com/documentation/chart/getting-started/) | [View Demos](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/chart/overview.html) |
+| JavaScript | [View UG](https://ej2.syncfusion.com/documentation/chart/getting-started) | [View Demos](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/chart/overview.html) |
 | JavaScript ES5 | [View UG](https://ej2.syncfusion.com/javascript/documentation/chart/es5-getting-started) | [View Demos](https://ej2.syncfusion.com/javascript/demos/#/tailwind3/chart/overview.html) |
-| React | [View UG](https://ej2.syncfusion.com/react/documentation/chart/getting-started/) | [View Demos](https://ej2.syncfusion.com/react/demos/#/tailwind3/chart/overview) |
-| Angular | [View UG](https://ej2.syncfusion.com/angular/documentation/chart/getting-started/) | [View Demos](https://ej2.syncfusion.com/angular/demos/#/tailwind3/chart/overview-chart) |
-| Vue | [View UG](https://ej2.syncfusion.com/vue/documentation/chart/getting-started/) | [View Demos](https://ej2.syncfusion.com/vue/demos/#/tailwind3/chart/over-view.html) |
+| React | [View UG](https://ej2.syncfusion.com/react/documentation/chart/getting-started) | [View Demos](https://ej2.syncfusion.com/react/demos/#/tailwind3/chart/overview) |
+| Angular | [View UG](https://ej2.syncfusion.com/angular/documentation/chart/getting-started) | [View Demos](https://ej2.syncfusion.com/angular/demos/#/tailwind3/chart/overview-chart) |
+| Vue | [View UG](https://ej2.syncfusion.com/vue/documentation/chart/getting-started) | [View Demos](https://ej2.syncfusion.com/vue/demos/#/tailwind3/chart/over-view.html) |
 | Blazor | [View UG](https://blazor.syncfusion.com/documentation/chart/getting-started) | [View Demos](https://blazor.syncfusion.com/demos/chart/overview?theme=fluent2) |
 | ASP.NET Core | [View UG](https://ej2.syncfusion.com/aspnetcore/documentation/chart/getting-started) | [View Demos](https://ej2.syncfusion.com/aspnetcore/chart/overview#/fluent2) |
 | ASP.NET MVC | [View UG](https://ej2.syncfusion.com/aspnetmvc/documentation/chart/getting-started) | [View Demos](https://ej2.syncfusion.com/aspnetmvc/chart/overview#/fluent2) |
