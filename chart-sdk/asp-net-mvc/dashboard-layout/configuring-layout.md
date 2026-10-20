@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configuring Layout in ASP.NET MVC Dashboard Layout control | Syncfusion
+title: Configuring Layout in ASP.NET MVC Dashboard Layout Control | Syncfusion
 description: Learn here all about Configuring Layout in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Configuring Layout
@@ -9,7 +9,7 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Configuring Layout in ASP.NET MVC Dashboard Layout control
+# Configuring Layout in ASP.NET MVC Dashboard Layout Control
 
 The entire layout dimensions are assigned based on the height and width of the parent element. Hence, a responsive or static layout can be created by assigning a percentage or static dimension values to the parent element. The layout adapts to mobile resolutions by transforming the entire layout into a stacked orientation, so that, the panels will be displayed in a vertical column.
 
