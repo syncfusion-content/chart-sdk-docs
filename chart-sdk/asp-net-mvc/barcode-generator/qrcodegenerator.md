@@ -4,7 +4,6 @@ title: QR Code Generator in ASP.NET MVC Barcode Control | Syncfusion
 description: Learn here all about Qrcodegenerator in Syncfusion ASP.NET MVC Barcode control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Qrcodegenerator
-publishingplatform: chart-sdk
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---

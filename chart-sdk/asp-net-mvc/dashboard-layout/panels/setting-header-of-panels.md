@@ -4,7 +4,6 @@ title: Setting Header Of Panels in ASP.NET MVC Dashboard Layout control | Syncfu
 description: Learn here all about Setting Header of Panels in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Setting Header Of Panels
-publishingplatform: chart-sdk
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---

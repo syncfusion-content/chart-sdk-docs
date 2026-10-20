@@ -4,7 +4,6 @@ title: Dragging Of Panels in ASP.NET MVC Dashboard Layout control | Syncfusion
 description: Learn here all about Dragging Of Panels in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Dragging Of Panels
-publishingplatform: chart-sdk
 documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
