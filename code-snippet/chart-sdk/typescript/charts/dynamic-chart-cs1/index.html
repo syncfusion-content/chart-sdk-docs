@@ -13,10 +13,16 @@
 </head>
 
 <body>
-    <div id='container'>
-        <div id='element'></div>
+    <div class="chart-actions">
+        <button id="addChart" type="button">Add Chart</button>
+        <button id="removeChart" type="button">
+            Remove Last Chart
+        </button>
     </div>
-    <button id="btn">Add Chart</button>
-</body>
+
+    <p id="chartStatus" aria-live="polite"></p>
+    <div id="dynamicChartHost"></div>
+
+    <script src="index.js"></script>
 
 </html>

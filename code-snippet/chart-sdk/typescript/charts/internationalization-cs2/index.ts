@@ -43,6 +43,7 @@ let chart: Chart = new Chart({
     }],
     title: 'Average Sales Comparison',
     locale: 'ar-AR',
+    enableRtl: true,
     zoomSettings: {
         enableMouseWheelZooming: true,
         enableDeferredZooming: true,
