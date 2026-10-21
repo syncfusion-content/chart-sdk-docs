@@ -24,333 +24,49 @@ A dashed line reads differently from a solid line even when both are drawn in th
 
 The same reasoning applies to the crosshair and to constant lines. The [DashArray](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCrosshairSettings.html#Syncfusion_Blazor_Charts_ChartCrosshairSettings_DashArray) property of [ChartCrosshairSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCrosshairSettings.html) controls the crosshair pattern, and a [ChartStripline](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartStripline.html) accepts a pattern as well, which distinguishes a threshold line from a data series that crosses it.
 
-```cshtml
-
-@using Syncfusion.Blazor.Charts
-
-<SfChart Title="Monthly Electricity Usage">
-    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
-
-    <ChartPrimaryYAxis>
-        <ChartStriplines>
-            <ChartStripline Start="80" End="80" Color="red" DashArray="5,5"></ChartStripline>
-        </ChartStriplines>
-    </ChartPrimaryYAxis>
-
-    <ChartCrosshairSettings Enable="true" DashArray="3,3"></ChartCrosshairSettings>
-
-    <ChartSeriesCollection>
-        <ChartSeries DataSource="@UsageReports" XName="Month" YName="Residential" Type="ChartSeriesType.Line"
-                     Name="Residential" Width="2">
-            <ChartMarker Visible="true" Shape="ChartShape.Circle" Width="8" Height="8"></ChartMarker>
-        </ChartSeries>
-        <ChartSeries DataSource="@UsageReports" XName="Month" YName="Commercial" Type="ChartSeriesType.Line"
-                     Name="Commercial" DashArray="5,5" Width="2">
-            <ChartMarker Visible="true" Shape="ChartShape.Diamond" Width="8" Height="8"></ChartMarker>
-        </ChartSeries>
-    </ChartSeriesCollection>
-
-    <ChartTooltipSettings Enable="true" Format="${series.name} : ${point.y} kWh"></ChartTooltipSettings>
-</SfChart>
-
-@code{
-    public class ChartData
-    {
-        public string Month { get; set; }
-        public double Residential { get; set; }
-        public double Commercial { get; set; }
-    }
-
-    public List<ChartData> UsageReports = new List<ChartData>
-    {
-        new ChartData{ Month= "Jan", Residential= 62, Commercial= 45 },
-        new ChartData{ Month= "Feb", Residential= 68, Commercial= 48 },
-        new ChartData{ Month= "Mar", Residential= 74, Commercial= 52 },
-        new ChartData{ Month= "Apr", Residential= 71, Commercial= 57 },
-        new ChartData{ Month= "May", Residential= 84, Commercial= 63 },
-        new ChartData{ Month= "Jun", Residential= 91, Commercial= 66 }
-    };
-}
-
-```
-
-![Blazor line chart with distinct dash styles and marker shapes](images/crosshair/blazor-line-chart-with-crosshair.webp)
+For an overview of the dash options, refer to the [Dash styles for line-based series](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeries.html#Syncfusion_Blazor_Charts_ChartSeries_DashArray) API reference.
 
 ## Marker shape, size, and image
 
 Markers are the most direct non-color cue available in a chart, because a circle, a diamond, and a triangle remain identifiable in a grayscale printout. Set the [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCommonMarker.html#Syncfusion_Blazor_Charts_ChartCommonMarker_Shape) property of [ChartMarker](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCommonMarker.html) to give each series a different shape, and adjust the [Height](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCommonMarker.html#Syncfusion_Blazor_Charts_ChartCommonMarker_Height) and [Width](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCommonMarker.html#Syncfusion_Blazor_Charts_ChartCommonMarker_Width) properties when points overlap and need more visual separation.
 
-For area, line, and scatter series, you can also change the marker size, symbol, or image for an individual point rather than for a whole series, either by handling the [OnPointRender](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_OnPointRender) event of [ChartEvents](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html) or by declaring a [ChartMarker](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartMarker.html) in the series.
+For area, line, and scatter series, you can also change the marker size, symbol, or image for an individual point rather than for a whole series, either by handling the [OnPointRender](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_OnPointRender) event of [ChartEvents](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html) or by declaring a [ChartMarker](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartMarker.html) in the series. To use an image instead of a shape, set the [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCommonMarker.html#Syncfusion_Blazor_Charts_ChartCommonMarker_Shape) property to **Image** and specify the image location with the [ImageUrl](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCommonMarker.html#Syncfusion_Blazor_Charts_ChartCommonMarker_ImageUrl) property.
 
-```cshtml
-
-@using Syncfusion.Blazor.Charts
-
-<SfChart>
-    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
-
-    <ChartSeriesCollection>
-        <ChartSeries DataSource="@TemperatureReports" XName="Day" YName="High" Type="ChartSeriesType.Line" Name="High">
-            <ChartMarker Visible="true" Shape="ChartShape.Triangle" Width="12" Height="12"></ChartMarker>
-        </ChartSeries>
-        <ChartSeries DataSource="@TemperatureReports" XName="Day" YName="Low" Type="ChartSeriesType.Line" Name="Low">
-            <ChartMarker Visible="true" Shape="ChartShape.Rectangle" Width="8" Height="8"></ChartMarker>
-        </ChartSeries>
-    </ChartSeriesCollection>
-
-    <ChartEvents OnPointRender="PointRender"></ChartEvents>
-</SfChart>
-
-@code{
-    public class ChartData
-    {
-        public string Day { get; set; }
-        public double High { get; set; }
-        public double Low { get; set; }
-    }
-
-    public List<ChartData> TemperatureReports = new List<ChartData>
-    {
-        new ChartData{ Day= "Mon", High= 29, Low= 18 },
-        new ChartData{ Day= "Tue", High= 32, Low= 20 },
-        new ChartData{ Day= "Wed", High= 35, Low= 22 },
-        new ChartData{ Day= "Thu", High= 31, Low= 21 },
-        new ChartData{ Day= "Fri", High= 28, Low= 17 }
-    };
-
-    public void PointRender(PointRenderEventArgs args)
-    {
-        // Emphasize the peak of each series with a larger marker.
-        args.Width = 14;
-        args.Height = 14;
-        args.Shape = args.Series.Name == "High" ? ChartShape.Triangle : ChartShape.Rectangle;
-    }
-}
-
-```
-
-![Blazor line chart with triangle and rectangle markers](images/marker/blazor-line-chart-with-different-marker.webp)
+Refer to the [Blazor Charts Data markers](./data-markers) page for the complete list of supported marker shapes and their configuration.
 
 ## Data labels
 
 A text label is the strongest non-color cue you can add, because it conveys the actual value rather than a visual category. Set the [Visible](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartDataLabel.html#Syncfusion_Blazor_Charts_ChartDataLabel_Visible) property of [ChartDataLabel](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartDataLabel.html) to **true**, and use the [Format](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartDataLabel.html#Syncfusion_Blazor_Charts_ChartDataLabel_Format) property to render the argument and the value together, as in `${point.x}: ${point.y}`. Displaying both is recommended, since a value on its own does not identify which category it belongs to.
 
-```cshtml
-
-@using Syncfusion.Blazor.Charts
-
-<SfChart Title="Defect Count by Stage">
-    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
-    <ChartPrimaryYAxis Title="Defects"></ChartPrimaryYAxis>
-
-    <ChartSeriesCollection>
-        <ChartSeries DataSource="@DefectReports" XName="Stage" YName="Count" Type="ChartSeriesType.Column">
-            <ChartMarker>
-                <ChartDataLabel Visible="true" Format="${point.x}: ${point.y}"></ChartDataLabel>
-            </ChartMarker>
-        </ChartSeries>
-    </ChartSeriesCollection>
-</SfChart>
-
-@code{
-    public class ChartData
-    {
-        public string Stage { get; set; }
-        public double Count { get; set; }
-    }
-
-    public List<ChartData> DefectReports = new List<ChartData>
-    {
-        new ChartData{ Stage= "Design", Count= 18 },
-        new ChartData{ Stage= "Development", Count= 42 },
-        new ChartData{ Stage= "Testing", Count= 27 },
-        new ChartData{ Stage= "Release", Count= 9 }
-    };
-}
-
-```
-
-![Blazor column chart with data labels showing argument and value](images/data-label/blazor-chart-data-label.webp)
-
 In a pie or doughnut chart, displaying the value alone leaves the reader unable to tell how a slice relates to the whole. Placing the label in the [Outside](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationLabelPosition.html#Syncfusion_Blazor_Charts_AccumulationLabelPosition_Outside) position draws a connector line back to its slice, which preserves that relationship visually. Customize the connector with [AccumulationChartConnector](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartConnector.html).
+
+Refer to the [Blazor Charts Data labels](./data-labels) page for details on label positioning, formatting, and appearance.
 
 ## Annotations
 
-An annotation places explanatory text directly on the chart plane, so a reader does not have to hold a legend or axis label in memory to interpret a point. Use [ChartAnnotation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAnnotation.html) to call out an outlier, a threshold crossing, or a notable event, and to state the category or state it represents.
+An annotation places explanatory text directly on the chart plane, so a reader does not have to hold a legend or axis label in memory to interpret a point. Use [ChartAnnotation](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAnnotation.html) to call out an outlier, a threshold crossing, or a notable event, and to state the category or state it represents. The [ContentTemplate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAnnotation.html#Syncfusion_Blazor_Charts_ChartAnnotation_ContentTemplate) property renders the annotation text, and the [X](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAnnotation.html#Syncfusion_Blazor_Charts_ChartAnnotation_X) and [Y](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAnnotation.html#Syncfusion_Blazor_Charts_ChartAnnotation_Y) properties position it relative to the data.
 
-```cshtml
-
-@using Syncfusion.Blazor.Charts
-
-<SfChart Title="Order Volume by Region">
-    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
-    <ChartPrimaryYAxis Title="Orders"></ChartPrimaryYAxis>
-
-    <ChartAnnotations>
-        <ChartAnnotation X="@("West")" Y="380" CoordinateUnits="Units.Point">
-            <ContentTemplate>
-                <div style="color: #b33; font-weight: bold;">Record spike in Q4</div>
-            </ContentTemplate>
-        </ChartAnnotation>
-    </ChartAnnotations>
-
-    <ChartSeriesCollection>
-        <ChartSeries DataSource="@OrderReports" XName="Region" YName="Orders" Type="ChartSeriesType.Column">
-            <ChartMarker>
-                <ChartDataLabel Visible="true" Position="Syncfusion.Blazor.Charts.LabelPosition.Outside"></ChartDataLabel>
-            </ChartMarker>
-        </ChartSeries>
-    </ChartSeriesCollection>
-</SfChart>
-
-@code{
-    public class ChartData
-    {
-        public string Region { get; set; }
-        public double Orders { get; set; }
-    }
-
-    public List<ChartData> OrderReports = new List<ChartData>
-    {
-        new ChartData{ Region= "North", Orders= 210 },
-        new ChartData{ Region= "South", Orders= 260 },
-        new ChartData{ Region= "East", Orders= 240 },
-        new ChartData{ Region= "West", Orders= 385 }
-    };
-}
-
-```
-
-![Blazor column chart with an annotation marking an outlier](images/annotation/blazor-column-chart-annotation.webp)
+Refer to the [Blazor Charts Annotation](./chart-annotations) page for the supported annotation regions and content types.
 
 ## Titles and subtitles
 
 Use the [Title](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_Title) and [SubTitle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_SubTitle) properties of [SfChart](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html) to state what the chart shows and the time frame or conditions it covers. A title such as "Average Response Time by Support Tier, Q3 2025" tells a reader what the chart is about before they examine any individual point, which no color choice can achieve.
 
-```cshtml
-
-@using Syncfusion.Blazor.Charts
-
-<SfChart Title="Average Response Time by Support Tier"
-         SubTitle="First reply, Q3 2025">
-    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category" Title="Support tier"></ChartPrimaryXAxis>
-    <ChartPrimaryYAxis Title="Minutes"></ChartPrimaryYAxis>
-
-    <ChartSeriesCollection>
-        <ChartSeries DataSource="@ResponseReports" XName="Tier" YName="Minutes" Type="ChartSeriesType.Bar">
-            <ChartMarker>
-                <ChartDataLabel Visible="true"></ChartDataLabel>
-            </ChartMarker>
-        </ChartSeries>
-    </ChartSeriesCollection>
-</SfChart>
-
-@code{
-    public class ChartData
-    {
-        public string Tier { get; set; }
-        public double Minutes { get; set; }
-    }
-
-    public List<ChartData> ResponseReports = new List<ChartData>
-    {
-        new ChartData{ Tier= "Basic", Minutes= 42 },
-        new ChartData{ Tier= "Standard", Minutes= 27 },
-        new ChartData{ Tier= "Premium", Minutes= 11 }
-    };
-}
-
-```
+Applying a descriptive title to both the chart and each axis gives the same benefit at every level of detail. The [Title](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_Title) property of [ChartPrimaryXAxis](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartPrimaryXAxis.html) and [ChartPrimaryYAxis](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartPrimaryYAxis.html) identifies what each dimension measures and in which unit.
 
 ## Legend
 
 Add a [ChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html) so that each series has a visible name that pairs with its dash style or marker shape. A legend item combines the series name with the series color and marker, which lets a reader confirm that the solid line with circular markers is the series named in the legend. Hiding the legend removes that pairing, so keep it visible whenever line styles or marker shapes carry meaning.
 
-```cshtml
+Set the [Visible](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html#Syncfusion_Blazor_Charts_ChartLegendSettings_Visible) property to **true** and use the [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html#Syncfusion_Blazor_Charts_ChartLegendSettings_Position) property to place the legend where it does not overlap the plotted series.
 
-@using Syncfusion.Blazor.Charts
-
-<SfChart Title="Temperature Range">
-    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
-
-    <ChartLegendSettings Visible="true" Position="LegendPosition.Top"></ChartLegendSettings>
-
-    <ChartSeriesCollection>
-        <ChartSeries DataSource="@RangeReports" XName="Day" YName="Min" Type="ChartSeriesType.Line" Name="Minimum" DashArray="5,5">
-            <ChartMarker Visible="true" Shape="ChartShape.Rectangle" Width="8" Height="8"></ChartMarker>
-        </ChartSeries>
-        <ChartSeries DataSource="@RangeReports" XName="Day" YName="Max" Type="ChartSeriesType.Line" Name="Maximum">
-            <ChartMarker Visible="true" Shape="ChartShape.Circle" Width="8" Height="8"></ChartMarker>
-        </ChartSeries>
-    </ChartSeriesCollection>
-</SfChart>
-
-@code{
-    public class ChartData
-    {
-        public string Day { get; set; }
-        public double Min { get; set; }
-        public double Max { get; set; }
-    }
-
-    public List<ChartData> RangeReports = new List<ChartData>
-    {
-        new ChartData{ Day= "Mon", Min= 18, Max= 29 },
-        new ChartData{ Day= "Tue", Min= 20, Max= 32 },
-        new ChartData{ Day= "Wed", Min= 22, Max= 35 },
-        new ChartData{ Day= "Thu", Min= 21, Max= 31 },
-        new ChartData{ Day= "Fri", Min= 17, Max= 28 }
-    };
-}
-
-```
-
-![Blazor line chart with a legend pairing series names to dash styles](images/marker/blazor-line-chart-with-different-marker.webp)
+Refer to the [Blazor Charts Legend](./legend) page for the available legend layouts and customizations.
 
 ## Tooltip
 
-A tooltip that reports the series name, the argument, and the value gives a screen reader user and a keyboard user the same detail that a sighted user gets from hovering over a point. Set the [Format](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipSettings.html#Syncfusion_Blazor_Charts_ChartTooltipSettings_Format) property of [ChartTooltipSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipSettings.html) to include all three, and enable the shared tooltip so that every series at an argument is reported at once.
+A tooltip that reports the series name, the argument, and the value gives a screen reader user and a keyboard user the same detail that a sighted user gets from hovering over a point. Set the [Format](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipSettings.html#Syncfusion_Blazor_Charts_ChartTooltipSettings_Format) property of [ChartTooltipSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipSettings.html) to include all three, and set the [Shared](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipSettings.html#Syncfusion_Blazor_Charts_ChartTooltipSettings_Shared) property to **true** so that every series at an argument is reported at once.
 
-```cshtml
-
-@using Syncfusion.Blazor.Charts
-
-<SfChart>
-    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
-
-    <ChartSeriesCollection>
-        <ChartSeries DataSource="@UsageReports" XName="Month" YName="Residential" Type="ChartSeriesType.Line" Name="Residential">
-            <ChartMarker Visible="true" Shape="ChartShape.Circle" Width="8" Height="8"></ChartMarker>
-        </ChartSeries>
-        <ChartSeries DataSource="@UsageReports" XName="Month" YName="Commercial" Type="ChartSeriesType.Line" Name="Commercial">
-            <ChartMarker Visible="true" Shape="ChartShape.Diamond" Width="8" Height="8"></ChartMarker>
-        </ChartSeries>
-    </ChartSeriesCollection>
-
-    <ChartTooltipSettings Enable="true" Shared="true"
-                          Format="${series.name} on ${point.x}: ${point.y} kWh"></ChartTooltipSettings>
-</SfChart>
-
-@code{
-    public class ChartData
-    {
-        public string Month { get; set; }
-        public double Residential { get; set; }
-        public double Commercial { get; set; }
-    }
-
-    public List<ChartData> UsageReports = new List<ChartData>
-    {
-        new ChartData{ Month= "Jan", Residential= 62, Commercial= 45 },
-        new ChartData{ Month= "Feb", Residential= 68, Commercial= 48 },
-        new ChartData{ Month= "Mar", Residential= 74, Commercial= 52 },
-        new ChartData{ Month= "Apr", Residential= 71, Commercial= 57 },
-        new ChartData{ Month= "May", Residential= 84, Commercial= 63 },
-        new ChartData{ Month= "Jun", Residential= 91, Commercial= 66 }
-    };
-}
-
-```
+Refer to the [Blazor Charts Tooltip](./tool-tip) page for the supported tooltip templates and formatting options.
 
 ## Provide the summary as text
 
