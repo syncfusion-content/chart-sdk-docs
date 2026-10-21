@@ -12,7 +12,7 @@ appliesto: UI Component Suite, Chart SDK
 
 Accessible charts should communicate information through more than visual appearance alone. Blazor Charts provide configuration options for distinguishing data, improving the visibility of graphical elements, and supporting chart interactions.
 
-This page explains how to apply these options when addressing the WCAG requirements related to color usage, graphical contrast, and dragging-based interactions.
+This page explains techniques for addressing the [Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html), [Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html), and [Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html) accessibility requirements.
 
 ## Use of Color
 
