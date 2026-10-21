@@ -1,38 +1,42 @@
 var chartData = [
-      { country: "USA", gold: 50, silver: 70, bronze: 45 },
-      { country: "China", gold: 40, silver: 60, bronze: 55 },
-      { country: "Japan", gold: 70, silver: 60, bronze: 50 },
-      { country: "Australia", gold: 60, silver: 56, bronze: 40 },
-      { country: "France", gold: 50, silver: 45, bronze: 35 },
-      { country: "Germany", gold: 40, silver: 30, bronze: 22 },
-      { country: "Italy", gold: 40, silver: 35, bronze: 37 },
-      { country: "Sweden", gold: 30, silver: 25, bronze: 27 }
+    { x: 'Jan', y: 15 },
+    { x: 'Feb', y: 20 },
+    { x: 'Mar', y: 35 },
+    { x: 'Apr', y: 25 },
+    { x: 'May', y: 40 },
+    { x: 'Jun', y: 50 }
 ];
+
 var chart = new ej.charts.Chart({
     primaryXAxis: {
         valueType: 'Category',
-        // label placement as on ticks
-        labelPlacement: 'OnTicks',
-        title: 'Countries'
+        title: 'Months'
     },
     primaryYAxis: {
-        minimum: 0, maximum: 80,
-        interval: 20, title: 'Medals'
+        minimum: 0, maximum: 60,
+        interval: 10,
+        title: 'Sales Value'
     },
-    series:[{
+    series: [{
         dataSource: chartData,
-        xName: 'country', yName: 'gold',
-        name: 'Gold', type: 'Column'
-    }, {
-        dataSource: chartData,
-        xName: 'country', yName: 'silver',
-        name: 'Silver', type: 'Column'
-    }, {
-        dataSource: chartData,
-        xName: 'country', yName: 'bronze',
-        name: 'Bronze', type: 'Column'
+        xName: 'x', yName: 'y',
+        name: 'Monthly Sales', type: 'Column'
     }],
-    title: 'Olympic Medals'
+    axisLabelRender: function(args) {
+        // Customize specific X-axis labels
+        if (args.axis.name === 'primaryXAxis') {
+            if (args.text === 'Mar') {
+                args.labelStyle.color = '#ff0000';
+                args.labelStyle.fontWeight = 'Bold';
+                args.labelStyle.size = '16px';
+            }
+
+            if (args.text === 'Jun') {
+                args.labelStyle.color = '#008000';
+                args.labelStyle.fontWeight = 'Bold';
+                args.labelStyle.size = '16px';
+            }
+        }
+    },
+    title: 'Customizing Specific Axis Labels'
 }, '#element');
-
-
