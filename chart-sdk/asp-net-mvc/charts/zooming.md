@@ -15,9 +15,9 @@ appliesto: UI Component Suite, Chart SDK
 
 Chart can be zoomed in three ways.
 
-* Selection - By setting [`EnableSelectionZooming`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property to true in `ZoomSettings`, you can zoom the chart by using the rubber band selection.
-* Mousewheel - By setting [`EnableMouseWheelZooming`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property to true in `ZoomSettings`, you can zoomin and zoomout the chart by scrolling the mouse wheel.
-* Pinch - By setting  [`EnablePinchZooming`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property to true in `ZoomSettings`, you can zoom the chart through pinch gesture in touch enabled devices.
+* Selection - By setting [`EnableSelectionZooming`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property to true in `ZoomSettings`, you can zoom the chart by using the rubber band selection.
+* Mousewheel - By setting [`EnableMouseWheelZooming`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property to true in `ZoomSettings`, you can zoomin and zoomout the chart by scrolling the mouse wheel.
+* Pinch - By setting  [`EnablePinchZooming`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property to true in `ZoomSettings`, you can zoom the chart through pinch gesture in touch enabled devices.
 
 N> Pinch zooming is supported only in browsers that support multi-touch gestures. Currently IE11, Chrome and Opera browsers support multi-touch in desktop devices.
 
@@ -36,7 +36,7 @@ After zooming the chart, a zooming toolbar will appear with `zoom`,`zoomin`, `zo
 
 ## Modes
 
-The [`Mode`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ZoomMode.html) property in zoomSettings specifies whether the chart is allowed to scale along the horizontal axis or vertical axis. The default value of the mode is XY (both axis).
+The [`Mode`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ZoomMode.html) property in zoomSettings specifies whether the chart is allowed to scale along the horizontal axis or vertical axis. The default value of the mode is XY (both axis).
 
 There are three types of mode.
 
@@ -83,7 +83,7 @@ The zoom toolbar in the chart can be repositioned using the [`ToolbarPosition`](
 
 ## Enable pan
 
-Using [`EnablePan`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property you can able to pan the zoomed chart without help of toolbar items.
+Using [`EnablePan`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property you can able to pan the zoomed chart without help of toolbar items.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -147,7 +147,7 @@ Enable the [`EnableAnimation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Sync
 
 ## Auto interval on zooming
 
-By using [`EnableAutoIntervalOnZooming`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html) property, the axis interval will get calculated automatically with respect to the zoomed range.
+By using [`EnableAutoIntervalOnZooming`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAxis.html) property, the axis interval will get calculated automatically with respect to the zoomed range.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

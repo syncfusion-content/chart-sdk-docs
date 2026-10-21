@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Pyramid in ASP.NET MVC Accumulation Charts
 
-To render a pyramid series, use the series [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Pyramid`.
+To render a pyramid series, use the series [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Pyramid`.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

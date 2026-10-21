@@ -81,8 +81,8 @@ The following properties can be used to customize the [`Column`](https://help.sy
 
 The following properties can be used to customize the `column` series.
 
-* [fill](../../api/chart3d/series3DModel#fill) – Specifies the color of the series.
-* [opacity](../../api/chart3d/series3DModel#opacity) – Specifies the opacity of the [fill](../../api/chart3d/series3DModel#fill) color.
+* [fill](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Fill) – Specifies the color of the series.
+* [opacity](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Opacity) – Specifies the opacity of the [fill](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Fill) color.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

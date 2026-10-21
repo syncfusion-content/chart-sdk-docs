@@ -47,11 +47,11 @@ Markers can be assigned with different shapes such as Rectangle, Circle, Diamond
 
 
 
-N> To know more about the marker shape type refer the [`Shape`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Shape).
+N> To know more about the marker shape type refer the [`Shape`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_Shape).
 
 ## Images
 
-Apart from the shapes, you can also add custom images to mark the data point using the [`ImageUrl`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_ImageUrl) property.
+Apart from the shapes, you can also add custom images to mark the data point using the [`ImageUrl`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartMarkerSettings.html#Syncfusion_EJ2_Charts_ChartMarkerSettings_ImageUrl) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

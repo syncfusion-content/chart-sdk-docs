@@ -25,7 +25,7 @@ The following code sample shows different types of sparklines.
 
 **Line**
 
-The [`Line`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as line.
+The [`Line`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as line.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -40,7 +40,7 @@ The [`Line`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfu
 
 **Column**
 
-The [`Column`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as column.
+The [`Column`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as column.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -55,7 +55,7 @@ The [`Column`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Sync
 
 **Pie**
 
-The [`Pie`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as pie.
+The [`Pie`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as pie.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -70,7 +70,7 @@ The [`Pie`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfus
 
 **Win Loss**
 
-The [`WinLoss`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as Win Loss.
+The [`WinLoss`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as Win Loss.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -85,7 +85,7 @@ The [`WinLoss`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syn
 
 **Area**
 
-The [`Area`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as area.
+The [`Area`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.Sparkline~Type.html) type is used to render the sparkline series as area.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
