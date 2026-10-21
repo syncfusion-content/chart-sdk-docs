@@ -11,15 +11,15 @@ appliesto: UI Component Suite, Chart SDK
 
 # Multiple Panes in ASP.NET MVC Charts
 
-Chart area can be divided into multiple panes using [`Rows`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRow.html) and [`Columns`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartColumn.html).
+Chart area can be divided into multiple panes using [`Rows`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartRow.html) and [`Columns`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartColumn.html).
 
 ## Rows
 
-To split the chart area vertically into number of rows, use [`Rows`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRow.html) property of the chart.
+To split the chart area vertically into number of rows, use [`Rows`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartRow.html) property of the chart.
 
-* You can allocate space for each row by using the [`Height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRow.html#Syncfusion_EJ2_Charts_ChartRow_Height) property. The value can be either in percentage or in pixel.
-* To associate a vertical axis to a particular row, specify its index to [`RowIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRow.html) property of the axis.
-* To customize each row’s bottom line, use [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRow.html) property.
+* You can allocate space for each row by using the [`Height`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartRow.html#Syncfusion_EJ2_Charts_ChartRow_Height) property. The value can be either in percentage or in pixel.
+* To associate a vertical axis to a particular row, specify its index to [`RowIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartRow.html) property of the axis.
+* To customize each row’s bottom line, use [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartRow.html) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -32,7 +32,7 @@ To split the chart area vertically into number of rows, use [`Rows`](https://hel
 
 
 
-For spanning the vertical axis along multiple row, you can use [`Span`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRow.html) property of an axis.
+For spanning the vertical axis along multiple row, you can use [`Span`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartRow.html) property of an axis.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -47,11 +47,11 @@ For spanning the vertical axis along multiple row, you can use [`Span`](https://
 
 ## Columns
 
-To split the chart area horizontally into number of columns, use [`Columns`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartColumn.html) property of the chart.
+To split the chart area horizontally into number of columns, use [`Columns`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartColumn.html) property of the chart.
 
-* You can allocate space for each column by using the [`Width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartColumn.html#Syncfusion_EJ2_Charts_ChartColumn_Width) property. The given width can be either in percentage or in pixel.
-* To associate a horizontal axis to a particular column, specify its index to [`ColumnIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartColumn.html) property of the axis.
-* To customize each column’s bottom line, use [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartColumn.html#Syncfusion_EJ2_Charts_ChartColumn_Border) property.
+* You can allocate space for each column by using the [`Width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartColumn.html#Syncfusion_EJ2_Charts_ChartColumn_Width) property. The given width can be either in percentage or in pixel.
+* To associate a horizontal axis to a particular column, specify its index to [`ColumnIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartColumn.html) property of the axis.
+* To customize each column’s bottom line, use [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartColumn.html#Syncfusion_EJ2_Charts_ChartColumn_Border) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -64,7 +64,7 @@ To split the chart area horizontally into number of columns, use [`Columns`](htt
 
 
 
-For spanning the horizontal axis along multiple column, you can use [`Span`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartColumn.html) property of an axis.
+For spanning the horizontal axis along multiple column, you can use [`Span`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartColumn.html) property of an axis.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
