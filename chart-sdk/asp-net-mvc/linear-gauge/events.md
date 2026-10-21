@@ -195,7 +195,7 @@ The [`TooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ
 
 ## ValueChange
 
-The [`ValueChange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_ValueChange) event is triggered when the pointer is dragged from one value to another. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iValueChangeEventArgs/).
+The [`ValueChange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_ValueChange) event is triggered when the pointer is dragged from one value to another. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/ivaluechangeeventargs).
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
