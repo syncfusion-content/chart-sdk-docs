@@ -251,25 +251,20 @@ N> Predefined periods are not an equivalent alternative when users must select a
 
 ### Bind the selected range to external controls
 
-Bind the [Value](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfRangeNavigator.html#Syncfusion_Blazor_Charts_SfRangeNavigator_Value) property with `@bind-Value` so that the selected range can also be set from external controls. The Range Navigator does not provide date input controls of its own, so pair it with a [DatePicker](https://ej2.syncfusion.com/blazor/documentation/datepicker/getting-started) or an equivalent control to give users a pointer- and keyboard-operable alternative to dragging the handles.
+Bind the [Value](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfRangeNavigator.html#Syncfusion_Blazor_Charts_SfRangeNavigator_Value) property with `@bind-Value` so that the selected range can also be set from external controls. The Range Navigator does not provide date input controls of its own, so pair it with date inputs, a DatePicker, or an equivalent control to give users a pointer- and keyboard-operable alternative to dragging the handles.
 
 ```cshtml
 
 @using Syncfusion.Blazor.Charts
-@using Syncfusion.Blazor.Calendars
-@using Syncfusion.Blazor.Inputs
-@using Syncfusion.Blazor.Buttons
 
 <div class="e-flex">
     <label for="rangeStart">Start date</label>
-    <SfDatePicker TValue="SelectedRange[0]" @bind-Value="SelectedRange[0]" TValue="DateTime" Placeholder="Start date">
-    </SfDatePicker>
+    <input id="rangeStart" type="date" @bind="StartDate" @bind:format="yyyy-MM-dd" />
 
     <label for="rangeEnd">End date</label>
-    <SfDatePicker TValue="SelectedRange[1]" @bind-Value="SelectedRange[1]" TValue="DateTime" Placeholder="End date">
-    </SfDatePicker>
+    <input id="rangeEnd" type="date" @bind="EndDate" @bind:format="yyyy-MM-dd" />
 
-    <SfButton OnClick="ApplyRange">Apply range</SfButton>
+    <button type="button" @onclick="ApplyRange">Apply range</button>
 </div>
 
 <SfRangeNavigator @bind-Value="@Value" ValueType="RangeValueType.DateTime" LabelFormat="MMM-yy">
@@ -289,9 +284,11 @@ Bind the [Value](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.
         public double Close { get; set; }
     }
 
-    public DateTime[] SelectedRange = new DateTime[] { new DateTime(2009, 01, 01), new DateTime(2010, 01, 01) };
+    public DateTime StartDate { get; set; } = new DateTime(2009, 01, 01);
 
-    public object Value { get; set; }
+    public DateTime EndDate { get; set; } = new DateTime(2010, 01, 01);
+
+    public object Value { get; set; } = new DateTime[] { new DateTime(2009, 01, 01), new DateTime(2010, 01, 01) };
 
     public List<StockDetails> StockInfo = new List<StockDetails>
     {
@@ -304,13 +301,11 @@ Bind the [Value](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.
         new StockDetails { Date = new DateTime(2011, 01, 01), Close = 70 }
     };
 
-    public string RangeText => SelectedRange == null
-        ? string.Empty
-        : $"{SelectedRange[0]:MMM yyyy} to {SelectedRange[1]:MMM yyyy}";
+    public string RangeText => $"{StartDate:MMM yyyy} to {EndDate:MMM yyyy}";
 
     public void ApplyRange()
     {
-        Value = SelectedRange;
+        Value = new DateTime[] { StartDate, EndDate };
     }
 }
 
