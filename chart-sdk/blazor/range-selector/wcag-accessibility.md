@@ -302,7 +302,7 @@ Use the [period selector](./period-selector) to provide click-based access to co
 }
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/hXBdstLLMhKujCFQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Range Selector with contrasting regions and line patterns](images/wcag-accessibility-images/blazor-range-selector-predefined-periods.webp)" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/hXBdstLLMhKujCFQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Range Selector with predefined period controls](images/wcag-accessibility-images/blazor-range-selector-predefined-periods.webp)" %}
 
 N> Predefined periods are not an equivalent alternative when users must select arbitrary start and end values.
 
