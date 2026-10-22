@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Style in ASP.NET Core Dashboard Layout control
+title: Style in ASP.NET Core Dashboard Layout control | Syncfusion
 description: Learn here all about Style in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Style
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# CSS structures
+# CSS structures in ASP.NET Core DashboardLayout Control
 
 The following content provides the exact CSS structure that can be used to modify the control's appearance based on the user preference.
 
@@ -59,4 +58,4 @@ Use the following CSS to customize the Dashboard Layout panel background.
 }
 ```
 
-N> You can refer to our [ASP.NET Core Dashboard Layout](https://www.syncfusion.com/aspnet-core-ui-controls/dashboard-layout) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET Core Dashboard Layout example](https://ej2.syncfusion.com/aspnetcore/DashboardLayout/DefaultFunctionalities#/material) to know how to present and manipulate data.
+N> You can refer to our [ASP.NET Core Dashboard Layout](https://www.syncfusion.com/aspnet-core-ui-controls/dashboard-layout) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET Core Dashboard Layout example](https://ej2.syncfusion.com/aspnetcore/dashboardlayout/defaultfunctionalities#/fluent2) to know how to present and manipulate data.

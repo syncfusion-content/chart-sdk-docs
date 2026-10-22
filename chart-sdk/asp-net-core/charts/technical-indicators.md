@@ -19,7 +19,7 @@ Chart supports 10 types of technical indicators.
 
 ## Accumulation Distribution
 
-Accumulation Distribution combines price and volume to show how money may be flowing into or out of stock. To render a [`Accumulation Distribution Indicator`](https://ej2.syncfusion.com/aspnetcore/Chart/ADIChart#/material), use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `AccumulationDistribution`. To calculate the signal line [`volume`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Volume) field is additionally added with `dataSource`.
+Accumulation Distribution combines price and volume to show how money may be flowing into or out of stock. To render a [`Accumulation Distribution Indicator`](https://ej2.syncfusion.com/aspnetcore/chart/adichart#/fluent2), use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `AccumulationDistribution`. To calculate the signal line [`volume`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Volume) field is additionally added with `dataSource`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -244,7 +244,7 @@ The `stroke`, `stroke-width`, and `color` of signalLine can be customized by usi
 
 **Data Source**
 
-Usually technical indicators are added along with a financial series. The [`seriesName`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_SeriesName) represents the series, the data of which has to be analysed through indicators.
+Usually technical indicators are added along with a financial series. The [`seriesName`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_SeriesName) represents the series, the data of which has to be analyzed through indicators.
 
 Technical indicators can also be added without series using [`dataSource`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_DataSource) property of indicator.
 
