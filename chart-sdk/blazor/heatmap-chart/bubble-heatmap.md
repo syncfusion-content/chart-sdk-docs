@@ -19,7 +19,7 @@ Data points represent the data source values with **gradient** or **fixed** colo
 
 The data points can be represented in color fill or bubble shape by defining the [TileType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.HeatMap.HeatMapCellSettings.html#Syncfusion_Blazor_HeatMap_HeatMapCellSettings_TileType) property. By default, the data points are color filled with gradient or fixed colors and this depiction of data points is defined as `Rect` in the `TileType` property.
 
-The cell customizations and color mapping for rect tile type is defined in [appearance](https://blazor.syncfusion.com/documentation/heatmap-chart/appearance) and [palette](https://blazor.syncfusion.com/documentation/heatmap-chart/palette) sections in detail.
+The cell customizations and color mapping for rect tile type is defined in [appearance](https://help.syncfusion.com/chart-sdk/blazor/heatmap-chart/appearance) and [palette](https://help.syncfusion.com/chart-sdk/blazor/heatmap-chart/palette) sections in detail.
 
 ## Bubble types
 

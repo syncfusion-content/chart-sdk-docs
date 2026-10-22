@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Localization in Syncfusion ASP.NET MVC Maps | Syncfusion
+title: Localization in ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Localization in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Localization
@@ -41,7 +41,7 @@ The localization library allows localizing the default text content of the Maps 
 </tr>
 </table>
 
-To load translation object in the application, use `load` function of **L10n** class. For more information about localization, refer [here](http://ej2.syncfusion.com/documentation/base/localization.html).
+To load translation object in the application, use `load` function of **L10n** class. For more information about localization, refer [here](https://ej2.syncfusion.com/documentation/common/localization).
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

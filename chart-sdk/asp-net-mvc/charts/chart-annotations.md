@@ -15,7 +15,7 @@ Annotations are used to mark the specific area of interest in the chart area wit
 
 <!-- markdownlint-disable MD033 -->
 
-You can add annotations to the chart by using the <code>annotations</code> option. By using the [`Content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAnnotation.html#Syncfusion_EJ2_Charts_ChartAnnotation_Content) option of annotation object, you can specify the id of the element that needs to be displayed in the chart area.
+You can add annotations to the chart by using the <code>annotations</code> option. By using the [`Content`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAnnotation.html#Syncfusion_EJ2_Charts_ChartAnnotation_Content) option of annotation object, you can specify the id of the element that needs to be displayed in the chart area.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
