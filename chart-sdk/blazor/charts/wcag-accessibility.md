@@ -10,6 +10,10 @@ appliesto: UI Component Suite, Chart SDK
 
 # Blazor Charts WCAG Accessibility Techniques
 
+Accessible charts should communicate information through more than visual appearance alone. Blazor Charts provide configuration options for distinguishing data, improving the visibility of graphical elements, and supporting chart interactions.
+
+This page explains techniques for addressing the [Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html), [Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html), and [Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html) accessibility requirements.
+
 ## Use of Color
 
 The [Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html) criterion requires information to be distinguishable without relying on color alone. In Blazor Charts, combine color with visual cues such as dash patterns, marker shapes, data labels, and annotations to help users identify chart information.
