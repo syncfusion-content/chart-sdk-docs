@@ -235,7 +235,6 @@ Range selection normally allows users to drag the selection handles. Provide ano
 Use the [period selector](./period-selector) to provide click-based access to commonly used ranges, such as one month, six months, or one year. Predefined periods reduce the need for dragging when the available options cover the ranges users need to select.
 
 ```cshtml
-@page "/counter"
 
 @using Syncfusion.Blazor.Charts
 

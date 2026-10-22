@@ -48,13 +48,13 @@ The Blazor Range Selector uses WAI-ARIA roles and attributes to expose the compo
 |  | `aria-label` | Provides an accessible name for the Range Selector. |
 | Selection handle | `role="slider"` | Identifies the left or right selection handle as a slider. |
 |  | `aria-label` | Identifies the corresponding selection handle. |
+|  | `aria-valuemin` | Exposes the minimum value available to the selection handle. |
+|  | `aria-valuemax` | Exposes the maximum value available to the selection handle. |
 |  | `aria-valuenow` | Exposes the current numeric value of the selection handle. |
 |  | `aria-valuetext` | Exposes the formatted value of the selection handle when the numeric value alone is not meaningful, such as a date or time. |
 | Non-informative chart element | `aria-hidden="true"` | Removes non-informative SVG elements from the accessibility tree. |
 
 N> The rendered roles and attributes can vary based on the value type, enabled features, accessibility configuration, and package version. Inspect the generated DOM and browser accessibility tree when validating an application.
-
-N> Add `aria-valuetext` to this table only after the Range Selector implementation generates a meaningful formatted value for each selection handle and the behavior has been validated with assistive technologies.
 
 ## Keyboard interaction
 
