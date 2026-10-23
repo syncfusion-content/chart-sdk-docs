@@ -18,13 +18,13 @@ This page explains techniques for addressing the [Use of Color](https://www.w3.o
 
 The [Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html) criterion requires information to be distinguishable without relying on color alone. In Blazor Range Selector, combine color with dash patterns, labels, period text, and persistent text that describes the selected range.
 
-### Differentiate line-based series using dash patterns
+### Differentiate line series using dash patterns
 
 When multiple line-based series are displayed, assign a distinct [`DashArray`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.RangeNavigatorSeries.html#Syncfusion_Blazor_Charts_RangeNavigatorSeries_DashArray) value to each series. Dash patterns provide a visual cue that helps users distinguish series without relying only on color.
 
-The `DashArray` property applies to line-based series. Refer to the [Range Navigator series API](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.RangeNavigatorSeries.html) for the available series properties.
+The `DashArray` property applies to `Line` type series. Refer to the [Range Navigator series API](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.RangeNavigatorSeries.html) for the available series properties.
 
-### Display range values using labels
+### Maintain readable range labels
 
 Use [`LabelFormat`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfRangeNavigator.html#Syncfusion_Blazor_Charts_SfRangeNavigator_LabelFormat) to present range values in a readable format. For a `DateTime` range, enable grouping when an additional label level helps users understand the time scale.
 
@@ -48,7 +48,7 @@ In Blazor Range Selector, verify the contrast of the plotted series, selection h
 
 Configure the [`Fill`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.RangeNavigatorSeries.html#Syncfusion_Blazor_Charts_RangeNavigatorSeries_Fill) property of `RangeNavigatorSeries` to set the series color. Verify the series against the Range Selector background and the region colors rendered behind it.
 
-The Range Selector does not use the Chart palette collection. Set an explicit series color when the default color does not provide sufficient contrast in the selected theme.
+Set an explicit series color when the default color does not provide sufficient contrast in the selected theme.
 
 ### Distinguish selected and unselected regions
 
