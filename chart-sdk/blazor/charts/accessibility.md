@@ -42,6 +42,8 @@ The accessibility compliance for the  Blazor Chart component is outlined below.
 
 WAI-ARIA (Web Accessibility Initiative – Accessible Rich Internet Applications) defines roles, states, and properties that improve the accessibility of dynamic web content and user interface components. These semantics help assistive technologies understand the purpose, state, and behavior of chart elements.
 
+The Blazor Chart component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Blazor Chart component:
+
 | Chart element | Attribute | Usage |
 |---|---|---|
 | Chart root (`.e-chart`) | `role="img"` | Identifies the chart as a graphical object when `AccessibilityRole` is set to `img`. |
