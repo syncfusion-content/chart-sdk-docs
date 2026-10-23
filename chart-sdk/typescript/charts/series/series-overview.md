@@ -32,8 +32,8 @@ A multiple series chart displays two or more datasets together, allowing you to 
 You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) properties.
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/charts/series-overview/index.js %}
+{% highlight js tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/series-overview/index.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
 {% include code-snippet/chart-sdk/typescript/charts/series-overview/datasource.ts %}
@@ -43,7 +43,7 @@ You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.c
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/typescript/charts/series/line-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/typescript/charts/series-overview" %}
 
 
 ## Common series properties

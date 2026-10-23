@@ -90,7 +90,7 @@ ODataV4 is an improved and more standardized version of the OData protocol, with
 
 ## Web API adaptor
 
-Use the WebApiAdaptor to consume custom REST APIs that follow a standard response format. This adaptor is ideal for backends that do not implement OData but provide REST endpoints returning JSON data.
+Use the WebApiAdaptor to consume custom REST APIs that follow a standard response format. This adaptor is ideal for back ends that do not implement OData but provide REST endpoints returning JSON data.
 
 **Expected response format:**
 

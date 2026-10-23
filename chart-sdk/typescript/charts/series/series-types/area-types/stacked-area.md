@@ -108,7 +108,7 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
 
 **Border**
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dasharray of the 100% stacked area series.
+Use the [`border`](../../api/chart/series#border) property to configure the border `width`, `color`, and `dashArray` of the 100% stacked area series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
