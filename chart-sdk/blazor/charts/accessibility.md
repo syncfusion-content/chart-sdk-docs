@@ -46,6 +46,7 @@ WAI-ARIA (Web Accessibility Initiative – Accessible Rich Internet Applications
 |---|---|---|
 | Chart root (`.e-chart`) | `role="img"` | Identifies the chart as a graphical object when `AccessibilityRole` is set to `img`. |
 |  | `aria-label` | Exposes the description configured through `AccessibilityDescription`. |
+|  | `aria-roledescription="Chart"` | Provides a human-readable description of the chart role. |
 |  | `tabindex="0"` | Makes the chart keyboard-focusable when `Focusable` is enabled. |
 | Chart title and subtitle | `role="text"` | Identifies the chart title or subtitle as text. |
 |  | `aria-label` | Exposes the configured title or subtitle. |
@@ -60,7 +61,7 @@ WAI-ARIA (Web Accessibility Initiative – Accessible Rich Internet Applications
 |  | `aria-pressed` | Indicates the visibility state of the associated series. |
 | Zoom-toolbar item | `role="button"` | Identifies an interactive zoom-toolbar command. |
 |  | `aria-label` | Exposes the toolbar description generated from `AccessibilityDescriptionFormat`. |
-| Non-informative chart element | `aria-hidden="true"` | Removes some non-informative chart elements from the accessibility tree. |
+| Non-informative chart element | `aria-hidden="true"` | Removes non-informative chart elements from the accessibility tree. |
 
 N> The rendered roles and attributes can vary based on the chart type, enabled features, accessibility configuration, and package version. Inspect the generated DOM and browser accessibility tree when validating an application.
 
