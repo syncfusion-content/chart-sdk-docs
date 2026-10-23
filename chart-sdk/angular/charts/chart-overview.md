@@ -79,8 +79,3 @@ The EJ2 Chart component is a high-performance, interactive visualization library
 * [**Internationalization:**](./internationalization) Enables charts to adapt to different languages, number formats, date formats, and cultural settings so users across regions can view data in a locally familiar and meaningful way.
 * [**Localization:**](./localization) Customizes the chart’s text—such as labels, tooltips, legends, and messages—to the user’s language so the interface feels native to different regions.
 
-<<<<<<<< HEAD:chart-sdk/angular/chart/chart-overview.md
-
-========
->>>>>>>> origin/hotfix/hotfix-v34.1.29:chart-sdk/angular/charts/chart-overview.md
-
