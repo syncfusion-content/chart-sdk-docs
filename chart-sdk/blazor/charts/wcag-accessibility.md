@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Blazor Charts WCAG Accessibility Techniques
 
-Accessible charts should communicate information through more than visual appearance alone. Blazor Charts provide configuration options for distinguishing data, improving the visibility of graphical elements, and supporting chart interactions.
+Accessible [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) should communicate information through more than visual appearance alone. Blazor Charts provide configuration options for distinguishing data, improving the visibility of graphical elements, and supporting chart interactions.
 
 This page explains techniques for addressing the [Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html), [Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html), and [Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html) accessibility requirements.
 
@@ -48,7 +48,7 @@ Keep the [legend](./legend) visible when dash patterns, marker shapes, or other 
 
 ### Provide descriptive tooltips
 
-Enable a [tooltip](./tool-tip) that displays the series name, category, and value. Tooltips provide additional details when users interact with data points.
+Enable a [tooltip](./tool-tip) that displays the series name, category, and value. Ensure that the same information is available through keyboard focus and touch interaction, not only through mouse hover.
 
 ### Provide a text summary
 
@@ -248,17 +248,22 @@ Configure the series-label text and background colors so that the labels remain 
 Series labels provide an additional text cue, but they do not remove the contrast requirement for meaningful graphical objects such as series lines, markers, axes, and segment boundaries.
 
 ```cshtml
-<SeriesLabelSettings Visible="true"
-                     Background="#FFFFFF"
-                     ShowOverlapText="false">
-    <SeriesLabelFont Color="#1A1A1A"
-                     FontWeight="600">
-    </SeriesLabelFont>
-
-    <SeriesLabelBorder Color="#595959"
-                       Width="1">
-    </SeriesLabelBorder>
-</SeriesLabelSettings>
+<ChartSeries DataSource="@SalesData"
+             XName="Month"
+             YName="OnlineSales"
+             Name="Online Sales"
+             Type="ChartSeriesType.Line">
+    <SeriesLabelSettings Visible="true"
+                         Background="#FFFFFF"
+                         ShowOverlapText="false">
+        <SeriesLabelFont Color="#1A1A1A"
+                         FontWeight="600">
+        </SeriesLabelFont>
+        <SeriesLabelBorder Color="#595959"
+                           Width="1">
+        </SeriesLabelBorder>
+    </SeriesLabelSettings>
+</ChartSeries>
 ```
 
 ### Verify contrast for each chart configuration
