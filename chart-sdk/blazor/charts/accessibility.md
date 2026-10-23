@@ -40,24 +40,30 @@ The accessibility compliance for the  Blazor Chart component is outlined below.
 
 ## WAI-ARIA attributes
 
-WAI-ARIA(Accessibility Initiative - Accessible Rich Internet Applications) defines a way to increase the accessibility of web pages, dynamic content, and user interface components developed with AJAX, HTML, JavaScript, and related technologies. ARIA provides additional semantics to describe the role, state, and functionality of web components.
+WAI-ARIA (Web Accessibility Initiative – Accessible Rich Internet Applications) defines roles, states, and properties that improve the accessibility of dynamic web content and user interface components. These semantics help assistive technologies understand the purpose, state, and behavior of chart elements.
 
-Element |Default description
------|-----
-Datalabel |Reads the Point y value.
-Legend |Click to show or hide the series.
-Axis Title |Reads the axis title.
-Chart Title |Reads the Blazor Chart title.
-Series Points |Reads the Point x: Point y value.
+| Chart element | Attribute | Usage |
+|---|---|---|
+| Chart root (`.e-chart`) | `role="img"` | Identifies the chart as a graphical object when `AccessibilityRole` is set to `img`. |
+|  | `aria-label` | Exposes the description configured through `AccessibilityDescription`. |
+|  | `aria-roledescription="Chart"` | Provides a human-readable description of the chart role. |
+|  | `tabindex="0"` | Makes the chart keyboard-focusable when `Focusable` is enabled. |
+| Chart title and subtitle | `role="text"` | Identifies the chart title or subtitle as text. |
+|  | `aria-label` | Exposes the configured title or subtitle. |
+| Axis title | `role="text"` | Identifies the axis title as text. |
+|  | `aria-label` | Exposes the configured axis title. |
+| Series | `role="region"` | Identifies a series as a navigable chart region. |
+|  | `aria-label` | Exposes the description configured through the series `AccessibilityDescription` property. |
+| Marker-based data point | `role="img"` | Identifies a rendered marker-based data point as a graphical object. |
+|  | `aria-label` | Exposes point information generated from the series `AccessibilityDescriptionFormat`. |
+| Legend item | `role="button"` | Identifies an interactive legend item. |
+|  | `aria-label` | Exposes the action and associated series name. |
+|  | `aria-pressed` | Indicates the visibility state of the associated series. |
+| Zoom-toolbar item | `role="button"` | Identifies an interactive zoom-toolbar command. |
+|  | `aria-label` | Exposes the toolbar description generated from `AccessibilityDescriptionFormat`. |
+| Non-informative chart element | `aria-hidden="true"` | Removes non-informative chart elements from the accessibility tree. |
 
-The Blazor Chart component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Blazor Chart component:
-
-* img (role)
-* button (role)
-* region (role)
-* aria-label (attribute)
-* aria-hidden (attribute)
-* aria-pressed (attribute)
+N> The rendered roles and attributes can vary based on the chart type, enabled features, accessibility configuration, and package version. Inspect the generated DOM and browser accessibility tree when validating an application.
 
 ## Keyboard navigation
 
