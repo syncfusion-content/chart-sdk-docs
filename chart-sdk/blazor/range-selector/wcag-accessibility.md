@@ -209,9 +209,6 @@ Configure [`SelectedRegionColor`](https://help.syncfusion.com/cr/blazor/Syncfusi
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rNLHCXLVCNRmrjXj?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Range Selector with contrasting regions and line patterns](images/wcag-accessibility-images/blazor-range-selector-non-text-contrast.webp)" %}
 
-
-Revalidate contrast whenever the theme, background, series color, or region colors change.
-
 ### Maintain readable labels
 
 Configure [`RangeNavigatorLabelStyle`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.RangeNavigatorLabelStyle.html) so that label text remains readable against the Range Selector background and region fills. Verify label text against the applicable WCAG text-contrast requirement.
