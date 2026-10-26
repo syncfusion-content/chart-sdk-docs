@@ -170,7 +170,7 @@ Verify that each series color has a contrast ratio of at least 3:1 against the c
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rZrdiNLCSNajuniX?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Column chart with high-contrast palette](images/wcag-accessibility-images/blazor-chart-high-contrast-palette.webp)" %}
 
 
-The colors in this example provide at least 3:1 contrast against the white chart background. Revalidate the contrast whenever the chart background, theme, opacity, or surrounding colors change.
+The colors in this example provide at least 3:1 contrast against the white chart background.
 
 ### Improve the visibility of lines and markers
 
@@ -280,12 +280,12 @@ Blazor Charts support selection zooming, panning, scrollbars, and touch gestures
 
 ### Identify operations that require dragging
 
-The following chart operations may require dragging or multipoint gestures:
+The following chart operations may require dragging or multi-touch gestures:
 
 * Selection zooming requires users to drag over a rectangular chart region.
 * Panning requires users to drag the zoomed chart area.
 * Chart scrollbars require users to drag the scrollbar thumb.
-* Pinch zooming requires a multipoint gesture.
+* Pinch zooming requires a multi-touch gesture.
 
 Mouse-wheel zooming does not require dragging, but it is not available to all pointer users. Refer to the [zooming and panning](./zooming) page for configuration details.
 
