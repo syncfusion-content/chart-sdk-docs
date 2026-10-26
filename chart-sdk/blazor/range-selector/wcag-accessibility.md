@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blazor Range Selector WCAG Accessibility Techniques | Syncfusion®
-description: Learn how to improve the WCAG accessibility of Syncfusion Blazor Range Selector using dash patterns, text cues, sufficient contrast, and non-drag range controls.
+description: Learn how to improve WCAG accessibility in Syncfusion Blazor Range Selector using dash patterns, text cues, contrast, and non-drag controls.
 platform: chart-sdk
 control: Range Selector
 documentation: ug
