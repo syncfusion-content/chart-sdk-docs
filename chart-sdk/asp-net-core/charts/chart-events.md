@@ -9,17 +9,17 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# Chart events in ASP.NET Core Charts Component
+# Chart events in ASP.NET Core Chart Component
 
 Chart events are callback functions that the Syncfusion EJ2 Chart component triggers at different stages of its life cycle. They allow developers to respond to user interactions, customize rendering, control behavior, and extend chart functionality without modifying the core component. These events enable developers to implement custom logic, enhance interactivity, and tailor the chart's behavior to specific requirements, thereby providing a more dynamic and responsive user experience.
 
-For a full list of supported ASP.NET Core and Syncfusion package versions, see the [Getting Started](./getting-started) page. In the tag-helper views, every event is attached as an attribute on `<ejs-chart>` (for example, `pointClick`, `tooltipRender`) and points to a JavaScript handler function defined in a `<script>` block on the same page; in the Razor views the same events are configured fluently on `Html.EJS().Chart(...)`.
+For a complete list of supported ASP.NET Core and Syncfusion package versions, see the [Getting Started](./getting-started) page. In the tag-helper views, every event is attached as an attribute on `<ejs-chart>` (for example, `pointClick`, `tooltipRender`) and points to a JavaScript handler function defined in a `<script>` block on the same page; in the Razor views the same events are configured fluently on `Html.EJS().Chart(...)`.
 
 **Available events**
 
 | Group | Events |
 | --- | --- |
-| Animation | `animationComplete` |
+| Animation | `animationComplete` | 
 | Labels and Axes | `axisLabelRender`, `axisLabelClick`, `axisRangeCalculated`, `axisMultiLabelRender`, `multiLevelLabelClick` |
 | Series and Points | `seriesRender`, `pointClick`, `pointDoubleClick`, `pointMove`, `pointRender`, `textRender` |
 | Data Editing (Drag) | `dragStart`, `drag`, `dragEnd` |
@@ -41,7 +41,7 @@ Triggered after a series animation completes. Use this event to chain additional
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/animationComplete/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="AnimationComplete.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/animationComplete/animationComplete.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -57,7 +57,7 @@ Triggered before an axis label is rendered so you can customize its text and sty
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/axisLabelRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="AxisLabelRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/axisLabelRender/axisLabelRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -70,7 +70,7 @@ Triggered when an axis label is clicked. Use it to drill into a category, toggle
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/axisLabelClick/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="AxisLabelClick.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/axisLabelClick/axisLabelClick.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -83,7 +83,7 @@ Triggered after the axis range (minimum, maximum, and interval) is calculated, a
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/axisRangeCalculated/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="AxisRangeCalculated.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/axisRangeCalculated/axisRangeCalculated.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -96,7 +96,7 @@ Triggered before multi-level axis labels are rendered so you can customize their
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/axisMultiLabelRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="AxisMultiLabelRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/axisMultiLabelRender/axisMultiLabelRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -109,7 +109,7 @@ Triggered when a multi-level axis label segment is clicked. Requires `MultiLevel
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/multiLevelLabelClick/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="MultiLevelLabelClick.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/multiLevelLabelClick/multiLevelLabelClick.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -124,7 +124,7 @@ Triggered before a series is rendered so you can customize its appearance and pr
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/seriesRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="SeriesRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/seriesRender/seriesRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -137,7 +137,7 @@ Triggered when a data point or its symbol is clicked. Use this event to perform 
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/pointClick/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="PointClick.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/pointClick/pointClick.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -150,7 +150,7 @@ Triggered when a data point or its symbol is double-clicked. Use this event for 
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/pointDoubleClick/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="PointDoubleClick.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/pointDoubleClick/pointDoubleClick.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -163,7 +163,7 @@ Triggered when the pointer moves over a data point. Use this event to show conte
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/pointMove/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="PointMove.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/pointMove/pointMove.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -176,7 +176,7 @@ Triggered before an individual data point is rendered so you can customize its v
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/pointRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="PointRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/pointRender/pointRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -189,7 +189,7 @@ Triggered before a data label is rendered so you can customize label text, style
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/textRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="TextRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/textRender/textRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -205,7 +205,7 @@ Triggered when a data point drag operation begins on a series with dragging enab
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/dragStart/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="DragStart.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/dragStart/dragStart.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -219,7 +219,7 @@ Triggered continuously while a data point is being dragged. Use this event to pr
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/drag/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="Drag.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/drag/drag.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -233,7 +233,7 @@ Triggered when a data point drag operation completes (pointer released) and the 
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/dragEnd/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="DragEnd.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/dragEnd/dragEnd.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -248,7 +248,7 @@ Triggered before a tooltip for a point in a single-series tooltip is shown so yo
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/tooltipRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="TooltipRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/tooltipRender/tooltipRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -261,7 +261,7 @@ Triggered before a shared tooltip is shown (aggregating multiple series at the s
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/sharedTooltipRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="SharedTooltipRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/sharedTooltipRender/sharedTooltipRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -276,7 +276,7 @@ Triggered before a legend item is rendered so you can customize the legend text,
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/legendRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="LegendRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/legendRender/legendRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -289,7 +289,7 @@ Triggered when a legend item is clicked. Use this event to filter, isolate, or h
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/legendClick/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="LegendClick.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/legendClick/legendClick.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -304,7 +304,7 @@ Triggered before each chart annotation is rendered so you can customize or cance
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/annotationRender/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="AnnotationRender.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/annotationRender/annotationRender.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -319,7 +319,7 @@ Triggered during zoom or pan interactions, providing per-axis zoom information t
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/zooming/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="Zooming.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/zooming/zooming.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -332,7 +332,7 @@ Triggered after a zoom or pan action completes for an axis. Requires `ZoomSettin
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/zoomComplete/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ZoomComplete.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/zoomComplete/zoomComplete.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -345,7 +345,7 @@ Triggered during scrollbar interactions to indicate visible range or zoom change
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/scrollChanged/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="scrollChanged.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/scrollChanged/scrollChanged.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -358,7 +358,7 @@ Triggered when a scrollbar interaction begins. Use this event to capture the pre
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/scrollStart/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ScrollStart.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/scrollStart/scrollStart.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -371,7 +371,7 @@ Triggered when a scrollbar interaction ends and the new viewport range is commit
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/scrollEnd/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ScrollEnd.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/scrollEnd/scrollEnd.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -386,7 +386,7 @@ Triggered after a drag-selection area or zoom region is completed. Requires `Sel
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/dragComplete/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="DragComplete.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/dragComplete/dragComplete.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -399,7 +399,7 @@ Triggered after a selection action (by click or drag) completes. Requires `Selec
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/selectionComplete/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="SelectionComplete.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/selectionComplete/selectionComplete.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -414,7 +414,7 @@ Triggered when a mouse down action occurs over the chart area. To know more abou
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseDown/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ChartMouseDown.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseDown/chartMouseDown.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -427,7 +427,7 @@ Triggered when the mouse moves over the chart area. To know more about the argum
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseMove/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ChartMouseMove.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseMove/chartMouseMove.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -440,7 +440,7 @@ Triggered when a mouse up action occurs over the chart area. To know more about 
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseUp/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ChartMouseUp.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseUp/chartMouseUp.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -453,7 +453,7 @@ Triggered when the mouse leaves the chart area. To know more about the arguments
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseLeave/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ChartMouseLeave.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseLeave/chartMouseLeave.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -466,7 +466,7 @@ Triggered when a mouse click occurs within the chart area (axes, series, legend,
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseClick/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ChartMouseClick.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartMouseClick/chartMouseClick.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -479,7 +479,7 @@ Triggered when a double-click occurs within the chart area. Use this event to re
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartDoubleClick/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="ChartDoubleClick.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/chartDoubleClick/chartDoubleClick.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -494,7 +494,7 @@ Triggered before the chart starts initial rendering. Use this event to set theme
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/load/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="Load.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/load/load.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -507,7 +507,7 @@ Triggered after the chart is fully loaded and initial rendering is complete. To 
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/loaded/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="Loaded.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/loaded/loaded.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -520,7 +520,7 @@ Triggered before a resize is performed; you can cancel the subsequent resize by 
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/beforeResize/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="BeforeResiz.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/beforeResize/beforeResize.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -533,7 +533,7 @@ Triggered after the chart has been resized. To know more about the arguments of 
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/resized/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="Resized.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/resized/resized.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -546,7 +546,7 @@ Triggered before the chart is printed, providing access to the HTML content bein
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/beforePrint/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="BeforePrint.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/beforePrint/beforePrint.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -559,7 +559,7 @@ Triggered before a chart export operation begins (such as exporting to PNG, JPEG
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/beforeExport/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="BeforeExport.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/beforeExport/beforeExport.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -572,28 +572,10 @@ Triggered after a chart export operation completes. Use this event to perform po
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/afterExport/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Controller.cs" %}
+{% highlight c# tabtitle="AfterExport.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/chart-events/afterExport/afterExport.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
-## Common event arguments
-
-Most event argument objects share a common shape. The table below lists the properties you are most likely to use.
-
-| Property | Type | Description |
-| --- | --- | --- |
-| `args.chart` | `Chart` | The chart instance that raised the event. |
-| `args.series` | `Series` | The series associated with the event (point, render, and selection events). |
-| `args.point` | `Points` | The data point associated with the event (point, text render, and tooltip events). |
-| `args.pointIndex` | `number` | Index of the data point in its series. |
-| `args.seriesIndex` | `number` | Index of the series in the series collection. |
-| `args.cancel` | `boolean` | Set to `true` to cancel the default action of the event. |
-| `args.x`, `args.y` | `number` | Mouse coordinates in the chart's local coordinate system (mouse events). |
-| `args.target` | `HTMLElement` | The DOM element under the pointer (mouse events). |
-
-For complete properties of a specific event, follow the API link in each section above.
 
 ## Troubleshooting
 
