@@ -9,7 +9,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# Chart events in JavaScript Charts Component
+# Chart events in JavaScript Chart Component
 
 Chart events are callback functions that the Syncfusion EJ2 Chart component triggers at different stages of its life cycle. They allow developers to respond to user interactions, customize rendering, control behavior, and extend chart functionality without modifying the core component. These events enable developers to implement custom logic, enhance interactivity, and tailor the chart's behavior to specific requirements, thereby providing a more dynamic and responsive user experience.
 
@@ -618,22 +618,6 @@ Triggered after a chart export operation completes. Use this event to perform po
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-events/afterExport" %}
 
-## Common event arguments
-
-Most event argument objects share a common shape. The table below lists the properties you are most likely to use.
-
-| Property | Type | Description |
-| --- | --- | --- |
-| `args.chart` | `Chart` | The chart instance that raised the event. |
-| `args.series` | `Series` | The series associated with the event (point, render, and selection events). |
-| `args.point` | `Points` | The data point associated with the event (point, text render, and tooltip events). |
-| `args.pointIndex` | `number` | Index of the data point in its series. |
-| `args.seriesIndex` | `number` | Index of the series in the series collection. |
-| `args.cancel` | `boolean` | Set to `true` to cancel the default action of the event. |
-| `args.x`, `args.y` | `number` | Mouse coordinates in the chart's local coordinate system (mouse events). |
-| `args.target` | `HTMLElement` | The DOM element under the pointer (mouse events). |
-
-For complete properties of a specific event, follow the API link in each section above.
 
 ## Troubleshooting
 
