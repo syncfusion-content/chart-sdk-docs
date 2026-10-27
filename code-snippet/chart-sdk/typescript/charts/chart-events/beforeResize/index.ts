@@ -23,7 +23,7 @@ let chart: Chart = new Chart({
         xName: 'month',
         yName: 'sales',
         name: 'Sales'
-    }],
+    }],a
     // beforeResize event: fires before the chart starts its resize re-layout
     beforeResize: (args: IResizeEventArgs): void => {
         console.log('beforeResize:', {
