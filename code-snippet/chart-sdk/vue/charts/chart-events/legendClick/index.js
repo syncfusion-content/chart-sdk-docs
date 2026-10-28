@@ -13,9 +13,11 @@ new Vue({
       :primaryYAxis='primaryYAxis'
       :legendSettings='legendSettings'
           :legendClick='legendClickHandler'>
+    <e-series-collection>
         <e-series :dataSource='seriesData' type='Column' xName='country' yName='gold' name='Gold'> </e-series>
         <e-series :dataSource='seriesData' type='Column' xName='country' yName='silver' name='Silver'> </e-series>
         <e-series :dataSource='seriesData' type='Column' xName='country' yName='bronze' name='Bronze'> </e-series>
+    </e-series-collection>
         </ejs-chart>
     </div>
 `,

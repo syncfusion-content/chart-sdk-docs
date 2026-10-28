@@ -4,10 +4,12 @@
       :primaryXAxis='primaryXAxis'
       :primaryYAxis='primaryYAxis'
       :annotationRender='annotationRenderHandler'>
+    <e-series-collection>
         <e-series :dataSource='seriesData' type='Column' xName='month' yName='sales' name='Sales'> </e-series>
-    <e-annotations>
+    </e-series-collection>
+        <e-annotations>
         <e-annotation content='Peak sales in August' coordinateUnits='Point' x='Aug' y='55'></e-annotation>
-      </e-annotations></ejs-chart>
+    </e-annotations></ejs-chart>
   </div>
 </template>
 <script setup>

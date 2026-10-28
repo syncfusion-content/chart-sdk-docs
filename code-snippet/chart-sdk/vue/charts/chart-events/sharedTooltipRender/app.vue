@@ -5,8 +5,10 @@
       :primaryYAxis='primaryYAxis'
       :tooltip='tooltip'
       :sharedTooltipRender='sharedTooltipRenderHandler'>
+    <e-series-collection>
         <e-series :dataSource='seriesData' type='StepLine' xName='x' yName='y' name='China' width=2 :marker='marker'> </e-series>
         <e-series :dataSource='seriesData' type='Column' xName='x' yName='y1' name='USA'> </e-series>
+    </e-series-collection>
     </ejs-chart>
   </div>
 </template>

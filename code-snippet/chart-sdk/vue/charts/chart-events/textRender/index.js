@@ -12,7 +12,9 @@ new Vue({
       :primaryXAxis='primaryXAxis'
       :primaryYAxis='primaryYAxis'
           :textRender='textRenderHandler'>
+    <e-series-collection>
         <e-series :dataSource='seriesData' type='Line' xName='month' yName='sales' name='Sales' :marker='marker'> </e-series>
+    </e-series-collection>
         </ejs-chart>
     </div>
 `,

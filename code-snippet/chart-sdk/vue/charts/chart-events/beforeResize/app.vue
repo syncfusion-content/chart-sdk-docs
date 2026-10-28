@@ -4,7 +4,9 @@
       :primaryXAxis='primaryXAxis'
       :primaryYAxis='primaryYAxis'
       :beforeResize='beforeResizeHandler'>
+    <e-series-collection>
         <e-series :dataSource='seriesData' type='Column' xName='month' yName='sales' name='Sales'> </e-series>
+    </e-series-collection>
     </ejs-chart>
   </div>
 </template>

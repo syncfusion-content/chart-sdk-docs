@@ -4,7 +4,9 @@
       :primaryXAxis='primaryXAxis'
       :primaryYAxis='primaryYAxis'
       :drag='dragHandler'>
+    <e-series-collection>
         <e-series :dataSource='seriesData' type='Column' xName='month' yName='sales' name='Sales' :dragSettings='dragSettings'> </e-series>
+    </e-series-collection>
     </ejs-chart>
   </div>
 </template>
