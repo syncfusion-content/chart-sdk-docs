@@ -1,0 +1,16 @@
+
+<ejs-chart id="container" title="Monthly Sales" pointRender="pointRenderHandler">
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Month"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Sales"></e-chart-primaryyaxis>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="Sales" xName="month" yName="sales"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column">
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
+
+<script>
+    function pointRenderHandler(args) {
+        console.log('pointRender event was triggered');
+    }
+</script>

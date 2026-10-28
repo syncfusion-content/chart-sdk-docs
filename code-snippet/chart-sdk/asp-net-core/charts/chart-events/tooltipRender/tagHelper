@@ -1,0 +1,17 @@
+
+<ejs-chart id="container" title="Monthly Sales" tooltipRender="tooltipRenderHandler">
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Month"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Sales"></e-chart-primaryyaxis>
+    <e-chart-tooltipsettings enable="true"></e-chart-tooltipsettings>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="Sales" xName="month" yName="sales"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
+
+<script>
+    function tooltipRenderHandler(args) {
+        console.log('tooltipRender event was triggered');
+    }
+</script>

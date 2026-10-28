@@ -1,0 +1,71 @@
+import {
+    Category,
+    Chart,
+    DateTime,
+    Legend,
+    StepLineSeries,
+    ColumnSeries,
+    Tooltip,
+    ISharedTooltipRenderEventArgs
+} from '@syncfusion/ej2-charts';
+Chart.Inject(StepLineSeries, ColumnSeries, DateTime, Category, Legend, Tooltip);
+
+let chart: Chart = new Chart({
+    primaryXAxis: { valueType: 'DateTime' },
+    primaryYAxis: { title: 'Rate (%)' },
+    title: 'Unemployment Rates 1975-2010',
+    // Enable shared tooltip
+    tooltip: {
+        enable: true,
+        shared: true
+    },
+    series: [
+        {
+            dataSource: [
+                { x: new Date(1975, 0, 1), y: 16, y1: 10, y2: 4.5 },
+                { x: new Date(1980, 0, 1), y: 12.5, y1: 7.5, y2: 5 },
+                { x: new Date(1985, 0, 1), y: 19, y1: 11, y2: 6.5 },
+                { x: new Date(1990, 0, 1), y: 14.4, y1: 7, y2: 4.4 },
+                { x: new Date(1995, 0, 1), y: 11.5, y1: 8, y2: 5 },
+                { x: new Date(2000, 0, 1), y: 14, y1: 6, y2: 1.5 },
+                { x: new Date(2005, 0, 1), y: 10, y1: 3.5, y2: 2.5 },
+                { x: new Date(2010, 0, 1), y: 16, y1: 7, y2: 3.7 }
+            ],
+            type: 'StepLine',
+            xName: 'x',
+            yName: 'y',
+            width: 2,
+            name: 'China',
+            marker: { visible: true, width: 10, height: 10 }
+        },
+        {
+            dataSource: [
+                { x: new Date(1975, 0, 1), y: 16, y1: 10, y2: 4.5 },
+                { x: new Date(1980, 0, 1), y: 12.5, y1: 7.5, y2: 5 },
+                { x: new Date(1985, 0, 1), y: 19, y1: 11, y2: 6.5 },
+                { x: new Date(1990, 0, 1), y: 14.4, y1: 7, y2: 4.4 },
+                { x: new Date(1995, 0, 1), y: 11.5, y1: 8, y2: 5 },
+                { x: new Date(2000, 0, 1), y: 14, y1: 6, y2: 1.5 },
+                { x: new Date(2005, 0, 1), y: 10, y1: 3.5, y2: 2.5 },
+                { x: new Date(2010, 0, 1), y: 16, y1: 7, y2: 3.7 }
+            ],
+            type: 'Column',
+            xName: 'x',
+            yName: 'y1',
+            name: 'USA'
+        }
+    ],
+    // Event: customize the shared tooltip before it renders
+    sharedTooltipRender: (args: ISharedTooltipRenderEventArgs): void => {
+        console.log('Shared tooltip rendered event was triggered');
+        // Update the header text
+        args.headerText = 'Shared Tooltip';
+        // Customize each line of the shared tooltip text
+        if (args.text && args.text.length) {
+            // Example transformation: "China : 16" -> "China value: 16%"
+            args.text = args.text.map((line: string) => {
+                return line.replace(':', ' value:') + '%';
+            });
+        }
+    }
+}, '#element');
