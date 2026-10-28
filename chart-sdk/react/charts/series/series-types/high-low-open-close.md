@@ -181,5 +181,5 @@ The [`pointRender`](https://ej2.syncfusion.com/react/documentation/api/chart/iPo
 
 ## See also
 
-* [Data label](../data-labels)
-* [Tooltip](../tool-tip)
+* [Data label](../../chart-elements/data-labels)
+* [Tooltip](../../chart-interactive/tool-tip)

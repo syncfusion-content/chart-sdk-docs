@@ -207,5 +207,5 @@ The [`pointRender`](https://ej2.syncfusion.com/vue/documentation/api/chart#point
 
 ## See also
 
-* [Data label](../data-labels.md)
-* [Tooltip](../tool-tip.md)
+* [Data label](../../chart-elements/data-labels)
+* [Tooltip](../../chart-interactive/tool-tip)

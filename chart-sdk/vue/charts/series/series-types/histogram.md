@@ -64,6 +64,6 @@ The [`pointRender`](https://ej2.syncfusion.com/vue/documentation/api/chart#point
 
 ## See Also
 
-* [Data label](../data-labels)
-* [Tooltip](../tool-tip)
+* [Data label](../../chart-elements/data-labels)
+* [Tooltip](../../chart-interactive/tool-tip)
 * [Change the Color of Distribution Line](https://support.syncfusion.com/kb/article/21255/how-to-change-the-color-of-distribution-line-in-vue-histogram-chart)

@@ -29,58 +29,59 @@ A multiple series chart displays two or more datasets together, allowing you to 
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesDirective#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesDirective#xname) and [`yName`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesDirective#yname) properties.
+You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/react/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/react/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/react/documentation/api/chart/series#yname) properties.
 
 {% tabs %}
-{% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/react/charts/series/line-cs12/src/app.component.ts %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/series/series-overview/app/index.jsx %}
 {% endhighlight %}
-
-{% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/react/charts/series/line-cs12/src/main.ts %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/series/series-overview/app/index.tsx %}
 {% endhighlight %}
-
-{% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/chart-sdk/react/charts/series/line-cs12/src/datasource.ts %}
+{% highlight js tabtitle="datasource.jsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/series/series-overview/app/datasource.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="datasource.tsx" %}
+{% include code-snippet/chart-sdk/react/charts/code-path/series/series-overview/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/react/charts/series/line-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/charts/preview-sample/series/series-overview" %}
 
 
 ## Common series properties
 
 | Property | Description |
 |---|---|
-| [type](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#type) | Series rendering type: `Line`, `Column`, `Area`, `Bar`, `Spline`, `Scatter`, etc. |
-| [dataSource](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#datasource) | Array or remote data source bound to the series. |
-| [xName](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#xname) | Field name in the data source used for X-axis values. |
-| [yName](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#yname) | Field name in the data source used for Y-axis values. |
-| [name](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#name) | Series label shown in the legend and tooltips. |
-| [visible](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#visible) | Determines whether the series is displayed on the chart. |
-| [fill](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#fill) | Fill color or gradient for the series. |
-| [width](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#width) | Stroke width for line-type series. |
-| [marker](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#marker) | Object configuring data point markers (visibility, size, shape, fill). |
-| [opacity](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#opacity) | Series transparency (0.0 - 1.0). |
-| [dashArray](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#dasharray) | Dash pattern for stroke lines (for example: `"5,3"`). |
-| [animation](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#animation) | Animation options (enable, duration, delay) for series rendering. |
-| [enableTooltip](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#enabletooltip) | Enable or disable tooltip for the series points. |
-| [columnSpacing](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#columnspacing) | Spacing between bars/columns for Column/Bar series. |
-| [columnWidth](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#columnwidth) | Width of columns/bars (fractional value 0-1 or pixel value). |
-| [border](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#border) | Border settings (color, width) for Area, Column, and Bar series. |
-| [legendShape](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#legendshape) | Shape/icon used in the legend for the series. |
-| [emptyPointSettings](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#emptypointsettings) | How to render empty/null points (gap, zero, average, etc.). |
-| [errorBar](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#errorbar) | Configuration to render error bars for each point. |
-| [trendlines](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#trendlines) | Add trendlines (Linear, Polynomial, Moving Average, etc.). |
+| [type](https://ej2.syncfusion.com/react/documentation/api/chart/series#type) | Series rendering type: `Line`, `Column`, `Area`, `Bar`, `Spline`, `Scatter`, etc. |
+| [dataSource](https://ej2.syncfusion.com/react/documentation/api/chart/series#datasource) | Array or remote data source bound to the series. |
+| [xName](https://ej2.syncfusion.com/react/documentation/api/chart/series#xname) | Field name in the data source used for X-axis values. |
+| [yName](https://ej2.syncfusion.com/react/documentation/api/chart/series#yname) | Field name in the data source used for Y-axis values. |
+| [name](https://ej2.syncfusion.com/react/documentation/api/chart/series#name) | Series label shown in the legend and tooltips. |
+| [visible](https://ej2.syncfusion.com/react/documentation/api/chart/series#visible) | Determines whether the series is displayed on the chart. |
+| [fill](https://ej2.syncfusion.com/react/documentation/api/chart/series#fill) | Fill color or gradient for the series. |
+| [width](https://ej2.syncfusion.com/react/documentation/api/chart/series#width) | Stroke width for line-type series. |
+| [marker](https://ej2.syncfusion.com/react/documentation/api/chart/series#marker) | Object configuring data point markers (visibility, size, shape, fill). |
+| [opacity](https://ej2.syncfusion.com/react/documentation/api/chart/series#opacity) | Series transparency (0.0 - 1.0). |
+| [dashArray](https://ej2.syncfusion.com/react/documentation/api/chart/series#dasharray) | Dash pattern for stroke lines (for example: `"5,3"`). |
+| [animation](https://ej2.syncfusion.com/react/documentation/api/chart/series#animation) | Animation options (enable, duration, delay) for series rendering. |
+| [enableTooltip](https://ej2.syncfusion.com/react/documentation/api/chart/series#enabletooltip) | Enable or disable tooltip for the series points. |
+| [columnSpacing](https://ej2.syncfusion.com/react/documentation/api/chart/series#columnspacing) | Spacing between bars/columns for Column/Bar series. |
+| [columnWidth](https://ej2.syncfusion.com/react/documentation/api/chart/series#columnwidth) | Width of columns/bars (fractional value 0-1 or pixel value). |
+| [border](https://ej2.syncfusion.com/react/documentation/api/chart/series#border) | Border settings (color, width) for Area, Column, and Bar series. |
+| [legendShape](https://ej2.syncfusion.com/react/documentation/api/chart/series#legendshape) | Shape/icon used in the legend for the series. |
+| [emptyPointSettings](https://ej2.syncfusion.com/react/documentation/api/chart/series#emptypointsettings) | How to render empty/null points (gap, zero, average, etc.). |
+| [errorBar](https://ej2.syncfusion.com/react/documentation/api/chart/series#errorbar) | Configuration to render error bars for each point. |
+| [trendlines](https://ej2.syncfusion.com/react/documentation/api/chart/series#trendlines) | Add trendlines (Linear, Polynomial, Moving Average, etc.). |
 | [dataLabel](https://ej2.syncfusion.com/react/documentation/api/chart/datalabelsettingsmodel) | Configuration object for displaying the value of each data point directly on the chart. |
 
 ## Troubleshooting
 
 The following symptoms map to the most common configuration issues.
 
-- **Series does not render**: Confirm that the series service (for example, `LineSeriesService`) is registered in the component `providers` array and that the series [`type`](https://ej2.syncfusion.com/react/documentation/api/chart/seriesdirective#type) is valid.
+- **Series does not render**: Confirm that the series module (for example, `LineSeries`) is injected and that the series [`type`](https://ej2.syncfusion.com/react/documentation/api/chart/series#type) is valid.
 - **Data points are missing**: Verify that the fields referenced by `xName` and `yName` exist on every record and that the bound array is not empty.
-- **Legend does not show a label**: Confirm that the `name` property is set on each `<e-series>` element.
+- **Legend does not show a label**: Confirm that the `name` property is set on each `<SeriesDirective>` element.
 - **Series renders on top of another axis unexpectedly**: Verify that the data values fall within the configured `minimum` and `maximum` of the bound `primaryXAxis` or `primaryYAxis`.
 
 ## See also

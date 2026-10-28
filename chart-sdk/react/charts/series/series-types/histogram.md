@@ -94,7 +94,7 @@ Provide the data as a flat array of numeric values and map only `yName` (for exa
 
 ## See also
 
-* [Data label](../data-labels)
-* [Tooltip](../tool-tip)
-* [Axis customization](../axis-customization)
-* [Legend](../legend)
+* [Data label](../../chart-elements/data-labels)
+* [Tooltip](../../chart-interactive/tool-tip)
+* [Axis customization](../../axis/axis-customization)
+* [Legend](../../chart-elements/legend)

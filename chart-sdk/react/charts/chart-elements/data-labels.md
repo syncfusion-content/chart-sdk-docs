@@ -378,6 +378,6 @@ Customize the appearance using `font`, `background`, `border`, `dashArray`, `lin
 
 ## See Also
 
-* [Show total stacking values in data label](./how-to/stacking-total)
-* [Prevent the data label when the data value is 0](./how-to/prevent-data-label)
+* [Show total stacking values in data label](../how-to/stacking-total)
+* [Prevent the data label when the data value is 0](../how-to/prevent-data-label)
 * [Display data labels in lakh](https://support.syncfusion.com/kb/article/21250/how-to-display-data-labels-in-lakh-in-react-accumulation-chart)

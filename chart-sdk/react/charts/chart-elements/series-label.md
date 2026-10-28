@@ -80,6 +80,6 @@ Customize the appearance and behavior of series labels using the following prope
 
 ## See Also
 
-* [Modules in React Chart component](./feature-modules)
+* [Modules in React Chart component](../feature-modules)
 * [Data labels in React Chart component](./data-labels)
 * [SeriesLabelSettingsModel API reference](https://ej2.syncfusion.com/react/documentation/api/chart/seriesLabelSettingsModel)

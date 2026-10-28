@@ -274,5 +274,5 @@ Custom styles can be applied to selected points or series by using the [`selecti
 
 ## See also
 
-* [Getting started with React Chart](getting-started)
-* [Selected data grid in React Chart](how-to/selected-data-grid)
+* [Getting started with React Chart](../getting-started)
+* [Selected data grid in React Chart](../how-to/selected-data-grid)

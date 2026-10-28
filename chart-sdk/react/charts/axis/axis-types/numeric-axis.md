@@ -298,5 +298,5 @@ The numeric axis also supports custom label formats by using the `{value}` place
 * [Category axis](category-axis)
 * [DateTime axis](date-time-axis)
 * [Logarithmic axis](logarithmic-axis)
-* [Axis customization](axis-customization)
-* [Axis labels](axis-labels)
+* [Axis customization](../axis-customization)
+* [Axis labels](../axis-labels)

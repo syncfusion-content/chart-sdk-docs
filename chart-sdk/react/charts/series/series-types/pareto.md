@@ -291,7 +291,7 @@ The [`pointRender`](https://ej2.syncfusion.com/react/documentation/api/chart/ipo
 
 ## See also
 
-* [Data label](../data-labels)
-* [Tooltip](../tool-tip)
-* [Axis customization](../axis-customization)
-* [Legend](../legend)
+* [Data label](../../chart-elements/data-labels)
+* [Tooltip](../../chart-interactive/tool-tip)
+* [Axis customization](../../axis/axis-customization)
+* [Legend](../../chart-elements/legend)

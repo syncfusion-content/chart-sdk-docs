@@ -455,8 +455,8 @@ const tooltip = {
 
 ## See also
 
-* [Format the Tooltip Value](./how-to/tool-tip-format)
-* [Create a Table in Tooltip](./how-to/tool-tip-table)
+* [Format the Tooltip Value](../how-to/tool-tip-format)
+* [Create a Table in Tooltip](../how-to/tool-tip-table)
 * [Show Tooltip Template on Button Click](https://support.syncfusion.com/kb/article/21534/how-to-show-tooltip-template-on-button-click-using-react-chart)
 * [Chart accessibility](https://ej2.syncfusion.com/react/documentation/chart/accessibility)
 * [Cross-hair and trackball](https://ej2.syncfusion.com/react/documentation/chart/cross-hair-and-track-ball)

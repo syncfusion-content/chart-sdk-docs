@@ -417,6 +417,5 @@ For information on building accessible charts (keyboard navigation, screen reade
 
 ## See also
 
-- [Chart series](chart-series.md)
-- [Financial chart types](financial-types.md)
+- [Chart series](../series/series-types/chart-series)
 - [API reference: technicalIndicatorModel](https://ej2.syncfusion.com/react/documentation/api/chart/technicalIndicatorModel)

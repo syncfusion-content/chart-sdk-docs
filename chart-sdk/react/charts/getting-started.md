@@ -282,10 +282,10 @@ Use the following guidance to resolve common issues when getting started with th
 Explore the following related topics:
 
 - [Chart Series Types](./chart-series)
-- [Chart Data Markers](./data-markers)
-- [Chart Tooltip](./tool-tip)
-- [Chart Legend](./legend)
-- [Chart Data Labels](./data-labels)
+- [Chart Data Markers](./chart-elements/data-markers)
+- [Chart Tooltip](./chart-interactive/tool-tip)
+- [Chart Legend](./chart-elements/legend)
+- [Chart Data Labels](./chart-elements/data-labels)
 - [Chart Appearance](./chart-appearance)
 - [Next.js Getting Started](./nextjs-getting-started)
 - [Preact Getting Started](./preact)

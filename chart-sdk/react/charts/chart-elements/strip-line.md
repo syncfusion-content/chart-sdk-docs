@@ -225,5 +225,5 @@ Key properties:
 
 ## See also
 
-- [Axis customization](./axis-customization)
+- [Axis customization](../axis/axis-customization)
 - [Chart annotations](./chart-annotations)

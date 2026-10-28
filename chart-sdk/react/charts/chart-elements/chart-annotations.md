@@ -154,6 +154,6 @@ Add multiple annotations to the same chart by including more than one `Annotatio
 
 ## See Also
 
-* [Show total stacking values in data label](./how-to/stacking-total)
-* [Create footer and watermark for chart](./how-to/footer)
+* [Show total stacking values in data label](../how-to/stacking-total)
+* [Create footer and watermark for chart](../how-to/footer)
 * [ChartAnnotationSettingsModel API reference](https://ej2.syncfusion.com/react/documentation/api/chart/chartAnnotationSettingsModel)

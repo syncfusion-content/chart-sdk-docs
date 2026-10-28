@@ -63,7 +63,7 @@ For combined series to align properly, all series must share a common `xName` (a
 
 ## See also
 
-* [Category Axis](category-axis) - Configure the X axis when sharing category values across series.
-* [Markers](data-markers) - Customize the appearance of points on combined series.
-* [Legend](legend) - Identify each series in a multi-series or combination chart.
-* [Multiple Panes](multiple-panes) - Render series with different value ranges on separate axes.
+* [Category Axis](../../axis/axis-types/category-axis) - Configure the X axis when sharing category values across series.
+* [Markers](../../chart-elements/data-markers) - Customize the appearance of points on combined series.
+* [Legend](../../chart-elements/legend) - Identify each series in a multi-series or combination chart.
+* [Multiple Panes](../../axis/multiple-panes) - Render series with different value ranges on separate axes.

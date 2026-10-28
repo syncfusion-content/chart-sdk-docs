@@ -121,6 +121,6 @@ The example below implements click-to-add and click-to-remove with a **pixel-tol
 ## See also
 
 * [Series API reference](https://ej2.syncfusion.com/react/documentation/api/chart/series)
-* [Selection in React Charts](./selection)
-* [Crosshair and trackball in React Charts](./cross-hair-and-track-ball)
+* [Selection in React Charts](../chart-interactive/selection)
+* [Crosshair and trackball in React Charts](../chart-interactive/cross-hair-and-track-ball)
 * [Live data update patterns](https://ej2.syncfusion.com/react/documentation/chart/getting-started)
