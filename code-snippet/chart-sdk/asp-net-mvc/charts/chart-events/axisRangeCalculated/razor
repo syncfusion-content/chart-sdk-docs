@@ -1,0 +1,20 @@
+@(Html.EJS().Chart("container")
+    .Title("Monthly Sales")
+    .PrimaryXAxis(px => px.ValueType(Syncfusion.EJ2.Charts.ValueType.Category).Title("Month"))
+    .PrimaryYAxis(py2 => py2.Title("Sales"))
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+            .DataSource(ViewBag.dataSource)
+            .XName("month")
+            .YName("sales")
+            .Name("Sales").Add();
+    })
+    .AxisRangeCalculated("axisRangeCalculatedHandler")
+    .Render())
+
+<script>
+    function axisRangeCalculatedHandler(args) {
+        console.log('axisRangeCalculated event was triggered');
+    }
+</script>

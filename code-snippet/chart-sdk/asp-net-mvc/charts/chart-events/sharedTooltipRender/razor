@@ -1,0 +1,29 @@
+@(Html.EJS().Chart("container")
+    .Title("Monthly Sales")
+    .PrimaryXAxis(px => px.ValueType(Syncfusion.EJ2.Charts.ValueType.Category).Title("Month"))
+    .PrimaryYAxis(py2 => py2.Title("Sales"))
+    .PrimaryXAxis(px => px.ValueType(Syncfusion.EJ2.Charts.ValueType.DateTime))
+    .Tooltip(tooltip => tooltip.Enable(true).Shared(true))
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.StepLine)
+            .DataSource(ViewBag.dataSource)
+            .XName("x")
+            .YName("y")
+            .Width(2)
+            .Name("China")
+            .Marker(marker => marker.Visible(true).Width(10).Height(10)).Add();
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Column)
+            .DataSource(ViewBag.dataSource)
+            .XName("x")
+            .YName("y1")
+            .Name("USA").Add();
+    })
+    .SharedTooltipRender("sharedTooltipRenderHandler")
+    .Render())
+
+<script>
+    function sharedTooltipRenderHandler(args) {
+        console.log('sharedTooltipRender event was triggered');
+    }
+</script>
