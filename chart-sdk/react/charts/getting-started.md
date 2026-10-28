@@ -288,4 +288,3 @@ Explore the following related topics:
 - [Chart Data Labels](./chart-elements/data-labels)
 - [Chart Appearance](./chart-appearance)
 - [Next.js Getting Started](./nextjs-getting-started)
-- [Preact Getting Started](./preact)
