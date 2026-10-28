@@ -1,0 +1,17 @@
+
+<ejs-chart id="container" title="Monthly Sales" drag="dragHandler">
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Month"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Sales"></e-chart-primaryyaxis>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="Sales" xName="month" yName="sales"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+            <e-series-dragsettings enable="true" min-y="0" max-y="60"></e-series-dragsettings>
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
+
+<script>
+    function dragHandler(args) {
+        console.log('drag event was triggered');
+    }
+</script>

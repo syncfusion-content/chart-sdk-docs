@@ -1,0 +1,30 @@
+
+<ejs-chart id="container" title="Monthly Sales" axisMultiLabelRender="axisMultiLabelRenderHandler">
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Month"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Sales"></e-chart-primaryyaxis>
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category">
+        <e-chart-primaryxaxis-multilevellabels>
+            <e-chart-axis-multilevellabel start="0" end="5">
+                <e-multilevellabel-categories>
+                    <e-multilevellabel-category text="First Half" start="Jan" end="Jun"></e-multilevellabel-category>
+                </e-multilevellabel-categories>
+            </e-chart-axis-multilevellabel>
+            <e-chart-axis-multilevellabel start="6" end="11">
+                <e-multilevellabel-categories>
+                    <e-multilevellabel-category text="Second Half" start="Jul" end="Dec"></e-multilevellabel-category>
+                </e-multilevellabel-categories>
+            </e-chart-axis-multilevellabel>
+        </e-chart-primaryxaxis-multilevellabels>
+    </e-chart-primaryxaxis>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="Sales" xName="month" yName="sales"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
+
+<script>
+    function axisMultiLabelRenderHandler(args) {
+        console.log('axisMultiLabelRender event was triggered');
+    }
+</script>
