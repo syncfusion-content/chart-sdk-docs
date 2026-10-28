@@ -32,20 +32,15 @@ A multiple series chart displays two or more datasets together, allowing you to 
 You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/vue/documentation/api/chart/series#yname) properties.
 
 {% tabs %}
-{% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/vue/charts/series/line-cs12/src/app.component.ts %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/charts/series/series-overview/app-composition.vue %}
 {% endhighlight %}
-
-{% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/vue/charts/series/line-cs12/src/main.ts %}
-{% endhighlight %}
-
-{% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/chart-sdk/vue/charts/series/line-cs12/src/datasource.ts %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/charts/series/series-overview/app.vue %}
 {% endhighlight %}
 {% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/vue/charts/series/line-cs12" %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/charts/series/series-overview" %}
 
 
 ## Common series properties
