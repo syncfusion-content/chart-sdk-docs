@@ -81,7 +81,7 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 
 **Border**
 
-Use the `border` property to customize the width, color and dasharray of the series border.
+Use the `border` property to customize the width, color and dashArray of the series border.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
