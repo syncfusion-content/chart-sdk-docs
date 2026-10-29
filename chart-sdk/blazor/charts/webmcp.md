@@ -380,7 +380,7 @@ AI responses are only as reliable as the prompt provided. Specific prompts help 
 * **Chart instance scope** - A tool operates on the chart instance with which it is registered
 * **Data exposure through read tools** - Read-only tools return chart series, axis, and configuration data to the agent, so enable WebMCP only when that exposure is acceptable
 * **Write tools require host review** - Write tools can be vetoed or gated by the `OnWebMcpExecute` handler, and tools flagged for confirmation prompt the user
-* **Invalid tool entries are skipped** - A misconfigured `ChartWebMcpTool` is logged and omitted from the registered set instead of throwing
+* **Invalid tool entries are skipped** - A `ChartWebMcpTool` with an invalid configuration is logged and omitted from the registered set instead of throwing
 * **Prompt clarity affects results** - Ambiguous series, axis, annotation, or point references can produce unintended results
 * **Application authorization remains required** - Applications should validate AI-generated requests before allowing configuration changes, data mutations, exports, or printing
 
