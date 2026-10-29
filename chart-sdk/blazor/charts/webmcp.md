@@ -74,8 +74,7 @@ WebMCP integrates into Syncfusion Blazor Chart applications once the chart is co
 
 Set `EnableWebMcp` to `true` on the `SfChart` component to opt in. The chart creates its WebMCP adapter and registers the catalog with the browser on first render. WebMCP is disabled by default and must be opted into explicitly.
 
-{% tabs %}
-{% highlight razor tabtitle="Home.razor" %}
+```cshtml
 
 @using Syncfusion.Blazor.Charts
 
@@ -102,8 +101,7 @@ Set `EnableWebMcp` to `true` on the `SfChart` component to opt in. The chart cre
     };
 }
 
-{% endhighlight %}
-{% endtabs %}
+```
 
 N> When WebMCP is enabled, read-only catalog tools (such as `inspectChart`, `getSeriesData`, and `getChartAxes`) return chart data to the calling agent. Enable WebMCP only when that data exposure is acceptable for your application.
 
@@ -117,8 +115,7 @@ The tools are registered under an instance-specific prefix so that multiple char
 
 Use the `ChartWebMcpSettings` child component to give the chart a logical tool-group name. The `Name` becomes the browser registration prefix (`{Name}_{toolName}`). When `Name` is empty, the parent chart's `ID` is used, then `SfChart-{DataId}`. Give each chart a unique `ID` or `Name` when more than one chart has WebMCP enabled.
 
-{% tabs %}
-{% highlight razor tabtitle="Home.razor" %}
+```cshtml
 
 <SfChart ID="sales" Title="Monthly Sales" EnableWebMcp="true">
     <ChartWebMcpSettings Name="SalesChart">
@@ -130,8 +127,7 @@ Use the `ChartWebMcpSettings` child component to give the chart a logical tool-g
     </ChartSeriesCollection>
 </SfChart>
 
-{% endhighlight %}
-{% endtabs %}
+```
 
 To select which tools the agent sees, nest one or more `ChartWebMcpTool` entries inside `ChartWebMcpSettings`. The `ChartWebMcpTools` component groups the tool entries, and each entry maps to a built-in operation through the `Command` parameter, which accepts a value from the `ChartWebMcpToolCommand` enumeration.
 
@@ -141,8 +137,7 @@ Each entry supports the following customizations:
 * Override `Name` and `Description` to give a built-in tool a different agent-facing identity.
 * Set `Command` to `Custom` and supply `Name`, `Description`, and `InputSchema` to register a fully custom tool. `InputSchema` is a JSON-encoded string (for example `{"type":"object","properties":{}}`).
 
-{% tabs %}
-{% highlight razor tabtitle="Home.razor" %}
+```cshtml
 
 @using Syncfusion.Blazor.Charts
 
@@ -178,8 +173,7 @@ Each entry supports the following customizations:
     };
 }
 
-{% endhighlight %}
-{% endtabs %}
+```
 
 N> An invalid tool entry is skipped and logged instead of throwing, so a partially configured `ChartWebMcpTool` does not break the page. A custom tool requires `Name`, `Description`, and `InputSchema`, and `InputSchema` is ignored for built-in commands.
 
@@ -197,8 +191,7 @@ The event argument `ChartWebMcpExecuteEventArgs` exposes the following members:
 * `CancellationResponse` - Customize the message returned to the agent when the host vetoes the call or the user denies the dialog.
 * `Result` - Supply a JSON string to short-circuit a custom tool with a host-produced result.
 
-{% tabs %}
-{% highlight razor tabtitle="Home.razor" %}
+```cshtml
 
 @using Syncfusion.Blazor.Charts
 
@@ -242,15 +235,13 @@ The event argument `ChartWebMcpExecuteEventArgs` exposes the following members:
     }
 }
 
-{% endhighlight %}
-{% endtabs %}
+```
 
 ### Step 5: Discover tools at runtime
 
 Call `GetWebMcpToolsAsync` on the chart instance to read the current effective tool list, including any per-instance overrides applied through `ChartWebMcpSettings`. Pass an optional list of tool names to filter the result. Each entry exposes the `Name`, `Description`, and `InputSchema` of the tool.
 
-{% tabs %}
-{% highlight razor tabtitle="Home.razor" %}
+```cshtml
 
 @using Syncfusion.Blazor.Charts
 
@@ -275,8 +266,7 @@ Call `GetWebMcpToolsAsync` on the chart instance to read the current effective t
     }
 }
 
-{% endhighlight %}
-{% endtabs %}
+```
 
 ## Common use cases
 
