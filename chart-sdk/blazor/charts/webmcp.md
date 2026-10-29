@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blazor Charts WebMCP Tools Examples | Syncfusion®
+title: WebMCP Tools for Blazor Chart | Syncfusion®
 description: Learn about WebMCP (Model Context Protocol) and how to use it with the Syncfusion Blazor Chart component to expose chart operations to AI agents.
 platform: chart-sdk
 control: Charts
@@ -10,7 +10,7 @@ appliesto: UI Component Suite, Chart SDK
 
 <!-- markdownlint-disable MD036 -->
 
-# Blazor Charts WebMCP Tools
+# WebMCP Tools for Blazor Chart
 
 **WebMCP** (Model Context Protocol) brings AI automation capabilities directly into the Syncfusion® Blazor Chart component. Instead of AI agents attempting to inspect the DOM or simulate user interactions, the chart explicitly exposes its capabilities through structured tool definitions, giving agents reliable and deterministic ways to inspect, modify, and interact with charts.
 
