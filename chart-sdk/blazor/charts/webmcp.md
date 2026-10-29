@@ -387,6 +387,6 @@ AI responses are only as reliable as the prompt provided. Specific prompts help 
 ## See also
 
 * [WebMCP Getting Started](https://blazor.syncfusion.com/documentation/webmcp/getting-started)
-* [Getting Started with Blazor Charts](https://blazor.syncfusion.com/documentation/charts/getting-started)
-* [Blazor Charts Overview](https://blazor.syncfusion.com/documentation/charts/overview)
-* [Chart Events](https://blazor.syncfusion.com/documentation/charts/events)
+* [Getting Started with Blazor Charts](./getting-started-with-web-app)
+* [Blazor Charts Overview](./overview)
+* [Chart Events](./events)
