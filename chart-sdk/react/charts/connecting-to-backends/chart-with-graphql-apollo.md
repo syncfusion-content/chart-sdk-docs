@@ -175,7 +175,7 @@ cd Server
 npm start
 ```
 
-```graphql
+```
 query {
   getSalesChartData {
     result {
