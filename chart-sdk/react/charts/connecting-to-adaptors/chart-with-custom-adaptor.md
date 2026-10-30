@@ -269,7 +269,7 @@ The React client renders the Chart and uses the Custom Adaptor to fetch and tran
 
 The following diagram shows how a request travels from the React Chart through the Custom Adaptor to the backend service, and how the response is shaped before being rendered.
 
-```mermaid
+```
 sequenceDiagram
     participant Browser
     participant ChartComponent

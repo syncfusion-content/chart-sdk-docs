@@ -100,7 +100,7 @@ Create a file named `requirements.txt` inside the `backend` folder.
 
 **`backend/requirements.txt`**
 
-```txt
+```
 fastapi==0.111.0
 uvicorn[standard]==0.30.1
 ```
@@ -335,7 +335,7 @@ npm install
 
 **`frontend/vite.config.js`**
 
-```javascript
+```
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -355,7 +355,7 @@ export default defineConfig({
 
 **`frontend/index.html`**
 
-```html
+```
 <!doctype html>
 <html lang="en">
   <head>
@@ -467,7 +467,7 @@ export default App;
 
 **`frontend/src/App.css`**
 
-```css
+```
 .app-container {
   padding: 40px;
 }
@@ -601,7 +601,7 @@ Example response:
 ]
 ```
 
-```http
+```
 POST /chart-data
 ```
 
