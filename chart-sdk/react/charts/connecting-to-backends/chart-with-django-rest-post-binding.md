@@ -134,7 +134,7 @@ Open `backend/chart_backend/settings.py` and configure the required applications
 
 **`backend/chart_backend/settings.py`**
 
-```python
+```
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -231,7 +231,7 @@ The model defines the data used by the Chart. Each record represents monthly sal
 
 **`backend/sales/models.py`**
 
-```python
+```
 from django.db import models
 
 
@@ -257,7 +257,7 @@ The serializer converts Django model instances into JSON data for the React Char
 
 **`backend/sales/serializers.py`**
 
-```python
+```
 from rest_framework import serializers
 from .models import MonthlySales
 
@@ -289,7 +289,7 @@ The response format must contain:
 
 **`backend/sales/views.py`**
 
-```python
+```
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -387,7 +387,7 @@ class SalesChartDataAPIView(APIView):
 
 **`backend/sales/urls.py`**
 
-```python
+```
 from django.urls import path
 from .views import SalesChartDataAPIView
 
@@ -398,7 +398,7 @@ urlpatterns = [
 
 **`backend/chart_backend/urls.py`**
 
-```python
+```
 from django.contrib import admin
 from django.urls import path, include
 
@@ -420,7 +420,7 @@ http://localhost:8000/api/sales/
 
 **`backend/sales/admin.py`**
 
-```python
+```
 from django.contrib import admin
 from .models import MonthlySales
 
@@ -462,7 +462,7 @@ python manage.py shell
 
 Paste the following code in the shell:
 
-```python
+```
 from sales.models import MonthlySales
 
 MonthlySales.objects.all().delete()
@@ -674,7 +674,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 
 **`frontend/index.html`**
 
-```html
+```
 <!doctype html>
 <html lang="en">
   <head>
