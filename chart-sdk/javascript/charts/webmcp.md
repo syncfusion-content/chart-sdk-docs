@@ -1,10 +1,13 @@
-### layout: post
+---
+layout: post
 title: WebMCP Tools for JavaScript Chart | Syncfusion®
 description: Learn about WebMCP and how to expose all or selected Syncfusion JavaScript Chart operations to AI agents.
 platform: chart-sdk
-control: Charts
+control: Charts-WebMCP
 documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
+---
 
 ## WebMCP Tools for JavaScript Chart
 

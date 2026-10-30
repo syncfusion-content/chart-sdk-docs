@@ -1,73 +1,118 @@
+import {
+    AccumulationDistributionIndicator, AreaSeries, AtrIndicator, BollingerBands, CandleSeries, Category, Chart,
+    ChartAnnotation, ColumnSeries, Crosshair, DataLabel, DateTime, EmaIndicator, Export, HiloOpenCloseSeries,
+    HiloSeries, Legend, LineSeries, MacdIndicator, MomentumIndicator, RangeAreaSeries, RsiIndicator, Selection,
+    SmaIndicator, SplineAreaSeries, SplineSeries, StochasticIndicator, StripLine, TmaIndicator, Tooltip, Trendlines,
+    WebMcpChart, Zoom
+} from '@syncfusion/ej2-charts';
 
+Chart.Inject(
+    WebMcpChart, Category, DateTime, LineSeries, AreaSeries, SplineSeries, SplineAreaSeries, ColumnSeries,
+    RangeAreaSeries, CandleSeries, HiloSeries, HiloOpenCloseSeries, Tooltip, Legend, Crosshair, Selection, Zoom,
+    DataLabel, ChartAnnotation, Export, StripLine, Trendlines, EmaIndicator, RsiIndicator, BollingerBands,
+    TmaIndicator, MomentumIndicator, SmaIndicator, AtrIndicator, AccumulationDistributionIndicator, MacdIndicator,
+    StochasticIndicator
+);
 
-
-import { Chart, StepLineSeries, DateTime, Legend, Tooltip } from '@syncfusion/ej2-charts';
-Chart.Inject(StepLineSeries, DateTime, Legend, Tooltip);
-
-let chartData: Object[] = [
-    { x: new Date(1975, 0, 1), y: 16, y1: 10, y2: 4.5 },
-    { x: new Date(1980, 0, 1), y: 12.5, y1: 7.5, y2: 5 },
-    { x: new Date(1985, 0, 1), y: 19, y1: 11, y2: 6.5 },
-    { x: new Date(1990, 0, 1), y: 14.4, y1: 7, y2: 4.4 },
-    { x: new Date(1995, 0, 1), y: 11.5, y1: 8, y2: 5 },
-    { x: new Date(2000, 0, 1), y: 14, y1: 6, y2: 1.5 },
-    { x: new Date(2005, 0, 1), y: 10, y1: 3.5, y2: 2.5 },
-    { x: new Date(2010, 0, 1), y: 16, y1: 7, y2: 3.7 }
+const data: Object[] = [
+    { month: 'Jan', revenue: 42000, target: 40000, orders: 720 },
+    { month: 'Feb', revenue: 47000, target: 43000, orders: 790 },
+    { month: 'Mar', revenue: 53000, target: 47000, orders: 860 },
+    { month: 'Apr', revenue: 58000, target: 52000, orders: 940 },
+    { month: 'May', revenue: 67000, target: 58000, orders: 1080 },
+    { month: 'Jun', revenue: 72000, target: 65000, orders: 1160 },
+    { month: 'Jul', revenue: 81000, target: 71000, orders: 1290 },
+    { month: 'Aug', revenue: 86000, target: 78000, orders: 1370 },
+    { month: 'Sep', revenue: 92000, target: 84000, orders: 1490 },
+    { month: 'Oct', revenue: 101000, target: 91000, orders: 1620 },
+    { month: 'Nov', revenue: 112000, target: 98000, orders: 1780 },
+    { month: 'Dec', revenue: 126000, target: 108000, orders: 1960 }
 ];
-let chart: Chart = new Chart({
 
-        primaryXAxis: {
-            title: 'Years',
-            lineStyle: { width: 0 },
-            labelFormat: 'y',
-            intervalType: 'Years',
-            valueType: 'DateTime',
-            edgeLabelPlacement: 'Shift'
-        },
-
-        primaryYAxis:
+const chart: Chart = new Chart({
+    title: 'Revenue and Orders Performance',
+    enableWebMcp: true,
+    webMcpSettings: {
+        name: 'selectedToolsChart',
+        tools: [
+            'inspectChart',
+            'getSeriesData',
+            'getChartAxes',
+            'updateChartTitle',
+            'toggleChartSeriesVisibility',
+            'exportChart'
+        ]
+    },
+    enableExport: true,
+    beforeWebMcp: (args: any): void => {
+        args.showConfirmationDialog = false;
+    },
+    dataSource: data,
+    primaryXAxis: {
+        valueType: 'Category',
+        majorGridLines: { width: 0 },
+        majorTickLines: { width: 0 }
+    },
+    primaryYAxis: {
+        title: 'Revenue (USD)',
+        labelFormat: '${value}',
+        minimum: 0,
+        maximum: 140000,
+        interval: 20000
+    },
+    axes: [
         {
-            title: 'Percentage (%)',
-            minimum: 0, maximum: 20, interval: 2,
-            labelFormat: '{value}%'
-        },
-        series: [
-            {
-                type: 'StepLine',
-                dataSource: chartData, xName: 'x', yName: 'y',
-                width: 2, name: 'China',
-                marker: {
-                    visible: true, width: 10, height: 10
-                },
-            },
-            {
-                type: 'StepLine',
-                dataSource: chartData, xName: 'x', yName: 'y1',
-                width: 2, name: 'Australia',
-                marker: {
-                    visible: true, width: 10, height: 10
-                },
-            },
-            {
-                type: 'StepLine',
-                dataSource: chartData, xName: 'x', yName: 'y2',
-                width: 2, name: 'Japan',
-                marker: {
-                    visible: true, width: 10, height: 10
-                },
-
-            },
-        ],
-        //Title for chart
-        title: 'Unemployment Rates 1975-2010',
-        titleStyle:{
-            fontFamily: "Arial",
-            fontStyle: 'italic',
-            fontWeight: 'regular',
-            color: "#E27F2D",
-            size: '23px'
+            name: 'ordersAxis',
+            opposedPosition: true,
+            minimum: 0,
+            maximum: 2400,
+            interval: 400,
+            title: 'Orders'
         }
+    ],
+    tooltip: {
+        enable: true,
+        shared: true
+    },
+    crosshair: {
+        enable: true,
+        lineType: 'Vertical'
+    },
+    zoomSettings: {
+        enableMouseWheelZooming: true,
+        enablePinchZooming: true,
+        enableSelectionZooming: true,
+        mode: 'X'
+    },
+    legendSettings: {
+        visible: true,
+        position: 'Bottom'
+    },
+    selectionMode: 'Point',
+    series: [
+        {
+            type: 'SplineArea',
+            name: 'Revenue',
+            xName: 'month',
+            yName: 'revenue',
+            fill: '#4439b868',
+            opacity: 0.3
+        },
+        {
+            type: 'Column',
+            name: 'Orders',
+            xName: 'month',
+            yName: 'orders',
+            yAxisName: 'ordersAxis',
+            fill: '#11B5A4'
+        },
+        {
+            type: 'Spline',
+            name: 'Target',
+            xName: 'month',
+            yName: 'target',
+            fill: '#159FE0',
+            dashArray: '7 5'
+        }
+    ]
 }, '#element');
-
-
-

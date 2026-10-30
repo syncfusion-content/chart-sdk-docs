@@ -36,7 +36,7 @@ const chart: Chart = new Chart({
         name: 'allToolsChart'
     },
     enableExport: true,
-    beforeWebMcp: (args: any): void =&gt; {
+    beforeWebMcp: (args: any): void => {
         args.showConfirmationDialog = false;
     },
     dataSource: data,

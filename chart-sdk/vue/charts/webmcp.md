@@ -1,10 +1,13 @@
-### layout: post
+---
+layout: post
 title: WebMCP Tools for Vue Chart | Syncfusion®
 description: Learn about WebMCP and how to expose all or selected Syncfusion Vue Chart operations to AI agents.
 platform: chart-sdk
-control: Charts
+control: Charts-WebMCP
 documentation: ug
+domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
+---
 
 ## WebMCP Tools for Vue Chart
 
@@ -106,7 +109,7 @@ This sample registers only `inspectChart`, `getSeriesData`, `getChartAxes`, `upd
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/charts/chart-webmcp-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/charts/chart-webmcp-cs2" %}
 
 ### Common use cases
 
