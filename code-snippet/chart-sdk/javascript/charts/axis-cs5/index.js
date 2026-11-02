@@ -1,38 +1,37 @@
 var chartData = [
-      { country: "USA", gold: 50, silver: 70, bronze: 45 },
-      { country: "China", gold: 40, silver: 60, bronze: 55 },
-      { country: "Japan", gold: 70, silver: 60, bronze: 50 },
-      { country: "Australia", gold: 60, silver: 56, bronze: 40 },
-      { country: "France", gold: 50, silver: 45, bronze: 35 },
-      { country: "Germany", gold: 40, silver: 30, bronze: 22 },
-      { country: "Italy", gold: 40, silver: 35, bronze: 37 },
-      { country: "Sweden", gold: 30, silver: 25, bronze: 27 }
+    { x: "2014", y: 21.5 },
+    { x: "2015", y: 24 },
+    { x: "2016", y: 36.5 },
+    { x: "2017", y: 30.4 },
+    { x: "2018", y: 29.3 },
+    { x: "2019", y: 41.4 },
+    { x: "2020", y: 35 },
+    { x: "2021", y: 42.4 }
 ];
 var chart = new ej.charts.Chart({
     primaryXAxis: {
         valueType: 'Category',
-        // label placement as on ticks
-        labelPlacement: 'OnTicks',
-        title: 'Countries'
+        // Multilevel labels with categories
+        multiLevelLabels: [{
+            categories: [
+                { start: 0, end: 2, text: 'Q1-Q3 2014-2015', maximumTextWidth: 50 },
+                { start: 3, end: 5, text: 'Q4 2015-Q2 2017', maximumTextWidth: 50 },
+                { start: 6, end: 7, text: 'Q3-Q4 2020-2021', maximumTextWidth: 50 }
+            ]
+        }],
+        title: 'Year'
     },
     primaryYAxis: {
-        minimum: 0, maximum: 80,
-        interval: 20, title: 'Medals'
+        minimum: 0, maximum: 50,
+        interval: 10,
+        title: 'Sales in Percentage'
     },
-    series:[{
+    series: [{
         dataSource: chartData,
-        xName: 'country', yName: 'gold',
-        name: 'Gold', type: 'Column'
-    }, {
-        dataSource: chartData,
-        xName: 'country', yName: 'silver',
-        name: 'Silver', type: 'Column'
-    }, {
-        dataSource: chartData,
-        xName: 'country', yName: 'bronze',
-        name: 'Bronze', type: 'Column'
+        xName: 'x', yName: 'y',
+        name: 'Sales', type: 'Column'
     }],
-    title: 'Olympic Medals'
+    title: 'Multilevel Labels - Categories'
 }, '#element');
 
 

@@ -37,6 +37,7 @@ var chart = new ej.charts.Chart({
     }],
     title: 'Average Sales Comparison',
     locale: 'ar-AR',
+    enableRtl: true,
     zoomSettings: {
         enableMouseWheelZooming: true,
         enableDeferredZooming: true,

@@ -27,7 +27,7 @@ var chart = new ej.charts.Chart({
                     height: 10, width: 10,
                     shape: 'Pentagon',
                     //Data label position as middle
-                    dataLabel: { visible: true, position: 'Middle', margin:{ left:5, right:5, top:5, bottom:5 } }
+                    dataLabel: { visible: true, position: 'Outer', template: '#dataLabelTemplate' }
                 }
             }
         ],

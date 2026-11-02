@@ -75,7 +75,7 @@ You can customize the `width`, `color` and `dashArray` of the minor and maj
 
 ## Multiple Axis
 
-In addition to primary X and Y axis, we can add n number of axis to the chart. Series can be associated with this [`axis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartAxis.html), by mapping with axis's unique name.
+In addition to primary X and Y axis, we can add n number of axis to the chart. Series can be associated with this [`axis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html), by mapping with axis's unique name.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

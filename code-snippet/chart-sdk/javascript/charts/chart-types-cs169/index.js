@@ -13,13 +13,13 @@ var chart = new ej.charts.Chart({
         minimum: -5, maximum: 35, interval: 10,
         title: 'Temperature in Celsius',
         labelFormat: '{value}C'
-    }
+    },
     series:[{
         dataSource: chartData, width:2,
         xName: 'x', yName: 'y',
         name: 'London',
         // Series type as Polar series
-        type: 'Polar'
+        type: 'Polar',
         // Series draw type as scatter
         drawType: 'Scatter'
     }],

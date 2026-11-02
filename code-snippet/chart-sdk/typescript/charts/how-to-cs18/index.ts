@@ -33,7 +33,6 @@ Chart.Inject(LineSeries, Category, Legend, Tooltip, StripLine);
         legendSettings: { visible: false },
         //Initializing Chart Title
         title: 'Weather Report',
-        width:'650px',
         height: '350px'
     });
     chart.appendTo('#element');

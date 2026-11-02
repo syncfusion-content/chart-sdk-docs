@@ -21,7 +21,7 @@ let shapeRender: EmitType<IPointRenderEventArgs> = (args: IPointRenderEventArgs)
             title: 'Penetration', rangePadding: 'None',
             labelFormat: '{value}%', minimum: 0,
             maximum: 75, interval: 15
-        }
+        },
         //Initializing Chart Series
         series: [
             {
@@ -46,7 +46,6 @@ let shapeRender: EmitType<IPointRenderEventArgs> = (args: IPointRenderEventArgs)
         title: 'FB Penetration of Internet Audience',
         legendSettings: { visible: false },
         pointRender: shapeRender,
-    width:'650px',
     height: '350px'
     });
     chart.appendTo('#element');

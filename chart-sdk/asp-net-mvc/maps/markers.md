@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markers in Syncfusion ASP.NET MVC Maps | Syncfusion
+title: Markers in ASP.NET MVC Maps | Syncfusion
 description: Learn here all about Markers in Syncfusion ASP.NET MVC Maps component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Markers
@@ -172,7 +172,7 @@ The size of the markers in a marker group can be customized using the `WidthValu
 {% endhighlight %}
 {% endtabs %}
 
-![Maps with Different Marker Size for Individual Markers](./images/Marker/different-size-for-individual-marker.PNG)
+![Maps with Different Marker Size for Individual Markers](./images/Marker/different-size-for-individual-marker.png)
 
 ## Repositioning the marker using drag and drop
 
@@ -311,7 +311,7 @@ N> When the `ClusterSettings` property is enabled for an individual marker group
 {% endhighlight %}
 {% endtabs %}
 
-![Maps with Marker Clustering for Specfic Marker Group](./images/Marker/marker-clustering-for-specfic-marker-group.PNG)
+![Maps with Marker Clustering for Specific Marker Group](./images/Marker/marker-clustering-for-specfic-marker-group.png)
 
 ## Tooltip for marker
 

@@ -12,7 +12,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Title and Subtitle in ASP.NET MVC Accumulation Charts
 
-Accumulation Chart can be given a title using [`Title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_Title) property, to show the information about the data plotted.
+Accumulation Chart can be given a title using [`Title`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_Title) property, to show the information about the data plotted.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -27,7 +27,7 @@ Accumulation Chart can be given a title using [`Title`](https://help.syncfusion.
 
 ## Title customization
 
-Accumulation Chart can be customized a title using [`TitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_TitleStyle) property.
+Accumulation Chart can be customized a title using [`TitleStyle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_TitleStyle) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -57,7 +57,7 @@ The [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Cha
 
 ## SubTitle
 
-Accumulation Chart can be given a subtitle using [`SubTitle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_SubTitle) property, to show the information about the data plotted.
+Accumulation Chart can be given a subtitle using [`SubTitle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_SubTitle) property, to show the information about the data plotted.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -72,7 +72,7 @@ Accumulation Chart can be given a subtitle using [`SubTitle`](https://help.syncf
 
 ## SubTitle customization
 
-Accumulation Chart can be customized a subtitle using [`SubTitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_SubTitleStyle) property.
+Accumulation Chart can be customized a subtitle using [`SubTitleStyle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_SubTitleStyle) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

@@ -9,21 +9,26 @@
     
 <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 </head>
+<style>
+        .chart-actions {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
 
+        .dynamic-chart {
+            margin-bottom: 20px;
+            min-height: 320px;
+        }
+    </style>
+</head>
 <body>
-    
-      
-    <div id="container">
-        <div id="element"></div>
+    <div class="chart-actions">
+        <button id="addChart" type="button">Add Chart</button>
+        <button id="removeChart" type="button">Remove Last Chart</button>
     </div>
-    <button id="btn">Add Chart</button>
 
-
-<script>
-var ele = document.getElementById('container');
-if(ele) {
-  ele.style.visibility = "visible";
-}   
-      </script>
+    <p id="chartStatus" aria-live="polite"></p>
+    <div id="dynamicChartHost"></div>
 <script src="index.js" type="text/javascript"></script>
 </body></html>

@@ -35,8 +35,7 @@ let chart: Chart = new Chart({
         let intl: Internationalization = new Internationalization();
         let formattedString: string = intl.formatDate(new Date(args.point.x), { skeleton: 'yMd' });
         args.text = formattedString;
-        };
-    width:'650px',
+        },
     height: '350px'
 },'#element');
 

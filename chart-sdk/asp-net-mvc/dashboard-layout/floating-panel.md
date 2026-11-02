@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Floating Panel in ASP.NET MVC Dashboard Layout control
+title: Floating Panel in ASP.NET MVC Dashboard Layout control | Syncfusion
 description: Learn here all about Floating Panel in Syncfusion ASP.NET MVC Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Floating Panel
-publishingplatform: chart-sdk
 documentation: ug
+appliesto: UI Component Suite, Chart SDK
 ---
 
 
-# Floating panels
+# Floating Panel in ASP.NET MVC Dashboard Layout control
 
-The floating functionality of the control allows to effectively use the entire layout for the panel's placement. If the floating functionality is enabled, the panels within the layout get floated upwards automatically to occupy the empty cells available in previous rows. This functionality can be enabled or disabled using the [`allowFloating`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) property of the control.
+The floating functionality of the control allows to effectively use the entire layout for the panel's placement. If the floating functionality is enabled, the panels within the layout get floated upwards automatically to occupy the empty cells available in previous rows. This functionality can be enabled or disabled using the [`allowFloating`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) property of the control.
 
-The following sample demonstrates how to enable or disable the floating of panels in the DashboardLayout control using [`allowFloating`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) property.
+The following sample demonstrates how to enable or disable the floating of panels in the DashboardLayout control using [`allowFloating`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) property.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -26,11 +26,11 @@ The following sample demonstrates how to enable or disable the floating of panel
 
 
 
-When [`allowFloating`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) value set as false, the output is like the below.
+When [`allowFloating`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) value set as false, the output is like the below.
 
 ![Floating panels1](./images/floating_panels1.PNG)
 
-When [`allowFloating`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) value set as true, the output is like the below.
+When [`allowFloating`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~AllowFloating.html) value set as true, the output is like the below.
 
 ![Floating panels2](./images/floating_panels2.PNG)
 

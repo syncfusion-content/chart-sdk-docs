@@ -25,7 +25,6 @@ var chart = new ej.charts.AccumulationChart({
            var value  = args.point.y / args.series.sumOfPoints * 100;
            args.text = args.point.x + '' + Math.ceil(value) + '' + '%';
         },
-        width:'650px',
         height: '350px'
     }, '#element');
 

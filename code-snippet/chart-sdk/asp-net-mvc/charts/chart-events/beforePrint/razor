@@ -1,0 +1,22 @@
+<div><button id="print">Print</button></div>
+@(Html.EJS().Chart("container")
+    .Title("Monthly Sales")
+    .PrimaryXAxis(px => px.ValueType(Syncfusion.EJ2.Charts.ValueType.Category).Title("Month"))
+    .PrimaryYAxis(py2 => py2.Title("Sales"))
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+            .DataSource(ViewBag.dataSource)
+            .XName("month")
+            .YName("sales")
+            .Name("Sales").Add();
+    })
+    .BeforePrint("beforePrintHandler")
+    .Render())
+
+<script>
+    function beforePrintHandler(args) {
+        console.log('beforePrint event was triggered');
+    }
+    document.getElementById('print').onclick = () => { var chart = document.getElementById('container').ej2_instances[0]; chart.print(); };
+</script>

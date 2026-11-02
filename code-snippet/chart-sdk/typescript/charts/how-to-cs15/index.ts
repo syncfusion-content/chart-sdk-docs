@@ -30,8 +30,7 @@ let chart: Chart = new Chart({
         title: 'Inflation - Consumer Price',
         textRender: (args: ITextRenderEventArgs) => {
           args.cancel = args.point.y === 0;
-        }
-    width:'650px',
+        },
     height: '350px'
 },'#element');
 
