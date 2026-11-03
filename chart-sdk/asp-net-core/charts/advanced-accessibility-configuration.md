@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Accessibility Customization in ASP.NET Core Charts
 
 The ASP.NET Core Chart component is structured to visualize data in a graphical manner. It provides robust customization options for accessibility, allowing you to enhance the user experience for those with disabilities. The main attributes of the ASP.NET Core Chart component's accessibility customization are briefly explained in this section.
 
-The chart component has a number of characteristics that enable accessibility features to be customized, including:
+The chart component supports several properties that allow you to customize accessibility features, including:
 
 * [`AccessibilityDescription`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_AccessibilityDescription) - Provides a text description for the chart, improving support for screen readers.
 * [`AccessibilityRole`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_AccessibilityRole) - Specifies the role of the chart, helping screen readers to identify the element appropriately.
@@ -53,7 +52,7 @@ The [`Series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Char
 
 ## Title and subtitle
 
-In the ASP.NET Core chart component, the [`TitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TitleStyle) and [`SubTitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SubTitleStyle) attributes allow you to customize the accessibility of the chart's title and subtitle. The following [`Accessibility`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTitleSettings.html#Syncfusion_EJ2_Charts_ChartTitleSettings_Accessibility) properties in [`TitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TitleStyle) and [`SubTitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SubTitleStyle) can be customized for accessibility:
+In the ASP.NET Core chart component, the [`titleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TitleStyle) and [`SubTitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SubTitleStyle) attributes allow you to customize the accessibility of the chart's title and subtitle. The following [`Accessibility`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTitleSettings.html#Syncfusion_EJ2_Charts_ChartTitleSettings_Accessibility) properties in [`TitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TitleStyle) and [`SubTitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SubTitleStyle) can be customized for accessibility:
 
 * [`AccessibilityDescription`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_AccessibilityDescription) - Provides a text description for the chart title and subtitle, enhancing support for screen readers.
 * [`AccessibilityRole`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAccessibility.html#Syncfusion_EJ2_Charts_ChartAccessibility_AccessibilityRole) - Specifies the role of the chart title and subtitle, helping screen readers to identify the element appropriately.
