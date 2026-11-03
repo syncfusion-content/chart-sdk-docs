@@ -40,22 +40,31 @@ The accessibility compliance for the Blazor Sankey component is outlined below.
 
 ## WAI-ARIA attributes
 
-WAI-ARIA(Accessibility Initiative - Accessible Rich Internet Applications) defines a way to increase the accessibility of web pages, dynamic content, and user interface components developed with AJAX, HTML, JavaScript, and related technologies. ARIA provides additional semantics to describe the role, state, and functionality of web components.
+The Blazor Sankey Diagram uses WAI-ARIA roles and attributes to expose the diagram, nodes, links, and legend items to assistive technologies.
 
-Element |Default description
------|-----
-Links |Reads the link value.
-Nodes |Reads the Node value.
-Legend |Reads the legend value.
+| Sankey element | Attribute | Usage |
+|---|---|---|
+| Sankey root (`.e-sankeychart`) | `role="graphics-document"` | Identifies the Sankey Diagram as a graphical document. |
+|  | `aria-label` | Exposes the description configured through `AccessibilityDescription`. When the description is unavailable, the Sankey title or a default description is used. |
+|  | `aria-roledescription="Sankey diagram"` | Provides a human-readable description of the Sankey Diagram role. |
+|  | `tabindex="0"` | Makes the Sankey Diagram keyboard-focusable. |
+| Node | `role="graphics-symbol"` | Identifies a Sankey node as a graphical symbol. |
+|  | `aria-label` | Exposes the node name and its associated value. |
+|  | `aria-roledescription="Node"` | Provides a human-readable description of the node role. |
+|  | `aria-hidden` | Indicates whether the node is exposed to assistive technologies. |
+|  | `tabindex` | Supports keyboard navigation between Sankey nodes using a roving tab index. |
+| Link | `role="graphics-symbol"` | Identifies a Sankey link as a graphical symbol. |
+|  | `aria-label` | Exposes the source node, target node, and their associated values. |
+|  | `aria-roledescription="Link"` | Provides a human-readable description of the link role. |
+|  | `aria-hidden` | Indicates whether the link is exposed to assistive technologies. |
+|  | `tabindex` | Supports keyboard navigation between Sankey links using a roving tab index. |
+| Legend item | `role="button"` | Identifies an interactive Sankey legend item. |
+|  | `aria-label` | Exposes the legend action and associated node name, such as `Highlight Solar`. |
+|  | `aria-roledescription="Legend item"` | Provides a human-readable description of the legend item role. |
+|  | `tabindex` | Supports keyboard navigation between legend items using a roving tab index. |
+| Decorative or duplicated visual element | `aria-hidden="true"` | Removes non-informative or duplicated visual content from the accessibility tree. |
 
-The Blazor Sankey component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Blazor Sankey component:
-
-* img (role)
-* button (role)
-* region (role)
-* aria-label (attribute)
-* aria-hidden (attribute)
-* aria-pressed (attribute)
+N> The rendered roles and attributes can vary based on the enabled Sankey features, accessibility configuration, and package version. Inspect the generated DOM and browser accessibility tree when validating an application.
 
 ## Keyboard navigation
 
