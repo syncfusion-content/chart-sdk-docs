@@ -94,7 +94,7 @@ For configuration details, see [Selection](./selection).
 
 - [Getting started](./getting-started)
 - [Chart series](./chart-series)
-- [Axis customization](./axis-customization)
+- [Axis customization](./axis/axis-customization)
 - [Title and subtitle](./title-subtitle)
-- [Tooltip](./tool-tip)
-- [Legend](./legend)
+- [Tooltip](./chart-interactive/tool-tip)
+- [Legend](./chart-elements/legend)

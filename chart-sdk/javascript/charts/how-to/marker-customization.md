@@ -68,7 +68,7 @@ Common marker shapes include `Circle`, `Rectangle`, `Triangle`, `Diamond`, `Hori
 
 ## See also
 
-- [Data markers](../data-markers)
+- [Data markers](../chart-elements/data-markers)
 - [MarkerSettingsModel API](https://ej2.syncfusion.com/javascript/documentation/api/chart/markersettingsmodel)
 - [PointRender API](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#pointrender)
 - [Chart events](../chart-events)

@@ -64,8 +64,8 @@ The current JavaScript example uses `tooltipRender` with the series element's de
 
 ## See also
 
-- [Tooltip](../tool-tip)
-- [Selection](../selection)
+- [Tooltip](../chart-interactive/tool-tip)
+- [Selection](../chart-interactive/selection)
 - [TooltipRender API](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#tooltiprender)
 - [Series API](https://ej2.syncfusion.com/javascript/documentation/api/chart/series)
 - [Getting started](../es5-getting-started)

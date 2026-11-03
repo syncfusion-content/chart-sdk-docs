@@ -49,6 +49,6 @@ The main annotation properties used in this example are:
 ## See also
 
 - [Chart annotations](../chart-annotations)
-- [Strip lines](../strip-line)
+- [Strip lines](../chart-elements/strip-line)
 - [ChartAnnotationSettings API](https://ej2.syncfusion.com/documentation/api/chart/chartannotationsettings)
 - [Getting started](../getting-started)

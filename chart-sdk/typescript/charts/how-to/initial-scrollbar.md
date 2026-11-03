@@ -69,8 +69,8 @@ load: function (args) {
 
 ## See also
 
-- [Zooming](../zooming)
+- [Zooming](../chart-interactive/zooming)
 - [ScrollbarSettings API](https://ej2.syncfusion.com/documentation/api/chart/scrollbarsettings)
-- [DateTime axis](../date-time-axis)
+- [DateTime axis](../axis/axis-types/date-time-axis)
 - [Exact date range](./exact-date)
-- [Getting started](../es5-getting-started)
+- [Getting started](../getting-started)

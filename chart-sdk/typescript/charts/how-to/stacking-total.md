@@ -79,7 +79,7 @@ If the number or order of categories changes, recreating the annotation collecti
 ## See also
 
 - [Chart annotations](../chart-annotations)
-- [Stacked Column Chart](../chart-types/stack-column)
-- [Data labels](../data-labels)
+- [Stacked Column Chart](../series/series-types/column-bar-types/stack-column)
+- [Data labels](../chart-elements/data-labels)
 - [ChartAnnotationSettings API](https://ej2.syncfusion.com/documentation/api/chart/chartannotationsettings)
 - [Getting started](../getting-started)

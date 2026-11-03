@@ -1,0 +1,23 @@
+<div><button id="export">Export</button></div>
+@(Html.EJS().Chart("container")
+    .Title("Monthly Sales")
+    .PrimaryXAxis(px => px.ValueType(Syncfusion.EJ2.Charts.ValueType.Category).Title("Month"))
+    .PrimaryYAxis(py2 => py2.Title("Sales"))
+    .LegendSettings(legend => legend.Visible(true))
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+            .DataSource(ViewBag.dataSource)
+            .XName("month")
+            .YName("sales")
+            .Name("Sales").Add();
+    })
+    .AfterExport("afterExportHandler")
+    .Render())
+
+<script>
+    function afterExportHandler(args) {
+        console.log('afterExport event was triggered');
+    }
+    document.getElementById('export').onclick = () => { var chart = document.getElementById('container').ej2_instances[0]; chart.export('PNG', 'Chart'); };
+</script>

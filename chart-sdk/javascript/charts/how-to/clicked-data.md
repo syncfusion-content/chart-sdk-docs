@@ -51,8 +51,7 @@ The values returned through `x` and `y` correspond to the fields configured thro
 
 ## See also
 
-- [Pie series](../pie)
 - [AccumulationChartModel API](https://ej2.syncfusion.com/javascript/documentation/api/accumulation-chart/accumulationchartmodel)
 - [Point event arguments](https://ej2.syncfusion.com/javascript/documentation/api/chart/ipointeventargs)
-- [Tooltip](../tool-tip)
+- [Tooltip](../chart-interactive/tool-tip)
 - [Getting started](../es5-getting-started)

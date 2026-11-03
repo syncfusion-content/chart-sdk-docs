@@ -77,6 +77,5 @@ The sample aggregates records by `CustomerName` so repeated customers appear as 
 
 - [Visualize Grid records in a Cartesian Chart](./grid-data-chart)
 - [Grid API](https://ej2.syncfusion.com/documentation/api/grid)
-- [Pie Chart](../chart-types/pie)
-- [Working with data](../working-with-data)
+- [Working with data](../data-binding/working-with-data)
 - [Getting started](../getting-started)

@@ -91,8 +91,7 @@ setInterval(
 
 ## See also
 
-- [Dynamic data update](../dynamic-data-update)
-- [Working with data](../working-with-data)
-- [Line series](../chart-types/line)
-- [Chart performance](../performance)
+- [Dynamic data update](../data-binding/dynamic-data-update)
+- [Working with data](../data-binding/working-with-data)
+- [Line series](../series/series-types/line-types/line)
 - [Getting started](../es5-getting-started)

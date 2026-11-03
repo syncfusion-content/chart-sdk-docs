@@ -69,5 +69,5 @@ For multiple series, combine all inner arrays before assigning the Grid data sou
 - [Selection](../selection)
 - [Grid API](https://ej2.syncfusion.com/documentation/api/grid)
 - [DragComplete API](https://ej2.syncfusion.com/documentation/api/chart/chartmodel#dragcomplete)
-- [Scatter Chart](../chart-types/scatter)
+- [Scatter Chart](../series/series-types/scatter)
 - [Getting started](../getting-started)

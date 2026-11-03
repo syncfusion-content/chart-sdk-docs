@@ -80,8 +80,8 @@ function showDateRange(startDate, endDate) {
 
 ## See also
 
-- [Zooming](../zooming)
-- [DateTime axis](../date-time-axis)
+- [Zooming](../chart-interactive/zooming)
+- [DateTime axis](../axis/date-time-axis)
 - [Initial scrollbar](./initial-scrollbar)
 - [Chart events](../chart-events)
 - [Getting started](../getting-started)

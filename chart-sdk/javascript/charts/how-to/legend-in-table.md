@@ -68,8 +68,7 @@ Pixel-based coordinates depend on the Chart dimensions and margins. Recalculate 
 
 ## See also
 
-- [Multi-level labels](../multi-level-labels)
 - [Chart annotations](../chart-annotations)
-- [Legend](../legend)
+- [Legend](../chart-elements/legend)
 - [ChartAnnotationSettings API](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartannotationsettings)
 - [Getting started](../es5-getting-started)

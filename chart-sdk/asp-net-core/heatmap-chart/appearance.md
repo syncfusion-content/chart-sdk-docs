@@ -13,7 +13,7 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Cell customization
 
-You can customize the cell by using the [cellSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.HeatMap.HeatMap~CellSettings.html) property.
+You can customize the cell by using the [cellSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_CellSettings) property.
 
 ### Border
 
@@ -132,7 +132,7 @@ The label displayed in the HeatMap cell can be changed using the [cellRender](ht
 
 ### Text style
 
-The text attributes of the data label such as font-family, font-size, and color can be customized using the [textStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_TextStyle) in the [cellSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.HeatMap.HeatMap~CellSettings.html) property.
+The text attributes of the data label such as font-family, font-size, and color can be customized using the [textStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMapCellSettings.html#Syncfusion_EJ2_HeatMap_HeatMapCellSettings_TextStyle) in the [cellSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_CellSettings) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

@@ -51,7 +51,7 @@ The main annotation properties used by the example are:
 
 ## See also
 
-- [Chart annotations](../chart-annotations)
+- [Chart annotations](../chart-elements/chart-annotations)
 - [ChartAnnotationSettings API](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartannotationsettings)
 - [Chart dimensions](../chart-dimensions)
 - [Getting started](../es5-getting-started)

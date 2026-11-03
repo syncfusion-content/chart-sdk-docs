@@ -75,7 +75,7 @@ function synchronizeXAxis(sourceChart, targetChart) {
 
 ## See also
 
-- [Zooming and panning](../zooming)
-- [Synchronized Charts](../synchronized-chart)
+- [Zooming and panning](../chart-interactive/zooming)
+- [Synchronized Charts](../chart-interactive/synchronized-chart)
 - [ChartMouseMove API](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#chartmousemove)
 - [Getting started](../es5-getting-started)

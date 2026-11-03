@@ -60,7 +60,6 @@ tooltipRender: function(args) {
 
 ## See also
 
-- [Accumulation Chart tooltip](../tool-tip)
-- [Pie Chart](../chart-types/pie)
+- [Accumulation Chart tooltip](../chart-interactive/tool-tip)
 - [AccumulationChartModel API](https://ej2.syncfusion.com/javascript/documentation/api/accumulation-chart/accumulationchartmodel)
 - [Getting started](../es5-getting-started)

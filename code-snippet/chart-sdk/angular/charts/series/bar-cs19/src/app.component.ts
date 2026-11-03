@@ -10,7 +10,7 @@ import { appleSalesData, xiaomiSalesData, oppoSalesData } from './datasource';
     selector: 'app-container',
     template: `<ejs-chart id="chart-container" [primaryXAxis]='primaryXAxis'[primaryYAxis]='primaryYAxis' [title]='title' [legendSettings]='legendSettings' [tooltip]='tooltip' [chartArea]='chartArea'>
         <e-series-collection>
-            <e-series [dataSource]='appleChartData' type='Bar' xName='year' yName='count' name='Apple' columnSpacing=0.3 columnWidthInPixel=5 legendShape='Rectangle' [cornerRadius]='cornerRadius'></e-series>
+            <e-series [dataSource]='appleChartData' type='Bar' xName='year' yName='count' name='Apple' columnSpacing=0.3 [columnWidthInPixel]="5" legendShape='Rectangle' [cornerRadius]='cornerRadius'></e-series>
             <e-series [dataSource]='xiaomiChartData' type='Bar' xName='year' yName='count' name='Xiaomi' columnSpacing=0.3 legendShape='Rectangle' [cornerRadius]='cornerRadius'></e-series>
             <e-series [dataSource]='oppoChartData' type='Bar' xName='year' yName='count' name='Oppo' columnSpacing=0.3 legendShape='Rectangle' [cornerRadius]='cornerRadius'></e-series>
         </e-series-collection>

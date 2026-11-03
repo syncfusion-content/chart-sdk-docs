@@ -1,0 +1,23 @@
+
+<ejs-chart id="container" title="Monthly Sales" scrollChanged="scrollChangedHandler">
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Month"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Sales"></e-chart-primaryyaxis>
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category">
+        <e-chart-axis-scrollbarsettings enable="true"></e-chart-axis-scrollbarsettings>
+    </e-chart-primaryxaxis>
+    <e-chart-zoomsettings enableSelectionZooming="true" enableMouseWheelZooming="true"></e-chart-zoomsettings>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="Sales" xName="month" yName="sales"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+            <e-series-marker>
+                <e-marker-datalabel visible="true"></e-marker-datalabel>
+            </e-series-marker>
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
+
+<script>
+    function scrollChangedHandler(args) {
+        console.log('scrollChanged event was triggered');
+    }
+</script>

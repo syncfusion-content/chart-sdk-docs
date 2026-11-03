@@ -72,6 +72,6 @@ For remote Grid data, update the Chart only after the Grid request succeeds and 
 
 - [Visualize filtered Grid records in a Pie Chart](./grid-data-pie)
 - [Grid API](https://ej2.syncfusion.com/documentation/api/grid)
-- [Working with Chart data](../working-with-data)
-- [Dynamic data update](../dynamic-data-update)
+- [Working with Chart data](../data-binding/working-with-data)
+- [Dynamic data update](../data-binding/dynamic-data-update)
 - [Getting started](../getting-started)

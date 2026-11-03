@@ -1,0 +1,14 @@
+@Html.EJS().Chart("chart-container").Series(series =>
+{
+    series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+          .XName("x")
+          .YName("y")
+          .DataSource(ViewBag.dataSource)
+          .Add();
+}).PrimaryXAxis(axis =>
+{
+    axis.Interval(1);
+}).PrimaryYAxis(axis =>
+{
+    axis.Title("Expense");
+}).Title("Efficiency of oil-fired power production").Render()

@@ -75,6 +75,6 @@ Use tooltip inline `format` when plain text with supported placeholders is suffi
 
 ## See also
 
-- [Tooltip](../tool-tip)
+- [Tooltip](../chart-interactive/tool-tip)
 - [Tooltip settings API](https://ej2.syncfusion.com/documentation/api/chart/tooltipsettings)
 - [Getting started](../getting-started)

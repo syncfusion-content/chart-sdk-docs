@@ -203,4 +203,4 @@ The accessibility configuration options documented on this page are available fr
 ## See also
 
 * [Accessibility in ##Platform_Name## Chart](accessibility) - WAI-ARIA roles, supported standards, and keyboard interaction.
-* [WAI-ARIA specification](https://www.w3.org/TR/wai-aria-1.2/) - Reference for valid roles, states, and properties.
+* [WAI-ARIA specification](https://www.w3.org/TR/wai-aria-1.2) - Reference for valid roles, states, and properties.

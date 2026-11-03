@@ -60,8 +60,8 @@ textRender: function(args) {
 
 ## See also
 
-- [Data labels](../data-labels)
-- [Data markers](../data-markers)
+- [Data labels](../chart-elements/data-labels)
+- [Data markers](../chart-elements/data-markers)
 - [TextRender API](https://ej2.syncfusion.com/documentation/api/chart/chartmodel#textrender)
 - [Chart events](../chart-events)
 - [Getting started](../getting-started)

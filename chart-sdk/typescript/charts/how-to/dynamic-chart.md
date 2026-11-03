@@ -50,8 +50,8 @@ In the Add button handler:
 
 ## See also
 
-- [Dynamic data update](../dynamic-data-update)
+- [Dynamic data update](../data-binding/dynamic-data-update)
 - [Add or remove series](./add-series)
-- [Working with data](../working-with-data)
+- [Working with data](../data-binding/working-with-data)
 - [Chart dimensions](../chart-dimensions)
 - [Getting started](../getting-started)

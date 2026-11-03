@@ -64,8 +64,8 @@ The example below globalize axis labels, data labels, and tooltip labels to the 
 
 ## See also
 
-* [Axis label format](./axis-labels#label-format)
-* [Tooltip](./tool-tip)
-* [Data label](./data-labels)
+* [Axis label format](./axis/axis-labels#label-format)
+* [Tooltip](./chart-interactive/tool-tip)
+* [Data label](./chart-elements/data-labels)
 * [Common internationalization guide](https://ej2.syncfusion.com/javascript/documentation/common/internationalization)
 * [`L10n` class API](https://ej2.syncfusion.com/javascript/documentation/api/base/l10n)

@@ -64,7 +64,7 @@ The field mapped through `name` supplies the custom label text exposed as `point
 
 ## See also
 
-- [Data labels](../data-labels)
-- [Markers](../data-markers)
+- [Data labels](../chart-elements/data-labels)
+- [Markers](../chart-elements/data-markers)
 - [Series API](https://ej2.syncfusion.com/documentation/api/chart/series)
 - [Getting started](../getting-started)

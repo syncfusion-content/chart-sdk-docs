@@ -63,7 +63,7 @@ A strip line configured on the Y-axis is horizontal. A strip line configured on 
 
 ## See also
 
-- [Strip lines](../strip-line)
-- [Numeric axis](../numeric-axis)
+- [Strip lines](../chart-elements/strip-line)
+- [Numeric axis](../axis/axis-types/numeric-axis)
 - [StripLineSettings API](https://ej2.syncfusion.com/documentation/api/chart/striplineSettings)
 - [Getting started](../getting-started)

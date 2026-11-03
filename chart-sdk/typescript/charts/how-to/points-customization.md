@@ -72,7 +72,7 @@ The Chart reads `dataSource[index].color` for each point. Values may be CSS colo
 ## See also
 
 - [Point color mapping](../working-with-data#point-color-mapping)
-- [Column Chart](../chart-types/column)
-- [Data markers](../data-markers)
+- [Column Chart](../series/series-types/column-bar-types/column)
+- [Data markers](../chart-elements/data-markers)
 - [Series API](https://ej2.syncfusion.com/documentation/api/chart/series)
 - [Getting started](../getting-started)

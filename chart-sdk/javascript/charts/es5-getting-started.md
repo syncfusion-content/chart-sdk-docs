@@ -132,12 +132,12 @@ The page renders a column chart titled **Sales Data** with twelve blue vertical 
 
 ## See also
 
-* [Line Series](./Chart-types/line)
-* [Column Series](./Chart-types/line)
-* [Category Axis](./category-axis)
+* [Line Series](./series/series-types/line-types/line)
+* [Column Series](./series/series-types/column-bar-types/column)
+* [Category Axis](./axis/axis-types/category-axis)
 * [Chart Title and Subtitle](./title-subtitle)
-* [Chart Legend](./legend)
-* [Chart Tooltip](./tool-tip)
-* [Working with Data](./working-with-data)
+* [Chart Legend](./chart-elements/legend)
+* [Chart Tooltip](./chart-interactive/tool-tip)
+* [Working with Data](./data-binding/working-with-data)
 
 > **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/javascript/documentation/ai-coding-assistant/overview)

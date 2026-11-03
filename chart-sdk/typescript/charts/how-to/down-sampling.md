@@ -112,8 +112,8 @@ The Chart renders the reduced dataset produced by LTTB. The overall visual patte
 
 ## See also
 
-- [Zooming](../zooming)
-- [Working with data](../working-with-data)
-- [Line series](../chart-types/line)
+- [Zooming](../chart-interactive/zooming)
+- [Working with data](../data-binding/working-with-data)
+- [Line series](../series/series-types/line-types/line)
 - [Chart events](../chart-events)
 - [Getting started](../getting-started)

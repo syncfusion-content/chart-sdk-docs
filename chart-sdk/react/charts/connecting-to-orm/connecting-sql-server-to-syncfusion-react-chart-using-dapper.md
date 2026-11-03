@@ -28,7 +28,7 @@ Before proceeding, ensure the following software is installed:
 
 ## Application Architecture
 
-```text
+```
 SQL Server
     ↓
 Dapper
@@ -46,7 +46,7 @@ Syncfusion React Chart
 
 Open SQL Server Management Studio and execute the following script:
 
-```sql
+```
 CREATE DATABASE ChartDb;
 GO
 
@@ -72,7 +72,7 @@ VALUES
 
 Verify the data:
 
-```sql
+```
 SELECT * FROM SalesData;
 ```
 
@@ -80,21 +80,21 @@ SELECT * FROM SalesData;
 
 Create a new Web API project:
 
-```bash
+```
 dotnet new webapi -n ChartDapperApi
 cd ChartDapperApi
 ```
 
 Install the required packages:
 
-```bash
+```
 dotnet add package Dapper
 dotnet add package Microsoft.Data.SqlClient
 ```
 
 Restore packages:
 
-```bash
+```
 dotnet restore
 ```
 
@@ -104,7 +104,7 @@ Create the following file:
 
 **Models/SalesData.cs**
 
-```csharp
+```
 namespace ChartDapperApi.Models;
 
 public class SalesData
@@ -121,7 +121,7 @@ public class SalesData
 
 Open **appsettings.json** and configure the connection string.
 
-```json
+```
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=ChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -133,19 +133,19 @@ Open **appsettings.json** and configure the connection string.
 
 SQL Server Express:
 
-```json
+```
 "Server=localhost\\SQLEXPRESS;Database=ChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
 Default SQL Server Instance:
 
-```json
+```
 "Server=localhost;Database=ChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
 LocalDB:
 
-```json
+```
 "Server=(localdb)\\MSSQLLocalDB;Database=ChartDb;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
 
@@ -155,7 +155,7 @@ Create the following file:
 
 **Controllers/SalesController.cs**
 
-```csharp
+```
 using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -201,7 +201,7 @@ public class SalesController : ControllerBase
 
 Replace the contents of **Program.cs** with the following code:
 
-```csharp
+```
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -229,19 +229,19 @@ app.Run();
 
 Run the application:
 
-```bash
+```
 dotnet run
 ```
 
 Open the API endpoint in a browser:
 
-```text
+```
 http://localhost:5050/api/Sales
 ```
 
 Expected response:
 
-```json
+```
 [
   {
     "id": 1,
@@ -260,7 +260,7 @@ Expected response:
 
 Create a React application using Vite:
 
-```bash
+```
 npm create vite@latest chart-client -- --template react
 cd chart-client
 npm install
@@ -268,7 +268,7 @@ npm install
 
 ## Install Syncfusion React Chart Package
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts
 ```
 
@@ -277,7 +277,7 @@ npm install @syncfusion/ej2-react-charts
 Replace the contents of **src/App.jsx** with the following code:
 
 {% raw %}
-```jsx
+```
 import React, { useEffect, useState } from "react";
 import {
   ChartComponent,
@@ -343,7 +343,7 @@ export default App;
 
 **src/main.jsx**
 
-```jsx
+```
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -357,13 +357,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 ## Run the React Application
 
-```bash
+```
 npm run dev
 ```
 
 Open the application:
 
-```text
+```
 http://localhost:5173
 ```
 
@@ -371,7 +371,7 @@ The chart displays sales data loaded from SQL Server through Dapper and ASP.NET 
 
 ## Data Flow
 
-```text
+```
 SQL Server
     ↓
 Dapper
@@ -393,7 +393,7 @@ Verify that the SQL Server instance name in the connection string is correct.
 
 Examples:
 
-```text
+```
 localhost\SQLEXPRESS
 localhost
 (localdb)\MSSQLLocalDB
@@ -403,13 +403,13 @@ localhost
 
 Verify that the API returns data:
 
-```text
+```
 http://localhost:5050/api/Sales
 ```
 
 Verify that the table contains records:
 
-```sql
+```
 SELECT * FROM SalesData;
 ```
 
@@ -417,7 +417,7 @@ SELECT * FROM SalesData;
 
 Ensure CORS is enabled in **Program.cs**:
 
-```csharp
+```
 app.UseCors("AllowAll");
 ```
 

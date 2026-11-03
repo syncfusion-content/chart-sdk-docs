@@ -63,7 +63,7 @@ legendClick: function (args) {
 
 ## See also
 
-- [Legend](../legend)
+- [Legend](../chart-elements/legend)
 - [LegendClick event arguments](https://ej2.syncfusion.com/documentation/api/chart/ilegendclickeventargs)
 - [Series API](https://ej2.syncfusion.com/documentation/api/chart/series)
 - [Getting started](../getting-started)

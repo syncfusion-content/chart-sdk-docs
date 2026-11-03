@@ -60,7 +60,7 @@ Supported values include `Circle`, `Rectangle`, `Triangle`, `Diamond`, `Cross`, 
 
 ## See also
 
-- [Legend](../legend)
+- [Legend](../chart-elements/legend)
 - [LegendShape API](https://ej2.syncfusion.com/javascript/documentation/api/chart/legendshape)
 - [LegendSettings API](https://ej2.syncfusion.com/javascript/documentation/api/chart/legendsettings)
 - [Getting started](../es5-getting-started)

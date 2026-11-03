@@ -49,7 +49,7 @@ The main annotation properties used in this example are:
 
 ## See also
 
-- [Chart annotations](../chart-annotations)
-- [Strip lines](../strip-line)
+- [Chart annotations](../chart-elements/chart-annotations)
+- [Strip lines](../chart-elements/strip-line)
 - [ChartAnnotationSettings API](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartannotationsettings)
 - [Getting started](../es5-getting-started)

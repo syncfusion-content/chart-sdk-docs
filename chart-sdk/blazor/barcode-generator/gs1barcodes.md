@@ -186,11 +186,11 @@ The GS1 barcode components include built-in validation to ensure data integrity.
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/rthHCZjQLPjfQgJs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-### Dynamic Property Updates
+## Dynamic Property Updates
 
 The GS1 Barcode components support real-time property binding. When you change any property value, the barcode automatically updates to reflect the changes. This is useful for creating interactive applications where users can customize the barcode appearance dynamically.
 
-#### Update GS1 Databar Properties Dynamically
+### Update GS1 Databar Properties Dynamically
 
 Here is an example showing how to dynamically update GS1 Barcode properties using Blazor data binding:
 

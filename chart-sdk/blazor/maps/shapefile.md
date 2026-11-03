@@ -75,7 +75,7 @@ A shapefile can render a vector shape map in the Maps component by providing the
 
 ## Multilayer
 
-A shapefile map, like a GeoJSON map, can be rendered using a multilayer structure, as described in this [section](https://blazor.syncfusion.com/documentation/maps/layers#multilayer). A shapefile map can be added to different layers in the following ways:
+A shapefile map, like a GeoJSON map, can be rendered using a multilayer structure, as described in this [section](https://help.syncfusion.com/chart-sdk/blazor/maps/layers#multilayer). A shapefile map can be added to different layers in the following ways:
 
 1. Display the shapefile map as a sublayer over online map providers.
 2. Display the shapefile map as a sublayer above the GeoJSON map.
@@ -104,7 +104,7 @@ The following example demonstrates a shapefile map as a sublayer above the GeoJS
 
 ## Customization
 
-Shape characteristics in a shapefile map such as fill color, border, and projection can be customized. For details, see the [Maps customization](https://blazor.syncfusion.com/documentation/maps/customization) documentation.
+Shape characteristics in a shapefile map such as fill color, border, and projection can be customized. For details, see the [Maps customization](https://help.syncfusion.com/chart-sdk/blazor/maps/customization) documentation.
 
 > The examples in the linked topic use a GeoJSON file. Replace the GeoJSON file path with the shapefile path to view the same behavior with shapefiles.
 
@@ -112,15 +112,15 @@ Shape characteristics in a shapefile map such as fill color, border, and project
 
 A shapefile map supports the following feature sets. Refer to the topics below to learn more.
 
-1. [Color mapping](https://blazor.syncfusion.com/documentation/maps/color-mapping)
-2. [Data labels](https://blazor.syncfusion.com/documentation/maps/data-labels)
-3. [Polygons](https://blazor.syncfusion.com/documentation/maps/polygon)
-4. [Markers](https://blazor.syncfusion.com/documentation/maps/markers)
-5. [Bubbles](https://blazor.syncfusion.com/documentation/maps/bubble)
-6. [Legend](https://blazor.syncfusion.com/documentation/maps/legend)
-7. [Navigation lines](https://blazor.syncfusion.com/documentation/maps/navigation-line)
-8. [Annotations](https://blazor.syncfusion.com/documentation/maps/annotations)
-9. [User interactions](https://blazor.syncfusion.com/documentation/maps/user-interactions)
-10. [Print and Export](https://blazor.syncfusion.com/documentation/maps/print-and-export)
+1. [Color mapping](https://help.syncfusion.com/chart-sdk/blazor/maps/color-mapping)
+2. [Data labels](https://help.syncfusion.com/chart-sdk/blazor/maps/data-labels)
+3. [Polygons](https://help.syncfusion.com/chart-sdk/blazor/maps/polygon)
+4. [Markers](https://help.syncfusion.com/chart-sdk/blazor/maps/markers)
+5. [Bubbles](https://help.syncfusion.com/chart-sdk/blazor/maps/bubble)
+6. [Legend](https://help.syncfusion.com/chart-sdk/blazor/maps/legend)
+7. [Navigation lines](https://help.syncfusion.com/chart-sdk/blazor/maps/navigation-line)
+8. [Annotations](https://help.syncfusion.com/chart-sdk/blazor/maps/annotations)
+9. [User interactions](https://help.syncfusion.com/chart-sdk/blazor/maps/user-interactions)
+10. [Print and Export](https://help.syncfusion.com/chart-sdk/blazor/maps/print-and-export)
 
 > The examples in the linked topics use a GeoJSON file. Replace the GeoJSON file path with the shapefile path to demonstrate the same features with shapefiles.

@@ -197,7 +197,7 @@ Use the [`coefficient`](https://ej2.syncfusion.com/documentation/api/chart/axis#
 
 ## See also
 
-- [Data labels](./data-labels)
-- [Tooltip](./tool-tip)
-- [Polar chart](./chart-types/polar)
-- [Radar chart](./chart-types/radar)
+- [Getting started with JavaScript Charts](./getting-started)
+- [Appearance in JavaScript Charts](./appearance)
+- [Print and export in JavaScript Charts](./chart-print)
+- [Feature modules in JavaScript Charts](./feature-modules)

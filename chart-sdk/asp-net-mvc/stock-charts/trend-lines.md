@@ -17,33 +17,33 @@ Stock Chart supports 6 types of trendlines namely `Linear`,`Exponential`,`Logari
 
 ## Linear
 
-A linear trendline is a best fit straight line that is used with simpler data sets.To render a linear trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Linear`.
+A linear trendline is a best fit straight line that is used with simpler data sets.To render a linear trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Linear`.
 
 ## Exponential
 
 An exponential trendline is a curved line that is most useful when data values rise or fall at increasingly higher rates. You cannot create an exponential trendline, if your data contains zero or negative values.
-To render a exponential trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Exponential`.
+To render a exponential trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Exponential`.
 
 ## Logarithmic
 
 A logarithmic trendline is a best-fit curved line that is most useful when the rate of change in the data increases or decreases quickly and then levels out. A logarithmic trendline can use negative and/or positive values.
-To render a logarithmic trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Logarithmic`.
+To render a logarithmic trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Logarithmic`.
 
 ## Polynomial
 
 A polynomial trendline is a curved line that is used when data fluctuates.
-To render a polynomial trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Polynomial`.
+To render a polynomial trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Polynomial`.
 `PolynomialOrder` used to define the polynomial value.
 
 ## Power
 
 A power trendline is a curved line that is best used with data sets that compare measurements that increase at a specific rate.
-To render a power trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Power`.
+To render a power trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `Power`.
 
 ## Moving Average
 
 A moving average trendline smoothen out fluctuations in data to show a pattern or trend more clearly.
-To render a moving average trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `MovingAverage`.
+To render a moving average trendline, use trendline [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Type) as `MovingAverage`.
 
 `Period` property defines the period to find the moving average.
 
@@ -60,7 +60,7 @@ To render a moving average trendline, use trendline [`Type`](https://help.syncfu
 
 ## Customization of Trendline
 
-The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Fill) and [`Width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Width) properties are used to customize the appearance of the trendline.
+The [`Fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Fill) and [`Width`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartTrendlines.html#Syncfusion_EJ2_Charts_StockChartTrendlines_Width) properties are used to customize the appearance of the trendline.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

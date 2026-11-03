@@ -72,7 +72,7 @@ Use tooltip inline `format` when plain text with supported placeholders is suffi
 
 ## See also
 
-- [Tooltip](../tool-tip)
+- [Tooltip](../chart-interactive/tool-tip)
 - [Tooltip templates](https://ej2.syncfusion.com/javascript/demos/chart/tooltip-template/)
 - [Tooltip settings API](https://ej2.syncfusion.com/javascript/documentation/api/chart/tooltipsettings)
 - [Getting started](../es5-getting-started)

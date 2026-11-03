@@ -71,8 +71,8 @@ This formatting is also available through the tooltip's inline `format` property
 
 ## See also
 
-- [Tooltip](../tool-tip)
-- [DateTime axis](../date-time-axis)
+- [Tooltip](../chart-interactive/tool-tip)
+- [DateTime axis](../axis/axis-types/date-time-axis)
 - [TooltipRender API](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#tooltiprender)
 - [Internationalization](https://ej2.syncfusion.com/javascript/documentation/common/internationalization)
 - [Getting started](../es5-getting-started)

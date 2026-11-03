@@ -118,9 +118,8 @@ In an ES5 (script-tag) setup, the modules are part of the global `ej.charts` nam
 ## See also
 
 * [Getting started with JavaScript Charts](./es5-getting-started)
-* [Chart series configuration](./chart-series)
-* [Chart axes configuration](./axis)
-* [Tooltip](./tool-tip)
-* [Legend](./legend)
-* [Crosshair and trackball](./cross-hair-and-track-ball)
-* [Technical indicators](./technical-indicators)
+* [Chart series configuration](./series/series-types/chart-series)
+* [Tooltip](./chart-interactive/tool-tip)
+* [Legend](./chart-elements/legend)
+* [Crosshair and trackball](./chart-interactive/cross-hair-and-track-ball)
+* [Technical indicators](./chart-elements/technical-indicators)

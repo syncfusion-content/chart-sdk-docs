@@ -77,5 +77,4 @@ document.getElementById('openDialog').onclick = function () {
 ## See also
 
 - [Chart dimensions](../chart-dimensions)
-- [Responsive Chart](../responsive)
 - [Chart Getting Started](../es5-getting-started)
