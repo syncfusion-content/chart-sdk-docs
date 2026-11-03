@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Legend in ASP.NET MVC Accumulation Charts
 
-As like a chart, the legend is also available for accumulation charts, which gives information about the points. By default, the legend will be placed on the right, if the width of the chart is high or will be placed on the bottom, if the height of the chart is high. Other customization features regarding the legend element are same as the [`chart legend`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html). Here, the legend for a point can be collapsed by giving the empty string to the x value of the point.
+As like a chart, the legend is also available for accumulation charts, which gives information about the points. By default, the legend will be placed on the right, if the width of the chart is high or will be placed on the bottom, if the height of the chart is high. Other customization features regarding the legend element are same as the [`chart legend`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html). Here, the legend for a point can be collapsed by giving the empty string to the x value of the point.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -41,7 +41,7 @@ By using the position property, you can position the legend at the `Left`, `Righ
 
 ## Legend Reverse
 
-You can reverse the order of the legend items by using the [`Reverse`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChartLegendSettings.html#Syncfusion_EJ2_Charts_AccumulationChartLegendSettings_Reverse) property. By default, legend for the first series in the collection will be placed first.
+You can reverse the order of the legend items by using the [`Reverse`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartLegendSettings.html#Syncfusion_EJ2_Charts_AccumulationChartLegendSettings_Reverse) property. By default, legend for the first series in the collection will be placed first.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

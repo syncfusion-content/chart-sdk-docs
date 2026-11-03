@@ -260,11 +260,11 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LXLdMDjwVwndQpFO?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
-### Dynamic Property Updates
+## Dynamic Property Updates
 
 The DotCode Generator supports dynamic updates to barcode properties at runtime. When a property value is modified, the barcode is automatically refreshed to display the latest changes. This enables interactive customization of the barcode appearance and content.
 
-#### Update DotCode Properties Dynamically
+### Update DotCode Properties Dynamically
 
 Here is an example showing how to dynamically update DotCode properties using Blazor data binding:
 

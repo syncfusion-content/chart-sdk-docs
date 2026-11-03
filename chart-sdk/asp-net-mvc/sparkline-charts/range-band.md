@@ -15,7 +15,7 @@ This section explains how to customize the sparkline with multiple range bands.
 
 ## Range band customization
 
-The range band feature is used to highlight a particular range along with the y-axis using the [`startRange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineRangeBandSetting~StartRange.html) and [`endRange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineRangeBandSetting~EndRange.html) properties. You can also customize the [`color`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineRangeBandSetting~Color.html) and [`opacity`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineRangeBandSetting~Opacity.html) of the range band.
+The range band feature is used to highlight a particular range along with the y-axis using the [`startRange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineRangeBandSetting~StartRange.html) and [`endRange`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineRangeBandSetting~EndRange.html) properties. You can also customize the [`color`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineRangeBandSetting~Color.html) and [`opacity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineRangeBandSetting~Opacity.html) of the range band.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

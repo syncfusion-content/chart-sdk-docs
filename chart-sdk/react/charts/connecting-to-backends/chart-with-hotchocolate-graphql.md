@@ -20,7 +20,7 @@ The sample uses simple monthly sales data from a GraphQL API and displays it in 
 
 The React frontend connects to the GraphQL endpoint using Syncfusion's `DataManager` with the `GraphQLAdaptor` (from `@syncfusion/ej2-data`). The adaptor encapsulates the GraphQL request and response mapping, so the chart can be bound declaratively and refreshed with the returned data.
 
-```text
+```
 Syncfusion React Chart
         ↓
 DataManager (GraphQLAdaptor)
@@ -55,7 +55,7 @@ Install the following tools before running the sample:
 
 Verify the tools:
 
-```bash
+```
 dotnet --version
 node --version
 npm --version
@@ -65,7 +65,7 @@ npm --version
 
 ## Project folder structure
 
-```text
+```
 HotChocolateGraphQL/
 │
 ├── Server/
@@ -95,14 +95,14 @@ The backend exposes a `/graphql` endpoint and returns chart data using a query r
 
 ### Step 1: Create the ASP.NET Core backend project
 
-```bash
+```
 dotnet new webapi -n backend
 cd backend
 ```
 
 ### Step 2: Install the HotChocolate package
 
-```bash
+```
 dotnet add package HotChocolate.AspNetCore --version 13.0.0
 ```
 
@@ -110,7 +110,7 @@ dotnet add package HotChocolate.AspNetCore --version 13.0.0
 
 **File: `Server/backend.csproj`**
 
-```xml
+```
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
@@ -128,13 +128,13 @@ dotnet add package HotChocolate.AspNetCore --version 13.0.0
 
 ### Step 4: Create the sales data model
 
-```bash
+```
 mkdir Models
 ```
 
 **File: `Server/Models/SalesData.cs`**
 
-```csharp
+```
 namespace backend.Models
 {
     public class SalesData
@@ -154,13 +154,13 @@ The `SalesData` class defines the shape of the chart data returned by GraphQL. E
 
 ### Step 5: Create the GraphQL query resolver
 
-```bash
+```
 mkdir GraphQL
 ```
 
 **File: `Server/GraphQL/Query.cs`**
 
-```csharp
+```
 using backend.Models;
 
 namespace backend.GraphQL
@@ -189,7 +189,7 @@ The `GetSalesChartData` method is exposed in GraphQL as `salesChartData`.
 
 **File: `Server/Program.cs`**
 
-```csharp
+```
 using backend.GraphQL;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -234,7 +234,7 @@ app.Run();
 
 Open a new terminal in the `Client` folder and install all packages:
 
-```bash
+```
 cd HotChocolateGraphQL/Client
 npm install
 ```
@@ -243,7 +243,7 @@ The `package.json` already declares the required packages:
 
 **File: `Client/package.json`**
 
-```json
+```
 {
   "name": "syncfusion-chart-graphql-hotchocolate",
   "private": true,
@@ -278,7 +278,7 @@ The `package.json` already declares the required packages:
 
 **File: `Client/src/main.jsx`**
 
-```jsx
+```
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
@@ -295,7 +295,7 @@ createRoot(document.getElementById('root')).render(
 
 **File: `Client/src/index.css`**
 
-```css
+```
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -305,7 +305,7 @@ body {
 
 **File: `Client/src/App.css`**
 
-```css
+```
 .app-container {
   max-width: 1100px;
   margin: 40px auto;
@@ -367,7 +367,7 @@ The Vite dev server runs at `http://localhost:5178`, which is the same origin al
 **File: `Client/src/App.jsx`**
 
 {% raw %}
-```jsx
+```
 import React, { useEffect, useMemo, useRef } from 'react';
 
 import {
@@ -550,7 +550,7 @@ The backend and frontend must be started **separately** in two different termina
 
 ### Run the backend (Terminal 1)
 
-```bash
+```
 cd HotChocolateGraphQL/Server
 dotnet run
 ```
@@ -564,13 +564,13 @@ What happens:
 
 Verify the backend by opening the GraphQL IDE in a browser:
 
-```text
+```
 http://localhost:5168/graphql
 ```
 
 Run this query in the IDE to confirm the data:
 
-```graphql
+```
 query {
   salesChartData {
     month
@@ -583,7 +583,7 @@ query {
 
 Expected response:
 
-```json
+```
 {
   "data": {
     "salesChartData": [
@@ -600,7 +600,7 @@ Keep this terminal open. Stop the backend with `Ctrl + C` when you are finished.
 
 Open a second terminal and start the React dev server:
 
-```bash
+```
 cd HotChocolateGraphQL/Client
 npm run dev
 ```
@@ -615,7 +615,7 @@ What happens:
 
 Open the React app in the browser:
 
-```text
+```
 http://localhost:5178
 ```
 
@@ -627,7 +627,7 @@ To stop the application, press `Ctrl + C` in each terminal (frontend and backend
 
 ---
 
-**Build commands:** Build the backend with `cd HotChocolateGraphQL/Server && dotnet build` and the frontend with `cd HotChocolateGraphQL/Client && npm run build`.
+**Build commands:** Build the backend by running `dotnet build` in the `HotChocolateGraphQL/Server` folder and build the frontend by running `npm run build` in the `HotChocolateGraphQL/Client` folder.
 
 ---
 
@@ -643,13 +643,13 @@ Possible causes:
 
 Check that this URL responds:
 
-```text
+```
 http://localhost:5168/graphql
 ```
 
 Check that CORS allows:
 
-```text
+```
 http://localhost:5178
 ```
 
@@ -657,7 +657,7 @@ http://localhost:5178
 
 Make sure the backend query method is named:
 
-```csharp
+```
 public List<SalesData> GetSalesChartData()
 ```
 
@@ -685,13 +685,13 @@ Check the browser developer tools console and network tab.
 
 The `DataManager` request should post the GraphQL document to:
 
-```text
+```
 http://localhost:5168/graphql
 ```
 
 The response should contain the chart data inside the `salesChartData` field. Also verify that the chart series uses the correct field names:
 
-```jsx
+```
 xName="month"
 yName="sales"
 ```

@@ -1,0 +1,17 @@
+<div><ejs-button id="print" content="Print" isPrimary="true"></ejs-button></div>
+<ejs-chart id="container" title="Monthly Sales" beforePrint="beforePrintHandler">
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Month"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Sales"></e-chart-primaryyaxis>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="Sales" xName="month" yName="sales"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
+
+<script>
+    function beforePrintHandler(args) {
+        console.log('beforePrint event was triggered');
+    }
+    document.getElementById('print').onclick = () => { var chart = document.getElementById('container').ej2_instances[0]; chart.print(); };
+</script>

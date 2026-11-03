@@ -1,65 +1,133 @@
-var chartData = [
-    { x: new Date(1975, 0, 1), y: 16, y1: 10, y2: 4.5 },
-    { x: new Date(1980, 0, 1), y: 12.5, y1: 7.5, y2: 5 },
-    { x: new Date(1985, 0, 1), y: 19, y1: 11, y2: 6.5 },
-    { x: new Date(1990, 0, 1), y: 14.4, y1: 7, y2: 4.4 },
-    { x: new Date(1995, 0, 1), y: 11.5, y1: 8, y2: 5 },
-    { x: new Date(2000, 0, 1), y: 14, y1: 6, y2: 1.5 },
-    { x: new Date(2005, 0, 1), y: 10, y1: 3.5, y2: 2.5 },
-    { x: new Date(2010, 0, 1), y: 16, y1: 7, y2: 3.7 }
+var chartData1 = [
+    { x: 16, y: 2 },
+    { x: 17, y: 14 },
+    { x: 18, y: 7 },
+    { x: 19, y: 7 },
+    { x: 20, y: 10 }
 ];
-var chart = new ej.charts.Chart({
 
-        primaryXAxis: {
-            title: 'Years',
-            lineStyle: { width: 0 },
-            labelFormat: 'y',
-            intervalType: 'Years',
-            valueType: 'DateTime',
-            edgeLabelPlacement: 'Shift'
-        },
+var chartData2 = [
+    { x: 16, y: 12 },
+    { x: 17, y: 10 },
+    { x: 18, y: 17 },
+    { x: 19, y: 20 },
+    { x: 20, y: 16 }
+];
 
-        primaryYAxis:
-        {
-            title: 'Percentage (%)',
-            minimum: 0, maximum: 20, interval: 2,
-            labelFormat: '{value}%'
-        },
-        series: [
-            {
-                type: 'StepLine',
-                dataSource: chartData, xName: 'x', yName: 'y',
-                width: 2, name: 'China',
-                marker: {
-                    visible: true, width: 10, height: 10
-                },
-            },
-            {
-                type: 'StepLine',
-                dataSource: chartData, xName: 'x', yName: 'y1',
-                width: 2, name: 'Australia',
-                marker: {
-                    visible: true, width: 10, height: 10
-                },
-            },
-            {
-                type: 'StepLine',
-                dataSource: chartData, xName: 'x', yName: 'y2',
-                width: 2, name: 'Japan',
-                marker: {
-                    visible: true, width: 10, height: 10
-                },
+var chartData3 = [
+    { x: 16, y: 7 },
+    { x: 17, y: 7 },
+    { x: 18, y: 11 },
+    { x: 19, y: 8 },
+    { x: 20, y: 24 }
+];
 
-            },
-        ],
-        //Title for chart
-        title: 'Unemployment Rates 1975-2010',
-        titleStyle:{
-            fontFamily: "Arial",
-            fontStyle: 'italic',
-            fontWeight: 'regular',
-            color: "#E27F2D",
-            size: '23px'
+function getAxisName(series) {
+    return series.yAxisName || 'primaryYAxis';
+}
+
+function setAssociatedAxisVisibility(args) {
+    var chart = args.chart;
+    var clickedSeries = args.series;
+    var axisName = getAxisName(clickedSeries);
+    var clickedSeriesWillBeVisible = !clickedSeries.visible;
+    var hasVisibleSeries = false;
+    var i;
+
+    for (i = 0; i < chart.series.length; i++) {
+        var series = chart.series[i];
+
+        if (getAxisName(series) === axisName) {
+            var projectedVisibility = series === clickedSeries
+                ? clickedSeriesWillBeVisible
+                : series.visible;
+
+            if (projectedVisibility) {
+                hasVisibleSeries = true;
+                break;
+            }
         }
-}, '#element');
+    }
 
+    if (axisName === 'primaryYAxis') {
+        chart.primaryYAxis.visible = hasVisibleSeries;
+        return;
+    }
+
+    for (i = 0; i < chart.axes.length; i++) {
+        if (chart.axes[i].name === axisName) {
+            chart.axes[i].visible = hasVisibleSeries;
+            break;
+        }
+    }
+}
+
+var chart = new ej.charts.Chart({
+    margin: {
+        left: 100,
+        right: 100
+    },
+    primaryXAxis: {
+        valueType: 'Double',
+        title: 'Overs'
+    },
+    primaryYAxis: {
+        title: 'Primary runs',
+        minimum: 0,
+        maximum: 25,
+        interval: 5
+    },
+    axes: [{
+        name: 'yAxis1',
+        opposedPosition: true,
+        title: 'Secondary runs',
+        minimum: 0,
+        maximum: 25,
+        interval: 5,
+        majorGridLines: {
+            width: 0
+        }
+    }, {
+        name: 'yAxis2',
+        opposedPosition: true,
+        title: 'West Indies runs',
+        minimum: 0,
+        maximum: 30,
+        interval: 5,
+        majorGridLines: {
+            width: 0
+        }
+    }],
+    series: [{
+        type: 'Column',
+        dataSource: chartData1,
+        xName: 'x',
+        yName: 'y',
+        name: 'England - Primary',
+        fill: '#1e90ff'
+    }, {
+        type: 'Column',
+        dataSource: chartData2,
+        xName: 'x',
+        yName: 'y',
+        name: 'England - Secondary',
+        fill: '#2e8b57',
+        yAxisName: 'yAxis1'
+    }, {
+        type: 'Column',
+        dataSource: chartData3,
+        xName: 'x',
+        yName: 'y',
+        name: 'West Indies',
+        fill: '#b22222',
+        yAxisName: 'yAxis2'
+    }],
+    legendSettings: {
+        visible: true,
+        toggleVisibility: true
+    },
+    legendClick: function (args) {
+        setAssociatedAxisVisibility(args);
+    },
+    title: 'Cricket Match Analysis'
+}, '#element');
