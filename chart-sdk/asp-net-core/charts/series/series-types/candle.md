@@ -8,14 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Candle Chart in ASP.NET Core Charts
 
 To get started with the ASP.NET Core Candle charts, you can check on this video:
 
 {% youtube "https://www.youtube.com/watch?v=O3akshh4BvM" %}
 
-## Candle
+## Overview
 
 The Candle series, similar to the Hilo Open Close series, is used to represent the low, high, open, and closing prices over time. It is commonly used in financial charts to visualize stock price movements.
 

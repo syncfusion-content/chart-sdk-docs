@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Area Chart in ASP.NET Core Charts
 
-## Area
+## Overview
 
 To render an [area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -82,7 +81,7 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 
 ## Area border
 
-Use the `border` property to customize the width, color and dasharray of the series border.
+Use the `border` property to customize the width, color and dash array of the series border.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -99,7 +98,7 @@ To render a multicolored area series in your chart, you need to follow a few ste
 
 * **Set the series type:** Define the series `type` as **MultiColoredArea** in your chart configuration. This specifies that the series should be rendered as a multicolored area chart, with different segments of the area having distinct colors.
 
-* **Customize the Segments:** Define the segments of the series using the segments property. Each segment can be customized with properties such as value, color, and dashArray.
+* **Customize the Segments:** Define the segments of the series using the segments property. Each segment can be customized with properties such as value, color, and dash array.
 
     * `value` - Specifies the endpoint of the segment.
     * `color` - Defines the color of the segment.
@@ -184,7 +183,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/area/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
 ## See Also
 

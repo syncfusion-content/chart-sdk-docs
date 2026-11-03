@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Spline Chart in ASP.NET Core Charts
 
-## Spline
+## Overview
 
 To render a [spline](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/spline-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -39,7 +38,7 @@ You can bind data to the chart using the `dataSource` property within the series
 {% endhighlight %}
 {% endtabs %}
 
-## Spline type
+## Overview type
 
 Use the `splineType` to define the type of the spline series. The default type is **Natural**, which creates a smooth curve through the data points.
 

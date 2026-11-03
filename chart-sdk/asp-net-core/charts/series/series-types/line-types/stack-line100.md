@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # 100% Stacked Line Chart in ASP.NET Core Charts
 
-## 100% Stacked Line
+## Overview
 
 To render a [100% stacked line](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/100-stacked-line-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -25,7 +24,6 @@ To render a [100% stacked line](https://www.syncfusion.com/aspnet-core-ui-contro
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-line-100/stacked-line-100/stacked-line-100.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
 ## Binding data with series
 

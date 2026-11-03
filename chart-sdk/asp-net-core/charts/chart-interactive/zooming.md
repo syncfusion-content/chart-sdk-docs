@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Zooming in ASP.NET Core Charts
 
 ## Enable zooming
 
-Chart can be zoomed in three ways.
+The chart can be zoomed in three ways.
 
 * Selection - By setting [`enableSelectionZooming`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property to true in `zoomSettings`, you can zoom the chart using the rubber band selection.
 * Mousewheel - By setting [`enableMouseWheelZooming`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html) property to true in `zoomSettings`, you can zoomin and zoomout the chart by scrolling the mouse wheel.
@@ -30,9 +29,7 @@ N> Pinch zooming is supported only in browsers that support multi-touch gestures
 {% endhighlight %}
 {% endtabs %}
 
-
-
-After zooming the chart, a zooming toolbar will appear with `zoom`,`zoomin`, `zoomout`, `pan` and `reset` buttons. Selecting the Pan option will allow to pan the chart and selecting the Reset option will reset the zoomed chart.
+After zooming the chart, a zoom toolbar appears with `Zoom`, `ZoomIn`, `ZoomOut`, `Pan`, and `Reset` buttons. Selecting the Pan option allows you to pan the chart, and selecting the Reset option resets the zoomed chart.
 
 ## Modes
 
@@ -53,11 +50,9 @@ There are three types of mode.
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Toolbar
 
-By default, zoomin, zoomout, pan and reset buttons will be displayed for zoomed chart. You can customize to show the desired options in the toolbar using the [`toolbarItems`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_zoomsettings_ToolbarItems) property. Also using the [`showToolbar`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_zoomsettings_ShowToolbar) property, you can show toolkit for zooming and panning the chart during initial rendering itself.
+By default, `ZoomIn`, `ZoomOut`, `Pan`, and `Reset` buttons are displayed for the zoomed chart. You can customize the toolbar to show the desired options using the [`toolbarItems`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_zoomsettings_ToolbarItems) property. Also using the [`showToolbar`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_zoomsettings_ShowToolbar) property, you can show toolkit for zooming and panning the chart during initial rendering itself.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -94,8 +89,6 @@ Using [`enablePan`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Enable scrollbar
 
 Using the [`EnableScrollbar`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_ChartZoomSettings_EnableScrollbar) property, you can add a scrollbar to a zoomed chart. This scrollbar allows you to zoom or pan the chart. The appearance of the scrollbar can be customized using properties in [`ScrollbarSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html). For example, you can use [`TrackColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_TrackColor) and [`TrackRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_TrackRadius) properties to customize the track of the scrollbar, and [`ScrollbarRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_ScrollbarRadius) and [`ScrollbarColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_ScrollbarColor) properties to customize the scroller. The ability to zoom through the scrollbar can be enabled or disabled using the [`EnableZoom`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_EnableZoom) property in [`ScrollbarSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html). Additionally, you can change the color of the grip and height of the scrollbar using the [`GripColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_GripColor) and [`Height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartScrollbarSettings.html#Syncfusion_EJ2_Charts_ChartScrollbarSettings_Height) properties.
@@ -108,8 +101,6 @@ Using the [`EnableScrollbar`](https://help.syncfusion.com/cr/aspnetcore-js2/Sync
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/zoom/scrollbar/scrollbar.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ### Position
 
@@ -128,8 +119,6 @@ The [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Ch
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Enable animation
 
 Enable the [`EnableAnimation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartZoomSettings.html#Syncfusion_EJ2_Charts_ChartZoomSettings_EnableAnimation) property to experience smooth transitions when zooming in on the chart.
@@ -143,8 +132,6 @@ Enable the [`EnableAnimation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syn
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Auto interval on zooming
 
 By using [`enableAutoIntervalOnZooming`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html) property, the axis interval will get calculated automatically with respect to the zoomed range.
@@ -157,5 +144,4 @@ By using [`enableAutoIntervalOnZooming`](https://help.syncfusion.com/cr/aspnetco
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/zoom/auto-interval/auto-interval.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
