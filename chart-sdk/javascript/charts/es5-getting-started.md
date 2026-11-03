@@ -17,7 +17,7 @@ Build your first Syncfusion JavaScript (ES5) application with a simple Chart con
 
 ## Prerequisites
 
-* [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
+* [Visual Studio Code](https://code.visualstudio.com/?_exp_home=e855cfac50) (or any text editor)
 * A modern web browser (Chrome, Edge, Firefox, or Safari)
 * An active internet connection to fetch the CDN scripts
 
