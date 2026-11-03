@@ -13,11 +13,11 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Spline
 
-To render a [spline](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/spline-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a [spline](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/spline-chart) series in your chart, follow the steps below:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `Spline` in your chart configuration. This indicates that the series should be represented as a smooth curve, connecting data points with a spline rather than straight lines.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `Spline` in your chart configuration. This indicates that the series should be represented as a smooth curve, connecting data points with a spline rather than straight lines.
 
-* **Inject the SplineSeries module**: Use the `Chart.Inject(SplineSeries)` method to inject the `SplineSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering spline series are available in your chart.
+* **Inject the SplineSeries and Category modules**: Use `Chart.Inject(SplineSeries, Category)` to register both the `SplineSeries` and the `Category` axis modules. The `Category` module is required because the x-axis uses `valueType: 'Category'`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -35,7 +35,7 @@ To render a [spline](https://www.syncfusion.com/javascript-ui-controls/js-charts
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname) and [`yName`](../../api/chart/series#yname) properties.
+You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -53,7 +53,7 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Spline type
 
-Use the [`splineType`](../../api/chart/series#splinetype) to define the type of the spline series. The default type is `Natural`, which creates a smooth curve through the data points.
+Use the [`splineType`](https://ej2.syncfusion.com/documentation/api/chart/series#splinetype) to define the type of the spline series. The default type is `Natural`, which creates a smooth curve through the data points. Available types are `Natural`, `Cardinal`, `Clamped` and `Monotonic`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -71,11 +71,11 @@ Use the [`splineType`](../../api/chart/series#splinetype) to define the type of 
 
 ## Series customization
 
-The following properties can be used to customize the `spline` series.
+The following properties can be used to customize the `Spline` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -91,7 +91,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs134" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the spline series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property also applies an SVG gradient to a spline series. Define the gradient within an SVG `<defs>` element using a unique ID, and assign it to the series in the `url(#gradientId)` format. This produces a smooth color transition along the line, useful for highlighting direction-of-change in the curve.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -107,9 +109,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs191" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [`opacity`](https://ej2.syncfusion.com/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -125,9 +127,9 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs192" %}
 
-**Dash array**
+### Dash array
 
-The [dashArray](../../api/chart/series#dasharray) property determines the pattern of dashes and gaps in the series.
+The [`dashArray`](https://ej2.syncfusion.com/documentation/api/chart/series#dasharray) property determines the pattern of dashes and gaps in the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -143,9 +145,9 @@ The [dashArray](../../api/chart/series#dasharray) property determines the patter
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs193" %}
 
-**Width**
+### Width
 
-The [width](../../api/chart/series#width) property specifies the stroke width applied to the series.
+The [`width`](https://ej2.syncfusion.com/documentation/api/chart/series#width) property specifies the stroke width applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -163,11 +165,11 @@ The [width](../../api/chart/series#width) property specifies the stroke width ap
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Configure the [`emptyPointSettings`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings) on the series to control how empty data points are rendered.
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -183,9 +185,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs195" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -201,9 +203,9 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs196" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -223,7 +225,7 @@ Use the [`border`](../../api/chart/emptyPointSettings#border) property to custom
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -241,7 +243,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -257,7 +259,21 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs402" %}
 
+## Troubleshooting
+The following list describes common issues you may encounter when working with the Spline series and how to resolve them.
+
+**Chart does not render a spline:** Confirm the [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) property of the series is set to `Spline`. If `type` is omitted or set to a different value (for example, `Line`), the data is drawn as straight line segments. Also ensure `SplineSeries` (plus `Category`, if your x-axis uses category values) is registered with `Chart.Inject(...)` before the chart is initialized, or import the modules directly from `@syncfusion/ej2-charts` using ES module syntax.
+
+**Spline curve does not appear smooth or appears jagged:** Spline smoothness depends on the underlying numeric range. If the y-axis range is too narrow relative to data values, the curve compresses and may appear angular. Widen the axis range or scale the data so successive points differ by a small fraction of the range. Also verify the [`splineType`](https://ej2.syncfusion.com/documentation/api/chart/series#splinetype) is set to `Natural` rather than `Monotonic`.
+
+**Data does not appear at the expected x position:** Confirm the data item fields match the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) values. Mismatched or missing field names silently produce empty plots. For a category axis, ensure each x-value exactly matches a category label or the data point is dropped.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between connected series. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Line chart](./line)
+* [Spline Area chart](./spline-area)
+* [Step Line chart](./step-line)

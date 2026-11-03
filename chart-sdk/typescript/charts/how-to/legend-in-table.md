@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to add legend in table in TypeScript Charts | Syncfusion
+title: How to add a legend in a table in TypeScript Charts | Syncfusion
 description: Learn here all about Legend in table in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Charts
@@ -9,19 +9,37 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# How to add legend in table in TypeScript Charts
+# How to add a legend in a table in TypeScript Charts
 
-The `annotation` property is used to add legend in table and the `multiLevelLabels` property is used to customize the axis label in table format.
+Use Chart annotations to place a custom HTML legend beside table-style X-axis labels. Use `primaryXAxis.multiLevelLabels` to create grouped rows below the category labels. The documented Syncfusion approach combines annotations, HTML templates, and multi-level labels. 
 
-To add legend in table with x-axis labels, follow the given steps:
+## Configure table-style axis labels
 
-**Step 1**:
+Set the X-axis `valueType` to `Category` and `isIndexed` to `true` so repeated category values remain separate points. Define `multiLevelLabels` with rectangular borders to create grouped table rows.
 
-Initialize the custom elements using the `annotation` property.
+Each multi-level category uses:
 
-Create table and rectangle shapes in the html page and set this to the `content` property of annotation.
+- `start`: Starting indexed-axis position.
+- `end`: Ending indexed-axis position.
+- `text`: Text displayed across the range.
+- `border.type`: Border style used for the table cell.
 
-By setting `coordinateUnits` value to `pixel` in annotation object, you can place the legend in chart based on pixel values.
+## Add the custom legend
+
+Create the legend as an HTML template and reference the template ID through annotation `content`. Set `coordinateUnits` to `Pixel` in `Chart` to position the template with Chart-relative pixel coordinates.
+
+```javascript
+annotations: [{
+    content: '#templateWrap',
+    coordinateUnits: 'Pixel',
+    x: 120,
+    y: 328
+}]
+```
+
+Pixel-based coordinates depend on the Chart dimensions and margins. Recalculate the position after resizing, or place the table legend outside the Chart for a fully responsive layout.
+
+## Complete example
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -33,3 +51,25 @@ By setting `coordinateUnits` value to `pixel` in annotation object, you can plac
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/legend-table-cs1" %}
+
+## Positioning and responsive behavior
+
+- `coordinateUnits: 'Pixel'` positions the annotation with pixel values; it does not follow axis values.
+- The Chart bottom margin must reserve enough space for multi-level labels and the custom legend.
+- Fixed Chart dimensions make the example predictable, but pixel coordinates must be recalculated for responsive Charts.
+- Use a separate HTML table outside the Chart when the legend must participate in normal responsive document layout.
+
+## Troubleshooting
+
+- If the legend table is missing, verify that the annotation `content` selector matches the template ID.
+- If the table overlaps axis labels, increase the bottom margin or adjust the annotation `x` and `y` coordinates.
+- If grouped labels are incorrect, verify every `start` and `end` range against the indexed category positions.
+- If repeated category labels collapse into one point, verify that `primaryXAxis.isIndexed` is `true`.
+
+## See also
+
+- [Multi-level labels](../multi-level-labels)
+- [Chart annotations](../chart-annotations)
+- [Legend](../legend)
+- [ChartAnnotationSettings API](https://ej2.syncfusion.com/documentation/api/chart/chartannotationsettings)
+- [Getting started](../getting-started)

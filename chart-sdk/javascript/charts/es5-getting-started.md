@@ -13,7 +13,7 @@ appliesto: UI Component Suite, Chart SDK
 
 Build your first Syncfusion JavaScript (ES5) application with a simple Chart control in just a few minutes. This quick start guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) Chart from the CDN, initializes it with sample data, and renders an interactive chart.
 
-> The `34.1.29` version segment in the CDN URLs is shown for reference. Replace it with the latest published version from the [Syncfusion EJ2 CDN](https://cdn.syncfusion.com/ej2) when you start a new project.
+> The `34.1.29` version segment in the CDN URLs is shown for reference. Replace it with the latest published version from the [Syncfusion EJ2 CDN version catalog](https://cdn.syncfusion.com/ej2) when you start a new project. Keep the version segment identical in both the bullet list and the code sample so the two stay in sync.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Build your first Syncfusion JavaScript (ES5) application with a simple Chart con
 * A modern web browser (Chrome, Edge, Firefox, or Safari)
 * An active internet connection to fetch the CDN scripts
 
-## Quick Setup
+## Quick setup
 
 ### Step 1: Create a folder and an HTML file
 
@@ -66,7 +66,7 @@ Replace the contents of `index.html` with the following complete code. This load
     <h1>Syncfusion Chart</h1>
 
     <!-- Container which renders the Chart -->
-    <div id="element"></div>
+    <div id="element" style="height: 600px;"></div>
 
     <script>
       // Sample data
@@ -108,17 +108,17 @@ Replace the contents of `index.html` with the following complete code. This load
 </html>
 ```
 
-The series properties [`dataSource`](../api/chart/series#datasource), [`xName`](../api/chart/series#xname), and [`yName`](../api/chart/series#yname) bind the JSON fields to the chart. The [`primaryXAxis`](../api/chart/chartModel#primaryxaxis) is configured with [`valueType: 'Category'`](../api/chart/axisModel#valuetype) because the X-axis contains month labels; the default value type is `Numeric`.
+The series properties [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#datasource), [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#xname), and [`yName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#yname) bind the JSON fields to the chart. The [`primaryXAxis`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartModel#primaryxaxis) is configured with [`valueType: 'Category'`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axisModel#valuetype) because the X-axis contains month labels; the default value type is `Double`.
 
 ### Step 4: Open in browser
 
-Open the `quick start/index.html` file in your web browser. You can either double-click the file or right-click in VS Code and choose **Open with Live Server** (requires the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension). The chart renders the sample data on the page.
+Save the file, then open `quick start/index.html` in your web browser. The path is relative to this docs page. You can either double-click the file or right-click in VS Code and choose **Open with Live Server** (requires the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension).
 
 If the chart does not appear, open the browser's developer console to check for runtime errors.
 
 ## Output
 
-The following screenshot shows the output of the Syncfusion Chart quick start application:
+The page renders a column chart titled **Sales Data** with twelve blue vertical bars along the X-axis, one for each month from Jan to Dec. The Y-axis shows the sales value for each month, and the chart fills the area defined by the `#element` container.
 
 ![Syncfusion Chart Quick Start Output](./images/chart.png)
 

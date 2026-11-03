@@ -12,9 +12,9 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Bubble
 
-To render a [bubble](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/bubble-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+A bubble series renders each data point as a circle whose size encodes a third dimension in addition to the x and y values. Configure the chart as follows:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `Bubble` in your chart configuration. This indicates that the data should be displayed as a bubble series in the chart.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) as `Bubble` in your chart configuration. Renders each data point as a bubble whose size maps to a third dimension.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -29,7 +29,7 @@ To render a [bubble](https://www.syncfusion.com/javascript-ui-controls/js-charts
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname) and [`yName`](../../api/chart/series#yname) properties.
+You can bind data to the chart by assigning a JSON array (or a remote data source resolved through a data adapter) to the series [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#datasource) property. To render the data correctly, map the fields from each data item to the series [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#xname), [`yName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#yname), and [`size`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#size) properties. Each data item must include `x`, `y`, and `size` fields, where `size` is a numeric value that controls the bubble radius.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -44,11 +44,11 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Series customization
 
-The following properties can be used to customize the `bubble` series.
+The following properties can be used to customize the `Bubble` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [fill](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -61,9 +61,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs86" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [opacity](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -78,7 +78,7 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
 
 ## Bubble size mapping
 
-Use the [`size`](../../api/chart/series#size) property to map the size of each bubble to the value specified in the data source.
+Set the [`size`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#size) property to the name of the data field that contains each bubble's size value (a numeric value). The chart maps the `size` value to a bubble radius automatically.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -93,11 +93,11 @@ Use the [`size`](../../api/chart/series#size) property to map the size of each b
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Configure the [`emptyPointSettings`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings) on the series to control how empty data points are rendered.
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#mode) property to control how empty points are handled. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -110,9 +110,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs357" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -125,9 +125,9 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs358" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
+Use the [`border`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -144,7 +144,7 @@ Use the [`border`](../../api/chart/emptyPointSettings#border) property to custom
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -159,7 +159,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -172,7 +172,22 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs444" %}
 
+## Troubleshooting
+
+The following entries describe common issues you may encounter when working with the Bubble series and how to resolve them.
+
+**Chart does not render bubbles:** Confirm the [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) property of the series is set to `Bubble`. In JavaScript, the `BubbleSeries` module is loaded through the script bundle; no explicit `Chart.Inject(...)` call is required.
+
+**All bubbles render at the same size:** Confirm each data item in the source includes a numeric `size` field, and that the [`size`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#size) property of the series references that field name (for example, `size: 'size'`). If the data uses a different field name, update the property accordingly.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
+**Events fire but changes are not visible:** The [`seriesRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iSeriesRenderEventArgs) and [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iPointRenderEventArgs) events let you modify the rendered series or point. Mutate the `args` object (for example, `args.fill`) inside the handler; setting properties on the series object directly is overwritten during rendering.
+
+**Data does not appear at the expected x position:** Confirm the data item fields match the series [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#yname) values. Mismatched field names silently produce empty points.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Scatter chart](./scatter)

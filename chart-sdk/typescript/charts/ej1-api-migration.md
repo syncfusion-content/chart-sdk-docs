@@ -1,24 +1,37 @@
 ---
 layout: post
-title: Migration from Essential JS 1 in TypeScript Charts | Syncfusion
-description: Learn here all about Ej1 api migration in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
+title: EJ1 to EJ2 API Migration in JavaScript Charts | Syncfusion
+description: Learn here all about API migration from Essential JS 1 to Essential JS 2 in Syncfusion JavaScript Chart control and more.
 platform: chart-sdk
-control: Charts 
+control: EJ1 to EJ2 API Migration
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# Migration from Essential JS 1 in TypeScript Charts
+# # EJ1 to EJ2 API Migration in TypeScript Charts
 
-This article describes the API migration process of the Chart component from Essential JS 1 to Essential JS 2.
+This article describes the API migration process of the Chart component from Essential JS 1 (EJ1) to Essential JS 2 (EJ2). Use this guide as a reference when upgrading your EJ1 Chart implementation to the modern EJ2 Chart control.
+
+## Table of contents
+
+- [Annotations](#annotations)
+- [Crosshair](#crosshair)
+- [Series](#series)
+- [Marker](#marker)
+- [Legend](#legend)
+- [Axes](#axes)
+- [StripLines](#striplines)
+- [Multilevel Labels](#multilevel-labels)
+- [Methods](#methods)
+- [Events](#events)
 
 ## Annotations
 
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -31,7 +44,7 @@ This article describes the API migration process of the Chart component from Ess
 </br>
 <code>
 $("#chart").ejChart({
-    annotations: [{angle: 90}];
+    annotations: [{angle: 90}]
 });
 </code>
 </td>
@@ -41,7 +54,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-annotations: [{ rotation: 90}];
+annotations: [{ rotation: 90}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -55,7 +68,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    annotations: [{ content: '<div>Chart</div>'}];
+    annotations: [{ content: '<div>Chart</div>'}]
 });
 </code>
 </td>
@@ -321,7 +334,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -334,7 +347,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    columnDefinitions: [];
+    columnDefinitions: []
 });
 </code>
 </td>
@@ -344,7 +357,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    columns: [];
+    columns: []
 });
 chart.appendTo('#chart');
 </code></td>
@@ -375,7 +388,7 @@ $("#container").ejChart({
 </br>
 <code>
 $("#chart").ejChart({
-    columnDefinitions: [{ columnWidth: '50%'}];
+    columnDefinitions: [{ columnWidth: '50%'}]
 });
 </code>
 </td>
@@ -385,7 +398,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    columns: [ { width: '300'}];
+    columns: [ { width: '300'}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -399,7 +412,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    columnDefinitions: [{ columnWidth: '50%', lineColor: 'brown', lineWidth: 2}];
+    columnDefinitions: [{ columnWidth: '50%', lineColor: 'brown', lineWidth: 2}]
 });
 </code>
 </td>
@@ -421,13 +434,13 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
 
 <tr>
-<td><b>commonSeriesOptios</b></td>
+<td><b>commonSeriesOptions</b></td>
 <td>
 <b>Property</b>:<i>commonSeriesOptions </i>
 </br>
@@ -450,7 +463,7 @@ $("#container").ejChart({
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -548,13 +561,15 @@ $("#container").ejChart({
 Not applicable
 </td>
 </tr>
+</table>
+
 
 ## 3D chart
 
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -616,7 +631,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -644,7 +659,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -686,7 +701,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>type</i>
+<b>Property</b>:<i>period</i>
 </br>
 </br>
 <code>
@@ -821,7 +836,7 @@ let chart: Chart = new Chart({
 </tr>
 
 <tr>
-<td><b>Standard deviation for Bollingerbands</b></td>
+<td><b>Standard deviation for BollingerBands</b></td>
 <td>
 <b>Property</b>:<i>standardDeviations</i>
 </br>
@@ -953,7 +968,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>fastPeriod</i>
+<b>Property</b>:<i>macdLine</i>
 </br>
 </br>
 <code>
@@ -977,7 +992,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>fastPeriod</i>
+<b>Property</b>:<i>macdType</i>
 </br>
 </br>
 <code>
@@ -989,7 +1004,7 @@ let chart: Chart = new Chart({
 </tr>
 
 <tr>
-<td><b>Color of the positive bars in Macd indicators</b></td>
+<td><b>Color of the positive bars in MACD indicators</b></td>
 <td>
 Not applicable
 </td>
@@ -1006,7 +1021,7 @@ let chart: Chart = new Chart({
 </tr>
 
 <tr>
-<td><b>Color of the negative bars in Macd indicators</b></td>
+<td><b>Color of the negative bars in MACD indicators</b></td>
 <td>
 Not applicable
 </td>
@@ -1100,7 +1115,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>lowerLine</i>
+<b>Property</b>:<i>periodLine</i>
 </br>
 </br>
 <code>
@@ -1124,7 +1139,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>lowerLine</i>
+<b>Property</b>:<i>seriesName</i>
 </br>
 </br>
 <code>
@@ -1170,7 +1185,7 @@ $("#container").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-   indicators: [ { animation: { enable: true }]
+   indicators: [{ animation: { enable: true } }]
 });
 </code>
 </td>
@@ -1194,7 +1209,7 @@ $("#container").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-   indicators: [ { animation: { duration: 3000 }]
+   indicators: [{ animation: { duration: 3000 } }]
 });
 </code>
 </td>
@@ -1247,7 +1262,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>animation.enable</i>
+<b>Property</b>:<i>fill</i>
 </br>
 </br>
 <code>
@@ -1354,7 +1369,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -1444,7 +1459,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>height</i>
+<b>Property</b>:<i>location</i>
 </br>
 </br>
 <code>
@@ -1669,7 +1684,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>backgorund</i>
+<b>Property</b>:<i>background</i>
 </br>
 </br>
 <code>
@@ -1762,7 +1777,7 @@ $("#container").ejChart({
 </br>
 </br>
 <code>
-let chart: new Chart({
+let chart: Chart = new Chart({
    legend: { text: { textOverFlow: 'trim' } }
 });
 </code>
@@ -1861,7 +1876,7 @@ Not applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -1874,7 +1889,7 @@ Not applicable
 </br>
 <code>
 $("#container").ejChart({
-   primaryXAxis: { alternateGridBand: {  even: { fill: 'red }}}
+   primaryXAxis: { alternateGridBand: {  even: { fill: 'red' }}}
 });
 </code>
 </td>
@@ -2377,7 +2392,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#container").ejChart({
-   primaryXAxis: { intervalType}: 'Auto' }
+   primaryXAxis: { intervalType: 'Auto' }
 });
 </code>
 </td>
@@ -2574,7 +2589,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>labelRotation</i>
+<b>Property</b>:<i>logBase</i>
 </br>
 </br>
 <code>
@@ -3085,7 +3100,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>minorTickLines.color</i>
+<b>Property</b>:<i>minorTicksPerInterval</i>
 </br>
 </br>
 <code>
@@ -3247,7 +3262,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#container").ejChart({
-   primaryXAxis: { rangePadding: 'None' }}
+   primaryXAxis: { rangePadding: 'None' } }
 });
 </code>
 </td>
@@ -3509,7 +3524,7 @@ chart.appendTo('#chart');
 <tr>
 <td><b>Multilevel labels of primaryXAxis</b></td>
 <td>
-<b>Property</b>:<i>multiLevelLabels</i>
+<b>Property</b>:<i>multilevelLabels</i>
 </br>
 </br>
 <code>
@@ -3524,7 +3539,7 @@ $("#container").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    primaryXAxis: { stripLines: [] }
+    primaryXAxis: { multilevelLabels: [] }
 });
 chart.appendTo('#chart');
 </code>
@@ -3565,15 +3580,14 @@ chart.appendTo('#chart');
 </code>
 </td>
 </tr>
-
-<table>
+</table>
 
 ## primaryYAxis
 
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -3586,7 +3600,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#container").ejChart({
-   primaryYAxis: { alternateGridBand: {  even: { fill: 'red }}}
+   primaryYAxis: { alternateGridBand: {  even: { fill: 'red' }}}
 });
 </code>
 </td>
@@ -4089,7 +4103,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#container").ejChart({
-   primaryYAxis: { intervalType}: 'Auto' }
+   primaryYAxis: { intervalType: 'Auto' }
 });
 </code>
 </td>
@@ -4286,7 +4300,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>labelRotation</i>
+<b>Property</b>:<i>logBase</i>
 </br>
 </br>
 <code>
@@ -4797,7 +4811,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>minorTickLines.color</i>
+<b>Property</b>:<i>minorTicksPerInterval</i>
 </br>
 </br>
 <code>
@@ -4959,7 +4973,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#container").ejChart({
-   primaryYAxis: { rangePadding: 'None' }}
+   primaryYAxis: { rangePadding: 'None' } }
 });
 </code>
 </td>
@@ -5221,7 +5235,7 @@ chart.appendTo('#chart');
 <tr>
 <td><b>Multilevel labels of primaryYAxis</b></td>
 <td>
-<b>Property</b>:<i>multiLevelLabels</i>
+<b>Property</b>:<i>multilevelLabels</i>
 </br>
 </br>
 <code>
@@ -5236,7 +5250,7 @@ $("#container").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    primaryYAxis: { stripLines: [] }
+    primaryYAxis: { multilevelLabels: [] }
 });
 chart.appendTo('#chart');
 </code>
@@ -5284,7 +5298,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -5297,7 +5311,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#container").ejChart({
-   axes: [ { alternateGridBand: {  even: { fill: 'red }}}]
+   axes: [ { alternateGridBand: {  even: { fill: 'red' }}}]
 });
 </code>
 </td>
@@ -5800,7 +5814,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#container").ejChart({
-   axes: [ { intervalType}: 'Auto' } ]
+   axes: [ { intervalType: 'Auto' } ]
 });
 </code>
 </td>
@@ -5810,7 +5824,7 @@ $("#container").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    axes: [ { intervalType: 'Auto  }]
+    axes: [ { intervalType: 'Auto' }]
 });
 chart.appendTo('#chart');
 </code>
@@ -5997,7 +6011,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>labelRotation</i>
+<b>Property</b>:<i>logBase</i>
 </br>
 </br>
 <code>
@@ -6508,7 +6522,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>minorTickLines.color</i>
+<b>Property</b>:<i>minorTicksPerInterval</i>
 </br>
 </br>
 <code>
@@ -6670,7 +6684,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#container").ejChart({
-   axes: [ { rangePadding: 'None' }}]
+   axes: [ { rangePadding: 'None' } }]
 });
 </code>
 </td>
@@ -6932,7 +6946,7 @@ chart.appendTo('#chart');
 <tr>
 <td><b>Multilevel labels of axes</b></td>
 <td>
-<b>Property</b>:<i>multiLevelLabels</i>
+<b>Property</b>:<i>multilevelLabels</i>
 </br>
 </br>
 <code>
@@ -6947,7 +6961,7 @@ $("#container").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    axes: [ { stripLines: [] }]
+    axes: [ { multilevelLabels: [] }]
 });
 chart.appendTo('#chart');
 </code>
@@ -6989,14 +7003,14 @@ chart.appendTo('#chart');
 </td>
 </tr>
 
-<table>
+</table>
 
 ## Rows
 
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -7009,7 +7023,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    rowDefinitions: [];
+    rowDefinitions: []
 });
 </code>
 </td>
@@ -7019,7 +7033,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    rows: [];
+    rows: []
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7050,7 +7064,7 @@ $("#container").ejChart({
 </br>
 <code>
 $("#chart").ejChart({
-    rowDefinitions: [{ rowHeight: '50%'}];
+    rowDefinitions: [{ rowHeight: '50%'}]
 });
 </code>
 </td>
@@ -7060,7 +7074,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    rows: [ { height: '300'}];
+    rows: [ { height: '300'}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7074,7 +7088,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    rowDefinitions: [{ rowHeight: '50%', lineColor: 'brown', lineWidth: 2}];
+    rowDefinitions: [{ rowHeight: '50%', lineColor: 'brown', lineWidth: 2}]
 });
 </code>
 </td>
@@ -7096,7 +7110,7 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -7109,7 +7123,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{bearFillColor: 'red' }];
+    series: [{bearFillColor: 'red' }]
 });
 </code>
 </td>
@@ -7119,7 +7133,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{bearFillColor: 'red' }];
+    series: [{bearFillColor: 'red' }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7138,7 +7152,7 @@ $("#chart").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>rows</i>
+<b>Property</b>:<i>border</i>
 </br>
 </br>
 <code>
@@ -7157,17 +7171,17 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ boxPlotMode: 'inclusive' }];
+    series: [{ boxPlotMode: 'inclusive' }]
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>rows</i>
+<b>Property</b>:<i>boxPlotMode</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ boxPlotMode: 'Inclusive' }];
+    series: [{ boxPlotMode: 'Inclusive' }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7191,7 +7205,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ minRadius: 2 }];
+    series: [{ minRadius: 2 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7215,7 +7229,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ maxRadius: 2 }];
+    series: [{ maxRadius: 2 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7229,7 +7243,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{bullFillColor: 'red' }];
+    series: [{bullFillColor: 'red' }]
 });
 </code>
 </td>
@@ -7239,7 +7253,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{bullFillColor: 'red' }];
+    series: [{bullFillColor: 'red' }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7253,7 +7267,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ cardinalSplineTension: 0.5 }];
+    series: [{ cardinalSplineTension: 0.5 }]
 });
 </code>
 </td>
@@ -7263,7 +7277,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ cardinalSplineTension: 0.5 }];
+    series: [{ cardinalSplineTension: 0.5 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7277,7 +7291,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ columnWidth: 0.5 }];
+    series: [{ columnWidth: 0.5 }]
 });
 </code>
 </td>
@@ -7287,7 +7301,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ columnWidth: 0.5 }];
+    series: [{ columnWidth: 0.5 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7301,7 +7315,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ columnSpacing: 0.5 }];
+    series: [{ columnSpacing: 0.5 }]
 });
 </code>
 </td>
@@ -7311,21 +7325,21 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ columnSpacing: 0.5 }];
+    series: [{ columnSpacing: 0.5 }]
 });
 chart.appendTo('#chart');
 </code></td>
 </tr>
 
 <tr>
-<td><b>Topleft radius for rectangle series</b></td>
+<td><b>TopLeft radius for rectangle series</b></td>
 <td>
 <b>Property</b>:<i>cornerRadius.topLeft</i>
 </br>
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ topLeft: 0 }];
+    series: [{ topLeft: 0 }]
 });
 </code>
 </td>
@@ -7335,7 +7349,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ topLeft: 0 }];
+    series: [{ topLeft: 0 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7349,7 +7363,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ topRight: 0 }];
+    series: [{ topRight: 0 }]
 });
 </code>
 </td>
@@ -7359,7 +7373,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ topRight: 0 }];
+    series: [{ topRight: 0 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7373,7 +7387,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ bottomRight: 0 }];
+    series: [{ bottomRight: 0 }]
 });
 </code>
 </td>
@@ -7383,7 +7397,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ bottomRight: 0 }];
+    series: [{ bottomRight: 0 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7397,7 +7411,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ bottomLeft: 0 }];
+    series: [{ bottomLeft: 0 }]
 });
 </code>
 </td>
@@ -7407,7 +7421,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ bottomLeft: 0 }];
+    series: [{ bottomLeft: 0 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7421,7 +7435,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ dashArray: '10, 5' }];
+    series: [{ dashArray: '10, 5' }]
 });
 </code>
 </td>
@@ -7431,7 +7445,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ dashArray: '10, 5' }];
+    series: [{ dashArray: '10, 5' }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7445,17 +7459,17 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ dataSource: [] }];
+    series: [{ dataSource: [] }]
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>dashArray</i>
+<b>Property</b>:<i>dataSource</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ dataSource: [] }];
+    series: [{ dataSource: [] }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7469,7 +7483,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ drawType: 'Line' }];
+    series: [{ drawType: 'Line' }]
 });
 </code>
 </td>
@@ -7479,7 +7493,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ drawType: 'Line' }];
+    series: [{ drawType: 'Line' }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7510,7 +7524,7 @@ Not Applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ displayMode: 'gap' }];
+    series: [{ displayMode: 'gap' }]
 });
 </code>
 </td>
@@ -7520,7 +7534,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ displayMode: 'Average' }];
+    series: [{ displayMode: 'Average' }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7534,7 +7548,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ color: 'red' }];
+    series: [{ color: 'red' }]
 });
 </code>
 </td>
@@ -7544,7 +7558,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ fill: 'red' }];
+    series: [{ fill: 'red' }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7558,7 +7572,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ emptyPointSettings:  { color: 'red', width: 2 }];
+    series: [{ emptyPointSettings:  { color: 'red', width: 2 }]
 });
 </code>
 </td>
@@ -7568,7 +7582,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ emptyPointSettings:  { color: 'red', width: 2 }];
+    series: [{ emptyPointSettings:  { color: 'red', width: 2 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7582,7 +7596,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ enableAnimation: true }];
+    series: [{ enableAnimation: true }]
 });
 </code>
 </td>
@@ -7592,7 +7606,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ animation: { enable: false }];
+    series: [{ animation: { enable: false }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7606,7 +7620,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ animationDuration: 1000 }];
+    series: [{ animationDuration: 1000 }]
 });
 </code>
 </td>
@@ -7616,7 +7630,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ animation: { duration: 1000 }];
+    series: [{ animation: { duration: 1000 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7633,7 +7647,7 @@ Not Applicable
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ animation: { delay: 100 }];
+    series: [{ animation: { delay: 100 }]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -7657,7 +7671,7 @@ Not Applicable
 </tr>
 
 <tr>
-<td><b>Errorbar settings for series</b></td>
+<td><b>ErrorBar settings for series</b></td>
 <td>
 <b>Property</b>:<i>errorBarSettings</i>
 </br>
@@ -7674,7 +7688,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ {errorBarSettings: { }}];
+    series: [{ errorBarSettings: { }}];
 });
 </code>
 </td>
@@ -7688,7 +7702,7 @@ let chart: Chart = new Chart({
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ isClosed: true }];
+    series: [{ isClosed: true }]
 });
 </code>
 </td>
@@ -7698,7 +7712,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { isClosed: true }];
+    series: [{ isClosed: true }]
 });
 </code>
 </td>
@@ -7712,7 +7726,7 @@ let chart: Chart = new Chart({
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ isStacking: true }];
+    series: [{ isStacking: true }]
 });
 </code>
 </td>
@@ -7729,7 +7743,7 @@ Not Applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ lineCap: 'butt' }];
+    series: [{ lineCap: 'butt' }]
 });
 </code>
 </td>
@@ -7746,7 +7760,7 @@ Not Applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ lineJoin: 'round' }];
+    series: [{ lineJoin: 'round' }]
 });
 </code>
 </td>
@@ -7763,17 +7777,17 @@ Not Applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ opacity: 0.7 }];
+    series: [{ opacity: 0.7 }]
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>errorBarSettings</i>
+<b>Property</b>:<i>opacity</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { opacity: 0.7 }];
+    series: [{ opacity: 0.7 }]
 });
 </code>
 </td>
@@ -7787,7 +7801,7 @@ let chart: Chart = new Chart({
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ outLierSettings: { shape: 'rectangle' , size: { height: 30, width: 20}} }];
+    series: [{ outLierSettings: { shape: 'rectangle' , size: { height: 30, width: 20 } } }];
 });
 </code>
 </td>
@@ -7804,19 +7818,19 @@ Not Applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ palette: "ColorFieldName" }];
+    series: [{ palette: "ColorFieldName" }]
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>pointColorMapping</i>
+<b>Property</b>:<i>palette</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { pointColorMapping: 'color' }];
+    series: [ { pointColorMapping: 'color' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -7830,19 +7844,19 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ positiveFill: "red" }];
+    series: [{ positiveFill: "red" }]
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>pointColorMapping</i>
+<b>Property</b>:<i>positiveFill</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { pointColorMapping: 'color' }];
+    series: [ { pointColorMapping: 'color' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -7856,19 +7870,19 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ showMedian: true }];
+    series: [{ showMedian: true }]
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>pointColorMapping</i>
+<b>Property</b>:<i>showMean</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { showMean: false }];
+    series: [ { showMean: false }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -7882,7 +7896,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ stackingGroup: 'group' }];
+    series: [{ stackingGroup: 'group' }]
 });
 </code>
 </td>
@@ -7892,9 +7906,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { stackingGroup: 'group' }];
+    series: [ { stackingGroup: 'group' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -7908,7 +7922,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ type: 'Line' }];
+    series: [{ type: 'Line' }]
 });
 </code>
 </td>
@@ -7918,9 +7932,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { type: 'Line' }];
+    series: [ { type: 'Line' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -7934,7 +7948,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ visibility: true }];
+    series: [{ visibility: true }]
 });
 </code>
 </td>
@@ -7944,9 +7958,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { visible: true }];
+    series: [ { visible: true }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -7960,19 +7974,19 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ visibleOnLegend : true }];
+    series: [{ visibleOnLegend : true }]
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>toggleVisibility</i>
+<b>Property</b>:<i>visibleOnLegend</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    legendSettings: [ { toggleVisibility: true }];
+    legendSettings: { toggleVisibility: true }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -7986,7 +8000,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ splineType : 'Natural' }];
+    series: [{ splineType : 'Natural' }]
 });
 </code>
 </td>
@@ -7996,9 +8010,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    legendSettings: [ { splineType: 'Natural' }];
+    legendSettings: { splineType: 'Natural' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8012,7 +8026,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ xAxisName : 'secondaryXAxis' }];
+    series: [{ xAxisName : 'secondaryXAxis' }]
 });
 </code>
 </td>
@@ -8022,9 +8036,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { xAxisName: 'secondaryXAxis' }];
+    series: [ { xAxisName: 'secondaryXAxis' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8038,7 +8052,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ xName : 'x' }];
+    series: [{ xName : 'x' }]
 });
 </code>
 </td>
@@ -8048,9 +8062,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { xName: 'x' }];
+    series: [ { xName: 'x' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8063,7 +8077,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ yAxisName : 'secondaryYAxis' }];
+    series: [{ yAxisName : 'secondaryYAxis' }]
 });
 </code>
 </td>
@@ -8073,9 +8087,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { yAxisName: 'secondaryYAxis' }];
+    series: [ { yAxisName: 'secondaryYAxis' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8089,7 +8103,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ yName : 'y' }];
+    series: [{ yName : 'y' }]
 });
 </code>
 </td>
@@ -8099,9 +8113,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { yName: 'y' }];
+    series: [ { yName: 'y' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8114,7 +8128,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ high : 'y' }];
+    series: [{ high : 'y' }]
 });
 </code>
 </td>
@@ -8124,9 +8138,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { high: 'y' }];
+    series: [ { high: 'y' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8139,7 +8153,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ low : 'y' }];
+    series: [{ low : 'y' }]
 });
 </code>
 </td>
@@ -8149,9 +8163,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { low: 'y' }];
+    series: [ { low: 'y' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8164,7 +8178,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ close : 'y' }];
+    series: [{ close : 'y' }]
 });
 </code>
 </td>
@@ -8174,9 +8188,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { close: 'y' }];
+    series: [ { close: 'y' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8189,7 +8203,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ open : 'y' }];
+    series: [{ open : 'y' }]
 });
 </code>
 </td>
@@ -8199,9 +8213,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { open: 'y' }];
+    series: [ { open: 'y' }]
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8226,7 +8240,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [{ trendLines : [{}] }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8279,7 +8293,7 @@ Not applicable.
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: { visible: true  } ];
+    series: [{ marker: { visible: true  } }];
 });
 </code>
 </td>
@@ -8291,7 +8305,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [ { marker: { visible: false } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8310,14 +8324,14 @@ $("#chart").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>visible</i>
+<b>Property</b>:<i>fill</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
     series: [{ marker: { fill : 'red' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8343,7 +8357,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [{ marker: { opacity : 0.5 } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8369,7 +8383,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [{ marker: { shape : 'Triangle' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8395,7 +8409,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [{ marker: { imageUrl : '' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8409,19 +8423,19 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: { border : { width: 2, color: 'red' } } }];
+    series: [{ marker: { border : { width: 2, color: 'red' } }];
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>shape</i>
+<b>Property</b>:<i>border</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: { border : { width: 2, color: 'red' } } }];
+    series: [{ marker: { border : { width: 2, color: 'red' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8435,7 +8449,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: { size: { height: 30} } }];
+    series: [{ marker: { size: { height: 30} }];
 });
 </code>
 </td>
@@ -8447,7 +8461,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [{ marker: { height: 25 } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8461,7 +8475,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: { size: { width: 30} } }];
+    series: [{ marker: { size: { width: 30} }];
 });
 </code>
 </td>
@@ -8473,7 +8487,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [{ marker: { width: 25 } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8487,7 +8501,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: { size: { width: 30} } }];
+    series: [{ marker: { size: { width: 30} }];
 });
 </code>
 </td>
@@ -8499,7 +8513,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [{ marker: { width: 25 } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8513,7 +8527,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { } } }];
+    series: [{ marker: { dataLabel: { } }];
 });
 </code>
 </td>
@@ -8523,9 +8537,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: { dataLabel: { } } }];
+    series: [{ marker: { dataLabel: { } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8539,7 +8553,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { visible: true } } }];
+    series: [{ marker: { dataLabel: { visible: true } }];
 });
 </code>
 </td>
@@ -8549,9 +8563,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: { dataLabel: { visible: true } } }];
+    series: [{ marker: { dataLabel: { visible: true } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8565,7 +8579,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { textMappingName: '' } } }];
+    series: [{ marker: { dataLabel: { textMappingName: '' } }];
 });
 </code>
 </td>
@@ -8575,9 +8589,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: { dataLabel: { name: '' } } }];
+    series: [{ marker: { dataLabel: { name: '' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8591,7 +8605,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { fill: 'pink' } } }];
+    series: [{ marker: { dataLabel: { fill: 'pink' } }];
 });
 </code>
 </td>
@@ -8601,9 +8615,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: { dataLabel: { fill: 'pink' } } }];
+    series: [{ marker: { dataLabel: { fill: 'pink' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8617,19 +8631,19 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { opacity: 0.6 } } }];
+    series: [{ marker: { dataLabel: { opacity: 0.6 } }];
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>dataLabel.fill</i>
+<b>Property</b>:<i>dataLabel.opacity</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: { dataLabel: { opacity: 0.4 } } }];
+    series: [{ marker: { dataLabel: { opacity: 0.4 } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 
 </td>
@@ -8643,7 +8657,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { textPosition: 'middle' } } }];
+    series: [{ marker: { dataLabel: { textPosition: 'middle' } }];
 });
 </code>
 </td>
@@ -8653,9 +8667,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: { dataLabel: { position: 'Top' } } }];
+    series: [{ marker: { dataLabel: { position: 'Top' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8668,7 +8682,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { verticalAlignment: 'near' } } }];
+    series: [{ marker: { dataLabel: { verticalAlignment: 'near' } }];
 });
 </code>
 </td>
@@ -8678,9 +8692,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: { dataLabel: { alignment: 'Near' } } }];
+    series: [{ marker: { dataLabel: { alignment: 'Near' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8693,19 +8707,19 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { border: { color: 'blue', width: 2, opacity: 0.4} } } }];
+    series: [{ marker: { dataLabel: { border: { color: 'blue', width: 2, opacity: 0.4 } } } }];
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>dataLabel.alignment</i>
+<b>Property</b>:<i>dataLabel.border</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
     series: [{ marker: { dataLabel: { border: { color: 'blue', width: 2 } } } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8718,7 +8732,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { offset: { x: 5, y: 6 }} } }];
+    series: [{ marker: { dataLabel: { offset: { x: 5, y: 6 } }];
 });
 </code>
 </td>
@@ -8730,12 +8744,12 @@ Not Applicable
 <tr>
 <td><b>Margin of data label</b></td>
 <td>
-<b>Property</b>:<i>dataLabel.border</i>
+<b>Property</b>:<i>dataLabel.margin</i>
 </br>
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { margin: { top: 10, bottom: 10, left: 10, right: 10}} } }];
+    series: [{ marker: { dataLabel: { margin: { top: 10, bottom: 10, left: 10, right: 10} }];
 });
 </code>
 </td>
@@ -8747,7 +8761,7 @@ $("#chart").ejChart({
 let chart: Chart = new Chart({
     series: [{ marker: { dataLabel: { margin: { top: 10, bottom: 10, left: 10, right: 10 } } } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8760,19 +8774,19 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { font: { fontFamily: 'SegoeUI', fontStyle: 'italic', fontWeight: '600', opacity: 0.5, size: 12, color: 'red' }} } }];
+    series: [{ marker: { dataLabel: { font: { fontFamily: 'SegoeUI', fontStyle: 'italic', fontWeight: '600', opacity: 0.5, size: 12, color: 'red' } }];
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>dataLabel.margin</i>
+<b>Property</b>:<i>dataLabel.font</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: {dataLabel: { font: { fontFamily: 'SegoeUI', fontStyle: 'italic', fontWeight: '600', opacity: 0.5, size: 12, color: 'red' }} } }];
+    series: [{ marker: { dataLabel: { font: { fontFamily: 'SegoeUI', fontStyle: 'italic', fontWeight: '600', opacity: 0.5, size: 12, color: 'red' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8785,7 +8799,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { template: '<div>Chart</div>' } } }];
+    series: [{ marker: { dataLabel: { template: '<div>Chart</div>' } }];
 });
 </code>
 </td>
@@ -8795,9 +8809,9 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: {dataLabel: { template: '<div>Chart</div>' } } }];
+    series: [{ marker: { dataLabel: { template: '<div>Chart</div>' } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8813,9 +8827,9 @@ Not Applicable
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: {dataLabel: { rx: 10 } } }];
+    series: [{ marker: { dataLabel: { rx: 10 } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8831,9 +8845,9 @@ Not Applicable
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [{ marker: {dataLabel: { ry: 10 } } }];
+    series: [{ marker: { dataLabel: { ry: 10 } }];
 });
-chart.appendTo('#chart);
+chart.appendTo('#chart');
 </code>
 </td>
 </tr>
@@ -8846,7 +8860,7 @@ chart.appendTo('#chart);
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { maximumLabelWidth: 20}} } }];
+    series: [{ marker: { dataLabel: { maximumLabelWidth: 20} }];
 });
 </code>
 </td>
@@ -8863,7 +8877,7 @@ Not Applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { enableWrap: true }} } }];
+    series: [{ marker: { dataLabel: { enableWrap: true } }];
 });
 </code>
 </td>
@@ -8880,7 +8894,7 @@ Not Applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { showContrastColor: true }} } }];
+    series: [{ marker: { dataLabel: { showContrastColor: true } }];
 });
 </code>
 </td>
@@ -8897,7 +8911,7 @@ Not Applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ marker: {dataLabel: { showEdgeLabels: true }} } }];
+    series: [{ marker: { dataLabel: { showEdgeLabels: true } }];
 });
 </code>
 </td>
@@ -8913,7 +8927,7 @@ Not Applicable
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -8950,7 +8964,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ visibility: true ]}]
+    series: [{ trendLines: [{ visibility: true ]}]
 });
 </code>
 </td>
@@ -8967,7 +8981,7 @@ Not applicable
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [type: 'linear' ]}]
+    series: [{ trendLines: [{ type: 'linear' ]}]
 });
 </code>
 </td>
@@ -8977,7 +8991,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ type: 'Polynomial']}]
+    series: [ { trendLines: [{ type: 'Polynomial']}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -8991,7 +9005,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ name: 'trendLine' ]}]
+    series: [{ trendLines: [{ name: 'trendLine' ]}]
 });
 </code>
 </td>
@@ -9001,7 +9015,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ name: 'trendLine']}]
+    series: [ { trendLines: [{ name: 'trendLine']}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -9015,7 +9029,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ period: 45 ]}]
+    series: [{ trendLines: [{ period: 45 ]}]
 });
 </code>
 </td>
@@ -9025,7 +9039,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ period: 45]}]
+    series: [ { trendLines: [{ period: 45]}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -9039,7 +9053,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ polynomialOrder: 3 ]}]
+    series: [{ trendLines: [{ polynomialOrder: 3 ]}]
 });
 </code>
 </td>
@@ -9049,45 +9063,45 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ polynomialOrder: 3]}]
+    series: [ { trendLines: [{ polynomialOrder: 3]}]
 });
 chart.appendTo('#chart');
 </code></td>
 </tr>
 
 <tr>
-<td><b>Backward forecost for  trendLines</b></td>
+<td><b>Backward forecast for  trendLines</b></td>
 <td>
-<b>Property</b>:<i>trendLines.backwardforecast</i>
+<b>Property</b>:<i>trendLines.backwardForecast</i>
 </br>
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ backwardforecast: 3 ]}]
+    series: [{ trendLines: [{ backwardForecast: 3 ]}]
 });
 </code>
 </td>
 <td>
-<b>Property</b>:<i>trendLines.backwardforecast</i>
+<b>Property</b>:<i>trendLines.backwardForecast</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ backwardforecast: 3]}]
+    series: [ { trendLines: [{ backwardforecast: 3]}]
 });
 chart.appendTo('#chart');
 </code></td>
 </tr>
 
 <tr>
-<td><b>Forward forecost for  trendLines</b></td>
+<td><b>Forward forecast for  trendLines</b></td>
 <td>
 <b>Property</b>:<i>trendLines.forwardForecast</i>
 </br>
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ forwardForecast: 3 ]}]
+    series: [{ trendLines: [{ forwardForecast: 3 ]}]
 });
 </code>
 </td>
@@ -9097,7 +9111,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ forwardForecast: 3]}]
+    series: [ { trendLines: [{ forwardForecast: 3]}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -9111,7 +9125,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ fill: '#EEFFCC' ]}]
+    series: [{ trendLines: [{ fill: '#EEFFCC' ]}]
 });
 </code>
 </td>
@@ -9121,7 +9135,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ fill: 'EEFFCC']}]
+    series: [ { trendLines: [{ fill: 'EEFFCC']}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -9135,7 +9149,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ width: 2 ]}]
+    series: [{ trendLines: [{ width: 2 ]}]
 });
 </code>
 </td>
@@ -9145,7 +9159,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ width: 2]}]
+    series: [ { trendLines: [{ width: 2]}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -9159,7 +9173,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    series: [{ trendLines: [ intercept: 2 ]}]
+    series: [{ trendLines: [{ intercept: 2 ]}]
 });
 </code>
 </td>
@@ -9169,7 +9183,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ intercept: 2]}]
+    series: [ { trendLines: [{ intercept: 2]}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -9186,7 +9200,7 @@ Not Applicable
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ legendShape: 'Rectangle']}]
+    series: [ { trendLines: [{ legendShape: 'Rectangle']}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -9203,7 +9217,7 @@ Not Applicable
 </br>
 <code>
 let chart: Chart = new Chart({
-    series: [ { trendLines: [ animation: { enable: true }]}]
+    series: [ { trendLines: [{ animation: { enable: true }]}]
 });
 chart.appendTo('#chart');
 </code></td>
@@ -9290,13 +9304,13 @@ Not Applicable.
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
 
 <tr>
-<td><b>Default behaviour for striplines</b></td>
+<td><b>Default behavior for striplines</b></td>
 <td>
 <b>Property</b>:<i>primaryXAxis.stripLines</i>
 </br>
@@ -9416,7 +9430,7 @@ chart.appendTo('#chart');
 </tr>
 
 <tr>
-<td><b>StartfromAxis for stripline</b></td>
+<td><b>startFromAxis for stripline</b></td>
 <td>
 <b>Property</b>:<i>stripLines.startFromAxis</i>
 </br>
@@ -9447,7 +9461,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { stripLines: [ { text: 'StripLine; }]}
+    primaryXAxis: { stripLines: [ { text: 'StripLine' }]}
 });
 </code>
 </td>
@@ -9471,7 +9485,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { stripLines: [ { textAlignment: 'Far; }]}
+    primaryXAxis: { stripLines: [ { textAlignment: 'Far' }]}
 });
 </code>
 </td>
@@ -9512,7 +9526,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { stripLines: [ { width: 10; }]}
+    primaryXAxis: { stripLines: [ { width: 10 }]}
 });
 </code>
 </td>
@@ -9583,13 +9597,13 @@ chart.appendTo('#chart');
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
 
 <tr>
-<td><b>Default behaviour for multilevelLabels</b></td>
+<td><b>Default behavior for multilevelLabels</b></td>
 <td>
 <b>Property</b>:<i>primaryXAxis.multilevelLabels</i>
 </br>
@@ -9613,7 +9627,7 @@ chart.appendTo('#chart');
 </tr>
 
 <tr>
-<td><b>Default behaviour for multilevelLabels</b></td>
+<td><b>Default behavior for multilevelLabels</b></td>
 <td>
 <b>Property</b>:<i>primaryXAxis.multilevelLabels</i>
 </br>
@@ -9694,7 +9708,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { multilevelLabels: [ { border: { width: 2, color: 'red', type: 'brace' } }]}
+    primaryXAxis: { multilevelLabels: [{ border: { width: 2, color: 'red', type: 'brace' }] }
 });
 </code>
 </td>
@@ -9704,7 +9718,7 @@ $("#chart").ejChart({
 </br>
 <code>
 let chart: Chart = new Chart({
-     primaryXAxis: { multilevelLabels: [ { border: { width: 2, color: 'red', type: 'brace' } }]}
+     primaryXAxis: { multilevelLabels: [{ border: { width: 2, color: 'red', type: 'brace' }] }
 });
 chart.appendTo('#chart');
 </code>
@@ -9719,7 +9733,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { multilevelLabels: [ { start: 45 } }]}
+    primaryXAxis: { multilevelLabels: [{ start: 45 }] }
 });
 </code>
 </td>
@@ -9744,7 +9758,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { multilevelLabels: [ { end: 45 } }]}
+    primaryXAxis: { multilevelLabels: [{ end: 45 }] }
 });
 </code>
 </td>
@@ -9769,7 +9783,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { multilevelLabels: [ { text: 'Start' } }]}
+    primaryXAxis: { multilevelLabels: [{ text: 'Start' }] }
 });
 </code>
 </td>
@@ -9794,7 +9808,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { multilevelLabels: [ { maximumTextWidth: 10 } }]}
+    primaryXAxis: { multilevelLabels: [{ maximumTextWidth: 10 }] }
 });
 </code>
 </td>
@@ -9819,7 +9833,7 @@ chart.appendTo('#chart');
 </br>
 <code>
 $("#chart").ejChart({
-    primaryXAxis: { multilevelLabels: [ { level: 2 } }]}
+    primaryXAxis: { multilevelLabels: [{ level: 2 }] }
 });
 </code>
 </td>
@@ -9835,7 +9849,7 @@ Not applicable. Categories are used
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -9988,7 +10002,7 @@ chart.removeSeries();
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -10328,12 +10342,12 @@ Not applicable
 Not Applicable
 </td>
 <td>
-<b>Property</b>:<i>chartmouseUp</i>
+<b>Property</b>:<i>chartMouseUp</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    chartmouseUp: () => {
+    chartMouseUp: () => {
     }
 });
 chart.appendTo('#chart');
@@ -10347,12 +10361,12 @@ chart.appendTo('#chart');
 Not Applicable
 </td>
 <td>
-<b>Property</b>:<i>chartmouseDown</i>
+<b>Property</b>:<i>chartMouseDown</i>
 </br>
 </br>
 <code>
 let chart: Chart = new Chart({
-    chartmouseDown: () => {
+    chartMouseDown: () => {
     }
 });
 chart.appendTo('#chart');
@@ -11080,12 +11094,10 @@ chart.appendTo('#chart');
 
 ## Chart properties
 
-</table>
-
 <!-- markdownlint-disable MD033 -->
 <table>
 <tr>
-<td><b>Behaviour</b></td>
+<td><b>Behavior</b></td>
 <td><b>API in Essential JS 1</b></td>
 <td><b>API in Essential JS 2</b></td>
 </tr>
@@ -11148,10 +11160,10 @@ chart.appendTo('#chart');
 $("#chart").ejChart({
     zooming: {
         enable: true,
-        enabledeferredZoom: true,
+        enableDeferredZoom: true,
         enablePinch: true,
         enableMouseWheel: true,
-        enableSrollBar: true,
+        enableScrollBar: true,
         toolBarItems: [],
         type: 'X'
 
@@ -11168,7 +11180,7 @@ let chart: Chart = new Chart({
  zoomSettings: {
      enable: true,
      enablePinchZooming: true,
-     enableDefferedZooming: true
+     enableDeferredZooming: true
      enableMouseWheelZooming: true,
      enableSelectionZooming: true,
      enableScrollBar: true
@@ -11232,7 +11244,7 @@ $("#container").ejChart({
 </code>
 </td>
 <td>
-<b>Property</b>:<i>border</i>
+<b>Property</b>:<i>color</i>
 </br>
 </br>
 <code>
@@ -11264,7 +11276,7 @@ let chart: Chart = new Chart({
     border: { width: 2, color: '#CCEEFF'}
 });
 chart.appendTo('#chart');
-chart.export(<ExportType>type, fileName);
+chart.export(exportType, fileName);
 </code></td>
 </tr>
 
@@ -11289,7 +11301,7 @@ let chart: Chart = new Chart({
     chartArea: { background: 'transparent', border: { width: 2, color: '#CCEEFF'} }
 });
 chart.appendTo('#chart');
-chart.export(<ExportType>type, fileName);
+chart.export(exportType, fileName);
 </code>
 </td>
 </tr>

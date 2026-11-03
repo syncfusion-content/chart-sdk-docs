@@ -12,9 +12,9 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Range Column
 
-To render a [range column](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/range-column-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a [range column](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/range-column-chart) series in your chart, follow the steps below:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `RangeColumn` in your chart configuration. This indicates that the data should be represented as a range column chart, which is ideal for visualizing data that has both minimum and maximum values for each category. This is especially useful for visualizing data ranges, such as temperature fluctuations over time, stock prices, or any other data with upper and lower bounds.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) as `RangeColumn` in your chart configuration. This indicates that the data should be represented as a range column chart, which is ideal for visualizing data that has both minimum and maximum values for each category. This is especially useful for visualizing data ranges, such as temperature fluctuations over time, stock prices, or any other data with upper and lower bounds.
 
 * **Provide high and low values**: The `RangeColumn` series requires two y-values for each data point, you need to specify both the high and low values. The high value represents the maximum range, while the low value represents the minimum range for each data point. These values define the upper and lower boundaries of the column for each point on the chart.
 
@@ -31,7 +31,7 @@ To render a [range column](https://www.syncfusion.com/javascript-ui-controls/js-
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname), [`high`](../../api/chart/series#high), and [`low`](../../api/chart/series#low) properties.
+You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#high), and [`low`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#low) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -46,11 +46,11 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Series customization
 
-The following properties can be used to customize the `range column` series.
+The following properties can be used to customize the `Range Column` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -63,7 +63,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs124" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the range column series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#fill) property also applies an SVG gradient to a range column series. Define the gradient within an SVG `<defs>` element using a unique ID, and assign it to the series in the `url(#gradientId)` format.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -76,9 +78,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs300" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [`opacity`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -91,9 +93,9 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs301" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dash array of the range column series.
+Use the [`border`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the range column series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -108,11 +110,11 @@ Use the [`border`](../../api/chart/series#border) property to configure the bord
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Configure the [`emptyPointSettings`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings) on the series to control how empty data points are rendered.
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#mode) property to control how empty points are handled. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -125,9 +127,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs304" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points. Note that the series `marker` must be visible for the empty-point fill to be rendered.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -140,9 +142,9 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs305" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
+Use the [`border`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -157,7 +159,7 @@ Use the [`border`](../../api/chart/emptyPointSettings#border) property to custom
 
 ## Corner radius
 
-The [`cornerRadius`](../../api/chart/series#cornerradius) property in the chart series is used to customize the corner radius for range column series. This allows you to create range columns with rounded corners, giving your chart a more polished appearance. You can customize each corner of the range columns using the topLeft, topRight, bottomLeft, and bottomRight properties.
+The [`cornerRadius`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#cornerradius) property in the chart series is used to customize the corner radius for range column series. This allows you to create range columns with rounded corners. You can customize each corner of the range columns using the [`topLeft`](https://ej2.syncfusion.com/javascript/documentation/api/chart/cornerRadius#topleft), [`topRight`](https://ej2.syncfusion.com/javascript/documentation/api/chart/cornerRadius#topright), [`bottomLeft`](https://ej2.syncfusion.com/javascript/documentation/api/chart/cornerRadius#bottomleft), and [`bottomRight`](https://ej2.syncfusion.com/javascript/documentation/api/chart/cornerRadius#bottomright) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -172,7 +174,7 @@ The [`cornerRadius`](../../api/chart/series#cornerradius) property in the chart 
 
 ### Point corner radius
 
-You can customize the corner radius for individual points in the chart series using the [`pointRender`](../../https://ej2.syncfusion.com/documentation/api/chart/iPointRenderEventArgs) event by setting the [`cornerRadius`](../../api/chart/iPointRenderEventArgs#cornerradius) property in its event argument.
+You can customize the corner radius for individual points in the chart series using the [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iPointRenderEventArgs) event by setting the [`cornerRadius`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iPointRenderEventArgs#cornerradius) property in its event argument.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -190,7 +192,7 @@ You can customize the corner radius for individual points in the chart series us
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -205,7 +207,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -218,7 +220,20 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs430" %}
 
+## Troubleshooting
+
+The following list describes common issues you may encounter when working with the Range Column series and how to resolve them.
+
+**Chart does not render a range column:** Confirm the [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) property of the series is set to `RangeColumn`. If `type` is omitted or set to a different value (for example, `Column` or `Bar`), the data is drawn as a regular column or bar series. In JavaScript, the `RangeColumnSeries` module is loaded through the script bundle; no explicit `Chart.Inject(...)` call is required.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between connected series. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
+**Data does not appear at the expected x position:** Confirm the data item fields match the series [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#xname), [`high`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#high), and [`low`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#low) values. Mismatched or missing field names silently produce empty or collapsed columns.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Column chart](./column)
+* [Bar chart](./bar)
+* [Range Area chart](./range-area)

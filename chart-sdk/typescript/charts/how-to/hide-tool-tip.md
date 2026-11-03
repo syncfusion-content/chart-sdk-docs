@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to hide tooltip in TypeScript Charts | Syncfusion
-description: Learn here all about Hide tool tip in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
+description: Learn how to cancel tooltip rendering for unselected series in the Syncfusion TypeScript Chart control.
 platform: chart-sdk
 control: Charts
 documentation: ug
@@ -9,15 +9,39 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-# How to hide tooltip in TypeScript Charts
+# How to hide tooltips for unselected series in TypeScript Charts
 
-By using the [`tooltipRender`](../../api/chart/chartModel#tooltiprender) event, you can cancel the tooltip for unselected series in the chart.
+Use the Chart [`tooltipRender`](https://ej2.syncfusion.com/documentation/api/chart/chartmodel#tooltiprender) event to cancel tooltip rendering for an unselected series. Enable series selection and tooltips before applying the conditional logic.
 
-To hide the tooltip value in unselected series, follow the given steps:
+## Configure selection and tooltips
 
-**Step 1**:
+Set `selectionMode` to `Series` so selecting one series visually distinguishes it from the other series. Set `tooltip.enable` to `true` so the Chart raises `tooltipRender` before displaying a tooltip.
 
-By using the [`tooltipRender`](../../api/chart/chartModel#tooltiprender) event, you can get the series elements in the arguments. By using this argument we can compare whether seriesElementclasslist is deselected container or not. If it is true then we cancel the tooltip by setting the value for `args.cancel` as `true`.
+```javascript
+selectionMode: 'Series',
+tooltip: {
+    enable: true
+}
+```
+
+By default, Chart tooltips are disabled and must be enabled explicitly.
+
+## Cancel the tooltip for a deselected series
+
+The `tooltipRender` event provides the related series through `args.series`. Inspect the series element for the EJ2 deselection CSS class and set `args.cancel` to `true` when the series is deselected.
+
+```javascript
+tooltipRender: function(args) {
+        var series = args.series;
+        if (series.seriesElement.classList[0] === 'element_ej2_deselected') {
+            args.cancel = true;
+        }
+},
+```
+
+The current JavaScript example uses `tooltipRender` with the series element's deselected CSS class to suppress tooltips for unselected series.
+
+## Complete example
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -29,3 +53,19 @@ By using the [`tooltipRender`](../../api/chart/chartModel#tooltiprender) event, 
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/how-to-cs9" %}
+
+## Troubleshooting
+
+- If no tooltip appears, verify that `tooltip.enable` is `true`.
+- If every series continues to show tooltips, verify that `selectionMode` is `Series` and select a series before testing.
+- If `seriesElement` is undefined, verify that the event belongs to a Cartesian Chart series rather than an Accumulation Chart series.
+- If the handler does not detect deselection, inspect the rendered series element and update the supported deselection class for the installed EJ2 version.
+- If shared tooltips show values from multiple series, set `tooltip.shared` to `false` for this selection-specific behavior.
+
+## See also
+
+- [Tooltip](../tool-tip)
+- [Selection](../selection)
+- [TooltipRender API](https://ej2.syncfusion.com/documentation/api/chart/chartmodel#tooltiprender)
+- [Series API](https://ej2.syncfusion.com/documentation/api/chart/series)
+- [Getting started](../es5-getting-started)

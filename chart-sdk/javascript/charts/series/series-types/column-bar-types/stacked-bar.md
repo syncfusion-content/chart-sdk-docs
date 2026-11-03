@@ -12,9 +12,9 @@ appliesto: UI Component Suite, Chart SDK
 
 ## 100% Stacked Bar
 
-To render a [100% stacked bar](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/100-stacked-bar-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a [100% stacked bar](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/100-stacked-bar-chart) series in your chart, follow the steps below:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `StackingBar100` in your chart configuration. This indicates that the data should be represented as a 100% stacked bar chart, with segments that show the percentage contribution of each part.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) as `StackingBar100` in your chart configuration. This indicates that the data should be represented as a 100% stacked bar chart, with segments that show the percentage contribution of each part.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -29,7 +29,7 @@ To render a [100% stacked bar](https://www.syncfusion.com/javascript-ui-controls
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname) and [`yName`](../../api/chart/series#yname) properties.
+You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#yname) properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -46,9 +46,9 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 The following properties can be used to customize the `100% stacked bar` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -61,7 +61,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs148" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the 100% stacked bar series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#fill) property also applies an SVG gradient to a 100% stacked bar series. Define the gradient within an SVG `<defs>` element using a unique ID, and assign it to the series in the `url(#gradientId)` format.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -74,9 +76,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs342" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [`opacity`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -89,9 +91,9 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs343" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/series#border) property to configure the border width, color, and dash array of the 100% stacked bar series.
+Use the [`border`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#border) property to configure the border width, color, and dash array of the 100% stacked bar series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -106,7 +108,7 @@ Use the [`border`](../../api/chart/series#border) property to configure the bord
 
 ## 100% Cylindrical stacked bar chart
 
-To render a 100% cylindrical stacked bar chart, set the [`columnFacet`](../../api/chart/series#columnfacet) property to `Cylinder` in the chart series. This property transforms the regular 100% stacked bars into cylindrical shapes, enhancing the visual representation of the data.
+To render a 100% cylindrical stacked bar chart, set the [`columnFacet`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#columnfacet) property to `Cylinder` in the chart series. The only other valid value is `Rectangle` (the default), which renders rectangular bars.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -121,11 +123,11 @@ To render a 100% cylindrical stacked bar chart, set the [`columnFacet`](../../ap
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Configure the [`emptyPointSettings`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings) on the series to control how empty data points are rendered.
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -138,9 +140,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs346" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -153,9 +155,9 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs347" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
+Use the [`border`](https://ej2.syncfusion.com/javascript/documentation/api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -170,7 +172,7 @@ Use the [`border`](../../api/chart/emptyPointSettings#border) property to custom
 
 ## Corner radius
 
-The [`cornerRadius`](../../api/chart/series#cornerradius) property in the chart series is used to customize the corner radius for 100% stacked bar series. This allows you to create 100% stacked bars with rounded corners, giving your chart a more polished appearance. You can customize each corner of the 100% stacked bars using the topLeft, topRight, bottomLeft, and bottomRight properties.
+The [`cornerRadius`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#cornerradius) property in the chart series is used to customize the corner radius for 100% stacked bar series. This allows you to create 100% stacked bars with rounded corners. You can customize each corner of the 100% stacked bars using the `topLeft`, `topRight`, `bottomLeft`, and `bottomRight` properties.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -185,7 +187,7 @@ The [`cornerRadius`](../../api/chart/series#cornerradius) property in the chart 
 
 ### Point corner radius
 
-You can customize the corner radius for individual points in the chart series using the [`pointRender`](../../api/chart/iPointRenderEventArgs) event by setting the [`cornerRadius`](../../api/chart/iPointRenderEventArgs#cornerradius) property in its event argument.
+You can customize the corner radius for individual points in the chart series using the [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iPointRenderEventArgs) event by setting the [`cornerRadius`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iPointRenderEventArgs#cornerradius) property in its event argument.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -202,7 +204,7 @@ You can customize the corner radius for individual points in the chart series us
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -217,7 +219,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -230,8 +232,19 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs440" %}
 
+## Troubleshooting
+The following list describes common issues you may encounter when working with the 100% Stacked Bar series and how to resolve them.
+
+**Chart does not render a 100% stacked bar:** Confirm the [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#type) property of each series is set to `StackingBar100`. If `type` is omitted or set to a different value (for example, `StackingBar`), the data is drawn as overlapping (non-normalized) segments. In JavaScript, the `StackingBarSeries` module is loaded through the script bundle; no explicit `Chart.Inject(...)` call is required.
+
+**Cylindrical facet does not appear:** [`columnFacet`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#columnfacet) accepts only `Rectangle` (the default) and `Cylinder`. Other values are ignored. Confirm the property is set on each series configuration object and that the chart is rendered with the `StackingBar100` series type.
+
+**Bands do not normalize to 100%:** 100% stacked series render each x-position as 100% of all contributing values. If percentages do not sum to 100, verify that each series shares the same `xName` and that the input data is non-negative. Negative values are not normalized and will produce inconsistent percentages.
 
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Stacked Bar chart](./stack-bar)
+* [100% Stacked Column chart](./stacked-column)
+* [Bar chart](./bar)

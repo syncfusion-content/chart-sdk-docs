@@ -13,9 +13,9 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Line
 
-To render a [line](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/line-chart) series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a [line](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/line-chart) series in your chart, configure the series as follows:
  
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `Line` in your chart configuration. This indicates that the data should be represented as a line chart, which is ideal for visualizing trends over time or across categories.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `Line` in your chart configuration. Renders the data as a line chart, ideal for visualizing trends over time or across categories.
 
 * **Inject the LineSeries module**: Use the `Chart.Inject(LineSeries)` method to inject the `LineSeries` module into your chart. This step is essential, as it ensures that the necessary functionalities for rendering line series are available in your chart.
 
@@ -35,7 +35,7 @@ To render a [line](https://www.syncfusion.com/javascript-ui-controls/js-charts/c
 
 ## Binding data with series
 
-You can bind data to the chart using the [`dataSource`](../../api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](../../api/chart/series#xname) and [`yName`](../../api/chart/series#yname) properties.
+You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart/series#datasource) property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) properties.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -53,11 +53,11 @@ You can bind data to the chart using the [`dataSource`](../../api/chart/series#d
 
 ## Series customization
 
-The following properties can be used to customize the `line` series.
+The following properties can be used to customize the `Line` series.
 
-**Fill**
+### Solid fill
 
-The [fill](../../api/chart/series#fill) property determines the color applied to the series.
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property determines the color applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -73,7 +73,9 @@ The [fill](../../api/chart/series#fill) property determines the color applied to
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs106" %}
 
-The [fill](../../api/chart/series#fill) property can be used to apply a gradient color to the line series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
+### Gradient fill
+
+The [`fill`](https://ej2.syncfusion.com/documentation/api/chart/series#fill) property also applies an SVG gradient to a line series. Define the gradient within an SVG `<defs>` element using a unique ID, and assign it to the series in the `url(#gradientId)` format.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -89,9 +91,9 @@ The [fill](../../api/chart/series#fill) property can be used to apply a gradient
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs184" %}
 
-**Opacity**
+### Opacity
 
-The [opacity](../../api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
+The [`opacity`](https://ej2.syncfusion.com/documentation/api/chart/series#opacity) property controls the transparency of the fill and affects how the series blends with background or overlapping series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -107,9 +109,9 @@ The [opacity](../../api/chart/series#opacity) property controls the transparency
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs185" %}
 
-**Dash array**
+### Dash array
 
-The [dashArray](../../api/chart/series#dasharray) property determines the pattern of dashes and gaps in the series.
+The [`dashArray`](https://ej2.syncfusion.com/documentation/api/chart/series#dasharray) property determines the pattern of dashes and gaps in the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -125,9 +127,9 @@ The [dashArray](../../api/chart/series#dasharray) property determines the patter
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs186" %}
 
-**Width**
+### Width
 
-The [width](../../api/chart/series#width) property specifies the stroke width applied to the series.
+The [`width`](https://ej2.syncfusion.com/documentation/api/chart/series#width) property specifies the stroke width applied to the series.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -145,9 +147,9 @@ The [width](../../api/chart/series#width) property specifies the stroke width ap
 
 ## Multicolored line
 
-To render a multicolored line series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+To render a multicolored line series in your chart, configure the series as follows:
 
-* **Set the series type**: Define the series [`type`](../../api/chart/series#type) as `MultiColoredLine` in your chart configuration. This specifies that the series should be rendered as a multicolored line chart, with different segments of the line having distinct colors.
+* **Set the series type**: Define the series [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) as `MultiColoredLine` in your chart configuration. This specifies that the series should be rendered as a multicolored line chart, with different segments of the line having distinct colors.
 
 * **Inject the MultiColoredLineSeries module**: Use the `Chart.Inject(MultiColoredLineSeries)` method to inject the `MultiColoredLineSeries` module in your chart. This step is essential, as it ensures that the necessary functionalities for rendering line series are available in your chart.
 
@@ -169,11 +171,11 @@ To render a multicolored line series in your chart, you need to follow a few ste
 
 ## Empty points
 
-Data points with `null` or `undefined` values are considered empty. Empty data points are ignored and not plotted on the chart.
+Data points with `null` or `undefined` values are considered empty. Empty data points are handled according to the configured [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode).
 
-**Mode**
+### Mode
 
-Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control handling of empty points. Available modes: `Gap`, `Drop`, `Zero`, `Average`. The default mode is `Gap`.
+Use the [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) property to control how empty points are rendered. Available modes are `Gap`, `Drop`, `Zero`, and `Average`. The default mode is `Gap`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -189,9 +191,9 @@ Use the [`mode`](../../api/chart/emptyPointSettings#mode) property to control ha
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs181" %}
 
-**Fill**
+### Fill
 
-Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
+Use the [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) property to set the fill color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -207,9 +209,9 @@ Use the [`fill`](../../api/chart/emptyPointSettings#fill) property to set the fi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs182" %}
 
-**Border**
+### Border
 
-Use the [`border`](../../api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
+Use the [`border`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#border) property to customize the border width and color for empty points.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -229,7 +231,7 @@ Use the [`border`](../../api/chart/emptyPointSettings#border) property to custom
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -247,7 +249,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -263,7 +265,26 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs400" %}
 
+## Troubleshooting
+
+The following list describes common issues you may encounter when working with the Line series and how to resolve them.
+
+**Chart does not render a line:** Confirm the [`type`](https://ej2.syncfusion.com/documentation/api/chart/series#type) property of the series is set to `Line`. If `type` is omitted or set to a different value (for example, `Column` or `Area`), the data is rendered differently. Also ensure `LineSeries` is registered with `Chart.Inject(LineSeries)` before the chart is initialized, or import the modules directly from `@syncfusion/ej2-charts` using ES module syntax.
+
+**Dash array or width has no visible effect:** Confirm the [`dashArray`](https://ej2.syncfusion.com/documentation/api/chart/series#dasharray) and [`width`](https://ej2.syncfusion.com/documentation/api/chart/series#width) properties are set on the series configuration. When the series renders as a marker-only or stepped variant, these stroke properties are ignored.
+
+**Empty-point mode produces no visible point:** The default [`mode`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#mode) is `Gap`, which leaves a gap between connected series. To render empty points, switch the mode to `Zero` or `Average` and (optionally) set a [`fill`](https://ej2.syncfusion.com/documentation/api/chart/emptyPointSettings#fill) on `emptyPointSettings`.
+
+**Multicolored line shows a single color:** Confirm each data item has a color value mapped to the [`pointColorMapping`](https://ej2.syncfusion.com/documentation/api/chart/series#pointcolormapping) property. If the mapped field is `null`, `undefined`, or missing, that segment falls back to the series `fill` color.
+
+**Events fire but changes are not visible:** The [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart/iSeriesRenderEventArgs) and [`pointRender`](https://ej2.syncfusion.com/documentation/api/chart/iPointRenderEventArgs) events let you modify the rendered series or point. Mutate the `args` object (for example, `args.fill`) inside the handler; setting properties on the series object directly is overwritten during rendering.
+
+**Data does not appear at the expected x position:** Confirm the data item fields match the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart/series#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart/series#yname) values. Mismatched field names silently produce empty points.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Column chart](./column)
+* [Stacked column chart](./stacked-column)
+* [Multicolored line chart](#multicolored-line)

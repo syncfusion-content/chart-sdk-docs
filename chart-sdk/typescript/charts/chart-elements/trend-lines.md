@@ -8,17 +8,27 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
-<!-- markdownlint-disable MD036 -->
 
 # Trendlines in TypeScript Charts
 
-Trendlines help identify patterns, direction, and overall trends in numerical data. They project the general movement of data values and are widely used in analytics, forecasting, and financial charts. Trendlines can be added to Cartesian series types such as Line, Column, Scatter, Area, Candle, and Hilo (excluding bar series). Multiple trendlines can be added to a single series based on the analysis needs.
+Trendlines help identify patterns, direction, and overall trends in numerical data. They project the general movement of data values and are widely used in analytics, forecasting, and financial charts. Trendlines can be added to Cartesian series types such as Line, Column, Scatter, Area, Candle, and Hilo (excluding bar series). Multiple trendlines can be added to a single series based on the analysis requirements.
 
-Charts support six types of trendlines: **Linear**, **Exponential**, **Logarithmic**, **Polynomial**, **Power**, and **Moving Average**.
+The Chart supports six trendline types: **Linear**, **Exponential**, **Logarithmic**, **Polynomial**, **Power**, and **Moving Average**.
+
+## Trendline types
+
+- `Linear`: Displays a straight best-fit line for data with a constant rate of change.
+- `Exponential`: Displays accelerating growth or decay and requires positive Y values.
+- `Logarithmic`: Displays rapid early change that gradually levels out and requires positive X values.
+- `Polynomial`: Displays a curved fit for data with multiple changes in direction.
+- `Power`: Displays a power-law relationship and requires positive X and Y values.
+- `MovingAverage`: Smooths short-term fluctuations using a configurable period.
+
+Add trendline objects to the `trendlines` collection of a supported Cartesian series. Supported series include Line, Column, Scatter, Area, Candle, and Hilo; bar series are not supported. Multiple trendlines can be configured for a single series.
 
 ## Linear
 
-A linear trendline is a straight, best‑fit line used to describe data with a constant rate of increase or decrease. Set the trendline [`type`](../api/chart/trendlineModel) to `Linear` and inject the `Trendlines` module using `Chart.Inject(Trendlines)` method.
+A linear trendline is a straight, best-fit line used to describe data with a constant rate of increase or decrease. Set the trendline [`type`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#type) to `Linear` and inject the `Trendlines` module using `Chart.Inject(Trendlines)` method.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -50,9 +60,9 @@ Set the trendline [`type`](../api/chart/trendlineModel) to `Exponential` and inj
 
 ## Logarithmic
 
-A logarithmic trendline is a best‑fit curved line suitable when the data increases or decreases quickly and then stabilizes. It supports both positive and negative values.
+A logarithmic trendline is a best-fit curved line suitable when the data increases or decreases quickly and then stabilizes. The X values used by the logarithmic calculation must be greater than zero; Y values can be positive or negative.
 
-Set [`type`](../api/chart/trendlineModel) to `Logarithmic` and inject the `Trendlines` module using `Chart.Inject(Trendlines)` method.
+Set the trendline [`type`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#type) to `Logarithmic` and inject the `Trendlines` module using `Chart.Inject(Trendlines)` method.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -69,7 +79,7 @@ Set [`type`](../api/chart/trendlineModel) to `Logarithmic` and inject the `Trend
 
 A polynomial trendline is useful when data fluctuates. It uses a curved line that can model more complex datasets.
 
-Set [`type`](../api/chart/trendlineModel) to `Polynomial` and inject the `Trendlines` module using `Chart.Inject(Trendlines)` method. Use [`polynomialOrder`](../api/chart/trendlinemodel#polynomialorder) to define the degree of the polynomial.
+Set the trendline [`type`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#type) to `Polynomial` and inject the `Trendlines` module using `Chart.Inject(Trendlines)` method. Use [`polynomialOrder`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#polynomialorder) to define the degree of the polynomial. Verify the supported order range and default value against the installed Chart version before changing this property.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -101,7 +111,7 @@ Set [`type`](../api/chart/trendlineModel) to `Power` and inject the `Trendlines`
 
 ## Moving average
 
-A moving average trendline smooths fluctuations to reveal overall trends more clearly. The [`period`](../api/chart/trendlinemodel#period) property specifies the number of data points used to calculate each average.
+A moving average trendline smooths short-term fluctuations to reveal the underlying trend. The [`period`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#period) property specifies the number of data points used to calculate each average.
 
 Set [`type`](../api/chart/trendlineModel) to `MovingAverage` and inject the `Trendlines` module using `Chart.Inject(Trendlines)` method.
 
@@ -116,9 +126,9 @@ Set [`type`](../api/chart/trendlineModel) to `MovingAverage` and inject the `Tre
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/trendlines-cs6" %}
 
-**Customization of trendline**
+## Customize a trendline
 
-Customize trendline appearance using the [`fill`](../api/chart/trendlineModel#fill-string) property for color and the [`width`](../api/chart/trendlineModel#width-number) property for line thickness.
+Customize trendline appearance using [`fill`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#fill) for color, [`width`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#width) for line thickness, and [`dashArray`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#dasharray) for the dash pattern.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -133,11 +143,14 @@ Customize trendline appearance using the [`fill`](../api/chart/trendlineModel#fi
 
 ## Forecasting
 
-Trendline forecasting extends the existing trendline to estimate future and past values.
+Use [`forwardForecast`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#forwardforecast) and [`backwardForecast`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#backwardforecast) with supported regression trendline types. Forecast lengths are interpreted in X-axis interval units. Moving-average forecasting support should be verified against the installed Chart version.
 
-**Forward forecasting**
 
-Use the [`forwardForecast`](../api/chart/trendlinemodel#forwardforecast) property to extend the trendline into the future.
+Trendline forecasting extends the rendered trendline beyond the existing data range. Forecast values use the interval units of the series X-axis.
+
+### Forward forecasting
+
+Use the [`forwardForecast`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#forwardforecast) property to extend the trendline into the future.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -150,9 +163,9 @@ Use the [`forwardForecast`](../api/chart/trendlinemodel#forwardforecast) propert
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/trendlines-cs8" %}
 
-**Backward forecasting**
+### Backward forecasting
 
-Use the [`backwardForecast`](../api/chart/trendlinemodel#backwardforecast) property to extend the trendline into past data points.
+Use the [`backwardForecast`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#backwardforecast) property to extend the trendline before the existing data range.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -167,7 +180,7 @@ Use the [`backwardForecast`](../api/chart/trendlinemodel#backwardforecast) prope
 
 ## Show or hide a trendline
 
-Control visibility using the [`visible`](../api/chart/trendlinemodel#visible) property of the trendline.
+Use the [`visible`](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel#visible) property to show or hide the trendline. The default value is `true`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -179,3 +192,22 @@ Control visibility using the [`visible`](../api/chart/trendlinemodel#visible) pr
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/trendlines-cs10" %}
+
+
+## Troubleshooting
+
+- If a trendline is not displayed, verify that it is configured inside a supported series and that `visible` is not `false`.
+- If an Exponential trendline is missing, verify that all mapped Y values are greater than zero.
+- If a Logarithmic trendline is missing, verify that all mapped X values are greater than zero.
+- If a Power trendline is missing, verify that all mapped X and Y values are greater than zero.
+- If a Moving Average trendline starts later than expected, verify that enough source points exist for the configured `period`.
+- If forecasting appears misaligned, verify the X-axis interval and the values assigned to `forwardForecast` and `backwardForecast`.
+- If a trendline legend item or tooltip is missing, verify `name`, `legendShape`, and `enableTooltip`.
+
+## See also
+
+- [Trendline API](https://ej2.syncfusion.com/documentation/api/chart/trendlinemodel)
+- [Series in JavaScript Charts](./chart-series)
+- [Tooltip in JavaScript Charts](./tool-tip)
+- [Legend in JavaScript Charts](./legend)
+- [Technical indicators in JavaScript Charts](./technical-indicators)

@@ -14,9 +14,9 @@ appliesto: UI Component Suite, Chart SDK
 
 Error bars are graphical representations of the variability of data and are used on graphs to indicate the error or uncertainty in a reported measurement.
 
-To render error bars for the series in your chart, you need to follow a few steps to configure it correctly. Here's a concise guide on how to do this:
+The error bar configuration is set on the [`errorBar`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#errorbar) property of each series. To render error bars, configure the chart as follows:
  
-* **Set visibility**: Set the [`visible`](../../api/chart/errorBarSettings#visible) property to **true** for the error bars to be displayed.
+* **Set visibility**: Set the [`visible`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#visible) property of the series `errorBar` configuration to `true` for the error bars to be displayed.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -31,7 +31,7 @@ To render error bars for the series in your chart, you need to follow a few step
 
 ## Customizing error bar
 
-To customize the error bar type, set the error bar [`type`](../../api/chart/errorBarSettings#type) to `Custom`, and then change the horizontal or vertical positive and negative error values for the error bar.
+Set the [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#type) property to choose how the error bar value is calculated. Available types are `Fixed`, `Percentage`, `StandardDeviation`, `StandardError`, and `Custom`. For custom values, also configure the horizontal and vertical positive and negative error values (`verticalError`, `horizontalError`, `verticalPositiveError`, `verticalNegativeError`, `horizontalPositiveError`, `horizontalNegativeError`).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -46,7 +46,7 @@ To customize the error bar type, set the error bar [`type`](../../api/chart/erro
 
 ## Error bar mode
 
-The error bar mode is used to define whether the error bar line is drawn horizontally, vertically or on both sides. To change the error bar mode, use the [`mode`](../../api/chart/errorBarSettings#mode) option.
+The error bar [`mode`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#mode) defines the direction in which the error bar line is drawn. Set this property to draw error bars horizontally, vertically, or on both sides. Available modes are `Vertical`, `Horizontal`, and `Both`. The default mode is `Vertical`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -61,7 +61,7 @@ The error bar mode is used to define whether the error bar line is drawn horizon
 
 ## Error bar direction
 
-To change the direction of the error bars to plus, minus, or both sides, use the [`direction`](../../api/chart/errorBarSettings#direction) property.
+Set the [`direction`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#direction) property to indicate which side of the data point the error bar is drawn on. Available directions are `Plus`, `Minus`, and `Both`. The default direction is `Both`.   
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -76,7 +76,7 @@ To change the direction of the error bars to plus, minus, or both sides, use the
 
 ## Customizing error bar cap
 
-To customize the length, width, opacity, and fill color of the error bar caps, you can use the [`errorBarCap`](../../api/chart/errorBarSettings#errorbarcap) property.
+Use the [`errorBarCap`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#errorbarcap) property to customize the length, width, and color of the error bar caps. Sub-properties include `length`, `width`, `opacity` and `color`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -91,7 +91,7 @@ To customize the length, width, opacity, and fill color of the error bar caps, y
 
 ## Customizing error bar color
 
-To customise the error bar color for individual errors, use the [`errorBarColorMapping`](../../api/chart/errorBarSettings#errorbarcolormapping) property. You can also customize the vertical error, horizontal error, horizontal negative and positive error, and vertical negative and positive error for an individual point using the [`verticalError`](../../api/chart/errorBarSettings#verticalerror), [`horizontalError`](../../api/chart/errorBarSettings#horizontalerror), [`horizontalNegativeError`](../../api/chart/errorBarSettings#horizontalnegativeerror), [`horizontalPositiveError`](../../api/chart/errorBarSettings#horizontalpositiveerror), [`verticalNegativeError`](../../api/chart/errorBarSettings#verticalnegativeerror), and [`verticalPositiveError`](../../api/chart/errorBarSettings#verticalpositiveerror) properties.
+Set the [`errorBarColorMapping`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#errorbarcolormapping) property to the name of the data field whose values determine the error bar color for each point. You can also set per-point positive and negative error values using the [`verticalPositiveError`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#verticalpositiveerror), [`verticalNegativeError`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#verticalnegativeerror), [`horizontalPositiveError`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#horizontalpositiveerror), and [`horizontalNegativeError`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#horizontalNegativeError) properties. Use [`verticalError`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#verticalerror) or [`horizontalError`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#horizontalError) when you want a single value applied to both directions per point.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -108,7 +108,7 @@ To customise the error bar color for individual errors, use the [`errorBarColorM
 
 ### Series render
 
-The [`seriesRender`](../../api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
+The [`seriesRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#seriesrender) event enables modification of series properties (for example, data, fill, or name) immediately before rendering. Use this event to adjust series appearance or to dynamically swap data sources.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -123,7 +123,7 @@ The [`seriesRender`](../../api/chart#seriesrender) event enables modification of
 
 ### Point render
 
-The [`pointRender`](../../api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
+The [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#pointrender) event provides a hook to customize each data point (for example, marker shape, border, or fill) before it is drawn. Use this to apply per-point styling rules or conditional formatting.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -136,7 +136,19 @@ The [`pointRender`](../../api/chart#pointrender) event provides a hook to custom
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-types-cs462" %}
 
+## Troubleshooting
+
+The following list describes common issues you may encounter when working with Error Bars and how to resolve them.
+
+**Error bars do not render:** Confirm the [`errorBar`](https://ej2.syncfusion.com/javascript/documentation/api/chart/series#errorbar) property is configured on each series and that its [`visible`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#visible) property is set to `true`. In JavaScript, the `ErrorBar` and series modules are loaded through the script bundle; no explicit `Chart.Inject(...)` call is required.
+
+**Custom error values do not change:** Set the error bar [`type`](https://ej2.syncfusion.com/javascript/documentation/api/chart/errorBarSettings#type) to `Custom` to enable per-point positive/negative overrides; otherwise the value is calculated from a fixed percentage or standard deviation.
+
+**Events fire but changes are not visible:** The [`seriesRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iSeriesRenderEventArgs) and [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart/iPointRenderEventArgs) events let you modify the rendered series or point. Mutate the `args` object (for example, `args.fill`) inside the handler; setting properties on the series object directly is overwritten during rendering.
+
 ## See also
 
 * [Data label](../data-labels)
 * [Tooltip](../tool-tip)
+* [Box and Whisker chart](./box-whisker)
+* [Candle chart](./candle)
