@@ -40,12 +40,21 @@ The accessibility compliance for the Blazor Range navigator component is outline
 
 ## WAI-ARIA attributes
 
-The Blazor Range Selector component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Blazor Range Selector component:
+The Blazor Range Selector uses WAI-ARIA roles and attributes to expose the component and its interactive selection handles to assistive technologies.
 
-* img (role)
-* region (role)
-* aria-label (attribute)
-* aria-hidden (attribute)
+| Element | Attribute | Usage |
+|---|---|---|
+| Range Selector | `role="region"` | Identifies the Range Selector as a region. |
+|  | `aria-label` | Provides an accessible name for the Range Selector. |
+| Selection handle | `role="slider"` | Identifies the left or right selection handle as a slider. |
+|  | `aria-label` | Identifies the corresponding selection handle. |
+|  | `aria-valuemin` | Exposes the minimum value available to the selection handle. |
+|  | `aria-valuemax` | Exposes the maximum value available to the selection handle. |
+|  | `aria-valuenow` | Exposes the current numeric value of the selection handle. |
+|  | `aria-valuetext` | Exposes the formatted value of the selection handle when the numeric value alone is not meaningful, such as a date or time. |
+| Non-informative chart element | `aria-hidden="true"` | Removes non-informative SVG elements from the accessibility tree. |
+
+N> The rendered roles and attributes can vary based on the value type, enabled features, accessibility configuration, and package version. Inspect the generated DOM and browser accessibility tree when validating an application.
 
 ## Keyboard interaction
 
