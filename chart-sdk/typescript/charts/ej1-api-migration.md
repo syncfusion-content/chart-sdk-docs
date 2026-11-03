@@ -1,7 +1,7 @@
 ---
 layout: post
-title: EJ1 to EJ2 API Migration in JavaScript Charts | Syncfusion
-description: Learn here all about API migration from Essential JS 1 to Essential JS 2 in Syncfusion JavaScript Chart control and more.
+title: EJ1 to EJ2 API Migration in TypeScript Charts | Syncfusion
+description: Learn here all about API migration from Essential JS 1 to Essential JS 2 in Syncfusion TypeScript Chart control and more.
 platform: chart-sdk
 control: EJ1 to EJ2 API Migration
 documentation: ug

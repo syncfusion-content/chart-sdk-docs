@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Polar and radar charts in TypeScript Charts | Syncfusion
+title: Polar and radar in TypeScript Charts | Syncfusion
 description: Learn here all about Polar radar in Syncfusion TypeScript Charts control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Charts 
@@ -10,23 +10,21 @@ appliesto: UI Component Suite, Chart SDK
 ---
 <!-- markdownlint-disable MD036 -->
 
-# Polar and radar charts in TypeScript Charts
+# Polar and radar in TypeScript Charts
 
-Polar and radar charts display values using angular and radial axes. Polar charts plot points on a circular coordinate system, while radar charts connect values across categories to support comparative analysis.
+## Polar Chart
 
-## Polar chart
+To render a polar series, use series [`type`](../api/chart/seriesModel#type-string) as `Polar` and inject `PolarSeries` module using `Chart.Inject(PolarSeries)` method.
 
-To render a polar series, use series [`type`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#type-string) as `Polar` and inject `PolarSeries` module using `Chart.Inject(PolarSeries)` method.
+### Draw Types
 
-### Draw types
+Polar drawType property is used to change the series plotting type to line, column, area, range column, spline, scatter, stacking area and stacking column. The default value of drawType is `Line`.
 
-Use the series `drawType` property to render a polar series as `Line`, `Column`, `Area`, `RangeColumn`, `Spline`, `Scatter`, `StackingArea`, or `StackingColumn`. The default value is `Line`.
+**Line**
 
-#### Line
+To render a line draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `Line` and inject `LineSeries` module using `Chart.Inject(LineSeries)` method.
 
-To render the line draw type, set the series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesmodel#drawtype) to `Line` and inject `LineSeries` module using `Chart.Inject(LineSeries)` method.
-
-The [`isClosed`](https://ej2.syncfusion.com/documentation/api/chart/seriesmodel#isclosed) property specifies whether the first and last points of a polar line series are connected to form a closed path. The default value is `true`.
+[`isClosed`](../api/chart/seriesModel#isclosed-boolean) property specifies whether to join start and end point of a line series used in polar chart to form a closed path. Default value of isClosed is true.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -39,9 +37,9 @@ The [`isClosed`](https://ej2.syncfusion.com/documentation/api/chart/seriesmodel#
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs162" %}
 
-#### Spline
+**Spline**
 
-To render a spline draw type, use series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `Spline` and inject `SplineSeries` module using `Chart.Inject(SplineSeries)` method.
+To render a spline draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `Spline` and inject `SplineSeries` module using `Chart.Inject(SplineSeries)` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -54,9 +52,9 @@ To render a spline draw type, use series [`drawType`](https://ej2.syncfusion.com
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs163" %}
 
-#### Area
+**Area**
 
-To render a area draw type, use series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `Area` and inject `AreaSeries` module using `Chart.Inject(AreaSeries)` method.
+To render a area draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `Area` and inject `AreaSeries` module using `Chart.Inject(AreaSeries)` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -69,9 +67,9 @@ To render a area draw type, use series [`drawType`](https://ej2.syncfusion.com/d
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs164" %}
 
-#### Stacked area
+**Stacked Area**
 
-To render a stacked area draw type, use series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `StackingArea` and inject `StackingAreaSeries` module using `Chart.Inject(StackingAreaSeries)` method.
+To render a stacked area draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `StackingArea` and inject `StackingAreaSeries` moduleusing `Chart.Inject(StackingAreaSeries)` method.
  
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -84,9 +82,9 @@ To render a stacked area draw type, use series [`drawType`](https://ej2.syncfusi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs165" %}
 
-#### Column
+**Column**
 
-To render a column draw type, use series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `Column`.
+To render a column draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `Column`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -99,9 +97,9 @@ To render a column draw type, use series [`drawType`](https://ej2.syncfusion.com
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs166" %}
 
-#### Stacked column
+**Stacked Column**
 
-To render a stacked column draw type, use series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `StackingColumn`.
+To render a stacked column draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `StackingColumn`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -114,9 +112,9 @@ To render a stacked column draw type, use series [`drawType`](https://ej2.syncfu
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs167" %}
 
-#### Range column
+**Range Column**
 
-To render a range column draw type, use series [`drawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `RangeColumn`.
+To render a range column draw type, use series [`drawType`](../api/chart/seriesModel#drawtype-string) as `RangeColumn`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -129,9 +127,9 @@ To render a range column draw type, use series [`drawType`](https://ej2.syncfusi
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs168" %}
 
-#### Scatter
+**Scatter**
 
-To render a scatter draw type, use series [`DrawType`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#drawtype-string) as `Scatter` and inject `ScatterSeries` module using `Chart.Inject(ScatterSeries)` method.
+To render a scatter draw type, use series [`DrawType`](../api/chart/seriesModel#drawtype-string) as `Scatter` and inject `ScatterSeries` module using `Chart.Inject(ScatterSeries)` method.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -144,13 +142,13 @@ To render a scatter draw type, use series [`DrawType`](https://ej2.syncfusion.co
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs169" %}
 
-## Radar chart
+## Radar Chart
 
-To render a radar series, use series [`type`](https://ej2.syncfusion.com/documentation/api/chart/seriesModel#type-string) as `Radar` and inject `PolarSeries` module using `Chart.Inject(RadarSeries)` method.
+To render a radar series, use series [`type`](../api/chart/seriesModel#type-string) as `Radar` and inject `PolarSeries` module using `Chart.Inject(RadarSeries)` method.
 
-### Draw type
+### Draw Type
 
-Similar to a polar series, use the `drawType` property to render a radar series as `Line`, `Column`, `Area`, `RangeColumn`, `Spline`, `Scatter`, `StackingArea`, or `StackingColumn`. The default value is `Line`.
+similar to Polar drawType, Radar draw property is used to change the series plotting type to line, column, area, range column, spline, scatter, stacking area and stacking column. The default value of drawType is `Line`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -163,11 +161,11 @@ Similar to a polar series, use the `drawType` property to render a radar series 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs170" %}
 
-## Axis customization
+### Customization
 
-### Start angle
+**Start Angle**
 
-Use the [`startAngle`](https://ej2.syncfusion.com/documentation/api/chart/axis#startangle) property of the primary X-axis to rotate the polar or radar chart. The default value is `0` degrees.
+You can customize the start angle of the polar series using [`startAngle`](../api/chart/axis#startangle-number) property. By default, `startAngle` is 0 degree.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -180,9 +178,9 @@ Use the [`startAngle`](https://ej2.syncfusion.com/documentation/api/chart/axis#s
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs171" %}
 
-### Axis coefficient
+**Coefficient in axis**
 
-Use the [`coefficient`](https://ej2.syncfusion.com/documentation/api/chart/axis#coefficient) property of the primary X-axis to control the radius of the polar or radar chart. The default value is `100`.
+You can customize the radius of the polar series using [`coefficient`](../api/chart/axis#coefficient-number) property. By default, `coefficient` is 100.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -195,9 +193,7 @@ Use the [`coefficient`](https://ej2.syncfusion.com/documentation/api/chart/axis#
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/chart-types-cs172" %}
 
-## See also
+## See Also
 
-- [Getting started with JavaScript Charts](./getting-started)
-- [Appearance in JavaScript Charts](./appearance)
-- [Print and export in JavaScript Charts](./chart-print)
-- [Feature modules in JavaScript Charts](./feature-modules)
+* [Data label](./data-labels)
+* [Tooltip](./tool-tip)
