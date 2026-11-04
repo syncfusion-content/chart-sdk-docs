@@ -43,7 +43,7 @@ Install the following before you start.
 
 Verify your environment:
 
-```bash
+```
 node -v
 npm -v
 ```
@@ -54,7 +54,7 @@ The `@syncfusion/ej2-data` and `@syncfusion/ej2-react-charts` versions should ma
 
 ## Project Structure
 
-```text
+```
 GraphQLChartDemo
 │
 ├── Server
@@ -90,7 +90,7 @@ The backend exposes chart data at `http://localhost:4000/graphql`. The React cli
 
 **Create the project and install packages:**
 
-```bash
+```
 mkdir GraphQLChartDemo
 cd GraphQLChartDemo
 mkdir Server
@@ -102,7 +102,7 @@ npm install -D typescript ts-node-dev @types/node @types/express @types/cors
 
 **`Server/package.json`** — scripts and dependencies:
 
-```json
+```
 {
   "name": "chart-graphql-server",
   "version": "1.0.0",
@@ -132,13 +132,13 @@ npm install -D typescript ts-node-dev @types/node @types/express @types/cors
 
 Reinstall the dependencies after editing the file:
 
-```bash
+```
 npm install
 ```
 
 **`Server/tsconfig.json`** — TypeScript config:
 
-```json
+```
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -159,7 +159,7 @@ The `ignoreDeprecations: "6.0"` option silences the `moduleResolution=node10` wa
 
 **`Server/src/data.ts`** — the in-memory dataset consumed by the resolver:
 
-```ts
+```
 export interface MonthlySales {
   id: number;
   month: string;
@@ -205,7 +205,7 @@ type Query {
 
 **`Server/src/server.ts`** — the Express + graphql-http server. `cors()` lets the frontend call the API. The schema is loaded at runtime from `schema.graphql`, and `getMonthlySales` returns `{ result, count }` to match `MonthlySalesReturnType`:
 
-```ts
+```
 import express from "express";
 import cors from "cors";
 import { readFileSync } from "fs";
@@ -279,7 +279,7 @@ The React client uses a Syncfusion `DataManager` configured with a `GraphQLAdapt
 
 **Create the React app and install Syncfusion packages:**
 
-```bash
+```
 cd ../
 npm create vite@latest Client -- --template react-ts
 cd Client
@@ -289,7 +289,7 @@ npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 
 **`Client/vite.config.ts`** — dev server on port `5176`:
 
-```ts
+```
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -324,7 +324,7 @@ export default defineConfig({
 
 **`Client/src/main.tsx`** — Vite default entry. The `react-ts` template generates this file; you do not need to edit it:
 
-```tsx
+```
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -339,7 +339,7 @@ createRoot(document.getElementById('root')!).render(
 
 **`Client/src/App.tsx`** — page shell that hosts the chart:
 
-```tsx
+```
 import ChartGraphQL from "./ChartGraphQL";
 
 function App() {
@@ -367,7 +367,7 @@ export default App;
 
 **`Client/src/ChartGraphQL.tsx`** — wires the `DataManager` + `GraphQLAdaptor` to the Chart. The query runs once on mount; the response is parsed by the adaptor's `response.result` / `response.count` mapping, and the data is assigned to both series via `chartRef` followed by `refresh()`:
 
-```tsx
+```
 import React, { useEffect, useRef } from 'react';
 
 import {
@@ -522,19 +522,19 @@ export default ChartGraphQL;
 
 **Step 1 — Start the backend** (in a terminal from the `Server` folder):
 
-```bash
+```
 npm run dev
 ```
 
 You should see:
 
-```text
+```
 GraphQL server running at http://localhost:4000/graphql
 ```
 
 Open the following URL in a browser to verify the endpoint. (A `Missing query` response is expected when the endpoint is hit without a query string — use the URL below to send one inline.)
 
-```text
+```
 http://localhost:4000/graphql?query=%7BgetMonthlySales%7Bcount%20result%7Bid%20month%20sales%20expenses%7D%7D%7D
 ```
 
@@ -542,7 +542,7 @@ The React client uses a `POST` request with a JSON body, not a `GET` like the te
 
 **Step 2 — Start the frontend** (in a separate terminal from the `Client` folder):
 
-```bash
+```
 npm run dev
 ```
 
@@ -550,7 +550,7 @@ Vite opens the dev server at `http://localhost:5176`. The page should display th
 
 **Production build**
 
-```bash
+```
 # Backend (Server folder) - remember to copy schema.graphql to dist/
 npm run build && npm start
 
@@ -562,7 +562,7 @@ npm run build && npm run preview
 
 ## Data Flow
 
-```text
+```
 Syncfusion React Chart
         ↓
 DataManager + GraphQLAdaptor

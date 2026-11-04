@@ -13,7 +13,7 @@ let chart: Chart = new Chart({
         dataSource: polarCategory,
         xName: 'x', yName: 'y',
         // Series type as Polar series
-        type: 'Polar'
+        type: 'Polar',
         // Series draw type as scatter
         drawType: 'Scatter'
     }],

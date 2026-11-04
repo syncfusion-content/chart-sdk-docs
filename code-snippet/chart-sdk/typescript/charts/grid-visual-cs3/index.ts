@@ -1,54 +1,181 @@
+import {
+    AccumulationChart,
+    PieSeries,
+    AccumulationDataLabel,
+    AccumulationTooltip,
+    AccumulationLegend
+} from '@syncfusion/ej2-charts';
+import {
+    Grid,
+    Page,
+    Filter,
+    Sort,
+    ActionEventArgs
+} from '@syncfusion/ej2-grids';
 
+AccumulationChart.Inject(
+    PieSeries,
+    AccumulationDataLabel,
+    AccumulationTooltip,
+    AccumulationLegend
+);
 
-import { Grid, Filter, Page, Selection, ActionEventArgs } from '@syncfusion/ej2-grids';
-import { orderData } from './datasource.ts';
-import { AccumulationChart, ColumnSeries, DateTime, Category, AccumulationDataLabel } from '@syncfusion/ej2-charts';
-AccumulationChart.Inject(ColumnSeries, DateTime, Category, AccumulationDataLabel);
+Grid.Inject(Page, Filter, Sort);
 
-Grid.Inject(Filter, Page, Selection);
-let chart: AccumulationChart;
-let filtertype: { [key: string]: Object }[] = [
-    { id: 'Menu', type: 'Menu' },
-    { id: 'CheckBox', type: 'CheckBox' },
-    { id: 'Excel', type: 'Excel' }
+interface OrderData {
+    OrderID: number;
+    CustomerName: string;
+    OrderDate: Date;
+    Freight: number;
+}
+
+const orderData: OrderData[] = [
+    { OrderID: 10248, CustomerName: 'Paul Henriot', OrderDate: new Date(2026, 0, 3), Freight: 32.38 },
+    { OrderID: 10249, CustomerName: 'Karin Josephs', OrderDate: new Date(2026, 0, 5), Freight: 11.61 },
+    { OrderID: 10250, CustomerName: 'Mario Pontes', OrderDate: new Date(2026, 0, 8), Freight: 65.83 },
+    { OrderID: 10251, CustomerName: 'Mary Saveley', OrderDate: new Date(2026, 0, 12), Freight: 41.34 },
+    { OrderID: 10252, CustomerName: 'Paul Henriot', OrderDate: new Date(2026, 0, 15), Freight: 51.30 },
+    { OrderID: 10253, CustomerName: 'Carlos Hernandez', OrderDate: new Date(2026, 0, 18), Freight: 58.17 },
+    { OrderID: 10254, CustomerName: 'Yang Wang', OrderDate: new Date(2026, 0, 22), Freight: 22.98 },
+    { OrderID: 10255, CustomerName: 'Karin Josephs', OrderDate: new Date(2026, 0, 25), Freight: 148.33 },
+    { OrderID: 10256, CustomerName: 'Hari Kumar', OrderDate: new Date(2026, 0, 28), Freight: 13.97 },
+    { OrderID: 10257, CustomerName: 'Mario Pontes', OrderDate: new Date(2026, 1, 2), Freight: 81.91 },
+    { OrderID: 10258, CustomerName: 'Mary Saveley', OrderDate: new Date(2026, 1, 5), Freight: 140.51 },
+    { OrderID: 10259, CustomerName: 'Carlos Hernandez', OrderDate: new Date(2026, 1, 9), Freight: 3.25 }
 ];
 
-let grid: Grid = new Grid(
-    {
-        dataSource: orderData,
-        allowPaging: true,
-        allowFiltering: true,
-        filterSettings: { type: 'Menu' },
-        columns: [
-            { field: 'OrderID', headerText: 'Order ID', width: 120, textAlign: 'Right' },
-            { field: 'CustomerName', headerText: 'Customer Name', width: 150 },
-            {
-                field: 'OrderDate', headerText: 'Order Date', width: 130,
-                format: { type: 'dateTime', format: 'M/d/y hh:mm a' }, textAlign: 'Right'
-            },
-            { field: 'Freight', width: 120, format: 'C2', textAlign: 'Right' }
-        ],
-        pageSettings: { pageCount: 5 },
-        dataBound: () => {
-            chart = new AccumulationChart({
-                series: [
-                    {
-                        dataSource: grid.getCurrentViewRecords(),
-                        type: 'Pie',
-                        xName: 'CustomerName',
-                        yName: 'Freight', dataLabel: { visible: true }
-                    }
-                ]
-            });
-            chart.appendTo('#Chart');
+const chart: AccumulationChart = new AccumulationChart({
+    series: [{
+        type: 'Pie',
+        dataSource: [],
+        xName: 'CustomerName',
+        yName: 'Freight',
+        name: 'Freight by customer',
+        dataLabel: {
+            visible: true,
+            name: 'Label',
+            position: 'Outside'
         },
-        actionComplete: (args: ActionEventArgs) => {
-            if (args.requestType === 'paging') {
-                chart.series[0].dataSource = grid.getCurrentViewRecords();
-                chart.refresh();
-            }
+        animation: {
+            enable: false
         }
+    }],
+    legendSettings: {
+        visible: true,
+        position: 'Bottom'
+    },
+    tooltip: {
+        enable: true,
+        format: '${point.x}: ${point.y}'
+    },
+    title: 'Freight for the Current Grid View'
+});
+
+chart.appendTo('#Chart');
+
+let grid: Grid;
+
+function aggregateFreight(records: OrderData[]): Object[] {
+    const totals: { [key: string]: number } = {};
+    const result: Object[] = [];
+
+    for (let i: number = 0; i < records.length; i++) {
+        const customer: string = records[i].CustomerName;
+        const freight: number = Number(records[i].Freight);
+
+        if (!customer || !isFinite(freight)) {
+            continue;
+        }
+
+        totals[customer] = (totals[customer] || 0) + freight;
+    }
+
+    Object.keys(totals).forEach((customer: string) => {
+        result.push({
+            CustomerName: customer,
+            Freight: Number(totals[customer].toFixed(2)),
+            Label: customer + ': $' + totals[customer].toFixed(2)
+        });
     });
+
+    return result;
+}
+
+function updatePieFromGrid(): void {
+    const currentRecords: OrderData[] =
+        grid.getCurrentViewRecords() as OrderData[];
+
+    const pieData: Object[] = aggregateFreight(currentRecords);
+
+    chart.series[0].dataSource = pieData;
+    chart.refresh();
+
+    (document.getElementById('recordStatus') as HTMLElement).textContent =
+        pieData.length
+            ? pieData.length + ' customer categories displayed in the Pie Chart.'
+            : 'No Grid records are available for the Pie Chart.';
+}
+
+grid = new Grid({
+    dataSource: orderData,
+    allowPaging: true,
+    allowFiltering: true,
+    allowSorting: true,
+    filterSettings: {
+        type: 'Menu'
+    },
+    pageSettings: {
+        pageSize: 6
+    },
+    columns: [
+        {
+            field: 'OrderID',
+            headerText: 'Order ID',
+            width: 110,
+            textAlign: 'Right',
+            isPrimaryKey: true
+        },
+        {
+            field: 'CustomerName',
+            headerText: 'Customer Name',
+            width: 170
+        },
+        {
+            field: 'OrderDate',
+            headerText: 'Order Date',
+            width: 130,
+            type: 'date',
+            format: 'yMd',
+            textAlign: 'Right'
+        },
+        {
+            field: 'Freight',
+            headerText: 'Freight',
+            width: 110,
+            type: 'number',
+            format: 'C2',
+            textAlign: 'Right'
+        }
+    ],
+    dataBound: (): void => {
+        updatePieFromGrid();
+    },
+    actionComplete: (args: ActionEventArgs): void => {
+        const chartActions: string[] = [
+            'paging',
+            'filtering',
+            'sorting',
+            'searching',
+            'refresh'
+        ];
+
+        if (
+            args.requestType &&
+            chartActions.indexOf(args.requestType) !== -1
+        ) {
+            updatePieFromGrid();
+        }
+    }
+});
+
 grid.appendTo('#Grid');
-
-

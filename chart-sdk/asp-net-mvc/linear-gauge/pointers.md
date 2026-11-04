@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pointers in Syncfusion ASP.NET MVC Linear Gauge | Syncfusion
+title: Pointers in ASP.NET MVC Linear Gauge | Syncfusion
 description: Learn here all about Pointers in Syncfusion ASP.NET MVC Linear Gauge component of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Pointers
@@ -108,7 +108,7 @@ The marker pointer can be customized using the following properties and class.
 * [Position](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Position) -  The position of the pointer can be changed by setting the value as **Inside**, **Outside**, **Cross**, or **Auto**.
 * [Width](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Width) - To set the width of the pointer.
 * [Color](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Color) - To set the color of the pointer.
-* [Placement](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Placement) - To place the pointer in the specified position. By default, the pointer is placed **Far** from the axis. To change the placement, set the [Placement](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Placement) property as **Near**, **Center**, or **None**.
+* [Placement](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Placement) - To place the pointer in the specified position. By default, the pointer is placed **Far** from the axis. To change the placement, set the [Placement](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Placement) property as **Near**, **Center**, or **None**.
 * [Offset](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Offset) - To place the pointer with specified distance from the axis.
 * [Opacity](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_Opacity) - To set the opacity of the pointer.
 * [AnimationDuration](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugePointer.html#Syncfusion_EJ2_LinearGauge_LinearGaugePointer_AnimationDuration) - To specify the duration of the animation in pointer.

@@ -1,29 +1,31 @@
-<!DOCTYPE html><html lang="en"><head>
-    <title>EJ2 Animation</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Typescript UI Controls">
-    <meta name="author" content="Syncfusion">
-    <link href="index.css" rel="stylesheet">
-    
-    
-<script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
-</head>
+    <title>Exact Date Range in Chart</title>
+    <script src="https://cdn.syncfusion.com/ej2/35.1.37/dist/ej2.min.js"></script>
+    <style>
+        .chart-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
 
+        #element {
+            height: 360px;
+        }
+    </style>
+</head>
 <body>
-    
-    <div id="container">
-            <button id="lastdata">Last Month</button>
-            <button id="chartmode">Switch To Hour</button>
-        <div id="element" style="height: 300px"></div>
+    <div class="chart-actions">
+        <button id="showLastMonth" type="button">Show Last Month</button>
+        <button id="showLastDay" type="button">Show Last Day</button>
+        <button id="resetRange" type="button">Reset Range</button>
     </div>
 
-
-<script>
-var ele = document.getElementById('container');
-if(ele) {
-  ele.style.visibility = "visible";
-}   
-      </script>
-<script src="index.js" type="text/javascript"></script>
-</body></html>
+    <div id="element"></div>
+    <script src="index.js"></script>
+</body>
+</html>

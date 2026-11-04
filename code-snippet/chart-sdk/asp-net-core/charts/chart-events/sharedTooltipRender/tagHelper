@@ -1,0 +1,22 @@
+
+<ejs-chart id="container" title="Monthly Sales" sharedTooltipRender="sharedTooltipRenderHandler">
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Month"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Sales"></e-chart-primaryyaxis>
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.DateTime"></e-chart-primaryxaxis>
+    <e-chart-tooltipsettings enable="true" shared="true"></e-chart-tooltipsettings>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="China" xName="x" yName="y" width="2"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.StepLine">
+            <e-series-marker visible="true" width="10" height="10"></e-series-marker>
+        </e-series>
+        <e-series dataSource="ViewBag.dataSource" name="USA" xName="x" yName="y1"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column">
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
+
+<script>
+    function sharedTooltipRenderHandler(args) {
+        console.log('sharedTooltipRender event was triggered');
+    }
+</script>

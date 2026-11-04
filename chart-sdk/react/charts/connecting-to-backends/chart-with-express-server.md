@@ -28,7 +28,7 @@ This documentation explains how to connect the **Syncfusion® React Chart** comp
 
 To verify the installed versions, run the following commands:
 
-```bash
+```
 node -v
 npm -v
 ```
@@ -37,7 +37,7 @@ npm -v
 
 ## Application architecture
 
-```text
+```
 Backend: Express.js server
     - Provides REST API endpoint for chart data
     - Handles server-side data response formatting
@@ -60,14 +60,14 @@ Data model: Monthly sales record (`SalesData` interface)
 
 Open **Visual Studio Code**, then open a new terminal and run the following commands:
 
-```bash
+```
 mkdir ej2-react-chart-with-express-js
 cd ej2-react-chart-with-express-js
 ```
 
 The project will contain two applications:
 
-```text
+```
 ej2-react-chart-with-express-js/
 ├── server/
 └── ChartClient/
@@ -83,26 +83,26 @@ The Express.js backend acts as a REST API service. In this sample, the backend r
 
 Run the following commands from the project root folder:
 
-```bash
+```
 mkdir server
 cd server
 ```
 
 Initialize the Node.js project:
 
-```bash
+```
 npm init -y
 ```
 
 Install required runtime packages:
 
-```bash
+```
 npm install express cors
 ```
 
 Install development packages:
 
-```bash
+```
 npm install -D typescript ts-node nodemon @types/express @types/cors @types/node
 ```
 
@@ -119,7 +119,7 @@ Package details:
 
 Run the following commands inside the `server` folder:
 
-```bash
+```
 mkdir src
 mkdir src/controllers
 mkdir src/routes
@@ -129,7 +129,7 @@ mkdir src/utils
 
 The backend folder structure should look like this:
 
-```text
+```
 server/
 ├── src/
 │   ├── controllers/
@@ -146,13 +146,13 @@ server/
 
 Create a TypeScript configuration file:
 
-```bash
+```
 npx tsc --init
 ```
 
 Replace the content of `server/tsconfig.json` with the following code:
 
-```json
+```
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -180,7 +180,7 @@ Replace the content of `server/tsconfig.json` with the following code:
 
 Open `server/package.json` and update the `scripts` section:
 
-```json
+```
 {
   "scripts": {
     "dev": "nodemon --watch src --ext ts --exec \"ts-node src/server.ts\"",
@@ -192,7 +192,7 @@ Open `server/package.json` and update the `scripts` section:
 
 A complete `package.json` example is shown below:
 
-```json
+```
 {
   "name": "chart-express-server",
   "version": "1.0.0",
@@ -229,13 +229,13 @@ A complete `package.json` example is shown below:
 
 Create the following file:
 
-```text
+```
 server/src/types/interface.ts
 ```
 
 Add the following code:
 
-```ts
+```
 export interface SalesData {
   month: string;
   sales: number;
@@ -268,13 +268,13 @@ The `SalesData` interface defines the chart data model. The `DataManagerRequest`
 
 Create the following file:
 
-```text
+```
 server/src/utils/data.ts
 ```
 
 Add the following code:
 
-```ts
+```
 import { SalesData } from '../types/interface';
 
 export const salesData: SalesData[] = [
@@ -301,13 +301,13 @@ This data is stored in memory for learning and testing. In a real application, t
 
 Create the following file:
 
-```text
+```
 server/src/controllers/chart.controller.ts
 ```
 
 Add the following code:
 
-```ts
+```
 import { Request, Response } from 'express';
 import { salesData } from '../utils/data';
 import { DataManagerRequest, SalesData } from '../types/interface';
@@ -537,13 +537,13 @@ The controller returns data in the `result` and `count` format. This response fo
 
 Create the following file:
 
-```text
+```
 server/src/routes/chart.routes.ts
 ```
 
 Add the following code:
 
-```ts
+```
 import { Router } from 'express';
 import { getChartData } from '../controllers/chart.controller';
 
@@ -570,13 +570,13 @@ The `GET` route is useful for testing the API directly in a browser. The `POST` 
 
 Create the following file:
 
-```text
+```
 server/src/server.ts
 ```
 
 Add the following code:
 
-```ts
+```
 import express, { Application } from 'express';
 import cors from 'cors';
 import chartRoutes from './routes/chart.routes';
@@ -615,13 +615,13 @@ export default app;
 
 Open the following URL in a browser to confirm the API responds with the chart data:
 
-```text
+```
 http://localhost:5000/api/chart-sales
 ```
 
 A successful response looks like the sample below (the array shown is the first 2 of 12 records):
 
-```json
+```
 {
   "result": [
     {
@@ -651,25 +651,25 @@ The React frontend uses the Syncfusion React Chart component to visualize remote
 
 Go back to the project root folder:
 
-```bash
+```
 cd ..
 ```
 
 Create the React application:
 
-```bash
+```
 npm create vite@latest ChartClient --template react-ts
 ```
 
 Navigate to the React project:
 
-```bash
+```
 cd ChartClient
 ```
 
 Install dependencies:
 
-```bash
+```
 npm install
 ```
 
@@ -679,7 +679,7 @@ npm install
 
 Install the Syncfusion React Chart package and DataManager package:
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 ```
 
@@ -689,14 +689,14 @@ npm install @syncfusion/ej2-react-charts @syncfusion/ej2-data
 
 Run the following commands inside the `ChartClient` folder:
 
-```bash
+```
 mkdir src/components
 mkdir src/services
 ```
 
 The frontend folder structure should look like this:
 
-```text
+```
 ChartClient/
 ├── src/
 │   ├── components/
@@ -716,13 +716,13 @@ ChartClient/
 
 Create the following file:
 
-```text
+```
 ChartClient/src/services/dataManager.ts
 ```
 
 Add the following code:
 
-```ts
+```
 import { DataManager, UrlAdaptor } from '@syncfusion/ej2-data';
 
 const API_BASE_URL = 'http://localhost:5000/api/chart-sales';
@@ -741,13 +741,13 @@ The DataManager sends a request to the Express.js API. The UrlAdaptor processes 
 
 Create the following file:
 
-```text
+```
 ChartClient/src/components/SalesChart.tsx
 ```
 
 Add the following code:
 
-```tsx
+```
 import React from 'react';
 import {
   ChartComponent,
@@ -821,13 +821,13 @@ The Chart uses `xName="month"` for the horizontal axis and `yName="sales"` for t
 
 Open the following file:
 
-```text
+```
 ChartClient/src/App.tsx
 ```
 
 Replace the content with the following code:
 
-```tsx
+```
 import SalesChart from './components/SalesChart';
 import './App.css';
 
@@ -853,13 +853,13 @@ Syncfusion React Chart depends on a bundled style sheet. Import the CSS in `Char
 
 Open the following file:
 
-```text
+```
 ChartClient/src/index.css
 ```
 
 Replace the content with the following code:
 
-```css
+```
 @import '@syncfusion/ej2-react-charts/styles/material.css';
 
 #root {
@@ -867,7 +867,7 @@ Replace the content with the following code:
 }
 ```
 
-> Replace `material.css` with another available theme (`bootstrap5.css`, `tailwind.css`, `fabric.css`, `highcontrast.css`, etc.) if your design requires it. Themes are listed at `node_modules/@syncfusion/ej2-react-charts/styles/`.
+> Replace `material.css` with another available theme (`bootstrap5.css`, `tailwind.css`, `fabric.css`, etc.) if your design requires it. Themes are listed at `node_modules/@syncfusion/ej2-react-charts/styles/`.
 
 ---
 
@@ -875,13 +875,13 @@ Replace the content with the following code:
 
 Open the following file:
 
-```text
+```
 ChartClient/src/main.tsx
 ```
 
 Replace the content with the following code:
 
-```tsx
+```
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -900,7 +900,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
 After running `npm run dev`, Vite reports the local URL. By default it is:
 
-```text
+```
 http://localhost:5173/
 ```
 
@@ -908,20 +908,20 @@ http://localhost:5173/
 
 ## Running the sample
 
-You need two terminals: one for the Express backend (port `5000`) and one for the Vite dev server (port `5173`). The backend must be running **before** the frontend opens, otherwise the chart receives no data.
+You need two terminals: one for the Express backend (port `5000`) and one for the Vite development server (port `5173`). The backend must be running **before** the frontend opens, otherwise the chart receives no data.
 
 ### Step 1: Start the backend
 
 In the first terminal, from the project root:
 
-```bash
+```
 cd server
 npm run dev
 ```
 
 You should see:
 
-```text
+```
 Server is running at http://localhost:5000
 Chart API endpoint: http://localhost:5000/api/chart-sales
 ```
@@ -930,7 +930,7 @@ Leave this terminal running. `nodemon` watches `src/` and restarts the server au
 
 To verify the API quickly, open `http://localhost:5000/api/chart-sales` in a browser or run:
 
-```bash
+```
 curl http://localhost:5000/api/chart-sales
 ```
 
@@ -938,7 +938,7 @@ curl http://localhost:5000/api/chart-sales
 
 In the second terminal, from the project root:
 
-```bash
+```
 cd ChartClient
 npm run dev
 ```
@@ -953,14 +953,14 @@ To stop either process, switch to its terminal and press `Ctrl+C`. To stop both,
 
 If you prefer a single-command workflow from the project root, install `concurrently` and add a root `package.json`:
 
-```bash
+```
 npm init -y
 npm install -D concurrently
 ```
 
 Then add to the root `package.json`:
 
-```json
+```
 {
   "scripts": {
     "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix ChartClient run dev\""
@@ -974,7 +974,7 @@ Now `npm run dev` from the project root starts the backend and frontend together
 
 To produce optimized builds:
 
-```bash
+```
 cd server && npm run build
 cd ../ChartClient && npm run build
 ```
@@ -1001,14 +1001,14 @@ Check the following:
 
 Make sure `server/src/routes/chart.routes.ts` wires both methods to the controller, for example:
 
-```ts
+```
 router.get('/', getChartData);
 router.post('/', getChartData);
 ```
 
 Also verify that `server/src/server.ts` contains:
 
-```ts
+```
 app.use('/api/chart-sales', chartRoutes);
 ```
 
@@ -1018,7 +1018,7 @@ app.use('/api/chart-sales', chartRoutes);
 
 Make sure the Express server contains the following CORS configuration:
 
-```ts
+```
 app.use(
   cors({
     origin: '*',
@@ -1034,13 +1034,13 @@ app.use(
 
 Change the port in `server/src/server.ts`:
 
-```ts
+```
 const PORT = 5001;
 ```
 
 Then update the frontend API URL in `ChartClient/src/services/dataManager.ts`:
 
-```ts
+```
 const API_BASE_URL = 'http://localhost:5001/api/chart-sales';
 ```
 

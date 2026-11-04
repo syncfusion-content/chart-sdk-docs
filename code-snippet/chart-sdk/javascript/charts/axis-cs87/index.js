@@ -14,8 +14,7 @@ var chart = new ej.charts.Chart({
     primaryYAxis: {
         valueType: 'Double',
         title: 'Runs',
-        //RangePadding as additional in Y Axis
-        rangePadding: 'Additional'
+        rangePadding: 'Normal'
     },
     series:[{
         dataSource: chartData,

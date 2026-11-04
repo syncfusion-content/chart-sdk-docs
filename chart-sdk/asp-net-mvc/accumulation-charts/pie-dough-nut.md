@@ -13,7 +13,7 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Pie Chart
 
-To render a pie series, use the series [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Pie`.
+To render a pie series, use the series [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Pie`.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -28,7 +28,7 @@ To render a pie series, use the series [`Type`](https://help.syncfusion.com/cr/a
 
 ## Radius Customization
 
-By default, radius of the pie series will be 80% of the size (minimum of chart width and height). You can customize this using [`Radius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Radius) property of the series.
+By default, radius of the pie series will be 80% of the size (minimum of chart width and height). You can customize this using [`Radius`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Radius) property of the series.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -43,7 +43,7 @@ By default, radius of the pie series will be 80% of the size (minimum of chart w
 
 ## Pie Center
 
-The center position of the pie can be changed by Center X and Center Y. By default, center value of the pie series x and y is 50%. You can customize this using [`Center`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_Center) property of the series.
+The center position of the pie can be changed by Center X and Center Y. By default, center value of the pie series x and y is 50%. You can customize this using [`Center`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_Center) property of the series.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -58,7 +58,7 @@ The center position of the pie can be changed by Center X and Center Y. By defau
 
 ## Various Radius Pie Chart
 
-You can use radius mapping to render the slice with different [`Radius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Radius) pie and also use [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Border) , fill properties to customize the point. dataLabel is used to represent individual data and its value.
+You can use radius mapping to render the slice with different [`Radius`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Radius) pie and also use [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Border) , fill properties to customize the point. dataLabel is used to represent individual data and its value.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -73,7 +73,7 @@ You can use radius mapping to render the slice with different [`Radius`](https:/
 
 ## Doughnut Chart
 
-To achieve a doughnut in pie series, customize the [`InnerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_InnerRadius) property of the series. By setting value greater than 0%, a doughnut will appear. The `InnerRadius` property takes value from 0% to 100% of the pie radius.
+To achieve a doughnut in pie series, customize the [`InnerRadius`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_InnerRadius) property of the series. By setting value greater than 0%, a doughnut will appear. The `InnerRadius` property takes value from 0% to 100% of the pie radius.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -102,7 +102,7 @@ You can create multiple doughnut within a single chart by adding multiple series
 
 ## Start and End angles
 
-You can customize the start and end angle of the pie series using the [`StartAngle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_StartAngle) and [`EndAngle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_EndAngle) properties. The default value of `StartAngle` is 0 degree, and `EndAngle` is 360 degrees. By customizing this, you can achieve a semi pie series.
+You can customize the start and end angle of the pie series using the [`StartAngle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_StartAngle) and [`EndAngle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_EndAngle) properties. The default value of `StartAngle` is 0 degree, and `EndAngle` is 360 degrees. By customizing this, you can achieve a semi pie series.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

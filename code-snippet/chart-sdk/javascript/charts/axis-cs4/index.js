@@ -11,8 +11,8 @@ var chartData = [
 var chart = new ej.charts.Chart({
     primaryXAxis: {
         valueType: 'Category',
-        // label placement as on ticks
-        labelPlacement: 'OnTicks',
+        // label position as inside
+        labelPosition: 'Inside',
         title: 'Countries'
     },
     primaryYAxis: {

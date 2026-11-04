@@ -11,8 +11,10 @@ var chartData = [
 var chart = new ej.charts.Chart({
     primaryXAxis: {
         valueType: 'Category',
-        // label placement as on ticks
-        labelPlacement: 'OnTicks',
+        // Customize visible range using minimum, maximum, and interval
+        minimum: 1,
+        maximum: 5,
+        interval: 1,
         title: 'Countries'
     },
     primaryYAxis: {

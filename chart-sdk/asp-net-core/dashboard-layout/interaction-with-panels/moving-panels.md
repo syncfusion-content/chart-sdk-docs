@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Moving Panels in ASP.NET Core Dashboard Layout control
+title: Moving Panels in ASP.NET Core Dashboard Layout control | Syncfusion
 description: Learn here all about Moving Panels in Syncfusion ASP.NET Core Dashboard Layout control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Moving Panels
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
 
-# Moving of panels programatically
+# Moving of panels in ASP.NET Core Dashboard Layout Control
 
-Other than drag and drop, it is possible to move the panels in Dashboard Layout programatically. This can be achieved using `movePanel` method. The method is invoked as follows,
+Other than drag and drop, it is possible to move the panels in Dashboard Layout programmatically. This can be achieved using `movePanel` method. The method is invoked as follows,
 
 ```js
 movePanel(id, row, col)
@@ -23,9 +22,9 @@ Where,
 * row - New row position for moving the panel.
 * col - New column position for moving the panel.
 
-Each time a panel's position is changed (Programatically or through UI interaction), the Dashboard Layout's [`change`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Change.html) event will be triggered.
+Each time a panel's position is changed (Programmatically or through UI interaction), the Dashboard Layout's [`change`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayout.html#Syncfusion_EJ2_Layouts_DashboardLayout_Change) event will be triggered.
 
-The following sample demonstrates moving a panel programatically to a new position in the Dashboard Layout's [created](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Created.html) event.
+The following sample demonstrates moving a panel programmatically to a new position in the Dashboard Layout's [created](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Layouts.DashboardLayout.html#Syncfusion_EJ2_Layouts_DashboardLayout_Created) event.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -38,4 +37,4 @@ The following sample demonstrates moving a panel programatically to a new positi
 
 ![Moving of panels](./../images/moving.PNG)
 
-N> You can refer to our [ASP.NET Core Dashboard Layout](https://www.syncfusion.com/aspnet-core-ui-controls/dashboard-layout) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET Core Dashboard Layout example](https://ej2.syncfusion.com/aspnetcore/DashboardLayout/DefaultFunctionalities#/material) to know how to present and manipulate data.
+N> You can refer to our [ASP.NET Core Dashboard Layout](https://www.syncfusion.com/aspnet-core-ui-controls/dashboard-layout) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET Core Dashboard Layout example](https://ej2.syncfusion.com/aspnetcore/dashboardlayout/defaultfunctionalities#/fluent2) to know how to present and manipulate data.
