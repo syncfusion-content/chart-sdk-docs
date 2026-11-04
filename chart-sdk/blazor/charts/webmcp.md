@@ -135,7 +135,7 @@ Each entry supports the following customizations:
 
 * Set `Enabled` to `false` to remove a built-in tool from the registered set.
 * Override `Name` and `Description` to give a built-in tool a different agent-facing identity.
-* Set `Command` to `Custom` and supply `Name`, `Description`, and `InputSchema` to register a fully custom tool. `InputSchema` is a JSON-encoded string (for example `{"type":"object","properties":{}}`).
+* Set `Command` to `Custom` and supply `Name`, `Description`, and `InputSchema` to register a fully custom tool. `InputSchema` is a JSON-encoded string (for example `{"type":"object","properties":{}}`). A custom tool is executed by the host, so it also requires a `ChartEvents.OnWebMcpExecute` handler bound to the chart (see [Step 4](#step-4-monitor-and-control-tool-execution)).
 
 ```cshtml
 
@@ -175,7 +175,7 @@ Each entry supports the following customizations:
 
 ```
 
-N> A misconfigured `ChartWebMcpTool` is logged and skipped instead of throwing, so a partially configured entry does not break the page. A `Command="Custom"` tool requires `Name`, `Description`, and `InputSchema`. `InputSchema` applies only to custom tools; setting it on a built-in command logs a configuration warning and skips that entry, so its `Name` and `Description` overrides are not applied either.
+N> A misconfigured `ChartWebMcpTool` is logged and skipped instead of throwing, so a partially configured entry does not break the page. The following configurations are skipped: an entry without a `Command` (the default `Command` is `None`); a `Command="Custom"` tool that is missing any of `Name`, `Description`, or `InputSchema`; and a built-in command that also sets `InputSchema`, because `InputSchema` applies only to custom tools, so the entry is skipped and its `Name` and `Description` overrides are not applied either.
 
 ### Step 4: Monitor and control tool execution
 
@@ -189,7 +189,7 @@ The event argument `ChartWebMcpExecuteEventArgs` exposes the following members:
 * `Cancel` - Set to `true` to veto the operation without showing the dialog.
 * `ShowConfirmationDialog` - Override the catalog-driven dialog flag to force or suppress the prompt.
 * `CancellationResponse` - Customize the message returned to the agent when the host vetoes the call or the user denies the dialog.
-* `Result` - Supply a JSON string to short-circuit a per-instance entry (a custom tool or a built-in override) with a host-produced result. Required for `Command="Custom"` tools; ignored for plain built-ins that have no matching `ChartWebMcpTool` entry.
+* `Result` - Supply a JSON string to short-circuit a per-instance entry (a custom tool or a built-in override) with a host-produced result. Required for `Command="Custom"` tools, which fail with an execution error if the handler returns without setting it; ignored for plain built-ins that have no matching `ChartWebMcpTool` entry.
 
 ```cshtml
 
@@ -380,7 +380,8 @@ AI responses are only as reliable as the prompt provided. Specific prompts help 
 * **Chart instance scope** - A tool operates on the chart instance with which it is registered
 * **Data exposure through read tools** - Read-only tools return chart series, axis, and configuration data to the agent, so enable WebMCP only when that exposure is acceptable
 * **Write tools require host review** - Write tools can be vetoed or gated by the `OnWebMcpExecute` handler, and tools flagged for confirmation prompt the user
-* **Invalid tool entries are skipped** - A `ChartWebMcpTool` with an invalid configuration is logged and omitted from the registered set instead of throwing. This includes custom tools missing any of `Name`/`Description`/`InputSchema`, and built-in overrides that set `InputSchema` (the entry is dropped, taking its `Name`/`Description` overrides with it).
+* **Invalid tool entries are skipped** - A `ChartWebMcpTool` with an invalid configuration is logged and omitted from the registered set instead of throwing. This includes entries without a `Command`, custom tools missing any of `Name`/`Description`/`InputSchema`, and built-in overrides that set `InputSchema` (the entry is dropped, taking its `Name`/`Description` overrides with it).
+* **Custom tools require a host handler** - A `Command="Custom"` tool is executed by the host, so it fails with an execution error unless `ChartEvents.OnWebMcpExecute` is bound to the chart and the handler sets `Result`.
 * **Prompt clarity affects results** - Ambiguous series, axis, annotation, or point references can produce unintended results
 * **Application authorization remains required** - Applications should validate AI-generated requests before allowing configuration changes, data mutations, exports, or printing
 
