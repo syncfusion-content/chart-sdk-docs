@@ -11,9 +11,11 @@ appliesto: UI Component Suite, Chart SDK
 
 # Axis customization in TypeScript Charts
 
-## Axis Crossing
+The TypeScript Chart component provides options for customizing axis positions, titles, tick lines, grid lines, direction, and multiple-axis layouts.
 
-An axis can be positioned dynamically within the chart area using the `crossesAt` and `crossesInAxis` properties. The `crossesAt` property specifies the value (date-time, numeric, or logarithmic) at which the axis line intersects another axis, while the `crossesInAxis` property defines the name of the axis with which the current axis should intersect. This customization is useful for emphasizing specific reference points or thresholds in the chart.
+## Axis crossing
+
+An axis can be positioned dynamically within the chart area using the [`crossesAt`](https://ej2.syncfusion.com/documentation/api/chart/axis#crossesat) and [`crossesInAxis`](https://ej2.syncfusion.com/documentation/api/chart/axis#crossesinaxis) properties. The `crossesAt` property specifies the value at which the axis intersects another axis. The value must be compatible with the value type of the intersecting axis. The `crossesInAxis` property specifies the name of the axis that the current axis intersects.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -26,9 +28,9 @@ An axis can be positioned dynamically within the chart area using the `crossesAt
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs16" %}
 
-## Title
+## Axis title
 
-A title can be added to an axis using the [`title`](../api/chart/axis) property. Axis titles provide context and help users quickly understand the data represented along the axis.
+Use the [`title`](https://ej2.syncfusion.com/documentation/api/chart/axis#title) property to add a title to an axis. Axis titles provide context for the values displayed along the axis.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -41,9 +43,9 @@ A title can be added to an axis using the [`title`](../api/chart/axis) property.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs17" %}
 
-## Title Rotation
+## Axis title rotation
 
-The orientation of the axis title can be adjusted using the [`titleRotation`](../api/chart/axis#titlerotation) property. This property supports rotation values from 0 to 360 degrees, allowing better alignment based on the chart layout and available space.
+Use the [`titleRotation`](https://ej2.syncfusion.com/documentation/api/chart/axis#titlerotation) property to rotate an axis title. It accepts a numeric angle in degrees from 0 through 360, enabling the title to align with the chart layout and available space.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -56,9 +58,9 @@ The orientation of the axis title can be adjusted using the [`titleRotation`](..
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs18" %}
 
-## Tick Lines Customization
+## Tick line customization
 
-The appearance of both major and minor tick lines can be customized using the [`majorTickLines`](../api/chart/axis) and [`minorTickLines`](../api/chart/axis) properties. These properties allow customization of the `width`, `color`, and `size` of tick lines to enhance chart readability.
+Customize major and minor tick lines using the [`majorTickLines`](https://ej2.syncfusion.com/documentation/api/chart/axis#majorticklines) and [`minorTickLines`](https://ej2.syncfusion.com/documentation/api/chart/axis#minorticklines) properties. These settings control properties such as the color, width, and height of the tick lines. Minor tick lines are displayed only when minor ticks are configured for the axis.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -71,9 +73,9 @@ The appearance of both major and minor tick lines can be customized using the [`
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs19" %}
 
-## Grid Lines Customization
+## Grid line customization
 
-Grid lines can be styled using the [`majorGridLines`](../api/chart/axis) and [`minorGridLines`](../api/chart/axis) properties. These options support customization of `width`, `color`, and `dashArray`, helping users distinguish data points and scales more effectively.
+Customize major and minor grid lines using the [`majorGridLines`](https://ej2.syncfusion.com/documentation/api/chart/axis#majorgridlines) and [`minorGridLines`](https://ej2.syncfusion.com/documentation/api/chart/axis#minorgridlines) properties. These settings control properties such as `color`, `width`, and `dashArray`. Minor grid lines are displayed only when minor intervals are configured for the axis.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -86,9 +88,9 @@ Grid lines can be styled using the [`majorGridLines`](../api/chart/axis) and [`m
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs20" %}
 
-## Multiple Axis
+## Multiple axes
 
-In addition to the primary X and Y axes, multiple additional axes can be added to a chart. Each series can be associated with a specific axis by mapping it to the axis using a unique axis name. This is useful for visualizing datasets with different units or scales within the same chart.
+In addition to the primary X-axis and Y-axis, you can add axes through the [`axes`](https://ej2.syncfusion.com/documentation/api/chart#axes) property. Assign a unique [`name`](https://ej2.syncfusion.com/documentation/api/chart/axis#name) to each additional axis, and map a series to it using the series [`xAxisName`](https://ej2.syncfusion.com/documentation/api/chart/series#xaxisname) or [`yAxisName`](https://ej2.syncfusion.com/documentation/api/chart/series#yaxisname) property. Multiple axes are useful when datasets use different units or scales.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -101,11 +103,11 @@ In addition to the primary X and Y axes, multiple additional axes can be added t
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs21" %}
 
-## Inversed Axis
+## Inversed axis
 
 <!-- markdownlint-disable MD033 -->
 
-When an axis is inversed, the highest value is displayed closer to the origin, and the lowest value appears farther away. This behavior can be enabled by setting the [`isInversed`](../api/chart/axis) property to `true`. Inversed axes are commonly used in scenarios such as ranking or inverted value representations.
+Set the [`isInversed`](https://ej2.syncfusion.com/documentation/api/chart/axis#isinversed) property to `true` to render axis values in reverse order. On a numeric axis, the highest value is displayed nearer the origin and the lowest value is displayed farther from it. This configuration is useful for rankings and other reverse-scale visualizations.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -118,9 +120,9 @@ When an axis is inversed, the highest value is displayed closer to the origin, a
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs22" %}
 
-## Opposed Position
+## Opposed position
 
-An axis can be placed on the opposite side of its default position by setting the [`opposedPosition`](../api/chart/axis) property to `true`. This option is useful when displaying multiple axes or when optimizing space usage in complex chart layouts.
+Set the [`opposedPosition`](https://ej2.syncfusion.com/documentation/api/chart/axis#opposedposition) property to `true` to place an axis on the side opposite its default position. This configuration is useful for multiple-axis charts and layouts that require axes on both sides of the plot area.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -132,3 +134,9 @@ An axis can be placed on the opposite side of its default position by setting th
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs23" %}
+
+## Troubleshooting
+- **An additional axis is not used:** Verify that the axis has a unique `name` and that the series `xAxisName` or `yAxisName` exactly matches it.
+- **Minor tick lines or grid lines are not displayed:** Configure the applicable minor interval or minor tick count for the axis.
+- **An axis does not cross at the expected position:** Verify that `crossesInAxis` matches an existing axis name and that the `crossesAt` value is compatible with that axis value type and range.
+- **The title rotation is not visible:** Confirm that the axis has a title and enough space is available to render the rotated text.

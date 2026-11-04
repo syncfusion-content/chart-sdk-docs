@@ -11,15 +11,18 @@ appliesto: UI Component Suite, Chart SDK
 
 # Multiple panes in TypeScript Charts
 
-The chart area can be divided into multiple panes by defining rows and columns using the [`rows`](../api/chart/row) and [`columns`](../api/chart/column) collections. This feature is useful for displaying multiple related datasets within the same chart container while maintaining clear visual separation.
+The Chart area can be divided into multiple panes by configuring rows and columns. Each pane can display a related dataset with its own axis while remaining within the same Chart container.
+
+Rows divide the Chart area into vertically stacked panes, while columns divide it into horizontally arranged panes. Associate a series with a pane by assigning the series to a named axis through the `xAxisName` or `yAxisName` property.
 
 ## Rows
 
-To split the chart area vertically into multiple rows, use the [`rows`](../api/chart/row) property of the chart.
+Use the [rows](https://ej2.syncfusion.com/documentation/api/chart/row) collection to divide the Chart area into vertically stacked rows.
 
-- Space for each row can be allocated by using the [`height`](../api/chart/row#height-string) property. The value can be specified either in pixels or as a percentage.
-- To associate a vertical axis with a specific row, assign the corresponding index using the [`rowIndex`](../api/chart/axis#rowindex-number) property of the axis.
-- To customize the bottom line of each row, use the [`border`](../api/chart/row#border-bordermodel) property.
+- Use the [height](https://ej2.syncfusion.com/documentation/api/chart/row#height) property to specify the height of each row in pixels or as a percentage.
+- Use the [rowIndex](https://ej2.syncfusion.com/documentation/api/chart/axis#rowindex) property to associate a vertical axis with a row. The index is zero-based and must correspond to an entry in the `rows` collection.
+- Use the [border](https://ej2.syncfusion.com/documentation/api/chart/row#border) property to customize the separator line of a row.
+- Use the series `yAxisName` property to bind a series to the named vertical axis assigned to the required row.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -32,7 +35,9 @@ To split the chart area vertically into multiple rows, use the [`rows`](../api/c
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs78" %}
 
-To span a vertical axis across multiple rows, use the [`span`](../api/chart/axis#span-number) property of the axis.
+### Span an axis across rows
+
+Use the [span](https://ej2.syncfusion.com/documentation/api/chart/axis#span) property to span a vertical axis across multiple rows, starting from the row specified by `rowIndex`. Ensure that the span does not exceed the number of available rows.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -47,11 +52,12 @@ To span a vertical axis across multiple rows, use the [`span`](../api/chart/axis
 
 ## Columns
 
-To split the chart area horizontally into multiple columns, use the [`columns`](../api/chart/column) property of the chart.
+Use the [columns](https://ej2.syncfusion.com/documentation/api/chart/column) collection to divide the Chart area into horizontally arranged columns.
 
-- Space for each column can be allocated using the [`width`](../api/chart/row#width-string) property. The width can be specified either in pixels or as a percentage.
-- To associate a horizontal axis with a specific column, assign the corresponding index using the [`columnIndex`](../api/chart/axis#columnindex-number) property of the axis.
-- To customize the bottom line of each column, use the [`border`](../api/chart/row#border-bordermodel) property.
+- Use the [width](https://ej2.syncfusion.com/documentation/api/chart/column#width) property to specify the width of each column in pixels or as a percentage.
+- Use the [columnIndex](https://ej2.syncfusion.com/documentation/api/chart/axis#columnindex) property to associate a horizontal axis with a column. The index is zero-based and must correspond to an entry in the `columns` collection.
+- Use the [border](https://ej2.syncfusion.com/documentation/api/chart/column#border) property to customize the separator line of a column.
+- Use the series `xAxisName` property to bind a series to the named horizontal axis assigned to the required column.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -64,7 +70,9 @@ To split the chart area horizontally into multiple columns, use the [`columns`](
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs80" %}
 
-To span a horizontal axis across multiple columns, use the [`span`](../api/chart/axis#span-number) property of the axis.
+### Span an axis across columns
+
+Use the [span](https://ej2.syncfusion.com/documentation/api/chart/axis#span) property to span a horizontal axis across multiple columns, starting from the column specified by `columnIndex`. Ensure that the span does not exceed the number of available columns.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -76,3 +84,11 @@ To span a horizontal axis across multiple columns, use the [`span`](../api/chart
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs81" %}
+
+## See also
+
+- [Multiple axes](./axis-customization#multiple-axis)
+- [Axis customization](./axis-customization)
+- [Row API](https://ej2.syncfusion.com/documentation/api/chart/row)
+- [Column API](https://ej2.syncfusion.com/documentation/api/chart/column)
+- [Axis API](https://ej2.syncfusion.com/documentation/api/chart/axis)
