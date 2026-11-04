@@ -8,8 +8,6 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-<!-- markdownlint-disable MD036 -->
-
 # WebMCP Tools for Blazor Chart
 
 **WebMCP** (Model Context Protocol) brings AI automation capabilities directly into the Syncfusion® Blazor Chart component. Instead of AI agents attempting to inspect the DOM or simulate user interactions, the chart explicitly exposes its capabilities through structured tool definitions, giving agents reliable and deterministic ways to inspect, modify, and interact with charts.
@@ -73,6 +71,8 @@ WebMCP integrates into Syncfusion Blazor Chart applications once the chart is co
 ### Step 1: Enable WebMCP support
 
 Set `EnableWebMcp` to `true` on the `SfChart` component to opt in. The chart creates its WebMCP adapter and registers the catalog with the browser on first render. WebMCP is disabled by default and must be opted into explicitly.
+
+N> WebMCP support requires `Syncfusion.Blazor.Charts` **35.1.41 or later**. Earlier 35.1.x packages do not expose `EnableWebMcp`, `ChartWebMcpSettings`, `ChartWebMcpTool`, or `ChartEvents.OnWebMcpExecute`.
 
 ```cshtml
 
@@ -175,7 +175,7 @@ Each entry supports the following customizations:
 
 ```
 
-N> An invalid tool entry is skipped and logged instead of throwing, so a partially configured `ChartWebMcpTool` does not break the page. A custom tool requires `Name`, `Description`, and `InputSchema`, and `InputSchema` is ignored for built-in commands.
+N> A misconfigured `ChartWebMcpTool` is logged and skipped instead of throwing, so a partially configured entry does not break the page. A `Command="Custom"` tool requires `Name`, `Description`, and `InputSchema`. `InputSchema` applies only to custom tools; setting it on a built-in command logs a configuration warning and skips that entry, so its `Name` and `Description` overrides are not applied either.
 
 ### Step 4: Monitor and control tool execution
 
@@ -189,7 +189,7 @@ The event argument `ChartWebMcpExecuteEventArgs` exposes the following members:
 * `Cancel` - Set to `true` to veto the operation without showing the dialog.
 * `ShowConfirmationDialog` - Override the catalog-driven dialog flag to force or suppress the prompt.
 * `CancellationResponse` - Customize the message returned to the agent when the host vetoes the call or the user denies the dialog.
-* `Result` - Supply a JSON string to short-circuit a custom tool with a host-produced result.
+* `Result` - Supply a JSON string to short-circuit a per-instance entry (a custom tool or a built-in override) with a host-produced result. Required for `Command="Custom"` tools; ignored for plain built-ins that have no matching `ChartWebMcpTool` entry.
 
 ```cshtml
 
@@ -380,7 +380,7 @@ AI responses are only as reliable as the prompt provided. Specific prompts help 
 * **Chart instance scope** - A tool operates on the chart instance with which it is registered
 * **Data exposure through read tools** - Read-only tools return chart series, axis, and configuration data to the agent, so enable WebMCP only when that exposure is acceptable
 * **Write tools require host review** - Write tools can be vetoed or gated by the `OnWebMcpExecute` handler, and tools flagged for confirmation prompt the user
-* **Invalid tool entries are skipped** - A misconfigured `ChartWebMcpTool` is logged and omitted from the registered set instead of throwing
+* **Invalid tool entries are skipped** - A `ChartWebMcpTool` with an invalid configuration is logged and omitted from the registered set instead of throwing. This includes custom tools missing any of `Name`/`Description`/`InputSchema`, and built-in overrides that set `InputSchema` (the entry is dropped, taking its `Name`/`Description` overrides with it).
 * **Prompt clarity affects results** - Ambiguous series, axis, annotation, or point references can produce unintended results
 * **Application authorization remains required** - Applications should validate AI-generated requests before allowing configuration changes, data mutations, exports, or printing
 
