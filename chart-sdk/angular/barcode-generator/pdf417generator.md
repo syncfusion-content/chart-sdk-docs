@@ -448,6 +448,56 @@ Defines the foreground color of the barcode.
 - **Accepted values:** Any valid CSS color string.
 - **Use case:** Apply branding while keeping enough contrast for scanning.
 
+## Methods
+
+### destroy
+
+Destroys the PDF417 component and releases its resources.
+
+```typescript
+@ViewChild('barcode') barcodeInstance!: PDF417GeneratorComponent;
+
+ngOnInit() {
+  this.barcodeInstance.destroy();
+}
+```
+
+### getModuleName
+
+Returns the module name of the component.
+
+```typescript
+@ViewChild('barcode') barcodeInstance!: PDF417GeneratorComponent;
+
+ngOnInit() {
+  console.log(this.barcodeInstance.getModuleName());
+}
+```
+
+### exportImage
+
+Exports the barcode as an image and downloads it in the browser.
+
+```typescript
+@ViewChild('barcode') barcodeInstance!: PDF417GeneratorComponent;
+
+ngOnInit() {
+  this.barcodeInstance.exportImage('pdf417', 'PNG');
+}
+```
+
+### exportAsBase64Image
+
+Returns a promise that resolves to a base64-encoded image string.
+
+```typescript
+@ViewChild('barcode') barcodeInstance!: PDF417GeneratorComponent;
+
+async ngOnInit() {
+  const imageString = await this.barcodeInstance.exportAsBase64Image('JPG');
+}
+```
+
 ## Accessibility
 
 The component sets `role="img"` and generates an `aria-label` for the barcode element. The label uses the display text when available; otherwise, it uses the barcode value. For very long values, the accessible text is truncated to keep the label manageable for assistive technologies.

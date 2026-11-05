@@ -10,6 +10,67 @@ documentation: ug
 
 # ASP.NET Core PDF417Generator Control
 
+## Getting Started
+
+This section briefly explains how to include the PDF417 Barcode Generator control in your ASP.NET Core application.
+
+### Prerequisites
+
+- [System requirements for ASP.NET Core controls](https://ej2.syncfusion.com/aspnetcore/documentation/system-requirements)
+- [Syncfusion.EJ2.AspNet.Core](https://www.nuget.org/packages/Syncfusion.EJ2.AspNet.Core/) NuGet package installed
+
+### Dependencies
+
+To use the PDF417 Barcode Generator, ensure the following dependencies are added to your ASP.NET Core project:
+
+{% tabs %}
+{% highlight C# tabtitle="Package Manager" %}
+
+Install-Package Syncfusion.EJ2.AspNet.Core -Version {{ site.releaseversion }}
+
+{% endhighlight %}
+{% endtabs %}
+
+### Importing
+
+Import the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Tag Helper in the `~/Pages/_ViewImports.cshtml` file:
+
+{% tabs %}
+{% highlight C# tabtitle="~/_ViewImports.cshtml" %}
+
+@addTagHelper *, Syncfusion.EJ2
+
+{% endhighlight %}
+{% endtabs %}
+
+### Register Script Manager
+
+Register the script manager `<ejs-script>` at the end of `<body>` in the ASP.NET Core application layout file:
+
+{% tabs %}
+{% highlight cshtml tabtitle="~/_Layout.cshtml" %}
+
+<body>
+    ...
+    <!-- Syncfusion ASP.NET Core Script Manager -->
+    <ejs-scripts></ejs-scripts>
+</body>
+
+{% endhighlight %}
+{% endtabs %}
+
+### Basic PDF417 Generation
+
+Add the PDF417 Barcode Generator tag helper to your page:
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+
+<ejs-pdf417generator id="pdf417" value="Syncfusion" width="320px" height="140px"></ejs-pdf417generator>
+
+{% endhighlight %}
+{% endtabs %}
+
 ## PDF417
 
 PDF417 is a stacked two-dimensional barcode defined by ISO/IEC 15438. A symbol contains 3 to 90 rows, and each row has 1 to 30 data columns. It is widely used on identification cards, driver's licenses, boarding passes, shipping labels, and inventory documents because it can store a large amount of data and still be scanned by both linear scanners and imagers.
@@ -22,8 +83,7 @@ The following code example shows how to create a simple PDF417 barcode.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Syncfusion" width="320px" height="140px" type="Pdf417">
-</ejs-pdf417generator>
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/pdf417generator/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,8 +93,7 @@ You can customize the width and height of the PDF417 barcode using the `width` a
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Syncfusion" width="500px" height="200px" type="Pdf417">
-</ejs-pdf417generator>
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/size/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,20 +103,17 @@ You can customize the display text of the PDF417 barcode using the `displayText`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="1234567890" width="300px" height="150px" type="Pdf417">
-    <e-pdf417generator-displaytext text="PDF417" position="Top" alignment="Center"></e-pdf417generator-displaytext>
-</ejs-pdf417generator>
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/text/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
 ## Background and foreground color customization
 
-You can customize the background and foreground colors of the PDF417 barcode.
+You can customize the background and foreground colors of the PDF417 barcode. Keep a strong contrast between the two colors so that the barcode can be scanned easily.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Syncfusion" width="300px" height="120px" type="Pdf417" backgroundColor="#f7f7f7" foreColor="#b91c1c">
-</ejs-pdf417generator>
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/color/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,9 +123,7 @@ You can customize the margin around the PDF417 barcode using the `margin` proper
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Syncfusion" width="320px" height="140px" type="Pdf417">
-    <e-pdf417generator-margin left="20" right="20" top="20" bottom="20"></e-pdf417generator-margin>
-</ejs-pdf417generator>
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/margin/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 

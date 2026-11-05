@@ -10,6 +10,69 @@ documentation: ug
 
 # ASP.NET MVC PDF417Generator Control
 
+## Getting Started
+
+This section briefly explains how to include the PDF417 Barcode Generator control in your ASP.NET MVC application.
+
+### Prerequisites
+
+- [System requirements for ASP.NET MVC controls](https://ej2.syncfusion.com/aspnetmvc/documentation/system-requirements)
+- [Syncfusion.EJ2.MVC5](https://www.nuget.org/packages/Syncfusion.EJ2.MVC5/) NuGet package installed
+
+### Dependencies
+
+To use the PDF417 Barcode Generator, ensure the following dependencies are added to your ASP.NET MVC project:
+
+{% tabs %}
+{% highlight C# tabtitle="Package Manager" %}
+
+Install-Package Syncfusion.EJ2.MVC5 -Version {{ site.ej2version }}
+
+{% endhighlight %}
+{% endtabs %}
+
+### Importing
+
+Add the **Syncfusion.EJ2** namespace reference in `Web.config` under the `Views` folder:
+
+```
+<namespaces>
+    <add namespace="Syncfusion.EJ2"/>
+</namespaces>
+```
+
+### Register Script Manager
+
+Register the script manager `ScriptManager()` at the end of `<body>` in your layout file:
+
+{% tabs %}
+{% highlight cshtml tabtitle="~/_Layout.cshtml" %}
+
+<body>
+    ...
+    <!-- Syncfusion ASP.NET MVC Script Manager -->
+    @Html.EJS().ScriptManager()
+</body>
+
+{% endhighlight %}
+{% endtabs %}
+
+### Basic PDF417 Generation
+
+Add the PDF417 Barcode Generator helper to your view:
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+
+@(Html.EJS().PDF417Generator("container")
+    .Value("Syncfusion")
+    .Width("320px")
+    .Height("140px")
+    .Render())
+
+{% endhighlight %}
+{% endtabs %}
+
 ## PDF417
 
 PDF417 is a stacked two-dimensional barcode defined by ISO/IEC 15438. A symbol contains 3 to 90 rows, and each row has 1 to 30 data columns. It is widely used on identification cards, driver's licenses, boarding passes, shipping labels, and inventory documents because it can store a large amount of data and still be scanned by both linear scanners and imagers.
