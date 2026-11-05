@@ -1,0 +1,5 @@
+@(Html.EJS().PDF417Generator("container")
+    .Value("Syncfusion")
+    .Width("500px")
+    .Height("200px")
+    .Render())
