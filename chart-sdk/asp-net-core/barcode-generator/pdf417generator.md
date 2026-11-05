@@ -455,7 +455,7 @@ const imageString = await barcode.exportAsBase64Image('JPG');
 
 The component automatically sets `role="img"` and generates an `aria-label` for accessibility. The label uses the display text when available; otherwise, it uses the barcode value. For very long values, the accessible text is truncated to keep the label manageable for assistive technologies.
 
-## Responsive Behavior
+## Responsive and Refresh Behavior
 
 The component uses the container size when rendering. If the container is resized after the barcode is rendered, call the `refresh()` method to redraw the barcode with the new dimensions.
 
@@ -463,6 +463,44 @@ The component uses the container size when rendering. If the container is resize
 var barcode = document.getElementById("pdf417").ej2_instances[0];
 barcode.refresh();
 ```
+
+## Framework Integration
+
+The PDF417 Barcode Generator integrates seamlessly into ASP.NET Core applications through Tag Helpers. It supports server-side model binding, tag helper attributes, and event handling for a native ASP.NET Core development experience.
+
+## API Reference
+
+### Tag Helper: `<ejs-pdf417generator>`
+
+| Property | Type | Description |
+| --- | --- | --- |
+| `value` | string | Value to encode. |
+| `width` | string | Width of the control. |
+| `height` | string | Height of the control. |
+| `mode` | string | Rendering mode: `SVG` or `Canvas`. |
+| `compactionMode` | string | Data compaction mode. |
+| `errorCorrectionLevel` | string | Error correction level. |
+| `rows` | int | Number of rows. |
+| `columns` | int | Number of columns. |
+| `isCompact` | bool | Enables compact PDF417 rendering. |
+| `rowHeightRatio` | int | Height of each row relative to module width. |
+| `backgroundColor` | string | Background color. |
+| `foreColor` | string | Foreground color. |
+
+### Events
+
+| Event | Description |
+| --- | --- |
+| `invalid` | Triggered when the value or properties are invalid, or when the symbol does not fit. |
+
+### Methods
+
+| Method | Description |
+| --- | --- |
+| `destroy()` | Destroys the component. |
+| `getModuleName()` | Returns the module name. |
+| `exportImage(fileName, exportType)` | Downloads the barcode as an image. |
+| `exportAsBase64Image(exportType)` | Returns the barcode as a base64 image string. |
 
 ## Limitations and Constraints
 

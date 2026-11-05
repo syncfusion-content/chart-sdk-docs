@@ -97,6 +97,93 @@ The `BarcodeGenerator` component renders a PDF417 symbol inside the target eleme
 
 The component renders in SVG mode by default and uses a `role="img"` accessibility role.
 
+## Basic Examples
+
+### Simple PDF417 barcode
+
+```typescript
+import { Component } from '@angular/core';
+import { BarcodeGeneratorAllModule } from '@syncfusion/ej2-angular-barcode-generator';
+
+@Component({
+  imports: [BarcodeGeneratorAllModule],
+  standalone: true,
+  selector: 'app-container',
+  template: `<ejs-barcodegenerator id="barcode" width="320px" height="140px" type="Pdf417" value="SYNCFUSION PDF417"></ejs-barcodegenerator>`
+})
+export class AppComponent {}
+```
+
+### Custom size
+
+```typescript
+import { Component } from '@angular/core';
+import { BarcodeGeneratorAllModule } from '@syncfusion/ej2-angular-barcode-generator';
+
+@Component({
+  imports: [BarcodeGeneratorAllModule],
+  standalone: true,
+  selector: 'app-container',
+  template: `<ejs-barcodegenerator id="barcode" width="500px" height="200px" type="Pdf417" value="Syncfusion"></ejs-barcodegenerator>`
+})
+export class AppComponent {}
+```
+
+### Display text customization
+
+```typescript
+import { Component } from '@angular/core';
+import { BarcodeGeneratorAllModule } from '@syncfusion/ej2-angular-barcode-generator';
+
+@Component({
+  imports: [BarcodeGeneratorAllModule],
+  standalone: true,
+  selector: 'app-container',
+  template: `<ejs-barcodegenerator id="barcode" width="300px" height="150px" type="Pdf417" value="1234567890" [displayText]="displayText"></ejs-barcodegenerator>`,
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  displayText: any = {
+    text: 'PDF417',
+    position: 'Top',
+    alignment: 'Center'
+  };
+}
+```
+
+### Background and foreground color customization
+
+```typescript
+import { Component } from '@angular/core';
+import { BarcodeGeneratorAllModule } from '@syncfusion/ej2-angular-barcode-generator';
+
+@Component({
+  imports: [BarcodeGeneratorAllModule],
+  standalone: true,
+  selector: 'app-container',
+  template: `<ejs-barcodegenerator id="barcode" width="300px" height="120px" type="Pdf417" value="Syncfusion" backgroundColor="#f7f7f7" foreColor="#b91c1c"></ejs-barcodegenerator>`
+})
+export class AppComponent {}
+```
+
+### Margin customization
+
+```typescript
+import { Component } from '@angular/core';
+import { BarcodeGeneratorAllModule } from '@syncfusion/ej2-angular-barcode-generator';
+
+@Component({
+  imports: [BarcodeGeneratorAllModule],
+  standalone: true,
+  selector: 'app-container',
+  template: `<ejs-barcodegenerator id="barcode" width="320px" height="140px" type="Pdf417" value="Syncfusion" [margin]="margin"></ejs-barcodegenerator>`,
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  margin: any = { left: 20, right: 20, top: 20, bottom: 20 };
+}
+```
+
 ## PDF417-specific samples
 
 ### Compaction mode
@@ -502,13 +589,71 @@ async ngOnInit() {
 
 The component sets `role="img"` and generates an `aria-label` for the barcode element. The label uses the display text when available; otherwise, it uses the barcode value. For very long values, the accessible text is truncated to keep the label manageable for assistive technologies.
 
-## RTL behavior
+## RTL Behavior
 
 PDF417 is not mirrored in RTL mode because the symbol structure must remain in its encoded order for scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
 
-## Responsive behavior
+## Responsive and Refresh Behavior
 
 The component uses the container size when it renders and recalculates the symbol when properties change. If the container is resized, call `refresh()` on the BarcodeGenerator instance to redraw the barcode with the new size.
+
+## Framework Integration
+
+The BarcodeGenerator component with PDF417 type integrates seamlessly into Angular applications. It supports Angular's component binding, property binding, event binding, and template-driven patterns for a native Angular development experience.
+
+## API Reference
+
+### Class: `BarcodeGenerator`
+
+| Member | Description |
+| --- | --- |
+| `value` | Value to encode. |
+| `type` | Barcode type (set to `Pdf417`). |
+| `width` | Width of the control. |
+| `height` | Height of the control. |
+| `compactionMode` | Data compaction mode. |
+| `errorCorrectionLevel` | Error correction level. |
+| `rows` | Number of rows. |
+| `columns` | Number of columns. |
+| `isCompact` | Enables compact PDF417 rendering. |
+| `rowHeightRatio` | Height of each row relative to module width. |
+| `displayText` | Display text settings. |
+| `margin` | Outer margin settings. |
+| `backgroundColor` | Background color. |
+| `foreColor` | Foreground color. |
+
+### Enum: `PDF417CompactionMode`
+
+| Value | Description |
+| --- | --- |
+| `Auto` | Selects the best compaction per segment. |
+| `Text` | Encodes printable ASCII text. |
+| `Numeric` | Encodes digits only. |
+| `Byte` | Encodes any character as bytes. |
+
+### Enum: `PDF417ErrorCorrectionLevel`
+
+| Value | Description |
+| --- | --- |
+| `Auto` | Uses the recommended level for the data length. |
+| `Level0` | 2 error correction codewords. |
+| `Level1` | 4 error correction codewords. |
+| `Level2` | 8 error correction codewords. |
+| `Level3` | 16 error correction codewords. |
+| `Level4` | 32 error correction codewords. |
+| `Level5` | 64 error correction codewords. |
+| `Level6` | 128 error correction codewords. |
+| `Level7` | 256 error correction codewords. |
+| `Level8` | 512 error correction codewords. |
+
+### Methods
+
+| Method | Description |
+| --- | --- |
+| `destroy()` | Destroys the component. |
+| `getModuleName()` | Returns the module name. |
+| `exportImage(fileName, exportType)` | Downloads the barcode as an image. |
+| `exportAsBase64Image(exportType)` | Returns the barcode as a base64 image string. |
 
 ## Limitations and Constraints
 

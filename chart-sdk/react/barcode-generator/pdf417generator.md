@@ -101,6 +101,106 @@ The `PDF417GeneratorComponent` renders a PDF417 symbol inside the target element
 
 The component renders in SVG mode by default and uses a `role="img"` accessibility role.
 
+## Basic Examples
+
+### Simple PDF417 barcode
+
+```typescript
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
+
+ReactDOM.render(
+  <PDF417GeneratorComponent
+    id="barcode"
+    width="320px"
+    height="140px"
+    value="SYNCFUSION PDF417"
+  />,
+  document.getElementById('element')
+);
+```
+
+### Custom size
+
+```typescript
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
+
+ReactDOM.render(
+  <PDF417GeneratorComponent
+    id="barcode"
+    width="500px"
+    height="200px"
+    value="Syncfusion"
+  />,
+  document.getElementById('element')
+);
+```
+
+### Display text customization
+
+```typescript
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
+
+ReactDOM.render(
+  <PDF417GeneratorComponent
+    id="barcode"
+    width="300px"
+    height="150px"
+    value="1234567890"
+    displayText={{
+      text: 'PDF417',
+      position: 'Top',
+      alignment: 'Center'
+    }}
+  />,
+  document.getElementById('element')
+);
+```
+
+### Background and foreground color customization
+
+```typescript
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
+
+ReactDOM.render(
+  <PDF417GeneratorComponent
+    id="barcode"
+    width="300px"
+    height="120px"
+    value="Syncfusion"
+    backgroundColor="#f7f7f7"
+    foreColor="#b91c1c"
+  />,
+  document.getElementById('element')
+);
+```
+
+### Margin customization
+
+```typescript
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
+
+ReactDOM.render(
+  <PDF417GeneratorComponent
+    id="barcode"
+    width="320px"
+    height="140px"
+    value="Syncfusion"
+    margin={{ left: 20, right: 20, top: 20, bottom: 20 }}
+  />,
+  document.getElementById('element')
+);
+```
+
 ## PDF417-specific samples
 
 ### Compaction mode
@@ -529,13 +629,71 @@ const imageString = await barcodeInstance.exportAsBase64Image('JPG');
 
 The component sets `role="img"` and generates an `aria-label` for the barcode element. The label uses the display text when available; otherwise, it uses the barcode value. For very long values, the accessible text is truncated to keep the label manageable for assistive technologies.
 
-## RTL behavior
+## RTL Behavior
 
 PDF417 is not mirrored in RTL mode because the symbol structure must remain in its encoded order for scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
 
-## Responsive behavior
+## Responsive and Refresh Behavior
 
 The component uses the container size when it renders and recalculates the symbol when properties change. If the container is resized, call `refresh()` to redraw the barcode with the new size.
+
+## Framework Integration
+
+The PDF417GeneratorComponent integrates seamlessly into React applications. It supports React's component lifecycle, props binding, and event handling patterns for a native React development experience.
+
+## API Reference
+
+### Class: `PDF417GeneratorComponent`
+
+| Member | Description |
+| --- | --- |
+| `value` | Value to encode. |
+| `mode` | Rendering mode: `SVG` or `Canvas`. |
+| `width` | Width of the control. |
+| `height` | Height of the control. |
+| `compactionMode` | Data compaction mode. |
+| `errorCorrectionLevel` | Error correction level. |
+| `rows` | Number of rows. |
+| `columns` | Number of columns. |
+| `isCompact` | Enables compact PDF417 rendering. |
+| `rowHeightRatio` | Height of each row relative to module width. |
+| `displayText` | Display text settings. |
+| `margin` | Outer margin settings. |
+| `backgroundColor` | Background color. |
+| `foreColor` | Foreground color. |
+
+### Enum: `PDF417CompactionMode`
+
+| Value | Description |
+| --- | --- |
+| `Auto` | Selects the best compaction per segment. |
+| `Text` | Encodes printable ASCII text. |
+| `Numeric` | Encodes digits only. |
+| `Byte` | Encodes any character as bytes. |
+
+### Enum: `PDF417ErrorCorrectionLevel`
+
+| Value | Description |
+| --- | --- |
+| `Auto` | Uses the recommended level for the data length. |
+| `Level0` | 2 error correction codewords. |
+| `Level1` | 4 error correction codewords. |
+| `Level2` | 8 error correction codewords. |
+| `Level3` | 16 error correction codewords. |
+| `Level4` | 32 error correction codewords. |
+| `Level5` | 64 error correction codewords. |
+| `Level6` | 128 error correction codewords. |
+| `Level7` | 256 error correction codewords. |
+| `Level8` | 512 error correction codewords. |
+
+### Methods
+
+| Method | Description |
+| --- | --- |
+| `destroy()` | Destroys the component. |
+| `getModuleName()` | Returns `PDF417Generator`. |
+| `exportImage(fileName, exportType)` | Downloads the barcode as an image. |
+| `exportAsBase64Image(exportType)` | Returns the barcode as a base64 image string. |
 
 ## Limitations and Constraints
 

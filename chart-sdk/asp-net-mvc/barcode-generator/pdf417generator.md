@@ -613,7 +613,7 @@ barcode.invalid = onInvalid;
 
 The component automatically sets `role="img"` and generates an `aria-label` for accessibility. The label uses the display text when available; otherwise, it uses the barcode value. For very long values, the accessible text is truncated to keep the label manageable for assistive technologies.
 
-## Responsive Behavior
+## Responsive and Refresh Behavior
 
 The component uses the container size when rendering. If the container is resized after the barcode is rendered, call the `refresh()` method to redraw the barcode with the new dimensions.
 
@@ -623,6 +623,44 @@ var barcode = document.getElementById("container").ej2_instances[0];
 barcode.refresh();
 </script>
 ```
+
+## Framework Integration
+
+The PDF417 Barcode Generator integrates seamlessly into ASP.NET MVC applications through HTML Helpers. It supports model binding, helper method chains, and event handling for a native ASP.NET MVC development experience.
+
+## API Reference
+
+### HTML Helper: `Html.EJS().PDF417Generator()`
+
+| Property | Type | Description |
+| --- | --- | --- |
+| `Value()` | string | Value to encode. |
+| `Width()` | string | Width of the control. |
+| `Height()` | string | Height of the control. |
+| `Mode()` | string | Rendering mode: `SVG` or `Canvas`. |
+| `CompactionMode()` | string | Data compaction mode. |
+| `ErrorCorrectionLevel()` | string | Error correction level. |
+| `Rows()` | int | Number of rows. |
+| `Columns()` | int | Number of columns. |
+| `IsCompact()` | bool | Enables compact PDF417 rendering. |
+| `RowHeightRatio()` | int | Height of each row relative to module width. |
+| `BackgroundColor()` | string | Background color. |
+| `ForeColor()` | string | Foreground color. |
+
+### Events
+
+| Event | Description |
+| --- | --- |
+| `invalid` | Triggered when the value or properties are invalid, or when the symbol does not fit. |
+
+### Methods
+
+| Method | Description |
+| --- | --- |
+| `destroy()` | Destroys the component. |
+| `getModuleName()` | Returns the module name. |
+| `exportImage(fileName, exportType)` | Downloads the barcode as an image. |
+| `exportAsBase64Image(exportType)` | Returns the barcode as a base64 image string. |
 
 ## Limitations and Constraints
 
