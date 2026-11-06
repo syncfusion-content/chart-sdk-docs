@@ -4,7 +4,6 @@ title: GS1 Barcodes in JavaScript Barcode control | Syncfusion®
 description: Checkout and learn about GS1 Barcode types, features, customization options, and implementation examples in the EJ2 Barcode Generator.
 platform: chart-sdk
 control: GS1 Barcodes 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
