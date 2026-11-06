@@ -298,7 +298,7 @@ After the Chart renders, confirm that the data is actually flowing through the C
 3. Locate the request to `http://localhost:5050/api/chart-data`. The request should include the headers and query parameters added by `beforeSend` and `processQuery` in the Custom Adaptor.
 4. Open the response and verify that the JSON contains items shaped as `{ x, y }`, for example:
 
-   ```on
+   ```
    {
      "result": [
        { "x": "Jan", "y": 120 },
