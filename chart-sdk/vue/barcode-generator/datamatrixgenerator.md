@@ -42,7 +42,7 @@ A page or printed media with barcode often appears colorful in the background an
 
 ## Customizing the Barcode dimension
 
-The dimension of the barcode can be changed using the height and width property of the barcodegenerator.
+The dimension of the barcode can be changed using the height and width property of the barcode generator.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 DataMatrix is a two-dimensional barcode that consists of a grid of dark and light squares forming a square or rectangular symbol. The data encoded in the barcode can be either numeric or alphanumeric characters. DataMatrix barcodes are widely used in printed media such as labels, letters, and packaging due to their high data density and error correction capabilities. These barcodes can be easily read using barcode scanners and mobile devices.
 
-DataMatrix barcodes are particularly suitable for applications requiring compact encoding of large amounts of data in small spaces, making them ideal for industries such as healthcare, manufacturing, and logistics.
+DataMatrix barcodes are particularly suitable for applications requiring compact encoding of large amounts of data in small spaces, making them ideal for industries such as health care, manufacturing, and logistics.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
