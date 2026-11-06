@@ -50,10 +50,10 @@ export class AppComponent {}
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/barcode/barcodegenerator/pdf417-cs1/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/pdf417-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/barcode/barcodegenerator/pdf417-cs1/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/pdf417-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -190,10 +190,10 @@ export class AppComponent {
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/barcode/barcodegenerator/compactionmode-cs1/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/compactionmode-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/barcode/barcodegenerator/compactionmode-cs1/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/compactionmode-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -203,10 +203,10 @@ export class AppComponent {
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/barcode/barcodegenerator/errorcorrectionlevel-cs1/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/errorcorrectionlevel-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/barcode/barcodegenerator/errorcorrectionlevel-cs1/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/errorcorrectionlevel-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -216,10 +216,10 @@ export class AppComponent {
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/barcode/barcodegenerator/rowheightratio-cs1/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/rowheightratio-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/barcode/barcodegenerator/rowheightratio-cs1/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/rowheightratio-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -229,10 +229,10 @@ export class AppComponent {
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/barcode/barcodegenerator/iscompact-cs1/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/iscompact-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/barcode/barcodegenerator/iscompact-cs1/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/iscompact-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -242,10 +242,10 @@ export class AppComponent {
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/barcode/barcodegenerator/rows-columns-cs1/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/rows-columns-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/barcode/barcodegenerator/rows-columns-cs1/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/rows-columns-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

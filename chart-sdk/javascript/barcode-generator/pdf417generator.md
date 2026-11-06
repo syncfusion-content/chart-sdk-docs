@@ -7,7 +7,6 @@ control: Pdf417generator
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
-
 ---
 
 # PDF417Generator in JavaScript Barcode control
@@ -171,10 +170,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/barcode/Pdf417-cs1/index.ts %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs1/ts/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs1/ts/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +183,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/barcode/Pdf417-cs1/index.js %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs1/js/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs1/js/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -200,10 +199,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/barcode/Pdf417-cs2/index.ts %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs2/ts/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs2/ts/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -213,10 +212,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/barcode/Pdf417-cs2/index.js %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs2/js/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs2/js/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -229,10 +228,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/barcode/Pdf417-cs3/index.ts %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs3/ts/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs3/ts/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -242,10 +241,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/barcode/Pdf417-cs3/index.js %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs3/js/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs3/js/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -258,10 +257,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/barcode/Pdf417-cs4/index.ts %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs4/ts/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs4/ts/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -271,10 +270,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/barcode/Pdf417-cs4/index.js %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs4/js/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs4/js/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -287,10 +286,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/barcode/Pdf417-cs5/index.ts %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs5/ts/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs5/ts/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -300,10 +299,10 @@ barcode.appendTo('#element');
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/barcode/Pdf417-cs5/index.js %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/Pdf417-cs5/js/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/Pdf417-cs5/js/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

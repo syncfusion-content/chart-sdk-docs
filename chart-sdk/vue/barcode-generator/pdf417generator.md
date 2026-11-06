@@ -2,7 +2,7 @@
 layout: post
 title: PDF417Generator in Vue Barcode component | Syncfusion®
 description: Learn here all about PDF417Generator in Syncfusion® Vue Barcode component of Syncfusion Essential® JS 2 and more.
-control: Pdf417generator 
+control: Pdf417generator
 platform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -224,10 +224,10 @@ export default {
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs1/app-composition.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs1/app.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -237,10 +237,10 @@ export default {
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs2/app-composition.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs2/app.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -250,10 +250,10 @@ export default {
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs3/app-composition.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs3/app.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -263,10 +263,10 @@ export default {
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs4/app-composition.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs4/app.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -276,10 +276,10 @@ export default {
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs5/app-composition.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs5/app.vue %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/pdf417-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 

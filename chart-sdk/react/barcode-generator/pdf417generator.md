@@ -207,13 +207,13 @@ ReactDOM.render(
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs1/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs1/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs1/index.html %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -223,13 +223,13 @@ ReactDOM.render(
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs2/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs2/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs2/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs2/index.html %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -239,13 +239,13 @@ ReactDOM.render(
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs3/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs3/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs3/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs3/index.html %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -255,13 +255,13 @@ ReactDOM.render(
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs4/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs4/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs4/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs4/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs4/index.html %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -271,13 +271,13 @@ ReactDOM.render(
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs5/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs5/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs5/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs5/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/barcode/pdf417generator/pdf417-cs5/index.html %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -639,7 +639,7 @@ The component uses the container size when it renders and recalculates the symbo
 
 ## Framework Integration
 
-The PDF417GeneratorComponent integrates seamlessly into React applications. It supports React's component lifecycle, props binding, and event handling patterns for a native React development experience.
+The PDF417GeneratorComponent integrates seamlessly into React applications. It supports React's component life cycle, props binding, and event handling patterns for a native React development experience.
 
 ## API Reference
 
