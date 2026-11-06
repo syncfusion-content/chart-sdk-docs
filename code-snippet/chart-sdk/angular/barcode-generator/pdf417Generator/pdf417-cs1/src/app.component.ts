@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { BarcodeGeneratorAllModule } from '@syncfusion/ej2-angular-barcode-generator';
+import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
 
 @Component({
-  imports: [BarcodeGeneratorAllModule],
+  imports: [PDF417GeneratorModule],
   providers: [],
   standalone: true,
   selector: 'app-container',
-  template: `<ejs-barcodegenerator style="display: block;" #barcode id="barcode" width="250px" height="150px" mode="SVG" type="Pdf417" value="SYNCFUSION PDF417" displayText="PDF417"></ejs-barcodegenerator>`
+  template: `<ejs-pdf417generator style="display: block;" #barcode id="barcode" width="250px" height="150px" mode="SVG" value="SYNCFUSION PDF417" [displayText]="{ text: 'PDF417' }"></ejs-pdf417generator>`
 })
 export class AppComponent {}
