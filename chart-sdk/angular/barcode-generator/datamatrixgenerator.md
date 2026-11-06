@@ -60,6 +60,53 @@ The physical size of the barcode is crucial for ensuring proper scanning and fit
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/datamatrix/dimension-cs1" %}
 
+## GS1 Data Matrix
+
+GS1 Data Matrix is a standardized Data Matrix barcode format that uses GS1 Application Identifiers (AIs) to encode structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers.
+
+The [`enableGS1`](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#enablegs1) property enables GS1-compliant Data Matrix barcode generation.
+
+**Allowed Input Characters:** GS1 Data Matrix supports numeric, alphanumeric, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), enabling structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers to be stored within a compact barcode.
+
+The following example demonstrates how to generate a GS1 Data Matrix barcode:
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/datamatrix/datamatrixgs1-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/datamatrix/datamatrixgs1-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/datamatrix/datamatrixgs1-cs1" %}
+
+![GS1 Data Matrix Generator](images/Gs1-DataMatrix.png)
+
+>**Note**: The Barcode Generator validates the input data before generating the barcode. If the input data is invalid or cannot be encoded using the selected settings, the `invalid` event is triggered.
+
+**Common Validation Errors**
+
+| Error | Cause | Solution |
+|---|---|---|
+| Data too long | Exceeds symbol capacity | Reduce data or change encoding |
+| Empty value | No data provided | Supply at least one character |
+| Invalid encoding | Unsupported encoding mode | Use Auto, ASCII, ASCIINumeric, or Base256 |
+| Invalid character for mode | Character not allowed in selected mode | Change encoding or data |
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/datamatrix/datamatrixgs1validation-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/datamatrix/datamatrixgs1validation-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/datamatrix/datamatrixgs1validation-cs1" %}
+
 ## Customizing the text
 
 The display text feature allows you to show human-readable text alongside the barcode, making it easier for users to verify the encoded data without requiring a scanner. The [`displayText`](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#displaytext) property enables you to customize the visible text that appears below the DataMatrix barcode, which can be different from the actual encoded data if needed.

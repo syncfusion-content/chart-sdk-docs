@@ -74,6 +74,46 @@ In QR code generators, the display text shown below the QR code can be customize
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/text-cs1" %}
 
+## GS1 QR Code
+
+GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
+
+Use the [`enableGS1`](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#enablegs1) property on the [`QRCodeGenerator`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeGenerator/) to switch the control into GS1 mode.
+
+**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1-cs1" %}
+
+![GS1 QR Code](images/Gs1-QrCode.png)
+
+### GS1 QR Code with Error Correction
+
+Combining GS1 encoding with error correction levels:
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1errorcorrection-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1errorcorrection-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1errorcorrection-cs1" %}
+
+This configuration provides robust scanning even with partial damage to the QR code.
+
 ## Enhancing QR Codes with Logos
 
 The Angular Barcode Generator enables adding a [`logo`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo/#qrcodelogo/) or icon to QR codes, enhancing their visual appeal, brand recognition, and authenticity. Adding a recognizable logo can make it easier for users to identify the source and can help establish trust and brand presence.
