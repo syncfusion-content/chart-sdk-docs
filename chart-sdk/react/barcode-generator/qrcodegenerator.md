@@ -81,6 +81,48 @@ In barcode generators You can customize the barcode text by using display text p
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/barcode-generator/qrcode/text-cs1" %}
 
+## GS1 QR Code
+
+GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
+
+Use the [`enableGS1`](https://ej2.syncfusion.com/react/documentation/api/barcode/barcodeGenerator/#enablegs1) property on the [`BarcodeGeneratorComponent`](https://ej2.syncfusion.com/react/documentation/api/barcode/barcodeGenerator/) to switch the control into GS1 mode.
+
+**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
+
+{% tabs %}
+{% highlight jsx tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/qrcode/gs1qrcode-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight tsx tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/qrcode/gs1qrcode-cs1/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/qrcode/gs1qrcode-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/barcode-generator/gs1qrcode-cs1" %}
+
+![GS1 QR Code](images/Gs1-QrCode.png)
+
+### GS1 QR Code with Error Correction
+
+Combining GS1 encoding with error correction levels provides robust scanning even with partial damage to the QR code.
+
+{% tabs %}
+{% highlight jsx tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/qrcode/gs1qrcodeerrorcorrection-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight tsx tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/qrcode/gs1qrcodeerrorcorrection-cs1/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/qrcode/gs1qrcodeerrorcorrection-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/barcode-generator/gs1qrcodeerrorcorrection-cs1" %}
+
 ## Enhancing QR Codes with Icons
 
 The EJ2 Barcode Generator now lets you add a [`logo`](https://ej2.syncfusion.com/react/documentation/api/barcode/qRCodeLogo/) or icon to your QR codes, boosting their visual appeal, clarity, and even security. Adding a recognizable icon can make it easier for users to identify the source and can help prevent tampering .

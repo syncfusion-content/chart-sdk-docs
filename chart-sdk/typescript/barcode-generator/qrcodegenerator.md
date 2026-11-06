@@ -4,7 +4,6 @@ title: Qrcodegenerator in TypeScript Barcode control | Syncfusion®
 description: Learn here all about Qrcodegenerator in Syncfusion® TypeScript Barcode control of Syncfusion Essential® JS 2 and more.
 platform: chart-sdk
 control: Qrcodegenerator 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -71,8 +70,45 @@ In barcode generators You can customize the barcode text by using display text p
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-cs4" %}
 
-## Enhancing QR Codes with Icons
+## GS1 QR Code
 
+GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
+
+Use the [`enableGS1`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/barcodeGenerator/#enablegs1) property on the [`BarcodeGenerator`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/barcodeGenerator/) to switch the control into GS1 mode.
+
+**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/QRCodeGS1-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/QRCodeGS1-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/chart-sdk/typescript/barcode-generator/QRCodeGS1-cs1" %}
+
+![GS1 QR Code](images/Gs1-QrCode.png)
+
+### GS1 QR Code with Error Correction
+
+Combining GS1 encoding with error correction levels:
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/QRCodeGS1ErrorCorrection-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/QRCodeGS1ErrorCorrection-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/chart-sdk/typescript/barcode-generator/QRCodeGS1ErrorCorrection-cs1" %}
+
+This configuration provides robust scanning even with partial damage to the QR code.
+
+## Enhancing QR Codes with Icons
 
 The EJ2 Barcode Generator now lets you add a [`logo`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo/) or icon to your QR codes, boosting their visual appeal, clarity, and even security. Adding a recognizable icon can make it easier for users to identify the source and can help prevent tampering .
 

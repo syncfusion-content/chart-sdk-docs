@@ -42,7 +42,7 @@ A page or printed media with barcode often appears colorful in the background an
 
 ## Customizing the Barcode dimension
 
-The dimension of the barcode can be changed using the height and width property of the barcodegenerator.
+The dimension of the barcode can be changed using the height and width property of the barcode generator.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -54,6 +54,51 @@ The dimension of the barcode can be changed using the height and width property 
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/datamatrix/dimension-cs1" %}
+
+## GS1 Data Matrix
+
+GS1 Data Matrix is a standardized Data Matrix barcode format that uses GS1 Application Identifiers (AIs) to encode structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers.
+
+The [`enableGS1`](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeGenerator/#enablegs1) property enables GS1-compliant Data Matrix barcode generation.
+
+**Allowed Input Characters:** GS1 Data Matrix supports numeric, alphanumeric, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), enabling structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers to be stored within a compact barcode.
+
+The following example demonstrates how to generate a GS1 Data Matrix barcode:
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/datamatrix/datamatrixugs1-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/datamatrix/datamatrixugs1-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/datamatrix/datamatrixugs1-cs1" %}
+
+![GS1 Data Matrix Generator](images/Gs1-DataMatrix.png)
+
+>**Note**: The Barcode Generator validates the input data before generating the barcode. If the input data is invalid or cannot be encoded using the selected settings, the `invalid` event is triggered.
+
+**Common Validation Errors**
+
+| Error | Cause | Solution |
+|---|---|---|
+| Data too long | Exceeds symbol capacity | Reduce data or change encoding |
+| Empty value | No data provided | Supply at least one character |
+| Invalid encoding | Unsupported encoding mode | Use Auto, ASCII, ASCIINumeric, or Base256 |
+| Invalid character for mode | Character not allowed in selected mode | Change encoding or data |
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/datamatrix/datamatrixugs1validation-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/datamatrix/datamatrixugs1validation-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/datamatrix/datamatrixugs1validation-cs1" %}
 
 ## Customizing the text
 
