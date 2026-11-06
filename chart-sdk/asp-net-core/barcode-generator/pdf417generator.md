@@ -4,7 +4,6 @@ title: PDF417Generator in ASP.NET Core Barcode Control | Syncfusion
 description: Learn here all about PDF417Generator in Syncfusion ASP.NET Core Barcode control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: PDF417Generator
-publishingplatform: chart-sdk
 documentation: ug
 ---
 
@@ -517,4 +516,3 @@ The PDF417 Barcode Generator integrates seamlessly into ASP.NET Core application
 
 PDF417 is not mirrored in RTL (right-to-left) mode because the symbol structure must remain in its encoded order for proper scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
 
-N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG-Examples/tree/main/Barcode/PDF417).

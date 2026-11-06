@@ -4,7 +4,6 @@ title: PDF417Generator in JavaScript Barcode control | Syncfusion®
 description: Learn here all about PDF417Generator in Syncfusion® JavaScript Barcode control of Syncfusion Essential® JS 2 and more.
 platform: chart-sdk
 control: Pdf417generator
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---

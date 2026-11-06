@@ -398,11 +398,11 @@ Text alignment supports `Left`, `Center`, and `Right`, and the position supports
 
 ### exportImage
 
-Exports the barcode as an image and downloads it in the browser. See the [BarcodeGenerator exportImage API](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGenerator/#exportimage).
+Exports the barcode as an image and downloads it in the browser. See the [BarcodeGenerator exportImage API](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGenerator#exportimage).
 
 ### exportAsBase64Image
 
-Returns the barcode image as a base64 string. See the [BarcodeGenerator exportAsBase64Image API](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGenerator/#exportasbase64image).
+Returns the barcode image as a base64 string. See the [BarcodeGenerator exportAsBase64Image API](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGenerator#exportasbase64image).
 
 ## Events
 
@@ -423,7 +423,7 @@ Common validation cases include:
 
 ## API documentation
 
-### [value](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#value)
+### [value](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#value)
 
 Defines the value to encode in the PDF417 symbol.
 
@@ -431,7 +431,7 @@ Defines the value to encode in the PDF417 symbol.
 - **Accepted values:** Any string value. Empty values are invalid.
 - **Use case:** Encode shipment IDs, document numbers, or inventory codes.
 
-### [mode](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#mode)
+### [mode](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#mode)
 
 Defines the rendering mode.
 
@@ -439,7 +439,7 @@ Defines the rendering mode.
 - **Accepted values:** `'SVG'` or `'Canvas'`
 - **Use case:** Use SVG for crisp scaling and Canvas when a raster surface is preferred.
 
-### [width](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#width)
+### [width](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#width)
 
 Defines the width of the control.
 
@@ -447,7 +447,7 @@ Defines the width of the control.
 - **Accepted values:** String or number.
 - **Use case:** Reserve enough horizontal space for dense symbols.
 
-### [height](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#height)
+### [height](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#height)
 
 Defines the height of the control.
 
@@ -503,7 +503,7 @@ Defines the height of each row as a multiple of the module width.
 - **Accepted values:** Any number greater than or equal to `3`
 - **Use case:** Increase row height when a taller symbol is acceptable and easier to scan.
 
-### [displayText](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#displaytext)
+### [displayText](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#displaytext)
 
 Defines the text displayed with the barcode.
 
@@ -511,7 +511,7 @@ Defines the text displayed with the barcode.
 - **Accepted values:** `DisplayTextModel`
 - **Use case:** Show a friendly label instead of the full encoded value.
 
-### [margin](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#margin)
+### [margin](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#margin)
 
 Defines the outer margin around the barcode.
 
@@ -519,7 +519,7 @@ Defines the outer margin around the barcode.
 - **Accepted values:** `MarginModel`
 - **Use case:** Leave enough quiet space around the control in labels or printed documents.
 
-### [backgroundColor](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#backgroundcolor)
+### [backgroundColor](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#backgroundcolor)
 
 Defines the background color of the barcode.
 
@@ -527,7 +527,7 @@ Defines the background color of the barcode.
 - **Accepted values:** Any valid CSS color string.
 - **Use case:** Match the barcode area to the surrounding design.
 
-### [foreColor](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#forecolor)
+### [foreColor](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#forecolor)
 
 Defines the foreground color of the barcode.
 
