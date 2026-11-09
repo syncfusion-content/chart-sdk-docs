@@ -68,7 +68,7 @@ The dimension of the barcode can be changed using the height and width property 
 
 GS1 Data Matrix is a standardized Data Matrix barcode format that uses GS1 Application Identifiers (AIs) to encode structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers.
 
-The [`enableGS1`](https://ej2.syncfusion.com/react/documentation/api/barcode/barcodeGenerator/#enablegs1) property enables GS1-compliant Data Matrix barcode generation.
+The [`enableGS1`](https://ej2.syncfusion.com/react/documentation/api/barcode/barcodeGenerator#enablegs1) property enables GS1-compliant Data Matrix barcode generation.
 
 **Allowed Input Characters:** GS1 Data Matrix supports numeric, alphanumeric, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), enabling structured business information such as product identifiers, batch numbers, expiration dates, and serial numbers to be stored within a compact barcode.
 
