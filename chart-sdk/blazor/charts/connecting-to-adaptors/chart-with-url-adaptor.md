@@ -301,20 +301,6 @@ dotnet run
 
 Open the address printed in the terminal, such as `http://localhost:5xxx`. The chart displays the monthly sales and expenses stored in the SQLite database.
 
-### Step 5: Apply Query to Chart Data (Optional)
-
-Assign a [Query](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.Query.html) to the series to limit or shape the request. The values are sent to the controller in `DataManagerRequest`.
-
-```cshtml
-<ChartSeries Query="@ChartQuery" XName="Month" YName="Sales" Name="Sales" Type="ChartSeriesType.Column"></ChartSeries>
-
-@code {
-    private Query ChartQuery = new Query().Take(5);
-}
-```
-
-The controller in this guide applies only `Skip` and `Take`. To support filtering, sorting, or searching, handle `dm.Where`, `dm.Sorted`, and `dm.Search` in the controller.
-
 ## Troubleshooting
 
 **Chart is not displayed**
