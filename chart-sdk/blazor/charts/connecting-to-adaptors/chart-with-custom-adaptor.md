@@ -16,20 +16,56 @@ A custom adaptor gives complete control over how the Blazor Chart reads data. It
 
 1. The Chart creates a `Query` (or uses the one set on `ChartSeries.Query`).
 2. `SfDataManager` converts the query to a `DataManagerRequest` and calls the `ReadAsync` method of the custom adaptor.
-3. The adaptor returns the data to render.
-4. The Chart maps `XName` and `YName` on each item.
-
-> **Important:** The Chart reads the object returned by `ReadAsync` as `IEnumerable<object>`. Return the collection of items directly. Do not return a `DataResult` from a custom adaptor used by the Chart.
+3. The adaptor returns the list of records to render.
+4. The Chart maps `XName` and `YName` on each record.
 
 ## Prerequisites
 
+- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
 - Visual Studio 2022 or Visual Studio Code
-- .NET SDK 8.0 or later
-- A Blazor Web App with `Syncfusion.Blazor.Charts` and `Syncfusion.Blazor.Themes` installed and `AddSyncfusionBlazor()` registered. See [Getting started with Blazor Web App](https://help.syncfusion.com/chart-sdk/blazor/charts/getting-started-with-web-app).
+- A terminal (Command Prompt, PowerShell, or the Visual Studio Code terminal)
+
+## Create the project
+
+```
+dotnet new blazor -n BlazorChartCustomAdaptor -int Server -e
+cd BlazorChartCustomAdaptor
+dotnet add package Syncfusion.Blazor.Charts
+dotnet add package Syncfusion.Blazor.Themes
+```
+
+## Register Syncfusion Blazor
+
+Open `Program.cs`. Add the following line at the top of the file.
+
+```csharp
+using Syncfusion.Blazor;
+```
+
+Then add the following line immediately after `var builder = WebApplication.CreateBuilder(args);`.
+
+```csharp
+builder.Services.AddSyncfusionBlazor();
+```
+
+Open `Components/_Imports.razor` and add the following lines at the end of the file.
+
+```cshtml
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Charts
+@using Syncfusion.Blazor.Data
+```
+
+Open `Components/App.razor` and add the following lines inside the `<head>` element.
+
+```html
+<link href="_content/Syncfusion.Blazor.Themes/bootstrap5.css" rel="stylesheet" />
+<script src="_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
+```
 
 ## Step 1: Create the data model
 
-Create `Models/SalesData.cs`.
+Create a folder named `Models`, add a file named `SalesData.cs` to it, and paste the following code.
 
 ```csharp
 namespace BlazorChartCustomAdaptor.Models
@@ -44,13 +80,13 @@ namespace BlazorChartCustomAdaptor.Models
 
 ## Step 2: Create the custom adaptor
 
-Create `Data/SalesAdaptor.cs`. The adaptor overrides `ReadAsync`, which is the method used by the Chart to fetch data.
+Create a folder named `Data`, add a file named `SalesAdaptor.cs` to it, and paste the following code. The adaptor overrides `ReadAsync`, which is the method used by the Chart to fetch data.
 
 | Member | Purpose |
 | --- | --- |
 | `ReadAsync(DataManagerRequest, string key)` | Returns the data for the chart. Apply the requested data operations here. |
 | `DataManagerRequest` | Carries the query operations such as `Skip`, `Take`, `Where` and `Sorted`. |
-| `DataOperations` | Helper that applies filtering, sorting and paging to an `IEnumerable`. |
+| `DataOperations` | Static helper that applies filtering, sorting and paging to an `IEnumerable`. |
 
 ```csharp
 using BlazorChartCustomAdaptor.Models;
@@ -75,23 +111,21 @@ namespace BlazorChartCustomAdaptor.Data
         public override Task<object> ReadAsync(DataManagerRequest dataManagerRequest, string key = null)
         {
             IEnumerable<SalesData> result = Source;
-            DataOperations operation = new DataOperations();
-
             if (dataManagerRequest.Where != null && dataManagerRequest.Where.Count > 0)
             {
-                result = operation.PerformFiltering(result, dataManagerRequest.Where, dataManagerRequest.Where[0].Operator);
+                result = DataOperations.PerformFiltering(result, dataManagerRequest.Where, dataManagerRequest.Where[0].Operator);
             }
             if (dataManagerRequest.Sorted != null && dataManagerRequest.Sorted.Count > 0)
             {
-                result = operation.PerformSorting(result, dataManagerRequest.Sorted);
+                result = DataOperations.PerformSorting(result, dataManagerRequest.Sorted);
             }
             if (dataManagerRequest.Skip != 0)
             {
-                result = operation.PerformSkip(result, dataManagerRequest.Skip);
+                result = DataOperations.PerformSkip(result, dataManagerRequest.Skip);
             }
             if (dataManagerRequest.Take != 0)
             {
-                result = operation.PerformTake(result, dataManagerRequest.Take);
+                result = DataOperations.PerformTake(result, dataManagerRequest.Take);
             }
 
             return Task.FromResult((object)result.ToList());
@@ -104,9 +138,9 @@ Because the adaptor controls the whole read pipeline, it can also add headers to
 
 ## Step 3: Bind the Chart to the custom adaptor
 
-Set `Adaptor="Adaptors.CustomAdaptor"` and point `AdaptorInstance` to the adaptor type. `SfDataManager` creates the instance with `Activator.CreateInstance`.
+In the code below, set `Adaptor="Adaptors.CustomAdaptor"` and point `AdaptorInstance` to the adaptor type. `SfDataManager` creates the instance with `Activator.CreateInstance`.
 
-Replace `Components/Pages/Home.razor`.
+Open `Components/Pages/Home.razor`, delete its content, and paste the following code.
 
 ```cshtml
 @page "/"
@@ -133,13 +167,45 @@ Replace `Components/Pages/Home.razor`.
 </SfChart>
 ```
 
+## Step 4: Run the application
+
+```
+dotnet run
+```
+
+Open the address printed in the terminal, such as `http://localhost:5xxx`. The Chart displays the monthly sales returned by the custom adaptor.
+
 ## Using services inside the adaptor
 
-`AdaptorInstance` does not support dependency injection. If the adaptor needs services such as `HttpClient`, create it as a Blazor component that derives from `DataAdaptor` and place it inside `SfDataManager`, so that `[Inject]` properties are resolved.
+`AdaptorInstance` does not support dependency injection. If the adaptor needs services such as `HttpClient`, create it as a Razor component that derives from `DataAdaptor`. Add a file named `Data/SalesComponentAdaptor.razor` and paste the following code.
+
+```cshtml
+@inherits DataAdaptor
+@using BlazorChartCustomAdaptor.Models
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Data
+@inject HttpClient Http
+
+@code {
+    public override async Task<object> ReadAsync(DataManagerRequest dataManagerRequest, string key = null)
+    {
+        // Call your own service through the injected client.
+        // var items = await Http.GetFromJsonAsync<List<SalesData>>("https://your-service/api/sales");
+        await Task.CompletedTask;
+        return new List<SalesData>
+        {
+            new() { Month = "Jan", Sales = 10 },
+            new() { Month = "Feb", Sales = 20 }
+        };
+    }
+}
+```
+
+Then place the component inside `SfDataManager` in `Home.razor`.
 
 ```cshtml
 <SfDataManager Adaptor="Adaptors.CustomAdaptor">
-    <SalesAdaptor></SalesAdaptor>
+    <SalesComponentAdaptor></SalesComponentAdaptor>
 </SfDataManager>
 ```
 
@@ -159,7 +225,7 @@ A `Query` assigned to the series is converted into the `DataManagerRequest` rece
 
 **Chart is empty or throws an invalid cast exception**
 
-Return a list or array of items from `ReadAsync`. A `DataResult` or a single object cannot be read by the Chart.
+Return a list or array of items from `ReadAsync`, not a `DataResult` or a single object.
 
 **Query operations have no effect**
 

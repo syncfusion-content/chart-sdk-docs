@@ -35,9 +35,9 @@ BlazorChartUrlAdaptor/
 
 ## Prerequisites
 
+- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
 - Visual Studio 2022 or Visual Studio Code
-- .NET SDK 8.0 or later
-- SQLite database provider through Entity Framework Core
+- A terminal (Command Prompt, PowerShell, or the Visual Studio Code terminal)
 
 | Package | Version |
 | --- | --- |
@@ -57,7 +57,7 @@ cd BlazorChartUrlAdaptor
 
 ### Step 1: Install required NuGet packages
 
-`Syncfusion.Blazor.Charts` includes `Syncfusion.Blazor.Data`, which provides the `DataManagerRequest` type used by the controller.
+Run the following commands inside the project folder.
 
 ```
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 8.0.0
@@ -67,7 +67,7 @@ dotnet add package Syncfusion.Blazor.Themes
 
 ### Step 2: Create the chart data model
 
-Create `Models/SalesRecord.cs`.
+Create a folder named `Models`, add a file named `SalesRecord.cs` to it, and paste the following code.
 
 ```csharp
 using System.ComponentModel.DataAnnotations;
@@ -90,7 +90,7 @@ namespace BlazorChartUrlAdaptor.Models
 
 ### Step 3: Create the database context
 
-Create `Data/AppDbContext.cs`.
+Create a folder named `Data`, add a file named `AppDbContext.cs` to it, and paste the following code.
 
 ```csharp
 using BlazorChartUrlAdaptor.Models;
@@ -112,7 +112,7 @@ namespace BlazorChartUrlAdaptor.Data
 
 ### Step 4: Create the API controller
 
-Create `Controllers/SalesController.cs`.
+Create a folder named `Controllers`, add a file named `SalesController.cs` to it, and paste the following code.
 
 ```csharp
 using BlazorChartUrlAdaptor.Data;
@@ -173,7 +173,7 @@ The `result` property contains the chart data and the `count` property contains 
 
 ### Step 5: Configure services, endpoints, and sample data
 
-Open `Program.cs` and replace its content.
+Open `Program.cs`, delete its content, and paste the following code.
 
 ```csharp
 using BlazorChartUrlAdaptor.Components;
@@ -195,8 +195,6 @@ builder.Services.AddControllers()
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=sales.db"));
-
-builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
@@ -240,15 +238,15 @@ static void SeedDatabase(WebApplication app)
 }
 ```
 
-`PropertyNamingPolicy = null` preserves property names such as `Month` and `Sales`, so they match `XName` and `YName`. `AddHttpClient()` is registered because the Blazor component resolves relative URLs through the application's base address (see Step 3 of the frontend setup).
+`PropertyNamingPolicy = null` preserves property names such as `Month` and `Sales`, so they match `XName` and `YName`.
 
-> **Note:** `sales.db` is created in the working directory on first run. Delete it to reset the seed data.
+The `sales.db` file is created automatically the first time the application runs.
 
 ## Frontend setup with Blazor Chart
 
 ### Step 1: Add the namespaces
 
-Open `Components/_Imports.razor` and add:
+Open `Components/_Imports.razor` and add the following lines at the end of the file.
 
 ```cshtml
 @using Syncfusion.Blazor
@@ -258,7 +256,7 @@ Open `Components/_Imports.razor` and add:
 
 ### Step 2: Add the theme and script
 
-Open `Components/App.razor` and add the following inside `<head>`:
+Open `Components/App.razor` and add the following lines inside the `<head>` element.
 
 ```html
 <link href="_content/Syncfusion.Blazor.Themes/bootstrap5.css" rel="stylesheet" />
@@ -267,7 +265,7 @@ Open `Components/App.razor` and add the following inside `<head>`:
 
 ### Step 3: Configure the Chart with UrlAdaptor
 
-Open `Components/Pages/Home.razor` and replace its content. The `Url` must be absolute for server-side rendering, so it is built from [NavigationManager](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.navigationmanager).
+Open `Components/Pages/Home.razor`, delete its content, and paste the following code. The `Url` must be absolute for server-side rendering, so it is built from [NavigationManager](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.navigationmanager).
 
 ```cshtml
 @page "/"
@@ -301,7 +299,7 @@ The `SfDataManager` placed inside `SfChart` is shared by every series that does 
 dotnet run
 ```
 
-Open the application URL shown in the terminal. The chart displays the monthly sales and expenses stored in the SQLite database.
+Open the address printed in the terminal, such as `http://localhost:5xxx`. The chart displays the monthly sales and expenses stored in the SQLite database.
 
 ### Step 5: Apply Query to Chart Data (Optional)
 
@@ -315,7 +313,7 @@ Assign a [Query](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Data.Qu
 }
 ```
 
-> **Note:** The controller shown above applies only `Skip` and `Take`. Handle `dm.Where`, `dm.Sorted`, or `dm.Search` in the controller if the query uses them.
+The controller in this guide applies only `Skip` and `Take`. To support filtering, sorting, or searching, handle `dm.Where`, `dm.Sorted`, and `dm.Search` in the controller.
 
 ## Troubleshooting
 
@@ -348,9 +346,9 @@ If the `Microsoft.EntityFrameworkCore` namespace is not found, install the requi
 
 If the application fails to start with a "port already in use" error, change the URL in `Properties/launchSettings.json` under `applicationUrl`.
 
-**sales.db File Location**
+**Reset the sample data**
 
-`EnsureCreated` puts `sales.db` inside the running launch profile folder (the application working directory). Delete this file to reset the seed data.
+Stop the application, delete the `sales.db` file from the project folder, and run the application again.
 
 ## See also
 
