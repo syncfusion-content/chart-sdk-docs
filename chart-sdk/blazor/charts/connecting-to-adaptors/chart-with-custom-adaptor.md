@@ -19,6 +19,23 @@ A custom adaptor gives complete control over how the Blazor Chart reads data. It
 3. The adaptor returns the list of records to render.
 4. The Chart maps `XName` and `YName` on each record.
 
+## Project structure
+
+```
+BlazorChartCustomAdaptor/
+|-- Components/
+|   |-- App.razor                       # Syncfusion theme and script references
+|   |-- _Imports.razor                  # Global using directives
+|   `-- Pages/
+|       `-- Home.razor                  # Blazor Chart with the custom adaptor
+|-- Data/
+|   `-- SalesAdaptor.cs                 # Custom adaptor deriving from DataAdaptor
+|-- Models/
+|   `-- SalesData.cs                    # Sales data model
+|-- Program.cs                          # Blazor and Syncfusion configuration
+`-- BlazorChartCustomAdaptor.csproj
+```
+
 ## Prerequisites
 
 - [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later

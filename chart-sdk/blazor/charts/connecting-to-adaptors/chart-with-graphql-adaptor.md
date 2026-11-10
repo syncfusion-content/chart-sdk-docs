@@ -19,6 +19,27 @@ This guide creates two applications:
 | `ChartGraphQLServer` | A GraphQL service, built with HotChocolate, that returns monthly revenue data. |
 | `BlazorChartGraphQL` | A Blazor Web App that displays the data in a Chart. |
 
+## Project structure
+
+```
+ChartGraphQLServer/
+|-- Models/
+|   `-- SalesData.cs                    # Sales data model
+|-- GraphQLTypes.cs                     # GraphQL type descriptions
+|-- Program.cs                          # GraphQL endpoint configuration
+|-- Query.cs                            # GraphQL query returning chart data
+`-- ChartGraphQLServer.csproj
+
+BlazorChartGraphQL/
+|-- Components/
+|   |-- App.razor                       # Syncfusion theme and script references
+|   |-- _Imports.razor                  # Global using directives
+|   `-- Pages/
+|       `-- Home.razor                  # Blazor Chart with GraphQLAdaptor
+|-- Program.cs                          # Blazor and Syncfusion configuration
+`-- BlazorChartGraphQL.csproj
+```
+
 ## Prerequisites
 
 - [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
