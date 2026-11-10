@@ -27,7 +27,7 @@ A QR Code is a two-dimensional barcode that consists of a grid of dark and light
 
 ## Customizing the Barcode color
 
-A page or printed media with barcode often appears colorful in the background and surrounding region with other contents. In such cases the barcode can also be customized to suit the needs. You can achieve this by using for forecolor property .
+A page or printed media with barcode often appears colorful in the background and surrounding region with other contents. In such cases the barcode can also be customized to suit the needs. You can achieve this by using for foreColor property .
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
