@@ -98,7 +98,7 @@ yarn add @syncfusion/ej2-react-charts
 
 Replace the contents of `src/app/page.tsx` with the following code. The example below uses typed data and renders the chart as columns.
 
-> To register a Syncfusion license, call `registerLicense('YOUR_LICENSE_KEY')` from `@syncfusion/ej2-base` at app startup. To apply a theme, import a stylesheet such as `@syncfusion/ej2-react-charts/styles/material.css`. Both are optional during local development but required for production builds.
+> To register a Syncfusion license, call `registerLicense('YOUR_LICENSE_KEY')` from `@syncfusion/ej2-base` at app startup.
 
 {% tabs %}
 {% highlight ts tabtitle="page.tsx" %}
@@ -173,7 +173,6 @@ To learn more about the functionality of the Chart component, refer to the [Reac
 - **Chart does not render (blank page)**
   - Confirm `src/app/page.tsx` begins with `'use client';`.
   - Confirm `registerLicense('YOUR_LICENSE_KEY')` is called with a valid key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/downloads). A missing or invalid key still renders, but logs a console warning.
-  - Verify that a theme stylesheet (for example, `@syncfusion/ej2-react-charts/styles/material.css`) is imported.
 
 - **`Module not found: Can't resolve '@syncfusion/ej2-react-charts'`**
   - Run `npm install @syncfusion/ej2-react-charts` (or `yarn add @syncfusion/ej2-react-charts`) in the project root.

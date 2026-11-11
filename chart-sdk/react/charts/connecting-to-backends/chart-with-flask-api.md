@@ -374,9 +374,6 @@ The Syncfusion React Chart requires a theme stylesheet. Import the Material them
 **File: `client/src/main.tsx`**
 
 ```
-// Syncfusion theme stylesheet (required for chart styling).
-import '@syncfusion/ej2-react-charts/styles/material.css';
-import '@syncfusion/ej2-base/styles/material.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
