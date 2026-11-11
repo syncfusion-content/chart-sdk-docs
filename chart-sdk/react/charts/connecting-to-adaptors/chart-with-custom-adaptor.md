@@ -29,34 +29,11 @@ npm install @syncfusion/ej2-react-charts --save
 npm install @syncfusion/ej2-data --save
 ```
 
-### Step 2: Add CSS styles
-
-Open `src/index.css` and add the required Syncfusion Chart styles:
-
-```
-@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
-```
-
-Import the stylesheet in the `main.jsx` application entry point:
-
-```
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import './index.css';
-import App from './App.jsx';
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
-```
-
-### Step 3: Create the Custom Adaptor
+### Step 2: Create the Custom Adaptor
 
 Integrating a Custom adaptor with the React Chart requires configuring the [`DataManager`](https://ej2.syncfusion.com/react/documentation/data/getting-started) as the communication bridge between the Chart component and the backend data source. The Custom adaptor serves as a customization layer that provides complete control over how data is requested and how the response is transformed before being rendered by the Chart.
 
-#### Step 3.1: Creating an Extended UrlAdaptor:
+#### Step 2.1: Creating an Extended UrlAdaptor:
 
 The first step involves creating a custom adaptor by extending the existing `UrlAdaptor` class. This extension allows modification of the default behavior to meet specific application requirements.
 
@@ -118,7 +95,7 @@ export class CustomAdaptor extends UrlAdaptor {
 
 > Always call `super.processResponse.apply(this, arguments)` from your override so the base adaptor still performs its standard unwrapping (for example, extracting `result` from a `{ result, count }` envelope).
 
-#### Step 3.2: Integrating the Custom Adaptor into the React Chart:
+#### Step 2.2: Integrating the Custom Adaptor into the React Chart:
 
 After creating the custom adaptor class, integrate it with the React Chart in the main application file (typically `App.jsx`). This requires importing the necessary modules and configuring the Chart to use the custom adaptor:
 
@@ -298,7 +275,7 @@ After the Chart renders, confirm that the data is actually flowing through the C
 3. Locate the request to `http://localhost:5050/api/chart-data`. The request should include the headers and query parameters added by `beforeSend` and `processQuery` in the Custom Adaptor.
 4. Open the response and verify that the JSON contains items shaped as `{ x, y }`, for example:
 
-   ```on
+   ```
    {
      "result": [
        { "x": "Jan", "y": 120 },
@@ -322,7 +299,6 @@ To stop the application, switch to each terminal and press `Ctrl + C`. Stop the 
 | Custom headers are not sent | Headers not set on the request | Verify `beforeSend` calls `request.setRequestHeader(...)` before the request is dispatched |
 | Query parameters are missing | Parameters not added to the query | Ensure `processQuery` calls `query.addParams(...)` and returns the result of `super.processQuery.apply(this, arguments)` |
 | CORS error in the console | Server does not allow the client origin | Enable CORS on the server (for example, `app.use(cors())`) and restrict it to the client origin in production |
-| Chart is un-styled | Syncfusion theme not imported | Add `@import '../node_modules/@syncfusion/ej2-base/styles/material.css';` to `client/src/index.css` |
 
 ## Method override summary
 
