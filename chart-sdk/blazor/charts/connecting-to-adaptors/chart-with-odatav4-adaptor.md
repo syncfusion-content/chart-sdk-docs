@@ -33,7 +33,7 @@ BlazorChartODataV4Adaptor/
 
 ## Prerequisites
 
-- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
+- [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) or later
 - Visual Studio 2022 or Visual Studio Code
 - A terminal (Command Prompt, PowerShell, or the Visual Studio Code terminal)
 
@@ -227,7 +227,7 @@ For example, the following query shows the four largest orders that are above 20
 
 @code {
     private Query ChartQuery = new Query()
-        .Where("Amount", "greaterthan", 200)
+        .Where("Amount", ">", 200)
         .Sort("Amount", "descending")
         .Take(4);
 }

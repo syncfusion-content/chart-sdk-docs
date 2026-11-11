@@ -41,7 +41,7 @@ BlazorChartWebApiAdaptor/
 
 ## Prerequisites
 
-- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
+- [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) or later
 - Visual Studio 2022 or Visual Studio Code
 - A terminal (Command Prompt, PowerShell, or the Visual Studio Code terminal)
 
@@ -245,7 +245,7 @@ The Web API receives the following request, and the Chart displays January to Ap
 GET /api/sales?$skip=0&$top=4
 ```
 
-Sorting and filtering are sent in the same way. For example, `new Query().Sort("Sales", "descending")` adds `$orderby=Sales desc` and `new Query().Where("Sales", "greaterthan", 30)` adds `$filter=Sales gt 30`. The controller in this guide handles only `$skip` and `$top`, so add the matching logic to the `Get` action to apply sorting and filtering on the server.
+Sorting and filtering are sent in the same way. For example, `new Query().Sort("Sales", "descending")` adds `$orderby=Sales desc` and `new Query().Where("Sales", "greater than", 30)` adds `$filter=Sales gt 30`. The controller in this guide handles only `$skip` and `$top`, so add the matching logic to the `Get` action to apply sorting and filtering on the server.
 
 ## Troubleshooting
 
