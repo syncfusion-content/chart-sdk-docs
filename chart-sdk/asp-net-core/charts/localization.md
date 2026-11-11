@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Localization in ASP.NET Core Charts
 
-Localization library allows to localize the default text content of Chart. In Chart component, it has the static text on some features (like zooming toolbars) and this can be changed to any other culture (Arabic, Deutsch, French, etc) by defining the locale value and translation object.
+The localization library allows you to localize the default text content of the chart. The chart component has static text on some features (such as the zoom toolbar) that can be changed to any other culture (Arabic, German, French, etc.) by defining the locale value and a translation object.
 
 <!-- markdownlint-disable MD033 -->
 
@@ -46,7 +45,7 @@ Localization library allows to localize the default text content of Chart. In Ch
 </tr>
 </table>
 
-To load translation object in an application, use load function of L10n class.
+To load a translation object in an application, use the `load` function of the `L10n` class.
 
 For more information about localization, refer this [`localization`](https://ej2.syncfusion.com/aspnetcore/documentation/common/localization).
 
@@ -58,5 +57,4 @@ For more information about localization, refer this [`localization`](https://ej2
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/localization/localization.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 

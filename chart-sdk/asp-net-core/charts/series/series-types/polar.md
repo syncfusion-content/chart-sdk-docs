@@ -8,14 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Polar Chart in ASP.NET Core Charts
 
 To get started with the ASP.NET Core Polar charts, you can check on this video:
 
 {% youtube "https://www.youtube.com/watch?v=cwIaOclRzwY" %}
 
-## Polar chart
+## Overview
 
 To render a [polar](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/polar-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -210,7 +209,7 @@ You can customize the radius of the polar series using `coefficient` property. B
 {% endhighlight %}
 {% endtabs %}
 
-## Empty points
+### Empty points
 
 Data points with **null** or **undefined** values are considered empty. Empty data points are ignored and not plotted on the chart.
 

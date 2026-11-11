@@ -8,14 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 <!-- markdownlint-disable MD036 -->
 
 # Selection in ASP.NET Core Charts
 
 Chart provides selection support for the series and its data points on mouse click.
 
-N> When Mouse is clicked on the data points, the corresponding series legend will also be selected.
+> When a data point is clicked, the corresponding series legend item is also selected.
 
 There are different types of selection mode for selecting the data. They are,
 
@@ -29,7 +28,7 @@ There are different types of selection mode for selecting the data. They are,
 
 ## Point
 
-You can select a point, by setting `selectionMode` to point.
+You can select a point by setting `selectionMode` to `Point`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -40,11 +39,9 @@ You can select a point, by setting `selectionMode` to point.
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Series
 
-You can select a series, by setting `selectionMode` to series.
+You can select a series by setting `selectionMode` to `Series`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -55,11 +52,9 @@ You can select a series, by setting `selectionMode` to series.
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Cluster
 
-You can select the points that corresponds to the same index in all the series, by setting `selectionMode` to cluster.
+You can select the points that correspond to the same index in all the series by setting `selectionMode` to `Cluster`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -70,19 +65,17 @@ You can select the points that corresponds to the same index in all the series, 
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Rectangular selection
 
-**DragXY, DragX and DragY**
+### DragXY, DragX, and DragY
 
-To fetch the collection of data under a particular region, you have to set `selectionMode` as `DragXY`.
+To fetch the collection of data under a particular region, set `selectionMode` to `DragXY`.
 
 * DragXY - Allows us to select data with respect to horizontal and vertical axis.
 * DragX - Allows us to select data with respect to horizontal axis.
 * DragY - Allows us to select data with respect to vertical axis.
 
-The selected data are returned as an array collection in the [`dragComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_DragComplete) event.
+The selected data is returned as an array collection in the [`dragComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_DragComplete) event.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -92,8 +85,6 @@ The selected data are returned as an array collection in the [`dragComplete`](ht
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/selection/drag/drag.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Selection type
 
@@ -108,11 +99,9 @@ You can select multiple points or series, by enabling the [`isMultiSelect`](http
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Selection on load
 
-You can select a point or series programmatically on a chart using [`selectedDataIndexes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SelectedDataIndexes) property.
+You can select a point or series programmatically on chart load by setting the [`selectedDataIndexes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SelectedDataIndexes) property.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -123,11 +112,9 @@ You can select a point or series programmatically on a chart using [`selectedDat
 {% endhighlight %}
 {% endtabs %}
 
+## Selection through the legend
 
-
-## Selection through on legend
-
-You can able to select a point or series through on legend using [`toggleVisibility`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_ToggleVisibility) property. Also, use [`enableHighlight`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_EnableHighlight) property for highlighting the series through legend.
+You can select a point or series through the legend using [`toggleVisibility`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_ToggleVisibility) property. Also, use [`enableHighlight`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartLegendSettings.html#Syncfusion_EJ2_Charts_ChartLegendSettings_EnableHighlight) property for highlighting the series through legend.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -137,8 +124,6 @@ You can able to select a point or series through on legend using [`toggleVisibil
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/selection/selection-legend/selection-legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Customization for selection
 
@@ -152,5 +137,4 @@ You can apply custom style to selected points or series with [`selectionStyle`](
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/selection/custom-selection/custom-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 

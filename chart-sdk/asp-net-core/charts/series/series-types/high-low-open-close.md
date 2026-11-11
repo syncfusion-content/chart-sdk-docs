@@ -8,16 +8,15 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # High Low Open Close Chart in ASP.NET Core Charts
 
-## High Low Open Close
+## Overview
 
-To render an `hiloOpenClose` series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
+To render an `HiLoOpenClose` series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
-* **Set the series type:** Define the series `type` as **HiloOpenClose** in your chart configuration. This indicates that the data should be represented as a hiloOpenClose chart, which displays the high, low, open, and close values for each data point, providing a comprehensive visualization of stock price movements.
+* **Set the series type:** Define the series `type` as **HiLoOpenClose** in your chart configuration. This indicates that the data should be represented as a HiLoOpenClose chart, which displays the high, low, open, and close values for each data point, providing a comprehensive visualization of stock price movements.
 
-* **Provide high, low, open, and close values:** The `HiloOpenClose` series requires five fields (x, high, low, open, and close) to accurately display the stock’s high, low, open, and close prices. Ensure that your data source includes these fields to create a detailed representation of stock price movements over time.
+* **Provide high, low, open, and close values:** The `HiLoOpenClose` series requires five fields (x, high, low, open, and close) to accurately display the stock’s high, low, open, and close prices. Ensure that your data source includes these fields to create a detailed representation of stock price movements over time.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -43,7 +42,7 @@ You can bind data to the chart using the `dataSource` property within the series
 
 ## Series customization
 
-In the `hiloOpenClose` series, the `bullFillColor` property is used to fill the segment when the open value is greater than the close value, while the `bearFillColor` property is used to fill the segment when the open value is less than the close value. By default, `bullFillColor` is set to **#e74c3d** and `bearFillColor` is set to **#2ecd71**.
+In the `HiLoOpenClose` series, the `bullFillColor` property is used to fill the segment when the open value is greater than the close value, while the `bearFillColor` property is used to fill the segment when the open value is less than the close value. By default, `bullFillColor` is set to **#e74c3d** and `bearFillColor` is set to **#2ecd71**.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
