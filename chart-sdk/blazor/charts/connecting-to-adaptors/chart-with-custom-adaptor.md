@@ -234,7 +234,12 @@ A `Query` assigned to the series is converted into the `DataManagerRequest` rece
 <ChartSeries Query="@ChartQuery" XName="Month" YName="Sales" Type="ChartSeriesType.Column"></ChartSeries>
 
 @code {
-    private Query ChartQuery = new Query().Take(5);
+    public Query ChartQuery { get; set; }
+
+    protected override void OnInitialized()
+    {
+        ChartQuery = new Query().Take(5);
+    }
 }
 ```
 

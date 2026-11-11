@@ -235,7 +235,12 @@ For example, the following query requests the first four records.
 </SfChart>
 
 @code {
-    private Query ChartQuery = new Query().Take(4);
+    public Query ChartQuery { get; set; }
+
+    protected override void OnInitialized()
+    {
+        ChartQuery = new Query().Take(4);
+    }
 }
 ```
 
@@ -245,7 +250,7 @@ The Web API receives the following request, and the Chart displays January to Ap
 GET /api/sales?$skip=0&$top=4
 ```
 
-Sorting and filtering are sent in the same way. For example, `new Query().Sort("Sales", "descending")` adds `$orderby=Sales desc` and `new Query().Where("Sales", "greater than", 30)` adds `$filter=Sales gt 30`. The controller in this guide handles only `$skip` and `$top`, so add the matching logic to the `Get` action to apply sorting and filtering on the server.
+Sorting and filtering are sent in the same way. For example, `new Query().Sort("Sales", "descending")` adds `$orderby=Sales desc` and `new Query().Where("Sales", ">", 30, false)` adds `$filter=Sales gt 30`. The controller in this guide handles only `$skip` and `$top`, so add the matching logic to the `Get` action to apply sorting and filtering on the server.
 
 ## Troubleshooting
 

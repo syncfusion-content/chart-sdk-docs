@@ -226,10 +226,15 @@ For example, the following query shows the four largest orders that are above 20
 </SfChart>
 
 @code {
-    private Query ChartQuery = new Query()
-        .Where("Amount", ">", 200)
-        .Sort("Amount", "descending")
-        .Take(4);
+    public Query ChartQuery { get; set; }
+
+    protected override void OnInitialized()
+    {
+        ChartQuery = new Query()
+            .Take(4)
+            .Where("Amount", ">", 200, false)
+            .Sort("Amount", "descending");
+    }
 }
 ```
 
