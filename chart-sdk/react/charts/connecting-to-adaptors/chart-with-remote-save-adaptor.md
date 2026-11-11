@@ -128,26 +128,7 @@ If you plan to use Syncfusion DataManager utilities, install the data package as
 npm install @syncfusion/ej2-data --save
 ```
 
----
-
-## Step 3: Add Syncfusion Styles
-
-Open the following file:
-
-```
-remote-save-chart.client/src/App.css
-```
-
-Add the Syncfusion base and chart theme styles.
-
-```
-@import '../node_modules/@syncfusion/ej2-base/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-react-charts/styles/material3.css';
-```
-
----
-
-## Step 4: Configure the React Chart Component
+## Step 3: Configure the React Chart Component
 
 Open the following file:
 
@@ -295,7 +276,7 @@ export default App;
 
 ---
 
-## Step 5: Add Basic Styling
+## Step 4: Add Basic Styling
 
 Open the following file:
 
@@ -324,7 +305,7 @@ Add the following styles below the Syncfusion theme imports.
 
 ---
 
-## Step 6: Create the ASP.NET Core Backend (Optional)
+## Step 5: Create the ASP.NET Core Backend (Optional)
 
 From the parent folder (one level above `remote-save-chart.client`), create the backend project.
 
@@ -351,7 +332,7 @@ remote-save-chart.server/Properties/launchSettings.json
 
 ---
 
-## Step 7: Add the Chart Data Model
+## Step 6: Add the Chart Data Model
 
 Create the following file:
 
@@ -375,7 +356,7 @@ namespace RemoteSaveChart.Server.Models
 
 ---
 
-## Step 8: Add the Chart Data Controller
+## Step 7: Add the Chart Data Controller
 
 Create the following file:
 
@@ -458,7 +439,7 @@ namespace RemoteSaveChart.Server.Controllers
 
 ---
 
-## Step 9: Configure CORS in the Backend
+## Step 8: Configure CORS in the Backend
 
 Open the following file:
 
