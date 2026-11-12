@@ -5,7 +5,7 @@ import * as ReactDOM from "react-dom";
 import { AxisModel, ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject,
          Legend, StepAreaSeries}
 from'@syncfusion/ej2-react-charts';
-import { stepData } from "../datasource";
+import { stepData } from "./datasource";
 
 function App() {
 

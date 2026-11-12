@@ -6,10 +6,10 @@ import { data } from './datasource';
 
 function App() {
     const textRenderHandler = (args) => {
-        if (typeof args.point?.y === 'number') {
+        if (typeof args.point? args.point.y: null === 'number') {
             args.text = `$${args.point.y}K`;
         }
-        if (args.point?.x === 'Aug') {
+        if (args.point? args.point.x: null === 'Aug') {
             args.text = `${args.text} ★`;
             args.color = '#e74c3c';
         }
