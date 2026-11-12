@@ -6,8 +6,8 @@ import { data } from './datasource';
 function App() {
     const pointMoveHandler = (args: IPointEventArgs): void => {
         console.log('Point move event was triggered', {
-            x: args.point?.x,
-            y: args.point?.y
+            x: args.point? args.point.x: null,
+            y: args.point? args.point.y: null,
         });
     }
 

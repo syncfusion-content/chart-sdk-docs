@@ -1,8 +1,8 @@
 {% raw %}
 
 import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-import type { AxisModel, BorderModel } from "@syncfusion/ej2-react-charts";
+import * as ReactDOM from "react-dom";
+import { AxisModel, BorderModel } from "@syncfusion/ej2-react-charts";
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Category, ColumnSeries } from '@syncfusion/ej2-react-charts';
 import { columnData } from './datasource';
 
@@ -25,8 +25,7 @@ function App() {
 
 };
 export default App;
-const root = ReactDOM.createRoot(document.getElementById('charts') as HTMLElement);
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById("charts"));
 
 
 {% endraw %}
