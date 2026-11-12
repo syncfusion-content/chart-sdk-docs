@@ -11,7 +11,7 @@ import {
     EmaIndicator, RsiIndicator, BollingerBands, TmaIndicator, MomentumIndicator, SmaIndicator, AtrIndicator,
     AccumulationDistributionIndicator, MacdIndicator, StochasticIndicator, Export
 } from '@syncfusion/ej2-react-charts';
-import { trackData } from '../datasource';
+import { trackData } from './datasource';
 
 function App() {
 
