@@ -27,6 +27,14 @@ function App() {
                 indicatorType={[]}
                 exportType={[]}
                 seriesType={[]}
+                trendlineType={[
+                    "Linear",
+                    "Exponential",
+                    "Logarithmic",
+                    "Polynomial",
+                    "Power",
+                    "MovingAverage"
+                ]}
             >
                 <Inject services={[DateTime, Tooltip, RangeTooltip, Crosshair, LineSeries, SplineSeries, CandleSeries, HiloOpenCloseSeries, HiloSeries, RangeAreaSeries, Trendlines]} />
                 <StockChartSeriesCollectionDirective>

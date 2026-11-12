@@ -135,7 +135,7 @@ The title for legend can be set using [`title`](https://ej2.syncfusion.com/react
 
  {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/stock-chart/legend-cs8" %}
 
- ## Legend Template
+## Legend Template
 
 Legend templates allow you to replace default legend icons and text with custom HTML.This enables branded styles, richer content (icons, multi-line text, badges), improved readability, and localization.The rendered content becomes the legend item and can be styled with CSS.
 

@@ -4,7 +4,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
-import { useEffect, useRef, useState } from 'react'; import { createRoot } from 'react-dom/client';
+import { useEffect, useRef, useState } from 'react';
 import {
     StockChartComponent, StockChartSeriesCollectionDirective, StockChartSeriesDirective, Inject, ITooltipRenderEventArgs, IStockChartEventArgs, ChartTheme,
     DateTime, Tooltip, RangeTooltip, Crosshair, LineSeries, SplineSeries, CandleSeries, HiloOpenCloseSeries, HiloSeries, RangeAreaSeries, Trendlines
@@ -93,8 +93,7 @@ function App() {
                     onClick: loadData
                 });
 
-                const root = createRoot(buttonContainer);
-                root.render(buttonElement);
+                ReactDOM.render(buttonElement, buttonContainer);
             }
         }
     };
