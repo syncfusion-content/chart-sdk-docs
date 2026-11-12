@@ -16,8 +16,6 @@ import { CircularGaugeComponent as EjsCirculargauge, AxesDirective as EAxes, Axi
 
 </script>
 <style>
-@import "../node_modules/@syncfusion/ej2-vue-circulargauge/styles/material.css";
-
 .wrapper {
   max-width: 300px;
   margin: 0 auto;
