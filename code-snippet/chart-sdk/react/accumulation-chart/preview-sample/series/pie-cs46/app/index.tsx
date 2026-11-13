@@ -2,8 +2,6 @@
 
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { createRoot } from 'react-dom/client';
-import { useEffect, useRef, useState } from 'react';
 import { AccumulationChartComponent, AccumulationSeriesCollectionDirective, AccumulationSeriesDirective, PieSeries, Inject } from '@syncfusion/ej2-react-charts';
 import { accData } from '../datasource.ts';
 import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
@@ -87,8 +85,7 @@ function App() {
           onClick: loadData
         });
 
-        const root = createRoot(buttonContainer);
-        root.render(buttonElement);
+        ReactDOM.render(buttonElement, buttonContainer);
       }
     }
   };
