@@ -6,7 +6,7 @@ import {
     DateTime, Tooltip, RangeTooltip, Crosshair, LineSeries, SplineSeries, CandleSeries, HiloOpenCloseSeries, HiloSeries, RangeAreaSeries, Trendlines
 } from '@syncfusion/ej2-react-charts';
 
-import { chartData } from '../datasource';
+import { chartData } from './datasource';
 
 function App() {
 
@@ -25,6 +25,14 @@ function App() {
                 indicatorType={[]}
                 exportType={[]}
                 seriesType={[]}
+                trendlineType={[
+                    "Linear",
+                    "Exponential",
+                    "Logarithmic",
+                    "Polynomial",
+                    "Power",
+                    "MovingAverage"
+                ]}
             >
                 <Inject services={[DateTime, Tooltip, RangeTooltip, Crosshair, LineSeries, SplineSeries, CandleSeries, HiloOpenCloseSeries, HiloSeries, RangeAreaSeries, Trendlines]} />
                 <StockChartSeriesCollectionDirective>

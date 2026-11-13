@@ -83,8 +83,7 @@ function App() {
                     onClick: loadData
                 });
 
-                const root = createRoot(buttonContainer);
-                root.render(buttonElement);
+                ReactDOM.render(buttonElement, buttonContainer);
             }
         }
     };

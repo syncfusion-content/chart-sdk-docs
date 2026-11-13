@@ -5,7 +5,7 @@ import * as ReactDOM from "react-dom";
 import { AxisModel, ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject,
          Legend, StackingStepAreaSeries}
 from'@syncfusion/ej2-react-charts';
-import { percentData } from "../datasource";
+import { percentData } from "./datasource";
 
 function App() {
 

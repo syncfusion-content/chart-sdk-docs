@@ -1,11 +1,12 @@
 
 
-import { StockChartComponent, Inject, LineSeries, Crosshair, DateTime, type ICrosshairLabelRenderEventArgs, AccumulationDistributionIndicator, AtrIndicator, BollingerBands, CandleSeries, EmaIndicator, Export, HiloOpenCloseSeries, HiloSeries, load, MacdIndicator, MomentumIndicator, RangeAreaSeries, RangeTooltip, RsiIndicator, SmaIndicator, SplineAreaSeries, SplineSeries, StochasticIndicator, StockChartSeriesCollectionDirective, StockChartSeriesDirective, TmaIndicator, Trendlines } from '@syncfusion/ej2-react-charts';
+import { StockChartComponent, Inject, LineSeries, Crosshair, DateTime, ICrosshairLabelRenderEventArgs, AccumulationDistributionIndicator, AtrIndicator, BollingerBands, CandleSeries, EmaIndicator, Export, HiloOpenCloseSeries, HiloSeries, load, MacdIndicator, MomentumIndicator, RangeAreaSeries, RangeTooltip, RsiIndicator, SmaIndicator, SplineAreaSeries, SplineSeries, StochasticIndicator, StockChartSeriesCollectionDirective, StockChartSeriesDirective, TmaIndicator, Trendlines } from '@syncfusion/ej2-react-charts';
 import { stockData1 } from './datasource';
-import type { JSX } from 'react';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 
 
-function App(): JSX.Element {
+function App() {
     const crosshairLabelRender = (args: ICrosshairLabelRenderEventArgs) => {
         if (args.axisName === 'primaryXAxis') {
             const date = args.value instanceof Date ? args.value : new Date(args.text);

@@ -71,7 +71,7 @@ The Stock chart component's accessibility levels are ensured through an [accessi
 
 The accessibility compliance of the Stock chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/stock-chart.html) in a new window to evaluate the accessibility of the Stock chart component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/stock-chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/stock-chart/accessibility" %}
 
 ## See also
 

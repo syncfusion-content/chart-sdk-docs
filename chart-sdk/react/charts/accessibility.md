@@ -86,7 +86,7 @@ The Chart component's accessibility levels are ensured through an [accessibility
 
 The accessibility compliance of the Chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/chart.html) in a new window to evaluate the accessibility of the Chart component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/charts/preview-sample/accessibility" %}
 
 ## See also
 
