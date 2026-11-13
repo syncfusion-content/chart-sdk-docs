@@ -71,9 +71,9 @@ The Accumulation chart component followed the [keyboard interaction](https://www
 
 The Accumulation chart component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Accumulation chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/accumulation-chart.html) in a new window to evaluate the accessibility of the Accumulation chart component with accessibility tools.
+The accessibility compliance of the Accumulation chart component is shown in the following sample. Evaluate the accessibility of the Accumulation chart component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/accumulation-chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/accumulation-chart/preview-sample/accessibility" %}
 
 ## See also
 
