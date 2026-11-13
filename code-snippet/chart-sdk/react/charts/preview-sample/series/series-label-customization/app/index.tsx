@@ -1,4 +1,4 @@
-{% raw %}
+
 
 import * as React from "react";
 import * as ReactDOM from "react-dom";
@@ -34,4 +34,3 @@ function App(): JSX.Element {
 export default App;
 ReactDOM.render(<App />, document.getElementById("charts"));
 
-{% endraw %}

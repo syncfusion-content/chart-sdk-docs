@@ -1,6 +1,7 @@
 
-import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, LineSeries, Trendlines } from '@syncfusion/ej2-react-charts';
+import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, LineSeries,, SplineSeries, Trendlines } from '@syncfusion/ej2-react-charts';
 import * as React from 'react';
+import * as ReactDOM from "react-dom";
 
 const data: Object[] = [
   { x: 1, y: 10 },
@@ -15,7 +16,7 @@ export default class App extends React.Component<{}, {}> {
   render() {
     return (
       <ChartComponent id="charts" primaryXAxis={{ valueType: 'Double' }}>
-        <Inject services={[LineSeries, Trendlines]} />
+        <Inject services={[LineSeries, Trendlines, SplineSeries]} />
         <SeriesCollectionDirective>
           <SeriesDirective dataSource={data} xName="x" yName="y" type="Line"
             trendlines={[

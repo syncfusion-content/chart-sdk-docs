@@ -27,9 +27,9 @@ function App() {
           width="90%"
           height="450px"
           title="Energy Flow Diagram"
-          subtitle="Agricultural Energy Conversion"
+          subTitle="Agricultural Energy Conversion"
           titleStyle={titleStyle}
-          subtitleStyle={subtitleStyle}
+          subTitleStyle={subtitleStyle}
         >
           <SankeyNodesCollectionDirective>
             <SankeyNodeDirective id="Agricultural Waste" />

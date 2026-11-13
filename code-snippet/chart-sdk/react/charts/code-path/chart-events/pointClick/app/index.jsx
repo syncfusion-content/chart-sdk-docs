@@ -7,8 +7,8 @@ import { data } from './datasource';
 function App() {
     const pointClickHandler = (args) => {
         console.log('Point click event was triggered', {
-            x: args.point?.x,
-            y: args.point?.y,
+            x: args.point? args.point.x: null,
+            y: args.point? args.point.y: null,
             seriesIndex: args.seriesIndex,
             pointIndex: args.pointIndex
         });
