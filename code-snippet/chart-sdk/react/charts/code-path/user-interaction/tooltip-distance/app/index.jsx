@@ -1,5 +1,7 @@
 {% raw %}
 
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, ColumnSeries, Category, Tooltip, Legend } from '@syncfusion/ej2-react-charts';
 import { vietnamData, polandData } from './datasource';
 

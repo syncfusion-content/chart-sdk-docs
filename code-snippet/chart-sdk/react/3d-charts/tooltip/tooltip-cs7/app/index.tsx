@@ -1,5 +1,5 @@
 import { Chart3DComponent, Chart3DSeriesCollectionDirective, Chart3DSeriesDirective, Category3D, Inject, Tooltip3D, ColumnSeries3D } from '@syncfusion/ej2-react-charts';
-import type { Chart3DTooltipRenderEventArgs } from '@syncfusion/ej2-charts';
+import { Chart3DTooltipRenderEventArgs } from '@syncfusion/ej2-charts';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 

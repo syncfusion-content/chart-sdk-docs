@@ -1,7 +1,7 @@
 {% raw %}
 
 import * as React from "react";
-import * as ReactDOM from "react-dom/client";
+import * as ReactDOM from "react-dom";
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, AreaSeries } from '@syncfusion/ej2-react-charts';
 import { data } from './datasource';
 function App() {
@@ -19,7 +19,6 @@ function App() {
     </ChartComponent>;
 };
 export default App;
-const root = ReactDOM.createRoot(document.getElementById('charts'));
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById("charts"));
 
 {% endraw %}

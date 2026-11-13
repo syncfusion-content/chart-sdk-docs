@@ -9,7 +9,7 @@ function App() {
   const primaryXAxis = { valueType: 'Category' };
   const tooltip = { enable: true };
   const tooltipRender = (args) => {
-    const rawData = args.data.rawData;
+    const rawData = args.data ? args.data.rawData : null;
     if (rawData) {
       args.text = 'Sales: <b>' + rawData.sales + '</b><br/>' +
         'Country: <b>' + rawData.country + '</b><br/>' +
