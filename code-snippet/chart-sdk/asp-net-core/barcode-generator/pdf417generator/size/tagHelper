@@ -1,0 +1,1 @@
+<ejs-pdf417generator id="container" value="Syncfusion" width="500px" height="200px" type="Pdf417"></ejs-pdf417generator>
