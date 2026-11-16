@@ -105,4 +105,4 @@ function App() {
   );
 }
 export default App;
-ReactDOM.render(<App />, document.getElementById('loader'));
+ReactDOM.render(<App />, document.getElementById('gauge-container'));
