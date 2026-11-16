@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blazor Chart with GraphQL Adaptor | Syncfusion
+title: Blazor Chart with GraphQL Adaptor | Syncfusion®
 description: Learn how to bind the Syncfusion Blazor Chart component to a GraphQL service using SfDataManager and GraphQLAdaptor.
 platform: chart-sdk
 control: Charts

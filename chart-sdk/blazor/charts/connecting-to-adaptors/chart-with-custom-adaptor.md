@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blazor Chart with Custom Adaptor | Syncfusion
+title: Blazor Chart with Custom Adaptor | Syncfusion®
 description: Learn how to connect the Syncfusion Blazor Chart component to any data source using SfDataManager and a custom adaptor derived from DataAdaptor.
 platform: chart-sdk
 control: Charts

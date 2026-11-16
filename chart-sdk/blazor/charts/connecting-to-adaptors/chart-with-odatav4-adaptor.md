@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blazor Chart with ODataV4 Adaptor | Syncfusion
+title: Blazor Chart with ODataV4 Adaptor | Syncfusion®
 description: Learn how to connect the Syncfusion Blazor Chart component to an OData V4 service using SfDataManager and ODataV4Adaptor in an ASP.NET Core backend.
 platform: chart-sdk
 control: Charts
