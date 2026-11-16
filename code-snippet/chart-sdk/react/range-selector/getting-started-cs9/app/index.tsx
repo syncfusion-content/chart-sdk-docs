@@ -1,13 +1,10 @@
-{% raw %}
-
-
 import {
   StepLineSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective,
   RangenavigatorSeriesDirective, RangeTooltip, RangeTooltipSettingsModel
 } from '@syncfusion/ej2-react-charts';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { double } from 'default-data.ts';
+import { double } from '../default-data';
 
 function App() {
 
@@ -29,7 +26,3 @@ function App() {
 };
 export default App;
 ReactDOM.render(<App />, document.getElementById("charts"));
-
-
-
-{% endraw %}
