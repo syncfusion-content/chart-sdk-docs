@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import {
-  CircularGaugeComponent, AxesDirective, AxisDirective, PointersDirective, PointerDirective,
+  CircularGaugeComponent, AxesDirective, AxisDirective, PointersDirective, PointerDirective,GaugeTooltip, Annotations, LegendService,
   RangesDirective, RangeDirective, AnnotationsDirective, AnnotationDirective, Inject,
 } from '@syncfusion/ej2-react-circulargauge';
 
