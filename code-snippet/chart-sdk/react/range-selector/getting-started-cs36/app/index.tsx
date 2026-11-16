@@ -1,3 +1,4 @@
+
 import {
   SplineAreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective,
   RangenavigatorSeriesDirective, RangeTooltip, RangeTooltipSettingsModel

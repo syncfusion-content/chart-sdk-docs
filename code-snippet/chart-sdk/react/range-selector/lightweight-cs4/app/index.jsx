@@ -1,3 +1,4 @@
+
 import { DateTime, Inject, RangeNavigatorComponent } from '@syncfusion/ej2-react-charts';
 import * as React from "react";
 import * as ReactDOM from "react-dom";

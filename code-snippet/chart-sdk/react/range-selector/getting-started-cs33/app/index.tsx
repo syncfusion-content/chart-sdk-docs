@@ -1,3 +1,4 @@
+
 import {
   AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective,
   RangenavigatorSeriesDirective, RangeTooltip, RangeTooltipSettingsModel
@@ -23,3 +24,4 @@ function App() {
 };
 export default App;
 ReactDOM.render(<App />, document.getElementById("charts"));
+

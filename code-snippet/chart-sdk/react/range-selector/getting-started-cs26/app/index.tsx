@@ -1,3 +1,4 @@
+
 import {
   AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective,
   RangenavigatorSeriesDirective, RangeTooltip, PeriodSelector, RangeTooltipSettingsModel, PeriodSelectorSettingsModel
@@ -35,3 +36,4 @@ function App() {
 };
 export default App;
 ReactDOM.render(<App />, document.getElementById("charts"));
+

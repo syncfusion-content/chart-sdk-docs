@@ -1,3 +1,4 @@
+
 import {
   AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective,
   RangenavigatorSeriesDirective, RangeTooltip
@@ -21,6 +22,5 @@ function App() {
 }
 
 export default App;
+ReactDOM.render(<App />, document.getElementById("charts"));
 
-const root = ReactDOM.createRoot(document.getElementById('charts'));
-root.render(<App />);

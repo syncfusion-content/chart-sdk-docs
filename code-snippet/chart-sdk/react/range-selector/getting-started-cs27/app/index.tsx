@@ -1,3 +1,4 @@
+
 import {
   AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangeTooltip, PeriodSelector, RangeTooltipSettingsModel, PeriodSelectorSettingsModel
 } from '@syncfusion/ej2-react-charts';
@@ -32,3 +33,4 @@ function App() {
 };
 export default App;
 ReactDOM.render(<App />, document.getElementById("charts"));
+

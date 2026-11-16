@@ -1,3 +1,5 @@
+
+
 import { AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective, RangenavigatorSeriesDirective, RangeTooltip } from '@syncfusion/ej2-react-charts';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
