@@ -60,7 +60,7 @@ The Range navigator component followed the [keyboard interaction](https://www.w3
 
 The Range navigator component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Range navigator component is shown in the following sample. Open the [sample](https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/accessibility-cs1) in a new window to evaluate the accessibility of the Range navigator component with accessibility tools.
+The accessibility compliance of the Range navigator component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/range-navigator.html) in a new window to evaluate the accessibility of the Range navigator component with accessibility tools.
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/accessibility-cs1" %}
 
