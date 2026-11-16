@@ -1,7 +1,7 @@
 import { DateTime, Inject, RangeNavigatorComponent } from '@syncfusion/ej2-react-charts';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { GetDateTimeData } from '../default-data';
+import { GetDateTimeData } from 'default-data.ts';
 function App() {
   const data = GetDateTimeData(new Date(2018, 0, 1), new Date(2019, 0, 1));
 

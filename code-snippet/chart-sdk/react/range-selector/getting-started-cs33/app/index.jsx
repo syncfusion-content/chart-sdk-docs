@@ -1,7 +1,7 @@
 import { AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective, RangenavigatorSeriesDirective, RangeTooltip } from '@syncfusion/ej2-react-charts';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { bitCoinData } from '../default-data';
+import { bitCoinData } from 'default-data.ts';
 function App() {
   const data = bitCoinData;
   const tooltip = { enable: true, displayMode: 'Always', fill: 'red', opacity: 0.6, textStyle: { style: 'Italic', color: 'blue', size: '12px' } };

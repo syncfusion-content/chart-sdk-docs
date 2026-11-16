@@ -2,7 +2,7 @@ import { AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSe
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
-import { bitCoinData } from '../default-data';
+import { bitCoinData } from 'default-data.ts';
 function App() {
   const data = bitCoinData;
   const tooltip = { enable: true };
