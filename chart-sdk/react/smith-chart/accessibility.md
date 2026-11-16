@@ -62,9 +62,9 @@ The Smith chart component followed the [keyboard interaction](https://www.w3.org
 
 The Smith chart component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Smith chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/smith-chart.html) in a new window to evaluate the accessibility of the Smith chart component with accessibility tools.
+The accessibility compliance of the Smith chart component is shown in the following sample. Open the [sample](https://help.syncfusion.com/code-snippet/chart-sdk/react/smith-chart/accessibility-cs1) in a new window to evaluate the accessibility of the Smith chart component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/smith-chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/smith-chart/accessibility-cs1" %}
 
 ## See also
 
