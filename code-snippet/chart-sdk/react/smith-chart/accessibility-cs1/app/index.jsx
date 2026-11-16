@@ -1,13 +1,14 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { SmithchartComponent, SmithchartSeriesCollectionDirective, SmithchartSeriesDirective } from '@syncfusion/ej2-react-charts';
+import { Inject, SmithchartComponent, SmithchartSeriesCollectionDirective, SmithchartSeriesDirective, SmithchartLegend, TooltipRender } from '@syncfusion/ej2-react-charts';
 
 function App() {
 
-    return ( <SmithchartComponent id='smithchart'
+    return ( <SmithchartComponent id="smithchart"
                 title={{ visible: true, text: 'Transmission details', subtitle: { text: 'Values' } }}
                 renderType='Admittance'
                 legendSettings={{ visible: true }}>
+                    <Inject services={[SmithchartLegend, TooltipRender]}/>
                         <SmithchartSeriesCollectionDirective>
                             <SmithchartSeriesDirective
                                 points={[
@@ -22,7 +23,8 @@ function App() {
                                 ]}
                                 name='Transmission2'
                                 enableAnimation={true}
-                                animationDuration='500'
+                                animationDuration={500}
+                                tooltip={{ visible: true }}
                                 marker={{ visible: true, dataLabel: { visible: true } }}
                                 >
                             </SmithchartSeriesDirective>
