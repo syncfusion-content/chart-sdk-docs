@@ -8,14 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Stacked Line Chart in ASP.NET Core Charts
 
-## Stacked Line
+## Overview
 
 To render a [stacked line](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/stacked-line-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
-* **Set the series type:** Define the series `type` as **StackingLine** in your chart configuration. This indicates that the data should be represented as a stacked line chart, allowing multiple data series to be stacked on top of each other. This makes it easier to compare the contribution of each series to the total over a specific period.
+* **Set the series type:** Define the series `type` as **StackingLine** in your chart configuration. This indicates that the data should be represented as a stacked line chart, allowing multiple data series to be stacked on top of each other. This makes it easier to compare the contribution of each series to the total over a specific period of time.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -149,8 +148,6 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Stack labels
 
 The stack labels in stacked charts display cumulative total values for stack segments directly using data labels. If a stacked point has negative values, the stack labels are displayed below the point.
@@ -163,8 +160,6 @@ The stack labels in stacked charts display cumulative total values for stack seg
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-line/stack-labels/stack-labels.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ### Stack labels customization
 
@@ -188,8 +183,6 @@ Stack labels have various properties for customization to enhance the visual bas
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-line/stack-labels-cus/stack-labels-cus.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Events
 
@@ -218,8 +211,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-line/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## See also
 

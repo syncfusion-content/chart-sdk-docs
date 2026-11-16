@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Step Line Chart in ASP.NET Core Charts
 
-## Step Line
+## Overview
 
 To render a [step line](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/stepline-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 

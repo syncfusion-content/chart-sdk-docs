@@ -8,14 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Chart Annotations in ASP.NET Core Charts
 
-Annotations are used to mark the specific area of interest in the chart area with texts, shapes or images.
+Annotations are used to mark a specific area of interest in the chart area with text, shapes, or images.
 
-<!-- markdownlint-disable MD033 -->
-
-You can add annotations to the chart by using the <code>annotations</code> option. By using the [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAnnotation.html#Syncfusion_EJ2_Charts_ChartAnnotation_Content) option of annotation object, you can specify the id of the element that needs to be displayed in the chart area.
+You can add annotations to the chart by using the `<e-chart-annotations>` Tag Helper. By using the [`content`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAnnotation.html#Syncfusion_EJ2_Charts_ChartAnnotation_Content) option of annotation object, you can specify the ID of the element that needs to be displayed in the chart area.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -25,8 +22,6 @@ You can add annotations to the chart by using the <code>annotations</code> optio
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/annotation/annotation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Region
 
@@ -41,11 +36,9 @@ Annotations can be placed either with respect to `Series` or `Chart`. By default
 {% endhighlight %}
 {% endtabs %}
 
+## Coordinate units
 
-
-## Co-ordinate Units
-
-Specified the coordinates units of the annotation either with `Pixel` or `Point`.
+Specify the coordinate units of the annotation as either `Pixel` or `Point`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -55,8 +48,6 @@ Specified the coordinates units of the annotation either with `Pixel` or `Point`
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/co-ordinate/co-ordinate.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Alignment
 
@@ -71,11 +62,9 @@ Annotation provides `verticalAlignment` and `horizontalAlignment`. The `vertical
 {% endhighlight %}
 {% endtabs %}
 
+## Adding a y-axis subtitle using annotation
 
-
-## Adding y-axis sub title through on annotation
-
-By setting text div in the `content` option of annotation object, you can add sub title to chart y-axis. Specify the `coordinate` value as `pixel` and customize x and y location of the text.
+By setting a text element in the `content` option of the annotation object, you can add a subtitle to the chart's y-axis. Set the `coordinateUnits` value to `Pixel` and customize the x and y location of the text.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -85,5 +74,4 @@ By setting text div in the `content` option of annotation object, you can add su
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/axis-sub/axis-sub.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
