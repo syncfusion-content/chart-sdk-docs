@@ -5,7 +5,7 @@ import { double } from 'default-data.ts';
 function App() {
   const data = double;
   const tooltip = { enable: true };
-  return <RangeNavigatorComponent id='charts' labelPosition='Outside' tooltip={tooltip} value={[12, 30]}>
+  return <RangeNavigatorComponent id='charts' labelPosition='Outside' tooltip={tooltip} value={[12, 30]} interval={5}>
     <Inject services={[RangeTooltip, StepLineSeries]} />
     <RangenavigatorSeriesCollectionDirective>
       <RangenavigatorSeriesDirective dataSource={data} xName='x' yName='y'>

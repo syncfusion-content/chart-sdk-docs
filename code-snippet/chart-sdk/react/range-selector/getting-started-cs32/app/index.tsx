@@ -15,7 +15,8 @@ function App() {
   return <RangeNavigatorComponent id='charts'
     labelPosition='Outside'
     tooltip={tooltip}
-    value={[12, 30]}>
+    value={[12, 30]}
+    type='StepLine'>
     <Inject services={[RangeTooltip, StepLineSeries]} />
     <RangenavigatorSeriesCollectionDirective>
       <RangenavigatorSeriesDirective dataSource={data} xName='x' yName='y'>
