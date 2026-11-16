@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blazor Chart with Web API Adaptor | Syncfusion
+title: Blazor Chart with Web API Adaptor | Syncfusion®
 description: Learn how to bind remote data from an ASP.NET Core Web API to the Syncfusion Blazor Chart component using SfDataManager and WebApiAdaptor.
 platform: chart-sdk
 control: Charts

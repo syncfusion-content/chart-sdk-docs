@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blazor Chart with URL Adaptor | Syncfusion
+title: Blazor Chart with URL Adaptor | Syncfusion®
 description: Learn how to connect a database to the Syncfusion Blazor Chart component using SfDataManager and UrlAdaptor with an ASP.NET Core Web API backend.
 platform: chart-sdk
 control: Charts
