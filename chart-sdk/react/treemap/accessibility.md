@@ -68,7 +68,7 @@ The TreeMap component's accessibility levels are ensured through an [accessibili
 
 The accessibility compliance of the TreeMap component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/tree-map.html) in a new window to evaluate the accessibility of the TreeMap component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/tree-map.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/treemap/accessibility-cs1" %}
 
 ## See also
 
