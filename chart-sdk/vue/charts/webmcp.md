@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WebMCP Tools for Vue Chart | Syncfusion®
-description: Learn about WebMCP and how to expose all or selected Syncfusion Vue Chart operations to AI agents.
+description: Learn how to integrate WebMCP with Syncfusion Vue Charts and expose all or selected chart operations securely to AI agents.
 platform: chart-sdk
 control: Charts-WebMCP
 documentation: ug
@@ -9,11 +9,11 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-## WebMCP Tools for Vue Chart
+# WebMCP Tools for Vue Chart
 <br>
 **WebMCP** (Model Context Protocol) brings AI automation directly into the Syncfusion Vue Chart. Instead of inspecting the DOM or simulating interactions, an AI agent invokes structured Chart tools with schema-defined inputs.
 <br>
-### What is WebMCP?
+## What is WebMCP?
 <br>
 WebMCP is a proposed web standard that enables applications to expose functionality as structured tools. Each tool includes:
 <br>
@@ -21,20 +21,20 @@ WebMCP is a proposed web standard that enables applications to expose functional
 - **Input schema** - Defines accepted parameters through JSON Schema.
 - **Execution context** - Invokes Chart APIs without DOM manipulation.
 <br>
-#### Key concepts
+### Key concepts
 <br>
 - **Tool**: A Chart operation an agent can invoke.
 - **ModelContext**: The `document.modelContext` browser API used for registration and invocation.
 - **Schema**: The JSON Schema definition for tool arguments.
 - **Agent**: An LLM-powered assistant that discovers and invokes registered tools.
 <br>
-#### Browser support
+### Browser support
 <br>
 When `document.modelContext` is unavailable, the Chart skips tool registration and continues to render normally.
 <br>
 > WebMCP is currently an experimental browser capability and requires a Chromium-based browser with WebMCP support enabled. Availability and required browser flags may change as the specification evolves.
 <br>
-### Why use WebMCP for Chart?
+## Why use WebMCP for Chart?
 <br>
 - **Universal tool access** - Compatible agents can discover Chart operations.
 - **Schema-validated input** - Clients can validate requests before invocation.
@@ -43,7 +43,7 @@ When `document.modelContext` is unavailable, the Chart skips tool registration a
 - **Native integration** - Tools operate through Chart APIs.
 - **Structured responses** - Agents can continue multi-step workflows reliably.
 <br>
-### How WebMCP works in Chart
+## How WebMCP works in Chart
 <br>
 1. The application injects the WebMCP and Chart feature modules.
 2. `enableWebMcp` activates tool registration.
