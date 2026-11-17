@@ -19,7 +19,7 @@ GS1-Code128 is a linear barcode based on Code 128 that uses GS1 Application Iden
 **Allowed Input Characters:** GS1-128 supports numeric values (0-9), uppercase and lowercase alphabetic characters (A-Z, a-z), and supported ASCII special characters. Data should be encoded using valid GS1 Application Identifiers (AIs) to represent structured business information.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1code128-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -55,7 +55,7 @@ GS1-128 accepts GS1 Application Identifier (AI) data. The AI is enclosed in pare
 ITF-14 (Interleaved 2 of 5) is the GS1 standard for encoding 14-digit Global Trade Item Numbers (GTINs) on outer cases and shipping cartons. The barcode automatically calculates and adds the GS1 mod-10 check digit. It is commonly used in logistics and warehouse management for tracking product cases.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/itf14-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -83,7 +83,7 @@ The GS1 DataBar Omnidirectional is a single-row barcode used to encode a 14-digi
 **Allowed Input Characters:** The GS1 DataBar Omnidirectional barcode encodes a 14-digit GS1 identification number designed for omnidirectional scanning. Accepted input includes numeric values (0-9) only, suitable for retail point-of-sale systems requiring multi-angle scanning capability.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1databaromnidirectional-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -105,7 +105,7 @@ The GS1 DataBar Stacked is a compact linear barcode that encodes a 14-digit Glob
 **Allowed Input Characters:** GS1 DataBar Stacked supports numeric values (0-9) only and is used to encode a 14-digit GTIN (Global Trade Item Number). Its stacked format is designed for applications where horizontal space is limited while maintaining reliable scanning performance.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1databarstacked-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -127,7 +127,7 @@ The GS1 DataBar Stacked Omnidirectional is a two-row variant of the DataBar Omni
 **Allowed Input Characters:** GS1 DataBar Stacked Omnidirectional supports numeric values (0-9) only and is used to encode a 14-digit GTIN (Global Trade Item Number). It combines a compact stacked layout with omnidirectional scanning capabilities for retail environments where space is limited.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1databarstackedomnidirectional-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -149,7 +149,7 @@ The GS1 DataBar Limited barcode is a reduced-width symbol designed for small tra
 **Allowed Input Characters:** GS1 DataBar Limited supports numeric values (0-9) only and is used to encode a 14-digit GTIN (Global Trade Item Number). It is designed for applications where space is limited while maintaining accurate product identification.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1databarlimited-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -173,7 +173,7 @@ The GS1 DataBar Expanded barcode supports multiple GS1 Application Identifiers (
 **Allowed Input Characters:** GS1 DataBar Expanded supports GS1 Application Identifiers (AIs) and can encode numeric, alphanumeric, and supported special characters. It can store up to 74 numeric digits or 41 alphanumeric characters, enabling the encoding of detailed GS1-compliant data.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1databarexpanded-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -195,7 +195,7 @@ The GS1 DataBar Expanded Stacked is a multi-row variant of the GS1 DataBar Expan
 **Allowed Input Characters:** The GS1 DataBar Expanded Stacked barcode supports GS1 application identifiers (AIs) with alphanumeric data. It can encode up to 74 digits of numeric data or 41 characters of alphanumeric data with special characters for data separation using GS1 compliance standards.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1databarexpandedstacked-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -215,7 +215,7 @@ The GS1 DataBar Expanded Stacked is a multi-row variant of the GS1 DataBar Expan
 The GS1 barcode components include built-in validation to ensure data integrity. Invalid input will trigger the `invalid` event:
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1validation-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -237,7 +237,7 @@ The GS1 Barcode components support real-time property binding. When you change a
 Here is an example showing how to dynamically update GS1 Barcode properties using event handlers:
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/gs1-barcodes/gs1dynamicproperties-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}

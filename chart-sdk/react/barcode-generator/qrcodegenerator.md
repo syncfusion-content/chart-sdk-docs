@@ -90,7 +90,7 @@ Use the [`enableGS1`](https://ej2.syncfusion.com/react/documentation/api/barcode
 **Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/qrcode/gs1qrcode-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
@@ -110,7 +110,7 @@ Use the [`enableGS1`](https://ej2.syncfusion.com/react/documentation/api/barcode
 Combining GS1 encoding with error correction levels provides robust scanning even with partial damage to the QR code.
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/qrcode/gs1qrcodeerrorcorrection-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight tsx tabtitle="index.tsx" %}
