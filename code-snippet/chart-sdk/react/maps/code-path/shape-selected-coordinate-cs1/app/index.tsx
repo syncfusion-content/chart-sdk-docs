@@ -20,7 +20,7 @@ export function App() {
     return (
         <div className="control-section">
             <div align='center'>
-                <MapsComponent id='container' style={{ display: 'block' }} shapeSelected={shapeSelected}>
+                <MapsComponent id='maps' style={{ display: 'block' }} shapeSelected={shapeSelected}>
                     <Inject services={[Selection]} />
                     <LayersDirective>
                         <LayerDirective shapeData={world_map} selectionSettings={{
