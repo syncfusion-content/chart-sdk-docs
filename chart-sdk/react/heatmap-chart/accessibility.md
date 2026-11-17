@@ -67,7 +67,7 @@ HeatMap has built-in accessibility features like screen reading. Screen reading 
 
 The HeatMap component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the HeatMap component is shown in the following sample. Open the [sample](https://help.syncfusion.com/code-snippet/chart-sdk/react/heatmap-chart/accessibility-cs1) in a new window to evaluate the accessibility of the HeatMap component with accessibility tools.
+The accessibility compliance of the HeatMap component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/heat-map.html) in a new window to evaluate the accessibility of the HeatMap component with accessibility tools.
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/heatmap-chart/accessibility-cs1" %}
 
