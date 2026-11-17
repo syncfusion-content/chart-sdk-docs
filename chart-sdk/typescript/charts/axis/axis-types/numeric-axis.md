@@ -231,3 +231,26 @@ The numeric axis also supports custom label formats by using placeholders such a
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/axis-cs91" %}
+
+## Allow decimals
+
+The [`allowDecimals`](../api/chart/axisModel#allowdecimals-boolean) property determines whether a numeric axis can display decimal values. The default value is `true`.
+
+* When `true` (default), the axis can display decimal intervals and labels when required.
+* When `false`, the axis displays only whole-number intervals and labels.
+* This property applies only to axes whose `valueType` is `Double` (numeric). It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+
+Use `allowDecimals: false` when the plotted values are always whole numbers, such as counts of people, orders, tickets, or products, where labels such as 1.5 are meaningless.
+
+Set the property on an axis such as `primaryXAxis`, `primaryYAxis`, or any axis in the axes collection.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/allow-decimals/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/charts/allow-decimals/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/allow-decimals" %}
