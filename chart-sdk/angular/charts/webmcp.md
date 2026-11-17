@@ -10,41 +10,41 @@ appliesto: UI Component Suite, Chart SDK
 ---
 
 ## WebMCP Tools for Angular Chart
-
+<br>
 **WebMCP** (Model Context Protocol) brings AI automation directly into the Syncfusion Angular Chart. Instead of inspecting the DOM or simulating interactions, an AI agent invokes structured Chart tools with schema-defined inputs.
-
+<br>
 ### What is WebMCP?
-
+<br>
 WebMCP is a proposed web standard that enables applications to expose functionality as structured tools. Each tool includes:
-
+<br>
 - **Natural language description** - Explains the operation to an AI agent.
 - **Input schema** - Defines accepted parameters through JSON Schema.
 - **Execution context** - Invokes Chart APIs without DOM manipulation.
-
+<br>
 #### Key concepts
-
+<br>
 - **Tool**: A Chart operation an agent can invoke.
 - **ModelContext**: The `document.modelContext` browser API used for registration and invocation.
 - **Schema**: The JSON Schema definition for tool arguments.
 - **Agent**: An LLM-powered assistant that discovers and invokes registered tools.
-
+<br>
 #### Browser support
-
+<br>
 When `document.modelContext` is unavailable, the Chart skips tool registration and continues to render normally.
-
+<br>
 N> **Note:** WebMCP is experimental. Browser APIs and behavior may change.
-
+<br>
 ### Why use WebMCP for Chart?
-
+<br>
 - **Universal tool access** - Compatible agents can discover Chart operations.
 - **Schema-validated input** - Clients can validate requests before invocation.
 - **Controlled execution** - The host can review or control calls through `beforeWebMcp`.
 - **Multi-instance support** - A unique `webMcpSettings.name` avoids tool-name conflicts.
 - **Native integration** - Tools operate through Chart APIs.
 - **Structured responses** - Agents can continue multi-step workflows reliably.
-
+<br>
 ### How WebMCP works in Chart
-
+<br>
 1. The application injects the WebMCP and Chart feature modules.
 2. `enableWebMcp` activates tool registration.
 3. `webMcpSettings.name` defines an instance-specific prefix.
@@ -52,123 +52,236 @@ N> **Note:** WebMCP is experimental. Browser APIs and behavior may change.
 5. The agent discovers a tool and invokes it with structured arguments.
 6. `beforeWebMcp` runs before the operation and can control confirmation behavior.
 7. The Chart executes the operation and returns a structured result.
-
+<br>
 ### Integration
+<br>
+#### Step 1: Create the Chart application
+<br>
+Create a basic Revenue Chart. This step contains only the Chart modules and configuration required to render the component.
+<br>
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% raw %}
+import { Component, OnInit } from '@angular/core';
+import { ChartModule, CategoryService, LegendService, SplineSeriesService, TooltipService } from '@syncfusion/ej2-angular-charts';
 
-#### Step 1: Install the Chart package
+@Component({
+    selector: 'app-root',
+    standalone: true,
+    imports: [ChartModule],
+    providers: [CategoryService, SplineSeriesService, TooltipService, LegendService],
+    template: `<ejs-chart title="Revenue Performance" [dataSource]="data" [primaryXAxis]="primaryXAxis" [tooltip]="tooltip">
+        <e-series-collection>
+            <e-series type="Spline" name="Revenue" xName="month" yName="revenue"></e-series>
+        </e-series-collection>
+    </ejs-chart>`
+})
+export class AppComponent implements OnInit {
+    public data: object[];
+    public primaryXAxis: object;
+    public tooltip: object;
 
-```bash
-npm install @syncfusion/ej2-angular-charts
-```
+    public ngOnInit(): void {
+        this.data = [
+            { month: 'Jan', revenue: 42000 },
+            { month: 'Feb', revenue: 47000 },
+            { month: 'Mar', revenue: 53000 },
+            { month: 'Apr', revenue: 58000 }
+        ];
+        this.primaryXAxis = { valueType: 'Category' };
+        this.tooltip = { enable: true, shared: true };
+    }
+}
+{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+<br>
+#### Step 2: Inject the WebMCP module
+<br>
+Register the Chart WebMCP module or service. The WebMCP properties are not enabled yet.
+<br>
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% raw %}
+import { Component, OnInit } from '@angular/core';
+import { ChartModule, CategoryService, LegendService, SplineSeriesService, TooltipService, WebMcpChartService } from '@syncfusion/ej2-angular-charts';
 
-#### Step 2: Inject Chart and WebMCP modules
+@Component({
+    selector: 'app-root',
+    standalone: true,
+    imports: [ChartModule],
+    providers: [CategoryService, SplineSeriesService, TooltipService, LegendService, WebMcpChartService],
+    template: `<ejs-chart title="Revenue Performance" [dataSource]="data" [primaryXAxis]="primaryXAxis" [tooltip]="tooltip">
+        <e-series-collection>
+            <e-series type="Spline" name="Revenue" xName="month" yName="revenue"></e-series>
+        </e-series-collection>
+    </ejs-chart>`
+})
+export class AppComponent implements OnInit {
+    public data: object[];
+    public primaryXAxis: object;
+    public tooltip: object;
 
-Import `ChartModule` and explicitly provide all required feature services, including `WebMcpChartService`. Do not use `ChartAllModule`.
-
-The samples include WebMCP, axes, series, tooltip, legend, crosshair, selection, zoom, data labels, annotations, export, striplines, trendlines, and all supported technical-indicator modules so AI-generated configurations can use those features.
-
+    public ngOnInit(): void {
+        this.data = [
+            { month: 'Jan', revenue: 42000 },
+            { month: 'Feb', revenue: 47000 },
+            { month: 'Mar', revenue: 53000 },
+            { month: 'Apr', revenue: 58000 }
+        ];
+        this.primaryXAxis = { valueType: 'Category' };
+        this.tooltip = { enable: true, shared: true };
+    }
+}
+{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+<br>
 #### Step 3: Enable WebMCP
+<br>
+Set `enableWebMcp` to `true` so the Chart registers its built-in tools with `document.modelContext`.
+<br>
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% raw %}
+import { Component, OnInit } from '@angular/core';
+import { ChartModule, CategoryService, LegendService, SplineSeriesService, TooltipService, WebMcpChartService } from '@syncfusion/ej2-angular-charts';
 
-Set `enableWebMcp` to `true`. WebMCP remains disabled unless it is explicitly enabled.
+@Component({
+    selector: 'app-root',
+    standalone: true,
+    imports: [ChartModule],
+    providers: [CategoryService, SplineSeriesService, TooltipService, LegendService, WebMcpChartService],
+    template: `<ejs-chart title="Revenue Performance" [dataSource]="data" [primaryXAxis]="primaryXAxis" [tooltip]="tooltip" [enableWebMcp]="true">
+        <e-series-collection>
+            <e-series type="Spline" name="Revenue" xName="month" yName="revenue"></e-series>
+        </e-series-collection>
+    </ejs-chart>`
+})
+export class AppComponent implements OnInit {
+    public data: object[];
+    public primaryXAxis: object;
+    public tooltip: object;
 
+    public ngOnInit(): void {
+        this.data = [
+            { month: 'Jan', revenue: 42000 },
+            { month: 'Feb', revenue: 47000 },
+            { month: 'Mar', revenue: 53000 },
+            { month: 'Apr', revenue: 58000 }
+        ];
+        this.primaryXAxis = { valueType: 'Category' };
+        this.tooltip = { enable: true, shared: true };
+    }
+}
+{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+<br>
 #### Step 4: Configure tool registration
+<br>
+Add `webMcpSettings` to assign a unique name and expose selected Chart tools. Because this example exposes `exportChart`, it also registers the Chart export module or service.
+<br>
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% raw %}
+import { Component, OnInit } from '@angular/core';
+import { ChartModule, CategoryService, LegendService, SplineSeriesService, TooltipService, WebMcpChartService, ExportService } from '@syncfusion/ej2-angular-charts';
 
-Use `webMcpSettings.name` to create a stable prefix. When several Charts exist on one page, assign a unique name to each instance.
+@Component({
+    selector: 'app-root',
+    standalone: true,
+    imports: [ChartModule],
+    providers: [CategoryService, SplineSeriesService, TooltipService, LegendService, WebMcpChartService, ExportService],
+    template: `<ejs-chart title="Revenue Performance" [dataSource]="data" [primaryXAxis]="primaryXAxis" [tooltip]="tooltip" [enableWebMcp]="true" [webMcpSettings]="webMcpSettings">
+        <e-series-collection>
+            <e-series type="Spline" name="Revenue" xName="month" yName="revenue"></e-series>
+        </e-series-collection>
+    </ejs-chart>`
+})
+export class AppComponent implements OnInit {
+    public data: object[];
+    public primaryXAxis: object;
+    public tooltip: object;
+    public webMcpSettings: object;
 
-To expose the complete built-in catalog, omit `webMcpSettings.tools`. To expose particular operations, provide their exact names in `webMcpSettings.tools`.
-
+    public ngOnInit(): void {
+        this.data = [
+            { month: 'Jan', revenue: 42000 },
+            { month: 'Feb', revenue: 47000 },
+            { month: 'Mar', revenue: 53000 },
+            { month: 'Apr', revenue: 58000 }
+        ];
+        this.primaryXAxis = { valueType: 'Category' };
+        this.tooltip = { enable: true, shared: true };
+        this.webMcpSettings = { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] };
+    }
+}
+{% endraw %}
+{% endhighlight %}
+{% endtabs %}
+<br>
 #### Step 5: Monitor tool execution
-
-Use `beforeWebMcp` to inspect the request and control confirmation. The samples suppress confirmation only for demonstration. Production applications should preserve confirmation or apply equivalent authorization for mutations, exports, and printing.
-
-### Sample 1: Enable all Chart tools
-
-This sample enables WebMCP, assigns the `allToolsChart` prefix, and omits the `tools` filter. The complete built-in catalog is registered.
-
+<br>
+Use `beforeWebMcp` to request confirmation only for operations that modify the Chart or produce an exported file. Read-only tools continue without confirmation.
+<br>
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/charts/chart-webmcp-cs1/src/app.component.ts %}
-{% endhighlight %}
+{% raw %}
+import { Component, OnInit } from '@angular/core';
+import { ChartModule, CategoryService, LegendService, SplineSeriesService, TooltipService, WebMcpChartService, ExportService } from '@syncfusion/ej2-angular-charts';
 
-{% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/charts/chart-webmcp-cs1/src/main.ts %}
+@Component({
+    selector: 'app-root',
+    standalone: true,
+    imports: [ChartModule],
+    providers: [CategoryService, SplineSeriesService, TooltipService, LegendService, WebMcpChartService, ExportService],
+    template: `<ejs-chart title="Revenue Performance" [dataSource]="data" [primaryXAxis]="primaryXAxis" [tooltip]="tooltip" [enableWebMcp]="true" [webMcpSettings]="webMcpSettings" (beforeWebMcp)="beforeWebMcp($event)">
+        <e-series-collection>
+            <e-series type="Spline" name="Revenue" xName="month" yName="revenue"></e-series>
+        </e-series-collection>
+    </ejs-chart>`
+})
+export class AppComponent implements OnInit {
+    public data: object[];
+    public primaryXAxis: object;
+    public tooltip: object;
+    public webMcpSettings: object;
+
+    public ngOnInit(): void {
+        this.data = [
+            { month: 'Jan', revenue: 42000 },
+            { month: 'Feb', revenue: 47000 },
+            { month: 'Mar', revenue: 53000 },
+            { month: 'Apr', revenue: 58000 }
+        ];
+        this.primaryXAxis = { valueType: 'Category' };
+        this.tooltip = { enable: true, shared: true };
+        this.webMcpSettings = { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] };
+    }
+
+    public beforeWebMcp(args: any): void {
+        const toolsRequiringConfirmation: string[] = [
+            'updateChartTitle',
+            'toggleChartSeriesVisibility',
+            'exportChart'
+        ];
+        args.showConfirmationDialog = toolsRequiringConfirmation.indexOf(args.toolName) !== -1;
+    }
+}
+{% endraw %}
 {% endhighlight %}
 {% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/chart-webmcp-cs1" %}
-
-### Sample 2: Enable particular Chart tools
-
-This sample registers only `inspectChart`, `getSeriesData`, `getChartAxes`, `updateChartTitle`, `toggleChartSeriesVisibility`, and `exportChart`. Operations not listed in `webMcpSettings.tools` are not exposed by this Chart instance.
-
-{% tabs %}
-{% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/charts/chart-webmcp-cs2/src/app.component.ts %}
-{% endhighlight %}
-
-{% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/charts/chart-webmcp-cs2/src/main.ts %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/charts/chart-webmcp-cs2" %}
-
-### Common use cases
-
-#### AI-assisted Chart inspection
-
-**Example:** "Show the Chart title, series names, series types, axes, and zoom state."
-
-#### Series and data management
-
-**Example:** "Add a Revenue line series and update the Chart title to Sales Trends 2026."
-
-#### Axis and zoom configuration
-
-**Example:** "Set the primary Y-axis range from 0 to 150000 with an interval of 25000."
-
-#### Interactive data exploration
-
-**Example:** "Select the highest Revenue point and display its tooltip."
-
-#### Annotation and reporting workflows
-
-**Example:** "Add a Peak Revenue annotation to December and export the Chart as PNG."
-
-### Supported features
-
-The Chart exposes 37 WebMCP tools for inspection, data management, configuration, interaction, and output.
-
-<table>
-<tr><th>Category</th><th>Tools</th><th>Purpose</th></tr>
-<tr><td><strong>Chart inspection</strong></td><td>inspectChart, getChartAxes, getChartLegend, getChartIndicators, getChartStriplines, getChartAnnotations</td><td>Inspect configuration and visual metadata</td></tr>
-<tr><td><strong>Series and data</strong></td><td>addChartSeries, updateChartSeries, removeChartSeries, clearChartSeries, toggleChartSeriesVisibility, getSeriesData, appendChartData, updateChartDataSource, getChartPoint, updateChartPoint, removeChartPoints</td><td>Manage series and points</td></tr>
-<tr><td><strong>Axes and zoom</strong></td><td>addChartAxis, updateChartAxis, removeChartAxis, configureChartZoom, resetChartZoom</td><td>Manage axes and zoom</td></tr>
-<tr><td><strong>Annotations</strong></td><td>addChartAnnotation, updateChartAnnotation, removeChartAnnotation</td><td>Manage annotations</td></tr>
-<tr><td><strong>Selection and interaction</strong></td><td>selectChartPoints, clearChartSelection, getSelectedChartData, showChartTooltip, hideChartTooltip, showChartCrosshair, hideChartCrosshair</td><td>Control selection and interactive elements</td></tr>
-<tr><td><strong>Chart configuration</strong></td><td>updateChartProperties, updateChartTitle, animateChart</td><td>Update chart-level properties</td></tr>
-<tr><td><strong>Export and output</strong></td><td>exportChart, printChart</td><td>Export or print the chart</td></tr>
-</table>
-
-### Writing effective prompts
-
-**Good prompt:** "Set the primary Y-axis minimum to 0, maximum to 160000, and interval to 20000, then export the Chart as annual-revenue.png."
-
-**Vague prompt:** "Make the Chart better."
-
-#### Tips for effective prompts
-
-- Identify the series, axis, annotation, or point.
-- Provide exact values and output formats.
-- Distinguish between add, update, remove, select, show, and hide operations.
-- Use an X value or point index to target a point.
-- State the required order for multi-step requests.
-
-### Limitations
-
-- WebMCP is experimental and requires `document.modelContext`.
-- A tool operates only on its registered Chart instance.
-- Read tools can return Chart configuration and series data.
-- Required feature modules must be injected or provided.
-- Ambiguous prompts can target the wrong Chart element.
-- Application authentication, authorization, validation, and auditing remain required.
+<br>
+### Best practices
+<br>
+- Expose only the tools required by the application. Register the corresponding Chart feature module or service for tools such as `exportChart`.
+- Assign a unique `webMcpSettings.name` when multiple Chart instances are present.
+- Require confirmation for mutating and output operations such as `updateChartTitle`, `toggleChartSeriesVisibility`, and `exportChart`.
+- Allow read-only operations such as `inspectChart`, `getSeriesData`, and `getChartAxes` to run without unnecessary confirmation.
+- Keep application authentication, authorization, validation, and auditing in place.
+<br>
+<br>
+### Explore the demo
+<br>
+Explore the Syncfusion® Angular Chart component with WebMCP integration through this [demo](https://demos.syncfusion.com/chart-sdk/webmcp/index.html).
