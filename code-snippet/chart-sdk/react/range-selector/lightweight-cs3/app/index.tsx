@@ -7,7 +7,7 @@ import {
 } from '@syncfusion/ej2-react-charts';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { GetDateTimeData } from 'default_data.ts';
+import { GetDateTimeData } from 'default-data.ts';
 
 class App extends React.Component<{}, {}> {
 

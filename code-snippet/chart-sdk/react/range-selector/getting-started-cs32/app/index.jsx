@@ -1,5 +1,3 @@
-{% raw %}
-
 
 
 import { StepLineSeries, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective, RangenavigatorSeriesDirective, RangeTooltip } from '@syncfusion/ej2-react-charts';
@@ -13,7 +11,7 @@ function App() {
   return <RangeNavigatorComponent id='charts' labelPosition='Outside' tooltip={tooltip} value={[12, 30]}>
     <Inject services={[RangeTooltip, StepLineSeries]} />
     <RangenavigatorSeriesCollectionDirective>
-      <RangenavigatorSeriesDirective dataSource={data} xName='x' yName='y'>
+      <RangenavigatorSeriesDirective dataSource={data} xName='x' yName='y' type='StepLine'>
       </RangenavigatorSeriesDirective>
     </RangenavigatorSeriesCollectionDirective>
   </RangeNavigatorComponent>;
@@ -21,6 +19,3 @@ function App() {
 export default App;
 ReactDOM.render(<App />, document.getElementById("charts"));
 
-
-
-{% endraw %}

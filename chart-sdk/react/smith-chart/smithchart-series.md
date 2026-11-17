@@ -32,11 +32,11 @@ For adding values in the Smith chart, you can use either points or data source i
 
 Using the following options in series settings, you can customize the each series in Smith chart:
 
-* [`fill`]: Customizes the fill color for the series.
-* [`enableSmartLabels`]: Places the data labels on Smith chart without overlapping with each other.
-* [`visibility`]: Handles the visibility of the series.
-* [`opacity`]: Controls the opacity of the series line.
-* [`width`]: Customizes the width of the series line.
+* `fill`: Customizes the fill color for the series.
+* `enableSmartLabels`: Places the data labels on Smith chart without overlapping with each other.
+* `visibility`: Handles the visibility of the series.
+* `opacity`: Controls the opacity of the series line.
+* `width`: Customizes the width of the series line.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
