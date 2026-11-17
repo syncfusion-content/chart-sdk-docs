@@ -368,7 +368,7 @@ The [`shapeSelection`](../api/maps/shapeselection) method can be used to select 
 
 ### Get the selected shape coordinates
 
-The viewport coordinates of a shape selection can be accessed using the [`x`](https://ej2.syncfusion.com/documentation/api/maps/ishapeselectedeventargs#x) and [`y`](https://ej2.syncfusion.com/documentation/api/maps/ishapeselectedeventargs#y) properties of the [`shapeSelected`](https://ej2.syncfusion.com/documentation/api/maps/index-default#shapeselected) event. These properties represent the `clientX` and `clientY` coordinates of the mouse or touch interaction that selected the shape.
+The viewport coordinates of a shape selection can be accessed using the [`x`]([https://ej2.syncfusion.com/documentation/api/maps/ishapeselectedeventargs](https://ej2.syncfusion.com/javascript/documentation/api/maps/ishapeselectedeventargs#x) and [`y`](https://ej2.syncfusion.com/javascript/documentation/api/maps/ishapeselectedeventargs#y) properties of the [`shapeSelected`](https://ej2.syncfusion.com/javascript/documentation/api/maps/index-default#shapeselected) event. These properties represent the `clientX` and `clientY` coordinates of the mouse or touch interaction that selected the shape.
 
 The coordinates can be used to position custom elements, such as context menus, popups, or annotations, at the location where the shape was selected.
 
