@@ -165,7 +165,7 @@ The [tooltipRender](../api/heatmap#tooltiprender) event is triggered before the 
 
 ### Access the datasource record in the tooltip
 
-The complete datasource record associated with a hovered HeatMap cell can be accessed using the [`data`](https://ej2.syncfusion.com/documentation/api/heatmap/itooltipeventargs#data) property in the [tooltipRender](https://ej2.syncfusion.com/documentation/api/heatmap/index-default#tooltiprender) event arguments. The [`value`](https://ej2.syncfusion.com/documentation/api/heatmap/itooltipeventargs#value) property contains only the rendered cell value, whereas the `data` property contains the corresponding datasource record. This allows additional mapped or unmapped fields from the datasource to be used when customizing the tooltip content.
+The complete datasource record associated with a hovered HeatMap cell can be accessed using the [`data`](https://ej2.syncfusion.com/javascript/documentation/api/heatmap/itooltipeventargs#data) property in the [tooltipRender](https://ej2.syncfusion.com/javascript/documentation/api/maps/ishapeselectedeventargs#name) event arguments. The [`value`](https://ej2.syncfusion.com/javascript/documentation/api/heatmap/itooltipeventargs#value) property contains only the rendered cell value, whereas the `data` property contains the corresponding datasource record. This allows additional mapped or unmapped fields from the datasource to be used when customizing the tooltip content.
 
 The value returned through the `data` property depends on the datasource binding type:
 
