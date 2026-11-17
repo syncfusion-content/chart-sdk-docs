@@ -1,6 +1,7 @@
 
 import Vue from "vue";
-import { ChartComponent, SeriesCollectionDirective, SeriesDirective, ColumnSeries, Category } from '@syncfusion/ej2-vue-charts';
+import { ChartPlugin, ColumnSeries, Category } from "@syncfusion/ej2-vue-charts";
+Vue.use(ChartPlugin);
 
 new Vue({
 	el: '#app',

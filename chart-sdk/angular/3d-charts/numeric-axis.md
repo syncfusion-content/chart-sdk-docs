@@ -242,3 +242,27 @@ The axis supports custom label format using placeholder like **{value}°C**, i
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/numeric-axis/numeric-axis-cs10" %}
+
+## Allow decimals
+
+The [`allowDecimals`](https://ej2.syncfusion.com/angular/documentation/api/chart/axisdirective#allowdecimals) property determines whether a numeric axis can display decimal values. The default value is `true`.
+
+* When `true` (default), the axis can display decimal intervals and labels when required.
+* When `false`, the axis displays only whole-number intervals and labels.
+* This property applies only to axes whose `valueType` is `Double` (numeric). It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+
+Use `allowDecimals: false` when the plotted values are always whole numbers, such as counts of people, orders, tickets, or products, where labels such as 1.5 are meaningless.
+
+Set the property on an axis such as `primaryXAxis`, `primaryYAxis`, or any axis in the axes collection.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/3d-charts/numeric-axis/allow-decimals/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/3d-charts/numeric-axis/allow-decimals/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/numeric-axis/allow-decimals" %}

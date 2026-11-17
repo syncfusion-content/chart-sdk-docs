@@ -229,3 +229,23 @@ The axis supports custom label format using placeholder like **{value}°C**, i
 {% endhighlight %}
 {% endtabs %}
 
+## Allow decimals
+
+The [`AllowDecimals`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_AllowDecimals) property determines whether a numeric axis can display decimal values. The default value is `true`.
+
+* When `true` (default), the axis can display decimal intervals and labels when required.
+* When `false`, the axis displays only whole-number intervals and labels.
+* This property applies only to axes whose `valueType` is `Double` (numeric). It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+
+Use `AllowDecimals(false)` when the plotted values are always whole numbers, such as counts of people, orders, tickets, or products, where labels such as 1.5 are meaningless.
+
+Set the property on an axis such as `PrimaryXAxis`, `PrimaryYAxis`, or any axis in the axes collection.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/numeric-axis/allow-decimals/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Custom-format.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/numeric-axis/allow-decimals/orders.cs %}
+{% endhighlight %}
+{% endtabs %}
