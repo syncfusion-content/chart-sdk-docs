@@ -1,0 +1,7 @@
+<ejs-chart id="container">
+    <e-chart-primaryxaxis valueType="Category"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Orders" allowDecimals="false"></e-chart-primaryyaxis>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" xName="x" yName="y" type="Column"></e-series>
+    </e-series-collection>
+</ejs-chart>
