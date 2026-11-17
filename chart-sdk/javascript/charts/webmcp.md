@@ -32,7 +32,7 @@ WebMCP is a proposed web standard that enables applications to expose functional
 <br>
 When `document.modelContext` is unavailable, the Chart skips tool registration and continues to render normally.
 <br>
-N> **Note:** WebMCP is experimental. Browser APIs and behavior may change.
+> WebMCP is currently an experimental browser capability and requires a Chromium-based browser with WebMCP support enabled. Availability and required browser flags may change as the specification evolves.
 <br>
 ### Why use WebMCP for Chart?
 <br>
@@ -53,11 +53,31 @@ N> **Note:** WebMCP is experimental. Browser APIs and behavior may change.
 6. `beforeWebMcp` runs before the operation and can control confirmation behavior.
 7. The Chart executes the operation and returns a structured result.
 <br>
-### Integration
+## Prerequisites
 <br>
-#### Step 1: Create the Chart application
+- Syncfusion® JavaScript (ES5) Chart control.
+- A Chromium-based browser, such as Google Chrome, Microsoft Edge, or Brave.
+- [Node.js 24+](https://nodejs.org/en) (LTS recommended).
+- The WebMCP browser extension.
+- An AI API key configured in the extension.
 <br>
-Create a basic Revenue Chart. This step contains only the Chart modules and configuration required to render the component.
+## WebMCP setup
+<br>
+Before using WebMCP locally, enable the browser feature and configure the WebMCP extension:
+<br>
+1. Open `chrome://flags/`, enable the **WebMCP for testing** flag, and select **Relaunch** to restart Google Chrome.
+2. Install [WebMCP - Model Context Tool Inspector](https://chromewebstore.google.com/detail/webmcp-model-context-tool/gbpdfapgefenggkahomfgkhfehlcenpd) from the Chrome Web Store.
+3. Visit [Google AI Studio](https://aistudio.google.com/app/apikey) to create or copy an API key. Open the WebMCP extension and paste the API key.
+<br>
+The WebMCP extension is now configured and ready to interact with the WebMCP-enabled Syncfusion® JavaScript Chart component.
+<br>
+## Integrating WebMCP tools
+<br>
+Follow these steps to integrate WebMCP support into the Syncfusion® JavaScript (ES5) Chart control. The following example uses a revenue Chart and progressively introduces the WebMCP module, tool registration, tool configuration, and execution monitoring.
+<br>
+### Step 1: Create the Chart application
+<br>
+Create a basic revenue Chart. This step contains only the Chart modules and configuration required to render the component.
 <br>
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -94,9 +114,9 @@ chart.appendTo('#container');
 {% endhighlight %}
 {% endtabs %}
 <br>
-#### Step 2: Inject the WebMCP module
+### Step 2: Inject the WebMCP module
 <br>
-Register the Chart WebMCP module or service. The WebMCP properties are not enabled yet.
+Register the Chart WebMCP module or service. WebMCP remains disabled until `enableWebMcp` is set to `true`.
 <br>
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -133,7 +153,7 @@ chart.appendTo('#container');
 {% endhighlight %}
 {% endtabs %}
 <br>
-#### Step 3: Enable WebMCP
+### Step 3: Enable WebMCP
 <br>
 Set `enableWebMcp` to `true` so the Chart registers its built-in tools with `document.modelContext`.
 <br>
@@ -172,9 +192,9 @@ chart.appendTo('#container');
 {% endhighlight %}
 {% endtabs %}
 <br>
-#### Step 4: Configure tool registration
+### Step 4: Configure tool registration
 <br>
-Add `webMcpSettings` to assign a unique name and expose selected Chart tools. Because this example exposes `exportChart`, it also registers the Chart export module or service.
+Add `webMcpSettings` to assign a unique name and expose only the required Chart tools. Because this example exposes `exportChart`, it also registers the Chart export module or service.
 <br>
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -212,9 +232,9 @@ chart.appendTo('#container');
 {% endhighlight %}
 {% endtabs %}
 <br>
-#### Step 5: Monitor tool execution
+### Step 5: Monitor tool execution
 <br>
-Use `beforeWebMcp` to request confirmation only for operations that modify the Chart or produce an exported file. Read-only tools continue without confirmation.
+Use `beforeWebMcp` to request confirmation only for operations that modify the Chart or export a file. Read-only tools continue without confirmation.
 <br>
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -256,7 +276,55 @@ chart.appendTo('#container');
 {% endhighlight %}
 {% endtabs %}
 <br>
-### Best practices
+## Common use cases
+<br>
+### AI-assisted Chart inspection
+
+**Example:** "Show the Chart title, series names, series types, axes, and zoom state."
+
+### Series and data management
+
+**Example:** "Add a Revenue line series and update the Chart title to Sales Trends 2026."
+
+### Axis and zoom configuration
+
+**Example:** "Set the primary Y-axis range from 0 to 150000 with an interval of 25000."
+
+### Interactive data exploration
+
+**Example:** "Select the highest Revenue point and display its tooltip."
+
+### Annotation and reporting workflows
+
+**Example:** "Add a Peak Revenue annotation to December and export the Chart as PNG."
+
+## Supported features
+<br>
+The Chart exposes WebMCP tools for inspection, data management, configuration, interaction, and output. A tool can use a Chart feature only when the corresponding module or service is injected. For example, `exportChart` requires `ExportService` in Angular and `Export` in JavaScript, TypeScript, React, and Vue.
+
+## Writing effective prompts
+<br>
+**Good prompt:** "Set the primary Y-axis minimum to 0, maximum to 160000, and interval to 20000, then export the Chart as annual-revenue.png."
+
+**Vague prompt:** "Make the Chart better."
+
+### Tips for effective prompts
+
+- Identify the series, axis, annotation, or point.
+- Provide exact values and output formats.
+- Distinguish between add, update, remove, select, show, and hide operations.
+- Use an X value or point index to target a point.
+- State the required order for multi-step requests.
+
+## Limitations
+<br>
+- WebMCP is experimental and requires `document.modelContext`.
+- A tool operates only on its registered Chart instance.
+- Required Chart feature modules or services must be injected.
+- Ambiguous prompts can target the wrong Chart element.
+- Application authentication, authorization, validation, and auditing remain required.
+<br>
+## Best practices
 <br>
 - Expose only the tools required by the application. Register the corresponding Chart feature module or service for tools such as `exportChart`.
 - Assign a unique `webMcpSettings.name` when multiple Chart instances are present.
@@ -265,6 +333,6 @@ chart.appendTo('#container');
 - Keep application authentication, authorization, validation, and auditing in place.
 <br>
 <br>
-### Explore the demo
+## Explore the demo
 <br>
 Explore the Syncfusion® JavaScript Chart component with WebMCP integration through this [demo](https://demos.syncfusion.com/chart-sdk/webmcp/index.html).
