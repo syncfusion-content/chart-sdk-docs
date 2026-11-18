@@ -129,6 +129,22 @@ Data Matrix codes offer high data density in a compact square format, making the
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/getting-started/datamatrix-cs1" %}
+## Adding Aztec Generator control
+
+Aztec codes do not require a quiet zone and offer high data density, making them suitable for tickets, boarding passes and space-constrained labels. Add an Aztec code to the Angular Barcode Generator component:
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/getting-started/aztec-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/getting-started/aztec-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/getting-started/aztec-cs1" %}
+
 ## See also
 
 * [Angular Barcode Generator](https://www.syncfusion.com/angular-components/angular-barcode) - Feature tour and component overview
