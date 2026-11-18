@@ -73,7 +73,7 @@ The WebMCP extension is now configured and ready to interact with the WebMCP-ena
 <br>
 ## Integrating WebMCP tools
 <br>
-Follow these steps to integrate WebMCP support into the Syncfusion® JavaScript (ES5) Chart control. The following example uses a revenue Chart and progressively introduces WebMCP enablement, tool registration, tool configuration, and execution monitoring.
+Follow these steps to integrate WebMCP support into the Syncfusion® JavaScript (ES5) Chart control. The following example uses a revenue Chart and progressively introduces WebMCP integration, tool registration, tool configuration, and execution monitoring.
 <br>
 ### Step 1: Create the Chart application
 <br>
@@ -240,7 +240,7 @@ The event handler receives a [`WebMcpToolExecuteEventArgs`](https://ej2.syncfusi
 * `toolArgs` - The arguments passed to the tool during execution.
 * `cancel` - A boolean property that can be set to `true` to prevent the tool from executing.
 * `showConfirmationDialog` - A boolean property that requests user confirmation before the tool executes.
-* `cancellationResponse` - A custom response returned when execution is cancelled.
+* `cancellationResponse` - A custom response returned when execution is canceled.
 
 The following example requests confirmation before allowing export-related operations:
 <br>
