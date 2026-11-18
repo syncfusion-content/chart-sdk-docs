@@ -38,9 +38,10 @@ export class AppComponent {
     };
 
     public tooltipRender(args: ITooltipRenderEventArgs): void {
-        const rawData: SalesData = args.data.rawData as SalesData;
+        const rawData = args.data ? args.data.rawData as SalesData : null;
         if (rawData) {
-            args.text = 'Sales: <b>' + rawData.y + '</b><br/>' +
+            args.text =
+                'Sales: <b>' + rawData.y + '</b><br/>' +
                 'Region: <b>' + rawData.region + '</b><br/>' +
                 'Growth: <b>' + rawData.growth + '%</b>';
         }
