@@ -200,7 +200,18 @@ The `RelocateVertically` and `RelocateHorizontally` options are supported only f
 - `StackingBar`
 - `StackingBar100`
 
-These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle` (including `color`, `width`, and `opacity`), `offset`, and `seriesOverlapAction` (`'None'` | `'Hide'`) settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines.
+
+The Smart Data Label feature can also be enabled across Cartesian chart series by setting the [`enableSmartLabels`](../api/chart#enablesmartlabels-boolean) property to `true` on the chart. To prevent redundant data labels from displaying when multiple series share the same data point values and locations, set the [`showDuplicateLabels`](../api/chart#showduplicatelabels-boolean) property to `false`.
+
+Use the `smartLabelSettings` property to customize relocated labels with the following settings:
+
+- `background`: Specifies the background fill color of the relocated label. Labels at their default position retain `dataLabel.fill`.
+- `border`: Customizes the border (`color`, `width`, and `dashArray`) of the relocated label. Labels at their default position retain `dataLabel.border`.
+- `pointerShape`: Specifies the shape at the data point end of the connector line (`'Arrow'` or `'None'`).
+- `connectorLineStyle`: Customizes the connector line using `color`, `width`, and `opacity`. Setting `width` to `0` or `color` to `'transparent'` hides the connector.
+- `offset`: Adjusts the spacing of relocated labels. Applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+- `seriesOverlapAction`: Specifies whether labels can overlap series elements and trendlines (`'None'` or `'Hide'`). When set to `'Hide'`, labels avoid series graphics and are hidden only if no free position is available.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
