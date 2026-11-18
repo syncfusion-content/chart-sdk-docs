@@ -148,3 +148,18 @@ You can add the datamatrix code in our barcode generator component.
 {% endtabs %}
           
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/barcode-generator/getting-started-cs9" %}
+
+## Adding Aztec Generator control
+
+You can add the Aztec code in our barcode generator component.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/getting-started-cs12/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/getting-started-cs12/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/barcode-generator/getting-started-cs12" %}

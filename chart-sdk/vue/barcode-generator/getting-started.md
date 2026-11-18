@@ -199,3 +199,18 @@ You can add the datamatrix code in our barcode generator component.
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/getting-started/datamatrix-cs1" %}
+
+## Adding Aztec Generator control
+
+You can add the Aztec code in our barcode generator component.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/getting-started/aztec-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/getting-started/aztec-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/getting-started/aztec-cs1" %}
