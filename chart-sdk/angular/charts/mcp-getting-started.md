@@ -38,8 +38,8 @@ When `document.modelContext` is unavailable, the Chart skips tool registration a
 <br>
 - **Universal tool access** - Compatible agents can discover Chart operations.
 - **Schema-validated input** - Clients can validate requests before invocation.
-- **Controlled execution** - The host can review or control calls through `beforeWebMcpToolExecute`.
-- **Multi-instance support** - A unique `webMcpSettings.name` avoids tool-name conflicts.
+- **Controlled execution** - The host can review or control calls through [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/angular/documentation/api/chart#beforewebmcptoolexecute).
+- **Multi-instance support** - A unique [`webMcpSettings.name`](https://ej2.syncfusion.com/angular/documentation/api/chart/webMcpSettingsModel#name) avoids tool-name conflicts.
 - **Native integration** - Tools operate through Chart APIs.
 - **Structured responses** - Agents can continue multi-step workflows reliably.
 <br>
@@ -47,7 +47,7 @@ When `document.modelContext` is unavailable, the Chart skips tool registration a
 <br>
 1. The application injects the WebMCP and Chart feature modules. For more details, refer to the [Chart Feature Modules](./feature-modules) page and the [Angular Charts API](https://ej2.syncfusion.com/angular/documentation/api/chart).
 2. [`enableWebMcp`](https://ej2.syncfusion.com/angular/documentation/api/chart#enablewebmcp) activates tool registration.
-3. `webMcpSettings.name` defines an instance-specific prefix.
+3. [`webMcpSettings.name`](https://ej2.syncfusion.com/angular/documentation/api/chart/webMcpSettingsModel#name) defines an instance-specific prefix.
 4. The Chart registers tools with `document.modelContext`.
 5. The agent discovers a tool and invokes it with structured arguments.
 6. [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/angular/documentation/api/chart#beforewebmcptoolexecute) runs before the operation and can control confirmation behavior.
@@ -112,7 +112,7 @@ export class AppComponent {
 <br>
 ### Step 2: Inject the WebMCP module
 <br>
-Register the Chart WebMCP module or service (`WebMcpChartService`). WebMCP remains disabled until `enableWebMcp` is set to `true`.
+Register the Chart WebMCP module or service (`WebMcpChartService`). WebMCP remains disabled until [`enableWebMcp`](https://ej2.syncfusion.com/angular/documentation/api/chart#enablewebmcp) is set to `true`.
 <br>
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -147,7 +147,7 @@ export class AppComponent {
 <br>
 ### Step 3: Enable WebMCP
 <br>
-Set `enableWebMcp` to `true` so the Chart registers its built-in tools with `document.modelContext`.
+Set [`enableWebMcp`](https://ej2.syncfusion.com/angular/documentation/api/chart#enablewebmcp) to `true` so the Chart registers its built-in tools with `document.modelContext`.
 <br>
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -182,7 +182,7 @@ export class AppComponent {
 <br>
 ### Step 4: Configure tool registration
 <br>
-Add `webMcpSettings` to assign a unique name and expose only the required Chart tools.
+Add [`webMcpSettings`](https://ej2.syncfusion.com/angular/documentation/api/chart#webmcpsettings) to assign a unique [`name`](https://ej2.syncfusion.com/angular/documentation/api/chart/webMcpSettingsModel#name) and expose only the required Chart [`tools`](https://ej2.syncfusion.com/angular/documentation/api/chart/webMcpSettingsModel#tools).
 
 In Angular Charts, features such as exporting, zooming, tooltips, legends, indicators, and annotations are provided by modular services (`ExportService`, `ZoomService`, `TooltipService`, `LegendService`, etc.). When a WebMCP tool executes an operation corresponding to a feature, the required service must be registered in the component's `providers` array. For example, exposing the `exportChart` tool requires `ExportService` to be injected; if the service is missing, the tool cannot perform the export operation.
 
@@ -233,9 +233,9 @@ export class AppComponent {
 <br>
 ### Step 5: Monitor tool execution
 <br>
-Use the `beforeWebMcpToolExecute` event to monitor and control tool execution before a WebMCP tool action is performed. This event is triggered whenever a tool request is about to be executed through the Chart component.
+Use the [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/angular/documentation/api/chart#beforewebmcptoolexecute) event to monitor and control tool execution before a WebMCP tool action is performed. This event is triggered whenever a tool request is about to be executed through the Chart component.
 
-The `beforeWebMcpToolExecute` event is especially useful when you want to:
+The [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/angular/documentation/api/chart#beforewebmcptoolexecute) event is especially useful when you want to:
 
 * Request user confirmation before executing actions that modify chart data or settings.
 * Prevent specific tools from running based on application requirements.
@@ -245,7 +245,7 @@ The `beforeWebMcpToolExecute` event is especially useful when you want to:
 
 Read-only operations can continue without interruption, while actions that modify the chart or generate files can be reviewed and approved before execution.
 
-The event handler receives a `WebMcpToolExecuteEventArgs` object that provides information about the tool request. This object contains details such as:
+The event handler receives a [`WebMcpToolExecuteEventArgs`](https://ej2.syncfusion.com/angular/documentation/api/chart/webMcpToolExecuteEventArgs) object that provides information about the tool request. This object contains details such as:
 
 * `toolName` - The name of the WebMCP tool being executed.
 * `arguments` - The collection of arguments passed to the tool during execution.
@@ -344,7 +344,7 @@ The Chart exposes WebMCP tools for inspection, data management, configuration, i
 ## Best practices
 <br>
 - Expose only the tools required by the application. Register the corresponding Chart feature module or service for tools such as `exportChart`.
-- Assign a unique `webMcpSettings.name` when multiple Chart instances are present.
+- Assign a unique [`webMcpSettings.name`](https://ej2.syncfusion.com/angular/documentation/api/chart/webMcpSettingsModel#name) when multiple Chart instances are present.
 - Require confirmation for mutating and output operations such as `updateChartTitle`, `toggleChartSeriesVisibility`, and `exportChart`.
 - Allow read-only operations such as `inspectChart`, `getSeriesData`, and `getChartAxes` to run without unnecessary confirmation.
 - Keep application authentication, authorization, validation, and auditing in place.
