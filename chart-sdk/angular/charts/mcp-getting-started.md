@@ -182,7 +182,7 @@ export class AppComponent {
 <br>
 ### Step 4: Configure tool registration
 <br>
-Add [`webMcpSettings`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartwebmcpsettings) to assign a unique [`name`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartwebmcpsettings#name) and expose only the required Chart [`tools`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartwebmcpsettings#tools).
+Add [`webMcpSettings`](https://ej2.syncfusion.com/angular/documentation/api/chart/index-default#webmcpsettings) to assign a unique [`name`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartwebmcpsettings#name) and expose only the required Chart [`tools`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartwebmcpsettings#tools).
 
 In Angular Charts, features such as exporting, zooming, tooltips, legends, indicators, and annotations are provided by modular services (`ExportService`, `ZoomService`, `TooltipService`, `LegendService`, etc.). When a WebMCP tool executes an operation corresponding to a feature, the required service must be registered in the component's `providers` array. For example, exposing the `exportChart` tool requires `ExportService` to be injected; if the service is missing, the tool cannot perform the export operation.
 
