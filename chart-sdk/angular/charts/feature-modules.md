@@ -142,7 +142,7 @@ The following modules enable additional chart features such as tooltips, legends
 | [`HighlightService`](https://ej2.syncfusion.com/angular/documentation/api/chart/highlight) | Inject this module to use the highlight feature. |
 | [`ExportService`](https://ej2.syncfusion.com/angular/documentation/api/chart/export) | Inject this module to use the export feature. |
 | [`MultiLevelLabelService`](https://ej2.syncfusion.com/angular/documentation/api/chart/multiLevelLabels) | Inject this module to use the multi level label feature. |
-| [`WebMcpChartService`](https://ej2.syncfusion.com/angular/documentation/api/chart#enablewebmcp) | Inject this module to use the WebMCP feature for AI agent tool integration. |
+| [`WebMcpChartService`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartwebmcpsettings) | Inject this module to use the WebMCP feature for AI agent tool integration. |
 
 ## Troubleshooting
 
