@@ -152,7 +152,7 @@ provide('chart', [Category, SplineSeries, Tooltip, Legend]);
 <br>
 ### Step 2: Inject the WebMCP module
 <br>
-Register the Chart WebMCP module or service. WebMCP remains disabled until [`enableWebMcp`](https://ej2.syncfusion.com/vue/documentation/api/chart#enablewebmcp) is set to `true`.
+Register the Chart WebMCP module ('WebMcpChart'). WebMCP remains disabled until [`enableWebMcp`](https://ej2.syncfusion.com/vue/documentation/api/chart#enablewebmcp) is set to `true`.
 <br>
 {% tabs %}
 {% highlight js tabtitle="Vue 2 (index.js)" %}
@@ -526,7 +526,7 @@ provide('chart', [Category, SplineSeries, Tooltip, Legend, WebMcpChart, Export])
 
 ## Supported features
 <br>
-The Chart exposes WebMCP tools for inspection, data management, configuration, interaction, and output. A tool can use a Chart feature only when the corresponding module or service is injected. For example, `exportChart` requires `ExportService` in Angular Charts and `Export` in JavaScript, TypeScript, React, and Vue.
+The Chart exposes WebMCP tools for inspection, data management, configuration, interaction, and output. A tool can use a Chart feature only when the corresponding module or service is injected. For example, `exportChart` requires `ExportService` in Angular Charts and `Export` in TypeScript, React, and Vue.
 
 ## Writing effective prompts
 <br>
