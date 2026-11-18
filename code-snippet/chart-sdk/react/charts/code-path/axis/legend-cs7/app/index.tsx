@@ -24,14 +24,17 @@ function App() {
       '<span class="e-label" style="font-size:13px;font-weight:bold;color:;"></span>' +
       '</div>'
   };
-  const handleLegendRender = (args: ILegendRenderEventArgs): void => {
-    const matchedSeries = args.chart?.series?.filter((s: any) => s.name === args.text)[0];
-    const opacity = matchedSeries && matchedSeries.visible === false ? '0.5' : '1';
-    args.template = args.template
-      .replace('opacity:1;', `opacity:${opacity};`)
-      .replace('src=""', `src="${legendIcons[args.text] || ''}"`)
-      .replace('color:;', `color:${args.fill};`)
-      .replace('></span>', `>${args.text}</span>`);
+  const handleLegendRender=(args:ILegendRenderEventArgs):void=>{
+    let matchedSeries:any=null;
+    const chart:any=(args as any).chart;
+    if(chart&&chart.series){
+    matchedSeries=chart.series.filter(function(series:any):boolean{
+    return series.name===args.text;
+    })[0];
+    }
+    const opacity:string=matchedSeries&&matchedSeries.visible===false?'0.5':'1';
+    const template:string=(args.template||'')as string;
+    args.template=template.replace('opacity:1;','opacity:'+opacity+';').replace('src=""','src="'+(legendIcons[args.text]||'')+'"').replace('color:;','color:'+args.fill+';').replace('</span>',args.text+'</span>');
   };
   return <ChartComponent id='charts'
     primaryXAxis={primaryxAxis}

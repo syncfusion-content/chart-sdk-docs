@@ -77,7 +77,7 @@ export class Drilldown extends React.Component {
                             </AccumulationSeriesDirective>
                         </AccumulationSeriesCollectionDirective>
                     </AccumulationChartComponent>
-                    <GridComponent ref={g => this.grid = g} dataSource={data} height='350'>
+                    <GridComponent ref={g => this.grid = g} dataSource={this.data} height='350'>
                         <ColumnsDirective>
                             <ColumnDirective field='x' headerText='Vehicle' type='string'></ColumnDirective>
                             <ColumnDirective field='y' headerText='Sales' type='string'></ColumnDirective>

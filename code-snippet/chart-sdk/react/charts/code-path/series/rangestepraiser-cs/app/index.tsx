@@ -3,7 +3,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { AxisModel, ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Category, RangeStepAreaSeries} from'@syncfusion/ej2-react-charts';
-import { chartData } from "../datasource";
+import { chartData } from "./datasource";
 
 function App() {
   

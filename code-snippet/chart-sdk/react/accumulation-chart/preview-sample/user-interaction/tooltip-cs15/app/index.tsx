@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { AccumulationChartComponent, AccumulationSeriesCollectionDirective, AccumulationSeriesDirective, Inject, PieSeries, AccumulationTooltip } from '@syncfusion/ej2-react-charts';
-import type { ITooltipRenderEventArgs, TooltipSettingsModel } from '@syncfusion/ej2-react-charts';
+import { ITooltipRenderEventArgs, TooltipSettingsModel } from '@syncfusion/ej2-react-charts';
 import { chartData, SalesData } from './datasource';
 
 function App() {
