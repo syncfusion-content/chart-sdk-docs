@@ -39,7 +39,7 @@ When `document.modelContext` is unavailable, the Chart skips tool registration a
 - **Universal tool access** - Compatible agents can discover Chart operations.
 - **Schema-validated input** - Clients can validate requests before invocation.
 - **Controlled execution** - The host can review or control calls through [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/angular/documentation/api/chart#beforewebmcptoolexecute).
-- **Multi-instance support** - A unique [`webMcpSettings.name`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartwebmcpsettings#name) avoids tool-name conflicts.
+- **Multi-instance support** - A unique [`webMcpSettings.name`](https://ej2.syncfusion.com/angular/documentation/api/chart/chartwebMcpsettings#name) avoids tool-name conflicts.
 - **Native integration** - Tools operate through Chart APIs.
 - **Structured responses** - Agents can continue multi-step workflows reliably.
 <br>

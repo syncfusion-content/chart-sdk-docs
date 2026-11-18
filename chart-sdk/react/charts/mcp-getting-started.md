@@ -238,7 +238,7 @@ The event handler receives a [`WebMcpToolExecuteEventArgs`](https://ej2.syncfusi
 * `toolArgs` - The arguments passed to the tool during execution.
 * `cancel` - A boolean property that can be set to `true` to prevent the tool from executing.
 * `showConfirmationDialog` - A boolean property that requests user confirmation before the tool executes.
-* `cancellationResponse` - A custom response returned when execution is cancelled.
+* `cancellationResponse` - A custom response returned when execution is canceled.
 
 The following example requests confirmation before allowing export-related operations:
 <br>
