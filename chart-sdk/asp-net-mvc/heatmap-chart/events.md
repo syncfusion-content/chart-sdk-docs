@@ -146,3 +146,26 @@ The [TooltipRender](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.
 {% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/events/tooltip-render/tooltip-render.cs %}
 {% endhighlight %}
 {% endtabs %}
+
+### Access the datasource record in the tooltip
+
+The complete datasource record associated with a hovered HeatMap cell can be accessed using the `data` property in the `tooltipRender` event arguments. The `value` property contains only the rendered cell value, whereas the `data` property contains the corresponding datasource record. This allows additional mapped or unmapped fields from the datasource to be used when customizing the tooltip content.
+
+The value returned through the `data` property depends on the datasource binding type:
+
+* In JSON cell binding, it contains the complete JSON object associated with the hovered cell.
+* In JSON table binding, it contains the complete JSON row object associated with the hovered cell.
+* In array cell binding, it contains the complete array associated with the hovered cell.
+* In array table binding, it contains the complete row array associated with the hovered cell.
+
+The following example demonstrates how to access the complete datasource record through the `data` property and use its additional fields to customize the tooltip content.
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/events/tooltip-data/razor %}
+{% endhighlight %}
+{% highlight c# tabtitle="TooltipData.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/events/tooltip-data/tooltip-data.cs %}
+{% endhighlight %}
+{% endtabs %}
+
