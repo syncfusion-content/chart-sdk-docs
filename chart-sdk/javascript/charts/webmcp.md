@@ -107,10 +107,10 @@ chart.appendTo('#container');
 <head>
     <meta charset="UTF-8">
     <title>Chart WebMCP</title>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-charts/dist/global/ej2-charts.min.js"></script>
 </head>
 <body><div id="container"></div><script src="./index.js"></script></body>
 </html>
@@ -150,10 +150,10 @@ chart.appendTo('#container');
 <head>
     <meta charset="UTF-8">
     <title>Chart WebMCP</title>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-charts/dist/global/ej2-charts.min.js"></script>
 </head>
 <body><div id="container"></div><script src="./index.js"></script></body>
 </html>
@@ -209,10 +209,10 @@ chart.appendTo('#container');
 <head>
     <meta charset="UTF-8">
     <title>Chart WebMCP</title>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-charts/dist/global/ej2-charts.min.js"></script>
 </head>
 <body><div id="container"></div><script src="./index.js"></script></body>
 </html>
@@ -276,10 +276,10 @@ chart.appendTo('#container');
 <head>
     <meta charset="UTF-8">
     <title>Chart WebMCP</title>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/35.2.12/ej2-charts/dist/global/ej2-charts.min.js"></script>
 </head>
 <body><div id="container"></div><script src="./index.js"></script></body>
 </html>
