@@ -69,9 +69,19 @@ The Stock chart component followed the [keyboard interaction](https://www.w3.org
 
 The Stock chart component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Stock chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/stock-chart.html) in a new window to evaluate the accessibility of the Stock chart component with accessibility tools.
+The accessibility compliance of the Stock chart component is shown in the following sample.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/stock-chart.html" %}
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/stock-chart/accessibility-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/stock-chart/accessibility-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/stock-chart/accessibility-cs1" %}
 
 ## See also
 
