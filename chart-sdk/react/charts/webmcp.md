@@ -235,8 +235,10 @@ Read-only operations can continue without interruption, while actions that modif
 The event handler receives a [`WebMcpToolExecuteEventArgs`](https://ej2.syncfusion.com/react/documentation/api/chart/webMcpToolExecuteEventArgs) object that provides information about the tool request. This object contains details such as:
 
 * `toolName` - The name of the WebMCP tool being executed.
-* `arguments` - The collection of arguments passed to the tool during execution.
+* `toolArgs` - The arguments passed to the tool during execution.
 * `cancel` - A boolean property that can be set to `true` to prevent the tool from executing.
+* `showConfirmationDialog` - A boolean property that requests user confirmation before the tool executes.
+* `cancellationResponse` - A custom response returned when execution is cancelled.
 
 The following example requests confirmation before allowing export-related operations:
 <br>
