@@ -45,7 +45,7 @@ When `document.modelContext` is unavailable, the Chart skips tool registration a
 <br>
 ## How WebMCP works in Chart
 <br>
-1. The application injects the WebMCP and Chart feature modules. For more details, refer to the [Chart Feature Modules](./feature-modules) page and the [Chart API](https://ej2.syncfusion.com/javascript/documentation/api/chart).
+1. The application loads the Chart scripts, which include the WebMCP feature. For more details, refer to the [Chart Feature Modules](./feature-modules) page and the [Chart API](https://ej2.syncfusion.com/javascript/documentation/api/chart).
 2. [`enableWebMcp`](https://ej2.syncfusion.com/javascript/documentation/api/chart#enablewebmcp) activates tool registration.
 3. [`webMcpSettings.name`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartwebmcpsettings#name) defines an instance-specific prefix.
 4. The Chart registers tools with `document.modelContext`.
@@ -73,7 +73,7 @@ The WebMCP extension is now configured and ready to interact with the WebMCP-ena
 <br>
 ## Integrating WebMCP tools
 <br>
-Follow these steps to integrate WebMCP support into the Syncfusion® JavaScript (ES5) Chart control. The following example uses a revenue Chart and progressively introduces the WebMCP module, tool registration, tool configuration, and execution monitoring.
+Follow these steps to integrate WebMCP support into the Syncfusion® JavaScript (ES5) Chart control. The following example uses a revenue Chart and progressively introduces WebMCP enablement, tool registration, tool configuration, and execution monitoring.
 <br>
 ### Step 1: Create the Chart application
 <br>
@@ -82,9 +82,6 @@ Create a basic revenue Chart. This step contains only the Chart modules and conf
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% raw %}
-import { Chart, Category, Legend, SplineSeries, Tooltip } from '@syncfusion/ej2-charts';
-Chart.Inject(Category, SplineSeries, Tooltip, Legend);
-
 const data = [
     { month: 'Jan', revenue: 42000, target: 40000 },
     { month: 'Feb', revenue: 47000, target: 43000 },
@@ -92,7 +89,7 @@ const data = [
     { month: 'Apr', revenue: 58000, target: 52000 }
 ];
 
-const chart = new Chart({
+const chart = new ej.charts.Chart({
     title: 'Revenue Performance',
     dataSource: data,
 
@@ -107,23 +104,27 @@ chart.appendTo('#container');
 {% raw %}
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Chart WebMCP</title></head>
-<body><div id="container"></div><script type="module" src="./index.js"></script></body>
+<head>
+    <meta charset="UTF-8">
+    <title>Chart WebMCP</title>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
+</head>
+<body><div id="container"></div><script src="./index.js"></script></body>
 </html>
 {% endraw %}
 {% endhighlight %}
 {% endtabs %}
 <br>
-### Step 2: Inject the WebMCP module
+### Step 2: Enable WebMCP
 <br>
-Register the Chart WebMCP module or service. WebMCP remains disabled until [`enableWebMcp`](https://ej2.syncfusion.com/javascript/documentation/api/chart#enablewebmcp) is set to `true`.
+The WebMCP feature is included in the `ej2-charts` script, so no separate module injection is required. Set [`enableWebMcp`](https://ej2.syncfusion.com/javascript/documentation/api/chart#enablewebmcp) to `true` so the Chart registers its built-in tools with `document.modelContext`.
 <br>
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% raw %}
-import { Chart, Category, Legend, SplineSeries, Tooltip, WebMcpChart } from '@syncfusion/ej2-charts';
-Chart.Inject(Category, SplineSeries, Tooltip, Legend, WebMcpChart);
-
 const data = [
     { month: 'Jan', revenue: 42000, target: 40000 },
     { month: 'Feb', revenue: 47000, target: 43000 },
@@ -131,46 +132,7 @@ const data = [
     { month: 'Apr', revenue: 58000, target: 52000 }
 ];
 
-const chart = new Chart({
-    title: 'Revenue Performance',
-    dataSource: data,
-
-    primaryXAxis: { valueType: 'Category' },
-    tooltip: { enable: true, shared: true },
-    series: [{ type: 'Spline', name: 'Revenue', xName: 'month', yName: 'revenue' }]
-});
-chart.appendTo('#container');
-{% endraw %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% raw %}
-<!DOCTYPE html>
-<html lang="en">
-<head><meta charset="UTF-8"><title>Chart WebMCP</title></head>
-<body><div id="container"></div><script type="module" src="./index.js"></script></body>
-</html>
-{% endraw %}
-{% endhighlight %}
-{% endtabs %}
-<br>
-### Step 3: Enable WebMCP
-<br>
-Set [`enableWebMcp`](https://ej2.syncfusion.com/javascript/documentation/api/chart#enablewebmcp) to `true` so the Chart registers its built-in tools with `document.modelContext`.
-<br>
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% raw %}
-import { Chart, Category, Legend, SplineSeries, Tooltip, WebMcpChart } from '@syncfusion/ej2-charts';
-Chart.Inject(Category, SplineSeries, Tooltip, Legend, WebMcpChart);
-
-const data = [
-    { month: 'Jan', revenue: 42000, target: 40000 },
-    { month: 'Feb', revenue: 47000, target: 43000 },
-    { month: 'Mar', revenue: 53000, target: 47000 },
-    { month: 'Apr', revenue: 58000, target: 52000 }
-];
-
-const chart = new Chart({
+const chart = new ej.charts.Chart({
     title: 'Revenue Performance',
     dataSource: data,
     enableWebMcp: true,
@@ -185,18 +147,25 @@ chart.appendTo('#container');
 {% raw %}
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Chart WebMCP</title></head>
-<body><div id="container"></div><script type="module" src="./index.js"></script></body>
+<head>
+    <meta charset="UTF-8">
+    <title>Chart WebMCP</title>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
+</head>
+<body><div id="container"></div><script src="./index.js"></script></body>
 </html>
 {% endraw %}
 {% endhighlight %}
 {% endtabs %}
 <br>
-### Step 4: Configure tool registration
+### Step 3: Configure tool registration
 <br>
 Add [`webMcpSettings`](https://ej2.syncfusion.com/javascript/documentation/api/chart/index-default#webmcpsettings) to assign a unique [`name`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartwebmcpsettings#name) and expose only the required Chart [`tools`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartwebmcpsettings#tools).
 
-In JavaScript Charts, features such as exporting, zooming, tooltips, legends, indicators, and annotations are provided by modules (`Export`, `Zoom`, `Tooltip`, `Legend`, etc.). When a WebMCP tool executes an operation corresponding to a feature, the required module must be injected using `Chart.Inject`. For example, exposing the `exportChart` tool requires the `Export` module to be injected; if the module is missing, the tool cannot perform the export operation.
+In JavaScript Charts, features such as exporting, zooming, tooltips, legends, indicators, and annotations are provided by modules (`Export`, `Zoom`, `Tooltip`, `Legend`, etc.). When a WebMCP tool executes an operation corresponding to a feature, the required feature must be available in the Chart scripts. For example, exposing the `exportChart` tool requires the export feature; if it is missing, the tool cannot perform the export operation.
 
 The table below lists the available Chart tools and the corresponding feature modules required for each category:
 
@@ -214,9 +183,6 @@ The table below lists the available Chart tools and the corresponding feature mo
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% raw %}
-import { Chart, Category, Legend, SplineSeries, Tooltip, WebMcpChart, Export } from '@syncfusion/ej2-charts';
-Chart.Inject(Category, SplineSeries, Tooltip, Legend, WebMcpChart, Export);
-
 const data = [
     { month: 'Jan', revenue: 42000, target: 40000 },
     { month: 'Feb', revenue: 47000, target: 43000 },
@@ -224,7 +190,7 @@ const data = [
     { month: 'Apr', revenue: 58000, target: 52000 }
 ];
 
-const chart = new Chart({
+const chart = new ej.charts.Chart({
     title: 'Revenue Performance',
     dataSource: data,
     enableWebMcp: true,
@@ -240,14 +206,21 @@ chart.appendTo('#container');
 {% raw %}
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Chart WebMCP</title></head>
-<body><div id="container"></div><script type="module" src="./index.js"></script></body>
+<head>
+    <meta charset="UTF-8">
+    <title>Chart WebMCP</title>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
+</head>
+<body><div id="container"></div><script src="./index.js"></script></body>
 </html>
 {% endraw %}
 {% endhighlight %}
 {% endtabs %}
 <br>
-### Step 5: Monitor tool execution
+### Step 4: Monitor tool execution
 <br>
 Use the [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/javascript/documentation/api/chart#beforewebmcptoolexecute) event to monitor and control tool execution before a WebMCP tool action is performed. This event is triggered whenever a tool request is about to be executed through the Chart component.
 
@@ -272,9 +245,6 @@ The following example requests confirmation before allowing export-related opera
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% raw %}
-import { Chart, Category, Legend, SplineSeries, Tooltip, WebMcpChart, Export } from '@syncfusion/ej2-charts';
-Chart.Inject(Category, SplineSeries, Tooltip, Legend, WebMcpChart, Export);
-
 const data = [
     { month: 'Jan', revenue: 42000, target: 40000 },
     { month: 'Feb', revenue: 47000, target: 43000 },
@@ -282,7 +252,7 @@ const data = [
     { month: 'Apr', revenue: 58000, target: 52000 }
 ];
 
-const chart = new Chart({
+const chart = new ej.charts.Chart({
     title: 'Revenue Performance',
     dataSource: data,
     enableWebMcp: true,
@@ -303,8 +273,15 @@ chart.appendTo('#container');
 {% raw %}
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Chart WebMCP</title></head>
-<body><div id="container"></div><script type="module" src="./index.js"></script></body>
+<head>
+    <meta charset="UTF-8">
+    <title>Chart WebMCP</title>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"></script>
+</head>
+<body><div id="container"></div><script src="./index.js"></script></body>
 </html>
 {% endraw %}
 {% endhighlight %}
@@ -334,7 +311,7 @@ chart.appendTo('#container');
 
 ## Supported features
 <br>
-The Chart exposes WebMCP tools for inspection, data management, configuration, interaction, and output. A tool can use a Chart feature only when the corresponding module or service is injected. For example, `exportChart` requires `ExportService` in Angular Charts and `Export` in JavaScript, TypeScript, React, and Vue.
+The Chart exposes WebMCP tools for inspection, data management, configuration, interaction, and output. A tool can use a Chart feature only when the corresponding module or service is injected. For example, `exportChart` requires `ExportService` in Angular Charts and `Export` in TypeScript, React, and Vue.
 
 ## Writing effective prompts
 <br>
