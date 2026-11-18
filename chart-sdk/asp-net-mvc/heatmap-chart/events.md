@@ -149,7 +149,7 @@ The [TooltipRender](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.
 
 ### Access the datasource record in the tooltip
 
-The complete datasource record associated with a hovered HeatMap cell can be accessed using the `data` property in the `tooltipRender` event arguments. The `value` property contains only the rendered cell value, whereas the `data` property contains the corresponding datasource record. This allows additional mapped or unmapped fields from the datasource to be used when customizing the tooltip content.
+The complete datasource record associated with a hovered HeatMap cell can be accessed using the `data` property in the [`tooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.HeatMap.HeatMap.html#Syncfusion_EJ2_HeatMap_HeatMap_TooltipRender) event arguments. The `value` property contains only the rendered cell value, whereas the `data` property contains the corresponding datasource record. This allows additional mapped or unmapped fields from the datasource to be used when customizing the tooltip content.
 
 The value returned through the `data` property depends on the datasource binding type:
 
