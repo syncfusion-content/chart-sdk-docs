@@ -38,19 +38,19 @@ When `document.modelContext` is unavailable, the Chart skips tool registration a
 <br>
 - **Universal tool access** - Compatible agents can discover Chart operations.
 - **Schema-validated input** - Clients can validate requests before invocation.
-- **Controlled execution** - The host can review or control calls through `beforeWebMcp`.
-- **Multi-instance support** - A unique `webMcpSettings.name` avoids tool-name conflicts.
+- **Controlled execution** - The host can review or control calls through [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/documentation/api/chart#beforewebmcptoolexecute).
+- **Multi-instance support** - A unique [`webMcpSettings.name`](https://ej2.syncfusion.com/documentation/api/chart/chartwebmcpsettings#name) avoids tool-name conflicts.
 - **Native integration** - Tools operate through Chart APIs.
 - **Structured responses** - Agents can continue multi-step workflows reliably.
 <br>
 ## How WebMCP works in Chart
 <br>
-1. The application injects the WebMCP and Chart feature modules.
-2. `enableWebMcp` activates tool registration.
-3. `webMcpSettings.name` defines an instance-specific prefix.
+1. The application injects the WebMCP and Chart feature modules. For more details, refer to the [Chart Feature Modules](./feature-modules) page and the [Chart API](https://ej2.syncfusion.com/documentation/api/chart).
+2. [`enableWebMcp`](https://ej2.syncfusion.com/documentation/api/chart#enablewebmcp) activates tool registration.
+3. [`webMcpSettings.name`](https://ej2.syncfusion.com/documentation/api/chart/chartwebmcpsettings#name) defines an instance-specific prefix.
 4. The Chart registers tools with `document.modelContext`.
 5. The agent discovers a tool and invokes it with structured arguments.
-6. `beforeWebMcp` runs before the operation and can control confirmation behavior.
+6. [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/documentation/api/chart#beforewebmcptoolexecute) runs before the operation and can control confirmation behavior.
 7. The Chart executes the operation and returns a structured result.
 <br>
 ## Prerequisites
@@ -116,7 +116,7 @@ chart.appendTo('#container');
 <br>
 ### Step 2: Inject the WebMCP module
 <br>
-Register the Chart WebMCP module or service. WebMCP remains disabled until `enableWebMcp` is set to `true`.
+Register the Chart WebMCP module or service. WebMCP remains disabled until [`enableWebMcp`](https://ej2.syncfusion.com/documentation/api/chart#enablewebmcp) is set to `true`.
 <br>
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -155,7 +155,7 @@ chart.appendTo('#container');
 <br>
 ### Step 3: Enable WebMCP
 <br>
-Set `enableWebMcp` to `true` so the Chart registers its built-in tools with `document.modelContext`.
+Set [`enableWebMcp`](https://ej2.syncfusion.com/documentation/api/chart#enablewebmcp) to `true` so the Chart registers its built-in tools with `document.modelContext`.
 <br>
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -194,7 +194,22 @@ chart.appendTo('#container');
 <br>
 ### Step 4: Configure tool registration
 <br>
-Add `webMcpSettings` to assign a unique name and expose only the required Chart tools. Because this example exposes `exportChart`, it also registers the Chart export module or service.
+Add [`webMcpSettings`](https://ej2.syncfusion.com/documentation/api/chart/index-default#webmcpsettings) to assign a unique [`name`](https://ej2.syncfusion.com/documentation/api/chart/chartwebmcpsettings#name) and expose only the required Chart [`tools`](https://ej2.syncfusion.com/documentation/api/chart/chartwebmcpsettings#tools).
+
+In TypeScript Charts, features such as exporting, zooming, tooltips, legends, indicators, and annotations are provided by modules (`Export`, `Zoom`, `Tooltip`, `Legend`, etc.). When a WebMCP tool executes an operation corresponding to a feature, the required module must be injected using `Chart.Inject`. For example, exposing the `exportChart` tool requires the `Export` module to be injected; if the module is missing, the tool cannot perform the export operation.
+
+The table below lists the available Chart tools and the corresponding feature modules required for each category:
+
+<table>
+<tr><th>Category</th><th>Available Chart Tools</th><th>Purpose</th><th>Required Feature Module</th></tr>
+<tr><td><strong>Chart inspection</strong></td><td><code>inspectChart</code>, <code>getChartAxes</code>, <code>getChartLegend</code>, <code>getChartIndicators</code>, <code>getChartStriplines</code>, <code>getChartAnnotations</code></td><td>Inspect chart configuration, axis ranges, indicator settings, and visual metadata</td><td>Core chart modules, <code>Legend</code> (for legend details)</td></tr>
+<tr><td><strong>Series and data</strong></td><td><code>addChartSeries</code>, <code>updateChartSeries</code>, <code>removeChartSeries</code>, <code>clearChartSeries</code>, <code>toggleChartSeriesVisibility</code>, <code>getSeriesData</code>, <code>appendChartData</code>, <code>updateChartDataSource</code>, <code>getChartPoint</code>, <code>updateChartPoint</code>, <code>removeChartPoints</code></td><td>Manage series definitions, update data sources, and manipulate individual data points</td><td>Relevant series modules (e.g. <code>LineSeries</code>, <code>SplineSeries</code>, <code>ColumnSeries</code>)</td></tr>
+<tr><td><strong>Axes and zoom</strong></td><td><code>addChartAxis</code>, <code>updateChartAxis</code>, <code>removeChartAxis</code>, <code>configureChartZoom</code>, <code>resetChartZoom</code></td><td>Configure axis ranges, intervals, titles, and manage zooming and panning states</td><td><code>Zoom</code> (for zoom operations), relevant axis modules (e.g. <code>Category</code>, <code>DateTime</code>)</td></tr>
+<tr><td><strong>Annotations</strong></td><td><code>addChartAnnotation</code>, <code>updateChartAnnotation</code>, <code>removeChartAnnotation</code></td><td>Add, modify, or remove custom text and shape annotations</td><td><code>ChartAnnotation</code></td></tr>
+<tr><td><strong>Selection and interaction</strong></td><td><code>selectChartPoints</code>, <code>clearChartSelection</code>, <code>getSelectedChartData</code>, <code>showChartTooltip</code>, <code>hideChartTooltip</code>, <code>showChartCrosshair</code>, <code>hideChartCrosshair</code></td><td>Control point selection, trigger or dismiss tooltips, and display crosshair lines</td><td><code>Selection</code>, <code>Tooltip</code>, <code>Crosshair</code></td></tr>
+<tr><td><strong>Chart configuration</strong></td><td><code>updateChartProperties</code>, <code>updateChartTitle</code>, <code>animateChart</code></td><td>Update chart-level properties such as title, subtitle, themes, and re-trigger animation</td><td>Core chart modules</td></tr>
+<tr><td><strong>Export and output</strong></td><td><code>exportChart</code>, <code>printChart</code></td><td>Export the chart to PNG, JPEG, SVG, or PDF formats, or trigger browser printing</td><td><code>Export</code></td></tr>
+</table>
 <br>
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -234,7 +249,25 @@ chart.appendTo('#container');
 <br>
 ### Step 5: Monitor tool execution
 <br>
-Use `beforeWebMcp` to request confirmation only for operations that modify the Chart or export a file. Read-only tools continue without confirmation.
+Use the [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/documentation/api/chart#beforewebmcptoolexecute) event to monitor and control tool execution before a WebMCP tool action is performed. This event is triggered whenever a tool request is about to be executed through the Chart component.
+
+The [`beforeWebMcpToolExecute`](https://ej2.syncfusion.com/documentation/api/chart#beforewebmcptoolexecute) event is especially useful when you want to:
+
+* Request user confirmation before executing actions that modify chart data or settings.
+* Prevent specific tools from running based on application requirements.
+* Validate request parameters before tool execution.
+* Log tool activity for auditing and debugging purposes.
+* Restrict operations such as exporting, saving, or updating chart content.
+
+Read-only operations can continue without interruption, while actions that modify the chart or generate files can be reviewed and approved before execution.
+
+The event handler receives a [`WebMcpToolExecuteEventArgs`](https://ej2.syncfusion.com/documentation/api/chart/webMcpToolExecuteEventArgs) object that provides information about the tool request. This object contains details such as:
+
+* `toolName` - The name of the WebMCP tool being executed.
+* `arguments` - The collection of arguments passed to the tool during execution.
+* `cancel` - A boolean property that can be set to `true` to prevent the tool from executing.
+
+The following example requests confirmation before allowing export-related operations:
 <br>
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -254,9 +287,10 @@ const chart = new Chart({
     dataSource: data,
     enableWebMcp: true,
     webMcpSettings: { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] },
-    beforeWebMcp: (args) => {
-        const toolsRequiringConfirmation = ['updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'];
-        args.showConfirmationDialog = toolsRequiringConfirmation.indexOf(args.toolName) !== -1;
+    beforeWebMcpToolExecute: (args) => {
+        if (args.toolName === 'exportChart') {
+            args.cancel = !window.confirm('Do you want to export the chart?');
+        }
     },
     primaryXAxis: { valueType: 'Category' },
     tooltip: { enable: true, shared: true },
@@ -288,7 +322,7 @@ chart.appendTo('#container');
 
 ### Axis and zoom configuration
 
-**Example:** "Set the primary Y-axis range from 0 to 150000 with an interval of 25000."
+**Example:** "Set the primary Y-axis range from 0 to 150000 with an interval of 25000, enable zooming on the X axis, and zoom into the first quarter."
 
 ### Interactive data exploration
 
@@ -300,7 +334,7 @@ chart.appendTo('#container');
 
 ## Supported features
 <br>
-The Chart exposes WebMCP tools for inspection, data management, configuration, interaction, and output. A tool can use a Chart feature only when the corresponding module or service is injected. For example, `exportChart` requires `ExportService` in Angular and `Export` in JavaScript, TypeScript, React, and Vue.
+The Chart exposes WebMCP tools for inspection, data management, configuration, interaction, and output. A tool can use a Chart feature only when the corresponding module or service is injected. For example, `exportChart` requires `ExportService` in Angular Charts and `Export` in JavaScript, TypeScript, React, and Vue.
 
 ## Writing effective prompts
 <br>
@@ -327,7 +361,7 @@ The Chart exposes WebMCP tools for inspection, data management, configuration, i
 ## Best practices
 <br>
 - Expose only the tools required by the application. Register the corresponding Chart feature module or service for tools such as `exportChart`.
-- Assign a unique `webMcpSettings.name` when multiple Chart instances are present.
+- Assign a unique [`webMcpSettings.name`](https://ej2.syncfusion.com/documentation/api/chart/chartwebmcpsettings#name) when multiple Chart instances are present.
 - Require confirmation for mutating and output operations such as `updateChartTitle`, `toggleChartSeriesVisibility`, and `exportChart`.
 - Allow read-only operations such as `inspectChart`, `getSeriesData`, and `getChartAxes` to run without unnecessary confirmation.
 - Keep application authentication, authorization, validation, and auditing in place.
