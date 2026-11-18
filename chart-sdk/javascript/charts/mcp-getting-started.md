@@ -311,10 +311,6 @@ chart.appendTo('#container');
 
 **Example:** "Add a Peak Revenue annotation to December and export the Chart as PNG."
 
-## Supported features
-<br>
-The Chart exposes WebMCP tools for inspection, data management, configuration, interaction, and output. A tool can use a Chart feature only when the corresponding module or service is injected. For example, `exportChart` requires `ExportService` in Angular Charts and `Export` in TypeScript, React, and Vue.
-
 ## Writing effective prompts
 <br>
 **Good prompt:** "Set the primary Y-axis minimum to 0, maximum to 160000, and interval to 20000, then export the Chart as annual-revenue.png."
