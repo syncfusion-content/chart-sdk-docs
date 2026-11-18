@@ -1,9 +1,9 @@
-import { StockChartModule, DateTimeService, TooltipService, StockLegendService } from '@syncfusion/ej2-angular-charts';
+import { StockChartModule, DateTimeService, TooltipService, StockLegendService, CandleSeriesService } from '@syncfusion/ej2-angular-charts';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
     imports: [StockChartModule],
-    providers: [DateTimeService, TooltipService, StockLegendService],
+    providers: [DateTimeService, TooltipService, StockLegendService, CandleSeriesService],
     standalone: true,
     selector: 'app-container',
     template: `<ejs-stockchart id="chart-container" [primaryXAxis]='primaryXAxis' [title]='title' [indicatorType]='indicatorType' [trendlineType]='trendlineType' [tooltip]='tooltip' [legendSettings]='legendSettings'>
