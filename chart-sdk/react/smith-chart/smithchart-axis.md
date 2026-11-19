@@ -20,9 +20,9 @@ Like chart, Smith chart also has support for two types of axis:
 
 Axis labels are used to denote the kind of data that is bound to Smith chart. Using axis labels, you can easily identify the interval, in which the chart is rendered. The following properties are used to customize the axis labels for horizontal and radial axes:
 
-* [`labelPosition`]: Places the labels either inside or outside the axis line.
-* [`labelIntersectAction`]: Hides the labels when intersect with other labels.
-* [`labelStyle`]: Customizes the properties such as font size, family, weight, and opacity.
+* `labelPosition`: Places the labels either inside or outside the axis line.
+* `labelIntersectAction`: Hides the labels when intersect with other labels.
+* `labelStyle`: Customizes the properties such as font size, family, weight, and opacity.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -42,11 +42,11 @@ Both horizontal and radial axes have support for major and minor gridlines. Majo
 
 You can customize the major and minor gridlines using the following properties:
 
-* [`width`]: Customizes the width of gridlines.
-* [`dashArray`]: Decides whether the gridlines have to be rendered as normal line or dashed line.
-* [`visible`]: Enables or disables the visibility of the gridlines.
-* [`opacity`]: Customizes the opacity of the major gridlines.
-* [`count`]: Customizes the count of the minor gridlines.
+* `width`: Customizes the width of gridlines.
+* `dashArray`: Decides whether the gridlines have to be rendered as normal line or dashed line.
+* `visible`: Enables or disables the visibility of the gridlines.
+* `opacity`: Customizes the opacity of the major gridlines.
+* `count`: Customizes the count of the minor gridlines.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -63,9 +63,9 @@ You can customize the major and minor gridlines using the following properties:
 
 Axis line is a line in Smith chart that can be configured to denote the axis. You can customize the axis line using the following properties:
 
-* [`width`]: Customize the width of the axis line.
-* [`dashArray`]: Renders the axis line as dashed line.
-* [`visible`]: Enables or disable the visibility of the axis line.
+* `width`: Customize the width of the axis line.
+* `dashArray`: Renders the axis line as dashed line.
+* `visible`: Enables or disable the visibility of the axis line.
 
 By default, visibility of the axis line is true. You can customize its visibility by using the visible property in axis line.
 

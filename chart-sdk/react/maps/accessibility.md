@@ -90,7 +90,7 @@ The Maps component's accessibility levels are ensured using an [accessibility-ch
 
 The accessibility compliance of the Maps component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/maps.html) in a new window to evaluate the accessibility of the Maps component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/maps.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/maps/preview-sample/accessibility" %}
 
 ## See also
 
