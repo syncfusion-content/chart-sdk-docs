@@ -295,7 +295,7 @@ The numeric axis also supports custom label formats by using the `{value}` place
 
 ## Allow decimals
 
-The [`allowDecimals`](https://ej2.syncfusion.com/react/documentation/api/chart/#allowdecimals) property determines whether a numeric axis can display decimal values. The default value is `true`.
+The [`allowDecimals`](https://ej2.syncfusion.com/react/documentation/api/chart/axis#allowdecimals) property determines whether a numeric axis can display decimal values. The default value is `true`.
 
 * When `true` (default), the axis can display decimal intervals and labels when required.
 * When `false`, the axis displays only whole-number intervals and labels.
