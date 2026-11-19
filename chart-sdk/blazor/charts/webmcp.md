@@ -175,7 +175,7 @@ Each entry supports the following customizations:
 
 ```
 
-N> A misconfigured `ChartWebMcpTool` is logged and skipped instead of throwing, so a partially configured entry does not break the page. A `Command="Custom"` tool requires `Name`, `Description`, and `InputSchema`. `InputSchema` applies only to custom tools; setting it on a built-in command logs a configuration warning and skips that entry, so its `Name` and `Description` overrides are not applied either.
+N> A misconfiguration in `ChartWebMcpTool` is logged and skipped instead of throwing, so a partially configured entry does not break the page. A `Command="Custom"` tool requires `Name`, `Description`, and `InputSchema`. `InputSchema` applies only to custom tools; setting it on a built-in command logs a configuration warning and skips that entry, so its `Name` and `Description` overrides are not applied either.
 
 ### Step 4: Monitor and control tool execution
 
