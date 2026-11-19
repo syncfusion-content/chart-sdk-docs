@@ -234,11 +234,11 @@ The [`allowDecimals`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.E
 
 * When `true` (default), the axis can display decimal intervals and labels when required.
 * When `false`, the axis displays only whole-number intervals and labels.
-* This property applies only to axes whose `valueType` is `Double` (numeric). It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+* This property applies only to axes whose [`valueType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_ValueType) is `Double`. It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
 
 Use `allowDecimals="false"` when the plotted values are always whole numbers, such as counts of people, orders, tickets, or products, where labels such as 1.5 are meaningless.
 
-Set the property on an axis such as `primaryXAxis`, `primaryYAxis`, or any axis in the axes collection.
+Set the property on an axis such as [`primaryXAxis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_PrimaryXAxis), [`primaryYAxis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_PrimaryYAxis), or any axis in the axes collection.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
