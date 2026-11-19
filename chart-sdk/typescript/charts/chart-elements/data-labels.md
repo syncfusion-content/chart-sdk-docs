@@ -215,7 +215,13 @@ These relocation modes enable the Smart Data Label feature, which improves reada
 
 ## Smart Label
 
-Smart Label is a collision-aware placement mode for the data labels of Cartesian chart series. It prevents labels from overlapping each other, series markers, and the plot area boundary. Enable it by setting the [`enableSmartLabels`](../api/chart#enablesmartlabels-boolean) property to `true`. By default, it is `false`, and data labels render as usual.
+Smart Label places data labels of Cartesian series so that they do not overlap each other, the markers, or the plot area boundary. Enable it by setting the [`enableSmartLabels`](../api/chart#enablesmartlabels-boolean) property to `true`. The default value is `false`.
+
+How it works:
+
+- **Positioning**: A label stays at its default position when that position is free. Otherwise, it moves to the nearest free position around its point, within the plot area of its series. If no free position is found, the label is hidden.
+- **Label and marker detection**: A label is checked against the other data labels and the visible markers of all series.
+- **Connector line**: A relocated label that is more than 12 px away from its point is joined to the point with a connector line and an arrow pointer.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -228,108 +234,16 @@ Smart Label is a collision-aware placement mode for the data labels of Cartesian
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-data-label" %}
 
-> Note: Inject the `DataLabel` module and set `visible` to `true` in the series `dataLabel` to use Smart Label.
-
-### Supported series
-
-Smart Label applies to the following Cartesian series types:
-
-- Line, StepLine, Spline, MultiColoredLine, StackingLine, and StackingLine100
-- Area, StepArea, SplineArea, MultiColoredArea, StackingArea, StackingArea100, and StackingStepArea
-- Column, Bar, Waterfall, Histogram, and Pareto
-- Scatter and Bubble
-- BoxAndWhisker, Hilo, HiloOpenClose, and Candle
-- RangeArea, SplineRangeArea, RangeStepArea, and RangeColumn
-
-The following are not handled by Smart Label:
-
-- `StackingColumn`, `StackingColumn100`, `StackingBar`, and `StackingBar100` continue to use the `RelocateVertically` and `RelocateHorizontally` behavior described in [Handling Overlapping Data Labels](#handling-overlapping-data-labels).
-- Polar and Radar charts, accumulation charts, and template data labels.
-- Rotated labels. Smart Label ignores `enableRotation` and always renders labels at 0 degrees.
-
-> Note: When Smart Label is enabled, the `labelIntersectAction` property is ignored for the supported series. The `position` and `alignment` properties of the data label decide only the default position of the label.
-
-### How Smart Label works
-
-Smart Label places labels in two steps. First, the chart renders all series and markers. Then, it positions every label, so each label can be checked against the elements of all series, including those rendered after it.
-
-#### Label positioning
-
-Each label follows this order of priority: keep the default position, relocate if needed, and hide only as the last option.
-
-1. **Default position**: The label stays at its default position, as decided by the `position` and `alignment` properties, when that position is inside the plot area and does not overlap any other label or marker. No connector line is drawn, and the label keeps its `fill`, `border`, and `margin`.
-2. **Relocation**: If the default position is not free, the label moves to the nearest free position around its data point. The label is checked at eight candidate positions, in this order: `Outer`, `Inner`, `Right`, `Left`, `OuterRight`, `OuterLeft`, `InnerRight`, and `InnerLeft`.
-   - `Outer` is the side of the point away from the value axis origin, and `Inner` is the opposite side. The diagonal positions combine a vertical side with `Right` or `Left`. In a transposed chart, these sides rotate by 90 degrees.
-   - The distance from the point starts at 4 px and grows in steps of 2 px up to 20 px. At each distance, the first position that is inside the plot area and free from overlaps is used.
-   - A relocated label keeps the same size as it has at the default position.
-3. **Hidden**: If no free position is found, the label is not drawn. A label is never rendered over another label.
-
-The label always stays inside the plot area of its own series. In charts with multiple panes, a label never moves into another pane.
-
-> Note: Labels are placed in series order, and then in point order. When two labels compete for the same position, the label of the earlier series keeps it. To give a series priority, add it earlier in the `series` collection. The same data, chart size, and fonts always produce the same layout.
-
-#### Overlap detection with other data labels
-
-A label is treated as overlapping when its area intersects another data label. The labels considered include:
-
-- Labels of other series.
-- Labels of the stacked column and bar series, which use the legacy path.
-- Labels that Smart Label has already placed earlier.
-
-Labels with identical or very close values in multiple series share the same anchor. In this case, the labels fan out around the point in candidate order, and a label is hidden only when no free candidate exists within 20 px.
-
-#### Overlap detection with markers
-
-The label is also checked against the bounds of every visible marker, including the marker border. This applies to the markers of all series. Markers that are not visible and points that are empty or hidden do not block labels. A label cannot sit over its own marker, except when the data label `position` is `Middle`, since the label is then meant to sit on the point.
-
-> Note: Error bars, annotations, strip lines, technical indicators, and connector lines are not considered while detecting overlaps.
-
-#### Connector line
-
-When a relocated label ends up more than 12 px away from its data point, a connector line joins the label to the point, so the owner of the label remains clear.
-
-- The line starts at the edge of the label closest to the point and ends at the edge of the marker. When the point has no visible marker, it ends at the point.
-- An arrow pointer is drawn at the point end of the line. Use the `pointerShape` property to change or remove it.
-- Labels at their default position, or moved less than 12 px, do not have a connector line.
-- The connector line and pointer use the color and opacity from `connectorLineStyle`. See [Customization](#customization) for the available settings.
-
-#### Label visibility
-
-| Situation | Result |
-|---|---|
-| Default position is free | The label stays and has no connector line. |
-| Default position is not free, and a free position exists | The label moves to the nearest free position. A connector line is drawn when the gap is more than 12 px. |
-| No free position exists | The label is not drawn, and no connector line is drawn. |
-| The plot area is smaller than the label | The label is not drawn. |
-| The point is outside the visible axis range | The label is not drawn. |
-
-The `textRender` event is still raised for every label. Changes to the text, font, color, and border in this event are honored, and a changed `location` becomes the default position of the label.
-
-#### Range, Hilo, and Candle series
-
-For these series, each label always uses a fixed side, so the two labels of a point never swap.
-
-- **Range series** (RangeArea, SplineRangeArea, RangeStepArea, and RangeColumn): The upper label is placed on the top side (right side when the chart is transposed), and the lower label on the bottom side (left side when transposed). The sides swap when the y-axis is inversed.
-- **Hilo, HiloOpenClose, and Candle**: The high label uses the upper side, and the low label uses the lower side. The open and close labels use the standard search described above.
-
-The label slides along the plot area edge to stay inside the plot area.
+> Note: When Smart Label is enabled, `labelIntersectAction` is ignored, and the data label `position` decides only the default position. Stacked column and bar series continue to use the `RelocateVertically` and `RelocateHorizontally` options.
 
 ### Duplicate data labels
 
-When multiple series have points at the same location and with the same text, identical labels are drawn on top of each other. Use the [`showDuplicateLabels`](../api/chart#showduplicatelabels-boolean) property of the chart to control this behavior.
+Use the [`showDuplicateLabels`](../api/chart#showduplicatelabels-boolean) property of the chart to control labels that have the same text at the same location, such as labels of multiple series with identical values.
 
-- `true` (default) - Renders all labels, even when they share the same text and location.
-- `false` - Renders only the first label from labels that share the same text and location, and skips the others.
+- `true` (default) - Renders all the labels.
+- `false` - Renders only the first label and skips the others. The first label is decided by the series order and then the point order.
 
-Labels are compared by their formatted text and their location, rounded to whole pixels. The first label in series order, and then point order, is kept. The check runs before the `textRender` event and before Smart Label placement, so skipped labels do not raise the event.
-
-The `showDuplicateLabels` property works with or without `enableSmartLabels`.
-
-The following scenarios are supported:
-
-- Multiple line, spline, or area series with the same values at the same x-values.
-- Scatter or bubble series that share the same points.
-- Combination charts where a column and a line series show the same value at the same location.
+This property works with or without `enableSmartLabels`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -344,26 +258,15 @@ The following scenarios are supported:
 
 ### Customization
 
-Use the `smartLabelSettings` property in the series `dataLabel` to customize relocated labels and their connector lines. The settings apply only to labels that Smart Label has relocated. Labels at their default position keep the `fill`, `border`, and other settings of the `dataLabel`.
+Use the `smartLabelSettings` property in the series `dataLabel` to customize relocated labels and their connector lines. Labels at their default position keep the `dataLabel` settings.
 
-| Property | Type | Default | Description |
-|---|---|---|---|
-| `background` | `string` | `null` | Sets the background color of the relocated label. When not set, the `fill` of the `dataLabel` is used. |
-| `border` | `BorderModel` | `{}` | Sets the `color`, `width`, and `dashArray` of the border of the relocated label. When not set, the `border` of the `dataLabel` is used. |
-| `pointerShape` | `'Arrow'` \| `'None'` | `'Arrow'` | Sets the shape drawn at the point end of the connector line. `Arrow` draws a filled arrow, and `None` draws no pointer. |
-| `connectorLineStyle` | `ConnectorLineStyleModel` | `{}` | Customizes the connector line with the `color`, `width`, and `opacity` properties. |
-| `seriesOverlapAction` | `'None'` \| `'Hide'` | `'None'` | Specifies whether labels avoid series elements. See [Series overlap action](#series-overlap-action). |
-| `offset` | `number` | `0.5` | Sets the distance of the relocated label in the `RelocateVertically` mode of `labelIntersectAction`. |
+- `background` - Sets the background color of the relocated label.
+- `border` - Sets the `color`, `width`, and `dashArray` of the relocated label border.
+- `pointerShape` - Sets the pointer at the point end of the connector line. The options are `Arrow` (default) and `None`.
+- `connectorLineStyle` - Sets the `color`, `width`, and `opacity` of the connector line and pointer. Set `width` to `0` or `color` to `transparent` to hide the line.
+- `seriesOverlapAction` - Specifies whether labels avoid series elements. See [Series overlap action](#series-overlap-action).
 
-The `connectorLineStyle` property has the following settings:
-
-- `color` - Sets the color of the connector line and the pointer. When not set, the border color of the label is used if the border width is greater than 0, and otherwise the font color of the theme is used.
-- `width` - Sets the width of the connector line. The default value is 1.
-- `opacity` - Sets the opacity of the connector line and the pointer. The default value is 1.
-
-Set `width` to `0` or `color` to `'transparent'` to hide the connector line.
-
-> Note: The `offset` property is not applicable when Smart Label is enabled. Smart Label automatically determines the final position of each label to avoid overlaps. The `offset` property applies only when `labelIntersectAction` is set to `RelocateVertically` for the stacked column and bar series.
+> Note: The `offset` property is not applicable when Smart Label is enabled, because Smart Label automatically determines the final label position to avoid overlaps.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -378,23 +281,12 @@ Set `width` to `0` or `color` to `'transparent'` to hide the connector line.
 
 ### Series overlap action
 
-By default, Smart Label avoids only other labels and markers, so a label can sit over the line, area, column, or bar of a series. Use the `seriesOverlapAction` property in `smartLabelSettings` to control this behavior for each series.
+Use the `seriesOverlapAction` property in `smartLabelSettings` to specify whether labels can overlap the series elements, such as lines, areas, columns, bars, and trendlines.
 
-- `None` (default) - Labels can be placed over series elements. The series elements are not considered, which keeps the placement fast.
-- `Hide` - Labels also avoid the elements of all visible series and the trendlines. If a label has any free position, it moves there instead of being hidden. It is hidden only when no free position is available.
+- `None` (default) - Labels avoid only other labels and markers, so they can be placed over series elements.
+- `Hide` - Labels also avoid the elements of all visible series. A label moves to a free position if one exists, and is hidden only when none is available.
 
-When `Hide` is used, the following elements act as obstacles for a label:
-
-| Series type | Obstacle |
-|---|---|
-| Column, Bar, Waterfall, Histogram, Pareto, Bubble, Candle, and BoxAndWhisker | The bounds of each point of the other series. The own column, bar, bubble, candle, or box of the label is not an obstacle. |
-| Line, Spline, StepLine, MultiColoredLine, and stacking line types | The rendered line, including the line of its own series. |
-| Area types | The filled area of other series, and the outline of every area, including its own. The own area fill of the label is not an obstacle. |
-| Trendlines | The rendered trendline paths. |
-
-When labels from different series overlap, the label of the earlier series keeps its position, and the labels of later series move around it. A label that is moved away from its point is joined to the point by a connector line.
-
-> Note: Series elements are detected from the rendered SVG paths. In canvas rendering mode, `Hide` behaves like `None`.
+> Note: In canvas rendering mode, `Hide` behaves like `None`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
