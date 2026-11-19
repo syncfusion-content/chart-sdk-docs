@@ -79,6 +79,5 @@ The available chart modules are:
 | [`Highlight`](./selection)| Inject this module to use the highlight feature.|
 | [`Export`](./api-exportUtils)| Inject this module to use the export feature.|
 | [`MultiLevelLabel`](./api-multiLevelLabel)| Inject this module to use the multi level label feature.|
-| [`WebMcpChart`](https://ej2.syncfusion.com/documentation/api/chart/chartwebmcpsettings)| Inject this module to use the WebMCP feature for AI agent tool integration.|
 
 These modules should be injected into the chart using the `Chart.Inject` method or into a standalone component that requires the feature.
