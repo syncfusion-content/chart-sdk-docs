@@ -200,7 +200,7 @@ The `RelocateVertically` and `RelocateHorizontally` options are supported only f
 - `StackingBar`
 - `StackingBar100`
 
-These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+These relocation modes improve readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`. Note that the `seriesOverlapAction` property in `smartLabelSettings` is not applicable for `RelocateVertically` and `RelocateHorizontally`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
