@@ -2,9 +2,8 @@
 
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { AxisModel, ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, DataLabel
-         Legend, StackingStepAreaSeries}
-from'@syncfusion/ej2-react-charts';
+import { AxisModel, ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, DataLabel,
+         Legend, StackingStepAreaSeries } from'@syncfusion/ej2-react-charts';
 import { stepAreaData } from './datasource';
 
 function App() {

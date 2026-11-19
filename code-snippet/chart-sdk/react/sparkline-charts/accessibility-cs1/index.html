@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Syncfusion React Sparkline - Accessibility</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Essential JS 2 for React Components" />
+    <meta name="author" content="Syncfusion" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.38/system.js"></script>
+    <script src="systemjs.config.js"></script>
+     <style>
+        #loader {
+            color: #008cff;
+            height: 40px;
+            left: 45%;
+            position: absolute;
+            top: 45%;
+            width: 30%;
+        }
+        .spark-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .spark-panel {
+            text-align: center;
+        }
+        .spark-panel div {
+            width: 170px;
+            height: 100px;
+        }
+        .spark-label {
+            font-family: "Segoe UI";
+            font-weight: 500;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="spark-container">
+        <div class="spark-panel">
+            <div class="spark-label">DateTime</div>
+            <div id="datetime"></div>
+        </div>
+        <div class="spark-panel">
+            <div class="spark-label">Category</div>
+            <div id="category"></div>
+        </div>
+        <div class="spark-panel">
+            <div class="spark-label">Numeric</div>
+            <div id="numeric"></div>
+        </div>
+    </div>
+    <div id='loader'>Loading....</div>
+</body>
+</html>
