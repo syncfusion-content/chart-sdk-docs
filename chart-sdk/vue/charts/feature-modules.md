@@ -79,7 +79,6 @@ The available chart modules are
 | [`Highlight`](https://ej2.syncfusion.com/vue/documentation/api/chart/highlight)| Inject this module to use the highlight feature.|
 | [`Export`](https://ej2.syncfusion.com/vue/documentation/api/chart/export)| Inject this module to use the export feature.|
 | [`MultiLevelLabel`](https://helpej2.syncfusion.com/vue/documentation/api/chart/multiLevelLabels)| Inject this module to use the multi level label feature.|
-| [`WebMcpChart`](https://ej2.syncfusion.com/vue/documentation/api/chart/chartwebmcpsettings)| Inject this module to use the WebMCP feature for AI agent tool integration.|
 
 These modules should be injected into the `provide` section and use `chart` as a key of the object.
 
