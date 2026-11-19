@@ -123,6 +123,6 @@ Set the property directly on the Range Navigator component.
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/allow-decimals/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/allow-decimals/orders.cs %}
+{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/allow-decimals/orders.cs %}
 {% endhighlight %}
 {% endtabs %}
