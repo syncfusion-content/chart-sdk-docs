@@ -225,14 +225,14 @@ How it works:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/charts/smart-data-label/index.ts %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/charts/smart-data-label/index.html %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-data-label" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-label" %}
 
 > Note: When Smart Label is enabled, `labelIntersectAction` is ignored, and the data label `position` decides only the default position. Stacked column and bar series continue to use the `RelocateVertically` and `RelocateHorizontally` options.
 
@@ -247,14 +247,14 @@ This property works with or without `enableSmartLabels`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/charts/smart-data-label/index.ts %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-duplicate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/charts/smart-data-label/index.html %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-duplicate/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-data-label" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-label-duplicate" %}
 
 ### Customization
 
@@ -270,14 +270,14 @@ Use the `smartLabelSettings` property in the series `dataLabel` to customize rel
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/charts/smart-data-label/index.ts %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-customization/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/charts/smart-data-label/index.html %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-customization/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-data-label" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-label-customization" %}
 
 ### Series overlap action
 
@@ -290,14 +290,14 @@ Use the `seriesOverlapAction` property in `smartLabelSettings` to specify whethe
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/charts/smart-data-label/index.ts %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-series-overlap/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/charts/smart-data-label/index.html %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-series-overlap/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-data-label" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-label-series-overlap" %}
 
 ## Customizing Specific Point
 
