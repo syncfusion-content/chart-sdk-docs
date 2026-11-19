@@ -19,14 +19,14 @@ The Sparkline provides additional information through a tooltip that appears on 
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/chart-sdk/react/sparkline-charts/code-path/getting-started-cs3/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/sparkline-charts/user-interaction-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/chart-sdk/react/sparkline-charts/code-path/getting-started-cs3/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/sparkline-charts/user-interaction-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/sparkline-charts/code-path/getting-started-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/sparkline-charts/user-interaction-cs1" %}
 
 ### Tooltip customization
 
@@ -43,7 +43,7 @@ The fill color, text styles, format, and border of the tooltip can be customized
 
  {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/sparkline-charts/user-interaction-cs2" %}
 
- ### Inline tooltip formatting
+### Inline tooltip formatting
 
 The tooltip content can be formatted directly within the [`format`] property by adding DateTime or number format specifiers to supported tooltip tokens. This allows you to control how point and series values are displayed without using additional events.
 

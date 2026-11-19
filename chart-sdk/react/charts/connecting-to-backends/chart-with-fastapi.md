@@ -380,9 +380,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './App.css';
 
-// Syncfusion Chart theme style
-import '@syncfusion/ej2-react-charts/styles/material.css';
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

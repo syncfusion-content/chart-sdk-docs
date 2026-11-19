@@ -20,13 +20,19 @@ function App() {
       '</div>'
   };
   const handleLegendRender = (args) => {
-    const matchedSeries = args.chart?.series?.filter((s) => s.name === args.text)[0];
+    let matchedSeries = null;
+    if (args.chart && args.chart.series) {
+        matchedSeries = args.chart.series.filter(
+            function (series) {
+                return series.name === args.text;
+            }
+        )[0];
+    }
     const opacity = matchedSeries && matchedSeries.visible === false ? '0.5' : '1';
-    args.template = args.template
-      .replace('opacity:1;', `opacity:${opacity};`)
-      .replace('src=""', `src="${legendIcons[args.text] || ''}"`)
-      .replace('color:;', `color:${args.fill};`)
-      .replace('></span>', `>${args.text}</span>`);
+    args.template = args.template.replace('opacity:1;', 'opacity:' + opacity + ';')
+        .replace('src=""', 'src="' + (legendIcons[args.text] || '') + '"')
+        .replace('color:;', 'color:' + args.fill + ';')
+        .replace('</span>', args.text + '</span>');
   };
   return <ChartComponent id='charts' primaryXAxis={primaryxAxis} primaryYAxis={primaryyAxis} chartArea={chartArea} legendSettings={legendSettings} legendRender={handleLegendRender} tooltip={{ enable: true }} title='Top 3 Countries by Coal Production (2022–2024)'>
     <Inject services={[ColumnSeries, Category, Legend, Tooltip, DataLabel]} />

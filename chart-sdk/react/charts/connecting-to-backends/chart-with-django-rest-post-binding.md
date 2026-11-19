@@ -548,7 +548,7 @@ const chartQuery = new Query()
 Open `frontend/src/App.tsx` and replace the content with the following chart component.
 
 **`frontend/src/App.tsx`**
-
+{% raw %}
 ```
 import React from "react";
 
@@ -656,6 +656,7 @@ const App: React.FC = () => {
 
 export default App;
 ```
+{% endraw %}
 
 **`frontend/src/main.tsx`**
 

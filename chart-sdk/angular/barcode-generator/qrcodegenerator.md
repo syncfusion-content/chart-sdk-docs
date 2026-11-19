@@ -28,7 +28,7 @@ A QR Code is a two-dimensional barcode that consists of a grid of dark and light
 
 ## Customizing QR Code Colors
 
-A page or printed media with QR codes often appears colorful in the background and surrounding region with other contents. In such cases, the QR code can be customized to suit the design requirements. The foreground color of the QR code can be changed using the [`foreColor`](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel/#forecolor) property.
+A page or printed media with QR codes often appears colorful in the background and surrounding region with other contents. In such cases, the QR code can be customized to suit the design requirements. The foreground color of the QR code can be changed using the [`foreColor`](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#forecolor) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -44,7 +44,7 @@ A page or printed media with QR codes often appears colorful in the background a
 
 ## Customizing QR Code Dimensions
 
-The dimensions of the QR code can be changed using the [`height`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogoModel/#height) and [`width`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogoModel/#width) properties of the QR code generator. These properties allow precise control over the QR code size to fit various design layouts and printing requirements.
+The dimensions of the QR code can be changed using the [`height`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogoModel#height) and [`width`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogoModel#width) properties of the QR code generator. These properties allow precise control over the QR code size to fit various design layouts and printing requirements.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -60,7 +60,7 @@ The dimensions of the QR code can be changed using the [`height`](https://ej2.sy
 
 ## Customizing Display Text
 
-In QR code generators, the display text shown below the QR code can be customized using the  [`displayText`](https://ej2.syncfusion.com/angular/documentation/api/barcode/displayText/#displaytext) property. This allows for user-friendly labels or alternative text representations of the encoded data.
+In QR code generators, the display text shown below the QR code can be customized using the  [`displayText`](https://ej2.syncfusion.com/angular/documentation/api/barcode/displayText#displaytext) property. This allows for user-friendly labels or alternative text representations of the encoded data.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -74,13 +74,53 @@ In QR code generators, the display text shown below the QR code can be customize
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/text-cs1" %}
 
+## GS1 QR Code
+
+GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
+
+Use the [`enableGS1`](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#enablegs1) property on the [`QRCodeGenerator`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeGenerator) to switch the control into GS1 mode.
+
+**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1-cs1" %}
+
+![GS1 QR Code](images/Gs1-QrCode.png)
+
+### GS1 QR Code with Error Correction
+
+Combining GS1 encoding with error correction levels:
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1errorcorrection-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1errorcorrection-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/qrcodegs1errorcorrection-cs1" %}
+
+This configuration provides robust scanning even with partial damage to the QR code.
+
 ## Enhancing QR Codes with Logos
 
-The Angular Barcode Generator enables adding a [`logo`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo/#qrcodelogo/) or icon to QR codes, enhancing their visual appeal, brand recognition, and authenticity. Adding a recognizable logo can make it easier for users to identify the source and can help establish trust and brand presence.
+The Angular Barcode Generator enables adding a [`logo`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo#qrcodelogo) or icon to QR codes, enhancing their visual appeal, brand recognition, and authenticity. Adding a recognizable logo can make it easier for users to identify the source and can help establish trust and brand presence.
 
 ### Supported Image Sources
  
-The [`imageSource`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo/#imagesource) property of the `QRCodeLogo` class supports the following image sources:
+The [`imageSource`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo#imagesource) property of the `QRCodeLogo` class supports the following image sources:
  
 - **Local image path**: Specify the path to the image file relative to the project's root directory (e.g., `images/syncfusion.png`) or as an absolute path (e.g., `/assets/icons/logo.svg`).
 - **Remote image URL**: Provide the web address of the image file (e.g., `https://example.com/image.jpg`).
@@ -88,9 +128,9 @@ The [`imageSource`](https://ej2.syncfusion.com/angular/documentation/api/barcode
 
 ### Logo Dimensions and Guidelines
  
-The [`width`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo/#width) and [`height`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo/#height) properties of the `QRCodeLogo` class define the dimensions of the logo in pixels. If not specified, both default to 30% of the QR code's size. The maximum allowed size is 30% of the QR code's dimensions to ensure optimal readability and successful scanning.
+The [`width`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo#width) and [`height`](https://ej2.syncfusion.com/angular/documentation/api/barcode/qRCodeLogo#height) properties of the `QRCodeLogo` class define the dimensions of the logo in pixels. If not specified, both default to 30% of the QR code's size. The maximum allowed size is 30% of the QR code's dimensions to ensure optimal readability and successful scanning.
 
-**Important:** Always test the readability of QR codes after adding a logo. Depending on the logo size and QR code content complexity, it may be necessary to adjust the [`errorCorrectionLevel`](https://ej2.syncfusion.com/angular/documentation/api/barcode/errorCorrectionLevel/) property of the `QRCodeGenerator` to `"Medium"` or `"High"` for better reliability and error recovery.
+**Important:** Always test the readability of QR codes after adding a logo. Depending on the logo size and QR code content complexity, it may be necessary to adjust the [`errorCorrectionLevel`](https://ej2.syncfusion.com/angular/documentation/api/barcode/errorCorrectionLevel) property of the `QRCodeGenerator` to `"Medium"` or `"High"` for better reliability and error recovery.
 
 The following image illustrates a QR code with logo:
 

@@ -99,6 +99,7 @@ In an ES5 (script-tag) setup, the modules are part of the global `ej.charts` nam
 
 | Module | Description |
 |------|-------------|
+| [`WebMcpChart`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartwebmcpsettings)| Inject this module to use the WebMCP feature for AI agent tool integration.|
 | [`StripLine`](https://ej2.syncfusion.com/javascript/documentation/api/chart/stripLine) | Inject this module to use the strip line feature. |
 | [`Trendlines`](https://ej2.syncfusion.com/javascript/documentation/api/chart/index-default#trendlinemodule) | Inject this module to use the trendline feature. |
 | [`DataLabel`](https://ej2.syncfusion.com/javascript/documentation/api/chart/dataLabel) | Inject this module to use the data label feature on series points. |

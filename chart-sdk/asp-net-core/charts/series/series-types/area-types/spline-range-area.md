@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Spline Range Area Chart in ASP.NET Core Charts
 
-## Spline Range Area
+## Overview
 
 To render a [spline range area](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/spline-range-area-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -84,7 +83,7 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 
 **Border**
 
-Use the `border` property to customize the width, color and dasharray of the series border.
+Use the `border` property to customize the width, color and dash array of the series border.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

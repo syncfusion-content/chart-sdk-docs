@@ -7,8 +7,8 @@ function App() {
     const legendClickHandler = (args) => {
         console.log('legendClick:', {
             legendText: args.legendText,
-            seriesIndex: args.series?.index,
-            isVisible: args.series?.visible
+            seriesIndex: args.series? args.series.index: null,
+            isVisible: args.series? args.series.visible: null
         });
     }
 

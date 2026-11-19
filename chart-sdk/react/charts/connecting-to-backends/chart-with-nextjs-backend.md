@@ -507,15 +507,11 @@ export default function HomePage() {
 
 ## Step 8: Update the global styles
 
-The default `src/app/globals.css` file works for this sample. The Syncfusion theme CSS imports are intentionally left commented out so the sample stays minimal:
+The default `src/app/globals.css` file works for this sample.
 
 **File: `src/app/globals.css`**
 
 ```
-/* @import '../../node_modules/@syncfusion/ej2-base/styles/material.css';
-@import '../../node_modules/@syncfusion/ej2-buttons/styles/material.css';
-@import '../../node_modules/@syncfusion/ej2-popups/styles/material.css';
-@import '../../node_modules/@syncfusion/ej2-react-charts/styles/material.css'; */
 
 * {
   box-sizing: border-box;
@@ -671,13 +667,6 @@ li {
 ```
 
 If you want to apply a Syncfusion theme, uncomment the `@import` lines at the top of the file. The recommended approach in Next.js 13+ App Router is to import the theme CSS once in `src/app/layout.tsx`, for example:
-
-```
-import '@syncfusion/ej2-base/styles/material.css';
-import '@syncfusion/ej2-react-charts/styles/material.css';
-```
-
----
 
 ## How to run the application
 

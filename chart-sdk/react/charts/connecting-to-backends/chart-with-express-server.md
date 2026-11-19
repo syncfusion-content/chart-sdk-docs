@@ -847,31 +847,11 @@ export default App;
 
 ---
 
-### Frontend Step 7: Import Syncfusion Chart theme CSS
-
-Syncfusion React Chart depends on a bundled style sheet. Import the CSS in `ChartClient/src/index.css` so it is loaded once for the app.
-
-Open the following file:
-
-```
-ChartClient/src/index.css
-```
-
-Replace the content with the following code:
-
-```
-@import '@syncfusion/ej2-react-charts/styles/material.css';
-
-#root {
-  width: 100%;
-}
-```
-
-> Replace `material.css` with another available theme (`bootstrap5.css`, `tailwind.css`, `fabric.css`, etc.) if your design requires it. Themes are listed at `node_modules/@syncfusion/ej2-react-charts/styles/`.
+> Replace `material.css` with another available theme (`bootstrap5.css`, `tailwind.css`, `fabric.css`, etc.) if your design requires it.
 
 ---
 
-### Frontend Step 8: Update the application entry file
+### Frontend Step 7: Update the application entry file
 
 Open the following file:
 
@@ -896,7 +876,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
 ---
 
-### Frontend Step 9: Verify the dev server starts
+### Frontend Step 8: Verify the dev server starts
 
 After running `npm run dev`, Vite reports the local URL. By default it is:
 
