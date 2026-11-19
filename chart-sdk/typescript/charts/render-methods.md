@@ -9,28 +9,79 @@ domainurl: https://help.syncfusion.com/chart-sdk
 appliesto: UI Component Suite, Chart SDK
 ---
 
-<!-- markdownlint-disable MD036 -->
-
 # Rendering methods in TypeScript Charts
 
-Chart uses following two rendering methods.
+The Chart supports the following rendering methods:
 
-* SVG
-* Canvas
+- SVG
+- Canvas
+
+SVG is the default rendering method. Use Canvas when the application needs to plot a large number of data points or perform high-frequency live updates.
 
 ## SVG
 
-SVG is used to render the Chart by default for all browsers except IE8 and older versions.
+SVG is used to render the Chart by default in modern browsers. It provides full support for Chart features such as animation, accessibility, interactivity, printing, and exporting.
+
+No additional configuration is required to use SVG rendering.
 
 ## Canvas
 
-Switch between SVG and Canvas rendering by using the `enableCanvas` option. The canvas mode is useful in the following scenarios:
+Set the [`enableCanvas`](https://ej2.syncfusion.com/javascript/documentation/api/chart/chartmodel#enablecanvas) property to `true` to render the Chart using Canvas. The property accepts a Boolean value and defaults to `false`.
 
-* Plotting large number of data points.
-* Performing high frequency live updates.
+Canvas rendering is useful in the following scenarios:
 
-**Limitations**
+- Plotting a large number of data points.
+- Performing high-frequency live updates.
 
-- Animation is not supported in canvas mode.
+```javascript
+var chartData = [
+    { x: 1, y: 10 },
+    { x: 2, y: 15 },
+    { x: 3, y: 12 },
+    { x: 4, y: 18 },
+    { x: 5, y: 16 }
+];
+var chart = new ej.charts.Chart({
+    enableCanvas: true,
+    primaryXAxis: {
+        valueType: 'Double',
+        title: 'Index'
+    },
+    primaryYAxis: {
+        title: 'Value'
+    },
+    series: [{
+        dataSource: chartData,
+        xName: 'x',
+        yName: 'y',
+        type: 'Line'
+    }],
+    title: 'Canvas Rendering'
+}, '#element');
+```
 
-> Note: Canvas rendering improves performance for very large datasets or high-frequency updates but may limit certain SVG-specific features.
+### Limitations
+
+- Series animation is not supported in Canvas mode.
+- Print and export quality can be lower than SVG when the Canvas is very large.
+- Some SVG-specific accessibility hooks and events might not be available in Canvas mode.
+
+> **Note:** Canvas rendering can improve performance for large datasets and frequent updates, but it can limit features that depend on individual SVG elements.
+
+## SVG and Canvas comparison
+
+| Feature | SVG | Canvas |
+|---|---|---|
+| Default rendering method | Yes | No |
+| Series animation | Supported | Not supported |
+| Large dataset performance | Moderate | High |
+| High-frequency updates | Moderate | High |
+| Print and export quality | High | Moderate for very large canvases |
+| Accessibility | Full | Limited |
+
+## See also
+
+- [Getting started with JavaScript Charts](./getting-started)
+- [Appearance in JavaScript Charts](./appearance)
+- [Print and export in JavaScript Charts](./chart-print)
+- [Feature modules in JavaScript Charts](./feature-modules)
