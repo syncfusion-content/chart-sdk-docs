@@ -122,7 +122,7 @@ Set the property directly on the Range Navigator component.
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/allow-decimals/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
+{% highlight c# tabtitle="Orders.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/allow-decimals/orders.cs %}
 {% endhighlight %}
 {% endtabs %}
