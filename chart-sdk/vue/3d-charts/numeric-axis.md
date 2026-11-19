@@ -241,7 +241,7 @@ The [`allowDecimals`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/c
 * When `false`, the axis displays only whole-number intervals and labels.
 * This property applies only to axes whose [`valueType`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/chart3daxis#valuetype) is `Double`. It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
 
-Use `allowDecimals: false` when the plotted values are always whole numbers, such as counts of people, orders, tickets, or products, where labels such as 1.5 are meaningless.
+Use `allowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
 
 Set the property on an axis such as [`primaryXAxis`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/index-default#primaryxaxis), [`primaryYAxis`](https://ej2.syncfusion.com/vue/documentation/api/chart3d/index-default#primaryyaxis), or any axis in the axes collection.
 
