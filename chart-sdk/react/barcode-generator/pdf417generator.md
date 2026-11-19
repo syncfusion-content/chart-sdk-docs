@@ -126,6 +126,7 @@ ReactDOM.render(
 
 ### Display text customization
 
+{% raw %}
 ```typescript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -145,7 +146,7 @@ ReactDOM.render(
   />,
   document.getElementById('element')
 );
-```
+```{% endraw %}
 
 ### Background and foreground color customization
 
@@ -169,6 +170,7 @@ ReactDOM.render(
 
 ### Margin customization
 
+{% raw %}
 ```typescript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -185,6 +187,7 @@ ReactDOM.render(
   document.getElementById('element')
 );
 ```
+{% endraw %}
 
 ## PDF417-specific samples
 
@@ -530,7 +533,7 @@ The component sets `role="img"` and generates an `aria-label` for the barcode el
 
 Use the Syncfusion `L10n` framework to localize the screen reader label and validation messages. Set the component locale to the matching culture:
 
-```tsx
+```typescript
 import * as React from 'react';
 import { L10n } from '@syncfusion/ej2-base';
 import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';

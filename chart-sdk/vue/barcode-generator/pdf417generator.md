@@ -795,7 +795,7 @@ export class AppComponent { }
 
 ### React
 
-```tsx
+```typescript
 import * as React from 'react';
 import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
 
