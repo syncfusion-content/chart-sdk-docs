@@ -74,7 +74,7 @@ The PDF417 Generator supports the following rendering modes through the `mode` p
 
 | Mode | Description |
 |---|---|
-| `SVG` | Renders the barcode as vector graphics. Recommended for most applications because it scales without losing quality. |
+| `SVG` | Renders the barcode as vector graphics. |
 | `Canvas` | Renders the barcode to an HTML5 canvas. Useful for bitmap-based workflows and custom canvas processing. |
 
 ### SVG Mode (Default)
@@ -126,8 +126,6 @@ For most scenarios, use the default `Auto` mode. It automatically selects the mo
 | `Numeric` | Optimized for numeric values. | Tracking numbers and identifiers. |
 | `Byte` | Encodes binary and non-ASCII data. | International text and binary content. |
 
-**Recommendation:** Use `Auto` unless the barcode contains only one type of content and you want to enforce a specific encoding mode.
-
 If the selected compaction mode contains unsupported characters, the barcode is not generated and the `invalid` event is triggered.
 
 {% tabs %}
@@ -149,12 +147,10 @@ Higher error correction levels improve reliability but increase barcode size.
 
 | Level | Usage |
 |---|---|
-| `Auto` | Automatically selects an appropriate level. Recommended. |
+| `Auto` | Automatically selects an appropriate level. |
 | `Level0` - `Level2` | Suitable for clean printing environments. |
 | `Level3` - `Level5` | Suitable for shipping labels and general business applications. |
 | `Level6` - `Level8` | Suitable for harsh environments where barcode damage is more likely. |
-
-**Recommendation:** Use `Auto` for most applications.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -199,8 +195,6 @@ Enable compact mode through the `isCompact` property:
 | Better scanner compatibility | Saves horizontal space |
 | Recommended for most applications | Useful when label width is limited |
 
-**Recommendation:** Use standard PDF417 unless space constraints require a more compact barcode.
-
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
 {% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/iscompact-cs1/src/app.component.ts %}
@@ -222,8 +216,6 @@ You can specify fixed values when a particular barcode layout is required.
 |---|---|
 | `rows` | 3 to 90 |
 | `columns` | 1 to 30 |
-
-**Recommendation:** Leave both properties at their default values unless your application requires a specific barcode shape.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -368,7 +360,7 @@ Download the barcode as a PNG or JPG image using the `exportImage` method:
 
 | Supported Format | Description |
 |---|---|
-| `'PNG'` | Lossless image format, recommended for high quality. |
+| `'PNG'` | Lossless image format. |
 | `'JPG'` | Compressed image format with smaller file size. |
 
 ```typescript
