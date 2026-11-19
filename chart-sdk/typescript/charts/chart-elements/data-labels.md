@@ -219,7 +219,7 @@ Smart Label places data labels of Cartesian series so that they do not overlap e
 
 How it works:
 
-- **Positioning**: A label stays at its default position when that position is free. Otherwise, it moves to the nearest free position around its point, within the plot area of its series. If no free position is found, the label is hidden.
+- **Positioning**: A label stays at its default position when that position is free. Otherwise, the label is checked around its point at the top, right, bottom, and left positions, and then at the diagonal positions. The first position that is inside the plot area of its series and does not overlap any other label or marker is used. For example, if the top and right positions collide with other labels, the label is placed at the bottom when there is enough space. If no free position is found, the label is hidden.
 - **Label and marker detection**: A label is checked against the other data labels and the visible markers of all series.
 - **Connector line**: A relocated label that is more than 12 px away from its point is joined to the point with a connector line and an arrow pointer.
 
