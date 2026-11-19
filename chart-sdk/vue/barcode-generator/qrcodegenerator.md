@@ -70,14 +70,51 @@ In barcode generators You can customize the barcode text by using display text p
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/qrcode/text-cs1" %}
 
+## GS1 QR Code
+
+GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
+
+Use the [`enableGS1`](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeGenerator#enablegs1) property on the [`BarcodeGenerator`](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeGenerator) to switch the control into GS1 mode.
+
+**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/qrcode/qrcodeugs1-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/qrcode/qrcodeugs1-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/qrcode/qrcodeugs1-cs1" %}
+
+![GS1 QR Code](images/Gs1-QrCode.png)
+
+### GS1 QR Code with Error Correction
+
+Combining GS1 encoding with error correction levels:
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/qrcode/qrcodeugs1errorcorrection-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/qrcode/qrcodeugs1errorcorrection-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/qrcode/qrcodeugs1errorcorrection-cs1" %}
+
+This configuration provides robust scanning even with partial damage to the QR code.
+
 ## Enhancing QR Codes with Icons
 
-
-The EJ2 Barcode Generator now lets you add a [`logo`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRCodeLogo/) or icon to your QR codes, boosting their visual appeal, clarity, and even security. Adding a recognizable icon can make it easier for users to identify the source and can help prevent tampering .
+The EJ2 Barcode Generator now lets you add a [`logo`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRCodeLogo) or icon to your QR codes, boosting their visual appeal, clarity, and even security. Adding a recognizable icon can make it easier for users to identify the source and can help prevent tampering .
 
 ### Supported Image Sources
  
-The [`imageSource`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRCodeLogo/#imagesource) property of the `QRCodeLogo` class supports the following image sources:
+The [`imageSource`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRCodeLogo#imagesource) property of the `QRCodeLogo` class supports the following image sources:
  
 - **Local image path**: Specify the path to the image file relative to your project's root directory (e.g., `images/syncfusion.png`) or as an absolute path (e.g., `/assets/icons/logo.svg`).
 - **Remote image URL**: Provide the web address of the image file (e.g., `https://example.com/image.jpg`).
@@ -85,9 +122,9 @@ The [`imageSource`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRC
 
 ### Logo Dimensions
  
-The [`width`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRCodeLogo/#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRCodeLogo/#height) properties of the `QRCodeLogo` class define the dimensions of the logo in pixels. If not specified, both default to 30% of the QR code’s size. The maximum allowed size is 30% of the QR code’s dimensions to ensure optimal readability.
+The [`width`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRCodeLogo#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/barcode/qRCodeLogo#height) properties of the `QRCodeLogo` class define the dimensions of the logo in pixels. If not specified, both default to 30% of the QR code’s size. The maximum allowed size is 30% of the QR code’s dimensions to ensure optimal readability.
 
-**Note:** Always test the readability of your QR code after adding a logo. Depending on the logo size and QR code content, you might need to adjust the [`errorCorrectionLevel`](https://ej2.syncfusion.com/vue/documentation/api/barcode/errorCorrectionLevel/) property of the `QRCodeGenerator` to `"Medium"` or `"High"` for better reliability.
+**Note:** Always test the readability of your QR code after adding a logo. Depending on the logo size and QR code content, you might need to adjust the [`errorCorrectionLevel`](https://ej2.syncfusion.com/vue/documentation/api/barcode/errorCorrectionLevel) property of the `QRCodeGenerator` to `"Medium"` or `"High"` for better reliability.
 
 The following image illustrates QR code with logo:
 

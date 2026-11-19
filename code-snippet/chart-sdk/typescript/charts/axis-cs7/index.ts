@@ -1,26 +1,49 @@
+import {
+    Chart,
+    ColumnSeries,
+    Category,
+    MultiLevelLabel
+} from '@syncfusion/ej2-charts';
 
-
-
-import { Chart, ColumnSeries, Category, MultiLevelLabel } from '@syncfusion/ej2-charts';
-import { categoryData, MultiLevelLabel } from './datasource.ts';
 Chart.Inject(ColumnSeries, Category, MultiLevelLabel);
 
 let chart: Chart = new Chart({
     primaryXAxis: {
         valueType: 'Category',
-           multiLevelLabels:[{
-               categories: [{start: -0.5, end: 3.5, text: 'Half Yearly 1' },
-                        { start: 3.5, end: 7.5, text: 'Half Yearly 2' }],
-                alignment :'Far'
-           }]
+        // Multilevel labels with alignment
+        multiLevelLabels: [{
+            alignment: 'Center',
+            categories: [
+                { start: 0, end: 2, text: '2014-2016' },
+                { start: 3, end: 5, text: '2017-2019' },
+                { start: 6, end: 7, text: '2020-2021' }
+            ]
+        }],
+        title: 'Year'
     },
-    series:[{
-        dataSource: categoryData,
-        xName: 'country', yName: 'gold',
+    primaryYAxis: {
+        minimum: 0,
+        maximum: 50,
+        interval: 10,
+        title: 'Sales in Percentage'
+    },
+    series: [{
+        dataSource: [
+            { x: '2014', y: 21.5 },
+            { x: '2015', y: 24 },
+            { x: '2016', y: 36.5 },
+            { x: '2017', y: 30.4 },
+            { x: '2018', y: 29.3 },
+            { x: '2019', y: 41.4 },
+            { x: '2020', y: 35 },
+            { x: '2021', y: 42.4 }
+        ],
+        xName: 'x',
+        yName: 'y',
+        name: 'Sales',
         type: 'Column'
     }],
-
+    title: 'Multilevel Labels - Alignment'
 }, '#element');
 
-
-
+chart.appendTo('#element');

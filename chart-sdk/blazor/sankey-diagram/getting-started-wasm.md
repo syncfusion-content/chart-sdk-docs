@@ -12,7 +12,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Getting Started with Blazor Sankey Diagram in WASM App
 
-This section briefly explains how to include the [Blazor Sankey Diagram](https://www.syncfusion.com/blazor-components/blazor-sankey) in a Blazor WASM App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
+This section briefly explains how to include the [Blazor Sankey Diagram](https://www.syncfusion.com/blazor-components/blazor-sankey-diagram) in a Blazor WASM App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 
 ## Create a new Blazor WebAssembly App
 
@@ -154,7 +154,7 @@ The script can be accessed from NuGet through [Static Web Assets](https://blazor
 
 ## Add Blazor Sankey Diagram component
 
-Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Sankey Diagram](https://www.syncfusion.com/blazor-components/blazor-sankey) component inside the razor file.
+Open a Razor file located in the **~/Pages/*.razor** (for example, **Home.razor**) and add the [Blazor Sankey Diagram](https://www.syncfusion.com/blazor-components/blazor-sankey-diagram) component inside the razor file.
 
 {% tabs %}
 {% highlight razor tabtitle="Home.razor" %}
@@ -385,4 +385,4 @@ You can use legend for the Sankey diagram by setting the `Visible` property to *
 
 1. [Getting Started with Blazor Web App](https://blazor.syncfusion.com/documentation/getting-started/blazor-web-app)
 2. [Getting Started with Blazor Server App](https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-visual-studio)
-3. [Getting Started with Tooltip in Blazor Sankey](https://blazor.syncfusion.com/documentation/sankey/tooltip)
+3. [Getting Started with Tooltip in Blazor Sankey](https://help.syncfusion.com/chart-sdk/blazor/sankey-diagram/tooltip)

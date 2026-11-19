@@ -383,12 +383,12 @@ To get started quickly with designing a Blazor Dashboard Layout with UI Componen
 {% youtube
 "youtube:https://www.youtube.com/watch?v=KOetW4f6_v4" %}
 
-By default, the Dashboard Layout component is rendered with auto-adjustable and [responsive](https://blazor.syncfusion.com/documentation/dashboard-layout/responsive-adaptive) panels according to the parent dimensions.
+By default, the Dashboard Layout component is rendered with auto-adjustable and [responsive](https://help.syncfusion.com/chart-sdk/blazor/dashboard-layout/responsive-adaptive) panels according to the parent dimensions.
 
 ## See also
 
 * [Getting Started with Blazor for Client-Side in .NET Core CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app)
 
-* [Getting Started with Blazor for Client-Side in Visual Studio](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-visual-studio)
+* [Getting Started with Blazor for Client-Side in Visual Studio](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app)
 
 * [Getting Started with Blazor for Server-Side in .NET Core CLI](https://blazor.syncfusion.com/documentation/getting-started/blazor-web-app)

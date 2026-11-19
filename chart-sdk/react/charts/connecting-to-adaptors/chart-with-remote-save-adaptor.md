@@ -29,7 +29,7 @@ The chart follows this workflow:
 4. CRUD requests are sent to the backend API.
 5. The chart's data source is refreshed locally after each successful operation.
 
-```text
+```
 React Chart
    |
    | GET initial chart data
@@ -67,7 +67,7 @@ Before creating the sample, install the following tools:
 
 Recommended project structure:
 
-```text
+```
 remote-save-chart/
 ├── remote-save-chart.client/
 │   ├── public/
@@ -94,23 +94,23 @@ remote-save-chart/
 
 Open Visual Studio Code and create a React application using Vite.
 
-```bash
+```
 npm create vite@latest remote-save-chart.client -- --template react
 ```
 
 Navigate to the client project folder.
 
-```bash
+```
 cd remote-save-chart.client
 ```
 
 Install the default project dependencies.
 
-```bash
+```
 npm install
 ```
 
-Vite starts the dev server on `http://localhost:5173` by default. If a different port is used, update the CORS origin in Step 9 to match.
+Vite starts the development server on `http://localhost:5173` by default. If a different port is used, update the CORS origin in Step 9 to match.
 
 ---
 
@@ -118,46 +118,27 @@ Vite starts the dev server on `http://localhost:5173` by default. If a different
 
 Install the required Syncfusion React Chart package.
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts --save
 ```
 
 If you plan to use Syncfusion DataManager utilities, install the data package as well.
 
-```bash
+```
 npm install @syncfusion/ej2-data --save
 ```
 
----
-
-## Step 3: Add Syncfusion Styles
+## Step 3: Configure the React Chart Component
 
 Open the following file:
 
-```text
-remote-save-chart.client/src/App.css
 ```
-
-Add the Syncfusion base and chart theme styles.
-
-```css
-@import '../node_modules/@syncfusion/ej2-base/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-react-charts/styles/material3.css';
-```
-
----
-
-## Step 4: Configure the React Chart Component
-
-Open the following file:
-
-```text
 remote-save-chart.client/src/App.jsx
 ```
 
 Replace the default content with the React Chart implementation.
 
-```jsx
+```
 import React, { useEffect, useState } from 'react';
 import {
   ChartComponent,
@@ -295,17 +276,17 @@ export default App;
 
 ---
 
-## Step 5: Add Basic Styling
+## Step 4: Add Basic Styling
 
 Open the following file:
 
-```text
+```
 remote-save-chart.client/src/App.css
 ```
 
 Add the following styles below the Syncfusion theme imports.
 
-```css
+```
 .container {
   margin: 30px;
   text-align: center;
@@ -324,11 +305,11 @@ Add the following styles below the Syncfusion theme imports.
 
 ---
 
-## Step 6: Create the ASP.NET Core Backend (Optional)
+## Step 5: Create the ASP.NET Core Backend (Optional)
 
 From the parent folder (one level above `remote-save-chart.client`), create the backend project.
 
-```bash
+```
 cd ..
 dotnet new webapi -n remote-save-chart.server
 cd remote-save-chart.server
@@ -336,13 +317,13 @@ cd remote-save-chart.server
 
 Trust the local HTTPS development certificate so the React client can call the API without browser warnings:
 
-```bash
+```
 dotnet dev-certs https --trust
 ```
 
 The backend should contain the following files:
 
-```text
+```
 remote-save-chart.server/Models/ChartData.cs
 remote-save-chart.server/Controllers/ChartDataController.cs
 remote-save-chart.server/Program.cs
@@ -351,17 +332,17 @@ remote-save-chart.server/Properties/launchSettings.json
 
 ---
 
-## Step 7: Add the Chart Data Model
+## Step 6: Add the Chart Data Model
 
 Create the following file:
 
-```text
+```
 remote-save-chart.server/Models/ChartData.cs
 ```
 
 Add the chart data model.
 
-```csharp
+```
 namespace RemoteSaveChart.Server.Models
 {
     public class ChartData
@@ -375,17 +356,17 @@ namespace RemoteSaveChart.Server.Models
 
 ---
 
-## Step 8: Add the Chart Data Controller
+## Step 7: Add the Chart Data Controller
 
 Create the following file:
 
-```text
+```
 remote-save-chart.server/Controllers/ChartDataController.cs
 ```
 
 Add the controller for initial load and CRUD operations.
 
-```csharp
+```
 using Microsoft.AspNetCore.Mvc;
 using RemoteSaveChart.Server.Models;
 
@@ -458,17 +439,17 @@ namespace RemoteSaveChart.Server.Controllers
 
 ---
 
-## Step 9: Configure CORS in the Backend
+## Step 8: Configure CORS in the Backend
 
 Open the following file:
 
-```text
+```
 remote-save-chart.server/Program.cs
 ```
 
 Configure CORS to allow requests from the React development server. The origin below matches Vite's default port (5173). Change it if your client uses a different port.
 
-```csharp
+```
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -513,26 +494,26 @@ The server and the client are two independent processes. You need **both** runni
 
 Open a terminal in Visual Studio Code (or PowerShell) and navigate to the backend folder.
 
-```bash
+```
 cd remote-save-chart.server
 ```
 
 The first time you run the project, restore its NuGet packages and compile it:
 
-```bash
+```
 dotnet restore
 dotnet build
 ```
 
 Then start the API:
 
-```bash
+```
 dotnet run
 ```
 
 `dotnet run` restores any missing packages, builds the project, and launches the Kestrel web server. Look for the `Now listening on:` line in the terminal output. The sample assumes:
 
-```text
+```
 https://localhost:7001
 ```
 
@@ -544,19 +525,19 @@ If `https://localhost:7001` does not match the URL shown, open `Properties/launc
 
 Open a **second** terminal (do not close the server terminal) and navigate to the client folder.
 
-```bash
+```
 cd remote-save-chart.client
 ```
 
 Start the Vite dev server:
 
-```bash
+```
 npm run dev
 ```
 
 `npm run dev` runs the `dev` script defined in `package.json`, which invokes Vite. Vite compiles the React code, watches for file changes, and serves the app at:
 
-```text
+```
 http://localhost:5173
 ```
 
@@ -583,7 +564,7 @@ To shut everything down:
 
 To produce a static, deployable bundle of the client:
 
-```bash
+```
 cd remote-save-chart.client
 npm run build
 ```

@@ -15,7 +15,7 @@ This section describes the Linear Gauge component's event that gets triggered wh
 
 ## AnimationComplete
 
-When the pointer animation is completed, the [`AnimationComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_AnimationComplete) event will be triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iAnimationCompleteEventArgs).
+When the pointer animation is completed, the [`AnimationComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_AnimationComplete) event will be triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/ianimationcompleteeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -27,7 +27,7 @@ When the pointer animation is completed, the [`AnimationComplete`](https://help.
 
 ## AnnotationRender
 
-Before the annotation is rendered in the Linear Gauge, the [`AnnotationRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_AnnotationRender) event will be triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iAnnotationRenderEventArgs).
+Before the annotation is rendered in the Linear Gauge, the [`AnnotationRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_AnnotationRender) event will be triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iannotationrendereventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -39,7 +39,7 @@ Before the annotation is rendered in the Linear Gauge, the [`AnnotationRender`](
 
 ## AxisLabelRender
 
-Before each axis label is rendered in the Linear Gauge, the [`AxisLabelRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_AxisLabelRender) event is fired. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iAxisLabelRenderEventArgs).
+Before each axis label is rendered in the Linear Gauge, the [`AxisLabelRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_AxisLabelRender) event is fired. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iaxislabelrendereventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -51,7 +51,7 @@ Before each axis label is rendered in the Linear Gauge, the [`AxisLabelRender`](
 
 ## BeforePrint
 
-The [`BeforePrint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_BeforePrint) event is fired before the print begins. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iPrintEventArgs).
+The [`BeforePrint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_BeforePrint) event is fired before the print begins. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iprinteventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -63,7 +63,7 @@ The [`BeforePrint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 
 ## DragEnd
 
-The [`DragEnd`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_DragEnd) event will be fired before the pointer drag is completed. To know more about the argument of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iPointerDragEventArgs).
+The [`DragEnd`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_DragEnd) event will be fired before the pointer drag is completed. To know more about the argument of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/ipointerdrageventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -75,7 +75,7 @@ The [`DragEnd`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Lin
 
 ## DragMove
 
-The [`DragMove`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_DragMove) event will be fired when the pointer is dragged. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iPointerDragEventArgs).
+The [`DragMove`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_DragMove) event will be fired when the pointer is dragged. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/ipointerdrageventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -99,7 +99,7 @@ When the pointer drag begins, the [`DragStart`](https://help.syncfusion.com/cr/a
 
 ## GaugeMouseDown
 
-When mouse is pressed down on the gauge, the [`GaugeMouseDown`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_GaugeMouseDown) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iMouseEventArgs).
+When mouse is pressed down on the gauge, the [`GaugeMouseDown`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_GaugeMouseDown) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/imouseeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -111,7 +111,7 @@ When mouse is pressed down on the gauge, the [`GaugeMouseDown`](https://help.syn
 
 ## GaugeMouseLeave
 
-When mouse pointer moves over the gauge, the [`GaugeMouseLeave`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_GaugeMouseLeave) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iMouseEventArgs).
+When mouse pointer moves over the gauge, the [`GaugeMouseLeave`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_GaugeMouseLeave) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/imouseeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -123,7 +123,7 @@ When mouse pointer moves over the gauge, the [`GaugeMouseLeave`](https://help.sy
 
 ## GaugeMouseMove
 
-When mouse pointer leaves the gauge, the [`GaugeMouseMove`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_GaugeMouseMove) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iMouseEventArgs).
+When mouse pointer leaves the gauge, the [`GaugeMouseMove`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_GaugeMouseMove) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/imouseeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -135,7 +135,7 @@ When mouse pointer leaves the gauge, the [`GaugeMouseMove`](https://help.syncfus
 
 ## GaugeMouseUp
 
-When the mouse pointer is released over the Linear Gauge, the [`GaugeMouseUp`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_GaugeMouseUp) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iMouseEventArgs).
+When the mouse pointer is released over the Linear Gauge, the [`GaugeMouseUp`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_GaugeMouseUp) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/imouseeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -147,7 +147,7 @@ When the mouse pointer is released over the Linear Gauge, the [`GaugeMouseUp`](h
 
 ## Load
 
-Before the Linear Gauge is loaded, the [`Load`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Load) event is fired. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iLoadEventArgs).
+Before the Linear Gauge is loaded, the [`Load`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Load) event is fired. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iloadedeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -159,7 +159,7 @@ Before the Linear Gauge is loaded, the [`Load`](https://help.syncfusion.com/cr/a
 
 ## Loaded
 
-After the Linear Gauge has been loaded, the [`Loaded`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Loaded) event will be triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iLoadedEventArgs).
+After the Linear Gauge has been loaded, the [`Loaded`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Loaded) event will be triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iloadedeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -171,7 +171,7 @@ After the Linear Gauge has been loaded, the [`Loaded`](https://help.syncfusion.c
 
 ## Resized
 
-After the window resizing, the [`Resized`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Resized) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iResizeEventArgs).
+After the window resizing, the [`Resized`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Resized) event is triggered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iresizeeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -183,7 +183,7 @@ After the window resizing, the [`Resized`](https://help.syncfusion.com/cr/aspnet
 
 ## TooltipRender
 
-The [`TooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_TooltipRender) event is fired before the tooltip is rendered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/iTooltipRenderEventArgs).
+The [`TooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_TooltipRender) event is fired before the tooltip is rendered. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/itooltiprendereventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -195,7 +195,7 @@ The [`TooltipRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.E
 
 ## ValueChange
 
-The [`ValueChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_ValueChange) event is triggered when the pointer is dragged from one value to another. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/ap/linear-gauge/iValueChangeEventArgs).
+The [`ValueChange`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_ValueChange) event is triggered when the pointer is dragged from one value to another. To know more about the arguments of this event, refer [here](https://ej2.syncfusion.com/documentation/api/linear-gauge/ivaluechangeeventargs).
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

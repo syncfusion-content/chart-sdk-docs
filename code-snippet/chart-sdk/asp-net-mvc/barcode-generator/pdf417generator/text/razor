@@ -1,0 +1,6 @@
+@(Html.EJS().PDF417Generator("container")
+    .Value("1234567890")
+    .Width("300px")
+    .Height("150px")
+    .DisplayText(s => s.Text("PDF417").Position("Top").Alignment("Center"))
+    .Render())

@@ -19,7 +19,6 @@ var chart = new ej.charts.Chart({
                 yName: 'y', animation: { enable: false }
             },
         ],
-    width:'650px',
     height: '350px'
     },'#element');
 

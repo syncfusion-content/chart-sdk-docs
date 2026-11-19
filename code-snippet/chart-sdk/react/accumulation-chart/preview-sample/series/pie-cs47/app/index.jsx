@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { AccumulationChartComponent, AccumulationSeriesCollectionDirective, AccumulationSeriesDirective, PieSeries, Inject, AccumulationDataLabel, AccumulationTooltip, Legend } from '@syncfusion/ej2-react-charts';
+import { AccumulationChartComponent, AccumulationSeriesCollectionDirective, AccumulationSeriesDirective, PieSeries, Inject, AccumulationDataLabel, AccumulationTooltip, AccumulationLegend } from '@syncfusion/ej2-react-charts';
 import { StatisticsDetails } from './datasource.ts';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     const handleLegendRender = (args) => {
         const browser = args.text;
         const dataPoint = StatisticsDetails.find((item) => item.Browser === browser);
-        const users = dataPoint?.Users || 0;
+        const users = (dataPoint && dataPoint.Users) || 0;
         const color = args.fill;
         args.template = (legendSettings.template)
             .replace('{{color}}', color)
@@ -25,7 +25,7 @@ function App() {
     };
 
     return <AccumulationChartComponent id='charts' title='Mobile Browser Statistics' legendSettings={legendSettings} legendRender={handleLegendRender} tooltip={{ enable: true }}>
-        <Inject services={[PieSeries, AccumulationDataLabel, AccumulationTooltip, Legend]} />
+        <Inject services={[PieSeries, AccumulationDataLabel, AccumulationTooltip, AccumulationLegend]} />
         <AccumulationSeriesCollectionDirective>
             <AccumulationSeriesDirective dataSource={StatisticsDetails} xName='Browser' yName='Users' type='Pie' pointColorMapping='Color' dataLabel={{ visible: true, format: '{value}M', position: 'Outside' }}>
             </AccumulationSeriesDirective>

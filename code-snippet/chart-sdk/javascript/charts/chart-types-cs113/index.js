@@ -1,36 +1,45 @@
 var chartData = [
-    { x: 2000, y: 0.61, y1: 0.03, y2: 0.48},
-    { x: 2001, y: 0.81, y1: 0.05, y2: 0.53 },
-    { x: 2002, y: 0.91, y1: 0.06, y2: 0.57 },
-    { x: 2003, y: 1,    y1: 0.09, y2: 0.61 }, 
-    { x: 2004, y: 1.19, y1: 0.14, y2: 0.63 },
-    { x: 2005, y: 1.47, y1: 0.20, y2: 0.64 },
-    { x: 2006, y: 1.74, y1: 0.29, y2: 0.66 }, 
-    { x: 2007, y: 1.98, y1: 0.46, y2: 0.76 },
-    { x: 2008, y: 1.99, y1: 0.64, y2: 0.77 },
-    { x: 2009, y: 1.70, y1: 0.75, y2: 0.55 }
+    { x: 2000, y: 0.61, y1: 0.03, y2: 0.48, y3: 0.23 },
+    { x: 2001, y: 0.81, y1: 0.05, y2: 0.53, y3: 0.27 },
+    { x: 2002, y: 0.91, y1: 0.06, y2: 0.57, y3: 0.30 },
+    { x: 2003, y: 1,    y1: 0.09, y2: 0.61, y3: 0.32 },
+    { x: 2004, y: 1.19, y1: 0.14, y2: 0.63, y3: 0.34 },
+    { x: 2005, y: 1.47, y1: 0.20, y2: 0.64, y3: 0.36 },
+    { x: 2006, y: 1.74, y1: 0.29, y2: 0.66, y3: 0.38 },
+    { x: 2007, y: 1.98, y1: 0.46, y2: 0.76, y3: 0.40 },
+    { x: 2008, y: 1.99, y1: 0.64, y2: 0.77, y3: 0.42 },
+    { x: 2009, y: 1.70, y1: 0.75, y2: 0.55, y3: 0.44 }
 ];
 var chart = new ej.charts.Chart({
+    primaryXAxis: {
+        valueType: 'Category',
+        title: 'Years'
+    },
+    primaryYAxis: {
+        minimum: 0, maximum: 4,
+        interval: 1, title: 'Spend in Billions',
+        labelFormat: '{value}B'
+    },
     series: [
         {
             dataSource: chartData, xName: 'x', yName: 'y',
-            type: 'Polar',
+            type: 'Polar', name: 'Organic',
             //Series draw type as stacked column
             drawType: 'StackingColumn'
         }, {
             dataSource: chartData, xName: 'x', yName: 'y1',
-            type: 'Polar',
+            type: 'Polar', name: 'Fair-trade',
             drawType: 'StackingColumn'
         }, {
             dataSource: chartData, xName: 'x', yName: 'y2',
-            type: 'Polar',
+            type: 'Polar', name: 'Veg Alternatives',
             drawType: 'StackingColumn'
-
         }, {
             dataSource: chartData, xName: 'x', yName: 'y3',
-            type: 'Polar',
+            type: 'Polar', name: 'Others',
             drawType: 'StackingColumn'
         }
-    ]
+    ],
+    title: 'Trend in Sales of Ethical Produce'
 }, '#element');
 

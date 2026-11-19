@@ -21,7 +21,7 @@ The left and right thumb of RangeNavigator are used to indicate the selected ran
 * By tapping on the labels.
 * By setting the start and end through Date Range button.
 
-Following code example shows the [`EnableSelector`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_EnableSelector) property allows users to toggle the visibility of enable selector.
+Following code example shows the [`EnableSelector`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_EnableSelector) property allows users to toggle the visibility of enable selector.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

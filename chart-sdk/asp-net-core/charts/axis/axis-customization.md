@@ -1,0 +1,115 @@
+---
+layout: post
+title: Axis Customization in ASP.NET Core Charts | Syncfusion
+description: Learn here all about Axis Customization in Syncfusion ASP.NET Core Charts component of Syncfusion Essential JS 2 and more.
+platform: chart-sdk
+control: Axis Customization
+documentation: ug
+appliesto: UI Component Suite, Chart SDK
+---
+
+# Axis Customization in ASP.NET Core Charts
+
+## Axis Crossing
+
+An axis can be positioned in the chart area by using the `crossesAt` and `crossesInAxis` properties. The `crossesAt` property specifies the value (datetime, numeric, or logarithmic) at which the axis line intersects the vertical axis or vice versa, and the `crossesInAxis` property specifies the name of the axis with which the axis line is crossed.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/axis-cross/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Axis-cross.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/axis-cross/axis-cross.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+## Title
+
+You can add a title to the axis by using the [`title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Title) property to provide quick information to the user about the data plotted on the axis.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/title/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Title.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/title/title.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+## Title Rotation
+
+By using the [`titleRotation`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_TitleRotation) property, you can rotate the axis title from 0 to 360 degrees.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/titlerotation/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="TitleRotation.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/titlerotation/titlerotation.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+## Tick Lines Customization
+
+You can customize the width, color, and size of the minor and major tick lines by using the [`majorTickLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MajorTickLines) and [`minorTickLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MinorTickLines) properties in the axis.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/tick/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Tick.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/tick/tick.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+## Grid Lines Customization
+
+You can customize the width, color, and dash array of the minor and major grid lines by using the [`majorGridLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MajorGridLines) and [`minorGridLines`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_MinorGridLines) properties in the axis.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/grid/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Grid.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/grid/grid.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+## Multiple Axis
+
+In addition to the primary X and Y axis, you can add any number of axes to the chart. Series can be associated with this axis by mapping to the axis's unique name.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/multiple/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Multiple.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/multiple/multiple.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+## Inverted Axis
+
+When an axis is inverted, the highest value of the axis comes closer to the origin and vice versa. To place an axis in inverted manner, set the [`isInversed`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_IsInversed) property to true.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/inversed/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Inversed.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/inversed/inversed.cs %}
+{% endhighlight %}
+{% endtabs %}
+
+## Opposed Position
+
+To place an axis opposite from its original position, set the [`opposedPosition`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_OpposedPosition) property of the axis to true.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/opposed/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Opposed.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/opposed/opposed.cs %}
+{% endhighlight %}
+{% endtabs %}

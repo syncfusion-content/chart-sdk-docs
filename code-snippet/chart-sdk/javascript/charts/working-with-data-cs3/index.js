@@ -1,25 +1,29 @@
-var query = new ej.data.Query();
+var query = new ej.data.Query()
+    .select(['CustomerID', 'Freight'])
+    .take(10);
 
 var data = new ej.data.DataManager({
-    url: 'https://services.odata.org/V3/Northwind/Northwind.svc/Orders/',
+    url: 'https://services.odata.org/V3/Northwind/Northwind.svc/Orders',
     adaptor: new ej.data.ODataAdaptor(),
     crossDomain: true
 });
 
-
 var chart = new ej.charts.Chart({
-    //Initializing Primary X Axis 
     primaryXAxis: {
         valueType: 'Category',
+        title: 'Customer'
     },
-    //Initializing Chart Sample 
-    series: [
-        {
-            type: 'Column',
-            dataSource: data,
-            xName: 'CustomerID', yName: 'Freight', query: query
-        }
-    ],
-    title: 'Sprint Task Analysis'
+    primaryYAxis: {
+        title: 'Freight',
+        minimum: 0
+    },
+    series: [{
+        type: 'Column',
+        dataSource: data,
+        query: query,
+        xName: 'CustomerID',
+        yName: 'Freight',
+        name: 'Freight'
+    }],
+    title: 'Northwind Order Freight'
 }, '#element');
-

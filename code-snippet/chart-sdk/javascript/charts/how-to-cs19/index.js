@@ -30,7 +30,6 @@ var chart = new ej.charts.Chart({
         var formattedString = intl.formatDate(new Date(args.point.x), { skeleton: 'yMd' });
         args.text = formattedString;
         },
-    width:'650px',
     height: '350px'
 },'#element');
 

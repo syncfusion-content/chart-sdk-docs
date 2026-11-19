@@ -16,7 +16,12 @@
         <div id="element"></div>
     </div>
 
-
+<script id="dataLabelTemplate" type="text/x-template">
+    <div style="padding: 4px 8px; background-color: #ffffff; border: 1px solid #357cd2; border-radius: 4px;">
+        <span style="font-weight: 600;">${point.x}</span>
+        <span>: ${point.y}°C</span>
+    </div>
+</script>
 <script>
 var ele = document.getElementById('container');
 if(ele) {

@@ -8,7 +8,7 @@ Chart.Inject(ColumnSeries, Category);
 let chart: Chart = new Chart({
     primaryXAxis: {
         valueType: 'Category',
-        // label placement as on ticks
+        // label position as inside
         labelPosition: 'Inside',
     },
     series:[{

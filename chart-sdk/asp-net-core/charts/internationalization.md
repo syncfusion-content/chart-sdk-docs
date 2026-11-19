@@ -8,21 +8,20 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Internationalization in ASP.NET Core Charts
 
-Chart provides supports for internationalization for the following chart elements.
+The chart provides support for internationalization for the following chart elements:
 
 * Datalabel.
 * Axis label.
 * Tooltip.
 
-For more information about number and date formatter, you can refer [`internationalization`](http://ej2.syncfusion.com/documentation/base/intl.html).
+For more information about number and date formatter, you can refer [`internationalization`](https://ej2.syncfusion.com/aspnetcore/documentation/common/internationalization).
 
 <!-- markdownlint-disable MD036 -->
 **Globalization**
 
-Globalization is the process of designing and developing a component that works in different cultures/locales. Internationalization library is used to globalize number, date, time values in Chart component using `labelFormat` property in axis.
+Globalization is the process of designing and developing a component that works in different cultures/locales. The internationalization library is used to globalize number, date, and time values in the chart component using the `labelFormat` property in the axis.
 
 **Numeric Format**
 
@@ -36,5 +35,4 @@ In the following example axis, point and tooltip labels are globalized to EUR.
 {% include code-snippet/chart-sdk/asp-net-core/charts/number-format/number-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 

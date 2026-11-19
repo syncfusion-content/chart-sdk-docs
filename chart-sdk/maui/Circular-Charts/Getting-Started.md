@@ -14,7 +14,7 @@ This section explains how to populate the circular chart with data, a title, dat
 
 To get started quickly with our [.NET MAUI Circular Chart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfCircularChart.html), you can check the below video.
 
-{% youtube "https://www.youtube.com/watch?v=2WDZfXpMZsE&t=3s" %}
+<style>#MAUICircularChartVideoTutorial{width : 90% !important; height: 400px !important }</style> <iframe id='MAUICircularChartVideoTutorial' src='https://www.youtube.com/embed/2WDZfXpMZsE'></iframe>
 
 {% tabcontents %}
 {% tabcontent Visual Studio %}
@@ -23,7 +23,7 @@ To get started quickly with our [.NET MAUI Circular Chart](https://help.syncfusi
 
 Before proceeding, ensure the following are set up:
 
-1. Install [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or later.
+1. Install [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later.
 2. Set up a .NET MAUI environment with Visual Studio 2022 v17.12 or later.
 
 ## Step 1: Create a new .NET MAUI project
@@ -46,7 +46,7 @@ Before proceeding, ensure the following are set up:
 
 Before proceeding, ensure the following are set up:
 
-1. Install [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or later.
+1. Install [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later.
 2. Set up a .NET MAUI environment with Visual Studio Code.
 3. Ensure that the .NET MAUI workloads are installed and configured as described [here](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code).
 
@@ -72,7 +72,7 @@ Before proceeding, ensure the following are set up:
 
 Before proceeding, ensure the following are set up:
 
-1. Install [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or later.
+1. Install [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later.
 2. Set up a .NET MAUI environment with JetBrains Rider 2024.3 or later.
 3. Make sure the MAUI workloads are installed and configured as described [here.](https://www.jetbrains.com/help/rider/MAUI.html#before-you-start)
 
@@ -265,4 +265,4 @@ The following screenshot illustrates the result of the above code.
 
 ![Pie chart in .NET MAUI Circular Chart](Getting-Started_Images/MAUI_pie_chart.png)
 
-You can download the Circular Chart Getting Started sample from [GitHub](https://github.com/SyncfusionExamples/GettingStarted_CircularChart_MAUI).
+You can download the Circular Chart Getting Started sample from [GitHub](https://github.com/SyncfusionExamples/Getting-Started-with-.NET-MAUI-Circular-Chart).

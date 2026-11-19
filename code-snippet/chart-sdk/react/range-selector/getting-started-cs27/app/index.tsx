@@ -1,5 +1,3 @@
-{% raw %}
-
 
 import {
   AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangeTooltip, PeriodSelector, RangeTooltipSettingsModel, PeriodSelectorSettingsModel
@@ -36,6 +34,3 @@ function App() {
 export default App;
 ReactDOM.render(<App />, document.getElementById("charts"));
 
-
-
-{% endraw %}

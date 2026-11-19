@@ -82,4 +82,4 @@ For a live demonstration, see [Bus seat selection demo](https://blazor.syncfusio
 
 ## See also
 
-* [Display geometry shapes in Bing maps](https://blazor.syncfusion.com/documentation/maps/providers/bing-maps#adding-sublayer)
+* [Display geometry shapes in Bing maps](https://help.syncfusion.com/chart-sdk/blazor/maps/providers/bing-maps#adding-sublayer)

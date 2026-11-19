@@ -459,7 +459,7 @@ The [ChartCornerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.
 
 {% previewsample "https://blazorplayground.syncfusion.com/embed/BNBdNdCdBGmgIHRs?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Stacked column chart with corner radius](../images/chart-types-images/blazor-stacked-column-chart-corner-radius.webp)" %}
 
-Customize the corner radius for individual points in the chart series using the [OnPointRender](https://blazor.syncfusion.com/documentation/chart/events#onpointrender) event by utilizing the [CornerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.PointRenderEventArgs.html#Syncfusion_Blazor_Charts_PointRenderEventArgs_CornerRadius) property in its event argument.
+Customize the corner radius for individual points in the chart series using the [OnPointRender](https://help.syncfusion.com/chart-sdk/blazor/charts/events#onpointrender) event by utilizing the [CornerRadius](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.PointRenderEventArgs.html#Syncfusion_Blazor_Charts_PointRenderEventArgs_CornerRadius) property in its event argument.
 
 ```cshtml
 @using Syncfusion.Blazor.Charts

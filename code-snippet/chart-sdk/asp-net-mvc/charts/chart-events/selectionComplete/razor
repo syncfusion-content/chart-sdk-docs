@@ -1,0 +1,21 @@
+@(Html.EJS().Chart("container")
+    .Title("Monthly Sales")
+    .PrimaryXAxis(px => px.ValueType(Syncfusion.EJ2.Charts.ValueType.Category).Title("Month"))
+    .PrimaryYAxis(py2 => py2.Title("Sales"))
+    .SelectionSettings(selection => selection.Mode(Syncfusion.EJ2.Charts.SelectionMode.Point))
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Column)
+            .DataSource(ViewBag.dataSource)
+            .XName("month")
+            .YName("sales")
+            .Name("Sales").Add();
+    })
+    .SelectionComplete("selectionCompleteHandler")
+    .Render())
+
+<script>
+    function selectionCompleteHandler(args) {
+        console.log('selectionComplete event was triggered');
+    }
+</script>

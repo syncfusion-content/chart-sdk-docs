@@ -1,15 +1,28 @@
 var chartData = [
-    { x: 2005, y: 28 }, 
-    { x: 2006, y: 25}, 
-    { x: 2007, y: 26 }, 
+    { x: 2005, y: 28 },
+    { x: 2006, y: 25},
+    { x: 2007, y: 26 },
     { x: 2008, y: 27 },
-    { x: 2009, y: 32}, 
-    { x: 2010, y: 35 }, 
+    { x: 2009, y: 32},
+    { x: 2010, y: 35 },
     { x: 2011, y: 25 }
 ];
 
 var chart = new ej.charts.Chart({
-   series:[{
+    primaryXAxis: {
+        title: 'Year',
+        minimum: 2005,
+        maximum: 2011,
+        interval: 1,
+        edgeLabelPlacement: 'Shift'
+    },
+    primaryYAxis: {
+        minimum: 20,
+        maximum: 40,
+        interval: 5,
+        title: 'Sales Amount in Millions'
+    },
+    series:[{
         dataSource: chartData,
         xName: 'x', yName: 'y',
         type: 'MultiColoredArea',
@@ -27,6 +40,7 @@ var chart = new ej.charts.Chart({
                 color: 'orange'
             }
         ]
-    }]
+    }],
+    title: 'Average Sales Comparison'
 }, '#element');
 

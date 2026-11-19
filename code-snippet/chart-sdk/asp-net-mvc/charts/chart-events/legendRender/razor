@@ -1,0 +1,31 @@
+@(Html.EJS().Chart("container")
+    .Title("Olympic Medals")
+    .PrimaryXAxis(px => px.ValueType(Syncfusion.EJ2.Charts.ValueType.Category).Title("Countries"))
+    .PrimaryYAxis(py2 => py2.Title("Medals").Minimum(0).Maximum(80).Interval(20))
+    .LegendSettings(legend => legend.Visible(true).Position(Syncfusion.EJ2.Charts.LegendPosition.Top))
+    .Series(series =>
+    {
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Column)
+            .DataSource(ViewBag.dataSource)
+            .XName("country")
+            .YName("gold")
+            .Name("Gold").Add();
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Column)
+            .DataSource(ViewBag.dataSource)
+            .XName("country")
+            .YName("silver")
+            .Name("Silver").Add();
+        series.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Column)
+            .DataSource(ViewBag.dataSource)
+            .XName("country")
+            .YName("bronze")
+            .Name("Bronze").Add();
+    })
+    .LegendRender("legendRenderHandler")
+    .Render())
+
+<script>
+    function legendRenderHandler(args) {
+        console.log('legendRender event was triggered');
+    }
+</script>
