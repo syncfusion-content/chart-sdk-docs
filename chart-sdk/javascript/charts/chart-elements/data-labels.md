@@ -200,7 +200,11 @@ The `RelocateVertically` and `RelocateHorizontally` options are supported only f
 - `StackingBar`
 - `StackingBar100`
 
-These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines.
+
+The Smart Data Label feature can also be enabled across Cartesian chart series by setting the [`enableSmartLabels`](../api/chart#enablesmartlabels-boolean) property to `true` on the chart. To prevent duplicate data labels from displaying when multiple series share the same data point values and locations, set the [`showDuplicateLabels`](../api/chart#showduplicatelabels-boolean) property to `false`.
+
+Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle` (`color`, `width`, and `opacity`), `offset`, and `seriesOverlapAction` (`'None'` | `'Hide'`) settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
