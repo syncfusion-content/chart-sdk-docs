@@ -10,15 +10,24 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # PDF417Generator in Angular Barcode control
 
-## PDF417
+## PDF417 Overview
 
-PDF417 is a stacked two-dimensional barcode defined by ISO/IEC 15438. A symbol contains 3 to 90 rows, and each row has 1 to 30 data columns. It is widely used on identification cards, driver’s licenses, boarding passes, shipping labels, and inventory documents because it can store a large amount of data and still be scanned by both linear scanners and imagers.
+PDF417 is a stacked, two-dimensional multi-row barcode symbology defined by ISO/IEC 15438. A single PDF417 symbol is built from 3 to 90 horizontal rows, where each row contains 1 to 30 data columns framed by a start pattern, a left row indicator, a right row indicator, and a stop pattern. Each symbol character within a row—known as a codeword—spans 17 modules and is constructed from four bars and four spaces.
 
-PDF417 is a good choice when you need higher data capacity than linear barcodes, robust error correction, and a format that is practical for printed documents and transport labels.
+PDF417 provides high data density and is capable of encoding up to roughly 1,850 text characters, 2,710 numeric digits, or 1,108 bytes within a single symbol. Because of its stacked linear layout, it can be read by both traditional moving-beam laser scanners and area image readers. PDF417 is commonly used in:
+
+* **Identification & Driver's Licenses:** Storing identity and biometric records on state and national credentials (AAMVA standards).
+* **Transportation & Boarding Passes:** Printing high-density passenger data on commercial airline boarding passes (IATA standards).
+* **Logistics & Shipping Labels:** Holding comprehensive manifest and consignment details on package waybills.
+* **Government & Compliance Forms:** Archiving tax, customs, and regulatory submission summaries on printed sheets.
+
+By default, the PDF417 generator selects the best compaction mode for each portion of the input, chooses the recommended Reed-Solomon error correction level based on the data length, and calculates the optimal row-and-column layout to fit the available container space.
 
 ## Getting Started
 
 ### Dependencies
+
+To use the PDF417 Generator in Angular, ensure the required Syncfusion Essential JS 2 packages are installed:
 
 ```bash
 |-- @syncfusion/ej2-angular-barcode-generator
@@ -27,15 +36,34 @@ PDF417 is a good choice when you need higher data capacity than linear barcodes,
     |-- @syncfusion/ej2-data
 ```
 
-### Package import
+### Package Import
 
-PDF417 is provided by its own `PDF417Generator` component and `PDF417GeneratorModule`, separate from `BarcodeGeneratorComponent`, in the same package.
+The PDF417 component is packaged within `@syncfusion/ej2-angular-barcode-generator` as an independent Angular component and module, separate from the linear barcode control:
 
 ```typescript
 import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
 ```
 
-### Basic PDF417 generation
+### Module Registration
+
+Add `PDF417GeneratorModule` to the `imports` array of your standalone Angular component (recommended in Angular 17 and later) or to the `imports` array of your `NgModule`:
+
+```typescript
+import { Component } from '@angular/core';
+import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
+
+@Component({
+  imports: [PDF417GeneratorModule],
+  standalone: true,
+  selector: 'app-root',
+  template: `<ejs-pdf417generator id="barcode" width="250px" height="150px" value="Syncfusion"></ejs-pdf417generator>`
+})
+export class AppComponent {}
+```
+
+### Basic PDF417 Generation
+
+The following example shows how to initialize a basic PDF417 barcode. The control automatically configures compaction, error correction, and symbol dimensions to fit the specified dimensions.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -48,9 +76,18 @@ import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator
 
 {% previewsample "page.domainurl/samples/barcode/barcodegenerator/pdf417-cs1" %}
 
-### Rendering in SVG mode
+In this sample:
+* The `value` property supplies the data string (`SYNCFUSION PDF417`) to be encoded.
+* The `width` and `height` properties set the container boundary.
+* The `displayText` property displays a customized human-readable label (`PDF417`) instead of the raw encoded string.
 
-SVG is the default rendering mode.
+## Rendering Modes
+
+The PDF417 generator supports two rendering surfaces via the [`mode`](#mode) property: **SVG** and **Canvas**.
+
+### SVG Mode (Default)
+
+SVG is the default rendering mode. It draws the symbol using vector graphics, ensuring crisp, pixel-perfect scaling at any screen resolution, zoom level, or high-DPI print output.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -65,9 +102,9 @@ import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator
 export class AppComponent {}
 ```
 
-### Rendering in Canvas mode
+### Canvas Mode
 
-Set `mode` to `Canvas` to render on a raster surface.
+Setting `mode="Canvas"` renders the barcode directly to an HTML5 canvas raster surface. Canvas rendering is ideal when embedding the barcode into existing bitmap pipelines, such as client-side PDF document generation or high-performance canvas operations.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -82,32 +119,20 @@ import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator
 export class AppComponent {}
 ```
 
-## PDF417 Generator
+## PDF417 Symbology Configuration
 
-The `PDF417Generator` component (`<ejs-pdf417generator>`) renders a PDF417 symbol inside the target element. By default, it selects the compaction mode for each part of the value, uses the error correction level recommended for the data length, and calculates rows and columns automatically to fit the available space.
+### Compaction Modes
 
-The component renders in SVG mode by default and uses a `role="img"` accessibility role.
+PDF417 compresses data into codewords using compaction modes. The [`compactionMode`](#compactionmode) property allows developers to enforce a specific compaction mode across the entire value, or allow `Auto` mode to dynamically partition the input for maximum density.
 
-## Basic Example
+| CompactionMode | Supported Characters | Codeword Compression Ratio | Typical Use Case |
+|---|---|---|---|
+| `'Auto'` *(Default)* | All ASCII and UTF-8 characters | Dynamically optimized per segment | Mixed alphanumeric and special character inputs. |
+| `'Text'` | Printable ASCII (32–126), Tab, LF, CR | ~2 characters per codeword | Plain text strings, URLs, names, and addresses. |
+| `'Numeric'` | Numeric digits only (`0`–`9`) | ~2.9 digits per codeword | Long serial numbers, phone numbers, and identifiers. |
+| `'Byte'` | All 256 bytes (binary / non-ASCII / UTF-8) | ~1.2 bytes per codeword | International text, encrypted tokens, and raw binary. |
 
-Renders a PDF417 symbol with only a value and a size.
-
-```typescript
-import { Component } from '@angular/core';
-import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
-
-@Component({
-  imports: [PDF417GeneratorModule],
-  standalone: true,
-  selector: 'app-container',
-  template: `<ejs-pdf417generator id="barcode" width="320px" height="140px" value="SYNCFUSION PDF417"></ejs-pdf417generator>`
-})
-export class AppComponent {}
-```
-
-## PDF417-specific samples
-
-### Compaction mode
+The following example enforces `Text` compaction on an alphanumeric value:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -120,7 +145,26 @@ export class AppComponent {}
 
 {% previewsample "page.domainurl/samples/barcode/barcodegenerator/compactionmode-cs1" %}
 
-### Error correction level
+> **Note:** If a selected compaction mode encounters an unsupported character (for example, supplying alphabetical characters when `compactionMode="Numeric"` is configured), the symbol will not render and the [`invalid`](#invalid) event will be triggered.
+
+### Error Correction Levels
+
+PDF417 uses Reed-Solomon error correction to reconstruct obscured, scratched, or damaged symbols. The [`errorCorrectionLevel`](#errorcorrectionlevel) property configures the level of error correction codewords added to the barcode.
+
+| Level | Codewords Added | Recommended Usage |
+|---|---|---|
+| `Auto` (`-1`) | Variable | Automatically chooses the recommended level according to ISO/IEC 15438. |
+| `Level0` (`0`) | 2 | Minimal error correction (pure error detection). |
+| `Level1` (`1`) | 4 | Clean office environments with laser print quality. |
+| `Level2` (`2`) | 8 | Small payloads (up to 40 data codewords). |
+| `Level3` (`3`) | 16 | Payloads between 41 and 160 data codewords. |
+| `Level4` (`4`) | 32 | Typical shipping labels and identity cards (161 to 320 data codewords). |
+| `Level5` (`5`) | 64 | Heavy-duty industrial environments subject to dirt and tears. |
+| `Level6` (`6`) | 128 | High-density symbols on rough or outdoor surfaces. |
+| `Level7` (`7`) | 256 | Critical documents where physical mutilation is expected. |
+| `Level8` (`8`) | 512 | Maximum error correction capability. |
+
+The following example configures the control to use `Level5` error correction:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -133,7 +177,11 @@ export class AppComponent {}
 
 {% previewsample "page.domainurl/samples/barcode/barcodegenerator/errorcorrectionlevel-cs1" %}
 
-### Row height ratio
+> **Auto Behavior:** When set to `Auto`, the component evaluates data length and assigns Level 2, Level 3, Level 4, or Level 5. If the symbol exceeds available capacity under the calculated level, the control automatically steps down to lower levels (never falling below `Level2`). If a fixed level is specified and cannot fit, validation triggers the [`invalid`](#invalid) event.
+
+### Row Height Ratio
+
+The [`rowHeightRatio`](#rowheightratio) property defines the height of each row in relation to the module width (the width of the narrowest bar). In compliance with ISO/IEC 15438, the minimum supported ratio is `3`. Increasing this ratio elongates the rows vertically, which facilitates scanning with low-resolution handheld scanners.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -146,7 +194,11 @@ export class AppComponent {}
 
 {% previewsample "page.domainurl/samples/barcode/barcodegenerator/rowheightratio-cs1" %}
 
-### Compact PDF417
+### Compact PDF417 (Truncated)
+
+Standard PDF417 features row indicators and stop patterns on both the left and right margins of the symbol. Compact PDF417 (also called Truncated PDF417) saves horizontal space by omitting the right row indicator and shortening the stop pattern to a single module bar.
+
+Enable this format by setting [`isCompact`](#iscompact) to `true`.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -159,7 +211,14 @@ export class AppComponent {}
 
 {% previewsample "page.domainurl/samples/barcode/barcodegenerator/iscompact-cs1" %}
 
-### Rows and columns
+> **Usage Recommendation:** Compact PDF417 should be used in clean, controlled scanning environments (such as cleanroom document handling) where horizontal label width is constrained. Standard PDF417 is recommended for rugged or consumer-facing workflows.
+
+### Fixed Rows and Columns
+
+By default, both [`rows`](#rows) and [`columns`](#columns) default to `0`, prompting the layout engine to calculate dimensions automatically based on aspect ratio and container boundaries. When a specific label template is required, you can pin either or both properties:
+
+* `rows`: Pin the vertical row count between `3` and `90`.
+* `columns`: Pin the horizontal data column count between `1` and `30`.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -172,11 +231,16 @@ export class AppComponent {}
 
 {% previewsample "page.domainurl/samples/barcode/barcodegenerator/rows-columns-cs1" %}
 
-## Customization
+#### Layout Rules and Constraints
 
-### Custom size
+* The product of `rows × columns` must not exceed `928` codewords (the ISO/IEC 15438 theoretical symbol limit).
+* If fixed rows and columns do not provide enough capacity for the combined data and error correction codewords, the control halts rendering and raises the [`invalid`](#invalid) event.
 
-Sets the control to 500 px by 200 px; the symbol is scaled to fit.
+## Barcode Customization
+
+### Dimensions and Sizing
+
+Control the overall footprint of the barcode with the [`width`](#width) and [`height`](#height) properties. The generator automatically preserves quiet zones (at least two modules on each side), snaps module bars to whole-pixel boundaries where space permits, and centers the symbol vertically and horizontally.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -191,9 +255,15 @@ import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator
 export class AppComponent {}
 ```
 
-### Display text customization
+### Display Text
 
-Shows the text `PDF417` above the symbol instead of the encoded value.
+The [`displayText`](#displaytext) property configures a human-readable text string alongside the barcode symbol. This allows you to show an abbreviated, formatted, or human-friendly label independent of the raw encoded string.
+
+Supported `DisplayTextModel` configurations include:
+* `text`: The string to display.
+* `position`: Place the text at `'Top'` or `'Bottom'`.
+* `alignment`: Align the text to `'Left'`, `'Center'`, or `'Right'`.
+* `visibility`: Set to `false` to suppress display text rendering while maintaining the symbol.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -207,16 +277,18 @@ import { PDF417GeneratorModule, DisplayTextModel } from '@syncfusion/ej2-angular
 })
 export class AppComponent {
   public displayText: DisplayTextModel = {
-    text: 'PDF417',
+    text: 'PDF417 Document ID',
     position: 'Top',
     alignment: 'Center'
   };
 }
 ```
 
-### Background and foreground color customization
+> **Ellipsis Truncation:** Display text renders on a single line. If the text string exceeds the total container width, the generator automatically truncates the label and renders an ellipsis (`...`).
 
-Applies a light gray background and a dark red foreground color. Keep strong contrast between the two colors so the symbol stays scannable.
+### Colors
+
+The foreground bar color and background surface color can be customized using the [`foreColor`](#forecolor) and [`backgroundColor`](#backgroundcolor) properties. 
 
 ```typescript
 import { Component } from '@angular/core';
@@ -231,9 +303,11 @@ import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator
 export class AppComponent {}
 ```
 
-### Margin customization
+> **Scanning Contrast Warning:** Always maintain strong optical contrast between `foreColor` and `backgroundColor` (for example, dark bars over light backgrounds). Scanners rely on red-light reflectance; using light bars on dark backgrounds or low-contrast color pairs may prevent successful barcode decoding.
 
-Adds a 20 px margin on every side of the symbol.
+### Margins and Quiet Zones
+
+The [`margin`](#margin) property applies outer spacing in pixels around the barcode symbol, ensuring quiet zones remain intact when the control is placed beside other UI elements:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -251,115 +325,84 @@ export class AppComponent {
 }
 ```
 
-## Compaction Modes
-
-### Auto
-
-`Auto` is the default mode. It chooses Text, Numeric, and Byte compaction per segment to reduce the number of codewords.
-
-### Text
-
-Use `Text` for printable ASCII, tab, line feed, and carriage return.
-
-### Numeric
-
-Use `Numeric` for digits only. It is the most compact choice for long numeric values.
-
-### Byte
-
-Use `Byte` for any character, including non-ASCII content.
-
-## Error Correction
-
-PDF417 uses Reed-Solomon error correction. Higher levels add more error-correction codewords, which improves resilience but increases symbol size.
-
-- `Level0` adds 2 codewords
-- `Level1` adds 4 codewords
-- `Level2` adds 8 codewords
-- `Level3` adds 16 codewords
-- `Level4` adds 32 codewords
-- `Level5` adds 64 codewords
-- `Level6` adds 128 codewords
-- `Level7` adds 256 codewords
-- `Level8` adds 512 codewords
-
-### Auto level
-
-`Auto` uses the recommended level for the data length. If the recommended level does not fit, the implementation steps down until the symbol fits, but never below level 2.
-
-### Recommended usage
-
-- Use `Level2` or `Level3` for small payloads.
-- Use `Level4` or `Level5` for typical labels and documents.
-- Use higher levels when the barcode may be damaged, folded, or partially obscured.
-
-## Layout Customization
-
-### Automatic rows and columns
-
-When both `rows` and `columns` are `0`, the component calculates the layout automatically.
-
-### Fixed rows
-
-Set `rows` to a value from `3` to `90` when the symbol must keep a fixed height.
-
-### Fixed columns
-
-Set `columns` to a value from `1` to `30` when the symbol must keep a fixed width.
-
-### Limitation rules
-
-- Rows must be `0` or `3` to `90`.
-- Columns must be `0` or `1` to `30`.
-- Rows × columns must not exceed `928`.
-- If the requested layout cannot hold the encoded data, the `invalid` event is triggered.
-
-### Row height ratio
-
-The row height ratio controls how tall each row is relative to the module width. The minimum supported value is `3`.
-
-## Compact PDF417
-
-Compact PDF417 omits the right row indicator and shortens the stop pattern. It produces a narrower symbol than standard PDF417, which is useful when horizontal space is limited.
-
 ## UTF-8 and International Text
 
-When the value contains non-ASCII characters, the encoder writes the data as UTF-8 and includes the ECI designator so scanners can decode the symbol correctly.
+When the input value contains non-ASCII or multi-byte Unicode characters (such as Asian, Cyrillic, or European accented scripts), the encoder uses UTF-8 byte encoding combined with an **ECI** (Extended Channel Interpretation) designator. This guarantees conforming PDF417 scanners restore the original multi-byte character strings accurately upon decoding.
 
-## Display Text
-
-Display text is rendered as a single line. If the text is wider than the available width, it is shortened with an ellipsis.
-
-Text alignment supports `Left`, `Center`, and `Right`, and the position supports `Top` and `Bottom`.
+Because UTF-8 characters require multiple bytes per code point, international text payloads consume more codewords than standard ASCII strings. Plan for slightly larger symbol dimensions or use `Auto` error correction when encoding multi-byte strings.
 
 ## Exporting
 
-### exportImage
+The PDF417 Generator provides client-side export capabilities through public methods, supporting lossless vector-quality downloads as well as in-memory base64 conversion.
 
-Exports the barcode as an image and downloads it in the browser. See the [BarcodeGenerator exportImage API](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGenerator#exportimage).
+### Exporting to Image File (`exportImage`)
 
-### exportAsBase64Image
+The `exportImage` method generates a direct browser download of the barcode in either `'PNG'` or `'JPG'` format.
 
-Returns the barcode image as a base64 string. See the [BarcodeGenerator exportAsBase64Image API](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGenerator#exportasbase64image).
+```typescript
+import { Component, ViewChild } from '@angular/core';
+import { PDF417Generator, PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
+import { BarcodeExportType } from '@syncfusion/ej2-barcode-generator';
 
-## Events
+@Component({
+  imports: [PDF417GeneratorModule],
+  standalone: true,
+  selector: 'app-container',
+  template: `
+    <ejs-pdf417generator #barcode id="barcode" value="Syncfusion"></ejs-pdf417generator>
+    <button (click)="onExport()">Download Barcode</button>
+  `
+})
+export class AppComponent {
+  @ViewChild('barcode') public barcode?: PDF417Generator;
 
-### invalid
+  public onExport(): void {
+    this.barcode?.exportImage('pdf417_symbol', 'PNG' as BarcodeExportType);
+  }
+}
+```
 
-Fires when the value or a property is invalid, or when the value does not fit in the symbol. The event argument is `ValidateEvent` (from `@syncfusion/ej2-barcode-generator`) with a `message: string` that describes the validation failure.
+### Exporting to Base64 String (`exportAsBase64Image`)
 
-Common validation cases (each reports a localized message):
+The `exportAsBase64Image` method returns a `Promise<string>` containing the data URI base64 representation of the barcode. This is ideal for binding directly to `<img>` tags, attaching to emails, or transmitting inside JSON payloads to backend services.
 
-- Empty value
-- Invalid text value for `Text` compaction
-- Invalid numeric value for `Numeric` compaction
-- Unsupported compaction mode
-- Unsupported error correction level
-- Invalid row or column values
-- Capacity exceeded
-- Insufficient width or height
+```typescript
+import { AfterViewInit, Component, ViewChild } from '@angular/core';
+import { PDF417Generator, PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
+import { BarcodeExportType } from '@syncfusion/ej2-barcode-generator';
 
-#### Example
+@Component({
+  imports: [PDF417GeneratorModule],
+  standalone: true,
+  selector: 'app-container',
+  template: `<ejs-pdf417generator #barcode id="barcode" value="Syncfusion"></ejs-pdf417generator>`
+})
+export class AppComponent implements AfterViewInit {
+  @ViewChild('barcode') public barcode?: PDF417Generator;
+
+  public async ngAfterViewInit(): Promise<void> {
+    const base64Data: string | undefined = await this.barcode?.exportAsBase64Image('PNG' as BarcodeExportType);
+    console.log('Base64 Barcode Output:', base64Data);
+  }
+}
+```
+
+## Validation and Events
+
+### The `invalid` Event
+
+When input properties or data values fail validation, the PDF417 Generator suppresses barcode rendering and triggers the `invalid` event. The event argument is an instance of `ValidateEvent` containing a `message: string` detailing the failure.
+
+The event triggers under the following conditions:
+* The `value` string is empty or undefined.
+* Input contains characters unsupported by the specified `compactionMode`.
+* Configured `rows` is not `0` or `3`–`90`.
+* Configured `columns` is not `0` or `1`–`30`.
+* Configured `errorCorrectionLevel` is invalid.
+* Total required codewords exceed the `928` codeword ceiling.
+* The requested symbol dimensions are smaller than the combined margins, display text, and minimum module requirements.
+
+The following example captures the validation error message and displays it in the UI:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -371,11 +414,11 @@ import { ValidateEvent } from '@syncfusion/ej2-barcode-generator';
   standalone: true,
   selector: 'app-container',
   template: `
-    <ejs-pdf417generator id="barcode" type="PDF417" value="SYNCFUSION" width="300px" height="120px"
+    <ejs-pdf417generator id="barcode" value="SYNCFUSION" width="300px" height="120px"
       (invalid)="onInvalid($event)">
     </ejs-pdf417generator>
     @if (errorMessage) {
-      <p role="alert">{{ errorMessage }}</p>
+      <p class="error-notification" role="alert">{{ errorMessage }}</p>
     }
   `
 })
@@ -388,365 +431,141 @@ export class AppComponent {
 }
 ```
 
-## API documentation
+## Localization and Accessibility
 
-The properties below are members of the `PDF417Generator` class. Defaults, types, and ranges are taken from the `PDF417Generator` source; types for `compactionMode` and `errorCorrectionLevel` are exported from `@syncfusion/ej2-barcode-generator`.
+### Accessibility (ARIA)
 
-### value
+The PDF417 Generator provides built-in accessibility compliance:
+* An accessible `role="img"` attribute is applied to the root element.
+* An `aria-label` attribute is generated automatically (for example, `PDF417 barcode: Syncfusion`). The label displays the configured `displayText.text` when present, or defaults to the encoded `value`.
+* Long values are truncated inside the accessibility string to maintain readability for screen readers.
 
-Defines the value to encode in the PDF417 symbol.
+### Localization (L10n)
 
-- **Type:** `string`
-- **Default value:** `undefined`
-- **Accepted values:** Any string. Empty values are invalid and trigger the `invalid` event.
-- **Use case:** Encode shipment IDs, document numbers, or inventory codes.
-
-### mode
-
-Defines the rendering mode of the barcode.
-
-- **Type:** `RenderingMode` (`'SVG' | 'Canvas'`)
-- **Default value:** `'SVG'`
-- **Accepted values:** `'SVG'` or `'Canvas'`
-- **Use case:** Use SVG for crisp scaling; use Canvas when a raster surface is preferred.
-
-### width
-
-Defines the width of the control.
-
-- **Type:** `string | number`
-- **Default value:** `'100%'`
-- **Accepted values:** A CSS length string (for example `'300px'`, `'100%'`) or a numeric pixel value.
-- **Use case:** Reserve enough horizontal space for dense symbols.
-
-### height
-
-Defines the height of the control.
-
-- **Type:** `string | number`
-- **Default value:** `'100%'`
-- **Accepted values:** A CSS length string or a numeric pixel value.
-- **Use case:** Provide enough vertical space for the selected number of rows.
-
-### compactionMode
-
-Defines how the value is compacted into codewords. `PDF417CompactionMode` is a string-literal union type, not an enum.
-
-- **Type:** `PDF417CompactionMode`
-- **Default value:** `'Auto'`
-- **Accepted values:** `'Auto' | 'Text' | 'Numeric' | 'Byte'`
-- **Use case:** Use `Auto` for general data; use `Numeric` for long digit strings; use `Byte` for non-ASCII content.
-
-### errorCorrectionLevel
-
-Defines the error correction level. `PDF417ErrorCorrectionLevel` is a numeric enum where level `n` adds `2^(n+1)` error-correction codewords.
-
-- **Type:** `PDF417ErrorCorrectionLevel`
-- **Default value:** `PDF417ErrorCorrectionLevel.Auto` (`-1`)
-- **Accepted values:** `Auto (-1)`, `Level0 (0)` through `Level8 (8)`
-- **Auto behavior:** Level 2 for up to 40 data codewords, level 3 for up to 160, level 4 for up to 320, and level 5 above that.
-- **Use case:** Increase the level when the barcode may be damaged or partially obscured.
-
-### rows
-
-Defines the number of rows in the symbol.
-
-- **Type:** `number`
-- **Default value:** `0`
-- **Accepted values:** `0` for automatic calculation, or an integer from `3` to `90`.
-- **Use case:** Fix the symbol height when the layout must match a pre-designed label.
-
-### columns
-
-Defines the number of data columns.
-
-- **Type:** `number`
-- **Default value:** `0`
-- **Accepted values:** `0` for automatic calculation, or an integer from `1` to `30`.
-- **Use case:** Fix the symbol width when the layout must fit a specific horizontal space.
-
-### isCompact
-
-Renders a Compact (truncated) PDF417 symbol, which omits the right row indicator and shortens the stop pattern to save horizontal space.
-
-- **Type:** `boolean`
-- **Default value:** `false`
-- **Accepted values:** `true` or `false`
-- **Use case:** Save horizontal space when the scanning workflow supports compact PDF417.
-
-### rowHeightRatio
-
-Defines the height of each row as a multiple of the module width (the narrowest bar). ISO/IEC 15438 requires at least `3`. The symbol keeps this ratio and is centered in any extra space.
-
-- **Type:** `number`
-- **Default value:** `3`
-- **Accepted values:** Any number greater than or equal to `3`.
-- **Use case:** Increase row height when a taller symbol is acceptable and easier to scan.
-
-### displayText
-
-Defines the text properties for the PDF417 barcode. The text is drawn on a single line; text wider than the available width is shortened with an ellipsis.
-
-- **Type:** `DisplayTextModel` (exported from `@syncfusion/ej2-angular-barcode-generator`)
-- **Default value:** empty `DisplayTextModel`
-- **Accepted values:** A `DisplayTextModel` object with `text`, `position`, `alignment`, and `visibility` properties.
-- **Use case:** Show a friendly label instead of the full encoded value.
-
-### margin
-
-Defines the margin properties for the PDF417 barcode.
-
-- **Type:** `MarginModel` (exported from `@syncfusion/ej2-barcode-generator`)
-- **Default value:** empty `MarginModel` (the component applies a quiet zone on every side)
-- **Accepted values:** A `MarginModel` object with `left`, `right`, `top`, and `bottom` numeric properties.
-- **Use case:** Leave enough quiet space around the control in labels or printed documents.
-
-### backgroundColor
-
-Defines the background color of the PDF417 barcode.
-
-- **Type:** `string`
-- **Default value:** `'white'`
-- **Accepted values:** Any valid CSS color string.
-- **Use case:** Match the barcode area to the surrounding design.
-
-### foreColor
-
-Defines the foreground color of the PDF417 barcode.
-
-- **Type:** `string`
-- **Default value:** `'black'`
-- **Accepted values:** Any valid CSS color string.
-- **Use case:** Apply branding while keeping enough contrast for scanning.
-
-### symbolInfo (read-only)
-
-Returns the rows, columns, and error correction level of the last successful render. Available on the component instance after rendering.
-
-- **Type:** `{ rows: number; columns: number; errorCorrectionLevel: number } | null`
-- **Use case:** Display the actual layout used by the encoder (for example, `'12 rows x 6 columns, error correction level 4.'`).
-
-## Methods
-
-The PDF417 Angular wrapper is `PDF417Generator`, exported from `@syncfusion/ej2-angular-barcode-generator`. Reference it with `@ViewChild('barcode')` and access the instance in `ngAfterViewInit()` — `@ViewChild` references are not available in `ngOnInit()`. Each example below uses the standalone `PDF417GeneratorModule`.
-
-### destroy
-
-Destroys the PDF417 component and releases its resources. The example below wires `destroy` to a button so it runs on user intent rather than immediately after component initialization.
+Screen reader labels and validation messages can be localized into different languages through the Syncfusion `L10n` library using the `'PDF417Generator'` locale group:
 
 ```typescript
-import { Component, ViewChild } from '@angular/core';
-import { PDF417Generator, PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
+import { Component } from '@angular/core';
+import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
+import { L10n } from '@syncfusion/ej2-base';
+
+L10n.load({
+  'de': {
+    'PDF417Generator': {
+      ariaLabel: 'PDF417-Strichcode',
+      EmptyValue: 'Der Wert ist leer.',
+      InvalidTextValue: 'Der Text enthält ungültige Zeichen.',
+      InvalidNumericValue: 'Der Wert enthält keine Ziffern.',
+      InvalidCompactionMode: 'Der Komprimierungsmodus wird nicht unterstützt.',
+      InvalidErrorCorrectionLevel: 'Die Fehlerkorrekturstufe wird nicht unterstützt.',
+      InvalidRows: 'Die Zeilenanzahl ist ungültig.',
+      InvalidColumns: 'Die Spaltenanzahl ist ungültig.',
+      CapacityExceeded: 'Der Wert ist zu lang.',
+      InsufficientSize: 'Die Größe reicht nicht aus, um das Symbol zu zeichnen.'
+    }
+  }
+});
 
 @Component({
   imports: [PDF417GeneratorModule],
   standalone: true,
   selector: 'app-container',
-  template: `
-    <ejs-pdf417generator #barcode id="barcode" type="PDF417" value="Syncfusion"></ejs-pdf417generator>
-    <button (click)="onDestroy()">Destroy</button>
-  `
+  template: `<ejs-pdf417generator id="barcode" width="300px" height="120px" value="Syncfusion" locale="de"></ejs-pdf417generator>`
 })
-export class AppComponent {
-  @ViewChild('barcode') public barcode?: PDF417Generator;
-
-  public onDestroy(): void {
-    this.barcode?.destroy();
-  }
-}
+export class AppComponent {}
 ```
 
-### getModuleName
-
-Returns the module name of the component. The PDF417 component returns the string `'PDF417Generator'`.
-
-```typescript
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
-import { PDF417Generator, PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
-
-@Component({
-  imports: [PDF417GeneratorModule],
-  standalone: true,
-  selector: 'app-container',
-  template: `<ejs-pdf417generator #barcode id="barcode" type="PDF417" value="Syncfusion"></ejs-pdf417generator>`
-})
-export class AppComponent implements AfterViewInit {
-  @ViewChild('barcode') public barcode?: PDF417Generator;
-
-  public ngAfterViewInit(): void {
-    console.log(this.barcode?.getModuleName()); // 'PDF417Generator'
-  }
-}
-```
-
-### exportImage
-
-Exports the barcode as an image of the requested `BarcodeExportType` and triggers a browser download. Valid export types are `'PNG'` and `'JPG'`.
-
-```typescript
-import { Component, ViewChild } from '@angular/core';
-import { PDF417Generator, PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
-import { BarcodeExportType } from '@syncfusion/ej2-barcode-generator';
-
-@Component({
-  imports: [PDF417GeneratorModule],
-  standalone: true,
-  selector: 'app-container',
-  template: `
-    <ejs-pdf417generator #barcode id="barcode" type="PDF417" value="Syncfusion"></ejs-pdf417generator>
-    <button (click)="onExport()">Download PNG</button>
-  `
-})
-export class AppComponent {
-  @ViewChild('barcode') public barcode?: PDF417Generator;
-
-  public onExport(): void {
-    this.barcode?.exportImage('pdf417', 'PNG' as BarcodeExportType);
-  }
-}
-```
-
-### exportAsBase64Image
-
-Returns a `Promise<string>` that resolves to a base64-encoded image of the requested export type.
-
-```typescript
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
-import { PDF417Generator, PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
-import { BarcodeExportType } from '@syncfusion/ej2-barcode-generator';
-
-@Component({
-  imports: [PDF417GeneratorModule],
-  standalone: true,
-  selector: 'app-container',
-  template: `<ejs-pdf417generator #barcode id="barcode" type="PDF417" value="Syncfusion"></ejs-pdf417generator>`
-})
-export class AppComponent implements AfterViewInit {
-  @ViewChild('barcode') public barcode?: PDF417Generator;
-
-  public async ngAfterViewInit(): Promise<void> {
-    const image: string | undefined = await this.barcode?.exportAsBase64Image('JPG' as BarcodeExportType);
-    console.log(image);
-  }
-}
-```
-
-### dataBind
-
-Re-renders the symbol with the current property values. Call this after changing component properties programmatically (for example, after updating `value`, `width`, or `errorCorrectionLevel`).
-
-```typescript
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
-import { PDF417Generator, PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
-
-@Component({
-  imports: [PDF417GeneratorModule],
-  standalone: true,
-  selector: 'app-container',
-  template: `<ejs-pdf417generator #barcode id="barcode" type="PDF417" value="Syncfusion"></ejs-pdf417generator>`
-})
-export class AppComponent implements AfterViewInit {
-  @ViewChild('barcode') public barcode?: PDF417Generator;
-
-  public ngAfterViewInit(): void {
-    this.barcode!.value = 'Updated value';
-    this.barcode!.dataBind();
-  }
-}
-```
-
-## Accessibility
-
-The component sets `role="img"` and generates an `aria-label` for the barcode element. The label uses the display text when available; otherwise, it uses the barcode value. For very long values, the accessible text is truncated to keep the label manageable for assistive technologies.
+Supported localization keys:
+* `ariaLabel`
+* `EmptyValue`
+* `InvalidTextValue`
+* `InvalidNumericValue`
+* `InvalidCompactionMode`
+* `InvalidErrorCorrectionLevel`
+* `InvalidRows`
+* `InvalidColumns`
+* `CapacityExceeded`
+* `InsufficientSize`
 
 ## RTL Behavior
 
-PDF417 is not mirrored in RTL mode because the symbol structure must remain in its encoded order for scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
+When an application runs in right-to-left (RTL) mode, the PDF417 barcode symbol itself is **never mirrored**. In accordance with barcode standards, module sequences, row indicators, and stop patterns must preserve their strict left-to-right scanning structure. However, accompanying display text and label alignments will honor RTL layout flow.
 
-## Responsive and Refresh Behavior
+## Responsive Layout and Refreshing
 
-The component uses the container size when it renders and recalculates the symbol when properties change. If the container is resized, update the `width` or `height` property (or call `dataBind()`) on the `PDF417Generator` instance to redraw the barcode with the new size.
-
-## Framework Integration
-
-The `PDF417Generator` component integrates seamlessly into Angular applications. It supports Angular's component binding, property binding, event binding, and template-driven patterns for a native Angular development experience.
+The PDF417 component calculates module widths based on its container size upon rendering. If the containing element or browser window is resized dynamically, update the `width` or `height` properties or call the [`dataBind()`](#databind) method to recalculate and redraw the symbol.
 
 ## API Reference
 
-### Class: `PDF417Generator`
+### Properties
 
-| Member | Type | Default | Description |
-| --- | --- | --- | --- |
-| `value` | `string` | `undefined` | Value to encode. |
-| `mode` | `RenderingMode` | `'SVG'` | Rendering mode (`'SVG'` or `'Canvas'`). |
-| `width` | `string \| number` | `'100%'` | Width of the control. |
-| `height` | `string \| number` | `'100%'` | Height of the control. |
-| `compactionMode` | `PDF417CompactionMode` | `'Auto'` | Data compaction mode. |
-| `errorCorrectionLevel` | `PDF417ErrorCorrectionLevel` | `Auto` | Error correction level. |
-| `rows` | `number` | `0` | Number of rows (`0` = auto, otherwise `3`–`90`). |
-| `columns` | `number` | `0` | Number of data columns (`0` = auto, otherwise `1`–`30`). |
-| `isCompact` | `boolean` | `false` | Enables compact PDF417 rendering. |
-| `rowHeightRatio` | `number` | `3` | Height of each row relative to module width. |
-| `displayText` | `DisplayTextModel` | `{}` | Display text settings. |
-| `margin` | `MarginModel` | `{}` | Outer margin settings. |
-| `backgroundColor` | `string` | `'white'` | Background color. |
-| `foreColor` | `string` | `'black'` | Foreground color. |
-| `symbolInfo` | `{ rows; columns; errorCorrectionLevel } \| null` | — | Last render layout (read-only). |
+| Property | Type | Default | Description |
+|---|---|---|---|
+| `value` | `string` | `undefined` | The string data to encode in the PDF417 symbol. Empty strings trigger the `invalid` event. |
+| `mode` | `RenderingMode` | `'SVG'` | The rendering surface for the barcode. Accepts `'SVG'` or `'Canvas'`. |
+| `width` | `string \| number` | `'100%'` | The total width of the barcode control. Accepts CSS length units (e.g., `'300px'`, `'100%'`) or numeric pixel values. |
+| `height` | `string \| number` | `'100%'` | The total height of the barcode control. Accepts CSS length units or numeric pixel values. |
+| `compactionMode` | `PDF417CompactionMode` | `'Auto'` | The data compaction mode. Accepts `'Auto'`, `'Text'`, `'Numeric'`, or `'Byte'`. |
+| `errorCorrectionLevel` | `PDF417ErrorCorrectionLevel` | `Auto` (`-1`) | The Reed-Solomon error correction level. Accepts `Auto` or `Level0` through `Level8`. |
+| `rows` | `number` | `0` | Number of rows in the symbol. `0` sets automatic calculation; otherwise accepts integers from `3` to `90`. |
+| `columns` | `number` | `0` | Number of data columns in the symbol. `0` sets automatic calculation; otherwise accepts integers from `1` to `30`. |
+| `isCompact` | `boolean` | `false` | When set to `true`, generates a Compact PDF417 symbol (omits right row indicator and shortens stop bar). |
+| `rowHeightRatio` | `number` | `3` | Height of each row relative to the module width. Minimum allowable value is `3`. |
+| `displayText` | `DisplayTextModel` | `{}` | Settings for human-readable display text (`text`, `position`, `alignment`, `visibility`). |
+| `margin` | `MarginModel` | `{}` | Outer quiet zone margins (`left`, `right`, `top`, `bottom`) in pixels. |
+| `backgroundColor` | `string` | `'white'` | Background color of the barcode control. Accepts any valid CSS color string. |
+| `foreColor` | `string` | `'black'` | Foreground bar color of the barcode symbol. Accepts any valid CSS color string. |
+| `symbolInfo` | `{ rows: number; columns: number; errorCorrectionLevel: number } \| null` | `null` | *(Read-only)* Details the actual rows, columns, and error correction level selected during the last successful render. |
 
-### Type alias: `PDF417CompactionMode`
+### Type Aliases and Enums
 
-`PDF417CompactionMode` is a string-literal union type, not a TypeScript enum.
+#### `PDF417CompactionMode`
+A TypeScript string-literal union specifying the data compression strategy:
+* `'Auto'`: Dynamically selects the most compact compaction mode per data segment.
+* `'Text'`: Compresses printable ASCII, carriage returns, line feeds, and tabs (~2 chars/codeword).
+* `'Numeric'`: Compresses numeric digits `0`–`9` (~2.9 digits/codeword).
+* `'Byte'`: Encodes raw 8-bit bytes (~1.2 bytes/codeword).
 
-| Value | Description |
-| --- | --- |
-| `'Auto'` | Selects the most compact mode for each segment of the value. |
-| `'Text'` | Encodes printable ASCII, tab, line feed, and carriage return. |
-| `'Numeric'` | Encodes digits `0`–`9` only. |
-| `'Byte'` | Encodes any character as bytes. |
+#### `PDF417ErrorCorrectionLevel`
+A numeric enum mapping error correction levels to Reed-Solomon codewords:
+* `Auto` (`-1`): Recommended level based on data length.
+* `Level0` (`0`): 2 codewords added.
+* `Level1` (`1`): 4 codewords added.
+* `Level2` (`2`): 8 codewords added.
+* `Level3` (`3`): 16 codewords added.
+* `Level4` (`4`): 32 codewords added.
+* `Level5` (`5`): 64 codewords added.
+* `Level6` (`6`): 128 codewords added.
+* `Level7` (`7`): 256 codewords added.
+* `Level8` (`8`): 512 codewords added.
 
-### Enum: `PDF417ErrorCorrectionLevel`
-
-Level `n` adds `2^(n+1)` error correction codewords.
-
-| Value | Numeric value | Codewords |
-| --- | --- | --- |
-| `Auto` | `-1` | Recommended level for the data length. |
-| `Level0` | `0` | 2 |
-| `Level1` | `1` | 4 |
-| `Level2` | `2` | 8 |
-| `Level3` | `3` | 16 |
-| `Level4` | `4` | 32 |
-| `Level5` | `5` | 64 |
-| `Level6` | `6` | 128 |
-| `Level7` | `7` | 256 |
-| `Level8` | `8` | 512 |
-
-### Type alias: `BarcodeExportType`
-
-`BarcodeExportType` is a string-literal union type, not a TypeScript enum.
-
-| Value | Description |
-| --- | --- |
-| `'PNG'` | Exports the barcode as a PNG image. |
-| `'JPG'` | Exports the barcode as a JPEG image. |
+#### `BarcodeExportType`
+A TypeScript string-literal union specifying target image formats:
+* `'PNG'`: Lossless raster format.
+* `'JPG'`: Compressed lossy image format.
 
 ### Methods
 
-| Method | Returns | Description |
-| --- | --- | --- |
-| `destroy()` | `void` | Destroys the component and releases its resources. |
-| `getModuleName()` | `string` | Returns the module name (`'PDF417Generator'`). |
-| `dataBind()` | `void` | Re-renders the symbol with the current property values. |
-| `exportImage(fileName, exportType)` | `void` | Downloads the barcode as an image. `exportType` is a `BarcodeExportType`. |
-| `exportAsBase64Image(exportType)` | `Promise<string>` | Returns the barcode as a base64 image string. `exportType` is a `BarcodeExportType`. |
+| Method | Parameters | Return Type | Description |
+|---|---|---|---|
+| `dataBind()` | None | `void` | Forces the barcode component to apply all pending property changes and re-render immediately. |
+| `exportImage(fileName, exportType)` | `fileName: string`, `exportType: BarcodeExportType` | `void` | Exports the barcode and initiates a browser file download. |
+| `exportAsBase64Image(exportType)` | `exportType: BarcodeExportType` | `Promise<string>` | Generates and returns a base64-encoded image data URL string. |
+| `getModuleName()` | None | `string` | Returns the module name of the component (`'PDF417Generator'`). |
+| `destroy()` | None | `void` | Releases memory and event listeners and removes the component from the DOM. |
+
+### Events
+
+| Event | Event Argument | Description |
+|---|---|---|
+| `invalid` | `ValidateEvent` (`{ message: string }`) | Triggered when validation fails or when data cannot fit in the requested symbol layout. |
 
 ## Limitations and Constraints
 
-- Rows must be within `3` to `90` when fixed.
-- Columns must be within `1` to `30` when fixed.
-- The symbol cannot exceed `928` codewords.
-- A quiet zone is enforced on every side of the symbol.
-- `rowHeightRatio` must be `3` or greater.
-- Very large values may trigger `CapacityExceeded`.
-- If automatic error correction cannot fit the data, the implementation steps down to a lower level, but not below `Level2`.
-- UTF-8 input uses more bytes than ASCII input, so international text can increase symbol size.
+* **Codeword Capacity:** A single PDF417 symbol cannot exceed `928` total codewords (data plus error correction).
+* **Row Range:** Fixed `rows` values must fall between `3` and `90` (`0` sets automatic calculation).
+* **Column Range:** Fixed `columns` values must fall between `1` and `30` (`0` sets automatic calculation).
+* **Row Height Ratio:** The `rowHeightRatio` must be greater than or equal to `3` to comply with ISO/IEC 15438.
+* **Quiet Zones:** Scanning requires quiet zone spacing on all four sides. Avoid reducing container margins below two modules.
+* **Auto Step-down:** When set to `Auto`, error correction automatically steps down to lower levels if the data does not fit, but will never step down below `Level2`.
+* **UTF-8 Expansion:** Multi-byte international text increases byte consumption, resulting in larger symbol layouts than equivalent ASCII character counts.
