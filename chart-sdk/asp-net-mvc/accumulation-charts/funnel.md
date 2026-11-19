@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Funnel in ASP.NET MVC Accumulation Charts
 
-To render a funnel series, use the series [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Funnel`.
+To render a funnel series, use the series [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_Type) as `Funnel`.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}

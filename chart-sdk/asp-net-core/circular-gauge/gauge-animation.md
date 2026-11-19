@@ -15,7 +15,7 @@ All of the elements in the Circular Gauge, such as the axis lines, ticks, labels
 1. The axis line will be animated in the rendering direction (clockwise or anticlockwise).
 2. Each tick line and label will then be animated.
 3. If available, ranges will be animated.
-4. If available, pointers will be animated in the same way as [pointer animation](https://ej2.syncfusion.com/aspnetcore/documentation/circular-gauge/gauge-pointers#animation).
+4. If available, pointers will be animated in the same way as [pointer animation](https://help.syncfusion.com/chart-sdk/asp-net-core/circular-gauge/gauge-pointers#animation).
 5. If available, annotations will be animated.
 
 The animation of the Circular Gauge is demonstrated in the following example.
@@ -28,5 +28,5 @@ The animation of the Circular Gauge is demonstrated in the following example.
 
 ![Circular Gauge with Animation](../circular-gauge/images/animation.gif)
 
-> Only the pointer of the Circular Gauge can be animated individually, not the axis lines, ticks, labels, ranges, and annotations. You can refer this [link](https://ej2.syncfusion.com/aspnetcore/documentation/circular-gauge/gauge-pointers#animation) to enable only pointer animation.
+> Only the pointer of the Circular Gauge can be animated individually, not the axis lines, ticks, labels, ranges, and annotations. You can refer this [link](https://help.syncfusion.com/chart-sdk/asp-net-core/circular-gauge/gauge-pointers#animation) to enable only pointer animation.
 

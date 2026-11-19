@@ -18,7 +18,7 @@ The Syncfusion React Chart component supports binding data from a MySQL database
 
 This implementation uses the following architecture:
 
-```text
+```
 React Chart Component
         ↓
 HTTP Request / Fetch API
@@ -60,7 +60,7 @@ Create a database and table to store chart data.
 
 Open MySQL Workbench and execute the following SQL script:
 
-```sql
+```
 CREATE DATABASE chartdb;
 
 USE chartdb;
@@ -87,7 +87,7 @@ After executing the script, the `sales_data` table contains monthly sales record
 
 Open the terminal in Visual Studio Code and run the following commands:
 
-```bash
+```
 dotnet new webapi -n ChartMySQL.Server
 cd ChartMySQL.Server
 code .
@@ -99,7 +99,7 @@ This creates an ASP.NET Core Web API project that will be used to retrieve data 
 
 Install the required packages for LINQ2DB, MySQL connectivity, and ASP.NET Core integration.
 
-```bash
+```
 dotnet add package linq2db
 dotnet add package linq2db.MySql
 dotnet add package linq2db.AspNet
@@ -123,7 +123,7 @@ Create a folder named `Models` in the ASP.NET Core project.
 
 Create a file named `SalesData.cs` inside the `Models` folder.
 
-```csharp
+```
 using LinqToDB.Mapping;
 
 [Table("sales_data")]
@@ -154,7 +154,7 @@ Create a folder named `Data` in the ASP.NET Core project.
 
 Create a file named `AppDataConnection.cs` inside the `Data` folder.
 
-```csharp
+```
 using LinqToDB;
 using LinqToDB.Data;
 using LinqToDB.DataProvider.MySql;
@@ -193,7 +193,7 @@ public class AppDataConnection : DataConnection
 
 Open `appsettings.json` and add the MySQL connection string.
 
-```json
+```
 {
   "ConnectionStrings": {
     "MySqlConn": "Server=localhost;Port=3306;Database=chartdb;User Id=root;Password=YOUR_PASSWORD;"
@@ -217,7 +217,7 @@ Replace `YOUR_PASSWORD` with your MySQL password.
 
 Open `Program.cs` and replace the contents with the following code:
 
-```csharp
+```
 using LinqToDB;
 using LinqToDB.AspNet;
 using LinqToDB.DataProvider.MySql;
@@ -266,7 +266,7 @@ app.Run();
 
 Create a file named `ChartController.cs` inside the `Controllers` folder.
 
-```csharp
+```
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
@@ -299,7 +299,7 @@ The `Get` action retrieves all records from the `sales_data` table and returns t
 
 Run the API project:
 
-```bash
+```
 dotnet run
 ```
 
@@ -313,7 +313,7 @@ Replace `xxxx` with the actual port shown in the terminal.
 
 Expected JSON response:
 
-```json
+```
 [
   {
     "id": 1,
@@ -348,7 +348,7 @@ Expected JSON response:
 
 Open a new terminal and run:
 
-```bash
+```
 npx create-react-app chart-mysql-client
 
 cd chart-mysql-client
@@ -358,7 +358,7 @@ cd chart-mysql-client
 
 Run the following commands:
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts
 
 npm install @syncfusion/ej2-base
@@ -370,7 +370,7 @@ npm install @syncfusion/ej2-base
 
 Open `src/App.js` and replace the contents with the following:
 
-```jsx
+```
 import React, { useEffect, useState } from 'react';
 
 import {
@@ -442,7 +442,7 @@ export default App;
 
 Example:
 
-```text
+```
 http://localhost:5073/api/chart
 ```
 
@@ -450,13 +450,13 @@ http://localhost:5073/api/chart
 
 Run the following command:
 
-```bash
+```
 npm start
 ```
 
 Open the browser:
 
-```text
+```
 http://localhost:3000
 ```
 
@@ -480,7 +480,7 @@ The Syncfusion React Chart displays MySQL data as a column chart.
 
 Ensure the following middleware is configured:
 
-```csharp
+```
 app.UseCors("cors");
 ```
 

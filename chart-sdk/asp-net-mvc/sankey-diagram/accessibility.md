@@ -69,7 +69,6 @@ The Sankey Chart component follows the [keyboard interaction](https://www.w3.org
 
 The Sankey Chart component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/sankey.html" %}
 
 ## See also
 

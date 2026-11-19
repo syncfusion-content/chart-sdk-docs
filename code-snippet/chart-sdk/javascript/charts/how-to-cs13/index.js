@@ -41,7 +41,6 @@ var chart = new ej.charts.Chart({
         title: 'FB Penetration of Internet Audience',
         legendSettings: { visible: false },
         pointRender: shapeRender,
-    width:'650px',
     height: '350px'
     }, '#element');
 

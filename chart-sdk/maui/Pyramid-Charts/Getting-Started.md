@@ -15,7 +15,7 @@ This section explains how to populate the pyramid chart with data, a title, data
 
 To get started quickly with the [.NET MAUI Pyramid Chart](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.SfPyramidChart.html), you can check the following video.
 
-{% youtube "https://www.youtube.com/watch?v=wJhqKHduXTI&t=2s" %}
+<style>#MAUIPyramidChartVideoTutorial{width : 90% !important; height: 400px !important }</style> <iframe id='MAUIPyramidChartVideoTutorial' src='https://www.youtube.com/embed/wJhqKHduXTI'></iframe>
 
 {% tabcontents %}
 {% tabcontent Visual Studio %}
@@ -23,7 +23,7 @@ To get started quickly with the [.NET MAUI Pyramid Chart](https://help.syncfusio
 ## Prerequisites
 Before proceeding, ensure the following are set up:
 
-1. Install [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or later.
+1. Install [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later.
 2. Set up a .NET MAUI environment with Visual Studio 2022 v17.12 or later.
 
 ## Step 1: Create a new .NET MAUI project
@@ -45,7 +45,7 @@ Before proceeding, ensure the following are set up:
 
 Before proceeding, ensure the following are set up:
 
-1. Install [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or later.
+1. Install [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later.
 2. Set up a .NET MAUI environment with Visual Studio Code.
 3. Ensure that the .NET MAUI workloads are installed and configured as described [here](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-9.0&tabs=visual-studio-code).
 
@@ -69,7 +69,7 @@ Before proceeding, ensure the following are set up:
 
 Before proceeding, ensure the following are set up:
 
-1. Install [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or later.
+1. Install [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later.
 2. Set up a .NET MAUI environment with JetBrains Rider 2024.3 or later.
 3. Make sure the MAUI workloads are installed and configured as described [here](https://www.jetbrains.com/help/rider/MAUI.html#before-you-start).
 
@@ -249,4 +249,4 @@ this.Content = chart;
 
 ![Pyramid chart in .NET MAUI Pyramid Chart](Getting-Started_Images/MAUI_pyramid_chart.png)
 
-You can download the Pyramid Charts Getting Started sample from [GitHub](https://github.com/SyncfusionExamples/GettingStarted_PyramidChart_MAUI).
+You can download the Pyramid Charts Getting Started sample from [GitHub](https://github.com/SyncfusionExamples/Getting-Started-with-.NET-MAUI-Pyramid-Chart).

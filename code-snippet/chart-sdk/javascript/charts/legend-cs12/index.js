@@ -1,45 +1,66 @@
 var chartData = [
-    { country: "USA", gold: 50, silver: 70, bronze: 45 },
-    { country: "China", gold: 40, silver: 60, bronze: 55 },
-    { country: "Japan", gold: 70, silver: 60, bronze: 50 },
-    { country: "Australia", gold: 60, silver: 56, bronze: 40 },
-    { country: "France", gold: 50, silver: 45, bronze: 35 },
-    { country: "Germany", gold: 40, silver: 30, bronze: 22 },
-    { country: "Italy", gold: 40, silver: 35, bronze: 37 },
-    { country: "Sweden", gold: 30, silver: 25, bronze: 27 }
+    { month: 'Jan', john: 100, peter: 120, david: 80 },
+    { month: 'Feb', john: 110, peter: 100, david: 90 },
+    { month: 'Mar', john: 125, peter: 140, david: 110 },
+    { month: 'Apr', john: 150, peter: 130, david: 120 },
+    { month: 'May', john: 140, peter: 160, david: 135 },
+    { month: 'Jun', john: 170, peter: 150, david: 145 }
 ];
-// declare the series colors
-var colors = ['#00BDAE', '#404041', '#357CD2'];
-var chart = new ej.charts.Chart({
-  primaryXAxis: {
-      valueType: 'Category',
-      title: 'Countries'
-  },
-  primaryYAxis: {
-      minimum: 0, maximum: 80,
-      interval: 20, title: 'Medals'
-  },
-  series:[{
-      dataSource: chartData,
-      xName: 'country', yName: 'gold',
-      name: 'Gold', type: 'Column'
-  }, {
-      dataSource: chartData,
-      xName: 'country', yName: 'silver',
-      name: 'Silver', type: 'Column'
-  }, {
-      dataSource: chartData,
-      xName: 'country', yName: 'bronze',
-      name: 'Bronze', type: 'Column'
-  }],
-  title: 'Olympic Medals',
-  loaded: (args) => {
-      var chart = document.querySelector('.e-chart');;
-      var legendTextCol = chart.querySelectorAll('[id*="chart_legend_text_"]');
-      for (let i = 0; i < legendTextCol.length; i++) {
-          //set the color to legend label
-          legendTextCol[i].setAttribute('fill', colors[i]);
-      }
-  },
-}, '#element');
 
+var chart = new ej.charts.Chart({
+    primaryXAxis: {
+        valueType: 'Category',
+        title: 'Months'
+    },
+    primaryYAxis: {
+        minimum: 0,
+        maximum: 200,
+        interval: 50,
+        title: 'Expenses'
+    },
+    series: [
+        {
+            dataSource: chartData,
+            xName: 'month',
+            yName: 'john',
+            name: 'John',
+            type: 'Line',
+            width: 2,
+            marker: {
+                visible: true
+            }
+        },
+        {
+            dataSource: chartData,
+            xName: 'month',
+            yName: 'peter',
+            name: 'Peter',
+            type: 'Line',
+            width: 2,
+            marker: {
+                visible: true
+            }
+        },
+        {
+            dataSource: chartData,
+            xName: 'month',
+            yName: 'david',
+            name: 'David',
+            type: 'Line',
+            width: 2,
+            marker: {
+                visible: true
+            }
+        }
+    ],
+    selectionMode: 'Series',
+    legendSettings: {
+        visible: true,
+        toggleVisibility: false
+    },
+    legendClick: function(args) {
+        document.getElementById('selectionStatus').textContent =
+            'Selected series: ' + args.series.name;
+    },
+    title: 'Monthly Expenses'
+}, '#element');

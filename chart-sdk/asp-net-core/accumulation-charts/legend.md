@@ -283,7 +283,7 @@ public class PieChartData
 
 ## Expose series and point in legendRender event
 
-The [`legendRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChartBuilder.html#Syncfusion_EJ2_Charts_AccumulationChartBuilder_LegendRender_System_String_) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html) model and `args.point` provides the underlying data point. Use these arguments to customize the legend item text dynamically based on series and point data.
+The [`legendRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_LegendRender) event is triggered for each legend item while the legend is being rendered. The `args.series` provides the underlying [`series`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html) model and `args.point` provides the underlying data point. Use these arguments to customize the legend item text dynamically based on series and point data.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

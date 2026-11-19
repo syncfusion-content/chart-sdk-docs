@@ -1,39 +1,101 @@
-var chart = new ej.charts.Chart();
-var data = new ej.data.DataManager(orderData).executeLocal(new ej.data.Query().take(100));
-var grid = new ej.grids.Grid({
+var orderData = [
+    { OrderID: 10248, OrderDate: new Date(2026, 0, 3), Freight: 32.38 },
+    { OrderID: 10249, OrderDate: new Date(2026, 0, 5), Freight: 11.61 },
+    { OrderID: 10250, OrderDate: new Date(2026, 0, 8), Freight: 65.83 },
+    { OrderID: 10251, OrderDate: new Date(2026, 0, 12), Freight: 41.34 },
+    { OrderID: 10252, OrderDate: new Date(2026, 0, 15), Freight: 51.30 },
+    { OrderID: 10253, OrderDate: new Date(2026, 0, 18), Freight: 58.17 },
+    { OrderID: 10254, OrderDate: new Date(2026, 0, 22), Freight: 22.98 },
+    { OrderID: 10255, OrderDate: new Date(2026, 0, 25), Freight: 148.33 },
+    { OrderID: 10256, OrderDate: new Date(2026, 0, 28), Freight: 13.97 },
+    { OrderID: 10257, OrderDate: new Date(2026, 1, 2), Freight: 81.91 },
+    { OrderID: 10258, OrderDate: new Date(2026, 1, 5), Freight: 140.51 },
+    { OrderID: 10259, OrderDate: new Date(2026, 1, 9), Freight: 3.25 },
+    { OrderID: 10260, OrderDate: new Date(2026, 1, 12), Freight: 55.09 },
+    { OrderID: 10261, OrderDate: new Date(2026, 1, 16), Freight: 3.05 },
+    { OrderID: 10262, OrderDate: new Date(2026, 1, 20), Freight: 48.29 }
+];
 
-    dataSource: data,
+var chart = new ej.charts.Chart({
+    primaryXAxis: {
+        valueType: 'DateTime',
+        intervalType: 'Days',
+        labelFormat: 'MMM d',
+        title: 'Order date',
+        edgeLabelPlacement: 'Shift'
+    },
+    primaryYAxis: {
+        title: 'Freight',
+        minimum: 0,
+        labelFormat: '${value}'
+    },
+    series: [{
+        type: 'Line',
+        dataSource: [],
+        xName: 'OrderDate',
+        yName: 'Freight',
+        name: 'Freight',
+        width: 2,
+        marker: {
+            visible: true
+        },
+        animation: {
+            enable: false
+        }
+    }],
+    legendSettings: {
+        visible: false
+    },
+    title: 'Freight for the Current Grid Page'
+}, '#Chart');
+
+var grid;
+
+function updateChartFromGrid() {
+    var records = grid.getCurrentViewRecords();
+
+    chart.series[0].dataSource = records.slice();
+    chart.refresh();
+
+    document.getElementById('recordStatus').textContent =
+        records.length + ' Grid records displayed in the Chart.';
+}
+
+grid = new ej.grids.Grid({
+    dataSource: orderData,
     allowPaging: true,
-    pageSettings: { pageSize: 10 },
-    columns: [
-        { field: 'OrderDate', headerText: 'Order Date', width: 130, format: 'yMd', textAlign: 'Right' },
-        { field: 'Freight', width: 120, format: 'C2', textAlign: 'Right' }
-    ],
+    pageSettings: {
+        pageSize: 5
+    },
+    columns: [{
+        field: 'OrderID',
+        headerText: 'Order ID',
+        width: 110,
+        textAlign: 'Right',
+        isPrimaryKey: true
+    }, {
+        field: 'OrderDate',
+        headerText: 'Order Date',
+        width: 140,
+        type: 'date',
+        format: 'yMd',
+        textAlign: 'Right'
+    }, {
+        field: 'Freight',
+        headerText: 'Freight',
+        width: 110,
+        type: 'number',
+        format: 'C2',
+        textAlign: 'Right'
+    }],
     dataBound: function () {
-        chart = new ej.charts.Chart({
-            //Initializing Primary X Axis
-            primaryXAxis: {
-                valueType: 'DateTime',
-                intervalType: 'Days'
-            },
-            series: [
-                {
-                    type: 'Line',
-                    dataSource: grid.getCurrentViewRecords(),
-                    xName: 'OrderDate', width: 2, marker: {
-                        visible: true
-                    },
-                    yName: 'Freight', name: 'Germany'
-                },
-            ],
-
-        }, '#Chart');
+        updateChartFromGrid();
     },
     actionComplete: function (args) {
         if (args.requestType === 'paging') {
-            chart.series[0].dataSource = grid.getCurrentViewRecords();
-            chart.refresh();
+            updateChartFromGrid();
         }
     }
-}, '#Grid');
+});
 
+grid.appendTo('#Grid');

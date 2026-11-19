@@ -12,7 +12,7 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Print
 
-The rendered chart can be printed directly from the browser by calling the public method print. You can pass array of ID of elements or element to this method. By default, it takes element of the chart.
+The rendered chart can be printed directly from the browser by calling the public `print` method. You can pass an array of element IDs or a single element to this method. By default, it uses the chart element.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -23,21 +23,19 @@ The rendered chart can be printed directly from the browser by calling the publi
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Export
 
-The rendered chart can be exported to `JPEG`, `PNG`, `SVG`, `PDF`, `XLSX`, or `CSV` format using the export method in chart. The input parameters for this method are `type` for format and `fileName` for result.
+The rendered chart can be exported to `JPEG`, `PNG`, `SVG`, `PDF`, `XLSX`, or `CSV` format using the `export` method on the chart. The required input parameters for this method are `type` for the format and `fileName` for the result.
 
-The optional parameters for this method are,
-* `Orientation` - either portrait or landscape mode during PDF export,
-* `Controls` - pass collections of controls for multiple export,
-* `Width` - width of chart export,
-* `Height` - height of chart export,
-* `IsVertical` -  decides the chart export in vertical or horizontal direction,
-* `Header` - header for the exported chart,
-* `Footer` - footer for the exported chart, and
-* `ExportToMultiplePages` - decides to export multiple charts on separate pages for PDF export.
+The optional parameters for this method are:
+* `orientation` - either portrait or landscape mode during PDF export,
+* `controls` - pass a collection of controls for multiple exports,
+* `width` - width of the chart export,
+* `height` - height of the chart export,
+* `isVertical` - decides whether the chart is exported in a vertical or horizontal direction,
+* `header` - header for the exported chart,
+* `footer` - footer for the exported chart, and
+* `exportToMultiplePages` - decides whether to export multiple charts on separate pages for PDF export.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -79,7 +77,7 @@ The headers and footers can be positioned anywhere on the PDF page using the `x`
 
 ### Exporting charts into separate page during the PDF export
 
-During PDF export, set the `ExportToMultiplePage` parameter to **true** to export each chart as a separate page.
+During PDF export, set the `ExportToMultiplePages` parameter to **true** to export each chart as a separate page.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -90,11 +88,9 @@ During PDF export, set the `ExportToMultiplePage` parameter to **true** to expor
 {% endhighlight %}
 {% endtabs %}
 
+### Export with optional parameters
 
-<!-- markdownlint-disable MD036 -->
-**Export with optional parameters**
-<!-- markdownlint-disable MD036 -->
-The rendered chart can be exported to specific orientation, width and height by passing it as optional parameters in the export method of chart.
+The rendered chart can be exported to a specific orientation, width, and height by passing them as optional parameters in the `export` method of the chart.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -105,13 +101,11 @@ The rendered chart can be exported to specific orientation, width and height by 
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Multiple chart export
 
-You can export the multiple charts in single page by passing the multiple chart objects in the export method of chart. To export multiple charts in a single page, follow the given steps:
+You can export multiple charts on a single page by passing the multiple chart objects in the `export` method of the chart. To export multiple charts in a single page, follow these steps:
 
-Initially, render more than one chart to export, and then add button to export the multiple charts. In button click, call the export method in charts, and then pass the multiple chart objects in the export method.
+First, render more than one chart to export, and then add a button to export the multiple charts. On the button click, call the `export` method on the charts, and then pass the multiple chart objects to the method.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -124,7 +118,7 @@ Initially, render more than one chart to export, and then add button to export t
 
 ## Exporting chart using base64 string
 
-The chart can be exported as an image in the form of a base64 string by utilizing HTML canvas. This process involves rendering the chart onto a canvas element and then converting the canvas content to a base64 string.
+The chart can be exported as an image in the form of a base64 string using an HTML canvas. This process involves rendering the chart onto a canvas element and then converting the canvas content to a base64 string.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -135,12 +129,9 @@ The chart can be exported as an image in the form of a base64 string by utilizin
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Excel export
 
 You can export the rendered chart data to Excel in either `XLSX` or `CSV` format. The `ExcelProperties` property in the [`BeforeExport`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_BeforeExport) event allows users to customize the exported Excel sheet by modifying row, column, and cell properties before the file is generated. You can customize row titles, column titles, cell values, as well as row and column widths.
-
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -150,6 +141,4 @@ You can export the rendered chart data to Excel in either `XLSX` or `CSV` format
 {% include code-snippet/chart-sdk/asp-net-core/charts/getting-started/excel-export/excel-export.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 

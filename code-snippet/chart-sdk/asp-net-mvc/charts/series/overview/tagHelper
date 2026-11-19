@@ -1,0 +1,16 @@
+<ejs-chart id="chart-container"
+           title="Efficiency of oil-fired power production">
+    <e-chart-primaryxaxis interval="1">
+    </e-chart-primaryxaxis>
+
+    <e-chart-primaryyaxis title="Expense">
+    </e-chart-primaryyaxis>
+
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource"
+                  xName="x"
+                  yName="y"
+                  type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+        </e-series>
+    </e-series-collection>
+</ejs-chart>

@@ -1,3 +1,4 @@
+import { numericData } from "./datasource";
 var chart = new ej.charts.Chart({
       series: [{
                 dataSource: numericData,

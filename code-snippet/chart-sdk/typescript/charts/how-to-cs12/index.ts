@@ -24,7 +24,6 @@ let chart: Chart = new Chart({
                 yName: 'y', animation: { enable: false }
             },
         ],
-    width:'650px',
     height: '350px'
     },'#element');
 

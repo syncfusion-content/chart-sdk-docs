@@ -109,4 +109,4 @@ Numeric formats such as currency and percentage can be displayed in tooltips and
 
 ## See also
 
-* [Localization in Blazor Maps component](https://blazor.syncfusion.com/documentation/maps/localization)
+* [Localization in Blazor Maps component](https://help.syncfusion.com/chart-sdk/blazor/maps/localization)

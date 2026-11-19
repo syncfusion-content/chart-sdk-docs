@@ -8,7 +8,7 @@ import {
     AccumulationDistributionIndicator, AtrIndicator, BollingerBands, EmaIndicator, MomentumIndicator, MacdIndicator, RsiIndicator, SmaIndicator, StochasticIndicator, TmaIndicator,
     IBeforeIndicatorChangeEventArgs, IIndicatorChangedEventArgs
 } from '@syncfusion/ej2-react-charts';
-import { chartData } from '../datasource';
+import { chartData } from './datasource';
 
 function App() {
     const primaryXAxis: Object = { valueType: 'DateTime' };

@@ -24,39 +24,16 @@ After finishing the backend setup, the next step is to integrate the React Chart
 
 Open a terminal in the `client` folder, confirm that `package.json` is present, and run the following commands to install the required Syncfusion packages:
 
-```bash
+```
 npm install @syncfusion/ej2-react-charts --save
 npm install @syncfusion/ej2-data --save
 ```
 
-### Step 2: Add CSS styles
-
-Open `src/index.css` and add the required Syncfusion Chart styles:
-
-```css
-@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
-```
-
-Import the stylesheet in the `main.jsx` application entry point:
-
-```jsx
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import './index.css';
-import App from './App.jsx';
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
-```
-
-### Step 3: Create the Custom Adaptor
+### Step 2: Create the Custom Adaptor
 
 Integrating a Custom adaptor with the React Chart requires configuring the [`DataManager`](https://ej2.syncfusion.com/react/documentation/data/getting-started) as the communication bridge between the Chart component and the backend data source. The Custom adaptor serves as a customization layer that provides complete control over how data is requested and how the response is transformed before being rendered by the Chart.
 
-#### Step 3.1: Creating an Extended UrlAdaptor:
+#### Step 2.1: Creating an Extended UrlAdaptor:
 
 The first step involves creating a custom adaptor by extending the existing `UrlAdaptor` class. This extension allows modification of the default behavior to meet specific application requirements.
 
@@ -78,7 +55,7 @@ The Syncfusion DataManager provides built-in extensibility points that allow cus
 
 `client/src/adaptors/CustomAdaptor.js`
 
-```js
+```
 import { UrlAdaptor } from '@syncfusion/ej2-data';
 
 export class CustomAdaptor extends UrlAdaptor {
@@ -118,7 +95,7 @@ export class CustomAdaptor extends UrlAdaptor {
 
 > Always call `super.processResponse.apply(this, arguments)` from your override so the base adaptor still performs its standard unwrapping (for example, extracting `result` from a `{ result, count }` envelope).
 
-#### Step 3.2: Integrating the Custom Adaptor into the React Chart:
+#### Step 2.2: Integrating the Custom Adaptor into the React Chart:
 
 After creating the custom adaptor class, integrate it with the React Chart in the main application file (typically `App.jsx`). This requires importing the necessary modules and configuring the Chart to use the custom adaptor:
 
@@ -128,9 +105,11 @@ After creating the custom adaptor class, integrate it with the React Chart in th
 * Assign `CustomAdaptor` to the `adaptor` property so the Chart uses the customized pipeline.
 * Bind the `DataManager` to the series `dataSource` property, enabling the Chart to automatically apply the custom logic during data communication.
 
+{% raw %}
+
 `client/src/data.js`
 
-```js
+```
 import { DataManager } from '@syncfusion/ej2-data';
 import { CustomAdaptor } from './adaptors/CustomAdaptor';
 
@@ -142,7 +121,7 @@ export const chartDataManager = new DataManager({
 
 `client/src/App.jsx`
 
-```jsx
+```
 import React from 'react';
 
 import {
@@ -202,6 +181,7 @@ function App() {
 
 export default App;
 ```
+{% endraw %}
 
 > Replace `http://localhost:5050/api/chart-data` with the actual API endpoint that returns data in JSON format.
 
@@ -226,14 +206,14 @@ The backend server supplies the raw chart data that the Custom Adaptor transform
 1. Open a terminal and navigate to the `server` folder.
 2. Start the server using the script defined in `package.json`:
 
-   ```bash
+   ```
    cd server
    npm start
    ```
 
 3. Wait until the terminal displays a message that the server is listening. The sample Express server prints the following on a successful start:
 
-   ```text
+   ```
    Server running at http://localhost:5050
    Chart API available at http://localhost:5050/api/chart-data
    ```
@@ -249,14 +229,14 @@ The React client renders the Chart and uses the Custom Adaptor to fetch and tran
 1. Open a second terminal and navigate to the `client` folder.
 2. Start the Vite development server:
 
-   ```bash
+   ```
    cd client
    npm run dev
    ```
 
 3. Wait until Vite prints a local URL. The default output is similar to:
 
-   ```text
+   ```
    Local: http://localhost:5173/
    ```
 
@@ -266,7 +246,7 @@ The React client renders the Chart and uses the Custom Adaptor to fetch and tran
 
 The following diagram shows how a request travels from the React Chart through the Custom Adaptor to the backend service, and how the response is shaped before being rendered.
 
-```mermaid
+```
 sequenceDiagram
     participant Browser
     participant ChartComponent
@@ -295,7 +275,7 @@ After the Chart renders, confirm that the data is actually flowing through the C
 3. Locate the request to `http://localhost:5050/api/chart-data`. The request should include the headers and query parameters added by `beforeSend` and `processQuery` in the Custom Adaptor.
 4. Open the response and verify that the JSON contains items shaped as `{ x, y }`, for example:
 
-   ```json
+   ```
    {
      "result": [
        { "x": "Jan", "y": 120 },
@@ -319,7 +299,6 @@ To stop the application, switch to each terminal and press `Ctrl + C`. Stop the 
 | Custom headers are not sent | Headers not set on the request | Verify `beforeSend` calls `request.setRequestHeader(...)` before the request is dispatched |
 | Query parameters are missing | Parameters not added to the query | Ensure `processQuery` calls `query.addParams(...)` and returns the result of `super.processQuery.apply(this, arguments)` |
 | CORS error in the console | Server does not allow the client origin | Enable CORS on the server (for example, `app.use(cors())`) and restrict it to the client origin in production |
-| Chart is unstyled | Syncfusion theme not imported | Add `@import '../node_modules/@syncfusion/ej2-base/styles/material.css';` to `client/src/index.css` |
 
 ## Method override summary
 

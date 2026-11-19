@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Chart Dimensions in ASP.NET Core Charts
 
 ## Size for Container
 
-Chart can render to its container size. You can set the size via inline or CSS as demonstrated below.
+A chart can render to its container size. You can set the size via inline style or CSS as demonstrated below.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -24,17 +23,13 @@ Chart can render to its container size. You can set the size via inline or CSS 
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Size for Chart
 
-You can also set size for chart directly through [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Height) properties.
+You can also set the size for the chart directly through the [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Width) and [`height`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Height) properties.
 
-<!-- markdownlint-disable MD036 -->
-**In Pixel**
-<!-- markdownlint-disable MD036 -->
+### In pixel
 
-You can set the size of chart in pixel as demonstrated below.
+You can set the size of the chart in pixels as demonstrated below.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -45,11 +40,9 @@ You can set the size of chart in pixel as demonstrated below.
 {% endhighlight %}
 {% endtabs %}
 
+### In percentage
 
-
-**In Percentage**
-
-By setting value in percentage, chart gets its dimension with respect to its container. For example, when the height is ‘50%’, chart renders to half of the container height.
+By setting a value as a percentage, the chart gets its dimensions with respect to its container. For example, when the height is `50%`, the chart renders to half of the container height.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -60,6 +53,4 @@ By setting value in percentage, chart gets its dimension with respect to its co
 {% endhighlight %}
 {% endtabs %}
 
-
-
-N> When you do not specify the size, it takes `450px` as the height and window size as its width.
+> When you do not specify the size, the chart takes `450px` as the height and the window size as its width by default.

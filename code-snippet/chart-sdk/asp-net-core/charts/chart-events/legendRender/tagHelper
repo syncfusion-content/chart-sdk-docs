@@ -1,0 +1,20 @@
+
+<ejs-chart id="container" title="Olympic Medals" legendRender="legendRenderHandler">
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Category" title="Countries"></e-chart-primaryxaxis>
+    <e-chart-primaryyaxis title="Medals" minimum="0" maximum="80" interval="20"></e-chart-primaryyaxis>
+    <e-chart-legendsettings visible="true" position="Top"></e-chart-legendsettings>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="Gold" xName="country" yName="gold"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column"></e-series>
+        <e-series dataSource="ViewBag.dataSource" name="Silver" xName="country" yName="silver"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column"></e-series>
+        <e-series dataSource="ViewBag.dataSource" name="Bronze" xName="country" yName="bronze"
+                   type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column"></e-series>
+    </e-series-collection>
+</ejs-chart>
+
+<script>
+    function legendRenderHandler(args) {
+        console.log('legendRender event was triggered');
+    }
+</script>
