@@ -12,7 +12,9 @@ appliesto: UI Component Suite, Chart SDK
 
 # DateTime axis in JavaScript Charts
 
-## DateTime Axis
+The DateTime axis is designed to display time-based data on chart axes. It supports various date and time formats, customizable intervals, and range padding options for time-series visualization.
+
+## DateTime axis
 
 The DateTime axis uses a date-time scale and displays date-time values as axis labels based on the specified format. This axis type is ideal for visualizing time-based data such as trends, timelines, and time-series data.
 
@@ -27,9 +29,9 @@ The DateTime axis uses a date-time scale and displays date-time values as axis l
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs65" %}
 
-> Note: To use the Datetime axis, inject `DateTime` using `Chart.Inject(DateTime)` method and set the [`valueType`](../api/chart/axis#valuetype-string) property of the axis to `DateTime`.
+> **Important:** To use the DateTime axis, set the [`valueType`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#valuetype) property of the axis to `DateTime`.
 
-## DateTimeCategory Axis
+## DateTimeCategory axis
 
 The DateTimeCategory axis is used to render date-time values with non-linear intervals. This axis type is especially useful when certain time ranges, such as weekends or holidays, need to be excluded. In the following example, only business days are displayed within a week.
 
@@ -44,11 +46,10 @@ The DateTimeCategory axis is used to render date-time values with non-linear int
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs66" %}
 
->Note: To use the DateTimeCategory axis, inject `DateTimeCategory` using `Chart.Inject(DateTimeCategory)` method and set the [`valueType`](../api/chart/axis#valuetype-string) property of the axis to `DateTimeCategory`. The axis range can be controlled using the [`minimum`](../api/chart/axis#minimum-object), [`maximum`](../api/chart/axis#maximum-object), and [`interval`](../api/chart/axis#interval-number) properties.
 
 ### Range
 
-Range of an axis will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](../api/chart/axis#minimum-object), [`maximum`](../api/chart/axis#maximum-object) and [`interval`](../api/chart/axis#interval-number) property of the axis.
+The axis range is calculated automatically based on the provided data. You can also customize the range of the axis using the [`minimum`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#minimum), [`maximum`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#maximum), and [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#interval) properties of the axis.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -61,9 +62,9 @@ Range of an axis will be calculated automatically based on the provided data, yo
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs67" %}
 
-### Interval Customization
+### Interval customization
 
-Date-time intervals can be customized using the [`interval`](../api/chart/axis#interval-number) and [`intervalType`](../api/chart/axis#intervaltype-string) properties of the axis. For example, when the interval is set to `2` and the interval type is set to `Years`, the axis displays labels at two-year intervals.
+DateTime intervals can be customized using the [`interval`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#interval) and [`intervalType`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#intervaltype) properties of the axis. For example, when the interval is set to `2` and the interval type is set to `Years`, the axis displays labels at two-year intervals.
 
 The DateTime axis supports the following interval types:
 
@@ -86,17 +87,17 @@ The DateTime axis supports the following interval types:
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs68" %}
 
-**Applying Padding to the Range**
+### Applying padding to the range
 
-Padding can be applied to the minimum and maximum values of the axis range using the [`rangePadding`](../api/chart/axis#rangepadding-string) property. The DateTime axis supports the following range padding types:
+Padding can be applied to the minimum and maximum values of the axis range using the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) property. The DateTime axis supports the following range padding types:
 
 - None
 - Round
 - Additional
 
-**Datetime - None**
+#### DateTime - None
 
-When the [`rangePadding`](../api/chart/axis#rangepadding-string) property is set to `None`, the minimum and maximum values of the axis are calculated directly from the data values.
+When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) property is set to `None`, the minimum and maximum values of the axis are calculated directly from the data values.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -109,9 +110,9 @@ When the [`rangePadding`](../api/chart/axis#rangepadding-string) property is set
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs69" %}
 
-**Datetime - Round**
+#### DateTime - Round
 
-When the [`rangePadding`](../api/chart/axis#rangepadding-string) property is set to `Round`, the minimum and maximum values are rounded to the nearest interval boundary. For example, if the minimum value is January 15 and the interval type is set to `Months` with an interval of `1`, the axis minimum is adjusted to January 1.
+When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) property is set to `Round`, the minimum and maximum values are rounded to the nearest interval boundary. For example, if the minimum value is January 15 and the interval type is set to `Months` with an interval of `1`, the axis minimum is adjusted to January 1.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -124,9 +125,9 @@ When the [`rangePadding`](../api/chart/axis#rangepadding-string) property is set
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs70" %}
 
-**Datetime - Additional**
+#### DateTime - Additional
 
-When the [`rangePadding`](../api/chart/axis#rangepadding-string) property is set to `Additional`, an additional interval is added before the minimum and after the maximum values of the axis range to provide extra spacing.
+When the [`rangePadding`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#rangepadding) property is set to `Additional`, an additional interval is added before the minimum and after the maximum values of the axis range to provide extra spacing.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -139,9 +140,9 @@ When the [`rangePadding`](../api/chart/axis#rangepadding-string) property is set
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs71" %}
 
-## Label Format
+## Label format
 
-Date values displayed on the DateTime axis can be formatted using the [`labelFormat`](../api/chart/axis#labelformat-string) property. This property supports globalized date and time formats for clear and localized label rendering.
+Date values displayed on the DateTime axis can be formatted using the [`labelFormat`](https://ej2.syncfusion.com/javascript/documentation/api/chart/axis#labelformat) property. This property supports globalized date and time formats for clear and localized label rendering.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -185,7 +186,7 @@ The following table illustrates the output produced by applying commonly used da
 <tr>
 <td>new Date(2000, 03, 10)</td>
 <td>hm</td>
-<tdtd>
+<td>12:00 AM</td>
 <td>Displays the time in hours and minutes</td>
 </tr>
 <tr>
@@ -196,9 +197,11 @@ The following table illustrates the output produced by applying commonly used da
 </tr>
 </table>
 
-## Custom Label Format
+## Custom label format
 
-Axis also supports custom label format using placeholder like {value}°C, in which the value represent the axis label e.g 20°C.
+Use the `axisLabelRender` event to add custom text to DateTime axis labels. First, format the DateTime values using the `labelFormat` property, and then modify the generated label text in the `axisLabelRender` event.
+
+In the following example, the DateTime values are formatted using the abbreviated month format, and the text `Month:` is added before each axis label.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -210,3 +213,9 @@ Axis also supports custom label format using placeholder like {value}°C, in w
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs73" %}
+
+## See also
+
+* [Numeric axis in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/numeric-axis)
+* [Category axis in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/category-axis)
+* [Axis customization in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/axis)
