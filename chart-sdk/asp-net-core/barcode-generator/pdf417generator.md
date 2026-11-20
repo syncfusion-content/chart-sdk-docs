@@ -72,9 +72,18 @@ Add the PDF417 Barcode Generator tag helper to your page:
 
 ## PDF417
 
-PDF417 is a stacked two-dimensional barcode defined by ISO/IEC 15438. A symbol contains 3 to 90 rows, and each row has 1 to 30 data columns. It is widely used on identification cards, driver's licenses, boarding passes, shipping labels, and inventory documents because it can store a large amount of data and still be scanned by both linear scanners and imagers.
+PDF417 is a two-dimensional barcode that can store large amounts of text, numeric, and binary data. It is commonly used in applications such as shipping labels, identity cards, boarding passes, inventory tracking, and document management systems.
 
-PDF417 is a good choice when you need higher data capacity than linear barcodes, robust error correction, and a format that is practical for printed documents and transport labels.
+Unlike traditional one-dimensional barcodes, PDF417 can hold significantly more information and includes built-in error correction, allowing scanners to read the barcode even when it is partially damaged or obscured.
+
+The Syncfusion PDF417 Generator automatically:
+
+* Encodes the provided data into a PDF417 barcode.
+* Selects an efficient data compaction mode.
+* Applies appropriate error correction.
+* Calculates an optimal barcode layout based on the available size.
+
+For most scenarios, only the `value` property is required to generate a barcode.
 
 ## Basic PDF417 generation
 
@@ -204,7 +213,7 @@ PDF417 uses Reed-Solomon error correction to ensure data reliability. Higher err
 
 ### Error Correction Levels
 
-- `Auto`: Uses the recommended level based on the data length. If the recommended level does not fit, it steps down until the symbol fits, but never below Level2.
+- `Auto`: Automatically selects a level based on the data length. If the selected level does not fit, it steps down until the symbol fits, but never below Level2.
 - `Level0`: Adds 2 error correction codewords
 - `Level1`: Adds 4 error correction codewords
 - `Level2`: Adds 8 error correction codewords
@@ -217,7 +226,7 @@ PDF417 uses Reed-Solomon error correction to ensure data reliability. Higher err
 
 ### Auto level
 
-`Auto` uses the recommended level for the data length and automatically adjusts if necessary.
+`Auto` selects a level based on the data length and adjusts automatically if necessary.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -454,6 +463,26 @@ const imageString = await barcode.exportAsBase64Image('JPG');
 
 The component automatically sets `role="img"` and generates an `aria-label` for accessibility. The label uses the display text when available; otherwise, it uses the barcode value. For very long values, the accessible text is truncated to keep the label manageable for assistive technologies.
 
+## Localization
+
+Localization is supported through the Syncfusion `L10n` framework. Load the locale messages and set the `locale` attribute on the Tag Helper:
+
+```cshtml
+<script>
+var L10n = window.L10n;
+L10n.load({
+    'de': {
+        'PDF417Generator': {
+            ariaLabel: 'PDF417-Strichcode',
+            EmptyValue: 'Der Wert ist leer.'
+        }
+    }
+});
+</script>
+
+<ejs-pdf417generator id="pdf417" value="Syncfusion" locale="de"></ejs-pdf417generator>
+```
+
 ## Responsive and Refresh Behavior
 
 The component uses the container size when rendering. If the container is resized after the barcode is rendered, call the `refresh()` method to redraw the barcode with the new dimensions.
@@ -501,6 +530,16 @@ The PDF417 Barcode Generator integrates seamlessly into ASP.NET Core application
 | `exportImage(fileName, exportType)` | Downloads the barcode as an image. |
 | `exportAsBase64Image(exportType)` | Returns the barcode as a base64 image string. |
 
+## Best Practices
+
+* Use `Auto` compaction mode unless a specific encoding mode is required.
+* Use `Auto` error correction for most applications.
+* Ensure sufficient barcode width and height for the amount of encoded data.
+* Use high-contrast foreground and background colors.
+* Preserve adequate quiet zones around the barcode.
+* Test generated barcodes with the target scanner devices before production deployment.
+* Use standard PDF417 unless compact mode is required to save space.
+
 ## Limitations and Constraints
 
 - **Rows** must be within `3` to `90` when fixed, or `0` for automatic.
@@ -511,8 +550,4 @@ The PDF417 Barcode Generator integrates seamlessly into ASP.NET Core application
 - Very large values may trigger a capacity exceeded error.
 - If automatic error correction cannot fit the data, the implementation steps down to a lower level, but not below `Level2`.
 - UTF-8 input uses more bytes than ASCII input, so international text can increase symbol size and may require adjusting layout or error correction settings.
-
-## RTL Behavior
-
-PDF417 is not mirrored in RTL (right-to-left) mode because the symbol structure must remain in its encoded order for proper scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
 

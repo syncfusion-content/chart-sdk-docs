@@ -10,11 +10,20 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # PDF417Generator in React Barcode control
 
-## PDF417
+## PDF417 Overview
 
-PDF417 is a stacked two-dimensional barcode defined by ISO/IEC 15438. A symbol contains 3 to 90 rows, and each row has 1 to 30 data columns. It is widely used on identification cards, driver’s licenses, boarding passes, shipping labels, and inventory documents because it can store a large amount of data and still be scanned by both linear scanners and imagers.
+PDF417 is a two-dimensional barcode that can store large amounts of text, numeric, and binary data. It is commonly used in applications such as shipping labels, identity cards, boarding passes, inventory tracking, and document management systems.
 
-PDF417 is a good choice when you need higher data capacity than linear barcodes, robust error correction, and a format that is practical for printed documents and transport labels.
+Unlike traditional one-dimensional barcodes, PDF417 can hold significantly more information and includes built-in error correction, allowing scanners to read the barcode even when it is partially damaged or obscured.
+
+The Syncfusion PDF417 Generator automatically:
+
+* Encodes the provided data into a PDF417 barcode.
+* Selects an efficient data compaction mode.
+* Applies appropriate error correction.
+* Calculates an optimal barcode layout based on the available size.
+
+For most scenarios, only the `value` property is required to generate a barcode.
 
 ## Getting Started
 
@@ -24,7 +33,6 @@ PDF417 is a good choice when you need higher data capacity than linear barcodes,
 |-- @syncfusion/ej2-react-barcode-generator
     |-- @syncfusion/ej2-barcode-generator
     |-- @syncfusion/ej2-base
-    |-- @syncfusion/ej2-data
 ```
 
 ### Package import
@@ -95,31 +103,7 @@ ReactDOM.render(
 );
 ```
 
-## PDF417 Generator
-
-The `PDF417GeneratorComponent` renders a PDF417 symbol inside the target element. By default, it selects the compaction mode for each part of the value, uses the recommended error correction level, and calculates rows and columns automatically to fit the available space.
-
-The component renders in SVG mode by default and uses a `role="img"` accessibility role.
-
-## Basic Examples
-
-### Simple PDF417 barcode
-
-```typescript
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
-
-ReactDOM.render(
-  <PDF417GeneratorComponent
-    id="barcode"
-    width="320px"
-    height="140px"
-    value="SYNCFUSION PDF417"
-  />,
-  document.getElementById('element')
-);
-```
+## Barcode Customization
 
 ### Custom size
 
@@ -141,6 +125,7 @@ ReactDOM.render(
 
 ### Display text customization
 
+{% raw %}
 ```typescript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -160,7 +145,7 @@ ReactDOM.render(
   />,
   document.getElementById('element')
 );
-```
+```{% endraw %}
 
 ### Background and foreground color customization
 
@@ -184,6 +169,7 @@ ReactDOM.render(
 
 ### Margin customization
 
+{% raw %}
 ```typescript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -200,6 +186,7 @@ ReactDOM.render(
   document.getElementById('element')
 );
 ```
+{% endraw %}
 
 ## PDF417-specific samples
 
@@ -283,88 +270,6 @@ ReactDOM.render(
 
 {% previewsample "page.domainurl/code-snippet/barcode/pdf417generator/pdf417-cs5" %}
 
-## Customization
-
-### Custom size
-
-```typescript
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
-
-ReactDOM.render(
-  <PDF417GeneratorComponent
-    id="barcode"
-    width="500px"
-    height="200px"
-    value="Syncfusion"
-  />,
-  document.getElementById('element')
-);
-```
-
-### Display text customization
-
-```typescript
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
-
-ReactDOM.render(
-  <PDF417GeneratorComponent
-    id="barcode"
-    width="300px"
-    height="150px"
-    value="1234567890"
-    displayText={{
-      text: 'PDF417',
-      position: 'Top',
-      alignment: 'Center'
-    }}
-  />,
-  document.getElementById('element')
-);
-```
-
-### Background and foreColor customization
-
-```typescript
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
-
-ReactDOM.render(
-  <PDF417GeneratorComponent
-    id="barcode"
-    width="300px"
-    height="120px"
-    value="Syncfusion"
-    backgroundColor="#f7f7f7"
-    foreColor="#b91c1c"
-  />,
-  document.getElementById('element')
-);
-```
-
-### Margin customization
-
-```typescript
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
-
-ReactDOM.render(
-  <PDF417GeneratorComponent
-    id="barcode"
-    width="320px"
-    height="140px"
-    value="Syncfusion"
-    margin={{ left: 20, right: 20, top: 20, bottom: 20 }}
-  />,
-  document.getElementById('element')
-);
-```
-
 ## Compaction Modes
 
 ### Auto
@@ -399,13 +304,7 @@ PDF417 uses Reed-Solomon error correction. Higher levels add more error-correcti
 
 ### Auto level
 
-`Auto` uses the recommended level for the data length. If the recommended level does not fit, the implementation steps down until the symbol fits, but never below level 2.
-
-### Recommended usage
-
-- Use `Level2` or `Level3` for small payloads.
-- Use `Level4` or `Level5` for typical labels and documents.
-- Use higher levels when the barcode may be damaged, folded, or partially obscured.
+`Auto` selects a level based on the data length. If the selected level does not fit, the implementation steps down until the symbol fits, but never below level 2.
 
 ## Layout Customization
 
@@ -629,9 +528,28 @@ const imageString = await barcodeInstance.exportAsBase64Image('JPG');
 
 The component sets `role="img"` and generates an `aria-label` for the barcode element. The label uses the display text when available; otherwise, it uses the barcode value. For very long values, the accessible text is truncated to keep the label manageable for assistive technologies.
 
-## RTL Behavior
+## Localization
 
-PDF417 is not mirrored in RTL mode because the symbol structure must remain in its encoded order for scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
+Use the Syncfusion `L10n` framework to localize the screen reader label and validation messages. Set the component locale to the matching culture:
+
+```typescript
+import * as React from 'react';
+import { L10n } from '@syncfusion/ej2-base';
+import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
+
+L10n.load({
+    de: {
+        PDF417Generator: {
+            ariaLabel: 'PDF417-Strichcode',
+            EmptyValue: 'Der Wert ist leer.'
+        }
+    }
+});
+
+export default function App() {
+    return <PDF417GeneratorComponent value="Syncfusion" locale="de" />;
+}
+```
 
 ## Responsive and Refresh Behavior
 
@@ -675,7 +593,7 @@ The PDF417GeneratorComponent integrates seamlessly into React applications. It s
 
 | Value | Description |
 | --- | --- |
-| `Auto` | Uses the recommended level for the data length. |
+| `Auto` | Selects a level based on the data length. |
 | `Level0` | 2 error correction codewords. |
 | `Level1` | 4 error correction codewords. |
 | `Level2` | 8 error correction codewords. |
@@ -694,6 +612,16 @@ The PDF417GeneratorComponent integrates seamlessly into React applications. It s
 | `getModuleName()` | Returns `PDF417Generator`. |
 | `exportImage(fileName, exportType)` | Downloads the barcode as an image. |
 | `exportAsBase64Image(exportType)` | Returns the barcode as a base64 image string. |
+
+## Best Practices
+
+* Use `Auto` compaction mode unless a specific encoding mode is required.
+* Use `Auto` error correction for most applications.
+* Ensure sufficient barcode width and height for the amount of encoded data.
+* Use high-contrast foreground and background colors.
+* Preserve adequate quiet zones around the barcode.
+* Test generated barcodes with the target scanner devices before production deployment.
+* Use standard PDF417 unless compact mode is required to save space.
 
 ## Limitations and Constraints
 
