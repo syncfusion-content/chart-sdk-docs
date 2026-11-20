@@ -215,7 +215,7 @@ These relocation modes improve readability by relocating overlapping data labels
 
 ## Smart Label
 
-Smart Label places data labels of Cartesian series so that they do not overlap each other, the markers, or the plot area boundary. Enable it by setting the [`enableSmartLabels`](../api/chart#enablesmartlabels-boolean) property to `true`. The default value is `false`.
+Smart Label places data labels of Cartesian series so that they do not overlap each other, the markers, or the plot area boundary. Enable it by setting the [`enableSmartLabels`](https://ej2.syncfusion.com/documentation/api/chart#enablesmartlabels) property to `true`. The default value is `false`.
 
 How it works:
 
@@ -238,7 +238,7 @@ How it works:
 
 ### Duplicate data labels
 
-Use the [`showDuplicateLabels`](../api/chart#showduplicatelabels-boolean) property of the chart to control labels that have the same text at the same location, such as labels of multiple series with identical values.
+Use the [`showDuplicateLabels`](https://ej2.syncfusion.com/documentation/api/chart/#showduplicatelabels) property of the chart to control labels that have the same text at the same location, such as labels of multiple series with identical values.
 
 - `true` (default) - Renders all the labels.
 - `false` - Renders only the first label and skips the others. The first label is decided by the series order and then the point order.
