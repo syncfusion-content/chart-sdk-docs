@@ -11,7 +11,7 @@ appliesto: UI Component Suite, Chart SDK
 
 # Data labels in TypeScript Charts
 
-Data labels display the values of data points directly on the chart, reducing the need to reference axes for exact values. Enable data labels by setting the [`visible`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#visible) option to `true` in the `dataLabel` configuration. Labels automatically adjust to avoid overlapping and maintain readability.
+Data labels display the values of data points directly on the chart, reducing the need to reference axes for exact values. Enable data labels by setting the [`visible`](../api/chart/dataLabelSettingsModel#visible-boolean) option to `true` in the `dataLabel` configuration. Labels automatically adjust to avoid overlapping and maintain readability.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -28,9 +28,7 @@ Data labels display the values of data points directly on the chart, reducing th
 
 ## Position
 
-Use the [`position`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#position) property to place data labels at `Top`, `Middle`, `Bottom`, or `Outer` (applicable to column and bar series). Appropriate label positioning enhances clarity and preserves chart readability.
-
-> **Note:** The `Outer` position applies only to `Column`, `Bar`, `StackingColumn`, and `StackingBar` series types.
+Use the [`position`](../api/chart/dataLabelSettingsModel#position-string) property to place data labels at `Top`, `Middle`, `Bottom`, or `Outer` (applicable to column and bar series). Appropriate label positioning enhances clarity and preserves chart readability.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -43,9 +41,11 @@ Use the [`position`](https://ej2.syncfusion.com/documentation/api/chart/dataLabe
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/data-markers-cs2" %}
 
-## Data label template
+> Note: The `Outer` position applies only to column and bar series types.
 
-Customize label content using templates. Use placeholders such as `${point.x}` and `${point.y}` to display data point values. The [`template`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#template) property enables fully customizable and visually rich labels.
+## Data Label Template
+
+Customize label content using templates. Use placeholders such as `${point.x}` and `${point.y}` to display data point values. The [`template`](../api/chart/dataLabelSettingsModel#template-string) property enables fully customizable and visually rich labels.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -58,9 +58,9 @@ Customize label content using templates. Use placeholders such as `${point.x}` a
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/data-markers-cs3" %}
 
-## Text mapping
+## Text Mapping
 
-Display custom text using the [`name`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#name) property, which maps label text from a specific field in the data source. This feature is useful for descriptive or category‑based labels.
+Display custom text using the `name` property, which maps label text from a specific field in the data source. This feature is useful for descriptive or category‑based labels.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -75,7 +75,7 @@ Display custom text using the [`name`](https://ej2.syncfusion.com/documentation/
 
 ## Format
 
-Apply number or date formatting using the [`format`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#format) property. Global formatting symbols include:
+Apply number or date formatting using the [`format`](../api/chart/dataLabelSettings#format) property. Global formatting symbols include:
 
 - `n` – number format  
 - `p` – percentage format  
@@ -151,7 +151,7 @@ Apply number or date formatting using the [`format`](https://ej2.syncfusion.com/
 
 ## Margin
 
-Adjust spacing around labels using the [`margin`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#margin) property, which includes `left`, `right`, `bottom`, and `top` values. Margins prevent labels from overlapping chart elements.
+Adjust spacing around labels using the `margin` property, which includes `left`, `right`, `bottom`, and `top` values. Margins help prevent labels from overlapping chart elements.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -166,9 +166,7 @@ Adjust spacing around labels using the [`margin`](https://ej2.syncfusion.com/doc
 
 ## Customization
 
-Enhance label appearance using properties such as [`fill`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#fill) (background), [`border`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#border), and corner radius ([`rx`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#rx), [`ry`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#ry)). Refine text appearance using the [`font`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#font) settings, which support `color`, `fontFamily`, `fontWeight`, and `size`.
-
-> **Note:** The `rx` and `ry` properties require non-null `border` values to render rounded corners. If `border` is null, the corner radius properties are ignored.
+Enhance label appearance using properties such as `fill` (background), `border`, and corner radius (`rx`, `ry`). Refine text appearance using the `font` settings, which support `color`, `fontFamily`, `fontWeight`, and `size`.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -180,6 +178,8 @@ Enhance label appearance using properties such as [`fill`](https://ej2.syncfusio
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/data-markers-cs7" %}
+
+> Note: The `rx` and `ry` properties require non‑null `border` values.
 
 ### Handling overlapping data labels
 
@@ -301,6 +301,7 @@ Use the `seriesOverlapAction` property in `smartLabelSettings` to specify whethe
 
 ## Customizing Specific Point
 
+Customize individual markers or labels using the [`pointRender`](../api/chart#pointrender-emittypeipointrendereventargs) and [`textRender`](../api/chart#textrender-emittypeitextrendereventargs) events.  
 - `pointRender` modifies shape, color, or border of a point.  
 - `textRender` customizes the label text for specific points.
 
@@ -317,8 +318,7 @@ Use the `seriesOverlapAction` property in `smartLabelSettings` to specify whethe
 
 ## Show percentage based on each series points
 
-Calculate and display percentage values based on each series total using the [`seriesRender`](https://ej2.syncfusion.com/documentation/api/chart#seriesrender) and [`textRender`](https://ej2.syncfusion.com/documentation/api/chart#textrender) events.  
-
+Calculate and display percentage values based on each series’ total using the `seriesRender` and `textRender` events.  
 - In `seriesRender`, compute the total of `y` values.  
 - In `textRender`, calculate the percentage for each point and update the label text.
 
@@ -335,7 +335,7 @@ Calculate and display percentage values based on each series total using the [`s
 
 ## Last value label
 
-The [`lastValueLabel`](https://ej2.syncfusion.com/documentation/api/chart#lastvaluelabel) feature highlights the final data point in a series, making the latest trend or value easy to identify.
+The `lastValueLabel` feature highlights the final data point in a series, making the latest trend or value easy to identify.
 
 ### Enable last value label
 
@@ -369,7 +369,7 @@ Customize the appearance using properties such as `font`, `background`, `border`
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/last-value-label-customization" %}
 
-## See also
+## See Also
 
-* [Show total stacking values in data label](https://ej2.syncfusion.com/documentation/chart/how-to/stacking-total)
-* [Prevent the data label when the data value is 0](https://ej2.syncfusion.com/documentation/chart/how-to/prevent-data-label#prevent-the-data-label-when-the-data-value-is-0)
+* [Show total stacking values in data label](../chart/how-to/stacking-total)
+* [Prevent the data label when the data value is 0](../chart/how-to/prevent-data-label#prevent-the-data-label-when-the-data-value-is-0)
