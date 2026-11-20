@@ -1,12 +1,12 @@
 {% raw %}
 
 import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-import type { AxisModel, IPointRenderEventArgs } from "@syncfusion/ej2-react-charts";
+import * as ReactDOM from "react-dom";
+import { AxisModel, IPointRenderEventArgs } from "@syncfusion/ej2-react-charts";
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject,
          Category, CandleSeries }
 from '@syncfusion/ej2-react-charts';
-import type { EmitType } from '@syncfusion/ej2-base';
+import { EmitType } from '@syncfusion/ej2-base';
 import { chartData } from './datasource';
 
 function App() {
@@ -35,8 +35,7 @@ function App() {
 
 };
 export default App;
-const root = ReactDOM.createRoot(document.getElementById('charts') as HTMLElement);
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById("charts"));
 
 {% endraw %}
 
