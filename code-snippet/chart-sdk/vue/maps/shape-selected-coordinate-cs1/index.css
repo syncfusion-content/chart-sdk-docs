@@ -1,0 +1,19 @@
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#shapeSelectedPopup {
+    position: fixed;
+    display: none;
+    z-index: 1000;
+    padding: 10px 14px;
+    background-color: #ffffff;
+    color: #1e293b;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 13px;
+    pointer-events: none;
+}

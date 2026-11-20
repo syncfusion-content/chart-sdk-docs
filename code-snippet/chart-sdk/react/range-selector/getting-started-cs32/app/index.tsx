@@ -1,5 +1,3 @@
-{% raw %}
-
 
 import {
   StepLineSeries, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective,
@@ -17,7 +15,8 @@ function App() {
   return <RangeNavigatorComponent id='charts'
     labelPosition='Outside'
     tooltip={tooltip}
-    value={[12, 30]}>
+    value={[12, 30]}
+    type='StepLine'>
     <Inject services={[RangeTooltip, StepLineSeries]} />
     <RangenavigatorSeriesCollectionDirective>
       <RangenavigatorSeriesDirective dataSource={data} xName='x' yName='y'>
@@ -29,6 +28,3 @@ function App() {
 export default App;
 ReactDOM.render(<App />, document.getElementById("charts"));
 
-
-
-{% endraw %}

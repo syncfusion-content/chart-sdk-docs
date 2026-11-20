@@ -62,7 +62,7 @@ The Sparkline component's accessibility levels are ensured through an [accessibi
 
 The accessibility compliance of the Sparkline component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/spark-line-chart.html) in a new window to evaluate the accessibility of the Sparkline component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/spark-line-chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/sparkline-charts/accessibility-cs1" %}
 
 ## See also
 

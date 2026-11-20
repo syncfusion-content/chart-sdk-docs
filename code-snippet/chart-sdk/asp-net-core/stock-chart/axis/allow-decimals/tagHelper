@@ -1,0 +1,15 @@
+<ejs-stockchart id="stockChart">
+    <e-stockchart-primaryyaxis allowDecimals="false"></e-stockchart-primaryyaxis>
+    <e-stockchart-series-collection>
+        <e-stockchart-series
+            dataSource="ViewBag.dataSource"
+            type="Candle"
+            xName="x"
+            open="open"
+            high="high"
+            low="low"
+            close="close"
+            volume="volume">
+        </e-stockchart-series>
+    </e-stockchart-series-collection>
+</ejs-stockchart>
