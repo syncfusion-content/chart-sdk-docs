@@ -58,7 +58,7 @@ Before starting, ensure the following tools and packages are installed.
 | Software / Package | Recommended Version | Purpose |
 |---|---:|---|
 | Visual Studio Code | Latest | Development IDE |
-| .NET SDK | .NET 9 or compatible | Backend API runtime and build tools |
+| .NET SDK | .NET 10 or compatible | Backend API runtime and build tools |
 | Node.js | LTS version | React development runtime |
 | npm | Latest compatible version | Package manager for React dependencies |
 | SQLite | 3.x or later | Lightweight embedded database engine |

@@ -1,0 +1,4 @@
+@Html.EJS().RangeNavigator("rangeContainer").ValueType(Syncfusion.EJ2.Charts.RangeValueType.Double).AllowDecimals(false).Series(sr =>
+{
+    sr.DataSource(ViewBag.DataSource).XName("x").YName("y").Type(Syncfusion.EJ2.Charts.RangeNavigatorType.Area).Add();
+}).Render()
