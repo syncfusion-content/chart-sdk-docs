@@ -12,6 +12,5 @@ function App()Â {
 
 }
 export default App;
-const root = ReactDOM.createRoot(document.getElementById('smithchart'));
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById('smithchart'));
 {% endraw %}

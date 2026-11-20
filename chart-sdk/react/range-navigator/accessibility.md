@@ -62,7 +62,7 @@ The Range navigator component's accessibility levels are ensured through an [acc
 
 The accessibility compliance of the Range navigator component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/range-navigator.html) in a new window to evaluate the accessibility of the Range navigator component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/range-navigator.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/accessibility-cs1" %}
 
 ## See also
 
