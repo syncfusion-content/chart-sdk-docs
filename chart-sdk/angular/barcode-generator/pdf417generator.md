@@ -35,7 +35,6 @@ To use the PDF417 Generator in Angular, ensure the required Syncfusion Essential
 |-- @syncfusion/ej2-angular-barcode-generator
     |-- @syncfusion/ej2-barcode-generator
     |-- @syncfusion/ej2-base
-    |-- @syncfusion/ej2-data
 ```
 
 ### Package Import
@@ -492,15 +491,6 @@ L10n.load({
 })
 export class AppComponent {}
 ```
-
-## RTL Support
-
-When RTL mode is enabled:
-* The barcode itself is **not** mirrored.
-* Display text follows RTL layout rules.
-* Text alignment behaves according to the active RTL configuration.
-
-This preserves barcode standards while providing a consistent user experience.
 
 ## Responsive Layout
 

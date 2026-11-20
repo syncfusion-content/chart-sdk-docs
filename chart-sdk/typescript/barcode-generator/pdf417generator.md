@@ -32,7 +32,6 @@ For most scenarios, only the `value` property is required to generate a barcode.
 ```javascript
 |-- @syncfusion/ej2-barcode-generator
     |-- @syncfusion/ej2-base
-    |-- @syncfusion/ej2-data
 ```
 
 ### Package import
@@ -818,10 +817,6 @@ let barcode = new PDF417Generator({
 });
 barcode.appendTo('#element');
 ```
-
-## RTL Behavior
-
-PDF417 is not mirrored in RTL mode because the symbol structure must remain in its encoded order for scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
 
 ## Responsive and Refresh Behavior
 

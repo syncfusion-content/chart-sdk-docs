@@ -551,7 +551,3 @@ The PDF417 Barcode Generator integrates seamlessly into ASP.NET Core application
 - If automatic error correction cannot fit the data, the implementation steps down to a lower level, but not below `Level2`.
 - UTF-8 input uses more bytes than ASCII input, so international text can increase symbol size and may require adjusting layout or error correction settings.
 
-## RTL Behavior
-
-PDF417 is not mirrored in RTL (right-to-left) mode because the symbol structure must remain in its encoded order for proper scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
-

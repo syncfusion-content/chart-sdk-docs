@@ -33,7 +33,6 @@ For most scenarios, only the `value` property is required to generate a barcode.
 |-- @syncfusion/ej2-react-barcode-generator
     |-- @syncfusion/ej2-barcode-generator
     |-- @syncfusion/ej2-base
-    |-- @syncfusion/ej2-data
 ```
 
 ### Package import
@@ -551,10 +550,6 @@ export default function App() {
     return <PDF417GeneratorComponent value="Syncfusion" locale="de" />;
 }
 ```
-
-## RTL Behavior
-
-PDF417 is not mirrored in RTL mode because the symbol structure must remain in its encoded order for scanning. Only the surrounding text and alignment behavior follow RTL layout expectations.
 
 ## Responsive and Refresh Behavior
 
