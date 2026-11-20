@@ -366,6 +366,25 @@ The [`shapeSelection`](../api/maps/shapeselection) method can be used to select 
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/maps/selection-method-cs1" %}
 
+### Get the selected shape coordinates
+
+The viewport coordinates of a shape selection can be accessed using the [`x`]([https://ej2.syncfusion.com/documentation/api/maps/ishapeselectedeventargs](https://ej2.syncfusion.com/javascript/documentation/api/maps/ishapeselectedeventargs#x) and [`y`](https://ej2.syncfusion.com/javascript/documentation/api/maps/ishapeselectedeventargs#y) properties of the [`shapeSelected`](https://ej2.syncfusion.com/javascript/documentation/api/maps/index-default#shapeselected) event. These properties represent the `clientX` and `clientY` coordinates of the mouse or touch interaction that selected the shape.
+
+The coordinates can be used to position custom elements, such as context menus, popups, or annotations, at the location where the shape was selected.
+
+The following example displays a custom popup at the location where a shape is selected.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/maps/shape-selected-coordinate-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/maps/shape-selected-coordinate-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/maps/shape-selected-coordinate-cs1" %}
+
 ### Initial shape selection
 
 Shapes can be initially selected when the Maps loads using the [`initialShapeSelection`](../api/maps/initialShapeSelectionSettingsModel) property. The values are mapped to the [`shapePath`](../api/maps/initialShapeSelectionSettingsModel#shapepath) and [`shapeValue`](../api/maps/initialShapeSelectionSettingsModel#shapevalue) properties.
