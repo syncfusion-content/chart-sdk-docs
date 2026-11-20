@@ -11,9 +11,11 @@ appliesto: UI Component Suite, Chart SDK
 
 # Multiple series in JavaScript Charts
 
-## Multiple Series
+The chart supports rendering multiple data series simultaneously, allowing comparison of different datasets within a single chart. You can also combine different series types and bind complex data structures to series.
 
-You can add multiple series to the chart by using [`series`](../api/chart/seriesModel) property. The series are rendered in the order as it is added to the series array.
+## Multiple series
+
+You can add multiple series to the chart by using the [`series`](https://ej2.syncfusion.com/javascript/documentation/api/chart#series) property. The series are rendered in the order they are added to the series array, and this order also determines the legend display sequence.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -26,11 +28,11 @@ You can add multiple series to the chart by using [`series`](../api/chart/series
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-series-cs1" %}
 
-## Combination Series
+## Combination series
 
-Chart allows you to render [combination of different series](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-types/combination-chart) like Column, line, area etc.
+The chart allows you to render a combination of different series, such as Column, Line, Area, etc. This is useful for comparing datasets that have different scales or trends. For the complete list of available series types, see the [chart types documentation](https://ej2.syncfusion.com/javascript/documentation/chart/chart-types).
 
->Bar series cannot be combined with any other series as the axis orientation is different from other series.
+> **Note:** Bar series cannot be combined with any other series, because the axis orientation is different from other series.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -43,9 +45,9 @@ Chart allows you to render [combination of different series](https://www.syncfus
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-series-cs2" %}
 
-## Enable Complex Property in Series
+## Enable complex property in series
 
-By setting `enableComplexProperty` value as `true` in series you can bind complex data to the chart.
+Set the [`enableComplexProperty`](https://ej2.syncfusion.com/javascript/documentation/api/chart/seriesModel#enablecomplexproperty) value to `true` in the series to bind complex (nested) data to the chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -57,3 +59,10 @@ By setting `enableComplexProperty` value as `true` in series you can bind comple
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/chart-series-cs3" %}
+
+> **Troubleshooting:** If series do not appear as expected, verify that each series has a unique name, the dataSource is correctly bound, and the xName/yName properties match your data structure. For combination charts, ensure all series use compatible axis orientations.
+
+## See also
+
+* [Chart types in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/chart-types/line)
+* [Working with data in JavaScript Charts](https://ej2.syncfusion.com/javascript/documentation/chart/working-with-data)

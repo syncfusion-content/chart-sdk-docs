@@ -2,7 +2,7 @@
 
 
 import * as React from "react";
-import * as ReactDOM from "react-dom/client";
+import * as ReactDOM from "react-dom";
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject,
          BubbleSeries}
 from'@syncfusion/ej2-react-charts';
@@ -20,8 +20,7 @@ function App() {
 
 };
 export default App;
-const root = ReactDOM.createRoot(document.getElementById('charts') as HTMLElement);
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById("charts"));
 
 
 
