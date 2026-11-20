@@ -1,0 +1,40 @@
+<ejs-chart id="container" title="Annual Crude Steel Production by Country (2016–2024)" subTitle="Source: wikipedia.org" enableSmartLabels="true" showDuplicateLabels="false">
+    <e-chart-legendsettings visible="true"></e-chart-legendsettings>
+
+    <e-chart-primaryxaxis valueType="@Syncfusion.EJ2.Charts.ValueType.Double" edgeLabelPlacement="@Syncfusion.EJ2.Charts.EdgeLabelPlacement.Shift">
+        <e-majorgridlines width="0"></e-majorgridlines>
+    </e-chart-primaryxaxis>
+
+    <e-chart-primaryyaxis title="Volume in million metric tons">
+        <e-linestyle width="0"></e-linestyle>
+        <e-majortickline width="0"></e-majortickline>
+    </e-chart-primaryyaxis>
+
+    <e-series-collection>
+        <e-series dataSource="ViewBag.vietnam" xName="x" yName="y" name="Vietnam" type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+            <e-series-marker visible="true" shape="@Syncfusion.EJ2.Charts.ChartShape.Circle">
+                <e-series-datalabel visible="true"></e-series-datalabel>
+            </e-series-marker>
+        </e-series>
+        <e-series dataSource="ViewBag.indonesia" xName="x" yName="y" name="Indonesia" type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+            <e-series-marker visible="true" shape="@Syncfusion.EJ2.Charts.ChartShape.Triangle">
+                <e-series-datalabel visible="true"></e-series-datalabel>
+            </e-series-marker>
+        </e-series>
+        <e-series dataSource="ViewBag.france" xName="x" yName="y" name="France" type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+            <e-series-marker visible="true" shape="@Syncfusion.EJ2.Charts.ChartShape.Diamond">
+                <e-series-datalabel visible="true"></e-series-datalabel>
+            </e-series-marker>
+        </e-series>
+        <e-series dataSource="ViewBag.poland" xName="x" yName="y" name="Poland" type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+            <e-series-marker visible="true" shape="@Syncfusion.EJ2.Charts.ChartShape.Rectangle">
+                <e-series-datalabel visible="true"></e-series-datalabel>
+            </e-series-marker>
+        </e-series>
+        <e-series dataSource="ViewBag.mexico" xName="x" yName="y" name="Mexico" type="@Syncfusion.EJ2.Charts.ChartSeriesType.Line">
+            <e-series-marker visible="true" shape="@Syncfusion.EJ2.Charts.ChartShape.Pentagon">
+                <e-series-datalabel visible="true"></e-series-datalabel>
+            </e-series-marker>
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
