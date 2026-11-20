@@ -120,6 +120,26 @@ To place an axis opposite from its original position, set [`OpposedPosition`](ht
 {% endhighlight %}
 {% endtabs %}
 
+## Allow decimals
 
+The [`AllowDecimals`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_AllowDecimals) property determines whether a numeric axis can display decimal values. The default value is `true`.
+
+* When `true` (default), the axis can display decimal intervals and labels when required.
+* When `false`, the axis displays only whole-number intervals and labels.
+* This property applies only to axes whose [`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) is `Double`. It has no effect on `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+
+Use `allowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
+
+Set the property on an axis such as [`PrimaryXAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_PrimaryXAxis), [`PrimaryYAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_PrimaryYAxis), or any axis in the axes collection.
+
+
+{% tabs %}
+{% highlight razor tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/axis/allow-decimals/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Orders.cs" %}
+{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/axis/allow-decimals/orders.cs %}
+{% endhighlight %}
+{% endtabs %}
 
 

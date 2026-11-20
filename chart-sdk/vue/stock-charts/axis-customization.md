@@ -119,3 +119,26 @@ To place an axis opposite from its original position, set [`opposedPosition`](ht
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/stock-chart/axis-customization-cs7" %}
+
+## Allow decimals
+
+The [`allowDecimals`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockchartaxis#allowdecimals) property determines whether a numeric axis can display decimal values. The default value is `true`.
+
+* When `true` (default), the axis can display decimal intervals and labels when required.
+* When `false`, the axis displays only whole-number intervals and labels.
+* This property applies only to axes whose [`valueType`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/stockchartaxis#valuetype) is `Double`. It has no effect on `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+
+Use `allowDecimals: false` when the plotted values are always whole numbers, such as whole share quantities, unit volumes, or rounded index points, where labels such as 1.5 are meaningless.
+
+Set the property on an axis such as [`primaryXAxis`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/index-default#primaryxaxis), [`primaryYAxis`](https://ej2.syncfusion.com/vue/documentation/api/stock-chart/index-default#primaryyaxis), or any axis in the axes collection.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/stock-chart/allow-decimals/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/stock-chart/allow-decimals/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/stock-chart/allow-decimals" %}
