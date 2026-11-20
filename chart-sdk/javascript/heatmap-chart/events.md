@@ -162,5 +162,3 @@ The [tooltipRender](../api/heatmap#tooltiprender) event is triggered before the 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/events-cs9" %}
-
-

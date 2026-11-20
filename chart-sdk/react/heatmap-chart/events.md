@@ -163,4 +163,3 @@ The [tooltipRender](https://ej2.syncfusion.com/react/documentation/api/heatmap#t
 {% endtabs %}
 
  {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/heatmap-chart/events-cs10" %}
-

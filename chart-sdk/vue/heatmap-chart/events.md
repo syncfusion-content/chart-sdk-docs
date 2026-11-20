@@ -162,5 +162,3 @@ The [tooltipRender](https://ej2.syncfusion.com/vue/documentation/api/heatmap#too
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/heatmap-chart/events-cs10" %}
-
-

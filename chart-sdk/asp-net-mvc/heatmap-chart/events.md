@@ -146,5 +146,3 @@ The [TooltipRender](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.
 {% include code-snippet/chart-sdk/asp-net-mvc/heatmap-chart/events/tooltip-render/tooltip-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
