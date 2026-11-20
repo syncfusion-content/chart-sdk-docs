@@ -200,7 +200,7 @@ The `RelocateVertically` and `RelocateHorizontally` options are supported only f
 - `StackingBar`
 - `StackingBar100`
 
-These relocation modes enable the Smart Data Label feature, which improves readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`.
+These relocation modes improve readability by relocating overlapping data labels and connecting them to their corresponding data points using connector lines. Use the `smartLabelSettings` property to customize relocated labels through the `background`, `pointerShape`, `border`, `connectorLineStyle`, and `offset` settings. The `offset` property is applicable only when `labelIntersectAction` is set to `RelocateVertically`. Note that the `seriesOverlapAction` property in `smartLabelSettings` is not applicable for `RelocateVertically` and `RelocateHorizontally`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -212,6 +212,92 @@ These relocation modes enable the Smart Data Label feature, which improves reada
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-data-label" %}
+
+## Smart Label
+
+Smart Label places data labels of Cartesian series so that they do not overlap each other, the markers, or the plot area boundary. Enable it by setting the [`enableSmartLabels`](../api/chart#enablesmartlabels-boolean) property to `true`. The default value is `false`.
+
+How it works:
+
+- **Positioning**: A label stays at its default position when that position is free. Otherwise, the label is checked around its point at the top, right, bottom, and left positions, and then at the diagonal positions. The first position that is inside the plot area of its series and does not overlap any other label or marker is used. For example, if the top and right positions collide with other labels, the label is placed at the bottom when there is enough space. If no free position is found, the label is hidden.
+- **Label and marker detection**: A label is checked against the other data labels and the visible markers of all series.
+- **Connector line**: A relocated label that is more than 12 px away from its point is joined to the point with a connector line and an arrow pointer.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-label" %}
+
+> Note: When Smart Label is enabled, `labelIntersectAction` is ignored, and the data label `position` decides only the default position. Stacked column and bar series continue to use the `RelocateVertically` and `RelocateHorizontally` options.
+
+### Duplicate data labels
+
+Use the [`showDuplicateLabels`](../api/chart#showduplicatelabels-boolean) property of the chart to control labels that have the same text at the same location, such as labels of multiple series with identical values.
+
+- `true` (default) - Renders all the labels.
+- `false` - Renders only the first label and skips the others. The first label is decided by the series order and then the point order.
+
+This property works with or without `enableSmartLabels`.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-duplicate/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-duplicate/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-label-duplicate" %}
+
+### Customization
+
+Use the `smartLabelSettings` property in the series `dataLabel` to customize relocated labels and their connector lines. Labels at their default position keep the `dataLabel` settings.
+
+- `background` - Sets the background color of the relocated label.
+- `border` - Sets the `color`, `width`, and `dashArray` of the relocated label border.
+- `pointerShape` - Sets the pointer at the point end of the connector line. The options are `Arrow` (default) and `None`.
+- `connectorLineStyle` - Sets the `color`, `width`, and `opacity` of the connector line and pointer. Set `width` to `0` or `color` to `transparent` to hide the line.
+- `seriesOverlapAction` - Specifies whether labels avoid series elements. See [Series overlap action](#series-overlap-action).
+
+> Note: The `offset` property is not applicable when Smart Label is enabled, because Smart Label automatically determines the final label position to avoid overlaps.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-customization/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-customization/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-label-customization" %}
+
+### Series overlap action
+
+Use the `seriesOverlapAction` property in `smartLabelSettings` to specify whether labels can overlap the series elements, such as lines, areas, columns, bars, and trendlines.
+
+- `None` (default) - Labels avoid only other labels and markers, so they can be placed over series elements.
+- `Hide` - Labels also avoid the elements of all visible series. A label moves to a free position if one exists, and is hidden only when none is available.
+
+> Note: In canvas rendering mode, `Hide` behaves like `None`.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-series-overlap/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/charts/smart-label-series-overlap/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/smart-label-series-overlap" %}
 
 ## Customizing Specific Point
 
