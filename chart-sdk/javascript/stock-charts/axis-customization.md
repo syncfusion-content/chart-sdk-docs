@@ -13,7 +13,7 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Axis Crossing
 
-An axis can be positioned in the Stock Chart area using [`crossesAt`](../api/stock-chart/stockChartAxisModel#crossesat) and [`crossesInAxis`] (../api/stock-chart/stockChartAxisModel#crossesinaxis) properties. The [`crossesAt`](../api/stock-chart/stockChartAxisModel#crossesat) property specifies the values (datetime, numeric, or logarithmic) at which the axis line has to be intersected with the vertical axis or vice-versa, and the [`crossesInAxis`](../api/stock-chart/stockChartAxisModel#crossesinaxis) property specifies the axis name with which the axis line has to be crossed.
+An axis can be positioned in the Stock Chart area using [`crossesAt`](../api/stock-chart/stockChartAxisModel#crossesat) and [`crossesInAxis`](https://ej2.syncfusion.com/javascript/documentation/api/stock-chart/stockchartaxis#crossesinaxis) properties. The [`crossesAt`](../api/stock-chart/stockChartAxisModel#crossesat) property specifies the values (datetime, numeric, or logarithmic) at which the axis line has to be intersected with the vertical axis or vice-versa, and the [`crossesInAxis`](https://ej2.syncfusion.com/javascript/documentation/api/stock-chart/stockchartaxis#crossesinaxis) property specifies the axis name with which the axis line has to be crossed.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
