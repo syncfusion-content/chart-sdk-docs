@@ -545,6 +545,26 @@ The [`shapeSelection`](https://ej2.syncfusion.com/angular/documentation/api/maps
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/maps/default-map/datetime-cs94" %}
 
+### Get the selected shape coordinates
+
+The viewport coordinates of a shape selection can be accessed using the [`x`](https://ej2.syncfusion.com/angular/documentation/api/maps/ishapeselectedeventargs#x) and [`y`](https://ej2.syncfusion.com/angular/documentation/api/maps/ishapeselectedeventargs#y) properties of the [`shapeSelected`](https://ej2.syncfusion.com/angular/documentation/api/maps#shapeselected) event. These properties represent the `clientX` and `clientY` coordinates of the mouse or touch interaction that selected the shape.
+
+The coordinates can be used to position custom elements, such as context menus, popups, or annotations, at the location where the shape was selected.
+
+The following example displays a custom popup at the location where a shape is selected.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/maps/default-map/shape-selected-coordinate-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/maps/default-map/shape-selected-coordinate-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/maps/default-map/shape-selected-coordinate-cs1" %}
+
 ### Initial shape selection
 
 Shapes can be initially selected when the Maps loads using the [`initialShapeSelection`](https://ej2.syncfusion.com/angular/documentation/api/maps/initialShapeSelectionSettingsModel) property. The values are mapped to the [`shapePath`](https://ej2.syncfusion.com/angular/documentation/api/maps/initialShapeSelectionSettingsModel#shapepath) and [`shapeValue`](https://ej2.syncfusion.com/angular/documentation/api/maps/initialShapeSelectionSettingsModel#shapevalue) properties.
