@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Export in JavaScript Barcode control
 
-Export barcode as an image and base64 string is common for barcode,QRcode and datamatrix. The following code samples explain how to export barcode as an image and base64 string.
+Export barcode as an image and base64 string is common for barcode, QR code, DataMatrix and Aztec code. The following code samples explain how to export barcode as an image and base64 string.
 
 ## Export
 

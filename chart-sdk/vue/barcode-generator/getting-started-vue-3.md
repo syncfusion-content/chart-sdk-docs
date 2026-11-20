@@ -260,3 +260,45 @@ import {
 ![Output](./images/barcode3.PNG)
 
 Refer the following sample, [vue3-barcode-generator-getting-started](https://github.com/SyncfusionExamples/vue3-barcode-getting-started).
+
+## Adding Syncfusion® Vue Aztec Generator control in the application
+
+You can add the Aztec code generator component by using the following code sample.
+
+```
+<template>
+  <div id="app" class="barcodeStyle">
+    <ejs-aztecgenerator
+      id="aztec"
+      ref="aztecControl"
+      :width="width"
+      :height="height"
+      :displayText="displayText"
+      :value="value"
+      :mode="mode"
+    >
+    </ejs-aztecgenerator>
+  </div>
+</template>
+
+<script setup>
+
+import {
+  AztecGeneratorComponent as EjsAztecgenerator
+} from "@syncfusion/ej2-vue-barcode-generator";
+
+  const width = "200px";
+  const height = "150px";
+  const displayText = { visibility: false };
+  const mode = "SVG";
+  const value = "Syncfusion";
+
+</script>
+
+<style>
+  @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+  @import "../node_modules/@syncfusion/ej2-icons/styles/material.css";
+  @import "../node_modules/@syncfusion/ej2-vue-barcode-generator/styles/material.css";
+</style>
+
+```
