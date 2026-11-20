@@ -1,0 +1,82 @@
+{% raw %}
+
+import * as React from "react";
+import * as ReactDOM from 'react-dom';
+import { HeatMapComponent, Inject, Legend, Tooltip, Adaptor, ITooltipEventArgs } from '@syncfusion/ej2-react-heatmap';
+
+interface SalesRecord {
+    employee: string;
+    month: string;
+    revenue: number;
+    target: number;
+    region: string;
+}
+
+export function App() {
+    function tooltipRender(args: ITooltipEventArgs) {
+        let record = args.data as SalesRecord | undefined;
+        if (record) {
+            args.content = [
+                'Employee: ' + record.employee,
+                'Month: ' + record.month,
+                'Revenue: $' + record.revenue + 'K',
+                'Target: $' + record.target + 'K',
+                'Region: ' + record.region
+            ];
+        }
+    }
+
+    let heatmapData: SalesRecord[] = [
+        { employee: 'Nancy', month: 'Jan', revenue: 73, target: 70, region: 'North America' },
+        { employee: 'Nancy', month: 'Feb', revenue: 39, target: 50, region: 'North America' },
+        { employee: 'Nancy', month: 'Mar', revenue: 26, target: 45, region: 'North America' },
+        { employee: 'Andrew', month: 'Jan', revenue: 93, target: 80, region: 'Europe' },
+        { employee: 'Andrew', month: 'Feb', revenue: 58, target: 55, region: 'Europe' },
+        { employee: 'Andrew', month: 'Mar', revenue: 53, target: 60, region: 'Europe' },
+        { employee: 'Janet', month: 'Jan', revenue: 99, target: 90, region: 'Asia Pacific' },
+        { employee: 'Janet', month: 'Feb', revenue: 28, target: 40, region: 'Asia Pacific' },
+        { employee: 'Janet', month: 'Mar', revenue: 22, target: 35, region: 'Asia Pacific' }
+    ];
+
+    let dataSourceSettings = {
+        isJsonData: true,
+        adaptorType: 'Cell',
+        xDataMapping: 'employee',
+        yDataMapping: 'month',
+        valueMapping: 'revenue'
+    };
+
+    let titleSettings = {
+        text: 'Sales Revenue per Employee (in 1000 US$)',
+        textStyle: {
+            size: '15px',
+            fontWeight: '500',
+            fontStyle: 'Normal',
+            fontFamily: 'Segoe UI'
+        }
+    };
+
+    let cellSettings = {
+        showLabel: true,
+        format: '${value}K'
+    };
+
+    return (
+        <HeatMapComponent
+            id='heatmap'
+            titleSettings={titleSettings}
+            xAxis={{ labels: ['Nancy', 'Andrew', 'Janet'] }}
+            yAxis={{ labels: ['Jan', 'Feb', 'Mar'] }}
+            dataSource={heatmapData}
+            dataSourceSettings={dataSourceSettings}
+            cellSettings={cellSettings}
+            showTooltip={true}
+            tooltipRender={tooltipRender}>
+            <Inject services={[Tooltip, Legend, Adaptor]} />
+        </HeatMapComponent>
+    );
+}
+const root = ReactDOM.createRoot(document.getElementById('container'));
+root.render(<App />);
+
+{% endraw %}
