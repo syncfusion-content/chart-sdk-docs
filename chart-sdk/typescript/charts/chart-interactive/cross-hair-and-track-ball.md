@@ -13,7 +13,7 @@ appliesto: UI Component Suite, Chart SDK
 
 The crosshair feature displays vertical and horizontal guide lines that intersect at the mouse or touch position, helping to identify the corresponding axis values precisely.
 
-Crosshair lines can be enabled by setting the [`enable`](../api/chart/crosshairTooltip#enable-boolean) property in the `crosshair` settings.
+Crosshair lines can be enabled by setting the [`enable`](https://ej2.syncfusion.com/documentation/api/chart/crosshairSettings#enable) property in the `crosshair` settings.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -43,9 +43,9 @@ Axis tooltip labels can be enabled by setting the [`enable`](../api/chart/crossh
 
 ## Customization
 
-The [`fill`](../api/chart/crosshairTooltip#fill-string) and [`textStyle`](../api/chart/crosshairTooltip#textstyle-fontmodel) properties of `crosshairTooltip` are used to customize the background color and font style of the crosshair label.
+Use the [`fill`](https://ej2.syncfusion.com/documentation/api/chart/crosshairTooltip#fill) and [`textStyle`](https://ej2.syncfusion.com/documentation/api/chart/crosshairTooltip#textstyle) properties of `crosshairTooltip` to customize the background color and font style of the crosshair label.
 
-The color and width of the crosshair lines can be customized by using the [`line`](../api/chart/crosshairSettingsModel#line-bordermodel) property in the crosshair settings.
+The color and width of the crosshair lines can be customized by using the [`line`](https://ej2.syncfusion.com/documentation/api/chart/crosshairSettings#line) property in the crosshair settings.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -60,9 +60,9 @@ The color and width of the crosshair lines can be customized by using the [`line
 
 > Note: To use the crosshair feature, inject `Crosshair` module `Chart.Inject(Crosshair)` method.
 
-**Snap to data**
+### Snap to data
 
-By enabling the [`snapToData`](../api/chart/crosshairSettingsModel#snaptodata) property, the crosshair snaps to the nearest data point instead of following the exact mouse position. This improves accuracy when inspecting values.
+By enabling the [`snapToData`](https://ej2.syncfusion.com/documentation/api/chart/crosshairSettings#snaptodata) property, the crosshair snaps to the nearest data point instead of following the exact mouse position. This improves accuracy when inspecting values.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -81,7 +81,7 @@ The trackball feature tracks the data point closest to the mouse or touch positi
 
 To use the trackball feature, inject both `Crosshair` and `Tooltip` into the `provide`.
 
-Trackball functionality can be enabled by setting the [`enable`](../api/chart/crosshairSettings#enable-boolean) property of the crosshair to **true** and the [`shared`](../api/chart/tooltipSettings#shared-boolean) property of the tooltip to **true**.
+Trackball functionality can be enabled by setting the [`enable`](https://ej2.syncfusion.com/documentation/api/chart/crosshairSettings#enable) property of the crosshair to **true** and the [`shared`](https://ej2.syncfusion.com/documentation/api/chart/tooltipSettings#shared) property of the tooltip to **true**.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -96,9 +96,9 @@ Trackball functionality can be enabled by setting the [`enable`](../api/chart/cr
 
 ## Crosshair highlight
 
-The [`highlightCategory`](../api/chart/crosshairSettings#highlightcategory) property highlights the background of the entire category when the crosshair is moved over the chart.
+The [`highlightCategory`](https://ej2.syncfusion.com/documentation/api/chart/crosshairSettings#highlightcategory) property highlights the background of the entire category when the crosshair is moved over the chart.
 
-The crosshair line color can be customized using the [`color`](../api/chart/borderModel#color) property within the [`line`](../api/chart/crosshairSettings#line) configuration.
+Customize the crosshair line color using the [`color`](https://ej2.syncfusion.com/documentation/api/chart/borderModel#color) property within the [`line`](https://ej2.syncfusion.com/documentation/api/chart/crosshairSettings#line) configuration.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -113,7 +113,7 @@ The crosshair line color can be customized using the [`color`](../api/chart/bord
 
 ## Crosshair label customization
 
-The [`crosshairLabelRender`](../api/chart/chartModel#crosshairlabelrender) event fires before each crosshair axis label is rendered, allowing you to customize the label's appearance or content, or to prevent it from being displayed.
+The [`crosshairLabelRender`](https://ej2.syncfusion.com/documentation/api/chart/chartModel#crosshairlabelrender) event fires before each crosshair axis label is rendered, allowing you to customize the label's appearance or content, or to prevent it from being displayed.
 
 Event arguments:
 
@@ -138,3 +138,7 @@ Event arguments:
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/crosshair-label-render" %}
+
+## See also
+
+* [Tooltip in JavaScript Charts](https://ej2.syncfusion.com/documentation/chart/tool-tip)
