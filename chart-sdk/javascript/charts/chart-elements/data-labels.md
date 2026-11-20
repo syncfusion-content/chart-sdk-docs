@@ -297,22 +297,6 @@ Use the `seriesOverlapAction` property in `smartLabelSettings` to specify whethe
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/smart-label-series-overlap" %}
 
-## Customizing Specific Point
-
-- `pointRender` modifies shape, color, or border of a point.  
-- `textRender` customizes the label text for specific points.
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/data-markers-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/data-markers-cs8" %}
-
 ## Customizing specific point
 
 Customize individual markers or labels using the [`pointRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#pointrender) and [`textRender`](https://ej2.syncfusion.com/javascript/documentation/api/chart#textrender) events.  
