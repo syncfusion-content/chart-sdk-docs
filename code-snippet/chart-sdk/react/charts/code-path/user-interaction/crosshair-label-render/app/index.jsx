@@ -2,7 +2,8 @@
 
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Crosshair, LineSeries, Category } from '@syncfusion/ej2-react-charts';
 import { data } from './datasource';
-import ReactDOM from 'react-dom';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 
 function App() {
     const crosshairLabelRender = (args) => {

@@ -6,5 +6,4 @@ function App() {
     return (<SmithchartComponent id="smithchart"></SmithchartComponent>);
 }
 export default App;
-const root = createRoot(document.getElementById("smithchart"));
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById('smithchart'));
