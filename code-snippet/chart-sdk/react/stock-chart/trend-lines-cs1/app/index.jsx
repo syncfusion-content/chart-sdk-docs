@@ -2,14 +2,21 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { StockChartComponent, StockChartSeriesCollectionDirective, StockChartSeriesDirective, Inject, DateTime, Tooltip, RangeTooltip, Crosshair, LineSeries, SplineSeries, CandleSeries, HiloOpenCloseSeries, HiloSeries, RangeAreaSeries, Trendlines } from '@syncfusion/ej2-react-charts';
-import { chartData } from '../datasource';
+import { chartData } from './datasource';
 function App() {
     return (<StockChartComponent id='stockchart' primaryXAxis={{
             title: 'Months'
         }} primaryYAxis={{
             title: 'Rupees against Dollars',
             interval: 5
-        }} tooltip={{ enable: true }} height='350' title='Historical Indian Rupee Rate (INR USD)' indicatorType={[]} exportType={[]} seriesType={[]}>
+        }} tooltip={{ enable: true }} height='350' title='Historical Indian Rupee Rate (INR USD)' indicatorType={[]} exportType={[]} seriesType={[]} trendlineType={[
+                "Linear",
+                "Exponential",
+                "Logarithmic",
+                "Polynomial",
+                "Power",
+                "MovingAverage"
+            ]}>
                 <Inject services={[DateTime, Tooltip, RangeTooltip, Crosshair, LineSeries, SplineSeries, CandleSeries, HiloOpenCloseSeries, HiloSeries, RangeAreaSeries, Trendlines]}/>
                 <StockChartSeriesCollectionDirective>
                     <StockChartSeriesDirective dataSource={chartData} type='Candle'>

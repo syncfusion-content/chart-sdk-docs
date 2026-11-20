@@ -1,0 +1,55 @@
+@using Syncfusion.EJ2.Maps;
+@using Syncfusion.EJ2;
+@{
+    var select = new Syncfusion.EJ2.Maps.MapsSelectionSettings
+    {
+        Enable = true,
+        Fill = "green",
+        Border = new Syncfusion.EJ2.Maps.MapsBorder
+        {
+            Color = "white",
+            Width = 2,
+            Opacity = 1
+        }
+    };
+}
+<div id="map">
+    @Html.EJS().Maps("maps").ShapeSelected("shapeSelected").Layers(l =>
+    {
+        l.SelectionSettings(select).ShapeData(ViewBag.worldMap).Add();
+    }).Render()
+    <div id="shapeSelectedPopup">
+        <strong>Selected coordinates</strong>
+        <div id="selectedCoordinates"></div>
+    </div>
+</div>
+
+<style>
+    #shapeSelectedPopup {
+        position: fixed;
+        display: none;
+        z-index: 1000;
+        padding: 10px 14px;
+        background-color: #ffffff;
+        color: #1e293b;
+        border: 1px solid #cbd5e1;
+        border-radius: 6px;
+        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 13px;
+        pointer-events: none;
+    }
+</style>
+
+<script>
+    function shapeSelected(args) {
+        var popup = document.getElementById('shapeSelectedPopup');
+        var coordinates = document.getElementById('selectedCoordinates');
+        if (popup && coordinates && args.x !== undefined && args.y !== undefined) {
+            coordinates.textContent = 'X: ' + args.x + ', Y: ' + args.y;
+            popup.style.left = args.x + 'px';
+            popup.style.top = args.y + 'px';
+            popup.style.display = 'block';
+        }
+    }
+</script>

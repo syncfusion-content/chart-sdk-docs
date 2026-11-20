@@ -1,5 +1,3 @@
-{% raw %}
-
 
 import {
   AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective,
@@ -7,7 +5,7 @@ import {
 } from '@syncfusion/ej2-react-charts';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { bitCoinData } from '../default-data';
+import { bitCoinData } from 'default-data.ts';
 
 function App() {
 
@@ -24,10 +22,5 @@ function App() {
 }
 
 export default App;
+ReactDOM.render(<App />, document.getElementById("charts"));
 
-const root = ReactDOM.createRoot(document.getElementById('charts'));
-root.render(<App />);
-
-
-
-{% endraw %}
