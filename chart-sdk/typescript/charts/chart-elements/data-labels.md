@@ -181,9 +181,9 @@ Enhance label appearance using properties such as `fill` (background), `border`,
 
 > Note: The `rx` and `ry` properties require non‑null `border` values.
 
-### Handling overlapping data labels
+### Handling Overlapping Data Labels
 
-Use the [`labelIntersectAction`](https://ej2.syncfusion.com/documentation/api/chart/dataLabelSettings#labelintersectaction) property to specify how overlapping data labels are handled.
+Use the `labelIntersectAction` property to specify how overlapping data labels are handled.
 
 The available options are:
 
