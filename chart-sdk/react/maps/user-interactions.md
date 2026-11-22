@@ -457,6 +457,25 @@ The [`shapeSelection`](https://ej2.syncfusion.com/react/documentation/api/maps#s
 
  {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/maps/default-map-cs94" %}
 
+### Get the selected shape coordinates
+
+The viewport coordinates of a shape selection can be accessed using the [`x`](https://ej2.syncfusion.com/react/documentation/api/maps/ishapeselectedeventargs#x) and [`y`](https://ej2.syncfusion.com/react/documentation/api/maps/ishapeselectedeventargs#y) properties of the [`shapeSelected`](https://ej2.syncfusion.com/react/documentation/api/maps#shapeselected) event. These properties represent the `clientX` and `clientY` coordinates of the mouse or touch interaction that selected the shape.
+
+The coordinates can be used to position custom elements, such as context menus, popups, or annotations, at the location where the shape was selected.
+
+The following example displays a custom popup at the location where a shape is selected.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/maps/code-path/shape-selected-coordinate-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/maps/code-path/shape-selected-coordinate-cs1/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/maps/shape-selected-coordinate-cs1" %}
+
 ### Initial shape selection
 
 Shapes can be initially selected when the Maps loads using the [`initialShapeSelection`](https://ej2.syncfusion.com/react/documentation/api/maps/initialShapeSelectionSettingsModel) property. The values are mapped to the [`shapePath`](https://ej2.syncfusion.com/react/documentation/api/maps/initialShapeSelectionSettingsModel#shapepath) and [`shapeValue`](https://ej2.syncfusion.com/react/documentation/api/maps/initialShapeSelectionSettingsModel#shapevalue) properties.

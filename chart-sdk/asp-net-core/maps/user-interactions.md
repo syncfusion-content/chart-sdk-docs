@@ -343,6 +343,23 @@ The `shapeSelection` method can be used to select each shape in the Maps. LayerI
 
 ![Public method for the shape selection](./images/UserInteraction/shapeSelection.PNG)
 
+### Get the selected shape coordinates
+
+The viewport coordinates of a shape selection can be accessed using the `x` and `y` properties of the [`shapeSelected`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Maps.Maps.html#Syncfusion_EJ2_Maps_Maps_ShapeSelected) event. These properties represent the `clientX` and `clientY` coordinates of the mouse or touch interaction that selected the shape.
+
+The coordinates can be used to position custom elements, such as context menus, popups, or annotations, at the location where the shape was selected.
+
+The following example displays a custom popup at the location where a shape is selected.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/maps/user-interactions/selection-coordinate/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Selection-coordinate.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/maps/user-interactions/selection-coordinate/selection-coordinate.cs %}
+{% endhighlight %}
+{% endtabs %}
+
 ### Initial shape selection
 
 The shape is initially selected using the `MapsInitialShapeSelection`, and the values are mapped to the `ShapePath` and `ShapeValue`.
