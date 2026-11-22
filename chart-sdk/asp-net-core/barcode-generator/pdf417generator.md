@@ -9,6 +9,21 @@ documentation: ug
 
 # ASP.NET Core PDF417Generator Control
 
+## PDF417 Overview
+
+PDF417 is a two-dimensional barcode that can store large amounts of text, numeric, and binary data. It is commonly used in applications such as shipping labels, identity cards, boarding passes, inventory tracking, and document management systems.
+
+Unlike traditional one-dimensional barcodes, PDF417 can hold significantly more information and includes built-in error correction, allowing scanners to read the barcode even when it is partially damaged or obscured.
+
+The Syncfusion PDF417 Generator automatically:
+
+* Encodes the provided data into a PDF417 barcode.
+* Selects an efficient data compaction mode.
+* Applies appropriate error correction.
+* Calculates an optimal barcode layout based on the available size.
+
+For most scenarios, only the `value` property is required to generate a barcode.
+
 ## Getting Started
 
 This section briefly explains how to include the PDF417 Barcode Generator control in your ASP.NET Core application.
@@ -70,72 +85,7 @@ Add the PDF417 Barcode Generator tag helper to your page:
 {% endhighlight %}
 {% endtabs %}
 
-## PDF417
-
-PDF417 is a two-dimensional barcode that can store large amounts of text, numeric, and binary data. It is commonly used in applications such as shipping labels, identity cards, boarding passes, inventory tracking, and document management systems.
-
-Unlike traditional one-dimensional barcodes, PDF417 can hold significantly more information and includes built-in error correction, allowing scanners to read the barcode even when it is partially damaged or obscured.
-
-The Syncfusion PDF417 Generator automatically:
-
-* Encodes the provided data into a PDF417 barcode.
-* Selects an efficient data compaction mode.
-* Applies appropriate error correction.
-* Calculates an optimal barcode layout based on the available size.
-
-For most scenarios, only the `value` property is required to generate a barcode.
-
-## Basic PDF417 generation
-
-The following code example shows how to create a simple PDF417 barcode.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/pdf417generator/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-## Custom size
-
-You can customize the width and height of the PDF417 barcode using the `width` and `height` properties.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/size/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-## Display text customization
-
-You can customize the display text of the PDF417 barcode using the `displayText` property. The display text can be positioned and aligned as required.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/text/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-## Background and foreground color customization
-
-You can customize the background and foreground colors of the PDF417 barcode. Keep a strong contrast between the two colors so that the barcode can be scanned easily.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/color/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-## Margin customization
-
-You can customize the margin around the PDF417 barcode using the `margin` property.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/margin/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-## Rendering modes
+## Rendering Modes
 
 ### SVG Rendering
 
@@ -159,11 +109,13 @@ You can render the PDF417 barcode in Canvas mode for a raster-based output.
 {% endhighlight %}
 {% endtabs %}
 
-## Compaction modes
+## PDF417 Configuration
+
+### Compaction Modes
 
 The `compactionMode` property defines how the value is compacted into codewords. Different compaction modes optimize for different data types.
 
-### Auto
+#### Auto
 
 `Auto` is the default mode. It automatically selects the best compaction mode (Text, Numeric, or Byte) for each segment of the data to reduce the number of codewords.
 
@@ -174,7 +126,7 @@ The `compactionMode` property defines how the value is compacted into codewords.
 {% endhighlight %}
 {% endtabs %}
 
-### Text
+#### Text
 
 Use `Text` compaction mode for printable ASCII characters, tab, line feed, and carriage return.
 
@@ -185,7 +137,7 @@ Use `Text` compaction mode for printable ASCII characters, tab, line feed, and c
 {% endhighlight %}
 {% endtabs %}
 
-### Numeric
+#### Numeric
 
 Use `Numeric` compaction mode for digits only. It is the most compact choice for long numeric values.
 
@@ -196,7 +148,7 @@ Use `Numeric` compaction mode for digits only. It is the most compact choice for
 {% endhighlight %}
 {% endtabs %}
 
-### Byte
+#### Byte
 
 Use `Byte` compaction mode for any character, including non-ASCII content and international text.
 
@@ -207,11 +159,20 @@ Use `Byte` compaction mode for any character, including non-ASCII content and in
 {% endhighlight %}
 {% endtabs %}
 
-## Error Correction
+### Error Correction Levels
 
 PDF417 uses Reed-Solomon error correction to ensure data reliability. Higher error correction levels add more error-correction codewords, which improves resilience but increases symbol size.
 
-### Error Correction Levels
+The following table summarizes typical usage for each level.
+
+| Level | Usage |
+|---|---|
+| `Auto` | Automatically selects an appropriate level. |
+| `Level0` - `Level2` | Suitable for clean printing environments. |
+| `Level3` - `Level5` | Suitable for shipping labels and general business applications. |
+| `Level6` - `Level8` | Suitable for harsh environments where barcode damage is more likely. |
+
+#### Error Correction Codewords
 
 - `Auto`: Automatically selects a level based on the data length. If the selected level does not fit, it steps down until the symbol fits, but never below Level2.
 - `Level0`: Adds 2 error correction codewords
@@ -224,7 +185,7 @@ PDF417 uses Reed-Solomon error correction to ensure data reliability. Higher err
 - `Level7`: Adds 256 error correction codewords
 - `Level8`: Adds 512 error correction codewords
 
-### Auto level
+#### Auto level
 
 `Auto` selects a level based on the data length and adjusts automatically if necessary.
 
@@ -235,7 +196,7 @@ PDF417 uses Reed-Solomon error correction to ensure data reliability. Higher err
 {% endhighlight %}
 {% endtabs %}
 
-### Specific error correction level
+#### Specific error correction level
 
 You can set a specific error correction level for more control over the barcode resilience.
 
@@ -246,53 +207,7 @@ You can set a specific error correction level for more control over the barcode 
 {% endhighlight %}
 {% endtabs %}
 
-## Layout Customization
-
-### Automatic rows and columns
-
-When both `rows` and `columns` are set to `0`, the component automatically calculates the optimal layout based on the data and available space.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Syncfusion" width="400px" height="200px" type="Pdf417">
-</ejs-pdf417generator>
-{% endhighlight %}
-{% endtabs %}
-
-### Fixed rows
-
-Set `rows` to a specific value (from `3` to `90`) when the symbol must maintain a fixed height.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Syncfusion" width="400px" height="200px" type="Pdf417" rows="8">
-</ejs-pdf417generator>
-{% endhighlight %}
-{% endtabs %}
-
-### Fixed columns
-
-Set `columns` to a specific value (from `1` to `30`) when the symbol must maintain a fixed width.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Syncfusion" width="400px" height="200px" type="Pdf417" columns="6">
-</ejs-pdf417generator>
-{% endhighlight %}
-{% endtabs %}
-
-### Fixed rows and columns
-
-You can fix both rows and columns for precise layout control.
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Syncfusion" width="400px" height="200px" type="Pdf417" rows="8" columns="4">
-</ejs-pdf417generator>
-{% endhighlight %}
-{% endtabs %}
-
-## Row height ratio
+### Row Height Ratio
 
 The `rowHeightRatio` property controls how tall each row is relative to the module width. The minimum supported value is `3`. Increasing this value makes the barcode taller, which can improve scannability.
 
@@ -303,7 +218,7 @@ The `rowHeightRatio` property controls how tall each row is relative to the modu
 {% endhighlight %}
 {% endtabs %}
 
-## Compact PDF417
+### Compact PDF417
 
 Compact PDF417 omits the right row indicator and uses a shortened stop pattern, producing a narrower symbol than standard PDF417. This is useful when horizontal space is limited but the symbol must remain readable and scannable.
 
@@ -314,18 +229,105 @@ Compact PDF417 omits the right row indicator and uses a shortened stop pattern, 
 {% endhighlight %}
 {% endtabs %}
 
-## UTF-8 and International Text
+### Rows and Columns
 
-PDF417 supports UTF-8 encoded international text. When the value contains non-ASCII characters, the encoder automatically writes the data as UTF-8 and includes the ECI designator so scanners can decode the symbol correctly.
+#### Automatic rows and columns
+
+When both `rows` and `columns` are set to `0`, the component automatically calculates the optimal layout based on the data and available space.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-<ejs-pdf417generator id="pdf417" value="Привет Syncfusion" width="320px" height="140px" type="Pdf417" compactionMode="Byte">
+<ejs-pdf417generator id="pdf417" value="Syncfusion" width="400px" height="200px" type="Pdf417">
 </ejs-pdf417generator>
 {% endhighlight %}
 {% endtabs %}
 
-## Display Text
+#### Fixed rows
+
+Set `rows` to a specific value (from `3` to `90`) when the symbol must maintain a fixed height.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+<ejs-pdf417generator id="pdf417" value="Syncfusion" width="400px" height="200px" type="Pdf417" rows="8">
+</ejs-pdf417generator>
+{% endhighlight %}
+{% endtabs %}
+
+#### Fixed columns
+
+Set `columns` to a specific value (from `1` to `30`) when the symbol must maintain a fixed width.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+<ejs-pdf417generator id="pdf417" value="Syncfusion" width="400px" height="200px" type="Pdf417" columns="6">
+</ejs-pdf417generator>
+{% endhighlight %}
+{% endtabs %}
+
+#### Fixed rows and columns
+
+You can fix both rows and columns for precise layout control.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+<ejs-pdf417generator id="pdf417" value="Syncfusion" width="400px" height="200px" type="Pdf417" rows="8" columns="4">
+</ejs-pdf417generator>
+{% endhighlight %}
+{% endtabs %}
+
+## Barcode Customization
+
+### Basic PDF417 generation
+
+The following code example shows how to create a simple PDF417 barcode.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/pdf417generator/tagHelper %}
+{% endhighlight %}
+{% endtabs %}
+
+### Custom size
+
+You can customize the width and height of the PDF417 barcode using the `width` and `height` properties.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/size/tagHelper %}
+{% endhighlight %}
+{% endtabs %}
+
+### Display text customization
+
+You can customize the display text of the PDF417 barcode using the `displayText` property. The display text can be positioned and aligned as required.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/text/tagHelper %}
+{% endhighlight %}
+{% endtabs %}
+
+### Background and foreground color customization
+
+You can customize the background and foreground colors of the PDF417 barcode. Keep a strong contrast between the two colors so that the barcode can be scanned easily.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/color/tagHelper %}
+{% endhighlight %}
+{% endtabs %}
+
+### Margin customization
+
+You can customize the margin around the PDF417 barcode using the `margin` property.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/barcode-generator/pdf417generator/margin/tagHelper %}
+{% endhighlight %}
+{% endtabs %}
+
+### Display Text
 
 Display text is rendered as a single line below (or above) the barcode. If the text is wider than the available width, it is truncated with an ellipsis. You can control the text position (`Top` or `Bottom`) and alignment (`Left`, `Center`, or `Right`).
 
@@ -333,6 +335,17 @@ Display text is rendered as a single line below (or above) the barcode. If the t
 {% highlight cshtml tabtitle="CSHTML" %}
 <ejs-pdf417generator id="pdf417" value="Syncfusion" width="320px" height="160px" type="Pdf417">
     <e-pdf417generator-displaytext text="Shipment 1234567890" position="Top" alignment="Right"></e-pdf417generator-displaytext>
+</ejs-pdf417generator>
+{% endhighlight %}
+{% endtabs %}
+
+## International Character Support
+
+PDF417 supports UTF-8 encoded international text. When the value contains non-ASCII characters, the encoder automatically writes the data as UTF-8 and includes the ECI designator so scanners can decode the symbol correctly.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+<ejs-pdf417generator id="pdf417" value="Привет Syncfusion" width="320px" height="140px" type="Pdf417" compactionMode="Byte">
 </ejs-pdf417generator>
 {% endhighlight %}
 {% endtabs %}
@@ -357,9 +370,11 @@ var barcode = document.getElementById("pdf417").ej2_instances[0];
 await barcode.exportAsBase64Image('PNG');
 ```
 
-## Events
+## Validation and Events
 
-### invalid
+### Events
+
+#### invalid
 
 The `invalid` event is triggered when the value or a property is invalid, or when the value does not fit in the symbol with the current configuration. Common validation cases include:
 
@@ -380,83 +395,6 @@ function onInvalid(args) {
 
 var barcode = document.getElementById("pdf417").ej2_instances[0];
 barcode.invalid = onInvalid;
-```
-
-## Properties
-
-The following table shows the properties of the PDF417Generator control.
-
-| Property | Type | Default | Description |
-| --- | --- | --- | --- |
-| `value` | string | undefined | Defines the value to encode in the PDF417 symbol. |
-| `mode` | string | 'SVG' | Defines the rendering mode: 'SVG' or 'Canvas'. |
-| `width` | string | '100%' | Defines the width of the control. |
-| `height` | string | '100%' | Defines the height of the control. |
-| `compactionMode` | string | 'Auto' | Defines how the value is compacted: 'Auto', 'Text', 'Numeric', or 'Byte'. |
-| `errorCorrectionLevel` | string | 'Auto' | Defines the error correction level: 'Auto', 'Level0' through 'Level8'. |
-| `rows` | number | 0 | Defines the number of rows (0 for automatic, 3-90 for fixed). |
-| `columns` | number | 0 | Defines the number of columns (0 for automatic, 1-30 for fixed). |
-| `isCompact` | boolean | false | Enables compact PDF417 rendering. |
-| `rowHeightRatio` | number | 3 | Defines the height of each row as a multiple of the module width. |
-| `displayText` | DisplayTextModel | {} | Defines the display text settings. |
-| `margin` | MarginModel | {} | Defines the outer margin around the barcode. |
-| `backgroundColor` | string | 'white' | Defines the background color of the barcode. |
-| `foreColor` | string | 'black' | Defines the foreground color of the barcode. |
-
-## DisplayText Properties
-
-| Property | Type | Default | Description |
-| --- | --- | --- | --- |
-| `text` | string | '' | Defines the text to display. |
-| `position` | string | 'Bottom' | Defines the position of the text: 'Top' or 'Bottom'. |
-| `alignment` | string | 'Center' | Defines the alignment of the text: 'Left', 'Center', or 'Right'. |
-| `visibility` | boolean | true | Defines whether the text is visible. |
-
-## Margin Properties
-
-| Property | Type | Default | Description |
-| --- | --- | --- | --- |
-| `left` | number | 10 | Defines the left margin. |
-| `right` | number | 10 | Defines the right margin. |
-| `top` | number | 10 | Defines the top margin. |
-| `bottom` | number | 10 | Defines the bottom margin. |
-
-## Methods
-
-### destroy
-
-Destroys the PDF417Generator component and releases all its resources.
-
-```typescript
-var barcode = document.getElementById("pdf417").ej2_instances[0];
-barcode.destroy();
-```
-
-### getModuleName
-
-Returns the module name of the component.
-
-```typescript
-var barcode = document.getElementById("pdf417").ej2_instances[0];
-console.log(barcode.getModuleName()); // Returns 'pdf417generator'
-```
-
-### exportImage
-
-Exports the barcode as an image and downloads it in the browser.
-
-```typescript
-var barcode = document.getElementById("pdf417").ej2_instances[0];
-barcode.exportImage('pdf417-barcode', 'PNG');
-```
-
-### exportAsBase64Image
-
-Returns a promise that resolves to a Base64-encoded image string.
-
-```typescript
-var barcode = document.getElementById("pdf417").ej2_instances[0];
-const imageString = await barcode.exportAsBase64Image('JPG');
 ```
 
 ## Accessibility
@@ -483,7 +421,7 @@ L10n.load({
 <ejs-pdf417generator id="pdf417" value="Syncfusion" locale="de"></ejs-pdf417generator>
 ```
 
-## Responsive and Refresh Behavior
+## Responsive Layout
 
 The component uses the container size when rendering. If the container is resized after the barcode is rendered, call the `refresh()` method to redraw the barcode with the new dimensions.
 
@@ -491,44 +429,6 @@ The component uses the container size when rendering. If the container is resize
 var barcode = document.getElementById("pdf417").ej2_instances[0];
 barcode.refresh();
 ```
-
-## Framework Integration
-
-The PDF417 Barcode Generator integrates seamlessly into ASP.NET Core applications through Tag Helpers. It supports server-side model binding, tag helper attributes, and event handling for a native ASP.NET Core development experience.
-
-## API Reference
-
-### Tag Helper: `<ejs-pdf417generator>`
-
-| Property | Type | Description |
-| --- | --- | --- |
-| `value` | string | Value to encode. |
-| `width` | string | Width of the control. |
-| `height` | string | Height of the control. |
-| `mode` | string | Rendering mode: `SVG` or `Canvas`. |
-| `compactionMode` | string | Data compaction mode. |
-| `errorCorrectionLevel` | string | Error correction level. |
-| `rows` | int | Number of rows. |
-| `columns` | int | Number of columns. |
-| `isCompact` | bool | Enables compact PDF417 rendering. |
-| `rowHeightRatio` | int | Height of each row relative to module width. |
-| `backgroundColor` | string | Background color. |
-| `foreColor` | string | Foreground color. |
-
-### Events
-
-| Event | Description |
-| --- | --- |
-| `invalid` | Triggered when the value or properties are invalid, or when the symbol does not fit. |
-
-### Methods
-
-| Method | Description |
-| --- | --- |
-| `destroy()` | Destroys the component. |
-| `getModuleName()` | Returns the module name. |
-| `exportImage(fileName, exportType)` | Downloads the barcode as an image. |
-| `exportAsBase64Image(exportType)` | Returns the barcode as a base64 image string. |
 
 ## Best Practices
 
@@ -551,3 +451,119 @@ The PDF417 Barcode Generator integrates seamlessly into ASP.NET Core application
 - If automatic error correction cannot fit the data, the implementation steps down to a lower level, but not below `Level2`.
 - UTF-8 input uses more bytes than ASCII input, so international text can increase symbol size and may require adjusting layout or error correction settings.
 
+## Platform API Reference
+
+### Properties
+
+The following table shows the properties of the PDF417Generator control.
+
+| Property | Type | Default | Description |
+| --- | --- | --- | --- |
+| `value` | string | undefined | Defines the value to encode in the PDF417 symbol. |
+| `mode` | string | 'SVG' | Defines the rendering mode: 'SVG' or 'Canvas'. |
+| `width` | string | '100%' | Defines the width of the control. |
+| `height` | string | '100%' | Defines the height of the control. |
+| `compactionMode` | string | 'Auto' | Defines how the value is compacted: 'Auto', 'Text', 'Numeric', or 'Byte'. |
+| `errorCorrectionLevel` | string | 'Auto' | Defines the error correction level: 'Auto', 'Level0' through 'Level8'. |
+| `rows` | number | 0 | Defines the number of rows (0 for automatic, 3-90 for fixed). |
+| `columns` | number | 0 | Defines the number of columns (0 for automatic, 1-30 for fixed). |
+| `isCompact` | boolean | false | Enables compact PDF417 rendering. |
+| `rowHeightRatio` | number | 3 | Defines the height of each row as a multiple of the module width. |
+| `displayText` | DisplayTextModel | {} | Defines the display text settings. |
+| `margin` | MarginModel | {} | Defines the outer margin around the barcode. |
+| `backgroundColor` | string | 'white' | Defines the background color of the barcode. |
+| `foreColor` | string | 'black' | Defines the foreground color of the barcode. |
+
+### DisplayText Properties
+
+| Property | Type | Default | Description |
+| --- | --- | --- | --- |
+| `text` | string | '' | Defines the text to display. |
+| `position` | string | 'Bottom' | Defines the position of the text: 'Top' or 'Bottom'. |
+| `alignment` | string | 'Center' | Defines the alignment of the text: 'Left', 'Center', or 'Right'. |
+| `visibility` | boolean | true | Defines whether the text is visible. |
+
+### Margin Properties
+
+| Property | Type | Default | Description |
+| --- | --- | --- | --- |
+| `left` | number | 10 | Defines the left margin. |
+| `right` | number | 10 | Defines the right margin. |
+| `top` | number | 10 | Defines the top margin. |
+| `bottom` | number | 10 | Defines the bottom margin. |
+
+### Methods
+
+#### destroy
+
+Destroys the PDF417Generator component and releases all its resources.
+
+```typescript
+var barcode = document.getElementById("pdf417").ej2_instances[0];
+barcode.destroy();
+```
+
+#### getModuleName
+
+Returns the module name of the component.
+
+```typescript
+var barcode = document.getElementById("pdf417").ej2_instances[0];
+console.log(barcode.getModuleName()); // Returns 'pdf417generator'
+```
+
+#### exportImage
+
+Exports the barcode as an image and downloads it in the browser.
+
+```typescript
+var barcode = document.getElementById("pdf417").ej2_instances[0];
+barcode.exportImage('pdf417-barcode', 'PNG');
+```
+
+#### exportAsBase64Image
+
+Returns a promise that resolves to a Base64-encoded image string.
+
+```typescript
+var barcode = document.getElementById("pdf417").ej2_instances[0];
+const imageString = await barcode.exportAsBase64Image('JPG');
+```
+
+### Framework Integration
+
+The PDF417 Barcode Generator integrates seamlessly into ASP.NET Core applications through Tag Helpers. It supports server-side model binding, tag helper attributes, and event handling for a native ASP.NET Core development experience.
+
+### API Reference
+
+#### Tag Helper: `<ejs-pdf417generator>`
+
+| Property | Type | Description |
+| --- | --- | --- |
+| `value` | string | Value to encode. |
+| `width` | string | Width of the control. |
+| `height` | string | Height of the control. |
+| `mode` | string | Rendering mode: `SVG` or `Canvas`. |
+| `compactionMode` | string | Data compaction mode. |
+| `errorCorrectionLevel` | string | Error correction level. |
+| `rows` | int | Number of rows. |
+| `columns` | int | Number of columns. |
+| `isCompact` | bool | Enables compact PDF417 rendering. |
+| `rowHeightRatio` | int | Height of each row relative to module width. |
+| `backgroundColor` | string | Background color. |
+| `foreColor` | string | Foreground color. |
+
+#### Events
+
+| Event | Description |
+| --- | --- |
+| `invalid` | Triggered when the value or properties are invalid, or when the symbol does not fit. |
+
+#### Methods
+
+| Method | Description |
+| --- | --- |
+| `destroy()` | Destroys the component. |
+| `getModuleName()` | Returns the module name. |
+| `exportImage(fileName, exportType)` | Downloads the barcode as an image. |
+| `exportAsBase64Image(exportType)` | Returns the barcode as a base64 image string. |

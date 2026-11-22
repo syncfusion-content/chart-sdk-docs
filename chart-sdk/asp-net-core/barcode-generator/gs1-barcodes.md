@@ -4,7 +4,6 @@ title: GS1 Barcodes in ASP.NET Core Barcode Control | Syncfusion®
 description: Learn about GS1 Barcode types, supported characters, and implementation in the ASP.NET Core Barcode Generator.
 platform: chart-sdk
 control: GS1 Barcodes
-publishingplatform: chart-sdk
 documentation: ug
 ---
 

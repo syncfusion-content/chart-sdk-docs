@@ -144,12 +144,17 @@ Error correction helps scanners successfully read a barcode even if it becomes p
 
 Higher error correction levels improve reliability but increase barcode size.
 
-| Level | Usage |
-|---|---|
-| `Auto` | Automatically selects an appropriate level. |
-| `Level0` - `Level2` | Suitable for clean printing environments. |
-| `Level3` - `Level5` | Suitable for shipping labels and general business applications. |
-| `Level6` - `Level8` | Suitable for harsh environments where barcode damage is more likely. |
+PDF417 uses Reed-Solomon error correction. Higher levels add more error-correction codewords, which improves resilience but increases symbol size.
+
+- `Level0` adds 2 codewords
+- `Level1` adds 4 codewords
+- `Level2` adds 8 codewords
+- `Level3` adds 16 codewords
+- `Level4` adds 32 codewords
+- `Level5` adds 64 codewords
+- `Level6` adds 128 codewords
+- `Level7` adds 256 codewords
+- `Level8` adds 512 codewords
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
@@ -326,15 +331,7 @@ export class AppComponent {
 
 ## International Character Support
 
-The PDF417 Generator supports Unicode and international characters including:
-* Chinese
-* Japanese
-* Korean
-* Arabic
-* Cyrillic languages
-* European accented characters
-
-When international characters are used, the barcode automatically applies the required encoding internally:
+The PDF417 Generator supports Unicode and international characters. When the input contains non-ASCII characters, the barcode is encoded using an appropriate Unicode-compatible encoding, enabling supported scanners to correctly decode the data.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -459,7 +456,7 @@ The PDF417 Generator includes built-in accessibility support:
 
 ## Localization
 
-Localization is supported through the Syncfusion `L10n` framework. You can localize screen reader labels, validation messages, and component-generated text:
+Use the Syncfusion `L10n` framework to localize the screen reader label and validation messages. Set the component locale to the matching culture:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -470,15 +467,7 @@ L10n.load({
   'de': {
     'PDF417Generator': {
       ariaLabel: 'PDF417-Strichcode',
-      EmptyValue: 'Der Wert ist leer.',
-      InvalidTextValue: 'Der Text enthält ungültige Zeichen.',
-      InvalidNumericValue: 'Der Wert enthält keine Ziffern.',
-      InvalidCompactionMode: 'Der Komprimierungsmodus wird nicht unterstützt.',
-      InvalidErrorCorrectionLevel: 'Die Fehlerkorrekturstufe wird nicht unterstützt.',
-      InvalidRows: 'Die Zeilenanzahl ist ungültig.',
-      InvalidColumns: 'Die Spaltenanzahl ist ungültig.',
-      CapacityExceeded: 'Der Wert ist zu lang.',
-      InsufficientSize: 'Die Größe reicht nicht aus, um das Symbol zu zeichnen.'
+      EmptyValue: 'Der Wert ist leer.'
     }
   }
 });
@@ -491,32 +480,6 @@ L10n.load({
 })
 export class AppComponent {}
 ```
-
-## Responsive Layout
-
-If the barcode container size changes at runtime, update the component dimensions or call `dataBind()`:
-
-```typescript
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
-import { PDF417Generator, PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
-
-@Component({
-  imports: [PDF417GeneratorModule],
-  standalone: true,
-  selector: 'app-container',
-  template: `<ejs-pdf417generator #barcode id="barcode" value="Syncfusion"></ejs-pdf417generator>`
-})
-export class AppComponent implements AfterViewInit {
-  @ViewChild('barcode') public barcode?: PDF417Generator;
-
-  public ngAfterViewInit(): void {
-    this.barcode!.dataBind();
-  }
-}
-```
-
-This recalculates the layout and redraws the barcode.
-
 ## Best Practices
 
 * Use `Auto` compaction mode unless a specific encoding mode is required.
@@ -527,7 +490,7 @@ This recalculates the layout and redraws the barcode.
 * Test generated barcodes with the target scanner devices before production deployment.
 * Use standard PDF417 unless compact mode is required to save space.
 
-## Limitations
+## Limitations and Constraints
 
 * A PDF417 symbol has a maximum storage capacity defined by the PDF417 specification (up to 928 codewords).
 * Fixed `rows` values must be between `3` and `90`.
