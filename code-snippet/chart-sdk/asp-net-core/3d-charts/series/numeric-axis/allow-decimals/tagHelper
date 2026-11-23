@@ -1,0 +1,7 @@
+<ejs-chart3d id="container">
+    <e-chart3d-primaryxaxis valueType="Category"></e-chart3d-primaryxaxis>
+    <e-chart3d-primaryyaxis title="Orders" allowDecimals="false"></e-chart3d-primaryyaxis>
+    <e-chart3d-series-collection>
+        <e-chart3d-series dataSource="ViewBag.dataSource" xName="x" yName="y" type="Column"></e-chart3d-series>
+    </e-chart3d-series-collection>
+</ejs-chart3d>
