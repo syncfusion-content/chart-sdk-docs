@@ -161,7 +161,9 @@ You can add the datamatrix code in our barcode generator component.
 
 ## Adding Aztec Generator control
 
-You can add the Aztec code in our barcode generator component.
+This section explains how to create a simple Aztec barcode by adding the Aztec Generator component and specifying the value to encode.
+
+The following example creates an Aztec barcode with the value `Syncfusion`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

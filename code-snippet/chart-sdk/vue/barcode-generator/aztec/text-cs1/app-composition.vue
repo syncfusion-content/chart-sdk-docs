@@ -6,6 +6,7 @@
               :width="width"
               :height="height"
               :displayText="displayText"
+              :margin="margin"
               :value="value"
               :mode="mode"
             ></ejs-aztecgenerator>
@@ -26,6 +27,7 @@ import { AztecGeneratorComponent as EjsAztecgenerator } from '@syncfusion/ej2-vu
 const width = "200px";
 const height = "200px";
 const displayText = { visibility: true };
+const margin = { left: 10, right: 10, top: 10, bottom: 10 };
 const mode = "SVG";
 const value = "Syncfusion";
 

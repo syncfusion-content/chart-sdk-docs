@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 # Export in Angular Barcode component
 
-The Angular Barcode component provides robust export functionality that allows developers to save barcode content as image files or retrieve it as base64 strings. This feature is essential for applications that need to store, share, or integrate barcode data with external systems.
+The Angular Barcode component provides robust export functionality that allows developers to save barcode content, including Aztec codes, as image files or retrieve it as base64 strings. This feature is essential for applications that need to store, share, or integrate barcode data with external systems.
 
 ## Export as Image File
 
