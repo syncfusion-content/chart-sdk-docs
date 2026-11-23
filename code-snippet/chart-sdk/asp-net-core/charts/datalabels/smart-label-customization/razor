@@ -1,0 +1,110 @@
+@{
+    var smartLabelSettings = new
+    {
+        background = "#e0e0e0",
+        border = new { color = "#404040", width = 1 },
+        pointerShape = "Arrow",
+        connectorLineStyle = new { color = "#404040", width = 1.5 }
+    };
+}
+
+@(
+    Html.EJS().Chart("container")
+        .Title("Annual Crude Steel Production by Country (2016–2024)")
+        .SubTitle("Source: wikipedia.org")
+        .EnableSmartLabels(true)
+        .LegendSettings(legend => legend.Visible(true))
+        .PrimaryXAxis(axis => axis
+            .ValueType(Syncfusion.EJ2.Charts.ValueType.Double)
+            .EdgeLabelPlacement(Syncfusion.EJ2.Charts.EdgeLabelPlacement.Shift)
+            .MajorGridLines(g => g.Width(0))
+        )
+        .PrimaryYAxis(axis => axis
+            .Title("Volume in million metric tons")
+            .LineStyle(l => l.Width(0))
+            .MajorTickLines(t => t.Width(0))
+        )
+        .Series(series =>
+        {
+            series
+                .Name("Vietnam")
+                .DataSource(ViewBag.vietnam)
+                .XName("x")
+                .YName("y")
+                .Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+                .Marker(marker => marker
+                    .Visible(true)
+                    .Shape(Syncfusion.EJ2.Charts.ChartShape.Circle)
+                    .DataLabel(dataLabel => dataLabel
+                        .Visible(true)
+                        .SmartLabelSettings(smartLabelSettings)
+                    )
+                )
+                .Add();
+
+            series
+                .Name("Indonesia")
+                .DataSource(ViewBag.indonesia)
+                .XName("x")
+                .YName("y")
+                .Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+                .Marker(marker => marker
+                    .Visible(true)
+                    .Shape(Syncfusion.EJ2.Charts.ChartShape.Triangle)
+                    .DataLabel(dataLabel => dataLabel
+                        .Visible(true)
+                        .SmartLabelSettings(smartLabelSettings)
+                    )
+                )
+                .Add();
+
+            series
+                .Name("France")
+                .DataSource(ViewBag.france)
+                .XName("x")
+                .YName("y")
+                .Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+                .Marker(marker => marker
+                    .Visible(true)
+                    .Shape(Syncfusion.EJ2.Charts.ChartShape.Diamond)
+                    .DataLabel(dataLabel => dataLabel
+                        .Visible(true)
+                        .SmartLabelSettings(smartLabelSettings)
+                    )
+                )
+                .Add();
+
+            series
+                .Name("Poland")
+                .DataSource(ViewBag.poland)
+                .XName("x")
+                .YName("y")
+                .Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+                .Marker(marker => marker
+                    .Visible(true)
+                    .Shape(Syncfusion.EJ2.Charts.ChartShape.Rectangle)
+                    .DataLabel(dataLabel => dataLabel
+                        .Visible(true)
+                        .SmartLabelSettings(smartLabelSettings)
+                    )
+                )
+                .Add();
+
+            series
+                .Name("Mexico")
+                .DataSource(ViewBag.mexico)
+                .XName("x")
+                .YName("y")
+                .Type(Syncfusion.EJ2.Charts.ChartSeriesType.Line)
+                .Marker(marker => marker
+                    .Visible(true)
+                    .Shape(Syncfusion.EJ2.Charts.ChartShape.Pentagon)
+                    .DataLabel(dataLabel => dataLabel
+                        .Visible(true)
+                        .SmartLabelSettings(smartLabelSettings)
+                    )
+                )
+                .Add();
+        })
+        .Render()
+)
