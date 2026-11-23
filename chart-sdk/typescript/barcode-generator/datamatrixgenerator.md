@@ -57,18 +57,20 @@ The dimension of the barcode can be changed using the height and width property 
 
 ### xDimension
 
-The `xDimension` property controls the width and height of each square module in the Data Matrix barcode. The value must be a finite number greater than `0`.
+The `xDimension` property sets the width and height, in pixels, of each square module of the Data Matrix barcode. The default value is `1`. The value must be a finite number greater than `0`.
 
-Use the `sizeMode` property to specify how the Data Matrix Generator applies the configured `xDimension`. The supported modes are:
+Use the `sizeMode` property to choose how `xDimension` is applied. It accepts the case-sensitive string values `'Fit'` or `'XDimension'`, and it has no default value.
 
-- `Fit`: Preserves the configured `xDimension` when the Data Matrix barcode fits within the available drawing area. If it does not fit, the component reduces the value to the largest whole-pixel size that fits. It does not increase the value to fill unused space.
-- `XDimension`: Always preserves the configured `xDimension`. The barcode size is calculated based on its encoded module count and may exceed the configured component dimensions.
+- `Fit`: Uses the configured `xDimension` when the Data Matrix fits within the component's `width` and `height` after the margins and display text area are subtracted. Otherwise, the value is reduced to the largest whole-pixel size that fits. The value is never enlarged to fill unused space, and the barcode is centered in the available area. If not even 1 pixel per module fits, nothing is rendered and the `invalid` event is triggered. For rectangular Data Matrix sizes, `Fit` mode continues to fit the symbol to the available area and does not apply `xDimension`.
+- `XDimension`: Always uses the configured `xDimension` for every module. The barcode size is calculated from the number of rows and columns multiplied by `xDimension`. The barcode is drawn from the top-left margin, is not centered, and the rendered area grows beyond `width` and `height` when the barcode is larger.
 
-If `sizeMode` is not specified, the Data Matrix barcode continues to render based on the configured `width` and `height`.
+`xDimension` based sizing is applied only when both `sizeMode` and `xDimension` are set. If either is omitted, the barcode is rendered using the configured `width` and `height`.
+
+If `sizeMode` is set and `xDimension` is not a finite number greater than `0`, the `invalid` event is triggered with the message `Invalid xDimension` and the barcode is not drawn.
 
 #### Fit the Data Matrix using xDimension
 
-The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the Data Matrix barcode fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the symbol fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -83,7 +85,7 @@ The following example sets `sizeMode` to `Fit`. The configured `xDimension` is k
 
 #### Preserve the Data Matrix module size using xDimension
 
-The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always kept, so the Data Matrix barcode may extend beyond the configured `width` and `height`.
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always used, and the rendered area grows if the symbol is larger than the configured `width` and `height`.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
