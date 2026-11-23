@@ -212,6 +212,31 @@ Assign a specific color to empty points by setting the `fill` property in the `e
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs6" %}
 
+### Handling null or undefined x-values
+
+Use the [xValueMode](../api/chart/emptypointsettings#xvaluemode-string) property to control how the chart handles data points whose x-value is `null` or `undefined`.
+
+The `xValueMode` property supports the following values:
+
+- **Drop:** Excludes data points whose x-value is `null` or `undefined`. The remaining valid points are rendered continuously, as though the dropped points do not exist.
+- **Gap:** Preserves the position of data points whose x-value is `null` or `undefined` but does not render those points. This leaves a gap between the preceding and following valid points.
+- **Show:** Displays data points whose x-value is `null` or `undefined` under a common category on the category axis.
+
+When `xValueMode` is set to `Show`, use the [xValueText](../api/chart/emptypointsettings#xvaluetext-string) property to define the category text displayed for null or undefined x-values. If multiple data points have null or undefined x-values, the chart places the points under the category specified by `xValueText` while retaining each point for rendering and interaction. The `xValueText` property does not apply when `xValueMode` is set to `Drop` or `Gap`.
+
+> **Note:** The `xValueMode` and `xValueText` properties handle null or undefined x-values. To customize null or undefined y-values, use the [emptyPointSettings](../api/chart/series#emptypointsettings) property.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs12/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/charts/working-with-data-cs12/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/working-with-data-cs12" %}
+
 ## Handling No Data
 
 When the chart has no data available to render, use the `noDataTemplate` property to display a custom layout within the chart area. This template can include messages, images, icons, or interactive elements (such as a load button) to guide the user. The template maintains design consistency and improves user experience when data is unavailable. Once data becomes available, the chart automatically updates and replaces the template with the visualization.
