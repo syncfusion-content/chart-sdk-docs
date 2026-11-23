@@ -13,7 +13,7 @@ appliesto: UI Component Suite, Chart SDK
 
 ## Axis Crossing
 
-An axis can be positioned in the Stock Chart area using [`crossesAt`](../api/stock-chart/stockChartAxisModel#crossesat) and [`crossesInAxis`] (../api/stock-chart/stockChartAxisModel#crossesinaxis) properties. The [`crossesAt`](../api/stock-chart/stockChartAxisModel#crossesat) property specifies the values (datetime, numeric, or logarithmic) at which the axis line has to be intersected with the vertical axis or vice-versa, and the [`crossesInAxis`](../api/stock-chart/stockChartAxisModel#crossesinaxis) property specifies the axis name with which the axis line has to be crossed.
+An axis can be positioned in the Stock Chart area using [`crossesAt`](../api/stock-chart/stockChartAxisModel#crossesat) and [`crossesInAxis`](https://ej2.syncfusion.com/documentation/api/stock-chart/stockchartaxis#crossesinaxis) properties. The [`crossesAt`](../api/stock-chart/stockChartAxisModel#crossesat) property specifies the values (datetime, numeric, or logarithmic) at which the axis line has to be intersected with the vertical axis or vice-versa, and the [`crossesInAxis`](https://ej2.syncfusion.com/documentation/api/stock-chart/stockchartaxis#crossesinaxis) property specifies the axis name with which the axis line has to be crossed.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -118,3 +118,26 @@ To place an axis opposite from its original position, set [`opposedPosition`](..
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/getting-started-cs9" %}
+
+## Allow decimals
+
+The [`allowDecimals`](https://ej2.syncfusion.com/documentation/api/stock-chart/stockchartaxis#allowdecimals) property determines whether a numeric axis can display decimal values. The default value is `true`.
+
+* When `true` (default), the axis can display decimal intervals and labels when required.
+* When `false`, the axis displays only whole-number intervals and labels.
+* This property applies only to axes whose [`valueType`](https://ej2.syncfusion.com/documentation/api/stock-chart/stockchartaxis#valuetype) is `Double`. It has no effect on `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+
+Use `allowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
+
+Set the property on an axis such as [`primaryXAxis`](https://ej2.syncfusion.com/documentation/api/stock-chart/index-default#primaryxaxis), [`primaryYAxis`](https://ej2.syncfusion.com/documentation/api/stock-chart/index-default#primaryyaxis), or any axis in the axes collection.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/stock-chart/allow-decimals/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/stock-chart/allow-decimals/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/stock-chart/allow-decimals" %}

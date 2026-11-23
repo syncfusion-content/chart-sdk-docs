@@ -65,7 +65,7 @@ The Bullet chart component's accessibility levels are ensured through an [access
 
 The accessibility compliance of the Bullet chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/bullet-chart.html) in a new window to evaluate the accessibility of the Bullet chart component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/bullet-chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/bullet-chart/preview-sample/accessibility-cs1" %}
 
 ## See also
 

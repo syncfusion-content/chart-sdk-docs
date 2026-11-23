@@ -5,7 +5,7 @@ import {
     StockChartComponent, StockChartSeriesCollectionDirective, StockChartSeriesDirective, Inject, DateTime, Tooltip, RangeTooltip, Crosshair, CandleSeries, LineSeries, SplineSeries,
     AccumulationDistributionIndicator, AtrIndicator, BollingerBands, EmaIndicator, MomentumIndicator, MacdIndicator, RsiIndicator, SmaIndicator, StochasticIndicator, TmaIndicator
 } from '@syncfusion/ej2-react-charts';
-import { chartData } from '../datasource';
+import { chartData } from './datasource';
 
 function App() {
     const primaryXAxis = { valueType: 'DateTime'};

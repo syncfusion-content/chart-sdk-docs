@@ -1,0 +1,6 @@
+<ejs-rangenavigator id="rangeContainer" valueType="Double" allowDecimals="false">
+    <e-rangenavigator-series-collection>
+        <e-rangenavigator-series dataSource="ViewBag.dataSource" xName="x" yName="y" type="Area">
+        </e-rangenavigator-series>
+    </e-rangenavigator-series-collection>
+</ejs-rangenavigator>

@@ -1,0 +1,12 @@
+@Html.EJS().StockChart("stockChart").PrimaryYAxis(py => py.AllowDecimals(false)).Series(sr =>
+{
+    sr.Type(Syncfusion.EJ2.Charts.ChartSeriesType.Candle)
+      .DataSource(ViewBag.DataSource)
+      .XName("x")
+      .Open("open")
+      .High("high")
+      .Low("low")
+      .Close("close")
+      .Volume("volume")
+      .Add();
+}).Render()

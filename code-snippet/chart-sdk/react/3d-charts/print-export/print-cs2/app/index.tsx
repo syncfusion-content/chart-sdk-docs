@@ -23,6 +23,7 @@ function App() {
          <Chart3DComponent id='charts' ref={chart => chartInstance = chart} primaryXAxis={{
             valueType: "Category",
         }}
+            enableExport={true}
             wallColor='transparent'
             enableRotation={true} rotation={7} tilt={10} depth={100}>
             <Inject services={[ColumnSeries3D, Export3D, Category3D, Legend3D, Tooltip3D, DataLabel3D, Highlight3D]} />
