@@ -12,13 +12,13 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Aztec Code
 
-Aztec Code is a two-dimensional matrix barcode symbology organized in square layers around a distinctive square bullseye finder pattern located at the center. The data encoded in the barcode can be numeric, alphanumeric, or byte characters. Unlike QR Code and other two-dimensional barcodes, Aztec Code does not require a surrounding quiet zone (blank margin), allowing for higher information density and compact presentation in space-constrained printing environments.
+Aztec Code is a two-dimensional matrix barcode symbology organized in square layers around a distinctive square bullseye finder pattern located at the center. Aztec barcodes are widely utilized in airline boarding passes, railway ticketing, transport systems, commercial logistics, healthcare, and mobile ticketing applications. The data encoded in the barcode can be numeric, alphanumeric, or byte characters. Unlike QR Code and other two-dimensional barcodes, Aztec Code does not require a surrounding quiet zone (blank margin), allowing for higher information density and compact presentation in space-constrained printing environments.
 
 Aztec Code supports two primary symbol formats:
 * **Compact**: Features a 2-ring central bullseye pattern and supports 1 to 4 concentric data layers, producing symbols ranging from 15x15 to 27x27 modules.
 * **Full-range**: Features a 3-ring central bullseye pattern and supports 1 to 32 concentric data layers, producing symbols ranging from 19x19 to 151x151 modules.
 
-By default, the barcode control automatically chooses the optimal symbol form and layer count based on the input text length and error correction capacity. Aztec barcodes are widely utilized in airline boarding passes, railway ticketing, transport systems, commercial logistics, healthcare, and mobile ticketing applications.
+By default, the barcode control automatically chooses the optimal symbol form and layer count based on the input text length and error correction capacity.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -63,7 +63,7 @@ The dimension of the barcode can be changed using the `height` and `width` prope
 
 ## Customizing the text
 
-In barcode generators you can customize the barcode text by using the `displayText` property.
+In barcode generators, use the `displayText` property to customize the barcode text and the `margin` property to set the space around the barcode. The following example displays the barcode text and sets a margin of 10 on each side.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

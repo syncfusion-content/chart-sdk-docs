@@ -6,6 +6,7 @@
               :width="width"
               :height="height"
               :displayText="displayText"
+              :margin="margin"
               :value="value"
               :mode="mode"
             ></ejs-aztecgenerator>
@@ -33,6 +34,7 @@ export default {
              width: "200px",
              height: "200px",
              displayText: { visibility: true },
+             margin: { left: 10, right: 10, top: 10, bottom: 10 },
              mode: "SVG",
              value: "Syncfusion"
         }

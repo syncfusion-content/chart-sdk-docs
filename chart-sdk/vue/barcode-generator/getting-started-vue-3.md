@@ -263,7 +263,9 @@ Refer the following sample, [vue3-barcode-generator-getting-started](https://git
 
 ## Adding Syncfusion® Vue Aztec Generator control in the application
 
-You can add the Aztec code generator component by using the following code sample.
+This section explains how to create a simple Aztec barcode by adding the Aztec Generator component and specifying the value to encode.
+
+The following example creates an Aztec barcode with the value `Syncfusion`.
 
 ```
 <template>
