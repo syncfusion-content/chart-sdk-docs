@@ -519,11 +519,6 @@ chart-client/src/index.css
 Add the following CSS imports for Syncfusion chart styles:
 
 ```
-@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
-@import '../node_modules/@syncfusion/ej2-react-charts/styles/material.css';
-
 body {
   margin: 0;
   background-color: #f5f7fb;

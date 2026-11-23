@@ -95,3 +95,26 @@ The font size, color, family, etc. can be customized using the `labelStyle` sett
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/lightweight-cs1" %}
+
+## Allow decimals
+
+The [`allowDecimals`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator/index-default#allowDecimals) property determines whether the range navigator can display decimal values on a numeric scale. The default value is `true`.
+
+* When `true` (default), the range navigator can display decimal intervals and labels when required.
+* When `false`, the range navigator displays only whole-number intervals and labels.
+* This property applies only when the [`valueType`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator#valuetype) is set to `Double` (numeric). It has no effect on `DateTime` or `Logarithmic` value types.
+
+Use `allowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
+
+Set the property directly on the Range Navigator component.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/range-selector/allow-decimals/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/range-selector/allow-decimals/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/allow-decimals" %}

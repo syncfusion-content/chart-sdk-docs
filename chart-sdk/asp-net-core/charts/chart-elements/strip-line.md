@@ -8,18 +8,17 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 <!-- markdownlint-disable MD036 -->
 
 # Strip Lines in ASP.NET Core Charts
 
 <!-- markdownlint-disable MD036 -->
 
-EJ2 chart supports horizontal and vertical strip lines and customization of stripline in both orientation.
+The EJ2 chart supports horizontal and vertical strip lines, as well as customization of the strip line in both orientations.
 
 ## Horizontal Strip lines
 
-You can create Horizontal stripline by adding the `stripline` in the vertical axis and set `visible` option to true. Striplines are rendered in the specified start to end range and you can add more than one stripline for an axis.
+You can create a horizontal strip line by adding a `stripline` to the vertical axis and setting the `visible` option to `true`. Striplines are rendered in the specified start to end range and you can add more than one stripline for an axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -30,11 +29,9 @@ You can create Horizontal stripline by adding the `stripline` in the vertical ax
 {% endhighlight %}
 {% endtabs %}
 
+## Vertical strip lines
 
-
-## Vertical Striplines
-
-You can create vertical stripline by adding the`stripline` in the horizontal axis and set `visible` option to true. Striplines are rendered in the specified start to end range and you can add more than one stripline for an axis.
+You can create a vertical strip line by adding a `stripline` to the horizontal axis and setting the `visible` option to `true`. Striplines are rendered in the specified start to end range and you can add more than one stripline for an axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -45,11 +42,9 @@ You can create vertical stripline by adding the`stripline` in the horizontal axi
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Customize the strip line
 
-Starting value in specific strip line can be customized by `start` property in strip line. Similarly, ending value is customized by `end`. It can be also set for starting from the corresponding origin of the axis by `startFromOrigin`. Size of the strip line is customized by `size`. Border for the stripline is customized by `border`. Order of the strip line such that whether it should be rendered in behind or over the series elements is customized by `zIndex`.
+The starting value of a specific strip line can be customized by the `start` property. The ending value is customized by `end`. Whether the strip line starts from the origin of the axis is controlled by `startFromOrigin`. The size of the strip line is customized by `size`. The border of the strip line is customized by `border`. The order of the strip line (rendered behind or over the series elements) is customized by `zIndex`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -60,11 +55,9 @@ Starting value in specific strip line can be customized by `start` property in s
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Customize the stripline text
 
-You can customize the text rendered in stripline by `textStyle` property. Rotation of the strip line text can be changed by `rotation` property. Horizontal and Vertical alignment of stripline text can be changed by `horizontalAlignment` and `verticalAlignment` property.
+You can customize the text rendered in a strip line by the `textStyle` property. The rotation of the strip line text is changed by the `rotation` property. The horizontal and vertical alignment of the strip line text is changed by `horizontalAlignment` and `verticalAlignment` properties.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -75,11 +68,9 @@ You can customize the text rendered in stripline by `textStyle` property. Rotati
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Dash Array
 
-You can create dash array stripline by using `dashArray` property. The Striplines are rendered with specified dash array values.
+You can create a dash array strip line by using the `dashArray` property. The strip lines are rendered with the specified dash array values.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -90,11 +81,9 @@ You can create dash array stripline by using `dashArray` property. The Stripline
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Recurrence Stripline
 
-The strip lines to be drawn repeatedly at the regular intervals – this will be useful when you want to mark an event that occurs recursively along the timeline of the chart. The following properties are used to configure this feature.
+Strip lines can be drawn repeatedly at regular intervals, which is useful for marking an event that recurs along the timeline of the chart. The following properties are used to configure this feature.
 
 * `isRepeat`       - It is used to enable or disable the recurrence strip line.
 * `repeatEvery`    - It is used to mention the stripline interval.
@@ -109,11 +98,9 @@ The strip lines to be drawn repeatedly at the regular intervals – this will be
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Size Type
 
-The `sizeType` property refers the size of the stripline. They are,
+The `sizeType` property refers to the size of the strip line. They are,
 
 * `Auto`
 * `Pixel`
@@ -133,11 +120,9 @@ The `sizeType` property refers the size of the stripline. They are,
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Segment Stripline
 
-You can create stripline in a particular region with respect to segment. You can enable the segment stripline using `isSegmented` property. The start and end value of this type of stripline can be defined using `segmentStart` and `segmentEnd` properties.
+You can create a strip line in a particular region with respect to a segment. You can enable the segment stripline using `isSegmented` property. The start and end value of this type of stripline can be defined using `segmentStart` and `segmentEnd` properties.
 
 * `isSegmented`     - Used to enable the segment stripline.
 * `segmentStart`    - Used to change the segment start value. Value correspond to associated axis.
@@ -152,5 +137,4 @@ You can create stripline in a particular region with respect to segment. You can
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/strip-line/segment/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 

@@ -107,6 +107,7 @@ The available chart modules are listed below.
 | [`Highlight`](https://ej2.syncfusion.com/react/documentation/api/chart/highlight) | Inject this module to use the highlight feature. |
 | [`Export`](https://ej2.syncfusion.com/react/documentation/api/chart/export) | Inject this module to use the export feature. |
 | [`MultiLevelLabel`](https://ej2.syncfusion.com/react/documentation/api/chart/multilevellabels) | Inject this module to use the multi-level label feature. |
+| [`WebMcpChart`](https://ej2.syncfusion.com/react/documentation/api/chart/chartwebmcpsettings) | Inject this module to use the WebMCP feature for AI agent tool integration. |
 
 ## See also
 

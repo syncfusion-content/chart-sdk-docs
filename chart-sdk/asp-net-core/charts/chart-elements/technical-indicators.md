@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 <!-- markdownlint-disable MD036 -->
 
 # Technical Indicators in ASP.NET Core Charts
 
-A [`technical indicator`](https://www.syncfusion.com/aspnet-core-ui-controls/charts/technical-indicators) is a mathematical calculation based on historic price, volume or open interest information that aims to forecast financial market direction.
+A [`technical indicator`](https://www.syncfusion.com/aspnet-core-ui-controls/charts/technical-indicators) is a mathematical calculation based on historical price, volume, or open interest information that aims to forecast financial market direction.
 
 Chart supports 10 types of technical indicators.
 
@@ -30,8 +29,6 @@ Accumulation Distribution combines price and volume to show how money may be flo
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Average True Range (ATR)
 
 ATR measures the stock volatility by comparing the current value with the previous value. To render a Average True Range (ATR) Indicator, use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `Atr`.
@@ -44,8 +41,6 @@ ATR measures the stock volatility by comparing the current value with the previo
 {% include code-snippet/chart-sdk/asp-net-core/charts/technical-indicators/atr/atr.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Bollinger Band
 
@@ -60,8 +55,6 @@ A chart overlay that shows the upper and lower limits of normal price movements 
 {% endhighlight %}
 {% endtabs %}
 
-
-
 **Customization of BollingerBand**
 
 The `stroke`, `stroke-width`, and `color` of upperLine can be customized by using [`upperLine`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_UpperLine) and the lowerLine can be customized by using [`lowerLine`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_LowerLine) properties of indicator.
@@ -75,11 +68,9 @@ The `stroke`, `stroke-width`, and `color` of upperLine can be customized by usin
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Exponential Moving Average (EMA)
 
-Moving average Indicators are used to define the direction of the trend. To render a EMA Indicator, use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `Ema`.
+Moving average indicators are used to define the direction of the trend. To render a EMA Indicator, use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `Ema`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -90,11 +81,9 @@ Moving average Indicators are used to define the direction of the trend. To rend
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Momentum
 
-Momentum shows the speed at which the price of the stock is changing. To render a Momentum indicator, use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `Momentum`. Momentum indicator will be represented by two lines (upperLine, signalLine). In momentum indicator the upperBand value is always render at the value 100.
+Momentum shows the speed at which the price of the stock is changing. To render a Momentum indicator, use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `Momentum`. The Momentum indicator is represented by two lines (`upperLine` and `signalLine`). In momentum indicator the upperBand value is always render at the value 100.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -104,8 +93,6 @@ Momentum shows the speed at which the price of the stock is changing. To render 
 {% include code-snippet/chart-sdk/asp-net-core/charts/technical-indicators/momentum/momentum.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 **Customization of MomentumIndicator**
 
@@ -120,11 +107,9 @@ The `stroke`, `stroke-width`, and `color` of upperLine can be customized by usin
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Moving Average Convergence Divergence (MACD)
 
-MACD is based on the difference between two EMA's. To render a MACD Indicator, use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `MACD`. MACD indicator will be represented by MACD line, signal line, MACD histogram. MACD histogram is used to differentiate MACD line and signal line.
+MACD is based on the difference between two EMAs. To render a MACD Indicator, use indicator [`type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `MACD`. MACD indicator will be represented by MACD line, signal line, MACD histogram. MACD histogram is used to differentiate MACD line and signal line.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -135,11 +120,9 @@ MACD is based on the difference between two EMA's. To render a MACD Indicator, u
 {% endhighlight %}
 {% endtabs %}
 
-
-
 **Customization of MACD**
 
-The `stroke`, `stroke-width`, and `color`of macdLine can be customized by using [`macdLine`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_MacdLine) property of indicator. The positive and negative changes of histogram can be customized by [`macdPositiveColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_MacdPositiveColor) and [`macdNegativeColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_MacdNegativeColor) properties. The [`macdType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_MacdType) is used to define the type of MACD indicator. To customize the MACD period using [`slowPeriod`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_SlowPeriod) and [`fastPeriod`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_FastPeriod) properties.
+The `stroke`, `stroke-width`, and `color` of `macdLine` can be customized by using [`macdLine`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_MacdLine) property of indicator. The positive and negative changes of histogram can be customized by [`macdPositiveColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_MacdPositiveColor) and [`macdNegativeColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_MacdNegativeColor) properties. The [`macdType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_MacdType) is used to define the type of MACD indicator. To customize the MACD period using [`slowPeriod`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_SlowPeriod) and [`fastPeriod`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_FastPeriod) properties.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -149,8 +132,6 @@ The `stroke`, `stroke-width`, and `color`of macdLine can be customized by using 
 {% include code-snippet/chart-sdk/asp-net-core/charts/technical-indicators/custom-macd/custom-macd.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Relative Strength Index (RSI)
 
@@ -165,11 +146,9 @@ RSI shows how strongly a stock is moving in its current direction. To render a R
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Simple Moving Average (SMA)
 
-Moving average Indicators are used to define the direction of the trend. To render a SMA Indicator, use indicator [`type`](./https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `Sma`.
+Moving average indicators are used to define the direction of the trend. To render a SMA Indicator, use indicator [`type`](./https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Type) as `Sma`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -179,8 +158,6 @@ Moving average Indicators are used to define the direction of the trend. To rend
 {% include code-snippet/chart-sdk/asp-net-core/charts/technical-indicators/sma/sma.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Stochastic
 
@@ -195,8 +172,6 @@ It shows how a stock is, when compared to previous state. To render a Stochastic
 {% endhighlight %}
 {% endtabs %}
 
-
-
 **Customization of StochasticIndicator**
 
 The `stroke`, `stroke-width`, and `color` of upperLine can be customized by using [`upperLine`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_UpperLine), the lowerLine can be customized by using [`lowerLine`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_LowerLine) and the periodLine can be customized by using [`periodLine`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_PeriodLine) properties of indicator. To customize the period to find the average price using [`kPeriod`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_KPeriod) and [`dPeriod`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_DPeriod) properties.
@@ -209,8 +184,6 @@ The `stroke`, `stroke-width`, and `color` of upperLine can be customized by usin
 {% include code-snippet/chart-sdk/asp-net-core/charts/technical-indicators/custom-stochastic/custom-stochastic.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Triangular Moving Average (TMA)
 
@@ -225,8 +198,6 @@ Moving average indicators are used to define the direction of the trend. To rend
 {% endhighlight %}
 {% endtabs %}
 
-
-
 **Customization of Technical Indicators**
 
 The `stroke`, `stroke-width`, and `color` of signalLine can be customized by using [`fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Fill), [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Width) and [`dashArray`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_DashArray) properties and the [`period`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Period) property is used to predict the data forecast calculations. The [`field`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_Field) value is used to the compare the current price with previous price. It is applicable to Bollinger bands and moving averages. The [`showZones`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartIndicator.html#Syncfusion_EJ2_Charts_ChartIndicator_ShowZones) property is used to show or hide the overBought and overSold regions. It is applicable for RSI and stochastic indicators.
@@ -239,8 +210,6 @@ The `stroke`, `stroke-width`, and `color` of signalLine can be customized by usi
 {% include code-snippet/chart-sdk/asp-net-core/charts/technical-indicators/custom-tma/custom-tma.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 **Data Source**
 
@@ -256,5 +225,4 @@ Technical indicators can also be added without series using [`dataSource`](https
 {% include code-snippet/chart-sdk/asp-net-core/charts/technical-indicators/datasource/datasource.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 

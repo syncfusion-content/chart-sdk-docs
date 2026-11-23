@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Waterfall Chart in ASP.NET Core Charts
 
-## Waterfall
+## Overview
 
 To render a `waterfall` series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -43,7 +42,7 @@ You can bind data to the chart using the `dataSource` property within the series
 
 ## Series customization
 
-In waterfall charts, you can customize the appearance of different types of data changes using specific properties. The `negativeFillColor` property is used to specify the color for negative changes, which helps visually distinguish decreases in the data. Similarly, the `summaryFillColor` property is used to define the color for summary changes. By default, the `negativeFillColor` is set to **green**, indicating decreases, while the `summaryFillColor` is set to **black**, marking summary or total values.
+In waterfall charts, you can customize the appearance of different types of data changes using specific properties. The `negativeFillColor` property specifies the color for negative changes, which helps visually distinguish decreases in the data. Similarly, the `summaryFillColor` property defines the color for summary changes. The default colors are determined by the active theme.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -97,9 +96,7 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-
-
-## Corner radius
+### Corner radius
 
 The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in the chart series is used to customize the corner radius for waterfall series. This allows you to create waterfalls with rounded corners, giving your chart a more polished appearance. You can customize each corner of the waterfalls using the topLeft, topRight, bottomLeft, and bottomRight properties.
 
@@ -111,8 +108,6 @@ The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/waterfall/corner-radius/corner-radius.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ### Point corner radius
 
@@ -126,8 +121,6 @@ We can customize the corner radius for individual points in the chart series usi
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/waterfall/point-corner-radius/point-corner-radius.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Events
 
@@ -156,8 +149,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/waterfall/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## See also
 

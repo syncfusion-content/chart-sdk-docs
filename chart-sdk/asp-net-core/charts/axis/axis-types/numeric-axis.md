@@ -8,7 +8,6 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 <!-- markdownlint-disable MD036 -->
 
 # Numeric Axis in ASP.NET Core Charts
@@ -24,8 +23,6 @@ You can use numeric [`axis`](https://ej2.syncfusion.com/aspnetcore/chart/numeric
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Range
 
 Range for an axis, will be calculated automatically based on the provided data, you can also customize the range of the axis using [`minimum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Minimum), [`maximum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Maximum) and [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) property of the axis.
@@ -38,8 +35,6 @@ Range for an axis, will be calculated automatically based on the provided data, 
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/double/range/range.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Range Padding
 
@@ -64,8 +59,6 @@ When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% endhighlight %}
 {% endtabs %}
 
-
-
 **Numeric - Round**
 
 When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_RangePadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value divisible by interval. For example, when the minimum is 3.5 and the interval is 1, then the minimum will be rounded to 3.
@@ -78,8 +71,6 @@ When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/double/round/round.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 **Numeric - Additional**
 
@@ -94,8 +85,6 @@ When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% endhighlight %}
 {% endtabs %}
 
-
-
 **Numeric - Normal**
 
 When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_RangePadding) is set to `Normal`, padding is applied to the axis based on default range calculation.
@@ -108,8 +97,6 @@ When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/double/normal/normal.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 **Numeric - Auto**
 
@@ -124,11 +111,9 @@ When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Label Format
 
-**Numeric Label Format**
+### Numeric label format
 
 Numeric labels can be formatted by using the [`labelFormat`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelFormat) property. Numeric labels supports all globalize format.
 
@@ -140,8 +125,6 @@ Numeric labels can be formatted by using the [`labelFormat`](https://help.syncf
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/double/label-format/label-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 The following table describes the result of applying some commonly used label formats on numeric values.
 
@@ -217,8 +200,6 @@ To separate groups of thousands, use [`useGroupingSeparator`](https://help.syncf
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Custom Label Format
 
 Axis also supports custom label format using placeholder like {value}°C, in which the value represents the axis label e.g 20°C.
@@ -232,4 +213,23 @@ Axis also supports custom label format using placeholder like {value}°C, in w
 {% endhighlight %}
 {% endtabs %}
 
+## Allow decimals
 
+The [`allowDecimals`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_AllowDecimals) property determines whether a numeric axis can display decimal values. The default value is `true`.
+
+* When `true` (default), the axis can display decimal intervals and labels when required.
+* When `false`, the axis displays only whole-number intervals and labels.
+* This property applies only to axes whose [`valueType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_ValueType) is `Double`. It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+
+Use `allowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
+
+Set the property on an axis such as [`primaryXAxis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PrimaryXAxis), [`primaryYAxis`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PrimaryYAxis), or any axis in the axes collection.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/allow-decimals/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Order.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/allow-decimals/orders.cs %}
+{% endhighlight %}
+{% endtabs %}

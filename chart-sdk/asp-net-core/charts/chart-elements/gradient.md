@@ -15,7 +15,7 @@ Gradients add depth and modern styling to charts by smoothly blending multiple c
 - Linear Gradient
 - Radial Gradient
 
-Gradients can be applied to:
+Gradients can be applied to the following elements:
 
 - Series
 - Trendlines
@@ -62,7 +62,7 @@ Apply a linear gradient to a trendline by adding `LinearGradient` inside the tar
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/gradient/trendlines-linear/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="LinearGradient.cs" %}
+{% highlight c# tabtitle="TrendlinesLinear.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/gradient/trendlines-linear/trendlines-linear.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -75,7 +75,7 @@ Apply a linear gradient to a technical indicator by adding `LinearGradient` insi
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/gradient/indicators-linear/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="LinearGradient.cs" %}
+{% highlight c# tabtitle="IndicatorsLinear.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/gradient/indicators-linear/indicators-linear.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -121,7 +121,7 @@ Apply a radial gradient to a trendline by adding `RadialGradient` inside the tar
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/gradient/trendlines-radial/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="RadialGradient.cs" %}
+{% highlight c# tabtitle="TrendlinesRadial.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/gradient/trendlines-radial/trendlines-radial.cs %}
 {% endhighlight %}
 {% endtabs %}
@@ -134,7 +134,7 @@ Apply a radial gradient to a technical indicator by adding `RadialGradient` insi
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/gradient/indicators-radial/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="RadialGradient.cs" %}
+{% highlight c# tabtitle="IndicatorsRadial.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/gradient/indicators-radial/indicators-radial.cs %}
 {% endhighlight %}
 {% endtabs %}

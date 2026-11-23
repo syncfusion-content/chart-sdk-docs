@@ -8,10 +8,9 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Bubble Chart in ASP.NET Core Charts
 
-## Bubble
+## Overview
 
 To render a [bubble](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/bubble-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
@@ -71,7 +70,7 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 
 ## Bubble size mapping
 
-Use the `size` property to map the size of each bubble to the value specified in the data source.
+Use the `size` property in the series configuration to map the size of each bubble to the value specified in the data source.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

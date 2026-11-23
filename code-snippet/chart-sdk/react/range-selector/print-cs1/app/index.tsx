@@ -1,6 +1,3 @@
-{% raw %}
-
-
 import {
   AreaSeries, DateTime, Inject, RangeNavigatorComponent, RangenavigatorSeriesCollectionDirective,
   RangenavigatorSeriesDirective, RangeTooltip, RangeNavigator, RangeTooltipSettingsModel
@@ -30,6 +27,3 @@ function App() {
 };
 export default App;
 ReactDOM.render(<App />, document.getElementById('charts'));
-
-
-{% endraw %}

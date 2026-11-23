@@ -3,8 +3,7 @@ layout: post
 title: Qrcodegenerator in JavaScript Barcode control | Syncfusion®
 description: Learn here all about Qrcodegenerator in Syncfusion® JavaScript Barcode control of Syncfusion Essential® JS 2 and more.
 platform: chart-sdk
-control: Qrcodegenerator 
-publishingplatform: chart-sdk
+control: Qrcodegenerator
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -28,7 +27,7 @@ A QR Code is a two-dimensional barcode that consists of a grid of dark and light
 
 ## Customizing the Barcode color
 
-A page or printed media with barcode often appears colorful in the background and surrounding region with other contents. In such cases the barcode can also be customized to suit the needs. You can achieve this by using for forecolor property .
+A page or printed media with barcode often appears colorful in the background and surrounding region with other contents. In such cases the barcode can also be customized to suit the needs. You can achieve this by using for foreColor property .
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -43,7 +42,7 @@ A page or printed media with barcode often appears colorful in the background an
 
 ## Customizing the Barcode dimension
 
-The dimension of the barcode can be changed using the height and width properties of the barcodegenerator.
+The dimension of the barcode can be changed using the height and width properties of the barcode generator.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -71,14 +70,53 @@ In barcode generators You can customize the barcode text by using display text p
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-cs4" %}
 
+## GS1 QR Code
+
+GS1 QR Code is a special variant of the standard QR Code that encodes data using GS1 Application Identifiers (AIs). This enables supply chain data to be encoded in a standardized, machine-readable format. GS1 QR Codes include a GS1 prefix indicator and support multiple AIs within a single QR code, making them ideal for product identification, tracking, and information exchange in supply chain and retail environments.
+
+Use the [`enableGS1`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/barcodeGenerator#enablegs1) property on the [`BarcodeGenerator`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/barcodeGenerator) to switch the control into GS1 mode.
+
+**Allowed Input Characters:** GS1 QR Code supports numeric, alphabetic, and supported special characters. Data is encoded using GS1 Application Identifiers (AIs), allowing structured information such as product identifiers, batch numbers, expiration dates, serial numbers, and other business data to be stored within a single QR Code.
+
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1-cs1" %}
+
+
+![GS1 QR Code](images/Gs1-QrCode.png)
+
+### GS1 QR Code with Error Correction
+
+Combining GS1 encoding with error correction levels:
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1ErrorCorrection-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1ErrorCorrection-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1ErrorCorrection-cs1" %}
+
+This configuration provides robust scanning even with partial damage to the QR code.
+
 ## Enhancing QR Codes with Icons
 
-
-The EJ2 Barcode Generator now lets you add a [`logo`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo/) or icon to your QR codes, boosting their visual appeal, clarity, and even security. Adding a recognizable icon can make it easier for users to identify the source and can help prevent tampering .
+The EJ2 Barcode Generator now lets you add a [`logo`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo) or icon to your QR codes, boosting their visual appeal, clarity, and even security. Adding a recognizable icon can make it easier for users to identify the source and can help prevent tampering .
 
 ### Supported Image Sources
  
-The [`imageSource`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo/#imagesource) property of the `QRCodeLogo` class supports the following image sources:
+The [`imageSource`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo#imagesource) property of the `QRCodeLogo` class supports the following image sources:
  
 - **Local image path**: Specify the path to the image file relative to your project's root directory (e.g., `images/syncfusion.png`) or as an absolute path (e.g., `/assets/icons/logo.svg`).
 - **Remote image URL**: Provide the web address of the image file (e.g., `https://example.com/image.jpg`).
@@ -86,7 +124,7 @@ The [`imageSource`](https://ej2.syncfusion.com/javascript/documentation/api/barc
 
 ### Logo Dimensions
  
-The [`width`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo/#width) and [`height`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo/#height) properties of the `QRCodeLogo` class define the dimensions of the logo in pixels. If not specified, both default to 30% of the QR code’s size. The maximum allowed size is 30% of the QR code’s dimensions to ensure optimal readability.
+The [`width`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo#width) and [`height`](https://ej2.syncfusion.com/javascript/documentation/api/barcode/qRCodeLogo#height) properties of the `QRCodeLogo` class define the dimensions of the logo in pixels. If not specified, both default to 30% of the QR code’s size. The maximum allowed size is 30% of the QR code’s dimensions to ensure optimal readability.
 
 **Note:** Always test the readability of your QR code after adding a logo. Depending on the logo size and QR code content, you might need to adjust the [`errorCorrectionLevel`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.BarcodeGenerator.ErrorCorrectionLevel.html) property of the `QRCodeGenerator` to `"Medium"` or `"High"` for better reliability.
 

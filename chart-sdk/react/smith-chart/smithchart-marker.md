@@ -34,12 +34,12 @@ You can add and customize the markers in the Smith Chart. This can be achieved b
 
 Using marker settings in series, you can customize the marker for each series differently. You can customize the markers using the following properties differently for each series in the Smith chart:
 
-* [`width`]: Controls the width of the marker.
-* [`height`]: Controls the height of the marker.
-* [`fill`]: Customizes the fill color of the marker.
-* [`opacity`]: Customizes the opacity of the marker.
-* [`border`]: Controls the width and color of the marker's border.
-* [`shape`]: Changes the shape of the marker.
+* `width`: Controls the width of the marker.
+* `height`: Controls the height of the marker.
+* `fill`: Customizes the fill color of the marker.
+* `opacity`: Customizes the opacity of the marker.
+* `border`: Controls the width and color of the marker's border.
+* `shape`: Changes the shape of the marker.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
@@ -50,7 +50,7 @@ Using marker settings in series, you can customize the marker for each series di
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/smith-chart/preview-sample/getting-started-cs22" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/smith-chart/getting-started-cs22" %}
 
 ## Enable dataLabel for Smith Chart marker
 
@@ -71,10 +71,10 @@ You can add data labels to improve the readability of the Smith Chart. This can 
 
 Using data label settings in marker, you can customize the data label for each series differently. The following properties are used to customize data labels differently for each series:
 
-* [`fill`]: Changes the fill color of the data label's shape.
-* [`opacity`]: Controls the opacity of the data label's shape.
-* [`border`]: Customizes the width and color of the border.
-* [`textStyle`]: Customizes the font color, width, and size.
+* `fill`: Changes the fill color of the data label's shape.
+* `opacity`: Controls the opacity of the data label's shape.
+* `border`: Customizes the width and color of the border.
+* `textStyle`: Customizes the font color, width, and size.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}

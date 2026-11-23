@@ -30,7 +30,7 @@ Key GraphQL concepts:
 
 GraphQL query example used in this guide:
 
-```graphql
+```
 query {
   getSalesData {
     result {

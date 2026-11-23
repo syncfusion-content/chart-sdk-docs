@@ -179,7 +179,7 @@ export const monthlySalesData: MonthlySales[] = [
 
 **`Server/src/schema.graphql`** — the GraphQL schema. `DataManagerInput` is optional and lets the Syncfusion `DataManager` forward paging parameters:
 
-```graphql
+```
 type MonthlySales {
   id: Int!
   month: String!

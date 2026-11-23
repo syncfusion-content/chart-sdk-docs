@@ -14,7 +14,7 @@ The `lastValueLabel` in a chart allows you to easily display the value of the la
 
 ## Enable Last value label
 
-To show the last value label, make sure the `enable` property inside the `lastValueLabel` settings is set to `true` within the series configuration. 
+To show the last value label, set the `enable` property inside the `lastValueLabel` settings to `true` within the series configuration.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}

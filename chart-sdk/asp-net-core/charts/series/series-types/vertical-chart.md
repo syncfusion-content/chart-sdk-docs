@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Vertical Chart in ASP.NET Core Charts
 
-## Vertical Chart
+## Overview
 
-To draw a chart in a vertical manner, change the orientation of the axis using the `isTransposed` property, which is supported by all series types.
+To draw a chart in a vertical manner, change the orientation of the axis by using the `isTransposed` property, which is supported by all series types.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
