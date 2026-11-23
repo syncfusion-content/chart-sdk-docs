@@ -159,7 +159,28 @@ The Data points that uses the `null` or `undefined` as value are considered as e
 {% endhighlight %}
 {% endtabs %}
 
+### Handling null or undefined x-values
 
+Use the [xValueMode](../api/chart/emptypointsettings#xvaluemode) property to control how the chart handles data points whose x-value is `null` or `undefined`.
+
+The `xValueMode` property supports the following values:
+
+- **Drop:** Excludes data points whose x-value is `null` or `undefined`. The remaining valid points are rendered continuously, as though the dropped points do not exist.
+- **Gap:** Preserves the position of data points whose x-value is `null` or `undefined` but does not render those points. This leaves a gap between the preceding and following valid points.
+- **Show:** Displays data points whose x-value is `null` or `undefined` under a common category on the category axis.
+
+When `xValueMode` is set to `Show`, use the [xValueText](../api/chart/emptypointsettings#xvaluetext) property to define the category text displayed for null or undefined x-values. If multiple data points have null or undefined x-values, the chart places the points under the category specified by `xValueText` while retaining each point for rendering and interaction. The `xValueText` property does not apply when `xValueMode` is set to `Drop` or `Gap`.
+
+> **Note:** The `xValueMode` and `xValueText` properties handle null or undefined x-values. To customize null or undefined y-values, use the [emptyPointSettings](../api/chart/series#emptypointsettings) property.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/working-data/empty-xvalue-points/tagHelper %}
+{% endhighlight %}
+{% highlight c# tabtitle="Empty-points.cs" %}
+{% include code-snippet/chart-sdk/asp-net-core/charts/axis/working-data/empty-xvalue-points/empty-points.cs %}
+{% endhighlight %}
+{% endtabs %}
 
 ## Lazy loading
 
