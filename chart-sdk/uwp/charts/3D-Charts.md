@@ -152,7 +152,7 @@ public class UsersViewModel
 
 Add the above UsersViewModel to the DataContext of the chart, bind the data source to the [`ItemsSource`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_ItemsSource) property of the 3D column series, and then map the data using [`XBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_XBindingPath) and [`YBindingPath`](https://help.syncfusion.com/cr/uwp/Syncfusion.UI.Xaml.Charts.XyDataSeries3D.html#Syncfusion_UI_Xaml_Charts_XyDataSeries3D_YBindingPath) properties.
 
->Note:- N> The data source must implement the `IEnumerable` interface. For dynamic updates, use `ObservableCollection<T>`. To reflect property changes in existing items, implement `INotifyPropertyChanged`.
+>Note:- The data source must implement the `IEnumerable` interface. For dynamic updates, use `ObservableCollection<T>`. To reflect property changes in existing items, implement `INotifyPropertyChanged`.
 
 {% highlight xml %}
 
@@ -378,7 +378,7 @@ The following code example illustrates how to enable the dynamic rotation:
 
 {% highlight xml %}
 
-<Syncfusion:SfChart3D EnableRotation="True" x:Name="Chart" Height="500" Width="600">
+<Syncfusion:SfChart3D EnableRotation="True" x:Name="Chart" Height="500" Width="600" />
 {% endhighlight %}
 
 ### SegmentSelection
