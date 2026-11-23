@@ -13,8 +13,6 @@ appliesto: UI Component Suite, Chart SDK
 
 The Chart control follows the accessibility guidelines and standards, including [ADA](https://www.ada.gov), [Section 508](https://www.section508.gov), [WCAG 2.2](https://www.w3.org/TR/WCAG22), and relevant [WAI-ARIA](https://www.w3.org/TR/wai-aria#roles) roles.
 
-Accessibility features (keyboard navigation, ARIA wiring, and high-contrast support) are enabled by default. You can customize the accessible name and ARIA role of the chart using the [`accessibility`](../api/chart/accessibilityModel) property (`accessibilityDescription` and `accessibilityRole`), and adjust the visible focus indicator with [`focusBorderColor`](../api/chart#focusbordercolor), [`focusBorderWidth`](../api/chart#focusborderwidth), and [`focusBorderMargin`](../api/chart#focusbordermargin). Refer to the [Getting Started](../chart/getting-started) page for TypeScript and `@syncfusion/ej2-charts` version requirements.
-
 The Chart control's accessibility compliance is outlined below.
 
 | Accessibility Criteria | Compatibility |
