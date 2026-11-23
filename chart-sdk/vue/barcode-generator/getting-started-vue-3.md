@@ -14,7 +14,7 @@ This section explains how to use Barcode component in Vue 3 application.
 
 ## Prerequisites
 
-[System requirements for Syncfusion® Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements/)
+[System requirements for Syncfusion® Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
 
 ## Creating Vue application using Vue CLI
 

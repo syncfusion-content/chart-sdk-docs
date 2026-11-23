@@ -40,7 +40,7 @@ Currently, Syncfusion® provides two types of package structures for Angular com
 
 ### Ivy library distribution package
 
-Syncfusion® Angular packages (>=20.2.36) have moved to the Ivy distribution to support the Angular [Ivy](https://docs.angular.lat/guide/ivy) rendering engine. These packages are compatible with Angular version 12 and above. To download the package, use the command below:
+Syncfusion® Angular packages (>=20.2.36) have moved to the Ivy distribution to support the Angular Ivy rendering engine. These packages are compatible with Angular version 12 and above. To download the package, use the command below:
 
 Add the [`@syncfusion/ej2-angular-barcode-generator`](https://www.npmjs.com/package/@syncfusion/ej2-angular-barcode-generator/v/20.2.38) package to the application:
 

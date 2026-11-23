@@ -4,7 +4,6 @@ title: Getting started with JavaScript Barcode control | Syncfusion®
 description:  Checkout and learn about Getting started with JavaScript Barcode control of Syncfusion Essential® JS 2 and more details.
 platform: chart-sdk
 control: Getting started 
-publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
@@ -79,7 +78,7 @@ Combined CSS files are available in the Essential® JS 2 package root folder. Th
 @import '../../node_modules/@syncfusion/ej2/material.css';
 ```
 
-> To know about individual component CSS, please refer to [Individual Component theme files](https://ej2.syncfusion.com/javascript/documentation/appearance/theme-studio/#filtering-a-specific-list-of-controls) section.
+> To know about individual component CSS, please refer to [Individual Component theme files](https://ej2.syncfusion.com/javascript/documentation/appearance/theme-studio#filtering-a-specific-list-of-controls) section.
 
 ## Adding Barcode Generator control
 
