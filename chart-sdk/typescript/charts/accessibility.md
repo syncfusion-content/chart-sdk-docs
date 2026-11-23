@@ -15,21 +15,6 @@ The Chart control follows the accessibility guidelines and standards, including 
 
 Accessibility features (keyboard navigation, ARIA wiring, and high-contrast support) are enabled by default. You can customize the accessible name and ARIA role of the chart using the [`accessibility`](../api/chart/accessibilityModel) property (`accessibilityDescription` and `accessibilityRole`), and adjust the visible focus indicator with [`focusBorderColor`](../api/chart#focusbordercolor), [`focusBorderWidth`](../api/chart#focusborderwidth), and [`focusBorderMargin`](../api/chart#focusbordermargin). Refer to the [Getting Started](../chart/getting-started) page for TypeScript and `@syncfusion/ej2-charts` version requirements.
 
-## Configuring accessibility
-
-The following example shows how to provide an accessible description, set the ARIA role, and customize the focus border for the Chart.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/charts/accessibility-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/charts/accessibility-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/accessibility-cs1" %}
-
 The Chart control's accessibility compliance is outlined below.
 
 | Accessibility Criteria | Compatibility |
@@ -99,7 +84,7 @@ The Chart control's accessibility levels are ensured through an [accessibility-c
 
 The accessibility compliance of the Chart control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/chart.html) in a new window to evaluate the accessibility of the Chart control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/accessibility-cs1" %}
 
 ## See also
 
