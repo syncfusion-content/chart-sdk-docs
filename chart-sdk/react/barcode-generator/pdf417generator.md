@@ -141,6 +141,7 @@ ReactDOM.render(
 
 ### Display text customization
 
+{% raw %}
 ```typescript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -161,6 +162,7 @@ ReactDOM.render(
   document.getElementById('element')
 );
 ```
+{% endraw %}
 
 ### Background and foreground color customization
 
@@ -184,6 +186,7 @@ ReactDOM.render(
 
 ### Margin customization
 
+{% raw %}
 ```typescript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -200,6 +203,7 @@ ReactDOM.render(
   document.getElementById('element')
 );
 ```
+{% endraw %}
 
 ## PDF417-specific samples
 
@@ -305,6 +309,7 @@ ReactDOM.render(
 
 ### Display text customization
 
+{% raw %}
 ```typescript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -325,6 +330,7 @@ ReactDOM.render(
   document.getElementById('element')
 );
 ```
+{% endraw %}
 
 ### Background and foreColor customization
 
@@ -348,6 +354,7 @@ ReactDOM.render(
 
 ### Margin customization
 
+{% raw %}
 ```typescript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -364,6 +371,7 @@ ReactDOM.render(
   document.getElementById('element')
 );
 ```
+{% endraw %}
 
 ## Compaction Modes
 
