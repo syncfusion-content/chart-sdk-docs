@@ -1,36 +1,83 @@
 var chartData = [
-    { month: 'Jan', sales: 35 }, { month: 'Feb', sales: 28 },
-    { month: 'Mar', sales: 34 }, { month: 'Apr', sales: 32 },
-    { month: 'May', sales: 40 }, { month: 'Jun', sales: 32 },
-    { month: 'Jul', sales: 35 }, { month: 'Aug', sales: 55 },
-    { month: 'Sep', sales: 38 }, { month: 'Oct', sales: 30 },
-    { month: 'Nov', sales: 25 }, { month: 'Dec', sales: 32 }
+    { x: 2005, y: 28 }, { x: 2006, y: 25 }, { x: 2007, y: 26 }, { x: 2008, y: 27 },
+    { x: 2009, y: 32 }, { x: 2010, y: 35 }, { x: 2011, y: 30 }
 ];
 
 var chart = new ej.charts.Chart({
     primaryXAxis: {
-        valueType: 'Category'
+        title: 'Year',
+        minimum: 2004,
+        maximum: 2012,
+        interval: 1,
+        stripLines: [{ start: 2005, end: 2008, color: 'green', opacity: 0.1, text: 'Low' }]
     },
     primaryYAxis: {
-        labelFormat: '${value}K'
+        minimum: 20,
+        maximum: 40,
+        interval: 5,
+        title: 'Efficiency',
+        labelFormat: '{value}%',
+        crosshairTooltip: {
+            enable: true
+        }
     },
     series: [
         {
             dataSource: chartData,
+            width: 2,
+            xName: 'x',
+            yName: 'y',
+            name: 'India',
+            marker: {
+                visible: true,
+                dataLabel: {
+                    visible: true
+                }
+            },
+            type: 'Line',
+            animation: { enable: false }
+        },
+        {
+            dataSource: chartData,
+            width: 2,
+            xName: 'x',
+            yName: 'y',
+            name: 'UK',
+            marker: {
+                visible: true,
+                dataLabel: {
+                    visible: true
+                }
+            },
             type: 'Column',
-            xName: 'month',
-            yName: 'sales',
-            name: 'Sales'
+            animation: { enable: false }
         }
     ],
-    title: 'Monthly Sales',
     tooltip: { enable: true },
-    legendSettings: { visible: true },
-    accessibility: {
-        accessibilityDescription: 'A column chart showing monthly sales in thousands of units for the year.',
-        accessibilityRole: 'chart'
+    legendSettings: {
+        visible: true,
+        title: 'Country',
+        shapeHeight: 10,
+        shapeWidth: 10
     },
-    focusBorderColor: '#0066FF',
-    focusBorderWidth: 2,
-    focusBorderMargin: 3
+    selectionMode: 'Point',
+    selectionPattern: 'DiagonalBackward',
+    highlightMode: 'Cluster',
+    highlightPattern: 'DiagonalBackward',
+    crosshair: {
+        enable: true
+    },
+    zoomSettings: {
+        enableDeferredZooming: true,
+        enableMouseWheelZooming: true,
+        enableScrollbar: true,
+        enablePinchZooming: true,
+        mode: 'XY'
+    },
+    border: {
+        width: 1,
+        color: 'red'
+    },
+    title: 'Efficiency of oil-fired power production',
+    subTitle: 'Graph'
 }, '#element');
