@@ -254,4 +254,4 @@ Set the property on an axis such as [`primaryXAxis`](https://ej2.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-charts/numeric-axis/allow-decimals" }
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-charts/numeric-axis/allow-decimals" %}
