@@ -218,6 +218,51 @@ export default {
 </script>
 ```
 
+## Customizing PDF417 Dimensions
+
+The size of the PDF417 barcode is controlled by the `width` and `height` properties, as shown in the **Custom size** example above.
+
+### xDimension
+
+The `xDimension` property controls the width of the smallest module in the PDF417 barcode. The row height is determined separately by the `rowHeightRatio` property, which sets the height of each row as a multiple of the module width (minimum `3`). The value must be a finite number greater than `0`.
+
+Use the `sizeMode` property to specify how the PDF417 Generator applies the configured `xDimension`. The supported modes are:
+
+- `Fit`: Preserves the configured `xDimension` when the PDF417 barcode fits within the available drawing area. If it does not fit, the component reduces the value to the largest whole-pixel size that fits. It does not increase the value to fill unused space.
+- `XDimension`: Always preserves the configured `xDimension`. The barcode size is calculated based on its encoded module count and may exceed the configured component dimensions.
+
+If `sizeMode` is not specified, the PDF417 barcode continues to render based on the configured `width` and `height`.
+
+#### Fit the PDF417 barcode using xDimension
+
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the PDF417 barcode fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/xdimension-fit-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/xdimension-fit-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/xdimension-fit-cs1" %}
+
+#### Preserve the PDF417 module width using xDimension
+
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always kept, so the PDF417 barcode may extend beyond the configured `width` and `height`.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/xdimension-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/xdimension-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/pdf417generator/xdimension-cs1" %}
+
 ## PDF417-specific samples
 
 ### Compaction mode

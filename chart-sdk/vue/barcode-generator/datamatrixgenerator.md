@@ -40,7 +40,7 @@ A page or printed media with barcode often appears colorful in the background an
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/datamatrix/color-cs1" %}
 
-## Customizing the Barcode dimension
+## Customizing Data Matrix Dimensions
 
 The dimension of the barcode can be changed using the height and width property of the barcode generator.
 
@@ -54,6 +54,47 @@ The dimension of the barcode can be changed using the height and width property 
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/datamatrix/dimension-cs1" %}
+
+### xDimension
+
+The `xDimension` property controls the width and height of each square module in the Data Matrix barcode. The value must be a finite number greater than `0`.
+
+Use the `sizeMode` property to specify how the Data Matrix Generator applies the configured `xDimension`. The supported modes are:
+
+- `Fit`: Preserves the configured `xDimension` when the Data Matrix barcode fits within the available drawing area. If it does not fit, the component reduces the value to the largest whole-pixel size that fits. It does not increase the value to fill unused space.
+- `XDimension`: Always preserves the configured `xDimension`. The barcode size is calculated based on its encoded module count and may exceed the configured component dimensions.
+
+If `sizeMode` is not specified, the Data Matrix barcode continues to render based on the configured `width` and `height`.
+
+#### Fit the Data Matrix using xDimension
+
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the Data Matrix barcode fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/datamatrix/xdimension-fit-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/datamatrix/xdimension-fit-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/datamatrix/xdimension-fit-cs1" %}
+
+#### Preserve the Data Matrix module size using xDimension
+
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always kept, so the Data Matrix barcode may extend beyond the configured `width` and `height`.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/datamatrix/xdimension-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/datamatrix/xdimension-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/datamatrix/xdimension-cs1" %}
 
 ## GS1 Data Matrix
 

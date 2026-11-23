@@ -40,7 +40,7 @@ A page or printed media with barcode often appears colorful in the background an
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-cs2" %}
 
-## Customizing the Barcode dimension
+## Customizing QR Code Dimensions
 
 The dimension of the barcode can be changed using the height and width properties of the barcode generator.
 
@@ -54,6 +54,47 @@ The dimension of the barcode can be changed using the height and width propertie
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-cs3" %}
+
+### xDimension
+
+The `xDimension` property controls the width and height of each square module in the QR Code. The value must be a finite number greater than `0`.
+
+Use the `sizeMode` property to specify how the QR Code Generator applies the configured `xDimension`. The supported modes are:
+
+- `Fit`: Preserves the configured `xDimension` when the QR Code fits within the available drawing area. If it does not fit, the component reduces the value to the largest whole-pixel size that fits. It does not increase the value to fill unused space.
+- `XDimension`: Always preserves the configured `xDimension`. The barcode size is calculated based on its encoded module count and may exceed the configured component dimensions.
+
+If `sizeMode` is not specified, the QR Code continues to render based on the configured `width` and `height`.
+
+#### Fit the QR Code using xDimension
+
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the QR Code fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-xdimension-fit-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-xdimension-fit-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-xdimension-fit-cs1" %}
+
+#### Preserve the QR Code module size using xDimension
+
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always kept, so the QR Code may extend beyond the configured `width` and `height`.
+
+{% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-xdimension-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-xdimension-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/barcode-generator/QrGenerator-xdimension-cs1" %}
 
 ## Customizing the text
 
