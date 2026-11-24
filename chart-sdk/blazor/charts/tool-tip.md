@@ -239,6 +239,81 @@ Any HTML elements can be displayed within the tooltip by using the [Template](ht
 
 ![Blazor StepLine Chart with Tooltip Template](images/tooltip/blazor-shared-tooltip-template.webp)
 
+## Highlight closest series in shared tooltip
+
+When using a shared tooltip in Blazor Charts, the tooltip indicator for the series closest to the pointer can be highlighted to draw focus to the nearest data point while still displaying information for all series at the same X-axis value.
+
+* [Shared](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipSettings.html#Syncfusion_Blazor_Charts_ChartTooltipSettings_Shared): Enables or disables the shared tooltip. Set to **true** to display tooltip information for all series at the same X-axis value.
+* `HighlightNearestSeries`: Determines whether the tooltip indicator for the series closest to the pointer is highlighted. Set to **true** to highlight the nearest series indicator in the shared tooltip. The default value is **false**.
+
+```cshtml
+
+@page "/tooltip"
+@using Syncfusion.Blazor.Charts
+
+<SfChart Title="Average Monthly Temperature">
+    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"
+                       Title="Month">
+    </ChartPrimaryXAxis>
+
+    <ChartPrimaryYAxis Title="Temperature (°C)"
+                       LabelFormat="{value}°C">
+    </ChartPrimaryYAxis>
+
+    <ChartTooltipSettings Enable="true"
+                          Shared="true"
+                          HighlightNearestSeries="true">
+    </ChartTooltipSettings>
+
+    <ChartSeriesCollection>
+        <ChartSeries DataSource="@TemperatureData"
+                     XName="Month"
+                     YName="London"
+                     Name="London"
+                     Type="ChartSeriesType.Line">
+            <ChartMarker Visible="true"></ChartMarker>
+        </ChartSeries>
+
+        <ChartSeries DataSource="@TemperatureData"
+                     XName="Month"
+                     YName="Tokyo"
+                     Name="Tokyo"
+                     Type="ChartSeriesType.Line">
+            <ChartMarker Visible="true"></ChartMarker>
+        </ChartSeries>
+
+        <ChartSeries DataSource="@TemperatureData"
+                     XName="Month"
+                     YName="NewYork"
+                     Name="New York"
+                     Type="ChartSeriesType.Line">
+            <ChartMarker Visible="true"></ChartMarker>
+        </ChartSeries>
+    </ChartSeriesCollection>
+</SfChart>
+
+@code {
+    public List<Temperature> TemperatureData { get; set; } = new()
+    {
+        new Temperature { Month = "Jan", London = 7,  Tokyo = 10, NewYork = 4 },
+        new Temperature { Month = "Feb", London = 8,  Tokyo = 11, NewYork = 6 },
+        new Temperature { Month = "Mar", London = 11, Tokyo = 14, NewYork = 10 },
+        new Temperature { Month = "Apr", London = 14, Tokyo = 19, NewYork = 16 },
+        new Temperature { Month = "May", London = 18, Tokyo = 23, NewYork = 21 },
+        new Temperature { Month = "Jun", London = 21, Tokyo = 26, NewYork = 26 }
+    };
+
+    public class Temperature
+    {
+        public string Month { get; set; }
+        public double London { get; set; }
+        public double Tokyo { get; set; }
+        public double NewYork { get; set; }
+    }
+}
+
+```
+
 ## Tooltip customization
 
 The [Fill](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipSettings.html#Syncfusion_Blazor_Charts_ChartTooltipSettings_Fill) and [Border](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipSettings.html#Syncfusion_Blazor_Charts_ChartTooltipSettings_Border) properties are used to customize the background color and the border of the tooltip respectively. The [ChartTooltipTextStyle](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartTooltipTextStyle.html) is used to customize the tooltip text. The [HighlightColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_HighlightColor) property is used to customize the point color while hovering for tooltip.
