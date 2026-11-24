@@ -130,10 +130,6 @@ The `HoverFormat` property applies a .NET numeric format to the active data poin
 
 ![Blazor Accumulation Chart with formatted center label](./images/center-label/blazor-accumulation-chart-formatted-center-label.webp)
 
-N> The `Format` and `HoverFormat` properties apply only to text-based center labels. Values rendered through `Template` or `HoverTemplate` must be formatted within the Razor template.
-
-N> Active-state content requires an interactive Blazor render mode and is not available in static server-side rendering.
-
 ## Customization
 
 The appearance of the center label can be customized by using the [AccumulationChartCenterLabelFont](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartCenterLabelFont.html), which allows you to modify font properties such as size, font-family, font-style, font-weight, and color to enhance the visual presentation of the text displayed in the center of the chart.
@@ -306,8 +302,6 @@ The template context is of type [AccumulationChartDataPointInfo](https://help.sy
 ```
 
 ![Blazor Accumulation Chart with center label template](./images/center-label/blazor-accumulation-chart-center-label-template.webp)
-
-N> The `HoverTemplate` content is temporary and replaces the `Template` content while a data point is active.
 
 ## See also
 
