@@ -50,12 +50,14 @@ Data points that contain **NaN** or **null** value are considered as empty point
 
 ## Empty point mode
 
-The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to handle the visibility of the empty points. The default mode of the empty point is **Gap**. The supported modes are as follows.
+The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to handle the visibility of the empty points. The default mode of the empty point is **Gap**. The supported modes are listed in the following table.
 
-* `Gap` - The empty point slice is hidden.
-* `Zero` - The empty point is considered as zero.
-* `Drop` - The empty point is removed from the chart and the legend.
-* `Average` - The empty point value is calculated as the average of its neighboring points.
+| Mode | Description |
+|---|---|
+| `Gap` | The empty point slice is hidden. This is the default mode. |
+| `Zero` | The empty point is considered as zero. |
+| `Drop` | The empty point is removed from the chart and the legend. |
+| `Average` | The empty point value is calculated as the average of its neighboring points. |
 
 ### Gap
 
