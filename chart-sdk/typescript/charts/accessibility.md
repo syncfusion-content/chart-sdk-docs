@@ -82,7 +82,7 @@ The Chart control's accessibility levels are ensured through an [accessibility-c
 
 The accessibility compliance of the Chart control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/chart.html) in a new window to evaluate the accessibility of the Chart control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/accessibility-cs1" %}
 
 ## See also
 
