@@ -55,6 +55,8 @@ The 3D Circular Chart ships with built-in themes that control the overall look a
 
 ```
 
+![Blazor 3D Circular Chart - Built-in themes](images/appearance/blazor-3d-circular-chart-built-in-themes.webp)
+
 ## Custom color palette
 
 The 3D Circular Chart applies colors from the active theme by default. Pass an array of color values to the `Palettes` property to define a custom palette. Colors are applied sequentially to the slices. The `Palettes` property is available in both `SfCircularChart3D` and `CircularChart3DSeries`, and the palette set in the series takes precedence over the palette set in the chart.
@@ -98,6 +100,8 @@ Set the `Palettes` property of `SfCircularChart3D` to apply the palette to all t
 
 ```
 
+![Blazor 3D Circular Chart - Chart-level palette](images/appearance/blazor-3d-circular-chart-chart-level-palette.webp)
+
 ### Series-level palette
 
 Set the `Palettes` property of `CircularChart3DSeries` to apply the palette to a specific series.
@@ -137,6 +141,8 @@ Set the `Palettes` property of `CircularChart3DSeries` to apply the palette to a
 
 ```
 
+![Blazor 3D Circular Chart - Series-level palette](images/appearance/blazor-3d-circular-chart-series-level-palette.webp)
+
 ## Background color
 
 Use the `Background` property of `SfCircularChart3D` to set the background color of the chart area. Any valid CSS color value is accepted, including named colors, hexadecimal values, RGB values, and RGBA values. The default value is an empty string, which uses the background resolved from the active theme.
@@ -174,6 +180,8 @@ Use the `Background` property of `SfCircularChart3D` to set the background color
 
 ```
 
+![Blazor 3D Circular Chart - Background color](images/appearance/blazor-3d-circular-chart-background-color.webp)
+
 ### Background image
 
 Use the `BackgroundImage` property of `SfCircularChart3D` to render an image behind the chart content by providing the image URL.
@@ -210,6 +218,8 @@ Use the `BackgroundImage` property of `SfCircularChart3D` to render an image beh
 }
 
 ```
+
+![Blazor 3D Circular Chart - Background image](images/appearance/blazor-3d-circular-chart-background-image.webp)
 
 ## Chart border
 
@@ -249,6 +259,8 @@ Add a visible border around the chart area using the `CircularChart3DBorder` chi
 
 ```
 
+![Blazor 3D Circular Chart - Chart border](images/appearance/blazor-3d-circular-chart-chart-border.webp)
+
 ## Chart margin
 
 Use the `CircularChart3DMargin` child component to control the spacing between the 3D Circular Chart content and the edges of its container. Margins are specified independently for the `Left`, `Right`, `Top`, and `Bottom` sides, in pixels. The default value is `10` on each side.
@@ -286,6 +298,8 @@ Use the `CircularChart3DMargin` child component to control the spacing between t
 }
 
 ```
+
+![Blazor 3D Circular Chart - Chart margin](images/appearance/blazor-3d-circular-chart-chart-margin.webp)
 
 ## Depth, tilt, and rotation angle
 
@@ -328,6 +342,8 @@ The 3D view of the chart is controlled by the `Depth`, `Tilt`, and `RotationAngl
 
 ```
 
+![Blazor 3D Circular Chart - Depth, tilt, and rotation angle](images/appearance/blazor-3d-circular-chart-depth-tilt-and-rotation-angle.webp)
+
 ## Interactive 3D rotation
 
 The chart can be rotated and tilted at runtime by using mouse or touch interaction. Set the `EnableRotation` property of `SfCircularChart3D` to `true` to enable this. Dragging horizontally changes the rotation angle, and dragging vertically changes the tilt angle. The default value is `false`.
@@ -364,6 +380,8 @@ The chart can be rotated and tilted at runtime by using mouse or touch interacti
 }
 
 ```
+
+![Blazor 3D Circular Chart - Interactive 3D rotation](images/appearance/blazor-3d-circular-chart-interactive-3d-rotation.webp)
 
 ## Slice explosion
 
@@ -408,6 +426,8 @@ Slices can be moved outward from the center to emphasize them. Configure this be
 
 ```
 
+![Blazor 3D Circular Chart - Slice explosion](images/appearance/blazor-3d-circular-chart-slice-explosion.webp)
+
 To explode all the slices at once, set the `ExplodeAll` property to **true**.
 
 ```cshtml
@@ -443,6 +463,8 @@ To explode all the slices at once, set the `ExplodeAll` property to **true**.
 }
 
 ```
+
+![Blazor 3D Circular Chart - Slice explosion](images/appearance/blazor-3d-circular-chart-slice-explosion-2.webp)
 
 ## Animation
 
@@ -481,6 +503,8 @@ Use the `EnableAnimation` property of `SfCircularChart3D` to enable or disable t
 
 ```
 
+![Blazor 3D Circular Chart - Animation](images/appearance/blazor-3d-circular-chart-animation.webp)
+
 ## Title and subtitle
 
 The 3D Circular Chart exposes a chart heading through the `Title` property and an optional secondary line through the `SubTitle` property on `SfCircularChart3D`. These strings default to empty, so the chart renders without a heading unless one is supplied. Use title text to identify the data being shown and subtitle text to add a reporting period, source, or other context.
@@ -517,6 +541,8 @@ The 3D Circular Chart exposes a chart heading through the `Title` property and a
 }
 
 ```
+
+![Blazor 3D Circular Chart - Title and subtitle](images/appearance/blazor-3d-circular-chart-title-and-subtitle.webp)
 
 ## Customize the title and subtitle
 
@@ -580,6 +606,8 @@ In the `CircularChart3DSubTitleStyle`:
 }
 
 ```
+
+![Blazor 3D Circular Chart with custom title and subtitle styling](images/appearance/blazor-3d-circular-chart-title-subtitle-custom.webp)
 
 ## See also
 

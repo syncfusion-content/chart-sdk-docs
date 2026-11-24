@@ -48,6 +48,8 @@ Data points that contain **NaN** or **null** value are considered as empty point
 
 ```
 
+![Blazor 3D Circular Chart - Empty Points](images/empty-points/blazor-3d-circular-chart-empty-points.webp)
+
 ## Empty point mode
 
 The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to handle the visibility of the empty points. The default mode of the empty point is **Gap**. The supported modes are listed in the following table.
@@ -94,6 +96,8 @@ The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to ha
 
 ```
 
+![Blazor 3D Circular Chart - Gap](images/empty-points/blazor-3d-circular-chart-gap.webp)
+
 ### Zero
 
 ```cshtml
@@ -128,6 +132,8 @@ The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to ha
 }
 
 ```
+
+![Blazor 3D Circular Chart - Zero](images/empty-points/blazor-3d-circular-chart-zero.webp)
 
 ### Drop
 
@@ -164,6 +170,8 @@ The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to ha
 
 ```
 
+![Blazor 3D Circular Chart - Drop](images/empty-points/blazor-3d-circular-chart-drop.webp)
+
 ### Average
 
 ```cshtml
@@ -198,6 +206,8 @@ The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to ha
 }
 
 ```
+
+![Blazor 3D Circular Chart - Average](images/empty-points/blazor-3d-circular-chart-average.webp)
 
 ## Empty point fill
 
@@ -236,6 +246,8 @@ The `Fill` property of the `CircularChart3DEmptyPointSettings` can be used to se
 }
 
 ```
+
+![Blazor 3D Circular Chart - Empty point fill](images/empty-points/blazor-3d-circular-chart-empty-point-fill.webp)
 
 ## See also
 
