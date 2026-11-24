@@ -86,6 +86,54 @@ N> Line breaks can be provided to texts in the `HoverTextFormat` property using 
 ```
 {% previewsample "https://blazorplayground.syncfusion.com/embed/LNhRjGrZpXdgJBwK?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" backgroundimage "[Blazor Accumulation Chart with Center Label Dynamic Text](./images/center-label/blazor-accumulation-chart-with-center-label-hover-text.webp)" %}
 
+## Format center label values
+
+The `Format` property formats the total value displayed in the center label. It supports .NET numeric formats such as `C0` and `N2`, or a pattern containing the `{value}` placeholder.
+
+The `HoverFormat` property applies a .NET numeric format to the active data point's Y value. It formats the `${point.y}` token in [HoverTextFormat](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartCenterLabel.html#Syncfusion_Blazor_Charts_AccumulationChartCenterLabel_HoverTextFormat) or displays the formatted value directly when `HoverTextFormat` is not specified.
+
+```cshtml
+@using Syncfusion.Blazor.Charts
+<SfAccumulationChart Title="Quarterly Sales">
+    <AccumulationChartSeriesCollection>
+        <AccumulationChartSeries DataSource="@SalesData"
+                                 XName="Quarter"
+                                 YName="Sales"
+                                 InnerRadius="65%">
+        </AccumulationChartSeries>
+    </AccumulationChartSeriesCollection>
+
+    <AccumulationChartCenterLabel
+        Format="Total Sales<br>{value}"
+        HoverTextFormat="${point.x}<br>${point.y}"
+        HoverFormat="C2">
+    </AccumulationChartCenterLabel>
+</SfAccumulationChart>
+
+@code {
+    public List<SalesInfo> SalesData { get; set; } = new()
+    {
+        new SalesInfo { Quarter = "Q1", Sales = 1250.5 },
+        new SalesInfo { Quarter = "Q2", Sales = 1800.75 },
+        new SalesInfo { Quarter = "Q3", Sales = 1450.25 },
+        new SalesInfo { Quarter = "Q4", Sales = 2100.5 }
+    };
+
+    public class SalesInfo
+    {
+        public string Quarter { get; set; } = string.Empty;
+
+        public double Sales { get; set; }
+    }
+}
+```
+
+![Blazor Accumulation Chart with formatted center label](./images/center-label/blazor-accumulation-chart-formatted-center-label.webp)
+
+N> The `Format` and `HoverFormat` properties apply only to text-based center labels. Values rendered through `Template` or `HoverTemplate` must be formatted within the Razor template.
+
+N> Active-state content requires an interactive Blazor render mode and is not available in static server-side rendering.
+
 ## Customization
 
 The appearance of the center label can be customized by using the [AccumulationChartCenterLabelFont](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartCenterLabelFont.html), which allows you to modify font properties such as size, font-family, font-style, font-weight, and color to enhance the visual presentation of the text displayed in the center of the chart.
@@ -137,102 +185,129 @@ The template context is of type [AccumulationChartDataPointInfo](https://help.sy
 ```cshtml
 @using Syncfusion.Blazor.Charts
 
-<SfAccumulationChart>
+<SfAccumulationChart Title="Mobile Browser Statistics">
     <AccumulationChartSeriesCollection>
-        <AccumulationChartSeries DataSource="@ChartData"
-                                 XName="Category"
-                                 YName="Value"
-                                 InnerRadius="60%">
+        <AccumulationChartSeries DataSource="@StatisticsDetails"
+                                 XName="Browser"
+                                 YName="Users"
+                                 PointColorMapping="Color"
+                                 InnerRadius="65%">
         </AccumulationChartSeries>
     </AccumulationChartSeriesCollection>
+
+    <AccumulationChartLegendSettings Visible="false">
+    </AccumulationChartLegendSettings>
 
     <AccumulationChartCenterLabel>
         <Template>
             @{
-                var context = (context as AccumulationChartDataPointInfo);
+                var total = StatisticsDetails.Sum(item => item.Users);
             }
-            <div>
-                Total<br />
-                @Convert.ToDouble(context?.Y).ToString("C0")
+
+            <div style="display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                line-height:1.2;">
+                <span style="font-size:13px; color:#666;">
+                    Total users
+                </span>
+
+                <span style="font-size:24px; font-weight:700; color:#4f46e5;">
+                    @total million
+                </span>
+
+                <span style="font-size:11px; color:#777;">
+                    All browsers
+                </span>
             </div>
         </Template>
+
         <HoverTemplate>
             @{
-                var context = (context as AccumulationChartDataPointInfo);
+                var pointInfo = context as AccumulationChartDataPointInfo;
+                var browser = pointInfo?.X?.ToString() ?? string.Empty;
+                var users = pointInfo?.Y is null
+                    ? 0
+                    : Convert.ToDouble(pointInfo.Y);
             }
-            <div>
-                @context?.X<br />
-                @Convert.ToDouble(context?.Y).ToString("C0")
+
+            <div style="display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                line-height:1.2;">
+                <span style="font-size:14px; font-weight:700; color:#4f46e5;">
+                    @browser
+                </span>
+
+                <span style="font-size:22px; font-weight:800;">
+                    @users million
+                </span>
+
+                <span style="font-size:11px; color:#777;">
+                    Browser users
+                </span>
             </div>
         </HoverTemplate>
     </AccumulationChartCenterLabel>
 </SfAccumulationChart>
 
 @code {
-    public List<ChartDataModel> ChartData { get; set; } = new()
+    public class Statistics
     {
-        new ChartDataModel { Category = "Chrome", Value = 63.5 },
-        new ChartDataModel { Category = "Safari", Value = 25.0 },
-        new ChartDataModel { Category = "Others", Value = 11.5 }
-    };
+        public string Browser { get; set; } = string.Empty;
 
-    public class ChartDataModel
-    {
-        public string Category { get; set; }
-        public double Value { get; set; }
+        public double Users { get; set; }
+
+        public string Color { get; set; } = string.Empty;
     }
+
+    public List<Statistics> StatisticsDetails { get; set; } = new()
+    {
+        new Statistics
+        {
+            Browser = "Chrome",
+            Users = 37,
+            Color = "#a16ee5"
+        },
+        new Statistics
+        {
+            Browser = "UC Browser",
+            Users = 17,
+            Color = "#f7ce69"
+        },
+        new Statistics
+        {
+            Browser = "iPhone",
+            Users = 19,
+            Color = "#55a5c2"
+        },
+        new Statistics
+        {
+            Browser = "Others",
+            Users = 4,
+            Color = "#7ddf1e"
+        },
+        new Statistics
+        {
+            Browser = "Opera",
+            Users = 11,
+            Color = "#ff6ea6"
+        },
+        new Statistics
+        {
+            Browser = "Android",
+            Users = 12,
+            Color = "#7953ac"
+        }
+    };
 }
 ```
 
 ![Blazor Accumulation Chart with center label template](./images/center-label/blazor-accumulation-chart-center-label-template.webp)
 
 N> The `HoverTemplate` content is temporary and replaces the `Template` content while a data point is active.
-
-### Format center label values
-
-The `Format` property formats the total value displayed in the center label. It supports .NET numeric formats such as `C0` and `N2`, or a pattern containing the `{value}` placeholder.
-
-The `HoverFormat` property applies a .NET numeric format to the active data point's Y value. It formats the `${point.y}` token in [HoverTextFormat](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.AccumulationChartCenterLabel.html#Syncfusion_Blazor_Charts_AccumulationChartCenterLabel_HoverTextFormat) or displays the formatted value directly when `HoverTextFormat` is not specified.
-
-```cshtml
-@using Syncfusion.Blazor.Charts
-
-<SfAccumulationChart>
-    <AccumulationChartSeriesCollection>
-        <AccumulationChartSeries DataSource="@ChartData"
-                                 XName="Category"
-                                 YName="Value"
-                                 InnerRadius="60%">
-        </AccumulationChartSeries>
-    </AccumulationChartSeriesCollection>
-
-    <AccumulationChartCenterLabel Format="Total<br>{value}"
-                                  HoverTextFormat="${point.x}<br>${point.y}"
-                                  HoverFormat="C0">
-    </AccumulationChartCenterLabel>
-</SfAccumulationChart>
-
-@code {
-    public List<ChartDataModel> ChartData { get; set; } = new()
-    {
-        new ChartDataModel { Category = "Chrome", Value = 63.5 },
-        new ChartDataModel { Category = "Safari", Value = 25.0 },
-        new ChartDataModel { Category = "Others", Value = 11.5 }
-    };
-
-    public class ChartDataModel
-    {
-        public string Category { get; set; }
-        public double Value { get; set; }
-    }
-}
-```
-
-![Blazor Accumulation Chart with formatted center label](./images/center-label/blazor-accumulation-chart-formatted-center-label.webp)
-
-N> The `Format` and `HoverFormat` properties apply only to text-based center labels. Values rendered through `Template` or `HoverTemplate` must be formatted within the Razor template.
-
-N> Active-state content requires an interactive Blazor render mode and is not available in static server-side rendering.
 
 ## See also
 
