@@ -5,6 +5,10 @@ import { SparklineComponent, Inject, SparklineTooltip } from '@syncfusion/ej2-re
 
 function App() {
 
+  const tooltipSettings = {
+        visible: true,
+        format: '${x:MMM yyyy} : ${y:n2}'
+    };
   return ( <SparklineComponent id='sparkline'
     height='200px' width='500px'
     fill= 'blue'
@@ -18,12 +22,7 @@ function App() {
         { x: new Date(2024, 3, 1), y: 4 },
         { x: new Date(2024, 4, 1), y: 6 }
     ]} 
-    // To enable tooltip for sparkline
-    tooltipSettings={{
-        visible: true,
-        // formatting tooltip text
-        format: '${x:MMM yyyy} : ${y:n2}'
-    }}>
+    tooltipSettings={tooltipSettings}>
     <Inject services={[SparklineTooltip]} />
 </SparklineComponent> );
 
