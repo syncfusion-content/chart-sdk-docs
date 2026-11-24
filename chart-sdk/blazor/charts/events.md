@@ -1169,6 +1169,9 @@ The following properties are available in the [LegendClickEventArgs](https://hel
 * [LegendShape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendClickEventArgs.html#Syncfusion_Blazor_Charts_LegendClickEventArgs_LegendShape) – Specifies the shape of the legend item.
 * [LegendText](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendClickEventArgs.html#Syncfusion_Blazor_Charts_LegendClickEventArgs_LegendText) – Specifies the shape of the legend item.
 * [Series](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendClickEventArgs.html#Syncfusion_Blazor_Charts_LegendClickEventArgs_Series) – Specifies the series.
+* `IsLegendGrouped` – Indicates whether the clicked legend item represents a legend group containing two or more series.
+* `LegendGroup` – Specifies the trimmed `LegendGroup` key of the clicked legend item, or `string.Empty` when not set.
+* `LegendSeriesIndexes` – Specifies a read-only list of series indexes in declaration order represented by the clicked legend item.
 
 ```cshtml
 
