@@ -1,8 +1,10 @@
- <ejs-chart id="container" title="Inflation - Consumer Price" width="60%">
-        <e-chart-primaryxaxis valueType="Category"></e-chart-primaryxaxis>
-        <e-series-collection>
-            <e-series dataSource="ViewBag.dataSource" name="Germany" xName="month" width="2" opacity="1" yName="sales" type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column">
-                <e-series-emptypointsettings x-value-mode="@Syncfusion.EJ2.Charts.EmptyXValueMode.Show" x-value-text="Sep"></e-series-emptypointsettings>
-            </e-series>
-        </e-series-collection>
-    </ejs-chart>
+<ejs-chart id="container" title="Inflation - Consumer Price" width="60%">
+    <e-chart-primaryxaxis valueType="Category"></e-chart-primaryxaxis>
+    <e-series-collection>
+        <e-series dataSource="ViewBag.dataSource" name="Germany" xName="month" width="2" opacity="1" yName="sales"
+            type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column">
+            <e-series-emptypointsettings xValueMode="@Syncfusion.EJ2.Charts.EmptyXValueMode.Show"
+                xValueText="Sep"></e-series-emptypointsettings>
+        </e-series>
+    </e-series-collection>
+</ejs-chart>
