@@ -50,8 +50,8 @@ Create a folder named `my-sankey` in your desired location. This folder will con
 
 Open the command prompt and navigate to `my-sankey` folder created in Step 1. You can do this by:
 
-* **For Windows**: Open Command Prompt (cmd) or PowerShell and use the `cd` command to navigate to `my-sankey` folder.
-* **For macOS/Linux**: Open Terminal and use the `cd` command to navigate to `my-sankey` folder.
+* **For Windows**: Open Command Prompt or PowerShell and navigate to the desired directory.
+* **For macOS/Linux**: Open Terminal and navigate to the desired directory.
 
 ### Step 3: Clone the Quickstart Repository
 

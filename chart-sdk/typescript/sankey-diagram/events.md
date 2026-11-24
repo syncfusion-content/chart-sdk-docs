@@ -11,9 +11,9 @@ appliesto: UI Component Suite, Chart SDK
 
 # Events in TypeScript Sankey Diagram
 
-The Sankey Chart provides comprehensive events that allow you to customize behavior, respond to user interactions, and hook into the chart lifecycle. These events enable advanced customization scenarios including data transformation, analytics tracking, and dynamic UI updates.
+The Sankey Chart provides comprehensive events that allow you to customize behavior, respond to user interactions, and hook into the chart life cycle. These events enable advanced customization scenarios including data transformation, analytics tracking, and dynamic UI updates.
 
-This guide covers lifecycle events, rendering events, interaction events, and export/print events.
+This guide covers life cycle events, rendering events, interaction events, and export/print events.
 
 ## Event List
 
