@@ -11,7 +11,7 @@ documentation: ug
 
 ## Aztec Barcode
 
-The [Blazor Aztec Barcode](https://www.syncfusion.com/blazor-components/blazor-barcode) is a high-density two-dimensional (2D) matrix symbology organized around a distinctive square central bulls-eye finder pattern surrounded by concentric square layers of data modules. Aztec barcodes can encode numeric, alphanumeric, and byte data efficiently with built-in Reed-Solomon error correction.
+The Syncfusion [Blazor Aztec Barcode](https://www.syncfusion.com/blazor-components/blazor-barcode) Generator creates compact, high-capacity 2D barcodes for boarding passes, transportation tickets, healthcare labels, and identity documents. Aztec barcodes provide efficient data encoding and built-in error correction for reliable scanning and decoding.
 
 Unlike many other 2D barcodes, Aztec codes do not require a wide surrounding quiet zone (margin). This makes them exceptionally space-efficient and suitable for compact displays, constrained print areas, small labels, and mobile screens.
 
@@ -43,7 +43,7 @@ The dimensions of the Aztec barcode can be adjusted using the [Height](https://h
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="250px" Height="250px" Value="AZTEC-TICKET-2026-000123"></SfAztecGenerator>
+<SfAztecGenerator Width="250px" Height="250px" Value="AZTEC-TICKET-2026"></SfAztecGenerator>
 ```
 
 ### Color Customization
@@ -57,7 +57,7 @@ The [ForeColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="200px" Height="200px" ForeColor="darkblue" Value="AZTEC-TICKET-2026-000123"></SfAztecGenerator>
+<SfAztecGenerator Width="200px" Height="200px" ForeColor="darkblue" Value="BP-2026-000123"></SfAztecGenerator>
 ```
 
 #### Background Color
@@ -67,14 +67,14 @@ The [BackgroundColor](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Ba
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="200px" Height="200px" BackgroundColor="lightyellow" ForeColor="darkblue" Value="AZTEC-TICKET-2026-000123"></SfAztecGenerator>
+<SfAztecGenerator Width="200px" Height="200px" BackgroundColor="lightyellow" ForeColor="darkblue" Value="PATIENT-45821"></SfAztecGenerator>
 ```
 
 >**Note:** Maintain sufficient contrast between the foreground color and the background color to ensure reliable and fast scanning across different scanning devices and lighting conditions.
 
 ## Symbol Form Configuration
 
-The [SymbolForm](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfAztecGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfAztecGenerator_SymbolForm) property specifies the structural form of the Aztec barcode. Aztec barcodes support two distinct physical formats: **Compact** and **FullRange**, as well as an automatic selection mode.
+Use the [SymbolForm](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfAztecGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfAztecGenerator_SymbolForm) property to control whether the barcode is generated as a Compact symbol, a Full-range symbol, or selected automatically based on the data being encoded.
 
 The supported symbol forms are:
 
@@ -99,7 +99,7 @@ In `Auto` mode, the generator determines whether the data can fit into a Compact
 
 <SfAztecGenerator Width="200px" 
                   Height="200px" 
-                  Value="AZTEC-TICKET-2026-000123" 
+                  Value="EVENT-TICKET-7890" 
                   SymbolForm="AztecSymbolForm.Auto">
 </SfAztecGenerator>
 ```
@@ -138,7 +138,7 @@ The [Layers](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 
 * **Layer 0 (Automatic)**: Setting `Layers="0"` configures the generator to automatically determine the minimum number of layers needed to encode the input data and error correction codewords.
 * **Compact Symbols**: Support 1 to 4 layers, accommodating smaller payloads with minimal symbol footprint.
-* **Full-Range Symbols**: Support 1 to 32 layers, supporting high-density information storage up to several thousand characters.
+* **Full-Range Symbols**: Support 1 to 32 layers, allowing significantly more data capacity than Compact symbols.
 * Increasing the layer count increases both the physical symbol size and the data/error correction capacity.
 
 ```cshtml
@@ -154,7 +154,7 @@ The [Layers](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 <SfAztecGenerator Width="250px" Height="250px" Value="AZTEC-FULLRANGE-DATA" SymbolForm="AztecSymbolForm.FullRange" Layers="8"></SfAztecGenerator>
 ```
 
->**Note:** If an explicit layer count is specified that cannot accommodate the data and required error correction percentage, or if an out-of-range layer value is assigned (e.g., specifying more than 4 layers for `Compact` form or more than 32 layers for `FullRange` form), the `OnValidationFailed` event will be triggered.
+>**Note:** If an explicit layer count is specified that cannot accommodate the data and required error correction percentage, or if an out-of-range layer value is assigned (e.g., specifying more than 4 layers for `Compact` form or more than 32 layers for `Full-range` form), the `OnValidationFailed` event will be triggered.
 
 ## Error Correction Percentage
 
@@ -188,7 +188,7 @@ The [ErrorCorrectionPercentage](https://help.syncfusion.com/cr/blazor/Syncfusion
 
 ## XDimension
 
-The [XDimension](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfAztecGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfAztecGenerator_XDimension) property controls the module (single dot or cell) size of the Aztec barcode.
+The [XDimension](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfAztecGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfAztecGenerator_XDimension) property specifies the size of each barcode module. When set to 0, the barcode automatically scales to fit within the available Width and Height. When a value greater than 0 is specified, the component renders the barcode using the specified module size. If the resulting barcode cannot fit within the configured dimensions, the barcode is not rendered, and the OnValidationFailed event is triggered.
 
 * **Default (0)**: When set to `0`, the component automatically sizes and fits the Aztec barcode modules to optimally utilize the available component region defined by `Width` and `Height`.
 * **Explicit Value (> 0)**: When set to a value greater than `0`, it sets the specific pixel dimension of each individual square module. Larger values increase the individual module size and expand the overall barcode footprint.
@@ -205,7 +205,7 @@ The [XDimension](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Barcode
 
 ## Margin Customization
 
-The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfAztecGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfAztecGenerator_Margin) property specifies the space to be left around the Aztec barcode. It accepts an `AztecMargin` object with the following properties:
+The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenerator.SfAztecGenerator.html#Syncfusion_Blazor_BarcodeGenerator_SfAztecGenerator_Margin) property specifies the padding around the barcode within the component area.
 
 | Property | Description | Default Value |
 |----------|-------------|---|
@@ -219,7 +219,7 @@ All properties accept double values representing pixels.
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="250px" Height="250px" Value="AZTEC-TICKET-2026-000123">
+<SfAztecGenerator Width="250px" Height="250px" Value="EVENT-TICKET-7890">
     <AztecMargin Left="20" Top="20" Right="20" Bottom="20"></AztecMargin>
 </SfAztecGenerator>
 ```
@@ -235,7 +235,7 @@ The [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGenera
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="200px" Height="200px" Value="AZTEC-TICKET-2026-000123">
+<SfAztecGenerator Width="200px" Height="200px" Value="SYNCFUSION123">
     <AztecGeneratorDisplayText Text="Ticket ID: 000123"></AztecGeneratorDisplayText>
 </SfAztecGenerator>
 ```
@@ -247,7 +247,7 @@ The [FontFamily](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Barcode
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="200px" Height="200px" Value="AZTEC-TICKET-2026-000123">
+<SfAztecGenerator Width="200px" Height="200px" Value="support@syncfusion.com">
     <AztecGeneratorDisplayText Text="Ticket ID: 000123" FontFamily="Arial"></AztecGeneratorDisplayText>
 </SfAztecGenerator>
 ```
@@ -259,7 +259,7 @@ The [FontSize](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGe
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="200px" Height="200px" Value="AZTEC-TICKET-2026-000123">
+<SfAztecGenerator Width="200px" Height="200px" Value="1234567890">
     <AztecGeneratorDisplayText Text="Ticket ID: 000123" FontSize="16"></AztecGeneratorDisplayText>
 </SfAztecGenerator>
 ```
@@ -271,7 +271,7 @@ The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGe
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="200px" Height="200px" Value="AZTEC-TICKET-2026-000123">
+<SfAztecGenerator Width="200px" Height="200px" Value="SYNCFUSION123456789">
     <AztecGeneratorDisplayText Text="Ticket ID: 000123" Position="TextPosition.Top"></AztecGeneratorDisplayText>
 </SfAztecGenerator>
 ```
@@ -283,7 +283,7 @@ The [Alignment](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeG
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="250px" Height="200px" Value="AZTEC-TICKET-2026-000123">
+<SfAztecGenerator Width="250px" Height="200px" Value="ORDER-12345">
     <AztecGeneratorDisplayText Text="Ticket ID: 000123" Alignment="Alignment.Left"></AztecGeneratorDisplayText>
 </SfAztecGenerator>
 ```
@@ -295,7 +295,7 @@ The [Visibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Barcode
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="200px" Height="200px" Value="AZTEC-TICKET-2026-000123">
+<SfAztecGenerator Width="200px" Height="200px" Value="support@syncfusion.com">
     <AztecGeneratorDisplayText Visibility="false"></AztecGeneratorDisplayText>
 </SfAztecGenerator>
 ```
@@ -314,7 +314,7 @@ The [Margin](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.BarcodeGene
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
 
-<SfAztecGenerator Width="250px" Height="250px" Value="AZTEC-TICKET-2026-000123">
+<SfAztecGenerator Width="250px" Height="250px" Value="BP-2026-000123">
     <AztecGeneratorDisplayText Text="Ticket ID: 000123">
         <AztecTextMargin Left="5" Top="10" Right="5" Bottom="10"></AztecTextMargin>
     </AztecGeneratorDisplayText>
@@ -455,7 +455,7 @@ The following example demonstrates how to export the Aztec Barcode as a JPG imag
 
 <input type="button" value="Export JPG" @onclick="@OnExport" />
 
-<SfAztecGenerator Width="200px" Height="200px" Value="AZTEC-TICKET-2026-000123" @ref="@AztecBarcode">
+<SfAztecGenerator Width="200px" Height="200px" Value="SYNCFUSION123" @ref="@AztecBarcode">
     <AztecGeneratorDisplayText Text="Ticket ID: 000123"></AztecGeneratorDisplayText>
 </SfAztecGenerator>
 
