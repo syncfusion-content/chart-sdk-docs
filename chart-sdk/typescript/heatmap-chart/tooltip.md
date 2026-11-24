@@ -76,7 +76,7 @@ The following example demonstrates how to access the complete datasource record 
 {% include code-snippet/chart-sdk/typescript/heatmap-chart/events-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% pet/chart-sdk/typescript/heatmap-chart/events-cs11/index.html %}
+{% include code-snippet/chart-sdk/typescript/heatmap-chart/events-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
