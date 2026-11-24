@@ -8,7 +8,6 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Dynamic Data Update in ASP.NET Core Charts
 
 ## Adding a new data point
@@ -27,13 +26,11 @@ The `AddPoint` method is used to dynamically add a new data point to the chart s
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Removing an existing data point
 
-The `RemovePoint` method is used to dynamically remove a data point from the chart series. This method is particularly useful when you want to update the chart by removing an existing data point without having to refresh the entire chart. This method takes two parameters:
+The `RemovePoint` method is used to dynamically remove a data point from the chart series. The index of the point to remove is zero-based. This method takes two parameters:
  
-* The first parameter is the index of the data point that needs to be removed from the existing data source.
+* The first parameter is the index (zero-based) of the data point to be removed from the existing data source.
 * The optional second parameter specifies the animation duration for removing the data point.
 
 {% tabs %}
@@ -44,8 +41,6 @@ The `RemovePoint` method is used to dynamically remove a data point from the cha
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/remove-point/remove-point.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ## Replacing entire data points
 
@@ -63,8 +58,6 @@ To replace the existing data source in the chart with a new data source, you can
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Click to add or remove a data point
 
 You can use mouse or touch events to dynamically add or remove data points from an existing data source by clicking on the appropriate position within the chart area. To add a new data point to the existing data source, click anywhere in the chart area, retrieve the x-axis and y-axis information of the clicked location from the `ChartMouseClick` event arguments. Then, utilize the `AddPoint` method to add a new data point to the existing data source.
@@ -79,6 +72,4 @@ To remove a data point from the existing data source, simply click on the desire
 {% include code-snippet/chart-sdk/asp-net-core/charts/dynamic-update/click-add-point/click-add-point.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 

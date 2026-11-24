@@ -8,14 +8,13 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 <!-- markdownlint-disable MD036 -->
 
 # DateTime and DateTimeCategory Axis in ASP.NET Core Charts
 
 ## DateTime Axis
 
-Date time axis uses date time scale and displays the date time values as axis labels in the specified format. To get start quickly with DateTime axis in ASP.NET Core Charts, you can check on this video:
+The DateTime axis uses a DateTime scale and displays the date-time values as axis labels in the specified format. To get started quickly with the DateTime axis in ASP.NET Core Charts, you can check out this video:
 
 {% youtube "https://www.youtube.com/watch?v=DnMIgbn6bco" %}
 
@@ -28,11 +27,9 @@ Date time axis uses date time scale and displays the date time values as axis la
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## DateTimeCategory Axis
 
-Date-time category axis is used to display the date-time values with non-linear intervals.
+The DateTime category axis is used to display date-time values with non-linear intervals.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -42,8 +39,6 @@ Date-time category axis is used to display the date-time values with non-linear 
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/datetime/datetimeCategory/dateCategory.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 ### Range
 
@@ -58,11 +53,9 @@ Range for an axis, will be calculated automatically based on the provided data, 
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ### Interval Customization
 
-Date time intervals can be customized by using the [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) and [`intervalType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_IntervalType) properties of the axis. For example, when you set interval as 2 and intervalType as years, it considers 2 years as interval. DateTime axis supports following interval types,
+Date time intervals can be customized by using the [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) and [`intervalType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_IntervalType) properties of the axis. For example, when you set interval as 2 and intervalType as years, it considers 2 years as interval. The DateTime axis supports the following interval types:
 
 * Auto
 * Years
@@ -81,9 +74,7 @@ Date time intervals can be customized by using the [`interval`](https://help.syn
 {% endhighlight %}
 {% endtabs %}
 
-
-
-**Applying Padding to the Range**
+### Applying padding to the range
 
 Padding can be applied to the minimum and maximum extremes of the range by using the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_RangePadding) property. Date time axis supports the following types of padding,
 
@@ -104,8 +95,6 @@ When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% endhighlight %}
 {% endtabs %}
 
-
-
 **DateTime - Round**
 
 When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_RangePadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value divisible by interval. For example, when the minimum is 15th Jan, interval is 1 and the interval type is ‘month’, then the axis minimum will be Jan 1st.
@@ -118,8 +107,6 @@ When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/datetime/round/round.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 **DateTime - Additional**
 
@@ -134,11 +121,9 @@ When the [`rangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% endhighlight %}
 {% endtabs %}
 
-
-
 ## Label Format
 
-You can format and parse the date to all globalize format using [`labelFormat`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelFormat) property in an axis.
+You can format and parse the date in any globalize format using [`labelFormat`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelFormat) property in an axis.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -148,8 +133,6 @@ You can format and parse the date to all globalize format using [`labelFormat`]
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/datetime/label-format/label-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-
 
 The following table describes the result of applying some common date time formats to the labelFormat property
 
@@ -208,5 +191,4 @@ Axis also supports custom label format using placeholder like {value}°C, in w
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/datetime/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 

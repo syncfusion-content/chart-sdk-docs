@@ -443,11 +443,6 @@ import {
   DataLabel
 } from "@syncfusion/ej2-react-charts";
 
-import "@syncfusion/ej2-base/styles/material.css";
-import "@syncfusion/ej2-buttons/styles/material.css";
-import "@syncfusion/ej2-popups/styles/material.css";
-import "@syncfusion/ej2-charts/styles/material.css";
-
 function SalesChart() {
   const [laptopData, setLaptopData] = useState([]);
   const [mobileData, setMobileData] = useState([]);
@@ -707,27 +702,6 @@ For SQL Server Express:
 ```
 "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=SalesDB;Trusted_Connection=True;TrustServerCertificate=True;"
 ```
-
----
-
-**Issue 4: Syncfusion CSS import error**
-
-If Vite shows an error for the following import:
-
-```
-import "@syncfusion/ej2-react-charts/styles/material.css";
-```
-
-Remove that line and use these imports instead:
-
-```
-import "@syncfusion/ej2-base/styles/material.css";
-import "@syncfusion/ej2-buttons/styles/material.css";
-import "@syncfusion/ej2-popups/styles/material.css";
-import "@syncfusion/ej2-charts/styles/material.css";
-```
-
----
 
 ## Best Practices
 

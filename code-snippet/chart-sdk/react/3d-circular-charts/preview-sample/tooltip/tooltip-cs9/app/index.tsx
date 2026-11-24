@@ -1,5 +1,5 @@
 import { CircularChart3DComponent, CircularChart3DSeriesCollectionDirective, CircularChart3DSeriesDirective, PieSeries3D, CircularChartTooltip3D, Inject } from '@syncfusion/ej2-react-charts';
-import type { CircularChart3DTooltipRenderEventArgs } from '@syncfusion/ej2-charts';
+import { CircularChart3DTooltipRenderEventArgs } from '@syncfusion/ej2-charts';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 

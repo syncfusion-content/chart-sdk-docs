@@ -12,18 +12,18 @@ appliesto: UI Component Suite, Chart SDK
 
 # Render Methods in ASP.NET Core Charts
 
-Chart uses following two rendering methods.
+The chart uses the following two rendering methods:
 
 * SVG
 * Canvas
 
 ## SVG
 
-SVG is used to render Chart by default for all browsers expect IE8 and old versions.
+SVG is used to render the chart by default for all browsers except IE8 and older versions.
 
 ## Canvas
 
-You can switch between SVG and Canvas rendering by using the `enableCanvas` option. The canvas mode rendering is used in the following scenarios,
+You can switch between SVG and canvas rendering by setting the `enableCanvas` property. The canvas rendering mode is used in the following scenarios:
 
 * Plotting large number of data points.
 * Performing high frequency live updates.
@@ -31,3 +31,5 @@ You can switch between SVG and Canvas rendering by using the `enableCanvas` opti
 **Limitations**
 
 * Animation is not supported.
+
+The canvas mode has limited accessibility support compared to the SVG mode. The available features and rendered output may differ slightly between the two rendering modes.

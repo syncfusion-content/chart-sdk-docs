@@ -8,12 +8,11 @@ documentation: ug
 appliesto: UI Component Suite, Chart SDK
 ---
 
-
 # Data Editing in ASP.NET Core Charts
 
-## Enable Data Editing
+## Enable data editing
 
-It provides drag and drop support to the rendered points. Now, the location or value of the point based on its `y` value can be changed. To enable the data editing, set the `enable` property to true in the drag settings of the series. Also, the color can be set using `fill` property and set the data editing minimum and maximum range using `minY` and `maxY` properties.
+The chart provides drag-and-drop support for the rendered points. The location and value of a point can be changed based on its y-value. To enable data editing, set the `enable` property to `true` in the `dragSettings` of the series. You can also set the color of the dragged point using the `fill` property and configure the minimum and maximum y-range using the `minY` and `maxY` properties of `dragSettings`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -23,5 +22,4 @@ It provides drag and drop support to the rendered points. Now, the location or v
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/data-editing/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-
 
