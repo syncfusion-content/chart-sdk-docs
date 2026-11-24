@@ -301,7 +301,7 @@ The template context is of type [AccumulationChartDataPointInfo](https://help.sy
 }
 ```
 
-![Blazor Accumulation Chart with center label template](./images/center-label/blazor-accumulation-chart-center-label-template.webp)
+![Blazor Accumulation Chart with center label template](./images/center-label/blazor-accumulation-chart-center-label-template.gif)
 
 ## See also
 

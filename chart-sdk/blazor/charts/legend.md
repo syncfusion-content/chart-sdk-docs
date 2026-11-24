@@ -832,6 +832,9 @@ N> Trendline and technical indicator series are excluded from `LegendGroup` grou
         new() { Region = "Asia Pacific",  BevH1 = 64, PhevH1 = 26, HevH1 = 28, BevH2 = 79, PhevH2 = 31, HevH2 = 33 }
     };
 }
+```
+
+![Linked Series Legend in Blazor Stacked Column Chart](images/legend/blazor-stacked-column-chart-linked-series-legend.webp)
 
 N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various Blazor Chart types and how to represent time-dependent data, showing trends at equal intervals.
 
