@@ -248,7 +248,6 @@ When using a shared tooltip in Blazor Charts, the tooltip indicator for the seri
 
 ```cshtml
 
-@page "/tooltip"
 @using Syncfusion.Blazor.Charts
 
 <SfChart Title="Average Monthly Temperature">
