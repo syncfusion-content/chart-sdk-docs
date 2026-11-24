@@ -310,12 +310,12 @@ The table below lists the available Chart tools and the corresponding feature mo
 
 <table>
 <tr><th>Category</th><th>Available Chart Tools</th><th>Purpose</th><th>Required Feature Module</th></tr>
-<tr><td><strong>Chart inspection</strong></td><td><code>inspectChart</code>, <code>getChartAxes</code>, <code>getChartLegend</code>, <code>getChartIndicators</code>, <code>getChartStriplines</code>, <code>getChartAnnotations</code></td><td>Inspect chart configuration, axis ranges, indicator settings, and visual metadata</td><td>Core chart modules, <code>Legend</code> (for legend details)</td></tr>
-<tr><td><strong>Series and data</strong></td><td><code>addChartSeries</code>, <code>updateChartSeries</code>, <code>removeChartSeries</code>, <code>clearChartSeries</code>, <code>toggleChartSeriesVisibility</code>, <code>getSeriesData</code>, <code>appendChartData</code>, <code>updateChartDataSource</code>, <code>getChartPoint</code>, <code>updateChartPoint</code>, <code>removeChartPoints</code></td><td>Manage series definitions, update data sources, and manipulate individual data points</td><td>Relevant series modules (e.g. <code>LineSeries</code>, <code>SplineSeries</code>, <code>ColumnSeries</code>)</td></tr>
-<tr><td><strong>Axes and zoom</strong></td><td><code>addChartAxis</code>, <code>updateChartAxis</code>, <code>removeChartAxis</code>, <code>configureChartZoom</code>, <code>resetChartZoom</code></td><td>Configure axis ranges, intervals, titles, and manage zooming and panning states</td><td><code>Zoom</code> (for zoom operations), relevant axis modules (e.g. <code>Category</code>, <code>DateTime</code>)</td></tr>
-<tr><td><strong>Annotations</strong></td><td><code>addChartAnnotation</code>, <code>updateChartAnnotation</code>, <code>removeChartAnnotation</code></td><td>Add, modify, or remove custom text and shape annotations</td><td><code>ChartAnnotation</code></td></tr>
-<tr><td><strong>Selection and interaction</strong></td><td><code>selectChartPoints</code>, <code>clearChartSelection</code>, <code>getSelectedChartData</code>, <code>showChartTooltip</code>, <code>hideChartTooltip</code>, <code>showChartCrosshair</code>, <code>hideChartCrosshair</code></td><td>Control point selection, trigger or dismiss tooltips, and display crosshair lines</td><td><code>Selection</code>, <code>Tooltip</code>, <code>Crosshair</code></td></tr>
-<tr><td><strong>Chart configuration</strong></td><td><code>updateChartProperties</code>, <code>updateChartTitle</code>, <code>animateChart</code></td><td>Update chart-level properties such as title, subtitle, themes, and re-trigger animation</td><td>Core chart modules</td></tr>
+<tr><td><strong>Chart inspection</strong></td><td><code>getChartInfo</code>, <code>getAxes</code>, <code>getLegend</code>, <code>getIndicators</code>, <code>getStriplines</code>, <code>getAnnotations</code></td><td>Inspect chart configuration, axis ranges, indicator settings, and visual metadata</td><td>Core chart modules, <code>Legend</code> (for legend details)</td></tr>
+<tr><td><strong>Series and data</strong></td><td><code>addSeries</code>, <code>updateSeries</code>, <code>removeSeries</code>, <code>clearSeries</code>, <code>toggleSeriesVisibility</code>, <code>getSeriesData</code>, <code>appendData</code>, <code>updateDataSource</code>, <code>getPoint</code>, <code>updatePoint</code>, <code>removePoints</code></td><td>Manage series definitions, update data sources, and manipulate individual data points</td><td>Relevant series modules (e.g. <code>LineSeries</code>, <code>SplineSeries</code>, <code>ColumnSeries</code>)</td></tr>
+<tr><td><strong>Axes and zoom</strong></td><td><code>addAxis</code>, <code>updateAxis</code>, <code>removeAxis</code>, <code>configureZoom</code>, <code>resetZoom</code></td><td>Configure axis ranges, intervals, titles, and manage zooming and panning states</td><td><code>Zoom</code> (for zoom operations), relevant axis modules (e.g. <code>Category</code>, <code>DateTime</code>)</td></tr>
+<tr><td><strong>Annotations</strong></td><td><code>addAnnotation</code>, <code>updateAnnotation</code>, <code>removeAnnotation</code></td><td>Add, modify, or remove custom text and shape annotations</td><td><code>ChartAnnotation</code></td></tr>
+<tr><td><strong>Selection and interaction</strong></td><td><code>selectPoints</code>, <code>clearSelection</code>, <code>getSelectedData</code>, <code>showTooltip</code>, <code>hideTooltip</code>, <code>showCrosshair</code>, <code>hideCrosshair</code></td><td>Control point selection, trigger or dismiss tooltips, and display crosshair lines</td><td><code>Selection</code>, <code>Tooltip</code>, <code>Crosshair</code></td></tr>
+<tr><td><strong>Chart configuration</strong></td><td><code>updateProperties</code>, <code>updateTitle</code>, <code>animate</code></td><td>Update chart-level properties such as title, subtitle, themes, and re-trigger animation</td><td>Core chart modules</td></tr>
 <tr><td><strong>Export and output</strong></td><td><code>exportChart</code>, <code>printChart</code></td><td>Export the chart to PNG, JPEG, SVG, or PDF formats, or trigger browser printing</td><td><code>Export</code></td></tr>
 </table>
 <br>
@@ -336,7 +336,7 @@ new Vue({
     template: `<ejs-chart :dataSource="data" :primaryXAxis="primaryXAxis" :tooltip="tooltip" :enableWebMcp="true" :webMcpSettings="webMcpSettings"><e-series-collection>
         <e-series type="Spline" name="Revenue" xName="month" yName="revenue"></e-series>
     </e-series-collection></ejs-chart>`,
-    data() { return { data, primaryXAxis: { valueType: 'Category' }, tooltip: { enable: true }, webMcpSettings: { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] } }; },
+    data() { return { data, primaryXAxis: { valueType: 'Category' }, tooltip: { enable: true }, webMcpSettings: { name: 'revenueChart', tools: ['getChartInfo', 'getSeriesData', 'getAxes', 'updateTitle', 'toggleSeriesVisibility', 'exportChart'] } }; },
     provide: { chart: [Category, SplineSeries, Tooltip, Legend, WebMcpChart, Export] }
 });
 {% endraw %}
@@ -359,7 +359,7 @@ const data = [
 ];
 export default {
     components: { 'ejs-chart': ChartComponent, 'e-series-collection': SeriesCollectionDirective, 'e-series': SeriesDirective },
-    data() { return { data, primaryXAxis: { valueType: 'Category' }, tooltip: { enable: true }, webMcpSettings: { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] } }; },
+    data() { return { data, primaryXAxis: { valueType: 'Category' }, tooltip: { enable: true }, webMcpSettings: { name: 'revenueChart', tools: ['getChartInfo', 'getSeriesData', 'getAxes', 'updateTitle', 'toggleSeriesVisibility', 'exportChart'] } }; },
     provide: { chart: [Category, SplineSeries, Tooltip, Legend, WebMcpChart, Export] }
 };
 </script>
@@ -384,7 +384,7 @@ const data = [
 ];
 const primaryXAxis = { valueType: 'Category' };
 const tooltip = { enable: true };
-const webMcpSettings = { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] };
+const webMcpSettings = { name: 'revenueChart', tools: ['getChartInfo', 'getSeriesData', 'getAxes', 'updateTitle', 'toggleSeriesVisibility', 'exportChart'] };
 provide('chart', [Category, SplineSeries, Tooltip, Legend, WebMcpChart, Export]);
 </script>
 {% endraw %}
@@ -432,7 +432,7 @@ new Vue({
     template: `<ejs-chart :dataSource="data" :primaryXAxis="primaryXAxis" :tooltip="tooltip" :enableWebMcp="true" :webMcpSettings="webMcpSettings" :beforeWebMcpToolExecute="beforeWebMcpToolExecute"><e-series-collection>
         <e-series type="Spline" name="Revenue" xName="month" yName="revenue"></e-series>
     </e-series-collection></ejs-chart>`,
-    data() { return { data, primaryXAxis: { valueType: 'Category' }, tooltip: { enable: true }, webMcpSettings: { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] } }; },
+    data() { return { data, primaryXAxis: { valueType: 'Category' }, tooltip: { enable: true }, webMcpSettings: { name: 'revenueChart', tools: ['getChartInfo', 'getSeriesData', 'getAxes', 'updateTitle', 'toggleSeriesVisibility', 'exportChart'] } }; },
     methods: { beforeWebMcpToolExecute(args) {
             if (args.toolName === 'exportChart') {
                 args.cancel = !window.confirm('Do you want to export the chart?');
@@ -460,7 +460,7 @@ const data = [
 ];
 export default {
     components: { 'ejs-chart': ChartComponent, 'e-series-collection': SeriesCollectionDirective, 'e-series': SeriesDirective },
-    data() { return { data, primaryXAxis: { valueType: 'Category' }, tooltip: { enable: true }, webMcpSettings: { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] } }; },
+    data() { return { data, primaryXAxis: { valueType: 'Category' }, tooltip: { enable: true }, webMcpSettings: { name: 'revenueChart', tools: ['getChartInfo', 'getSeriesData', 'getAxes', 'updateTitle', 'toggleSeriesVisibility', 'exportChart'] } }; },
     methods: { beforeWebMcpToolExecute(args) {
             if (args.toolName === 'exportChart') {
                 args.cancel = !window.confirm('Do you want to export the chart?');
@@ -490,7 +490,7 @@ const data = [
 ];
 const primaryXAxis = { valueType: 'Category' };
 const tooltip = { enable: true };
-const webMcpSettings = { name: 'revenueChart', tools: ['inspectChart', 'getSeriesData', 'getChartAxes', 'updateChartTitle', 'toggleChartSeriesVisibility', 'exportChart'] };
+const webMcpSettings = { name: 'revenueChart', tools: ['getChartInfo', 'getSeriesData', 'getAxes', 'updateTitle', 'toggleSeriesVisibility', 'exportChart'] };
 const beforeWebMcpToolExecute = (args) => {
     if (args.toolName === 'exportChart') {
         args.cancel = !window.confirm('Do you want to export the chart?');
@@ -554,8 +554,8 @@ The Chart exposes WebMCP tools for inspection, data management, configuration, i
 <br>
 - Expose only the tools required by the application. Register the corresponding Chart feature module or service for tools such as `exportChart`.
 - Assign a unique [`webMcpSettings.name`](https://ej2.syncfusion.com/vue/documentation/api/chart/chartwebmcpsettings#name) when multiple Chart instances are present.
-- Require confirmation for mutating and output operations such as `updateChartTitle`, `toggleChartSeriesVisibility`, and `exportChart`.
-- Allow read-only operations such as `inspectChart`, `getSeriesData`, and `getChartAxes` to run without unnecessary confirmation.
+- Require confirmation for mutating and output operations such as `updateTitle`, `toggleSeriesVisibility`, and `exportChart`.
+- Allow read-only operations such as `getChartInfo`, `getSeriesData`, and `getAxes` to run without unnecessary confirmation.
 - Keep application authentication, authorization, validation, and auditing in place.
 <br>
 <br>
