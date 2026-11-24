@@ -224,6 +224,8 @@ dotnet run
 
 {% endtabcontents %}
 
+![Blazor 3D Circular Chart](../images/getting-started/blazor-3d-circular-chart.webp)
+
 ## Populate 3D Circular Chart with data
 
 The `Blazor 3D Circular Chart` (`SfCircularChart3D`) visualizes categorical data distributions as 3D pie or doughnut slices with true perspective depth, horizontal tilt, and axial rotation. Slices are rendered as three-dimensional polygon meshes sorted dynamically using Binary Space Partitioning (BSP) trees for artifact-free depth sorting.

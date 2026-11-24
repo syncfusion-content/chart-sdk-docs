@@ -48,6 +48,8 @@ The 3D Pie Chart is used to represent numeric proportional data in divided slice
 
 ```
 
+![Blazor 3D Circular Chart - 3D Pie Chart](images/pie-and-donut/blazor-3d-circular-chart-3d-pie-chart.webp)
+
 ## Radius customization
 
 The radius of the series is set to `80%` of its size (minimum of chart width and height) by default. The `Radius` property of the series can be used to customize the radius of the chart. The value can be given either in percentage, for example `"80%"`, or in pixels, for example `"180px"`.
@@ -84,6 +86,8 @@ The radius of the series is set to `80%` of its size (minimum of chart width and
 }
 
 ```
+
+![Blazor 3D Circular Chart - Radius customization](images/pie-and-donut/blazor-3d-circular-chart-radius-customization.webp)
 
 ## 3D Doughnut Chart
 
@@ -122,6 +126,8 @@ To render a 3D Doughnut Chart, set the `InnerRadius` property of the series to a
 
 ```
 
+![Blazor 3D Circular Chart - 3D Doughnut Chart](images/pie-and-donut/blazor-3d-circular-chart-3d-doughnut-chart.webp)
+
 ## Start and end angle
 
 By default, the series is rendered as a full circle from `0` to `360` degrees. The `StartAngle` and `EndAngle` properties of the series can be used to render a semi-circular or partial 3D Pie and Doughnut Chart.
@@ -158,6 +164,8 @@ By default, the series is rendered as a full circle from `0` to `360` degrees. T
 }
 
 ```
+
+![Blazor 3D Circular Chart - Start and end angle](images/pie-and-donut/blazor-3d-circular-chart-start-and-end-angle.webp)
 
 ## Point color mapping
 
@@ -196,6 +204,8 @@ The fill color of each slice can be mapped from the data source by using the `Po
 }
 
 ```
+
+![Blazor 3D Circular Chart - Point color mapping](images/pie-and-donut/blazor-3d-circular-chart-point-color-mapping.webp)
 
 ## See also
 
