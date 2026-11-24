@@ -179,7 +179,7 @@ Include the required [script references](https://blazor.syncfusion.com/documenta
 {% tabs %}
 {% highlight razor tabtitle="App.razor" %}
 
-<script src="_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
+<script src="_content/Syncfusion.Blazor.Chart3D/scripts/sf-circular-chart-3d.js" type="text/javascript"></script>
 
 {% endhighlight %}
 {% endtabs %}
