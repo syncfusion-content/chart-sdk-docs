@@ -4,7 +4,7 @@ import { BulletChartModule } from '@syncfusion/ej2-angular-charts';
 @Component({
     imports: [BulletChartModule],
     standalone: true,
-    selector: 'app-root',
+    selector: 'app-container',
     // specifies the template string for the Bullet Chart component
     template: `<ejs-bulletchart id="chart-container"></ejs-bulletchart>`
 })

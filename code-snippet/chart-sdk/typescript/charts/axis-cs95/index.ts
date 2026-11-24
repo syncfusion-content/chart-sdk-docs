@@ -8,7 +8,7 @@ Chart.Inject(ColumnSeries, LineSeries, StripLine);
 let chart: Chart = new Chart({
     primaryXAxis: {
         stripLines:[
-            { startFromAxis: true, size: 4, zIndex: 'Behind', opacity: 0.5,  text: 'Good', verticalAlignment: 'Middle', horizontalAlignment: 'Middle', rotation: 90, textStyle: { size: 15}},
+            { startFromAxis: true, size: 4, zIndex: 'Behind', opacity: 0.5,  text: 'Good', verticalAlignment: 'Middle', horizontalAlignment: 'Middle', rotation: 90, textStyle: { size: '15px' }},
             { start: 5, end: 8, verticalAlignment: 'Start', horizontalAlignment: 'End', rotation: 45, text: 'Poor'}
         ]
     },

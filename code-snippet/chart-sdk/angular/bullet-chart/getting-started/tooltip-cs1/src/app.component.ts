@@ -5,7 +5,7 @@ import { BulletChartModule, BulletTooltipService } from '@syncfusion/ej2-angular
     imports: [BulletChartModule],
     standalone: true,
     providers: [BulletTooltipService],
-    selector: 'app-root',
+    selector: 'app-container',
     template: `<ejs-bulletchart valueField='value' targetField='target' title='Revenue'
                 [minimum]='minimum' [maximum]='maximum' [interval]='interval' [dataSource]='data'
                 [tooltip]='tooltip'>

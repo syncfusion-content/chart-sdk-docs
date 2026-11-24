@@ -11,7 +11,7 @@ import { SankeyTooltipService, SankeyLegendService, SankeyExportService } from '
   <div class="control-pane">
       <div class="control-section"  id="sankey-container">
     <button (click)="handleCustomExport()" style="margin-bottom:10px">Export with Custom Options</button>
-    <ejs-sankey width="90%" height="450px">
+    <ejs-sankey #sankey width="90%" height="450px">
       <e-sankey-nodes>
             <e-sankey-node id="Agricultural Waste"></e-sankey-node>
             <e-sankey-node id="Biomass Residues"></e-sankey-node>

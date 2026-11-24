@@ -65,7 +65,7 @@ The Bullet chart control's accessibility levels are ensured through an [accessib
 
 The accessibility compliance of the Bullet chart control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/bullet-chart.html) in a new window to evaluate the accessibility of the Bullet chart control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/bullet-chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/bullet-chart/accessibility-cs1" %}
 
 ## See also
 

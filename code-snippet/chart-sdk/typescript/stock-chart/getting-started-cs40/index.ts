@@ -10,7 +10,7 @@ StockChart.Inject(DateTime, CandleSeries, LineSeries, SplineSeries);
 StockChart.Inject(AccumulationDistributionIndicator, AtrIndicator, BollingerBands, EmaIndicator, MomentumIndicator);
 StockChart.Inject(MacdIndicator, RsiIndicator, SmaIndicator, StochasticIndicator);
 StockChart.Inject(TmaIndicator, Export, Tooltip, Crosshair);
-import { chartData } from './datasource';
+import { chartData } from './datasource.ts';
 
 let stockChart: StockChart = new StockChart({
     title: 'AAPL Stock Price',

@@ -112,14 +112,14 @@ The `nodeRendering` event triggers before each node is rendered, allowing dynami
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/node-interaction-cs1/index.ts %}
+{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/node-rendering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/node-interaction-cs1/index.html %}
+{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/node-rendering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sankey-diagram/events/node-interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sankey-diagram/events/node-rendering-cs1" %}
 
 ### Link Rendering Event
 
@@ -127,14 +127,14 @@ The `linkRendering` event triggers before each link is rendered, allowing dynami
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/link-interaction-cs1/index.ts %}
+{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/link-rendering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/link-interaction-cs1/index.html %}
+{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/link-rendering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sankey-diagram/events/link-interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sankey-diagram/events/link-rendering-cs1" %}
 
 ### Label Rendering Event
 
@@ -142,14 +142,14 @@ The `labelRendering` event triggers before each label is rendered, allowing dyna
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/complete-handler-cs1/index.ts %}
+{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/label-rendering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/complete-handler-cs1/index.html %}
+{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/label-rendering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sankey-diagram/events/complete-handler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sankey-diagram/events/label-rendering-cs1" %}
 
 ### Legend Item Rendering Event
 
@@ -157,14 +157,14 @@ The `legendItemRendering` event triggers before a legend item is rendered, allow
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/complete-handler-cs1/index.ts %}
+{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/legend-rendering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/complete-handler-cs1/index.html %}
+{% include code-snippet/chart-sdk/typescript/sankey-diagram/events/legend-rendering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sankey-diagram/events/complete-handler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sankey-diagram/events/legend-rendering-cs1" %}
 
 
 ## Size Changed Event
