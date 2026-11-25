@@ -199,10 +199,6 @@ N> If the interactivity location is set to `Per page/component` in the Web App, 
 <SfCircularChart3D Title="Browser Market Shares in November 2023" Tilt="-45">
     <CircularChart3DSeriesCollection>
         <CircularChart3DSeries DataSource="@BrowserShareData" XName="X" YName="Y">
-            <CircularChart3DDataLabelSettings Visible="true" Name="X" Position="CircularChart3DLabelPosition.Outside">
-                <CircularChart3DDataLabelFont FontWeight="600" />
-                <CircularChart3DConnector Length="40px" />
-            </CircularChart3DDataLabelSettings>
         </CircularChart3DSeries>
     </CircularChart3DSeriesCollection>
     <CircularChart3DLegendSettings Visible="true" Position="LegendPosition.Right" />
@@ -266,9 +262,8 @@ The `Blazor 3D Circular Chart` (`SfCircularChart3D`) visualizes categorical data
 Key mappings to configure:
 
 * `DataSource` is the `IEnumerable<TItem>` collection that supplies data to the chart or series (`BrowserShareData`).
-* `XName` specifies the property name from the data source that supplies category names (`BrowserData.X`). These category names populate legend labels, data label text, and tooltip headers.
+* `XName` specifies the property name from the data source that supplies category names (`BrowserData.X`). These category names populate legend labels and tooltip headers.
 * `YName` specifies the numerical property name from the data source (`BrowserData.Y`). It determines the proportional angular sweep of each 3D slice relative to the sum of all valid points.
-* `CircularChart3DDataLabelSettings` configures data labels on slices. Setting `Visible="true"` displays category names or percentages, while `Position` specifies label placement such as `CircularChart3DLabelPosition.Outside` or `CircularChart3DLabelPosition.Inside`. The `CircularChart3DConnector` defines connecting leader lines between outside labels and 3D slices.
 * `CircularChart3DLegendSettings` configures the legend display. Setting `Visible="true"` enables the legend, with `Position` determining placement (`Right`, `Left`, `Top`, `Bottom`, or `Auto`).
 * `Tilt` specifies the horizontal inclination angle in degrees (ranging between `-90` and `90`) to view the 3D circular chart from different perspectives.
 
