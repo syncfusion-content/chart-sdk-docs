@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 ## Aztec Code
 
-Aztec Code is a two-dimensional matrix barcode symbology organized in square layers around a distinctive square bullseye finder pattern located at the center. Aztec barcodes are widely utilized in airline boarding passes, railway ticketing, transport systems, commercial logistics, healthcare, and mobile ticketing applications. The data encoded in the barcode can be numeric, alphanumeric, or byte characters. Unlike QR Code and other two-dimensional barcodes, Aztec Code does not require a surrounding quiet zone (blank margin), allowing for higher information density and compact presentation in space-constrained printing environments.
+Aztec Code is a two-dimensional matrix barcode symbology organized in square layers around a distinctive square bullseye finder pattern located at the center. Aztec barcodes are widely utilized in airline boarding passes, railway ticketing, transport systems, commercial logistics, health care, and mobile ticketing applications. The data encoded in the barcode can be numeric, alphanumeric, or byte characters. Unlike QR Code and other two-dimensional barcodes, Aztec Code does not require a surrounding quiet zone (blank margin), allowing for higher information density and compact presentation in space-constrained printing environments.
 
 Aztec Code supports two primary symbol formats:
 * **Compact**: Features a 2-ring central bullseye pattern and supports 1 to 4 concentric data layers, producing symbols ranging from 15x15 to 27x27 modules.
