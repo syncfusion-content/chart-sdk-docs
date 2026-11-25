@@ -11,7 +11,7 @@ domainurl: https://help.syncfusion.com/chart-sdk
 # Getting started in JavaScript Barcode control
 
 This section explains the steps used to create a simple Barcode and demonstrates the basic usage of the barcode component using Essential® JS 2
-[quickstart](https://github.com/syncfusion/ej2-quickstart.git) seed repository. This seed repository is pre-configured with the Essential® JS 2 package.
+[Quick Start](https://github.com/syncfusion/ej2-quickstart.git) seed repository. This seed repository is pre-configured with the Essential® JS 2 package.
 
 ## Dependencies
 
@@ -25,7 +25,7 @@ Following is the list of minimum dependencies required to use the barcode.
 
 ## Setup for local development
 
-Clone the Essential® JS 2 quickstart application project from [GitHub](https://github.com/syncfusion/ej2-quickstart.git), and install the necessary npm packages using the following command line scripts.
+Clone the Essential® JS 2 Quick Start application project from [GitHub](https://github.com/syncfusion/ej2-quickstart.git), and install the necessary npm packages using the following command line scripts.
 
 ```
 git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
@@ -143,9 +143,9 @@ You can add the QR code in our barcode generator component.
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/getting-started-cs2" %}
 
-## Adding Datamatrix Generator control
+## Adding Data Matrix Generator control
 
-You can add the datamatrix code in our barcode generator component.
+You can add the Data Matrix code in our barcode generator component.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}

@@ -213,9 +213,9 @@ import {
 
 ![Output](./images/barcode2.PNG)
 
-## Adding Syncfusion® Vue Datamatrix Generator control in the application
+## Adding Syncfusion® Vue Data Matrix Generator control in the application
 
-You can add the datamatrix code generator component by using the following code sample.
+You can add the Data Matrix code generator component by using the following code sample.
 
 ```
 <template>

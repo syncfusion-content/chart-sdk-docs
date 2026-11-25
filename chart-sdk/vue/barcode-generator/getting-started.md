@@ -58,7 +58,7 @@ When creating a new project, choose the option `Default ([Vue 2] babel, eslint)`
 
 ![Vue 2 project](images/vue3_barcode.PNG)
 
-Once the `quickstart` project is set up with default settings, proceed to add Syncfusion® components to the project.
+Once the `Quick Start` project is set up with default settings, proceed to add Syncfusion® components to the project.
 
 ## Adding Syncfusion® Vue packages
 
@@ -185,9 +185,9 @@ You can add the QR code in our barcode generator component.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/getting-started/qrcode-cs1" %}
 
-## Adding Datamatrix Generator control
+## Adding Data Matrix Generator control
 
-You can add the datamatrix code in our barcode generator component.
+You can add the Data Matrix code in our barcode generator component.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue" %}

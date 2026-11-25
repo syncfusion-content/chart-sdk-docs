@@ -133,9 +133,9 @@ You can add the QR code in our barcode generator component.
           
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/barcode-generator/getting-started-cs8" %}
 
-## Adding Datamatrix Generator control
+## Adding Data Matrix Generator control
 
-You can add the datamatrix code in our barcode generator component.
+You can add the Data Matrix code in our barcode generator component.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
