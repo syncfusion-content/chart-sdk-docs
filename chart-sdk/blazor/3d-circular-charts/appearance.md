@@ -381,7 +381,7 @@ The chart can be rotated and tilted at runtime by using mouse or touch interacti
 
 ```
 
-![Blazor 3D Circular Chart - Interactive 3D rotation](images/appearance/blazor-3d-circular-chart-interactive-3d-rotation.webp)
+![Blazor 3D Circular Chart - Interactive 3D rotation](images/appearance/blazor-3d-circular-chart-interactive-3d-rotation.gif)
 
 ## Slice explosion
 
@@ -427,44 +427,6 @@ Slices can be moved outward from the center to emphasize them. Configure this be
 ```
 
 ![Blazor 3D Circular Chart - Slice explosion](images/appearance/blazor-3d-circular-chart-slice-explosion.webp)
-
-To explode all the slices at once, set the `ExplodeAll` property to **true**.
-
-```cshtml
-
-@using Syncfusion.Blazor.Chart3D
-
-<SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DSeriesCollection>
-        <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser"
-                               ExplodeAll="true" ExplodeOffset="10%">
-        </CircularChart3DSeries>
-    </CircularChart3DSeriesCollection>
-
-    <CircularChart3DLegendSettings Visible="true"></CircularChart3DLegendSettings>
-</SfCircularChart3D>
-
-@code {
-    public class Statistics
-    {
-        public string Browser { get; set; }
-        public double Users { get; set; }
-    }
-
-    public List<Statistics> StatisticsDetails = new List<Statistics>
-    {
-        new Statistics { Browser = "Chrome", Users = 37 },
-        new Statistics { Browser = "UC Browser", Users = 17 },
-        new Statistics { Browser = "iPhone", Users = 19 },
-        new Statistics { Browser = "Others", Users = 4 },
-        new Statistics { Browser = "Opera", Users = 11 },
-        new Statistics { Browser = "Android", Users = 12 },
-    };
-}
-
-```
-
-![Blazor 3D Circular Chart - Slice explosion](images/appearance/blazor-3d-circular-chart-slice-explosion-2.webp)
 
 ## Animation
 
