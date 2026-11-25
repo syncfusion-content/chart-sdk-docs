@@ -61,43 +61,6 @@ Set the `Visible` property of `CircularChart3DDataLabelSettings` to `true` to di
 
 The `Position` property of `CircularChart3DDataLabelSettings` places the data labels either `Inside` or `Outside` of the slices by using the `CircularChart3DLabelPosition` enum. The default value is `Inside`.
 
-### Inside
-
-```cshtml
-
-@using Syncfusion.Blazor.Chart3D
-
-<SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DLegendSettings Visible="false"></CircularChart3DLegendSettings>
-    <CircularChart3DSeriesCollection>
-        <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser">
-            <CircularChart3DDataLabelSettings Visible="true" Position="CircularChart3DLabelPosition.Inside"></CircularChart3DDataLabelSettings>
-        </CircularChart3DSeries>
-    </CircularChart3DSeriesCollection>
-</SfCircularChart3D>
-
-@code {
-    public class Statistics
-    {
-        public string Browser { get; set; }
-        public double Users { get; set; }
-    }
-
-    public List<Statistics> StatisticsDetails = new List<Statistics>
-    {
-        new Statistics { Browser = "Chrome", Users = 37 },
-        new Statistics { Browser = "UC Browser", Users = 17 },
-        new Statistics { Browser = "iPhone", Users = 19 },
-        new Statistics { Browser = "Others", Users = 4 },
-        new Statistics { Browser = "Opera", Users = 11 },
-        new Statistics { Browser = "Android", Users = 12 },
-    };
-}
-
-```
-
-![Blazor 3D Circular Chart - Inside](images/data-label/blazor-3d-circular-chart-inside.webp)
-
 ### Outside
 
 Set `Position` to `Outside` to place the labels around the chart. Outside labels are connected to their slices with connector lines.
