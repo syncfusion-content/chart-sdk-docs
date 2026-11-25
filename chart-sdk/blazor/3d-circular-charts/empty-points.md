@@ -9,6 +9,8 @@ keywords: Blazor 3D Circular Chart, SfCircularChart3D, empty points, null values
 appliesto: UI Component Suite, Chart SDK
 ---
 
+<!-- markdownlint-disable MD040 -->
+
 # Blazor 3D Circular Chart Empty Points
 
 Data points that contain **NaN** or **null** value are considered as empty points. The empty data points can be ignored or not plotted in the chart. Those points can be customized using the `CircularChart3DEmptyPointSettings` in series.
@@ -61,43 +63,6 @@ The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to ha
 | `Drop` | The empty point is removed from the chart and the legend. |
 | `Average` | The empty point value is calculated as the average of its neighboring points. |
 
-### Gap
-
-```cshtml
-
-@using Syncfusion.Blazor.Chart3D
-
-<SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DSeriesCollection>
-        <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser">
-            <CircularChart3DEmptyPointSettings Mode="EmptyPointMode.Gap"></CircularChart3DEmptyPointSettings>
-        </CircularChart3DSeries>
-    </CircularChart3DSeriesCollection>
-
-    <CircularChart3DLegendSettings Visible="true"></CircularChart3DLegendSettings>
-</SfCircularChart3D>
-
-@code {
-    public class Statistics
-    {
-        public string Browser { get; set; }
-        public double? Users { get; set; }
-    }
-
-    public List<Statistics> StatisticsDetails = new List<Statistics>
-    {
-        new Statistics { Browser = "Chrome", Users = 37 },
-        new Statistics { Browser = "UC Browser", Users = 17 },
-        new Statistics { Browser = "iPhone", Users = null },
-        new Statistics { Browser = "Others", Users = 4 },
-        new Statistics { Browser = "Opera", Users = 11 },
-    };
-}
-
-```
-
-![Blazor 3D Circular Chart - Gap](images/empty-points/blazor-3d-circular-chart-gap.webp)
-
 ### Zero
 
 ```cshtml
@@ -134,80 +99,6 @@ The `Mode` property of the `CircularChart3DEmptyPointSettings` can be used to ha
 ```
 
 ![Blazor 3D Circular Chart - Zero](images/empty-points/blazor-3d-circular-chart-zero.webp)
-
-### Drop
-
-```cshtml
-
-@using Syncfusion.Blazor.Chart3D
-
-<SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DSeriesCollection>
-        <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser">
-            <CircularChart3DEmptyPointSettings Mode="EmptyPointMode.Drop"></CircularChart3DEmptyPointSettings>
-        </CircularChart3DSeries>
-    </CircularChart3DSeriesCollection>
-
-    <CircularChart3DLegendSettings Visible="true"></CircularChart3DLegendSettings>
-</SfCircularChart3D>
-
-@code {
-    public class Statistics
-    {
-        public string Browser { get; set; }
-        public double? Users { get; set; }
-    }
-
-    public List<Statistics> StatisticsDetails = new List<Statistics>
-    {
-        new Statistics { Browser = "Chrome", Users = 37 },
-        new Statistics { Browser = "UC Browser", Users = 17 },
-        new Statistics { Browser = "iPhone", Users = null },
-        new Statistics { Browser = "Others", Users = 4 },
-        new Statistics { Browser = "Opera", Users = 11 },
-    };
-}
-
-```
-
-![Blazor 3D Circular Chart - Drop](images/empty-points/blazor-3d-circular-chart-drop.webp)
-
-### Average
-
-```cshtml
-
-@using Syncfusion.Blazor.Chart3D
-
-<SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DSeriesCollection>
-        <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser">
-            <CircularChart3DEmptyPointSettings Mode="EmptyPointMode.Average"></CircularChart3DEmptyPointSettings>
-        </CircularChart3DSeries>
-    </CircularChart3DSeriesCollection>
-
-    <CircularChart3DLegendSettings Visible="true"></CircularChart3DLegendSettings>
-</SfCircularChart3D>
-
-@code {
-    public class Statistics
-    {
-        public string Browser { get; set; }
-        public double? Users { get; set; }
-    }
-
-    public List<Statistics> StatisticsDetails = new List<Statistics>
-    {
-        new Statistics { Browser = "Chrome", Users = 37 },
-        new Statistics { Browser = "UC Browser", Users = 17 },
-        new Statistics { Browser = "iPhone", Users = null },
-        new Statistics { Browser = "Others", Users = 4 },
-        new Statistics { Browser = "Opera", Users = 11 },
-    };
-}
-
-```
-
-![Blazor 3D Circular Chart - Average](images/empty-points/blazor-3d-circular-chart-average.webp)
 
 ## Empty point fill
 
