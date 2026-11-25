@@ -280,6 +280,6 @@ N> Use the `SelectionChanged` event to respond when the selection changes. Refer
 * [Appearance](./appearance)
 * [Legend](./legend)
 * [Tooltip](./tooltip)
-* [Accessibility and localization](./accessibility-and-localization)
+* [Accessibility](./accessibility)
 * [Events](./events)
 * [Getting started with Blazor Web App](./getting-started/blazor-web-app)

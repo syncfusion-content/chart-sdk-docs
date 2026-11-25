@@ -277,5 +277,5 @@ N> The `ExportCompleted` and `PrintCompleted` events are described on the [Event
 * [Appearance](./appearance)
 * [Legend](./legend)
 * [Events](./events)
-* [Accessibility and localization](./accessibility-and-localization)
+* [Accessibility](./accessibility)
 * [Getting started with Blazor Web App](./getting-started/blazor-web-app)
