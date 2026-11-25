@@ -4,7 +4,7 @@ import { BulletChartModule } from '@syncfusion/ej2-angular-charts';
 @Component({
     imports: [BulletChartModule],
     standalone: true,
-    selector: 'app-root',
+    selector: 'app-container',
     template: `<ejs-bulletchart valueField='value' targetField='target' title='Revenue'
                 [minimum]='minimum' [maximum]='maximum' [interval]='interval' [dataSource]='data'>
                 </ejs-bulletchart>`

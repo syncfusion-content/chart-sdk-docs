@@ -32,5 +32,7 @@ public chartData: Object[] = [
     enable: true,
     format: '${point.x:MMM yyyy} : <b>${point.y:n2}%</b>'
   };
+  ngOnInit(): void {
 
+  }
 }

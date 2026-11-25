@@ -69,7 +69,7 @@ The HeatMap control's accessibility levels are ensured through an [accessibility
 
 The accessibility compliance of the HeatMap control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/heat-map.html) in a new window to evaluate the accessibility of the HeatMap control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/heat-map.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/heatmap-chart/accessibility-cs1" %}
 
 ## See also
 

@@ -1,46 +1,70 @@
-import { ChartModule } from '@syncfusion/ej2-angular-charts';
-import { CategoryService, LineSeriesService, LegendService, TooltipService, DataLabelService } from '@syncfusion/ej2-angular-charts';
+import { AccumulationChartModule } from '@syncfusion/ej2-angular-charts';
+import { PieSeriesService, AccumulationDataLabelService, AccumulationLegendService } from '@syncfusion/ej2-angular-charts';
 import { Component, OnInit } from '@angular/core';
-import { chartData } from './datasource';
 
 @Component({
-    imports: [ChartModule],
-    providers: [CategoryService, LineSeriesService, LegendService, TooltipService, DataLabelService],
+    imports: [AccumulationChartModule],
+    providers: [PieSeriesService, AccumulationDataLabelService, AccumulationLegendService],
     standalone: true,
     selector: 'app-container',
-    template: `<ejs-chart id="chart-container" [primaryXAxis]='primaryXAxis' [primaryYAxis]='primaryYAxis' [title]='title'
-    [tooltip]='tooltip' [legendSettings]='legendSettings' [accessibility]='accessibility' focusBorderColor='#FF0000'
-    focusBorderWidth=3 focusBorderMargin=5>
-        <e-series-collection>
-            <e-series [dataSource]='chartData' type='Line' xName='month' yName='sales' name='Sales' [marker]='marker'></e-series>
-        </e-series-collection>
-    </ejs-chart>`
+    template: `<ejs-accumulationchart id="chart-container" [legendSettings]='legendSettings' [title]='title' [enableSmartLabels]='enableSmartLabels'>
+        <e-accumulation-series-collection>
+            <e-accumulation-series [dataSource]='chartData' type='Pie' xName='x' yName='y' [animation]='animation' [dataLabel]='dataLabel' [explode]='explode' [emptyPointSettings]='emptyPointSettings'></e-accumulation-series>
+        </e-accumulation-series-collection>
+    </ejs-accumulationchart>`
 })
 export class AppComponent implements OnInit {
-    public primaryXAxis?: Object;
-    public primaryYAxis?: Object;
     public chartData?: Object[];
-    public title?: string;
-    public tooltip?: Object;
     public legendSettings?: Object;
-    public accessibility?: Object;
-    public marker?: Object;
-    ngOnInit(): void {
-        this.chartData = chartData;
-        this.primaryXAxis = {
-            valueType: 'Category'
-        };
-        this.primaryYAxis = {
-            labelFormat: '${value}K'
-        };
-        this.title = 'Sales Analysis';
-        this.tooltip = { enable: true };
-        this.legendSettings = { visible: true };
-        this.accessibility = {
-            accessibilityDescription: 'A line chart displaying the sales analysis for each month.',
-            accessibilityRole: 'chart'
-        };
-        this.marker = { visible: true, dataLabel: { visible: true } };
-    }
+    public title?: string;
+    public enableSmartLabels?: boolean;
+    public animation?: Object;
+    public dataLabel?: Object;
+    public explode?: boolean;
+    public emptyPointSettings?: Object;
 
+    ngOnInit(): void {
+        this.chartData = [
+            { x: 'America', y: null },
+            { x: 'England', y: 14 },
+            { x: 'Germany', y: 12 }
+        ];
+        this.title = 'Empty Point as average';
+        this.enableSmartLabels = true;
+        this.animation = { enable: false };
+        this.explode = true;
+        this.emptyPointSettings = {
+            mode: 'Average',
+            fill: 'red'
+        };
+        this.dataLabel = {
+            name: 'text',
+            visible: true,
+            position: 'Outside',
+            fill: 'black',
+            font: {
+                fontFamily: 'Times New Roman',
+                fontStyle: 'bold',
+                fontWeight: '500',
+                color: 'skyblue'
+            },
+            connectorStyle: {
+                type: 'Curve',
+                color: 'brown',
+                width: 3,
+                dashArray: '2,1',
+                length: '8'
+            }
+        };
+        this.legendSettings = {
+            position: 'Left',
+            shapePadding: 10,
+            shapeHeight: 20,
+            shapeWidth: 20,
+            border: {
+                color: 'black',
+                width: 2
+            }
+        };
+    }
 }

@@ -69,7 +69,7 @@ The TreeMap control's accessibility levels are ensured through an [accessibility
 
 The accessibility compliance of the TreeMap control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/tree-map.html) in a new window to evaluate the accessibility of the TreeMap control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/tree-map.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/accessibility-cs1" %}
 
 ## See also
 

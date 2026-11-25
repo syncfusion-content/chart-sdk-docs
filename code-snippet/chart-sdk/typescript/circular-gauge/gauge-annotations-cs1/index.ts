@@ -6,7 +6,7 @@ CircularGauge.Inject(Annotations);
 let gauge: CircularGauge = new CircularGauge({
     axes: [{
         annotations: [{
-            content: 'annotation-template', zIndex:'1'
+            content: '#annotation-template', zIndex:'1'
         }],
         pointers:[{
             value: 50

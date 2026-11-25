@@ -53,7 +53,7 @@ function rangeInfo(args: IScrollEventArgs) {
     const c = (args as any).currentRange || {};
     const p = (args as any).previousRange || {};
     return {
-        axis: (args as any).axis?.name,
+        axis: (args as any).axis.name,
         current: { start: c.minimum, end: c.maximum },
         previous: { start: p.minimum, end: p.maximum }
     };

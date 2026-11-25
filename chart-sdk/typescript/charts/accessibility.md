@@ -109,7 +109,7 @@ The Chart component is evaluated during automated testing with [Accessibility Ch
 
 Open the [accessibility sample](https://ej2.syncfusion.com/accessibility/chart.html) in a new window to evaluate the Chart component with automated accessibility tools and supported assistive technologies.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/accessibility-cs1" %}
 
 ### Troubleshooting
 

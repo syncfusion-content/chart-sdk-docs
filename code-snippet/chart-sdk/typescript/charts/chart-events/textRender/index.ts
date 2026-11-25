@@ -49,12 +49,12 @@ let chart: Chart = new Chart({
     // textRender handler: customize data labels before they are rendered
     textRender: (args: ITextRenderEventArgs): void => {
         // Example 1: Format label text as currency with K suffix
-        if (typeof args.point?.y === 'number') {
-            args.text = `$${args.point.y}K`;
+        if (args.point && typeof args.point.y === 'number') {
+            args.text = '$' + args.point.y + 'K';
         }
 
         // Example 2: Highlight a particular month’s label (e.g., 'Aug')
-        if (args.point?.x === 'Aug') {
+        if (args.point && args.point.x === 'Aug') {
             args.text = `${args.text} ★`;
             args.color = '#e74c3c';
             args.font = { fontWeight: '700', size: '14px' };

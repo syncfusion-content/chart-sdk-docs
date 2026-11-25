@@ -158,7 +158,7 @@ Paging will be enabled by default, when the legend items exceeds the legend boun
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/3d-chart/legend/legend-cs8 %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/legend/legend-cs8 %}
 
 ### Legend text wrap
 
@@ -174,7 +174,7 @@ When the legend text exceeds the container, the text can be wrapped by using the
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/3d-chart/legend/legend-cs9 %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/legend/legend-cs9 %}
 
 ## Series selection through legend
 
@@ -190,7 +190,7 @@ By default, you can collapse the series visibility by clicking the legend. On th
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/3d-chart/legend/legend-cs10 %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/legend/legend-cs10 %}
 
 ## Collapsing legend item
 
@@ -206,7 +206,7 @@ By default, series name will be displayed as legend. To skip the legend for a pa
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/3d-chart/legend/legend-cs11 %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/legend/legend-cs11 %}
 
 ## Legend title
 
@@ -222,7 +222,7 @@ You can set title for legend using [`title`](https://ej2.syncfusion.com/angular/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/3d-chart/legend/legend-cs12 %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/legend/legend-cs12 %}
 
 ## Arrow page navigation
 
@@ -238,7 +238,7 @@ The page number will always be visible while using legend paging. It is now poss
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/3d-chart/legend/legend-cs13 %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/legend/legend-cs13 %}
 
 ## Legend item padding
 
@@ -254,6 +254,6 @@ The [`itemPadding`](https://ej2.syncfusion.com/angular/documentation/api/chart3d
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/3d-chart/legend/legend-cs14 %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/legend/legend-cs14 %}
 
 >Note: To use the legend feature, we need to inject the `Legend3DService` module into the `@NgModule.providers`.
