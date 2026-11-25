@@ -78,6 +78,8 @@ The `CircularChart3DLoadedEventArgs` provides the following properties:
 
 ```
 
+![Blazor 3D Circular Chart - Created](images/events/blazor-3d-circular-chart-created.webp)
+
 ### SizeChanged
 
 The `SizeChanged` event is raised when the size of the chart element changes, for example when the browser window is resized.
@@ -124,6 +126,8 @@ The `CircularChart3DResizeEventArgs` provides the following properties:
 }
 
 ```
+
+![Blazor 3D Circular Chart - SizeChanged](images/events/blazor-3d-circular-chart-sizechanged.webp)
 
 ## Rendering customization events
 
@@ -176,6 +180,8 @@ The `CircularChart3DSeriesRenderEventArgs` provides the following properties:
 }
 
 ```
+
+![Blazor 3D Circular Chart - SeriesRendering](images/events/blazor-3d-circular-chart-seriesrendering.webp)
 
 ### PointRendering
 
@@ -233,6 +239,8 @@ The `CircularChart3DPointRenderEventArgs` provides the following properties:
 
 ```
 
+![Blazor 3D Circular Chart - PointRendering](images/events/blazor-3d-circular-chart-pointrendering.webp)
+
 ### DataLabelRendering
 
 The `DataLabelRendering` event is raised before each data label is rendered. Use it to change the label text and its style, or to cancel the label.
@@ -288,6 +296,8 @@ The `CircularChart3DTextRenderEventArgs` provides the following properties:
 
 ```
 
+![Blazor 3D Circular Chart - DataLabelRendering](images/events/blazor-3d-circular-chart-datalabelrendering.webp)
+
 ### TooltipRendering
 
 The `TooltipRendering` event is raised before the tooltip is displayed. Use it to change the header and text of the tooltip or its text style.
@@ -342,6 +352,8 @@ The `CircularChart3DTooltipRenderEventArgs` provides the following properties:
 }
 
 ```
+
+![Blazor 3D Circular Chart - TooltipRendering](images/events/blazor-3d-circular-chart-tooltiprendering.webp)
 
 ### LegendItemRendering
 
@@ -401,6 +413,8 @@ The `CircularChart3DLegendRenderEventArgs` provides the following properties:
 
 ```
 
+![Blazor 3D Circular Chart - LegendItemRendering](images/events/blazor-3d-circular-chart-legenditemrendering.webp)
+
 ## Interaction and export events
 
 ### PointClick
@@ -452,6 +466,8 @@ The `CircularChart3DPointEventArgs` provides the following properties:
 }
 
 ```
+
+![Blazor 3D Circular Chart - PointClick](images/events/blazor-3d-circular-chart-pointclick.webp)
 
 ### LegendClick
 
@@ -506,6 +522,8 @@ The `CircularChart3DLegendClickEventArgs` provides the following properties:
 
 ```
 
+![Blazor 3D Circular Chart - LegendClick](images/events/blazor-3d-circular-chart-legendclick.webp)
+
 ### SelectionChanged
 
 The `SelectionChanged` event is raised after the selection of slices changes.
@@ -551,6 +569,8 @@ The `CircularChart3DSelectionCompleteEventArgs` provides the following propertie
 }
 
 ```
+
+![Blazor 3D Circular Chart - SelectionChanged](images/events/blazor-3d-circular-chart-selectionchanged.webp)
 
 ### Mouse events
 
@@ -601,6 +621,8 @@ The `MouseClick`, `MouseDown`, `MouseUp`, and `MouseMove` events are raised when
 }
 
 ```
+
+![Blazor 3D Circular Chart - Mouse events](images/events/blazor-3d-circular-chart-mouse-events.webp)
 
 ### ExportCompleted
 
@@ -653,6 +675,8 @@ The `ExportCompleted` event is raised after the chart is exported by the `Export
 
 ```
 
+![Blazor 3D Circular Chart - ExportCompleted](images/events/blazor-3d-circular-chart-exportcompleted.webp)
+
 ### PrintCompleted
 
 The `PrintCompleted` event is raised after the chart is printed by the `PrintAsync` method. It has no arguments.
@@ -703,6 +727,8 @@ The `PrintCompleted` event is raised after the chart is printed by the `PrintAsy
 }
 
 ```
+
+![Blazor 3D Circular Chart - PrintCompleted](images/events/blazor-3d-circular-chart-printcompleted.webp)
 
 ## See also
 

@@ -53,6 +53,8 @@ Set the `SelectionMode` property of `SfCircularChart3D` to `SelectionMode.Point`
 
 ```
 
+![Blazor 3D Circular Chart - Point selection](images/selection-and-highlighting/blazor-3d-circular-chart-point-selection.webp)
+
 ### Multiple selection
 
 Set the `AllowMultiSelection` property to `true` to select more than one slice. Each click toggles the selection state of the clicked slice and leaves the other selected slices unchanged.
@@ -89,6 +91,8 @@ Set the `AllowMultiSelection` property to `true` to select more than one slice. 
 
 ```
 
+![Blazor 3D Circular Chart - Multiple selection](images/selection-and-highlighting/blazor-3d-circular-chart-multiple-selection.webp)
+
 ### Selection pattern
 
 The `SelectionPattern` property fills the selected slices with a tactile SVG pattern, which helps users who cannot distinguish the selected state by color. The available patterns are `None`, `Chessboard`, `Dots`, `DiagonalForward`, `Crosshatch`, `Pacman`, `DiagonalBackward`, `Grid`, `Turquoise`, `Star`, `Triangle`, `Circle`, `Tile`, `HorizontalDash`, `VerticalDash`, `Rectangle`, `Box`, `VerticalStripe`, and `Cluster`.
@@ -124,6 +128,8 @@ The `SelectionPattern` property fills the selected slices with a tactile SVG pat
 }
 
 ```
+
+![Blazor 3D Circular Chart - Selection pattern](images/selection-and-highlighting/blazor-3d-circular-chart-selection-pattern.webp)
 
 ## Initial selection
 
@@ -165,6 +171,8 @@ Use the `CircularChart3DSelectedDataIndexes` component to select slices when the
 
 ```
 
+![Blazor 3D Circular Chart - Initial selection](images/selection-and-highlighting/blazor-3d-circular-chart-initial-selection.webp)
+
 ## Hover highlighting
 
 Set the `HighlightMode` property to `SelectionMode.Point` to emphasize the slice under the pointer. Use the `HighlightColor` property to change the fill color of the highlighted slice, or the `HighlightPattern` property to fill it with a tactile pattern. When neither is set, the series color is kept.
@@ -203,6 +211,8 @@ Set the `HighlightMode` property to `SelectionMode.Point` to emphasize the slice
 
 ```
 
+![Blazor 3D Circular Chart - Highlight color](images/selection-and-highlighting/blazor-3d-circular-chart-highlight-color.webp)
+
 ### Highlight pattern
 
 ```cshtml
@@ -236,6 +246,8 @@ Set the `HighlightMode` property to `SelectionMode.Point` to emphasize the slice
 }
 
 ```
+
+![Blazor 3D Circular Chart - Highlight pattern](images/selection-and-highlighting/blazor-3d-circular-chart-highlight-pattern.webp)
 
 ### Selection and highlighting together
 
@@ -272,6 +284,8 @@ Selection and highlighting can be combined. Use different patterns for them so t
 }
 
 ```
+
+![Blazor 3D Circular Chart - Selection and highlighting together](images/selection-and-highlighting/blazor-3d-circular-chart-selection-and-highlighting-together.webp)
 
 N> Use the `SelectionChanged` event to respond when the selection changes. Refer to the [Events](./events#selectionchanged) page for details.
 

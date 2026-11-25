@@ -55,6 +55,8 @@ Set the `Visible` property of `CircularChart3DDataLabelSettings` to `true` to di
 
 ```
 
+![Blazor 3D Circular Chart - Data labels](images/data-label/blazor-3d-circular-chart-data-labels.webp)
+
 ## Label position
 
 The `Position` property of `CircularChart3DDataLabelSettings` places the data labels either `Inside` or `Outside` of the slices by using the `CircularChart3DLabelPosition` enum. The default value is `Inside`.
@@ -94,6 +96,8 @@ The `Position` property of `CircularChart3DDataLabelSettings` places the data la
 
 ```
 
+![Blazor 3D Circular Chart - Inside](images/data-label/blazor-3d-circular-chart-inside.webp)
+
 ### Outside
 
 Set `Position` to `Outside` to place the labels around the chart. Outside labels are connected to their slices with connector lines.
@@ -131,6 +135,8 @@ Set `Position` to `Outside` to place the labels around the chart. Outside labels
 }
 
 ```
+
+![Blazor 3D Circular Chart - Outside](images/data-label/blazor-3d-circular-chart-outside.webp)
 
 ## Label content and formatting
 
@@ -172,6 +178,8 @@ The `Name` property of `CircularChart3DDataLabelSettings` maps a property from t
 }
 
 ```
+
+![Blazor 3D Circular Chart - Custom text mapping](images/data-label/blazor-3d-circular-chart-custom-text-mapping.webp)
 
 ### Label format
 
@@ -217,6 +225,8 @@ The `Format` property customizes the label content by using the following tokens
 
 ```
 
+![Blazor 3D Circular Chart - Label format](images/data-label/blazor-3d-circular-chart-label-format.webp)
+
 ### Maximum label width
 
 When the label text is longer than the available space, use the `MaximumLabelWidth` property to restrict the label width in pixels. Text that exceeds the width is wrapped or trimmed based on the `TextOverflow` property of `CircularChart3DDataLabelFont`.
@@ -254,6 +264,8 @@ When the label text is longer than the available space, use the `MaximumLabelWid
 }
 
 ```
+
+![Blazor 3D Circular Chart - Maximum label width](images/data-label/blazor-3d-circular-chart-maximum-label-width.webp)
 
 ## Smart labels and connectors
 
@@ -296,6 +308,8 @@ When the slices are small or close to each other, the outside labels can overlap
 }
 
 ```
+
+![Blazor 3D Circular Chart - Smart labels](images/data-label/blazor-3d-circular-chart-smart-labels.webp)
 
 ### Connector lines
 
@@ -342,6 +356,8 @@ The `CircularChart3DConnector` component customizes the lines that connect the o
 
 ```
 
+![Blazor 3D Circular Chart - Connector lines](images/data-label/blazor-3d-circular-chart-connector-lines.webp)
+
 ## Label styling, rotation, and templates
 
 ### Background and border
@@ -384,6 +400,8 @@ The `Fill` property of `CircularChart3DDataLabelSettings` sets the background co
 
 ```
 
+![Blazor 3D Circular Chart - Background and border](images/data-label/blazor-3d-circular-chart-background-and-border.webp)
+
 ### Font
 
 The `CircularChart3DDataLabelFont` component customizes the label text through the `Size`, `Color`, `FontFamily`, `FontWeight`, `FontStyle`, and `Opacity` properties.
@@ -424,6 +442,8 @@ The `CircularChart3DDataLabelFont` component customizes the label text through t
 
 ```
 
+![Blazor 3D Circular Chart - Font](images/data-label/blazor-3d-circular-chart-font.webp)
+
 ### Label rotation
 
 Set the `EnableRotation` property of `CircularChart3DDataLabelSettings` to `true` to rotate the labels. Use the `Angle` property to specify the rotation angle in degrees.
@@ -461,6 +481,8 @@ Set the `EnableRotation` property of `CircularChart3DDataLabelSettings` to `true
 }
 
 ```
+
+![Blazor 3D Circular Chart - Label rotation](images/data-label/blazor-3d-circular-chart-label-rotation.webp)
 
 ### Label template
 
@@ -505,6 +527,8 @@ The `Template` property of `CircularChart3DDataLabelSettings` replaces the defau
 }
 
 ```
+
+![Blazor 3D Circular Chart - Label template](images/data-label/blazor-3d-circular-chart-label-template.webp)
 
 ## See also
 

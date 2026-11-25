@@ -62,6 +62,8 @@ The `PrintAsync` method opens the browser print dialog for the rendered chart. C
 
 ```
 
+![Blazor 3D Circular Chart - Print](images/print-and-export/blazor-3d-circular-chart-print.webp)
+
 ## Export
 
 The `ExportAsync` method exports the rendered chart. It accepts the following parameters:
@@ -121,6 +123,8 @@ Pass `ExportType.PNG`, `ExportType.JPEG`, or `ExportType.SVG` to export the char
 
 ```
 
+![Blazor 3D Circular Chart - Image formats](images/print-and-export/blazor-3d-circular-chart-image-formats.webp)
+
 ### PDF
 
 Pass `ExportType.PDF` to export the chart to a PDF document. Use the `orientation` parameter to set the page orientation to `PdfPageOrientation.Landscape` or `PdfPageOrientation.Portrait`.
@@ -169,6 +173,8 @@ Pass `ExportType.PDF` to export the chart to a PDF document. Use the `orientatio
 
 ```
 
+![Blazor 3D Circular Chart - PDF](images/print-and-export/blazor-3d-circular-chart-pdf.webp)
+
 ### Excel and CSV
 
 Pass `ExportType.XLSX` or `ExportType.CSV` to export the data of the chart as a worksheet or a comma-separated file instead of an image.
@@ -216,6 +222,8 @@ Pass `ExportType.XLSX` or `ExportType.CSV` to export the data of the chart as a 
 }
 
 ```
+
+![Blazor 3D Circular Chart - Excel and CSV](images/print-and-export/blazor-3d-circular-chart-excel-and-csv.webp)
 
 ### Allow download and Base64 output
 
@@ -269,6 +277,8 @@ By default, the exported file is downloaded by the browser. Set `allowDownload` 
 }
 
 ```
+
+![Blazor 3D Circular Chart - Allow download and Base64 output](images/print-and-export/blazor-3d-circular-chart-allow-download-and-base64-output.webp)
 
 N> The `ExportCompleted` and `PrintCompleted` events are described on the [Events](./events#interaction-and-export-events) page.
 

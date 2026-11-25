@@ -104,6 +104,8 @@ In addition to standard ARIA attributes, the Blazor 3D Circular Chart component 
 
 ```
 
+![Blazor 3D Circular Chart - WAI-ARIA attributes](images/accessibility/blazor-3d-circular-chart-wai-aria-attributes.webp)
+
 ## Keyboard navigation
 
 The Blazor 3D Circular Chart component follows keyboard interaction guidelines, making it easy for people who use assistive technologies (AT) and those who completely rely on keyboard navigation.
@@ -149,6 +151,8 @@ Each slice polygon in the 3D Circular Chart is keyboard focusable (`tabindex="0"
 }
 
 ```
+
+![Blazor 3D Circular Chart - Keyboard navigation](images/accessibility/blazor-3d-circular-chart-keyboard-navigation.webp)
 
 ## Accessibility-aware behavior
 
@@ -201,6 +205,8 @@ Beyond ARIA attributes and keyboard navigation, the Blazor 3D Circular Chart com
 }
 
 ```
+
+![Blazor 3D Circular Chart - Accessibility-aware behavior](images/accessibility/blazor-3d-circular-chart-accessibility-aware-behavior.webp)
 
 ## Ensuring accessibility
 
