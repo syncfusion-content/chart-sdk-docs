@@ -26,6 +26,7 @@ import { SankeyExportEventArgs } from '@syncfusion/ej2-angular-charts';
         </button>
 
         <ejs-sankey
+          #sankeyChart
           width="90%"
           height="450px"
           (beforeExport)="beforeExport($event)"

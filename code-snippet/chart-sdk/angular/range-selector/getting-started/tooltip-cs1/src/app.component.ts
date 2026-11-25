@@ -6,7 +6,7 @@ import { datasrc } from './data';
     imports: [ChartModule, RangeNavigatorModule],
     providers: [AreaSeriesService, DateTimeService, RangeTooltipService],
     standalone: true,
-    selector: 'app-root',
+    selector: 'app-container',
     template: `<ejs-rangenavigator id="rn-container" valueType='DateTime' [value]='value' [tooltip]='tooltip'>
         <e-rangenavigator-series-collection>
             <e-rangenavigator-series [dataSource]='chartData' type='Area' xName='x' yName='y' width=2>

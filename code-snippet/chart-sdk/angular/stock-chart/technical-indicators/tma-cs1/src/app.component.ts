@@ -5,7 +5,7 @@ import { CandleSeriesService, LineSeriesService, TmaIndicatorService, DateTimeSe
 
 
 
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component } from '@angular/core';
 import { chartData } from './datasource';
 
 @Component({
@@ -19,13 +19,16 @@ standalone: true,
     template:
             `<ejs-stockchart id='chartcontainer' style="display:block;" [title]='title' [primaryXAxis]='primaryXAxis' [primaryYAxis]='primaryYAxis'
               [chartArea]= 'chartArea'>
+              <e-stockchart-series-collection>
+                 <e-stockchart-series [dataSource]='data' type='Candle' xName='date' yName='open' name='India' width=2 ></e-stockchart-series>
+              </e-stockchart-series-collection>
             <e-stockchart-indicators>
-                <e-stockchart-indicator type='Tma' [dataSource]='data' xName='x' field="Close" high='high' low='low' open='open' fill="blue"
+                <e-stockchart-indicator type='Tma' [dataSource]='data' xName='date' field='Close' high='high' low='low' open='open' fill="blue"
                 close='close' volume='volume'> </e-stockchart-indicator>
             </e-stockchart-indicators>
         </ejs-stockchart>`
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
  public data: Object[] = chartData;
     public primaryXAxis: Object = {
         title: 'Months',
@@ -43,12 +46,7 @@ export class AppComponent implements OnInit {
     public chartArea : Object = {
       border: { width : 0}
     };
-    constructor() {
-        //code
-    } ngOnInit(): void {
-        throw new Error('Method not implemented.');
-    }
-;
+    
 }
 
 

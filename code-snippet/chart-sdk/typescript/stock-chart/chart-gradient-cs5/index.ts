@@ -1,11 +1,11 @@
 import { StockChart } from '@syncfusion/ej2-charts';
 import { stockchartData } from './datasource.ts';
-import { DateTime, CandleSeries } from '@syncfusion/ej2-charts';
+import { DateTime, CandleSeries, LineSeries, SplineSeries } from '@syncfusion/ej2-charts';
 import { AccumulationDistributionIndicator, AtrIndicator, BollingerBands, EmaIndicator, MomentumIndicator } from '@syncfusion/ej2-charts';
 import { MacdIndicator, RsiIndicator, Trendlines, SmaIndicator, StochasticIndicator, Export } from '@syncfusion/ej2-charts';
 import { TmaIndicator, RangeTooltip, Tooltip, Crosshair }
   from '@syncfusion/ej2-charts';
-StockChart.Inject(DateTime, CandleSeries);
+StockChart.Inject(DateTime, CandleSeries, LineSeries, SplineSeries);
 StockChart.Inject(AccumulationDistributionIndicator, AtrIndicator, BollingerBands, EmaIndicator, MomentumIndicator);
 StockChart.Inject(MacdIndicator, RsiIndicator, SmaIndicator, StochasticIndicator);
 StockChart.Inject(Trendlines, TmaIndicator, RangeTooltip, Tooltip, Crosshair, Export);

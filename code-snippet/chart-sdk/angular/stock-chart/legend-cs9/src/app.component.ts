@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
-import { StockChartModule,  StockChartAllModule, ChartAllModule, StockChartComponent, DateTimeService, LineSeriesService, LegendService, TooltipService } from '@syncfusion/ej2-angular-charts';
+import { StockChartModule,  StockChartAllModule, ChartAllModule, StockChartComponent, DateTimeService, LineSeriesService, StockLegendService, TooltipService } from '@syncfusion/ej2-angular-charts';
 
 
 
@@ -9,7 +9,7 @@ import { chartData } from './datasource';
 
 @Component({
   imports: [StockChartModule, StockChartAllModule, ChartAllModule],
-  providers: [DateTimeService, LineSeriesService, LegendService, TooltipService],
+  providers: [DateTimeService, LineSeriesService, StockLegendService, TooltipService],
   standalone: true,
   selector: 'app-container',
   template: `<ejs-stockchart id="chart-container" #stockRef
@@ -52,8 +52,28 @@ export class AppComponent implements OnInit {
       majorTickLines: { color: 'transparent', width: 0 }
     };
     this.series = [
-      { dataSource: chartData, type: 'Candle', name: 'Google' },
-      { dataSource: chartData, type: 'Candle', name: 'MicrosoftEdge' }
+      {
+            dataSource: chartData,
+            type: 'Candle',
+            xName: 'date',
+            open: 'open',
+            high: 'high',
+            low: 'low',
+            close: 'close',
+            volume: 'volume',
+            name: 'Google'
+        },
+        {
+            dataSource: chartData,
+            type: 'Candle',
+            xName: 'date',
+            open: 'open',
+            high: 'high',
+            low: 'low',
+            close: 'close',
+            volume: 'volume',
+            name: 'MicrosoftEdge'
+        }
     ];
     this.title = 'AAPL Stock Price';
     this.legendSettings = {

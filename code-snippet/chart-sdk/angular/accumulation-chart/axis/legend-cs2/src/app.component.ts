@@ -10,7 +10,7 @@ imports: [
 providers: [ PieSeriesService, AccumulationLegendService, AccumulationDataLabelService ],
 standalone: true,
     selector: 'app-container',
-    template: `<ejs-accumulationchart id="chart-container" [legendSettings]='legendSettings' [legendRender]='legendRender' [title]='title'>
+    template: `<ejs-accumulationchart id="chart-container" [legendSettings]='legendSettings' (legendRender)='legendRender($event)' [title]='title'>
         <e-accumulation-series-collection>
             <e-accumulation-series [dataSource]='pieData' type='Pie' xName='x' yName='y' name='Browser Share' radius='65%' innerRadius='40%' [dataLabel]='dataLabel' explode='true' explodeOffset='10%'></e-accumulation-series>
         </e-accumulation-series-collection>
@@ -21,7 +21,6 @@ export class AppComponent implements OnInit {
     public title?: string;
     public legendSettings?: Object;
     public dataLabel?: Object;
-    public legendRender?: (args: IAccLegendRenderEventArgs) => void;
     ngOnInit(): void {
         this.pieData = [
             { x: 'Chrome', y: 37.0, text: '37%' },
@@ -37,11 +36,11 @@ export class AppComponent implements OnInit {
             visible: true,
             position: 'Right'
         };
-        this.legendRender = (args: IAccLegendRenderEventArgs): void => {
-            if (args.point) {
-                args.text = args.point.x + ' (' + args.point.y + '%)';
-            }
-        };
+    }
+    public legendRender(args: IAccLegendRenderEventArgs): void {
+        if (args.point) {
+            args.text = `${args.point.x} (${args.point.y}%)`;
+        }
     }
 
 }

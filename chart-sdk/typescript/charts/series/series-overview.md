@@ -43,7 +43,7 @@ You can bind data to the chart using the [`dataSource`](https://ej2.syncfusion.c
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/typescript/charts/series-overview" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/charts/series-overview" %}
 
 
 ## Common series properties

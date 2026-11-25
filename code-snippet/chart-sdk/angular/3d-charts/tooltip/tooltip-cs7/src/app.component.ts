@@ -46,7 +46,7 @@ export class AppComponent {
     };
 
     public tooltipRender(args: Chart3DTooltipRenderEventArgs): void {
-        const rawData: SalesData = args.data.rawData as SalesData;
+        const rawData = args.data ? args.data.rawData as SalesData : null;
 
         if (rawData) {
             args.text =
