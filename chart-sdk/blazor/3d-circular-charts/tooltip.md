@@ -54,6 +54,8 @@ Set the `Enable` property of `CircularChart3DTooltipSettings` to `true` to displ
 
 ```
 
+![Blazor 3D Circular Chart - Enabling tooltips](images/tooltip/blazor-3d-circular-chart-enabling-tooltips.webp)
+
 To disable the tooltip for a particular series, set the `EnableTooltip` property of `CircularChart3DSeries` to `false`. The default value is `true`.
 
 ```cshtml
@@ -88,6 +90,8 @@ To disable the tooltip for a particular series, set the `EnableTooltip` property
 }
 
 ```
+
+![Blazor 3D Circular Chart - Disable tooltip](images/tooltip/blazor-3d-circular-chart-disable-tooltip.webp)
 
 ## Tooltip formatting and header
 
@@ -136,6 +140,8 @@ The `Format` property customizes the tooltip content by using the following toke
 
 ```
 
+![Blazor 3D Circular Chart - Format](images/tooltip/blazor-3d-circular-chart-format.webp)
+
 ### Tooltip text mapping
 
 The `TooltipMappingName` property of `CircularChart3DSeries` maps a property from the data source that supplies custom tooltip text. Use the `${point.tooltip}` token in the `Format` property to show the mapped text.
@@ -174,6 +180,8 @@ The `TooltipMappingName` property of `CircularChart3DSeries` maps a property fro
 
 ```
 
+![Blazor 3D Circular Chart - Tooltip text mapping](images/tooltip/blazor-3d-circular-chart-tooltip-text-mapping.webp)
+
 ### Header
 
 The `Header` property sets the header text of the tooltip. By default, the series name is shown as the header. To hide the header, set the property to a single space.
@@ -210,6 +218,8 @@ The `Header` property sets the header text of the tooltip. By default, the serie
 }
 
 ```
+
+![Blazor 3D Circular Chart - Header](images/tooltip/blazor-3d-circular-chart-header.webp)
 
 ## Tooltip customization and templates
 
@@ -260,6 +270,8 @@ The `CircularChart3DTooltipTextStyle` component customizes the tooltip text thro
 
 ```
 
+![Blazor 3D Circular Chart - Appearance](images/tooltip/blazor-3d-circular-chart-appearance.webp)
+
 ### Animation
 
 The tooltip moves smoothly between slices when `EnableAnimation` is `true`. The `Duration` property sets the duration of the movement in milliseconds, and the `FadeOutDuration` property sets the time in milliseconds that the tooltip takes to fade out after the pointer leaves the chart.
@@ -296,6 +308,8 @@ The tooltip moves smoothly between slices when `EnableAnimation` is `true`. The 
 }
 
 ```
+
+![Blazor 3D Circular Chart - Animation](images/tooltip/blazor-3d-circular-chart-animation.webp)
 
 ### Tooltip template
 
@@ -340,6 +354,8 @@ The `Template` property of `CircularChart3DTooltipSettings` replaces the default
 }
 
 ```
+
+![Blazor 3D Circular Chart - Tooltip template](images/tooltip/blazor-3d-circular-chart-tooltip-template.webp)
 
 ## See also
 

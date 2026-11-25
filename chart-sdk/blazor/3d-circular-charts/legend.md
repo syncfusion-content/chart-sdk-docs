@@ -56,6 +56,8 @@ Set the `Visible` property of `CircularChart3DLegendSettings` to `true` to displ
 
 ```
 
+![Blazor 3D Circular Chart - Show or hide the legend](images/legend/blazor-3d-circular-chart-show-or-hide-the-legend.webp)
+
 ### Legend position
 
 The `Position` property places the legend by using the `LegendPosition` enum. The available values are:
@@ -97,6 +99,8 @@ The `Position` property places the legend by using the `LegendPosition` enum. Th
 
 ```
 
+![Blazor 3D Circular Chart - Legend position](images/legend/blazor-3d-circular-chart-legend-position.webp)
+
 ### Custom position
 
 Set `Position` to `Custom` and specify the `X` and `Y` values of the `CircularChart3DLocation` component in pixels to place the legend at an exact location.
@@ -136,6 +140,8 @@ Set `Position` to `Custom` and specify the `X` and `Y` values of the `CircularCh
 
 ```
 
+![Blazor 3D Circular Chart - Custom position](images/legend/blazor-3d-circular-chart-custom-position.webp)
+
 ### Legend alignment
 
 The `Alignment` property aligns the legend relative to the chart by using the `Alignment` enum. The available values are `Near`, `Center`, and `Far`.
@@ -172,6 +178,8 @@ The `Alignment` property aligns the legend relative to the chart by using the `A
 }
 
 ```
+
+![Blazor 3D Circular Chart - Legend alignment](images/legend/blazor-3d-circular-chart-legend-alignment.webp)
 
 ## Interactive legend
 
@@ -213,6 +221,8 @@ When the `ToggleVisibility` property is `true`, clicking a legend item shows or 
 
 ```
 
+![Blazor 3D Circular Chart - Toggle slice visibility](images/legend/blazor-3d-circular-chart-toggle-slice-visibility.webp)
+
 ### Highlight slices
 
 Set the `EnableHighlight` property to `true` to highlight the corresponding slice when you hover over a legend item.
@@ -249,6 +259,8 @@ Set the `EnableHighlight` property to `true` to highlight the corresponding slic
 }
 
 ```
+
+![Blazor 3D Circular Chart - Highlight slices](images/legend/blazor-3d-circular-chart-highlight-slices.webp)
 
 ### Legend paging
 
@@ -289,6 +301,8 @@ When the legend items do not fit in the available area, the legend is split into
 }
 
 ```
+
+![Blazor 3D Circular Chart - Legend paging](images/legend/blazor-3d-circular-chart-legend-paging.webp)
 
 ## Legend title, shapes, and styling
 
@@ -331,6 +345,8 @@ The `Title` property adds a title to the legend. The `TitlePosition` property pl
 
 ```
 
+![Blazor 3D Circular Chart - Legend title](images/legend/blazor-3d-circular-chart-legend-title.webp)
+
 ### Legend shape
 
 The `LegendShape` property of `CircularChart3DSeries` changes the shape of the legend icons. The available values include `SeriesType`, `Circle`, `Rectangle`, `Triangle`, and `Diamond`. To use your own icon, set the `LegendImageUrl` property of the series to the URL of an image.
@@ -368,12 +384,16 @@ The `LegendShape` property of `CircularChart3DSeries` changes the shape of the l
 
 ```
 
+![Blazor 3D Circular Chart - Legend shape](images/legend/blazor-3d-circular-chart-legend-shape.webp)
+
 ```cshtml
 
 <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser" LegendImageUrl="images/legend-icon.png">
 </CircularChart3DSeries>
 
 ```
+
+![Blazor 3D Circular Chart - Legend image](images/legend/blazor-3d-circular-chart-legend-image.webp)
 
 ### Shape size
 
@@ -412,6 +432,8 @@ The `ShapeWidth` and `ShapeHeight` properties set the size of the legend shape i
 
 ```
 
+![Blazor 3D Circular Chart - Shape size](images/legend/blazor-3d-circular-chart-shape-size.webp)
+
 ### Text wrap and overflow
 
 The `TextWrap` property wraps long legend text, and the `TextOverflow` property specifies whether text that still exceeds the available width is shortened with `Clip` or `Ellipsis`. Use the `MaximumLabelWidth` property to restrict the width of each legend label in pixels.
@@ -448,6 +470,8 @@ The `TextWrap` property wraps long legend text, and the `TextOverflow` property 
 }
 
 ```
+
+![Blazor 3D Circular Chart - Text wrap and overflow](images/legend/blazor-3d-circular-chart-text-wrap-and-overflow.webp)
 
 ### Background, border, and margin
 
@@ -489,6 +513,8 @@ The `Background` and `Opacity` properties set the fill of the legend area. The `
 
 ```
 
+![Blazor 3D Circular Chart - Background, border, and margin](images/legend/blazor-3d-circular-chart-background-border-and-margin.webp)
+
 ### Legend text style
 
 The `CircularChart3DLegendTextStyle` component customizes the legend item text through the `Size`, `Color`, `FontFamily`, `FontWeight`, `FontStyle`, and `Opacity` properties.
@@ -527,6 +553,8 @@ The `CircularChart3DLegendTextStyle` component customizes the legend item text t
 }
 
 ```
+
+![Blazor 3D Circular Chart - Legend text style](images/legend/blazor-3d-circular-chart-legend-text-style.webp)
 
 ## See also
 
