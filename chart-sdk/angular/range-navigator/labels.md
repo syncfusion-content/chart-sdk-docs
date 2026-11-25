@@ -100,3 +100,27 @@ The font size, color, family, etc. can be customized using the [`labelStyle`](ht
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/range-selector/lightweight/default-cs1" %}
+
+## Allow decimals
+
+The [`allowDecimals`](https://ej2.syncfusion.com/angular/documentation/api/range-navigator/index-default#allowDecimals) property determines whether the range navigator can display decimal values on a numeric scale. The default value is `true`.
+
+* When `true` (default), the range navigator can display decimal intervals and labels when required.
+* When `false`, the range navigator displays only whole-number intervals and labels.
+* This property applies only when the [`valueType`](https://ej2.syncfusion.com/angular/documentation/api/range-navigator/index-default#valuetype) is set to `Double` (numeric). It has no effect on `DateTime` or `Logarithmic` value types.
+
+Use `allowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
+
+Set the property directly on the Range Navigator control.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/range-selector/axis/allow-decimals/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/range-selector/axis/allow-decimals/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+ 
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/range-selector/axis/allow-decimals" %}
