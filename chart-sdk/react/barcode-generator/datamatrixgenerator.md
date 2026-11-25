@@ -78,7 +78,7 @@ The following example demonstrates how to generate a GS1 Data Matrix barcode:
 {% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/datamatrix/gs1datamatrix-cs1/app/index.jsx %}
 {% endhighlight %}
-{% highlight tsx tabtitle="index.tsx" %}
+{% highlight ts tabtitle="index.tsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/datamatrix/gs1datamatrix-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
@@ -107,7 +107,7 @@ The following example demonstrates how to handle validation errors:
 {% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/datamatrix/gs1datamatrixvalidation-cs1/app/index.jsx %}
 {% endhighlight %}
-{% highlight tsx tabtitle="index.tsx" %}
+{% highlight ts tabtitle="index.tsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/datamatrix/gs1datamatrixvalidation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
