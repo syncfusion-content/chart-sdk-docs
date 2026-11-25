@@ -11,7 +11,7 @@ documentation: ug
 
 ## Aztec Barcode
 
-The Syncfusion [Blazor Aztec Barcode](https://www.syncfusion.com/blazor-components/blazor-barcode) Generator creates compact, high-capacity 2D barcodes for boarding passes, transportation tickets, healthcare labels, and identity documents. Aztec barcodes provide efficient data encoding and built-in error correction for reliable scanning and decoding.
+The Syncfusion [Blazor Aztec Barcode](https://www.syncfusion.com/blazor-components/blazor-barcode) Generator creates compact, high-capacity 2D barcodes for boarding passes, transportation tickets, health care labels, and identity documents. Aztec barcodes provide efficient data encoding and built-in error correction for reliable scanning and decoding.
 
 Unlike many other 2D barcodes, Aztec codes do not require a wide surrounding quiet zone (margin). This makes them exceptionally space-efficient and suitable for compact displays, constrained print areas, small labels, and mobile screens.
 
@@ -19,9 +19,9 @@ Common use cases for Aztec Barcode include:
 
 * **Boarding passes**: Used extensively in commercial aviation (IATA standards) for mobile and printed electronic boarding passes.
 * **Transportation tickets**: Widely adopted across rail, metro, bus, and transit systems for electronic and paper ticketing.
-* **Healthcare labels**: Utilized for specimen labeling, patient wristbands, and small medical item tracking where print surface is minimal.
+* **Health care labels**: Utilized for specimen labeling, patient wristbands, and small medical item tracking where print surface is minimal.
 * **Identity documents**: Applied to national ID cards, driver's licenses, and registration documents for secure data representation.
-* **Mobile ticketing**: Ideal for digital concert tickets, event passes, and coupons scanned directly from smartphone screens.
+* **Mobile ticketing**: Ideal for digital concert tickets, event passes, and coupons scanned directly from smart phone screens.
 
 ```cshtml
 @using Syncfusion.Blazor.BarcodeGenerator
