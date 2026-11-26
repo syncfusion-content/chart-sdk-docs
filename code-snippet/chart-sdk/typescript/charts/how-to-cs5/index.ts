@@ -21,7 +21,7 @@ let shapeRender: EmitType<IPointRenderEventArgs> = (args: IPointRenderEventArgs)
             title: 'Penetration', rangePadding: 'None',
             labelFormat: '{value}%', minimum: 0,
             maximum: 75, interval: 15
-        }
+        },
         //Initializing Chart Series
         series: [
             {

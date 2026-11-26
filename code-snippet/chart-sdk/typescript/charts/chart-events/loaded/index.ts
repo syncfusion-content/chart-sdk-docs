@@ -27,11 +27,11 @@ let chart: Chart = new Chart({
     // loaded: fires after chart is rendered in the DOM
     loaded: (args: ILoadedEventArgs): void => {
         const element = args.chart?.element as HTMLElement;
-        const bbox = element?.getBoundingClientRect();
+        const bbox = element.getBoundingClientRect();
         console.log('Chart loaded:', {
-            title: args.chart?.title,
-            width: bbox?.width,
-            height: bbox?.height
+            title: args.chart.title,
+            width: bbox.width,
+            height: bbox.height
         });
     }
 }, '#element');

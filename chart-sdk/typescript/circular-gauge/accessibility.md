@@ -68,7 +68,7 @@ The Circular Gauge control's accessibility levels are ensured through an [access
 
 The accessibility compliance of the Circular Gauge control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/circular-gauge.html) in a new window to evaluate the accessibility of the Circular Gauge control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/circular-gauge.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/accessibility-cs1" %}
 
 ## See also
 

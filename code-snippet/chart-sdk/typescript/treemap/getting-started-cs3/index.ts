@@ -1,5 +1,6 @@
 
-import { TreeMap } from '@syncfusion/ej2-treemap';
+import { TreeMap, TreeMapLegend } from '@syncfusion/ej2-treemap';
+TreeMap.Inject(TreeMapLegend);
 let treemap: TreeMap = new TreeMap({
    dataSource: [
             { Title: 'State wise International Airport count in South America', State: "Brazil", Count: 25 },

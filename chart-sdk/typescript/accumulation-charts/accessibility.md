@@ -73,7 +73,7 @@ The Accumulation chart control's accessibility levels are ensured through an [ac
 
 The accessibility compliance of the Accumulation chart control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/accumulation-chart.html) in a new window to evaluate the accessibility of the Accumulation chart control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/accumulation-chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/accumulation-chart/accessibility-cs1" %}
 
 ## See also
 

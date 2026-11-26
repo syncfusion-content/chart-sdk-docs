@@ -25,17 +25,16 @@ standalone: true,
 export class AppComponent implements OnInit {
     public piedata?: Object[];
     public tooltip?: Object;
-    public ontooltipRender?: Function;
     ngOnInit(): void {
         this.piedata = pieData;
         this.tooltip = {
             enable: true
         }
-        this.ontooltipRender = (args: IAccTooltipRenderEventArgs) => {
-            if (args.point.index === 3) {
-                args.text = args.point.x + '' + ':' + args.point.y + '' + ' ' +'customtext';
-                (args.textStyle as FontModel).color = '#f48042';
-            }
-        }
     };
+    public ontooltipRender(args: IAccTooltipRenderEventArgs): void {
+        if (args.point.index === 3) {
+            args.text = `${args.point.x}: ${args.point.y} customtext`;
+            (args.textStyle as FontModel).color = '#f48042';
+        }
+    }
 }

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AccumulationChartModule, PieSeriesService, AccumulationLegendService } from '@syncfusion/ej2-angular-charts';
 
 @Component({
-    selector: 'app-root',
+    selector: 'app-container',
     standalone: true,
     imports: [AccumulationChartModule],
     providers: [PieSeriesService, AccumulationLegendService],
@@ -23,7 +23,7 @@ import { AccumulationChartModule, PieSeriesService, AccumulationLegendService } 
         </ejs-accumulationchart>
     `
 })
-export class App implements OnInit {
+export class AppComponent implements OnInit {
     public piedata?: Object[];
     public legendSettings?: Object;
     ngOnInit(): void {

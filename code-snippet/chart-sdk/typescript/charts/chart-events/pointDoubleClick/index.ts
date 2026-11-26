@@ -27,8 +27,8 @@ let chart: Chart = new Chart({
     // pointDoubleClick: fires when a data point is double-clicked
     pointDoubleClick: (args: IPointEventArgs): void => {
         console.log('Point Double Click event was triggered', {
-            x: args.point?.x,
-            y: args.point?.y,
+            x: args.point ? args.point.x : null,
+            y: args.point ? args.point.y : null,
             seriesIndex: args.seriesIndex,
             pointIndex: args.pointIndex
         });

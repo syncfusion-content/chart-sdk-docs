@@ -20,7 +20,7 @@ standalone: true,
     </ejs-accumulationchart>`
 })
 
-export class AppComponent implements OnInit {
+export class AppComponent {
 
     public subTitle: string = 'Comparing total sales revenue with profit margins by product category';
 

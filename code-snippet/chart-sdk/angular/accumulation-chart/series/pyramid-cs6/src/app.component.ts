@@ -21,17 +21,19 @@ standalone: true,
 export class AppComponent implements OnInit {
     public pyramidData?: Object[];
     public gapRatio: number = 0.2;
-    public onPointRender?: Function;
+    public datalabel?: Object;
     ngOnInit(): void {
-        this.onPointRender = (args: IAccPointRenderEventArgs) => {
-            if ((args.point.x as string).indexOf('Downloaded') > -1) {
-                args.fill = '#D3D3D3';
-            }
-            else {
+        this.datalabel = { visible: true };
+        this.pyramidData = pyramidData;
+    }
+    public onPointRender(args: IAccPointRenderEventArgs): void {
+        const xValue: string = String(args.point.x);
+
+        if (xValue.indexOf('Downloaded') > -1) {
+            args.fill = '#D3D3D3';
+        } else {
             args.fill = '#597cf9';
         }
-        }
-        this.pyramidData = pyramidData;
     }
 
 }

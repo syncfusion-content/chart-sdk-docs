@@ -78,7 +78,7 @@ The Sankey component's accessibility levels are ensured through an [accessibilit
 
 The accessibility compliance of the Sankey component is shown in the following sample. Open the sample in a new window to evaluate the accessibility with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/sankey.html" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/sankey-diagram/accessibility-cs1" %}
 
 ## See also
 

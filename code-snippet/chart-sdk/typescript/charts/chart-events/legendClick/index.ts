@@ -66,8 +66,8 @@ let chart: Chart = new Chart({
     legendClick: (args: ILegendClickEventArgs): void => {
         console.log('legendClick:', {
             legendText: args.legendText,
-            seriesIndex: args.series?.index,
-            isVisible: args.series?.visible
+            seriesIndex: args.series.index,
+            isVisible: args.series.visible
         });
     }
 }, '#element');
