@@ -15,7 +15,7 @@ The period selector allows to select a range with specified periods.
 
 ## Periods
 
-An array of objects that allows the users to specify pre-defined time intervals. The `interval` property specifies the count value of the button, and the `text` property specifies the text to be displayed on the button. The `intervaltype` property allows the users to customize the interval type, and it supports the following types:
+An array of objects that allows the users to specify pre-defined time intervals. The `interval` property specifies the count value of the button, and the `text` property specifies the text to be displayed on the button. The `intervalType` property allows the users to customize the interval type, and it supports the following types:
 
 * Auto
 * Years
@@ -28,6 +28,9 @@ An array of objects that allows the users to specify pre-defined time intervals.
 * Seconds
 
  {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/range-selector/periodselector-cs1/index.ts %}
+{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/typescript/range-selector/periodselector-cs1/index.html %}
 {% endhighlight %}
@@ -42,6 +45,9 @@ An array of objects that allows the users to specify pre-defined time intervals.
 The `position` property allows the users to position the period selector at the **Top** or **Bottom**.
 
  {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/range-selector/periodselector-cs2/index.ts %}
+{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/typescript/range-selector/periodselector-cs2/index.html %}
 {% endhighlight %}
@@ -54,6 +60,9 @@ The `position` property allows the users to position the period selector at the 
 The `height` property allows the users to specify the height of the period selector. The default value of the height property is **43px**.
 
  {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/range-selector/periodselector-cs3/index.ts %}
+{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/typescript/range-selector/periodselector-cs3/index.html %}
 {% endhighlight %}
@@ -66,6 +75,9 @@ The `height` property allows the users to specify the height of the period selec
 The `disableRangeSelector` property allows the users to display only the period selector and not the Range Selector.
 
  {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/range-selector/periodselector-cs4/index.ts %}
+{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/typescript/range-selector/periodselector-cs4/index.html %}
 {% endhighlight %}

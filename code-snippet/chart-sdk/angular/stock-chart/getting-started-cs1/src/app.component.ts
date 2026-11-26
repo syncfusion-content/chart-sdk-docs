@@ -3,7 +3,7 @@ import { StockChartModule, DateTimeService, CandleSeriesService } from '@syncfus
 import { AxisModel } from '@syncfusion/ej2-charts';
 
 @Component({
-    selector: 'app-root',
+    selector: 'app-container',
     standalone: true,
     imports: [StockChartModule],
     providers: [DateTimeService, CandleSeriesService],
@@ -28,7 +28,7 @@ import { AxisModel } from '@syncfusion/ej2-charts';
         </ejs-stockchart>
     `
 })
-export class App implements OnInit {
+export class AppComponent implements OnInit {
     public primaryXAxis?: AxisModel;
     public stockchartData?: Object[];
     ngOnInit(): void {

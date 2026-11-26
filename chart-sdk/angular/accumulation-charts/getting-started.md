@@ -113,7 +113,7 @@ Update the `src/app/app.ts` file as follows:
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/chart-sdk/angular/accumulation-chart/accumulation-chart-data-cs1/src/app.ts %}
+{% include code-snippet/chart-sdk/angular/accumulation-chart/accumulation-chart-data-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}

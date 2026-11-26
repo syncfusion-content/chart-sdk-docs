@@ -10,7 +10,8 @@ let fruits:Object[] = [{ fruit:'Apple', count:5000 },
                        { fruit:'Melon', count:4500 }
                      ];
 
-import { TreeMap } from '@syncfusion/ej2-treemap';
+import { TreeMap, TreeMapLegend } from '@syncfusion/ej2-treemap';
+TreeMap.Inject(TreeMapLegend);
 let treemap: TreeMap = new TreeMap({
     dataSource: fruits ,
     weightValuePath: 'count',

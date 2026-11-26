@@ -21,7 +21,7 @@ let map: Maps = new Maps({
             dataLabelSettings: {
                 visible: true,
                 labelPath: 'Name',
-                template: '<div><div><img src="https://ej2.syncfusion.com/demos/src/maps/images/weather-clear.png" style="width:22px;height:22px"> </div> ${Name}</img></div>'
+                template: '<div><div><img src="https://ej2.syncfusion.com/demos/src/maps/images/weather-clear.png" style="width:22px;height:22px"> </div> ${name}</img></div>'
             }
         }
     ]
