@@ -15,7 +15,7 @@ The legend of the `Blazor 3D Circular Chart` lists the slices of the series, eac
 
 The legend is configured through the `CircularChart3DLegendSettings` child component of `SfCircularChart3D`.
 
-N> **Default values:** `Visible` is `true`, `Position` is `LegendPosition.Auto`, `Alignment` is `Alignment.Center`, `ToggleVisibility` is `true`, `EnableHighlight` is `false`, `AllowPaging` is `true`, `ShapeWidth` and `ShapeHeight` are `10`, `TitlePosition` is `Chart3DLegendTitlePosition.Top`, `TextWrap` is `TextWrap.Normal`, and `TextOverflow` is `TextOverflow.Ellipsis`.
+N> **Default values:** `Visible` is `true`, `Position` is `LegendPosition.Auto`, `Alignment` is `Alignment.Center`, `ToggleVisibility` is `true`, `EnableHighlight` is `false`, `AllowPaging` is `true`, `ShapeWidth` and `ShapeHeight` are `10`, `TitlePosition` is `Chart3DLegendTitlePosition.Top`, `TextWrap` is `TextWrap.Normal`, and `TextOverflow` is `LabelOverflow.Ellipse`.
 
 ## Legend visibility and positioning
 
@@ -100,47 +100,6 @@ The `Position` property places the legend by using the `LegendPosition` enum. Th
 ```
 
 ![Blazor 3D Circular Chart - Legend position](images/legend/blazor-3d-circular-chart-legend-position.webp)
-
-### Custom position
-
-Set `Position` to `Custom` and specify the `X` and `Y` values of the `CircularChart3DLocation` component in pixels to place the legend at an exact location.
-
-```cshtml
-
-@using Syncfusion.Blazor
-@using Syncfusion.Blazor.Chart3D
-
-<SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DLegendSettings Visible="true" Position="LegendPosition.Custom">
-        <CircularChart3DLocation X="20" Y="60"></CircularChart3DLocation>
-    </CircularChart3DLegendSettings>
-    <CircularChart3DSeriesCollection>
-        <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser">
-        </CircularChart3DSeries>
-    </CircularChart3DSeriesCollection>
-</SfCircularChart3D>
-
-@code {
-    public class Statistics
-    {
-        public string Browser { get; set; }
-        public double Users { get; set; }
-    }
-
-    public List<Statistics> StatisticsDetails = new List<Statistics>
-    {
-        new Statistics { Browser = "Chrome", Users = 37 },
-        new Statistics { Browser = "UC Browser", Users = 17 },
-        new Statistics { Browser = "iPhone", Users = 19 },
-        new Statistics { Browser = "Others", Users = 4 },
-        new Statistics { Browser = "Opera", Users = 11 },
-        new Statistics { Browser = "Android", Users = 12 },
-    };
-}
-
-```
-
-![Blazor 3D Circular Chart - Custom position](images/legend/blazor-3d-circular-chart-custom-position.webp)
 
 ### Legend alignment
 
@@ -272,7 +231,7 @@ When the legend items do not fit in the available area, the legend is split into
 @using Syncfusion.Blazor.Chart3D
 
 <SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DLegendSettings Visible="true" Position="LegendPosition.Right" Height="120px" AllowPaging="true"></CircularChart3DLegendSettings>
+    <CircularChart3DLegendSettings Visible="true" Position="LegendPosition.Right" Height="120px" Width="120px" AllowPaging="true"></CircularChart3DLegendSettings>
     <CircularChart3DSeriesCollection>
         <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser">
         </CircularChart3DSeries>
@@ -386,15 +345,6 @@ The `LegendShape` property of `CircularChart3DSeries` changes the shape of the l
 
 ![Blazor 3D Circular Chart - Legend shape](images/legend/blazor-3d-circular-chart-legend-shape.webp)
 
-```cshtml
-
-<CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser" LegendImageUrl="images/legend-icon.png">
-</CircularChart3DSeries>
-
-```
-
-![Blazor 3D Circular Chart - Legend image](images/legend/blazor-3d-circular-chart-legend-image.webp)
-
 ### Shape size
 
 The `ShapeWidth` and `ShapeHeight` properties set the size of the legend shape in pixels. The `ShapePadding` property sets the space between the shape and its text.
@@ -436,7 +386,7 @@ The `ShapeWidth` and `ShapeHeight` properties set the size of the legend shape i
 
 ### Text wrap and overflow
 
-The `TextWrap` property wraps long legend text, and the `TextOverflow` property specifies whether text that still exceeds the available width is shortened with `Clip` or `Ellipsis`. Use the `MaximumLabelWidth` property to restrict the width of each legend label in pixels.
+The `TextWrap` property wraps long legend text, and the `TextOverflow` property specifies whether text that still exceeds the available width is shortened with `Clip` or `Ellipse`. Use the `MaximumLabelWidth` property to restrict the width of each legend label in pixels.
 
 ```cshtml
 
@@ -444,7 +394,7 @@ The `TextWrap` property wraps long legend text, and the `TextOverflow` property 
 @using Syncfusion.Blazor.Chart3D
 
 <SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DLegendSettings Visible="true" Position="LegendPosition.Right" MaximumLabelWidth="80" TextWrap="TextWrap.Wrap" TextOverflow="TextOverflow.Ellipsis"></CircularChart3DLegendSettings>
+    <CircularChart3DLegendSettings Visible="true" Position="LegendPosition.Right" MaximumLabelWidth="80" TextWrap="TextWrap.Wrap" TextOverflow="LabelOverflow.Ellipse"></CircularChart3DLegendSettings>
     <CircularChart3DSeriesCollection>
         <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser">
         </CircularChart3DSeries>

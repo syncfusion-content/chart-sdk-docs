@@ -56,43 +56,6 @@ Set the `Enable` property of `CircularChart3DTooltipSettings` to `true` to displ
 
 ![Blazor 3D Circular Chart - Enabling tooltips](images/tooltip/blazor-3d-circular-chart-enabling-tooltips.webp)
 
-To disable the tooltip for a particular series, set the `EnableTooltip` property of `CircularChart3DSeries` to `false`. The default value is `true`.
-
-```cshtml
-
-@using Syncfusion.Blazor
-@using Syncfusion.Blazor.Chart3D
-
-<SfCircularChart3D Title="Mobile Browser Statistics">
-    <CircularChart3DSeriesCollection>
-        <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser" EnableTooltip="false">
-        </CircularChart3DSeries>
-    </CircularChart3DSeriesCollection>
-    <CircularChart3DTooltipSettings Enable="true"></CircularChart3DTooltipSettings>
-</SfCircularChart3D>
-
-@code {
-    public class Statistics
-    {
-        public string Browser { get; set; }
-        public double Users { get; set; }
-    }
-
-    public List<Statistics> StatisticsDetails = new List<Statistics>
-    {
-        new Statistics { Browser = "Chrome", Users = 37 },
-        new Statistics { Browser = "UC Browser", Users = 17 },
-        new Statistics { Browser = "iPhone", Users = 19 },
-        new Statistics { Browser = "Others", Users = 4 },
-        new Statistics { Browser = "Opera", Users = 11 },
-        new Statistics { Browser = "Android", Users = 12 },
-    };
-}
-
-```
-
-![Blazor 3D Circular Chart - Disable tooltip](images/tooltip/blazor-3d-circular-chart-disable-tooltip.webp)
-
 ## Tooltip formatting and header
 
 ### Format
@@ -309,7 +272,7 @@ The tooltip moves smoothly between slices when `EnableAnimation` is `true`. The 
 
 ```
 
-![Blazor 3D Circular Chart - Animation](images/tooltip/blazor-3d-circular-chart-animation.webp)
+![Blazor 3D Circular Chart - Animation](images/tooltip/blazor-3d-circular-chart-animation.gif)
 
 ### Tooltip template
 

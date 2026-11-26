@@ -68,8 +68,6 @@ In addition to standard ARIA attributes, the Blazor 3D Circular Chart component 
 * `AccessibilityDescription` on `<CircularChart3DLegendSettings>` - Provides an accessible description for the legend container announced by screen readers.
 * `TabIndex` on `<CircularChart3DLegendSettings>` - Specifies the keyboard navigation tab index for the legend container.
 * `SelectionPattern` and `HighlightPattern` - Applies tactile SVG fill patterns (`Dots`, `DiagonalForward`, `Crosshatch`, etc.) to selected and hovered slices to ensure non-color distinction.
-* `EnableRtl` - Enables right-to-left layout for title, subtitle, and legend elements to support RTL reading directions.
-* `UseGroupingSeparator` - Formats numeric values in data labels and tooltips with culture-aware thousand grouping separators.
 
 ```cshtml
 
@@ -165,48 +163,6 @@ Beyond ARIA attributes and keyboard navigation, the Blazor 3D Circular Chart com
 * **Keyboard-accessible legend** - Legend items are focusable and can be toggled using <kbd>Enter</kbd> or <kbd>Space</kbd> with full angular re-flow of remaining active slices.
 * **Reduced motion support** - Animations automatically honor the user's CSS `prefers-reduced-motion` media query by bypassing sweep transitions for users sensitive to motion.
 * **Non-color state indicators** - Complies with WCAG non-color distinction guidelines via `SelectionPattern` and `HighlightPattern` (`Dots`, `DiagonalForward`, `Crosshatch`, etc.) so selected and hovered slices are distinguishable without relying on color perception alone.
-* **Right-to-left layout** - Full RTL support via `EnableRtl="true"` mirrors titles, subtitles, and legend elements to respect right-to-left reading order.
-* **Culture-aware formatting** - When `UseGroupingSeparator="true"`, large numeric values in data labels and tooltips are formatted with localized grouping separators.
-
-```cshtml
-
-@using Syncfusion.Blazor
-@using Syncfusion.Blazor.Chart3D
-
-<SfCircularChart3D Title="Mobile Browser Statistics"
-                    AccessibilityDescription="3D circular chart showing mobile browser distribution."
-                    SelectionMode="SelectionMode.Point"
-                    SelectionPattern="SelectionPattern.Dots"
-                    HighlightMode="SelectionMode.Point"
-                    HighlightPattern="SelectionPattern.Crosshatch">
-    <CircularChart3DSeriesCollection>
-        <CircularChart3DSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users" Name="Browser">
-        </CircularChart3DSeries>
-    </CircularChart3DSeriesCollection>
-    <CircularChart3DLegendSettings Visible="true" TabIndex="0" />
-</SfCircularChart3D>
-
-@code {
-    public class Statistics
-    {
-        public string Browser { get; set; }
-        public double Users { get; set; }
-    }
-
-    public List<Statistics> StatisticsDetails = new List<Statistics>
-    {
-        new Statistics { Browser = "Chrome", Users = 37 },
-        new Statistics { Browser = "UC Browser", Users = 17 },
-        new Statistics { Browser = "iPhone", Users = 19 },
-        new Statistics { Browser = "Others", Users = 4 },
-        new Statistics { Browser = "Opera", Users = 11 },
-        new Statistics { Browser = "Android", Users = 12 },
-    };
-}
-
-```
-
-![Blazor 3D Circular Chart - Accessibility-aware behavior](images/accessibility/blazor-3d-circular-chart-accessibility-aware-behavior.webp)
 
 ## Ensuring accessibility
 
