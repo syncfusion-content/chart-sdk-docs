@@ -280,16 +280,20 @@ The size of the PDF417 barcode is controlled by the `width` and `height` propert
 
 ### xDimension
 
-The `xDimension` property sets the width, in pixels, of the smallest module (bar) of the PDF417 barcode. It has no default value. The value must be a finite number greater than `0`. The row height is not set by `xDimension` directly. It is calculated as `xDimension * rowHeightRatio`, so changing the `rowHeightRatio` property changes the row height independently of the module width (see [Row height ratio](#row-height-ratio)).
+The `xDimension` property specifies the width, in pixels, of the smallest bar in the PDF417 barcode. It must be a finite number greater than `0`.
 
-Use the `sizeMode` property to choose how `xDimension` is applied. It accepts the case-sensitive string values `'Fit'` or `'XDimension'`, and it has no default value.
+The following properties control the PDF417 dimensions:
 
-- `Fit`: Uses the configured `xDimension` when the symbol (including its quiet zone and the row height derived from `rowHeightRatio`) fits within the component's `width` and `height`. Otherwise, the module width is reduced to the largest whole-pixel size that fits. The value is never enlarged to fill unused space, and the barcode is centered in the available area. If not even 1 pixel per module fits, nothing is rendered and the `invalid` event is triggered.
-- `XDimension`: Always uses the configured `xDimension` as the module width, and the row height is `xDimension * rowHeightRatio`. Any positive value is accepted, including values below 1 pixel. The barcode is drawn from the top-left margin, is not centered, and the rendered area grows beyond `width` and `height` when the barcode is larger.
+- `xDimension`: Specifies the width of the smallest bar.
+- `rowHeightRatio`: Specifies the row height relative to `xDimension`. The row height is calculated as `xDimension * rowHeightRatio`.
+- `sizeMode`: Determines how `xDimension` is applied.
 
-`xDimension` based sizing is applied only when both `sizeMode` and `xDimension` are set. If either is omitted, the barcode is rendered using the configured `width` and `height`.
+The `sizeMode` property supports:
 
-If `sizeMode` is set and `xDimension` is not a finite number greater than `0`, the `invalid` event is triggered with the message `Invalid xDimension` and the barcode is not drawn.
+- `Fit`: Uses the configured `xDimension` when the barcode fits within the available area. Otherwise, the value is reduced to fit.
+- `XDimension`: Preserves the configured `xDimension`. The barcode may exceed the configured `width` and `height`.
+
+XDimension-based sizing is applied only when both `xDimension` and `sizeMode` are configured. Otherwise, the barcode is rendered based on its `width` and `height`.
 
 #### Fit the PDF417 barcode using xDimension
 
