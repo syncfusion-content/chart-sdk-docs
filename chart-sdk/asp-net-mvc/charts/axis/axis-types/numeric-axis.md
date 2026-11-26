@@ -238,11 +238,11 @@ The [`AllowDecimals`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ
 
 * When `true` (default), the axis can display decimal intervals and labels when required.
 * When `false`, the axis displays only whole-number intervals and labels.
-* This property applies only to axes whose [`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_ValueType) is `Double` (numeric). It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
+* This property applies only to axes whose [`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_ValueType) is `Double`. It has no effect on `Category`, `DateTime`, `DateTimeCategory`, or `Logarithmic` axes.
 
-Use `allowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
+Use `AllowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
 
-Set the property on an axis such as [`primaryXAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PrimaryXAxis), [`primaryYAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PrimaryYAxis), or any axis in the axes collection.
+Set the property on an axis such as [`PrimaryXAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PrimaryXAxis), [`PrimaryYAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PrimaryYAxis), or any axis in the axes collection.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
