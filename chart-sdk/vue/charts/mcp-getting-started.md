@@ -558,6 +558,7 @@ The Chart exposes WebMCP tools for inspection, data management, configuration, i
 - Allow read-only operations such as `inspectChart`, `getSeriesData`, and `getChartAxes` to run without unnecessary confirmation.
 - Keep application authentication, authorization, validation, and auditing in place.
 
+
 ## Explore the demo
 
 Explore the Syncfusion® Vue Chart component with WebMCP integration through this [demo](https://demos.syncfusion.com/chart-sdk/webmcp/index.html).
