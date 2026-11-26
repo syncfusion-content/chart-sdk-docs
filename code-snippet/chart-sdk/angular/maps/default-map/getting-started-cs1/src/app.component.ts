@@ -3,7 +3,7 @@ import { MapsModule } from '@syncfusion/ej2-angular-maps';
 import { world_map } from './world-map';
 
 @Component({
-    selector: 'app-root',
+    selector: 'app-container',
     standalone: true,
     imports: [MapsModule],
     template: `
@@ -15,6 +15,6 @@ import { world_map } from './world-map';
       </ejs-maps>
     `
 })
-export class App {
+export class AppComponent {
   public shapeData: object = world_map;
 }

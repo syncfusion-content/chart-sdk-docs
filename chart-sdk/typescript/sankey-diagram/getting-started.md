@@ -50,8 +50,8 @@ Create a folder named `my-sankey` in your desired location. This folder will con
 
 Open the command prompt and navigate to `my-sankey` folder created in Step 1. You can do this by:
 
-* **For Windows**: Open Command Prompt (cmd) or PowerShell and use the `cd` command to navigate to `my-sankey` folder.
-* **For macOS/Linux**: Open Terminal and use the `cd` command to navigate to `my-sankey` folder.
+* **For Windows**: Open Command Prompt or PowerShell and navigate to the desired directory.
+* **For macOS/Linux**: Open Terminal and navigate to the desired directory.
 
 ### Step 3: Clone the Quickstart Repository
 
@@ -130,7 +130,7 @@ Locate the `src/app/app.ts` file in your project and add the Sankey component wi
 
 **Module Injection**: The Sankey component requires specific feature modules to be injected. For displaying nodes, links, tooltips, legend, and the export option, inject the `SankeyTooltip`, `SankeyLegend`, and `SankeyExport` modules.
 
-**Populate Sankey with Data**: Create a [``nodes`](https://ej2.syncfusion.com/documentation/api/sankey/index-default#nodes) array (each node has a unique `id` and an optional `label`) and a [`links`](https://ej2.syncfusion.com/documentation/api/sankey/index-default#links) array (each link references a [`sourceId`](https://ej2.syncfusion.com/documentation/api/sankey/sankeylinkmodel#sourceid) and [`targetId`](https://ej2.syncfusion.com/documentation/api/sankey/sankeylinkmodel#targetid) plus a numeric [`value`](https://ej2.syncfusion.com/documentation/api/sankey/sankeylinkmodel#value) that controls the link thickness). Pass both arrays to the `Sankey` component's [`nodes`](https://ej2.syncfusion.com/documentation/api/sankey/index-default#nodes) and [`links`](https://ej2.syncfusion.com/documentation/api/sankey/index-default#links) properties.
+**Populate Sankey with Data**: Create a [`nodes`](https://ej2.syncfusion.com/documentation/api/sankey/index-default#nodes) array (each node has a unique `id` and an optional `label`) and a [`links`](https://ej2.syncfusion.com/documentation/api/sankey/index-default#links) array (each link references a [`sourceId`](https://ej2.syncfusion.com/documentation/api/sankey/sankeylinkmodel#sourceid) and [`targetId`](https://ej2.syncfusion.com/documentation/api/sankey/sankeylinkmodel#targetid) plus a numeric [`value`](https://ej2.syncfusion.com/documentation/api/sankey/sankeylinkmodel#value) that controls the link thickness). Pass both arrays to the `Sankey` component's [`nodes`](https://ej2.syncfusion.com/documentation/api/sankey/index-default#nodes) and [`links`](https://ej2.syncfusion.com/documentation/api/sankey/index-default#links) properties.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}

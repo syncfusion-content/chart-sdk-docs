@@ -31,27 +31,17 @@ export class AppComponent {
     { month: new Date(2024, 11, 1), sales: 32 }
   ];
 
-  public tooltip = {
+  public tooltip: Object = {
     enable: true,
     header: 'Unemployment',
     format: '<b>${series.name}</b><br>${point.x:MMM yyyy} : ${point.y:n2}'
   };
 
-  public primaryXAxis = {
+  public primaryXAxis: Object = {
     valueType: 'DateTime',
     labelRotation: -45,
     labelPlacement: 'BetweenTicks'
   };
-
-  public series = [
-    {
-      dataSource: this.chartData,
-      xName: 'month',
-      yName: 'sales',
-      type: 'Column',
-      name: 'Month'
-    }
-  ];
 
   public rotation: number = 7;
   public tilt: number = 10;

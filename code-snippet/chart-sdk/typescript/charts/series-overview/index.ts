@@ -1,5 +1,5 @@
 import { Chart, LineSeries, ILoadedEventArgs } from '@syncfusion/ej2-charts';
-import { lineData } from './datasource';
+import { lineData } from './datasource.ts';
 
 Chart.Inject(LineSeries);
 

@@ -124,10 +124,10 @@ The [`enableGS1`](https://ej2.syncfusion.com/react/documentation/api/barcode/bar
 The following example demonstrates how to generate a GS1 Data Matrix barcode:
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/datamatrix/gs1datamatrix-cs1/app/index.jsx %}
 {% endhighlight %}
-{% highlight tsx tabtitle="index.tsx" %}
+{% highlight ts tabtitle="index.tsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/datamatrix/gs1datamatrix-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
@@ -153,10 +153,10 @@ The following example demonstrates how to generate a GS1 Data Matrix barcode:
 The following example demonstrates how to handle validation errors:
 
 {% tabs %}
-{% highlight jsx tabtitle="index.jsx" %}
+{% highlight js tabtitle="index.jsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/datamatrix/gs1datamatrixvalidation-cs1/app/index.jsx %}
 {% endhighlight %}
-{% highlight tsx tabtitle="index.tsx" %}
+{% highlight ts tabtitle="index.tsx" %}
 {% include code-snippet/chart-sdk/react/barcode-generator/datamatrix/gs1datamatrixvalidation-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}

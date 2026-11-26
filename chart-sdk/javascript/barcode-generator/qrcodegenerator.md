@@ -124,10 +124,10 @@ Use the [`enableGS1`](https://ej2.syncfusion.com/javascript/documentation/api/ba
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1-cs1/index.js %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1-cs1/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -142,10 +142,10 @@ Combining GS1 encoding with error correction levels:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1ErrorCorrection-cs1/index.js %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1ErrorCorrection-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1ErrorCorrection-cs1/index.html %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/QRCodeGS1ErrorCorrection-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

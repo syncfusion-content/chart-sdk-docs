@@ -8,7 +8,8 @@ let CarDetails:Object[] = [{ Car:'Mustang', Brand:'Ford', count:232, color: '#71
                        { Car:'A3 Cabriolet', Brand:'Audi',count:123, color: '#124F5E' }
                      ];
 
-import { TreeMap } from '@syncfusion/ej2-treemap';
+import { TreeMap, TreeMapLegend } from '@syncfusion/ej2-treemap';
+TreeMap.Inject(TreeMapLegend);
 let treemap: TreeMap = new TreeMap({
     dataSource: CarDetails ,
     weightValuePath: 'count',

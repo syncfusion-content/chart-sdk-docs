@@ -42,8 +42,12 @@ let chart: Chart = new Chart({
 
         // For Y axis (numeric), add 10% headroom and compute a clean interval
         if (args.axis.orientation === 'Vertical') {
-            const currentMin: number = Number(args.minimum ?? 0);
-            const currentMax: number = Number(args.maximum ?? 0);
+            const currentMin: number = Number(
+                args.minimum !== null && args.minimum !== undefined ? args.minimum : 0
+            );
+            const currentMax: number = Number(
+                args.maximum !== null && args.maximum !== undefined ? args.maximum : 0
+            );
             const range: number = Math.max(0, currentMax - currentMin);
             const pad: number = range * 0.1; // 10% headroom
 
