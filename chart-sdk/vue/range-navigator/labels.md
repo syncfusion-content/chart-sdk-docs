@@ -102,9 +102,9 @@ The [`allowDecimals`](https://ej2.syncfusion.com/vue/documentation/api/range-nav
 
 * When `true` (default), the range navigator can display decimal intervals and labels when required.
 * When `false`, the range navigator displays only whole-number intervals and labels.
-* This property applies only when the [`valueType`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/index-default#valuetype) is set to `Double` (numeric). It has no effect on `DateTime` or `Logarithmic` value types.
+* This property applies only when the [`valueType`](https://ej2.syncfusion.com/vue/documentation/api/range-navigator/index-default#valuetype) is set to `Double`. It has no effect on `DateTime`, `DateTimeCategory`, or `Logarithmic` value types.
 
-Use `allowDecimals: false` when the selected scale represents whole-number values, such as counts of people, orders, tickets, or products, where labels such as 1.5 are meaningless.
+Use `allowDecimals` as `false` when the axis represents whole-number values, such as counts of people, orders, tickets, or products. This prevents fractional intervals and labels from being displayed, ensuring the axis shows only meaningful integer values.
 
 Set the property directly on the Range Navigator component.
 
