@@ -244,7 +244,7 @@ Set the property on an axis such as [`primaryXAxis`](https://help.syncfusion.com
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/allow-decimals/tagHelper %}
 {% endhighlight %}
-{% highlight c# tabtitle="Custom-format.cs" %}
+{% highlight c# tabtitle="Orders.cs" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/allow-decimals/orders.cs %}
 {% endhighlight %}
 {% endtabs %}
