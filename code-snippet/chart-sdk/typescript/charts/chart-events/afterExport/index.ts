@@ -2,10 +2,11 @@ import {
     Chart,
     Export,
     IAfterExportEventArgs,
-    RadarSeries
+    RadarSeries,
+    LineSeries
 } from '@syncfusion/ej2-charts';
 
-Chart.Inject(RadarSeries, Export);
+Chart.Inject(RadarSeries, Export, LineSeries);
 
 const chart: Chart = new Chart({
     primaryXAxis: {

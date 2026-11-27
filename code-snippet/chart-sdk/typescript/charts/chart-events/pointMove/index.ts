@@ -27,8 +27,8 @@ let chart: Chart = new Chart({
     // pointMove: fires when the pointer moves over a data point
     pointMove: (args: IPointEventArgs): void => {
         console.log('Point Move event was triggered', {
-            x: args.point?.x,
-            y: args.point?.y
+            x: args.point ? args.point.x : null,
+            y: args.point ? args.point.y : null,
         });
     }
 }, '#element');

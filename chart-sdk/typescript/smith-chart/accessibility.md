@@ -64,7 +64,7 @@ The Smith chart control's accessibility levels are ensured through an [accessibi
 
 The accessibility compliance of the Smith chart control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/smith-chart.html) in a new window to evaluate the accessibility of the Smith chart control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/smith-chart.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/accessibility-cs1" %}
 
 ## See also
 

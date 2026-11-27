@@ -64,7 +64,7 @@ The Smith chart component's accessibility levels are ensured through an [accessi
 
 The accessibility compliance of the Smith chart component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/smith-chart.html) in a new window to evaluate the accessibility of the Smith chart component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/smith-chart.html" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/smith-chart/accessibility-cs1" %}
 
 ## See also
 

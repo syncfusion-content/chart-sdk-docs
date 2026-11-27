@@ -25,6 +25,7 @@ import {
         </button>
 
         <ejs-sankey
+          #sankeyChart
           width="90%"
           height="450px"
         >

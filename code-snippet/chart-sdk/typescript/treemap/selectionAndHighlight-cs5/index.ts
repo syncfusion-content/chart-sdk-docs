@@ -1,7 +1,8 @@
 
 
 
-import { TreeMap } from '@syncfusion/ej2-treemap';
+import { TreeMap, TreeMapSelection } from '@syncfusion/ej2-treemap';
+TreeMap.Inject(TreeMapSelection);
 let treemap: TreeMap = new TreeMap({
         dataSource: [
     { dataType: "Import", type: "Animal products",   product: "2010", sales: 20839332874 },

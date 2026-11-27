@@ -66,7 +66,7 @@ The Linear Gauge control's accessibility levels are ensured through an [accessib
 
 The accessibility compliance of the Linear Gauge control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/linear-gauge.html) in a new window to evaluate the accessibility of the Linear Gauge control with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/linear-gauge.html" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/accessibility-cs1" %}
 
 ## See also
 

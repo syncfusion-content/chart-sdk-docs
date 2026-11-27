@@ -29,10 +29,10 @@ let chart: Chart = new Chart({
     // pointRender: customize each point's appearance before rendering
     pointRender: (args: IPointRenderEventArgs): void => {
         // Highlight the highest value in red and the lowest in green
-        if (typeof args.point?.y === 'number') {
+        if (typeof args.point && args.point.y === 'number') {
             const yValues = chartData.map(d => d.sales);
-            const max = Math.max(...yValues);
-            const min = Math.min(...yValues);
+            const max = Math.max.apply(null, yValues);
+            const min = Math.min.apply(null, yValues);
             if (args.point.y === max) {
                 args.fill = '#e74c3c';
             } else if (args.point.y === min) {
