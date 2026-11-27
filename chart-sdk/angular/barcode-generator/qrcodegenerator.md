@@ -58,6 +58,49 @@ The dimensions of the QR code can be changed using the [`height`](https://ej2.sy
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/dimension-cs1" %}
 
+### xDimension
+
+The `xDimension` property controls the width and height, in pixels, of each square module in the QR Code. It must be a finite number greater than `0`.
+
+Use `sizeMode` to control how the module size is applied:
+
+- `Fit`: Retains the configured `xDimension` when the QR Code fits within the available area. Otherwise, the module size is reduced to fit.
+- `XDimension`: Always uses the configured `xDimension`. The QR Code may exceed its configured `width` and `height`.
+
+Both `xDimension` and `sizeMode` must be configured to enable XDimension-based sizing.
+
+#### Fit the QR Code using xDimension
+
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the symbol fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/xdimension-fit-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/xdimension-fit-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/xdimension-fit-cs1" %}
+
+#### Preserve the QR Code module size using xDimension
+
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always used, and the rendered area grows if the symbol is larger than the configured `width` and `height`.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/xdimension-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/qrcode/xdimension-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/qrcode/xdimension-cs1" %}
+
 ## Customizing Display Text
 
 In QR code generators, the display text shown below the QR code can be customized using the  [`displayText`](https://ej2.syncfusion.com/angular/documentation/api/barcode/displayText#displaytext) property. This allows for user-friendly labels or alternative text representations of the encoded data.

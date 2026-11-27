@@ -40,7 +40,7 @@ A page or printed media with barcode often appears colorful in the background an
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-cs2" %}
 
-## Customizing the Barcode dimension
+## Customizing QR Code Dimensions
 
 The dimension of the barcode can be changed using the height and width properties of the barcode generator.
 
@@ -54,6 +54,47 @@ The dimension of the barcode can be changed using the height and width propertie
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-cs3" %}
+
+### xDimension
+
+The `xDimension` property controls the width and height, in pixels, of each square module in the QR Code. It must be a finite number greater than `0`.
+
+Use `sizeMode` to control how the module size is applied:
+
+- `Fit`: Retains the configured `xDimension` when the QR Code fits within the available area. Otherwise, the module size is reduced to fit.
+- `XDimension`: Always uses the configured `xDimension`. The QR Code may exceed its configured `width` and `height`.
+
+Both `xDimension` and `sizeMode` must be configured to enable XDimension-based sizing.
+
+#### Fit the QR Code using xDimension
+
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the symbol fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-xdimension-fit-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-xdimension-fit-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-xdimension-fit-cs1" %}
+
+#### Preserve the QR Code module size using xDimension
+
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always used, and the rendered area grows if the symbol is larger than the configured `width` and `height`.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-xdimension-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-xdimension-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/QrGenerator-xdimension-cs1" %}
 
 ## Customizing the text
 

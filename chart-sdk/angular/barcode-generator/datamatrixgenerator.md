@@ -44,7 +44,7 @@ When barcodes are placed on colorful backgrounds or printed media with various d
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/datamatrix/color-cs1" %}
 
-## Customizing the Barcode dimension
+## Customizing Data Matrix Dimensions
 
 The physical size of the barcode is crucial for ensuring proper scanning and fitting the barcode within available space constraints. The [`height`](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#height) and [`width`](https://ej2.syncfusion.com/angular/documentation/api/barcode/barcodeGeneratorModel#width) properties of the barcode generator allow you to adjust the barcode dimensions according to your specific layout requirements and scanning distance considerations.
 
@@ -59,6 +59,51 @@ The physical size of the barcode is crucial for ensuring proper scanning and fit
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/datamatrix/dimension-cs1" %}
+
+### xDimension
+
+The `xDimension` property controls the width and height, in pixels, of each square module in the Data Matrix barcode. It must be a finite number greater than `0`.
+
+Use `sizeMode` to control how the module size is applied:
+
+- `Fit`: Retains the configured `xDimension` when the Data Matrix fits within the available area. Otherwise, the module size is reduced to fit.
+- `XDimension`: Always uses the configured `xDimension`. The Data Matrix may exceed its configured `width` and `height`.
+
+For rectangular Data Matrix symbols, `Fit` mode sizes the barcode according to the available area without applying `xDimension`.
+
+Both `xDimension` and `sizeMode` must be configured to enable XDimension-based sizing.
+
+#### Fit the Data Matrix using xDimension
+
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the symbol fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/datamatrix/xdimension-fit-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/datamatrix/xdimension-fit-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/datamatrix/xdimension-fit-cs1" %}
+
+#### Preserve the Data Matrix module size using xDimension
+
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always used, and the rendered area grows if the symbol is larger than the configured `width` and `height`.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/datamatrix/xdimension-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/datamatrix/xdimension-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/datamatrix/xdimension-cs1" %}
 
 ## GS1 Data Matrix
 

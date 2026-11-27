@@ -125,6 +125,75 @@ For most scenarios, use the default `Auto` mode. It automatically selects the mo
 | `Numeric` | Optimized for numeric values. | Tracking numbers and identifiers. |
 | `Byte` | Encodes binary and non-ASCII data. | International text and binary content. |
 
+```typescript
+import { Component } from '@angular/core';
+import { PDF417GeneratorModule } from '@syncfusion/ej2-angular-barcode-generator';
+
+@Component({
+  imports: [PDF417GeneratorModule],
+  standalone: true,
+  selector: 'app-container',
+  template: `<ejs-pdf417generator id="barcode" width="320px" height="140px" value="SYNCFUSION PDF417"></ejs-pdf417generator>`
+})
+export class AppComponent {}
+```
+
+## Customizing PDF417 Dimensions
+
+The size of the PDF417 barcode is controlled by the `width` and `height` properties, as shown in the **Custom size** example above.
+
+### xDimension
+
+The `xDimension` property specifies the width, in pixels, of the smallest bar in the PDF417 barcode. It must be a finite number greater than `0`.
+
+The following properties control the PDF417 dimensions:
+
+- `xDimension`: Specifies the width of the smallest bar.
+- `rowHeightRatio`: Specifies the row height relative to `xDimension`. The row height is calculated as `xDimension * rowHeightRatio`.
+- `sizeMode`: Determines how `xDimension` is applied.
+
+The `sizeMode` property supports:
+
+- `Fit`: Uses the configured `xDimension` when the barcode fits within the available area. Otherwise, the value is reduced to fit.
+- `XDimension`: Preserves the configured `xDimension`. The barcode may exceed the configured `width` and `height`.
+
+XDimension-based sizing is applied only when both `xDimension` and `sizeMode` are configured. Otherwise, the barcode is rendered based on its `width` and `height`.
+
+#### Fit the PDF417 barcode using xDimension
+
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the symbol fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/xdimension-fit-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/xdimension-fit-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/pdf417Generator/xdimension-fit-cs1" %}
+
+#### Preserve the PDF417 module width using xDimension
+
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always used, and the rendered area grows if the symbol is larger than the configured `width` and `height`.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/xdimension-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/pdf417Generator/xdimension-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/pdf417Generator/xdimension-cs1" %}
+
+## PDF417-specific samples
+
+### Compaction mode
 If the selected compaction mode contains unsupported characters, the barcode is not generated and the `invalid` event is triggered.
 
 {% tabs %}

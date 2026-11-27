@@ -274,6 +274,144 @@ ReactDOM.render(
 );
 ```
 
+## Customizing PDF417 Dimensions
+
+The size of the PDF417 barcode is controlled by the `width` and `height` properties, as shown in the **Custom size** example above.
+
+### xDimension
+
+The `xDimension` property specifies the width, in pixels, of the smallest bar in the PDF417 barcode. It must be a finite number greater than `0`.
+
+The following properties control the PDF417 dimensions:
+
+- `xDimension`: Specifies the width of the smallest bar.
+- `rowHeightRatio`: Specifies the row height relative to `xDimension`. The row height is calculated as `xDimension * rowHeightRatio`.
+- `sizeMode`: Determines how `xDimension` is applied.
+
+The `sizeMode` property supports:
+
+- `Fit`: Uses the configured `xDimension` when the barcode fits within the available area. Otherwise, the value is reduced to fit.
+- `XDimension`: Preserves the configured `xDimension`. The barcode may exceed the configured `width` and `height`.
+
+XDimension-based sizing is applied only when both `xDimension` and `sizeMode` are configured. Otherwise, the barcode is rendered based on its `width` and `height`.
+
+#### Fit the PDF417 barcode using xDimension
+
+The following example sets `sizeMode` to `Fit`. The configured `xDimension` is kept when the symbol fits in the component; otherwise it is reduced to the largest whole-pixel size that fits.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/xdimension-fit-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/xdimension-fit-cs1/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/xdimension-fit-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/barcode-generator/pdf417generator/xdimension-fit-cs1" %}
+
+#### Preserve the PDF417 module width using xDimension
+
+The following example sets `sizeMode` to `XDimension`. The configured `xDimension` is always used, and the rendered area grows if the symbol is larger than the configured `width` and `height`.
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/xdimension-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/xdimension-cs1/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/xdimension-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/barcode-generator/pdf417generator/xdimension-cs1" %}
+
+## PDF417-specific samples
+
+### Compaction mode
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs1/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs1/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/barcode/pdf417generator/pdf417-cs1" %}
+
+### Error correction level
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs2/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs2/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs2/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/barcode/pdf417generator/pdf417-cs2" %}
+
+### Row height ratio
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs3/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs3/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs3/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/barcode/pdf417generator/pdf417-cs3" %}
+
+### Compact PDF417
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs4/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs4/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs4/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/barcode/pdf417generator/pdf417-cs4" %}
+
+### Rows and columns
+
+{% tabs %}
+{% highlight js tabtitle="index.jsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs5/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="index.tsx" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs5/app/index.tsx %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/react/barcode-generator/pdf417generator/pdf417-cs5/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/barcode/pdf417generator/pdf417-cs5" %}
 ## Barcode Customization
 
 ### Dimensions
