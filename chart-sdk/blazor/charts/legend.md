@@ -774,6 +774,68 @@ To use, add a `LegendItemTemplate` inside any [ChartSeries](https://help.syncfus
 ```
 ![Legend Template in Blazor Column Chart](images/legend/blazor-column-chart-legend-template.webp)
 
+## Linked series legend
+
+You can group multiple related series under a single shared legend item by assigning the same non-empty string to the `LegendGroup` property on each participating [ChartSeries](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeries.html). This lets users toggle, select, or highlight related series together as one logical item without merging series data or changing how individual series render.
+
+* **Grouping and label**: Series with matching, trimmed, ordinal case-sensitive `LegendGroup` values collapse into one legend row labeled with the `LegendGroup` value. Series with an empty, null, or whitespace `LegendGroup` retain independent per-series legend behavior using their [Name](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeries.html#Syncfusion_Blazor_Charts_ChartSeries_Name).
+* **Visibility toggle**: When [ToggleVisibility](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html#Syncfusion_Blazor_Charts_ChartLegendSettings_ToggleVisibility) is **true**, clicking the shared legend item toggles all member series atomically. If any member series is visible, clicking hides all members; if all members are hidden, clicking shows all members.
+* **Selection and highlight**: In [SelectionMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_SelectionMode) `Series` or [HighlightMode](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SfChart.html#Syncfusion_Blazor_Charts_SfChart_HighlightMode), interacting with the shared legend item or any member series selects or highlights every series in the group and fades unrelated series and legend rows.
+* **Styling and events**: The first eligible series in declaration order supplies the default legend shape and styling, and [OnLegendClick](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartEvents.html#Syncfusion_Blazor_Charts_ChartEvents_OnLegendClick) is raised once for that representative series. If one or more members define a `LegendItemTemplate`, the first templated member in declaration order supplies the shared legend UI.
+
+N> Trendline and technical indicator series are excluded from `LegendGroup` grouping and retain their independent legend behavior.
+
+```cshtml
+@using Syncfusion.Blazor.Charts
+
+<SfChart Title="Regional Electrified Vehicle Sales"
+         SelectionMode="SelectionMode.Series"
+         HighlightMode="HighlightMode.Series">
+    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category" />
+    <ChartPrimaryYAxis Title="Units Sold (Thousands)" />
+
+    <ChartLegendSettings Visible="true" ToggleVisibility="true" EnableHighlight="true" />
+
+    <ChartSeriesCollection>
+        <ChartSeries DataSource="@VehicleSales" Name="Battery EV (H1)" XName="Region" YName="BevH1"
+                     Type="ChartSeriesType.StackingColumn" StackingGroup="H1" Fill="#0284C7" LegendGroup="Battery EV" />
+        <ChartSeries DataSource="@VehicleSales" Name="Plug-in Hybrid (H1)" XName="Region" YName="PhevH1"
+                     Type="ChartSeriesType.StackingColumn" StackingGroup="H1" Fill="#059669" LegendGroup="Plug-in Hybrid" />
+        <ChartSeries DataSource="@VehicleSales" Name="Standard Hybrid (H1)" XName="Region" YName="HevH1"
+                     Type="ChartSeriesType.StackingColumn" StackingGroup="H1" Fill="#D97706" LegendGroup="Standard Hybrid" />
+
+        <ChartSeries DataSource="@VehicleSales" Name="Battery EV (H2)" XName="Region" YName="BevH2"
+                     Type="ChartSeriesType.StackingColumn" StackingGroup="H2" Fill="#38BDF8" LegendGroup="Battery EV" />
+        <ChartSeries DataSource="@VehicleSales" Name="Plug-in Hybrid (H2)" XName="Region" YName="PhevH2"
+                     Type="ChartSeriesType.StackingColumn" StackingGroup="H2" Fill="#34D399" LegendGroup="Plug-in Hybrid" />
+        <ChartSeries DataSource="@VehicleSales" Name="Standard Hybrid (H2)" XName="Region" YName="HevH2"
+                     Type="ChartSeriesType.StackingColumn" StackingGroup="H2" Fill="#FBBF24" LegendGroup="Standard Hybrid" />
+    </ChartSeriesCollection>
+</SfChart>
+
+@code {
+    public class RegionalSales
+    {
+        public string Region { get; set; } = string.Empty;
+        public double BevH1 { get; set; }
+        public double PhevH1 { get; set; }
+        public double HevH1 { get; set; }
+        public double BevH2 { get; set; }
+        public double PhevH2 { get; set; }
+        public double HevH2 { get; set; }
+    }
+
+    public List<RegionalSales> VehicleSales = new()
+    {
+        new() { Region = "North America", BevH1 = 42, PhevH1 = 18, HevH1 = 35, BevH2 = 54, PhevH2 = 22, HevH2 = 41 },
+        new() { Region = "Europe",        BevH1 = 58, PhevH1 = 29, HevH1 = 31, BevH2 = 67, PhevH2 = 34, HevH2 = 36 },
+        new() { Region = "Asia Pacific",  BevH1 = 64, PhevH1 = 26, HevH1 = 28, BevH2 = 79, PhevH2 = 31, HevH2 = 33 }
+    };
+}
+```
+
+![Linked Series Legend in Blazor Stacked Column Chart](images/legend/blazor-stacked-column-chart-linked-series-legend.webp)
+
 N> Refer to the [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts) feature tour page for its groundbreaking feature representations and also explore the [Blazor Chart Example](https://blazor.syncfusion.com/demos/chart/line?theme=fluent2) to know various Blazor Chart types and how to represent time-dependent data, showing trends at equal intervals.
 
 ## See also
