@@ -1,4 +1,4 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { BarcodeGeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
-ReactDOM.render(<BarcodeGeneratorComponent id="barcode" width={"300px"} height={"200px"} type='Pdf417' value='SYNCFUSION'></BarcodeGeneratorComponent>, document.getElementById("barcode"));
+import { PDF417GeneratorComponent } from '@syncfusion/ej2-react-barcode-generator';
+ReactDOM.render(<PDF417GeneratorComponent id="barcode" width={"300px"} height={"200px"} type='Pdf417' value='SYNCFUSION'></PDF417GeneratorComponent>, document.getElementById("barcode"));
