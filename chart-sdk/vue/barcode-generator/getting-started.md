@@ -14,7 +14,7 @@ This article provides a step-by-step guide for setting up a Vue 2 project using 
 
 ## Prerequisites
 
-[System requirements for Syncfusion® Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements/)
+[System requirements for Syncfusion® Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
 
 ## Dependencies
 
@@ -58,7 +58,7 @@ When creating a new project, choose the option `Default ([Vue 2] babel, eslint)`
 
 ![Vue 2 project](images/vue3_barcode.PNG)
 
-Once the `quickstart` project is set up with default settings, proceed to add Syncfusion® components to the project.
+Once the `Quick Start` project is set up with default settings, proceed to add Syncfusion® components to the project.
 
 ## Adding Syncfusion® Vue packages
 
@@ -103,7 +103,7 @@ export default {
 {% endhighlight %}
 {% endtabs %}
 
-2\. In the `template` section, define the Barcode component with [width](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeModel/#width), [height](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeModel/#height), [value](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeModel/#value), [mode](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeModel/#mode) property.
+2\. In the `template` section, define the Barcode component with [width](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeModel#width), [height](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeModel#height), [value](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeModel#value), [mode](https://ej2.syncfusion.com/vue/documentation/api/barcode/barcodeModel#mode) property.
 
 {% tabs %}
 {% highlight html tabtitle="~/src/App.vue" %}
@@ -185,9 +185,9 @@ You can add the QR code in our barcode generator component.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/getting-started/qrcode-cs1" %}
 
-## Adding Datamatrix Generator control
+## Adding Data Matrix Generator control
 
-You can add the datamatrix code in our barcode generator component.
+You can add the Data Matrix code in our barcode generator component.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue" %}
@@ -199,3 +199,20 @@ You can add the datamatrix code in our barcode generator component.
 {% endtabs %}
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/getting-started/datamatrix-cs1" %}
+
+## Adding Aztec Generator control
+
+This section explains how to create a simple Aztec barcode by adding the Aztec Generator component and specifying the value to encode.
+
+The following example creates an Aztec barcode with the value `Syncfusion`.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/getting-started/aztec-cs1/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/barcode-generator/getting-started/aztec-cs1/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/barcode-generator/getting-started/aztec-cs1" %}

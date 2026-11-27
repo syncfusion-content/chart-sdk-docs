@@ -40,7 +40,7 @@ Currently, Syncfusion® provides two types of package structures for Angular com
 
 ### Ivy library distribution package
 
-Syncfusion® Angular packages (>=20.2.36) have moved to the Ivy distribution to support the Angular [Ivy](https://docs.angular.lat/guide/ivy) rendering engine. These packages are compatible with Angular version 12 and above. To download the package, use the command below:
+Syncfusion® Angular packages (>=20.2.36) have moved to the Ivy distribution to support the Angular Ivy rendering engine. These packages are compatible with Angular version 12 and above. To download the package, use the command below:
 
 Add the [`@syncfusion/ej2-angular-barcode-generator`](https://www.npmjs.com/package/@syncfusion/ej2-angular-barcode-generator/v/20.2.38) package to the application:
 
@@ -129,6 +129,25 @@ Data Matrix codes offer high data density in a compact square format, making the
 {% endtabs %}
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/getting-started/datamatrix-cs1" %}
+
+## Adding Aztec Generator control
+
+This section explains how to create a simple Aztec barcode by adding the Aztec Generator component and specifying the value to encode.
+
+The following example creates an Aztec barcode with the value `Syncfusion`.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/getting-started/aztec-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/barcode-generator/getting-started/aztec-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/barcode-generator/getting-started/aztec-cs1" %}
+
 ## See also
 
 * [Angular Barcode Generator](https://www.syncfusion.com/angular-components/angular-barcode) - Feature tour and component overview

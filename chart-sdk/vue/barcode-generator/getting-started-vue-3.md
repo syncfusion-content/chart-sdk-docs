@@ -14,7 +14,7 @@ This section explains how to use Barcode component in Vue 3 application.
 
 ## Prerequisites
 
-[System requirements for Syncfusion® Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements/)
+[System requirements for Syncfusion® Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
 
 ## Creating Vue application using Vue CLI
 
@@ -213,9 +213,9 @@ import {
 
 ![Output](./images/barcode2.PNG)
 
-## Adding Syncfusion® Vue Datamatrix Generator control in the application
+## Adding Syncfusion® Vue Data Matrix Generator control in the application
 
-You can add the datamatrix code generator component by using the following code sample.
+You can add the Data Matrix code generator component by using the following code sample.
 
 ```
 <template>
@@ -260,3 +260,47 @@ import {
 ![Output](./images/barcode3.PNG)
 
 Refer the following sample, [vue3-barcode-generator-getting-started](https://github.com/SyncfusionExamples/vue3-barcode-getting-started).
+
+## Adding Syncfusion® Vue Aztec Generator control in the application
+
+This section explains how to create a simple Aztec barcode by adding the Aztec Generator component and specifying the value to encode.
+
+The following example creates an Aztec barcode with the value `Syncfusion`.
+
+```
+<template>
+  <div id="app" class="barcodeStyle">
+    <ejs-aztecgenerator
+      id="aztec"
+      ref="aztecControl"
+      :width="width"
+      :height="height"
+      :displayText="displayText"
+      :value="value"
+      :mode="mode"
+    >
+    </ejs-aztecgenerator>
+  </div>
+</template>
+
+<script setup>
+
+import {
+  AztecGeneratorComponent as EjsAztecgenerator
+} from "@syncfusion/ej2-vue-barcode-generator";
+
+  const width = "200px";
+  const height = "150px";
+  const displayText = { visibility: false };
+  const mode = "SVG";
+  const value = "Syncfusion";
+
+</script>
+
+<style>
+  @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+  @import "../node_modules/@syncfusion/ej2-icons/styles/material.css";
+  @import "../node_modules/@syncfusion/ej2-vue-barcode-generator/styles/material.css";
+</style>
+
+```
