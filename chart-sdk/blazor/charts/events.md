@@ -1505,6 +1505,7 @@ The following properties are available in the [SharedTooltipRenderEventArgs](htt
 
 * [HeaderText](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SharedTooltipRenderEventArgs.html#Syncfusion_Blazor_Charts_SharedTooltipRenderEventArgs_HeaderText) – Specifies the header text for the tooltip.
 * [Text](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.SharedTooltipRenderEventArgs.html#Syncfusion_Blazor_Charts_SharedTooltipRenderEventArgs_Text) – Specifies the text for the tooltip.  
+* `Data` – Specifies the collection of `PointInfo` items for the shared tooltip, where `IsNearestSeries` indicates whether the point belongs to the series closest to the pointer when `HighlightNearestSeries` is enabled
 
 ```cshtml
 
