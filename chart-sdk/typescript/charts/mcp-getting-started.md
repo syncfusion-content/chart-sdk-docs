@@ -210,7 +210,7 @@ The table below lists the available Chart tools and the corresponding feature mo
 <tr><td><strong>Chart configuration</strong></td><td><code>updateChartProperties</code>, <code>updateChartTitle</code>, <code>animateChart</code></td><td>Update chart-level properties such as title, subtitle, themes, and re-trigger animation</td><td>Core chart modules</td></tr>
 <tr><td><strong>Export and output</strong></td><td><code>exportChart</code>, <code>printChart</code></td><td>Export the chart to PNG, JPEG, SVG, or PDF formats, or trigger browser printing</td><td><code>Export</code></td></tr>
 </table>
-<br>
+
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% raw %}

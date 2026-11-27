@@ -1,4 +1,5 @@
 import * as React from "react";
+import * as ReactDOM from "react-dom";
 import {
   RangeNavigatorComponent,
   RangenavigatorSeriesCollectionDirective,
@@ -7,7 +8,6 @@ import {
   AreaSeries,
 } from '@syncfusion/ej2-react-charts';
 import { createRoot } from 'react-dom/client';
-import * as React from 'react';
 
 const data = [];
 for (let i = 1; i <= 10; i++) {
@@ -35,6 +35,4 @@ function App() {
 }
 
 export default App;
-
-const root = createRoot(document.getElementById('charts'));
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById("charts"));
